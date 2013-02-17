@@ -1,12 +1,14 @@
 div.fig {float:right}
 div.fig img {border:0px}
 .def {background-color:#CCF}
-li img {padding-right:5px}
+li img, h3 img {padding-right:5px}
 body {background-color:#CCC}
 .last {width:100%;text-align:right}
 .left {float:left;text-align:center}
 .pad {padding-bottom:20px}
 .main {margin-left:220px;margin-right:10px}
-.mult {-moz-column-count: 4;-moz-column-gap: 20px;
-       -webkit-column-count: 4;-webkit-column-gap: 20px;
-       column-count: 4;column-gap: 20px;}
+.mult {-moz-column-count:4;-moz-column-gap:20px;
+       -webkit-column-count:4;-webkit-column-gap:20px;
+       column-count:4;column-gap:20px;}
+a.src {font-family:'Courier New',Courier,Monaco,mono}
+ul ul {padding-top:10px;padding-bottom:10px}
