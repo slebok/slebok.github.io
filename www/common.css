@@ -1,0 +1,7 @@
+body {color:#033; background-color:#CCC}
+.pic {float:left; text-align:center; width:210px; height:250px; margin:15px; font-weight:bold}
+.iconimg {border:0px; width:200px; height:200px}
+div {display:block}
+br {clear:both}
+.last {width:100%; text-align:right; font-style:italic}
+a:link, a:visited {color:#03C}
