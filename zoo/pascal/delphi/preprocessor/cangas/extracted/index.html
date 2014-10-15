@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="content-type" content="text/html; charset=utf-8" /><title>Grammar Zoo - Browsable Borland Delphi preprocessor Grammar</title><link href="../../../../../slps.css" rel="stylesheet" type="text/css" /></head><body><h1 class="l"><a name="TOP"></a>Browsable Borland Delphi preprocessor Grammar</h1><a href="http://creativecommons.org/licenses/by/3.0/"><img src="../../../../../cc-by.png" alt="CC-BY" title="View the CC-BY license"></img></a><p>Grammar extracted by <strong><a href="http://grammarware.net/">Vadim Zaytsev</a></strong>, see the <a href="http://grammarzoo.github.io/">Grammar Zoo</a> entry for details: <a href="../../../../../index.html#pascal_delphi_preprocessor_cangas_extracted">pascal/delphi/preprocessor/cangas/extracted</a><br />Source used for this grammar: Jorge L. Cangas, <em>TXL Grammar for Borland Delphi 2006 preprocessor, </em><code>delphipp.grammar</code>,  December 2007<span class="links" /></p><h2 class="l">Summary</h2><ul class="nl"><li>Total <strong>39</strong> production rules with <strong>145</strong> top alternatives and <strong>503</strong> symbols.</li><li>Vocabulary: <strong>138</strong> = <strong>50</strong> nonterminals + <strong>88</strong> terminals + <strong>0</strong> labels + <strong>0</strong> markers.</li><li>Total <strong>50</strong> nonterminal symbols: <strong>39</strong> defined (<code><a href="#ident" class="nt">ident</a></code>, <code><a href="#namespace" class="nt">namespace</a></code>, <code><a href="#nested_id" class="nt">nested_id</a></code>, <code><a href="#filenamelit" class="nt">filenamelit</a></code>, <code><a href="#delphipp_file" class="nt">delphipp_file</a></code>, <code><a href="#pp_stmt_or_water" class="nt">pp_stmt_or_water</a></code>, <code><a href="#pp_comment" class="nt">pp_comment</a></code>, <code><a href="#cmbracketblock" class="nt">cmbracketblock</a></code>, <code><a href="#cmstarblock" class="nt">cmstarblock</a></code>, <code><a href="#bracketbody" class="nt">bracketbody</a></code>, <code><a href="#starbody" class="nt">starbody</a></code>, <code><a href="#cmline" class="nt">cmline</a></code>, <code><a href="#cmlinebody" class="nt">cmlinebody</a></code>, <code><a href="#pp_any" class="nt">pp_any</a></code>, <code><a href="#codetoken" class="nt">codetoken</a></code>, <code><a href="#pp_stmt" class="nt">pp_stmt</a></code>, <code><a href="#pp_directivestmt" class="nt">pp_directivestmt</a></code>, <code><a href="#pp_directive" class="nt">pp_directive</a></code>, <code><a href="#pp_align" class="nt">pp_align</a></code>, <code><a href="#pp_minenumsize" class="nt">pp_minenumsize</a></code>, <code><a href="#pp_switch" class="nt">pp_switch</a></code>, <code><a href="#pp_switchopt" class="nt">pp_switchopt</a></code>, <code><a href="#pp_ifstmt" class="nt">pp_ifstmt</a></code>, <code><a href="#pp_ifblock" class="nt">pp_ifblock</a></code>, <code><a href="#pp_content" class="nt">pp_content</a></code>, <code><a href="#pp_elseifblock" class="nt">pp_elseifblock</a></code>, <code><a href="#pp_ifexpr" class="nt">pp_ifexpr</a></code>, <code><a href="#pp_elseifexpr" class="nt">pp_elseifexpr</a></code>, <code><a href="#pp_endif" class="nt">pp_endif</a></code>, <code><a href="#if_alt" class="nt">if_alt</a></code>, <code><a href="#else_alt" class="nt">else_alt</a></code>, <code><a href="#endif_alt" class="nt">endif_alt</a></code>, <code><a href="#pp_boolexpr" class="nt">pp_boolexpr</a></code>, <code><a href="#boolfunc" class="nt">boolfunc</a></code>, <code><a href="#booleanlit" class="nt">booleanlit</a></code>, <code><a href="#pp_litexpr" class="nt">pp_litexpr</a></code>, <code><a href="#pp_boolopr" class="nt">pp_boolopr</a></code>, <code><a href="#pp_compareopr" class="nt">pp_compareopr</a></code>, <code><a href="#anynumber" class="nt">anynumber</a></code>), <strong>0</strong> root (—), <strong>3</strong> top (<code><a href="#delphipp_file" class="nt">delphipp_file</a></code>, <code><a href="#pp_boolopr" class="nt">pp_boolopr</a></code>, <code><a href="#pp_compareopr" class="nt">pp_compareopr</a></code>), <strong>11</strong> bottom (<code class="nt">id</code><sup> 16</sup>, <code class="nt">token</code>, <code class="nt">space</code><sup> 48</sup>, <code class="nt">stringlit</code>, <code class="nt">hexnumber</code>, <code class="nt">EOL</code>, <code class="nt">key</code><sup> 2</sup>, <code class="nt">SPON</code>, <code class="nt">SPOFF</code>, <code class="nt">number</code>, <code class="nt">charlit</code><sup> 9</sup>).</li><li>Total <strong>88</strong> terminal symbols: <strong>46</strong> keywords (<span class="t">"DEFINE"</span>, <span class="t">"UNDEF"</span>, <span class="t">"INCLUDE"</span>, <span class="t">"LINK"</span>, <span class="t">"RESOURCE"</span>, <span class="t">"HPPEMIT"</span>, <span class="t">"EXTERNALSYM"</span>, <span class="t">"NODEFINE"</span>, <span class="t">"MINENUMSIZE"</span><sup> 2</sup>, <span class="t">"DENYPACKAGEUNIT"</span>, <span class="t">"WEAKPACKAGEUNIT"</span>, <span class="t">"IMAGEBASE"</span>, <span class="t">"ALIGN"</span>, <span class="t">"MAXSTACKSIZE"</span>, <span class="t">"MINSTACKSIZE"</span>, <span class="t">"RESOURCERESERVE"</span>, <span class="t">"NOINCLUDE"</span>, <span class="t">"WARN"</span>, <span class="t">"MESSAGE"</span>, <span class="t">"APPTYPE"</span>, <span class="t">"LIBPREFIX"</span>, <span class="t">"LIBSUFIX"</span>, <span class="t">"LIBVERSION"</span>, <span class="t">"DESCRIPTION"</span>, <span class="t">"EXTENSION"</span>, <span class="t">"ON"</span>, <span class="t">"OFF"</span>, <span class="t">"IF"</span>, <span class="t">"IFDEF"</span>, <span class="t">"IFNDEF"</span>, <span class="t">"IFOPT"</span>, <span class="t">"ELSEIF"</span>, <span class="t">"ELSE"</span>, <span class="t">"ENDIF"</span>, <span class="t">"IFEND"</span>, <span class="t">"NOT"</span>, <span class="t">"pp_boolopr"</span>, <span class="t">"pp_compareopr"</span>, <span class="t">"DEFINED"</span>, <span class="t">"DECLARED"</span>, <span class="t">"OPTION"</span>, <span class="t">"FALSE"</span>, <span class="t">"TRUE"</span>, <span class="t">"AND"</span>, <span class="t">"OR"</span>, <span class="t">"XOR"</span>), <strong>7</strong> letters (<span class="t">"I"</span>, <span class="t">"L"</span>, <span class="t">"R"</span>, <span class="t">"C"</span>, <span class="t">"M"</span>, <span class="t">"D"</span>, <span class="t">"E"</span>), <strong>0</strong> numerics (—), <strong>28</strong> signs (<span class="t">"."</span><sup> 2</sup>, <span class="t">"{"</span>, <span class="t">"}"</span><sup> 5</sup>, <span class="t">"(*"</span>, <span class="t">"*)"</span><sup> 5</sup>, <span class="t">"//"</span><sup> 2</sup>, <span class="t">"("</span><sup> 3</sup>, <span class="t">")"</span><sup> 3</sup>, <span class="t">";"</span>, <span class="t">":"</span>, <span class="t">","</span><sup> 4</sup>, <span class="t">"["</span>, <span class="t">"]"</span>, <span class="t">"+"</span><sup> 2</sup>, <span class="t">"-"</span><sup> 2</sup>, <span class="t">"*"</span>, <span class="t">"/"</span>, <span class="t">"^"</span>, <span class="t">"="</span><sup> 2</sup>, <span class="t">"@"</span>, <span class="t">"&gt;"</span><sup> 2</sup>, <span class="t">"&lt;"</span><sup> 2</sup>, <span class="t">"&lt;&gt;"</span><sup> 2</sup>, <span class="t">"&gt;="</span><sup> 2</sup>, <span class="t">"&lt;="</span><sup> 2</sup>, <span class="t">":="</span>, <span class="t">"{$"</span><sup> 4</sup>, <span class="t">"(*$"</span><sup> 4</sup>).</li></ul><h2 class="l">Syntax</h2><pre><a name="ident" class="nt">ident</a> ::=
+	<a href="#id" class="nt">id</a>
+	<a href="#key" class="nt">key</a></pre><pre><a name="namespace" class="nt">namespace</a> ::=
+	<a href="#id" class="nt">id</a> <span class="t">"."</span></pre><pre><a name="nested_id" class="nt">nested_id</a> ::=
+	<a href="#SPOFF" class="nt">SPOFF</a> <a href="#namespace" class="nt">namespace</a><span class="meta">*</span> <a href="#ident" class="nt">ident</a> <a href="#SPON" class="nt">SPON</a></pre><pre><a name="filenamelit" class="nt">filenamelit</a> ::=
+	<a href="#charlit" class="nt">charlit</a>
+	<a href="#stringlit" class="nt">stringlit</a>
+	<a href="#nested_id" class="nt">nested_id</a></pre><pre><a name="delphipp_file" class="nt">delphipp_file</a> ::=
+	<a href="#pp_stmt_or_water" class="nt">pp_stmt_or_water</a><span class="meta">*</span></pre><pre><a name="pp_stmt_or_water" class="nt">pp_stmt_or_water</a> ::=
+	<a href="#pp_stmt" class="nt">pp_stmt</a>
+	<a href="#pp_comment" class="nt">pp_comment</a>
+	<a href="#pp_any" class="nt">pp_any</a></pre><pre><a name="pp_comment" class="nt">pp_comment</a> ::=
+	<a href="#cmbracketblock" class="nt">cmbracketblock</a>
+	<a href="#cmstarblock" class="nt">cmstarblock</a>
+	<a href="#cmline" class="nt">cmline</a></pre><pre><a name="cmbracketblock" class="nt">cmbracketblock</a> ::=
+	<span class="t">"{"</span> <a href="#bracketbody" class="nt">bracketbody</a><span class="meta">*</span> <span class="t">"}"</span></pre><pre><a name="cmstarblock" class="nt">cmstarblock</a> ::=
+	<span class="t">"(*"</span> <a href="#starbody" class="nt">starbody</a><span class="meta">*</span> <span class="t">"*)"</span></pre><pre><a name="bracketbody" class="nt">bracketbody</a> ::=
+	<a href="#pp_any" class="nt">pp_any</a></pre><pre><a name="starbody" class="nt">starbody</a> ::=
+	<a href="#pp_any" class="nt">pp_any</a></pre><pre><a name="cmline" class="nt">cmline</a> ::=
+	<span class="t">"//"</span> <a href="#cmlinebody" class="nt">cmlinebody</a><span class="meta">*</span> <a href="#EOL" class="nt">EOL</a></pre><pre><a name="cmlinebody" class="nt">cmlinebody</a> ::=
+	<a href="#pp_any" class="nt">pp_any</a></pre><pre><a name="pp_any" class="nt">pp_any</a> ::=
+	<a href="#id" class="nt">id</a> <a href="#codetoken" class="nt">codetoken</a><span class="meta">*</span>
+	<a href="#key" class="nt">key</a>
+	<a href="#token" class="nt">token</a></pre><pre><a name="codetoken" class="nt">codetoken</a> ::=
+	<span class="t">"("</span>
+	<span class="t">")"</span>
+	<span class="t">"."</span>
+	<span class="t">";"</span>
+	<span class="t">":"</span>
+	<span class="t">","</span>
+	<span class="t">"["</span>
+	<span class="t">"]"</span>
+	<span class="t">"+"</span>
+	<span class="t">"-"</span>
+	<span class="t">"*"</span>
+	<span class="t">"/"</span>
+	<span class="t">"^"</span>
+	<span class="t">"="</span>
+	<span class="t">"@"</span>
+	<span class="t">"&gt;"</span>
+	<span class="t">"&lt;"</span>
+	<span class="t">"&lt;&gt;"</span>
+	<span class="t">"&gt;="</span>
+	<span class="t">"&lt;="</span>
+	<span class="t">":="</span>
+	<span class="t">"//"</span>
+	<a href="#id" class="nt">id</a>
+	<a href="#anynumber" class="nt">anynumber</a>
+	<a href="#charlit" class="nt">charlit</a>
+	<a href="#space" class="nt">space</a></pre><pre><a name="pp_stmt" class="nt">pp_stmt</a> ::=
+	<a href="#pp_ifstmt" class="nt">pp_ifstmt</a>
+	<a href="#pp_directivestmt" class="nt">pp_directivestmt</a></pre><pre><a name="pp_directivestmt" class="nt">pp_directivestmt</a> ::=
+	<span class="t">"{$"</span> <a href="#space" class="nt">space</a><span class="meta">?</span> <span class="meta">{</span><a href="#pp_directive" class="nt">pp_directive</a> <span class="t">","</span><span class="meta">}*</span> <a href="#bracketbody" class="nt">bracketbody</a><span class="meta">*</span> <span class="t">"}"</span>
+	<span class="t">"(*$"</span> <a href="#space" class="nt">space</a><span class="meta">?</span> <span class="meta">{</span><a href="#pp_directive" class="nt">pp_directive</a> <span class="t">","</span><span class="meta">}*</span> <a href="#starbody" class="nt">starbody</a><span class="meta">*</span> <span class="t">"*)"</span></pre><pre><a name="pp_directive" class="nt">pp_directive</a> ::=
+	<span class="t">"DEFINE"</span> <a href="#space" class="nt">space</a> <a href="#id" class="nt">id</a>
+	<span class="t">"UNDEF"</span> <a href="#space" class="nt">space</a> <a href="#id" class="nt">id</a>
+	<span class="t">"INCLUDE"</span> <a href="#space" class="nt">space</a><span class="meta">?</span> <a href="#filenamelit" class="nt">filenamelit</a>
+	<span class="t">"I"</span> <a href="#space" class="nt">space</a><span class="meta">?</span> <a href="#filenamelit" class="nt">filenamelit</a>
+	<span class="t">"LINK"</span> <a href="#space" class="nt">space</a><span class="meta">?</span> <a href="#filenamelit" class="nt">filenamelit</a>
+	<span class="t">"L"</span> <a href="#space" class="nt">space</a><span class="meta">?</span> <a href="#filenamelit" class="nt">filenamelit</a>
+	<span class="t">"RESOURCE"</span> <a href="#space" class="nt">space</a><span class="meta">?</span> <a href="#filenamelit" class="nt">filenamelit</a> <a href="#space" class="nt">space</a><span class="meta">?</span> <a href="#filenamelit" class="nt">filenamelit</a><span class="meta">?</span>
+	<span class="t">"R"</span> <a href="#space" class="nt">space</a><span class="meta">?</span> <a href="#filenamelit" class="nt">filenamelit</a> <a href="#space" class="nt">space</a><span class="meta">?</span> <a href="#filenamelit" class="nt">filenamelit</a><span class="meta">?</span>
+	<span class="t">"HPPEMIT"</span> <a href="#space" class="nt">space</a><span class="meta">?</span> <a href="#charlit" class="nt">charlit</a>
+	<span class="t">"EXTERNALSYM"</span> <a href="#space" class="nt">space</a> <a href="#id" class="nt">id</a>
+	<span class="t">"NODEFINE"</span>
+	<span class="t">"MINENUMSIZE"</span>
+	<span class="t">"DENYPACKAGEUNIT"</span>
+	<span class="t">"WEAKPACKAGEUNIT"</span>
+	<span class="t">"IMAGEBASE"</span> <a href="#space" class="nt">space</a><span class="meta">?</span> <a href="#anynumber" class="nt">anynumber</a>
+	<span class="t">"C"</span> <a href="#space" class="nt">space</a> <a href="#id" class="nt">id</a>
+	<span class="t">"MINENUMSIZE"</span> <a href="#space" class="nt">space</a> <a href="#anynumber" class="nt">anynumber</a>
+	<a href="#pp_minenumsize" class="nt">pp_minenumsize</a>
+	<span class="t">"ALIGN"</span> <a href="#space" class="nt">space</a><span class="meta">?</span> <a href="#anynumber" class="nt">anynumber</a>
+	<a href="#pp_align" class="nt">pp_align</a>
+	<span class="t">"M"</span> <a href="#space" class="nt">space</a><span class="meta">?</span> <span class="meta">{</span><a href="#anynumber" class="nt">anynumber</a> <span class="t">","</span><span class="meta">}*</span>
+	<span class="t">"MAXSTACKSIZE"</span> <a href="#space" class="nt">space</a> <a href="#anynumber" class="nt">anynumber</a>
+	<span class="t">"MINSTACKSIZE"</span> <a href="#space" class="nt">space</a> <a href="#anynumber" class="nt">anynumber</a>
+	<span class="t">"RESOURCERESERVE"</span> <a href="#space" class="nt">space</a> <a href="#anynumber" class="nt">anynumber</a>
+	<span class="t">"NOINCLUDE"</span>
+	<span class="t">"WARN"</span>
+	<span class="t">"MESSAGE"</span>
+	<span class="t">"APPTYPE"</span>
+	<span class="t">"LIBPREFIX"</span> <a href="#space" class="nt">space</a><span class="meta">?</span> <a href="#charlit" class="nt">charlit</a>
+	<span class="t">"LIBSUFIX"</span> <a href="#space" class="nt">space</a><span class="meta">?</span> <a href="#charlit" class="nt">charlit</a>
+	<span class="t">"LIBVERSION"</span> <a href="#space" class="nt">space</a><span class="meta">?</span> <a href="#charlit" class="nt">charlit</a>
+	<span class="t">"DESCRIPTION"</span> <a href="#space" class="nt">space</a><span class="meta">?</span> <a href="#charlit" class="nt">charlit</a>
+	<span class="t">"D"</span> <a href="#space" class="nt">space</a><span class="meta">?</span> <a href="#charlit" class="nt">charlit</a>
+	<span class="t">"EXTENSION"</span> <a href="#space" class="nt">space</a> <a href="#id" class="nt">id</a>
+	<span class="t">"E"</span> <a href="#space" class="nt">space</a> <a href="#id" class="nt">id</a>
+	<a href="#pp_switch" class="nt">pp_switch</a> <a href="#space" class="nt">space</a><span class="meta">?</span></pre><pre><a name="pp_align" class="nt">pp_align</a> ::=
+	<span class="t">"A1"</span>
+	<span class="t">"A2"</span>
+	<span class="t">"A4"</span>
+	<span class="t">"A8"</span></pre><pre><a name="pp_minenumsize" class="nt">pp_minenumsize</a> ::=
+	<span class="t">"Z1"</span>
+	<span class="t">"Z2"</span>
+	<span class="t">"Z4"</span></pre><pre><a name="pp_switch" class="nt">pp_switch</a> ::=
+	<a href="#id" class="nt">id</a> <a href="#space" class="nt">space</a><span class="meta">?</span> <a href="#pp_switchopt" class="nt">pp_switchopt</a></pre><pre><a name="pp_switchopt" class="nt">pp_switchopt</a> ::=
+	<span class="t">"+"</span>
+	<span class="t">"-"</span>
+	<span class="t">"ON"</span>
+	<span class="t">"OFF"</span></pre><pre><a name="pp_ifstmt" class="nt">pp_ifstmt</a> ::=
+	<a href="#pp_ifblock" class="nt">pp_ifblock</a> <a href="#pp_elseifblock" class="nt">pp_elseifblock</a><span class="meta">*</span> <a href="#pp_endif" class="nt">pp_endif</a></pre><pre><a name="pp_ifblock" class="nt">pp_ifblock</a> ::=
+	<a href="#pp_ifexpr" class="nt">pp_ifexpr</a> <a href="#pp_content" class="nt">pp_content</a><span class="meta">*</span></pre><pre><a name="pp_content" class="nt">pp_content</a> ::=
+	<a href="#pp_stmt_or_water" class="nt">pp_stmt_or_water</a></pre><pre><a name="pp_elseifblock" class="nt">pp_elseifblock</a> ::=
+	<a href="#pp_elseifexpr" class="nt">pp_elseifexpr</a> <a href="#pp_content" class="nt">pp_content</a><span class="meta">*</span></pre><pre><a name="pp_ifexpr" class="nt">pp_ifexpr</a> ::=
+	<span class="t">"{$"</span> <a href="#space" class="nt">space</a><span class="meta">?</span> <a href="#if_alt" class="nt">if_alt</a> <a href="#bracketbody" class="nt">bracketbody</a><span class="meta">*</span> <span class="t">"}"</span>
+	<span class="t">"(*$"</span> <a href="#space" class="nt">space</a><span class="meta">?</span> <a href="#if_alt" class="nt">if_alt</a> <a href="#starbody" class="nt">starbody</a><span class="meta">*</span> <span class="t">"*)"</span></pre><pre><a name="pp_elseifexpr" class="nt">pp_elseifexpr</a> ::=
+	<span class="t">"{$"</span> <a href="#space" class="nt">space</a><span class="meta">?</span> <a href="#else_alt" class="nt">else_alt</a> <a href="#space" class="nt">space</a><span class="meta">?</span> <a href="#bracketbody" class="nt">bracketbody</a><span class="meta">*</span> <span class="t">"}"</span>
+	<span class="t">"(*$"</span> <a href="#space" class="nt">space</a><span class="meta">?</span> <a href="#else_alt" class="nt">else_alt</a> <a href="#space" class="nt">space</a><span class="meta">?</span> <a href="#starbody" class="nt">starbody</a><span class="meta">*</span> <span class="t">"*)"</span></pre><pre><a name="pp_endif" class="nt">pp_endif</a> ::=
+	<span class="t">"{$"</span> <a href="#space" class="nt">space</a><span class="meta">?</span> <a href="#endif_alt" class="nt">endif_alt</a> <a href="#bracketbody" class="nt">bracketbody</a><span class="meta">*</span> <span class="t">"}"</span>
+	<span class="t">"(*$"</span> <a href="#space" class="nt">space</a><span class="meta">?</span> <a href="#endif_alt" class="nt">endif_alt</a> <a href="#starbody" class="nt">starbody</a><span class="meta">*</span> <span class="t">"*)"</span></pre><pre><a name="if_alt" class="nt">if_alt</a> ::=
+	<span class="t">"IF"</span> <a href="#space" class="nt">space</a><span class="meta">?</span> <a href="#pp_boolexpr" class="nt">pp_boolexpr</a>
+	<span class="t">"IFDEF"</span> <a href="#space" class="nt">space</a><span class="meta">?</span> <a href="#id" class="nt">id</a>
+	<span class="t">"IFNDEF"</span> <a href="#space" class="nt">space</a><span class="meta">?</span> <a href="#id" class="nt">id</a>
+	<span class="t">"IFOPT"</span> <a href="#space" class="nt">space</a><span class="meta">?</span> <a href="#pp_switch" class="nt">pp_switch</a></pre><pre><a name="else_alt" class="nt">else_alt</a> ::=
+	<span class="t">"ELSEIF"</span> <a href="#space" class="nt">space</a><span class="meta">?</span> <a href="#pp_boolexpr" class="nt">pp_boolexpr</a>
+	<span class="t">"ELSE"</span> <a href="#space" class="nt">space</a><span class="meta">?</span></pre><pre><a name="endif_alt" class="nt">endif_alt</a> ::=
+	<span class="t">"ENDIF"</span>
+	<span class="t">"IFEND"</span></pre><pre><a name="pp_boolexpr" class="nt">pp_boolexpr</a> ::=
+	<a href="#booleanlit" class="nt">booleanlit</a>
+	<a href="#boolfunc" class="nt">boolfunc</a> <a href="#space" class="nt">space</a><span class="meta">?</span> <span class="t">"("</span> <a href="#id" class="nt">id</a> <span class="t">")"</span>
+	<span class="t">"NOT"</span> <a href="#space" class="nt">space</a><span class="meta">?</span> <a href="#pp_boolexpr" class="nt">pp_boolexpr</a>
+	<a href="#id" class="nt">id</a>
+	<a href="#pp_boolexpr" class="nt">pp_boolexpr</a> <span class="t">"pp_boolopr"</span> <a href="#pp_boolexpr" class="nt">pp_boolexpr</a>
+	<a href="#pp_litexpr" class="nt">pp_litexpr</a> <span class="t">"pp_compareopr"</span> <a href="#pp_litexpr" class="nt">pp_litexpr</a>
+	<span class="t">"("</span> <a href="#pp_boolexpr" class="nt">pp_boolexpr</a> <span class="t">")"</span></pre><pre><a name="boolfunc" class="nt">boolfunc</a> ::=
+	<span class="t">"DEFINED"</span>
+	<span class="t">"DECLARED"</span>
+	<span class="t">"OPTION"</span></pre><pre><a name="booleanlit" class="nt">booleanlit</a> ::=
+	<span class="t">"FALSE"</span>
+	<span class="t">"TRUE"</span></pre><pre><a name="pp_litexpr" class="nt">pp_litexpr</a> ::=
+	<a href="#id" class="nt">id</a>
+	<a href="#charlit" class="nt">charlit</a>
+	<a href="#anynumber" class="nt">anynumber</a></pre><pre><a name="pp_boolopr" class="nt">pp_boolopr</a> ::=
+	<span class="t">"AND"</span>
+	<span class="t">"OR"</span>
+	<span class="t">"XOR"</span></pre><pre><a name="pp_compareopr" class="nt">pp_compareopr</a> ::=
+	<span class="t">"&gt;"</span>
+	<span class="t">"&lt;"</span>
+	<span class="t">"="</span>
+	<span class="t">"&gt;="</span>
+	<span class="t">"&lt;="</span>
+	<span class="t">"&lt;&gt;"</span></pre><pre><a name="anynumber" class="nt">anynumber</a> ::=
+	<a href="#number" class="nt">number</a>
+	<a href="#hexnumber" class="nt">hexnumber</a></pre><hr /><div class="b"><a href="http://grammarware.github.io/lab"><img src="../../../../../by-grammarlab.png" alt="GrammarLab" title="Powered by GrammarLab"></img></a>Maintained by Dr. <a href="http://grammarware.net/">Vadim Zaytsev</a> a.k.a. @<a href="http://twitter.com/grammarware">grammarware</a>. Last updated in October 2014. <span class="links"> [<a href="#TOP">↑</a>]</span></div></body></html>

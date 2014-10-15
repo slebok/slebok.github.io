@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="content-type" content="text/html; charset=utf-8" /><title>Grammar Zoo - Browsable Logo Grammar</title><link href="../../../slps.css" rel="stylesheet" type="text/css" /></head><body><h1 class="l"><a name="TOP"></a>Browsable Logo Grammar</h1><a href="http://creativecommons.org/licenses/by/3.0/"><img src="../../../cc-by.png" alt="CC-BY" title="View the CC-BY license"></img></a><p>Grammar extracted by <strong><a href="http://grammarware.net/">Vadim Zaytsev</a></strong>, see the <a href="http://grammarzoo.github.io/">Grammar Zoo</a> entry for details: <a href="../../../index.html#logo_klint_extracted">logo/klint/extracted</a><br />Source used for this grammar: Paul Klint, <code>Logo.sdf</code>,  March 2007<span class="links"> [<a href="http://github.com/cwi-swat/meta-environment/tree/master/sdf-library/library/languages/logo/syntax/Logo.sdf">GitHub</a>]</span></p><h2 class="l">Summary</h2><ul class="nl"><li>Total <strong>9</strong> production rules with <strong>80</strong> top alternatives and <strong>179</strong> symbols.</li><li>Vocabulary: <strong>51</strong> = <strong>13</strong> nonterminals + <strong>38</strong> terminals + <strong>0</strong> labels + <strong>0</strong> markers.</li><li>Total <strong>13</strong> nonterminal symbols: <strong>9</strong> defined (<code><a href="#Program" class="nt">Program</a></code>, <code><a href="#Commands" class="nt">Commands</a></code>, <code><a href="#Command" class="nt">Command</a></code>, <code><a href="#BasicCommand" class="nt">BasicCommand</a></code>, <code><a href="#Exp" class="nt">Exp</a></code>, <code><a href="#Block" class="nt">Block</a></code>, <code><a href="#FunctionDef" class="nt">FunctionDef</a></code>, <code><a href="#Id" class="nt">Id</a></code>, <code><a href="#Call" class="nt">Call</a></code>), <strong>1</strong> root (<code><a href="#Program" class="nt">Program</a></code>), <strong>0</strong> top (—), <strong>4</strong> bottom (<code class="nt">Integer</code>, <code class="nt">Color</code>, <code class="nt">QuotedId</code><sup> 2</sup>, <code class="nt">Formal</code><sup> 2</sup>).</li><li>Total <strong>38</strong> terminal symbols: <strong>31</strong> keywords (<span class="t">"if"</span><sup> 2</sup>, <span class="t">"ifelse"</span><sup> 2</sup>, <span class="t">"repeat"</span><sup> 2</sup>, <span class="t">"forward"</span><sup> 2</sup>, <span class="t">"back"</span><sup> 2</sup>, <span class="t">"left"</span><sup> 2</sup>, <span class="t">"right"</span><sup> 2</sup>, <span class="t">"setxy"</span><sup> 2</sup>, <span class="t">"setx"</span><sup> 2</sup>, <span class="t">"sety"</span><sup> 2</sup>, <span class="t">"home"</span><sup> 2</sup>, <span class="t">"showturtle"</span><sup> 2</sup>, <span class="t">"hideturtle"</span><sup> 2</sup>, <span class="t">"clean"</span><sup> 2</sup>, <span class="t">"clearscreen"</span><sup> 2</sup>, <span class="t">"pendown"</span><sup> 2</sup>, <span class="t">"penup"</span><sup> 2</sup>, <span class="t">"pencolor"</span>, <span class="t">"local"</span><sup> 2</sup>, <span class="t">"make"</span><sup> 2</sup>, <span class="t">"xcor"</span><sup> 2</sup>, <span class="t">"ycor"</span><sup> 2</sup>, <span class="t">"heading"</span><sup> 2</sup>, <span class="t">"towards"</span><sup> 2</sup>, <span class="t">"sum"</span><sup> 2</sup>, <span class="t">"difference"</span><sup> 2</sup>, <span class="t">"product"</span><sup> 2</sup>, <span class="t">"quotient"</span><sup> 2</sup>, <span class="t">"remainder"</span><sup> 2</sup>, <span class="t">"minus"</span><sup> 2</sup>, <span class="t">"to"</span><sup> 2</sup>), <strong>0</strong> letters (—), <strong>0</strong> numerics (—), <strong>2</strong> signs (<span class="t">"["</span>, <span class="t">"]"</span>).</li></ul><h2 class="l">Syntax</h2><pre><a name="Program" class="nt">Program</a> ::=
+	<a href="#Commands" class="nt">Commands</a></pre><pre><a name="Commands" class="nt">Commands</a> ::=
+	<a href="#Command" class="nt">Command</a><span class="meta">*</span></pre><pre><a name="Command" class="nt">Command</a> ::=
+	<a href="#BasicCommand" class="nt">BasicCommand</a>
+	<a href="#FunctionDef" class="nt">FunctionDef</a>
+	<a href="#Call" class="nt">Call</a></pre><pre><a name="BasicCommand" class="nt">BasicCommand</a> ::=
+	<span class="t">"if"</span> <a href="#Exp" class="nt">Exp</a> <a href="#Block" class="nt">Block</a>
+	<span class="t">"ifelse"</span> <a href="#Exp" class="nt">Exp</a> <a href="#Block" class="nt">Block</a> <a href="#Block" class="nt">Block</a>
+	<span class="t">"repeat"</span> <a href="#Exp" class="nt">Exp</a> <a href="#Block" class="nt">Block</a>
+	<span class="t">"forward"</span> <a href="#Exp" class="nt">Exp</a>
+	<span class="t">"back"</span> <a href="#Exp" class="nt">Exp</a>
+	<span class="t">"left"</span> <a href="#Exp" class="nt">Exp</a>
+	<span class="t">"right"</span> <a href="#Exp" class="nt">Exp</a>
+	<span class="t">"setxy"</span> <a href="#Exp" class="nt">Exp</a> <a href="#Exp" class="nt">Exp</a>
+	<span class="t">"setx"</span> <a href="#Exp" class="nt">Exp</a>
+	<span class="t">"sety"</span> <a href="#Exp" class="nt">Exp</a>
+	<span class="t">"home"</span>
+	<span class="t">"showturtle"</span>
+	<span class="t">"hideturtle"</span>
+	<span class="t">"clean"</span>
+	<span class="t">"clearscreen"</span>
+	<span class="t">"pendown"</span>
+	<span class="t">"penup"</span>
+	<span class="t">"pencolor"</span> <a href="#Color" class="nt">Color</a>
+	<span class="t">"local"</span> <a href="#QuotedId" class="nt">QuotedId</a>
+	<span class="t">"make"</span> <a href="#QuotedId" class="nt">QuotedId</a> <a href="#Exp" class="nt">Exp</a></pre><pre><a name="Exp" class="nt">Exp</a> ::=
+	<a href="#Integer" class="nt">Integer</a>
+	<a href="#Formal" class="nt">Formal</a>
+	<span class="t">"xcor"</span>
+	<span class="t">"ycor"</span>
+	<span class="t">"heading"</span>
+	<span class="t">"towards"</span> <a href="#Exp" class="nt">Exp</a> <a href="#Exp" class="nt">Exp</a>
+	<span class="t">"pendown?"</span>
+	<span class="t">"sum"</span> <a href="#Exp" class="nt">Exp</a> <a href="#Exp" class="nt">Exp</a>
+	<span class="t">"difference"</span> <a href="#Exp" class="nt">Exp</a> <a href="#Exp" class="nt">Exp</a>
+	<span class="t">"product"</span> <a href="#Exp" class="nt">Exp</a> <a href="#Exp" class="nt">Exp</a>
+	<span class="t">"quotient"</span> <a href="#Exp" class="nt">Exp</a> <a href="#Exp" class="nt">Exp</a>
+	<span class="t">"remainder"</span> <a href="#Exp" class="nt">Exp</a> <a href="#Exp" class="nt">Exp</a>
+	<span class="t">"minus"</span> <a href="#Exp" class="nt">Exp</a>
+	<span class="t">"less?"</span> <a href="#Exp" class="nt">Exp</a> <a href="#Exp" class="nt">Exp</a>
+	<span class="t">"greater?"</span> <a href="#Exp" class="nt">Exp</a> <a href="#Exp" class="nt">Exp</a>
+	<span class="t">"equal?"</span> <a href="#Exp" class="nt">Exp</a> <a href="#Exp" class="nt">Exp</a>
+	<span class="t">"notequal?"</span> <a href="#Exp" class="nt">Exp</a> <a href="#Exp" class="nt">Exp</a></pre><pre><a name="Block" class="nt">Block</a> ::=
+	<span class="t">"["</span> <a href="#Command" class="nt">Command</a><span class="meta">*</span> <span class="t">"]"</span></pre><pre><a name="FunctionDef" class="nt">FunctionDef</a> ::=
+	<span class="t">"to"</span> <a href="#Id" class="nt">Id</a> <a href="#Formal" class="nt">Formal</a><span class="meta">*</span> <a href="#Block" class="nt">Block</a></pre><pre><a name="Id" class="nt">Id</a> ::=
+	<span class="t">"xcor"</span>
+	<span class="t">"ycor"</span>
+	<span class="t">"heading"</span>
+	<span class="t">"towards"</span>
+	<span class="t">"pendown?"</span>
+	<span class="t">"sum"</span>
+	<span class="t">"difference"</span>
+	<span class="t">"product"</span>
+	<span class="t">"quotient"</span>
+	<span class="t">"remainder"</span>
+	<span class="t">"minus"</span>
+	<span class="t">"less?"</span>
+	<span class="t">"greater?"</span>
+	<span class="t">"equal?"</span>
+	<span class="t">"notequal?"</span>
+	<span class="t">"to"</span>
+	<span class="t">"if"</span>
+	<span class="t">"ifelse"</span>
+	<span class="t">"repeat"</span>
+	<span class="t">"forward"</span>
+	<span class="t">"back"</span>
+	<span class="t">"left"</span>
+	<span class="t">"right"</span>
+	<span class="t">"setxy"</span>
+	<span class="t">"setx"</span>
+	<span class="t">"sety"</span>
+	<span class="t">"home"</span>
+	<span class="t">"showturtle"</span>
+	<span class="t">"hideturtle"</span>
+	<span class="t">"clean"</span>
+	<span class="t">"clearscreen"</span>
+	<span class="t">"pendown"</span>
+	<span class="t">"penup"</span>
+	<span class="t">"local"</span>
+	<span class="t">"make"</span></pre><pre><a name="Call" class="nt">Call</a> ::=
+	<a href="#Id" class="nt">Id</a> <a href="#Exp" class="nt">Exp</a><span class="meta">*</span></pre><hr /><div class="b"><a href="http://grammarware.github.io/lab"><img src="../../../by-grammarlab.png" alt="GrammarLab" title="Powered by GrammarLab"></img></a>Maintained by Dr. <a href="http://grammarware.net/">Vadim Zaytsev</a> a.k.a. @<a href="http://twitter.com/grammarware">grammarware</a>. Last updated in October 2014. <span class="links"> [<a href="#TOP">↑</a>]</span></div></body></html>

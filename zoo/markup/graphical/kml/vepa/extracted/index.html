@@ -1,0 +1,192 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="content-type" content="text/html; charset=utf-8" /><title>Grammar Zoo - Browsable Keyhole Markup Language (KML) Grammar</title><link href="../../../../../slps.css" rel="stylesheet" type="text/css" /></head><body><h1 class="l"><a name="TOP"></a>Browsable Keyhole Markup Language (KML) Grammar</h1><a href="http://creativecommons.org/licenses/by/3.0/"><img src="../../../../../cc-by.png" alt="CC-BY" title="View the CC-BY license"></img></a><p>Grammar extracted by <strong><a href="http://grammarware.net/">Vadim Zaytsev</a></strong>, see the <a href="http://grammarzoo.github.io/">Grammar Zoo</a> entry for details: <a href="../../../../../index.html#markup_graphical_kml_vepa_extracted">markup/graphical/kml/vepa/extracted</a><br />Source used for this grammar: Eric Vepa, <em>KML 2.0 (Keyhole Markup Language) 0.1, </em><code>KML.ecore</code>,  2006/06/30<span class="links" /></p><h2 class="l">Summary</h2><ul class="nl"><li>Total <strong>186</strong> production rules with <strong>190</strong> top alternatives and <strong>648</strong> symbols.</li><li>Vocabulary: <strong>113</strong> = <strong>99</strong> nonterminals + <strong>2</strong> terminals + <strong>12</strong> labels + <strong>0</strong> markers.</li><li>Total <strong>99</strong> nonterminal symbols: <strong>98</strong> defined (<code><a href="#String" class="nt">String</a></code>, <code><a href="#Boolean" class="nt">Boolean</a></code>, <code><a href="#Integer" class="nt">Integer</a></code>, <code><a href="#Node" class="nt">Node</a></code>, <code><a href="#ElementNode" class="nt">ElementNode</a></code>, <code><a href="#AttributeNode" class="nt">AttributeNode</a></code>, <code><a href="#RootNode" class="nt">RootNode</a></code>, <code><a href="#TextNode" class="nt">TextNode</a></code>, <code><a href="#KMLNode" class="nt">KMLNode</a></code>, <code><a href="#KMLRootNode" class="nt">KMLRootNode</a></code>, <code><a href="#Address" class="nt">Address</a></code>, <code><a href="#AltitudeMode" class="nt">AltitudeMode</a></code>, <code><a href="#AltitudeModeValue" class="nt">AltitudeModeValue</a></code>, <code><a href="#BalloonStyle" class="nt">BalloonStyle</a></code>, <code><a href="#Color" class="nt">Color</a></code>, <code><a href="#ColorMode" class="nt">ColorMode</a></code>, <code><a href="#ColorModeValue" class="nt">ColorModeValue</a></code>, <code><a href="#Cookie" class="nt">Cookie</a></code>, <code><a href="#Coordinates" class="nt">Coordinates</a></code>, <code><a href="#Coordinate" class="nt">Coordinate</a></code>, <code><a href="#Description" class="nt">Description</a></code>, <code><a href="#Document" class="nt">Document</a></code>, <code><a href="#DrawOrder" class="nt">DrawOrder</a></code>, <code><a href="#East" class="nt">East</a></code>, <code><a href="#Extrude" class="nt">Extrude</a></code>, <code><a href="#Fill" class="nt">Fill</a></code>, <code><a href="#FlyToView" class="nt">FlyToView</a></code>, <code><a href="#Folder" class="nt">Folder</a></code>, <code><a href="#GroundOverlay" class="nt">GroundOverlay</a></code>, <code><a href="#H" class="nt">H</a></code>, <code><a href="#Heading" class="nt">Heading</a></code>, <code><a href="#Href" class="nt">Href</a></code>, <code><a href="#Icon" class="nt">Icon</a></code>, <code><a href="#IconStyle" class="nt">IconStyle</a></code>, <code><a href="#InnerBoundaryIs" class="nt">InnerBoundaryIs</a></code>, <code><a href="#Key" class="nt">Key</a></code>, <code><a href="#LabelStyle" class="nt">LabelStyle</a></code>, <code><a href="#Latitude" class="nt">Latitude</a></code>, <code><a href="#LatLonBox" class="nt">LatLonBox</a></code>, <code><a href="#LinearRing" class="nt">LinearRing</a></code>, <code><a href="#LineString" class="nt">LineString</a></code>, <code><a href="#LineStyle" class="nt">LineStyle</a></code>, <code><a href="#LinkDescription" class="nt">LinkDescription</a></code>, <code><a href="#LinkName" class="nt">LinkName</a></code>, <code><a href="#Longitude" class="nt">Longitude</a></code>, <code><a href="#LookAt" class="nt">LookAt</a></code>, <code><a href="#Message" class="nt">Message</a></code>, <code><a href="#MinRefreshPeriod" class="nt">MinRefreshPeriod</a></code>, <code><a href="#MultiGeometry" class="nt">MultiGeometry</a></code>, <code><a href="#Name" class="nt">Name</a></code>, <code><a href="#NetworkLink" class="nt">NetworkLink</a></code>, <code><a href="#NetworkLinkControl" class="nt">NetworkLinkControl</a></code>, <code><a href="#North" class="nt">North</a></code>, <code><a href="#ObjArrayField" class="nt">ObjArrayField</a></code>, <code><a href="#ObjField" class="nt">ObjField</a></code>, <code><a href="#Open" class="nt">Open</a></code>, <code><a href="#OuterBoundaryIs" class="nt">OuterBoundaryIs</a></code>, <code><a href="#Outline" class="nt">Outline</a></code>, <code><a href="#OverlayXY" class="nt">OverlayXY</a></code>, <code><a href="#Pair" class="nt">Pair</a></code>, <code><a href="#Parent" class="nt">Parent</a></code>, <code><a href="#Placemark" class="nt">Placemark</a></code>, <code><a href="#Point" class="nt">Point</a></code>, <code><a href="#Polygon" class="nt">Polygon</a></code>, <code><a href="#PolyStyle" class="nt">PolyStyle</a></code>, <code><a href="#Range" class="nt">Range</a></code>, <code><a href="#RefreshInterval" class="nt">RefreshInterval</a></code>, <code><a href="#RefreshMode" class="nt">RefreshMode</a></code>, <code><a href="#RefreshVisibility" class="nt">RefreshVisibility</a></code>, <code><a href="#Rotation" class="nt">Rotation</a></code>, <code><a href="#Schema" class="nt">Schema</a></code>, <code><a href="#Scale" class="nt">Scale</a></code>, <code><a href="#ScreenOverlay" class="nt">ScreenOverlay</a></code>, <code><a href="#ScreenXY" class="nt">ScreenXY</a></code>, <code><a href="#SimpleArrayField" class="nt">SimpleArrayField</a></code>, <code><a href="#SimpleField" class="nt">SimpleField</a></code>, <code><a href="#Size" class="nt">Size</a></code>, <code><a href="#South" class="nt">South</a></code>, <code><a href="#Snippet" class="nt">Snippet</a></code>, <code><a href="#Style" class="nt">Style</a></code>, <code><a href="#StyleMap" class="nt">StyleMap</a></code>, <code><a href="#StyleUrl" class="nt">StyleUrl</a></code>, <code><a href="#Tessellate" class="nt">Tessellate</a></code>, <code><a href="#Text" class="nt">Text</a></code>, <code><a href="#TextColor" class="nt">TextColor</a></code>, <code><a href="#Tilt" class="nt">Tilt</a></code>, <code><a href="#Type" class="nt">Type</a></code>, <code><a href="#Url" class="nt">Url</a></code>, <code><a href="#ViewBoundScale" class="nt">ViewBoundScale</a></code>, <code><a href="#ViewRefreshMode" class="nt">ViewRefreshMode</a></code>, <code><a href="#ViewRefreshTime" class="nt">ViewRefreshTime</a></code>, <code><a href="#ViewFormat" class="nt">ViewFormat</a></code>, <code><a href="#Visibility" class="nt">Visibility</a></code>, <code><a href="#W" class="nt">W</a></code>, <code><a href="#West" class="nt">West</a></code>, <code><a href="#Width" class="nt">Width</a></code>, <code><a href="#X" class="nt">X</a></code>, <code><a href="#Y" class="nt">Y</a></code>), <strong>0</strong> root (—), <strong>0</strong> top (—), <strong>1</strong> bottom (<code class="nt">Double</code><sup> 8</sup>).</li><li>Total <strong>2</strong> terminal symbols: <strong>2</strong> keywords (<span class="t">"true"</span>, <span class="t">"false"</span>), <strong>0</strong> letters (—), <strong>0</strong> numerics (—), <strong>0</strong> signs (—).</li><li>Total <strong>12</strong> labels: <code>[<a href="#value" class="lbl">value</a>]</code><sup> 48</sup>, <code>[<a href="#nodes" class="lbl">nodes</a>]</code>, <code>[<a href="#clampedToGround" class="lbl">clampedToGround</a>]</code>, <code>[<a href="#relativeToGround" class="lbl">relativeToGround</a>]</code>, <code>[<a href="#absolute" class="lbl">absolute</a>]</code>, <code>[<a href="#normal" class="lbl">normal</a>]</code>, <code>[<a href="#random" class="lbl">random</a>]</code>, <code>[<a href="#id" class="lbl">id</a>]</code><sup> 3</sup>, <code>[<a href="#x" class="lbl">x</a>]</code><sup> 3</sup>, <code>[<a href="#y" class="lbl">y</a>]</code><sup> 3</sup>, <code>[<a href="#xunits" class="lbl">xunits</a>]</code><sup> 3</sup>, <code>[<a href="#yunits" class="lbl">yunits</a>]</code><sup> 3</sup>.</li></ul><h2 class="l">Syntax</h2><pre><a name="String" class="nt">String</a> ::=
+	string</pre><pre><a name="Boolean" class="nt">Boolean</a> ::=
+	<span class="t">"true"</span>
+	<span class="t">"false"</span></pre><pre><a name="Integer" class="nt">Integer</a> ::=
+	integer</pre><pre><a name="Node" class="nt">Node</a> ::=
+	<a href="#ElementNode" class="nt">ElementNode</a></pre><pre><a name="Node" class="nt">Node</a> ::=
+	<a href="#AttributeNode" class="nt">AttributeNode</a></pre><pre><a name="ElementNode" class="nt">ElementNode</a> ::=
+	<a href="#RootNode" class="nt">RootNode</a></pre><pre><a name="ElementNode" class="nt">ElementNode</a> ::=
+	<a href="#TextNode" class="nt">TextNode</a></pre><pre><a name="ElementNode" class="nt">ElementNode</a> ::=
+	<a href="#KMLNode" class="nt">KMLNode</a></pre><pre><a name="AttributeNode" class="nt">AttributeNode</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="RootNode" class="nt">RootNode</a> ::=
+	<a href="#KMLRootNode" class="nt">KMLRootNode</a></pre><pre><a name="TextNode" class="nt">TextNode</a> ::=
+	[<a name="nodes" class="lbl">nodes</a>]::<a href="#Node" class="nt">Node</a><span class="meta">+</span></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#Address" class="nt">Address</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#AltitudeMode" class="nt">AltitudeMode</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#BalloonStyle" class="nt">BalloonStyle</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#Color" class="nt">Color</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#ColorMode" class="nt">ColorMode</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#Cookie" class="nt">Cookie</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#Coordinates" class="nt">Coordinates</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#Coordinate" class="nt">Coordinate</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#Description" class="nt">Description</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#Document" class="nt">Document</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#DrawOrder" class="nt">DrawOrder</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#East" class="nt">East</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#Extrude" class="nt">Extrude</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#Fill" class="nt">Fill</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#FlyToView" class="nt">FlyToView</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#Folder" class="nt">Folder</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#GroundOverlay" class="nt">GroundOverlay</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#H" class="nt">H</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#Heading" class="nt">Heading</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#Href" class="nt">Href</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#Icon" class="nt">Icon</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#IconStyle" class="nt">IconStyle</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#InnerBoundaryIs" class="nt">InnerBoundaryIs</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#Key" class="nt">Key</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#LabelStyle" class="nt">LabelStyle</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#Latitude" class="nt">Latitude</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#LatLonBox" class="nt">LatLonBox</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#LinearRing" class="nt">LinearRing</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#LineString" class="nt">LineString</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#LineStyle" class="nt">LineStyle</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#LinkDescription" class="nt">LinkDescription</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#LinkName" class="nt">LinkName</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#Longitude" class="nt">Longitude</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#LookAt" class="nt">LookAt</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#Message" class="nt">Message</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#MinRefreshPeriod" class="nt">MinRefreshPeriod</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#MultiGeometry" class="nt">MultiGeometry</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#Name" class="nt">Name</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#NetworkLink" class="nt">NetworkLink</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#NetworkLinkControl" class="nt">NetworkLinkControl</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#North" class="nt">North</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#ObjArrayField" class="nt">ObjArrayField</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#ObjField" class="nt">ObjField</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#Open" class="nt">Open</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#OuterBoundaryIs" class="nt">OuterBoundaryIs</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#Outline" class="nt">Outline</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#OverlayXY" class="nt">OverlayXY</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#Pair" class="nt">Pair</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#Parent" class="nt">Parent</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#Placemark" class="nt">Placemark</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#Point" class="nt">Point</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#Polygon" class="nt">Polygon</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#PolyStyle" class="nt">PolyStyle</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#Range" class="nt">Range</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#RefreshInterval" class="nt">RefreshInterval</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#RefreshMode" class="nt">RefreshMode</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#RefreshVisibility" class="nt">RefreshVisibility</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#Rotation" class="nt">Rotation</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#Schema" class="nt">Schema</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#Scale" class="nt">Scale</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#ScreenOverlay" class="nt">ScreenOverlay</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#ScreenXY" class="nt">ScreenXY</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#SimpleArrayField" class="nt">SimpleArrayField</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#SimpleField" class="nt">SimpleField</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#Size" class="nt">Size</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#South" class="nt">South</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#Snippet" class="nt">Snippet</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#Style" class="nt">Style</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#StyleMap" class="nt">StyleMap</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#StyleUrl" class="nt">StyleUrl</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#Tessellate" class="nt">Tessellate</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#Text" class="nt">Text</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#TextColor" class="nt">TextColor</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#Tilt" class="nt">Tilt</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#Type" class="nt">Type</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#Url" class="nt">Url</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#ViewBoundScale" class="nt">ViewBoundScale</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#ViewRefreshMode" class="nt">ViewRefreshMode</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#ViewRefreshTime" class="nt">ViewRefreshTime</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#ViewFormat" class="nt">ViewFormat</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#Visibility" class="nt">Visibility</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#W" class="nt">W</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#West" class="nt">West</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#Width" class="nt">Width</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#X" class="nt">X</a></pre><pre><a name="KMLNode" class="nt">KMLNode</a> ::=
+	<a href="#Y" class="nt">Y</a></pre><pre><a name="KMLRootNode" class="nt">KMLRootNode</a> ::=
+	ε</pre><pre><a name="Address" class="nt">Address</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="AltitudeMode" class="nt">AltitudeMode</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#AltitudeModeValue" class="nt">AltitudeModeValue</a></pre><pre><a name="AltitudeModeValue" class="nt">AltitudeModeValue</a> ::=
+	[<a name="clampedToGround" class="lbl">clampedToGround</a>]::ε
+	[<a name="relativeToGround" class="lbl">relativeToGround</a>]::ε
+	[<a name="absolute" class="lbl">absolute</a>]::ε</pre><pre><a name="BalloonStyle" class="nt">BalloonStyle</a> ::=
+	ε</pre><pre><a name="Color" class="nt">Color</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="ColorMode" class="nt">ColorMode</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#ColorModeValue" class="nt">ColorModeValue</a></pre><pre><a name="ColorModeValue" class="nt">ColorModeValue</a> ::=
+	[<a name="normal" class="lbl">normal</a>]::ε
+	[<a name="random" class="lbl">random</a>]::ε</pre><pre><a name="Cookie" class="nt">Cookie</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Coordinates" class="nt">Coordinates</a> ::=
+	ε</pre><pre><a name="Coordinate" class="nt">Coordinate</a> ::=
+	ε</pre><pre><a name="Description" class="nt">Description</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Document" class="nt">Document</a> ::=
+	ε</pre><pre><a name="DrawOrder" class="nt">DrawOrder</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#Integer" class="nt">Integer</a></pre><pre><a name="East" class="nt">East</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#Double" class="nt">Double</a></pre><pre><a name="Extrude" class="nt">Extrude</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#Boolean" class="nt">Boolean</a></pre><pre><a name="Fill" class="nt">Fill</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#Boolean" class="nt">Boolean</a></pre><pre><a name="FlyToView" class="nt">FlyToView</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#Boolean" class="nt">Boolean</a></pre><pre><a name="Folder" class="nt">Folder</a> ::=
+	ε</pre><pre><a name="GroundOverlay" class="nt">GroundOverlay</a> ::=
+	ε</pre><pre><a name="H" class="nt">H</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#Integer" class="nt">Integer</a></pre><pre><a name="Heading" class="nt">Heading</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#Double" class="nt">Double</a></pre><pre><a name="Href" class="nt">Href</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Icon" class="nt">Icon</a> ::=
+	ε</pre><pre><a name="IconStyle" class="nt">IconStyle</a> ::=
+	ε</pre><pre><a name="InnerBoundaryIs" class="nt">InnerBoundaryIs</a> ::=
+	ε</pre><pre><a name="Key" class="nt">Key</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="LabelStyle" class="nt">LabelStyle</a> ::=
+	ε</pre><pre><a name="Latitude" class="nt">Latitude</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#Double" class="nt">Double</a></pre><pre><a name="LatLonBox" class="nt">LatLonBox</a> ::=
+	ε</pre><pre><a name="LinearRing" class="nt">LinearRing</a> ::=
+	ε</pre><pre><a name="LineString" class="nt">LineString</a> ::=
+	ε</pre><pre><a name="LineStyle" class="nt">LineStyle</a> ::=
+	[<a name="id" class="lbl">id</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="LinkDescription" class="nt">LinkDescription</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="LinkName" class="nt">LinkName</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Longitude" class="nt">Longitude</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#Double" class="nt">Double</a></pre><pre><a name="LookAt" class="nt">LookAt</a> ::=
+	ε</pre><pre><a name="Message" class="nt">Message</a> ::=
+	ε</pre><pre><a name="MinRefreshPeriod" class="nt">MinRefreshPeriod</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="MultiGeometry" class="nt">MultiGeometry</a> ::=
+	ε</pre><pre><a name="Name" class="nt">Name</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="NetworkLink" class="nt">NetworkLink</a> ::=
+	ε</pre><pre><a name="NetworkLinkControl" class="nt">NetworkLinkControl</a> ::=
+	ε</pre><pre><a name="North" class="nt">North</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#Double" class="nt">Double</a></pre><pre><a name="ObjArrayField" class="nt">ObjArrayField</a> ::=
+	ε</pre><pre><a name="ObjField" class="nt">ObjField</a> ::=
+	ε</pre><pre><a name="Open" class="nt">Open</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="OuterBoundaryIs" class="nt">OuterBoundaryIs</a> ::=
+	ε</pre><pre><a name="Outline" class="nt">Outline</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="OverlayXY" class="nt">OverlayXY</a> ::=
+	[<a name="x" class="lbl">x</a>]::<a href="#String" class="nt">String</a> [<a name="y" class="lbl">y</a>]::<a href="#String" class="nt">String</a> [<a name="xunits" class="lbl">xunits</a>]::<a href="#String" class="nt">String</a> [<a name="yunits" class="lbl">yunits</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Pair" class="nt">Pair</a> ::=
+	ε</pre><pre><a name="Parent" class="nt">Parent</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Placemark" class="nt">Placemark</a> ::=
+	ε</pre><pre><a name="Point" class="nt">Point</a> ::=
+	ε</pre><pre><a name="Polygon" class="nt">Polygon</a> ::=
+	ε</pre><pre><a name="PolyStyle" class="nt">PolyStyle</a> ::=
+	ε</pre><pre><a name="Range" class="nt">Range</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="RefreshInterval" class="nt">RefreshInterval</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="RefreshMode" class="nt">RefreshMode</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="RefreshVisibility" class="nt">RefreshVisibility</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Rotation" class="nt">Rotation</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Schema" class="nt">Schema</a> ::=
+	ε</pre><pre><a name="Scale" class="nt">Scale</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="ScreenOverlay" class="nt">ScreenOverlay</a> ::=
+	[<a name="id" class="lbl">id</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="ScreenXY" class="nt">ScreenXY</a> ::=
+	[<a name="x" class="lbl">x</a>]::<a href="#String" class="nt">String</a> [<a name="y" class="lbl">y</a>]::<a href="#String" class="nt">String</a> [<a name="xunits" class="lbl">xunits</a>]::<a href="#String" class="nt">String</a> [<a name="yunits" class="lbl">yunits</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="SimpleArrayField" class="nt">SimpleArrayField</a> ::=
+	ε</pre><pre><a name="SimpleField" class="nt">SimpleField</a> ::=
+	ε</pre><pre><a name="Size" class="nt">Size</a> ::=
+	[<a name="x" class="lbl">x</a>]::<a href="#String" class="nt">String</a> [<a name="y" class="lbl">y</a>]::<a href="#String" class="nt">String</a> [<a name="xunits" class="lbl">xunits</a>]::<a href="#String" class="nt">String</a> [<a name="yunits" class="lbl">yunits</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="South" class="nt">South</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#Double" class="nt">Double</a></pre><pre><a name="Snippet" class="nt">Snippet</a> ::=
+	ε</pre><pre><a name="Style" class="nt">Style</a> ::=
+	[<a name="id" class="lbl">id</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="StyleMap" class="nt">StyleMap</a> ::=
+	ε</pre><pre><a name="StyleUrl" class="nt">StyleUrl</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Tessellate" class="nt">Tessellate</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Text" class="nt">Text</a> ::=
+	ε</pre><pre><a name="TextColor" class="nt">TextColor</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Tilt" class="nt">Tilt</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Type" class="nt">Type</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Url" class="nt">Url</a> ::=
+	ε</pre><pre><a name="ViewBoundScale" class="nt">ViewBoundScale</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="ViewRefreshMode" class="nt">ViewRefreshMode</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="ViewRefreshTime" class="nt">ViewRefreshTime</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#Integer" class="nt">Integer</a></pre><pre><a name="ViewFormat" class="nt">ViewFormat</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Visibility" class="nt">Visibility</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="W" class="nt">W</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#Integer" class="nt">Integer</a></pre><pre><a name="West" class="nt">West</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#Double" class="nt">Double</a></pre><pre><a name="Width" class="nt">Width</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#Double" class="nt">Double</a></pre><pre><a name="X" class="nt">X</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#Integer" class="nt">Integer</a></pre><pre><a name="Y" class="nt">Y</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#Integer" class="nt">Integer</a></pre><hr /><div class="b"><a href="http://grammarware.github.io/lab"><img src="../../../../../by-grammarlab.png" alt="GrammarLab" title="Powered by GrammarLab"></img></a>Maintained by Dr. <a href="http://grammarware.net/">Vadim Zaytsev</a> a.k.a. @<a href="http://twitter.com/grammarware">grammarware</a>. Last updated in October 2014. <span class="links"> [<a href="#TOP">↑</a>]</span></div></body></html>

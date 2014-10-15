@@ -1,0 +1,816 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="content-type" content="text/html; charset=utf-8" /><title>Grammar Zoo - Browsable Fortran 77 and 90 Grammar</title><link href="../../../../slps.css" rel="stylesheet" type="text/css" /></head><body><h1 class="l"><a name="TOP"></a>Browsable Fortran 77 and 90 Grammar</h1><a href="http://creativecommons.org/licenses/by/3.0/"><img src="../../../../cc-by.png" alt="CC-BY" title="View the CC-BY license"></img></a><p>Grammar extracted by <strong><a href="http://grammarware.net/">Vadim Zaytsev</a></strong>, see the <a href="http://grammarzoo.github.io/">Grammar Zoo</a> entry for details: <a href="../../../../index.html#fortran_f90_waite-cordy_extracted">fortran/f90/waite-cordy/extracted</a><br />Source used for this grammar: William M. Waite, James R. Cordy, <em>TXL Basis Grammar for Fortran 77 and Fortran 90, </em>Version 1.0,  September 2009<span class="links" /></p><h2 class="l">Summary</h2><ul class="nl"><li>Total <strong>432</strong> production rules with <strong>814</strong> top alternatives and <strong>3733</strong> symbols.</li><li>Vocabulary: <strong>574</strong> = <strong>402</strong> nonterminals + <strong>172</strong> terminals + <strong>0</strong> labels + <strong>0</strong> markers.</li><li>Total <strong>402</strong> nonterminal symbols: <strong>378</strong> defined (<code><a href="#Ident" class="nt">Ident</a></code>, <code><a href="#EOS" class="nt">EOS</a></code>, <code><a href="#CommentOrNewline" class="nt">CommentOrNewline</a></code>, <code><a href="#program" class="nt">program</a></code>, <code><a href="#ExecutableProgram" class="nt">ExecutableProgram</a></code>, <code><a href="#ProgramUnit" class="nt">ProgramUnit</a></code>, <code><a href="#MainProgram" class="nt">MainProgram</a></code>, <code><a href="#MainRange" class="nt">MainRange</a></code>, <code><a href="#EndProgramStmt" class="nt">EndProgramStmt</a></code>, <code><a href="#Body" class="nt">Body</a></code>, <code><a href="#BodyConstruct" class="nt">BodyConstruct</a></code>, <code><a href="#SpecificationPartConstruct" class="nt">SpecificationPartConstruct</a></code>, <code><a href="#IncludeStmt" class="nt">IncludeStmt</a></code>, <code><a href="#DeclarationConstruct" class="nt">DeclarationConstruct</a></code>, <code><a href="#FunctionSubprogram" class="nt">FunctionSubprogram</a></code>, <code><a href="#FunctionRange" class="nt">FunctionRange</a></code>, <code><a href="#EndFunctionStmt" class="nt">EndFunctionStmt</a></code>, <code><a href="#SubroutineSubprogram" class="nt">SubroutineSubprogram</a></code>, <code><a href="#SubroutineRange" class="nt">SubroutineRange</a></code>, <code><a href="#EndSubroutineStmt" class="nt">EndSubroutineStmt</a></code>, <code><a href="#BlockDataSubprogram" class="nt">BlockDataSubprogram</a></code>, <code><a href="#EndBlockDataStmt" class="nt">EndBlockDataStmt</a></code>, <code><a href="#BlockDataBody" class="nt">BlockDataBody</a></code>, <code><a href="#BlockDataBodyConstruct" class="nt">BlockDataBodyConstruct</a></code>, <code><a href="#SpecificationStmt" class="nt">SpecificationStmt</a></code>, <code><a href="#ExecutionPartConstruct" class="nt">ExecutionPartConstruct</a></code>, <code><a href="#ExecutableConstruct" class="nt">ExecutableConstruct</a></code>, <code><a href="#ActionStmt" class="nt">ActionStmt</a></code>, <code><a href="#ProgramStmt" class="nt">ProgramStmt</a></code>, <code><a href="#FunctionPrefix" class="nt">FunctionPrefix</a></code>, <code><a href="#FunctionParList" class="nt">FunctionParList</a></code>, <code><a href="#FunctionPars" class="nt">FunctionPars</a></code>, <code><a href="#FunctionPar" class="nt">FunctionPar</a></code>, <code><a href="#SubroutineParList" class="nt">SubroutineParList</a></code>, <code><a href="#SubroutinePars" class="nt">SubroutinePars</a></code>, <code><a href="#SubroutinePar" class="nt">SubroutinePar</a></code>, <code><a href="#EntryStmt" class="nt">EntryStmt</a></code>, <code><a href="#BlockDataStmt" class="nt">BlockDataStmt</a></code>, <code><a href="#DimensionStmt" class="nt">DimensionStmt</a></code>, <code><a href="#ArrayDeclaratorList" class="nt">ArrayDeclaratorList</a></code>, <code><a href="#ArrayDeclarator" class="nt">ArrayDeclarator</a></code>, <code><a href="#ArraySpec" class="nt">ArraySpec</a></code>, <code><a href="#ExplicitShapeSpecList" class="nt">ExplicitShapeSpecList</a></code>, <code><a href="#ExplicitShapeSpec" class="nt">ExplicitShapeSpec</a></code>, <code><a href="#LowerBound" class="nt">LowerBound</a></code>, <code><a href="#UpperBound" class="nt">UpperBound</a></code>, <code><a href="#AssumedSizeSpec" class="nt">AssumedSizeSpec</a></code>, <code><a href="#EquivalenceStmt" class="nt">EquivalenceStmt</a></code>, <code><a href="#EquivalenceSetList" class="nt">EquivalenceSetList</a></code>, <code><a href="#EquivalenceSet" class="nt">EquivalenceSet</a></code>, <code><a href="#EquivalenceObjectList" class="nt">EquivalenceObjectList</a></code>, <code><a href="#EquivalenceObject" class="nt">EquivalenceObject</a></code>, <code><a href="#CommonStmt" class="nt">CommonStmt</a></code>, <code><a href="#Comlist" class="nt">Comlist</a></code>, <code><a href="#Comblock" class="nt">Comblock</a></code>, <code><a href="#CommonBlockObject" class="nt">CommonBlockObject</a></code>, <code><a href="#TypeDeclarationStmt" class="nt">TypeDeclarationStmt</a></code>, <code><a href="#TypeSpec" class="nt">TypeSpec</a></code>, <code><a href="#EntityDeclList" class="nt">EntityDeclList</a></code>, <code><a href="#EntityDecl" class="nt">EntityDecl</a></code>, <code><a href="#LengthSelector" class="nt">LengthSelector</a></code>, <code><a href="#ImplicitStmt" class="nt">ImplicitStmt</a></code>, <code><a href="#ImplicitSpecList" class="nt">ImplicitSpecList</a></code>, <code><a href="#ImplicitSpec" class="nt">ImplicitSpec</a></code>, <code><a href="#ImplicitRanges" class="nt">ImplicitRanges</a></code>, <code><a href="#ImplicitRange" class="nt">ImplicitRange</a></code>, <code><a href="#CharLength" class="nt">CharLength</a></code>, <code><a href="#TypeParamValue" class="nt">TypeParamValue</a></code>, <code><a href="#ParameterStmt" class="nt">ParameterStmt</a></code>, <code><a href="#NamedConstantDefList" class="nt">NamedConstantDefList</a></code>, <code><a href="#NamedConstantDef" class="nt">NamedConstantDef</a></code>, <code><a href="#NamedConstant" class="nt">NamedConstant</a></code>, <code><a href="#NamedConstantUse" class="nt">NamedConstantUse</a></code>, <code><a href="#ExternalStmt" class="nt">ExternalStmt</a></code>, <code><a href="#ExternalNameList" class="nt">ExternalNameList</a></code>, <code><a href="#IntrinsicStmt" class="nt">IntrinsicStmt</a></code>, <code><a href="#IntrinsicList" class="nt">IntrinsicList</a></code>, <code><a href="#SaveStmt" class="nt">SaveStmt</a></code>, <code><a href="#SavedEntityList" class="nt">SavedEntityList</a></code>, <code><a href="#SavedEntity" class="nt">SavedEntity</a></code>, <code><a href="#SavedCommonBlock" class="nt">SavedCommonBlock</a></code>, <code><a href="#DataStmt" class="nt">DataStmt</a></code>, <code><a href="#Datalist" class="nt">Datalist</a></code>, <code><a href="#DataStmtSet" class="nt">DataStmtSet</a></code>, <code><a href="#DataStmtObjectList" class="nt">DataStmtObjectList</a></code>, <code><a href="#DataStmtObject" class="nt">DataStmtObject</a></code>, <code><a href="#DataStmtValueList" class="nt">DataStmtValueList</a></code>, <code><a href="#DataStmtValue" class="nt">DataStmtValue</a></code>, <code><a href="#DataImpliedDo" class="nt">DataImpliedDo</a></code>, <code><a href="#DataIDoObjectList" class="nt">DataIDoObjectList</a></code>, <code><a href="#DataIDoObject" class="nt">DataIDoObject</a></code>, <code><a href="#AssignmentStmt" class="nt">AssignmentStmt</a></code>, <code><a href="#SFExprListRef" class="nt">SFExprListRef</a></code>, <code><a href="#SFExprList" class="nt">SFExprList</a></code>, <code><a href="#CommaSectionSubscript" class="nt">CommaSectionSubscript</a></code>, <code><a href="#AssignStmt" class="nt">AssignStmt</a></code>, <code><a href="#GotoStmt" class="nt">GotoStmt</a></code>, <code><a href="#GoToKw" class="nt">GoToKw</a></code>, <code><a href="#ComputedGotoStmt" class="nt">ComputedGotoStmt</a></code>, <code><a href="#LblRefList" class="nt">LblRefList</a></code>, <code><a href="#LblRef" class="nt">LblRef</a></code>, <code><a href="#AssignedGotoStmt" class="nt">AssignedGotoStmt</a></code>, <code><a href="#VariableComma" class="nt">VariableComma</a></code>, <code><a href="#ArithmeticIfStmt" class="nt">ArithmeticIfStmt</a></code>, <code><a href="#IfStmt" class="nt">IfStmt</a></code>, <code><a href="#IfConstruct" class="nt">IfConstruct</a></code>, <code><a href="#ElseIfConstruct" class="nt">ElseIfConstruct</a></code>, <code><a href="#ElseConstruct" class="nt">ElseConstruct</a></code>, <code><a href="#ConditionalBody" class="nt">ConditionalBody</a></code>, <code><a href="#IfThenStmt" class="nt">IfThenStmt</a></code>, <code><a href="#ElseIfStmt" class="nt">ElseIfStmt</a></code>, <code><a href="#ElseStmt" class="nt">ElseStmt</a></code>, <code><a href="#EndIfStmt" class="nt">EndIfStmt</a></code>, <code><a href="#DoConstruct" class="nt">DoConstruct</a></code>, <code><a href="#LabelDoStmt" class="nt">LabelDoStmt</a></code>, <code><a href="#CommaLoopControl" class="nt">CommaLoopControl</a></code>, <code><a href="#DoLblRef" class="nt">DoLblRef</a></code>, <code><a href="#DoLblDef" class="nt">DoLblDef</a></code>, <code><a href="#DoubleDoStmt" class="nt">DoubleDoStmt</a></code>, <code><a href="#DoLabelStmt" class="nt">DoLabelStmt</a></code>, <code><a href="#LoopControl" class="nt">LoopControl</a></code>, <code><a href="#ContinueStmt" class="nt">ContinueStmt</a></code>, <code><a href="#StopStmt" class="nt">StopStmt</a></code>, <code><a href="#IconOrScon" class="nt">IconOrScon</a></code>, <code><a href="#PauseStmt" class="nt">PauseStmt</a></code>, <code><a href="#WriteStmt" class="nt">WriteStmt</a></code>, <code><a href="#ReadStmt" class="nt">ReadStmt</a></code>, <code><a href="#CommaInputItemList" class="nt">CommaInputItemList</a></code>, <code><a href="#RdCtlSpec" class="nt">RdCtlSpec</a></code>, <code><a href="#RdUnitId" class="nt">RdUnitId</a></code>, <code><a href="#RdIoCtlSpecList" class="nt">RdIoCtlSpecList</a></code>, <code><a href="#RdFmtId" class="nt">RdFmtId</a></code>, <code><a href="#RdFmtIdExpr" class="nt">RdFmtIdExpr</a></code>, <code><a href="#PrintStmt" class="nt">PrintStmt</a></code>, <code><a href="#IoControlSpecList" class="nt">IoControlSpecList</a></code>, <code><a href="#IoControlSpec" class="nt">IoControlSpec</a></code>, <code><a href="#InputItemList" class="nt">InputItemList</a></code>, <code><a href="#InputItem" class="nt">InputItem</a></code>, <code><a href="#OutputItemList" class="nt">OutputItemList</a></code>, <code><a href="#OutputItemList1" class="nt">OutputItemList1</a></code>, <code><a href="#InputImpliedDo" class="nt">InputImpliedDo</a></code>, <code><a href="#CommaExpr" class="nt">CommaExpr</a></code>, <code><a href="#OutputImpliedDo" class="nt">OutputImpliedDo</a></code>, <code><a href="#OpenStmt" class="nt">OpenStmt</a></code>, <code><a href="#ConnectSpecList" class="nt">ConnectSpecList</a></code>, <code><a href="#UnitIdentifierComma" class="nt">UnitIdentifierComma</a></code>, <code><a href="#ConnectSpec" class="nt">ConnectSpec</a></code>, <code><a href="#CloseStmt" class="nt">CloseStmt</a></code>, <code><a href="#CloseSpecList" class="nt">CloseSpecList</a></code>, <code><a href="#CloseSpec" class="nt">CloseSpec</a></code>, <code><a href="#InquireStmt" class="nt">InquireStmt</a></code>, <code><a href="#InquireSpecList" class="nt">InquireSpecList</a></code>, <code><a href="#InquireSpec" class="nt">InquireSpec</a></code>, <code><a href="#BackspaceStmt" class="nt">BackspaceStmt</a></code>, <code><a href="#EndfileStmt" class="nt">EndfileStmt</a></code>, <code><a href="#RewindStmt" class="nt">RewindStmt</a></code>, <code><a href="#PositionSpecList" class="nt">PositionSpecList</a></code>, <code><a href="#PositionSpec" class="nt">PositionSpec</a></code>, <code><a href="#UnitIdentifier" class="nt">UnitIdentifier</a></code>, <code><a href="#FormatIdentifier" class="nt">FormatIdentifier</a></code>, <code><a href="#FormatStmt" class="nt">FormatStmt</a></code>, <code><a href="#FmtSpec" class="nt">FmtSpec</a></code>, <code><a href="#Formatedit" class="nt">Formatedit</a></code>, <code><a href="#EditElement" class="nt">EditElement</a></code>, <code><a href="#MislexedFcon" class="nt">MislexedFcon</a></code>, <code><a href="#Formatsep" class="nt">Formatsep</a></code>, <code><a href="#StmtFunctionStmt" class="nt">StmtFunctionStmt</a></code>, <code><a href="#StmtFunctionRange" class="nt">StmtFunctionRange</a></code>, <code><a href="#SFDummyArgNameList" class="nt">SFDummyArgNameList</a></code>, <code><a href="#CallStmt" class="nt">CallStmt</a></code>, <code><a href="#SubroutineArgList" class="nt">SubroutineArgList</a></code>, <code><a href="#SubroutineArg" class="nt">SubroutineArg</a></code>, <code><a href="#ReturnStmt" class="nt">ReturnStmt</a></code>, <code><a href="#FunctionReference" class="nt">FunctionReference</a></code>, <code><a href="#NameDataRef" class="nt">NameDataRef</a></code>, <code><a href="#ComplexDataRefTail" class="nt">ComplexDataRefTail</a></code>, <code><a href="#SectionSubscriptRef" class="nt">SectionSubscriptRef</a></code>, <code><a href="#SectionSubscriptList" class="nt">SectionSubscriptList</a></code>, <code><a href="#SectionSubscript" class="nt">SectionSubscript</a></code>, <code><a href="#Expr" class="nt">Expr</a></code>, <code><a href="#Primary" class="nt">Primary</a></code>, <code><a href="#Level1Expr" class="nt">Level1Expr</a></code>, <code><a href="#MultOperand" class="nt">MultOperand</a></code>, <code><a href="#PowerUpMultOperand" class="nt">PowerUpMultOperand</a></code>, <code><a href="#AddOperand" class="nt">AddOperand</a></code>, <code><a href="#MultOpMultOperand" class="nt">MultOpMultOperand</a></code>, <code><a href="#Level2Expr" class="nt">Level2Expr</a></code>, <code><a href="#AddOpAddOperand" class="nt">AddOpAddOperand</a></code>, <code><a href="#PowerOp" class="nt">PowerOp</a></code>, <code><a href="#MultOp" class="nt">MultOp</a></code>, <code><a href="#AddOp" class="nt">AddOp</a></code>, <code><a href="#Sign" class="nt">Sign</a></code>, <code><a href="#UFExpr" class="nt">UFExpr</a></code>, <code><a href="#UFTerm" class="nt">UFTerm</a></code>, <code><a href="#UFFactor" class="nt">UFFactor</a></code>, <code><a href="#UFPrimary" class="nt">UFPrimary</a></code>, <code><a href="#CExpr" class="nt">CExpr</a></code>, <code><a href="#CPrimaryConcatOp" class="nt">CPrimaryConcatOp</a></code>, <code><a href="#CPrimary" class="nt">CPrimary</a></code>, <code><a href="#COperand" class="nt">COperand</a></code>, <code><a href="#Level3Expr" class="nt">Level3Expr</a></code>, <code><a href="#ConcatOpLevel2Expr" class="nt">ConcatOpLevel2Expr</a></code>, <code><a href="#ConcatOp" class="nt">ConcatOp</a></code>, <code><a href="#AndOperand" class="nt">AndOperand</a></code>, <code><a href="#OrOperand" class="nt">OrOperand</a></code>, <code><a href="#AndOpAndOperand" class="nt">AndOpAndOperand</a></code>, <code><a href="#EquivOperand" class="nt">EquivOperand</a></code>, <code><a href="#OrUpOrOperand" class="nt">OrUpOrOperand</a></code>, <code><a href="#Level5Expr" class="nt">Level5Expr</a></code>, <code><a href="#EquivOpEquivOperand" class="nt">EquivOpEquivOperand</a></code>, <code><a href="#NotOp" class="nt">NotOp</a></code>, <code><a href="#AndOp" class="nt">AndOp</a></code>, <code><a href="#OrOp" class="nt">OrOp</a></code>, <code><a href="#EquivOp" class="nt">EquivOp</a></code>, <code><a href="#Level4Expr" class="nt">Level4Expr</a></code>, <code><a href="#RelOpLevel3Expr" class="nt">RelOpLevel3Expr</a></code>, <code><a href="#RelOp" class="nt">RelOp</a></code>, <code><a href="#ArrayElement" class="nt">ArrayElement</a></code>, <code><a href="#SubstringRange" class="nt">SubstringRange</a></code>, <code><a href="#SubscriptTripletTail" class="nt">SubscriptTripletTail</a></code>, <code><a href="#Name" class="nt">Name</a></code>, <code><a href="#Constant" class="nt">Constant</a></code>, <code><a href="#PlusMinus" class="nt">PlusMinus</a></code>, <code><a href="#UnsignedArithmeticConstant" class="nt">UnsignedArithmeticConstant</a></code>, <code><a href="#ComplexConst" class="nt">ComplexConst</a></code>, <code><a href="#ComplexComponent" class="nt">ComplexComponent</a></code>, <code><a href="#LogicalConstant" class="nt">LogicalConstant</a></code>, <code><a href="#Label" class="nt">Label</a></code>, <code><a href="#BlockDataName" class="nt">BlockDataName</a></code>, <code><a href="#CommonBlockName" class="nt">CommonBlockName</a></code>, <code><a href="#DummyArgName" class="nt">DummyArgName</a></code>, <code><a href="#EntryName" class="nt">EntryName</a></code>, <code><a href="#ExternalName" class="nt">ExternalName</a></code>, <code><a href="#FunctionName" class="nt">FunctionName</a></code>, <code><a href="#ImpliedDoVariable" class="nt">ImpliedDoVariable</a></code>, <code><a href="#IntrinsicProcedureName" class="nt">IntrinsicProcedureName</a></code>, <code><a href="#ObjectName" class="nt">ObjectName</a></code>, <code><a href="#ProgramName" class="nt">ProgramName</a></code>, <code><a href="#SFDummyArgName" class="nt">SFDummyArgName</a></code>, <code><a href="#SFVarName" class="nt">SFVarName</a></code>, <code><a href="#SubroutineName" class="nt">SubroutineName</a></code>, <code><a href="#SubroutineNameUse" class="nt">SubroutineNameUse</a></code>, <code><a href="#VariableName" class="nt">VariableName</a></code>, <code><a href="#ScalarVariable" class="nt">ScalarVariable</a></code>, <code><a href="#Variable" class="nt">Variable</a></code>, <code><a href="#SubscriptListRef" class="nt">SubscriptListRef</a></code>, <code><a href="#SubscriptList" class="nt">SubscriptList</a></code>, <code><a href="#Subscript" class="nt">Subscript</a></code>, <code><a href="#LblDef" class="nt">LblDef</a></code>, <code><a href="#BodyPlusInternals" class="nt">BodyPlusInternals</a></code>, <code><a href="#InternalSubprogram" class="nt">InternalSubprogram</a></code>, <code><a href="#ModuleSubprogramPartConstruct" class="nt">ModuleSubprogramPartConstruct</a></code>, <code><a href="#ModuleSubprogram" class="nt">ModuleSubprogram</a></code>, <code><a href="#DefinedOperator" class="nt">DefinedOperator</a></code>, <code><a href="#KindParam" class="nt">KindParam</a></code>, <code><a href="#BozLiteralConstant" class="nt">BozLiteralConstant</a></code>, <code><a href="#DerivedTypeDef" class="nt">DerivedTypeDef</a></code>, <code><a href="#DerivedTypeBody" class="nt">DerivedTypeBody</a></code>, <code><a href="#DerivedTypeBodyConstruct" class="nt">DerivedTypeBodyConstruct</a></code>, <code><a href="#PrivateSequenceStmt" class="nt">PrivateSequenceStmt</a></code>, <code><a href="#DerivedTypeStmt" class="nt">DerivedTypeStmt</a></code>, <code><a href="#EndTypeStmt" class="nt">EndTypeStmt</a></code>, <code><a href="#ComponentDefStmt" class="nt">ComponentDefStmt</a></code>, <code><a href="#ComponentAttrSpecList" class="nt">ComponentAttrSpecList</a></code>, <code><a href="#ComponentAttrSpec" class="nt">ComponentAttrSpec</a></code>, <code><a href="#ComponentArraySpec" class="nt">ComponentArraySpec</a></code>, <code><a href="#ComponentDeclList" class="nt">ComponentDeclList</a></code>, <code><a href="#ComponentDecl" class="nt">ComponentDecl</a></code>, <code><a href="#StructureConstructor" class="nt">StructureConstructor</a></code>, <code><a href="#ExprList" class="nt">ExprList</a></code>, <code><a href="#ArrayConstructor" class="nt">ArrayConstructor</a></code>, <code><a href="#AcValueList" class="nt">AcValueList</a></code>, <code><a href="#AcValueList1" class="nt">AcValueList1</a></code>, <code><a href="#AcImpliedDo" class="nt">AcImpliedDo</a></code>, <code><a href="#AttrSpecSeq" class="nt">AttrSpecSeq</a></code>, <code><a href="#AttrSpec" class="nt">AttrSpec</a></code>, <code><a href="#KindSelector" class="nt">KindSelector</a></code>, <code><a href="#CharSelector" class="nt">CharSelector</a></code>, <code><a href="#AccessSpec" class="nt">AccessSpec</a></code>, <code><a href="#IntentSpec" class="nt">IntentSpec</a></code>, <code><a href="#AssumedShapeSpecList" class="nt">AssumedShapeSpecList</a></code>, <code><a href="#AssumedShapeSpec" class="nt">AssumedShapeSpec</a></code>, <code><a href="#DeferredShapeSpecList" class="nt">DeferredShapeSpecList</a></code>, <code><a href="#DeferredShapeSpec" class="nt">DeferredShapeSpec</a></code>, <code><a href="#IntentStmt" class="nt">IntentStmt</a></code>, <code><a href="#ColonColon" class="nt">ColonColon</a></code>, <code><a href="#IntentParList" class="nt">IntentParList</a></code>, <code><a href="#IntentPar" class="nt">IntentPar</a></code>, <code><a href="#OptionalStmt" class="nt">OptionalStmt</a></code>, <code><a href="#OptionalParList" class="nt">OptionalParList</a></code>, <code><a href="#OptionalPar" class="nt">OptionalPar</a></code>, <code><a href="#AccessStmt" class="nt">AccessStmt</a></code>, <code><a href="#AccessIdList" class="nt">AccessIdList</a></code>, <code><a href="#AccessId" class="nt">AccessId</a></code>, <code><a href="#AllocatableStmt" class="nt">AllocatableStmt</a></code>, <code><a href="#ArrayAllocationList" class="nt">ArrayAllocationList</a></code>, <code><a href="#ArrayAllocation" class="nt">ArrayAllocation</a></code>, <code><a href="#PointerStmt" class="nt">PointerStmt</a></code>, <code><a href="#PointerStmtObjectList" class="nt">PointerStmtObjectList</a></code>, <code><a href="#PointerStmtObject" class="nt">PointerStmtObject</a></code>, <code><a href="#TargetStmt" class="nt">TargetStmt</a></code>, <code><a href="#TargetObjectList" class="nt">TargetObjectList</a></code>, <code><a href="#TargetObject" class="nt">TargetObject</a></code>, <code><a href="#NamelistStmt" class="nt">NamelistStmt</a></code>, <code><a href="#NamelistGroups" class="nt">NamelistGroups</a></code>, <code><a href="#NamelistGroupObject" class="nt">NamelistGroupObject</a></code>, <code><a href="#StructureComponent" class="nt">StructureComponent</a></code>, <code><a href="#FieldSelector" class="nt">FieldSelector</a></code>, <code><a href="#AllocateStmt" class="nt">AllocateStmt</a></code>, <code><a href="#AllocationList" class="nt">AllocationList</a></code>, <code><a href="#Allocation" class="nt">Allocation</a></code>, <code><a href="#AllocatedShape" class="nt">AllocatedShape</a></code>, <code><a href="#AllocateObjectList" class="nt">AllocateObjectList</a></code>, <code><a href="#AllocateObject" class="nt">AllocateObject</a></code>, <code><a href="#NullifyStmt" class="nt">NullifyStmt</a></code>, <code><a href="#PointerObjectList" class="nt">PointerObjectList</a></code>, <code><a href="#PointerObject" class="nt">PointerObject</a></code>, <code><a href="#PointerField" class="nt">PointerField</a></code>, <code><a href="#DeallocateStmt" class="nt">DeallocateStmt</a></code>, <code><a href="#DefinedUnaryOp" class="nt">DefinedUnaryOp</a></code>, <code><a href="#DefinedBinaryOp" class="nt">DefinedBinaryOp</a></code>, <code><a href="#PointerAssignmentStmt" class="nt">PointerAssignmentStmt</a></code>, <code><a href="#Target" class="nt">Target</a></code>, <code><a href="#WhereStmt" class="nt">WhereStmt</a></code>, <code><a href="#WhereConstruct" class="nt">WhereConstruct</a></code>, <code><a href="#Where" class="nt">Where</a></code>, <code><a href="#ElseWhere" class="nt">ElseWhere</a></code>, <code><a href="#WhereConstructStmt" class="nt">WhereConstructStmt</a></code>, <code><a href="#MaskExpr" class="nt">MaskExpr</a></code>, <code><a href="#ElsewhereStmt" class="nt">ElsewhereStmt</a></code>, <code><a href="#EndWhereStmt" class="nt">EndWhereStmt</a></code>, <code><a href="#CaseConstruct" class="nt">CaseConstruct</a></code>, <code><a href="#SelectCaseRange" class="nt">SelectCaseRange</a></code>, <code><a href="#SelectCaseBody" class="nt">SelectCaseBody</a></code>, <code><a href="#CaseBodyConstruct" class="nt">CaseBodyConstruct</a></code>, <code><a href="#CaseStmt" class="nt">CaseStmt</a></code>, <code><a href="#EndSelectStmt" class="nt">EndSelectStmt</a></code>, <code><a href="#CaseSelector" class="nt">CaseSelector</a></code>, <code><a href="#CaseValueRangeList" class="nt">CaseValueRangeList</a></code>, <code><a href="#CaseValueRange" class="nt">CaseValueRange</a></code>, <code><a href="#BlockDoConstruct" class="nt">BlockDoConstruct</a></code>, <code><a href="#NameColon" class="nt">NameColon</a></code>, <code><a href="#EndDoStmt" class="nt">EndDoStmt</a></code>, <code><a href="#CycleStmt" class="nt">CycleStmt</a></code>, <code><a href="#ExitStmt" class="nt">ExitStmt</a></code>, <code><a href="#Module" class="nt">Module</a></code>, <code><a href="#ModuleBody" class="nt">ModuleBody</a></code>, <code><a href="#ModuleStmt" class="nt">ModuleStmt</a></code>, <code><a href="#EndModuleStmt" class="nt">EndModuleStmt</a></code>, <code><a href="#UseStmt" class="nt">UseStmt</a></code>, <code><a href="#RenameList" class="nt">RenameList</a></code>, <code><a href="#OnlyList" class="nt">OnlyList</a></code>, <code><a href="#Rename" class="nt">Rename</a></code>, <code><a href="#Only" class="nt">Only</a></code>, <code><a href="#InterfaceBlock" class="nt">InterfaceBlock</a></code>, <code><a href="#InterfaceBlockBody" class="nt">InterfaceBlockBody</a></code>, <code><a href="#InterfaceBodyPartConstruct" class="nt">InterfaceBodyPartConstruct</a></code>, <code><a href="#InterfaceStmt" class="nt">InterfaceStmt</a></code>, <code><a href="#EndInterfaceStmt" class="nt">EndInterfaceStmt</a></code>, <code><a href="#InterfaceBody" class="nt">InterfaceBody</a></code>, <code><a href="#FunctionInterfaceRange" class="nt">FunctionInterfaceRange</a></code>, <code><a href="#SubroutineInterfaceRange" class="nt">SubroutineInterfaceRange</a></code>, <code><a href="#SubprogramInterfaceBody" class="nt">SubprogramInterfaceBody</a></code>, <code><a href="#ModuleProcedureStmt" class="nt">ModuleProcedureStmt</a></code>, <code><a href="#ProcedureNameList" class="nt">ProcedureNameList</a></code>, <code><a href="#ProcedureName" class="nt">ProcedureName</a></code>, <code><a href="#GenericSpec" class="nt">GenericSpec</a></code>, <code><a href="#FunctionArgList" class="nt">FunctionArgList</a></code>, <code><a href="#FunctionArg" class="nt">FunctionArg</a></code>, <code><a href="#ContainsStmt" class="nt">ContainsStmt</a></code>, <code><a href="#ArrayName" class="nt">ArrayName</a></code>, <code><a href="#ComponentName" class="nt">ComponentName</a></code>, <code><a href="#GenericName" class="nt">GenericName</a></code>, <code><a href="#ModuleName" class="nt">ModuleName</a></code>, <code><a href="#NamelistGroupName" class="nt">NamelistGroupName</a></code>, <code><a href="#UseName" class="nt">UseName</a></code>, <code><a href="#TypeName" class="nt">TypeName</a></code>, <code><a href="#EndName" class="nt">EndName</a></code>), <strong>0</strong> root (—), <strong>2</strong> top (<code><a href="#program" class="nt">program</a></code>, <code><a href="#SFVarName" class="nt">SFVarName</a></code>), <strong>24</strong> bottom (<code class="nt">comment</code>, <code class="nt">SP</code><sup> 30</sup>, <code class="nt">SPON</code><sup> 4</sup>, <code class="nt">IN_6</code>, <code class="nt">Fcon</code>, <code class="nt">id</code>, <code class="nt">Hcon</code><sup> 4</sup>, <code class="nt">Icon</code><sup> 12</sup>, <code class="nt">IN_2</code><sup> 6</sup>, <code class="nt">newline</code>, <code class="nt">Ocon</code>, <code class="nt">Pcon</code><sup> 3</sup>, <code class="nt">SPOFF</code><sup> 4</sup>, <code class="nt">RDcon</code><sup> 6</sup>, <code class="nt">TAB_9</code>, <code class="nt">Scon</code><sup> 9</sup>, <code class="nt">TAB_7</code>, <code class="nt">EX_6</code>, <code class="nt">Xcon</code>, <code class="nt">Zcon</code>, <code class="nt">TAB_2</code><sup> 2</sup>, <code class="nt">EX_2</code><sup> 7</sup>, <code class="nt">Dop</code><sup> 3</sup>, <code class="nt">Bcon</code>).</li><li>Total <strong>172</strong> terminal symbols: <strong>98</strong> keywords (<span class="t">"end"</span><sup> 20</sup>, <span class="t">"include"</span>, <span class="t">"subroutine"</span><sup> 4</sup>, <span class="t">"program"</span><sup> 2</sup>, <span class="t">"function"</span><sup> 6</sup>, <span class="t">"entry"</span>, <span class="t">"result"</span><sup> 4</sup>, <span class="t">"blockdata"</span><sup> 2</sup>, <span class="t">"dimension"</span><sup> 4</sup>, <span class="t">"equivalence"</span>, <span class="t">"common"</span>, <span class="t">"integer"</span><sup> 2</sup>, <span class="t">"real"</span><sup> 2</sup>, <span class="t">"doubleprecision"</span>, <span class="t">"complex"</span><sup> 2</sup>, <span class="t">"logical"</span><sup> 2</sup>, <span class="t">"character"</span><sup> 3</sup>, <span class="t">"implicit"</span><sup> 2</sup>, <span class="t">"parameter"</span><sup> 2</sup>, <span class="t">"external"</span><sup> 2</sup>, <span class="t">"intrinsic"</span><sup> 2</sup>, <span class="t">"save"</span><sup> 4</sup>, <span class="t">"data"</span><sup> 4</sup>, <span class="t">"assign"</span>, <span class="t">"to"</span><sup> 2</sup>, <span class="t">"goto"</span>, <span class="t">"if"</span><sup> 5</sup>, <span class="t">"then"</span><sup> 3</sup>, <span class="t">"elseif"</span>, <span class="t">"else"</span><sup> 2</sup>, <span class="t">"endif"</span>, <span class="t">"do"</span><sup> 4</sup>, <span class="t">"continue"</span>, <span class="t">"stop"</span>, <span class="t">"pause"</span>, <span class="t">"write"</span>, <span class="t">"read"</span><sup> 2</sup>, <span class="t">"print"</span><sup> 2</sup>, <span class="t">"open"</span>, <span class="t">"close"</span>, <span class="t">"inquire"</span><sup> 2</sup>, <span class="t">"backspace"</span><sup> 2</sup>, <span class="t">"endfile"</span><sup> 2</sup>, <span class="t">"rewind"</span><sup> 2</sup>, <span class="t">"format"</span>, <span class="t">"call"</span><sup> 2</sup>, <span class="t">"return"</span>, <span class="t">"private"</span><sup> 2</sup>, <span class="t">"sequence"</span>, <span class="t">"type"</span><sup> 6</sup>, <span class="t">"endtype"</span><sup> 2</sup>, <span class="t">"pointer"</span><sup> 3</sup>, <span class="t">"allocatable"</span><sup> 2</sup>, <span class="t">"intent"</span><sup> 2</sup>, <span class="t">"optional"</span><sup> 2</sup>, <span class="t">"target"</span><sup> 2</sup>, <span class="t">"public"</span>, <span class="t">"in"</span>, <span class="t">"out"</span>, <span class="t">"inout"</span>, <span class="t">"namelist"</span>, <span class="t">"allocate"</span><sup> 2</sup>, <span class="t">"nullify"</span>, <span class="t">"deallocate"</span><sup> 2</sup>, <span class="t">"where"</span><sup> 3</sup>, <span class="t">"elsewhere"</span>, <span class="t">"endwhere"</span>, <span class="t">"selectcase"</span><sup> 2</sup>, <span class="t">"select"</span><sup> 3</sup>, <span class="t">"case"</span><sup> 4</sup>, <span class="t">"endselect"</span>, <span class="t">"default"</span>, <span class="t">"enddo"</span>, <span class="t">"cycle"</span>, <span class="t">"exit"</span>, <span class="t">"module"</span><sup> 3</sup>, <span class="t">"endmodule"</span>, <span class="t">"use"</span><sup> 4</sup>, <span class="t">"only"</span><sup> 2</sup>, <span class="t">"interface"</span><sup> 4</sup>, <span class="t">"endinterface"</span>, <span class="t">"procedure"</span>, <span class="t">"operator"</span>, <span class="t">"assignment"</span>, <span class="t">"contains"</span>, <span class="t">"double"</span>, <span class="t">"precision"</span>, <span class="t">"none"</span>, <span class="t">"while"</span>, <span class="t">"go"</span>, <span class="t">"file"</span><sup> 2</sup>, <span class="t">"endprogram"</span>, <span class="t">"block"</span><sup> 2</sup>, <span class="t">"endblockdata"</span>, <span class="t">"endblock"</span>, <span class="t">"recursive"</span><sup> 4</sup>, <span class="t">"endfunction"</span>, <span class="t">"endsubroutine"</span>), <strong>0</strong> letters (—), <strong>0</strong> numerics (—), <strong>24</strong> signs (<span class="t">"("</span><sup> 98</sup>, <span class="t">")"</span><sup> 98</sup>, <span class="t">","</span><sup> 80</sup>, <span class="t">"*"</span><sup> 22</sup>, <span class="t">":"</span><sup> 24</sup>, <span class="t">"/"</span><sup> 18</sup>, <span class="t">"-"</span><sup> 4</sup>, <span class="t">"="</span><sup> 24</sup>, <span class="t">"$"</span>, <span class="t">"**"</span>, <span class="t">"+"</span><sup> 3</sup>, <span class="t">"::"</span><sup> 10</sup>, <span class="t">"(/"</span>, <span class="t">"/)"</span>, <span class="t">"%"</span><sup> 7</sup>, <span class="t">"=&gt;"</span><sup> 4</sup>, <span class="t">"_"</span><sup> 6</sup>, <span class="t">"."</span>, <span class="t">"=="</span>, <span class="t">"/="</span>, <span class="t">"&lt;"</span>, <span class="t">"&lt;="</span>, <span class="t">"&gt;"</span>, <span class="t">"&gt;="</span>).</li></ul><h2 class="l">Syntax</h2><pre><a name="Ident" class="nt">Ident</a> ::=
+	<a href="#id" class="nt">id</a></pre><pre><a name="EOS" class="nt">EOS</a> ::=
+	<a href="#CommentOrNewline" class="nt">CommentOrNewline</a> <a href="#CommentOrNewline" class="nt">CommentOrNewline</a><span class="meta">*</span></pre><pre><a name="CommentOrNewline" class="nt">CommentOrNewline</a> ::=
+	<a href="#comment" class="nt">comment</a>
+	<a href="#newline" class="nt">newline</a></pre><pre><a name="program" class="nt">program</a> ::=
+	<a href="#IN_6" class="nt">IN_6</a> <a href="#CommentOrNewline" class="nt">CommentOrNewline</a><span class="meta">*</span> <a href="#ExecutableProgram" class="nt">ExecutableProgram</a> <a href="#CommentOrNewline" class="nt">CommentOrNewline</a><span class="meta">*</span> <a href="#EX_6" class="nt">EX_6</a></pre><pre><a name="ExecutableProgram" class="nt">ExecutableProgram</a> ::=
+	<a href="#ProgramUnit" class="nt">ProgramUnit</a><span class="meta">+</span></pre><pre><a name="ProgramUnit" class="nt">ProgramUnit</a> ::=
+	<a href="#MainProgram" class="nt">MainProgram</a>
+	<a href="#FunctionSubprogram" class="nt">FunctionSubprogram</a>
+	<a href="#SubroutineSubprogram" class="nt">SubroutineSubprogram</a>
+	<a href="#BlockDataSubprogram" class="nt">BlockDataSubprogram</a></pre><pre><a name="MainProgram" class="nt">MainProgram</a> ::=
+	<a href="#ProgramStmt" class="nt">ProgramStmt</a><span class="meta">?</span> <a href="#MainRange" class="nt">MainRange</a></pre><pre><a name="MainRange" class="nt">MainRange</a> ::=
+	<a href="#Body" class="nt">Body</a><span class="meta">?</span> <a href="#EndProgramStmt" class="nt">EndProgramStmt</a></pre><pre><a name="EndProgramStmt" class="nt">EndProgramStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"end"</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="Body" class="nt">Body</a> ::=
+	<a href="#BodyConstruct" class="nt">BodyConstruct</a><span class="meta">+</span></pre><pre><a name="BodyConstruct" class="nt">BodyConstruct</a> ::=
+	<a href="#SpecificationPartConstruct" class="nt">SpecificationPartConstruct</a>
+	<a href="#ExecutableConstruct" class="nt">ExecutableConstruct</a></pre><pre><a name="SpecificationPartConstruct" class="nt">SpecificationPartConstruct</a> ::=
+	<a href="#ImplicitStmt" class="nt">ImplicitStmt</a>
+	<a href="#ParameterStmt" class="nt">ParameterStmt</a>
+	<a href="#FormatStmt" class="nt">FormatStmt</a>
+	<a href="#EntryStmt" class="nt">EntryStmt</a>
+	<a href="#DeclarationConstruct" class="nt">DeclarationConstruct</a>
+	<a href="#IncludeStmt" class="nt">IncludeStmt</a></pre><pre><a name="IncludeStmt" class="nt">IncludeStmt</a> ::=
+	<span class="t">"include"</span> <a href="#Scon" class="nt">Scon</a> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="DeclarationConstruct" class="nt">DeclarationConstruct</a> ::=
+	<a href="#TypeDeclarationStmt" class="nt">TypeDeclarationStmt</a>
+	<a href="#SpecificationStmt" class="nt">SpecificationStmt</a></pre><pre><a name="FunctionSubprogram" class="nt">FunctionSubprogram</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <a href="#FunctionPrefix" class="nt">FunctionPrefix</a> <a href="#FunctionName" class="nt">FunctionName</a> <a href="#FunctionRange" class="nt">FunctionRange</a></pre><pre><a name="FunctionRange" class="nt">FunctionRange</a> ::=
+	<a href="#FunctionParList" class="nt">FunctionParList</a> <a href="#EOS" class="nt">EOS</a> <a href="#Body" class="nt">Body</a><span class="meta">?</span> <a href="#EndFunctionStmt" class="nt">EndFunctionStmt</a></pre><pre><a name="EndFunctionStmt" class="nt">EndFunctionStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"end"</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="SubroutineSubprogram" class="nt">SubroutineSubprogram</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"subroutine"</span> <a href="#SubroutineName" class="nt">SubroutineName</a> <a href="#SubroutineRange" class="nt">SubroutineRange</a></pre><pre><a name="SubroutineRange" class="nt">SubroutineRange</a> ::=
+	<a href="#SubroutineParList" class="nt">SubroutineParList</a> <a href="#EOS" class="nt">EOS</a> <a href="#Body" class="nt">Body</a><span class="meta">?</span> <a href="#EndSubroutineStmt" class="nt">EndSubroutineStmt</a></pre><pre><a name="EndSubroutineStmt" class="nt">EndSubroutineStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"end"</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="BlockDataSubprogram" class="nt">BlockDataSubprogram</a> ::=
+	<a href="#BlockDataStmt" class="nt">BlockDataStmt</a> <a href="#BlockDataBody" class="nt">BlockDataBody</a> <a href="#EndBlockDataStmt" class="nt">EndBlockDataStmt</a>
+	<a href="#BlockDataStmt" class="nt">BlockDataStmt</a> <a href="#EndBlockDataStmt" class="nt">EndBlockDataStmt</a></pre><pre><a name="EndBlockDataStmt" class="nt">EndBlockDataStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"end"</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="BlockDataBody" class="nt">BlockDataBody</a> ::=
+	<a href="#BlockDataBodyConstruct" class="nt">BlockDataBodyConstruct</a>
+	<a href="#BlockDataBody" class="nt">BlockDataBody</a> <a href="#BlockDataBodyConstruct" class="nt">BlockDataBodyConstruct</a></pre><pre><a name="BlockDataBodyConstruct" class="nt">BlockDataBodyConstruct</a> ::=
+	<a href="#SpecificationPartConstruct" class="nt">SpecificationPartConstruct</a></pre><pre><a name="SpecificationStmt" class="nt">SpecificationStmt</a> ::=
+	<a href="#CommonStmt" class="nt">CommonStmt</a>
+	<a href="#DataStmt" class="nt">DataStmt</a>
+	<a href="#DimensionStmt" class="nt">DimensionStmt</a>
+	<a href="#EquivalenceStmt" class="nt">EquivalenceStmt</a>
+	<a href="#ExternalStmt" class="nt">ExternalStmt</a>
+	<a href="#IntrinsicStmt" class="nt">IntrinsicStmt</a>
+	<a href="#SaveStmt" class="nt">SaveStmt</a></pre><pre><a name="ExecutionPartConstruct" class="nt">ExecutionPartConstruct</a> ::=
+	<a href="#ExecutableConstruct" class="nt">ExecutableConstruct</a>
+	<a href="#FormatStmt" class="nt">FormatStmt</a>
+	<a href="#DataStmt" class="nt">DataStmt</a>
+	<a href="#EntryStmt" class="nt">EntryStmt</a></pre><pre><a name="ExecutableConstruct" class="nt">ExecutableConstruct</a> ::=
+	<a href="#ActionStmt" class="nt">ActionStmt</a>
+	<a href="#DoConstruct" class="nt">DoConstruct</a>
+	<a href="#IfConstruct" class="nt">IfConstruct</a></pre><pre><a name="ActionStmt" class="nt">ActionStmt</a> ::=
+	<a href="#ArithmeticIfStmt" class="nt">ArithmeticIfStmt</a>
+	<a href="#AssignmentStmt" class="nt">AssignmentStmt</a>
+	<a href="#AssignStmt" class="nt">AssignStmt</a>
+	<a href="#BackspaceStmt" class="nt">BackspaceStmt</a>
+	<a href="#CallStmt" class="nt">CallStmt</a>
+	<a href="#CloseStmt" class="nt">CloseStmt</a>
+	<a href="#ContinueStmt" class="nt">ContinueStmt</a>
+	<a href="#EndfileStmt" class="nt">EndfileStmt</a>
+	<a href="#GotoStmt" class="nt">GotoStmt</a>
+	<a href="#ComputedGotoStmt" class="nt">ComputedGotoStmt</a>
+	<a href="#AssignedGotoStmt" class="nt">AssignedGotoStmt</a>
+	<a href="#IfStmt" class="nt">IfStmt</a>
+	<a href="#InquireStmt" class="nt">InquireStmt</a>
+	<a href="#OpenStmt" class="nt">OpenStmt</a>
+	<a href="#PauseStmt" class="nt">PauseStmt</a>
+	<a href="#PrintStmt" class="nt">PrintStmt</a>
+	<a href="#ReadStmt" class="nt">ReadStmt</a>
+	<a href="#ReturnStmt" class="nt">ReturnStmt</a>
+	<a href="#RewindStmt" class="nt">RewindStmt</a>
+	<a href="#StmtFunctionStmt" class="nt">StmtFunctionStmt</a>
+	<a href="#StopStmt" class="nt">StopStmt</a>
+	<a href="#WriteStmt" class="nt">WriteStmt</a></pre><pre><a name="ProgramStmt" class="nt">ProgramStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"program"</span> <a href="#ProgramName" class="nt">ProgramName</a> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="FunctionPrefix" class="nt">FunctionPrefix</a> ::=
+	<span class="t">"function"</span>
+	<a href="#TypeSpec" class="nt">TypeSpec</a> <span class="t">"function"</span></pre><pre><a name="FunctionParList" class="nt">FunctionParList</a> ::=
+	<span class="t">"("</span> <a href="#FunctionPars" class="nt">FunctionPars</a> <span class="t">")"</span>
+	ε</pre><pre><a name="FunctionPars" class="nt">FunctionPars</a> ::=
+	<span class="meta">{</span><a href="#FunctionPar" class="nt">FunctionPar</a> <span class="t">","</span><span class="meta">}*</span></pre><pre><a name="FunctionPar" class="nt">FunctionPar</a> ::=
+	<a href="#DummyArgName" class="nt">DummyArgName</a></pre><pre><a name="SubroutineParList" class="nt">SubroutineParList</a> ::=
+	<span class="t">"("</span> <a href="#SubroutinePars" class="nt">SubroutinePars</a> <span class="t">")"</span>
+	ε</pre><pre><a name="SubroutinePars" class="nt">SubroutinePars</a> ::=
+	<span class="meta">{</span><a href="#SubroutinePar" class="nt">SubroutinePar</a> <span class="t">","</span><span class="meta">}*</span></pre><pre><a name="SubroutinePar" class="nt">SubroutinePar</a> ::=
+	<a href="#DummyArgName" class="nt">DummyArgName</a>
+	<span class="t">"*"</span></pre><pre><a name="EntryStmt" class="nt">EntryStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"entry"</span> <a href="#EntryName" class="nt">EntryName</a> <a href="#SubroutineParList" class="nt">SubroutineParList</a> <span class="t">"result"</span> <span class="t">"("</span> <a href="#Name" class="nt">Name</a> <span class="t">")"</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="BlockDataStmt" class="nt">BlockDataStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"blockdata"</span> <a href="#BlockDataName" class="nt">BlockDataName</a><span class="meta">?</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="DimensionStmt" class="nt">DimensionStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"dimension"</span> <a href="#ArrayDeclaratorList" class="nt">ArrayDeclaratorList</a> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="ArrayDeclaratorList" class="nt">ArrayDeclaratorList</a> ::=
+	<a href="#ArrayDeclarator" class="nt">ArrayDeclarator</a><span class="meta">+</span></pre><pre><a name="ArrayDeclarator" class="nt">ArrayDeclarator</a> ::=
+	<a href="#VariableName" class="nt">VariableName</a> <span class="t">"("</span> <a href="#ArraySpec" class="nt">ArraySpec</a> <span class="t">")"</span></pre><pre><a name="ArraySpec" class="nt">ArraySpec</a> ::=
+	<a href="#ExplicitShapeSpecList" class="nt">ExplicitShapeSpecList</a>
+	<a href="#AssumedSizeSpec" class="nt">AssumedSizeSpec</a></pre><pre><a name="ExplicitShapeSpecList" class="nt">ExplicitShapeSpecList</a> ::=
+	<a href="#ExplicitShapeSpec" class="nt">ExplicitShapeSpec</a><span class="meta">+</span></pre><pre><a name="ExplicitShapeSpec" class="nt">ExplicitShapeSpec</a> ::=
+	<a href="#LowerBound" class="nt">LowerBound</a> <span class="t">":"</span> <a href="#UpperBound" class="nt">UpperBound</a>
+	<a href="#UpperBound" class="nt">UpperBound</a></pre><pre><a name="LowerBound" class="nt">LowerBound</a> ::=
+	<a href="#Expr" class="nt">Expr</a></pre><pre><a name="UpperBound" class="nt">UpperBound</a> ::=
+	<a href="#Expr" class="nt">Expr</a></pre><pre><a name="AssumedSizeSpec" class="nt">AssumedSizeSpec</a> ::=
+	<span class="t">"*"</span>
+	<a href="#LowerBound" class="nt">LowerBound</a> <span class="t">":"</span> <span class="t">"*"</span>
+	<a href="#ExplicitShapeSpecList" class="nt">ExplicitShapeSpecList</a> <span class="t">","</span> <span class="t">"*"</span>
+	<a href="#ExplicitShapeSpecList" class="nt">ExplicitShapeSpecList</a> <span class="t">","</span> <a href="#LowerBound" class="nt">LowerBound</a> <span class="t">":"</span> <span class="t">"*"</span></pre><pre><a name="EquivalenceStmt" class="nt">EquivalenceStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"equivalence"</span> <a href="#EquivalenceSetList" class="nt">EquivalenceSetList</a> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="EquivalenceSetList" class="nt">EquivalenceSetList</a> ::=
+	<a href="#EquivalenceSet" class="nt">EquivalenceSet</a><span class="meta">+</span></pre><pre><a name="EquivalenceSet" class="nt">EquivalenceSet</a> ::=
+	<span class="t">"("</span> <a href="#EquivalenceObject" class="nt">EquivalenceObject</a> <span class="t">","</span> <a href="#EquivalenceObjectList" class="nt">EquivalenceObjectList</a> <span class="t">")"</span></pre><pre><a name="EquivalenceObjectList" class="nt">EquivalenceObjectList</a> ::=
+	<a href="#EquivalenceObject" class="nt">EquivalenceObject</a><span class="meta">+</span></pre><pre><a name="EquivalenceObject" class="nt">EquivalenceObject</a> ::=
+	<a href="#Variable" class="nt">Variable</a></pre><pre><a name="CommonStmt" class="nt">CommonStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"common"</span> <a href="#Comlist" class="nt">Comlist</a> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="Comlist" class="nt">Comlist</a> ::=
+	<a href="#Comblock" class="nt">Comblock</a><span class="meta">?</span> <a href="#CommonBlockObject" class="nt">CommonBlockObject</a>
+	<a href="#Comlist" class="nt">Comlist</a> <span class="t">","</span> <a href="#Comblock" class="nt">Comblock</a><span class="meta">?</span> <a href="#CommonBlockObject" class="nt">CommonBlockObject</a>
+	<a href="#Comlist" class="nt">Comlist</a> <a href="#Comblock" class="nt">Comblock</a> <a href="#CommonBlockObject" class="nt">CommonBlockObject</a></pre><pre><a name="Comblock" class="nt">Comblock</a> ::=
+	<span class="t">"/"</span> <a href="#SPOFF" class="nt">SPOFF</a> <span class="t">"/"</span> <a href="#SPON" class="nt">SPON</a>
+	<span class="t">"/"</span> <a href="#CommonBlockName" class="nt">CommonBlockName</a> <span class="t">"/"</span></pre><pre><a name="CommonBlockObject" class="nt">CommonBlockObject</a> ::=
+	<a href="#VariableName" class="nt">VariableName</a>
+	<a href="#ArrayDeclarator" class="nt">ArrayDeclarator</a></pre><pre><a name="TypeDeclarationStmt" class="nt">TypeDeclarationStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <a href="#TypeSpec" class="nt">TypeSpec</a> <a href="#EntityDeclList" class="nt">EntityDeclList</a> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="TypeSpec" class="nt">TypeSpec</a> ::=
+	<span class="t">"integer"</span>
+	<span class="t">"real"</span>
+	<span class="t">"doubleprecision"</span>
+	<span class="t">"complex"</span>
+	<span class="t">"logical"</span>
+	<span class="t">"character"</span>
+	<span class="t">"character"</span> <a href="#LengthSelector" class="nt">LengthSelector</a></pre><pre><a name="EntityDeclList" class="nt">EntityDeclList</a> ::=
+	<a href="#EntityDecl" class="nt">EntityDecl</a><span class="meta">+</span></pre><pre><a name="EntityDecl" class="nt">EntityDecl</a> ::=
+	<a href="#ObjectName" class="nt">ObjectName</a>
+	<a href="#ObjectName" class="nt">ObjectName</a> <span class="t">"("</span> <a href="#ArraySpec" class="nt">ArraySpec</a> <span class="t">")"</span>
+	<a href="#ObjectName" class="nt">ObjectName</a> <span class="t">"*"</span> <a href="#CharLength" class="nt">CharLength</a>
+	<a href="#ObjectName" class="nt">ObjectName</a> <span class="t">"("</span> <a href="#ArraySpec" class="nt">ArraySpec</a> <span class="t">")"</span> <span class="t">"*"</span> <a href="#CharLength" class="nt">CharLength</a></pre><pre><a name="LengthSelector" class="nt">LengthSelector</a> ::=
+	<span class="t">"*"</span> <a href="#CharLength" class="nt">CharLength</a></pre><pre><a name="ImplicitStmt" class="nt">ImplicitStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"implicit"</span> <a href="#ImplicitSpecList" class="nt">ImplicitSpecList</a> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="ImplicitSpecList" class="nt">ImplicitSpecList</a> ::=
+	<a href="#ImplicitSpec" class="nt">ImplicitSpec</a><span class="meta">+</span></pre><pre><a name="ImplicitSpec" class="nt">ImplicitSpec</a> ::=
+	<a href="#TypeSpec" class="nt">TypeSpec</a> <a href="#ImplicitRanges" class="nt">ImplicitRanges</a>
+	<a href="#TypeSpec" class="nt">TypeSpec</a> <span class="t">"("</span> <a href="#ImplicitRanges" class="nt">ImplicitRanges</a> <span class="t">")"</span></pre><pre><a name="ImplicitRanges" class="nt">ImplicitRanges</a> ::=
+	<span class="meta">{</span><a href="#ImplicitRange" class="nt">ImplicitRange</a> <span class="t">","</span><span class="meta">}*</span></pre><pre><a name="ImplicitRange" class="nt">ImplicitRange</a> ::=
+	<a href="#Ident" class="nt">Ident</a> <span class="t">"-"</span> <a href="#Ident" class="nt">Ident</a></pre><pre><a name="CharLength" class="nt">CharLength</a> ::=
+	<span class="t">"("</span> <a href="#TypeParamValue" class="nt">TypeParamValue</a> <span class="t">")"</span>
+	<a href="#Constant" class="nt">Constant</a></pre><pre><a name="TypeParamValue" class="nt">TypeParamValue</a> ::=
+	<a href="#Expr" class="nt">Expr</a>
+	<span class="t">"*"</span></pre><pre><a name="ParameterStmt" class="nt">ParameterStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"parameter"</span> <span class="t">"("</span> <a href="#NamedConstantDefList" class="nt">NamedConstantDefList</a> <span class="t">")"</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="NamedConstantDefList" class="nt">NamedConstantDefList</a> ::=
+	<a href="#NamedConstantDef" class="nt">NamedConstantDef</a><span class="meta">+</span></pre><pre><a name="NamedConstantDef" class="nt">NamedConstantDef</a> ::=
+	<a href="#NamedConstant" class="nt">NamedConstant</a> <span class="t">"="</span> <a href="#Expr" class="nt">Expr</a></pre><pre><a name="NamedConstant" class="nt">NamedConstant</a> ::=
+	<a href="#Ident" class="nt">Ident</a></pre><pre><a name="NamedConstantUse" class="nt">NamedConstantUse</a> ::=
+	<a href="#Ident" class="nt">Ident</a></pre><pre><a name="ExternalStmt" class="nt">ExternalStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"external"</span> <a href="#ExternalNameList" class="nt">ExternalNameList</a> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="ExternalNameList" class="nt">ExternalNameList</a> ::=
+	<a href="#ExternalName" class="nt">ExternalName</a><span class="meta">+</span></pre><pre><a name="IntrinsicStmt" class="nt">IntrinsicStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"intrinsic"</span> <a href="#IntrinsicList" class="nt">IntrinsicList</a> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="IntrinsicList" class="nt">IntrinsicList</a> ::=
+	<a href="#IntrinsicProcedureName" class="nt">IntrinsicProcedureName</a><span class="meta">+</span></pre><pre><a name="SaveStmt" class="nt">SaveStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"save"</span> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"save"</span> <a href="#SavedEntityList" class="nt">SavedEntityList</a> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="SavedEntityList" class="nt">SavedEntityList</a> ::=
+	<a href="#SavedEntity" class="nt">SavedEntity</a><span class="meta">+</span></pre><pre><a name="SavedEntity" class="nt">SavedEntity</a> ::=
+	<a href="#VariableName" class="nt">VariableName</a>
+	<a href="#SavedCommonBlock" class="nt">SavedCommonBlock</a></pre><pre><a name="SavedCommonBlock" class="nt">SavedCommonBlock</a> ::=
+	<span class="t">"/"</span> <a href="#CommonBlockName" class="nt">CommonBlockName</a> <span class="t">"/"</span></pre><pre><a name="DataStmt" class="nt">DataStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"data"</span> <a href="#Datalist" class="nt">Datalist</a> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="Datalist" class="nt">Datalist</a> ::=
+	<a href="#DataStmtSet" class="nt">DataStmtSet</a>
+	<a href="#Datalist" class="nt">Datalist</a><span class="meta">?</span> <span class="t">","</span><span class="meta">?</span> <a href="#DataStmtSet" class="nt">DataStmtSet</a></pre><pre><a name="DataStmtSet" class="nt">DataStmtSet</a> ::=
+	<a href="#DataStmtObjectList" class="nt">DataStmtObjectList</a> <span class="t">"/"</span> <a href="#DataStmtValueList" class="nt">DataStmtValueList</a> <span class="t">"/"</span></pre><pre><a name="DataStmtObjectList" class="nt">DataStmtObjectList</a> ::=
+	<a href="#DataStmtObject" class="nt">DataStmtObject</a><span class="meta">+</span></pre><pre><a name="DataStmtObject" class="nt">DataStmtObject</a> ::=
+	<a href="#Variable" class="nt">Variable</a>
+	<a href="#DataImpliedDo" class="nt">DataImpliedDo</a></pre><pre><a name="DataStmtValueList" class="nt">DataStmtValueList</a> ::=
+	<a href="#DataStmtValue" class="nt">DataStmtValue</a><span class="meta">+</span></pre><pre><a name="DataStmtValue" class="nt">DataStmtValue</a> ::=
+	<a href="#Constant" class="nt">Constant</a>
+	<a href="#Constant" class="nt">Constant</a> <span class="t">"*"</span> <a href="#Constant" class="nt">Constant</a>
+	<a href="#NamedConstantUse" class="nt">NamedConstantUse</a> <span class="t">"*"</span> <a href="#Constant" class="nt">Constant</a></pre><pre><a name="DataImpliedDo" class="nt">DataImpliedDo</a> ::=
+	<span class="t">"("</span> <a href="#DataIDoObjectList" class="nt">DataIDoObjectList</a> <span class="t">","</span> <a href="#ImpliedDoVariable" class="nt">ImpliedDoVariable</a> <span class="t">"="</span> <a href="#Expr" class="nt">Expr</a> <span class="t">","</span> <a href="#Expr" class="nt">Expr</a> <span class="t">")"</span>
+	<span class="t">"("</span> <a href="#DataIDoObjectList" class="nt">DataIDoObjectList</a> <span class="t">","</span> <a href="#ImpliedDoVariable" class="nt">ImpliedDoVariable</a> <span class="t">"="</span> <a href="#Expr" class="nt">Expr</a> <span class="t">","</span> <a href="#Expr" class="nt">Expr</a> <span class="t">","</span> <a href="#Expr" class="nt">Expr</a> <span class="t">")"</span></pre><pre><a name="DataIDoObjectList" class="nt">DataIDoObjectList</a> ::=
+	<a href="#DataIDoObject" class="nt">DataIDoObject</a><span class="meta">+</span></pre><pre><a name="DataIDoObject" class="nt">DataIDoObject</a> ::=
+	<a href="#ArrayElement" class="nt">ArrayElement</a>
+	<a href="#DataImpliedDo" class="nt">DataImpliedDo</a></pre><pre><a name="AssignmentStmt" class="nt">AssignmentStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <a href="#Name" class="nt">Name</a> <a href="#SFExprListRef" class="nt">SFExprListRef</a><span class="meta">?</span> <a href="#SubstringRange" class="nt">SubstringRange</a><span class="meta">?</span> <span class="t">"="</span> <a href="#Expr" class="nt">Expr</a> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="SFExprListRef" class="nt">SFExprListRef</a> ::=
+	<span class="t">"("</span> <a href="#SFExprList" class="nt">SFExprList</a> <a href="#CommaSectionSubscript" class="nt">CommaSectionSubscript</a><span class="meta">*</span> <span class="t">")"</span></pre><pre><a name="SFExprList" class="nt">SFExprList</a> ::=
+	<a href="#Expr" class="nt">Expr</a> <span class="t">":"</span><span class="meta">?</span> <a href="#Expr" class="nt">Expr</a><span class="meta">?</span>
+	<span class="t">":"</span> <a href="#Expr" class="nt">Expr</a><span class="meta">?</span></pre><pre><a name="CommaSectionSubscript" class="nt">CommaSectionSubscript</a> ::=
+	<span class="t">","</span> <a href="#SectionSubscript" class="nt">SectionSubscript</a></pre><pre><a name="AssignStmt" class="nt">AssignStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"assign"</span> <a href="#LblRef" class="nt">LblRef</a> <span class="t">"to"</span> <a href="#VariableName" class="nt">VariableName</a> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="GotoStmt" class="nt">GotoStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <a href="#GoToKw" class="nt">GoToKw</a> <a href="#LblRef" class="nt">LblRef</a> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="GoToKw" class="nt">GoToKw</a> ::=
+	<span class="t">"goto"</span></pre><pre><a name="ComputedGotoStmt" class="nt">ComputedGotoStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <a href="#GoToKw" class="nt">GoToKw</a> <span class="t">"("</span> <a href="#LblRefList" class="nt">LblRefList</a> <span class="t">")"</span> <span class="t">","</span><span class="meta">?</span> <a href="#Expr" class="nt">Expr</a> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="LblRefList" class="nt">LblRefList</a> ::=
+	<a href="#LblRef" class="nt">LblRef</a><span class="meta">+</span></pre><pre><a name="LblRef" class="nt">LblRef</a> ::=
+	<a href="#Label" class="nt">Label</a></pre><pre><a name="AssignedGotoStmt" class="nt">AssignedGotoStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <a href="#GoToKw" class="nt">GoToKw</a> <a href="#VariableName" class="nt">VariableName</a> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <a href="#GoToKw" class="nt">GoToKw</a> <a href="#VariableName" class="nt">VariableName</a> <span class="t">"("</span> <a href="#LblRefList" class="nt">LblRefList</a> <span class="t">")"</span> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <a href="#GoToKw" class="nt">GoToKw</a> <a href="#VariableComma" class="nt">VariableComma</a> <span class="t">"("</span> <a href="#LblRefList" class="nt">LblRefList</a> <span class="t">")"</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="VariableComma" class="nt">VariableComma</a> ::=
+	<a href="#VariableName" class="nt">VariableName</a> <span class="t">","</span></pre><pre><a name="ArithmeticIfStmt" class="nt">ArithmeticIfStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"if"</span> <span class="t">"("</span> <a href="#Expr" class="nt">Expr</a> <span class="t">")"</span> <a href="#LblRef" class="nt">LblRef</a> <span class="t">","</span> <a href="#LblRef" class="nt">LblRef</a> <span class="t">","</span> <a href="#LblRef" class="nt">LblRef</a> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="IfStmt" class="nt">IfStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"if"</span> <span class="t">"("</span> <a href="#Expr" class="nt">Expr</a> <span class="t">")"</span> <a href="#ActionStmt" class="nt">ActionStmt</a></pre><pre><a name="IfConstruct" class="nt">IfConstruct</a> ::=
+	<a href="#IfThenStmt" class="nt">IfThenStmt</a> <a href="#ConditionalBody" class="nt">ConditionalBody</a> <a href="#ElseIfConstruct" class="nt">ElseIfConstruct</a><span class="meta">*</span> <a href="#ElseConstruct" class="nt">ElseConstruct</a><span class="meta">?</span> <a href="#EndIfStmt" class="nt">EndIfStmt</a></pre><pre><a name="ElseIfConstruct" class="nt">ElseIfConstruct</a> ::=
+	<a href="#ElseIfStmt" class="nt">ElseIfStmt</a> <a href="#ConditionalBody" class="nt">ConditionalBody</a></pre><pre><a name="ElseConstruct" class="nt">ElseConstruct</a> ::=
+	<a href="#ElseStmt" class="nt">ElseStmt</a> <a href="#ConditionalBody" class="nt">ConditionalBody</a></pre><pre><a name="ConditionalBody" class="nt">ConditionalBody</a> ::=
+	<a href="#ExecutionPartConstruct" class="nt">ExecutionPartConstruct</a><span class="meta">*</span></pre><pre><a name="IfThenStmt" class="nt">IfThenStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"if"</span> <span class="t">"("</span> <a href="#Expr" class="nt">Expr</a> <span class="t">")"</span> <span class="t">"then"</span> <a href="#EOS" class="nt">EOS</a> <a href="#IN_2" class="nt">IN_2</a></pre><pre><a name="ElseIfStmt" class="nt">ElseIfStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <a href="#EX_2" class="nt">EX_2</a> <span class="t">"elseif"</span> <span class="t">"("</span> <a href="#Expr" class="nt">Expr</a> <span class="t">")"</span> <span class="t">"then"</span> <a href="#EOS" class="nt">EOS</a> <a href="#IN_2" class="nt">IN_2</a></pre><pre><a name="ElseStmt" class="nt">ElseStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <a href="#EX_2" class="nt">EX_2</a> <span class="t">"else"</span> <a href="#EOS" class="nt">EOS</a> <a href="#IN_2" class="nt">IN_2</a></pre><pre><a name="EndIfStmt" class="nt">EndIfStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <a href="#EX_2" class="nt">EX_2</a> <span class="t">"endif"</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="DoConstruct" class="nt">DoConstruct</a> ::=
+	<a href="#LabelDoStmt" class="nt">LabelDoStmt</a></pre><pre><a name="LabelDoStmt" class="nt">LabelDoStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"do"</span> <a href="#DoLblRef" class="nt">DoLblRef</a> <a href="#CommaLoopControl" class="nt">CommaLoopControl</a> <a href="#EOS" class="nt">EOS</a> <a href="#IN_2" class="nt">IN_2</a> <a href="#ExecutionPartConstruct" class="nt">ExecutionPartConstruct</a><span class="meta">*</span> <a href="#EX_2" class="nt">EX_2</a> <a href="#DoLblDef" class="nt">DoLblDef</a> <a href="#DoLabelStmt" class="nt">DoLabelStmt</a></pre><pre><a name="CommaLoopControl" class="nt">CommaLoopControl</a> ::=
+	<span class="t">","</span><span class="meta">?</span> <a href="#LoopControl" class="nt">LoopControl</a></pre><pre><a name="DoLblRef" class="nt">DoLblRef</a> ::=
+	<a href="#Icon" class="nt">Icon</a></pre><pre><a name="DoLblDef" class="nt">DoLblDef</a> ::=
+	<a href="#TAB_2" class="nt">TAB_2</a> <a href="#Icon" class="nt">Icon</a> <a href="#TAB_9" class="nt">TAB_9</a></pre><pre><a name="DoubleDoStmt" class="nt">DoubleDoStmt</a> ::=
+	<span class="t">"do"</span> <a href="#LblRef" class="nt">LblRef</a> <a href="#CommaLoopControl" class="nt">CommaLoopControl</a> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="DoLabelStmt" class="nt">DoLabelStmt</a> ::=
+	<a href="#ActionStmt" class="nt">ActionStmt</a></pre><pre><a name="LoopControl" class="nt">LoopControl</a> ::=
+	<a href="#VariableName" class="nt">VariableName</a> <span class="t">"="</span> <a href="#Expr" class="nt">Expr</a> <span class="t">","</span> <a href="#Expr" class="nt">Expr</a> <a href="#CommaExpr" class="nt">CommaExpr</a><span class="meta">?</span></pre><pre><a name="ContinueStmt" class="nt">ContinueStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"continue"</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="StopStmt" class="nt">StopStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"stop"</span> <a href="#IconOrScon" class="nt">IconOrScon</a><span class="meta">?</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="IconOrScon" class="nt">IconOrScon</a> ::=
+	<a href="#Icon" class="nt">Icon</a>
+	<a href="#Scon" class="nt">Scon</a></pre><pre><a name="PauseStmt" class="nt">PauseStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"pause"</span> <a href="#IconOrScon" class="nt">IconOrScon</a><span class="meta">?</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="WriteStmt" class="nt">WriteStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"write"</span> <span class="t">"("</span> <a href="#IoControlSpecList" class="nt">IoControlSpecList</a> <span class="t">")"</span> <a href="#OutputItemList" class="nt">OutputItemList</a><span class="meta">?</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="ReadStmt" class="nt">ReadStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"read"</span> <a href="#RdCtlSpec" class="nt">RdCtlSpec</a> <a href="#InputItemList" class="nt">InputItemList</a><span class="meta">?</span> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"read"</span> <a href="#RdFmtId" class="nt">RdFmtId</a> <a href="#CommaInputItemList" class="nt">CommaInputItemList</a><span class="meta">?</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="CommaInputItemList" class="nt">CommaInputItemList</a> ::=
+	<span class="t">","</span> <a href="#InputItemList" class="nt">InputItemList</a></pre><pre><a name="RdCtlSpec" class="nt">RdCtlSpec</a> ::=
+	<a href="#RdUnitId" class="nt">RdUnitId</a>
+	<span class="t">"("</span> <a href="#RdIoCtlSpecList" class="nt">RdIoCtlSpecList</a> <span class="t">")"</span></pre><pre><a name="RdUnitId" class="nt">RdUnitId</a> ::=
+	<span class="t">"("</span> <a href="#UFExpr" class="nt">UFExpr</a> <span class="t">")"</span>
+	<span class="t">"("</span> <span class="t">"*"</span> <span class="t">")"</span></pre><pre><a name="RdIoCtlSpecList" class="nt">RdIoCtlSpecList</a> ::=
+	<a href="#UnitIdentifier" class="nt">UnitIdentifier</a> <span class="t">","</span> <a href="#IoControlSpec" class="nt">IoControlSpec</a>
+	<a href="#UnitIdentifier" class="nt">UnitIdentifier</a> <span class="t">","</span> <a href="#FormatIdentifier" class="nt">FormatIdentifier</a>
+	<a href="#IoControlSpec" class="nt">IoControlSpec</a>
+	<a href="#RdIoCtlSpecList" class="nt">RdIoCtlSpecList</a> <span class="t">","</span> <a href="#IoControlSpec" class="nt">IoControlSpec</a></pre><pre><a name="RdFmtId" class="nt">RdFmtId</a> ::=
+	<a href="#LblRef" class="nt">LblRef</a>
+	<span class="t">"*"</span>
+	<a href="#COperand" class="nt">COperand</a>
+	<a href="#COperand" class="nt">COperand</a> <a href="#ConcatOp" class="nt">ConcatOp</a> <a href="#CPrimary" class="nt">CPrimary</a>
+	<a href="#RdFmtIdExpr" class="nt">RdFmtIdExpr</a> <a href="#ConcatOp" class="nt">ConcatOp</a> <a href="#CPrimary" class="nt">CPrimary</a></pre><pre><a name="RdFmtIdExpr" class="nt">RdFmtIdExpr</a> ::=
+	<span class="t">"("</span> <a href="#UFExpr" class="nt">UFExpr</a> <span class="t">")"</span></pre><pre><a name="PrintStmt" class="nt">PrintStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"print"</span> <a href="#FormatIdentifier" class="nt">FormatIdentifier</a> <span class="t">","</span> <a href="#OutputItemList" class="nt">OutputItemList</a> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"print"</span> <a href="#FormatIdentifier" class="nt">FormatIdentifier</a> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="IoControlSpecList" class="nt">IoControlSpecList</a> ::=
+	<a href="#UnitIdentifier" class="nt">UnitIdentifier</a> <span class="t">"$"</span> <span class="t">","</span>
+	<a href="#UnitIdentifier" class="nt">UnitIdentifier</a> <span class="t">","</span> <a href="#FormatIdentifier" class="nt">FormatIdentifier</a>
+	<a href="#UnitIdentifier" class="nt">UnitIdentifier</a> <span class="t">","</span> <a href="#IoControlSpec" class="nt">IoControlSpec</a>
+	<a href="#IoControlSpec" class="nt">IoControlSpec</a>
+	<a href="#IoControlSpecList" class="nt">IoControlSpecList</a> <span class="t">","</span> <a href="#IoControlSpec" class="nt">IoControlSpec</a></pre><pre><a name="IoControlSpec" class="nt">IoControlSpec</a> ::=
+	<span class="t">"fmt="</span> <a href="#FormatIdentifier" class="nt">FormatIdentifier</a>
+	<span class="t">"unit="</span> <a href="#UnitIdentifier" class="nt">UnitIdentifier</a>
+	<span class="t">"rec="</span> <a href="#Expr" class="nt">Expr</a>
+	<span class="t">"end="</span> <a href="#LblRef" class="nt">LblRef</a>
+	<span class="t">"err="</span> <a href="#LblRef" class="nt">LblRef</a>
+	<span class="t">"iostat="</span> <a href="#ScalarVariable" class="nt">ScalarVariable</a></pre><pre><a name="InputItemList" class="nt">InputItemList</a> ::=
+	<a href="#InputItem" class="nt">InputItem</a><span class="meta">+</span></pre><pre><a name="InputItem" class="nt">InputItem</a> ::=
+	<a href="#NameDataRef" class="nt">NameDataRef</a>
+	<a href="#InputImpliedDo" class="nt">InputImpliedDo</a></pre><pre><a name="OutputItemList" class="nt">OutputItemList</a> ::=
+	<a href="#Expr" class="nt">Expr</a>
+	<a href="#OutputItemList1" class="nt">OutputItemList1</a></pre><pre><a name="OutputItemList1" class="nt">OutputItemList1</a> ::=
+	<a href="#Expr" class="nt">Expr</a> <span class="t">","</span> <a href="#Expr" class="nt">Expr</a>
+	<a href="#Expr" class="nt">Expr</a> <span class="t">","</span> <a href="#OutputImpliedDo" class="nt">OutputImpliedDo</a>
+	<a href="#OutputImpliedDo" class="nt">OutputImpliedDo</a>
+	<a href="#OutputItemList1" class="nt">OutputItemList1</a> <span class="t">","</span> <a href="#Expr" class="nt">Expr</a>
+	<a href="#OutputItemList1" class="nt">OutputItemList1</a> <span class="t">","</span> <a href="#OutputImpliedDo" class="nt">OutputImpliedDo</a></pre><pre><a name="InputImpliedDo" class="nt">InputImpliedDo</a> ::=
+	<span class="t">"("</span> <a href="#InputItemList" class="nt">InputItemList</a> <span class="t">","</span> <a href="#ImpliedDoVariable" class="nt">ImpliedDoVariable</a> <span class="t">"="</span> <a href="#Expr" class="nt">Expr</a> <span class="t">","</span> <a href="#Expr" class="nt">Expr</a> <a href="#CommaExpr" class="nt">CommaExpr</a><span class="meta">?</span> <span class="t">")"</span></pre><pre><a name="CommaExpr" class="nt">CommaExpr</a> ::=
+	<span class="t">","</span> <a href="#Expr" class="nt">Expr</a></pre><pre><a name="OutputImpliedDo" class="nt">OutputImpliedDo</a> ::=
+	<span class="t">"("</span> <a href="#Expr" class="nt">Expr</a> <span class="t">","</span> <a href="#ImpliedDoVariable" class="nt">ImpliedDoVariable</a> <span class="t">"="</span> <a href="#Expr" class="nt">Expr</a> <span class="t">","</span> <a href="#Expr" class="nt">Expr</a> <a href="#CommaExpr" class="nt">CommaExpr</a><span class="meta">?</span> <span class="t">")"</span>
+	<span class="t">"("</span> <a href="#OutputItemList1" class="nt">OutputItemList1</a> <span class="t">","</span> <a href="#ImpliedDoVariable" class="nt">ImpliedDoVariable</a> <span class="t">"="</span> <a href="#Expr" class="nt">Expr</a> <span class="t">","</span> <a href="#Expr" class="nt">Expr</a> <a href="#CommaExpr" class="nt">CommaExpr</a><span class="meta">?</span> <span class="t">")"</span></pre><pre><a name="OpenStmt" class="nt">OpenStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"open"</span> <span class="t">"("</span> <a href="#ConnectSpecList" class="nt">ConnectSpecList</a> <span class="t">")"</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="ConnectSpecList" class="nt">ConnectSpecList</a> ::=
+	<a href="#UnitIdentifierComma" class="nt">UnitIdentifierComma</a><span class="meta">?</span> <span class="meta">{</span><a href="#ConnectSpec" class="nt">ConnectSpec</a> <span class="t">","</span><span class="meta">}*</span></pre><pre><a name="UnitIdentifierComma" class="nt">UnitIdentifierComma</a> ::=
+	<a href="#UnitIdentifier" class="nt">UnitIdentifier</a> <span class="t">","</span></pre><pre><a name="ConnectSpec" class="nt">ConnectSpec</a> ::=
+	<span class="t">"unit="</span> <a href="#UnitIdentifier" class="nt">UnitIdentifier</a>
+	<span class="t">"err="</span> <a href="#LblRef" class="nt">LblRef</a>
+	<span class="t">"file="</span> <a href="#CExpr" class="nt">CExpr</a>
+	<span class="t">"status="</span> <a href="#CExpr" class="nt">CExpr</a>
+	<span class="t">"access="</span> <a href="#CExpr" class="nt">CExpr</a>
+	<span class="t">"form="</span> <a href="#CExpr" class="nt">CExpr</a>
+	<span class="t">"recl="</span> <a href="#Expr" class="nt">Expr</a>
+	<span class="t">"blank="</span> <a href="#CExpr" class="nt">CExpr</a>
+	<span class="t">"iostat="</span> <a href="#ScalarVariable" class="nt">ScalarVariable</a></pre><pre><a name="CloseStmt" class="nt">CloseStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"close"</span> <span class="t">"("</span> <a href="#CloseSpecList" class="nt">CloseSpecList</a> <span class="t">")"</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="CloseSpecList" class="nt">CloseSpecList</a> ::=
+	<a href="#UnitIdentifierComma" class="nt">UnitIdentifierComma</a><span class="meta">?</span> <span class="meta">{</span><a href="#CloseSpec" class="nt">CloseSpec</a> <span class="t">","</span><span class="meta">}*</span></pre><pre><a name="CloseSpec" class="nt">CloseSpec</a> ::=
+	<span class="t">"unit="</span> <a href="#UnitIdentifier" class="nt">UnitIdentifier</a>
+	<span class="t">"err="</span> <a href="#LblRef" class="nt">LblRef</a>
+	<span class="t">"status="</span> <a href="#CExpr" class="nt">CExpr</a>
+	<span class="t">"iostat="</span> <a href="#ScalarVariable" class="nt">ScalarVariable</a></pre><pre><a name="InquireStmt" class="nt">InquireStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"inquire"</span> <span class="t">"("</span> <a href="#InquireSpecList" class="nt">InquireSpecList</a> <span class="t">")"</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="InquireSpecList" class="nt">InquireSpecList</a> ::=
+	<a href="#UnitIdentifier" class="nt">UnitIdentifier</a><span class="meta">?</span> <span class="meta">{</span><a href="#InquireSpec" class="nt">InquireSpec</a> <span class="t">","</span><span class="meta">}*</span></pre><pre><a name="InquireSpec" class="nt">InquireSpec</a> ::=
+	<span class="t">"unit="</span> <a href="#UnitIdentifier" class="nt">UnitIdentifier</a>
+	<span class="t">"file="</span> <a href="#CExpr" class="nt">CExpr</a>
+	<span class="t">"err="</span> <a href="#LblRef" class="nt">LblRef</a>
+	<span class="t">"iostat="</span> <a href="#ScalarVariable" class="nt">ScalarVariable</a>
+	<span class="t">"exist="</span> <a href="#ScalarVariable" class="nt">ScalarVariable</a>
+	<span class="t">"opened="</span> <a href="#ScalarVariable" class="nt">ScalarVariable</a>
+	<span class="t">"number="</span> <a href="#ScalarVariable" class="nt">ScalarVariable</a>
+	<span class="t">"named="</span> <a href="#ScalarVariable" class="nt">ScalarVariable</a>
+	<span class="t">"name="</span> <a href="#ScalarVariable" class="nt">ScalarVariable</a>
+	<span class="t">"access="</span> <a href="#ScalarVariable" class="nt">ScalarVariable</a>
+	<span class="t">"sequential="</span> <a href="#ScalarVariable" class="nt">ScalarVariable</a>
+	<span class="t">"direct="</span> <a href="#ScalarVariable" class="nt">ScalarVariable</a>
+	<span class="t">"form="</span> <a href="#ScalarVariable" class="nt">ScalarVariable</a>
+	<span class="t">"formatted="</span> <a href="#ScalarVariable" class="nt">ScalarVariable</a>
+	<span class="t">"unformatted="</span> <a href="#ScalarVariable" class="nt">ScalarVariable</a>
+	<span class="t">"recl="</span> <a href="#Expr" class="nt">Expr</a>
+	<span class="t">"nextrec="</span> <a href="#ScalarVariable" class="nt">ScalarVariable</a>
+	<span class="t">"blank="</span> <a href="#ScalarVariable" class="nt">ScalarVariable</a></pre><pre><a name="BackspaceStmt" class="nt">BackspaceStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"backspace"</span> <a href="#UnitIdentifier" class="nt">UnitIdentifier</a> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"backspace"</span> <span class="t">"("</span> <a href="#PositionSpecList" class="nt">PositionSpecList</a> <span class="t">")"</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="EndfileStmt" class="nt">EndfileStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"endfile"</span> <a href="#UnitIdentifier" class="nt">UnitIdentifier</a> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"endfile"</span> <span class="t">"("</span> <a href="#PositionSpecList" class="nt">PositionSpecList</a> <span class="t">")"</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="RewindStmt" class="nt">RewindStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"rewind"</span> <a href="#UnitIdentifier" class="nt">UnitIdentifier</a> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"rewind"</span> <span class="t">"("</span> <a href="#PositionSpecList" class="nt">PositionSpecList</a> <span class="t">")"</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="PositionSpecList" class="nt">PositionSpecList</a> ::=
+	<a href="#UnitIdentifierComma" class="nt">UnitIdentifierComma</a><span class="meta">?</span> <a href="#PositionSpec" class="nt">PositionSpec</a><span class="meta">+</span></pre><pre><a name="PositionSpec" class="nt">PositionSpec</a> ::=
+	<span class="t">"unit="</span> <a href="#UnitIdentifier" class="nt">UnitIdentifier</a>
+	<span class="t">"err="</span> <a href="#LblRef" class="nt">LblRef</a>
+	<span class="t">"iostat="</span> <a href="#ScalarVariable" class="nt">ScalarVariable</a></pre><pre><a name="UnitIdentifier" class="nt">UnitIdentifier</a> ::=
+	<a href="#UFExpr" class="nt">UFExpr</a>
+	<span class="t">"*"</span></pre><pre><a name="FormatIdentifier" class="nt">FormatIdentifier</a> ::=
+	<a href="#LblRef" class="nt">LblRef</a>
+	<a href="#CExpr" class="nt">CExpr</a>
+	<span class="t">"*"</span></pre><pre><a name="FormatStmt" class="nt">FormatStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"format"</span> <span class="t">"("</span> <a href="#FmtSpec" class="nt">FmtSpec</a><span class="meta">?</span> <span class="t">")"</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="FmtSpec" class="nt">FmtSpec</a> ::=
+	<a href="#Formatedit" class="nt">Formatedit</a>
+	<a href="#Formatsep" class="nt">Formatsep</a>
+	<a href="#Formatsep" class="nt">Formatsep</a> <a href="#Formatedit" class="nt">Formatedit</a>
+	<a href="#FmtSpec" class="nt">FmtSpec</a> <a href="#Formatsep" class="nt">Formatsep</a>
+	<a href="#FmtSpec" class="nt">FmtSpec</a> <a href="#Formatsep" class="nt">Formatsep</a> <a href="#Formatedit" class="nt">Formatedit</a>
+	<a href="#FmtSpec" class="nt">FmtSpec</a> <span class="t">","</span> <a href="#Formatedit" class="nt">Formatedit</a>
+	<a href="#FmtSpec" class="nt">FmtSpec</a> <span class="t">","</span> <a href="#Formatsep" class="nt">Formatsep</a>
+	<a href="#FmtSpec" class="nt">FmtSpec</a> <span class="t">","</span> <a href="#Formatsep" class="nt">Formatsep</a> <a href="#Formatedit" class="nt">Formatedit</a></pre><pre><a name="Formatedit" class="nt">Formatedit</a> ::=
+	<a href="#EditElement" class="nt">EditElement</a>
+	<a href="#Icon" class="nt">Icon</a> <a href="#EditElement" class="nt">EditElement</a>
+	<a href="#Xcon" class="nt">Xcon</a>
+	<a href="#Pcon" class="nt">Pcon</a>
+	<a href="#Pcon" class="nt">Pcon</a> <a href="#EditElement" class="nt">EditElement</a>
+	<a href="#Pcon" class="nt">Pcon</a> <a href="#Icon" class="nt">Icon</a> <a href="#EditElement" class="nt">EditElement</a></pre><pre><a name="EditElement" class="nt">EditElement</a> ::=
+	<a href="#Fcon" class="nt">Fcon</a>
+	<a href="#MislexedFcon" class="nt">MislexedFcon</a>
+	<a href="#Scon" class="nt">Scon</a>
+	<a href="#Hcon" class="nt">Hcon</a>
+	<a href="#Ident" class="nt">Ident</a>
+	<span class="t">"("</span> <a href="#FmtSpec" class="nt">FmtSpec</a> <span class="t">")"</span></pre><pre><a name="MislexedFcon" class="nt">MislexedFcon</a> ::=
+	<a href="#RDcon" class="nt">RDcon</a> <a href="#SPOFF" class="nt">SPOFF</a> <a href="#RDcon" class="nt">RDcon</a> <a href="#SPON" class="nt">SPON</a>
+	<a href="#Ident" class="nt">Ident</a> <a href="#SPOFF" class="nt">SPOFF</a> <a href="#RDcon" class="nt">RDcon</a> <a href="#SPON" class="nt">SPON</a></pre><pre><a name="Formatsep" class="nt">Formatsep</a> ::=
+	<span class="t">"/"</span>
+	<span class="t">":"</span></pre><pre><a name="StmtFunctionStmt" class="nt">StmtFunctionStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <a href="#Name" class="nt">Name</a> <a href="#StmtFunctionRange" class="nt">StmtFunctionRange</a></pre><pre><a name="StmtFunctionRange" class="nt">StmtFunctionRange</a> ::=
+	<span class="t">"("</span> <a href="#SFDummyArgNameList" class="nt">SFDummyArgNameList</a><span class="meta">?</span> <span class="t">")"</span> <span class="t">"="</span> <a href="#Expr" class="nt">Expr</a> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="SFDummyArgNameList" class="nt">SFDummyArgNameList</a> ::=
+	<a href="#SFDummyArgName" class="nt">SFDummyArgName</a><span class="meta">+</span></pre><pre><a name="CallStmt" class="nt">CallStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"call"</span> <a href="#SubroutineNameUse" class="nt">SubroutineNameUse</a> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"call"</span> <a href="#SubroutineNameUse" class="nt">SubroutineNameUse</a> <span class="t">"("</span> <a href="#SubroutineArgList" class="nt">SubroutineArgList</a> <span class="t">")"</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="SubroutineArgList" class="nt">SubroutineArgList</a> ::=
+	<span class="meta">{</span><a href="#SubroutineArg" class="nt">SubroutineArg</a> <span class="t">","</span><span class="meta">}*</span></pre><pre><a name="SubroutineArg" class="nt">SubroutineArg</a> ::=
+	<a href="#Expr" class="nt">Expr</a>
+	<a href="#Hcon" class="nt">Hcon</a>
+	<span class="t">"*"</span> <a href="#LblRef" class="nt">LblRef</a></pre><pre><a name="ReturnStmt" class="nt">ReturnStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"return"</span> <a href="#Expr" class="nt">Expr</a><span class="meta">?</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="FunctionReference" class="nt">FunctionReference</a> ::=
+	<a href="#Name" class="nt">Name</a> <span class="t">"("</span> <span class="t">")"</span></pre><pre><a name="NameDataRef" class="nt">NameDataRef</a> ::=
+	<a href="#Name" class="nt">Name</a> <a href="#ComplexDataRefTail" class="nt">ComplexDataRefTail</a><span class="meta">*</span></pre><pre><a name="ComplexDataRefTail" class="nt">ComplexDataRefTail</a> ::=
+	<a href="#SectionSubscriptRef" class="nt">SectionSubscriptRef</a></pre><pre><a name="SectionSubscriptRef" class="nt">SectionSubscriptRef</a> ::=
+	<span class="t">"("</span> <a href="#SectionSubscriptList" class="nt">SectionSubscriptList</a> <span class="t">")"</span></pre><pre><a name="SectionSubscriptList" class="nt">SectionSubscriptList</a> ::=
+	<a href="#SectionSubscript" class="nt">SectionSubscript</a><span class="meta">+</span></pre><pre><a name="SectionSubscript" class="nt">SectionSubscript</a> ::=
+	<a href="#Expr" class="nt">Expr</a> <a href="#SubscriptTripletTail" class="nt">SubscriptTripletTail</a><span class="meta">?</span>
+	<a href="#SubscriptTripletTail" class="nt">SubscriptTripletTail</a></pre><pre><a name="Expr" class="nt">Expr</a> ::=
+	<a href="#Level5Expr" class="nt">Level5Expr</a></pre><pre><a name="Primary" class="nt">Primary</a> ::=
+	<a href="#UnsignedArithmeticConstant" class="nt">UnsignedArithmeticConstant</a>
+	<a href="#NameDataRef" class="nt">NameDataRef</a>
+	<a href="#FunctionReference" class="nt">FunctionReference</a>
+	<span class="t">"("</span> <a href="#Expr" class="nt">Expr</a> <span class="t">")"</span></pre><pre><a name="Level1Expr" class="nt">Level1Expr</a> ::=
+	<a href="#Primary" class="nt">Primary</a></pre><pre><a name="MultOperand" class="nt">MultOperand</a> ::=
+	<a href="#Level1Expr" class="nt">Level1Expr</a> <a href="#PowerUpMultOperand" class="nt">PowerUpMultOperand</a><span class="meta">?</span></pre><pre><a name="PowerUpMultOperand" class="nt">PowerUpMultOperand</a> ::=
+	<a href="#PowerOp" class="nt">PowerOp</a> <a href="#MultOperand" class="nt">MultOperand</a></pre><pre><a name="AddOperand" class="nt">AddOperand</a> ::=
+	<a href="#MultOperand" class="nt">MultOperand</a> <a href="#MultOpMultOperand" class="nt">MultOpMultOperand</a><span class="meta">*</span></pre><pre><a name="MultOpMultOperand" class="nt">MultOpMultOperand</a> ::=
+	<a href="#MultOp" class="nt">MultOp</a> <a href="#MultOperand" class="nt">MultOperand</a></pre><pre><a name="Level2Expr" class="nt">Level2Expr</a> ::=
+	<a href="#Sign" class="nt">Sign</a><span class="meta">?</span> <a href="#AddOperand" class="nt">AddOperand</a> <a href="#AddOpAddOperand" class="nt">AddOpAddOperand</a><span class="meta">*</span></pre><pre><a name="AddOpAddOperand" class="nt">AddOpAddOperand</a> ::=
+	<a href="#AddOp" class="nt">AddOp</a> <a href="#AddOperand" class="nt">AddOperand</a></pre><pre><a name="PowerOp" class="nt">PowerOp</a> ::=
+	<span class="t">"**"</span></pre><pre><a name="MultOp" class="nt">MultOp</a> ::=
+	<span class="t">"*"</span>
+	<span class="t">"/"</span></pre><pre><a name="AddOp" class="nt">AddOp</a> ::=
+	<span class="t">"+"</span>
+	<span class="t">"-"</span></pre><pre><a name="Sign" class="nt">Sign</a> ::=
+	<span class="t">"+"</span>
+	<span class="t">"-"</span></pre><pre><a name="UFExpr" class="nt">UFExpr</a> ::=
+	<a href="#UFTerm" class="nt">UFTerm</a>
+	<a href="#Sign" class="nt">Sign</a> <a href="#UFTerm" class="nt">UFTerm</a>
+	<a href="#UFExpr" class="nt">UFExpr</a> <a href="#AddOp" class="nt">AddOp</a> <a href="#UFTerm" class="nt">UFTerm</a></pre><pre><a name="UFTerm" class="nt">UFTerm</a> ::=
+	<a href="#UFFactor" class="nt">UFFactor</a>
+	<a href="#UFTerm" class="nt">UFTerm</a> <a href="#MultOp" class="nt">MultOp</a> <a href="#UFFactor" class="nt">UFFactor</a>
+	<a href="#UFTerm" class="nt">UFTerm</a> <a href="#ConcatOp" class="nt">ConcatOp</a> <a href="#UFPrimary" class="nt">UFPrimary</a></pre><pre><a name="UFFactor" class="nt">UFFactor</a> ::=
+	<a href="#UFPrimary" class="nt">UFPrimary</a>
+	<a href="#UFPrimary" class="nt">UFPrimary</a> <a href="#PowerOp" class="nt">PowerOp</a> <a href="#UFFactor" class="nt">UFFactor</a></pre><pre><a name="UFPrimary" class="nt">UFPrimary</a> ::=
+	<a href="#Icon" class="nt">Icon</a>
+	<a href="#Scon" class="nt">Scon</a>
+	<a href="#NameDataRef" class="nt">NameDataRef</a>
+	<a href="#FunctionReference" class="nt">FunctionReference</a>
+	<span class="t">"("</span> <a href="#UFExpr" class="nt">UFExpr</a> <span class="t">")"</span></pre><pre><a name="CExpr" class="nt">CExpr</a> ::=
+	<a href="#CPrimary" class="nt">CPrimary</a> <a href="#CPrimaryConcatOp" class="nt">CPrimaryConcatOp</a><span class="meta">*</span></pre><pre><a name="CPrimaryConcatOp" class="nt">CPrimaryConcatOp</a> ::=
+	<a href="#CPrimary" class="nt">CPrimary</a> <a href="#ConcatOp" class="nt">ConcatOp</a></pre><pre><a name="CPrimary" class="nt">CPrimary</a> ::=
+	<a href="#COperand" class="nt">COperand</a>
+	<span class="t">"("</span> <a href="#CExpr" class="nt">CExpr</a> <span class="t">")"</span></pre><pre><a name="COperand" class="nt">COperand</a> ::=
+	<a href="#Scon" class="nt">Scon</a>
+	<a href="#NameDataRef" class="nt">NameDataRef</a>
+	<a href="#FunctionReference" class="nt">FunctionReference</a></pre><pre><a name="Level3Expr" class="nt">Level3Expr</a> ::=
+	<a href="#Level2Expr" class="nt">Level2Expr</a> <a href="#ConcatOpLevel2Expr" class="nt">ConcatOpLevel2Expr</a><span class="meta">*</span></pre><pre><a name="ConcatOpLevel2Expr" class="nt">ConcatOpLevel2Expr</a> ::=
+	<a href="#ConcatOp" class="nt">ConcatOp</a> <a href="#Level2Expr" class="nt">Level2Expr</a></pre><pre><a name="ConcatOp" class="nt">ConcatOp</a> ::=
+	<span class="t">"/"</span> <a href="#SPOFF" class="nt">SPOFF</a> <span class="t">"/"</span> <a href="#SPON" class="nt">SPON</a></pre><pre><a name="AndOperand" class="nt">AndOperand</a> ::=
+	<a href="#NotOp" class="nt">NotOp</a><span class="meta">?</span> <a href="#Level4Expr" class="nt">Level4Expr</a></pre><pre><a name="OrOperand" class="nt">OrOperand</a> ::=
+	<a href="#AndOperand" class="nt">AndOperand</a> <a href="#AndOpAndOperand" class="nt">AndOpAndOperand</a><span class="meta">*</span></pre><pre><a name="AndOpAndOperand" class="nt">AndOpAndOperand</a> ::=
+	<a href="#AndOp" class="nt">AndOp</a> <a href="#AndOperand" class="nt">AndOperand</a></pre><pre><a name="EquivOperand" class="nt">EquivOperand</a> ::=
+	<a href="#OrOperand" class="nt">OrOperand</a> <a href="#OrUpOrOperand" class="nt">OrUpOrOperand</a><span class="meta">*</span></pre><pre><a name="OrUpOrOperand" class="nt">OrUpOrOperand</a> ::=
+	<a href="#OrOp" class="nt">OrOp</a> <a href="#OrOperand" class="nt">OrOperand</a></pre><pre><a name="Level5Expr" class="nt">Level5Expr</a> ::=
+	<a href="#EquivOperand" class="nt">EquivOperand</a> <a href="#EquivOpEquivOperand" class="nt">EquivOpEquivOperand</a><span class="meta">*</span></pre><pre><a name="EquivOpEquivOperand" class="nt">EquivOpEquivOperand</a> ::=
+	<a href="#EquivOp" class="nt">EquivOp</a> <a href="#EquivOperand" class="nt">EquivOperand</a></pre><pre><a name="NotOp" class="nt">NotOp</a> ::=
+	<a href="#SP" class="nt">SP</a> <span class="t">".not."</span> <a href="#SP" class="nt">SP</a></pre><pre><a name="AndOp" class="nt">AndOp</a> ::=
+	<a href="#SP" class="nt">SP</a> <span class="t">".and."</span> <a href="#SP" class="nt">SP</a></pre><pre><a name="OrOp" class="nt">OrOp</a> ::=
+	<a href="#SP" class="nt">SP</a> <span class="t">".or."</span> <a href="#SP" class="nt">SP</a></pre><pre><a name="EquivOp" class="nt">EquivOp</a> ::=
+	<a href="#SP" class="nt">SP</a> <span class="t">".eqv."</span> <a href="#SP" class="nt">SP</a>
+	<a href="#SP" class="nt">SP</a> <span class="t">".neqv."</span> <a href="#SP" class="nt">SP</a></pre><pre><a name="Level4Expr" class="nt">Level4Expr</a> ::=
+	<a href="#Level3Expr" class="nt">Level3Expr</a> <a href="#RelOpLevel3Expr" class="nt">RelOpLevel3Expr</a><span class="meta">*</span></pre><pre><a name="RelOpLevel3Expr" class="nt">RelOpLevel3Expr</a> ::=
+	<a href="#RelOp" class="nt">RelOp</a> <a href="#Level3Expr" class="nt">Level3Expr</a></pre><pre><a name="RelOp" class="nt">RelOp</a> ::=
+	<a href="#SP" class="nt">SP</a> <span class="t">".eq."</span> <a href="#SP" class="nt">SP</a>
+	<a href="#SP" class="nt">SP</a> <span class="t">".ne."</span> <a href="#SP" class="nt">SP</a>
+	<a href="#SP" class="nt">SP</a> <span class="t">".lt."</span> <a href="#SP" class="nt">SP</a>
+	<a href="#SP" class="nt">SP</a> <span class="t">".le."</span> <a href="#SP" class="nt">SP</a>
+	<a href="#SP" class="nt">SP</a> <span class="t">".gt."</span> <a href="#SP" class="nt">SP</a>
+	<a href="#SP" class="nt">SP</a> <span class="t">".ge."</span> <a href="#SP" class="nt">SP</a></pre><pre><a name="ArrayElement" class="nt">ArrayElement</a> ::=
+	<a href="#VariableName" class="nt">VariableName</a> <span class="t">"("</span> <a href="#SectionSubscriptList" class="nt">SectionSubscriptList</a> <span class="t">")"</span></pre><pre><a name="SubstringRange" class="nt">SubstringRange</a> ::=
+	<span class="t">"("</span> <a href="#Expr" class="nt">Expr</a><span class="meta">?</span> <a href="#SubscriptTripletTail" class="nt">SubscriptTripletTail</a> <span class="t">")"</span></pre><pre><a name="SubscriptTripletTail" class="nt">SubscriptTripletTail</a> ::=
+	<span class="t">":"</span> <a href="#Expr" class="nt">Expr</a><span class="meta">?</span></pre><pre><a name="Name" class="nt">Name</a> ::=
+	<a href="#Ident" class="nt">Ident</a></pre><pre><a name="Constant" class="nt">Constant</a> ::=
+	<a href="#NamedConstantUse" class="nt">NamedConstantUse</a>
+	<a href="#PlusMinus" class="nt">PlusMinus</a><span class="meta">?</span> <a href="#UnsignedArithmeticConstant" class="nt">UnsignedArithmeticConstant</a>
+	<a href="#Scon" class="nt">Scon</a>
+	<a href="#Hcon" class="nt">Hcon</a>
+	<a href="#LogicalConstant" class="nt">LogicalConstant</a></pre><pre><a name="PlusMinus" class="nt">PlusMinus</a> ::=
+	<span class="t">"+"</span>
+	<span class="t">"-"</span></pre><pre><a name="UnsignedArithmeticConstant" class="nt">UnsignedArithmeticConstant</a> ::=
+	<a href="#Icon" class="nt">Icon</a>
+	<a href="#RDcon" class="nt">RDcon</a>
+	<a href="#ComplexConst" class="nt">ComplexConst</a></pre><pre><a name="ComplexConst" class="nt">ComplexConst</a> ::=
+	<span class="t">"("</span> <a href="#ComplexComponent" class="nt">ComplexComponent</a> <span class="t">","</span> <a href="#ComplexComponent" class="nt">ComplexComponent</a> <span class="t">")"</span></pre><pre><a name="ComplexComponent" class="nt">ComplexComponent</a> ::=
+	<a href="#Sign" class="nt">Sign</a><span class="meta">?</span> <a href="#Icon" class="nt">Icon</a>
+	<a href="#RDcon" class="nt">RDcon</a>
+	<a href="#Name" class="nt">Name</a></pre><pre><a name="LogicalConstant" class="nt">LogicalConstant</a> ::=
+	<a href="#SP" class="nt">SP</a> <span class="t">".true."</span> <a href="#SP" class="nt">SP</a>
+	<a href="#SP" class="nt">SP</a> <span class="t">".false."</span> <a href="#SP" class="nt">SP</a></pre><pre><a name="Label" class="nt">Label</a> ::=
+	<a href="#Icon" class="nt">Icon</a></pre><pre><a name="BlockDataName" class="nt">BlockDataName</a> ::=
+	<a href="#Ident" class="nt">Ident</a></pre><pre><a name="CommonBlockName" class="nt">CommonBlockName</a> ::=
+	<a href="#Ident" class="nt">Ident</a></pre><pre><a name="DummyArgName" class="nt">DummyArgName</a> ::=
+	<a href="#Ident" class="nt">Ident</a></pre><pre><a name="EntryName" class="nt">EntryName</a> ::=
+	<a href="#Ident" class="nt">Ident</a></pre><pre><a name="ExternalName" class="nt">ExternalName</a> ::=
+	<a href="#Ident" class="nt">Ident</a></pre><pre><a name="FunctionName" class="nt">FunctionName</a> ::=
+	<a href="#Ident" class="nt">Ident</a></pre><pre><a name="ImpliedDoVariable" class="nt">ImpliedDoVariable</a> ::=
+	<a href="#Ident" class="nt">Ident</a></pre><pre><a name="IntrinsicProcedureName" class="nt">IntrinsicProcedureName</a> ::=
+	<a href="#Ident" class="nt">Ident</a></pre><pre><a name="ObjectName" class="nt">ObjectName</a> ::=
+	<a href="#Ident" class="nt">Ident</a></pre><pre><a name="ProgramName" class="nt">ProgramName</a> ::=
+	<a href="#Ident" class="nt">Ident</a></pre><pre><a name="SFDummyArgName" class="nt">SFDummyArgName</a> ::=
+	<a href="#Ident" class="nt">Ident</a></pre><pre><a name="SFVarName" class="nt">SFVarName</a> ::=
+	<a href="#Ident" class="nt">Ident</a></pre><pre><a name="SubroutineName" class="nt">SubroutineName</a> ::=
+	<a href="#Ident" class="nt">Ident</a></pre><pre><a name="SubroutineNameUse" class="nt">SubroutineNameUse</a> ::=
+	<a href="#Ident" class="nt">Ident</a></pre><pre><a name="VariableName" class="nt">VariableName</a> ::=
+	<a href="#Ident" class="nt">Ident</a></pre><pre><a name="ScalarVariable" class="nt">ScalarVariable</a> ::=
+	<a href="#VariableName" class="nt">VariableName</a>
+	<a href="#ArrayElement" class="nt">ArrayElement</a></pre><pre><a name="Variable" class="nt">Variable</a> ::=
+	<a href="#VariableName" class="nt">VariableName</a> <a href="#SubscriptListRef" class="nt">SubscriptListRef</a><span class="meta">?</span> <a href="#SubstringRange" class="nt">SubstringRange</a><span class="meta">?</span></pre><pre><a name="SubscriptListRef" class="nt">SubscriptListRef</a> ::=
+	<span class="t">"("</span> <a href="#SubscriptList" class="nt">SubscriptList</a> <span class="t">")"</span></pre><pre><a name="SubscriptList" class="nt">SubscriptList</a> ::=
+	<a href="#Subscript" class="nt">Subscript</a><span class="meta">+</span></pre><pre><a name="Subscript" class="nt">Subscript</a> ::=
+	<a href="#Expr" class="nt">Expr</a></pre><pre><a name="LblDef" class="nt">LblDef</a> ::=
+	ε
+	<a href="#TAB_2" class="nt">TAB_2</a> <a href="#Label" class="nt">Label</a> <a href="#TAB_7" class="nt">TAB_7</a></pre><pre><a name="BodyPlusInternals" class="nt">BodyPlusInternals</a> ::=
+	<a href="#Body" class="nt">Body</a> <a href="#ContainsStmt" class="nt">ContainsStmt</a> <a href="#InternalSubprogram" class="nt">InternalSubprogram</a>
+	<a href="#ContainsStmt" class="nt">ContainsStmt</a> <a href="#InternalSubprogram" class="nt">InternalSubprogram</a>
+	<a href="#BodyPlusInternals" class="nt">BodyPlusInternals</a> <a href="#InternalSubprogram" class="nt">InternalSubprogram</a></pre><pre><a name="InternalSubprogram" class="nt">InternalSubprogram</a> ::=
+	<a href="#FunctionSubprogram" class="nt">FunctionSubprogram</a>
+	<a href="#SubroutineSubprogram" class="nt">SubroutineSubprogram</a></pre><pre><a name="ModuleSubprogramPartConstruct" class="nt">ModuleSubprogramPartConstruct</a> ::=
+	<a href="#ContainsStmt" class="nt">ContainsStmt</a>
+	<a href="#ModuleSubprogram" class="nt">ModuleSubprogram</a></pre><pre><a name="ModuleSubprogram" class="nt">ModuleSubprogram</a> ::=
+	<a href="#FunctionSubprogram" class="nt">FunctionSubprogram</a>
+	<a href="#SubroutineSubprogram" class="nt">SubroutineSubprogram</a></pre><pre><a name="DefinedOperator" class="nt">DefinedOperator</a> ::=
+	<a href="#Dop" class="nt">Dop</a>
+	<a href="#PowerOp" class="nt">PowerOp</a>
+	<a href="#MultOp" class="nt">MultOp</a>
+	<a href="#AddOp" class="nt">AddOp</a>
+	<a href="#RelOp" class="nt">RelOp</a>
+	<a href="#ConcatOp" class="nt">ConcatOp</a>
+	<a href="#NotOp" class="nt">NotOp</a>
+	<a href="#AndOp" class="nt">AndOp</a>
+	<a href="#OrOp" class="nt">OrOp</a>
+	<a href="#EquivOp" class="nt">EquivOp</a></pre><pre><a name="KindParam" class="nt">KindParam</a> ::=
+	<a href="#Icon" class="nt">Icon</a>
+	<a href="#NamedConstantUse" class="nt">NamedConstantUse</a></pre><pre><a name="BozLiteralConstant" class="nt">BozLiteralConstant</a> ::=
+	<a href="#Bcon" class="nt">Bcon</a>
+	<a href="#Ocon" class="nt">Ocon</a>
+	<a href="#Zcon" class="nt">Zcon</a></pre><pre><a name="DerivedTypeDef" class="nt">DerivedTypeDef</a> ::=
+	<a href="#DerivedTypeStmt" class="nt">DerivedTypeStmt</a> <a href="#DerivedTypeBody" class="nt">DerivedTypeBody</a> <a href="#EndTypeStmt" class="nt">EndTypeStmt</a></pre><pre><a name="DerivedTypeBody" class="nt">DerivedTypeBody</a> ::=
+	<a href="#DerivedTypeBodyConstruct" class="nt">DerivedTypeBodyConstruct</a>
+	<a href="#DerivedTypeBody" class="nt">DerivedTypeBody</a> <a href="#DerivedTypeBodyConstruct" class="nt">DerivedTypeBodyConstruct</a></pre><pre><a name="DerivedTypeBodyConstruct" class="nt">DerivedTypeBodyConstruct</a> ::=
+	<a href="#PrivateSequenceStmt" class="nt">PrivateSequenceStmt</a>
+	<a href="#ComponentDefStmt" class="nt">ComponentDefStmt</a></pre><pre><a name="PrivateSequenceStmt" class="nt">PrivateSequenceStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"private"</span> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"sequence"</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="DerivedTypeStmt" class="nt">DerivedTypeStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"type"</span> <a href="#TypeName" class="nt">TypeName</a> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"type"</span> <span class="t">"::"</span> <a href="#TypeName" class="nt">TypeName</a> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"type"</span> <span class="t">","</span> <a href="#AccessSpec" class="nt">AccessSpec</a> <span class="t">"::"</span> <a href="#TypeName" class="nt">TypeName</a> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="EndTypeStmt" class="nt">EndTypeStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"endtype"</span> <a href="#TypeName" class="nt">TypeName</a> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"endtype"</span> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"end"</span> <span class="t">"type"</span> <a href="#TypeName" class="nt">TypeName</a> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"end"</span> <span class="t">"type"</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="ComponentDefStmt" class="nt">ComponentDefStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <a href="#TypeSpec" class="nt">TypeSpec</a> <span class="t">","</span> <a href="#ComponentAttrSpecList" class="nt">ComponentAttrSpecList</a> <span class="t">"::"</span> <a href="#ComponentDeclList" class="nt">ComponentDeclList</a> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <a href="#TypeSpec" class="nt">TypeSpec</a> <span class="t">"::"</span> <a href="#ComponentDeclList" class="nt">ComponentDeclList</a> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <a href="#TypeSpec" class="nt">TypeSpec</a> <a href="#ComponentDeclList" class="nt">ComponentDeclList</a> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="ComponentAttrSpecList" class="nt">ComponentAttrSpecList</a> ::=
+	<a href="#ComponentAttrSpec" class="nt">ComponentAttrSpec</a><span class="meta">+</span></pre><pre><a name="ComponentAttrSpec" class="nt">ComponentAttrSpec</a> ::=
+	<span class="t">"pointer"</span>
+	<span class="t">"dimension"</span> <span class="t">"("</span> <a href="#ComponentArraySpec" class="nt">ComponentArraySpec</a> <span class="t">")"</span></pre><pre><a name="ComponentArraySpec" class="nt">ComponentArraySpec</a> ::=
+	<a href="#ExplicitShapeSpecList" class="nt">ExplicitShapeSpecList</a>
+	<a href="#DeferredShapeSpecList" class="nt">DeferredShapeSpecList</a></pre><pre><a name="ComponentDeclList" class="nt">ComponentDeclList</a> ::=
+	<a href="#ComponentDecl" class="nt">ComponentDecl</a><span class="meta">+</span></pre><pre><a name="ComponentDecl" class="nt">ComponentDecl</a> ::=
+	<a href="#ComponentName" class="nt">ComponentName</a> <span class="t">"("</span> <a href="#ComponentArraySpec" class="nt">ComponentArraySpec</a> <span class="t">")"</span> <span class="t">"*"</span> <a href="#CharLength" class="nt">CharLength</a>
+	<a href="#ComponentName" class="nt">ComponentName</a> <span class="t">"("</span> <a href="#ComponentArraySpec" class="nt">ComponentArraySpec</a> <span class="t">")"</span>
+	<a href="#ComponentName" class="nt">ComponentName</a> <span class="t">"*"</span> <a href="#CharLength" class="nt">CharLength</a>
+	<a href="#ComponentName" class="nt">ComponentName</a></pre><pre><a name="StructureConstructor" class="nt">StructureConstructor</a> ::=
+	<a href="#TypeName" class="nt">TypeName</a> <span class="t">"("</span> <a href="#ExprList" class="nt">ExprList</a> <span class="t">")"</span></pre><pre><a name="ExprList" class="nt">ExprList</a> ::=
+	<a href="#Expr" class="nt">Expr</a><span class="meta">+</span></pre><pre><a name="ArrayConstructor" class="nt">ArrayConstructor</a> ::=
+	<span class="t">"(/"</span> <a href="#AcValueList" class="nt">AcValueList</a> <span class="t">"/)"</span></pre><pre><a name="AcValueList" class="nt">AcValueList</a> ::=
+	<a href="#Expr" class="nt">Expr</a>
+	<a href="#AcValueList1" class="nt">AcValueList1</a></pre><pre><a name="AcValueList1" class="nt">AcValueList1</a> ::=
+	<a href="#Expr" class="nt">Expr</a> <span class="t">","</span> <a href="#Expr" class="nt">Expr</a>
+	<a href="#Expr" class="nt">Expr</a> <span class="t">","</span> <a href="#AcImpliedDo" class="nt">AcImpliedDo</a>
+	<a href="#AcImpliedDo" class="nt">AcImpliedDo</a>
+	<a href="#AcValueList1" class="nt">AcValueList1</a> <span class="t">","</span> <a href="#Expr" class="nt">Expr</a>
+	<a href="#AcValueList1" class="nt">AcValueList1</a> <span class="t">","</span> <a href="#AcImpliedDo" class="nt">AcImpliedDo</a></pre><pre><a name="AcImpliedDo" class="nt">AcImpliedDo</a> ::=
+	<span class="t">"("</span> <a href="#Expr" class="nt">Expr</a> <span class="t">","</span> <a href="#ImpliedDoVariable" class="nt">ImpliedDoVariable</a> <span class="t">"="</span> <a href="#Expr" class="nt">Expr</a> <span class="t">","</span> <a href="#Expr" class="nt">Expr</a> <span class="t">")"</span>
+	<span class="t">"("</span> <a href="#Expr" class="nt">Expr</a> <span class="t">","</span> <a href="#ImpliedDoVariable" class="nt">ImpliedDoVariable</a> <span class="t">"="</span> <a href="#Expr" class="nt">Expr</a> <span class="t">","</span> <a href="#Expr" class="nt">Expr</a> <span class="t">","</span> <a href="#Expr" class="nt">Expr</a> <span class="t">")"</span>
+	<span class="t">"("</span> <a href="#AcImpliedDo" class="nt">AcImpliedDo</a> <span class="t">","</span> <a href="#ImpliedDoVariable" class="nt">ImpliedDoVariable</a> <span class="t">"="</span> <a href="#Expr" class="nt">Expr</a> <span class="t">","</span> <a href="#Expr" class="nt">Expr</a> <span class="t">")"</span>
+	<span class="t">"("</span> <a href="#AcImpliedDo" class="nt">AcImpliedDo</a> <span class="t">","</span> <a href="#ImpliedDoVariable" class="nt">ImpliedDoVariable</a> <span class="t">"="</span> <a href="#Expr" class="nt">Expr</a> <span class="t">","</span> <a href="#Expr" class="nt">Expr</a> <span class="t">","</span> <a href="#Expr" class="nt">Expr</a> <span class="t">")"</span></pre><pre><a name="AttrSpecSeq" class="nt">AttrSpecSeq</a> ::=
+	<span class="t">","</span> <a href="#AttrSpec" class="nt">AttrSpec</a>
+	<a href="#AttrSpecSeq" class="nt">AttrSpecSeq</a> <span class="t">","</span> <a href="#AttrSpec" class="nt">AttrSpec</a></pre><pre><a name="AttrSpec" class="nt">AttrSpec</a> ::=
+	<span class="t">"parameter"</span>
+	<a href="#AccessSpec" class="nt">AccessSpec</a>
+	<span class="t">"allocatable"</span>
+	<span class="t">"dimension"</span> <span class="t">"("</span> <a href="#ArraySpec" class="nt">ArraySpec</a> <span class="t">")"</span>
+	<span class="t">"external"</span>
+	<span class="t">"intent"</span> <span class="t">"("</span> <a href="#IntentSpec" class="nt">IntentSpec</a> <span class="t">")"</span>
+	<span class="t">"intrinsic"</span>
+	<span class="t">"optional"</span>
+	<span class="t">"pointer"</span>
+	<span class="t">"save"</span>
+	<span class="t">"target"</span></pre><pre><a name="KindSelector" class="nt">KindSelector</a> ::=
+	<span class="t">"("</span> <span class="t">"kind="</span> <a href="#Expr" class="nt">Expr</a> <span class="t">")"</span>
+	<span class="t">"("</span> <a href="#Expr" class="nt">Expr</a> <span class="t">")"</span></pre><pre><a name="CharSelector" class="nt">CharSelector</a> ::=
+	<span class="t">"("</span> <span class="t">"len="</span> <a href="#TypeParamValue" class="nt">TypeParamValue</a> <span class="t">","</span> <span class="t">"kind="</span> <a href="#Expr" class="nt">Expr</a> <span class="t">")"</span>
+	<span class="t">"("</span> <span class="t">"len="</span> <a href="#TypeParamValue" class="nt">TypeParamValue</a> <span class="t">","</span> <a href="#Expr" class="nt">Expr</a> <span class="t">")"</span>
+	<span class="t">"("</span> <span class="t">"len="</span> <a href="#TypeParamValue" class="nt">TypeParamValue</a> <span class="t">")"</span>
+	<span class="t">"("</span> <span class="t">"kind="</span> <a href="#Expr" class="nt">Expr</a> <span class="t">")"</span>
+	<span class="t">"("</span> <a href="#Expr" class="nt">Expr</a> <span class="t">")"</span></pre><pre><a name="AccessSpec" class="nt">AccessSpec</a> ::=
+	<span class="t">"public"</span>
+	<span class="t">"private"</span></pre><pre><a name="IntentSpec" class="nt">IntentSpec</a> ::=
+	<span class="t">"in"</span>
+	<span class="t">"out"</span>
+	<span class="t">"inout"</span></pre><pre><a name="AssumedShapeSpecList" class="nt">AssumedShapeSpecList</a> ::=
+	<a href="#LowerBound" class="nt">LowerBound</a> <span class="t">":"</span>
+	<a href="#DeferredShapeSpecList" class="nt">DeferredShapeSpecList</a> <span class="t">","</span> <a href="#LowerBound" class="nt">LowerBound</a> <span class="t">":"</span>
+	<a href="#AssumedShapeSpecList" class="nt">AssumedShapeSpecList</a> <span class="t">","</span> <a href="#AssumedShapeSpec" class="nt">AssumedShapeSpec</a></pre><pre><a name="AssumedShapeSpec" class="nt">AssumedShapeSpec</a> ::=
+	<a href="#LowerBound" class="nt">LowerBound</a> <span class="t">":"</span>
+	<span class="t">":"</span></pre><pre><a name="DeferredShapeSpecList" class="nt">DeferredShapeSpecList</a> ::=
+	<a href="#DeferredShapeSpec" class="nt">DeferredShapeSpec</a><span class="meta">+</span></pre><pre><a name="DeferredShapeSpec" class="nt">DeferredShapeSpec</a> ::=
+	<span class="t">":"</span></pre><pre><a name="IntentStmt" class="nt">IntentStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"intent"</span> <span class="t">"("</span> <a href="#IntentSpec" class="nt">IntentSpec</a> <span class="t">")"</span> <a href="#ColonColon" class="nt">ColonColon</a><span class="meta">?</span> <a href="#IntentParList" class="nt">IntentParList</a> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="ColonColon" class="nt">ColonColon</a> ::=
+	<span class="t">"::"</span></pre><pre><a name="IntentParList" class="nt">IntentParList</a> ::=
+	<a href="#IntentPar" class="nt">IntentPar</a><span class="meta">+</span></pre><pre><a name="IntentPar" class="nt">IntentPar</a> ::=
+	<a href="#DummyArgName" class="nt">DummyArgName</a></pre><pre><a name="OptionalStmt" class="nt">OptionalStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"optional"</span> <a href="#ColonColon" class="nt">ColonColon</a><span class="meta">?</span> <a href="#OptionalParList" class="nt">OptionalParList</a> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="OptionalParList" class="nt">OptionalParList</a> ::=
+	<a href="#OptionalPar" class="nt">OptionalPar</a><span class="meta">+</span></pre><pre><a name="OptionalPar" class="nt">OptionalPar</a> ::=
+	<a href="#DummyArgName" class="nt">DummyArgName</a></pre><pre><a name="AccessStmt" class="nt">AccessStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <a href="#AccessSpec" class="nt">AccessSpec</a> <a href="#ColonColon" class="nt">ColonColon</a><span class="meta">?</span> <a href="#AccessIdList" class="nt">AccessIdList</a> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <a href="#AccessSpec" class="nt">AccessSpec</a> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="AccessIdList" class="nt">AccessIdList</a> ::=
+	<a href="#AccessId" class="nt">AccessId</a><span class="meta">+</span></pre><pre><a name="AccessId" class="nt">AccessId</a> ::=
+	<a href="#GenericName" class="nt">GenericName</a>
+	<a href="#GenericSpec" class="nt">GenericSpec</a></pre><pre><a name="AllocatableStmt" class="nt">AllocatableStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"allocatable"</span> <a href="#ColonColon" class="nt">ColonColon</a><span class="meta">?</span> <a href="#ArrayAllocationList" class="nt">ArrayAllocationList</a> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="ArrayAllocationList" class="nt">ArrayAllocationList</a> ::=
+	<a href="#ArrayAllocation" class="nt">ArrayAllocation</a><span class="meta">+</span></pre><pre><a name="ArrayAllocation" class="nt">ArrayAllocation</a> ::=
+	<a href="#ArrayName" class="nt">ArrayName</a>
+	<a href="#ArrayName" class="nt">ArrayName</a> <span class="t">"("</span> <a href="#DeferredShapeSpecList" class="nt">DeferredShapeSpecList</a> <span class="t">")"</span></pre><pre><a name="PointerStmt" class="nt">PointerStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"pointer"</span> <a href="#ColonColon" class="nt">ColonColon</a><span class="meta">?</span> <a href="#PointerStmtObjectList" class="nt">PointerStmtObjectList</a> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="PointerStmtObjectList" class="nt">PointerStmtObjectList</a> ::=
+	<a href="#PointerStmtObject" class="nt">PointerStmtObject</a><span class="meta">+</span></pre><pre><a name="PointerStmtObject" class="nt">PointerStmtObject</a> ::=
+	<a href="#ObjectName" class="nt">ObjectName</a>
+	<a href="#ObjectName" class="nt">ObjectName</a> <span class="t">"("</span> <a href="#DeferredShapeSpecList" class="nt">DeferredShapeSpecList</a> <span class="t">")"</span></pre><pre><a name="TargetStmt" class="nt">TargetStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"target"</span> <a href="#ColonColon" class="nt">ColonColon</a><span class="meta">?</span> <a href="#TargetObjectList" class="nt">TargetObjectList</a> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="TargetObjectList" class="nt">TargetObjectList</a> ::=
+	<a href="#TargetObject" class="nt">TargetObject</a><span class="meta">+</span></pre><pre><a name="TargetObject" class="nt">TargetObject</a> ::=
+	<a href="#ObjectName" class="nt">ObjectName</a>
+	<a href="#ObjectName" class="nt">ObjectName</a> <span class="t">"("</span> <a href="#ArraySpec" class="nt">ArraySpec</a> <span class="t">")"</span></pre><pre><a name="NamelistStmt" class="nt">NamelistStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"namelist"</span> <a href="#NamelistGroups" class="nt">NamelistGroups</a> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="NamelistGroups" class="nt">NamelistGroups</a> ::=
+	<span class="t">"/"</span> <a href="#NamelistGroupName" class="nt">NamelistGroupName</a> <span class="t">"/"</span> <a href="#NamelistGroupObject" class="nt">NamelistGroupObject</a>
+	<a href="#NamelistGroups" class="nt">NamelistGroups</a> <span class="t">"/"</span> <a href="#NamelistGroupName" class="nt">NamelistGroupName</a> <span class="t">"/"</span> <a href="#NamelistGroupObject" class="nt">NamelistGroupObject</a>
+	<a href="#NamelistGroups" class="nt">NamelistGroups</a> <span class="t">","</span> <span class="t">"/"</span> <a href="#NamelistGroupName" class="nt">NamelistGroupName</a> <span class="t">"/"</span> <a href="#NamelistGroupObject" class="nt">NamelistGroupObject</a>
+	<a href="#NamelistGroups" class="nt">NamelistGroups</a> <span class="t">","</span> <a href="#NamelistGroupObject" class="nt">NamelistGroupObject</a></pre><pre><a name="NamelistGroupObject" class="nt">NamelistGroupObject</a> ::=
+	<a href="#VariableName" class="nt">VariableName</a></pre><pre><a name="StructureComponent" class="nt">StructureComponent</a> ::=
+	<a href="#VariableName" class="nt">VariableName</a> <a href="#FieldSelector" class="nt">FieldSelector</a>
+	<a href="#StructureComponent" class="nt">StructureComponent</a> <a href="#FieldSelector" class="nt">FieldSelector</a></pre><pre><a name="FieldSelector" class="nt">FieldSelector</a> ::=
+	<span class="t">"("</span> <a href="#SectionSubscriptList" class="nt">SectionSubscriptList</a> <span class="t">")"</span> <span class="t">"%"</span> <a href="#Name" class="nt">Name</a>
+	<span class="t">"%"</span> <a href="#Name" class="nt">Name</a></pre><pre><a name="AllocateStmt" class="nt">AllocateStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"allocate"</span> <span class="t">"("</span> <a href="#AllocationList" class="nt">AllocationList</a> <span class="t">","</span> <span class="t">"stat="</span> <a href="#Variable" class="nt">Variable</a> <span class="t">")"</span> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"allocate"</span> <span class="t">"("</span> <a href="#AllocationList" class="nt">AllocationList</a> <span class="t">")"</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="AllocationList" class="nt">AllocationList</a> ::=
+	<a href="#Allocation" class="nt">Allocation</a><span class="meta">+</span></pre><pre><a name="Allocation" class="nt">Allocation</a> ::=
+	<a href="#AllocateObject" class="nt">AllocateObject</a>
+	<a href="#AllocateObject" class="nt">AllocateObject</a> <a href="#AllocatedShape" class="nt">AllocatedShape</a></pre><pre><a name="AllocatedShape" class="nt">AllocatedShape</a> ::=
+	<span class="t">"("</span> <a href="#SectionSubscriptList" class="nt">SectionSubscriptList</a> <span class="t">")"</span></pre><pre><a name="AllocateObjectList" class="nt">AllocateObjectList</a> ::=
+	<a href="#AllocateObject" class="nt">AllocateObject</a><span class="meta">+</span></pre><pre><a name="AllocateObject" class="nt">AllocateObject</a> ::=
+	<a href="#VariableName" class="nt">VariableName</a>
+	<a href="#AllocateObject" class="nt">AllocateObject</a> <a href="#FieldSelector" class="nt">FieldSelector</a></pre><pre><a name="NullifyStmt" class="nt">NullifyStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"nullify"</span> <span class="t">"("</span> <a href="#PointerObjectList" class="nt">PointerObjectList</a> <span class="t">")"</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="PointerObjectList" class="nt">PointerObjectList</a> ::=
+	<a href="#PointerObject" class="nt">PointerObject</a><span class="meta">+</span></pre><pre><a name="PointerObject" class="nt">PointerObject</a> ::=
+	<a href="#Name" class="nt">Name</a>
+	<a href="#PointerField" class="nt">PointerField</a></pre><pre><a name="PointerField" class="nt">PointerField</a> ::=
+	<a href="#Name" class="nt">Name</a> <a href="#SFExprListRef" class="nt">SFExprListRef</a><span class="meta">?</span> <span class="t">"%"</span> <a href="#Name" class="nt">Name</a>
+	<a href="#PointerField" class="nt">PointerField</a> <a href="#FieldSelector" class="nt">FieldSelector</a></pre><pre><a name="DeallocateStmt" class="nt">DeallocateStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"deallocate"</span> <span class="t">"("</span> <a href="#AllocateObjectList" class="nt">AllocateObjectList</a> <span class="t">","</span> <span class="t">"stat="</span> <a href="#Variable" class="nt">Variable</a> <span class="t">")"</span> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"deallocate"</span> <span class="t">"("</span> <a href="#AllocateObjectList" class="nt">AllocateObjectList</a> <span class="t">")"</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="DefinedUnaryOp" class="nt">DefinedUnaryOp</a> ::=
+	<a href="#Dop" class="nt">Dop</a></pre><pre><a name="DefinedBinaryOp" class="nt">DefinedBinaryOp</a> ::=
+	<a href="#Dop" class="nt">Dop</a></pre><pre><a name="PointerAssignmentStmt" class="nt">PointerAssignmentStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <a href="#Name" class="nt">Name</a> <span class="t">"=&gt;"</span> <a href="#Target" class="nt">Target</a> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <a href="#Name" class="nt">Name</a> <a href="#SFExprListRef" class="nt">SFExprListRef</a><span class="meta">?</span> <span class="t">"%"</span> <a href="#NameDataRef" class="nt">NameDataRef</a> <span class="t">"=&gt;"</span> <a href="#Target" class="nt">Target</a> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="Target" class="nt">Target</a> ::=
+	<a href="#Expr" class="nt">Expr</a></pre><pre><a name="WhereStmt" class="nt">WhereStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"where"</span> <span class="t">"("</span> <a href="#MaskExpr" class="nt">MaskExpr</a> <span class="t">")"</span> <a href="#AssignmentStmt" class="nt">AssignmentStmt</a></pre><pre><a name="WhereConstruct" class="nt">WhereConstruct</a> ::=
+	<a href="#Where" class="nt">Where</a> <a href="#EndWhereStmt" class="nt">EndWhereStmt</a>
+	<a href="#ElseWhere" class="nt">ElseWhere</a> <a href="#EndWhereStmt" class="nt">EndWhereStmt</a></pre><pre><a name="Where" class="nt">Where</a> ::=
+	<a href="#WhereConstructStmt" class="nt">WhereConstructStmt</a>
+	<a href="#Where" class="nt">Where</a> <a href="#AssignmentStmt" class="nt">AssignmentStmt</a></pre><pre><a name="ElseWhere" class="nt">ElseWhere</a> ::=
+	<a href="#Where" class="nt">Where</a> <a href="#ElsewhereStmt" class="nt">ElsewhereStmt</a>
+	<a href="#ElseWhere" class="nt">ElseWhere</a> <a href="#AssignmentStmt" class="nt">AssignmentStmt</a></pre><pre><a name="WhereConstructStmt" class="nt">WhereConstructStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"where"</span> <span class="t">"("</span> <a href="#MaskExpr" class="nt">MaskExpr</a> <span class="t">")"</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="MaskExpr" class="nt">MaskExpr</a> ::=
+	<a href="#Expr" class="nt">Expr</a></pre><pre><a name="ElsewhereStmt" class="nt">ElsewhereStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"elsewhere"</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="EndWhereStmt" class="nt">EndWhereStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"endwhere"</span> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"end"</span> <span class="t">"where"</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="CaseConstruct" class="nt">CaseConstruct</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <a href="#Name" class="nt">Name</a> <span class="t">":"</span> <span class="t">"selectcase"</span> <span class="t">"("</span> <a href="#Expr" class="nt">Expr</a> <span class="t">")"</span> <a href="#EOS" class="nt">EOS</a> <a href="#SelectCaseRange" class="nt">SelectCaseRange</a>
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"selectcase"</span> <span class="t">"("</span> <a href="#Expr" class="nt">Expr</a> <span class="t">")"</span> <a href="#EOS" class="nt">EOS</a> <a href="#SelectCaseRange" class="nt">SelectCaseRange</a>
+	<a href="#LblDef" class="nt">LblDef</a> <a href="#Name" class="nt">Name</a> <span class="t">":"</span> <span class="t">"select"</span> <span class="t">"case"</span> <span class="t">"("</span> <a href="#Expr" class="nt">Expr</a> <span class="t">")"</span> <a href="#EOS" class="nt">EOS</a> <a href="#SelectCaseRange" class="nt">SelectCaseRange</a>
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"select"</span> <span class="t">"case"</span> <span class="t">"("</span> <a href="#Expr" class="nt">Expr</a> <span class="t">")"</span> <a href="#EOS" class="nt">EOS</a> <a href="#SelectCaseRange" class="nt">SelectCaseRange</a></pre><pre><a name="SelectCaseRange" class="nt">SelectCaseRange</a> ::=
+	<a href="#SelectCaseBody" class="nt">SelectCaseBody</a> <a href="#EndSelectStmt" class="nt">EndSelectStmt</a>
+	<a href="#EndSelectStmt" class="nt">EndSelectStmt</a></pre><pre><a name="SelectCaseBody" class="nt">SelectCaseBody</a> ::=
+	<a href="#CaseStmt" class="nt">CaseStmt</a>
+	<a href="#SelectCaseBody" class="nt">SelectCaseBody</a> <a href="#CaseBodyConstruct" class="nt">CaseBodyConstruct</a></pre><pre><a name="CaseBodyConstruct" class="nt">CaseBodyConstruct</a> ::=
+	<a href="#CaseStmt" class="nt">CaseStmt</a>
+	<a href="#ExecutionPartConstruct" class="nt">ExecutionPartConstruct</a></pre><pre><a name="CaseStmt" class="nt">CaseStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"case"</span> <a href="#CaseSelector" class="nt">CaseSelector</a> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"case"</span> <a href="#CaseSelector" class="nt">CaseSelector</a> <a href="#Name" class="nt">Name</a> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="EndSelectStmt" class="nt">EndSelectStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"endselect"</span> <a href="#EndName" class="nt">EndName</a><span class="meta">?</span> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"end"</span> <span class="t">"select"</span> <a href="#EndName" class="nt">EndName</a><span class="meta">?</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="CaseSelector" class="nt">CaseSelector</a> ::=
+	<span class="t">"("</span> <a href="#CaseValueRangeList" class="nt">CaseValueRangeList</a> <span class="t">")"</span>
+	<span class="t">"default"</span></pre><pre><a name="CaseValueRangeList" class="nt">CaseValueRangeList</a> ::=
+	<a href="#CaseValueRange" class="nt">CaseValueRange</a><span class="meta">+</span></pre><pre><a name="CaseValueRange" class="nt">CaseValueRange</a> ::=
+	<a href="#Expr" class="nt">Expr</a>
+	<a href="#Expr" class="nt">Expr</a> <span class="t">":"</span>
+	<span class="t">":"</span> <a href="#Expr" class="nt">Expr</a>
+	<a href="#Expr" class="nt">Expr</a> <span class="t">":"</span> <a href="#Expr" class="nt">Expr</a></pre><pre><a name="BlockDoConstruct" class="nt">BlockDoConstruct</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <a href="#NameColon" class="nt">NameColon</a><span class="meta">?</span> <span class="t">"do"</span> <a href="#CommaLoopControl" class="nt">CommaLoopControl</a><span class="meta">?</span> <a href="#EOS" class="nt">EOS</a> <a href="#IN_2" class="nt">IN_2</a> <a href="#ExecutionPartConstruct" class="nt">ExecutionPartConstruct</a><span class="meta">*</span> <a href="#EX_2" class="nt">EX_2</a> <a href="#EndDoStmt" class="nt">EndDoStmt</a></pre><pre><a name="NameColon" class="nt">NameColon</a> ::=
+	<a href="#Name" class="nt">Name</a> <span class="t">":"</span></pre><pre><a name="EndDoStmt" class="nt">EndDoStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"enddo"</span> <a href="#EndName" class="nt">EndName</a><span class="meta">?</span> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"end"</span> <span class="t">"do"</span> <a href="#EndName" class="nt">EndName</a><span class="meta">?</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="CycleStmt" class="nt">CycleStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"cycle"</span> <a href="#EndName" class="nt">EndName</a><span class="meta">?</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="ExitStmt" class="nt">ExitStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"exit"</span> <a href="#EndName" class="nt">EndName</a><span class="meta">?</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="Module" class="nt">Module</a> ::=
+	<a href="#ModuleStmt" class="nt">ModuleStmt</a> <a href="#ModuleBody" class="nt">ModuleBody</a> <a href="#EndModuleStmt" class="nt">EndModuleStmt</a>
+	<a href="#ModuleStmt" class="nt">ModuleStmt</a> <a href="#EndModuleStmt" class="nt">EndModuleStmt</a></pre><pre><a name="ModuleBody" class="nt">ModuleBody</a> ::=
+	<a href="#SpecificationPartConstruct" class="nt">SpecificationPartConstruct</a>
+	<a href="#ModuleSubprogramPartConstruct" class="nt">ModuleSubprogramPartConstruct</a>
+	<a href="#ModuleBody" class="nt">ModuleBody</a> <a href="#SpecificationPartConstruct" class="nt">SpecificationPartConstruct</a>
+	<a href="#ModuleBody" class="nt">ModuleBody</a> <a href="#ModuleSubprogramPartConstruct" class="nt">ModuleSubprogramPartConstruct</a></pre><pre><a name="ModuleStmt" class="nt">ModuleStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"module"</span> <a href="#ModuleName" class="nt">ModuleName</a> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="EndModuleStmt" class="nt">EndModuleStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"endmodule"</span> <a href="#EndName" class="nt">EndName</a><span class="meta">?</span> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"end"</span> <span class="t">"module"</span> <a href="#EndName" class="nt">EndName</a><span class="meta">?</span> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"end"</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="UseStmt" class="nt">UseStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"use"</span> <a href="#Name" class="nt">Name</a> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"use"</span> <a href="#Name" class="nt">Name</a> <span class="t">","</span> <span class="t">"only"</span> <span class="t">":"</span> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"use"</span> <a href="#Name" class="nt">Name</a> <span class="t">","</span> <a href="#RenameList" class="nt">RenameList</a> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"use"</span> <a href="#Name" class="nt">Name</a> <span class="t">","</span> <span class="t">"only"</span> <span class="t">":"</span> <a href="#OnlyList" class="nt">OnlyList</a> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="RenameList" class="nt">RenameList</a> ::=
+	<a href="#Rename" class="nt">Rename</a><span class="meta">+</span></pre><pre><a name="OnlyList" class="nt">OnlyList</a> ::=
+	<a href="#Only" class="nt">Only</a><span class="meta">+</span></pre><pre><a name="Rename" class="nt">Rename</a> ::=
+	<a href="#Ident" class="nt">Ident</a> <span class="t">"=&gt;"</span> <a href="#UseName" class="nt">UseName</a></pre><pre><a name="Only" class="nt">Only</a> ::=
+	<a href="#GenericSpec" class="nt">GenericSpec</a>
+	<a href="#Ident" class="nt">Ident</a> <span class="t">"=&gt;"</span> <a href="#UseName" class="nt">UseName</a>
+	<a href="#UseName" class="nt">UseName</a></pre><pre><a name="InterfaceBlock" class="nt">InterfaceBlock</a> ::=
+	<a href="#InterfaceStmt" class="nt">InterfaceStmt</a> <a href="#InterfaceBlockBody" class="nt">InterfaceBlockBody</a> <a href="#EndInterfaceStmt" class="nt">EndInterfaceStmt</a></pre><pre><a name="InterfaceBlockBody" class="nt">InterfaceBlockBody</a> ::=
+	<a href="#InterfaceBodyPartConstruct" class="nt">InterfaceBodyPartConstruct</a>
+	<a href="#InterfaceBlockBody" class="nt">InterfaceBlockBody</a> <a href="#InterfaceBodyPartConstruct" class="nt">InterfaceBodyPartConstruct</a></pre><pre><a name="InterfaceBodyPartConstruct" class="nt">InterfaceBodyPartConstruct</a> ::=
+	<a href="#InterfaceBody" class="nt">InterfaceBody</a>
+	<a href="#ModuleProcedureStmt" class="nt">ModuleProcedureStmt</a></pre><pre><a name="InterfaceStmt" class="nt">InterfaceStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"interface"</span> <a href="#GenericName" class="nt">GenericName</a> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"interface"</span> <a href="#GenericSpec" class="nt">GenericSpec</a> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"interface"</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="EndInterfaceStmt" class="nt">EndInterfaceStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"endinterface"</span> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"end"</span> <span class="t">"interface"</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="InterfaceBody" class="nt">InterfaceBody</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <a href="#FunctionPrefix" class="nt">FunctionPrefix</a> <a href="#FunctionName" class="nt">FunctionName</a> <a href="#FunctionInterfaceRange" class="nt">FunctionInterfaceRange</a>
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"subroutine"</span> <a href="#SubroutineName" class="nt">SubroutineName</a> <a href="#SubroutineInterfaceRange" class="nt">SubroutineInterfaceRange</a></pre><pre><a name="FunctionInterfaceRange" class="nt">FunctionInterfaceRange</a> ::=
+	<a href="#FunctionParList" class="nt">FunctionParList</a> <a href="#EOS" class="nt">EOS</a> <a href="#SubprogramInterfaceBody" class="nt">SubprogramInterfaceBody</a><span class="meta">?</span> <a href="#EndFunctionStmt" class="nt">EndFunctionStmt</a></pre><pre><a name="SubroutineInterfaceRange" class="nt">SubroutineInterfaceRange</a> ::=
+	<a href="#SubroutineParList" class="nt">SubroutineParList</a> <a href="#EOS" class="nt">EOS</a> <a href="#SubprogramInterfaceBody" class="nt">SubprogramInterfaceBody</a><span class="meta">?</span> <a href="#EndSubroutineStmt" class="nt">EndSubroutineStmt</a></pre><pre><a name="SubprogramInterfaceBody" class="nt">SubprogramInterfaceBody</a> ::=
+	<a href="#SpecificationPartConstruct" class="nt">SpecificationPartConstruct</a>
+	<a href="#SubprogramInterfaceBody" class="nt">SubprogramInterfaceBody</a> <a href="#SpecificationPartConstruct" class="nt">SpecificationPartConstruct</a></pre><pre><a name="ModuleProcedureStmt" class="nt">ModuleProcedureStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"module"</span> <span class="t">"procedure"</span> <a href="#ProcedureNameList" class="nt">ProcedureNameList</a> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="ProcedureNameList" class="nt">ProcedureNameList</a> ::=
+	<a href="#ProcedureName" class="nt">ProcedureName</a><span class="meta">+</span></pre><pre><a name="ProcedureName" class="nt">ProcedureName</a> ::=
+	<a href="#Ident" class="nt">Ident</a></pre><pre><a name="GenericSpec" class="nt">GenericSpec</a> ::=
+	<span class="t">"operator"</span> <span class="t">"("</span> <a href="#DefinedOperator" class="nt">DefinedOperator</a> <span class="t">")"</span>
+	<span class="t">"assignment"</span> <span class="t">"("</span> <span class="t">"="</span> <span class="t">")"</span></pre><pre><a name="FunctionArgList" class="nt">FunctionArgList</a> ::=
+	<a href="#FunctionArg" class="nt">FunctionArg</a>
+	<a href="#FunctionArgList" class="nt">FunctionArgList</a> <span class="t">","</span> <a href="#FunctionArg" class="nt">FunctionArg</a>
+	<a href="#SectionSubscriptList" class="nt">SectionSubscriptList</a> <span class="t">","</span> <a href="#FunctionArg" class="nt">FunctionArg</a></pre><pre><a name="FunctionArg" class="nt">FunctionArg</a> ::=
+	<a href="#Name" class="nt">Name</a> <span class="t">"="</span> <a href="#Expr" class="nt">Expr</a></pre><pre><a name="ContainsStmt" class="nt">ContainsStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"contains"</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="ArrayName" class="nt">ArrayName</a> ::=
+	<a href="#Ident" class="nt">Ident</a></pre><pre><a name="ComponentName" class="nt">ComponentName</a> ::=
+	<a href="#Ident" class="nt">Ident</a></pre><pre><a name="GenericName" class="nt">GenericName</a> ::=
+	<a href="#Ident" class="nt">Ident</a></pre><pre><a name="ModuleName" class="nt">ModuleName</a> ::=
+	<a href="#Ident" class="nt">Ident</a></pre><pre><a name="NamelistGroupName" class="nt">NamelistGroupName</a> ::=
+	<a href="#Ident" class="nt">Ident</a></pre><pre><a name="UseName" class="nt">UseName</a> ::=
+	<a href="#Ident" class="nt">Ident</a></pre><pre><a name="TypeName" class="nt">TypeName</a> ::=
+	<a href="#Ident" class="nt">Ident</a></pre><pre><a name="EndName" class="nt">EndName</a> ::=
+	<a href="#Ident" class="nt">Ident</a></pre><pre><a name="ExecutionPartConstruct" class="nt">ExecutionPartConstruct</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <a href="#DoubleDoStmt" class="nt">DoubleDoStmt</a></pre><pre><a name="Primary" class="nt">Primary</a> ::=
+	<a href="#Scon" class="nt">Scon</a></pre><pre><a name="Primary" class="nt">Primary</a> ::=
+	<a href="#LogicalConstant" class="nt">LogicalConstant</a></pre><pre><a name="ProgramUnit" class="nt">ProgramUnit</a> ::=
+	<a href="#Module" class="nt">Module</a></pre><pre><a name="SpecificationPartConstruct" class="nt">SpecificationPartConstruct</a> ::=
+	<a href="#UseStmt" class="nt">UseStmt</a></pre><pre><a name="DeclarationConstruct" class="nt">DeclarationConstruct</a> ::=
+	<a href="#DerivedTypeDef" class="nt">DerivedTypeDef</a>
+	<a href="#InterfaceBlock" class="nt">InterfaceBlock</a></pre><pre><a name="SpecificationStmt" class="nt">SpecificationStmt</a> ::=
+	<a href="#AccessStmt" class="nt">AccessStmt</a>
+	<a href="#AllocatableStmt" class="nt">AllocatableStmt</a>
+	<a href="#IntentStmt" class="nt">IntentStmt</a>
+	<a href="#NamelistStmt" class="nt">NamelistStmt</a>
+	<a href="#OptionalStmt" class="nt">OptionalStmt</a>
+	<a href="#PointerStmt" class="nt">PointerStmt</a>
+	<a href="#TargetStmt" class="nt">TargetStmt</a></pre><pre><a name="ExecutableConstruct" class="nt">ExecutableConstruct</a> ::=
+	<a href="#CaseConstruct" class="nt">CaseConstruct</a>
+	<a href="#WhereConstruct" class="nt">WhereConstruct</a></pre><pre><a name="ActionStmt" class="nt">ActionStmt</a> ::=
+	<a href="#AllocateStmt" class="nt">AllocateStmt</a>
+	<a href="#CycleStmt" class="nt">CycleStmt</a>
+	<a href="#DeallocateStmt" class="nt">DeallocateStmt</a>
+	<a href="#ExitStmt" class="nt">ExitStmt</a>
+	<a href="#NullifyStmt" class="nt">NullifyStmt</a>
+	<a href="#PointerAssignmentStmt" class="nt">PointerAssignmentStmt</a>
+	<a href="#WhereStmt" class="nt">WhereStmt</a></pre><pre><a name="UnsignedArithmeticConstant" class="nt">UnsignedArithmeticConstant</a> ::=
+	<a href="#Icon" class="nt">Icon</a> <span class="t">"_"</span> <a href="#KindParam" class="nt">KindParam</a></pre><pre><a name="UnsignedArithmeticConstant" class="nt">UnsignedArithmeticConstant</a> ::=
+	<a href="#RDcon" class="nt">RDcon</a> <span class="t">"_"</span> <a href="#KindParam" class="nt">KindParam</a></pre><pre><a name="Constant" class="nt">Constant</a> ::=
+	<a href="#Icon" class="nt">Icon</a> <span class="t">"_"</span> <a href="#Scon" class="nt">Scon</a>
+	<a href="#NamedConstantUse" class="nt">NamedConstantUse</a> <span class="t">"_"</span> <a href="#Scon" class="nt">Scon</a></pre><pre><a name="LogicalConstant" class="nt">LogicalConstant</a> ::=
+	<a href="#SP" class="nt">SP</a> <span class="t">".true."</span> <a href="#SP" class="nt">SP</a> <span class="t">"_"</span> <a href="#KindParam" class="nt">KindParam</a>
+	<a href="#SP" class="nt">SP</a> <span class="t">".false."</span> <a href="#SP" class="nt">SP</a> <span class="t">"_"</span> <a href="#KindParam" class="nt">KindParam</a> <span class="t">"."</span></pre><pre><a name="TypeDeclarationStmt" class="nt">TypeDeclarationStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <a href="#TypeSpec" class="nt">TypeSpec</a> <a href="#AttrSpecSeq" class="nt">AttrSpecSeq</a><span class="meta">?</span> <span class="t">"::"</span> <a href="#EntityDeclList" class="nt">EntityDeclList</a> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="TypeSpec" class="nt">TypeSpec</a> ::=
+	<span class="t">"integer"</span> <a href="#KindSelector" class="nt">KindSelector</a>
+	<span class="t">"real"</span> <a href="#KindSelector" class="nt">KindSelector</a>
+	<span class="t">"double"</span> <span class="t">"precision"</span>
+	<span class="t">"complex"</span> <a href="#KindSelector" class="nt">KindSelector</a>
+	<span class="t">"character"</span> <a href="#CharSelector" class="nt">CharSelector</a>
+	<span class="t">"logical"</span> <a href="#KindSelector" class="nt">KindSelector</a>
+	<span class="t">"type"</span> <span class="t">"("</span> <a href="#TypeName" class="nt">TypeName</a> <span class="t">")"</span></pre><pre><a name="EntityDecl" class="nt">EntityDecl</a> ::=
+	<a href="#ObjectName" class="nt">ObjectName</a> <span class="t">"="</span> <a href="#Expr" class="nt">Expr</a>
+	<a href="#ObjectName" class="nt">ObjectName</a> <span class="t">"("</span> <a href="#ArraySpec" class="nt">ArraySpec</a> <span class="t">")"</span> <span class="t">"="</span> <a href="#Expr" class="nt">Expr</a>
+	<a href="#ObjectName" class="nt">ObjectName</a> <span class="t">"*"</span> <a href="#CharLength" class="nt">CharLength</a> <span class="t">"="</span> <a href="#Expr" class="nt">Expr</a>
+	<a href="#ObjectName" class="nt">ObjectName</a> <span class="t">"*"</span> <a href="#CharLength" class="nt">CharLength</a> <span class="t">"("</span> <a href="#ArraySpec" class="nt">ArraySpec</a> <span class="t">")"</span> <span class="t">"="</span> <a href="#Expr" class="nt">Expr</a></pre><pre><a name="LengthSelector" class="nt">LengthSelector</a> ::=
+	<span class="t">"("</span> <a href="#TypeParamValue" class="nt">TypeParamValue</a> <span class="t">")"</span></pre><pre><a name="ArraySpec" class="nt">ArraySpec</a> ::=
+	<a href="#AssumedShapeSpecList" class="nt">AssumedShapeSpecList</a>
+	<a href="#DeferredShapeSpecList" class="nt">DeferredShapeSpecList</a></pre><pre><a name="SaveStmt" class="nt">SaveStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"save"</span> <span class="t">"::"</span> <a href="#SavedEntityList" class="nt">SavedEntityList</a> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="DimensionStmt" class="nt">DimensionStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"dimension"</span> <span class="t">"::"</span> <a href="#ArrayDeclaratorList" class="nt">ArrayDeclaratorList</a> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="Constant" class="nt">Constant</a> ::=
+	<a href="#StructureConstructor" class="nt">StructureConstructor</a>
+	<a href="#BozLiteralConstant" class="nt">BozLiteralConstant</a></pre><pre><a name="DataIDoObject" class="nt">DataIDoObject</a> ::=
+	<a href="#StructureComponent" class="nt">StructureComponent</a></pre><pre><a name="ImplicitStmt" class="nt">ImplicitStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"implicit"</span> <span class="t">"none"</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="ComplexDataRefTail" class="nt">ComplexDataRefTail</a> ::=
+	<span class="t">"%"</span> <a href="#Name" class="nt">Name</a></pre><pre><a name="ArrayElement" class="nt">ArrayElement</a> ::=
+	<a href="#StructureComponent" class="nt">StructureComponent</a> <span class="t">"("</span> <a href="#SectionSubscriptList" class="nt">SectionSubscriptList</a> <span class="t">")"</span></pre><pre><a name="SubscriptTripletTail" class="nt">SubscriptTripletTail</a> ::=
+	<span class="t">":"</span> <a href="#Expr" class="nt">Expr</a> <span class="t">":"</span> <a href="#Expr" class="nt">Expr</a>
+	<span class="t">"::"</span> <a href="#Expr" class="nt">Expr</a></pre><pre><a name="Primary" class="nt">Primary</a> ::=
+	<a href="#ArrayConstructor" class="nt">ArrayConstructor</a></pre><pre><a name="Level1Expr" class="nt">Level1Expr</a> ::=
+	<a href="#DefinedUnaryOp" class="nt">DefinedUnaryOp</a> <a href="#Primary" class="nt">Primary</a></pre><pre><a name="RelOp" class="nt">RelOp</a> ::=
+	<span class="t">"=="</span>
+	<span class="t">"/="</span>
+	<span class="t">"&lt;"</span>
+	<span class="t">"&lt;="</span>
+	<span class="t">"&gt;"</span>
+	<span class="t">"&gt;="</span></pre><pre><a name="Expr" class="nt">Expr</a> ::=
+	<a href="#Expr" class="nt">Expr</a> <a href="#DefinedBinaryOp" class="nt">DefinedBinaryOp</a> <a href="#Level5Expr" class="nt">Level5Expr</a></pre><pre><a name="AssignmentStmt" class="nt">AssignmentStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <a href="#Name" class="nt">Name</a> <a href="#SFExprListRef" class="nt">SFExprListRef</a><span class="meta">?</span> <span class="t">"%"</span> <a href="#NameDataRef" class="nt">NameDataRef</a> <span class="t">"="</span> <a href="#Expr" class="nt">Expr</a> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <a href="#Name" class="nt">Name</a> <span class="t">"("</span> <a href="#SFDummyArgNameList" class="nt">SFDummyArgNameList</a> <span class="t">")"</span> <span class="t">"%"</span> <a href="#NameDataRef" class="nt">NameDataRef</a> <span class="t">"="</span> <a href="#Expr" class="nt">Expr</a> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="SFExprList" class="nt">SFExprList</a> ::=
+	<a href="#Expr" class="nt">Expr</a><span class="meta">?</span> <span class="t">":"</span> <a href="#Expr" class="nt">Expr</a> <span class="t">":"</span> <a href="#Expr" class="nt">Expr</a>
+	<a href="#Expr" class="nt">Expr</a><span class="meta">?</span> <span class="t">"::"</span> <a href="#Expr" class="nt">Expr</a></pre><pre><a name="ElseIfStmt" class="nt">ElseIfStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <a href="#EX_2" class="nt">EX_2</a> <span class="t">"else"</span> <span class="t">"if"</span> <span class="t">"("</span> <a href="#Expr" class="nt">Expr</a> <span class="t">")"</span> <span class="t">"then"</span> <a href="#EOS" class="nt">EOS</a> <a href="#IN_2" class="nt">IN_2</a></pre><pre><a name="EndIfStmt" class="nt">EndIfStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <a href="#EX_2" class="nt">EX_2</a> <span class="t">"end"</span> <span class="t">"if"</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="DoConstruct" class="nt">DoConstruct</a> ::=
+	<a href="#BlockDoConstruct" class="nt">BlockDoConstruct</a></pre><pre><a name="LoopControl" class="nt">LoopControl</a> ::=
+	<span class="t">"while"</span> <span class="t">"("</span> <a href="#Expr" class="nt">Expr</a> <span class="t">")"</span></pre><pre><a name="GoToKw" class="nt">GoToKw</a> ::=
+	<span class="t">"go"</span> <span class="t">"to"</span></pre><pre><a name="ConnectSpec" class="nt">ConnectSpec</a> ::=
+	<span class="t">"position="</span> <a href="#CExpr" class="nt">CExpr</a>
+	<span class="t">"action="</span> <a href="#CExpr" class="nt">CExpr</a>
+	<span class="t">"delim="</span> <a href="#CExpr" class="nt">CExpr</a>
+	<span class="t">"pad="</span> <a href="#CExpr" class="nt">CExpr</a></pre><pre><a name="IoControlSpec" class="nt">IoControlSpec</a> ::=
+	<span class="t">"nml="</span> <a href="#NamelistGroupName" class="nt">NamelistGroupName</a>
+	<span class="t">"advance="</span> <a href="#CExpr" class="nt">CExpr</a>
+	<span class="t">"size="</span> <a href="#Variable" class="nt">Variable</a>
+	<span class="t">"eor="</span> <a href="#LblRef" class="nt">LblRef</a></pre><pre><a name="EndfileStmt" class="nt">EndfileStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"end"</span> <span class="t">"file"</span> <a href="#UnitIdentifier" class="nt">UnitIdentifier</a> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"end"</span> <span class="t">"file"</span> <span class="t">"("</span> <a href="#PositionSpecList" class="nt">PositionSpecList</a> <span class="t">")"</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="InquireStmt" class="nt">InquireStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"inquire"</span> <span class="t">"("</span> <span class="t">"iolength="</span> <a href="#ScalarVariable" class="nt">ScalarVariable</a> <span class="t">")"</span> <a href="#OutputItemList" class="nt">OutputItemList</a> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="InquireSpec" class="nt">InquireSpec</a> ::=
+	<span class="t">"position="</span> <a href="#ScalarVariable" class="nt">ScalarVariable</a>
+	<span class="t">"action="</span> <a href="#ScalarVariable" class="nt">ScalarVariable</a>
+	<span class="t">"read="</span> <a href="#ScalarVariable" class="nt">ScalarVariable</a>
+	<span class="t">"write="</span> <a href="#ScalarVariable" class="nt">ScalarVariable</a>
+	<span class="t">"readwrite="</span> <a href="#ScalarVariable" class="nt">ScalarVariable</a>
+	<span class="t">"delim="</span> <a href="#ScalarVariable" class="nt">ScalarVariable</a>
+	<span class="t">"pad="</span> <a href="#ScalarVariable" class="nt">ScalarVariable</a></pre><pre><a name="MainRange" class="nt">MainRange</a> ::=
+	<a href="#BodyPlusInternals" class="nt">BodyPlusInternals</a> <a href="#EndProgramStmt" class="nt">EndProgramStmt</a></pre><pre><a name="EndProgramStmt" class="nt">EndProgramStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"endprogram"</span> <a href="#EndName" class="nt">EndName</a><span class="meta">?</span> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"end"</span> <span class="t">"program"</span> <a href="#EndName" class="nt">EndName</a><span class="meta">?</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="BlockDataStmt" class="nt">BlockDataStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"block"</span> <span class="t">"data"</span> <a href="#BlockDataName" class="nt">BlockDataName</a><span class="meta">?</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="EndBlockDataStmt" class="nt">EndBlockDataStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"endblockdata"</span> <a href="#EndName" class="nt">EndName</a><span class="meta">?</span> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"end"</span> <span class="t">"blockdata"</span> <a href="#EndName" class="nt">EndName</a><span class="meta">?</span> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"endblock"</span> <span class="t">"data"</span> <a href="#EndName" class="nt">EndName</a><span class="meta">?</span> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"end"</span> <span class="t">"block"</span> <span class="t">"data"</span> <a href="#EndName" class="nt">EndName</a><span class="meta">?</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="FunctionReference" class="nt">FunctionReference</a> ::=
+	<a href="#Name" class="nt">Name</a> <span class="t">"("</span> <a href="#FunctionArgList" class="nt">FunctionArgList</a> <span class="t">")"</span></pre><pre><a name="SubroutineArg" class="nt">SubroutineArg</a> ::=
+	<a href="#Name" class="nt">Name</a> <span class="t">"="</span> <a href="#Expr" class="nt">Expr</a>
+	<a href="#Name" class="nt">Name</a> <span class="t">"="</span> <a href="#Hcon" class="nt">Hcon</a>
+	<a href="#Name" class="nt">Name</a> <span class="t">"="</span> <span class="t">"*"</span> <a href="#LblRef" class="nt">LblRef</a></pre><pre><a name="FunctionRange" class="nt">FunctionRange</a> ::=
+	<a href="#FunctionParList" class="nt">FunctionParList</a> <span class="t">"result"</span> <span class="t">"("</span> <a href="#Name" class="nt">Name</a> <span class="t">")"</span> <a href="#EOS" class="nt">EOS</a> <a href="#BodyPlusInternals" class="nt">BodyPlusInternals</a> <a href="#EndFunctionStmt" class="nt">EndFunctionStmt</a>
+	<a href="#FunctionParList" class="nt">FunctionParList</a> <span class="t">"result"</span> <span class="t">"("</span> <a href="#Name" class="nt">Name</a> <span class="t">")"</span> <a href="#EOS" class="nt">EOS</a> <a href="#Body" class="nt">Body</a> <a href="#EndFunctionStmt" class="nt">EndFunctionStmt</a>
+	<a href="#FunctionParList" class="nt">FunctionParList</a> <span class="t">"result"</span> <span class="t">"("</span> <a href="#Name" class="nt">Name</a> <span class="t">")"</span> <a href="#EOS" class="nt">EOS</a> <a href="#EndFunctionStmt" class="nt">EndFunctionStmt</a>
+	<a href="#FunctionParList" class="nt">FunctionParList</a> <a href="#EOS" class="nt">EOS</a> <a href="#BodyPlusInternals" class="nt">BodyPlusInternals</a> <a href="#EndFunctionStmt" class="nt">EndFunctionStmt</a></pre><pre><a name="FunctionPrefix" class="nt">FunctionPrefix</a> ::=
+	<span class="t">"recursive"</span> <span class="t">"function"</span>
+	<span class="t">"recursive"</span> <a href="#TypeSpec" class="nt">TypeSpec</a> <span class="t">"function"</span>
+	<a href="#TypeSpec" class="nt">TypeSpec</a> <span class="t">"recursive"</span> <span class="t">"function"</span></pre><pre><a name="EndFunctionStmt" class="nt">EndFunctionStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"endfunction"</span> <a href="#EndName" class="nt">EndName</a><span class="meta">?</span> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"end"</span> <span class="t">"function"</span> <a href="#EndName" class="nt">EndName</a><span class="meta">?</span> <a href="#EOS" class="nt">EOS</a></pre><pre><a name="SubroutineSubprogram" class="nt">SubroutineSubprogram</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"recursive"</span> <span class="t">"subroutine"</span> <a href="#SubroutineName" class="nt">SubroutineName</a> <a href="#SubroutineRange" class="nt">SubroutineRange</a></pre><pre><a name="SubroutineRange" class="nt">SubroutineRange</a> ::=
+	<a href="#SubroutineParList" class="nt">SubroutineParList</a> <a href="#EOS" class="nt">EOS</a> <a href="#BodyPlusInternals" class="nt">BodyPlusInternals</a> <a href="#EndSubroutineStmt" class="nt">EndSubroutineStmt</a></pre><pre><a name="EndSubroutineStmt" class="nt">EndSubroutineStmt</a> ::=
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"endsubroutine"</span> <a href="#EndName" class="nt">EndName</a><span class="meta">?</span> <a href="#EOS" class="nt">EOS</a>
+	<a href="#LblDef" class="nt">LblDef</a> <span class="t">"end"</span> <span class="t">"subroutine"</span> <a href="#EndName" class="nt">EndName</a><span class="meta">?</span> <a href="#EOS" class="nt">EOS</a></pre><hr /><div class="b"><a href="http://grammarware.github.io/lab"><img src="../../../../by-grammarlab.png" alt="GrammarLab" title="Powered by GrammarLab"></img></a>Maintained by Dr. <a href="http://grammarware.net/">Vadim Zaytsev</a> a.k.a. @<a href="http://twitter.com/grammarware">grammarware</a>. Last updated in October 2014. <span class="links"> [<a href="#TOP">↑</a>]</span></div></body></html>

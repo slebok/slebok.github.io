@@ -1,0 +1,389 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="content-type" content="text/html; charset=utf-8" /><title>Grammar Zoo - Browsable Borland Delphi 2006 Grammar</title><link href="../../../../../slps.css" rel="stylesheet" type="text/css" /></head><body><h1 class="l"><a name="TOP"></a>Browsable Borland Delphi 2006 Grammar</h1><a href="http://creativecommons.org/licenses/by/3.0/"><img src="../../../../../cc-by.png" alt="CC-BY" title="View the CC-BY license"></img></a><p>Grammar extracted by <strong><a href="http://grammarware.net/">Vadim Zaytsev</a></strong>, see the <a href="http://grammarzoo.github.io/">Grammar Zoo</a> entry for details: <a href="../../../../../index.html#pascal_delphi_delphi2006_cangas_extracted">pascal/delphi/delphi2006/cangas/extracted</a><br />Source used for this grammar: Jorge L. Cangas, <em>TXL Grammar for Borland Delphi 2006, </em><code>delphi.grammar</code>,  December 2007<span class="links" /></p><h2 class="l">Summary</h2><ul class="nl"><li>Total <strong>186</strong> production rules with <strong>387</strong> top alternatives and <strong>1444</strong> symbols.</li><li>Vocabulary: <strong>381</strong> = <strong>197</strong> nonterminals + <strong>184</strong> terminals + <strong>0</strong> labels + <strong>0</strong> markers.</li><li>Total <strong>197</strong> nonterminal symbols: <strong>186</strong> defined (<code><a href="#label_id" class="nt">label_id</a></code>, <code><a href="#builtinid" class="nt">builtinid</a></code>, <code><a href="#name" class="nt">name</a></code>, <code><a href="#namespace" class="nt">namespace</a></code>, <code><a href="#qualified_id" class="nt">qualified_id</a></code>, <code><a href="#filenamelit" class="nt">filenamelit</a></code>, <code><a href="#colon" class="nt">colon</a></code>, <code><a href="#equal" class="nt">equal</a></code>, <code><a href="#end_struct" class="nt">end_struct</a></code>, <code><a href="#semi_calling_spec" class="nt">semi_calling_spec</a></code>, <code><a href="#calling_spec" class="nt">calling_spec</a></code>, <code><a href="#hint_directive" class="nt">hint_directive</a></code>, <code><a href="#ctrlchar" class="nt">ctrlchar</a></code>, <code><a href="#delphi_file" class="nt">delphi_file</a></code>, <code><a href="#file_end" class="nt">file_end</a></code>, <code><a href="#program_file" class="nt">program_file</a></code>, <code><a href="#package_file" class="nt">package_file</a></code>, <code><a href="#unit_file" class="nt">unit_file</a></code>, <code><a href="#program_decl" class="nt">program_decl</a></code>, <code><a href="#package_decl" class="nt">package_decl</a></code>, <code><a href="#unit_decl" class="nt">unit_decl</a></code>, <code><a href="#program_file_list" class="nt">program_file_list</a></code>, <code><a href="#requires_clause" class="nt">requires_clause</a></code>, <code><a href="#contains_clause" class="nt">contains_clause</a></code>, <code><a href="#uses_clause" class="nt">uses_clause</a></code>, <code><a href="#uses_item" class="nt">uses_item</a></code>, <code><a href="#in_filename" class="nt">in_filename</a></code>, <code><a href="#initialization_kw" class="nt">initialization_kw</a></code>, <code><a href="#implementation_kw" class="nt">implementation_kw</a></code>, <code><a href="#finalization_kw" class="nt">finalization_kw</a></code>, <code><a href="#interface_kw" class="nt">interface_kw</a></code>, <code><a href="#interface_section" class="nt">interface_section</a></code>, <code><a href="#implementation_section" class="nt">implementation_section</a></code>, <code><a href="#initialization_section" class="nt">initialization_section</a></code>, <code><a href="#finalization_section" class="nt">finalization_section</a></code>, <code><a href="#intfdecl_block" class="nt">intfdecl_block</a></code>, <code><a href="#impldecl_block" class="nt">impldecl_block</a></code>, <code><a href="#nested_decl_block" class="nt">nested_decl_block</a></code>, <code><a href="#identlist" class="nt">identlist</a></code>, <code><a href="#colon_id" class="nt">colon_id</a></code>, <code><a href="#intfdecl_section" class="nt">intfdecl_section</a></code>, <code><a href="#impldecl_section" class="nt">impldecl_section</a></code>, <code><a href="#nested_decl_section" class="nt">nested_decl_section</a></code>, <code><a href="#label_decl" class="nt">label_decl</a></code>, <code><a href="#exports_section" class="nt">exports_section</a></code>, <code><a href="#exports_entry" class="nt">exports_entry</a></code>, <code><a href="#resource_section" class="nt">resource_section</a></code>, <code><a href="#const_section" class="nt">const_section</a></code>, <code><a href="#constant_decl" class="nt">constant_decl</a></code>, <code><a href="#constant_spec" class="nt">constant_spec</a></code>, <code><a href="#const_init" class="nt">const_init</a></code>, <code><a href="#typed_const" class="nt">typed_const</a></code>, <code><a href="#array_constant" class="nt">array_constant</a></code>, <code><a href="#record_field_constant" class="nt">record_field_constant</a></code>, <code><a href="#record_constant" class="nt">record_constant</a></code>, <code><a href="#record_field_constant_semi" class="nt">record_field_constant_semi</a></code>, <code><a href="#var_section" class="nt">var_section</a></code>, <code><a href="#var_keyword" class="nt">var_keyword</a></code>, <code><a href="#var_decl" class="nt">var_decl</a></code>, <code><a href="#var_init" class="nt">var_init</a></code>, <code><a href="#absolute_init" class="nt">absolute_init</a></code>, <code><a href="#type_section" class="nt">type_section</a></code>, <code><a href="#type_decl" class="nt">type_decl</a></code>, <code><a href="#type_spec" class="nt">type_spec</a></code>, <code><a href="#real_type" class="nt">real_type</a></code>, <code><a href="#integer_type" class="nt">integer_type</a></code>, <code><a href="#char_type" class="nt">char_type</a></code>, <code><a href="#boolean_type" class="nt">boolean_type</a></code>, <code><a href="#variant_type" class="nt">variant_type</a></code>, <code><a href="#string_type" class="nt">string_type</a></code>, <code><a href="#enumerated_type" class="nt">enumerated_type</a></code>, <code><a href="#enum_spec" class="nt">enum_spec</a></code>, <code><a href="#subrange_type" class="nt">subrange_type</a></code>, <code><a href="#dotdot_expr" class="nt">dotdot_expr</a></code>, <code><a href="#ordinal_type" class="nt">ordinal_type</a></code>, <code><a href="#simple_type" class="nt">simple_type</a></code>, <code><a href="#struct_type" class="nt">struct_type</a></code>, <code><a href="#of_basetype" class="nt">of_basetype</a></code>, <code><a href="#of_object" class="nt">of_object</a></code>, <code><a href="#of_const" class="nt">of_const</a></code>, <code><a href="#set_type" class="nt">set_type</a></code>, <code><a href="#file_type" class="nt">file_type</a></code>, <code><a href="#pointer_type" class="nt">pointer_type</a></code>, <code><a href="#procedural_type" class="nt">procedural_type</a></code>, <code><a href="#colon_type" class="nt">colon_type</a></code>, <code><a href="#array_type" class="nt">array_type</a></code>, <code><a href="#array_index_list" class="nt">array_index_list</a></code>, <code><a href="#array_index" class="nt">array_index</a></code>, <code><a href="#procedure_id" class="nt">procedure_id</a></code>, <code><a href="#procedure_impl_decl" class="nt">procedure_impl_decl</a></code>, <code><a href="#external_directive" class="nt">external_directive</a></code>, <code><a href="#external_name" class="nt">external_name</a></code>, <code><a href="#semi_directive" class="nt">semi_directive</a></code>, <code><a href="#directive" class="nt">directive</a></code>, <code><a href="#procedure_intf_decl" class="nt">procedure_intf_decl</a></code>, <code><a href="#procedure_signature" class="nt">procedure_signature</a></code>, <code><a href="#procedure_external_decl" class="nt">procedure_external_decl</a></code>, <code><a href="#procedure_keyword" class="nt">procedure_keyword</a></code>, <code><a href="#formal_parameters" class="nt">formal_parameters</a></code>, <code><a href="#semi_formal_parameter" class="nt">semi_formal_parameter</a></code>, <code><a href="#formal_parameter" class="nt">formal_parameter</a></code>, <code><a href="#parm_qual" class="nt">parm_qual</a></code>, <code><a href="#parameter" class="nt">parameter</a></code>, <code><a href="#parameter_type" class="nt">parameter_type</a></code>, <code><a href="#param_init" class="nt">param_init</a></code>, <code><a href="#procedure_body_semi" class="nt">procedure_body_semi</a></code>, <code><a href="#procedure_body" class="nt">procedure_body</a></code>, <code><a href="#heritage_list" class="nt">heritage_list</a></code>, <code><a href="#class_keyword" class="nt">class_keyword</a></code>, <code><a href="#interface_keyword" class="nt">interface_keyword</a></code>, <code><a href="#guid_decl" class="nt">guid_decl</a></code>, <code><a href="#class_reference_type" class="nt">class_reference_type</a></code>, <code><a href="#class_type" class="nt">class_type</a></code>, <code><a href="#class_body" class="nt">class_body</a></code>, <code><a href="#interface_body" class="nt">interface_body</a></code>, <code><a href="#interface_type" class="nt">interface_type</a></code>, <code><a href="#visibility_default" class="nt">visibility_default</a></code>, <code><a href="#visibility_block" class="nt">visibility_block</a></code>, <code><a href="#method_decl" class="nt">method_decl</a></code>, <code><a href="#method_deleg" class="nt">method_deleg</a></code>, <code><a href="#visibility" class="nt">visibility</a></code>, <code><a href="#variant_section" class="nt">variant_section</a></code>, <code><a href="#id_colon" class="nt">id_colon</a></code>, <code><a href="#record_variant" class="nt">record_variant</a></code>, <code><a href="#class_member" class="nt">class_member</a></code>, <code><a href="#property_decl" class="nt">property_decl</a></code>, <code><a href="#defaultarray_spec" class="nt">defaultarray_spec</a></code>, <code><a href="#prop_indexes" class="nt">prop_indexes</a></code>, <code><a href="#prop_index_decl" class="nt">prop_index_decl</a></code>, <code><a href="#prop_index_modifier" class="nt">prop_index_modifier</a></code>, <code><a href="#prop_index_name" class="nt">prop_index_name</a></code>, <code><a href="#prop_specifier" class="nt">prop_specifier</a></code>, <code><a href="#dispid_spec" class="nt">dispid_spec</a></code>, <code><a href="#index_spec" class="nt">index_spec</a></code>, <code><a href="#accessor_spec" class="nt">accessor_spec</a></code>, <code><a href="#accessor_verb" class="nt">accessor_verb</a></code>, <code><a href="#stored_spec" class="nt">stored_spec</a></code>, <code><a href="#default_spec" class="nt">default_spec</a></code>, <code><a href="#implements_spec" class="nt">implements_spec</a></code>, <code><a href="#expr" class="nt">expr</a></code>, <code><a href="#expression" class="nt">expression</a></code>, <code><a href="#term" class="nt">term</a></code>, <code><a href="#infix_expr" class="nt">infix_expr</a></code>, <code><a href="#atom_expr" class="nt">atom_expr</a></code>, <code><a href="#sign" class="nt">sign</a></code>, <code><a href="#prefix_opr" class="nt">prefix_opr</a></code>, <code><a href="#postfix_opr" class="nt">postfix_opr</a></code>, <code><a href="#infix_opr" class="nt">infix_opr</a></code>, <code><a href="#set_constructor" class="nt">set_constructor</a></code>, <code><a href="#arguments" class="nt">arguments</a></code>, <code><a href="#array_subscript" class="nt">array_subscript</a></code>, <code><a href="#semi_argm" class="nt">semi_argm</a></code>, <code><a href="#semi_set_element" class="nt">semi_set_element</a></code>, <code><a href="#semi_expression" class="nt">semi_expression</a></code>, <code><a href="#set_element" class="nt">set_element</a></code>, <code><a href="#argm" class="nt">argm</a></code>, <code><a href="#argmfmt" class="nt">argmfmt</a></code>, <code><a href="#labelid_colon" class="nt">labelid_colon</a></code>, <code><a href="#statement_list" class="nt">statement_list</a></code>, <code><a href="#statement_semi" class="nt">statement_semi</a></code>, <code><a href="#statement" class="nt">statement</a></code>, <code><a href="#unlabeled_stm" class="nt">unlabeled_stm</a></code>, <code><a href="#assign_stm" class="nt">assign_stm</a></code>, <code><a href="#call_stm" class="nt">call_stm</a></code>, <code><a href="#jump_stm" class="nt">jump_stm</a></code>, <code><a href="#goto_stm" class="nt">goto_stm</a></code>, <code><a href="#sequence_stm" class="nt">sequence_stm</a></code>, <code><a href="#loop_stm" class="nt">loop_stm</a></code>, <code><a href="#selection_stm" class="nt">selection_stm</a></code>, <code><a href="#with_stm" class="nt">with_stm</a></code>, <code><a href="#try_finally_stm" class="nt">try_finally_stm</a></code>, <code><a href="#try_except_stm" class="nt">try_except_stm</a></code>, <code><a href="#nested_stm" class="nt">nested_stm</a></code>, <code><a href="#else_stm" class="nt">else_stm</a></code>, <code><a href="#case_selector" class="nt">case_selector</a></code>, <code><a href="#case_label" class="nt">case_label</a></code>, <code><a href="#case_else" class="nt">case_else</a></code>, <code><a href="#to_or_downto" class="nt">to_or_downto</a></code>, <code><a href="#exception_block" class="nt">exception_block</a></code>, <code><a href="#exception_handler_list" class="nt">exception_handler_list</a></code>, <code><a href="#exception_handler_semi" class="nt">exception_handler_semi</a></code>, <code><a href="#exception_handler" class="nt">exception_handler</a></code>, <code><a href="#exception_var" class="nt">exception_var</a></code>, <code><a href="#raise_stm" class="nt">raise_stm</a></code>, <code><a href="#at_address" class="nt">at_address</a></code>, <code><a href="#anynumber" class="nt">anynumber</a></code>), <strong>0</strong> root (—), <strong>1</strong> top (<code><a href="#delphi_file" class="nt">delphi_file</a></code>), <strong>11</strong> bottom (<code class="nt">NL</code><sup> 39</sup>, <code class="nt">SP</code><sup> 12</sup>, <code class="nt">SPON</code><sup> 5</sup>, <code class="nt">id</code><sup> 18</sup>, <code class="nt">EX</code><sup> 8</sup>, <code class="nt">SPOFF</code><sup> 4</sup>, <code class="nt">number</code>, <code class="nt">stringlit</code>, <code class="nt">IN</code><sup> 8</sup>, <code class="nt">hexnumber</code>, <code class="nt">charlit</code><sup> 2</sup>).</li><li>Total <strong>184</strong> terminal symbols: <strong>134</strong> keywords (<span class="t">"string"</span><sup> 3</sup>, <span class="t">"file"</span><sup> 2</sup>, <span class="t">"set"</span><sup> 2</sup>, <span class="t">"end"</span>, <span class="t">"pascal"</span>, <span class="t">"safecall"</span>, <span class="t">"stdcall"</span>, <span class="t">"cdecl"</span>, <span class="t">"register"</span>, <span class="t">"local"</span>, <span class="t">"platform"</span>, <span class="t">"deprecated"</span>, <span class="t">"library"</span><sup> 2</sup>, <span class="t">"program"</span>, <span class="t">"package"</span>, <span class="t">"unit"</span>, <span class="t">"requires"</span>, <span class="t">"contains"</span>, <span class="t">"uses"</span>, <span class="t">"in"</span><sup> 3</sup>, <span class="t">"initialization"</span>, <span class="t">"begin"</span><sup> 2</sup>, <span class="t">"implementation"</span>, <span class="t">"finalization"</span>, <span class="t">"interface"</span><sup> 2</sup>, <span class="t">"label"</span>, <span class="t">"exports"</span>, <span class="t">"resourcestring"</span>, <span class="t">"const"</span><sup> 4</sup>, <span class="t">"var"</span><sup> 3</sup>, <span class="t">"threadvar"</span>, <span class="t">"absolute"</span>, <span class="t">"type"</span><sup> 2</sup>, <span class="t">"real"</span>, <span class="t">"single"</span>, <span class="t">"double"</span>, <span class="t">"extended"</span>, <span class="t">"comp"</span>, <span class="t">"currency"</span>, <span class="t">"shortint"</span>, <span class="t">"smallint"</span>, <span class="t">"longint"</span>, <span class="t">"word"</span>, <span class="t">"byte"</span>, <span class="t">"longword"</span>, <span class="t">"integer"</span>, <span class="t">"cardinal"</span>, <span class="t">"char"</span>, <span class="t">"ansichar"</span>, <span class="t">"widechar"</span>, <span class="t">"boolean"</span>, <span class="t">"bytebool"</span>, <span class="t">"wordbool"</span>, <span class="t">"longbool"</span>, <span class="t">"variant"</span>, <span class="t">"olevariant"</span>, <span class="t">"shortstring"</span>, <span class="t">"ansistring"</span>, <span class="t">"widestring"</span>, <span class="t">"of"</span><sup> 6</sup>, <span class="t">"object"</span><sup> 2</sup>, <span class="t">"array"</span><sup> 2</sup>, <span class="t">"packed"</span><sup> 2</sup>, <span class="t">"external"</span>, <span class="t">"name"</span>, <span class="t">"index"</span><sup> 2</sup>, <span class="t">"dynamic"</span>, <span class="t">"virtual"</span>, <span class="t">"abstract"</span>, <span class="t">"message"</span>, <span class="t">"dispid"</span><sup> 2</sup>, <span class="t">"override"</span>, <span class="t">"overload"</span>, <span class="t">"reintroduce"</span>, <span class="t">"static"</span>, <span class="t">"assembler"</span>, <span class="t">"far"</span>, <span class="t">"export"</span>, <span class="t">"class"</span><sup> 3</sup>, <span class="t">"function"</span>, <span class="t">"procedure"</span>, <span class="t">"constructor"</span>, <span class="t">"destructor"</span>, <span class="t">"out"</span>, <span class="t">"forward"</span>, <span class="t">"helper"</span>, <span class="t">"for"</span><sup> 3</sup>, <span class="t">"record"</span>, <span class="t">"dispinterface"</span>, <span class="t">"public"</span>, <span class="t">"protected"</span>, <span class="t">"strict"</span>, <span class="t">"private"</span>, <span class="t">"published"</span>, <span class="t">"automated"</span>, <span class="t">"case"</span><sup> 2</sup>, <span class="t">"property"</span>, <span class="t">"default"</span><sup> 2</sup>, <span class="t">"readonly"</span>, <span class="t">"writeonly"</span>, <span class="t">"read"</span>, <span class="t">"write"</span>, <span class="t">"stored"</span>, <span class="t">"nodefault"</span>, <span class="t">"implements"</span>, <span class="t">"nil"</span>, <span class="t">"not"</span>, <span class="t">"inherited"</span><sup> 2</sup>, <span class="t">"is"</span>, <span class="t">"as"</span>, <span class="t">"or"</span>, <span class="t">"xor"</span>, <span class="t">"div"</span>, <span class="t">"mod"</span>, <span class="t">"and"</span>, <span class="t">"shl"</span>, <span class="t">"shr"</span>, <span class="t">"goto"</span>, <span class="t">"repeat"</span>, <span class="t">"until"</span>, <span class="t">"while"</span>, <span class="t">"do"</span><sup> 5</sup>, <span class="t">"if"</span>, <span class="t">"then"</span>, <span class="t">"with"</span>, <span class="t">"try"</span><sup> 2</sup>, <span class="t">"finally"</span>, <span class="t">"except"</span>, <span class="t">"else"</span><sup> 2</sup>, <span class="t">"to"</span>, <span class="t">"downto"</span>, <span class="t">"on"</span>, <span class="t">"raise"</span>, <span class="t">"at"</span>), <strong>0</strong> letters (—), <strong>0</strong> numerics (—), <strong>22</strong> signs (<span class="t">"."</span><sup> 3</sup>, <span class="t">":"</span><sup> 2</sup>, <span class="t">"="</span><sup> 2</sup>, <span class="t">";"</span><sup> 29</sup>, <span class="t">"("</span><sup> 9</sup>, <span class="t">","</span><sup> 16</sup>, <span class="t">")"</span><sup> 9</sup>, <span class="t">"["</span><sup> 6</sup>, <span class="t">"]"</span><sup> 6</sup>, <span class="t">".."</span>, <span class="t">"^"</span><sup> 3</sup>, <span class="t">"+"</span><sup> 2</sup>, <span class="t">"-"</span><sup> 2</sup>, <span class="t">"@"</span>, <span class="t">"&gt;"</span>, <span class="t">"&lt;"</span>, <span class="t">"&lt;="</span>, <span class="t">"&gt;="</span>, <span class="t">"&lt;&gt;"</span>, <span class="t">"*"</span>, <span class="t">"/"</span>, <span class="t">":="</span><sup> 2</sup>).</li></ul><h2 class="l">Syntax</h2><pre><a name="label_id" class="nt">label_id</a> ::=
+	<a href="#anynumber" class="nt">anynumber</a>
+	<a href="#id" class="nt">id</a></pre><pre><a name="builtinid" class="nt">builtinid</a> ::=
+	<span class="t">"string"</span>
+	<span class="t">"file"</span>
+	<span class="t">"set"</span></pre><pre><a name="name" class="nt">name</a> ::=
+	<a href="#builtinid" class="nt">builtinid</a>
+	<a href="#id" class="nt">id</a></pre><pre><a name="namespace" class="nt">namespace</a> ::=
+	<a href="#id" class="nt">id</a> <span class="t">"."</span></pre><pre><a name="qualified_id" class="nt">qualified_id</a> ::=
+	<a href="#namespace" class="nt">namespace</a><span class="meta">*</span> <a href="#name" class="nt">name</a> <a href="#SPON" class="nt">SPON</a></pre><pre><a name="filenamelit" class="nt">filenamelit</a> ::=
+	<a href="#charlit" class="nt">charlit</a>
+	<a href="#stringlit" class="nt">stringlit</a>
+	<a href="#qualified_id" class="nt">qualified_id</a></pre><pre><a name="colon" class="nt">colon</a> ::=
+	<a href="#SPOFF" class="nt">SPOFF</a> <span class="t">":"</span> <a href="#SPON" class="nt">SPON</a></pre><pre><a name="equal" class="nt">equal</a> ::=
+	<span class="t">"="</span></pre><pre><a name="end_struct" class="nt">end_struct</a> ::=
+	<span class="t">"end"</span></pre><pre><a name="semi_calling_spec" class="nt">semi_calling_spec</a> ::=
+	<span class="t">";"</span><span class="meta">?</span> <a href="#calling_spec" class="nt">calling_spec</a></pre><pre><a name="calling_spec" class="nt">calling_spec</a> ::=
+	<span class="t">"pascal"</span>
+	<span class="t">"safecall"</span>
+	<span class="t">"stdcall"</span>
+	<span class="t">"cdecl"</span>
+	<span class="t">"register"</span>
+	<span class="t">"local"</span></pre><pre><a name="hint_directive" class="nt">hint_directive</a> ::=
+	<span class="t">"platform"</span>
+	<span class="t">"deprecated"</span>
+	<span class="t">"library"</span></pre><pre><a name="ctrlchar" class="nt">ctrlchar</a> ::=
+	<span class="t">"^'A"</span>
+	<span class="t">"^'B"</span>
+	<span class="t">"^'C"</span>
+	<span class="t">"^'D"</span>
+	<span class="t">"^'E"</span>
+	<span class="t">"^'F"</span>
+	<span class="t">"^'G"</span>
+	<span class="t">"^'H"</span>
+	<span class="t">"^'I"</span>
+	<span class="t">"^'J"</span>
+	<span class="t">"^'K"</span>
+	<span class="t">"^'L"</span>
+	<span class="t">"^'M"</span>
+	<span class="t">"^'N"</span>
+	<span class="t">"^'O"</span>
+	<span class="t">"^'P"</span>
+	<span class="t">"^'Q"</span>
+	<span class="t">"^'R"</span>
+	<span class="t">"^'S"</span>
+	<span class="t">"^'T"</span>
+	<span class="t">"^'U"</span>
+	<span class="t">"^'V"</span>
+	<span class="t">"^'W"</span>
+	<span class="t">"^'X"</span>
+	<span class="t">"^'Y"</span>
+	<span class="t">"^'Z"</span></pre><pre><a name="delphi_file" class="nt">delphi_file</a> ::=
+	<a href="#program_file" class="nt">program_file</a>
+	<a href="#package_file" class="nt">package_file</a>
+	<a href="#unit_file" class="nt">unit_file</a></pre><pre><a name="file_end" class="nt">file_end</a> ::=
+	<span class="t">"."</span></pre><pre><a name="program_file" class="nt">program_file</a> ::=
+	<a href="#program_decl" class="nt">program_decl</a> <a href="#uses_clause" class="nt">uses_clause</a><span class="meta">?</span> <a href="#impldecl_block" class="nt">impldecl_block</a> <a href="#procedure_body" class="nt">procedure_body</a> <a href="#file_end" class="nt">file_end</a></pre><pre><a name="package_file" class="nt">package_file</a> ::=
+	<a href="#package_decl" class="nt">package_decl</a> <a href="#requires_clause" class="nt">requires_clause</a><span class="meta">?</span> <a href="#contains_clause" class="nt">contains_clause</a><span class="meta">?</span> <a href="#end_struct" class="nt">end_struct</a> <a href="#file_end" class="nt">file_end</a></pre><pre><a name="unit_file" class="nt">unit_file</a> ::=
+	<a href="#unit_decl" class="nt">unit_decl</a> <a href="#interface_section" class="nt">interface_section</a> <a href="#implementation_section" class="nt">implementation_section</a> <a href="#initialization_section" class="nt">initialization_section</a><span class="meta">?</span> <a href="#finalization_section" class="nt">finalization_section</a><span class="meta">?</span> <a href="#end_struct" class="nt">end_struct</a> <a href="#file_end" class="nt">file_end</a></pre><pre><a name="program_decl" class="nt">program_decl</a> ::=
+	<span class="t">"program"</span> <a href="#qualified_id" class="nt">qualified_id</a> <a href="#program_file_list" class="nt">program_file_list</a><span class="meta">?</span> <span class="t">";"</span> <a href="#NL" class="nt">NL</a>
+	<span class="t">"library"</span> <a href="#qualified_id" class="nt">qualified_id</a> <span class="t">";"</span> <a href="#NL" class="nt">NL</a></pre><pre><a name="package_decl" class="nt">package_decl</a> ::=
+	<span class="t">"package"</span> <a href="#qualified_id" class="nt">qualified_id</a> <span class="t">";"</span> <a href="#NL" class="nt">NL</a></pre><pre><a name="unit_decl" class="nt">unit_decl</a> ::=
+	<span class="t">"unit"</span> <a href="#qualified_id" class="nt">qualified_id</a> <a href="#hint_directive" class="nt">hint_directive</a><span class="meta">?</span> <span class="t">";"</span> <a href="#NL" class="nt">NL</a></pre><pre><a name="program_file_list" class="nt">program_file_list</a> ::=
+	<span class="t">"("</span> <span class="meta">{</span><a href="#id" class="nt">id</a> <span class="t">","</span><span class="meta">}*</span> <span class="t">")"</span></pre><pre><a name="requires_clause" class="nt">requires_clause</a> ::=
+	<span class="t">"requires"</span> <span class="meta">{</span><a href="#qualified_id" class="nt">qualified_id</a> <span class="t">","</span><span class="meta">}*</span> <span class="t">";"</span> <a href="#NL" class="nt">NL</a></pre><pre><a name="contains_clause" class="nt">contains_clause</a> ::=
+	<span class="t">"contains"</span> <span class="meta">{</span><a href="#uses_item" class="nt">uses_item</a> <span class="t">","</span><span class="meta">}*</span> <span class="t">";"</span> <a href="#NL" class="nt">NL</a></pre><pre><a name="uses_clause" class="nt">uses_clause</a> ::=
+	<span class="t">"uses"</span> <a href="#NL" class="nt">NL</a> <a href="#IN" class="nt">IN</a> <span class="meta">{</span><a href="#uses_item" class="nt">uses_item</a> <span class="t">","</span><span class="meta">}*</span> <span class="t">";"</span> <a href="#EX" class="nt">EX</a> <a href="#NL" class="nt">NL</a></pre><pre><a name="uses_item" class="nt">uses_item</a> ::=
+	<a href="#qualified_id" class="nt">qualified_id</a> <a href="#in_filename" class="nt">in_filename</a><span class="meta">?</span></pre><pre><a name="in_filename" class="nt">in_filename</a> ::=
+	<span class="t">"in"</span> <a href="#filenamelit" class="nt">filenamelit</a></pre><pre><a name="initialization_kw" class="nt">initialization_kw</a> ::=
+	<span class="t">"initialization"</span>
+	<span class="t">"begin"</span></pre><pre><a name="implementation_kw" class="nt">implementation_kw</a> ::=
+	<span class="t">"implementation"</span> <a href="#NL" class="nt">NL</a></pre><pre><a name="finalization_kw" class="nt">finalization_kw</a> ::=
+	<span class="t">"finalization"</span></pre><pre><a name="interface_kw" class="nt">interface_kw</a> ::=
+	<span class="t">"interface"</span> <a href="#NL" class="nt">NL</a></pre><pre><a name="interface_section" class="nt">interface_section</a> ::=
+	<a href="#interface_kw" class="nt">interface_kw</a> <a href="#uses_clause" class="nt">uses_clause</a><span class="meta">?</span> <a href="#intfdecl_block" class="nt">intfdecl_block</a></pre><pre><a name="implementation_section" class="nt">implementation_section</a> ::=
+	<a href="#implementation_kw" class="nt">implementation_kw</a> <a href="#uses_clause" class="nt">uses_clause</a><span class="meta">?</span> <a href="#impldecl_block" class="nt">impldecl_block</a></pre><pre><a name="initialization_section" class="nt">initialization_section</a> ::=
+	<a href="#initialization_kw" class="nt">initialization_kw</a> <a href="#NL" class="nt">NL</a> <a href="#statement_list" class="nt">statement_list</a></pre><pre><a name="finalization_section" class="nt">finalization_section</a> ::=
+	<a href="#finalization_kw" class="nt">finalization_kw</a> <a href="#statement_list" class="nt">statement_list</a></pre><pre><a name="intfdecl_block" class="nt">intfdecl_block</a> ::=
+	<a href="#intfdecl_section" class="nt">intfdecl_section</a><span class="meta">*</span></pre><pre><a name="impldecl_block" class="nt">impldecl_block</a> ::=
+	<a href="#impldecl_section" class="nt">impldecl_section</a><span class="meta">*</span></pre><pre><a name="nested_decl_block" class="nt">nested_decl_block</a> ::=
+	<a href="#nested_decl_section" class="nt">nested_decl_section</a><span class="meta">*</span></pre><pre><a name="identlist" class="nt">identlist</a> ::=
+	<a href="#id" class="nt">id</a> <a href="#colon_id" class="nt">colon_id</a><span class="meta">*</span></pre><pre><a name="colon_id" class="nt">colon_id</a> ::=
+	<span class="t">","</span> <a href="#NL" class="nt">NL</a> <a href="#id" class="nt">id</a></pre><pre><a name="intfdecl_section" class="nt">intfdecl_section</a> ::=
+	<a href="#const_section" class="nt">const_section</a>
+	<a href="#type_section" class="nt">type_section</a>
+	<a href="#var_section" class="nt">var_section</a>
+	<a href="#label_decl" class="nt">label_decl</a>
+	<a href="#procedure_intf_decl" class="nt">procedure_intf_decl</a>
+	<a href="#procedure_external_decl" class="nt">procedure_external_decl</a>
+	<a href="#resource_section" class="nt">resource_section</a>
+	<a href="#exports_section" class="nt">exports_section</a></pre><pre><a name="impldecl_section" class="nt">impldecl_section</a> ::=
+	<a href="#const_section" class="nt">const_section</a>
+	<a href="#type_section" class="nt">type_section</a>
+	<a href="#var_section" class="nt">var_section</a>
+	<a href="#label_decl" class="nt">label_decl</a>
+	<a href="#procedure_impl_decl" class="nt">procedure_impl_decl</a>
+	<a href="#procedure_external_decl" class="nt">procedure_external_decl</a>
+	<a href="#resource_section" class="nt">resource_section</a>
+	<a href="#exports_section" class="nt">exports_section</a></pre><pre><a name="nested_decl_section" class="nt">nested_decl_section</a> ::=
+	<a href="#const_section" class="nt">const_section</a>
+	<a href="#type_section" class="nt">type_section</a>
+	<a href="#var_section" class="nt">var_section</a>
+	<a href="#label_decl" class="nt">label_decl</a>
+	<a href="#procedure_impl_decl" class="nt">procedure_impl_decl</a></pre><pre><a name="label_decl" class="nt">label_decl</a> ::=
+	<span class="t">"label"</span> <span class="meta">{</span><a href="#label_id" class="nt">label_id</a> <span class="t">","</span><span class="meta">}*</span> <span class="t">";"</span> <a href="#NL" class="nt">NL</a></pre><pre><a name="exports_section" class="nt">exports_section</a> ::=
+	<span class="t">"exports"</span> <span class="meta">{</span><a href="#exports_entry" class="nt">exports_entry</a> <span class="t">","</span><span class="meta">}*</span> <span class="t">";"</span> <a href="#NL" class="nt">NL</a></pre><pre><a name="exports_entry" class="nt">exports_entry</a> ::=
+	<a href="#procedure_id" class="nt">procedure_id</a> <a href="#formal_parameters" class="nt">formal_parameters</a><span class="meta">?</span> <a href="#external_name" class="nt">external_name</a><span class="meta">?</span></pre><pre><a name="resource_section" class="nt">resource_section</a> ::=
+	<span class="t">"resourcestring"</span> <a href="#constant_decl" class="nt">constant_decl</a><span class="meta">+</span></pre><pre><a name="const_section" class="nt">const_section</a> ::=
+	<span class="t">"const"</span> <a href="#NL" class="nt">NL</a> <a href="#IN" class="nt">IN</a> <a href="#constant_decl" class="nt">constant_decl</a><span class="meta">+</span> <a href="#EX" class="nt">EX</a></pre><pre><a name="constant_decl" class="nt">constant_decl</a> ::=
+	<a href="#identlist" class="nt">identlist</a> <a href="#constant_spec" class="nt">constant_spec</a> <a href="#hint_directive" class="nt">hint_directive</a><span class="meta">?</span> <span class="t">";"</span> <a href="#NL" class="nt">NL</a></pre><pre><a name="constant_spec" class="nt">constant_spec</a> ::=
+	<a href="#equal" class="nt">equal</a> <a href="#expr" class="nt">expr</a>
+	<a href="#colon_type" class="nt">colon_type</a> <a href="#const_init" class="nt">const_init</a></pre><pre><a name="const_init" class="nt">const_init</a> ::=
+	<a href="#equal" class="nt">equal</a> <a href="#typed_const" class="nt">typed_const</a></pre><pre><a name="typed_const" class="nt">typed_const</a> ::=
+	<a href="#array_constant" class="nt">array_constant</a>
+	<a href="#record_constant" class="nt">record_constant</a>
+	<a href="#expr" class="nt">expr</a></pre><pre><a name="array_constant" class="nt">array_constant</a> ::=
+	<span class="t">"("</span> <span class="meta">{</span><a href="#typed_const" class="nt">typed_const</a> <span class="t">","</span><span class="meta">}*</span> <span class="t">")"</span></pre><pre><a name="record_field_constant" class="nt">record_field_constant</a> ::=
+	<a href="#id" class="nt">id</a> <a href="#colon" class="nt">colon</a> <a href="#typed_const" class="nt">typed_const</a></pre><pre><a name="record_constant" class="nt">record_constant</a> ::=
+	<span class="t">"("</span> <a href="#record_field_constant_semi" class="nt">record_field_constant_semi</a><span class="meta">*</span> <a href="#record_field_constant" class="nt">record_field_constant</a><span class="meta">?</span> <span class="t">")"</span></pre><pre><a name="record_field_constant_semi" class="nt">record_field_constant_semi</a> ::=
+	<a href="#record_field_constant" class="nt">record_field_constant</a> <span class="t">";"</span> <a href="#NL" class="nt">NL</a></pre><pre><a name="var_section" class="nt">var_section</a> ::=
+	<a href="#var_keyword" class="nt">var_keyword</a> <a href="#NL" class="nt">NL</a> <a href="#IN" class="nt">IN</a> <a href="#var_decl" class="nt">var_decl</a><span class="meta">+</span> <a href="#EX" class="nt">EX</a></pre><pre><a name="var_keyword" class="nt">var_keyword</a> ::=
+	<span class="t">"var"</span>
+	<span class="t">"threadvar"</span></pre><pre><a name="var_decl" class="nt">var_decl</a> ::=
+	<a href="#identlist" class="nt">identlist</a> <a href="#colon_type" class="nt">colon_type</a> <a href="#hint_directive" class="nt">hint_directive</a><span class="meta">?</span> <a href="#var_init" class="nt">var_init</a><span class="meta">?</span> <span class="t">";"</span> <a href="#NL" class="nt">NL</a></pre><pre><a name="var_init" class="nt">var_init</a> ::=
+	<a href="#absolute_init" class="nt">absolute_init</a>
+	<a href="#const_init" class="nt">const_init</a></pre><pre><a name="absolute_init" class="nt">absolute_init</a> ::=
+	<span class="t">"absolute"</span> <a href="#expr" class="nt">expr</a></pre><pre><a name="type_section" class="nt">type_section</a> ::=
+	<span class="t">"type"</span> <a href="#NL" class="nt">NL</a> <a href="#IN" class="nt">IN</a> <a href="#type_decl" class="nt">type_decl</a><span class="meta">+</span> <a href="#EX" class="nt">EX</a></pre><pre><a name="type_decl" class="nt">type_decl</a> ::=
+	<a href="#identlist" class="nt">identlist</a> <a href="#equal" class="nt">equal</a> <span class="t">"type"</span><span class="meta">?</span> <a href="#type_spec" class="nt">type_spec</a> <a href="#hint_directive" class="nt">hint_directive</a><span class="meta">?</span> <span class="t">";"</span> <a href="#NL" class="nt">NL</a></pre><pre><a name="type_spec" class="nt">type_spec</a> ::=
+	<a href="#simple_type" class="nt">simple_type</a>
+	<a href="#string_type" class="nt">string_type</a>
+	<a href="#struct_type" class="nt">struct_type</a>
+	<a href="#pointer_type" class="nt">pointer_type</a>
+	<a href="#procedural_type" class="nt">procedural_type</a>
+	<a href="#variant_type" class="nt">variant_type</a>
+	<a href="#class_reference_type" class="nt">class_reference_type</a>
+	<a href="#class_type" class="nt">class_type</a>
+	<a href="#interface_type" class="nt">interface_type</a>
+	<a href="#qualified_id" class="nt">qualified_id</a></pre><pre><a name="real_type" class="nt">real_type</a> ::=
+	<span class="t">"real"</span>
+	<span class="t">"real48"</span>
+	<span class="t">"single"</span>
+	<span class="t">"double"</span>
+	<span class="t">"extended"</span>
+	<span class="t">"comp"</span>
+	<span class="t">"currency"</span></pre><pre><a name="integer_type" class="nt">integer_type</a> ::=
+	<span class="t">"shortint"</span>
+	<span class="t">"smallint"</span>
+	<span class="t">"longint"</span>
+	<span class="t">"int64"</span>
+	<span class="t">"word"</span>
+	<span class="t">"byte"</span>
+	<span class="t">"longword"</span>
+	<span class="t">"integer"</span>
+	<span class="t">"cardinal"</span></pre><pre><a name="char_type" class="nt">char_type</a> ::=
+	<span class="t">"char"</span>
+	<span class="t">"ansichar"</span>
+	<span class="t">"widechar"</span></pre><pre><a name="boolean_type" class="nt">boolean_type</a> ::=
+	<span class="t">"boolean"</span>
+	<span class="t">"bytebool"</span>
+	<span class="t">"wordbool"</span>
+	<span class="t">"longbool"</span></pre><pre><a name="variant_type" class="nt">variant_type</a> ::=
+	<span class="t">"variant"</span>
+	<span class="t">"olevariant"</span></pre><pre><a name="string_type" class="nt">string_type</a> ::=
+	<span class="t">"string"</span>
+	<span class="t">"shortstring"</span>
+	<span class="t">"ansistring"</span>
+	<span class="t">"widestring"</span>
+	<span class="t">"string"</span> <span class="t">"["</span> <a href="#expression" class="nt">expression</a> <span class="t">"]"</span></pre><pre><a name="enumerated_type" class="nt">enumerated_type</a> ::=
+	<span class="t">"("</span> <a href="#enum_spec" class="nt">enum_spec</a><span class="meta">+</span> <span class="t">")"</span></pre><pre><a name="enum_spec" class="nt">enum_spec</a> ::=
+	<a href="#id" class="nt">id</a> <a href="#param_init" class="nt">param_init</a><span class="meta">?</span></pre><pre><a name="subrange_type" class="nt">subrange_type</a> ::=
+	<a href="#expression" class="nt">expression</a> <a href="#SPOFF" class="nt">SPOFF</a> <a href="#dotdot_expr" class="nt">dotdot_expr</a> <a href="#SPON" class="nt">SPON</a></pre><pre><a name="dotdot_expr" class="nt">dotdot_expr</a> ::=
+	<span class="t">".."</span> <a href="#expression" class="nt">expression</a></pre><pre><a name="ordinal_type" class="nt">ordinal_type</a> ::=
+	<a href="#integer_type" class="nt">integer_type</a>
+	<a href="#char_type" class="nt">char_type</a>
+	<a href="#enumerated_type" class="nt">enumerated_type</a>
+	<a href="#boolean_type" class="nt">boolean_type</a>
+	<a href="#subrange_type" class="nt">subrange_type</a></pre><pre><a name="simple_type" class="nt">simple_type</a> ::=
+	<a href="#ordinal_type" class="nt">ordinal_type</a>
+	<a href="#real_type" class="nt">real_type</a></pre><pre><a name="struct_type" class="nt">struct_type</a> ::=
+	<a href="#set_type" class="nt">set_type</a>
+	<a href="#array_type" class="nt">array_type</a>
+	<a href="#file_type" class="nt">file_type</a></pre><pre><a name="of_basetype" class="nt">of_basetype</a> ::=
+	<span class="t">"of"</span> <a href="#type_spec" class="nt">type_spec</a></pre><pre><a name="of_object" class="nt">of_object</a> ::=
+	<span class="t">"of"</span> <span class="t">"object"</span></pre><pre><a name="of_const" class="nt">of_const</a> ::=
+	<span class="t">"of"</span> <span class="t">"const"</span></pre><pre><a name="set_type" class="nt">set_type</a> ::=
+	<span class="t">"set"</span> <a href="#of_basetype" class="nt">of_basetype</a></pre><pre><a name="file_type" class="nt">file_type</a> ::=
+	<span class="t">"file"</span> <a href="#of_basetype" class="nt">of_basetype</a><span class="meta">?</span></pre><pre><a name="pointer_type" class="nt">pointer_type</a> ::=
+	<span class="t">"^"</span> <a href="#SPOFF" class="nt">SPOFF</a> <a href="#qualified_id" class="nt">qualified_id</a> <a href="#SPON" class="nt">SPON</a></pre><pre><a name="procedural_type" class="nt">procedural_type</a> ::=
+	<a href="#procedure_intf_decl" class="nt">procedure_intf_decl</a> <a href="#of_object" class="nt">of_object</a><span class="meta">?</span> <a href="#semi_calling_spec" class="nt">semi_calling_spec</a><span class="meta">*</span></pre><pre><a name="colon_type" class="nt">colon_type</a> ::=
+	<a href="#colon" class="nt">colon</a> <a href="#type_spec" class="nt">type_spec</a></pre><pre><a name="array_type" class="nt">array_type</a> ::=
+	<span class="t">"array"</span> <a href="#of_const" class="nt">of_const</a>
+	<span class="t">"packed"</span><span class="meta">?</span> <span class="t">"array"</span> <a href="#array_index_list" class="nt">array_index_list</a><span class="meta">*</span> <a href="#of_basetype" class="nt">of_basetype</a></pre><pre><a name="array_index_list" class="nt">array_index_list</a> ::=
+	<span class="t">"["</span> <span class="meta">{</span><a href="#array_index" class="nt">array_index</a> <span class="t">","</span><span class="meta">}*</span> <span class="t">"]"</span></pre><pre><a name="array_index" class="nt">array_index</a> ::=
+	<a href="#ordinal_type" class="nt">ordinal_type</a>
+	<a href="#qualified_id" class="nt">qualified_id</a></pre><pre><a name="procedure_id" class="nt">procedure_id</a> ::=
+	<a href="#namespace" class="nt">namespace</a><span class="meta">?</span> <a href="#id" class="nt">id</a></pre><pre><a name="procedure_impl_decl" class="nt">procedure_impl_decl</a> ::=
+	<a href="#NL" class="nt">NL</a> <a href="#procedure_intf_decl" class="nt">procedure_intf_decl</a> <a href="#nested_decl_block" class="nt">nested_decl_block</a> <a href="#procedure_body_semi" class="nt">procedure_body_semi</a></pre><pre><a name="external_directive" class="nt">external_directive</a> ::=
+	<span class="t">"external"</span> <a href="#expr" class="nt">expr</a><span class="meta">?</span> <a href="#external_name" class="nt">external_name</a><span class="meta">?</span></pre><pre><a name="external_name" class="nt">external_name</a> ::=
+	<span class="t">"name"</span> <a href="#expr" class="nt">expr</a>
+	<span class="t">"index"</span> <a href="#expr" class="nt">expr</a></pre><pre><a name="semi_directive" class="nt">semi_directive</a> ::=
+	<span class="t">";"</span><span class="meta">?</span> <a href="#directive" class="nt">directive</a></pre><pre><a name="directive" class="nt">directive</a> ::=
+	<span class="t">"dynamic"</span>
+	<span class="t">"virtual"</span>
+	<span class="t">"abstract"</span>
+	<span class="t">"message"</span> <a href="#qualified_id" class="nt">qualified_id</a><span class="meta">?</span>
+	<span class="t">"dispid"</span> <a href="#sign" class="nt">sign</a><span class="meta">?</span> <a href="#anynumber" class="nt">anynumber</a>
+	<span class="t">"override"</span>
+	<span class="t">"overload"</span>
+	<span class="t">"reintroduce"</span>
+	<span class="t">"static"</span>
+	<span class="t">"assembler"</span>
+	<span class="t">"far"</span>
+	<span class="t">"export"</span>
+	<a href="#hint_directive" class="nt">hint_directive</a>
+	<a href="#calling_spec" class="nt">calling_spec</a></pre><pre><a name="procedure_intf_decl" class="nt">procedure_intf_decl</a> ::=
+	<a href="#procedure_signature" class="nt">procedure_signature</a> <a href="#semi_directive" class="nt">semi_directive</a><span class="meta">*</span> <span class="t">";"</span><span class="meta">?</span> <a href="#NL" class="nt">NL</a></pre><pre><a name="procedure_signature" class="nt">procedure_signature</a> ::=
+	<span class="t">"class"</span><span class="meta">?</span> <a href="#procedure_keyword" class="nt">procedure_keyword</a> <a href="#procedure_id" class="nt">procedure_id</a><span class="meta">?</span> <a href="#formal_parameters" class="nt">formal_parameters</a><span class="meta">?</span> <a href="#colon_type" class="nt">colon_type</a><span class="meta">?</span></pre><pre><a name="procedure_external_decl" class="nt">procedure_external_decl</a> ::=
+	<a href="#procedure_intf_decl" class="nt">procedure_intf_decl</a> <a href="#external_directive" class="nt">external_directive</a> <a href="#semi_calling_spec" class="nt">semi_calling_spec</a><span class="meta">?</span> <span class="t">";"</span><span class="meta">?</span> <a href="#NL" class="nt">NL</a></pre><pre><a name="procedure_keyword" class="nt">procedure_keyword</a> ::=
+	<span class="t">"function"</span>
+	<span class="t">"procedure"</span>
+	<span class="t">"constructor"</span>
+	<span class="t">"destructor"</span></pre><pre><a name="formal_parameters" class="nt">formal_parameters</a> ::=
+	<span class="t">"("</span> <a href="#formal_parameter" class="nt">formal_parameter</a> <a href="#semi_formal_parameter" class="nt">semi_formal_parameter</a><span class="meta">*</span> <span class="t">")"</span></pre><pre><a name="semi_formal_parameter" class="nt">semi_formal_parameter</a> ::=
+	<span class="t">";"</span> <a href="#formal_parameter" class="nt">formal_parameter</a></pre><pre><a name="formal_parameter" class="nt">formal_parameter</a> ::=
+	<a href="#parm_qual" class="nt">parm_qual</a><span class="meta">?</span> <a href="#parameter" class="nt">parameter</a></pre><pre><a name="parm_qual" class="nt">parm_qual</a> ::=
+	<span class="t">"var"</span>
+	<span class="t">"const"</span>
+	<span class="t">"out"</span></pre><pre><a name="parameter" class="nt">parameter</a> ::=
+	<span class="meta">{</span><a href="#id" class="nt">id</a> <span class="t">","</span><span class="meta">}*</span> <a href="#parameter_type" class="nt">parameter_type</a><span class="meta">?</span></pre><pre><a name="parameter_type" class="nt">parameter_type</a> ::=
+	<a href="#colon_type" class="nt">colon_type</a> <a href="#param_init" class="nt">param_init</a><span class="meta">?</span></pre><pre><a name="param_init" class="nt">param_init</a> ::=
+	<a href="#equal" class="nt">equal</a> <a href="#expr" class="nt">expr</a></pre><pre><a name="procedure_body_semi" class="nt">procedure_body_semi</a> ::=
+	<a href="#procedure_body" class="nt">procedure_body</a> <span class="t">";"</span> <a href="#NL" class="nt">NL</a></pre><pre><a name="procedure_body" class="nt">procedure_body</a> ::=
+	<a href="#sequence_stm" class="nt">sequence_stm</a>
+	<span class="t">"forward"</span></pre><pre><a name="heritage_list" class="nt">heritage_list</a> ::=
+	<span class="t">"("</span> <span class="meta">{</span><a href="#qualified_id" class="nt">qualified_id</a> <span class="t">","</span><span class="meta">}*</span> <span class="t">")"</span>
+	<span class="t">"helper"</span> <span class="t">"for"</span> <a href="#id" class="nt">id</a></pre><pre><a name="class_keyword" class="nt">class_keyword</a> ::=
+	<span class="t">"class"</span>
+	<span class="t">"record"</span>
+	<span class="t">"object"</span></pre><pre><a name="interface_keyword" class="nt">interface_keyword</a> ::=
+	<span class="t">"interface"</span>
+	<span class="t">"dispinterface"</span></pre><pre><a name="guid_decl" class="nt">guid_decl</a> ::=
+	<span class="t">"["</span> <a href="#expr" class="nt">expr</a> <span class="t">"]"</span></pre><pre><a name="class_reference_type" class="nt">class_reference_type</a> ::=
+	<span class="t">"class"</span> <span class="t">"of"</span> <a href="#qualified_id" class="nt">qualified_id</a></pre><pre><a name="class_type" class="nt">class_type</a> ::=
+	<span class="t">"packed"</span><span class="meta">?</span> <a href="#class_keyword" class="nt">class_keyword</a> <a href="#heritage_list" class="nt">heritage_list</a><span class="meta">?</span> <a href="#NL" class="nt">NL</a> <a href="#class_body" class="nt">class_body</a><span class="meta">?</span></pre><pre><a name="class_body" class="nt">class_body</a> ::=
+	<a href="#visibility_default" class="nt">visibility_default</a> <a href="#visibility_block" class="nt">visibility_block</a><span class="meta">*</span> <a href="#end_struct" class="nt">end_struct</a></pre><pre><a name="interface_body" class="nt">interface_body</a> ::=
+	<a href="#visibility_default" class="nt">visibility_default</a> <a href="#end_struct" class="nt">end_struct</a></pre><pre><a name="interface_type" class="nt">interface_type</a> ::=
+	<a href="#interface_keyword" class="nt">interface_keyword</a> <a href="#heritage_list" class="nt">heritage_list</a><span class="meta">?</span> <a href="#guid_decl" class="nt">guid_decl</a><span class="meta">?</span> <a href="#interface_body" class="nt">interface_body</a><span class="meta">?</span></pre><pre><a name="visibility_default" class="nt">visibility_default</a> ::=
+	<a href="#IN" class="nt">IN</a> <a href="#class_member" class="nt">class_member</a><span class="meta">*</span> <a href="#EX" class="nt">EX</a></pre><pre><a name="visibility_block" class="nt">visibility_block</a> ::=
+	<a href="#visibility" class="nt">visibility</a> <a href="#NL" class="nt">NL</a> <a href="#IN" class="nt">IN</a> <a href="#class_member" class="nt">class_member</a><span class="meta">*</span> <a href="#EX" class="nt">EX</a></pre><pre><a name="method_decl" class="nt">method_decl</a> ::=
+	<a href="#procedure_signature" class="nt">procedure_signature</a> <a href="#method_deleg" class="nt">method_deleg</a>
+	<a href="#procedure_signature" class="nt">procedure_signature</a> <span class="t">";"</span> <a href="#dispid_spec" class="nt">dispid_spec</a> <span class="t">";"</span>
+	<a href="#procedure_intf_decl" class="nt">procedure_intf_decl</a></pre><pre><a name="method_deleg" class="nt">method_deleg</a> ::=
+	<a href="#equal" class="nt">equal</a> <a href="#qualified_id" class="nt">qualified_id</a> <span class="t">";"</span> <a href="#NL" class="nt">NL</a></pre><pre><a name="visibility" class="nt">visibility</a> ::=
+	<span class="t">"public"</span>
+	<span class="t">"protected"</span>
+	<span class="t">"strict"</span><span class="meta">?</span> <span class="t">"private"</span>
+	<span class="t">"published"</span>
+	<span class="t">"automated"</span></pre><pre><a name="variant_section" class="nt">variant_section</a> ::=
+	<span class="t">"case"</span> <a href="#id_colon" class="nt">id_colon</a><span class="meta">?</span> <a href="#type_spec" class="nt">type_spec</a> <span class="t">"of"</span> <a href="#record_variant" class="nt">record_variant</a><span class="meta">+</span></pre><pre><a name="id_colon" class="nt">id_colon</a> ::=
+	<a href="#id" class="nt">id</a> <a href="#colon" class="nt">colon</a></pre><pre><a name="record_variant" class="nt">record_variant</a> ::=
+	<a href="#expr" class="nt">expr</a><span class="meta">+</span> <a href="#colon" class="nt">colon</a> <span class="t">"("</span> <a href="#visibility_default" class="nt">visibility_default</a> <span class="t">")"</span> <span class="t">";"</span><span class="meta">?</span> <a href="#NL" class="nt">NL</a></pre><pre><a name="class_member" class="nt">class_member</a> ::=
+	<a href="#var_decl" class="nt">var_decl</a>
+	<a href="#method_decl" class="nt">method_decl</a>
+	<a href="#property_decl" class="nt">property_decl</a>
+	<a href="#variant_section" class="nt">variant_section</a></pre><pre><a name="property_decl" class="nt">property_decl</a> ::=
+	<span class="t">"property"</span> <a href="#id" class="nt">id</a> <a href="#prop_indexes" class="nt">prop_indexes</a><span class="meta">?</span> <a href="#colon_type" class="nt">colon_type</a><span class="meta">?</span> <a href="#prop_specifier" class="nt">prop_specifier</a><span class="meta">*</span> <a href="#defaultarray_spec" class="nt">defaultarray_spec</a><span class="meta">?</span> <span class="t">";"</span> <a href="#NL" class="nt">NL</a></pre><pre><a name="defaultarray_spec" class="nt">defaultarray_spec</a> ::=
+	<span class="t">";"</span> <span class="t">"default"</span></pre><pre><a name="prop_indexes" class="nt">prop_indexes</a> ::=
+	<span class="t">"["</span> <a href="#prop_index_decl" class="nt">prop_index_decl</a><span class="meta">+</span> <span class="t">"]"</span></pre><pre><a name="prop_index_decl" class="nt">prop_index_decl</a> ::=
+	<a href="#prop_index_name" class="nt">prop_index_name</a><span class="meta">+</span> <a href="#colon_type" class="nt">colon_type</a> <span class="t">";"</span><span class="meta">?</span></pre><pre><a name="prop_index_modifier" class="nt">prop_index_modifier</a> ::=
+	<span class="t">"const"</span>
+	<span class="t">"var"</span></pre><pre><a name="prop_index_name" class="nt">prop_index_name</a> ::=
+	<a href="#prop_index_modifier" class="nt">prop_index_modifier</a><span class="meta">?</span> <a href="#qualified_id" class="nt">qualified_id</a></pre><pre><a name="prop_specifier" class="nt">prop_specifier</a> ::=
+	<a href="#index_spec" class="nt">index_spec</a>
+	<a href="#accessor_spec" class="nt">accessor_spec</a>
+	<a href="#stored_spec" class="nt">stored_spec</a>
+	<a href="#default_spec" class="nt">default_spec</a>
+	<a href="#implements_spec" class="nt">implements_spec</a>
+	<a href="#dispid_spec" class="nt">dispid_spec</a></pre><pre><a name="dispid_spec" class="nt">dispid_spec</a> ::=
+	<span class="t">"dispid"</span> <a href="#SP" class="nt">SP</a> <a href="#expr" class="nt">expr</a></pre><pre><a name="index_spec" class="nt">index_spec</a> ::=
+	<span class="t">"index"</span> <a href="#SP" class="nt">SP</a> <a href="#expr" class="nt">expr</a></pre><pre><a name="accessor_spec" class="nt">accessor_spec</a> ::=
+	<span class="t">"readonly"</span>
+	<span class="t">"writeonly"</span>
+	<a href="#accessor_verb" class="nt">accessor_verb</a> <a href="#qualified_id" class="nt">qualified_id</a></pre><pre><a name="accessor_verb" class="nt">accessor_verb</a> ::=
+	<span class="t">"read"</span>
+	<span class="t">"write"</span></pre><pre><a name="stored_spec" class="nt">stored_spec</a> ::=
+	<span class="t">"stored"</span> <a href="#SP" class="nt">SP</a> <a href="#expr" class="nt">expr</a></pre><pre><a name="default_spec" class="nt">default_spec</a> ::=
+	<span class="t">"default"</span> <a href="#SP" class="nt">SP</a> <a href="#expr" class="nt">expr</a>
+	<span class="t">"nodefault"</span></pre><pre><a name="implements_spec" class="nt">implements_spec</a> ::=
+	<span class="t">"implements"</span> <span class="meta">{</span><a href="#qualified_id" class="nt">qualified_id</a> <span class="t">","</span><span class="meta">}*</span></pre><pre><a name="expr" class="nt">expr</a> ::=
+	<a href="#SP" class="nt">SP</a> <a href="#SPOFF" class="nt">SPOFF</a> <a href="#expression" class="nt">expression</a> <a href="#SPON" class="nt">SPON</a></pre><pre><a name="expression" class="nt">expression</a> ::=
+	<a href="#term" class="nt">term</a> <a href="#infix_expr" class="nt">infix_expr</a><span class="meta">*</span></pre><pre><a name="term" class="nt">term</a> ::=
+	<a href="#prefix_opr" class="nt">prefix_opr</a><span class="meta">*</span> <a href="#atom_expr" class="nt">atom_expr</a> <a href="#postfix_opr" class="nt">postfix_opr</a><span class="meta">*</span></pre><pre><a name="infix_expr" class="nt">infix_expr</a> ::=
+	<a href="#SP" class="nt">SP</a> <a href="#infix_opr" class="nt">infix_opr</a> <a href="#SP" class="nt">SP</a> <a href="#term" class="nt">term</a></pre><pre><a name="atom_expr" class="nt">atom_expr</a> ::=
+	<a href="#charlit" class="nt">charlit</a>
+	<a href="#anynumber" class="nt">anynumber</a>
+	<a href="#ctrlchar" class="nt">ctrlchar</a>
+	<span class="t">"nil"</span>
+	<span class="t">"("</span> <a href="#expression" class="nt">expression</a> <span class="t">")"</span>
+	<a href="#set_constructor" class="nt">set_constructor</a>
+	<a href="#qualified_id" class="nt">qualified_id</a></pre><pre><a name="sign" class="nt">sign</a> ::=
+	<span class="t">"+"</span>
+	<span class="t">"-"</span></pre><pre><a name="prefix_opr" class="nt">prefix_opr</a> ::=
+	<span class="t">"not"</span> <a href="#SP" class="nt">SP</a>
+	<span class="t">"inherited"</span> <a href="#SP" class="nt">SP</a>
+	<span class="t">"@"</span>
+	<a href="#sign" class="nt">sign</a></pre><pre><a name="postfix_opr" class="nt">postfix_opr</a> ::=
+	<a href="#arguments" class="nt">arguments</a>
+	<a href="#array_subscript" class="nt">array_subscript</a>
+	<span class="t">"."</span> <a href="#id" class="nt">id</a>
+	<span class="t">"^"</span></pre><pre><a name="infix_opr" class="nt">infix_opr</a> ::=
+	<span class="t">"&gt;"</span>
+	<span class="t">"&lt;"</span>
+	<span class="t">"&lt;="</span>
+	<span class="t">"&gt;="</span>
+	<span class="t">"&lt;&gt;"</span>
+	<span class="t">"="</span>
+	<span class="t">"in"</span>
+	<span class="t">"is"</span>
+	<span class="t">"as"</span>
+	<span class="t">"+"</span>
+	<span class="t">"-"</span>
+	<span class="t">"or"</span>
+	<span class="t">"xor"</span>
+	<span class="t">"*"</span>
+	<span class="t">"/"</span>
+	<span class="t">"div"</span>
+	<span class="t">"mod"</span>
+	<span class="t">"and"</span>
+	<span class="t">"shl"</span>
+	<span class="t">"shr"</span>
+	<span class="t">"^"</span></pre><pre><a name="set_constructor" class="nt">set_constructor</a> ::=
+	<span class="t">"["</span> <a href="#set_element" class="nt">set_element</a><span class="meta">?</span> <a href="#semi_set_element" class="nt">semi_set_element</a><span class="meta">*</span> <span class="t">"]"</span></pre><pre><a name="arguments" class="nt">arguments</a> ::=
+	<span class="t">"("</span> <a href="#argm" class="nt">argm</a><span class="meta">?</span> <a href="#semi_argm" class="nt">semi_argm</a><span class="meta">*</span> <span class="t">")"</span></pre><pre><a name="array_subscript" class="nt">array_subscript</a> ::=
+	<span class="t">"["</span> <a href="#expression" class="nt">expression</a><span class="meta">?</span> <a href="#semi_expression" class="nt">semi_expression</a><span class="meta">*</span> <span class="t">"]"</span></pre><pre><a name="semi_argm" class="nt">semi_argm</a> ::=
+	<span class="t">","</span> <a href="#SP" class="nt">SP</a> <a href="#argm" class="nt">argm</a></pre><pre><a name="semi_set_element" class="nt">semi_set_element</a> ::=
+	<span class="t">","</span> <a href="#SP" class="nt">SP</a> <a href="#set_element" class="nt">set_element</a></pre><pre><a name="semi_expression" class="nt">semi_expression</a> ::=
+	<span class="t">","</span> <a href="#SP" class="nt">SP</a> <a href="#expression" class="nt">expression</a></pre><pre><a name="set_element" class="nt">set_element</a> ::=
+	<a href="#expression" class="nt">expression</a> <a href="#dotdot_expr" class="nt">dotdot_expr</a><span class="meta">?</span></pre><pre><a name="argm" class="nt">argm</a> ::=
+	<a href="#expression" class="nt">expression</a> <a href="#argmfmt" class="nt">argmfmt</a><span class="meta">?</span> <a href="#argmfmt" class="nt">argmfmt</a><span class="meta">?</span></pre><pre><a name="argmfmt" class="nt">argmfmt</a> ::=
+	<span class="t">":"</span> <a href="#anynumber" class="nt">anynumber</a></pre><pre><a name="labelid_colon" class="nt">labelid_colon</a> ::=
+	<a href="#label_id" class="nt">label_id</a> <a href="#colon" class="nt">colon</a></pre><pre><a name="statement_list" class="nt">statement_list</a> ::=
+	<a href="#IN" class="nt">IN</a> <a href="#statement_semi" class="nt">statement_semi</a><span class="meta">*</span> <a href="#statement" class="nt">statement</a><span class="meta">?</span> <a href="#EX" class="nt">EX</a></pre><pre><a name="statement_semi" class="nt">statement_semi</a> ::=
+	<a href="#statement" class="nt">statement</a><span class="meta">?</span> <span class="t">";"</span> <a href="#NL" class="nt">NL</a></pre><pre><a name="statement" class="nt">statement</a> ::=
+	<a href="#labelid_colon" class="nt">labelid_colon</a><span class="meta">?</span> <a href="#unlabeled_stm" class="nt">unlabeled_stm</a></pre><pre><a name="unlabeled_stm" class="nt">unlabeled_stm</a> ::=
+	<a href="#sequence_stm" class="nt">sequence_stm</a>
+	<a href="#loop_stm" class="nt">loop_stm</a>
+	<a href="#with_stm" class="nt">with_stm</a>
+	<a href="#try_finally_stm" class="nt">try_finally_stm</a>
+	<a href="#try_except_stm" class="nt">try_except_stm</a>
+	<a href="#selection_stm" class="nt">selection_stm</a>
+	<a href="#jump_stm" class="nt">jump_stm</a>
+	<a href="#assign_stm" class="nt">assign_stm</a>
+	<a href="#call_stm" class="nt">call_stm</a></pre><pre><a name="assign_stm" class="nt">assign_stm</a> ::=
+	<a href="#expr" class="nt">expr</a> <span class="t">":="</span> <a href="#expr" class="nt">expr</a></pre><pre><a name="call_stm" class="nt">call_stm</a> ::=
+	<a href="#expr" class="nt">expr</a>
+	<span class="t">"inherited"</span></pre><pre><a name="jump_stm" class="nt">jump_stm</a> ::=
+	<a href="#goto_stm" class="nt">goto_stm</a>
+	<a href="#raise_stm" class="nt">raise_stm</a></pre><pre><a name="goto_stm" class="nt">goto_stm</a> ::=
+	<span class="t">"goto"</span> <a href="#label_id" class="nt">label_id</a></pre><pre><a name="sequence_stm" class="nt">sequence_stm</a> ::=
+	<span class="t">"begin"</span> <a href="#NL" class="nt">NL</a> <a href="#statement_list" class="nt">statement_list</a> <a href="#end_struct" class="nt">end_struct</a></pre><pre><a name="loop_stm" class="nt">loop_stm</a> ::=
+	<span class="t">"repeat"</span> <a href="#statement_list" class="nt">statement_list</a> <span class="t">"until"</span> <a href="#expr" class="nt">expr</a>
+	<span class="t">"while"</span> <a href="#expr" class="nt">expr</a> <span class="t">"do"</span> <a href="#nested_stm" class="nt">nested_stm</a>
+	<span class="t">"for"</span> <a href="#id" class="nt">id</a> <span class="t">":="</span> <a href="#expr" class="nt">expr</a> <a href="#to_or_downto" class="nt">to_or_downto</a> <a href="#expr" class="nt">expr</a> <span class="t">"do"</span> <a href="#nested_stm" class="nt">nested_stm</a>
+	<span class="t">"for"</span> <a href="#id" class="nt">id</a> <span class="t">"in"</span> <a href="#id" class="nt">id</a> <span class="t">"do"</span> <a href="#nested_stm" class="nt">nested_stm</a></pre><pre><a name="selection_stm" class="nt">selection_stm</a> ::=
+	<span class="t">"if"</span> <a href="#expr" class="nt">expr</a> <span class="t">"then"</span> <a href="#nested_stm" class="nt">nested_stm</a> <a href="#else_stm" class="nt">else_stm</a><span class="meta">?</span>
+	<span class="t">"case"</span> <a href="#expr" class="nt">expr</a> <span class="t">"of"</span> <a href="#case_selector" class="nt">case_selector</a><span class="meta">*</span> <a href="#case_else" class="nt">case_else</a><span class="meta">?</span> <a href="#end_struct" class="nt">end_struct</a></pre><pre><a name="with_stm" class="nt">with_stm</a> ::=
+	<span class="t">"with"</span> <a href="#expr" class="nt">expr</a><span class="meta">+</span> <span class="t">"do"</span> <a href="#nested_stm" class="nt">nested_stm</a></pre><pre><a name="try_finally_stm" class="nt">try_finally_stm</a> ::=
+	<span class="t">"try"</span> <a href="#NL" class="nt">NL</a> <a href="#statement_list" class="nt">statement_list</a> <span class="t">"finally"</span> <a href="#NL" class="nt">NL</a> <a href="#statement_list" class="nt">statement_list</a> <a href="#end_struct" class="nt">end_struct</a></pre><pre><a name="try_except_stm" class="nt">try_except_stm</a> ::=
+	<span class="t">"try"</span> <a href="#NL" class="nt">NL</a> <a href="#statement_list" class="nt">statement_list</a> <span class="t">"except"</span> <a href="#NL" class="nt">NL</a> <a href="#exception_block" class="nt">exception_block</a> <a href="#end_struct" class="nt">end_struct</a></pre><pre><a name="nested_stm" class="nt">nested_stm</a> ::=
+	<a href="#sequence_stm" class="nt">sequence_stm</a>
+	<a href="#NL" class="nt">NL</a> <a href="#IN" class="nt">IN</a> <a href="#statement" class="nt">statement</a><span class="meta">?</span> <a href="#EX" class="nt">EX</a></pre><pre><a name="else_stm" class="nt">else_stm</a> ::=
+	<a href="#NL" class="nt">NL</a> <span class="t">"else"</span> <a href="#nested_stm" class="nt">nested_stm</a></pre><pre><a name="case_selector" class="nt">case_selector</a> ::=
+	<span class="meta">{</span><a href="#case_label" class="nt">case_label</a> <span class="t">","</span><span class="meta">}*</span> <a href="#colon" class="nt">colon</a> <a href="#nested_stm" class="nt">nested_stm</a> <span class="t">";"</span><span class="meta">?</span></pre><pre><a name="case_label" class="nt">case_label</a> ::=
+	<a href="#expr" class="nt">expr</a> <a href="#dotdot_expr" class="nt">dotdot_expr</a><span class="meta">?</span></pre><pre><a name="case_else" class="nt">case_else</a> ::=
+	<span class="t">"else"</span> <a href="#statement_list" class="nt">statement_list</a></pre><pre><a name="to_or_downto" class="nt">to_or_downto</a> ::=
+	<span class="t">"to"</span>
+	<span class="t">"downto"</span></pre><pre><a name="exception_block" class="nt">exception_block</a> ::=
+	<a href="#exception_handler_list" class="nt">exception_handler_list</a> <a href="#case_else" class="nt">case_else</a><span class="meta">?</span>
+	<a href="#statement_list" class="nt">statement_list</a></pre><pre><a name="exception_handler_list" class="nt">exception_handler_list</a> ::=
+	<a href="#exception_handler_semi" class="nt">exception_handler_semi</a><span class="meta">*</span> <a href="#exception_handler" class="nt">exception_handler</a><span class="meta">?</span></pre><pre><a name="exception_handler_semi" class="nt">exception_handler_semi</a> ::=
+	<a href="#exception_handler" class="nt">exception_handler</a> <span class="t">";"</span> <a href="#NL" class="nt">NL</a></pre><pre><a name="exception_handler" class="nt">exception_handler</a> ::=
+	<span class="t">"on"</span> <a href="#exception_var" class="nt">exception_var</a><span class="meta">?</span> <a href="#type_spec" class="nt">type_spec</a> <span class="t">"do"</span> <a href="#nested_stm" class="nt">nested_stm</a></pre><pre><a name="exception_var" class="nt">exception_var</a> ::=
+	<a href="#id" class="nt">id</a> <a href="#colon" class="nt">colon</a></pre><pre><a name="raise_stm" class="nt">raise_stm</a> ::=
+	<span class="t">"raise"</span> <a href="#expr" class="nt">expr</a><span class="meta">?</span> <a href="#at_address" class="nt">at_address</a><span class="meta">?</span></pre><pre><a name="at_address" class="nt">at_address</a> ::=
+	<span class="t">"at"</span> <a href="#expr" class="nt">expr</a></pre><pre><a name="anynumber" class="nt">anynumber</a> ::=
+	<a href="#hexnumber" class="nt">hexnumber</a>
+	<a href="#number" class="nt">number</a></pre><hr /><div class="b"><a href="http://grammarware.github.io/lab"><img src="../../../../../by-grammarlab.png" alt="GrammarLab" title="Powered by GrammarLab"></img></a>Maintained by Dr. <a href="http://grammarware.net/">Vadim Zaytsev</a> a.k.a. @<a href="http://twitter.com/grammarware">grammarware</a>. Last updated in October 2014. <span class="links"> [<a href="#TOP">↑</a>]</span></div></body></html>

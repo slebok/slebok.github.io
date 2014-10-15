@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="content-type" content="text/html; charset=utf-8" /><title>Grammar Zoo - Browsable SysML Grammar</title><link href="../../../../slps.css" rel="stylesheet" type="text/css" /></head><body><h1 class="l"><a name="TOP"></a>Browsable SysML Grammar</h1><a href="http://creativecommons.org/licenses/by/3.0/"><img src="../../../../cc-by.png" alt="CC-BY" title="View the CC-BY license"></img></a><p>Grammar extracted by <strong><a href="http://grammarware.net/">Vadim Zaytsev</a></strong>, see the <a href="http://grammarzoo.github.io/">Grammar Zoo</a> entry for details: <a href="../../../../index.html#dsl_architecture_sysml_extracted">dsl/architecture/sysml/extracted</a><br />Source used for this grammar: Albin Jossic, <code>SysML.ecore</code>,  2006/06/06<span class="links" /></p><h2 class="l">Summary</h2><ul class="nl"><li>Total <strong>128</strong> production rules with <strong>139</strong> top alternatives and <strong>528</strong> symbols.</li><li>Vocabulary: <strong>118</strong> = <strong>70</strong> nonterminals + <strong>2</strong> terminals + <strong>46</strong> labels + <strong>0</strong> markers.</li><li>Total <strong>70</strong> nonterminal symbols: <strong>70</strong> defined (<code><a href="#Entity" class="nt">Entity</a></code>, <code><a href="#NamedElement" class="nt">NamedElement</a></code>, <code><a href="#Dependency" class="nt">Dependency</a></code>, <code><a href="#Conform" class="nt">Conform</a></code>, <code><a href="#Package" class="nt">Package</a></code>, <code><a href="#View" class="nt">View</a></code>, <code><a href="#Class" class="nt">Class</a></code>, <code><a href="#Viewpoint" class="nt">Viewpoint</a></code>, <code><a href="#Comment" class="nt">Comment</a></code>, <code><a href="#Rationale" class="nt">Rationale</a></code>, <code><a href="#Problem" class="nt">Problem</a></code>, <code><a href="#Block" class="nt">Block</a></code>, <code><a href="#ConstraintBlock" class="nt">ConstraintBlock</a></code>, <code><a href="#Property" class="nt">Property</a></code>, <code><a href="#BlockProperty" class="nt">BlockProperty</a></code>, <code><a href="#ConstraintProperty" class="nt">ConstraintProperty</a></code>, <code><a href="#DistributedProperty" class="nt">DistributedProperty</a></code>, <code><a href="#DataType" class="nt">DataType</a></code>, <code><a href="#ValueType" class="nt">ValueType</a></code>, <code><a href="#Unit" class="nt">Unit</a></code>, <code><a href="#Dimension" class="nt">Dimension</a></code>, <code><a href="#ConnectorEnd" class="nt">ConnectorEnd</a></code>, <code><a href="#NestedConnectorEnd" class="nt">NestedConnectorEnd</a></code>, <code><a href="#Port" class="nt">Port</a></code>, <code><a href="#FlowPort" class="nt">FlowPort</a></code>, <code><a href="#FlowProperty" class="nt">FlowProperty</a></code>, <code><a href="#Interface" class="nt">Interface</a></code>, <code><a href="#FlowSpecification" class="nt">FlowSpecification</a></code>, <code><a href="#FlowDirection" class="nt">FlowDirection</a></code>, <code><a href="#Classifier" class="nt">Classifier</a></code>, <code><a href="#InformationItem" class="nt">InformationItem</a></code>, <code><a href="#InformationFlow" class="nt">InformationFlow</a></code>, <code><a href="#ItemFlow" class="nt">ItemFlow</a></code>, <code><a href="#Parameter" class="nt">Parameter</a></code>, <code><a href="#ActivityEdge" class="nt">ActivityEdge</a></code>, <code><a href="#ParameterSet" class="nt">ParameterSet</a></code>, <code><a href="#Optional" class="nt">Optional</a></code>, <code><a href="#Rate" class="nt">Rate</a></code>, <code><a href="#InstanceSpecification" class="nt">InstanceSpecification</a></code>, <code><a href="#Continous" class="nt">Continous</a></code>, <code><a href="#Discrete" class="nt">Discrete</a></code>, <code><a href="#Probability" class="nt">Probability</a></code>, <code><a href="#ValueSpecification" class="nt">ValueSpecification</a></code>, <code><a href="#Behavior" class="nt">Behavior</a></code>, <code><a href="#Operation" class="nt">Operation</a></code>, <code><a href="#ControlOperation" class="nt">ControlOperation</a></code>, <code><a href="#ObjectNode" class="nt">ObjectNode</a></code>, <code><a href="#NoBuffer" class="nt">NoBuffer</a></code>, <code><a href="#Overwrite" class="nt">Overwrite</a></code>, <code><a href="#Abstraction" class="nt">Abstraction</a></code>, <code><a href="#Allocate" class="nt">Allocate</a></code>, <code><a href="#Allocated" class="nt">Allocated</a></code>, <code><a href="#ActivityPartition" class="nt">ActivityPartition</a></code>, <code><a href="#AllocateActivityPartition" class="nt">AllocateActivityPartition</a></code>, <code><a href="#Trace" class="nt">Trace</a></code>, <code><a href="#DeriveReqt" class="nt">DeriveReqt</a></code>, <code><a href="#Verify" class="nt">Verify</a></code>, <code><a href="#Copy" class="nt">Copy</a></code>, <code><a href="#Realization" class="nt">Realization</a></code>, <code><a href="#Satisfy" class="nt">Satisfy</a></code>, <code><a href="#Requirement" class="nt">Requirement</a></code>, <code><a href="#TestCase" class="nt">TestCase</a></code>, <code><a href="#RequirementRelated" class="nt">RequirementRelated</a></code>, <code><a href="#BasicInterval" class="nt">BasicInterval</a></code>, <code><a href="#Interval" class="nt">Interval</a></code>, <code><a href="#Uniform" class="nt">Uniform</a></code>, <code><a href="#Normal" class="nt">Normal</a></code>, <code><a href="#String" class="nt">String</a></code>, <code><a href="#Integer" class="nt">Integer</a></code>, <code><a href="#Boolean" class="nt">Boolean</a></code>), <strong>0</strong> root (—), <strong>1</strong> top (<code><a href="#Entity" class="nt">Entity</a></code>), <strong>0</strong> bottom (—).</li><li>Total <strong>2</strong> terminal symbols: <strong>2</strong> keywords (<span class="t">"true"</span>, <span class="t">"false"</span>), <strong>0</strong> letters (—), <strong>0</strong> numerics (—), <strong>0</strong> signs (—).</li><li>Total <strong>46</strong> labels: <code>[<a href="#target" class="lbl">target</a>]</code><sup> 2</sup>, <code>[<a href="#source" class="lbl">source</a>]</code><sup> 2</sup>, <code>[<a href="#conformsTo" class="lbl">conformsTo</a>]</code>, <code>[<a href="#name" class="lbl">name</a>]</code>, <code>[<a href="#stakeholders" class="lbl">stakeholders</a>]</code>, <code>[<a href="#purpose" class="lbl">purpose</a>]</code>, <code>[<a href="#concerns" class="lbl">concerns</a>]</code>, <code>[<a href="#languages" class="lbl">languages</a>]</code>, <code>[<a href="#methods" class="lbl">methods</a>]</code>, <code>[<a href="#content" class="lbl">content</a>]</code><sup> 3</sup>, <code>[<a href="#isEncapsulated" class="lbl">isEncapsulated</a>]</code><sup> 2</sup>, <code>[<a href="#unit" class="lbl">unit</a>]</code><sup> 3</sup>, <code>[<a href="#dimension" class="lbl">dimension</a>]</code><sup> 3</sup>, <code>[<a href="#propertyPath" class="lbl">propertyPath</a>]</code>, <code>[<a href="#isBehavior" class="lbl">isBehavior</a>]</code>, <code>[<a href="#isAtomic" class="lbl">isAtomic</a>]</code>, <code>[<a href="#direction" class="lbl">direction</a>]</code><sup> 2</sup>, <code>[<a href="#isConjugated" class="lbl">isConjugated</a>]</code>, <code>[<a href="#ownedFlowProperty" class="lbl">ownedFlowProperty</a>]</code>, <code>[<a href="#in" class="lbl">in</a>]</code>, <code>[<a href="#out" class="lbl">out</a>]</code>, <code>[<a href="#inout" class="lbl">inout</a>]</code>, <code>[<a href="#represented" class="lbl">represented</a>]</code>, <code>[<a href="#conveyed" class="lbl">conveyed</a>]</code>, <code>[<a href="#itemProperty" class="lbl">itemProperty</a>]</code>, <code>[<a href="#instance" class="lbl">instance</a>]</code><sup> 3</sup>, <code>[<a href="#probability" class="lbl">probability</a>]</code>, <code>[<a href="#allocatedFrom" class="lbl">allocatedFrom</a>]</code>, <code>[<a href="#allocatedTo" class="lbl">allocatedTo</a>]</code>, <code>[<a href="#text" class="lbl">text</a>]</code>, <code>[<a href="#id" class="lbl">id</a>]</code>, <code>[<a href="#derived" class="lbl">derived</a>]</code>, <code>[<a href="#derivedFrom" class="lbl">derivedFrom</a>]</code>, <code>[<a href="#satisfiedBy" class="lbl">satisfiedBy</a>]</code>, <code>[<a href="#refinedBy" class="lbl">refinedBy</a>]</code>, <code>[<a href="#tracedTo" class="lbl">tracedTo</a>]</code>, <code>[<a href="#verifiedBy" class="lbl">verifiedBy</a>]</code>, <code>[<a href="#master" class="lbl">master</a>]</code>, <code>[<a href="#verifies" class="lbl">verifies</a>]</code>, <code>[<a href="#tracedFrom" class="lbl">tracedFrom</a>]</code>, <code>[<a href="#satisfies" class="lbl">satisfies</a>]</code>, <code>[<a href="#refines" class="lbl">refines</a>]</code>, <code>[<a href="#min" class="lbl">min</a>]</code><sup> 3</sup>, <code>[<a href="#max" class="lbl">max</a>]</code><sup> 3</sup>, <code>[<a href="#mean" class="lbl">mean</a>]</code>, <code>[<a href="#standardDeviation" class="lbl">standardDeviation</a>]</code>.</li></ul><h2 class="l">Syntax</h2><pre><a name="Entity" class="nt">Entity</a> ::=
+	<a href="#NamedElement" class="nt">NamedElement</a></pre><pre><a name="Entity" class="nt">Entity</a> ::=
+	<a href="#Comment" class="nt">Comment</a></pre><pre><a name="Entity" class="nt">Entity</a> ::=
+	<a href="#Property" class="nt">Property</a></pre><pre><a name="Entity" class="nt">Entity</a> ::=
+	<a href="#DataType" class="nt">DataType</a></pre><pre><a name="Entity" class="nt">Entity</a> ::=
+	<a href="#ConnectorEnd" class="nt">ConnectorEnd</a></pre><pre><a name="Entity" class="nt">Entity</a> ::=
+	<a href="#Interface" class="nt">Interface</a></pre><pre><a name="Entity" class="nt">Entity</a> ::=
+	<a href="#Classifier" class="nt">Classifier</a></pre><pre><a name="Entity" class="nt">Entity</a> ::=
+	<a href="#InformationFlow" class="nt">InformationFlow</a></pre><pre><a name="Entity" class="nt">Entity</a> ::=
+	<a href="#Parameter" class="nt">Parameter</a></pre><pre><a name="Entity" class="nt">Entity</a> ::=
+	<a href="#ActivityEdge" class="nt">ActivityEdge</a></pre><pre><a name="Entity" class="nt">Entity</a> ::=
+	<a href="#ParameterSet" class="nt">ParameterSet</a></pre><pre><a name="Entity" class="nt">Entity</a> ::=
+	<a href="#InstanceSpecification" class="nt">InstanceSpecification</a></pre><pre><a name="Entity" class="nt">Entity</a> ::=
+	<a href="#ValueSpecification" class="nt">ValueSpecification</a></pre><pre><a name="Entity" class="nt">Entity</a> ::=
+	<a href="#Behavior" class="nt">Behavior</a></pre><pre><a name="Entity" class="nt">Entity</a> ::=
+	<a href="#Operation" class="nt">Operation</a></pre><pre><a name="Entity" class="nt">Entity</a> ::=
+	<a href="#ObjectNode" class="nt">ObjectNode</a></pre><pre><a name="Entity" class="nt">Entity</a> ::=
+	<a href="#Abstraction" class="nt">Abstraction</a></pre><pre><a name="Entity" class="nt">Entity</a> ::=
+	<a href="#ActivityPartition" class="nt">ActivityPartition</a></pre><pre><a name="Entity" class="nt">Entity</a> ::=
+	<a href="#Trace" class="nt">Trace</a></pre><pre><a name="Entity" class="nt">Entity</a> ::=
+	<a href="#Realization" class="nt">Realization</a></pre><pre><a name="NamedElement" class="nt">NamedElement</a> ::=
+	<a href="#Dependency" class="nt">Dependency</a></pre><pre><a name="NamedElement" class="nt">NamedElement</a> ::=
+	<a href="#Package" class="nt">Package</a></pre><pre><a name="NamedElement" class="nt">NamedElement</a> ::=
+	<a href="#Allocated" class="nt">Allocated</a></pre><pre><a name="NamedElement" class="nt">NamedElement</a> ::=
+	<a href="#RequirementRelated" class="nt">RequirementRelated</a></pre><pre><a name="Dependency" class="nt">Dependency</a> ::=
+	<a href="#Conform" class="nt">Conform</a></pre><pre><a name="Conform" class="nt">Conform</a> ::=
+	[<a name="target" class="lbl">target</a>]::<a href="#Viewpoint" class="nt">Viewpoint</a> [<a name="source" class="lbl">source</a>]::<a href="#View" class="nt">View</a></pre><pre><a name="Package" class="nt">Package</a> ::=
+	<a href="#View" class="nt">View</a></pre><pre><a name="View" class="nt">View</a> ::=
+	[<a name="conformsTo" class="lbl">conformsTo</a>]::<a href="#Viewpoint" class="nt">Viewpoint</a></pre><pre><a name="Class" class="nt">Class</a> ::=
+	<a href="#Viewpoint" class="nt">Viewpoint</a></pre><pre><a name="Class" class="nt">Class</a> ::=
+	<a href="#Block" class="nt">Block</a></pre><pre><a name="Class" class="nt">Class</a> ::=
+	<a href="#Requirement" class="nt">Requirement</a></pre><pre><a name="Class" class="nt">Class</a> ::=
+	[<a name="name" class="lbl">name</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Viewpoint" class="nt">Viewpoint</a> ::=
+	[<a name="stakeholders" class="lbl">stakeholders</a>]::<a href="#String" class="nt">String</a><span class="meta">+</span> [<a name="purpose" class="lbl">purpose</a>]::<a href="#String" class="nt">String</a> [<a name="concerns" class="lbl">concerns</a>]::<a href="#String" class="nt">String</a><span class="meta">+</span> [<a name="languages" class="lbl">languages</a>]::<a href="#String" class="nt">String</a><span class="meta">+</span> [<a name="methods" class="lbl">methods</a>]::<a href="#String" class="nt">String</a><span class="meta">+</span></pre><pre><a name="Comment" class="nt">Comment</a> ::=
+	<a href="#Rationale" class="nt">Rationale</a></pre><pre><a name="Comment" class="nt">Comment</a> ::=
+	<a href="#Problem" class="nt">Problem</a></pre><pre><a name="Comment" class="nt">Comment</a> ::=
+	[<a name="content" class="lbl">content</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Rationale" class="nt">Rationale</a> ::=
+	[<a name="content" class="lbl">content</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Problem" class="nt">Problem</a> ::=
+	[<a name="content" class="lbl">content</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Block" class="nt">Block</a> ::=
+	<a href="#ConstraintBlock" class="nt">ConstraintBlock</a></pre><pre><a name="Block" class="nt">Block</a> ::=
+	[<a name="isEncapsulated" class="lbl">isEncapsulated</a>]::<a href="#Boolean" class="nt">Boolean</a></pre><pre><a name="ConstraintBlock" class="nt">ConstraintBlock</a> ::=
+	[<a name="isEncapsulated" class="lbl">isEncapsulated</a>]::<a href="#Boolean" class="nt">Boolean</a></pre><pre><a name="Property" class="nt">Property</a> ::=
+	<a href="#BlockProperty" class="nt">BlockProperty</a></pre><pre><a name="Property" class="nt">Property</a> ::=
+	<a href="#Port" class="nt">Port</a></pre><pre><a name="Property" class="nt">Property</a> ::=
+	<a href="#FlowProperty" class="nt">FlowProperty</a></pre><pre><a name="Property" class="nt">Property</a> ::=
+	<a href="#BlockProperty" class="nt">BlockProperty</a>
+	<a href="#Port" class="nt">Port</a>
+	<a href="#FlowProperty" class="nt">FlowProperty</a></pre><pre><a name="BlockProperty" class="nt">BlockProperty</a> ::=
+	<a href="#ConstraintProperty" class="nt">ConstraintProperty</a></pre><pre><a name="BlockProperty" class="nt">BlockProperty</a> ::=
+	<a href="#DistributedProperty" class="nt">DistributedProperty</a></pre><pre><a name="BlockProperty" class="nt">BlockProperty</a> ::=
+	<a href="#ConstraintProperty" class="nt">ConstraintProperty</a>
+	<a href="#DistributedProperty" class="nt">DistributedProperty</a></pre><pre><a name="ConstraintProperty" class="nt">ConstraintProperty</a> ::=
+	ε</pre><pre><a name="DistributedProperty" class="nt">DistributedProperty</a> ::=
+	<a href="#BasicInterval" class="nt">BasicInterval</a></pre><pre><a name="DistributedProperty" class="nt">DistributedProperty</a> ::=
+	<a href="#Normal" class="nt">Normal</a></pre><pre><a name="DistributedProperty" class="nt">DistributedProperty</a> ::=
+	<a href="#BasicInterval" class="nt">BasicInterval</a>
+	<a href="#Normal" class="nt">Normal</a></pre><pre><a name="DataType" class="nt">DataType</a> ::=
+	<a href="#ValueType" class="nt">ValueType</a></pre><pre><a name="ValueType" class="nt">ValueType</a> ::=
+	<a href="#Unit" class="nt">Unit</a></pre><pre><a name="ValueType" class="nt">ValueType</a> ::=
+	<a href="#Dimension" class="nt">Dimension</a></pre><pre><a name="ValueType" class="nt">ValueType</a> ::=
+	[<a name="unit" class="lbl">unit</a>]::<a href="#Unit" class="nt">Unit</a> [<a name="dimension" class="lbl">dimension</a>]::<a href="#Dimension" class="nt">Dimension</a></pre><pre><a name="Unit" class="nt">Unit</a> ::=
+	[<a name="unit" class="lbl">unit</a>]::<a href="#Unit" class="nt">Unit</a> [<a name="dimension" class="lbl">dimension</a>]::<a href="#Dimension" class="nt">Dimension</a></pre><pre><a name="Dimension" class="nt">Dimension</a> ::=
+	[<a name="unit" class="lbl">unit</a>]::<a href="#Unit" class="nt">Unit</a> [<a name="dimension" class="lbl">dimension</a>]::<a href="#Dimension" class="nt">Dimension</a></pre><pre><a name="ConnectorEnd" class="nt">ConnectorEnd</a> ::=
+	<a href="#NestedConnectorEnd" class="nt">NestedConnectorEnd</a></pre><pre><a name="NestedConnectorEnd" class="nt">NestedConnectorEnd</a> ::=
+	[<a name="propertyPath" class="lbl">propertyPath</a>]::<a href="#Property" class="nt">Property</a></pre><pre><a name="Port" class="nt">Port</a> ::=
+	<a href="#FlowPort" class="nt">FlowPort</a></pre><pre><a name="Port" class="nt">Port</a> ::=
+	[<a name="isBehavior" class="lbl">isBehavior</a>]::<a href="#Boolean" class="nt">Boolean</a></pre><pre><a name="FlowPort" class="nt">FlowPort</a> ::=
+	[<a name="isAtomic" class="lbl">isAtomic</a>]::<a href="#Boolean" class="nt">Boolean</a> [<a name="direction" class="lbl">direction</a>]::<a href="#FlowDirection" class="nt">FlowDirection</a> [<a name="isConjugated" class="lbl">isConjugated</a>]::<a href="#Boolean" class="nt">Boolean</a></pre><pre><a name="FlowProperty" class="nt">FlowProperty</a> ::=
+	[<a name="direction" class="lbl">direction</a>]::<a href="#FlowDirection" class="nt">FlowDirection</a></pre><pre><a name="Interface" class="nt">Interface</a> ::=
+	<a href="#FlowSpecification" class="nt">FlowSpecification</a></pre><pre><a name="FlowSpecification" class="nt">FlowSpecification</a> ::=
+	[<a name="ownedFlowProperty" class="lbl">ownedFlowProperty</a>]::<a href="#FlowProperty" class="nt">FlowProperty</a><span class="meta">+</span></pre><pre><a name="FlowDirection" class="nt">FlowDirection</a> ::=
+	[<a name="in" class="lbl">in</a>]::ε
+	[<a name="out" class="lbl">out</a>]::ε
+	[<a name="inout" class="lbl">inout</a>]::ε</pre><pre><a name="Classifier" class="nt">Classifier</a> ::=
+	<a href="#Class" class="nt">Class</a></pre><pre><a name="Classifier" class="nt">Classifier</a> ::=
+	<a href="#InformationItem" class="nt">InformationItem</a></pre><pre><a name="Classifier" class="nt">Classifier</a> ::=
+	<a href="#Class" class="nt">Class</a>
+	<a href="#InformationItem" class="nt">InformationItem</a></pre><pre><a name="InformationItem" class="nt">InformationItem</a> ::=
+	[<a name="represented" class="lbl">represented</a>]::<a href="#Classifier" class="nt">Classifier</a><span class="meta">+</span></pre><pre><a name="InformationFlow" class="nt">InformationFlow</a> ::=
+	<a href="#ItemFlow" class="nt">ItemFlow</a></pre><pre><a name="InformationFlow" class="nt">InformationFlow</a> ::=
+	[<a name="conveyed" class="lbl">conveyed</a>]::<a href="#Classifier" class="nt">Classifier</a><span class="meta">+</span> [<a name="source" class="lbl">source</a>]::<a href="#NamedElement" class="nt">NamedElement</a><span class="meta">+</span> [<a name="target" class="lbl">target</a>]::<a href="#NamedElement" class="nt">NamedElement</a><span class="meta">+</span></pre><pre><a name="ItemFlow" class="nt">ItemFlow</a> ::=
+	[<a name="itemProperty" class="lbl">itemProperty</a>]::<a href="#BlockProperty" class="nt">BlockProperty</a></pre><pre><a name="Parameter" class="nt">Parameter</a> ::=
+	<a href="#Optional" class="nt">Optional</a></pre><pre><a name="Parameter" class="nt">Parameter</a> ::=
+	<a href="#Rate" class="nt">Rate</a></pre><pre><a name="ActivityEdge" class="nt">ActivityEdge</a> ::=
+	<a href="#Probability" class="nt">Probability</a></pre><pre><a name="ActivityEdge" class="nt">ActivityEdge</a> ::=
+	<a href="#Rate" class="nt">Rate</a></pre><pre><a name="ActivityEdge" class="nt">ActivityEdge</a> ::=
+	ε</pre><pre><a name="ParameterSet" class="nt">ParameterSet</a> ::=
+	<a href="#Probability" class="nt">Probability</a></pre><pre><a name="ParameterSet" class="nt">ParameterSet</a> ::=
+	ε</pre><pre><a name="Optional" class="nt">Optional</a> ::=
+	ε</pre><pre><a name="Rate" class="nt">Rate</a> ::=
+	<a href="#Continous" class="nt">Continous</a></pre><pre><a name="Rate" class="nt">Rate</a> ::=
+	<a href="#Discrete" class="nt">Discrete</a></pre><pre><a name="Rate" class="nt">Rate</a> ::=
+	[<a name="instance" class="lbl">instance</a>]::<a href="#InstanceSpecification" class="nt">InstanceSpecification</a></pre><pre><a name="InstanceSpecification" class="nt">InstanceSpecification</a> ::=
+	ε</pre><pre><a name="Continous" class="nt">Continous</a> ::=
+	[<a name="instance" class="lbl">instance</a>]::<a href="#InstanceSpecification" class="nt">InstanceSpecification</a></pre><pre><a name="Discrete" class="nt">Discrete</a> ::=
+	[<a name="instance" class="lbl">instance</a>]::<a href="#InstanceSpecification" class="nt">InstanceSpecification</a></pre><pre><a name="Probability" class="nt">Probability</a> ::=
+	[<a name="probability" class="lbl">probability</a>]::<a href="#ValueSpecification" class="nt">ValueSpecification</a></pre><pre><a name="ValueSpecification" class="nt">ValueSpecification</a> ::=
+	ε</pre><pre><a name="Behavior" class="nt">Behavior</a> ::=
+	<a href="#ControlOperation" class="nt">ControlOperation</a></pre><pre><a name="Behavior" class="nt">Behavior</a> ::=
+	<a href="#TestCase" class="nt">TestCase</a></pre><pre><a name="Behavior" class="nt">Behavior</a> ::=
+	ε</pre><pre><a name="Operation" class="nt">Operation</a> ::=
+	<a href="#ControlOperation" class="nt">ControlOperation</a></pre><pre><a name="Operation" class="nt">Operation</a> ::=
+	<a href="#TestCase" class="nt">TestCase</a></pre><pre><a name="Operation" class="nt">Operation</a> ::=
+	ε</pre><pre><a name="ControlOperation" class="nt">ControlOperation</a> ::=
+	ε</pre><pre><a name="ObjectNode" class="nt">ObjectNode</a> ::=
+	<a href="#NoBuffer" class="nt">NoBuffer</a></pre><pre><a name="ObjectNode" class="nt">ObjectNode</a> ::=
+	<a href="#Overwrite" class="nt">Overwrite</a></pre><pre><a name="ObjectNode" class="nt">ObjectNode</a> ::=
+	<a href="#NoBuffer" class="nt">NoBuffer</a>
+	<a href="#Overwrite" class="nt">Overwrite</a></pre><pre><a name="NoBuffer" class="nt">NoBuffer</a> ::=
+	ε</pre><pre><a name="Overwrite" class="nt">Overwrite</a> ::=
+	ε</pre><pre><a name="Abstraction" class="nt">Abstraction</a> ::=
+	<a href="#Allocate" class="nt">Allocate</a></pre><pre><a name="Allocate" class="nt">Allocate</a> ::=
+	ε</pre><pre><a name="Allocated" class="nt">Allocated</a> ::=
+	[<a name="allocatedFrom" class="lbl">allocatedFrom</a>]::<a href="#NamedElement" class="nt">NamedElement</a><span class="meta">+</span> [<a name="allocatedTo" class="lbl">allocatedTo</a>]::<a href="#NamedElement" class="nt">NamedElement</a><span class="meta">+</span></pre><pre><a name="ActivityPartition" class="nt">ActivityPartition</a> ::=
+	<a href="#AllocateActivityPartition" class="nt">AllocateActivityPartition</a></pre><pre><a name="AllocateActivityPartition" class="nt">AllocateActivityPartition</a> ::=
+	ε</pre><pre><a name="Trace" class="nt">Trace</a> ::=
+	<a href="#DeriveReqt" class="nt">DeriveReqt</a></pre><pre><a name="Trace" class="nt">Trace</a> ::=
+	<a href="#Verify" class="nt">Verify</a></pre><pre><a name="Trace" class="nt">Trace</a> ::=
+	<a href="#Copy" class="nt">Copy</a></pre><pre><a name="Trace" class="nt">Trace</a> ::=
+	<a href="#DeriveReqt" class="nt">DeriveReqt</a>
+	<a href="#Verify" class="nt">Verify</a>
+	<a href="#Copy" class="nt">Copy</a></pre><pre><a name="DeriveReqt" class="nt">DeriveReqt</a> ::=
+	ε</pre><pre><a name="Verify" class="nt">Verify</a> ::=
+	ε</pre><pre><a name="Copy" class="nt">Copy</a> ::=
+	ε</pre><pre><a name="Realization" class="nt">Realization</a> ::=
+	<a href="#Satisfy" class="nt">Satisfy</a></pre><pre><a name="Satisfy" class="nt">Satisfy</a> ::=
+	ε</pre><pre><a name="Requirement" class="nt">Requirement</a> ::=
+	[<a name="text" class="lbl">text</a>]::<a href="#String" class="nt">String</a> [<a name="id" class="lbl">id</a>]::<a href="#String" class="nt">String</a> [<a name="derived" class="lbl">derived</a>]::<a href="#Requirement" class="nt">Requirement</a><span class="meta">+</span> [<a name="derivedFrom" class="lbl">derivedFrom</a>]::<a href="#Requirement" class="nt">Requirement</a><span class="meta">+</span> [<a name="satisfiedBy" class="lbl">satisfiedBy</a>]::<a href="#NamedElement" class="nt">NamedElement</a><span class="meta">+</span> [<a name="refinedBy" class="lbl">refinedBy</a>]::<a href="#NamedElement" class="nt">NamedElement</a><span class="meta">+</span> [<a name="tracedTo" class="lbl">tracedTo</a>]::<a href="#NamedElement" class="nt">NamedElement</a><span class="meta">+</span> [<a name="verifiedBy" class="lbl">verifiedBy</a>]::<a href="#TestCase" class="nt">TestCase</a><span class="meta">+</span> [<a name="master" class="lbl">master</a>]::<a href="#Requirement" class="nt">Requirement</a></pre><pre><a name="TestCase" class="nt">TestCase</a> ::=
+	ε</pre><pre><a name="RequirementRelated" class="nt">RequirementRelated</a> ::=
+	[<a name="verifies" class="lbl">verifies</a>]::<a href="#Requirement" class="nt">Requirement</a><span class="meta">+</span> [<a name="tracedFrom" class="lbl">tracedFrom</a>]::<a href="#Requirement" class="nt">Requirement</a><span class="meta">+</span> [<a name="satisfies" class="lbl">satisfies</a>]::<a href="#Requirement" class="nt">Requirement</a><span class="meta">+</span> [<a name="refines" class="lbl">refines</a>]::<a href="#Requirement" class="nt">Requirement</a><span class="meta">+</span></pre><pre><a name="BasicInterval" class="nt">BasicInterval</a> ::=
+	<a href="#Interval" class="nt">Interval</a></pre><pre><a name="BasicInterval" class="nt">BasicInterval</a> ::=
+	<a href="#Uniform" class="nt">Uniform</a></pre><pre><a name="BasicInterval" class="nt">BasicInterval</a> ::=
+	[<a name="min" class="lbl">min</a>]::<a href="#Integer" class="nt">Integer</a> [<a name="max" class="lbl">max</a>]::<a href="#Integer" class="nt">Integer</a></pre><pre><a name="Interval" class="nt">Interval</a> ::=
+	[<a name="min" class="lbl">min</a>]::<a href="#Integer" class="nt">Integer</a> [<a name="max" class="lbl">max</a>]::<a href="#Integer" class="nt">Integer</a></pre><pre><a name="Uniform" class="nt">Uniform</a> ::=
+	[<a name="min" class="lbl">min</a>]::<a href="#Integer" class="nt">Integer</a> [<a name="max" class="lbl">max</a>]::<a href="#Integer" class="nt">Integer</a></pre><pre><a name="Normal" class="nt">Normal</a> ::=
+	[<a name="mean" class="lbl">mean</a>]::<a href="#Integer" class="nt">Integer</a> [<a name="standardDeviation" class="lbl">standardDeviation</a>]::<a href="#Integer" class="nt">Integer</a></pre><pre><a name="String" class="nt">String</a> ::=
+	string</pre><pre><a name="Integer" class="nt">Integer</a> ::=
+	integer</pre><pre><a name="Boolean" class="nt">Boolean</a> ::=
+	<span class="t">"true"</span>
+	<span class="t">"false"</span></pre><hr /><div class="b"><a href="http://grammarware.github.io/lab"><img src="../../../../by-grammarlab.png" alt="GrammarLab" title="Powered by GrammarLab"></img></a>Maintained by Dr. <a href="http://grammarware.net/">Vadim Zaytsev</a> a.k.a. @<a href="http://twitter.com/grammarware">grammarware</a>. Last updated in October 2014. <span class="links"> [<a href="#TOP">↑</a>]</span></div></body></html>

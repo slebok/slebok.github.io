@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="content-type" content="text/html; charset=utf-8" /><title>Grammar Zoo - Browsable C subset Grammar</title><link href="../../../../slps.css" rel="stylesheet" type="text/css" /></head><body><h1 class="l"><a name="TOP"></a>Browsable C subset Grammar</h1><a href="http://creativecommons.org/licenses/by/3.0/"><img src="../../../../cc-by.png" alt="CC-BY" title="View the CC-BY license"></img></a><p>Grammar extracted by <strong><a href="http://grammarware.net/">Vadim Zaytsev</a></strong>, see the <a href="http://grammarzoo.github.io/">Grammar Zoo</a> entry for details: <a href="../../../../index.html#c_subset_bruneliere_extracted">c/subset/bruneliere/extracted</a><br />Source used for this grammar: Hugo Brunelière, <em>C 1.0, </em>a simplified metamodel for a subset of the C language, <code>C.ecore</code>,  2005/08/08<span class="links" /></p><h2 class="l">Summary</h2><ul class="nl"><li>Total <strong>67</strong> production rules with <strong>83</strong> top alternatives and <strong>244</strong> symbols.</li><li>Vocabulary: <strong>47</strong> = <strong>37</strong> nonterminals + <strong>2</strong> terminals + <strong>8</strong> labels + <strong>0</strong> markers.</li><li>Total <strong>37</strong> nonterminal symbols: <strong>37</strong> defined (<code><a href="#Integer" class="nt">Integer</a></code>, <code><a href="#String" class="nt">String</a></code>, <code><a href="#Boolean" class="nt">Boolean</a></code>, <code><a href="#CDataType" class="nt">CDataType</a></code>, <code><a href="#CIntegral" class="nt">CIntegral</a></code>, <code><a href="#CFloating" class="nt">CFloating</a></code>, <code><a href="#CBitField" class="nt">CBitField</a></code>, <code><a href="#CVoid" class="nt">CVoid</a></code>, <code><a href="#CEnumeration" class="nt">CEnumeration</a></code>, <code><a href="#CInt" class="nt">CInt</a></code>, <code><a href="#CChar" class="nt">CChar</a></code>, <code><a href="#CDouble" class="nt">CDouble</a></code>, <code><a href="#CFloat" class="nt">CFloat</a></code>, <code><a href="#CLongDouble" class="nt">CLongDouble</a></code>, <code><a href="#CUnsignedInt" class="nt">CUnsignedInt</a></code>, <code><a href="#CLong" class="nt">CLong</a></code>, <code><a href="#CLongLong" class="nt">CLongLong</a></code>, <code><a href="#CShort" class="nt">CShort</a></code>, <code><a href="#CSignedChar" class="nt">CSignedChar</a></code>, <code><a href="#CUnsignedChar" class="nt">CUnsignedChar</a></code>, <code><a href="#CWChar" class="nt">CWChar</a></code>, <code><a href="#UnsignedLong" class="nt">UnsignedLong</a></code>, <code><a href="#UnsignedLongLong" class="nt">UnsignedLongLong</a></code>, <code><a href="#UnsignedShort" class="nt">UnsignedShort</a></code>, <code><a href="#CClassifier" class="nt">CClassifier</a></code>, <code><a href="#Derived" class="nt">Derived</a></code>, <code><a href="#CStructureContents" class="nt">CStructureContents</a></code>, <code><a href="#CStructured" class="nt">CStructured</a></code>, <code><a href="#CStruct" class="nt">CStruct</a></code>, <code><a href="#CUnion" class="nt">CUnion</a></code>, <code><a href="#CSourceText" class="nt">CSourceText</a></code>, <code><a href="#CTypedElement" class="nt">CTypedElement</a></code>, <code><a href="#CStructuralFeature" class="nt">CStructuralFeature</a></code>, <code><a href="#CField" class="nt">CField</a></code>, <code><a href="#CParameter" class="nt">CParameter</a></code>, <code><a href="#BehavioralFeature" class="nt">BehavioralFeature</a></code>, <code><a href="#CFunction" class="nt">CFunction</a></code>), <strong>0</strong> root (—), <strong>2</strong> top (<code><a href="#Integer" class="nt">Integer</a></code>, <code><a href="#CTypedElement" class="nt">CTypedElement</a></code>), <strong>0</strong> bottom (—).</li><li>Total <strong>2</strong> terminal symbols: <strong>2</strong> keywords (<span class="t">"true"</span>, <span class="t">"false"</span>), <strong>0</strong> letters (—), <strong>0</strong> numerics (—), <strong>0</strong> signs (—).</li><li>Total <strong>8</strong> labels: <code>[<a href="#sc_container" class="lbl">sc_container</a>]</code>, <code>[<a href="#contains" class="lbl">contains</a>]</code><sup> 3</sup>, <code>[<a href="#source" class="lbl">source</a>]</code><sup> 2</sup>, <code>[<a href="#fileName" class="lbl">fileName</a>]</code>, <code>[<a href="#type" class="lbl">type</a>]</code>, <code>[<a href="#behavioralFeature" class="lbl">behavioralFeature</a>]</code>, <code>[<a href="#parameters" class="lbl">parameters</a>]</code>, <code>[<a href="#isVarArg" class="lbl">isVarArg</a>]</code>.</li></ul><h2 class="l">Syntax</h2><pre><a name="Integer" class="nt">Integer</a> ::=
+	integer</pre><pre><a name="String" class="nt">String</a> ::=
+	string</pre><pre><a name="Boolean" class="nt">Boolean</a> ::=
+	<span class="t">"true"</span>
+	<span class="t">"false"</span></pre><pre><a name="CDataType" class="nt">CDataType</a> ::=
+	<a href="#CIntegral" class="nt">CIntegral</a></pre><pre><a name="CDataType" class="nt">CDataType</a> ::=
+	<a href="#CFloating" class="nt">CFloating</a></pre><pre><a name="CDataType" class="nt">CDataType</a> ::=
+	<a href="#CBitField" class="nt">CBitField</a></pre><pre><a name="CDataType" class="nt">CDataType</a> ::=
+	<a href="#CVoid" class="nt">CVoid</a></pre><pre><a name="CDataType" class="nt">CDataType</a> ::=
+	<a href="#CIntegral" class="nt">CIntegral</a>
+	<a href="#CFloating" class="nt">CFloating</a>
+	<a href="#CBitField" class="nt">CBitField</a>
+	<a href="#CVoid" class="nt">CVoid</a></pre><pre><a name="CIntegral" class="nt">CIntegral</a> ::=
+	<a href="#CEnumeration" class="nt">CEnumeration</a></pre><pre><a name="CIntegral" class="nt">CIntegral</a> ::=
+	<a href="#CInt" class="nt">CInt</a></pre><pre><a name="CIntegral" class="nt">CIntegral</a> ::=
+	<a href="#CChar" class="nt">CChar</a></pre><pre><a name="CIntegral" class="nt">CIntegral</a> ::=
+	<a href="#CEnumeration" class="nt">CEnumeration</a>
+	<a href="#CInt" class="nt">CInt</a>
+	<a href="#CChar" class="nt">CChar</a></pre><pre><a name="CFloating" class="nt">CFloating</a> ::=
+	<a href="#CDouble" class="nt">CDouble</a></pre><pre><a name="CFloating" class="nt">CFloating</a> ::=
+	<a href="#CFloat" class="nt">CFloat</a></pre><pre><a name="CFloating" class="nt">CFloating</a> ::=
+	<a href="#CLongDouble" class="nt">CLongDouble</a></pre><pre><a name="CFloating" class="nt">CFloating</a> ::=
+	<a href="#CDouble" class="nt">CDouble</a>
+	<a href="#CFloat" class="nt">CFloat</a>
+	<a href="#CLongDouble" class="nt">CLongDouble</a></pre><pre><a name="CBitField" class="nt">CBitField</a> ::=
+	ε</pre><pre><a name="CVoid" class="nt">CVoid</a> ::=
+	ε</pre><pre><a name="CEnumeration" class="nt">CEnumeration</a> ::=
+	ε</pre><pre><a name="CInt" class="nt">CInt</a> ::=
+	<a href="#CUnsignedInt" class="nt">CUnsignedInt</a></pre><pre><a name="CInt" class="nt">CInt</a> ::=
+	<a href="#CLong" class="nt">CLong</a></pre><pre><a name="CInt" class="nt">CInt</a> ::=
+	<a href="#CLongLong" class="nt">CLongLong</a></pre><pre><a name="CInt" class="nt">CInt</a> ::=
+	<a href="#CShort" class="nt">CShort</a></pre><pre><a name="CInt" class="nt">CInt</a> ::=
+	<a href="#CUnsignedInt" class="nt">CUnsignedInt</a>
+	<a href="#CLong" class="nt">CLong</a>
+	<a href="#CLongLong" class="nt">CLongLong</a>
+	<a href="#CShort" class="nt">CShort</a></pre><pre><a name="CChar" class="nt">CChar</a> ::=
+	<a href="#CSignedChar" class="nt">CSignedChar</a></pre><pre><a name="CChar" class="nt">CChar</a> ::=
+	<a href="#CUnsignedChar" class="nt">CUnsignedChar</a></pre><pre><a name="CChar" class="nt">CChar</a> ::=
+	<a href="#CWChar" class="nt">CWChar</a></pre><pre><a name="CChar" class="nt">CChar</a> ::=
+	<a href="#CSignedChar" class="nt">CSignedChar</a>
+	<a href="#CUnsignedChar" class="nt">CUnsignedChar</a>
+	<a href="#CWChar" class="nt">CWChar</a></pre><pre><a name="CDouble" class="nt">CDouble</a> ::=
+	ε</pre><pre><a name="CFloat" class="nt">CFloat</a> ::=
+	ε</pre><pre><a name="CLongDouble" class="nt">CLongDouble</a> ::=
+	ε</pre><pre><a name="CUnsignedInt" class="nt">CUnsignedInt</a> ::=
+	<a href="#UnsignedLong" class="nt">UnsignedLong</a></pre><pre><a name="CUnsignedInt" class="nt">CUnsignedInt</a> ::=
+	<a href="#UnsignedLongLong" class="nt">UnsignedLongLong</a></pre><pre><a name="CUnsignedInt" class="nt">CUnsignedInt</a> ::=
+	<a href="#UnsignedShort" class="nt">UnsignedShort</a></pre><pre><a name="CUnsignedInt" class="nt">CUnsignedInt</a> ::=
+	<a href="#UnsignedLong" class="nt">UnsignedLong</a>
+	<a href="#UnsignedLongLong" class="nt">UnsignedLongLong</a>
+	<a href="#UnsignedShort" class="nt">UnsignedShort</a></pre><pre><a name="CLong" class="nt">CLong</a> ::=
+	ε</pre><pre><a name="CLongLong" class="nt">CLongLong</a> ::=
+	ε</pre><pre><a name="CShort" class="nt">CShort</a> ::=
+	ε</pre><pre><a name="CSignedChar" class="nt">CSignedChar</a> ::=
+	ε</pre><pre><a name="CUnsignedChar" class="nt">CUnsignedChar</a> ::=
+	ε</pre><pre><a name="CWChar" class="nt">CWChar</a> ::=
+	ε</pre><pre><a name="UnsignedLong" class="nt">UnsignedLong</a> ::=
+	ε</pre><pre><a name="UnsignedLongLong" class="nt">UnsignedLongLong</a> ::=
+	ε</pre><pre><a name="UnsignedShort" class="nt">UnsignedShort</a> ::=
+	ε</pre><pre><a name="CClassifier" class="nt">CClassifier</a> ::=
+	<a href="#CDataType" class="nt">CDataType</a></pre><pre><a name="CClassifier" class="nt">CClassifier</a> ::=
+	<a href="#Derived" class="nt">Derived</a></pre><pre><a name="CClassifier" class="nt">CClassifier</a> ::=
+	<a href="#CStructured" class="nt">CStructured</a></pre><pre><a name="CClassifier" class="nt">CClassifier</a> ::=
+	<a href="#CDataType" class="nt">CDataType</a>
+	<a href="#Derived" class="nt">Derived</a></pre><pre><a name="Derived" class="nt">Derived</a> ::=
+	ε</pre><pre><a name="CStructureContents" class="nt">CStructureContents</a> ::=
+	<a href="#CStructuralFeature" class="nt">CStructuralFeature</a></pre><pre><a name="CStructureContents" class="nt">CStructureContents</a> ::=
+	<a href="#CStructured" class="nt">CStructured</a></pre><pre><a name="CStructureContents" class="nt">CStructureContents</a> ::=
+	[<a name="sc_container" class="lbl">sc_container</a>]::<a href="#CStructured" class="nt">CStructured</a></pre><pre><a name="CStructured" class="nt">CStructured</a> ::=
+	<a href="#CStruct" class="nt">CStruct</a></pre><pre><a name="CStructured" class="nt">CStructured</a> ::=
+	<a href="#CUnion" class="nt">CUnion</a></pre><pre><a name="CStructured" class="nt">CStructured</a> ::=
+	[<a name="contains" class="lbl">contains</a>]::<a href="#CStructureContents" class="nt">CStructureContents</a><span class="meta">+</span></pre><pre><a name="CStruct" class="nt">CStruct</a> ::=
+	[<a name="contains" class="lbl">contains</a>]::<a href="#CStructureContents" class="nt">CStructureContents</a><span class="meta">+</span></pre><pre><a name="CUnion" class="nt">CUnion</a> ::=
+	[<a name="contains" class="lbl">contains</a>]::<a href="#CStructureContents" class="nt">CStructureContents</a><span class="meta">+</span></pre><pre><a name="CSourceText" class="nt">CSourceText</a> ::=
+	[<a name="source" class="lbl">source</a>]::<a href="#String" class="nt">String</a> [<a name="fileName" class="lbl">fileName</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="CTypedElement" class="nt">CTypedElement</a> ::=
+	<a href="#CParameter" class="nt">CParameter</a></pre><pre><a name="CTypedElement" class="nt">CTypedElement</a> ::=
+	<a href="#CStructuralFeature" class="nt">CStructuralFeature</a></pre><pre><a name="CTypedElement" class="nt">CTypedElement</a> ::=
+	[<a name="type" class="lbl">type</a>]::<a href="#CClassifier" class="nt">CClassifier</a> [<a name="source" class="lbl">source</a>]::<a href="#CSourceText" class="nt">CSourceText</a></pre><pre><a name="CStructuralFeature" class="nt">CStructuralFeature</a> ::=
+	<a href="#CField" class="nt">CField</a></pre><pre><a name="CField" class="nt">CField</a> ::=
+	ε</pre><pre><a name="CParameter" class="nt">CParameter</a> ::=
+	[<a name="behavioralFeature" class="lbl">behavioralFeature</a>]::<a href="#BehavioralFeature" class="nt">BehavioralFeature</a></pre><pre><a name="BehavioralFeature" class="nt">BehavioralFeature</a> ::=
+	<a href="#CFunction" class="nt">CFunction</a></pre><pre><a name="BehavioralFeature" class="nt">BehavioralFeature</a> ::=
+	[<a name="parameters" class="lbl">parameters</a>]::<a href="#CParameter" class="nt">CParameter</a><span class="meta">+</span></pre><pre><a name="CFunction" class="nt">CFunction</a> ::=
+	[<a name="isVarArg" class="lbl">isVarArg</a>]::<a href="#Boolean" class="nt">Boolean</a></pre><hr /><div class="b"><a href="http://grammarware.github.io/lab"><img src="../../../../by-grammarlab.png" alt="GrammarLab" title="Powered by GrammarLab"></img></a>Maintained by Dr. <a href="http://grammarware.net/">Vadim Zaytsev</a> a.k.a. @<a href="http://twitter.com/grammarware">grammarware</a>. Last updated in October 2014. <span class="links"> [<a href="#TOP">↑</a>]</span></div></body></html>

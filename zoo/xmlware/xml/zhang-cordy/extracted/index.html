@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="content-type" content="text/html; charset=utf-8" /><title>Grammar Zoo - Browsable XML Grammar</title><link href="../../../../slps.css" rel="stylesheet" type="text/css" /></head><body><h1 class="l"><a name="TOP"></a>Browsable XML Grammar</h1><a href="http://creativecommons.org/licenses/by/3.0/"><img src="../../../../cc-by.png" alt="CC-BY" title="View the CC-BY license"></img></a><p>Grammar extracted by <strong><a href="http://grammarware.net/">Vadim Zaytsev</a></strong>, see the <a href="http://grammarzoo.github.io/">Grammar Zoo</a> entry for details: <a href="../../../../index.html#xmlware_xml_zhang-cordy_extracted">xmlware/xml/zhang-cordy/extracted</a><br />Source used for this grammar: Hongyu Zhang, James R. Cordy, <em>XML 1.0 (Second edition) Grammar, </em>and Well-formedness Checker,  August 2001<span class="links"> [<a href="http://www.txl.ca/nresources.html#Grammars">TXL Grammars</a>]</span></p><h2 class="l">Summary</h2><ul class="nl"><li>Total <strong>74</strong> production rules with <strong>126</strong> top alternatives and <strong>532</strong> symbols.</li><li>Vocabulary: <strong>133</strong> = <strong>86</strong> nonterminals + <strong>47</strong> terminals + <strong>0</strong> labels + <strong>0</strong> markers.</li><li>Total <strong>86</strong> nonterminal symbols: <strong>74</strong> defined (<code><a href="#program" class="nt">program</a></code>, <code><a href="#prolog" class="nt">prolog</a></code>, <code><a href="#dtd_body" class="nt">dtd_body</a></code>, <code><a href="#misc" class="nt">misc</a></code>, <code><a href="#doctypedecl" class="nt">doctypedecl</a></code>, <code><a href="#declbody" class="nt">declbody</a></code>, <code><a href="#literal" class="nt">literal</a></code>, <code><a href="#pi" class="nt">pi</a></code>, <code><a href="#pitarget" class="nt">pitarget</a></code>, <code><a href="#sub1_pi" class="nt">sub1_pi</a></code>, <code><a href="#sub2_pi" class="nt">sub2_pi</a></code>, <code><a href="#sp_external_id" class="nt">sp_external_id</a></code>, <code><a href="#external_id" class="nt">external_id</a></code>, <code><a href="#exid_sys" class="nt">exid_sys</a></code>, <code><a href="#exid_pub" class="nt">exid_pub</a></code>, <code><a href="#decl" class="nt">decl</a></code>, <code><a href="#markupdecl" class="nt">markupdecl</a></code>, <code><a href="#elementdecl" class="nt">elementdecl</a></code>, <code><a href="#contentspec" class="nt">contentspec</a></code>, <code><a href="#children" class="nt">children</a></code>, <code><a href="#repetition" class="nt">repetition</a></code>, <code><a href="#children_body" class="nt">children_body</a></code>, <code><a href="#choice" class="nt">choice</a></code>, <code><a href="#choice_item" class="nt">choice_item</a></code>, <code><a href="#cp" class="nt">cp</a></code>, <code><a href="#cp_body" class="nt">cp_body</a></code>, <code><a href="#seq" class="nt">seq</a></code>, <code><a href="#more_cps" class="nt">more_cps</a></code>, <code><a href="#mixed" class="nt">mixed</a></code>, <code><a href="#pcdata_or_name" class="nt">pcdata_or_name</a></code>, <code><a href="#more_names" class="nt">more_names</a></code>, <code><a href="#pcdata" class="nt">pcdata</a></code>, <code><a href="#attlistdecl" class="nt">attlistdecl</a></code>, <code><a href="#attdef" class="nt">attdef</a></code>, <code><a href="#atttype" class="nt">atttype</a></code>, <code><a href="#stringtype" class="nt">stringtype</a></code>, <code><a href="#tokenizedtype" class="nt">tokenizedtype</a></code>, <code><a href="#enumeratedtype" class="nt">enumeratedtype</a></code>, <code><a href="#notationtype" class="nt">notationtype</a></code>, <code><a href="#enumeration" class="nt">enumeration</a></code>, <code><a href="#nmtoken" class="nt">nmtoken</a></code>, <code><a href="#more_nmtokens" class="nt">more_nmtokens</a></code>, <code><a href="#defaultdecl" class="nt">defaultdecl</a></code>, <code><a href="#fixed" class="nt">fixed</a></code>, <code><a href="#attvalue" class="nt">attvalue</a></code>, <code><a href="#longstringlit" class="nt">longstringlit</a></code>, <code><a href="#not_dquote" class="nt">not_dquote</a></code>, <code><a href="#longcharlit" class="nt">longcharlit</a></code>, <code><a href="#not_quote" class="nt">not_quote</a></code>, <code><a href="#entitydecl" class="nt">entitydecl</a></code>, <code><a href="#gedecl" class="nt">gedecl</a></code>, <code><a href="#pedecl" class="nt">pedecl</a></code>, <code><a href="#entitydef" class="nt">entitydef</a></code>, <code><a href="#pedef" class="nt">pedef</a></code>, <code><a href="#ndatadecl" class="nt">ndatadecl</a></code>, <code><a href="#entityvalue" class="nt">entityvalue</a></code>, <code><a href="#notationdecl" class="nt">notationdecl</a></code>, <code><a href="#exid_or_pubid" class="nt">exid_or_pubid</a></code>, <code><a href="#spaces" class="nt">spaces</a></code>, <code><a href="#space_or_newline" class="nt">space_or_newline</a></code>, <code><a href="#element" class="nt">element</a></code>, <code><a href="#tag_content" class="nt">tag_content</a></code>, <code><a href="#empty_elem_tag" class="nt">empty_elem_tag</a></code>, <code><a href="#attribute" class="nt">attribute</a></code>, <code><a href="#stag" class="nt">stag</a></code>, <code><a href="#content" class="nt">content</a></code>, <code><a href="#sub1_content" class="nt">sub1_content</a></code>, <code><a href="#sub2_content" class="nt">sub2_content</a></code>, <code><a href="#chardata" class="nt">chardata</a></code>, <code><a href="#etag" class="nt">etag</a></code>, <code><a href="#cdata" class="nt">cdata</a></code>, <code><a href="#cdend" class="nt">cdend</a></code>, <code><a href="#reference" class="nt">reference</a></code>, <code><a href="#cdsect" class="nt">cdsect</a></code>), <strong>1</strong> root (<code><a href="#program" class="nt">program</a></code>), <strong>1</strong> top (<code><a href="#sub2_pi" class="nt">sub2_pi</a></code>), <strong>12</strong> bottom (<code class="nt">comment</code><sup> 4</sup>, <code class="nt">charref</code>, <code class="nt">token</code><sup> 7</sup>, <code class="nt">newline</code><sup> 2</sup>, <code class="nt">dname</code>, <code class="nt">name</code><sup> 19</sup>, <code class="nt">regexp</code>, <code class="nt">space</code><sup> 2</sup>, <code class="nt">stringlit</code><sup> 3</sup>, <code class="nt">IN</code>, <code class="nt">charlit</code><sup> 3</sup>, <code class="nt">EX</code>).</li><li>Total <strong>47</strong> terminal symbols: <strong>14</strong> keywords (<span class="t">"SYSTEM"</span>, <span class="t">"PUBLIC"</span><sup> 2</sup>, <span class="t">"EMPTY"</span>, <span class="t">"ANY"</span>, <span class="t">"CDATA"</span>, <span class="t">"ID"</span>, <span class="t">"IDREF"</span>, <span class="t">"IDREFS"</span>, <span class="t">"ENTITY"</span>, <span class="t">"ENTITIES"</span>, <span class="t">"NMTOKEN"</span>, <span class="t">"NMTOKENS"</span>, <span class="t">"NOTATION"</span>, <span class="t">"NDATA"</span>), <strong>0</strong> letters (—), <strong>0</strong> numerics (—), <strong>23</strong> signs (<span class="t">"&gt;"</span><sup> 8</sup>, <span class="t">"["</span>, <span class="t">"]"</span>, <span class="t">"&lt;?"</span>, <span class="t">"?&gt;"</span><sup> 2</sup>, <span class="t">"%"</span><sup> 2</sup>, <span class="t">";"</span><sup> 2</sup>, <span class="t">"?"</span>, <span class="t">"*"</span>, <span class="t">"+"</span>, <span class="t">"("</span><sup> 6</sup>, <span class="t">")"</span><sup> 5</sup>, <span class="t">"|"</span><sup> 3</sup>, <span class="t">","</span>, <span class="t">")*"</span>, <span class="t">"""</span><sup> 2</sup>, <span class="t">"'"</span><sup> 2</sup>, <span class="t">"&lt;"</span><sup> 2</sup>, <span class="t">"/&gt;"</span>, <span class="t">"="</span>, <span class="t">"&lt;/"</span>, <span class="t">"]]&gt;"</span>, <span class="t">"&amp;"</span>).</li></ul><h2 class="l">Syntax</h2><pre><a name="program" class="nt">program</a> ::=
+	<a href="#prolog" class="nt">prolog</a> <a href="#element" class="nt">element</a></pre><pre><a name="prolog" class="nt">prolog</a> ::=
+	<a href="#dtd_body" class="nt">dtd_body</a></pre><pre><a name="dtd_body" class="nt">dtd_body</a> ::=
+	<a href="#misc" class="nt">misc</a><span class="meta">*</span> <a href="#doctypedecl" class="nt">doctypedecl</a><span class="meta">?</span></pre><pre><a name="misc" class="nt">misc</a> ::=
+	<a href="#comment" class="nt">comment</a>
+	<a href="#pi" class="nt">pi</a>
+	<a href="#space" class="nt">space</a>
+	<a href="#newline" class="nt">newline</a></pre><pre><a name="doctypedecl" class="nt">doctypedecl</a> ::=
+	<span class="t">"&lt;!DOCTYPE"</span> <a href="#spaces" class="nt">spaces</a> <a href="#name" class="nt">name</a> <a href="#spaces" class="nt">spaces</a> <a href="#sp_external_id" class="nt">sp_external_id</a><span class="meta">?</span> <a href="#spaces" class="nt">spaces</a> <a href="#declbody" class="nt">declbody</a><span class="meta">?</span> <a href="#spaces" class="nt">spaces</a> <span class="t">"&gt;"</span> <a href="#spaces" class="nt">spaces</a></pre><pre><a name="declbody" class="nt">declbody</a> ::=
+	<span class="t">"["</span> <a href="#decl" class="nt">decl</a><span class="meta">*</span> <span class="t">"]"</span></pre><pre><a name="literal" class="nt">literal</a> ::=
+	<a href="#charlit" class="nt">charlit</a>
+	<a href="#stringlit" class="nt">stringlit</a></pre><pre><a name="pi" class="nt">pi</a> ::=
+	<span class="t">"&lt;?"</span> <a href="#pitarget" class="nt">pitarget</a> <a href="#sub1_pi" class="nt">sub1_pi</a><span class="meta">?</span> <span class="t">"?&gt;"</span></pre><pre><a name="pitarget" class="nt">pitarget</a> ::=
+	<a href="#name" class="nt">name</a></pre><pre><a name="sub1_pi" class="nt">sub1_pi</a> ::=
+	<a href="#spaces" class="nt">spaces</a> <a href="#token" class="nt">token</a></pre><pre><a name="sub2_pi" class="nt">sub2_pi</a> ::=
+	<a href="#token" class="nt">token</a> <span class="t">"?&gt;"</span> <a href="#token" class="nt">token</a></pre><pre><a name="sp_external_id" class="nt">sp_external_id</a> ::=
+	<a href="#spaces" class="nt">spaces</a> <a href="#external_id" class="nt">external_id</a></pre><pre><a name="external_id" class="nt">external_id</a> ::=
+	<a href="#exid_sys" class="nt">exid_sys</a>
+	<a href="#exid_pub" class="nt">exid_pub</a></pre><pre><a name="exid_sys" class="nt">exid_sys</a> ::=
+	<span class="t">"SYSTEM"</span> <a href="#spaces" class="nt">spaces</a> <a href="#literal" class="nt">literal</a></pre><pre><a name="exid_pub" class="nt">exid_pub</a> ::=
+	<span class="t">"PUBLIC"</span> <a href="#spaces" class="nt">spaces</a> <a href="#literal" class="nt">literal</a> <a href="#spaces" class="nt">spaces</a> <a href="#literal" class="nt">literal</a></pre><pre><a name="decl" class="nt">decl</a> ::=
+	<a href="#markupdecl" class="nt">markupdecl</a>
+	<span class="t">"%"</span> <a href="#name" class="nt">name</a> <span class="t">";"</span>
+	<a href="#spaces" class="nt">spaces</a></pre><pre><a name="markupdecl" class="nt">markupdecl</a> ::=
+	<a href="#elementdecl" class="nt">elementdecl</a>
+	<a href="#attlistdecl" class="nt">attlistdecl</a>
+	<a href="#entitydecl" class="nt">entitydecl</a>
+	<a href="#notationdecl" class="nt">notationdecl</a>
+	<a href="#pi" class="nt">pi</a>
+	<a href="#comment" class="nt">comment</a></pre><pre><a name="elementdecl" class="nt">elementdecl</a> ::=
+	<span class="t">"&lt;!ELEMENT"</span> <a href="#spaces" class="nt">spaces</a> <a href="#name" class="nt">name</a> <a href="#spaces" class="nt">spaces</a> <a href="#contentspec" class="nt">contentspec</a> <a href="#spaces" class="nt">spaces</a> <span class="t">"&gt;"</span> <a href="#spaces" class="nt">spaces</a></pre><pre><a name="contentspec" class="nt">contentspec</a> ::=
+	<span class="t">"EMPTY"</span>
+	<span class="t">"ANY"</span>
+	<a href="#mixed" class="nt">mixed</a>
+	<a href="#children" class="nt">children</a></pre><pre><a name="children" class="nt">children</a> ::=
+	<a href="#children_body" class="nt">children_body</a> <a href="#repetition" class="nt">repetition</a><span class="meta">?</span></pre><pre><a name="repetition" class="nt">repetition</a> ::=
+	<span class="t">"?"</span>
+	<span class="t">"*"</span>
+	<span class="t">"+"</span></pre><pre><a name="children_body" class="nt">children_body</a> ::=
+	<a href="#choice" class="nt">choice</a>
+	<a href="#seq" class="nt">seq</a></pre><pre><a name="choice" class="nt">choice</a> ::=
+	<span class="t">"("</span> <a href="#spaces" class="nt">spaces</a> <a href="#cp" class="nt">cp</a> <a href="#choice_item" class="nt">choice_item</a> <a href="#choice_item" class="nt">choice_item</a><span class="meta">*</span> <a href="#spaces" class="nt">spaces</a> <span class="t">")"</span></pre><pre><a name="choice_item" class="nt">choice_item</a> ::=
+	<a href="#spaces" class="nt">spaces</a> <span class="t">"|"</span> <a href="#spaces" class="nt">spaces</a> <a href="#cp" class="nt">cp</a></pre><pre><a name="cp" class="nt">cp</a> ::=
+	<a href="#cp_body" class="nt">cp_body</a> <a href="#repetition" class="nt">repetition</a><span class="meta">?</span></pre><pre><a name="cp_body" class="nt">cp_body</a> ::=
+	<a href="#name" class="nt">name</a>
+	<a href="#choice" class="nt">choice</a>
+	<a href="#seq" class="nt">seq</a></pre><pre><a name="seq" class="nt">seq</a> ::=
+	<span class="t">"("</span> <a href="#spaces" class="nt">spaces</a> <a href="#cp" class="nt">cp</a> <a href="#more_cps" class="nt">more_cps</a><span class="meta">*</span> <a href="#spaces" class="nt">spaces</a> <span class="t">")"</span></pre><pre><a name="more_cps" class="nt">more_cps</a> ::=
+	<a href="#spaces" class="nt">spaces</a> <span class="t">","</span> <a href="#spaces" class="nt">spaces</a> <a href="#cp" class="nt">cp</a></pre><pre><a name="mixed" class="nt">mixed</a> ::=
+	<a href="#pcdata_or_name" class="nt">pcdata_or_name</a>
+	<a href="#pcdata" class="nt">pcdata</a></pre><pre><a name="pcdata_or_name" class="nt">pcdata_or_name</a> ::=
+	<span class="t">"("</span> <a href="#spaces" class="nt">spaces</a> <span class="t">"#PCDATA"</span> <a href="#more_names" class="nt">more_names</a><span class="meta">*</span> <a href="#spaces" class="nt">spaces</a> <span class="t">")*"</span></pre><pre><a name="more_names" class="nt">more_names</a> ::=
+	<a href="#spaces" class="nt">spaces</a> <span class="t">"|"</span> <a href="#spaces" class="nt">spaces</a> <a href="#name" class="nt">name</a></pre><pre><a name="pcdata" class="nt">pcdata</a> ::=
+	<span class="t">"("</span> <a href="#spaces" class="nt">spaces</a> <span class="t">"#PCDATA"</span> <a href="#spaces" class="nt">spaces</a> <span class="t">")"</span></pre><pre><a name="attlistdecl" class="nt">attlistdecl</a> ::=
+	<span class="t">"&lt;!ATTLIST"</span> <a href="#spaces" class="nt">spaces</a> <a href="#name" class="nt">name</a> <a href="#attdef" class="nt">attdef</a><span class="meta">*</span> <a href="#spaces" class="nt">spaces</a> <span class="t">"&gt;"</span> <a href="#spaces" class="nt">spaces</a></pre><pre><a name="attdef" class="nt">attdef</a> ::=
+	<a href="#spaces" class="nt">spaces</a> <a href="#name" class="nt">name</a> <a href="#spaces" class="nt">spaces</a> <a href="#atttype" class="nt">atttype</a> <a href="#spaces" class="nt">spaces</a> <a href="#defaultdecl" class="nt">defaultdecl</a></pre><pre><a name="atttype" class="nt">atttype</a> ::=
+	<a href="#stringtype" class="nt">stringtype</a>
+	<a href="#tokenizedtype" class="nt">tokenizedtype</a>
+	<a href="#enumeratedtype" class="nt">enumeratedtype</a></pre><pre><a name="stringtype" class="nt">stringtype</a> ::=
+	<span class="t">"CDATA"</span></pre><pre><a name="tokenizedtype" class="nt">tokenizedtype</a> ::=
+	<span class="t">"ID"</span>
+	<span class="t">"IDREF"</span>
+	<span class="t">"IDREFS"</span>
+	<span class="t">"ENTITY"</span>
+	<span class="t">"ENTITIES"</span>
+	<span class="t">"NMTOKEN"</span>
+	<span class="t">"NMTOKENS"</span></pre><pre><a name="enumeratedtype" class="nt">enumeratedtype</a> ::=
+	<a href="#notationtype" class="nt">notationtype</a>
+	<a href="#enumeration" class="nt">enumeration</a></pre><pre><a name="notationtype" class="nt">notationtype</a> ::=
+	<span class="t">"NOTATION"</span> <a href="#spaces" class="nt">spaces</a> <span class="t">"("</span> <a href="#spaces" class="nt">spaces</a> <a href="#name" class="nt">name</a> <a href="#more_names" class="nt">more_names</a><span class="meta">*</span> <a href="#spaces" class="nt">spaces</a> <span class="t">")"</span></pre><pre><a name="enumeration" class="nt">enumeration</a> ::=
+	<span class="t">"("</span> <a href="#spaces" class="nt">spaces</a> <a href="#nmtoken" class="nt">nmtoken</a> <a href="#more_nmtokens" class="nt">more_nmtokens</a><span class="meta">*</span> <a href="#spaces" class="nt">spaces</a> <span class="t">")"</span></pre><pre><a name="nmtoken" class="nt">nmtoken</a> ::=
+	<a href="#name" class="nt">name</a>
+	<a href="#dname" class="nt">dname</a></pre><pre><a name="more_nmtokens" class="nt">more_nmtokens</a> ::=
+	<a href="#spaces" class="nt">spaces</a> <span class="t">"|"</span> <a href="#spaces" class="nt">spaces</a> <a href="#nmtoken" class="nt">nmtoken</a></pre><pre><a name="defaultdecl" class="nt">defaultdecl</a> ::=
+	<span class="t">"#REQUIRED"</span>
+	<span class="t">"#IMPLIED"</span>
+	<a href="#fixed" class="nt">fixed</a><span class="meta">?</span> <a href="#attvalue" class="nt">attvalue</a></pre><pre><a name="fixed" class="nt">fixed</a> ::=
+	<span class="t">"#FIXED"</span> <a href="#spaces" class="nt">spaces</a></pre><pre><a name="attvalue" class="nt">attvalue</a> ::=
+	<a href="#stringlit" class="nt">stringlit</a>
+	<a href="#charlit" class="nt">charlit</a>
+	<a href="#longstringlit" class="nt">longstringlit</a>
+	<a href="#longcharlit" class="nt">longcharlit</a></pre><pre><a name="longstringlit" class="nt">longstringlit</a> ::=
+	<span class="t">"""</span> <a href="#not_dquote" class="nt">not_dquote</a><span class="meta">*</span> <span class="t">"""</span></pre><pre><a name="not_dquote" class="nt">not_dquote</a> ::=
+	<a href="#token" class="nt">token</a></pre><pre><a name="longcharlit" class="nt">longcharlit</a> ::=
+	<span class="t">"'"</span> <a href="#not_quote" class="nt">not_quote</a><span class="meta">*</span> <span class="t">"'"</span></pre><pre><a name="not_quote" class="nt">not_quote</a> ::=
+	<a href="#token" class="nt">token</a></pre><pre><a name="entitydecl" class="nt">entitydecl</a> ::=
+	<a href="#gedecl" class="nt">gedecl</a>
+	<a href="#pedecl" class="nt">pedecl</a></pre><pre><a name="gedecl" class="nt">gedecl</a> ::=
+	<span class="t">"&lt;!ENTITY"</span> <a href="#spaces" class="nt">spaces</a> <a href="#name" class="nt">name</a> <a href="#spaces" class="nt">spaces</a> <a href="#entitydef" class="nt">entitydef</a> <a href="#spaces" class="nt">spaces</a> <span class="t">"&gt;"</span> <a href="#spaces" class="nt">spaces</a></pre><pre><a name="pedecl" class="nt">pedecl</a> ::=
+	<span class="t">"&lt;!ENTITY"</span> <a href="#spaces" class="nt">spaces</a> <span class="t">"%"</span> <a href="#spaces" class="nt">spaces</a> <a href="#name" class="nt">name</a> <a href="#spaces" class="nt">spaces</a> <a href="#pedef" class="nt">pedef</a> <a href="#spaces" class="nt">spaces</a> <span class="t">"&gt;"</span> <a href="#spaces" class="nt">spaces</a></pre><pre><a name="entitydef" class="nt">entitydef</a> ::=
+	<a href="#entityvalue" class="nt">entityvalue</a>
+	<a href="#external_id" class="nt">external_id</a> <a href="#ndatadecl" class="nt">ndatadecl</a><span class="meta">?</span></pre><pre><a name="pedef" class="nt">pedef</a> ::=
+	<a href="#entityvalue" class="nt">entityvalue</a>
+	<a href="#external_id" class="nt">external_id</a></pre><pre><a name="ndatadecl" class="nt">ndatadecl</a> ::=
+	<a href="#spaces" class="nt">spaces</a> <span class="t">"NDATA"</span> <a href="#spaces" class="nt">spaces</a> <a href="#name" class="nt">name</a></pre><pre><a name="entityvalue" class="nt">entityvalue</a> ::=
+	<a href="#charlit" class="nt">charlit</a>
+	<a href="#stringlit" class="nt">stringlit</a>
+	<a href="#longstringlit" class="nt">longstringlit</a>
+	<a href="#longcharlit" class="nt">longcharlit</a></pre><pre><a name="notationdecl" class="nt">notationdecl</a> ::=
+	<span class="t">"&lt;!NOTATION"</span> <a href="#spaces" class="nt">spaces</a> <a href="#name" class="nt">name</a> <a href="#spaces" class="nt">spaces</a> <a href="#exid_or_pubid" class="nt">exid_or_pubid</a> <a href="#spaces" class="nt">spaces</a> <span class="t">"&gt;"</span> <a href="#spaces" class="nt">spaces</a></pre><pre><a name="exid_or_pubid" class="nt">exid_or_pubid</a> ::=
+	<a href="#external_id" class="nt">external_id</a>
+	<span class="t">"PUBLIC"</span> <a href="#spaces" class="nt">spaces</a> <a href="#literal" class="nt">literal</a></pre><pre><a name="spaces" class="nt">spaces</a> ::=
+	<a href="#space_or_newline" class="nt">space_or_newline</a><span class="meta">*</span></pre><pre><a name="space_or_newline" class="nt">space_or_newline</a> ::=
+	<a href="#space" class="nt">space</a>
+	<a href="#newline" class="nt">newline</a></pre><pre><a name="element" class="nt">element</a> ::=
+	<a href="#empty_elem_tag" class="nt">empty_elem_tag</a> <a href="#spaces" class="nt">spaces</a>
+	<a href="#tag_content" class="nt">tag_content</a> <a href="#spaces" class="nt">spaces</a></pre><pre><a name="tag_content" class="nt">tag_content</a> ::=
+	<a href="#stag" class="nt">stag</a> <a href="#IN" class="nt">IN</a> <a href="#content" class="nt">content</a> <a href="#EX" class="nt">EX</a> <a href="#etag" class="nt">etag</a></pre><pre><a name="empty_elem_tag" class="nt">empty_elem_tag</a> ::=
+	<span class="t">"&lt;"</span> <a href="#name" class="nt">name</a> <a href="#spaces" class="nt">spaces</a> <a href="#attribute" class="nt">attribute</a><span class="meta">*</span> <span class="t">"/&gt;"</span></pre><pre><a name="attribute" class="nt">attribute</a> ::=
+	<a href="#spaces" class="nt">spaces</a> <a href="#name" class="nt">name</a> <span class="t">"="</span> <a href="#attvalue" class="nt">attvalue</a> <a href="#spaces" class="nt">spaces</a></pre><pre><a name="stag" class="nt">stag</a> ::=
+	<span class="t">"&lt;"</span> <a href="#name" class="nt">name</a> <a href="#spaces" class="nt">spaces</a> <a href="#attribute" class="nt">attribute</a><span class="meta">*</span> <span class="t">"&gt;"</span></pre><pre><a name="content" class="nt">content</a> ::=
+	<a href="#spaces" class="nt">spaces</a> <a href="#chardata" class="nt">chardata</a><span class="meta">*</span> <a href="#spaces" class="nt">spaces</a> <a href="#sub1_content" class="nt">sub1_content</a><span class="meta">*</span> <a href="#spaces" class="nt">spaces</a></pre><pre><a name="sub1_content" class="nt">sub1_content</a> ::=
+	<a href="#spaces" class="nt">spaces</a> <a href="#sub2_content" class="nt">sub2_content</a> <a href="#spaces" class="nt">spaces</a> <a href="#chardata" class="nt">chardata</a><span class="meta">*</span> <a href="#spaces" class="nt">spaces</a></pre><pre><a name="sub2_content" class="nt">sub2_content</a> ::=
+	<a href="#element" class="nt">element</a>
+	<a href="#reference" class="nt">reference</a>
+	<a href="#cdsect" class="nt">cdsect</a>
+	<a href="#pi" class="nt">pi</a>
+	<a href="#comment" class="nt">comment</a>
+	<a href="#regexp" class="nt">regexp</a></pre><pre><a name="chardata" class="nt">chardata</a> ::=
+	<a href="#token" class="nt">token</a></pre><pre><a name="etag" class="nt">etag</a> ::=
+	<span class="t">"&lt;/"</span> <a href="#name" class="nt">name</a> <a href="#spaces" class="nt">spaces</a> <span class="t">"&gt;"</span></pre><pre><a name="cdata" class="nt">cdata</a> ::=
+	<a href="#token" class="nt">token</a>
+	<a href="#comment" class="nt">comment</a></pre><pre><a name="cdend" class="nt">cdend</a> ::=
+	<span class="t">"]]&gt;"</span></pre><pre><a name="reference" class="nt">reference</a> ::=
+	<span class="t">"&amp;"</span> <a href="#name" class="nt">name</a> <span class="t">";"</span>
+	<a href="#charref" class="nt">charref</a></pre><pre><a name="cdsect" class="nt">cdsect</a> ::=
+	<span class="t">"&lt;![CDATA["</span> <a href="#cdata" class="nt">cdata</a><span class="meta">*</span> <a href="#cdend" class="nt">cdend</a></pre><hr /><div class="b"><a href="http://grammarware.github.io/lab"><img src="../../../../by-grammarlab.png" alt="GrammarLab" title="Powered by GrammarLab"></img></a>Maintained by Dr. <a href="http://grammarware.net/">Vadim Zaytsev</a> a.k.a. @<a href="http://twitter.com/grammarware">grammarware</a>. Last updated in October 2014. <span class="links"> [<a href="#TOP">↑</a>]</span></div></body></html>

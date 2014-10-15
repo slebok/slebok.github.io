@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="content-type" content="text/html; charset=utf-8" /><title>Grammar Zoo - Browsable PIF 0.1 Grammar</title><link href="../../../../slps.css" rel="stylesheet" type="text/css" /></head><body><h1 class="l"><a name="TOP"></a>Browsable PIF 0.1 Grammar</h1><a href="http://creativecommons.org/licenses/by/3.0/"><img src="../../../../cc-by.png" alt="CC-BY" title="View the CC-BY license"></img></a><p>Grammar extracted by <strong><a href="http://grammarware.net/">Vadim Zaytsev</a></strong>, see the <a href="http://grammarzoo.github.io/">Grammar Zoo</a> entry for details: <a href="../../../../index.html#§wip_atl_PIF_extracted">§wip/atl/PIF/extracted</a><br />Source used for this grammar: Hugo Brunelière, <em>PIF 0.1, </em><code>PIF.ecore</code>,  2005/08/04<span class="links" /></p><h2 class="l">Summary</h2><ul class="nl"><li>Total <strong>25</strong> production rules with <strong>34</strong> top alternatives and <strong>86</strong> symbols.</li><li>Vocabulary: <strong>14</strong> = <strong>14</strong> nonterminals + <strong>0</strong> terminals + <strong>0</strong> labels + <strong>0</strong> markers.</li><li>Total <strong>14</strong> nonterminal symbols: <strong>14</strong> defined (<code><a href="#Entity" class="nt">Entity</a></code>, <code><a href="#Activity" class="nt">Activity</a></code>, <code><a href="#Object" class="nt">Object</a></code>, <code><a href="#Timepoint" class="nt">Timepoint</a></code>, <code><a href="#Relation" class="nt">Relation</a></code>, <code><a href="#Decision" class="nt">Decision</a></code>, <code><a href="#Agent" class="nt">Agent</a></code>, <code><a href="#Creates" class="nt">Creates</a></code>, <code><a href="#Modifies" class="nt">Modifies</a></code>, <code><a href="#Before" class="nt">Before</a></code>, <code><a href="#Uses" class="nt">Uses</a></code>, <code><a href="#Performs" class="nt">Performs</a></code>, <code><a href="#ActivityStatus" class="nt">ActivityStatus</a></code>, <code><a href="#Succesor" class="nt">Succesor</a></code>), <strong>0</strong> root (—), <strong>1</strong> top (<code><a href="#Entity" class="nt">Entity</a></code>), <strong>0</strong> bottom (—).</li></ul><h2 class="l">Syntax</h2><pre><a name="Entity" class="nt">Entity</a> ::=
+	<a href="#Activity" class="nt">Activity</a></pre><pre><a name="Entity" class="nt">Entity</a> ::=
+	<a href="#Object" class="nt">Object</a></pre><pre><a name="Entity" class="nt">Entity</a> ::=
+	<a href="#Timepoint" class="nt">Timepoint</a></pre><pre><a name="Entity" class="nt">Entity</a> ::=
+	<a href="#Relation" class="nt">Relation</a></pre><pre><a name="Entity" class="nt">Entity</a> ::=
+	<a href="#Activity" class="nt">Activity</a>
+	<a href="#Object" class="nt">Object</a>
+	<a href="#Timepoint" class="nt">Timepoint</a>
+	<a href="#Relation" class="nt">Relation</a></pre><pre><a name="Activity" class="nt">Activity</a> ::=
+	<a href="#Decision" class="nt">Decision</a></pre><pre><a name="Object" class="nt">Object</a> ::=
+	<a href="#Agent" class="nt">Agent</a></pre><pre><a name="Timepoint" class="nt">Timepoint</a> ::=
+	ε</pre><pre><a name="Relation" class="nt">Relation</a> ::=
+	<a href="#Creates" class="nt">Creates</a></pre><pre><a name="Relation" class="nt">Relation</a> ::=
+	<a href="#Modifies" class="nt">Modifies</a></pre><pre><a name="Relation" class="nt">Relation</a> ::=
+	<a href="#Before" class="nt">Before</a></pre><pre><a name="Relation" class="nt">Relation</a> ::=
+	<a href="#Uses" class="nt">Uses</a></pre><pre><a name="Relation" class="nt">Relation</a> ::=
+	<a href="#Performs" class="nt">Performs</a></pre><pre><a name="Relation" class="nt">Relation</a> ::=
+	<a href="#ActivityStatus" class="nt">ActivityStatus</a></pre><pre><a name="Relation" class="nt">Relation</a> ::=
+	<a href="#Succesor" class="nt">Succesor</a></pre><pre><a name="Relation" class="nt">Relation</a> ::=
+	<a href="#Creates" class="nt">Creates</a>
+	<a href="#Modifies" class="nt">Modifies</a>
+	<a href="#Before" class="nt">Before</a>
+	<a href="#Uses" class="nt">Uses</a>
+	<a href="#Performs" class="nt">Performs</a>
+	<a href="#ActivityStatus" class="nt">ActivityStatus</a>
+	<a href="#Succesor" class="nt">Succesor</a></pre><pre><a name="Decision" class="nt">Decision</a> ::=
+	ε</pre><pre><a name="Agent" class="nt">Agent</a> ::=
+	ε</pre><pre><a name="Creates" class="nt">Creates</a> ::=
+	ε</pre><pre><a name="Modifies" class="nt">Modifies</a> ::=
+	ε</pre><pre><a name="Before" class="nt">Before</a> ::=
+	ε</pre><pre><a name="Uses" class="nt">Uses</a> ::=
+	ε</pre><pre><a name="Performs" class="nt">Performs</a> ::=
+	ε</pre><pre><a name="ActivityStatus" class="nt">ActivityStatus</a> ::=
+	ε</pre><pre><a name="Succesor" class="nt">Succesor</a> ::=
+	ε</pre><hr /><div class="b"><a href="http://grammarware.github.io/lab"><img src="../../../../by-grammarlab.png" alt="GrammarLab" title="Powered by GrammarLab"></img></a>Maintained by Dr. <a href="http://grammarware.net/">Vadim Zaytsev</a> a.k.a. @<a href="http://twitter.com/grammarware">grammarware</a>. Last updated in October 2014. <span class="links"> [<a href="#TOP">↑</a>]</span></div></body></html>

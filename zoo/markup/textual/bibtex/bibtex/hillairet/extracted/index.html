@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="content-type" content="text/html; charset=utf-8" /><title>Grammar Zoo - Browsable BibTeX Grammar</title><link href="../../../../../../slps.css" rel="stylesheet" type="text/css" /></head><body><h1 class="l"><a name="TOP"></a>Browsable BibTeX Grammar</h1><a href="http://creativecommons.org/licenses/by/3.0/"><img src="../../../../../../cc-by.png" alt="CC-BY" title="View the CC-BY license"></img></a><p>Grammar extracted by <strong><a href="http://grammarware.net/">Vadim Zaytsev</a></strong>, see the <a href="http://grammarzoo.github.io/">Grammar Zoo</a> entry for details: <a href="../../../../../../index.html#markup_textual_bibtex_bibtex_hillairet_extracted">markup/textual/bibtex/bibtex/hillairet/extracted</a><br />Source used for this grammar: Guillaume Hillairet, <em>A partial Bibtex metamodel, </em><code>BibTeX.ecore</code>,  2006/05/19<span class="links" /></p><h2 class="l">Summary</h2><ul class="nl"><li>Total <strong>87</strong> production rules with <strong>88</strong> top alternatives and <strong>383</strong> symbols.</li><li>Vocabulary: <strong>54</strong> = <strong>48</strong> nonterminals + <strong>2</strong> terminals + <strong>4</strong> labels + <strong>0</strong> markers.</li><li>Total <strong>48</strong> nonterminal symbols: <strong>48</strong> defined (<code><a href="#Boolean" class="nt">Boolean</a></code>, <code><a href="#Integer" class="nt">Integer</a></code>, <code><a href="#String" class="nt">String</a></code>, <code><a href="#LocatedElement" class="nt">LocatedElement</a></code>, <code><a href="#Bibtex" class="nt">Bibtex</a></code>, <code><a href="#Entry" class="nt">Entry</a></code>, <code><a href="#Article" class="nt">Article</a></code>, <code><a href="#Book" class="nt">Book</a></code>, <code><a href="#Inbook" class="nt">Inbook</a></code>, <code><a href="#Booklet" class="nt">Booklet</a></code>, <code><a href="#Inproceedings" class="nt">Inproceedings</a></code>, <code><a href="#Proceedings" class="nt">Proceedings</a></code>, <code><a href="#Incollection" class="nt">Incollection</a></code>, <code><a href="#Techreport" class="nt">Techreport</a></code>, <code><a href="#PhdThesis" class="nt">PhdThesis</a></code>, <code><a href="#MastersThesis" class="nt">MastersThesis</a></code>, <code><a href="#Manual" class="nt">Manual</a></code>, <code><a href="#Misc" class="nt">Misc</a></code>, <code><a href="#Field" class="nt">Field</a></code>, <code><a href="#Authors" class="nt">Authors</a></code>, <code><a href="#AuthorUrls" class="nt">AuthorUrls</a></code>, <code><a href="#Title" class="nt">Title</a></code>, <code><a href="#Journal" class="nt">Journal</a></code>, <code><a href="#BookTitle" class="nt">BookTitle</a></code>, <code><a href="#Institution" class="nt">Institution</a></code>, <code><a href="#Organization" class="nt">Organization</a></code>, <code><a href="#Type" class="nt">Type</a></code>, <code><a href="#Day" class="nt">Day</a></code>, <code><a href="#Number" class="nt">Number</a></code>, <code><a href="#Chapter" class="nt">Chapter</a></code>, <code><a href="#Volume" class="nt">Volume</a></code>, <code><a href="#Series" class="nt">Series</a></code>, <code><a href="#Pages" class="nt">Pages</a></code>, <code><a href="#Publisher" class="nt">Publisher</a></code>, <code><a href="#Howpublished" class="nt">Howpublished</a></code>, <code><a href="#School" class="nt">School</a></code>, <code><a href="#Editor" class="nt">Editor</a></code>, <code><a href="#Edition" class="nt">Edition</a></code>, <code><a href="#Address" class="nt">Address</a></code>, <code><a href="#Year" class="nt">Year</a></code>, <code><a href="#Month" class="nt">Month</a></code>, <code><a href="#Note" class="nt">Note</a></code>, <code><a href="#Text" class="nt">Text</a></code>, <code><a href="#AbstractField" class="nt">AbstractField</a></code>, <code><a href="#Isbn" class="nt">Isbn</a></code>, <code><a href="#Issn" class="nt">Issn</a></code>, <code><a href="#Url" class="nt">Url</a></code>, <code><a href="#Doi" class="nt">Doi</a></code>), <strong>0</strong> root (—), <strong>4</strong> top (<code><a href="#Boolean" class="nt">Boolean</a></code>, <code><a href="#Integer" class="nt">Integer</a></code>, <code><a href="#LocatedElement" class="nt">LocatedElement</a></code>, <code><a href="#Bibtex" class="nt">Bibtex</a></code>), <strong>0</strong> bottom (—).</li><li>Total <strong>2</strong> terminal symbols: <strong>2</strong> keywords (<span class="t">"true"</span>, <span class="t">"false"</span>), <strong>0</strong> letters (—), <strong>0</strong> numerics (—), <strong>0</strong> signs (—).</li><li>Total <strong>4</strong> labels: <code>[<a href="#entries" class="lbl">entries</a>]</code>, <code>[<a href="#key" class="lbl">key</a>]</code><sup> 12</sup>, <code>[<a href="#fields" class="lbl">fields</a>]</code><sup> 12</sup>, <code>[<a href="#value" class="lbl">value</a>]</code><sup> 29</sup>.</li></ul><h2 class="l">Syntax</h2><pre><a name="Boolean" class="nt">Boolean</a> ::=
+	<span class="t">"true"</span>
+	<span class="t">"false"</span></pre><pre><a name="Integer" class="nt">Integer</a> ::=
+	integer</pre><pre><a name="String" class="nt">String</a> ::=
+	string</pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#Entry" class="nt">Entry</a></pre><pre><a name="Bibtex" class="nt">Bibtex</a> ::=
+	[<a name="entries" class="lbl">entries</a>]::<a href="#Entry" class="nt">Entry</a><span class="meta">+</span></pre><pre><a name="Entry" class="nt">Entry</a> ::=
+	<a href="#Article" class="nt">Article</a></pre><pre><a name="Entry" class="nt">Entry</a> ::=
+	<a href="#Book" class="nt">Book</a></pre><pre><a name="Entry" class="nt">Entry</a> ::=
+	<a href="#Inbook" class="nt">Inbook</a></pre><pre><a name="Entry" class="nt">Entry</a> ::=
+	<a href="#Booklet" class="nt">Booklet</a></pre><pre><a name="Entry" class="nt">Entry</a> ::=
+	<a href="#Inproceedings" class="nt">Inproceedings</a></pre><pre><a name="Entry" class="nt">Entry</a> ::=
+	<a href="#Proceedings" class="nt">Proceedings</a></pre><pre><a name="Entry" class="nt">Entry</a> ::=
+	<a href="#Incollection" class="nt">Incollection</a></pre><pre><a name="Entry" class="nt">Entry</a> ::=
+	<a href="#Techreport" class="nt">Techreport</a></pre><pre><a name="Entry" class="nt">Entry</a> ::=
+	<a href="#PhdThesis" class="nt">PhdThesis</a></pre><pre><a name="Entry" class="nt">Entry</a> ::=
+	<a href="#MastersThesis" class="nt">MastersThesis</a></pre><pre><a name="Entry" class="nt">Entry</a> ::=
+	<a href="#Manual" class="nt">Manual</a></pre><pre><a name="Entry" class="nt">Entry</a> ::=
+	<a href="#Misc" class="nt">Misc</a></pre><pre><a name="Article" class="nt">Article</a> ::=
+	[<a name="key" class="lbl">key</a>]::<a href="#String" class="nt">String</a> [<a name="fields" class="lbl">fields</a>]::<a href="#Field" class="nt">Field</a><span class="meta">+</span></pre><pre><a name="Book" class="nt">Book</a> ::=
+	[<a name="key" class="lbl">key</a>]::<a href="#String" class="nt">String</a> [<a name="fields" class="lbl">fields</a>]::<a href="#Field" class="nt">Field</a><span class="meta">+</span></pre><pre><a name="Inbook" class="nt">Inbook</a> ::=
+	[<a name="key" class="lbl">key</a>]::<a href="#String" class="nt">String</a> [<a name="fields" class="lbl">fields</a>]::<a href="#Field" class="nt">Field</a><span class="meta">+</span></pre><pre><a name="Booklet" class="nt">Booklet</a> ::=
+	[<a name="key" class="lbl">key</a>]::<a href="#String" class="nt">String</a> [<a name="fields" class="lbl">fields</a>]::<a href="#Field" class="nt">Field</a><span class="meta">+</span></pre><pre><a name="Inproceedings" class="nt">Inproceedings</a> ::=
+	[<a name="key" class="lbl">key</a>]::<a href="#String" class="nt">String</a> [<a name="fields" class="lbl">fields</a>]::<a href="#Field" class="nt">Field</a><span class="meta">+</span></pre><pre><a name="Proceedings" class="nt">Proceedings</a> ::=
+	[<a name="key" class="lbl">key</a>]::<a href="#String" class="nt">String</a> [<a name="fields" class="lbl">fields</a>]::<a href="#Field" class="nt">Field</a><span class="meta">+</span></pre><pre><a name="Incollection" class="nt">Incollection</a> ::=
+	[<a name="key" class="lbl">key</a>]::<a href="#String" class="nt">String</a> [<a name="fields" class="lbl">fields</a>]::<a href="#Field" class="nt">Field</a><span class="meta">+</span></pre><pre><a name="Techreport" class="nt">Techreport</a> ::=
+	[<a name="key" class="lbl">key</a>]::<a href="#String" class="nt">String</a> [<a name="fields" class="lbl">fields</a>]::<a href="#Field" class="nt">Field</a><span class="meta">+</span></pre><pre><a name="PhdThesis" class="nt">PhdThesis</a> ::=
+	[<a name="key" class="lbl">key</a>]::<a href="#String" class="nt">String</a> [<a name="fields" class="lbl">fields</a>]::<a href="#Field" class="nt">Field</a><span class="meta">+</span></pre><pre><a name="MastersThesis" class="nt">MastersThesis</a> ::=
+	[<a name="key" class="lbl">key</a>]::<a href="#String" class="nt">String</a> [<a name="fields" class="lbl">fields</a>]::<a href="#Field" class="nt">Field</a><span class="meta">+</span></pre><pre><a name="Manual" class="nt">Manual</a> ::=
+	[<a name="key" class="lbl">key</a>]::<a href="#String" class="nt">String</a> [<a name="fields" class="lbl">fields</a>]::<a href="#Field" class="nt">Field</a><span class="meta">+</span></pre><pre><a name="Misc" class="nt">Misc</a> ::=
+	[<a name="key" class="lbl">key</a>]::<a href="#String" class="nt">String</a> [<a name="fields" class="lbl">fields</a>]::<a href="#Field" class="nt">Field</a><span class="meta">+</span></pre><pre><a name="Field" class="nt">Field</a> ::=
+	<a href="#Authors" class="nt">Authors</a></pre><pre><a name="Field" class="nt">Field</a> ::=
+	<a href="#AuthorUrls" class="nt">AuthorUrls</a></pre><pre><a name="Field" class="nt">Field</a> ::=
+	<a href="#Title" class="nt">Title</a></pre><pre><a name="Field" class="nt">Field</a> ::=
+	<a href="#Journal" class="nt">Journal</a></pre><pre><a name="Field" class="nt">Field</a> ::=
+	<a href="#BookTitle" class="nt">BookTitle</a></pre><pre><a name="Field" class="nt">Field</a> ::=
+	<a href="#Institution" class="nt">Institution</a></pre><pre><a name="Field" class="nt">Field</a> ::=
+	<a href="#Organization" class="nt">Organization</a></pre><pre><a name="Field" class="nt">Field</a> ::=
+	<a href="#Type" class="nt">Type</a></pre><pre><a name="Field" class="nt">Field</a> ::=
+	<a href="#Day" class="nt">Day</a></pre><pre><a name="Field" class="nt">Field</a> ::=
+	<a href="#Number" class="nt">Number</a></pre><pre><a name="Field" class="nt">Field</a> ::=
+	<a href="#Chapter" class="nt">Chapter</a></pre><pre><a name="Field" class="nt">Field</a> ::=
+	<a href="#Volume" class="nt">Volume</a></pre><pre><a name="Field" class="nt">Field</a> ::=
+	<a href="#Series" class="nt">Series</a></pre><pre><a name="Field" class="nt">Field</a> ::=
+	<a href="#Pages" class="nt">Pages</a></pre><pre><a name="Field" class="nt">Field</a> ::=
+	<a href="#Publisher" class="nt">Publisher</a></pre><pre><a name="Field" class="nt">Field</a> ::=
+	<a href="#Howpublished" class="nt">Howpublished</a></pre><pre><a name="Field" class="nt">Field</a> ::=
+	<a href="#School" class="nt">School</a></pre><pre><a name="Field" class="nt">Field</a> ::=
+	<a href="#Editor" class="nt">Editor</a></pre><pre><a name="Field" class="nt">Field</a> ::=
+	<a href="#Edition" class="nt">Edition</a></pre><pre><a name="Field" class="nt">Field</a> ::=
+	<a href="#Address" class="nt">Address</a></pre><pre><a name="Field" class="nt">Field</a> ::=
+	<a href="#Year" class="nt">Year</a></pre><pre><a name="Field" class="nt">Field</a> ::=
+	<a href="#Month" class="nt">Month</a></pre><pre><a name="Field" class="nt">Field</a> ::=
+	<a href="#Note" class="nt">Note</a></pre><pre><a name="Field" class="nt">Field</a> ::=
+	<a href="#Text" class="nt">Text</a></pre><pre><a name="Field" class="nt">Field</a> ::=
+	<a href="#AbstractField" class="nt">AbstractField</a></pre><pre><a name="Field" class="nt">Field</a> ::=
+	<a href="#Isbn" class="nt">Isbn</a></pre><pre><a name="Field" class="nt">Field</a> ::=
+	<a href="#Issn" class="nt">Issn</a></pre><pre><a name="Field" class="nt">Field</a> ::=
+	<a href="#Url" class="nt">Url</a></pre><pre><a name="Field" class="nt">Field</a> ::=
+	<a href="#Doi" class="nt">Doi</a></pre><pre><a name="Authors" class="nt">Authors</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="AuthorUrls" class="nt">AuthorUrls</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Title" class="nt">Title</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Journal" class="nt">Journal</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="BookTitle" class="nt">BookTitle</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Institution" class="nt">Institution</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Organization" class="nt">Organization</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Type" class="nt">Type</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Day" class="nt">Day</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Number" class="nt">Number</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Chapter" class="nt">Chapter</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Volume" class="nt">Volume</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Series" class="nt">Series</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Pages" class="nt">Pages</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Publisher" class="nt">Publisher</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Howpublished" class="nt">Howpublished</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="School" class="nt">School</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Editor" class="nt">Editor</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Edition" class="nt">Edition</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Address" class="nt">Address</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Year" class="nt">Year</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Month" class="nt">Month</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Note" class="nt">Note</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Text" class="nt">Text</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="AbstractField" class="nt">AbstractField</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Isbn" class="nt">Isbn</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Issn" class="nt">Issn</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Url" class="nt">Url</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Doi" class="nt">Doi</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><hr /><div class="b"><a href="http://grammarware.github.io/lab"><img src="../../../../../../by-grammarlab.png" alt="GrammarLab" title="Powered by GrammarLab"></img></a>Maintained by Dr. <a href="http://grammarware.net/">Vadim Zaytsev</a> a.k.a. @<a href="http://twitter.com/grammarware">grammarware</a>. Last updated in October 2014. <span class="links"> [<a href="#TOP">↑</a>]</span></div></body></html>

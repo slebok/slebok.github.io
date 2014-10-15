@@ -1,0 +1,228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="content-type" content="text/html; charset=utf-8" /><title>Grammar Zoo - Browsable Java Virtual Machine (JVM) Grammar</title><link href="../../../../slps.css" rel="stylesheet" type="text/css" /></head><body><h1 class="l"><a name="TOP"></a>Browsable Java Virtual Machine (JVM) Grammar</h1><a href="http://creativecommons.org/licenses/by/3.0/"><img src="../../../../cc-by.png" alt="CC-BY" title="View the CC-BY license"></img></a><p>Grammar extracted by <strong><a href="http://grammarware.net/">Vadim Zaytsev</a></strong>, see the <a href="http://grammarzoo.github.io/">Grammar Zoo</a> entry for details: <a href="../../../../index.html#java_jvm_level1_extracted">java/jvm/level1/extracted</a><br />Source used for this grammar: Jeroen van den Bos, Jurgen Vinju, <code>lang::jvm::ast::Level1</code>,  2010–2012<span class="links"> [<a href="http://github.com/cwi-swat/rascal/blob/master/src/org/rascalmpl/library/lang/jvm/ast/Level1.rsc">GitHub</a>]</span></p><h2 class="l">Summary</h2><ul class="nl"><li>Total <strong>18</strong> production rules with <strong>226</strong> top alternatives and <strong>800</strong> symbols.</li><li>Vocabulary: <strong>272</strong> = <strong>18</strong> nonterminals + <strong>0</strong> terminals + <strong>254</strong> labels + <strong>0</strong> markers.</li><li>Total <strong>18</strong> nonterminal symbols: <strong>18</strong> defined (<code><a href="#PrimitiveTypeDescriptor" class="nt">PrimitiveTypeDescriptor</a></code>, <code><a href="#TypeDescriptor" class="nt">TypeDescriptor</a></code>, <code><a href="#MethodDescription" class="nt">MethodDescription</a></code>, <code><a href="#TypeSignature" class="nt">TypeSignature</a></code>, <code><a href="#FieldTypeSignature" class="nt">FieldTypeSignature</a></code>, <code><a href="#ClassTypeSignature" class="nt">ClassTypeSignature</a></code>, <code><a href="#TypeArg" class="nt">TypeArg</a></code>, <code><a href="#Class" class="nt">Class</a></code>, <code><a href="#AccessModifier" class="nt">AccessModifier</a></code>, <code><a href="#ClassModifier" class="nt">ClassModifier</a></code>, <code><a href="#InnerClass" class="nt">InnerClass</a></code>, <code><a href="#Field" class="nt">Field</a></code>, <code><a href="#FieldModifier" class="nt">FieldModifier</a></code>, <code><a href="#Method" class="nt">Method</a></code>, <code><a href="#MethodModifier" class="nt">MethodModifier</a></code>, <code><a href="#Instruction" class="nt">Instruction</a></code>, <code><a href="#TryCatchBlock" class="nt">TryCatchBlock</a></code>, <code><a href="#LocalVariable" class="nt">LocalVariable</a></code>), <strong>0</strong> root (—), <strong>2</strong> top (<code><a href="#MethodDescription" class="nt">MethodDescription</a></code>, <code><a href="#Class" class="nt">Class</a></code>), <strong>0</strong> bottom (—).</li><li>Total <strong>254</strong> labels: <code>[<a href="#boolean" class="lbl">boolean</a>]</code>, <code>[<a href="#char" class="lbl">char</a>]</code>, <code>[<a href="#byte" class="lbl">byte</a>]</code>, <code>[<a href="#short" class="lbl">short</a>]</code>, <code>[<a href="#int" class="lbl">int</a>]</code><sup> 2</sup>, <code>[<a href="#float" class="lbl">float</a>]</code><sup> 2</sup>, <code>[<a href="#long" class="lbl">long</a>]</code><sup> 2</sup>, <code>[<a href="#double" class="lbl">double</a>]</code><sup> 2</sup>, <code>[<a href="#type" class="lbl">type</a>]</code><sup> 6</sup>, <code>[<a href="#primitive" class="lbl">primitive</a>]</code><sup> 2</sup>, <code>[<a href="#internalName" class="lbl">internalName</a>]</code><sup> 6</sup>, <code>[<a href="#object" class="lbl">object</a>]</code>, <code>[<a href="#array" class="lbl">array</a>]</code><sup> 2</sup>, <code>[<a href="#arguments" class="lbl">arguments</a>]</code>, <code>[<a href="#returnType" class="lbl">returnType</a>]</code>, <code>[<a href="#methodDescriptor" class="lbl">methodDescriptor</a>]</code>, <code>[<a href="#sig" class="lbl">sig</a>]</code>, <code>[<a href="#fieldType" class="lbl">fieldType</a>]</code><sup> 4</sup>, <code>[<a href="#class" class="lbl">class</a>]</code><sup> 4</sup>, <code>[<a href="#classType" class="lbl">classType</a>]</code>, <code>[<a href="#name" class="lbl">name</a>]</code><sup> 19</sup>, <code>[<a href="#typeVar" class="lbl">typeVar</a>]</code>, <code>[<a href="#args" class="lbl">args</a>]</code><sup> 2</sup>, <code>[<a href="#topLevel" class="lbl">topLevel</a>]</code>, <code>[<a href="#inner" class="lbl">inner</a>]</code>, <code>[<a href="#wildcard" class="lbl">wildcard</a>]</code>, <code>[<a href="#extends" class="lbl">extends</a>]</code>, <code>[<a href="#super" class="lbl">super</a>]</code><sup> 2</sup>, <code>[<a href="#version" class="lbl">version</a>]</code><sup> 2</sup>, <code>[<a href="#modifiers" class="lbl">modifiers</a>]</code><sup> 7</sup>, <code>[<a href="#signature" class="lbl">signature</a>]</code><sup> 6</sup>, <code>[<a href="#superName" class="lbl">superName</a>]</code><sup> 2</sup>, <code>[<a href="#interfaces" class="lbl">interfaces</a>]</code><sup> 2</sup>, <code>[<a href="#sourceFile" class="lbl">sourceFile</a>]</code>, <code>[<a href="#sourceDebug" class="lbl">sourceDebug</a>]</code>, <code>[<a href="#outerClass" class="lbl">outerClass</a>]</code>, <code>[<a href="#outerMethod" class="lbl">outerMethod</a>]</code>, <code>[<a href="#outerMethodDescription" class="lbl">outerMethodDescription</a>]</code>, <code>[<a href="#innerClasses" class="lbl">innerClasses</a>]</code><sup> 2</sup>, <code>[<a href="#fields" class="lbl">fields</a>]</code><sup> 2</sup>, <code>[<a href="#methods" class="lbl">methods</a>]</code><sup> 2</sup>, <code>[<a href="#public" class="lbl">public</a>]</code>, <code>[<a href="#private" class="lbl">private</a>]</code>, <code>[<a href="#protected" class="lbl">protected</a>]</code>, <code>[<a href="#access" class="lbl">access</a>]</code><sup> 6</sup>, <code>[<a href="#final" class="lbl">final</a>]</code><sup> 3</sup>, <code>[<a href="#interface" class="lbl">interface</a>]</code>, <code>[<a href="#abstract" class="lbl">abstract</a>]</code><sup> 2</sup>, <code>[<a href="#synthetic" class="lbl">synthetic</a>]</code><sup> 3</sup>, <code>[<a href="#annotation" class="lbl">annotation</a>]</code>, <code>[<a href="#enum" class="lbl">enum</a>]</code><sup> 2</sup>, <code>[<a href="#deprecated" class="lbl">deprecated</a>]</code>, <code>[<a href="#outerName" class="lbl">outerName</a>]</code>, <code>[<a href="#innerName" class="lbl">innerName</a>]</code>, <code>[<a href="#innerClass" class="lbl">innerClass</a>]</code><sup> 2</sup>, <code>[<a href="#description" class="lbl">description</a>]</code><sup> 14</sup>, <code>[<a href="#value" class="lbl">value</a>]</code>, <code>[<a href="#field" class="lbl">field</a>]</code><sup> 2</sup>, <code>[<a href="#static" class="lbl">static</a>]</code><sup> 2</sup>, <code>[<a href="#volatile" class="lbl">volatile</a>]</code>, <code>[<a href="#transient" class="lbl">transient</a>]</code>, <code>[<a href="#exceptions" class="lbl">exceptions</a>]</code>, <code>[<a href="#instructions" class="lbl">instructions</a>]</code>, <code>[<a href="#tryCatchBlocks" class="lbl">tryCatchBlocks</a>]</code>, <code>[<a href="#localVariables" class="lbl">localVariables</a>]</code>, <code>[<a href="#method" class="lbl">method</a>]</code>, <code>[<a href="#synchronized" class="lbl">synchronized</a>]</code>, <code>[<a href="#bridge" class="lbl">bridge</a>]</code>, <code>[<a href="#varags" class="lbl">varags</a>]</code>, <code>[<a href="#native" class="lbl">native</a>]</code>, <code>[<a href="#strict" class="lbl">strict</a>]</code>, <code>[<a href="#owner" class="lbl">owner</a>]</code><sup> 9</sup>, <code>[<a href="#getStatic" class="lbl">getStatic</a>]</code>, <code>[<a href="#putStatic" class="lbl">putStatic</a>]</code>, <code>[<a href="#getField" class="lbl">getField</a>]</code>, <code>[<a href="#putField" class="lbl">putField</a>]</code>, <code>[<a href="#index" class="lbl">index</a>]</code><sup> 15</sup>, <code>[<a href="#amount" class="lbl">amount</a>]</code>, <code>[<a href="#increment" class="lbl">increment</a>]</code>, <code>[<a href="#nop" class="lbl">nop</a>]</code>, <code>[<a href="#aConstNull" class="lbl">aConstNull</a>]</code>, <code>[<a href="#iConstM1" class="lbl">iConstM1</a>]</code>, <code>[<a href="#iConst0" class="lbl">iConst0</a>]</code>, <code>[<a href="#iConst1" class="lbl">iConst1</a>]</code>, <code>[<a href="#iConst2" class="lbl">iConst2</a>]</code>, <code>[<a href="#iConst3" class="lbl">iConst3</a>]</code>, <code>[<a href="#iConst4" class="lbl">iConst4</a>]</code>, <code>[<a href="#iConst5" class="lbl">iConst5</a>]</code>, <code>[<a href="#lConst0" class="lbl">lConst0</a>]</code>, <code>[<a href="#lConst1" class="lbl">lConst1</a>]</code>, <code>[<a href="#fConst0" class="lbl">fConst0</a>]</code>, <code>[<a href="#fConst1" class="lbl">fConst1</a>]</code>, <code>[<a href="#fConst2" class="lbl">fConst2</a>]</code>, <code>[<a href="#dConst0" class="lbl">dConst0</a>]</code>, <code>[<a href="#dConst1" class="lbl">dConst1</a>]</code>, <code>[<a href="#iaLoad" class="lbl">iaLoad</a>]</code>, <code>[<a href="#laLoad" class="lbl">laLoad</a>]</code>, <code>[<a href="#faLoad" class="lbl">faLoad</a>]</code>, <code>[<a href="#daLoad" class="lbl">daLoad</a>]</code>, <code>[<a href="#aaLoad" class="lbl">aaLoad</a>]</code>, <code>[<a href="#baLoad" class="lbl">baLoad</a>]</code>, <code>[<a href="#caLoad" class="lbl">caLoad</a>]</code>, <code>[<a href="#saLoad" class="lbl">saLoad</a>]</code>, <code>[<a href="#iaStore" class="lbl">iaStore</a>]</code>, <code>[<a href="#laStore" class="lbl">laStore</a>]</code>, <code>[<a href="#faStore" class="lbl">faStore</a>]</code>, <code>[<a href="#daStore" class="lbl">daStore</a>]</code>, <code>[<a href="#aaStore" class="lbl">aaStore</a>]</code>, <code>[<a href="#baStore" class="lbl">baStore</a>]</code>, <code>[<a href="#caStore" class="lbl">caStore</a>]</code>, <code>[<a href="#saStore" class="lbl">saStore</a>]</code>, <code>[<a href="#pop" class="lbl">pop</a>]</code>, <code>[<a href="#pop2" class="lbl">pop2</a>]</code>, <code>[<a href="#dup" class="lbl">dup</a>]</code>, <code>[<a href="#dupX1" class="lbl">dupX1</a>]</code>, <code>[<a href="#dupX2" class="lbl">dupX2</a>]</code>, <code>[<a href="#dup2" class="lbl">dup2</a>]</code>, <code>[<a href="#dup2X1" class="lbl">dup2X1</a>]</code>, <code>[<a href="#dup2X2" class="lbl">dup2X2</a>]</code>, <code>[<a href="#swap" class="lbl">swap</a>]</code>, <code>[<a href="#iAdd" class="lbl">iAdd</a>]</code>, <code>[<a href="#lAdd" class="lbl">lAdd</a>]</code>, <code>[<a href="#fAdd" class="lbl">fAdd</a>]</code>, <code>[<a href="#dAdd" class="lbl">dAdd</a>]</code>, <code>[<a href="#iSub" class="lbl">iSub</a>]</code>, <code>[<a href="#lSub" class="lbl">lSub</a>]</code>, <code>[<a href="#fSub" class="lbl">fSub</a>]</code>, <code>[<a href="#dSub" class="lbl">dSub</a>]</code>, <code>[<a href="#iMul" class="lbl">iMul</a>]</code>, <code>[<a href="#lMul" class="lbl">lMul</a>]</code>, <code>[<a href="#fMul" class="lbl">fMul</a>]</code>, <code>[<a href="#dMul" class="lbl">dMul</a>]</code>, <code>[<a href="#iDiv" class="lbl">iDiv</a>]</code>, <code>[<a href="#lDiv" class="lbl">lDiv</a>]</code>, <code>[<a href="#fDiv" class="lbl">fDiv</a>]</code>, <code>[<a href="#dDiv" class="lbl">dDiv</a>]</code>, <code>[<a href="#iRem" class="lbl">iRem</a>]</code>, <code>[<a href="#lRem" class="lbl">lRem</a>]</code>, <code>[<a href="#fRem" class="lbl">fRem</a>]</code>, <code>[<a href="#dRem" class="lbl">dRem</a>]</code>, <code>[<a href="#iNeg" class="lbl">iNeg</a>]</code>, <code>[<a href="#lNeg" class="lbl">lNeg</a>]</code>, <code>[<a href="#fNeg" class="lbl">fNeg</a>]</code>, <code>[<a href="#dNeg" class="lbl">dNeg</a>]</code>, <code>[<a href="#iShl" class="lbl">iShl</a>]</code>, <code>[<a href="#lShl" class="lbl">lShl</a>]</code>, <code>[<a href="#iShr" class="lbl">iShr</a>]</code>, <code>[<a href="#lShr" class="lbl">lShr</a>]</code>, <code>[<a href="#iuShr" class="lbl">iuShr</a>]</code>, <code>[<a href="#luShr" class="lbl">luShr</a>]</code>, <code>[<a href="#iAnd" class="lbl">iAnd</a>]</code>, <code>[<a href="#lAnd" class="lbl">lAnd</a>]</code>, <code>[<a href="#iOr" class="lbl">iOr</a>]</code>, <code>[<a href="#lOr" class="lbl">lOr</a>]</code>, <code>[<a href="#iXor" class="lbl">iXor</a>]</code>, <code>[<a href="#lXor" class="lbl">lXor</a>]</code>, <code>[<a href="#i2l" class="lbl">i2l</a>]</code>, <code>[<a href="#i2f" class="lbl">i2f</a>]</code>, <code>[<a href="#i2d" class="lbl">i2d</a>]</code>, <code>[<a href="#l2i" class="lbl">l2i</a>]</code>, <code>[<a href="#l2f" class="lbl">l2f</a>]</code>, <code>[<a href="#l2d" class="lbl">l2d</a>]</code>, <code>[<a href="#f2i" class="lbl">f2i</a>]</code>, <code>[<a href="#f2l" class="lbl">f2l</a>]</code>, <code>[<a href="#f2d" class="lbl">f2d</a>]</code>, <code>[<a href="#d2i" class="lbl">d2i</a>]</code>, <code>[<a href="#d2l" class="lbl">d2l</a>]</code>, <code>[<a href="#d2f" class="lbl">d2f</a>]</code>, <code>[<a href="#i2b" class="lbl">i2b</a>]</code>, <code>[<a href="#i2c" class="lbl">i2c</a>]</code>, <code>[<a href="#i2s" class="lbl">i2s</a>]</code>, <code>[<a href="#lCmp" class="lbl">lCmp</a>]</code>, <code>[<a href="#fCmpL" class="lbl">fCmpL</a>]</code>, <code>[<a href="#fCmpG" class="lbl">fCmpG</a>]</code>, <code>[<a href="#dCmpL" class="lbl">dCmpL</a>]</code>, <code>[<a href="#dCmpH" class="lbl">dCmpH</a>]</code>, <code>[<a href="#iReturn" class="lbl">iReturn</a>]</code>, <code>[<a href="#lReturn" class="lbl">lReturn</a>]</code>, <code>[<a href="#fReturn" class="lbl">fReturn</a>]</code>, <code>[<a href="#dReturn" class="lbl">dReturn</a>]</code>, <code>[<a href="#aReturn" class="lbl">aReturn</a>]</code>, <code>[<a href="#return" class="lbl">return</a>]</code>, <code>[<a href="#arrayLength" class="lbl">arrayLength</a>]</code>, <code>[<a href="#aThrow" class="lbl">aThrow</a>]</code>, <code>[<a href="#monitorEnter" class="lbl">monitorEnter</a>]</code>, <code>[<a href="#monitorExit" class="lbl">monitorExit</a>]</code>, <code>[<a href="#operand" class="lbl">operand</a>]</code><sup> 3</sup>, <code>[<a href="#biPush" class="lbl">biPush</a>]</code>, <code>[<a href="#siPush" class="lbl">siPush</a>]</code>, <code>[<a href="#newArray" class="lbl">newArray</a>]</code>, <code>[<a href="#label" class="lbl">label</a>]</code><sup> 19</sup>, <code>[<a href="#ifEq" class="lbl">ifEq</a>]</code>, <code>[<a href="#ifNe" class="lbl">ifNe</a>]</code>, <code>[<a href="#ifLt" class="lbl">ifLt</a>]</code>, <code>[<a href="#ifGe" class="lbl">ifGe</a>]</code>, <code>[<a href="#ifGt" class="lbl">ifGt</a>]</code>, <code>[<a href="#ifLe" class="lbl">ifLe</a>]</code>, <code>[<a href="#ifICmpEq" class="lbl">ifICmpEq</a>]</code>, <code>[<a href="#ifICmpNe" class="lbl">ifICmpNe</a>]</code>, <code>[<a href="#ifICmpLt" class="lbl">ifICmpLt</a>]</code>, <code>[<a href="#ifICmpGe" class="lbl">ifICmpGe</a>]</code>, <code>[<a href="#ifICmpGt" class="lbl">ifICmpGt</a>]</code>, <code>[<a href="#ifICmpLe" class="lbl">ifICmpLe</a>]</code>, <code>[<a href="#ifACmpEq" class="lbl">ifACmpEq</a>]</code>, <code>[<a href="#ifACmpNe" class="lbl">ifACmpNe</a>]</code>, <code>[<a href="#goto" class="lbl">goto</a>]</code>, <code>[<a href="#jsr" class="lbl">jsr</a>]</code>, <code>[<a href="#ifNull" class="lbl">ifNull</a>]</code>, <code>[<a href="#ifNonNull" class="lbl">ifNonNull</a>]</code>, <code>[<a href="#line" class="lbl">line</a>]</code>, <code>[<a href="#labelIndex" class="lbl">labelIndex</a>]</code>, <code>[<a href="#lineNumber" class="lbl">lineNumber</a>]</code>, <code>[<a href="#opcode" class="lbl">opcode</a>]</code>, <code>[<a href="#localVariable" class="lbl">localVariable</a>]</code><sup> 2</sup>, <code>[<a href="#iLoad" class="lbl">iLoad</a>]</code>, <code>[<a href="#lLoad" class="lbl">lLoad</a>]</code>, <code>[<a href="#fLoad" class="lbl">fLoad</a>]</code>, <code>[<a href="#dLoad" class="lbl">dLoad</a>]</code>, <code>[<a href="#aLoad" class="lbl">aLoad</a>]</code>, <code>[<a href="#iStore" class="lbl">iStore</a>]</code>, <code>[<a href="#lStore" class="lbl">lStore</a>]</code>, <code>[<a href="#fStore" class="lbl">fStore</a>]</code>, <code>[<a href="#dStore" class="lbl">dStore</a>]</code>, <code>[<a href="#aStore" class="lbl">aStore</a>]</code>, <code>[<a href="#ret" class="lbl">ret</a>]</code>, <code>[<a href="#string" class="lbl">string</a>]</code>, <code>[<a href="#ldcString" class="lbl">ldcString</a>]</code>, <code>[<a href="#ldcInt" class="lbl">ldcInt</a>]</code>, <code>[<a href="#ldcLong" class="lbl">ldcLong</a>]</code>, <code>[<a href="#ldcFloat" class="lbl">ldcFloat</a>]</code>, <code>[<a href="#ldcDouble" class="lbl">ldcDouble</a>]</code>, <code>[<a href="#defaultLabel" class="lbl">defaultLabel</a>]</code><sup> 2</sup>, <code>[<a href="#keys" class="lbl">keys</a>]</code>, <code>[<a href="#cases" class="lbl">cases</a>]</code><sup> 2</sup>, <code>[<a href="#lookupSwitch" class="lbl">lookupSwitch</a>]</code>, <code>[<a href="#invokeVirtual" class="lbl">invokeVirtual</a>]</code>, <code>[<a href="#invokeSpecial" class="lbl">invokeSpecial</a>]</code>, <code>[<a href="#invokeStatic" class="lbl">invokeStatic</a>]</code>, <code>[<a href="#invokeInterface" class="lbl">invokeInterface</a>]</code>, <code>[<a href="#invokeDynamic" class="lbl">invokeDynamic</a>]</code>, <code>[<a href="#dimensions" class="lbl">dimensions</a>]</code>, <code>[<a href="#multiANewArray" class="lbl">multiANewArray</a>]</code>, <code>[<a href="#min" class="lbl">min</a>]</code>, <code>[<a href="#max" class="lbl">max</a>]</code>, <code>[<a href="#tableSwitch" class="lbl">tableSwitch</a>]</code>, <code>[<a href="#new" class="lbl">new</a>]</code>, <code>[<a href="#aNewArray" class="lbl">aNewArray</a>]</code>, <code>[<a href="#checkCast" class="lbl">checkCast</a>]</code>, <code>[<a href="#instanceOf" class="lbl">instanceOf</a>]</code>, <code>[<a href="#startLabelIndex" class="lbl">startLabelIndex</a>]</code><sup> 3</sup>, <code>[<a href="#endLabelIndex" class="lbl">endLabelIndex</a>]</code><sup> 3</sup>, <code>[<a href="#handlerLabelIndex" class="lbl">handlerLabelIndex</a>]</code><sup> 2</sup>, <code>[<a href="#tryCatchBlock" class="lbl">tryCatchBlock</a>]</code>, <code>[<a href="#finallyBlock" class="lbl">finallyBlock</a>]</code>.</li></ul><h2 class="l">Syntax</h2><pre><a name="PrimitiveTypeDescriptor" class="nt">PrimitiveTypeDescriptor</a> ::=
+	[<a name="boolean" class="lbl">boolean</a>]::ε
+	[<a name="char" class="lbl">char</a>]::ε
+	[<a name="byte" class="lbl">byte</a>]::ε
+	[<a name="short" class="lbl">short</a>]::ε
+	[<a name="int" class="lbl">int</a>]::ε
+	[<a name="float" class="lbl">float</a>]::ε
+	[<a name="long" class="lbl">long</a>]::ε
+	[<a name="double" class="lbl">double</a>]::ε</pre><pre><a name="TypeDescriptor" class="nt">TypeDescriptor</a> ::=
+	[<a name="primitive" class="lbl">primitive</a>]::[<a name="type" class="lbl">type</a>]::<a href="#PrimitiveTypeDescriptor" class="nt">PrimitiveTypeDescriptor</a>
+	[<a name="object" class="lbl">object</a>]::[<a name="internalName" class="lbl">internalName</a>]::string
+	[<a name="array" class="lbl">array</a>]::[<a name="type" class="lbl">type</a>]::<a href="#TypeDescriptor" class="nt">TypeDescriptor</a></pre><pre><a name="MethodDescription" class="nt">MethodDescription</a> ::=
+	[<a name="methodDescriptor" class="lbl">methodDescriptor</a>]::<span class="meta">(</span>[<a name="arguments" class="lbl">arguments</a>]::<a href="#TypeDescriptor" class="nt">TypeDescriptor</a><span class="meta">*</span> [<a name="returnType" class="lbl">returnType</a>]::<a href="#TypeDescriptor" class="nt">TypeDescriptor</a><span class="meta">)</span></pre><pre><a name="TypeSignature" class="nt">TypeSignature</a> ::=
+	[<a name="primitive" class="lbl">primitive</a>]::[<a name="type" class="lbl">type</a>]::<a href="#PrimitiveTypeDescriptor" class="nt">PrimitiveTypeDescriptor</a>
+	[<a name="fieldType" class="lbl">fieldType</a>]::[<a name="sig" class="lbl">sig</a>]::<a href="#FieldTypeSignature" class="nt">FieldTypeSignature</a></pre><pre><a name="FieldTypeSignature" class="nt">FieldTypeSignature</a> ::=
+	[<a name="classType" class="lbl">classType</a>]::[<a name="class" class="lbl">class</a>]::<a href="#ClassTypeSignature" class="nt">ClassTypeSignature</a>
+	[<a name="array" class="lbl">array</a>]::[<a name="type" class="lbl">type</a>]::<a href="#TypeSignature" class="nt">TypeSignature</a>
+	[<a name="typeVar" class="lbl">typeVar</a>]::[<a name="name" class="lbl">name</a>]::string</pre><pre><a name="ClassTypeSignature" class="nt">ClassTypeSignature</a> ::=
+	[<a name="topLevel" class="lbl">topLevel</a>]::<span class="meta">(</span>[<a name="internalName" class="lbl">internalName</a>]::string [<a name="args" class="lbl">args</a>]::<a href="#TypeArg" class="nt">TypeArg</a><span class="meta">*</span><span class="meta">)</span>
+	[<a name="inner" class="lbl">inner</a>]::<span class="meta">(</span>[<a name="class" class="lbl">class</a>]::<a href="#ClassTypeSignature" class="nt">ClassTypeSignature</a> [<a name="name" class="lbl">name</a>]::string [<a name="args" class="lbl">args</a>]::<a href="#TypeArg" class="nt">TypeArg</a><span class="meta">*</span><span class="meta">)</span></pre><pre><a name="TypeArg" class="nt">TypeArg</a> ::=
+	[<a name="type" class="lbl">type</a>]::[<a name="fieldType" class="lbl">fieldType</a>]::<a href="#FieldTypeSignature" class="nt">FieldTypeSignature</a>
+	[<a name="wildcard" class="lbl">wildcard</a>]::ε
+	[<a name="extends" class="lbl">extends</a>]::[<a name="fieldType" class="lbl">fieldType</a>]::<a href="#FieldTypeSignature" class="nt">FieldTypeSignature</a>
+	[<a name="super" class="lbl">super</a>]::[<a name="fieldType" class="lbl">fieldType</a>]::<a href="#FieldTypeSignature" class="nt">FieldTypeSignature</a></pre><pre><a name="Class" class="nt">Class</a> ::=
+	[<a name="class" class="lbl">class</a>]::<span class="meta">(</span>[<a name="version" class="lbl">version</a>]::integer [<a name="modifiers" class="lbl">modifiers</a>]::<a href="#ClassModifier" class="nt">ClassModifier</a><span class="meta">*</span> [<a name="name" class="lbl">name</a>]::string [<a name="signature" class="lbl">signature</a>]::string [<a name="superName" class="lbl">superName</a>]::string [<a name="interfaces" class="lbl">interfaces</a>]::string<span class="meta">*</span> [<a name="sourceFile" class="lbl">sourceFile</a>]::string [<a name="sourceDebug" class="lbl">sourceDebug</a>]::string [<a name="outerClass" class="lbl">outerClass</a>]::string [<a name="outerMethod" class="lbl">outerMethod</a>]::string [<a name="outerMethodDescription" class="lbl">outerMethodDescription</a>]::string [<a name="innerClasses" class="lbl">innerClasses</a>]::<a href="#InnerClass" class="nt">InnerClass</a><span class="meta">*</span> [<a name="fields" class="lbl">fields</a>]::<a href="#Field" class="nt">Field</a><span class="meta">*</span> [<a name="methods" class="lbl">methods</a>]::<a href="#Method" class="nt">Method</a><span class="meta">*</span><span class="meta">)</span>
+	[<a name="class" class="lbl">class</a>]::<span class="meta">(</span>[<a name="version" class="lbl">version</a>]::integer [<a name="modifiers" class="lbl">modifiers</a>]::<a href="#ClassModifier" class="nt">ClassModifier</a><span class="meta">*</span> [<a name="name" class="lbl">name</a>]::string [<a name="signature" class="lbl">signature</a>]::string [<a name="superName" class="lbl">superName</a>]::string [<a name="interfaces" class="lbl">interfaces</a>]::string<span class="meta">*</span> [<a name="innerClasses" class="lbl">innerClasses</a>]::<a href="#InnerClass" class="nt">InnerClass</a><span class="meta">*</span> [<a name="fields" class="lbl">fields</a>]::<a href="#Field" class="nt">Field</a><span class="meta">*</span> [<a name="methods" class="lbl">methods</a>]::<a href="#Method" class="nt">Method</a><span class="meta">*</span><span class="meta">)</span></pre><pre><a name="AccessModifier" class="nt">AccessModifier</a> ::=
+	[<a name="public" class="lbl">public</a>]::ε
+	[<a name="private" class="lbl">private</a>]::ε
+	[<a name="protected" class="lbl">protected</a>]::ε</pre><pre><a name="ClassModifier" class="nt">ClassModifier</a> ::=
+	[<a name="access" class="lbl">access</a>]::[<a name="access" class="lbl">access</a>]::<a href="#AccessModifier" class="nt">AccessModifier</a>
+	[<a name="final" class="lbl">final</a>]::ε
+	[<a name="super" class="lbl">super</a>]::ε
+	[<a name="interface" class="lbl">interface</a>]::ε
+	[<a name="abstract" class="lbl">abstract</a>]::ε
+	[<a name="synthetic" class="lbl">synthetic</a>]::ε
+	[<a name="annotation" class="lbl">annotation</a>]::ε
+	[<a name="enum" class="lbl">enum</a>]::ε
+	[<a name="deprecated" class="lbl">deprecated</a>]::ε</pre><pre><a name="InnerClass" class="nt">InnerClass</a> ::=
+	[<a name="innerClass" class="lbl">innerClass</a>]::<span class="meta">(</span>[<a name="name" class="lbl">name</a>]::string [<a name="outerName" class="lbl">outerName</a>]::string [<a name="innerName" class="lbl">innerName</a>]::string [<a name="modifiers" class="lbl">modifiers</a>]::<a href="#ClassModifier" class="nt">ClassModifier</a><span class="meta">*</span><span class="meta">)</span>
+	[<a name="innerClass" class="lbl">innerClass</a>]::<span class="meta">(</span>[<a name="name" class="lbl">name</a>]::string [<a name="modifiers" class="lbl">modifiers</a>]::<a href="#ClassModifier" class="nt">ClassModifier</a><span class="meta">*</span><span class="meta">)</span></pre><pre><a name="Field" class="nt">Field</a> ::=
+	[<a name="field" class="lbl">field</a>]::<span class="meta">(</span>[<a name="modifiers" class="lbl">modifiers</a>]::<a href="#FieldModifier" class="nt">FieldModifier</a><span class="meta">*</span> [<a name="name" class="lbl">name</a>]::string [<a name="description" class="lbl">description</a>]::string [<a name="signature" class="lbl">signature</a>]::string [<a name="value" class="lbl">value</a>]::α<span class="meta">)</span>
+	[<a name="field" class="lbl">field</a>]::<span class="meta">(</span>[<a name="modifiers" class="lbl">modifiers</a>]::<a href="#FieldModifier" class="nt">FieldModifier</a><span class="meta">*</span> [<a name="name" class="lbl">name</a>]::string [<a name="description" class="lbl">description</a>]::string [<a name="signature" class="lbl">signature</a>]::string<span class="meta">)</span></pre><pre><a name="FieldModifier" class="nt">FieldModifier</a> ::=
+	[<a name="access" class="lbl">access</a>]::[<a name="access" class="lbl">access</a>]::<a href="#AccessModifier" class="nt">AccessModifier</a>
+	[<a name="static" class="lbl">static</a>]::ε
+	[<a name="final" class="lbl">final</a>]::ε
+	[<a name="volatile" class="lbl">volatile</a>]::ε
+	[<a name="transient" class="lbl">transient</a>]::ε
+	[<a name="synthetic" class="lbl">synthetic</a>]::ε
+	[<a name="enum" class="lbl">enum</a>]::ε</pre><pre><a name="Method" class="nt">Method</a> ::=
+	[<a name="method" class="lbl">method</a>]::<span class="meta">(</span>[<a name="modifiers" class="lbl">modifiers</a>]::<a href="#MethodModifier" class="nt">MethodModifier</a><span class="meta">*</span> [<a name="name" class="lbl">name</a>]::string [<a name="description" class="lbl">description</a>]::string [<a name="signature" class="lbl">signature</a>]::string [<a name="exceptions" class="lbl">exceptions</a>]::string<span class="meta">*</span> [<a name="instructions" class="lbl">instructions</a>]::<a href="#Instruction" class="nt">Instruction</a><span class="meta">*</span> [<a name="tryCatchBlocks" class="lbl">tryCatchBlocks</a>]::<a href="#TryCatchBlock" class="nt">TryCatchBlock</a><span class="meta">*</span> [<a name="localVariables" class="lbl">localVariables</a>]::<a href="#LocalVariable" class="nt">LocalVariable</a><span class="meta">*</span><span class="meta">)</span></pre><pre><a name="MethodModifier" class="nt">MethodModifier</a> ::=
+	[<a name="access" class="lbl">access</a>]::[<a name="access" class="lbl">access</a>]::<a href="#AccessModifier" class="nt">AccessModifier</a>
+	[<a name="static" class="lbl">static</a>]::ε
+	[<a name="final" class="lbl">final</a>]::ε
+	[<a name="synchronized" class="lbl">synchronized</a>]::ε
+	[<a name="bridge" class="lbl">bridge</a>]::ε
+	[<a name="varags" class="lbl">varags</a>]::ε
+	[<a name="native" class="lbl">native</a>]::ε
+	[<a name="abstract" class="lbl">abstract</a>]::ε
+	[<a name="strict" class="lbl">strict</a>]::ε
+	[<a name="synthetic" class="lbl">synthetic</a>]::ε</pre><pre><a name="Instruction" class="nt">Instruction</a> ::=
+	[<a name="getStatic" class="lbl">getStatic</a>]::<span class="meta">(</span>[<a name="owner" class="lbl">owner</a>]::string [<a name="name" class="lbl">name</a>]::string [<a name="description" class="lbl">description</a>]::string<span class="meta">)</span>
+	[<a name="putStatic" class="lbl">putStatic</a>]::<span class="meta">(</span>[<a name="owner" class="lbl">owner</a>]::string [<a name="name" class="lbl">name</a>]::string [<a name="description" class="lbl">description</a>]::string<span class="meta">)</span>
+	[<a name="getField" class="lbl">getField</a>]::<span class="meta">(</span>[<a name="owner" class="lbl">owner</a>]::string [<a name="name" class="lbl">name</a>]::string [<a name="description" class="lbl">description</a>]::string<span class="meta">)</span>
+	[<a name="putField" class="lbl">putField</a>]::<span class="meta">(</span>[<a name="owner" class="lbl">owner</a>]::string [<a name="name" class="lbl">name</a>]::string [<a name="description" class="lbl">description</a>]::string<span class="meta">)</span>
+	[<a name="increment" class="lbl">increment</a>]::<span class="meta">(</span>[<a name="index" class="lbl">index</a>]::integer [<a name="amount" class="lbl">amount</a>]::integer<span class="meta">)</span>
+	[<a name="nop" class="lbl">nop</a>]::ε
+	[<a name="aConstNull" class="lbl">aConstNull</a>]::ε
+	[<a name="iConstM1" class="lbl">iConstM1</a>]::ε
+	[<a name="iConst0" class="lbl">iConst0</a>]::ε
+	[<a name="iConst1" class="lbl">iConst1</a>]::ε
+	[<a name="iConst2" class="lbl">iConst2</a>]::ε
+	[<a name="iConst3" class="lbl">iConst3</a>]::ε
+	[<a name="iConst4" class="lbl">iConst4</a>]::ε
+	[<a name="iConst5" class="lbl">iConst5</a>]::ε
+	[<a name="lConst0" class="lbl">lConst0</a>]::ε
+	[<a name="lConst1" class="lbl">lConst1</a>]::ε
+	[<a name="fConst0" class="lbl">fConst0</a>]::ε
+	[<a name="fConst1" class="lbl">fConst1</a>]::ε
+	[<a name="fConst2" class="lbl">fConst2</a>]::ε
+	[<a name="dConst0" class="lbl">dConst0</a>]::ε
+	[<a name="dConst1" class="lbl">dConst1</a>]::ε
+	[<a name="iaLoad" class="lbl">iaLoad</a>]::ε
+	[<a name="laLoad" class="lbl">laLoad</a>]::ε
+	[<a name="faLoad" class="lbl">faLoad</a>]::ε
+	[<a name="daLoad" class="lbl">daLoad</a>]::ε
+	[<a name="aaLoad" class="lbl">aaLoad</a>]::ε
+	[<a name="baLoad" class="lbl">baLoad</a>]::ε
+	[<a name="caLoad" class="lbl">caLoad</a>]::ε
+	[<a name="saLoad" class="lbl">saLoad</a>]::ε
+	[<a name="iaStore" class="lbl">iaStore</a>]::ε
+	[<a name="laStore" class="lbl">laStore</a>]::ε
+	[<a name="faStore" class="lbl">faStore</a>]::ε
+	[<a name="daStore" class="lbl">daStore</a>]::ε
+	[<a name="aaStore" class="lbl">aaStore</a>]::ε
+	[<a name="baStore" class="lbl">baStore</a>]::ε
+	[<a name="caStore" class="lbl">caStore</a>]::ε
+	[<a name="saStore" class="lbl">saStore</a>]::ε
+	[<a name="pop" class="lbl">pop</a>]::ε
+	[<a name="pop2" class="lbl">pop2</a>]::ε
+	[<a name="dup" class="lbl">dup</a>]::ε
+	[<a name="dupX1" class="lbl">dupX1</a>]::ε
+	[<a name="dupX2" class="lbl">dupX2</a>]::ε
+	[<a name="dup2" class="lbl">dup2</a>]::ε
+	[<a name="dup2X1" class="lbl">dup2X1</a>]::ε
+	[<a name="dup2X2" class="lbl">dup2X2</a>]::ε
+	[<a name="swap" class="lbl">swap</a>]::ε
+	[<a name="iAdd" class="lbl">iAdd</a>]::ε
+	[<a name="lAdd" class="lbl">lAdd</a>]::ε
+	[<a name="fAdd" class="lbl">fAdd</a>]::ε
+	[<a name="dAdd" class="lbl">dAdd</a>]::ε
+	[<a name="iSub" class="lbl">iSub</a>]::ε
+	[<a name="lSub" class="lbl">lSub</a>]::ε
+	[<a name="fSub" class="lbl">fSub</a>]::ε
+	[<a name="dSub" class="lbl">dSub</a>]::ε
+	[<a name="iMul" class="lbl">iMul</a>]::ε
+	[<a name="lMul" class="lbl">lMul</a>]::ε
+	[<a name="fMul" class="lbl">fMul</a>]::ε
+	[<a name="dMul" class="lbl">dMul</a>]::ε
+	[<a name="iDiv" class="lbl">iDiv</a>]::ε
+	[<a name="lDiv" class="lbl">lDiv</a>]::ε
+	[<a name="fDiv" class="lbl">fDiv</a>]::ε
+	[<a name="dDiv" class="lbl">dDiv</a>]::ε
+	[<a name="iRem" class="lbl">iRem</a>]::ε
+	[<a name="lRem" class="lbl">lRem</a>]::ε
+	[<a name="fRem" class="lbl">fRem</a>]::ε
+	[<a name="dRem" class="lbl">dRem</a>]::ε
+	[<a name="iNeg" class="lbl">iNeg</a>]::ε
+	[<a name="lNeg" class="lbl">lNeg</a>]::ε
+	[<a name="fNeg" class="lbl">fNeg</a>]::ε
+	[<a name="dNeg" class="lbl">dNeg</a>]::ε
+	[<a name="iShl" class="lbl">iShl</a>]::ε
+	[<a name="lShl" class="lbl">lShl</a>]::ε
+	[<a name="iShr" class="lbl">iShr</a>]::ε
+	[<a name="lShr" class="lbl">lShr</a>]::ε
+	[<a name="iuShr" class="lbl">iuShr</a>]::ε
+	[<a name="luShr" class="lbl">luShr</a>]::ε
+	[<a name="iAnd" class="lbl">iAnd</a>]::ε
+	[<a name="lAnd" class="lbl">lAnd</a>]::ε
+	[<a name="iOr" class="lbl">iOr</a>]::ε
+	[<a name="lOr" class="lbl">lOr</a>]::ε
+	[<a name="iXor" class="lbl">iXor</a>]::ε
+	[<a name="lXor" class="lbl">lXor</a>]::ε
+	[<a name="i2l" class="lbl">i2l</a>]::ε
+	[<a name="i2f" class="lbl">i2f</a>]::ε
+	[<a name="i2d" class="lbl">i2d</a>]::ε
+	[<a name="l2i" class="lbl">l2i</a>]::ε
+	[<a name="l2f" class="lbl">l2f</a>]::ε
+	[<a name="l2d" class="lbl">l2d</a>]::ε
+	[<a name="f2i" class="lbl">f2i</a>]::ε
+	[<a name="f2l" class="lbl">f2l</a>]::ε
+	[<a name="f2d" class="lbl">f2d</a>]::ε
+	[<a name="d2i" class="lbl">d2i</a>]::ε
+	[<a name="d2l" class="lbl">d2l</a>]::ε
+	[<a name="d2f" class="lbl">d2f</a>]::ε
+	[<a name="i2b" class="lbl">i2b</a>]::ε
+	[<a name="i2c" class="lbl">i2c</a>]::ε
+	[<a name="i2s" class="lbl">i2s</a>]::ε
+	[<a name="lCmp" class="lbl">lCmp</a>]::ε
+	[<a name="fCmpL" class="lbl">fCmpL</a>]::ε
+	[<a name="fCmpG" class="lbl">fCmpG</a>]::ε
+	[<a name="dCmpL" class="lbl">dCmpL</a>]::ε
+	[<a name="dCmpH" class="lbl">dCmpH</a>]::ε
+	[<a name="iReturn" class="lbl">iReturn</a>]::ε
+	[<a name="lReturn" class="lbl">lReturn</a>]::ε
+	[<a name="fReturn" class="lbl">fReturn</a>]::ε
+	[<a name="dReturn" class="lbl">dReturn</a>]::ε
+	[<a name="aReturn" class="lbl">aReturn</a>]::ε
+	[<a name="return" class="lbl">return</a>]::ε
+	[<a name="arrayLength" class="lbl">arrayLength</a>]::ε
+	[<a name="aThrow" class="lbl">aThrow</a>]::ε
+	[<a name="monitorEnter" class="lbl">monitorEnter</a>]::ε
+	[<a name="monitorExit" class="lbl">monitorExit</a>]::ε
+	[<a name="biPush" class="lbl">biPush</a>]::[<a name="operand" class="lbl">operand</a>]::integer
+	[<a name="siPush" class="lbl">siPush</a>]::[<a name="operand" class="lbl">operand</a>]::integer
+	[<a name="newArray" class="lbl">newArray</a>]::[<a name="operand" class="lbl">operand</a>]::integer
+	[<a name="ifEq" class="lbl">ifEq</a>]::[<a name="label" class="lbl">label</a>]::integer
+	[<a name="ifNe" class="lbl">ifNe</a>]::[<a name="label" class="lbl">label</a>]::integer
+	[<a name="ifLt" class="lbl">ifLt</a>]::[<a name="label" class="lbl">label</a>]::integer
+	[<a name="ifGe" class="lbl">ifGe</a>]::[<a name="label" class="lbl">label</a>]::integer
+	[<a name="ifGt" class="lbl">ifGt</a>]::[<a name="label" class="lbl">label</a>]::integer
+	[<a name="ifLe" class="lbl">ifLe</a>]::[<a name="label" class="lbl">label</a>]::integer
+	[<a name="ifICmpEq" class="lbl">ifICmpEq</a>]::[<a name="label" class="lbl">label</a>]::integer
+	[<a name="ifICmpNe" class="lbl">ifICmpNe</a>]::[<a name="label" class="lbl">label</a>]::integer
+	[<a name="ifICmpLt" class="lbl">ifICmpLt</a>]::[<a name="label" class="lbl">label</a>]::integer
+	[<a name="ifICmpGe" class="lbl">ifICmpGe</a>]::[<a name="label" class="lbl">label</a>]::integer
+	[<a name="ifICmpGt" class="lbl">ifICmpGt</a>]::[<a name="label" class="lbl">label</a>]::integer
+	[<a name="ifICmpLe" class="lbl">ifICmpLe</a>]::[<a name="label" class="lbl">label</a>]::integer
+	[<a name="ifACmpEq" class="lbl">ifACmpEq</a>]::[<a name="label" class="lbl">label</a>]::integer
+	[<a name="ifACmpNe" class="lbl">ifACmpNe</a>]::[<a name="label" class="lbl">label</a>]::integer
+	[<a name="goto" class="lbl">goto</a>]::[<a name="label" class="lbl">label</a>]::integer
+	[<a name="jsr" class="lbl">jsr</a>]::[<a name="label" class="lbl">label</a>]::integer
+	[<a name="ifNull" class="lbl">ifNull</a>]::[<a name="label" class="lbl">label</a>]::integer
+	[<a name="ifNonNull" class="lbl">ifNonNull</a>]::[<a name="label" class="lbl">label</a>]::integer
+	[<a name="label" class="lbl">label</a>]::[<a name="index" class="lbl">index</a>]::integer
+	[<a name="lineNumber" class="lbl">lineNumber</a>]::<span class="meta">(</span>[<a name="line" class="lbl">line</a>]::integer [<a name="labelIndex" class="lbl">labelIndex</a>]::integer<span class="meta">)</span>
+	[<a name="localVariable" class="lbl">localVariable</a>]::<span class="meta">(</span>[<a name="opcode" class="lbl">opcode</a>]::integer [<a name="index" class="lbl">index</a>]::integer<span class="meta">)</span>
+	[<a name="iLoad" class="lbl">iLoad</a>]::[<a name="index" class="lbl">index</a>]::integer
+	[<a name="lLoad" class="lbl">lLoad</a>]::[<a name="index" class="lbl">index</a>]::integer
+	[<a name="fLoad" class="lbl">fLoad</a>]::[<a name="index" class="lbl">index</a>]::integer
+	[<a name="dLoad" class="lbl">dLoad</a>]::[<a name="index" class="lbl">index</a>]::integer
+	[<a name="aLoad" class="lbl">aLoad</a>]::[<a name="index" class="lbl">index</a>]::integer
+	[<a name="iStore" class="lbl">iStore</a>]::[<a name="index" class="lbl">index</a>]::integer
+	[<a name="lStore" class="lbl">lStore</a>]::[<a name="index" class="lbl">index</a>]::integer
+	[<a name="fStore" class="lbl">fStore</a>]::[<a name="index" class="lbl">index</a>]::integer
+	[<a name="dStore" class="lbl">dStore</a>]::[<a name="index" class="lbl">index</a>]::integer
+	[<a name="aStore" class="lbl">aStore</a>]::[<a name="index" class="lbl">index</a>]::integer
+	[<a name="ret" class="lbl">ret</a>]::[<a name="index" class="lbl">index</a>]::integer
+	[<a name="ldcString" class="lbl">ldcString</a>]::[<a name="string" class="lbl">string</a>]::string
+	[<a name="ldcInt" class="lbl">ldcInt</a>]::[<a name="int" class="lbl">int</a>]::integer
+	[<a name="ldcLong" class="lbl">ldcLong</a>]::[<a name="long" class="lbl">long</a>]::integer
+	[<a name="ldcFloat" class="lbl">ldcFloat</a>]::[<a name="float" class="lbl">float</a>]::integer
+	[<a name="ldcDouble" class="lbl">ldcDouble</a>]::[<a name="double" class="lbl">double</a>]::integer
+	[<a name="lookupSwitch" class="lbl">lookupSwitch</a>]::<span class="meta">(</span>[<a name="defaultLabel" class="lbl">defaultLabel</a>]::integer [<a name="keys" class="lbl">keys</a>]::integer<span class="meta">*</span> [<a name="cases" class="lbl">cases</a>]::integer<span class="meta">*</span><span class="meta">)</span>
+	[<a name="invokeVirtual" class="lbl">invokeVirtual</a>]::<span class="meta">(</span>[<a name="owner" class="lbl">owner</a>]::string [<a name="name" class="lbl">name</a>]::string [<a name="description" class="lbl">description</a>]::string<span class="meta">)</span>
+	[<a name="invokeSpecial" class="lbl">invokeSpecial</a>]::<span class="meta">(</span>[<a name="owner" class="lbl">owner</a>]::string [<a name="name" class="lbl">name</a>]::string [<a name="description" class="lbl">description</a>]::string<span class="meta">)</span>
+	[<a name="invokeStatic" class="lbl">invokeStatic</a>]::<span class="meta">(</span>[<a name="owner" class="lbl">owner</a>]::string [<a name="name" class="lbl">name</a>]::string [<a name="description" class="lbl">description</a>]::string<span class="meta">)</span>
+	[<a name="invokeInterface" class="lbl">invokeInterface</a>]::<span class="meta">(</span>[<a name="owner" class="lbl">owner</a>]::string [<a name="name" class="lbl">name</a>]::string [<a name="description" class="lbl">description</a>]::string<span class="meta">)</span>
+	[<a name="invokeDynamic" class="lbl">invokeDynamic</a>]::<span class="meta">(</span>[<a name="owner" class="lbl">owner</a>]::string [<a name="name" class="lbl">name</a>]::string [<a name="description" class="lbl">description</a>]::string<span class="meta">)</span>
+	[<a name="multiANewArray" class="lbl">multiANewArray</a>]::<span class="meta">(</span>[<a name="description" class="lbl">description</a>]::string [<a name="dimensions" class="lbl">dimensions</a>]::integer<span class="meta">)</span>
+	[<a name="tableSwitch" class="lbl">tableSwitch</a>]::<span class="meta">(</span>[<a name="min" class="lbl">min</a>]::integer [<a name="max" class="lbl">max</a>]::integer [<a name="defaultLabel" class="lbl">defaultLabel</a>]::integer [<a name="cases" class="lbl">cases</a>]::integer<span class="meta">*</span><span class="meta">)</span>
+	[<a name="new" class="lbl">new</a>]::[<a name="internalName" class="lbl">internalName</a>]::string
+	[<a name="aNewArray" class="lbl">aNewArray</a>]::[<a name="internalName" class="lbl">internalName</a>]::string
+	[<a name="checkCast" class="lbl">checkCast</a>]::[<a name="internalName" class="lbl">internalName</a>]::string
+	[<a name="instanceOf" class="lbl">instanceOf</a>]::[<a name="internalName" class="lbl">internalName</a>]::string</pre><pre><a name="TryCatchBlock" class="nt">TryCatchBlock</a> ::=
+	[<a name="tryCatchBlock" class="lbl">tryCatchBlock</a>]::<span class="meta">(</span>[<a name="startLabelIndex" class="lbl">startLabelIndex</a>]::integer [<a name="endLabelIndex" class="lbl">endLabelIndex</a>]::integer [<a name="handlerLabelIndex" class="lbl">handlerLabelIndex</a>]::integer [<a name="type" class="lbl">type</a>]::string<span class="meta">)</span>
+	[<a name="finallyBlock" class="lbl">finallyBlock</a>]::<span class="meta">(</span>[<a name="startLabelIndex" class="lbl">startLabelIndex</a>]::integer [<a name="endLabelIndex" class="lbl">endLabelIndex</a>]::integer [<a name="handlerLabelIndex" class="lbl">handlerLabelIndex</a>]::integer<span class="meta">)</span></pre><pre><a name="LocalVariable" class="nt">LocalVariable</a> ::=
+	[<a name="localVariable" class="lbl">localVariable</a>]::<span class="meta">(</span>[<a name="name" class="lbl">name</a>]::string [<a name="description" class="lbl">description</a>]::string [<a name="signature" class="lbl">signature</a>]::string [<a name="startLabelIndex" class="lbl">startLabelIndex</a>]::integer [<a name="endLabelIndex" class="lbl">endLabelIndex</a>]::integer [<a name="index" class="lbl">index</a>]::integer<span class="meta">)</span></pre><hr /><div class="b"><a href="http://grammarware.github.io/lab"><img src="../../../../by-grammarlab.png" alt="GrammarLab" title="Powered by GrammarLab"></img></a>Maintained by Dr. <a href="http://grammarware.net/">Vadim Zaytsev</a> a.k.a. @<a href="http://twitter.com/grammarware">grammarware</a>. Last updated in October 2014. <span class="links"> [<a href="#TOP">↑</a>]</span></div></body></html>

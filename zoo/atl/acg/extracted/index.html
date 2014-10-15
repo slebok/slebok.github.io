@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="content-type" content="text/html; charset=utf-8" /><title>Grammar Zoo - Browsable ATL Code Generator Grammar</title><link href="../../../slps.css" rel="stylesheet" type="text/css" /></head><body><h1 class="l"><a name="TOP"></a>Browsable ATL Code Generator Grammar</h1><a href="http://creativecommons.org/licenses/by/3.0/"><img src="../../../cc-by.png" alt="CC-BY" title="View the CC-BY license"></img></a><p>Grammar extracted by <strong><a href="http://grammarware.net/">Vadim Zaytsev</a></strong>, see the <a href="http://grammarzoo.github.io/">Grammar Zoo</a> entry for details: <a href="../../../index.html#atl_acg_extracted">atl/acg/extracted</a><br />Source used for this grammar: Frédéric Jouault, <code>ACG.ecore</code>,  2007/07/25<span class="links" /></p><h2 class="l">Summary</h2><ul class="nl"><li>Total <strong>132</strong> production rules with <strong>135</strong> top alternatives and <strong>543</strong> symbols.</li><li>Vocabulary: <strong>108</strong> = <strong>74</strong> nonterminals + <strong>2</strong> terminals + <strong>32</strong> labels + <strong>0</strong> markers.</li><li>Total <strong>74</strong> nonterminal symbols: <strong>74</strong> defined (<code><a href="#LocatedElement" class="nt">LocatedElement</a></code>, <code><a href="#ACG" class="nt">ACG</a></code>, <code><a href="#ACGElement" class="nt">ACGElement</a></code>, <code><a href="#Function" class="nt">Function</a></code>, <code><a href="#Attribute" class="nt">Attribute</a></code>, <code><a href="#Parameter" class="nt">Parameter</a></code>, <code><a href="#Node" class="nt">Node</a></code>, <code><a href="#ASMNode" class="nt">ASMNode</a></code>, <code><a href="#CodeNode" class="nt">CodeNode</a></code>, <code><a href="#SimpleNode" class="nt">SimpleNode</a></code>, <code><a href="#StatementBlock" class="nt">StatementBlock</a></code>, <code><a href="#Statement" class="nt">Statement</a></code>, <code><a href="#CompoundStat" class="nt">CompoundStat</a></code>, <code><a href="#ForEachStat" class="nt">ForEachStat</a></code>, <code><a href="#OnceStat" class="nt">OnceStat</a></code>, <code><a href="#VariableStat" class="nt">VariableStat</a></code>, <code><a href="#OperationStat" class="nt">OperationStat</a></code>, <code><a href="#ConditionalStat" class="nt">ConditionalStat</a></code>, <code><a href="#LetStat" class="nt">LetStat</a></code>, <code><a href="#AnalyzeStat" class="nt">AnalyzeStat</a></code>, <code><a href="#ReportStat" class="nt">ReportStat</a></code>, <code><a href="#Severity" class="nt">Severity</a></code>, <code><a href="#FieldStat" class="nt">FieldStat</a></code>, <code><a href="#ParamStat" class="nt">ParamStat</a></code>, <code><a href="#EmitStat" class="nt">EmitStat</a></code>, <code><a href="#LabelStat" class="nt">LabelStat</a></code>, <code><a href="#NewStat" class="nt">NewStat</a></code>, <code><a href="#DupStat" class="nt">DupStat</a></code>, <code><a href="#DupX1Stat" class="nt">DupX1Stat</a></code>, <code><a href="#PopStat" class="nt">PopStat</a></code>, <code><a href="#SwapStat" class="nt">SwapStat</a></code>, <code><a href="#IterateStat" class="nt">IterateStat</a></code>, <code><a href="#EndIterateStat" class="nt">EndIterateStat</a></code>, <code><a href="#GetAsmStat" class="nt">GetAsmStat</a></code>, <code><a href="#FindMEStat" class="nt">FindMEStat</a></code>, <code><a href="#PushTStat" class="nt">PushTStat</a></code>, <code><a href="#PushFStat" class="nt">PushFStat</a></code>, <code><a href="#EmitWithOperandStat" class="nt">EmitWithOperandStat</a></code>, <code><a href="#PushStat" class="nt">PushStat</a></code>, <code><a href="#PushIStat" class="nt">PushIStat</a></code>, <code><a href="#PushDStat" class="nt">PushDStat</a></code>, <code><a href="#LoadStat" class="nt">LoadStat</a></code>, <code><a href="#StoreStat" class="nt">StoreStat</a></code>, <code><a href="#CallStat" class="nt">CallStat</a></code>, <code><a href="#PCallStat" class="nt">PCallStat</a></code>, <code><a href="#SuperCallStat" class="nt">SuperCallStat</a></code>, <code><a href="#GetStat" class="nt">GetStat</a></code>, <code><a href="#SetStat" class="nt">SetStat</a></code>, <code><a href="#EmitWithLabelRefStat" class="nt">EmitWithLabelRefStat</a></code>, <code><a href="#IfStat" class="nt">IfStat</a></code>, <code><a href="#GotoStat" class="nt">GotoStat</a></code>, <code><a href="#VariableDecl" class="nt">VariableDecl</a></code>, <code><a href="#Expression" class="nt">Expression</a></code>, <code><a href="#VariableExp" class="nt">VariableExp</a></code>, <code><a href="#SelfExp" class="nt">SelfExp</a></code>, <code><a href="#LastExp" class="nt">LastExp</a></code>, <code><a href="#IfExp" class="nt">IfExp</a></code>, <code><a href="#IsAExp" class="nt">IsAExp</a></code>, <code><a href="#LetExp" class="nt">LetExp</a></code>, <code><a href="#PropertyCallExp" class="nt">PropertyCallExp</a></code>, <code><a href="#NavigationExp" class="nt">NavigationExp</a></code>, <code><a href="#IteratorExp" class="nt">IteratorExp</a></code>, <code><a href="#OperationCallExp" class="nt">OperationCallExp</a></code>, <code><a href="#OperatorCallExp" class="nt">OperatorCallExp</a></code>, <code><a href="#LiteralExp" class="nt">LiteralExp</a></code>, <code><a href="#OclUndefinedExp" class="nt">OclUndefinedExp</a></code>, <code><a href="#CollectionExp" class="nt">CollectionExp</a></code>, <code><a href="#SequenceExp" class="nt">SequenceExp</a></code>, <code><a href="#BooleanExp" class="nt">BooleanExp</a></code>, <code><a href="#IntegerExp" class="nt">IntegerExp</a></code>, <code><a href="#StringExp" class="nt">StringExp</a></code>, <code><a href="#Boolean" class="nt">Boolean</a></code>, <code><a href="#Integer" class="nt">Integer</a></code>, <code><a href="#String" class="nt">String</a></code>), <strong>0</strong> root (—), <strong>1</strong> top (<code><a href="#LocatedElement" class="nt">LocatedElement</a></code>), <strong>0</strong> bottom (—).</li><li>Total <strong>2</strong> terminal symbols: <strong>2</strong> keywords (<span class="t">"true"</span>, <span class="t">"false"</span>), <strong>0</strong> letters (—), <strong>0</strong> numerics (—), <strong>0</strong> signs (—).</li><li>Total <strong>32</strong> labels: <code>[<a href="#metamodel" class="lbl">metamodel</a>]</code>, <code>[<a href="#startsWith" class="lbl">startsWith</a>]</code>, <code>[<a href="#elements" class="lbl">elements</a>]</code><sup> 2</sup>, <code>[<a href="#context" class="lbl">context</a>]</code><sup> 3</sup>, <code>[<a href="#name" class="lbl">name</a>]</code><sup> 11</sup>, <code>[<a href="#parameters" class="lbl">parameters</a>]</code>, <code>[<a href="#body" class="lbl">body</a>]</code><sup> 3</sup>, <code>[<a href="#element" class="lbl">element</a>]</code><sup> 2</sup>, <code>[<a href="#mode" class="lbl">mode</a>]</code><sup> 3</sup>, <code>[<a href="#guard" class="lbl">guard</a>]</code><sup> 2</sup>, <code>[<a href="#iterator" class="lbl">iterator</a>]</code><sup> 2</sup>, <code>[<a href="#collection" class="lbl">collection</a>]</code>, <code>[<a href="#definition" class="lbl">definition</a>]</code>, <code>[<a href="#condition" class="lbl">condition</a>]</code><sup> 2</sup>, <code>[<a href="#elseStatements" class="lbl">elseStatements</a>]</code>, <code>[<a href="#variable" class="lbl">variable</a>]</code><sup> 3</sup>, <code>[<a href="#value" class="lbl">value</a>]</code><sup> 5</sup>, <code>[<a href="#target" class="lbl">target</a>]</code>, <code>[<a href="#severity" class="lbl">severity</a>]</code>, <code>[<a href="#message" class="lbl">message</a>]</code>, <code>[<a href="#critic" class="lbl">critic</a>]</code>, <code>[<a href="#error" class="lbl">error</a>]</code>, <code>[<a href="#warning" class="lbl">warning</a>]</code>, <code>[<a href="#type" class="lbl">type</a>]</code><sup> 3</sup>, <code>[<a href="#id" class="lbl">id</a>]</code>, <code>[<a href="#operand" class="lbl">operand</a>]</code><sup> 10</sup>, <code>[<a href="#label" class="lbl">label</a>]</code><sup> 2</sup>, <code>[<a href="#thenExp" class="lbl">thenExp</a>]</code>, <code>[<a href="#elseExp" class="lbl">elseExp</a>]</code>, <code>[<a href="#source" class="lbl">source</a>]</code><sup> 2</sup>, <code>[<a href="#in" class="lbl">in</a>]</code>, <code>[<a href="#arguments" class="lbl">arguments</a>]</code><sup> 2</sup>.</li></ul><h2 class="l">Syntax</h2><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#ACG" class="nt">ACG</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#ACGElement" class="nt">ACGElement</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#StatementBlock" class="nt">StatementBlock</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#Statement" class="nt">Statement</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#VariableDecl" class="nt">VariableDecl</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#Expression" class="nt">Expression</a></pre><pre><a name="ACG" class="nt">ACG</a> ::=
+	[<a name="metamodel" class="lbl">metamodel</a>]::<a href="#String" class="nt">String</a> [<a name="startsWith" class="lbl">startsWith</a>]::<a href="#String" class="nt">String</a> [<a name="elements" class="lbl">elements</a>]::<a href="#ACGElement" class="nt">ACGElement</a><span class="meta">+</span></pre><pre><a name="ACGElement" class="nt">ACGElement</a> ::=
+	<a href="#Function" class="nt">Function</a></pre><pre><a name="ACGElement" class="nt">ACGElement</a> ::=
+	<a href="#Attribute" class="nt">Attribute</a></pre><pre><a name="ACGElement" class="nt">ACGElement</a> ::=
+	<a href="#Node" class="nt">Node</a></pre><pre><a name="Function" class="nt">Function</a> ::=
+	[<a name="context" class="lbl">context</a>]::<a href="#String" class="nt">String</a> [<a name="name" class="lbl">name</a>]::<a href="#String" class="nt">String</a> [<a name="parameters" class="lbl">parameters</a>]::<a href="#Parameter" class="nt">Parameter</a><span class="meta">+</span> [<a name="body" class="lbl">body</a>]::<a href="#Expression" class="nt">Expression</a></pre><pre><a name="Attribute" class="nt">Attribute</a> ::=
+	[<a name="context" class="lbl">context</a>]::<a href="#String" class="nt">String</a> [<a name="name" class="lbl">name</a>]::<a href="#String" class="nt">String</a> [<a name="body" class="lbl">body</a>]::<a href="#Expression" class="nt">Expression</a></pre><pre><a name="Parameter" class="nt">Parameter</a> ::=
+	[<a name="name" class="lbl">name</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Node" class="nt">Node</a> ::=
+	<a href="#ASMNode" class="nt">ASMNode</a></pre><pre><a name="Node" class="nt">Node</a> ::=
+	<a href="#CodeNode" class="nt">CodeNode</a></pre><pre><a name="Node" class="nt">Node</a> ::=
+	<a href="#SimpleNode" class="nt">SimpleNode</a></pre><pre><a name="ASMNode" class="nt">ASMNode</a> ::=
+	[<a name="name" class="lbl">name</a>]::<a href="#Expression" class="nt">Expression</a></pre><pre><a name="CodeNode" class="nt">CodeNode</a> ::=
+	[<a name="element" class="lbl">element</a>]::<a href="#String" class="nt">String</a> [<a name="mode" class="lbl">mode</a>]::<a href="#String" class="nt">String</a> [<a name="guard" class="lbl">guard</a>]::<a href="#Expression" class="nt">Expression</a></pre><pre><a name="SimpleNode" class="nt">SimpleNode</a> ::=
+	[<a name="element" class="lbl">element</a>]::<a href="#String" class="nt">String</a> [<a name="mode" class="lbl">mode</a>]::<a href="#String" class="nt">String</a> [<a name="guard" class="lbl">guard</a>]::<a href="#Expression" class="nt">Expression</a></pre><pre><a name="StatementBlock" class="nt">StatementBlock</a> ::=
+	<a href="#Node" class="nt">Node</a></pre><pre><a name="StatementBlock" class="nt">StatementBlock</a> ::=
+	<a href="#CompoundStat" class="nt">CompoundStat</a></pre><pre><a name="Statement" class="nt">Statement</a> ::=
+	<a href="#ReportStat" class="nt">ReportStat</a></pre><pre><a name="Statement" class="nt">Statement</a> ::=
+	<a href="#FieldStat" class="nt">FieldStat</a></pre><pre><a name="Statement" class="nt">Statement</a> ::=
+	<a href="#ParamStat" class="nt">ParamStat</a></pre><pre><a name="Statement" class="nt">Statement</a> ::=
+	<a href="#EmitStat" class="nt">EmitStat</a></pre><pre><a name="Statement" class="nt">Statement</a> ::=
+	<a href="#CompoundStat" class="nt">CompoundStat</a></pre><pre><a name="CompoundStat" class="nt">CompoundStat</a> ::=
+	<a href="#ForEachStat" class="nt">ForEachStat</a></pre><pre><a name="CompoundStat" class="nt">CompoundStat</a> ::=
+	<a href="#OnceStat" class="nt">OnceStat</a></pre><pre><a name="CompoundStat" class="nt">CompoundStat</a> ::=
+	<a href="#VariableStat" class="nt">VariableStat</a></pre><pre><a name="CompoundStat" class="nt">CompoundStat</a> ::=
+	<a href="#OperationStat" class="nt">OperationStat</a></pre><pre><a name="CompoundStat" class="nt">CompoundStat</a> ::=
+	<a href="#ConditionalStat" class="nt">ConditionalStat</a></pre><pre><a name="CompoundStat" class="nt">CompoundStat</a> ::=
+	<a href="#LetStat" class="nt">LetStat</a></pre><pre><a name="CompoundStat" class="nt">CompoundStat</a> ::=
+	<a href="#AnalyzeStat" class="nt">AnalyzeStat</a></pre><pre><a name="ForEachStat" class="nt">ForEachStat</a> ::=
+	[<a name="iterator" class="lbl">iterator</a>]::<a href="#VariableDecl" class="nt">VariableDecl</a> [<a name="collection" class="lbl">collection</a>]::<a href="#Expression" class="nt">Expression</a></pre><pre><a name="OnceStat" class="nt">OnceStat</a> ::=
+	ε</pre><pre><a name="VariableStat" class="nt">VariableStat</a> ::=
+	[<a name="definition" class="lbl">definition</a>]::<a href="#Expression" class="nt">Expression</a> [<a name="name" class="lbl">name</a>]::<a href="#Expression" class="nt">Expression</a></pre><pre><a name="OperationStat" class="nt">OperationStat</a> ::=
+	[<a name="context" class="lbl">context</a>]::<a href="#Expression" class="nt">Expression</a> [<a name="name" class="lbl">name</a>]::<a href="#Expression" class="nt">Expression</a></pre><pre><a name="ConditionalStat" class="nt">ConditionalStat</a> ::=
+	[<a name="condition" class="lbl">condition</a>]::<a href="#Expression" class="nt">Expression</a> [<a name="elseStatements" class="lbl">elseStatements</a>]::<a href="#Statement" class="nt">Statement</a><span class="meta">+</span></pre><pre><a name="LetStat" class="nt">LetStat</a> ::=
+	[<a name="variable" class="lbl">variable</a>]::<a href="#VariableDecl" class="nt">VariableDecl</a> [<a name="value" class="lbl">value</a>]::<a href="#Expression" class="nt">Expression</a></pre><pre><a name="AnalyzeStat" class="nt">AnalyzeStat</a> ::=
+	[<a name="target" class="lbl">target</a>]::<a href="#Expression" class="nt">Expression</a> [<a name="mode" class="lbl">mode</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="ReportStat" class="nt">ReportStat</a> ::=
+	[<a name="severity" class="lbl">severity</a>]::<a href="#Severity" class="nt">Severity</a> [<a name="message" class="lbl">message</a>]::<a href="#Expression" class="nt">Expression</a></pre><pre><a name="Severity" class="nt">Severity</a> ::=
+	[<a name="critic" class="lbl">critic</a>]::ε
+	[<a name="error" class="lbl">error</a>]::ε
+	[<a name="warning" class="lbl">warning</a>]::ε</pre><pre><a name="FieldStat" class="nt">FieldStat</a> ::=
+	[<a name="name" class="lbl">name</a>]::<a href="#Expression" class="nt">Expression</a> [<a name="type" class="lbl">type</a>]::<a href="#Expression" class="nt">Expression</a></pre><pre><a name="ParamStat" class="nt">ParamStat</a> ::=
+	[<a name="name" class="lbl">name</a>]::<a href="#Expression" class="nt">Expression</a> [<a name="type" class="lbl">type</a>]::<a href="#Expression" class="nt">Expression</a></pre><pre><a name="EmitStat" class="nt">EmitStat</a> ::=
+	<a href="#LabelStat" class="nt">LabelStat</a></pre><pre><a name="EmitStat" class="nt">EmitStat</a> ::=
+	<a href="#NewStat" class="nt">NewStat</a></pre><pre><a name="EmitStat" class="nt">EmitStat</a> ::=
+	<a href="#DupStat" class="nt">DupStat</a></pre><pre><a name="EmitStat" class="nt">EmitStat</a> ::=
+	<a href="#DupX1Stat" class="nt">DupX1Stat</a></pre><pre><a name="EmitStat" class="nt">EmitStat</a> ::=
+	<a href="#PopStat" class="nt">PopStat</a></pre><pre><a name="EmitStat" class="nt">EmitStat</a> ::=
+	<a href="#SwapStat" class="nt">SwapStat</a></pre><pre><a name="EmitStat" class="nt">EmitStat</a> ::=
+	<a href="#IterateStat" class="nt">IterateStat</a></pre><pre><a name="EmitStat" class="nt">EmitStat</a> ::=
+	<a href="#EndIterateStat" class="nt">EndIterateStat</a></pre><pre><a name="EmitStat" class="nt">EmitStat</a> ::=
+	<a href="#GetAsmStat" class="nt">GetAsmStat</a></pre><pre><a name="EmitStat" class="nt">EmitStat</a> ::=
+	<a href="#FindMEStat" class="nt">FindMEStat</a></pre><pre><a name="EmitStat" class="nt">EmitStat</a> ::=
+	<a href="#PushTStat" class="nt">PushTStat</a></pre><pre><a name="EmitStat" class="nt">EmitStat</a> ::=
+	<a href="#PushFStat" class="nt">PushFStat</a></pre><pre><a name="EmitStat" class="nt">EmitStat</a> ::=
+	<a href="#EmitWithOperandStat" class="nt">EmitWithOperandStat</a></pre><pre><a name="EmitStat" class="nt">EmitStat</a> ::=
+	<a href="#EmitWithLabelRefStat" class="nt">EmitWithLabelRefStat</a></pre><pre><a name="LabelStat" class="nt">LabelStat</a> ::=
+	[<a name="name" class="lbl">name</a>]::<a href="#String" class="nt">String</a> [<a name="id" class="lbl">id</a>]::<a href="#Expression" class="nt">Expression</a></pre><pre><a name="NewStat" class="nt">NewStat</a> ::=
+	ε</pre><pre><a name="DupStat" class="nt">DupStat</a> ::=
+	ε</pre><pre><a name="DupX1Stat" class="nt">DupX1Stat</a> ::=
+	ε</pre><pre><a name="PopStat" class="nt">PopStat</a> ::=
+	ε</pre><pre><a name="SwapStat" class="nt">SwapStat</a> ::=
+	ε</pre><pre><a name="IterateStat" class="nt">IterateStat</a> ::=
+	ε</pre><pre><a name="EndIterateStat" class="nt">EndIterateStat</a> ::=
+	ε</pre><pre><a name="GetAsmStat" class="nt">GetAsmStat</a> ::=
+	ε</pre><pre><a name="FindMEStat" class="nt">FindMEStat</a> ::=
+	ε</pre><pre><a name="PushTStat" class="nt">PushTStat</a> ::=
+	ε</pre><pre><a name="PushFStat" class="nt">PushFStat</a> ::=
+	ε</pre><pre><a name="EmitWithOperandStat" class="nt">EmitWithOperandStat</a> ::=
+	<a href="#PushStat" class="nt">PushStat</a></pre><pre><a name="EmitWithOperandStat" class="nt">EmitWithOperandStat</a> ::=
+	<a href="#PushIStat" class="nt">PushIStat</a></pre><pre><a name="EmitWithOperandStat" class="nt">EmitWithOperandStat</a> ::=
+	<a href="#PushDStat" class="nt">PushDStat</a></pre><pre><a name="EmitWithOperandStat" class="nt">EmitWithOperandStat</a> ::=
+	<a href="#LoadStat" class="nt">LoadStat</a></pre><pre><a name="EmitWithOperandStat" class="nt">EmitWithOperandStat</a> ::=
+	<a href="#StoreStat" class="nt">StoreStat</a></pre><pre><a name="EmitWithOperandStat" class="nt">EmitWithOperandStat</a> ::=
+	<a href="#CallStat" class="nt">CallStat</a></pre><pre><a name="EmitWithOperandStat" class="nt">EmitWithOperandStat</a> ::=
+	<a href="#PCallStat" class="nt">PCallStat</a></pre><pre><a name="EmitWithOperandStat" class="nt">EmitWithOperandStat</a> ::=
+	<a href="#SuperCallStat" class="nt">SuperCallStat</a></pre><pre><a name="EmitWithOperandStat" class="nt">EmitWithOperandStat</a> ::=
+	<a href="#GetStat" class="nt">GetStat</a></pre><pre><a name="EmitWithOperandStat" class="nt">EmitWithOperandStat</a> ::=
+	<a href="#SetStat" class="nt">SetStat</a></pre><pre><a name="PushStat" class="nt">PushStat</a> ::=
+	[<a name="operand" class="lbl">operand</a>]::<a href="#Expression" class="nt">Expression</a></pre><pre><a name="PushIStat" class="nt">PushIStat</a> ::=
+	[<a name="operand" class="lbl">operand</a>]::<a href="#Expression" class="nt">Expression</a></pre><pre><a name="PushDStat" class="nt">PushDStat</a> ::=
+	[<a name="operand" class="lbl">operand</a>]::<a href="#Expression" class="nt">Expression</a></pre><pre><a name="LoadStat" class="nt">LoadStat</a> ::=
+	[<a name="operand" class="lbl">operand</a>]::<a href="#Expression" class="nt">Expression</a></pre><pre><a name="StoreStat" class="nt">StoreStat</a> ::=
+	[<a name="operand" class="lbl">operand</a>]::<a href="#Expression" class="nt">Expression</a></pre><pre><a name="CallStat" class="nt">CallStat</a> ::=
+	[<a name="operand" class="lbl">operand</a>]::<a href="#Expression" class="nt">Expression</a></pre><pre><a name="PCallStat" class="nt">PCallStat</a> ::=
+	[<a name="operand" class="lbl">operand</a>]::<a href="#Expression" class="nt">Expression</a></pre><pre><a name="SuperCallStat" class="nt">SuperCallStat</a> ::=
+	[<a name="operand" class="lbl">operand</a>]::<a href="#Expression" class="nt">Expression</a></pre><pre><a name="GetStat" class="nt">GetStat</a> ::=
+	[<a name="operand" class="lbl">operand</a>]::<a href="#Expression" class="nt">Expression</a></pre><pre><a name="SetStat" class="nt">SetStat</a> ::=
+	[<a name="operand" class="lbl">operand</a>]::<a href="#Expression" class="nt">Expression</a></pre><pre><a name="EmitWithLabelRefStat" class="nt">EmitWithLabelRefStat</a> ::=
+	<a href="#IfStat" class="nt">IfStat</a></pre><pre><a name="EmitWithLabelRefStat" class="nt">EmitWithLabelRefStat</a> ::=
+	<a href="#GotoStat" class="nt">GotoStat</a></pre><pre><a name="IfStat" class="nt">IfStat</a> ::=
+	[<a name="label" class="lbl">label</a>]::<a href="#LabelStat" class="nt">LabelStat</a></pre><pre><a name="GotoStat" class="nt">GotoStat</a> ::=
+	[<a name="label" class="lbl">label</a>]::<a href="#LabelStat" class="nt">LabelStat</a></pre><pre><a name="VariableDecl" class="nt">VariableDecl</a> ::=
+	<a href="#Parameter" class="nt">Parameter</a></pre><pre><a name="VariableDecl" class="nt">VariableDecl</a> ::=
+	[<a name="name" class="lbl">name</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Expression" class="nt">Expression</a> ::=
+	<a href="#VariableExp" class="nt">VariableExp</a></pre><pre><a name="Expression" class="nt">Expression</a> ::=
+	<a href="#SelfExp" class="nt">SelfExp</a></pre><pre><a name="Expression" class="nt">Expression</a> ::=
+	<a href="#LastExp" class="nt">LastExp</a></pre><pre><a name="Expression" class="nt">Expression</a> ::=
+	<a href="#IfExp" class="nt">IfExp</a></pre><pre><a name="Expression" class="nt">Expression</a> ::=
+	<a href="#IsAExp" class="nt">IsAExp</a></pre><pre><a name="Expression" class="nt">Expression</a> ::=
+	<a href="#LetExp" class="nt">LetExp</a></pre><pre><a name="Expression" class="nt">Expression</a> ::=
+	<a href="#PropertyCallExp" class="nt">PropertyCallExp</a></pre><pre><a name="Expression" class="nt">Expression</a> ::=
+	<a href="#LiteralExp" class="nt">LiteralExp</a></pre><pre><a name="VariableExp" class="nt">VariableExp</a> ::=
+	[<a name="variable" class="lbl">variable</a>]::<a href="#VariableDecl" class="nt">VariableDecl</a></pre><pre><a name="SelfExp" class="nt">SelfExp</a> ::=
+	ε</pre><pre><a name="LastExp" class="nt">LastExp</a> ::=
+	ε</pre><pre><a name="IfExp" class="nt">IfExp</a> ::=
+	[<a name="condition" class="lbl">condition</a>]::<a href="#Expression" class="nt">Expression</a> [<a name="thenExp" class="lbl">thenExp</a>]::<a href="#Expression" class="nt">Expression</a> [<a name="elseExp" class="lbl">elseExp</a>]::<a href="#Expression" class="nt">Expression</a></pre><pre><a name="IsAExp" class="nt">IsAExp</a> ::=
+	[<a name="source" class="lbl">source</a>]::<a href="#Expression" class="nt">Expression</a> [<a name="type" class="lbl">type</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="LetExp" class="nt">LetExp</a> ::=
+	[<a name="variable" class="lbl">variable</a>]::<a href="#VariableDecl" class="nt">VariableDecl</a> [<a name="value" class="lbl">value</a>]::<a href="#Expression" class="nt">Expression</a> [<a name="in" class="lbl">in</a>]::<a href="#Expression" class="nt">Expression</a></pre><pre><a name="PropertyCallExp" class="nt">PropertyCallExp</a> ::=
+	<a href="#NavigationExp" class="nt">NavigationExp</a></pre><pre><a name="PropertyCallExp" class="nt">PropertyCallExp</a> ::=
+	<a href="#IteratorExp" class="nt">IteratorExp</a></pre><pre><a name="PropertyCallExp" class="nt">PropertyCallExp</a> ::=
+	<a href="#OperationCallExp" class="nt">OperationCallExp</a></pre><pre><a name="NavigationExp" class="nt">NavigationExp</a> ::=
+	[<a name="source" class="lbl">source</a>]::<a href="#Expression" class="nt">Expression</a> [<a name="name" class="lbl">name</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="IteratorExp" class="nt">IteratorExp</a> ::=
+	[<a name="iterator" class="lbl">iterator</a>]::<a href="#VariableDecl" class="nt">VariableDecl</a> [<a name="body" class="lbl">body</a>]::<a href="#Expression" class="nt">Expression</a></pre><pre><a name="OperationCallExp" class="nt">OperationCallExp</a> ::=
+	<a href="#OperatorCallExp" class="nt">OperatorCallExp</a></pre><pre><a name="OperationCallExp" class="nt">OperationCallExp</a> ::=
+	[<a name="arguments" class="lbl">arguments</a>]::<a href="#Expression" class="nt">Expression</a><span class="meta">+</span></pre><pre><a name="OperatorCallExp" class="nt">OperatorCallExp</a> ::=
+	[<a name="arguments" class="lbl">arguments</a>]::<a href="#Expression" class="nt">Expression</a><span class="meta">+</span></pre><pre><a name="LiteralExp" class="nt">LiteralExp</a> ::=
+	<a href="#OclUndefinedExp" class="nt">OclUndefinedExp</a></pre><pre><a name="LiteralExp" class="nt">LiteralExp</a> ::=
+	<a href="#CollectionExp" class="nt">CollectionExp</a></pre><pre><a name="LiteralExp" class="nt">LiteralExp</a> ::=
+	<a href="#BooleanExp" class="nt">BooleanExp</a></pre><pre><a name="LiteralExp" class="nt">LiteralExp</a> ::=
+	<a href="#IntegerExp" class="nt">IntegerExp</a></pre><pre><a name="LiteralExp" class="nt">LiteralExp</a> ::=
+	<a href="#StringExp" class="nt">StringExp</a></pre><pre><a name="OclUndefinedExp" class="nt">OclUndefinedExp</a> ::=
+	ε</pre><pre><a name="CollectionExp" class="nt">CollectionExp</a> ::=
+	<a href="#SequenceExp" class="nt">SequenceExp</a></pre><pre><a name="SequenceExp" class="nt">SequenceExp</a> ::=
+	[<a name="elements" class="lbl">elements</a>]::<a href="#Expression" class="nt">Expression</a><span class="meta">+</span></pre><pre><a name="BooleanExp" class="nt">BooleanExp</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#Boolean" class="nt">Boolean</a></pre><pre><a name="IntegerExp" class="nt">IntegerExp</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#Integer" class="nt">Integer</a></pre><pre><a name="StringExp" class="nt">StringExp</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Boolean" class="nt">Boolean</a> ::=
+	<span class="t">"true"</span>
+	<span class="t">"false"</span></pre><pre><a name="Integer" class="nt">Integer</a> ::=
+	integer</pre><pre><a name="String" class="nt">String</a> ::=
+	string</pre><hr /><div class="b"><a href="http://grammarware.github.io/lab"><img src="../../../by-grammarlab.png" alt="GrammarLab" title="Powered by GrammarLab"></img></a>Maintained by Dr. <a href="http://grammarware.net/">Vadim Zaytsev</a> a.k.a. @<a href="http://twitter.com/grammarware">grammarware</a>. Last updated in October 2014. <span class="links"> [<a href="#TOP">↑</a>]</span></div></body></html>

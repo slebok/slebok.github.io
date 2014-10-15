@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="content-type" content="text/html; charset=utf-8" /><title>Grammar Zoo - Browsable SBVR Grammar</title><link href="../../../../../../slps.css" rel="stylesheet" type="text/css" /></head><body><h1 class="l"><a name="TOP"></a>Browsable SBVR Grammar</h1><a href="http://creativecommons.org/licenses/by/3.0/"><img src="../../../../../../cc-by.png" alt="CC-BY" title="View the CC-BY license"></img></a><p>Grammar extracted by <strong><a href="http://grammarware.net/">Vadim Zaytsev</a></strong>, see the <a href="http://grammarzoo.github.io/">Grammar Zoo</a> entry for details: <a href="../../../../../../index.html#dsl_business_sbvr_v1.0_doux_extracted">dsl/business/sbvr/v1.0/doux/extracted</a><br />Source used for this grammar: Guillaume Doux, <code>SBVRvoc.ecore</code>,  2009<span class="links" /></p><h2 class="l">Summary</h2><ul class="nl"><li>Total <strong>108</strong> production rules with <strong>169</strong> top alternatives and <strong>597</strong> symbols.</li><li>Vocabulary: <strong>184</strong> = <strong>63</strong> nonterminals + <strong>2</strong> terminals + <strong>119</strong> labels + <strong>0</strong> markers.</li><li>Total <strong>63</strong> nonterminal symbols: <strong>63</strong> defined (<code><a href="#LocatedElement" class="nt">LocatedElement</a></code>, <code><a href="#Root" class="nt">Root</a></code>, <code><a href="#VocabularyEntry" class="nt">VocabularyEntry</a></code>, <code><a href="#Caption" class="nt">Caption</a></code>, <code><a href="#DefCaption" class="nt">DefCaption</a></code>, <code><a href="#DescCaption" class="nt">DescCaption</a></code>, <code><a href="#SrcCaption" class="nt">SrcCaption</a></code>, <code><a href="#DBCaption" class="nt">DBCaption</a></code>, <code><a href="#GenCCaption" class="nt">GenCCaption</a></code>, <code><a href="#CTypCaption" class="nt">CTypCaption</a></code>, <code><a href="#Necessity" class="nt">Necessity</a></code>, <code><a href="#Possibility" class="nt">Possibility</a></code>, <code><a href="#RefSCaption" class="nt">RefSCaption</a></code>, <code><a href="#NoteCaption" class="nt">NoteCaption</a></code>, <code><a href="#ExCaption" class="nt">ExCaption</a></code>, <code><a href="#SynCaption" class="nt">SynCaption</a></code>, <code><a href="#SynFCaption" class="nt">SynFCaption</a></code>, <code><a href="#SeeCaption" class="nt">SeeCaption</a></code>, <code><a href="#SFCaption" class="nt">SFCaption</a></code>, <code><a href="#NSURICaption" class="nt">NSURICaption</a></code>, <code><a href="#PrimaryRepresentation" class="nt">PrimaryRepresentation</a></code>, <code><a href="#NotFactTypeRepresentation" class="nt">NotFactTypeRepresentation</a></code>, <code><a href="#TermRepresentation" class="nt">TermRepresentation</a></code>, <code><a href="#NameRepresentation" class="nt">NameRepresentation</a></code>, <code><a href="#FactTypeFormRepresentation" class="nt">FactTypeFormRepresentation</a></code>, <code><a href="#ConceptDefinition" class="nt">ConceptDefinition</a></code>, <code><a href="#ConceptSource" class="nt">ConceptSource</a></code>, <code><a href="#Note" class="nt">Note</a></code>, <code><a href="#Sentence" class="nt">Sentence</a></code>, <code><a href="#NameSpaceURI" class="nt">NameSpaceURI</a></code>, <code><a href="#Word" class="nt">Word</a></code>, <code><a href="#StringWord" class="nt">StringWord</a></code>, <code><a href="#QuotedStringWord" class="nt">QuotedStringWord</a></code>, <code><a href="#NameWord" class="nt">NameWord</a></code>, <code><a href="#Verb" class="nt">Verb</a></code>, <code><a href="#ConjonctionnalKeyWord" class="nt">ConjonctionnalKeyWord</a></code>, <code><a href="#ModalVerb" class="nt">ModalVerb</a></code>, <code><a href="#Join" class="nt">Join</a></code>, <code><a href="#Link" class="nt">Link</a></code>, <code><a href="#Qualif" class="nt">Qualif</a></code>, <code><a href="#EndOperator" class="nt">EndOperator</a></code>, <code><a href="#SBVRExpression" class="nt">SBVRExpression</a></code>, <code><a href="#SBVRPropWithKW" class="nt">SBVRPropWithKW</a></code>, <code><a href="#ModalForm" class="nt">ModalForm</a></code>, <code><a href="#SimpleSBVRProp" class="nt">SimpleSBVRProp</a></code>, <code><a href="#SubSBVRProp" class="nt">SubSBVRProp</a></code>, <code><a href="#LinkSBVRConcept" class="nt">LinkSBVRConcept</a></code>, <code><a href="#ConjConcept" class="nt">ConjConcept</a></code>, <code><a href="#Concept" class="nt">Concept</a></code>, <code><a href="#NameConcept" class="nt">NameConcept</a></code>, <code><a href="#ObjectConcept" class="nt">ObjectConcept</a></code>, <code><a href="#StringConcept" class="nt">StringConcept</a></code>, <code><a href="#NounConcept" class="nt">NounConcept</a></code>, <code><a href="#Qualification" class="nt">Qualification</a></code>, <code><a href="#GeneralConcept" class="nt">GeneralConcept</a></code>, <code><a href="#NameGConcept" class="nt">NameGConcept</a></code>, <code><a href="#NounGConcept" class="nt">NounGConcept</a></code>, <code><a href="#Qualifier" class="nt">Qualifier</a></code>, <code><a href="#ModalBegin" class="nt">ModalBegin</a></code>, <code><a href="#ModalBeginC" class="nt">ModalBeginC</a></code>, <code><a href="#Boolean" class="nt">Boolean</a></code>, <code><a href="#Integer" class="nt">Integer</a></code>, <code><a href="#String" class="nt">String</a></code>), <strong>0</strong> root (—), <strong>2</strong> top (<code><a href="#LocatedElement" class="nt">LocatedElement</a></code>, <code><a href="#Integer" class="nt">Integer</a></code>), <strong>0</strong> bottom (—).</li><li>Total <strong>2</strong> terminal symbols: <strong>2</strong> keywords (<span class="t">"true"</span>, <span class="t">"false"</span>), <strong>0</strong> letters (—), <strong>0</strong> numerics (—), <strong>0</strong> signs (—).</li><li>Total <strong>119</strong> labels: <code>[<a href="#entries" class="lbl">entries</a>]</code>, <code>[<a href="#primaryRep" class="lbl">primaryRep</a>]</code>, <code>[<a href="#caption" class="lbl">caption</a>]</code>, <code>[<a href="#definition" class="lbl">definition</a>]</code>, <code>[<a href="#description" class="lbl">description</a>]</code>, <code>[<a href="#source" class="lbl">source</a>]</code><sup> 2</sup>, <code>[<a href="#dictionaryBasis" class="lbl">dictionaryBasis</a>]</code>, <code>[<a href="#generalConcept" class="lbl">generalConcept</a>]</code><sup> 2</sup>, <code>[<a href="#conceptType" class="lbl">conceptType</a>]</code>, <code>[<a href="#exp" class="lbl">exp</a>]</code><sup> 3</sup>, <code>[<a href="#referenceScheme" class="lbl">referenceScheme</a>]</code>, <code>[<a href="#note" class="lbl">note</a>]</code>, <code>[<a href="#example" class="lbl">example</a>]</code>, <code>[<a href="#synonym" class="lbl">synonym</a>]</code>, <code>[<a href="#synonymousForm" class="lbl">synonymousForm</a>]</code>, <code>[<a href="#see" class="lbl">see</a>]</code>, <code>[<a href="#subjectField" class="lbl">subjectField</a>]</code>, <code>[<a href="#namespaceURI" class="lbl">namespaceURI</a>]</code>, <code>[<a href="#term" class="lbl">term</a>]</code>, <code>[<a href="#hasThe" class="lbl">hasThe</a>]</code>, <code>[<a href="#name" class="lbl">name</a>]</code><sup> 3</sup>, <code>[<a href="#primaryRep1" class="lbl">primaryRep1</a>]</code>, <code>[<a href="#verbExp" class="lbl">verbExp</a>]</code>, <code>[<a href="#primaryRep2" class="lbl">primaryRep2</a>]</code>, <code>[<a href="#conjexp" class="lbl">conjexp</a>]</code>, <code>[<a href="#sentences" class="lbl">sentences</a>]</code>, <code>[<a href="#words" class="lbl">words</a>]</code>, <code>[<a href="#URI" class="lbl">URI</a>]</code>, <code>[<a href="#val" class="lbl">val</a>]</code><sup> 3</sup>, <code>[<a href="#is" class="lbl">is</a>]</code>, <code>[<a href="#relevant" class="lbl">relevant</a>]</code>, <code>[<a href="#comprises" class="lbl">comprises</a>]</code>, <code>[<a href="#to" class="lbl">to</a>]</code>, <code>[<a href="#work" class="lbl">work</a>]</code>, <code>[<a href="#in" class="lbl">in</a>]</code>, <code>[<a href="#trades" class="lbl">trades</a>]</code>, <code>[<a href="#as" class="lbl">as</a>]</code>, <code>[<a href="#are" class="lbl">are</a>]</code>, <code>[<a href="#accepted" class="lbl">accepted</a>]</code>, <code>[<a href="#generally" class="lbl">generally</a>]</code>, <code>[<a href="#important" class="lbl">important</a>]</code>, <code>[<a href="#across" class="lbl">across</a>]</code>, <code>[<a href="#share" class="lbl">share</a>]</code>, <code>[<a href="#sets" class="lbl">sets</a>]</code>, <code>[<a href="#assigned" class="lbl">assigned</a>]</code>, <code>[<a href="#by" class="lbl">by</a>]</code>, <code>[<a href="#contains" class="lbl">contains</a>]</code>, <code>[<a href="#for" class="lbl">for</a>]</code>, <code>[<a href="#has" class="lbl">has</a>]</code>, <code>[<a href="#specifies" class="lbl">specifies</a>]</code>, <code>[<a href="#specified" class="lbl">specified</a>]</code>, <code>[<a href="#and" class="lbl">and</a>]</code>, <code>[<a href="#or" class="lbl">or</a>]</code>, <code>[<a href="#if" class="lbl">if</a>]</code>, <code>[<a href="#whether" class="lbl">whether</a>]</code>, <code>[<a href="#must" class="lbl">must</a>]</code>, <code>[<a href="#may" class="lbl">may</a>]</code>, <code>[<a href="#never" class="lbl">never</a>]</code>, <code>[<a href="#always" class="lbl">always</a>]</code>, <code>[<a href="#that" class="lbl">that</a>]</code>, <code>[<a href="#who" class="lbl">who</a>]</code>, <code>[<a href="#of" class="lbl">of</a>]</code><sup> 2</sup>, <code>[<a href="#quoteS" class="lbl">quoteS</a>]</code>, <code>[<a href="#the" class="lbl">the</a>]</code><sup> 2</sup>, <code>[<a href="#The" class="lbl">The</a>]</code>, <code>[<a href="#a" class="lbl">a</a>]</code>, <code>[<a href="#A" class="lbl">A</a>]</code>, <code>[<a href="#an" class="lbl">an</a>]</code>, <code>[<a href="#An" class="lbl">An</a>]</code>, <code>[<a href="#Each" class="lbl">Each</a>]</code>, <code>[<a href="#each" class="lbl">each</a>]</code>, <code>[<a href="#Some" class="lbl">Some</a>]</code>, <code>[<a href="#some" class="lbl">some</a>]</code>, <code>[<a href="#At" class="lbl">At</a>]</code>, <code>[<a href="#at" class="lbl">at</a>]</code>, <code>[<a href="#Exactly" class="lbl">Exactly</a>]</code>, <code>[<a href="#exactly" class="lbl">exactly</a>]</code>, <code>[<a href="#given" class="lbl">given</a>]</code>, <code>[<a href="#thanone" class="lbl">thanone</a>]</code>, <code>[<a href="#one" class="lbl">one</a>]</code>, <code>[<a href="#isobligatorythat" class="lbl">isobligatorythat</a>]</code>, <code>[<a href="#ispermittedthat" class="lbl">ispermittedthat</a>]</code>, <code>[<a href="#isprohibitedthat" class="lbl">isprohibitedthat</a>]</code>, <code>[<a href="#isnecessarythat" class="lbl">isnecessarythat</a>]</code>, <code>[<a href="#ispossiblethat" class="lbl">ispossiblethat</a>]</code>, <code>[<a href="#isimpossiblethat" class="lbl">isimpossiblethat</a>]</code>, <code>[<a href="#isnotthecasethat" class="lbl">isnotthecasethat</a>]</code>, <code>[<a href="#least" class="lbl">least</a>]</code>, <code>[<a href="#leastone" class="lbl">leastone</a>]</code>, <code>[<a href="#most" class="lbl">most</a>]</code>, <code>[<a href="#mostone" class="lbl">mostone</a>]</code>, <code>[<a href="#leastnandatmostm" class="lbl">leastnandatmostm</a>]</code>, <code>[<a href="#andonlyif" class="lbl">andonlyif</a>]</code>, <code>[<a href="#ornot" class="lbl">ornot</a>]</code>, <code>[<a href="#not" class="lbl">not</a>]</code>, <code>[<a href="#hasPoint" class="lbl">hasPoint</a>]</code>, <code>[<a href="#firstProposition" class="lbl">firstProposition</a>]</code>, <code>[<a href="#nextProposition" class="lbl">nextProposition</a>]</code>, <code>[<a href="#conjonction" class="lbl">conjonction</a>]</code><sup> 2</sup>, <code>[<a href="#endConj" class="lbl">endConj</a>]</code>, <code>[<a href="#proposition" class="lbl">proposition</a>]</code>, <code>[<a href="#modal" class="lbl">modal</a>]</code><sup> 2</sup>, <code>[<a href="#isNeg" class="lbl">isNeg</a>]</code>, <code>[<a href="#concept1" class="lbl">concept1</a>]</code>, <code>[<a href="#modalVerb" class="lbl">modalVerb</a>]</code><sup> 2</sup>, <code>[<a href="#verbs" class="lbl">verbs</a>]</code><sup> 2</sup>, <code>[<a href="#concept2" class="lbl">concept2</a>]</code><sup> 2</sup>, <code>[<a href="#join" class="lbl">join</a>]</code>, <code>[<a href="#link" class="lbl">link</a>]</code>, <code>[<a href="#concept" class="lbl">concept</a>]</code><sup> 2</sup>, <code>[<a href="#operatoredConcept" class="lbl">operatoredConcept</a>]</code>, <code>[<a href="#qualify" class="lbl">qualify</a>]</code>, <code>[<a href="#stringWord" class="lbl">stringWord</a>]</code>, <code>[<a href="#qualif" class="lbl">qualif</a>]</code>, <code>[<a href="#noun" class="lbl">noun</a>]</code><sup> 2</sup>, <code>[<a href="#op" class="lbl">op</a>]</code>, <code>[<a href="#endOperator" class="lbl">endOperator</a>]</code><sup> 3</sup>, <code>[<a href="#min" class="lbl">min</a>]</code>, <code>[<a href="#max" class="lbl">max</a>]</code>.</li></ul><h2 class="l">Syntax</h2><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#Root" class="nt">Root</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#VocabularyEntry" class="nt">VocabularyEntry</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#Caption" class="nt">Caption</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#PrimaryRepresentation" class="nt">PrimaryRepresentation</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#ConceptDefinition" class="nt">ConceptDefinition</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#ConceptSource" class="nt">ConceptSource</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#Note" class="nt">Note</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#Sentence" class="nt">Sentence</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#NameSpaceURI" class="nt">NameSpaceURI</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#Word" class="nt">Word</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#SBVRExpression" class="nt">SBVRExpression</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#SBVRPropWithKW" class="nt">SBVRPropWithKW</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#ModalForm" class="nt">ModalForm</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#SimpleSBVRProp" class="nt">SimpleSBVRProp</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#SubSBVRProp" class="nt">SubSBVRProp</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#LinkSBVRConcept" class="nt">LinkSBVRConcept</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#ConjConcept" class="nt">ConjConcept</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#Concept" class="nt">Concept</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#NounConcept" class="nt">NounConcept</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#Qualification" class="nt">Qualification</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#GeneralConcept" class="nt">GeneralConcept</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#Qualifier" class="nt">Qualifier</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#ModalBegin" class="nt">ModalBegin</a></pre><pre><a name="Root" class="nt">Root</a> ::=
+	[<a name="entries" class="lbl">entries</a>]::<a href="#VocabularyEntry" class="nt">VocabularyEntry</a><span class="meta">+</span></pre><pre><a name="VocabularyEntry" class="nt">VocabularyEntry</a> ::=
+	[<a name="primaryRep" class="lbl">primaryRep</a>]::<a href="#PrimaryRepresentation" class="nt">PrimaryRepresentation</a> [<a name="caption" class="lbl">caption</a>]::<a href="#Caption" class="nt">Caption</a><span class="meta">+</span></pre><pre><a name="Caption" class="nt">Caption</a> ::=
+	<a href="#DefCaption" class="nt">DefCaption</a></pre><pre><a name="Caption" class="nt">Caption</a> ::=
+	<a href="#DescCaption" class="nt">DescCaption</a></pre><pre><a name="Caption" class="nt">Caption</a> ::=
+	<a href="#SrcCaption" class="nt">SrcCaption</a></pre><pre><a name="Caption" class="nt">Caption</a> ::=
+	<a href="#DBCaption" class="nt">DBCaption</a></pre><pre><a name="Caption" class="nt">Caption</a> ::=
+	<a href="#GenCCaption" class="nt">GenCCaption</a></pre><pre><a name="Caption" class="nt">Caption</a> ::=
+	<a href="#CTypCaption" class="nt">CTypCaption</a></pre><pre><a name="Caption" class="nt">Caption</a> ::=
+	<a href="#Necessity" class="nt">Necessity</a></pre><pre><a name="Caption" class="nt">Caption</a> ::=
+	<a href="#Possibility" class="nt">Possibility</a></pre><pre><a name="Caption" class="nt">Caption</a> ::=
+	<a href="#RefSCaption" class="nt">RefSCaption</a></pre><pre><a name="Caption" class="nt">Caption</a> ::=
+	<a href="#NoteCaption" class="nt">NoteCaption</a></pre><pre><a name="Caption" class="nt">Caption</a> ::=
+	<a href="#ExCaption" class="nt">ExCaption</a></pre><pre><a name="Caption" class="nt">Caption</a> ::=
+	<a href="#SynCaption" class="nt">SynCaption</a></pre><pre><a name="Caption" class="nt">Caption</a> ::=
+	<a href="#SynFCaption" class="nt">SynFCaption</a></pre><pre><a name="Caption" class="nt">Caption</a> ::=
+	<a href="#SeeCaption" class="nt">SeeCaption</a></pre><pre><a name="Caption" class="nt">Caption</a> ::=
+	<a href="#SFCaption" class="nt">SFCaption</a></pre><pre><a name="Caption" class="nt">Caption</a> ::=
+	<a href="#NSURICaption" class="nt">NSURICaption</a></pre><pre><a name="DefCaption" class="nt">DefCaption</a> ::=
+	[<a name="definition" class="lbl">definition</a>]::<a href="#ConceptDefinition" class="nt">ConceptDefinition</a></pre><pre><a name="DescCaption" class="nt">DescCaption</a> ::=
+	[<a name="description" class="lbl">description</a>]::<a href="#Note" class="nt">Note</a></pre><pre><a name="SrcCaption" class="nt">SrcCaption</a> ::=
+	[<a name="source" class="lbl">source</a>]::<a href="#ConceptSource" class="nt">ConceptSource</a></pre><pre><a name="DBCaption" class="nt">DBCaption</a> ::=
+	[<a name="dictionaryBasis" class="lbl">dictionaryBasis</a>]::<a href="#ConceptSource" class="nt">ConceptSource</a></pre><pre><a name="GenCCaption" class="nt">GenCCaption</a> ::=
+	[<a name="generalConcept" class="lbl">generalConcept</a>]::<a href="#PrimaryRepresentation" class="nt">PrimaryRepresentation</a></pre><pre><a name="CTypCaption" class="nt">CTypCaption</a> ::=
+	[<a name="conceptType" class="lbl">conceptType</a>]::<a href="#PrimaryRepresentation" class="nt">PrimaryRepresentation</a><span class="meta">+</span></pre><pre><a name="Necessity" class="nt">Necessity</a> ::=
+	[<a name="exp" class="lbl">exp</a>]::<a href="#SBVRExpression" class="nt">SBVRExpression</a></pre><pre><a name="Possibility" class="nt">Possibility</a> ::=
+	[<a name="exp" class="lbl">exp</a>]::<a href="#SBVRExpression" class="nt">SBVRExpression</a></pre><pre><a name="RefSCaption" class="nt">RefSCaption</a> ::=
+	[<a name="referenceScheme" class="lbl">referenceScheme</a>]::<a href="#PrimaryRepresentation" class="nt">PrimaryRepresentation</a></pre><pre><a name="NoteCaption" class="nt">NoteCaption</a> ::=
+	[<a name="note" class="lbl">note</a>]::<a href="#Note" class="nt">Note</a></pre><pre><a name="ExCaption" class="nt">ExCaption</a> ::=
+	[<a name="example" class="lbl">example</a>]::<a href="#SBVRExpression" class="nt">SBVRExpression</a><span class="meta">+</span></pre><pre><a name="SynCaption" class="nt">SynCaption</a> ::=
+	[<a name="synonym" class="lbl">synonym</a>]::<a href="#PrimaryRepresentation" class="nt">PrimaryRepresentation</a><span class="meta">+</span></pre><pre><a name="SynFCaption" class="nt">SynFCaption</a> ::=
+	[<a name="synonymousForm" class="lbl">synonymousForm</a>]::<a href="#SBVRExpression" class="nt">SBVRExpression</a><span class="meta">+</span></pre><pre><a name="SeeCaption" class="nt">SeeCaption</a> ::=
+	[<a name="see" class="lbl">see</a>]::<a href="#PrimaryRepresentation" class="nt">PrimaryRepresentation</a></pre><pre><a name="SFCaption" class="nt">SFCaption</a> ::=
+	[<a name="subjectField" class="lbl">subjectField</a>]::<a href="#PrimaryRepresentation" class="nt">PrimaryRepresentation</a></pre><pre><a name="NSURICaption" class="nt">NSURICaption</a> ::=
+	[<a name="namespaceURI" class="lbl">namespaceURI</a>]::<a href="#NameSpaceURI" class="nt">NameSpaceURI</a></pre><pre><a name="PrimaryRepresentation" class="nt">PrimaryRepresentation</a> ::=
+	<a href="#NotFactTypeRepresentation" class="nt">NotFactTypeRepresentation</a></pre><pre><a name="PrimaryRepresentation" class="nt">PrimaryRepresentation</a> ::=
+	<a href="#FactTypeFormRepresentation" class="nt">FactTypeFormRepresentation</a></pre><pre><a name="NotFactTypeRepresentation" class="nt">NotFactTypeRepresentation</a> ::=
+	<a href="#TermRepresentation" class="nt">TermRepresentation</a></pre><pre><a name="NotFactTypeRepresentation" class="nt">NotFactTypeRepresentation</a> ::=
+	<a href="#NameRepresentation" class="nt">NameRepresentation</a></pre><pre><a name="TermRepresentation" class="nt">TermRepresentation</a> ::=
+	[<a name="term" class="lbl">term</a>]::<a href="#StringWord" class="nt">StringWord</a><span class="meta">+</span></pre><pre><a name="NameRepresentation" class="nt">NameRepresentation</a> ::=
+	[<a name="hasThe" class="lbl">hasThe</a>]::<a href="#Boolean" class="nt">Boolean</a> [<a name="name" class="lbl">name</a>]::<a href="#NameWord" class="nt">NameWord</a><span class="meta">+</span></pre><pre><a name="FactTypeFormRepresentation" class="nt">FactTypeFormRepresentation</a> ::=
+	[<a name="primaryRep1" class="lbl">primaryRep1</a>]::<a href="#NotFactTypeRepresentation" class="nt">NotFactTypeRepresentation</a> [<a name="verbExp" class="lbl">verbExp</a>]::<a href="#Verb" class="nt">Verb</a><span class="meta">+</span> [<a name="primaryRep2" class="lbl">primaryRep2</a>]::<a href="#NotFactTypeRepresentation" class="nt">NotFactTypeRepresentation</a></pre><pre><a name="ConceptDefinition" class="nt">ConceptDefinition</a> ::=
+	[<a name="exp" class="lbl">exp</a>]::<a href="#Concept" class="nt">Concept</a> [<a name="conjexp" class="lbl">conjexp</a>]::<a href="#ConjConcept" class="nt">ConjConcept</a><span class="meta">+</span></pre><pre><a name="ConceptSource" class="nt">ConceptSource</a> ::=
+	[<a name="source" class="lbl">source</a>]::<a href="#Word" class="nt">Word</a><span class="meta">+</span></pre><pre><a name="Note" class="nt">Note</a> ::=
+	[<a name="sentences" class="lbl">sentences</a>]::<a href="#Sentence" class="nt">Sentence</a><span class="meta">+</span></pre><pre><a name="Sentence" class="nt">Sentence</a> ::=
+	[<a name="words" class="lbl">words</a>]::<a href="#Word" class="nt">Word</a><span class="meta">+</span></pre><pre><a name="NameSpaceURI" class="nt">NameSpaceURI</a> ::=
+	[<a name="URI" class="lbl">URI</a>]::<a href="#Word" class="nt">Word</a><span class="meta">+</span></pre><pre><a name="Word" class="nt">Word</a> ::=
+	<a href="#StringWord" class="nt">StringWord</a></pre><pre><a name="Word" class="nt">Word</a> ::=
+	<a href="#QuotedStringWord" class="nt">QuotedStringWord</a></pre><pre><a name="Word" class="nt">Word</a> ::=
+	<a href="#NameWord" class="nt">NameWord</a></pre><pre><a name="StringWord" class="nt">StringWord</a> ::=
+	[<a name="val" class="lbl">val</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="QuotedStringWord" class="nt">QuotedStringWord</a> ::=
+	[<a name="val" class="lbl">val</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="NameWord" class="nt">NameWord</a> ::=
+	[<a name="val" class="lbl">val</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Verb" class="nt">Verb</a> ::=
+	[<a name="is" class="lbl">is</a>]::ε
+	[<a name="relevant" class="lbl">relevant</a>]::ε
+	[<a name="comprises" class="lbl">comprises</a>]::ε
+	[<a name="to" class="lbl">to</a>]::ε
+	[<a name="work" class="lbl">work</a>]::ε
+	[<a name="in" class="lbl">in</a>]::ε
+	[<a name="trades" class="lbl">trades</a>]::ε
+	[<a name="as" class="lbl">as</a>]::ε
+	[<a name="are" class="lbl">are</a>]::ε
+	[<a name="accepted" class="lbl">accepted</a>]::ε
+	[<a name="generally" class="lbl">generally</a>]::ε
+	[<a name="important" class="lbl">important</a>]::ε
+	[<a name="across" class="lbl">across</a>]::ε
+	[<a name="share" class="lbl">share</a>]::ε
+	[<a name="sets" class="lbl">sets</a>]::ε
+	[<a name="assigned" class="lbl">assigned</a>]::ε
+	[<a name="by" class="lbl">by</a>]::ε
+	[<a name="contains" class="lbl">contains</a>]::ε
+	[<a name="for" class="lbl">for</a>]::ε
+	[<a name="has" class="lbl">has</a>]::ε
+	[<a name="specifies" class="lbl">specifies</a>]::ε
+	[<a name="specified" class="lbl">specified</a>]::ε</pre><pre><a name="ConjonctionnalKeyWord" class="nt">ConjonctionnalKeyWord</a> ::=
+	[<a name="and" class="lbl">and</a>]::ε
+	[<a name="or" class="lbl">or</a>]::ε
+	[<a name="if" class="lbl">if</a>]::ε
+	[<a name="whether" class="lbl">whether</a>]::ε</pre><pre><a name="ModalVerb" class="nt">ModalVerb</a> ::=
+	[<a name="must" class="lbl">must</a>]::ε
+	[<a name="may" class="lbl">may</a>]::ε
+	[<a name="never" class="lbl">never</a>]::ε
+	[<a name="always" class="lbl">always</a>]::ε</pre><pre><a name="Join" class="nt">Join</a> ::=
+	[<a name="that" class="lbl">that</a>]::ε
+	[<a name="who" class="lbl">who</a>]::ε</pre><pre><a name="Link" class="nt">Link</a> ::=
+	[<a name="of" class="lbl">of</a>]::ε
+	[<a name="quoteS" class="lbl">quoteS</a>]::ε</pre><pre><a name="Qualif" class="nt">Qualif</a> ::=
+	[<a name="the" class="lbl">the</a>]::ε
+	[<a name="The" class="lbl">The</a>]::ε
+	[<a name="a" class="lbl">a</a>]::ε
+	[<a name="A" class="lbl">A</a>]::ε
+	[<a name="an" class="lbl">an</a>]::ε
+	[<a name="An" class="lbl">An</a>]::ε
+	[<a name="Each" class="lbl">Each</a>]::ε
+	[<a name="each" class="lbl">each</a>]::ε
+	[<a name="Some" class="lbl">Some</a>]::ε
+	[<a name="some" class="lbl">some</a>]::ε
+	[<a name="At" class="lbl">At</a>]::ε
+	[<a name="at" class="lbl">at</a>]::ε
+	[<a name="Exactly" class="lbl">Exactly</a>]::ε
+	[<a name="exactly" class="lbl">exactly</a>]::ε</pre><pre><a name="EndOperator" class="nt">EndOperator</a> ::=
+	[<a name="given" class="lbl">given</a>]::ε
+	[<a name="thanone" class="lbl">thanone</a>]::ε
+	[<a name="one" class="lbl">one</a>]::ε
+	[<a name="isobligatorythat" class="lbl">isobligatorythat</a>]::ε
+	[<a name="ispermittedthat" class="lbl">ispermittedthat</a>]::ε
+	[<a name="isprohibitedthat" class="lbl">isprohibitedthat</a>]::ε
+	[<a name="isnecessarythat" class="lbl">isnecessarythat</a>]::ε
+	[<a name="ispossiblethat" class="lbl">ispossiblethat</a>]::ε
+	[<a name="isimpossiblethat" class="lbl">isimpossiblethat</a>]::ε
+	[<a name="isnotthecasethat" class="lbl">isnotthecasethat</a>]::ε
+	[<a name="least" class="lbl">least</a>]::ε
+	[<a name="leastone" class="lbl">leastone</a>]::ε
+	[<a name="most" class="lbl">most</a>]::ε
+	[<a name="mostone" class="lbl">mostone</a>]::ε
+	[<a name="leastnandatmostm" class="lbl">leastnandatmostm</a>]::ε
+	[<a name="andonlyif" class="lbl">andonlyif</a>]::ε
+	[<a name="ornot" class="lbl">ornot</a>]::ε
+	[<a name="not" class="lbl">not</a>]::ε
+	[<a name="of" class="lbl">of</a>]::ε</pre><pre><a name="SBVRExpression" class="nt">SBVRExpression</a> ::=
+	[<a name="hasPoint" class="lbl">hasPoint</a>]::<a href="#Boolean" class="nt">Boolean</a> [<a name="firstProposition" class="lbl">firstProposition</a>]::<a href="#SimpleSBVRProp" class="nt">SimpleSBVRProp</a> [<a name="nextProposition" class="lbl">nextProposition</a>]::<a href="#SBVRPropWithKW" class="nt">SBVRPropWithKW</a><span class="meta">+</span></pre><pre><a name="SBVRPropWithKW" class="nt">SBVRPropWithKW</a> ::=
+	[<a name="conjonction" class="lbl">conjonction</a>]::<a href="#ConjonctionnalKeyWord" class="nt">ConjonctionnalKeyWord</a> [<a name="endConj" class="lbl">endConj</a>]::<a href="#EndOperator" class="nt">EndOperator</a> [<a name="proposition" class="lbl">proposition</a>]::<a href="#SimpleSBVRProp" class="nt">SimpleSBVRProp</a></pre><pre><a name="ModalForm" class="nt">ModalForm</a> ::=
+	[<a name="modal" class="lbl">modal</a>]::<a href="#ModalVerb" class="nt">ModalVerb</a> [<a name="isNeg" class="lbl">isNeg</a>]::<a href="#Boolean" class="nt">Boolean</a></pre><pre><a name="SimpleSBVRProp" class="nt">SimpleSBVRProp</a> ::=
+	[<a name="modal" class="lbl">modal</a>]::<a href="#ModalBegin" class="nt">ModalBegin</a> [<a name="concept1" class="lbl">concept1</a>]::<a href="#Concept" class="nt">Concept</a> [<a name="modalVerb" class="lbl">modalVerb</a>]::<a href="#ModalForm" class="nt">ModalForm</a> [<a name="verbs" class="lbl">verbs</a>]::<a href="#Verb" class="nt">Verb</a><span class="meta">+</span> [<a name="concept2" class="lbl">concept2</a>]::<a href="#Concept" class="nt">Concept</a></pre><pre><a name="SubSBVRProp" class="nt">SubSBVRProp</a> ::=
+	[<a name="join" class="lbl">join</a>]::<a href="#Join" class="nt">Join</a> [<a name="modalVerb" class="lbl">modalVerb</a>]::<a href="#ModalVerb" class="nt">ModalVerb</a> [<a name="verbs" class="lbl">verbs</a>]::<a href="#Verb" class="nt">Verb</a><span class="meta">+</span> [<a name="concept2" class="lbl">concept2</a>]::<a href="#Concept" class="nt">Concept</a></pre><pre><a name="LinkSBVRConcept" class="nt">LinkSBVRConcept</a> ::=
+	[<a name="link" class="lbl">link</a>]::<a href="#Link" class="nt">Link</a> [<a name="concept" class="lbl">concept</a>]::<a href="#Concept" class="nt">Concept</a></pre><pre><a name="ConjConcept" class="nt">ConjConcept</a> ::=
+	[<a name="conjonction" class="lbl">conjonction</a>]::<a href="#ConjonctionnalKeyWord" class="nt">ConjonctionnalKeyWord</a> [<a name="concept" class="lbl">concept</a>]::<a href="#Concept" class="nt">Concept</a></pre><pre><a name="Concept" class="nt">Concept</a> ::=
+	<a href="#NameConcept" class="nt">NameConcept</a></pre><pre><a name="Concept" class="nt">Concept</a> ::=
+	<a href="#ObjectConcept" class="nt">ObjectConcept</a></pre><pre><a name="Concept" class="nt">Concept</a> ::=
+	<a href="#StringConcept" class="nt">StringConcept</a></pre><pre><a name="NameConcept" class="nt">NameConcept</a> ::=
+	[<a name="the" class="lbl">the</a>]::<a href="#Qualif" class="nt">Qualif</a> [<a name="name" class="lbl">name</a>]::<a href="#NameWord" class="nt">NameWord</a><span class="meta">+</span></pre><pre><a name="ObjectConcept" class="nt">ObjectConcept</a> ::=
+	[<a name="operatoredConcept" class="lbl">operatoredConcept</a>]::<a href="#NounConcept" class="nt">NounConcept</a> [<a name="qualify" class="lbl">qualify</a>]::<a href="#Qualification" class="nt">Qualification</a></pre><pre><a name="StringConcept" class="nt">StringConcept</a> ::=
+	[<a name="stringWord" class="lbl">stringWord</a>]::<a href="#QuotedStringWord" class="nt">QuotedStringWord</a><span class="meta">+</span></pre><pre><a name="NounConcept" class="nt">NounConcept</a> ::=
+	[<a name="qualif" class="lbl">qualif</a>]::<a href="#Qualifier" class="nt">Qualifier</a> [<a name="noun" class="lbl">noun</a>]::<a href="#StringWord" class="nt">StringWord</a><span class="meta">+</span></pre><pre><a name="Qualification" class="nt">Qualification</a> ::=
+	[<a name="generalConcept" class="lbl">generalConcept</a>]::<a href="#GeneralConcept" class="nt">GeneralConcept</a><span class="meta">+</span></pre><pre><a name="GeneralConcept" class="nt">GeneralConcept</a> ::=
+	<a href="#NameGConcept" class="nt">NameGConcept</a></pre><pre><a name="GeneralConcept" class="nt">GeneralConcept</a> ::=
+	<a href="#NounGConcept" class="nt">NounGConcept</a></pre><pre><a name="NameGConcept" class="nt">NameGConcept</a> ::=
+	[<a name="name" class="lbl">name</a>]::<a href="#NameConcept" class="nt">NameConcept</a></pre><pre><a name="NounGConcept" class="nt">NounGConcept</a> ::=
+	[<a name="noun" class="lbl">noun</a>]::<a href="#StringWord" class="nt">StringWord</a><span class="meta">+</span></pre><pre><a name="Qualifier" class="nt">Qualifier</a> ::=
+	[<a name="op" class="lbl">op</a>]::<a href="#Qualif" class="nt">Qualif</a> [<a name="endOperator" class="lbl">endOperator</a>]::<a href="#EndOperator" class="nt">EndOperator</a> [<a name="min" class="lbl">min</a>]::<a href="#StringWord" class="nt">StringWord</a> [<a name="max" class="lbl">max</a>]::<a href="#StringWord" class="nt">StringWord</a></pre><pre><a name="ModalBegin" class="nt">ModalBegin</a> ::=
+	<a href="#ModalBeginC" class="nt">ModalBeginC</a></pre><pre><a name="ModalBegin" class="nt">ModalBegin</a> ::=
+	[<a name="endOperator" class="lbl">endOperator</a>]::<a href="#EndOperator" class="nt">EndOperator</a></pre><pre><a name="ModalBeginC" class="nt">ModalBeginC</a> ::=
+	[<a name="endOperator" class="lbl">endOperator</a>]::<a href="#EndOperator" class="nt">EndOperator</a></pre><pre><a name="Boolean" class="nt">Boolean</a> ::=
+	<span class="t">"true"</span>
+	<span class="t">"false"</span></pre><pre><a name="Integer" class="nt">Integer</a> ::=
+	integer</pre><pre><a name="String" class="nt">String</a> ::=
+	string</pre><hr /><div class="b"><a href="http://grammarware.github.io/lab"><img src="../../../../../../by-grammarlab.png" alt="GrammarLab" title="Powered by GrammarLab"></img></a>Maintained by Dr. <a href="http://grammarware.net/">Vadim Zaytsev</a> a.k.a. @<a href="http://twitter.com/grammarware">grammarware</a>. Last updated in October 2014. <span class="links"> [<a href="#TOP">↑</a>]</span></div></body></html>

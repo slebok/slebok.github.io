@@ -1,0 +1,235 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="content-type" content="text/html; charset=utf-8" /><title>Grammar Zoo - Browsable SPL Grammar</title><link href="../../../slps.css" rel="stylesheet" type="text/css" /></head><body><h1 class="l"><a name="TOP"></a>Browsable SPL Grammar</h1><a href="http://creativecommons.org/licenses/by/3.0/"><img src="../../../cc-by.png" alt="CC-BY" title="View the CC-BY license"></img></a><p>Grammar extracted by <strong><a href="http://grammarware.net/">Vadim Zaytsev</a></strong>, see the <a href="http://grammarzoo.github.io/">Grammar Zoo</a> entry for details: <a href="../../../index.html#dsl_spl_extracted">dsl/spl/extracted</a><br />Source used for this grammar: David Touzet, <code>SPL.ecore</code>,  2006/01/18<span class="links" /></p><h2 class="l">Summary</h2><ul class="nl"><li>Total <strong>154</strong> production rules with <strong>233</strong> top alternatives and <strong>823</strong> symbols.</li><li>Vocabulary: <strong>231</strong> = <strong>92</strong> nonterminals + <strong>2</strong> terminals + <strong>137</strong> labels + <strong>0</strong> markers.</li><li>Total <strong>92</strong> nonterminal symbols: <strong>92</strong> defined (<code><a href="#String" class="nt">String</a></code>, <code><a href="#Integer" class="nt">Integer</a></code>, <code><a href="#Boolean" class="nt">Boolean</a></code>, <code><a href="#LocatedElement" class="nt">LocatedElement</a></code>, <code><a href="#Program" class="nt">Program</a></code>, <code><a href="#Service" class="nt">Service</a></code>, <code><a href="#Session" class="nt">Session</a></code>, <code><a href="#Registration" class="nt">Registration</a></code>, <code><a href="#Dialog" class="nt">Dialog</a></code>, <code><a href="#Event" class="nt">Event</a></code>, <code><a href="#Method" class="nt">Method</a></code>, <code><a href="#Argument" class="nt">Argument</a></code>, <code><a href="#MethodName" class="nt">MethodName</a></code>, <code><a href="#SIPMethodName" class="nt">SIPMethodName</a></code>, <code><a href="#ControlMethodName" class="nt">ControlMethodName</a></code>, <code><a href="#Branch" class="nt">Branch</a></code>, <code><a href="#DefaultBranch" class="nt">DefaultBranch</a></code>, <code><a href="#NamedBranch" class="nt">NamedBranch</a></code>, <code><a href="#TypeExpression" class="nt">TypeExpression</a></code>, <code><a href="#SimpleType" class="nt">SimpleType</a></code>, <code><a href="#SequenceType" class="nt">SequenceType</a></code>, <code><a href="#DefinedType" class="nt">DefinedType</a></code>, <code><a href="#Declaration" class="nt">Declaration</a></code>, <code><a href="#VariableDeclaration" class="nt">VariableDeclaration</a></code>, <code><a href="#FunctionDeclaration" class="nt">FunctionDeclaration</a></code>, <code><a href="#RemoteFunctionDeclaration" class="nt">RemoteFunctionDeclaration</a></code>, <code><a href="#LocalFunctionDeclaration" class="nt">LocalFunctionDeclaration</a></code>, <code><a href="#StructureDeclaration" class="nt">StructureDeclaration</a></code>, <code><a href="#StructureProperty" class="nt">StructureProperty</a></code>, <code><a href="#FunctionCall" class="nt">FunctionCall</a></code>, <code><a href="#Statement" class="nt">Statement</a></code>, <code><a href="#CompoundStat" class="nt">CompoundStat</a></code>, <code><a href="#SetStat" class="nt">SetStat</a></code>, <code><a href="#DeclarationStat" class="nt">DeclarationStat</a></code>, <code><a href="#ReturnStat" class="nt">ReturnStat</a></code>, <code><a href="#IfStat" class="nt">IfStat</a></code>, <code><a href="#WhenStat" class="nt">WhenStat</a></code>, <code><a href="#ForeachStat" class="nt">ForeachStat</a></code>, <code><a href="#SelectStat" class="nt">SelectStat</a></code>, <code><a href="#FunctionCallStat" class="nt">FunctionCallStat</a></code>, <code><a href="#ContinueStat" class="nt">ContinueStat</a></code>, <code><a href="#BreakStat" class="nt">BreakStat</a></code>, <code><a href="#PushStat" class="nt">PushStat</a></code>, <code><a href="#WhenHeader" class="nt">WhenHeader</a></code>, <code><a href="#SelectMember" class="nt">SelectMember</a></code>, <code><a href="#SelectDefault" class="nt">SelectDefault</a></code>, <code><a href="#SelectCase" class="nt">SelectCase</a></code>, <code><a href="#Expression" class="nt">Expression</a></code>, <code><a href="#ConstantExp" class="nt">ConstantExp</a></code>, <code><a href="#OperatorExp" class="nt">OperatorExp</a></code>, <code><a href="#ForwardExp" class="nt">ForwardExp</a></code>, <code><a href="#WithExp" class="nt">WithExp</a></code>, <code><a href="#BlockExp" class="nt">BlockExp</a></code>, <code><a href="#ReasonExp" class="nt">ReasonExp</a></code>, <code><a href="#BODYExp" class="nt">BODYExp</a></code>, <code><a href="#RequestURIExp" class="nt">RequestURIExp</a></code>, <code><a href="#PopExp" class="nt">PopExp</a></code>, <code><a href="#FunctionCallExp" class="nt">FunctionCallExp</a></code>, <code><a href="#Place" class="nt">Place</a></code>, <code><a href="#SIPHeaderPlace" class="nt">SIPHeaderPlace</a></code>, <code><a href="#VariablePlace" class="nt">VariablePlace</a></code>, <code><a href="#PropertyCallPlace" class="nt">PropertyCallPlace</a></code>, <code><a href="#Variable" class="nt">Variable</a></code>, <code><a href="#MessageField" class="nt">MessageField</a></code>, <code><a href="#ReasonMessageField" class="nt">ReasonMessageField</a></code>, <code><a href="#HeadedMessageField" class="nt">HeadedMessageField</a></code>, <code><a href="#Constant" class="nt">Constant</a></code>, <code><a href="#BooleanConstant" class="nt">BooleanConstant</a></code>, <code><a href="#IntegerConstant" class="nt">IntegerConstant</a></code>, <code><a href="#StringConstant" class="nt">StringConstant</a></code>, <code><a href="#URIConstant" class="nt">URIConstant</a></code>, <code><a href="#SequenceConstant" class="nt">SequenceConstant</a></code>, <code><a href="#ResponseConstant" class="nt">ResponseConstant</a></code>, <code><a href="#Response" class="nt">Response</a></code>, <code><a href="#SuccessResponse" class="nt">SuccessResponse</a></code>, <code><a href="#ErrorResponse" class="nt">ErrorResponse</a></code>, <code><a href="#ClientErrorResponse" class="nt">ClientErrorResponse</a></code>, <code><a href="#GlobalErrorResponse" class="nt">GlobalErrorResponse</a></code>, <code><a href="#RedirectionErrorResponse" class="nt">RedirectionErrorResponse</a></code>, <code><a href="#ServerErrorResponse" class="nt">ServerErrorResponse</a></code>, <code><a href="#Direction" class="nt">Direction</a></code>, <code><a href="#SIPMethod" class="nt">SIPMethod</a></code>, <code><a href="#ControlMethod" class="nt">ControlMethod</a></code>, <code><a href="#PrimitiveType" class="nt">PrimitiveType</a></code>, <code><a href="#Modifier" class="nt">Modifier</a></code>, <code><a href="#FunctionLocation" class="nt">FunctionLocation</a></code>, <code><a href="#SIPHeader" class="nt">SIPHeader</a></code>, <code><a href="#SuccessKind" class="nt">SuccessKind</a></code>, <code><a href="#ClientErrorKind" class="nt">ClientErrorKind</a></code>, <code><a href="#GlobalErrorKind" class="nt">GlobalErrorKind</a></code>, <code><a href="#RedirectionErrorKind" class="nt">RedirectionErrorKind</a></code>, <code><a href="#ServerErrorKind" class="nt">ServerErrorKind</a></code>), <strong>0</strong> root (—), <strong>1</strong> top (<code><a href="#LocatedElement" class="nt">LocatedElement</a></code>), <strong>0</strong> bottom (—).</li><li>Total <strong>2</strong> terminal symbols: <strong>2</strong> keywords (<span class="t">"true"</span>, <span class="t">"false"</span>), <strong>0</strong> letters (—), <strong>0</strong> numerics (—), <strong>0</strong> signs (—).</li><li>Total <strong>137</strong> labels: <code>[<a href="#service" class="lbl">service</a>]</code>, <code>[<a href="#name" class="lbl">name</a>]</code><sup> 5</sup>, <code>[<a href="#declarations" class="lbl">declarations</a>]</code><sup> 4</sup>, <code>[<a href="#sessions" class="lbl">sessions</a>]</code><sup> 2</sup>, <code>[<a href="#methods" class="lbl">methods</a>]</code><sup> 2</sup>, <code>[<a href="#eventId" class="lbl">eventId</a>]</code>, <code>[<a href="#type" class="lbl">type</a>]</code><sup> 6</sup>, <code>[<a href="#direction" class="lbl">direction</a>]</code>, <code>[<a href="#methodName" class="lbl">methodName</a>]</code>, <code>[<a href="#arguments" class="lbl">arguments</a>]</code>, <code>[<a href="#statements" class="lbl">statements</a>]</code><sup> 8</sup>, <code>[<a href="#branches" class="lbl">branches</a>]</code>, <code>[<a href="#initExp" class="lbl">initExp</a>]</code><sup> 2</sup>, <code>[<a href="#modifier" class="lbl">modifier</a>]</code>, <code>[<a href="#size" class="lbl">size</a>]</code>, <code>[<a href="#typeName" class="lbl">typeName</a>]</code>, <code>[<a href="#functionLocation" class="lbl">functionLocation</a>]</code>, <code>[<a href="#properties" class="lbl">properties</a>]</code>, <code>[<a href="#function" class="lbl">function</a>]</code>, <code>[<a href="#parameters" class="lbl">parameters</a>]</code>, <code>[<a href="#target" class="lbl">target</a>]</code><sup> 2</sup>, <code>[<a href="#setValue" class="lbl">setValue</a>]</code>, <code>[<a href="#declaration" class="lbl">declaration</a>]</code>, <code>[<a href="#returnedValue" class="lbl">returnedValue</a>]</code>, <code>[<a href="#branch" class="lbl">branch</a>]</code>, <code>[<a href="#condition" class="lbl">condition</a>]</code>, <code>[<a href="#thenStatements" class="lbl">thenStatements</a>]</code>, <code>[<a href="#elseStatements" class="lbl">elseStatements</a>]</code><sup> 2</sup>, <code>[<a href="#idExp" class="lbl">idExp</a>]</code>, <code>[<a href="#whenHeaders" class="lbl">whenHeaders</a>]</code>, <code>[<a href="#iteratorName" class="lbl">iteratorName</a>]</code>, <code>[<a href="#sequenceExp" class="lbl">sequenceExp</a>]</code>, <code>[<a href="#matchedExp" class="lbl">matchedExp</a>]</code>, <code>[<a href="#selectCases" class="lbl">selectCases</a>]</code>, <code>[<a href="#selectDefault" class="lbl">selectDefault</a>]</code>, <code>[<a href="#functionCall" class="lbl">functionCall</a>]</code><sup> 2</sup>, <code>[<a href="#pushedValue" class="lbl">pushedValue</a>]</code>, <code>[<a href="#headerId" class="lbl">headerId</a>]</code><sup> 2</sup>, <code>[<a href="#value" class="lbl">value</a>]</code><sup> 5</sup>, <code>[<a href="#values" class="lbl">values</a>]</code><sup> 2</sup>, <code>[<a href="#opName" class="lbl">opName</a>]</code>, <code>[<a href="#leftExp" class="lbl">leftExp</a>]</code>, <code>[<a href="#rightExp" class="lbl">rightExp</a>]</code>, <code>[<a href="#isParallel" class="lbl">isParallel</a>]</code>, <code>[<a href="#exp" class="lbl">exp</a>]</code><sup> 4</sup>, <code>[<a href="#msgFields" class="lbl">msgFields</a>]</code>, <code>[<a href="#source" class="lbl">source</a>]</code><sup> 3</sup>, <code>[<a href="#header" class="lbl">header</a>]</code>, <code>[<a href="#propName" class="lbl">propName</a>]</code>, <code>[<a href="#uri" class="lbl">uri</a>]</code><sup> 2</sup>, <code>[<a href="#response" class="lbl">response</a>]</code><sup> 2</sup>, <code>[<a href="#successKind" class="lbl">successKind</a>]</code>, <code>[<a href="#errorKind" class="lbl">errorKind</a>]</code><sup> 4</sup>, <code>[<a href="#inout" class="lbl">inout</a>]</code>, <code>[<a href="#in" class="lbl">in</a>]</code>, <code>[<a href="#out" class="lbl">out</a>]</code>, <code>[<a href="#ACK" class="lbl">ACK</a>]</code>, <code>[<a href="#BYE" class="lbl">BYE</a>]</code>, <code>[<a href="#CANCEL" class="lbl">CANCEL</a>]</code>, <code>[<a href="#INVITE" class="lbl">INVITE</a>]</code>, <code>[<a href="#NOTIFY" class="lbl">NOTIFY</a>]</code>, <code>[<a href="#OPTIONS" class="lbl">OPTIONS</a>]</code>, <code>[<a href="#REACK" class="lbl">REACK</a>]</code>, <code>[<a href="#REGISTER" class="lbl">REGISTER</a>]</code>, <code>[<a href="#REINVITE" class="lbl">REINVITE</a>]</code>, <code>[<a href="#REREGISTER" class="lbl">REREGISTER</a>]</code>, <code>[<a href="#RESUBSCRIBE" class="lbl">RESUBSCRIBE</a>]</code>, <code>[<a href="#SUBSCRIBE" class="lbl">SUBSCRIBE</a>]</code>, <code>[<a href="#deploy" class="lbl">deploy</a>]</code>, <code>[<a href="#undeploy" class="lbl">undeploy</a>]</code>, <code>[<a href="#uninvite" class="lbl">uninvite</a>]</code>, <code>[<a href="#unregister" class="lbl">unregister</a>]</code>, <code>[<a href="#unsubscribe" class="lbl">unsubscribe</a>]</code>, <code>[<a href="#void" class="lbl">void</a>]</code>, <code>[<a href="#bool" class="lbl">bool</a>]</code>, <code>[<a href="#int" class="lbl">int</a>]</code>, <code>[<a href="#request" class="lbl">request</a>]</code>, <code>[<a href="#string" class="lbl">string</a>]</code>, <code>[<a href="#time" class="lbl">time</a>]</code>, <code>[<a href="#LIFO" class="lbl">LIFO</a>]</code>, <code>[<a href="#FIFO" class="lbl">FIFO</a>]</code>, <code>[<a href="#remote" class="lbl">remote</a>]</code>, <code>[<a href="#local" class="lbl">local</a>]</code>, <code>[<a href="#CALL_ID" class="lbl">CALL_ID</a>]</code>, <code>[<a href="#CONTACT" class="lbl">CONTACT</a>]</code>, <code>[<a href="#CSEQ" class="lbl">CSEQ</a>]</code>, <code>[<a href="#EVENT" class="lbl">EVENT</a>]</code>, <code>[<a href="#FROM" class="lbl">FROM</a>]</code>, <code>[<a href="#MAX_FORWARDS" class="lbl">MAX_FORWARDS</a>]</code>, <code>[<a href="#SUBSCRIPTION_STATE" class="lbl">SUBSCRIPTION_STATE</a>]</code>, <code>[<a href="#TO" class="lbl">TO</a>]</code>, <code>[<a href="#VIA" class="lbl">VIA</a>]</code>, <code>[<a href="#OK" class="lbl">OK</a>]</code>, <code>[<a href="#ACCEPTED" class="lbl">ACCEPTED</a>]</code>, <code>[<a href="#ADDRESS_INCOMPLETE" class="lbl">ADDRESS_INCOMPLETE</a>]</code>, <code>[<a href="#AMBIGUOUS" class="lbl">AMBIGUOUS</a>]</code>, <code>[<a href="#BAD_EXTENSION" class="lbl">BAD_EXTENSION</a>]</code>, <code>[<a href="#BAD_REQUEST" class="lbl">BAD_REQUEST</a>]</code>, <code>[<a href="#BUSY_HERE" class="lbl">BUSY_HERE</a>]</code>, <code>[<a href="#CALL_OR_TRANSACTION_DOES_NOT_EXIST" class="lbl">CALL_OR_TRANSACTION_DOES_NOT_EXIST</a>]</code>, <code>[<a href="#EXTENSION_REQUIRED" class="lbl">EXTENSION_REQUIRED</a>]</code>, <code>[<a href="#FORBIDDEN" class="lbl">FORBIDDEN</a>]</code>, <code>[<a href="#GONE" class="lbl">GONE</a>]</code>, <code>[<a href="#INTERVAL_TOO_BRIEF" class="lbl">INTERVAL_TOO_BRIEF</a>]</code>, <code>[<a href="#LOOP_DETECTED" class="lbl">LOOP_DETECTED</a>]</code>, <code>[<a href="#METHOD_NOT_ALLOWED" class="lbl">METHOD_NOT_ALLOWED</a>]</code>, <code>[<a href="#NOT_ACCEPTABLE_HERE" class="lbl">NOT_ACCEPTABLE_HERE</a>]</code>, <code>[<a href="#NOT_ACCEPTABLE" class="lbl">NOT_ACCEPTABLE</a>]</code><sup> 2</sup>, <code>[<a href="#NOT_FOUND" class="lbl">NOT_FOUND</a>]</code>, <code>[<a href="#PAYMENT_REQUIRED" class="lbl">PAYMENT_REQUIRED</a>]</code>, <code>[<a href="#PROXY_AUTHENTICATION_REQUIRED" class="lbl">PROXY_AUTHENTICATION_REQUIRED</a>]</code>, <code>[<a href="#REQUESTURI_TOO_LONG" class="lbl">REQUESTURI_TOO_LONG</a>]</code>, <code>[<a href="#REQUEST_ENTITY_TOO_LARGE" class="lbl">REQUEST_ENTITY_TOO_LARGE</a>]</code>, <code>[<a href="#REQUEST_PENDING" class="lbl">REQUEST_PENDING</a>]</code>, <code>[<a href="#REQUEST_TERMINATED" class="lbl">REQUEST_TERMINATED</a>]</code>, <code>[<a href="#REQUEST_TIMEOUT" class="lbl">REQUEST_TIMEOUT</a>]</code>, <code>[<a href="#TEMPORARILY_UNAVAILABLE" class="lbl">TEMPORARILY_UNAVAILABLE</a>]</code>, <code>[<a href="#TOO_MANY_HOPS" class="lbl">TOO_MANY_HOPS</a>]</code>, <code>[<a href="#UNAUTHORIZED" class="lbl">UNAUTHORIZED</a>]</code>, <code>[<a href="#UNDECIPHERABLE" class="lbl">UNDECIPHERABLE</a>]</code>, <code>[<a href="#UNSUPPORTED_MEDIA_TYPE" class="lbl">UNSUPPORTED_MEDIA_TYPE</a>]</code>, <code>[<a href="#UNSUPPORTED_URI_SCHEME" class="lbl">UNSUPPORTED_URI_SCHEME</a>]</code>, <code>[<a href="#BUSY_EVERYWHERE" class="lbl">BUSY_EVERYWHERE</a>]</code>, <code>[<a href="#DECLINE" class="lbl">DECLINE</a>]</code>, <code>[<a href="#DOES_NOT_EXIST_ANYWHERE" class="lbl">DOES_NOT_EXIST_ANYWHERE</a>]</code>, <code>[<a href="#ALTERNATIVE_SERVICE" class="lbl">ALTERNATIVE_SERVICE</a>]</code>, <code>[<a href="#MOVED_PERMANENTLY" class="lbl">MOVED_PERMANENTLY</a>]</code>, <code>[<a href="#MOVED_TEMPORARILY" class="lbl">MOVED_TEMPORARILY</a>]</code>, <code>[<a href="#MULTIPLE_CHOICES" class="lbl">MULTIPLE_CHOICES</a>]</code>, <code>[<a href="#USE_PROXY" class="lbl">USE_PROXY</a>]</code>, <code>[<a href="#BAD_GATEWAY" class="lbl">BAD_GATEWAY</a>]</code>, <code>[<a href="#MESSAGE_TOO_LARGE" class="lbl">MESSAGE_TOO_LARGE</a>]</code>, <code>[<a href="#NOT_IMPLEMENTED" class="lbl">NOT_IMPLEMENTED</a>]</code>, <code>[<a href="#SERVER_INTERNAL_ERROR" class="lbl">SERVER_INTERNAL_ERROR</a>]</code>, <code>[<a href="#SERVER_TIMEOUT" class="lbl">SERVER_TIMEOUT</a>]</code>, <code>[<a href="#SERVICE_UNAVAILABLE" class="lbl">SERVICE_UNAVAILABLE</a>]</code>, <code>[<a href="#VERSION_NOT_SUPPORTED" class="lbl">VERSION_NOT_SUPPORTED</a>]</code>.</li></ul><h2 class="l">Syntax</h2><pre><a name="String" class="nt">String</a> ::=
+	string</pre><pre><a name="Integer" class="nt">Integer</a> ::=
+	integer</pre><pre><a name="Boolean" class="nt">Boolean</a> ::=
+	<span class="t">"true"</span>
+	<span class="t">"false"</span></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#Program" class="nt">Program</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#Service" class="nt">Service</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#Session" class="nt">Session</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#MethodName" class="nt">MethodName</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#Branch" class="nt">Branch</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#TypeExpression" class="nt">TypeExpression</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#Declaration" class="nt">Declaration</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#StructureProperty" class="nt">StructureProperty</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#FunctionCall" class="nt">FunctionCall</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#Statement" class="nt">Statement</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#SelectMember" class="nt">SelectMember</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#Expression" class="nt">Expression</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#MessageField" class="nt">MessageField</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#Constant" class="nt">Constant</a></pre><pre><a name="LocatedElement" class="nt">LocatedElement</a> ::=
+	<a href="#Response" class="nt">Response</a></pre><pre><a name="Program" class="nt">Program</a> ::=
+	[<a name="service" class="lbl">service</a>]::<a href="#Service" class="nt">Service</a></pre><pre><a name="Service" class="nt">Service</a> ::=
+	[<a name="name" class="lbl">name</a>]::<a href="#String" class="nt">String</a> [<a name="declarations" class="lbl">declarations</a>]::<a href="#Declaration" class="nt">Declaration</a><span class="meta">+</span> [<a name="sessions" class="lbl">sessions</a>]::<a href="#Session" class="nt">Session</a><span class="meta">+</span></pre><pre><a name="Session" class="nt">Session</a> ::=
+	<a href="#Registration" class="nt">Registration</a></pre><pre><a name="Session" class="nt">Session</a> ::=
+	<a href="#Dialog" class="nt">Dialog</a></pre><pre><a name="Session" class="nt">Session</a> ::=
+	<a href="#Event" class="nt">Event</a></pre><pre><a name="Session" class="nt">Session</a> ::=
+	<a href="#Method" class="nt">Method</a></pre><pre><a name="Registration" class="nt">Registration</a> ::=
+	[<a name="declarations" class="lbl">declarations</a>]::<a href="#Declaration" class="nt">Declaration</a><span class="meta">+</span> [<a name="sessions" class="lbl">sessions</a>]::<a href="#Session" class="nt">Session</a><span class="meta">+</span></pre><pre><a name="Dialog" class="nt">Dialog</a> ::=
+	[<a name="declarations" class="lbl">declarations</a>]::<a href="#Declaration" class="nt">Declaration</a><span class="meta">+</span> [<a name="methods" class="lbl">methods</a>]::<a href="#Method" class="nt">Method</a><span class="meta">+</span></pre><pre><a name="Event" class="nt">Event</a> ::=
+	[<a name="eventId" class="lbl">eventId</a>]::<a href="#String" class="nt">String</a> [<a name="declarations" class="lbl">declarations</a>]::<a href="#Declaration" class="nt">Declaration</a><span class="meta">+</span> [<a name="methods" class="lbl">methods</a>]::<a href="#Method" class="nt">Method</a><span class="meta">+</span></pre><pre><a name="Method" class="nt">Method</a> ::=
+	[<a name="type" class="lbl">type</a>]::<a href="#TypeExpression" class="nt">TypeExpression</a> [<a name="direction" class="lbl">direction</a>]::<a href="#Direction" class="nt">Direction</a> [<a name="methodName" class="lbl">methodName</a>]::<a href="#MethodName" class="nt">MethodName</a> [<a name="arguments" class="lbl">arguments</a>]::<a href="#Argument" class="nt">Argument</a><span class="meta">+</span> [<a name="statements" class="lbl">statements</a>]::<a href="#Statement" class="nt">Statement</a><span class="meta">+</span> [<a name="branches" class="lbl">branches</a>]::<a href="#Branch" class="nt">Branch</a><span class="meta">+</span></pre><pre><a name="Argument" class="nt">Argument</a> ::=
+	[<a name="type" class="lbl">type</a>]::<a href="#TypeExpression" class="nt">TypeExpression</a> [<a name="initExp" class="lbl">initExp</a>]::<a href="#Expression" class="nt">Expression</a></pre><pre><a name="MethodName" class="nt">MethodName</a> ::=
+	<a href="#SIPMethodName" class="nt">SIPMethodName</a></pre><pre><a name="MethodName" class="nt">MethodName</a> ::=
+	<a href="#ControlMethodName" class="nt">ControlMethodName</a></pre><pre><a name="SIPMethodName" class="nt">SIPMethodName</a> ::=
+	[<a name="name" class="lbl">name</a>]::<a href="#SIPMethod" class="nt">SIPMethod</a></pre><pre><a name="ControlMethodName" class="nt">ControlMethodName</a> ::=
+	[<a name="name" class="lbl">name</a>]::<a href="#ControlMethod" class="nt">ControlMethod</a></pre><pre><a name="Branch" class="nt">Branch</a> ::=
+	<a href="#DefaultBranch" class="nt">DefaultBranch</a></pre><pre><a name="Branch" class="nt">Branch</a> ::=
+	<a href="#NamedBranch" class="nt">NamedBranch</a></pre><pre><a name="Branch" class="nt">Branch</a> ::=
+	[<a name="statements" class="lbl">statements</a>]::<a href="#Statement" class="nt">Statement</a><span class="meta">+</span></pre><pre><a name="DefaultBranch" class="nt">DefaultBranch</a> ::=
+	[<a name="statements" class="lbl">statements</a>]::<a href="#Statement" class="nt">Statement</a><span class="meta">+</span></pre><pre><a name="NamedBranch" class="nt">NamedBranch</a> ::=
+	[<a name="name" class="lbl">name</a>]::<a href="#String" class="nt">String</a><span class="meta">+</span></pre><pre><a name="TypeExpression" class="nt">TypeExpression</a> ::=
+	<a href="#SimpleType" class="nt">SimpleType</a></pre><pre><a name="TypeExpression" class="nt">TypeExpression</a> ::=
+	<a href="#SequenceType" class="nt">SequenceType</a></pre><pre><a name="TypeExpression" class="nt">TypeExpression</a> ::=
+	<a href="#DefinedType" class="nt">DefinedType</a></pre><pre><a name="SimpleType" class="nt">SimpleType</a> ::=
+	[<a name="type" class="lbl">type</a>]::<a href="#PrimitiveType" class="nt">PrimitiveType</a></pre><pre><a name="SequenceType" class="nt">SequenceType</a> ::=
+	[<a name="modifier" class="lbl">modifier</a>]::<a href="#Modifier" class="nt">Modifier</a> [<a name="type" class="lbl">type</a>]::<a href="#PrimitiveType" class="nt">PrimitiveType</a> [<a name="size" class="lbl">size</a>]::<a href="#Integer" class="nt">Integer</a></pre><pre><a name="DefinedType" class="nt">DefinedType</a> ::=
+	[<a name="typeName" class="lbl">typeName</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Declaration" class="nt">Declaration</a> ::=
+	<a href="#VariableDeclaration" class="nt">VariableDeclaration</a></pre><pre><a name="Declaration" class="nt">Declaration</a> ::=
+	<a href="#FunctionDeclaration" class="nt">FunctionDeclaration</a></pre><pre><a name="Declaration" class="nt">Declaration</a> ::=
+	<a href="#StructureDeclaration" class="nt">StructureDeclaration</a></pre><pre><a name="VariableDeclaration" class="nt">VariableDeclaration</a> ::=
+	<a href="#Argument" class="nt">Argument</a></pre><pre><a name="VariableDeclaration" class="nt">VariableDeclaration</a> ::=
+	<a href="#WhenHeader" class="nt">WhenHeader</a></pre><pre><a name="VariableDeclaration" class="nt">VariableDeclaration</a> ::=
+	[<a name="type" class="lbl">type</a>]::<a href="#TypeExpression" class="nt">TypeExpression</a> [<a name="initExp" class="lbl">initExp</a>]::<a href="#Expression" class="nt">Expression</a></pre><pre><a name="FunctionDeclaration" class="nt">FunctionDeclaration</a> ::=
+	<a href="#RemoteFunctionDeclaration" class="nt">RemoteFunctionDeclaration</a></pre><pre><a name="FunctionDeclaration" class="nt">FunctionDeclaration</a> ::=
+	<a href="#LocalFunctionDeclaration" class="nt">LocalFunctionDeclaration</a></pre><pre><a name="RemoteFunctionDeclaration" class="nt">RemoteFunctionDeclaration</a> ::=
+	[<a name="functionLocation" class="lbl">functionLocation</a>]::<a href="#FunctionLocation" class="nt">FunctionLocation</a></pre><pre><a name="LocalFunctionDeclaration" class="nt">LocalFunctionDeclaration</a> ::=
+	[<a name="statements" class="lbl">statements</a>]::<a href="#Statement" class="nt">Statement</a><span class="meta">+</span></pre><pre><a name="StructureDeclaration" class="nt">StructureDeclaration</a> ::=
+	[<a name="properties" class="lbl">properties</a>]::<a href="#Argument" class="nt">Argument</a><span class="meta">+</span></pre><pre><a name="StructureProperty" class="nt">StructureProperty</a> ::=
+	[<a name="name" class="lbl">name</a>]::<a href="#String" class="nt">String</a> [<a name="type" class="lbl">type</a>]::<a href="#TypeExpression" class="nt">TypeExpression</a></pre><pre><a name="FunctionCall" class="nt">FunctionCall</a> ::=
+	[<a name="function" class="lbl">function</a>]::<a href="#FunctionDeclaration" class="nt">FunctionDeclaration</a> [<a name="parameters" class="lbl">parameters</a>]::<a href="#Expression" class="nt">Expression</a><span class="meta">+</span></pre><pre><a name="Statement" class="nt">Statement</a> ::=
+	<a href="#CompoundStat" class="nt">CompoundStat</a></pre><pre><a name="Statement" class="nt">Statement</a> ::=
+	<a href="#SetStat" class="nt">SetStat</a></pre><pre><a name="Statement" class="nt">Statement</a> ::=
+	<a href="#DeclarationStat" class="nt">DeclarationStat</a></pre><pre><a name="Statement" class="nt">Statement</a> ::=
+	<a href="#ReturnStat" class="nt">ReturnStat</a></pre><pre><a name="Statement" class="nt">Statement</a> ::=
+	<a href="#IfStat" class="nt">IfStat</a></pre><pre><a name="Statement" class="nt">Statement</a> ::=
+	<a href="#WhenStat" class="nt">WhenStat</a></pre><pre><a name="Statement" class="nt">Statement</a> ::=
+	<a href="#ForeachStat" class="nt">ForeachStat</a></pre><pre><a name="Statement" class="nt">Statement</a> ::=
+	<a href="#SelectStat" class="nt">SelectStat</a></pre><pre><a name="Statement" class="nt">Statement</a> ::=
+	<a href="#FunctionCallStat" class="nt">FunctionCallStat</a></pre><pre><a name="Statement" class="nt">Statement</a> ::=
+	<a href="#ContinueStat" class="nt">ContinueStat</a></pre><pre><a name="Statement" class="nt">Statement</a> ::=
+	<a href="#BreakStat" class="nt">BreakStat</a></pre><pre><a name="Statement" class="nt">Statement</a> ::=
+	<a href="#PushStat" class="nt">PushStat</a></pre><pre><a name="CompoundStat" class="nt">CompoundStat</a> ::=
+	[<a name="statements" class="lbl">statements</a>]::<a href="#Statement" class="nt">Statement</a><span class="meta">+</span></pre><pre><a name="SetStat" class="nt">SetStat</a> ::=
+	[<a name="target" class="lbl">target</a>]::<a href="#Place" class="nt">Place</a> [<a name="setValue" class="lbl">setValue</a>]::<a href="#Expression" class="nt">Expression</a></pre><pre><a name="DeclarationStat" class="nt">DeclarationStat</a> ::=
+	[<a name="declaration" class="lbl">declaration</a>]::<a href="#Declaration" class="nt">Declaration</a></pre><pre><a name="ReturnStat" class="nt">ReturnStat</a> ::=
+	[<a name="returnedValue" class="lbl">returnedValue</a>]::<a href="#Expression" class="nt">Expression</a> [<a name="branch" class="lbl">branch</a>]::<a href="#NamedBranch" class="nt">NamedBranch</a></pre><pre><a name="IfStat" class="nt">IfStat</a> ::=
+	[<a name="condition" class="lbl">condition</a>]::<a href="#Expression" class="nt">Expression</a> [<a name="thenStatements" class="lbl">thenStatements</a>]::<a href="#Statement" class="nt">Statement</a><span class="meta">+</span> [<a name="elseStatements" class="lbl">elseStatements</a>]::<a href="#Statement" class="nt">Statement</a><span class="meta">+</span></pre><pre><a name="WhenStat" class="nt">WhenStat</a> ::=
+	[<a name="idExp" class="lbl">idExp</a>]::<a href="#Variable" class="nt">Variable</a> [<a name="whenHeaders" class="lbl">whenHeaders</a>]::<a href="#WhenHeader" class="nt">WhenHeader</a><span class="meta">+</span> [<a name="statements" class="lbl">statements</a>]::<a href="#Statement" class="nt">Statement</a><span class="meta">+</span> [<a name="elseStatements" class="lbl">elseStatements</a>]::<a href="#Statement" class="nt">Statement</a><span class="meta">+</span></pre><pre><a name="ForeachStat" class="nt">ForeachStat</a> ::=
+	[<a name="iteratorName" class="lbl">iteratorName</a>]::<a href="#String" class="nt">String</a> [<a name="sequenceExp" class="lbl">sequenceExp</a>]::<a href="#Expression" class="nt">Expression</a> [<a name="statements" class="lbl">statements</a>]::<a href="#Statement" class="nt">Statement</a><span class="meta">+</span></pre><pre><a name="SelectStat" class="nt">SelectStat</a> ::=
+	[<a name="matchedExp" class="lbl">matchedExp</a>]::<a href="#Expression" class="nt">Expression</a> [<a name="selectCases" class="lbl">selectCases</a>]::<a href="#SelectCase" class="nt">SelectCase</a><span class="meta">+</span> [<a name="selectDefault" class="lbl">selectDefault</a>]::<a href="#SelectDefault" class="nt">SelectDefault</a></pre><pre><a name="FunctionCallStat" class="nt">FunctionCallStat</a> ::=
+	[<a name="functionCall" class="lbl">functionCall</a>]::<a href="#FunctionCall" class="nt">FunctionCall</a></pre><pre><a name="ContinueStat" class="nt">ContinueStat</a> ::=
+	ε</pre><pre><a name="BreakStat" class="nt">BreakStat</a> ::=
+	ε</pre><pre><a name="PushStat" class="nt">PushStat</a> ::=
+	[<a name="target" class="lbl">target</a>]::<a href="#Place" class="nt">Place</a> [<a name="pushedValue" class="lbl">pushedValue</a>]::<a href="#Expression" class="nt">Expression</a></pre><pre><a name="WhenHeader" class="nt">WhenHeader</a> ::=
+	[<a name="headerId" class="lbl">headerId</a>]::<a href="#String" class="nt">String</a> [<a name="value" class="lbl">value</a>]::<a href="#Constant" class="nt">Constant</a></pre><pre><a name="SelectMember" class="nt">SelectMember</a> ::=
+	<a href="#SelectDefault" class="nt">SelectDefault</a></pre><pre><a name="SelectMember" class="nt">SelectMember</a> ::=
+	<a href="#SelectCase" class="nt">SelectCase</a></pre><pre><a name="SelectDefault" class="nt">SelectDefault</a> ::=
+	[<a name="statements" class="lbl">statements</a>]::<a href="#Statement" class="nt">Statement</a><span class="meta">+</span></pre><pre><a name="SelectCase" class="nt">SelectCase</a> ::=
+	[<a name="values" class="lbl">values</a>]::<a href="#Constant" class="nt">Constant</a><span class="meta">+</span></pre><pre><a name="Expression" class="nt">Expression</a> ::=
+	<a href="#ConstantExp" class="nt">ConstantExp</a></pre><pre><a name="Expression" class="nt">Expression</a> ::=
+	<a href="#OperatorExp" class="nt">OperatorExp</a></pre><pre><a name="Expression" class="nt">Expression</a> ::=
+	<a href="#ForwardExp" class="nt">ForwardExp</a></pre><pre><a name="Expression" class="nt">Expression</a> ::=
+	<a href="#WithExp" class="nt">WithExp</a></pre><pre><a name="Expression" class="nt">Expression</a> ::=
+	<a href="#BlockExp" class="nt">BlockExp</a></pre><pre><a name="Expression" class="nt">Expression</a> ::=
+	<a href="#ReasonExp" class="nt">ReasonExp</a></pre><pre><a name="Expression" class="nt">Expression</a> ::=
+	<a href="#BODYExp" class="nt">BODYExp</a></pre><pre><a name="Expression" class="nt">Expression</a> ::=
+	<a href="#RequestURIExp" class="nt">RequestURIExp</a></pre><pre><a name="Expression" class="nt">Expression</a> ::=
+	<a href="#PopExp" class="nt">PopExp</a></pre><pre><a name="Expression" class="nt">Expression</a> ::=
+	<a href="#FunctionCallExp" class="nt">FunctionCallExp</a></pre><pre><a name="Expression" class="nt">Expression</a> ::=
+	<a href="#Place" class="nt">Place</a></pre><pre><a name="ConstantExp" class="nt">ConstantExp</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#Constant" class="nt">Constant</a></pre><pre><a name="OperatorExp" class="nt">OperatorExp</a> ::=
+	[<a name="opName" class="lbl">opName</a>]::<a href="#String" class="nt">String</a> [<a name="leftExp" class="lbl">leftExp</a>]::<a href="#Expression" class="nt">Expression</a> [<a name="rightExp" class="lbl">rightExp</a>]::<a href="#Expression" class="nt">Expression</a></pre><pre><a name="ForwardExp" class="nt">ForwardExp</a> ::=
+	[<a name="isParallel" class="lbl">isParallel</a>]::<a href="#Boolean" class="nt">Boolean</a> [<a name="exp" class="lbl">exp</a>]::<a href="#Expression" class="nt">Expression</a></pre><pre><a name="WithExp" class="nt">WithExp</a> ::=
+	[<a name="exp" class="lbl">exp</a>]::<a href="#Expression" class="nt">Expression</a> [<a name="msgFields" class="lbl">msgFields</a>]::<a href="#MessageField" class="nt">MessageField</a><span class="meta">+</span></pre><pre><a name="BlockExp" class="nt">BlockExp</a> ::=
+	[<a name="exp" class="lbl">exp</a>]::<a href="#Expression" class="nt">Expression</a></pre><pre><a name="ReasonExp" class="nt">ReasonExp</a> ::=
+	ε</pre><pre><a name="BODYExp" class="nt">BODYExp</a> ::=
+	ε</pre><pre><a name="RequestURIExp" class="nt">RequestURIExp</a> ::=
+	ε</pre><pre><a name="PopExp" class="nt">PopExp</a> ::=
+	[<a name="source" class="lbl">source</a>]::<a href="#Place" class="nt">Place</a></pre><pre><a name="FunctionCallExp" class="nt">FunctionCallExp</a> ::=
+	[<a name="functionCall" class="lbl">functionCall</a>]::<a href="#FunctionCall" class="nt">FunctionCall</a></pre><pre><a name="Place" class="nt">Place</a> ::=
+	<a href="#SIPHeaderPlace" class="nt">SIPHeaderPlace</a></pre><pre><a name="Place" class="nt">Place</a> ::=
+	<a href="#VariablePlace" class="nt">VariablePlace</a></pre><pre><a name="SIPHeaderPlace" class="nt">SIPHeaderPlace</a> ::=
+	[<a name="header" class="lbl">header</a>]::<a href="#SIPHeader" class="nt">SIPHeader</a></pre><pre><a name="VariablePlace" class="nt">VariablePlace</a> ::=
+	<a href="#PropertyCallPlace" class="nt">PropertyCallPlace</a></pre><pre><a name="VariablePlace" class="nt">VariablePlace</a> ::=
+	<a href="#Variable" class="nt">Variable</a></pre><pre><a name="PropertyCallPlace" class="nt">PropertyCallPlace</a> ::=
+	[<a name="propName" class="lbl">propName</a>]::<a href="#String" class="nt">String</a> [<a name="source" class="lbl">source</a>]::<a href="#VariablePlace" class="nt">VariablePlace</a></pre><pre><a name="Variable" class="nt">Variable</a> ::=
+	[<a name="source" class="lbl">source</a>]::<a href="#Declaration" class="nt">Declaration</a></pre><pre><a name="MessageField" class="nt">MessageField</a> ::=
+	<a href="#ReasonMessageField" class="nt">ReasonMessageField</a></pre><pre><a name="MessageField" class="nt">MessageField</a> ::=
+	<a href="#HeadedMessageField" class="nt">HeadedMessageField</a></pre><pre><a name="ReasonMessageField" class="nt">ReasonMessageField</a> ::=
+	[<a name="exp" class="lbl">exp</a>]::<a href="#Expression" class="nt">Expression</a></pre><pre><a name="HeadedMessageField" class="nt">HeadedMessageField</a> ::=
+	[<a name="headerId" class="lbl">headerId</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="Constant" class="nt">Constant</a> ::=
+	<a href="#BooleanConstant" class="nt">BooleanConstant</a></pre><pre><a name="Constant" class="nt">Constant</a> ::=
+	<a href="#IntegerConstant" class="nt">IntegerConstant</a></pre><pre><a name="Constant" class="nt">Constant</a> ::=
+	<a href="#StringConstant" class="nt">StringConstant</a></pre><pre><a name="Constant" class="nt">Constant</a> ::=
+	<a href="#URIConstant" class="nt">URIConstant</a></pre><pre><a name="Constant" class="nt">Constant</a> ::=
+	<a href="#SequenceConstant" class="nt">SequenceConstant</a></pre><pre><a name="Constant" class="nt">Constant</a> ::=
+	<a href="#ResponseConstant" class="nt">ResponseConstant</a></pre><pre><a name="BooleanConstant" class="nt">BooleanConstant</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#Boolean" class="nt">Boolean</a></pre><pre><a name="IntegerConstant" class="nt">IntegerConstant</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#Integer" class="nt">Integer</a></pre><pre><a name="StringConstant" class="nt">StringConstant</a> ::=
+	[<a name="value" class="lbl">value</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="URIConstant" class="nt">URIConstant</a> ::=
+	[<a name="uri" class="lbl">uri</a>]::<a href="#String" class="nt">String</a></pre><pre><a name="SequenceConstant" class="nt">SequenceConstant</a> ::=
+	[<a name="values" class="lbl">values</a>]::<a href="#Constant" class="nt">Constant</a><span class="meta">+</span></pre><pre><a name="ResponseConstant" class="nt">ResponseConstant</a> ::=
+	[<a name="response" class="lbl">response</a>]::<a href="#Response" class="nt">Response</a></pre><pre><a name="Response" class="nt">Response</a> ::=
+	<a href="#SuccessResponse" class="nt">SuccessResponse</a></pre><pre><a name="Response" class="nt">Response</a> ::=
+	<a href="#ErrorResponse" class="nt">ErrorResponse</a></pre><pre><a name="SuccessResponse" class="nt">SuccessResponse</a> ::=
+	[<a name="successKind" class="lbl">successKind</a>]::<a href="#SuccessKind" class="nt">SuccessKind</a></pre><pre><a name="ErrorResponse" class="nt">ErrorResponse</a> ::=
+	<a href="#ClientErrorResponse" class="nt">ClientErrorResponse</a></pre><pre><a name="ErrorResponse" class="nt">ErrorResponse</a> ::=
+	<a href="#GlobalErrorResponse" class="nt">GlobalErrorResponse</a></pre><pre><a name="ErrorResponse" class="nt">ErrorResponse</a> ::=
+	<a href="#RedirectionErrorResponse" class="nt">RedirectionErrorResponse</a></pre><pre><a name="ErrorResponse" class="nt">ErrorResponse</a> ::=
+	<a href="#ServerErrorResponse" class="nt">ServerErrorResponse</a></pre><pre><a name="ErrorResponse" class="nt">ErrorResponse</a> ::=
+	<a href="#ClientErrorResponse" class="nt">ClientErrorResponse</a>
+	<a href="#GlobalErrorResponse" class="nt">GlobalErrorResponse</a>
+	<a href="#RedirectionErrorResponse" class="nt">RedirectionErrorResponse</a>
+	<a href="#ServerErrorResponse" class="nt">ServerErrorResponse</a></pre><pre><a name="ClientErrorResponse" class="nt">ClientErrorResponse</a> ::=
+	[<a name="errorKind" class="lbl">errorKind</a>]::<a href="#ClientErrorKind" class="nt">ClientErrorKind</a></pre><pre><a name="GlobalErrorResponse" class="nt">GlobalErrorResponse</a> ::=
+	[<a name="errorKind" class="lbl">errorKind</a>]::<a href="#GlobalErrorKind" class="nt">GlobalErrorKind</a></pre><pre><a name="RedirectionErrorResponse" class="nt">RedirectionErrorResponse</a> ::=
+	[<a name="errorKind" class="lbl">errorKind</a>]::<a href="#RedirectionErrorKind" class="nt">RedirectionErrorKind</a></pre><pre><a name="ServerErrorResponse" class="nt">ServerErrorResponse</a> ::=
+	[<a name="errorKind" class="lbl">errorKind</a>]::<a href="#ServerErrorKind" class="nt">ServerErrorKind</a></pre><pre><a name="Direction" class="nt">Direction</a> ::=
+	[<a name="inout" class="lbl">inout</a>]::ε
+	[<a name="in" class="lbl">in</a>]::ε
+	[<a name="out" class="lbl">out</a>]::ε</pre><pre><a name="SIPMethod" class="nt">SIPMethod</a> ::=
+	[<a name="ACK" class="lbl">ACK</a>]::ε
+	[<a name="BYE" class="lbl">BYE</a>]::ε
+	[<a name="CANCEL" class="lbl">CANCEL</a>]::ε
+	[<a name="INVITE" class="lbl">INVITE</a>]::ε
+	[<a name="NOTIFY" class="lbl">NOTIFY</a>]::ε
+	[<a name="OPTIONS" class="lbl">OPTIONS</a>]::ε
+	[<a name="REACK" class="lbl">REACK</a>]::ε
+	[<a name="REGISTER" class="lbl">REGISTER</a>]::ε
+	[<a name="REINVITE" class="lbl">REINVITE</a>]::ε
+	[<a name="REREGISTER" class="lbl">REREGISTER</a>]::ε
+	[<a name="RESUBSCRIBE" class="lbl">RESUBSCRIBE</a>]::ε
+	[<a name="SUBSCRIBE" class="lbl">SUBSCRIBE</a>]::ε</pre><pre><a name="ControlMethod" class="nt">ControlMethod</a> ::=
+	[<a name="deploy" class="lbl">deploy</a>]::ε
+	[<a name="undeploy" class="lbl">undeploy</a>]::ε
+	[<a name="uninvite" class="lbl">uninvite</a>]::ε
+	[<a name="unregister" class="lbl">unregister</a>]::ε
+	[<a name="unsubscribe" class="lbl">unsubscribe</a>]::ε</pre><pre><a name="PrimitiveType" class="nt">PrimitiveType</a> ::=
+	[<a name="void" class="lbl">void</a>]::ε
+	[<a name="bool" class="lbl">bool</a>]::ε
+	[<a name="int" class="lbl">int</a>]::ε
+	[<a name="request" class="lbl">request</a>]::ε
+	[<a name="response" class="lbl">response</a>]::ε
+	[<a name="string" class="lbl">string</a>]::ε
+	[<a name="time" class="lbl">time</a>]::ε
+	[<a name="uri" class="lbl">uri</a>]::ε</pre><pre><a name="Modifier" class="nt">Modifier</a> ::=
+	[<a name="LIFO" class="lbl">LIFO</a>]::ε
+	[<a name="FIFO" class="lbl">FIFO</a>]::ε</pre><pre><a name="FunctionLocation" class="nt">FunctionLocation</a> ::=
+	[<a name="remote" class="lbl">remote</a>]::ε
+	[<a name="local" class="lbl">local</a>]::ε</pre><pre><a name="SIPHeader" class="nt">SIPHeader</a> ::=
+	[<a name="CALL_ID" class="lbl">CALL_ID</a>]::ε
+	[<a name="CONTACT" class="lbl">CONTACT</a>]::ε
+	[<a name="CSEQ" class="lbl">CSEQ</a>]::ε
+	[<a name="EVENT" class="lbl">EVENT</a>]::ε
+	[<a name="FROM" class="lbl">FROM</a>]::ε
+	[<a name="MAX_FORWARDS" class="lbl">MAX_FORWARDS</a>]::ε
+	[<a name="SUBSCRIPTION_STATE" class="lbl">SUBSCRIPTION_STATE</a>]::ε
+	[<a name="TO" class="lbl">TO</a>]::ε
+	[<a name="VIA" class="lbl">VIA</a>]::ε</pre><pre><a name="SuccessKind" class="nt">SuccessKind</a> ::=
+	[<a name="OK" class="lbl">OK</a>]::ε
+	[<a name="ACCEPTED" class="lbl">ACCEPTED</a>]::ε</pre><pre><a name="ClientErrorKind" class="nt">ClientErrorKind</a> ::=
+	[<a name="ADDRESS_INCOMPLETE" class="lbl">ADDRESS_INCOMPLETE</a>]::ε
+	[<a name="AMBIGUOUS" class="lbl">AMBIGUOUS</a>]::ε
+	[<a name="BAD_EXTENSION" class="lbl">BAD_EXTENSION</a>]::ε
+	[<a name="BAD_REQUEST" class="lbl">BAD_REQUEST</a>]::ε
+	[<a name="BUSY_HERE" class="lbl">BUSY_HERE</a>]::ε
+	[<a name="CALL_OR_TRANSACTION_DOES_NOT_EXIST" class="lbl">CALL_OR_TRANSACTION_DOES_NOT_EXIST</a>]::ε
+	[<a name="EXTENSION_REQUIRED" class="lbl">EXTENSION_REQUIRED</a>]::ε
+	[<a name="FORBIDDEN" class="lbl">FORBIDDEN</a>]::ε
+	[<a name="GONE" class="lbl">GONE</a>]::ε
+	[<a name="INTERVAL_TOO_BRIEF" class="lbl">INTERVAL_TOO_BRIEF</a>]::ε
+	[<a name="LOOP_DETECTED" class="lbl">LOOP_DETECTED</a>]::ε
+	[<a name="METHOD_NOT_ALLOWED" class="lbl">METHOD_NOT_ALLOWED</a>]::ε
+	[<a name="NOT_ACCEPTABLE_HERE" class="lbl">NOT_ACCEPTABLE_HERE</a>]::ε
+	[<a name="NOT_ACCEPTABLE" class="lbl">NOT_ACCEPTABLE</a>]::ε
+	[<a name="NOT_FOUND" class="lbl">NOT_FOUND</a>]::ε
+	[<a name="PAYMENT_REQUIRED" class="lbl">PAYMENT_REQUIRED</a>]::ε
+	[<a name="PROXY_AUTHENTICATION_REQUIRED" class="lbl">PROXY_AUTHENTICATION_REQUIRED</a>]::ε
+	[<a name="REQUESTURI_TOO_LONG" class="lbl">REQUESTURI_TOO_LONG</a>]::ε
+	[<a name="REQUEST_ENTITY_TOO_LARGE" class="lbl">REQUEST_ENTITY_TOO_LARGE</a>]::ε
+	[<a name="REQUEST_PENDING" class="lbl">REQUEST_PENDING</a>]::ε
+	[<a name="REQUEST_TERMINATED" class="lbl">REQUEST_TERMINATED</a>]::ε
+	[<a name="REQUEST_TIMEOUT" class="lbl">REQUEST_TIMEOUT</a>]::ε
+	[<a name="TEMPORARILY_UNAVAILABLE" class="lbl">TEMPORARILY_UNAVAILABLE</a>]::ε
+	[<a name="TOO_MANY_HOPS" class="lbl">TOO_MANY_HOPS</a>]::ε
+	[<a name="UNAUTHORIZED" class="lbl">UNAUTHORIZED</a>]::ε
+	[<a name="UNDECIPHERABLE" class="lbl">UNDECIPHERABLE</a>]::ε
+	[<a name="UNSUPPORTED_MEDIA_TYPE" class="lbl">UNSUPPORTED_MEDIA_TYPE</a>]::ε
+	[<a name="UNSUPPORTED_URI_SCHEME" class="lbl">UNSUPPORTED_URI_SCHEME</a>]::ε</pre><pre><a name="GlobalErrorKind" class="nt">GlobalErrorKind</a> ::=
+	[<a name="BUSY_EVERYWHERE" class="lbl">BUSY_EVERYWHERE</a>]::ε
+	[<a name="DECLINE" class="lbl">DECLINE</a>]::ε
+	[<a name="DOES_NOT_EXIST_ANYWHERE" class="lbl">DOES_NOT_EXIST_ANYWHERE</a>]::ε
+	[<a name="NOT_ACCEPTABLE" class="lbl">NOT_ACCEPTABLE</a>]::ε</pre><pre><a name="RedirectionErrorKind" class="nt">RedirectionErrorKind</a> ::=
+	[<a name="ALTERNATIVE_SERVICE" class="lbl">ALTERNATIVE_SERVICE</a>]::ε
+	[<a name="MOVED_PERMANENTLY" class="lbl">MOVED_PERMANENTLY</a>]::ε
+	[<a name="MOVED_TEMPORARILY" class="lbl">MOVED_TEMPORARILY</a>]::ε
+	[<a name="MULTIPLE_CHOICES" class="lbl">MULTIPLE_CHOICES</a>]::ε
+	[<a name="USE_PROXY" class="lbl">USE_PROXY</a>]::ε</pre><pre><a name="ServerErrorKind" class="nt">ServerErrorKind</a> ::=
+	[<a name="BAD_GATEWAY" class="lbl">BAD_GATEWAY</a>]::ε
+	[<a name="MESSAGE_TOO_LARGE" class="lbl">MESSAGE_TOO_LARGE</a>]::ε
+	[<a name="NOT_IMPLEMENTED" class="lbl">NOT_IMPLEMENTED</a>]::ε
+	[<a name="SERVER_INTERNAL_ERROR" class="lbl">SERVER_INTERNAL_ERROR</a>]::ε
+	[<a name="SERVER_TIMEOUT" class="lbl">SERVER_TIMEOUT</a>]::ε
+	[<a name="SERVICE_UNAVAILABLE" class="lbl">SERVICE_UNAVAILABLE</a>]::ε
+	[<a name="VERSION_NOT_SUPPORTED" class="lbl">VERSION_NOT_SUPPORTED</a>]::ε</pre><hr /><div class="b"><a href="http://grammarware.github.io/lab"><img src="../../../by-grammarlab.png" alt="GrammarLab" title="Powered by GrammarLab"></img></a>Maintained by Dr. <a href="http://grammarware.net/">Vadim Zaytsev</a> a.k.a. @<a href="http://twitter.com/grammarware">grammarware</a>. Last updated in October 2014. <span class="links"> [<a href="#TOP">↑</a>]</span></div></body></html>

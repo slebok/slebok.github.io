@@ -1,0 +1,427 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="content-type" content="text/html; charset=utf-8" /><title>Grammar Zoo - Browsable Dart Grammar</title><link href="../../../slps.css" rel="stylesheet" type="text/css" /></head><body><h1 class="l"><a name="TOP"></a>Browsable Dart Grammar</h1><a href="http://creativecommons.org/licenses/by/3.0/"><img src="../../../cc-by.png" alt="CC-BY" title="View the CC-BY license"></img></a><p>Grammar extracted by <strong><a href="http://grammarware.net/">Vadim Zaytsev</a></strong>, see the <a href="http://grammarzoo.github.io/">Grammar Zoo</a> entry for details: <a href="../../../index.html#dart_google_extracted">dart/google/extracted</a><br />Source used for this grammar: Google, Inc., <em>Dart subversion repository, </em><code>Dart.g</code>,  October 2011, bleeding edge branch, revision 14<span class="links"> [<a href="https://dart.googlecode.com/svn/branches/bleeding_edge/dart/language/grammar/Dart.g">Online</a>]</span></p><h2 class="l">Summary</h2><ul class="nl"><li>Total <strong>187</strong> production rules with <strong>425</strong> top alternatives and <strong>1647</strong> symbols.</li><li>Vocabulary: <strong>359</strong> = <strong>188</strong> nonterminals + <strong>171</strong> terminals + <strong>0</strong> labels + <strong>0</strong> markers.</li><li>Total <strong>188</strong> nonterminal symbols: <strong>187</strong> defined (<code><a href="#compilationUnit" class="nt">compilationUnit</a></code>, <code><a href="#HASHBANG" class="nt">HASHBANG</a></code>, <code><a href="#NEWLINE" class="nt">NEWLINE</a></code>, <code><a href="#directive" class="nt">directive</a></code>, <code><a href="#identifier" class="nt">identifier</a></code>, <code><a href="#IDENTIFIER_NO_DOLLAR" class="nt">IDENTIFIER_NO_DOLLAR</a></code>, <code><a href="#IDENTIFIER_START_NO_DOLLAR" class="nt">IDENTIFIER_START_NO_DOLLAR</a></code>, <code><a href="#LETTER" class="nt">LETTER</a></code>, <code><a href="#IDENTIFIER_PART_NO_DOLLAR" class="nt">IDENTIFIER_PART_NO_DOLLAR</a></code>, <code><a href="#DIGIT" class="nt">DIGIT</a></code>, <code><a href="#IDENTIFIER" class="nt">IDENTIFIER</a></code>, <code><a href="#IDENTIFIER_START" class="nt">IDENTIFIER_START</a></code>, <code><a href="#IDENTIFIER_PART" class="nt">IDENTIFIER_PART</a></code>, <code><a href="#ABSTRACT" class="nt">ABSTRACT</a></code>, <code><a href="#ASSERT" class="nt">ASSERT</a></code>, <code><a href="#CLASS" class="nt">CLASS</a></code>, <code><a href="#EXTENDS" class="nt">EXTENDS</a></code>, <code><a href="#FACTORY" class="nt">FACTORY</a></code>, <code><a href="#GET" class="nt">GET</a></code>, <code><a href="#IMPLEMENTS" class="nt">IMPLEMENTS</a></code>, <code><a href="#IMPORT" class="nt">IMPORT</a></code>, <code><a href="#INTERFACE" class="nt">INTERFACE</a></code>, <code><a href="#IS" class="nt">IS</a></code>, <code><a href="#LIBRARY" class="nt">LIBRARY</a></code>, <code><a href="#NATIVE" class="nt">NATIVE</a></code>, <code><a href="#NEGATE" class="nt">NEGATE</a></code>, <code><a href="#OPERATOR" class="nt">OPERATOR</a></code>, <code><a href="#SET" class="nt">SET</a></code>, <code><a href="#SOURCE" class="nt">SOURCE</a></code>, <code><a href="#STATIC" class="nt">STATIC</a></code>, <code><a href="#TYPEDEF" class="nt">TYPEDEF</a></code>, <code><a href="#arguments" class="nt">arguments</a></code>, <code><a href="#argumentList" class="nt">argumentList</a></code>, <code><a href="#namedArgument" class="nt">namedArgument</a></code>, <code><a href="#label" class="nt">label</a></code>, <code><a href="#expression" class="nt">expression</a></code>, <code><a href="#assignableExpression" class="nt">assignableExpression</a></code>, <code><a href="#primary" class="nt">primary</a></code>, <code><a href="#primaryNoFE" class="nt">primaryNoFE</a></code>, <code><a href="#THIS" class="nt">THIS</a></code>, <code><a href="#SUPER" class="nt">SUPER</a></code>, <code><a href="#assignableSelector" class="nt">assignableSelector</a></code>, <code><a href="#literal" class="nt">literal</a></code>, <code><a href="#NULL" class="nt">NULL</a></code>, <code><a href="#TRUE" class="nt">TRUE</a></code>, <code><a href="#FALSE" class="nt">FALSE</a></code>, <code><a href="#HEX_NUMBER" class="nt">HEX_NUMBER</a></code>, <code><a href="#HEX_DIGIT" class="nt">HEX_DIGIT</a></code>, <code><a href="#NUMBER" class="nt">NUMBER</a></code>, <code><a href="#NUMBER_OPT_FRACTIONAL_PART" class="nt">NUMBER_OPT_FRACTIONAL_PART</a></code>, <code><a href="#EXPONENT" class="nt">EXPONENT</a></code>, <code><a href="#NUMBER_OPT_ILLEGAL_END" class="nt">NUMBER_OPT_ILLEGAL_END</a></code>, <code><a href="#STRING" class="nt">STRING</a></code>, <code><a href="#MULTI_LINE_STRING" class="nt">MULTI_LINE_STRING</a></code>, <code><a href="#SINGLE_LINE_STRING" class="nt">SINGLE_LINE_STRING</a></code>, <code><a href="#STRING_CONTENT_DQ" class="nt">STRING_CONTENT_DQ</a></code>, <code><a href="#STRING_CONTENT_SQ" class="nt">STRING_CONTENT_SQ</a></code>, <code><a href="#CONST" class="nt">CONST</a></code>, <code><a href="#typeArguments" class="nt">typeArguments</a></code>, <code><a href="#typeList" class="nt">typeList</a></code>, <code><a href="#type" class="nt">type</a></code>, <code><a href="#qualified" class="nt">qualified</a></code>, <code><a href="#compoundLiteral" class="nt">compoundLiteral</a></code>, <code><a href="#listLiteral" class="nt">listLiteral</a></code>, <code><a href="#expressionList" class="nt">expressionList</a></code>, <code><a href="#mapLiteral" class="nt">mapLiteral</a></code>, <code><a href="#mapLiteralEntry" class="nt">mapLiteralEntry</a></code>, <code><a href="#NEW" class="nt">NEW</a></code>, <code><a href="#expressionInParentheses" class="nt">expressionInParentheses</a></code>, <code><a href="#primaryFE" class="nt">primaryFE</a></code>, <code><a href="#functionExpression" class="nt">functionExpression</a></code>, <code><a href="#returnType" class="nt">returnType</a></code>, <code><a href="#VOID" class="nt">VOID</a></code>, <code><a href="#formalParameterList" class="nt">formalParameterList</a></code>, <code><a href="#namedFormalParameters" class="nt">namedFormalParameters</a></code>, <code><a href="#defaultFormalParameter" class="nt">defaultFormalParameter</a></code>, <code><a href="#normalFormalParameter" class="nt">normalFormalParameter</a></code>, <code><a href="#functionDeclaration" class="nt">functionDeclaration</a></code>, <code><a href="#fieldFormalParameter" class="nt">fieldFormalParameter</a></code>, <code><a href="#finalVarOrType" class="nt">finalVarOrType</a></code>, <code><a href="#FINAL" class="nt">FINAL</a></code>, <code><a href="#VAR" class="nt">VAR</a></code>, <code><a href="#simpleFormalParameter" class="nt">simpleFormalParameter</a></code>, <code><a href="#declaredIdentifier" class="nt">declaredIdentifier</a></code>, <code><a href="#constantExpression" class="nt">constantExpression</a></code>, <code><a href="#normalFormalParameterTail" class="nt">normalFormalParameterTail</a></code>, <code><a href="#functionExpressionBody" class="nt">functionExpressionBody</a></code>, <code><a href="#block" class="nt">block</a></code>, <code><a href="#statements" class="nt">statements</a></code>, <code><a href="#statement" class="nt">statement</a></code>, <code><a href="#nonLabelledStatement" class="nt">nonLabelledStatement</a></code>, <code><a href="#initializedVariableDeclaration" class="nt">initializedVariableDeclaration</a></code>, <code><a href="#initializedIdentifier" class="nt">initializedIdentifier</a></code>, <code><a href="#iterationStatement" class="nt">iterationStatement</a></code>, <code><a href="#WHILE" class="nt">WHILE</a></code>, <code><a href="#DO" class="nt">DO</a></code>, <code><a href="#FOR" class="nt">FOR</a></code>, <code><a href="#forLoopParts" class="nt">forLoopParts</a></code>, <code><a href="#forInitializerStatement" class="nt">forInitializerStatement</a></code>, <code><a href="#IN" class="nt">IN</a></code>, <code><a href="#selectionStatement" class="nt">selectionStatement</a></code>, <code><a href="#IF" class="nt">IF</a></code>, <code><a href="#ELSE" class="nt">ELSE</a></code>, <code><a href="#SWITCH" class="nt">SWITCH</a></code>, <code><a href="#switchCase" class="nt">switchCase</a></code>, <code><a href="#CASE" class="nt">CASE</a></code>, <code><a href="#defaultCase" class="nt">defaultCase</a></code>, <code><a href="#DEFAULT" class="nt">DEFAULT</a></code>, <code><a href="#tryStatement" class="nt">tryStatement</a></code>, <code><a href="#TRY" class="nt">TRY</a></code>, <code><a href="#catchPart" class="nt">catchPart</a></code>, <code><a href="#CATCH" class="nt">CATCH</a></code>, <code><a href="#finallyPart" class="nt">finallyPart</a></code>, <code><a href="#FINALLY" class="nt">FINALLY</a></code>, <code><a href="#BREAK" class="nt">BREAK</a></code>, <code><a href="#CONTINUE" class="nt">CONTINUE</a></code>, <code><a href="#RETURN" class="nt">RETURN</a></code>, <code><a href="#THROW" class="nt">THROW</a></code>, <code><a href="#conditionalExpression" class="nt">conditionalExpression</a></code>, <code><a href="#logicalOrExpression" class="nt">logicalOrExpression</a></code>, <code><a href="#logicalAndExpression" class="nt">logicalAndExpression</a></code>, <code><a href="#bitwiseOrExpression" class="nt">bitwiseOrExpression</a></code>, <code><a href="#bitwiseXorExpression" class="nt">bitwiseXorExpression</a></code>, <code><a href="#bitwiseAndExpression" class="nt">bitwiseAndExpression</a></code>, <code><a href="#equalityExpression" class="nt">equalityExpression</a></code>, <code><a href="#relationalExpression" class="nt">relationalExpression</a></code>, <code><a href="#shiftExpression" class="nt">shiftExpression</a></code>, <code><a href="#additiveExpression" class="nt">additiveExpression</a></code>, <code><a href="#multiplicativeExpression" class="nt">multiplicativeExpression</a></code>, <code><a href="#unaryExpression" class="nt">unaryExpression</a></code>, <code><a href="#postfixExpression" class="nt">postfixExpression</a></code>, <code><a href="#postfixOperator" class="nt">postfixOperator</a></code>, <code><a href="#incrementOperator" class="nt">incrementOperator</a></code>, <code><a href="#selector" class="nt">selector</a></code>, <code><a href="#prefixOperator" class="nt">prefixOperator</a></code>, <code><a href="#additiveOperator" class="nt">additiveOperator</a></code>, <code><a href="#negateOperator" class="nt">negateOperator</a></code>, <code><a href="#multiplicativeOperator" class="nt">multiplicativeOperator</a></code>, <code><a href="#shiftOperator" class="nt">shiftOperator</a></code>, <code><a href="#isOperator" class="nt">isOperator</a></code>, <code><a href="#relationalOperator" class="nt">relationalOperator</a></code>, <code><a href="#equalityOperator" class="nt">equalityOperator</a></code>, <code><a href="#functionBody" class="nt">functionBody</a></code>, <code><a href="#assignmentOperator" class="nt">assignmentOperator</a></code>, <code><a href="#topLevelDefinition" class="nt">topLevelDefinition</a></code>, <code><a href="#classDefinition" class="nt">classDefinition</a></code>, <code><a href="#typeParameters" class="nt">typeParameters</a></code>, <code><a href="#typeParameter" class="nt">typeParameter</a></code>, <code><a href="#superclass" class="nt">superclass</a></code>, <code><a href="#interfaces" class="nt">interfaces</a></code>, <code><a href="#classMemberDefinition" class="nt">classMemberDefinition</a></code>, <code><a href="#declaration" class="nt">declaration</a></code>, <code><a href="#constantConstructorDeclaration" class="nt">constantConstructorDeclaration</a></code>, <code><a href="#redirection" class="nt">redirection</a></code>, <code><a href="#initializers" class="nt">initializers</a></code>, <code><a href="#superCallOrFieldInitializer" class="nt">superCallOrFieldInitializer</a></code>, <code><a href="#fieldInitializer" class="nt">fieldInitializer</a></code>, <code><a href="#namedConstructorDeclaration" class="nt">namedConstructorDeclaration</a></code>, <code><a href="#specialSignatureDefinition" class="nt">specialSignatureDefinition</a></code>, <code><a href="#getOrSet" class="nt">getOrSet</a></code>, <code><a href="#userDefinableOperator" class="nt">userDefinableOperator</a></code>, <code><a href="#bitwiseOperator" class="nt">bitwiseOperator</a></code>, <code><a href="#staticFinalDeclarationList" class="nt">staticFinalDeclarationList</a></code>, <code><a href="#staticFinalDeclaration" class="nt">staticFinalDeclaration</a></code>, <code><a href="#constInitializedVariableDeclaration" class="nt">constInitializedVariableDeclaration</a></code>, <code><a href="#constInitializedIdentifier" class="nt">constInitializedIdentifier</a></code>, <code><a href="#constructorDeclaration" class="nt">constructorDeclaration</a></code>, <code><a href="#methodDeclaration" class="nt">methodDeclaration</a></code>, <code><a href="#factoryConstructorDeclaration" class="nt">factoryConstructorDeclaration</a></code>, <code><a href="#functionBodyOrNative" class="nt">functionBodyOrNative</a></code>, <code><a href="#functionNative" class="nt">functionNative</a></code>, <code><a href="#interfaceDefinition" class="nt">interfaceDefinition</a></code>, <code><a href="#superinterfaces" class="nt">superinterfaces</a></code>, <code><a href="#factorySpecification" class="nt">factorySpecification</a></code>, <code><a href="#interfaceMemberDefinition" class="nt">interfaceMemberDefinition</a></code>, <code><a href="#initializedIdentifierList" class="nt">initializedIdentifierList</a></code>, <code><a href="#variableDeclaration" class="nt">variableDeclaration</a></code>, <code><a href="#functionTypeAlias" class="nt">functionTypeAlias</a></code>, <code><a href="#functionPrefix" class="nt">functionPrefix</a></code>, <code><a href="#libraryUnit" class="nt">libraryUnit</a></code>, <code><a href="#libraryDefinition" class="nt">libraryDefinition</a></code>, <code><a href="#libraryBody" class="nt">libraryBody</a></code>, <code><a href="#libraryImport" class="nt">libraryImport</a></code>, <code><a href="#importReferences" class="nt">importReferences</a></code>, <code><a href="#importReference" class="nt">importReference</a></code>, <code><a href="#librarySource" class="nt">librarySource</a></code>, <code><a href="#sourceUrls" class="nt">sourceUrls</a></code>), <strong>2</strong> root (<code><a href="#compilationUnit" class="nt">compilationUnit</a></code>, <code><a href="#libraryUnit" class="nt">libraryUnit</a></code>), <strong>0</strong> top (—), <strong>1</strong> bottom (<code class="nt">EOF</code><sup> 2</sup>).</li><li>Total <strong>171</strong> terminal symbols: <strong>44</strong> keywords (<span class="t">"abstract"</span>, <span class="t">"assert"</span>, <span class="t">"class"</span>, <span class="t">"extends"</span>, <span class="t">"factory"</span>, <span class="t">"get"</span>, <span class="t">"implements"</span>, <span class="t">"import"</span>, <span class="t">"interface"</span>, <span class="t">"is"</span>, <span class="t">"library"</span>, <span class="t">"native"</span>, <span class="t">"negate"</span>, <span class="t">"operator"</span>, <span class="t">"set"</span>, <span class="t">"source"</span>, <span class="t">"static"</span>, <span class="t">"typedef"</span>, <span class="t">"this"</span>, <span class="t">"super"</span>, <span class="t">"null"</span>, <span class="t">"true"</span>, <span class="t">"false"</span>, <span class="t">"const"</span>, <span class="t">"new"</span>, <span class="t">"void"</span>, <span class="t">"final"</span>, <span class="t">"var"</span>, <span class="t">"while"</span>, <span class="t">"do"</span>, <span class="t">"for"</span>, <span class="t">"in"</span>, <span class="t">"if"</span>, <span class="t">"else"</span>, <span class="t">"switch"</span>, <span class="t">"case"</span>, <span class="t">"default"</span>, <span class="t">"try"</span>, <span class="t">"catch"</span>, <span class="t">"finally"</span>, <span class="t">"break"</span>, <span class="t">"continue"</span>, <span class="t">"return"</span>, <span class="t">"throw"</span>), <strong>52</strong> letters (<span class="t">"a"</span><sup> 2</sup>, <span class="t">"b"</span><sup> 2</sup>, <span class="t">"c"</span><sup> 2</sup>, <span class="t">"d"</span><sup> 2</sup>, <span class="t">"e"</span><sup> 3</sup>, <span class="t">"f"</span><sup> 2</sup>, <span class="t">"g"</span>, <span class="t">"h"</span>, <span class="t">"i"</span>, <span class="t">"j"</span>, <span class="t">"k"</span>, <span class="t">"l"</span>, <span class="t">"m"</span>, <span class="t">"n"</span>, <span class="t">"o"</span>, <span class="t">"p"</span>, <span class="t">"q"</span>, <span class="t">"r"</span>, <span class="t">"s"</span>, <span class="t">"t"</span>, <span class="t">"u"</span>, <span class="t">"v"</span>, <span class="t">"w"</span>, <span class="t">"x"</span>, <span class="t">"y"</span>, <span class="t">"z"</span>, <span class="t">"A"</span><sup> 2</sup>, <span class="t">"B"</span><sup> 2</sup>, <span class="t">"C"</span><sup> 2</sup>, <span class="t">"D"</span><sup> 2</sup>, <span class="t">"E"</span><sup> 3</sup>, <span class="t">"F"</span><sup> 2</sup>, <span class="t">"G"</span>, <span class="t">"H"</span>, <span class="t">"I"</span>, <span class="t">"J"</span>, <span class="t">"K"</span>, <span class="t">"L"</span>, <span class="t">"M"</span>, <span class="t">"N"</span>, <span class="t">"O"</span>, <span class="t">"P"</span>, <span class="t">"Q"</span>, <span class="t">"R"</span>, <span class="t">"S"</span>, <span class="t">"T"</span>, <span class="t">"U"</span>, <span class="t">"V"</span>, <span class="t">"W"</span>, <span class="t">"X"</span>, <span class="t">"Y"</span>, <span class="t">"Z"</span>), <strong>10</strong> numerics (<span class="t">"0"</span>, <span class="t">"1"</span>, <span class="t">"2"</span>, <span class="t">"3"</span>, <span class="t">"4"</span>, <span class="t">"5"</span>, <span class="t">"6"</span>, <span class="t">"7"</span>, <span class="t">"8"</span>, <span class="t">"9"</span>), <strong>61</strong> signs (<span class="t">"#!"</span>, <span class="t">"#"</span>, <span class="t">";"</span><sup> 25</sup>, <span class="t">"_"</span>, <span class="t">"$"</span>, <span class="t">"("</span><sup> 11</sup>, <span class="t">")"</span><sup> 11</sup>, <span class="t">","</span><sup> 22</sup>, <span class="t">":"</span><sup> 9</sup>, <span class="t">"."</span><sup> 11</sup>, <span class="t">"["</span><sup> 7</sup>, <span class="t">"]"</span><sup> 7</sup>, <span class="t">"+"</span><sup> 2</sup>, <span class="t">"-"</span><sup> 3</sup>, <span class="t">"@"</span><sup> 3</sup>, <span class="t">"""""</span><sup> 2</sup>, <span class="t">"\'\'\'"</span><sup> 2</sup>, <span class="t">"""</span><sup> 4</sup>, <span class="t">"\'"</span><sup> 4</sup>, <span class="t">"\\"</span><sup> 2</sup>, <span class="t">"&lt;"</span><sup> 3</sup>, <span class="t">"&gt;"</span><sup> 3</sup>, <span class="t">"{"</span><sup> 7</sup>, <span class="t">"}"</span><sup> 7</sup>, <span class="t">"="</span><sup> 11</sup>, <span class="t">"=&gt;"</span><sup> 2</sup>, <span class="t">"?"</span>, <span class="t">"||"</span>, <span class="t">"&amp;&amp;"</span>, <span class="t">"|"</span><sup> 3</sup>, <span class="t">"^"</span><sup> 3</sup>, <span class="t">"&amp;"</span><sup> 3</sup>, <span class="t">"++"</span>, <span class="t">"--"</span>, <span class="t">"!"</span><sup> 2</sup>, <span class="t">"~"</span><sup> 2</sup>, <span class="t">"*"</span>, <span class="t">"/"</span>, <span class="t">"%"</span>, <span class="t">"~/"</span>, <span class="t">"&lt;&lt;"</span>, <span class="t">"&gt;&gt;&gt;"</span>, <span class="t">"&gt;&gt;"</span>, <span class="t">"&gt;="</span>, <span class="t">"&lt;="</span>, <span class="t">"=="</span><sup> 2</sup>, <span class="t">"!="</span>, <span class="t">"==="</span>, <span class="t">"!=="</span>, <span class="t">"*="</span>, <span class="t">"/="</span>, <span class="t">"~/="</span>, <span class="t">"%="</span>, <span class="t">"+="</span>, <span class="t">"-="</span>, <span class="t">"&lt;&lt;="</span>, <span class="t">"&gt;&gt;&gt;="</span>, <span class="t">"&gt;&gt;="</span>, <span class="t">"&amp;="</span>, <span class="t">"^="</span>, <span class="t">"|="</span>).</li></ul><h2 class="l">Syntax</h2><pre><a name="compilationUnit" class="nt">compilationUnit</a> ::=
+	<a href="#HASHBANG" class="nt">HASHBANG</a><span class="meta">?</span> <a href="#directive" class="nt">directive</a><span class="meta">*</span> <a href="#topLevelDefinition" class="nt">topLevelDefinition</a><span class="meta">*</span> <a href="#EOF" class="nt">EOF</a></pre><pre><a name="HASHBANG" class="nt">HASHBANG</a> ::=
+	<span class="t">"#!"</span> α<span class="meta">*</span> <a href="#NEWLINE" class="nt">NEWLINE</a><span class="meta">?</span></pre><pre><a name="NEWLINE" class="nt">NEWLINE</a> ::=
+	<span class="t">"\n"</span>
+	<span class="t">"\r"</span></pre><pre><a name="directive" class="nt">directive</a> ::=
+	<span class="t">"#"</span> <a href="#identifier" class="nt">identifier</a> <a href="#arguments" class="nt">arguments</a> <span class="t">";"</span></pre><pre><a name="identifier" class="nt">identifier</a> ::=
+	<a href="#IDENTIFIER_NO_DOLLAR" class="nt">IDENTIFIER_NO_DOLLAR</a>
+	<a href="#IDENTIFIER" class="nt">IDENTIFIER</a>
+	<a href="#ABSTRACT" class="nt">ABSTRACT</a>
+	<a href="#ASSERT" class="nt">ASSERT</a>
+	<a href="#CLASS" class="nt">CLASS</a>
+	<a href="#EXTENDS" class="nt">EXTENDS</a>
+	<a href="#FACTORY" class="nt">FACTORY</a>
+	<a href="#GET" class="nt">GET</a>
+	<a href="#IMPLEMENTS" class="nt">IMPLEMENTS</a>
+	<a href="#IMPORT" class="nt">IMPORT</a>
+	<a href="#INTERFACE" class="nt">INTERFACE</a>
+	<a href="#IS" class="nt">IS</a>
+	<a href="#LIBRARY" class="nt">LIBRARY</a>
+	<a href="#NATIVE" class="nt">NATIVE</a>
+	<a href="#NEGATE" class="nt">NEGATE</a>
+	<a href="#OPERATOR" class="nt">OPERATOR</a>
+	<a href="#SET" class="nt">SET</a>
+	<a href="#SOURCE" class="nt">SOURCE</a>
+	<a href="#STATIC" class="nt">STATIC</a>
+	<a href="#TYPEDEF" class="nt">TYPEDEF</a></pre><pre><a name="IDENTIFIER_NO_DOLLAR" class="nt">IDENTIFIER_NO_DOLLAR</a> ::=
+	<a href="#IDENTIFIER_START_NO_DOLLAR" class="nt">IDENTIFIER_START_NO_DOLLAR</a> <a href="#IDENTIFIER_PART_NO_DOLLAR" class="nt">IDENTIFIER_PART_NO_DOLLAR</a><span class="meta">*</span></pre><pre><a name="IDENTIFIER_START_NO_DOLLAR" class="nt">IDENTIFIER_START_NO_DOLLAR</a> ::=
+	<a href="#LETTER" class="nt">LETTER</a>
+	<span class="t">"_"</span></pre><pre><a name="LETTER" class="nt">LETTER</a> ::=
+	<span class="t">"a"</span>
+	<span class="t">"b"</span>
+	<span class="t">"c"</span>
+	<span class="t">"d"</span>
+	<span class="t">"e"</span>
+	<span class="t">"f"</span>
+	<span class="t">"g"</span>
+	<span class="t">"h"</span>
+	<span class="t">"i"</span>
+	<span class="t">"j"</span>
+	<span class="t">"k"</span>
+	<span class="t">"l"</span>
+	<span class="t">"m"</span>
+	<span class="t">"n"</span>
+	<span class="t">"o"</span>
+	<span class="t">"p"</span>
+	<span class="t">"q"</span>
+	<span class="t">"r"</span>
+	<span class="t">"s"</span>
+	<span class="t">"t"</span>
+	<span class="t">"u"</span>
+	<span class="t">"v"</span>
+	<span class="t">"w"</span>
+	<span class="t">"x"</span>
+	<span class="t">"y"</span>
+	<span class="t">"z"</span>
+	<span class="t">"A"</span>
+	<span class="t">"B"</span>
+	<span class="t">"C"</span>
+	<span class="t">"D"</span>
+	<span class="t">"E"</span>
+	<span class="t">"F"</span>
+	<span class="t">"G"</span>
+	<span class="t">"H"</span>
+	<span class="t">"I"</span>
+	<span class="t">"J"</span>
+	<span class="t">"K"</span>
+	<span class="t">"L"</span>
+	<span class="t">"M"</span>
+	<span class="t">"N"</span>
+	<span class="t">"O"</span>
+	<span class="t">"P"</span>
+	<span class="t">"Q"</span>
+	<span class="t">"R"</span>
+	<span class="t">"S"</span>
+	<span class="t">"T"</span>
+	<span class="t">"U"</span>
+	<span class="t">"V"</span>
+	<span class="t">"W"</span>
+	<span class="t">"X"</span>
+	<span class="t">"Y"</span>
+	<span class="t">"Z"</span></pre><pre><a name="IDENTIFIER_PART_NO_DOLLAR" class="nt">IDENTIFIER_PART_NO_DOLLAR</a> ::=
+	<a href="#IDENTIFIER_START_NO_DOLLAR" class="nt">IDENTIFIER_START_NO_DOLLAR</a>
+	<a href="#DIGIT" class="nt">DIGIT</a></pre><pre><a name="DIGIT" class="nt">DIGIT</a> ::=
+	<span class="t">"0"</span>
+	<span class="t">"1"</span>
+	<span class="t">"2"</span>
+	<span class="t">"3"</span>
+	<span class="t">"4"</span>
+	<span class="t">"5"</span>
+	<span class="t">"6"</span>
+	<span class="t">"7"</span>
+	<span class="t">"8"</span>
+	<span class="t">"9"</span></pre><pre><a name="IDENTIFIER" class="nt">IDENTIFIER</a> ::=
+	<a href="#IDENTIFIER_START" class="nt">IDENTIFIER_START</a> <a href="#IDENTIFIER_PART" class="nt">IDENTIFIER_PART</a><span class="meta">*</span></pre><pre><a name="IDENTIFIER_START" class="nt">IDENTIFIER_START</a> ::=
+	<a href="#IDENTIFIER_START_NO_DOLLAR" class="nt">IDENTIFIER_START_NO_DOLLAR</a>
+	<span class="t">"$"</span></pre><pre><a name="IDENTIFIER_PART" class="nt">IDENTIFIER_PART</a> ::=
+	<a href="#IDENTIFIER_START" class="nt">IDENTIFIER_START</a>
+	<a href="#DIGIT" class="nt">DIGIT</a></pre><pre><a name="ABSTRACT" class="nt">ABSTRACT</a> ::=
+	<span class="t">"abstract"</span></pre><pre><a name="ASSERT" class="nt">ASSERT</a> ::=
+	<span class="t">"assert"</span></pre><pre><a name="CLASS" class="nt">CLASS</a> ::=
+	<span class="t">"class"</span></pre><pre><a name="EXTENDS" class="nt">EXTENDS</a> ::=
+	<span class="t">"extends"</span></pre><pre><a name="FACTORY" class="nt">FACTORY</a> ::=
+	<span class="t">"factory"</span></pre><pre><a name="GET" class="nt">GET</a> ::=
+	<span class="t">"get"</span></pre><pre><a name="IMPLEMENTS" class="nt">IMPLEMENTS</a> ::=
+	<span class="t">"implements"</span></pre><pre><a name="IMPORT" class="nt">IMPORT</a> ::=
+	<span class="t">"import"</span></pre><pre><a name="INTERFACE" class="nt">INTERFACE</a> ::=
+	<span class="t">"interface"</span></pre><pre><a name="IS" class="nt">IS</a> ::=
+	<span class="t">"is"</span></pre><pre><a name="LIBRARY" class="nt">LIBRARY</a> ::=
+	<span class="t">"library"</span></pre><pre><a name="NATIVE" class="nt">NATIVE</a> ::=
+	<span class="t">"native"</span></pre><pre><a name="NEGATE" class="nt">NEGATE</a> ::=
+	<span class="t">"negate"</span></pre><pre><a name="OPERATOR" class="nt">OPERATOR</a> ::=
+	<span class="t">"operator"</span></pre><pre><a name="SET" class="nt">SET</a> ::=
+	<span class="t">"set"</span></pre><pre><a name="SOURCE" class="nt">SOURCE</a> ::=
+	<span class="t">"source"</span></pre><pre><a name="STATIC" class="nt">STATIC</a> ::=
+	<span class="t">"static"</span></pre><pre><a name="TYPEDEF" class="nt">TYPEDEF</a> ::=
+	<span class="t">"typedef"</span></pre><pre><a name="arguments" class="nt">arguments</a> ::=
+	<span class="t">"("</span> <a href="#argumentList" class="nt">argumentList</a><span class="meta">?</span> <span class="t">")"</span></pre><pre><a name="argumentList" class="nt">argumentList</a> ::=
+	<a href="#namedArgument" class="nt">namedArgument</a> <span class="meta">(</span><span class="t">","</span> <a href="#namedArgument" class="nt">namedArgument</a><span class="meta">)</span><span class="meta">*</span>
+	<a href="#expressionList" class="nt">expressionList</a> <span class="meta">(</span><span class="t">","</span> <a href="#namedArgument" class="nt">namedArgument</a><span class="meta">)</span><span class="meta">*</span></pre><pre><a name="namedArgument" class="nt">namedArgument</a> ::=
+	<a href="#label" class="nt">label</a> <a href="#expression" class="nt">expression</a></pre><pre><a name="label" class="nt">label</a> ::=
+	<a href="#identifier" class="nt">identifier</a> <span class="t">":"</span></pre><pre><a name="expression" class="nt">expression</a> ::=
+	<a href="#assignableExpression" class="nt">assignableExpression</a> <a href="#assignmentOperator" class="nt">assignmentOperator</a> <a href="#expression" class="nt">expression</a>
+	<a href="#conditionalExpression" class="nt">conditionalExpression</a></pre><pre><a name="assignableExpression" class="nt">assignableExpression</a> ::=
+	<a href="#primary" class="nt">primary</a> <span class="meta">(</span><a href="#arguments" class="nt">arguments</a><span class="meta">*</span> <a href="#assignableSelector" class="nt">assignableSelector</a><span class="meta">)</span><span class="meta">+</span>
+	<a href="#SUPER" class="nt">SUPER</a> <a href="#assignableSelector" class="nt">assignableSelector</a>
+	<a href="#identifier" class="nt">identifier</a></pre><pre><a name="primary" class="nt">primary</a> ::=
+	<a href="#primaryNoFE" class="nt">primaryNoFE</a>
+	<a href="#primaryFE" class="nt">primaryFE</a></pre><pre><a name="primaryNoFE" class="nt">primaryNoFE</a> ::=
+	<a href="#THIS" class="nt">THIS</a>
+	<a href="#SUPER" class="nt">SUPER</a> <a href="#assignableSelector" class="nt">assignableSelector</a>
+	<a href="#literal" class="nt">literal</a>
+	<a href="#identifier" class="nt">identifier</a>
+	<a href="#CONST" class="nt">CONST</a><span class="meta">?</span> <a href="#typeArguments" class="nt">typeArguments</a><span class="meta">?</span> <a href="#compoundLiteral" class="nt">compoundLiteral</a>
+	<span class="meta">(</span><a href="#NEW" class="nt">NEW</a><span class="meta"> | </span><a href="#CONST" class="nt">CONST</a><span class="meta">)</span> <a href="#type" class="nt">type</a> <span class="meta">(</span><span class="t">"."</span> <a href="#identifier" class="nt">identifier</a><span class="meta">)</span><span class="meta">?</span> <a href="#arguments" class="nt">arguments</a>
+	<a href="#expressionInParentheses" class="nt">expressionInParentheses</a></pre><pre><a name="THIS" class="nt">THIS</a> ::=
+	<span class="t">"this"</span></pre><pre><a name="SUPER" class="nt">SUPER</a> ::=
+	<span class="t">"super"</span></pre><pre><a name="assignableSelector" class="nt">assignableSelector</a> ::=
+	<span class="t">"["</span> <a href="#expression" class="nt">expression</a> <span class="t">"]"</span>
+	<span class="t">"."</span> <a href="#identifier" class="nt">identifier</a></pre><pre><a name="literal" class="nt">literal</a> ::=
+	<a href="#NULL" class="nt">NULL</a>
+	<a href="#TRUE" class="nt">TRUE</a>
+	<a href="#FALSE" class="nt">FALSE</a>
+	<a href="#HEX_NUMBER" class="nt">HEX_NUMBER</a>
+	<a href="#NUMBER" class="nt">NUMBER</a>
+	<a href="#STRING" class="nt">STRING</a></pre><pre><a name="NULL" class="nt">NULL</a> ::=
+	<span class="t">"null"</span></pre><pre><a name="TRUE" class="nt">TRUE</a> ::=
+	<span class="t">"true"</span></pre><pre><a name="FALSE" class="nt">FALSE</a> ::=
+	<span class="t">"false"</span></pre><pre><a name="HEX_NUMBER" class="nt">HEX_NUMBER</a> ::=
+	<span class="t">"0x"</span> <a href="#HEX_DIGIT" class="nt">HEX_DIGIT</a><span class="meta">+</span>
+	<span class="t">"0X"</span> <a href="#HEX_DIGIT" class="nt">HEX_DIGIT</a><span class="meta">+</span></pre><pre><a name="HEX_DIGIT" class="nt">HEX_DIGIT</a> ::=
+	<span class="t">"a"</span>
+	<span class="t">"b"</span>
+	<span class="t">"c"</span>
+	<span class="t">"d"</span>
+	<span class="t">"e"</span>
+	<span class="t">"f"</span>
+	<span class="t">"A"</span>
+	<span class="t">"B"</span>
+	<span class="t">"C"</span>
+	<span class="t">"D"</span>
+	<span class="t">"E"</span>
+	<span class="t">"F"</span>
+	<a href="#DIGIT" class="nt">DIGIT</a></pre><pre><a name="NUMBER" class="nt">NUMBER</a> ::=
+	<a href="#DIGIT" class="nt">DIGIT</a><span class="meta">+</span> <a href="#NUMBER_OPT_FRACTIONAL_PART" class="nt">NUMBER_OPT_FRACTIONAL_PART</a> <a href="#EXPONENT" class="nt">EXPONENT</a><span class="meta">?</span> <a href="#NUMBER_OPT_ILLEGAL_END" class="nt">NUMBER_OPT_ILLEGAL_END</a>
+	<span class="t">"."</span> <a href="#DIGIT" class="nt">DIGIT</a><span class="meta">+</span> <a href="#EXPONENT" class="nt">EXPONENT</a><span class="meta">?</span> <a href="#NUMBER_OPT_ILLEGAL_END" class="nt">NUMBER_OPT_ILLEGAL_END</a></pre><pre><a name="NUMBER_OPT_FRACTIONAL_PART" class="nt">NUMBER_OPT_FRACTIONAL_PART</a> ::=
+	<span class="t">"."</span> <a href="#DIGIT" class="nt">DIGIT</a><span class="meta">+</span>
+	ε</pre><pre><a name="EXPONENT" class="nt">EXPONENT</a> ::=
+	<span class="meta">(</span><span class="t">"e"</span><span class="meta"> | </span><span class="t">"E"</span><span class="meta">)</span> <span class="meta">(</span><span class="t">"+"</span><span class="meta"> | </span><span class="t">"-"</span><span class="meta">)</span><span class="meta">?</span> <a href="#DIGIT" class="nt">DIGIT</a><span class="meta">+</span></pre><pre><a name="NUMBER_OPT_ILLEGAL_END" class="nt">NUMBER_OPT_ILLEGAL_END</a> ::=
+	ε</pre><pre><a name="STRING" class="nt">STRING</a> ::=
+	<span class="t">"@"</span><span class="meta">?</span> <a href="#MULTI_LINE_STRING" class="nt">MULTI_LINE_STRING</a>
+	<a href="#SINGLE_LINE_STRING" class="nt">SINGLE_LINE_STRING</a></pre><pre><a name="MULTI_LINE_STRING" class="nt">MULTI_LINE_STRING</a> ::=
+	<span class="t">"""""</span> α<span class="meta">*</span> <span class="t">"""""</span>
+	<span class="t">"\'\'\'"</span> α<span class="meta">*</span> <span class="t">"\'\'\'"</span></pre><pre><a name="SINGLE_LINE_STRING" class="nt">SINGLE_LINE_STRING</a> ::=
+	<span class="t">"""</span> <a href="#STRING_CONTENT_DQ" class="nt">STRING_CONTENT_DQ</a><span class="meta">*</span> <span class="t">"""</span>
+	<span class="t">"\'"</span> <a href="#STRING_CONTENT_SQ" class="nt">STRING_CONTENT_SQ</a><span class="meta">*</span> <span class="t">"\'"</span>
+	<span class="t">"@"</span> <span class="t">"\'"</span> α<span class="meta">*</span> <span class="t">"\'"</span>
+	<span class="t">"@"</span> <span class="t">"""</span> α<span class="meta">*</span> <span class="t">"""</span></pre><pre><a name="STRING_CONTENT_DQ" class="nt">STRING_CONTENT_DQ</a> ::=
+	α
+	<span class="t">"\\"</span> α</pre><pre><a name="STRING_CONTENT_SQ" class="nt">STRING_CONTENT_SQ</a> ::=
+	α
+	<span class="t">"\\"</span> α</pre><pre><a name="CONST" class="nt">CONST</a> ::=
+	<span class="t">"const"</span></pre><pre><a name="typeArguments" class="nt">typeArguments</a> ::=
+	<span class="t">"&lt;"</span> <a href="#typeList" class="nt">typeList</a> <span class="t">"&gt;"</span></pre><pre><a name="typeList" class="nt">typeList</a> ::=
+	<a href="#type" class="nt">type</a> <span class="meta">(</span><span class="t">","</span> <a href="#type" class="nt">type</a><span class="meta">)</span><span class="meta">*</span></pre><pre><a name="type" class="nt">type</a> ::=
+	<a href="#qualified" class="nt">qualified</a> <a href="#typeArguments" class="nt">typeArguments</a><span class="meta">?</span></pre><pre><a name="qualified" class="nt">qualified</a> ::=
+	<a href="#identifier" class="nt">identifier</a> <span class="meta">(</span><span class="t">"."</span> <a href="#identifier" class="nt">identifier</a><span class="meta">)</span><span class="meta">?</span></pre><pre><a name="compoundLiteral" class="nt">compoundLiteral</a> ::=
+	<a href="#listLiteral" class="nt">listLiteral</a>
+	<a href="#mapLiteral" class="nt">mapLiteral</a></pre><pre><a name="listLiteral" class="nt">listLiteral</a> ::=
+	<span class="t">"["</span> <span class="meta">(</span><a href="#expressionList" class="nt">expressionList</a> <span class="t">","</span><span class="meta">?</span><span class="meta">)</span><span class="meta">?</span> <span class="t">"]"</span></pre><pre><a name="expressionList" class="nt">expressionList</a> ::=
+	<a href="#expression" class="nt">expression</a> <span class="meta">(</span><span class="t">","</span> <a href="#expression" class="nt">expression</a><span class="meta">)</span><span class="meta">*</span></pre><pre><a name="mapLiteral" class="nt">mapLiteral</a> ::=
+	<span class="t">"{"</span> <span class="meta">(</span><a href="#mapLiteralEntry" class="nt">mapLiteralEntry</a> <span class="meta">(</span><span class="t">","</span> <a href="#mapLiteralEntry" class="nt">mapLiteralEntry</a><span class="meta">)</span><span class="meta">*</span> <span class="t">","</span><span class="meta">?</span><span class="meta">)</span><span class="meta">?</span> <span class="t">"}"</span></pre><pre><a name="mapLiteralEntry" class="nt">mapLiteralEntry</a> ::=
+	<a href="#STRING" class="nt">STRING</a> <span class="t">":"</span> <a href="#expression" class="nt">expression</a></pre><pre><a name="NEW" class="nt">NEW</a> ::=
+	<span class="t">"new"</span></pre><pre><a name="expressionInParentheses" class="nt">expressionInParentheses</a> ::=
+	<span class="t">"("</span> <a href="#expression" class="nt">expression</a> <span class="t">")"</span></pre><pre><a name="primaryFE" class="nt">primaryFE</a> ::=
+	<a href="#functionExpression" class="nt">functionExpression</a>
+	<a href="#primaryNoFE" class="nt">primaryNoFE</a></pre><pre><a name="functionExpression" class="nt">functionExpression</a> ::=
+	<span class="meta">(</span><a href="#returnType" class="nt">returnType</a><span class="meta">?</span> <a href="#identifier" class="nt">identifier</a><span class="meta">)</span><span class="meta">?</span> <a href="#formalParameterList" class="nt">formalParameterList</a> <a href="#functionExpressionBody" class="nt">functionExpressionBody</a></pre><pre><a name="returnType" class="nt">returnType</a> ::=
+	<a href="#VOID" class="nt">VOID</a>
+	<a href="#type" class="nt">type</a></pre><pre><a name="VOID" class="nt">VOID</a> ::=
+	<span class="t">"void"</span></pre><pre><a name="formalParameterList" class="nt">formalParameterList</a> ::=
+	<span class="t">"("</span> <a href="#namedFormalParameters" class="nt">namedFormalParameters</a><span class="meta">?</span> <span class="t">")"</span>
+	<span class="t">"("</span> <a href="#normalFormalParameter" class="nt">normalFormalParameter</a> <a href="#normalFormalParameterTail" class="nt">normalFormalParameterTail</a><span class="meta">?</span> <span class="t">")"</span></pre><pre><a name="namedFormalParameters" class="nt">namedFormalParameters</a> ::=
+	<span class="t">"["</span> <a href="#defaultFormalParameter" class="nt">defaultFormalParameter</a> <span class="meta">(</span><span class="t">","</span> <a href="#defaultFormalParameter" class="nt">defaultFormalParameter</a><span class="meta">)</span><span class="meta">*</span> <span class="t">"]"</span></pre><pre><a name="defaultFormalParameter" class="nt">defaultFormalParameter</a> ::=
+	<a href="#normalFormalParameter" class="nt">normalFormalParameter</a> <span class="meta">(</span><span class="t">"="</span> <a href="#constantExpression" class="nt">constantExpression</a><span class="meta">)</span><span class="meta">?</span></pre><pre><a name="normalFormalParameter" class="nt">normalFormalParameter</a> ::=
+	<a href="#functionDeclaration" class="nt">functionDeclaration</a>
+	<a href="#fieldFormalParameter" class="nt">fieldFormalParameter</a>
+	<a href="#simpleFormalParameter" class="nt">simpleFormalParameter</a></pre><pre><a name="functionDeclaration" class="nt">functionDeclaration</a> ::=
+	<a href="#returnType" class="nt">returnType</a><span class="meta">?</span> <a href="#identifier" class="nt">identifier</a> <a href="#formalParameterList" class="nt">formalParameterList</a></pre><pre><a name="fieldFormalParameter" class="nt">fieldFormalParameter</a> ::=
+	<a href="#finalVarOrType" class="nt">finalVarOrType</a><span class="meta">?</span> <a href="#THIS" class="nt">THIS</a> <span class="t">"."</span> <a href="#identifier" class="nt">identifier</a></pre><pre><a name="finalVarOrType" class="nt">finalVarOrType</a> ::=
+	<a href="#FINAL" class="nt">FINAL</a> <a href="#type" class="nt">type</a><span class="meta">?</span>
+	<a href="#VAR" class="nt">VAR</a>
+	<a href="#type" class="nt">type</a></pre><pre><a name="FINAL" class="nt">FINAL</a> ::=
+	<span class="t">"final"</span></pre><pre><a name="VAR" class="nt">VAR</a> ::=
+	<span class="t">"var"</span></pre><pre><a name="simpleFormalParameter" class="nt">simpleFormalParameter</a> ::=
+	<a href="#declaredIdentifier" class="nt">declaredIdentifier</a>
+	<a href="#identifier" class="nt">identifier</a></pre><pre><a name="declaredIdentifier" class="nt">declaredIdentifier</a> ::=
+	<a href="#FINAL" class="nt">FINAL</a> <a href="#type" class="nt">type</a><span class="meta">?</span> <a href="#identifier" class="nt">identifier</a>
+	<a href="#VAR" class="nt">VAR</a> <a href="#identifier" class="nt">identifier</a>
+	<a href="#type" class="nt">type</a> <a href="#identifier" class="nt">identifier</a></pre><pre><a name="constantExpression" class="nt">constantExpression</a> ::=
+	<a href="#expression" class="nt">expression</a></pre><pre><a name="normalFormalParameterTail" class="nt">normalFormalParameterTail</a> ::=
+	<span class="t">","</span> <a href="#namedFormalParameters" class="nt">namedFormalParameters</a>
+	<span class="t">","</span> <a href="#normalFormalParameter" class="nt">normalFormalParameter</a> <a href="#normalFormalParameterTail" class="nt">normalFormalParameterTail</a><span class="meta">?</span></pre><pre><a name="functionExpressionBody" class="nt">functionExpressionBody</a> ::=
+	<span class="t">"=&gt;"</span> <a href="#expression" class="nt">expression</a>
+	<a href="#block" class="nt">block</a></pre><pre><a name="block" class="nt">block</a> ::=
+	<span class="t">"{"</span> <a href="#statements" class="nt">statements</a> <span class="t">"}"</span></pre><pre><a name="statements" class="nt">statements</a> ::=
+	<a href="#statement" class="nt">statement</a><span class="meta">*</span></pre><pre><a name="statement" class="nt">statement</a> ::=
+	<a href="#label" class="nt">label</a><span class="meta">*</span> <a href="#nonLabelledStatement" class="nt">nonLabelledStatement</a></pre><pre><a name="nonLabelledStatement" class="nt">nonLabelledStatement</a> ::=
+	<a href="#block" class="nt">block</a>
+	<a href="#initializedVariableDeclaration" class="nt">initializedVariableDeclaration</a> <span class="t">";"</span>
+	<a href="#iterationStatement" class="nt">iterationStatement</a>
+	<a href="#selectionStatement" class="nt">selectionStatement</a>
+	<a href="#tryStatement" class="nt">tryStatement</a>
+	<a href="#BREAK" class="nt">BREAK</a> <a href="#identifier" class="nt">identifier</a><span class="meta">?</span> <span class="t">";"</span>
+	<a href="#CONTINUE" class="nt">CONTINUE</a> <a href="#identifier" class="nt">identifier</a><span class="meta">?</span> <span class="t">";"</span>
+	<a href="#RETURN" class="nt">RETURN</a> <a href="#expression" class="nt">expression</a><span class="meta">?</span> <span class="t">";"</span>
+	<a href="#THROW" class="nt">THROW</a> <a href="#expression" class="nt">expression</a><span class="meta">?</span> <span class="t">";"</span>
+	<a href="#expression" class="nt">expression</a><span class="meta">?</span> <span class="t">";"</span>
+	<a href="#ASSERT" class="nt">ASSERT</a> <span class="t">"("</span> <a href="#conditionalExpression" class="nt">conditionalExpression</a> <span class="t">")"</span> <span class="t">";"</span>
+	<a href="#functionDeclaration" class="nt">functionDeclaration</a> <a href="#functionBody" class="nt">functionBody</a></pre><pre><a name="initializedVariableDeclaration" class="nt">initializedVariableDeclaration</a> ::=
+	<a href="#declaredIdentifier" class="nt">declaredIdentifier</a> <span class="meta">(</span><span class="t">"="</span> <a href="#expression" class="nt">expression</a><span class="meta">)</span><span class="meta">?</span> <span class="meta">(</span><span class="t">","</span> <a href="#initializedIdentifier" class="nt">initializedIdentifier</a><span class="meta">)</span><span class="meta">*</span></pre><pre><a name="initializedIdentifier" class="nt">initializedIdentifier</a> ::=
+	<a href="#identifier" class="nt">identifier</a> <span class="meta">(</span><span class="t">"="</span> <a href="#expression" class="nt">expression</a><span class="meta">)</span><span class="meta">?</span></pre><pre><a name="iterationStatement" class="nt">iterationStatement</a> ::=
+	<a href="#WHILE" class="nt">WHILE</a> <span class="t">"("</span> <a href="#expression" class="nt">expression</a> <span class="t">")"</span> <a href="#statement" class="nt">statement</a>
+	<a href="#DO" class="nt">DO</a> <a href="#statement" class="nt">statement</a> <a href="#WHILE" class="nt">WHILE</a> <span class="t">"("</span> <a href="#expression" class="nt">expression</a> <span class="t">")"</span> <span class="t">";"</span>
+	<a href="#FOR" class="nt">FOR</a> <span class="t">"("</span> <a href="#forLoopParts" class="nt">forLoopParts</a> <span class="t">")"</span> <a href="#statement" class="nt">statement</a></pre><pre><a name="WHILE" class="nt">WHILE</a> ::=
+	<span class="t">"while"</span></pre><pre><a name="DO" class="nt">DO</a> ::=
+	<span class="t">"do"</span></pre><pre><a name="FOR" class="nt">FOR</a> ::=
+	<span class="t">"for"</span></pre><pre><a name="forLoopParts" class="nt">forLoopParts</a> ::=
+	<a href="#forInitializerStatement" class="nt">forInitializerStatement</a> <a href="#expression" class="nt">expression</a><span class="meta">?</span> <span class="t">";"</span> <a href="#expressionList" class="nt">expressionList</a><span class="meta">?</span>
+	<a href="#declaredIdentifier" class="nt">declaredIdentifier</a> <a href="#IN" class="nt">IN</a> <a href="#expression" class="nt">expression</a>
+	<a href="#identifier" class="nt">identifier</a> <a href="#IN" class="nt">IN</a> <a href="#expression" class="nt">expression</a></pre><pre><a name="forInitializerStatement" class="nt">forInitializerStatement</a> ::=
+	<a href="#initializedVariableDeclaration" class="nt">initializedVariableDeclaration</a> <span class="t">";"</span>
+	<a href="#expression" class="nt">expression</a><span class="meta">?</span> <span class="t">";"</span></pre><pre><a name="IN" class="nt">IN</a> ::=
+	<span class="t">"in"</span></pre><pre><a name="selectionStatement" class="nt">selectionStatement</a> ::=
+	<a href="#IF" class="nt">IF</a> <span class="t">"("</span> <a href="#expression" class="nt">expression</a> <span class="t">")"</span> <a href="#statement" class="nt">statement</a> <span class="meta">(</span><a href="#ELSE" class="nt">ELSE</a> <a href="#statement" class="nt">statement</a><span class="meta">)</span><span class="meta">?</span>
+	<a href="#SWITCH" class="nt">SWITCH</a> <span class="t">"("</span> <a href="#expression" class="nt">expression</a> <span class="t">")"</span> <span class="t">"{"</span> <a href="#switchCase" class="nt">switchCase</a><span class="meta">*</span> <a href="#defaultCase" class="nt">defaultCase</a><span class="meta">?</span> <span class="t">"}"</span></pre><pre><a name="IF" class="nt">IF</a> ::=
+	<span class="t">"if"</span></pre><pre><a name="ELSE" class="nt">ELSE</a> ::=
+	<span class="t">"else"</span></pre><pre><a name="SWITCH" class="nt">SWITCH</a> ::=
+	<span class="t">"switch"</span></pre><pre><a name="switchCase" class="nt">switchCase</a> ::=
+	<a href="#label" class="nt">label</a><span class="meta">?</span> <span class="meta">(</span><a href="#CASE" class="nt">CASE</a> <a href="#expression" class="nt">expression</a> <span class="t">":"</span><span class="meta">)</span><span class="meta">+</span> <a href="#statements" class="nt">statements</a></pre><pre><a name="CASE" class="nt">CASE</a> ::=
+	<span class="t">"case"</span></pre><pre><a name="defaultCase" class="nt">defaultCase</a> ::=
+	<a href="#label" class="nt">label</a><span class="meta">?</span> <span class="meta">(</span><a href="#CASE" class="nt">CASE</a> <a href="#expression" class="nt">expression</a> <span class="t">":"</span><span class="meta">)</span><span class="meta">*</span> <a href="#DEFAULT" class="nt">DEFAULT</a> <span class="t">":"</span> <a href="#statements" class="nt">statements</a></pre><pre><a name="DEFAULT" class="nt">DEFAULT</a> ::=
+	<span class="t">"default"</span></pre><pre><a name="tryStatement" class="nt">tryStatement</a> ::=
+	<a href="#TRY" class="nt">TRY</a> <a href="#block" class="nt">block</a> <span class="meta">(</span><a href="#catchPart" class="nt">catchPart</a><span class="meta">+</span> <a href="#finallyPart" class="nt">finallyPart</a><span class="meta">?</span><span class="meta"> | </span><a href="#finallyPart" class="nt">finallyPart</a><span class="meta">)</span></pre><pre><a name="TRY" class="nt">TRY</a> ::=
+	<span class="t">"try"</span></pre><pre><a name="catchPart" class="nt">catchPart</a> ::=
+	<a href="#CATCH" class="nt">CATCH</a> <span class="t">"("</span> <a href="#declaredIdentifier" class="nt">declaredIdentifier</a> <span class="meta">(</span><span class="t">","</span> <a href="#declaredIdentifier" class="nt">declaredIdentifier</a><span class="meta">)</span><span class="meta">?</span> <span class="t">")"</span> <a href="#block" class="nt">block</a></pre><pre><a name="CATCH" class="nt">CATCH</a> ::=
+	<span class="t">"catch"</span></pre><pre><a name="finallyPart" class="nt">finallyPart</a> ::=
+	<a href="#FINALLY" class="nt">FINALLY</a> <a href="#block" class="nt">block</a></pre><pre><a name="FINALLY" class="nt">FINALLY</a> ::=
+	<span class="t">"finally"</span></pre><pre><a name="BREAK" class="nt">BREAK</a> ::=
+	<span class="t">"break"</span></pre><pre><a name="CONTINUE" class="nt">CONTINUE</a> ::=
+	<span class="t">"continue"</span></pre><pre><a name="RETURN" class="nt">RETURN</a> ::=
+	<span class="t">"return"</span></pre><pre><a name="THROW" class="nt">THROW</a> ::=
+	<span class="t">"throw"</span></pre><pre><a name="conditionalExpression" class="nt">conditionalExpression</a> ::=
+	<a href="#logicalOrExpression" class="nt">logicalOrExpression</a> <span class="meta">(</span><span class="t">"?"</span> <a href="#expression" class="nt">expression</a> <span class="t">":"</span> <a href="#expression" class="nt">expression</a><span class="meta">)</span><span class="meta">?</span></pre><pre><a name="logicalOrExpression" class="nt">logicalOrExpression</a> ::=
+	<a href="#logicalAndExpression" class="nt">logicalAndExpression</a> <span class="meta">(</span><span class="t">"||"</span> <a href="#logicalAndExpression" class="nt">logicalAndExpression</a><span class="meta">)</span><span class="meta">*</span></pre><pre><a name="logicalAndExpression" class="nt">logicalAndExpression</a> ::=
+	<a href="#bitwiseOrExpression" class="nt">bitwiseOrExpression</a> <span class="meta">(</span><span class="t">"&amp;&amp;"</span> <a href="#bitwiseOrExpression" class="nt">bitwiseOrExpression</a><span class="meta">)</span><span class="meta">*</span></pre><pre><a name="bitwiseOrExpression" class="nt">bitwiseOrExpression</a> ::=
+	<a href="#bitwiseXorExpression" class="nt">bitwiseXorExpression</a> <span class="meta">(</span><span class="t">"|"</span> <a href="#bitwiseXorExpression" class="nt">bitwiseXorExpression</a><span class="meta">)</span><span class="meta">*</span>
+	<a href="#SUPER" class="nt">SUPER</a> <span class="meta">(</span><span class="t">"|"</span> <a href="#bitwiseXorExpression" class="nt">bitwiseXorExpression</a><span class="meta">)</span><span class="meta">+</span></pre><pre><a name="bitwiseXorExpression" class="nt">bitwiseXorExpression</a> ::=
+	<a href="#bitwiseAndExpression" class="nt">bitwiseAndExpression</a> <span class="meta">(</span><span class="t">"^"</span> <a href="#bitwiseAndExpression" class="nt">bitwiseAndExpression</a><span class="meta">)</span><span class="meta">*</span>
+	<a href="#SUPER" class="nt">SUPER</a> <span class="meta">(</span><span class="t">"^"</span> <a href="#bitwiseAndExpression" class="nt">bitwiseAndExpression</a><span class="meta">)</span><span class="meta">+</span></pre><pre><a name="bitwiseAndExpression" class="nt">bitwiseAndExpression</a> ::=
+	<a href="#equalityExpression" class="nt">equalityExpression</a> <span class="meta">(</span><span class="t">"&amp;"</span> <a href="#equalityExpression" class="nt">equalityExpression</a><span class="meta">)</span><span class="meta">*</span>
+	<a href="#SUPER" class="nt">SUPER</a> <span class="meta">(</span><span class="t">"&amp;"</span> <a href="#equalityExpression" class="nt">equalityExpression</a><span class="meta">)</span><span class="meta">+</span></pre><pre><a name="equalityExpression" class="nt">equalityExpression</a> ::=
+	<a href="#relationalExpression" class="nt">relationalExpression</a> <span class="meta">(</span><a href="#equalityOperator" class="nt">equalityOperator</a> <a href="#relationalExpression" class="nt">relationalExpression</a><span class="meta">)</span><span class="meta">?</span>
+	<a href="#SUPER" class="nt">SUPER</a> <a href="#equalityOperator" class="nt">equalityOperator</a> <a href="#relationalExpression" class="nt">relationalExpression</a></pre><pre><a name="relationalExpression" class="nt">relationalExpression</a> ::=
+	<a href="#shiftExpression" class="nt">shiftExpression</a> <span class="meta">(</span><a href="#isOperator" class="nt">isOperator</a> <a href="#type" class="nt">type</a><span class="meta"> | </span><a href="#relationalOperator" class="nt">relationalOperator</a> <a href="#shiftExpression" class="nt">shiftExpression</a><span class="meta">)</span><span class="meta">?</span>
+	<a href="#SUPER" class="nt">SUPER</a> <a href="#relationalOperator" class="nt">relationalOperator</a> <a href="#shiftExpression" class="nt">shiftExpression</a></pre><pre><a name="shiftExpression" class="nt">shiftExpression</a> ::=
+	<a href="#additiveExpression" class="nt">additiveExpression</a> <span class="meta">(</span><a href="#shiftOperator" class="nt">shiftOperator</a> <a href="#additiveExpression" class="nt">additiveExpression</a><span class="meta">)</span><span class="meta">*</span>
+	<a href="#SUPER" class="nt">SUPER</a> <span class="meta">(</span><a href="#shiftOperator" class="nt">shiftOperator</a> <a href="#additiveExpression" class="nt">additiveExpression</a><span class="meta">)</span><span class="meta">+</span></pre><pre><a name="additiveExpression" class="nt">additiveExpression</a> ::=
+	<a href="#multiplicativeExpression" class="nt">multiplicativeExpression</a> <span class="meta">(</span><a href="#additiveOperator" class="nt">additiveOperator</a> <a href="#multiplicativeExpression" class="nt">multiplicativeExpression</a><span class="meta">)</span><span class="meta">*</span>
+	<a href="#SUPER" class="nt">SUPER</a> <span class="meta">(</span><a href="#additiveOperator" class="nt">additiveOperator</a> <a href="#multiplicativeExpression" class="nt">multiplicativeExpression</a><span class="meta">)</span><span class="meta">+</span></pre><pre><a name="multiplicativeExpression" class="nt">multiplicativeExpression</a> ::=
+	<a href="#unaryExpression" class="nt">unaryExpression</a> <span class="meta">(</span><a href="#multiplicativeOperator" class="nt">multiplicativeOperator</a> <a href="#unaryExpression" class="nt">unaryExpression</a><span class="meta">)</span><span class="meta">*</span>
+	<a href="#SUPER" class="nt">SUPER</a> <span class="meta">(</span><a href="#multiplicativeOperator" class="nt">multiplicativeOperator</a> <a href="#unaryExpression" class="nt">unaryExpression</a><span class="meta">)</span><span class="meta">+</span></pre><pre><a name="unaryExpression" class="nt">unaryExpression</a> ::=
+	<a href="#postfixExpression" class="nt">postfixExpression</a>
+	<a href="#prefixOperator" class="nt">prefixOperator</a> <a href="#unaryExpression" class="nt">unaryExpression</a>
+	<a href="#negateOperator" class="nt">negateOperator</a> <a href="#SUPER" class="nt">SUPER</a>
+	<span class="t">"-"</span> <a href="#SUPER" class="nt">SUPER</a>
+	<a href="#incrementOperator" class="nt">incrementOperator</a> <a href="#assignableExpression" class="nt">assignableExpression</a></pre><pre><a name="postfixExpression" class="nt">postfixExpression</a> ::=
+	<a href="#assignableExpression" class="nt">assignableExpression</a> <a href="#postfixOperator" class="nt">postfixOperator</a>
+	<a href="#primary" class="nt">primary</a> <a href="#selector" class="nt">selector</a><span class="meta">*</span></pre><pre><a name="postfixOperator" class="nt">postfixOperator</a> ::=
+	<a href="#incrementOperator" class="nt">incrementOperator</a></pre><pre><a name="incrementOperator" class="nt">incrementOperator</a> ::=
+	<span class="t">"++"</span>
+	<span class="t">"--"</span></pre><pre><a name="selector" class="nt">selector</a> ::=
+	<a href="#assignableSelector" class="nt">assignableSelector</a>
+	<a href="#arguments" class="nt">arguments</a></pre><pre><a name="prefixOperator" class="nt">prefixOperator</a> ::=
+	<a href="#additiveOperator" class="nt">additiveOperator</a>
+	<a href="#negateOperator" class="nt">negateOperator</a></pre><pre><a name="additiveOperator" class="nt">additiveOperator</a> ::=
+	<span class="t">"+"</span>
+	<span class="t">"-"</span></pre><pre><a name="negateOperator" class="nt">negateOperator</a> ::=
+	<span class="t">"!"</span>
+	<span class="t">"~"</span></pre><pre><a name="multiplicativeOperator" class="nt">multiplicativeOperator</a> ::=
+	<span class="t">"*"</span>
+	<span class="t">"/"</span>
+	<span class="t">"%"</span>
+	<span class="t">"~/"</span></pre><pre><a name="shiftOperator" class="nt">shiftOperator</a> ::=
+	<span class="t">"&lt;&lt;"</span>
+	<span class="t">"&gt;&gt;&gt;"</span>
+	<span class="t">"&gt;&gt;"</span></pre><pre><a name="isOperator" class="nt">isOperator</a> ::=
+	<a href="#IS" class="nt">IS</a> <span class="t">"!"</span><span class="meta">?</span></pre><pre><a name="relationalOperator" class="nt">relationalOperator</a> ::=
+	<span class="t">"&gt;="</span>
+	<span class="t">"&gt;"</span>
+	<span class="t">"&lt;="</span>
+	<span class="t">"&lt;"</span></pre><pre><a name="equalityOperator" class="nt">equalityOperator</a> ::=
+	<span class="t">"=="</span>
+	<span class="t">"!="</span>
+	<span class="t">"==="</span>
+	<span class="t">"!=="</span></pre><pre><a name="functionBody" class="nt">functionBody</a> ::=
+	<span class="t">"=&gt;"</span> <a href="#expression" class="nt">expression</a> <span class="t">";"</span>
+	<a href="#block" class="nt">block</a></pre><pre><a name="assignmentOperator" class="nt">assignmentOperator</a> ::=
+	<span class="t">"="</span>
+	<span class="t">"*="</span>
+	<span class="t">"/="</span>
+	<span class="t">"~/="</span>
+	<span class="t">"%="</span>
+	<span class="t">"+="</span>
+	<span class="t">"-="</span>
+	<span class="t">"&lt;&lt;="</span>
+	<span class="t">"&gt;&gt;&gt;="</span>
+	<span class="t">"&gt;&gt;="</span>
+	<span class="t">"&amp;="</span>
+	<span class="t">"^="</span>
+	<span class="t">"|="</span></pre><pre><a name="topLevelDefinition" class="nt">topLevelDefinition</a> ::=
+	<a href="#classDefinition" class="nt">classDefinition</a>
+	<a href="#interfaceDefinition" class="nt">interfaceDefinition</a>
+	<a href="#functionTypeAlias" class="nt">functionTypeAlias</a>
+	<a href="#functionDeclaration" class="nt">functionDeclaration</a> <a href="#functionBodyOrNative" class="nt">functionBodyOrNative</a>
+	<a href="#returnType" class="nt">returnType</a><span class="meta">?</span> <a href="#getOrSet" class="nt">getOrSet</a> <a href="#identifier" class="nt">identifier</a> <a href="#formalParameterList" class="nt">formalParameterList</a> <a href="#functionBodyOrNative" class="nt">functionBodyOrNative</a>
+	<a href="#FINAL" class="nt">FINAL</a> <a href="#type" class="nt">type</a><span class="meta">?</span> <a href="#staticFinalDeclarationList" class="nt">staticFinalDeclarationList</a> <span class="t">";"</span>
+	<a href="#constInitializedVariableDeclaration" class="nt">constInitializedVariableDeclaration</a> <span class="t">";"</span></pre><pre><a name="classDefinition" class="nt">classDefinition</a> ::=
+	<a href="#CLASS" class="nt">CLASS</a> <a href="#identifier" class="nt">identifier</a> <a href="#typeParameters" class="nt">typeParameters</a><span class="meta">?</span> <a href="#superclass" class="nt">superclass</a><span class="meta">?</span> <a href="#interfaces" class="nt">interfaces</a><span class="meta">?</span> <span class="t">"{"</span> <a href="#classMemberDefinition" class="nt">classMemberDefinition</a><span class="meta">*</span> <span class="t">"}"</span>
+	<a href="#CLASS" class="nt">CLASS</a> <a href="#identifier" class="nt">identifier</a> <a href="#typeParameters" class="nt">typeParameters</a><span class="meta">?</span> <a href="#interfaces" class="nt">interfaces</a><span class="meta">?</span> <a href="#NATIVE" class="nt">NATIVE</a> <a href="#STRING" class="nt">STRING</a> <span class="t">"{"</span> <a href="#classMemberDefinition" class="nt">classMemberDefinition</a><span class="meta">*</span> <span class="t">"}"</span></pre><pre><a name="typeParameters" class="nt">typeParameters</a> ::=
+	<span class="t">"&lt;"</span> <a href="#typeParameter" class="nt">typeParameter</a> <span class="meta">(</span><span class="t">","</span> <a href="#typeParameter" class="nt">typeParameter</a><span class="meta">)</span><span class="meta">*</span> <span class="t">"&gt;"</span></pre><pre><a name="typeParameter" class="nt">typeParameter</a> ::=
+	<a href="#identifier" class="nt">identifier</a> <span class="meta">(</span><a href="#EXTENDS" class="nt">EXTENDS</a> <a href="#type" class="nt">type</a><span class="meta">)</span><span class="meta">?</span></pre><pre><a name="superclass" class="nt">superclass</a> ::=
+	<a href="#EXTENDS" class="nt">EXTENDS</a> <a href="#type" class="nt">type</a></pre><pre><a name="interfaces" class="nt">interfaces</a> ::=
+	<a href="#IMPLEMENTS" class="nt">IMPLEMENTS</a> <a href="#typeList" class="nt">typeList</a></pre><pre><a name="classMemberDefinition" class="nt">classMemberDefinition</a> ::=
+	<a href="#declaration" class="nt">declaration</a> <span class="t">";"</span>
+	<a href="#constructorDeclaration" class="nt">constructorDeclaration</a> <span class="t">";"</span>
+	<a href="#methodDeclaration" class="nt">methodDeclaration</a> <a href="#functionBodyOrNative" class="nt">functionBodyOrNative</a>
+	<a href="#CONST" class="nt">CONST</a> <a href="#factoryConstructorDeclaration" class="nt">factoryConstructorDeclaration</a> <a href="#functionNative" class="nt">functionNative</a></pre><pre><a name="declaration" class="nt">declaration</a> ::=
+	<a href="#constantConstructorDeclaration" class="nt">constantConstructorDeclaration</a> <span class="meta">(</span><a href="#redirection" class="nt">redirection</a><span class="meta"> | </span><a href="#initializers" class="nt">initializers</a><span class="meta">)</span><span class="meta">?</span>
+	<a href="#functionDeclaration" class="nt">functionDeclaration</a> <a href="#redirection" class="nt">redirection</a>
+	<a href="#namedConstructorDeclaration" class="nt">namedConstructorDeclaration</a> <a href="#redirection" class="nt">redirection</a>
+	<a href="#ABSTRACT" class="nt">ABSTRACT</a> <a href="#specialSignatureDefinition" class="nt">specialSignatureDefinition</a>
+	<a href="#ABSTRACT" class="nt">ABSTRACT</a> <a href="#functionDeclaration" class="nt">functionDeclaration</a>
+	<a href="#STATIC" class="nt">STATIC</a> <a href="#FINAL" class="nt">FINAL</a> <a href="#type" class="nt">type</a><span class="meta">?</span> <a href="#staticFinalDeclarationList" class="nt">staticFinalDeclarationList</a>
+	<a href="#STATIC" class="nt">STATIC</a><span class="meta">?</span> <a href="#constInitializedVariableDeclaration" class="nt">constInitializedVariableDeclaration</a></pre><pre><a name="constantConstructorDeclaration" class="nt">constantConstructorDeclaration</a> ::=
+	<a href="#CONST" class="nt">CONST</a> <a href="#qualified" class="nt">qualified</a> <a href="#formalParameterList" class="nt">formalParameterList</a></pre><pre><a name="redirection" class="nt">redirection</a> ::=
+	<span class="t">":"</span> <a href="#THIS" class="nt">THIS</a> <span class="meta">(</span><span class="t">"."</span> <a href="#identifier" class="nt">identifier</a><span class="meta">)</span><span class="meta">?</span> <a href="#arguments" class="nt">arguments</a></pre><pre><a name="initializers" class="nt">initializers</a> ::=
+	<span class="t">":"</span> <a href="#superCallOrFieldInitializer" class="nt">superCallOrFieldInitializer</a> <span class="meta">(</span><span class="t">","</span> <a href="#superCallOrFieldInitializer" class="nt">superCallOrFieldInitializer</a><span class="meta">)</span><span class="meta">*</span></pre><pre><a name="superCallOrFieldInitializer" class="nt">superCallOrFieldInitializer</a> ::=
+	<a href="#SUPER" class="nt">SUPER</a> <a href="#arguments" class="nt">arguments</a>
+	<a href="#SUPER" class="nt">SUPER</a> <span class="t">"."</span> <a href="#identifier" class="nt">identifier</a> <a href="#arguments" class="nt">arguments</a>
+	<a href="#fieldInitializer" class="nt">fieldInitializer</a></pre><pre><a name="fieldInitializer" class="nt">fieldInitializer</a> ::=
+	<span class="meta">(</span><a href="#THIS" class="nt">THIS</a> <span class="t">"."</span><span class="meta">)</span><span class="meta">?</span> <a href="#identifier" class="nt">identifier</a> <span class="t">"="</span> <a href="#conditionalExpression" class="nt">conditionalExpression</a></pre><pre><a name="namedConstructorDeclaration" class="nt">namedConstructorDeclaration</a> ::=
+	<a href="#identifier" class="nt">identifier</a> <span class="t">"."</span> <a href="#identifier" class="nt">identifier</a> <a href="#formalParameterList" class="nt">formalParameterList</a></pre><pre><a name="specialSignatureDefinition" class="nt">specialSignatureDefinition</a> ::=
+	<a href="#STATIC" class="nt">STATIC</a><span class="meta">?</span> <a href="#returnType" class="nt">returnType</a><span class="meta">?</span> <a href="#getOrSet" class="nt">getOrSet</a> <a href="#identifier" class="nt">identifier</a> <a href="#formalParameterList" class="nt">formalParameterList</a>
+	<a href="#returnType" class="nt">returnType</a><span class="meta">?</span> <a href="#OPERATOR" class="nt">OPERATOR</a> <a href="#userDefinableOperator" class="nt">userDefinableOperator</a> <a href="#formalParameterList" class="nt">formalParameterList</a></pre><pre><a name="getOrSet" class="nt">getOrSet</a> ::=
+	<a href="#GET" class="nt">GET</a>
+	<a href="#SET" class="nt">SET</a></pre><pre><a name="userDefinableOperator" class="nt">userDefinableOperator</a> ::=
+	<a href="#multiplicativeOperator" class="nt">multiplicativeOperator</a>
+	<a href="#additiveOperator" class="nt">additiveOperator</a>
+	<a href="#shiftOperator" class="nt">shiftOperator</a>
+	<a href="#relationalOperator" class="nt">relationalOperator</a>
+	<a href="#bitwiseOperator" class="nt">bitwiseOperator</a>
+	<span class="t">"=="</span>
+	<span class="t">"~"</span>
+	<a href="#NEGATE" class="nt">NEGATE</a>
+	<span class="t">"["</span> <span class="t">"]"</span>
+	<span class="t">"["</span> <span class="t">"]"</span> <span class="t">"="</span></pre><pre><a name="bitwiseOperator" class="nt">bitwiseOperator</a> ::=
+	<span class="t">"&amp;"</span>
+	<span class="t">"^"</span>
+	<span class="t">"|"</span></pre><pre><a name="staticFinalDeclarationList" class="nt">staticFinalDeclarationList</a> ::=
+	<a href="#staticFinalDeclaration" class="nt">staticFinalDeclaration</a> <span class="meta">(</span><span class="t">","</span> <a href="#staticFinalDeclaration" class="nt">staticFinalDeclaration</a><span class="meta">)</span><span class="meta">*</span></pre><pre><a name="staticFinalDeclaration" class="nt">staticFinalDeclaration</a> ::=
+	<a href="#identifier" class="nt">identifier</a> <span class="t">"="</span> <a href="#constantExpression" class="nt">constantExpression</a></pre><pre><a name="constInitializedVariableDeclaration" class="nt">constInitializedVariableDeclaration</a> ::=
+	<a href="#declaredIdentifier" class="nt">declaredIdentifier</a> <span class="meta">(</span><span class="t">"="</span> <a href="#constantExpression" class="nt">constantExpression</a><span class="meta">)</span><span class="meta">?</span> <span class="meta">(</span><span class="t">","</span> <a href="#constInitializedIdentifier" class="nt">constInitializedIdentifier</a><span class="meta">)</span><span class="meta">*</span></pre><pre><a name="constInitializedIdentifier" class="nt">constInitializedIdentifier</a> ::=
+	<a href="#identifier" class="nt">identifier</a> <span class="meta">(</span><span class="t">"="</span> <a href="#constantExpression" class="nt">constantExpression</a><span class="meta">)</span><span class="meta">?</span></pre><pre><a name="constructorDeclaration" class="nt">constructorDeclaration</a> ::=
+	<a href="#identifier" class="nt">identifier</a> <a href="#formalParameterList" class="nt">formalParameterList</a> <span class="meta">(</span><a href="#redirection" class="nt">redirection</a><span class="meta"> | </span><a href="#initializers" class="nt">initializers</a><span class="meta">)</span><span class="meta">?</span>
+	<a href="#namedConstructorDeclaration" class="nt">namedConstructorDeclaration</a> <span class="meta">(</span><a href="#redirection" class="nt">redirection</a><span class="meta"> | </span><a href="#initializers" class="nt">initializers</a><span class="meta">)</span><span class="meta">?</span></pre><pre><a name="methodDeclaration" class="nt">methodDeclaration</a> ::=
+	<a href="#factoryConstructorDeclaration" class="nt">factoryConstructorDeclaration</a>
+	<a href="#STATIC" class="nt">STATIC</a> <a href="#functionDeclaration" class="nt">functionDeclaration</a>
+	<a href="#specialSignatureDefinition" class="nt">specialSignatureDefinition</a>
+	<a href="#functionDeclaration" class="nt">functionDeclaration</a> <a href="#initializers" class="nt">initializers</a><span class="meta">?</span>
+	<a href="#namedConstructorDeclaration" class="nt">namedConstructorDeclaration</a> <a href="#initializers" class="nt">initializers</a><span class="meta">?</span></pre><pre><a name="factoryConstructorDeclaration" class="nt">factoryConstructorDeclaration</a> ::=
+	<a href="#FACTORY" class="nt">FACTORY</a> <a href="#qualified" class="nt">qualified</a> <a href="#typeParameters" class="nt">typeParameters</a><span class="meta">?</span> <span class="meta">(</span><span class="t">"."</span> <a href="#identifier" class="nt">identifier</a><span class="meta">)</span><span class="meta">?</span> <a href="#formalParameterList" class="nt">formalParameterList</a></pre><pre><a name="functionBodyOrNative" class="nt">functionBodyOrNative</a> ::=
+	<a href="#NATIVE" class="nt">NATIVE</a> <a href="#functionBody" class="nt">functionBody</a>
+	<a href="#functionNative" class="nt">functionNative</a>
+	<a href="#functionBody" class="nt">functionBody</a></pre><pre><a name="functionNative" class="nt">functionNative</a> ::=
+	<a href="#NATIVE" class="nt">NATIVE</a> <a href="#STRING" class="nt">STRING</a><span class="meta">?</span> <span class="t">";"</span></pre><pre><a name="interfaceDefinition" class="nt">interfaceDefinition</a> ::=
+	<a href="#INTERFACE" class="nt">INTERFACE</a> <a href="#identifier" class="nt">identifier</a> <a href="#typeParameters" class="nt">typeParameters</a><span class="meta">?</span> <a href="#superinterfaces" class="nt">superinterfaces</a><span class="meta">?</span> <a href="#factorySpecification" class="nt">factorySpecification</a><span class="meta">?</span> <span class="t">"{"</span> <a href="#interfaceMemberDefinition" class="nt">interfaceMemberDefinition</a><span class="meta">*</span> <span class="t">"}"</span></pre><pre><a name="superinterfaces" class="nt">superinterfaces</a> ::=
+	<a href="#EXTENDS" class="nt">EXTENDS</a> <a href="#typeList" class="nt">typeList</a></pre><pre><a name="factorySpecification" class="nt">factorySpecification</a> ::=
+	<a href="#FACTORY" class="nt">FACTORY</a> <a href="#type" class="nt">type</a></pre><pre><a name="interfaceMemberDefinition" class="nt">interfaceMemberDefinition</a> ::=
+	<a href="#STATIC" class="nt">STATIC</a> <a href="#FINAL" class="nt">FINAL</a> <a href="#type" class="nt">type</a><span class="meta">?</span> <a href="#initializedIdentifierList" class="nt">initializedIdentifierList</a> <span class="t">";"</span>
+	<a href="#functionDeclaration" class="nt">functionDeclaration</a> <span class="t">";"</span>
+	<a href="#constantConstructorDeclaration" class="nt">constantConstructorDeclaration</a> <span class="t">";"</span>
+	<a href="#namedConstructorDeclaration" class="nt">namedConstructorDeclaration</a> <span class="t">";"</span>
+	<a href="#specialSignatureDefinition" class="nt">specialSignatureDefinition</a> <span class="t">";"</span>
+	<a href="#variableDeclaration" class="nt">variableDeclaration</a> <span class="t">";"</span></pre><pre><a name="initializedIdentifierList" class="nt">initializedIdentifierList</a> ::=
+	<a href="#initializedIdentifier" class="nt">initializedIdentifier</a> <span class="meta">(</span><span class="t">","</span> <a href="#initializedIdentifier" class="nt">initializedIdentifier</a><span class="meta">)</span><span class="meta">*</span></pre><pre><a name="variableDeclaration" class="nt">variableDeclaration</a> ::=
+	<a href="#declaredIdentifier" class="nt">declaredIdentifier</a> <span class="meta">(</span><span class="t">","</span> <a href="#identifier" class="nt">identifier</a><span class="meta">)</span><span class="meta">*</span></pre><pre><a name="functionTypeAlias" class="nt">functionTypeAlias</a> ::=
+	<a href="#TYPEDEF" class="nt">TYPEDEF</a> <a href="#functionPrefix" class="nt">functionPrefix</a> <a href="#typeParameters" class="nt">typeParameters</a><span class="meta">?</span> <a href="#formalParameterList" class="nt">formalParameterList</a> <span class="t">";"</span></pre><pre><a name="functionPrefix" class="nt">functionPrefix</a> ::=
+	<a href="#returnType" class="nt">returnType</a><span class="meta">?</span> <a href="#identifier" class="nt">identifier</a></pre><pre><a name="libraryUnit" class="nt">libraryUnit</a> ::=
+	<a href="#libraryDefinition" class="nt">libraryDefinition</a> <a href="#EOF" class="nt">EOF</a></pre><pre><a name="libraryDefinition" class="nt">libraryDefinition</a> ::=
+	<a href="#LIBRARY" class="nt">LIBRARY</a> <span class="t">"{"</span> <a href="#libraryBody" class="nt">libraryBody</a> <span class="t">"}"</span></pre><pre><a name="libraryBody" class="nt">libraryBody</a> ::=
+	<a href="#libraryImport" class="nt">libraryImport</a><span class="meta">?</span> <a href="#librarySource" class="nt">librarySource</a><span class="meta">?</span></pre><pre><a name="libraryImport" class="nt">libraryImport</a> ::=
+	<a href="#IMPORT" class="nt">IMPORT</a> <span class="t">"="</span> <span class="t">"["</span> <a href="#importReferences" class="nt">importReferences</a><span class="meta">?</span> <span class="t">"]"</span></pre><pre><a name="importReferences" class="nt">importReferences</a> ::=
+	<a href="#importReference" class="nt">importReference</a> <span class="meta">(</span><span class="t">","</span> <a href="#importReference" class="nt">importReference</a><span class="meta">)</span><span class="meta">*</span> <span class="t">","</span><span class="meta">?</span></pre><pre><a name="importReference" class="nt">importReference</a> ::=
+	<span class="meta">(</span><a href="#IDENTIFIER" class="nt">IDENTIFIER</a> <span class="t">":"</span><span class="meta">)</span><span class="meta">?</span> <a href="#STRING" class="nt">STRING</a></pre><pre><a name="librarySource" class="nt">librarySource</a> ::=
+	<a href="#SOURCE" class="nt">SOURCE</a> <span class="t">"="</span> <span class="t">"["</span> <a href="#sourceUrls" class="nt">sourceUrls</a><span class="meta">?</span> <span class="t">"]"</span></pre><pre><a name="sourceUrls" class="nt">sourceUrls</a> ::=
+	<a href="#STRING" class="nt">STRING</a> <span class="meta">(</span><span class="t">","</span> <a href="#STRING" class="nt">STRING</a><span class="meta">)</span><span class="meta">*</span> <span class="t">","</span><span class="meta">?</span></pre><hr /><div class="b"><a href="http://grammarware.github.io/lab"><img src="../../../by-grammarlab.png" alt="GrammarLab" title="Powered by GrammarLab"></img></a>Maintained by Dr. <a href="http://grammarware.net/">Vadim Zaytsev</a> a.k.a. @<a href="http://twitter.com/grammarware">grammarware</a>. Last updated in October 2014. <span class="links"> [<a href="#TOP">↑</a>]</span></div></body></html>
