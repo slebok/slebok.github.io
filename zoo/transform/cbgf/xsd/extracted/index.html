@@ -1,0 +1,275 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="content-type" content="text/html; charset=utf-8" /><title>Grammar Zoo - Browsable ΞBGF Grammar</title><link href="../../../../slps.css" rel="stylesheet" type="text/css" /></head><body><h1 class="l"><a name="TOP"></a>Browsable ΞBGF Grammar</h1><a href="http://creativecommons.org/licenses/by/3.0/"><img src="../../../../cc-by.png" alt="CC-BY" title="View the CC-BY license"></img></a><p>Grammar extracted by <strong><a href="http://grammarware.net/">Vadim Zaytsev</a></strong>, see the <a href="http://grammarzoo.github.io/">Grammar Zoo</a> entry for details: <a href="../../../../index.html#transform_cbgf_xsd_extracted">transform/cbgf/xsd/extracted</a><br />Source used for this grammar: Vadim Zaytsev, <em>Software Language Processing Suite, </em>ΞBGF, <code>shared/xsd/cbgf.xsd</code>,  2012<span class="links"> [<a href="https://github.com/grammarware/slps/blob/master/shared/xsd/cbgf.xsd">Explore</a>]</span></p><h2 class="l">Summary</h2><ul class="nl"><li>Total <strong>129</strong> production rules with <strong>273</strong> top alternatives and <strong>896</strong> symbols.</li><li>Vocabulary: <strong>150</strong> = <strong>115</strong> nonterminals + <strong>0</strong> terminals + <strong>35</strong> labels + <strong>0</strong> markers.</li><li>Total <strong>115</strong> nonterminal symbols: <strong>115</strong> defined (<code><a href="#sequence" class="nt">sequence</a></code>, <code><a href="#transformation" class="nt">transformation</a></code>, <code><a href="#folding-unfolding-transformation" class="nt">folding-unfolding-transformation</a></code>, <code><a href="#unfold-fold" class="nt">unfold-fold</a></code>, <code><a href="#nonterminal" class="nt">nonterminal</a></code>, <code><a href="#scope" class="nt">scope</a></code>, <code><a href="#label" class="nt">label</a></code>, <code><a href="#fold-unfold" class="nt">fold-unfold</a></code>, <code><a href="#inline-extract" class="nt">inline-extract</a></code>, <code><a href="#production" class="nt">production</a></code>, <code><a href="#expression" class="nt">expression</a></code>, <code><a href="#value" class="nt">value</a></code>, <code><a href="#terminal" class="nt">terminal</a></code>, <code><a href="#selector" class="nt">selector</a></code>, <code><a href="#extract-inline" class="nt">extract-inline</a></code>, <code><a href="#abridge-detour" class="nt">abridge-detour</a></code>, <code><a href="#detour-abridge" class="nt">detour-abridge</a></code>, <code><a href="#unchain-chain" class="nt">unchain-chain</a></code>, <code><a href="#chain-unchain" class="nt">chain-unchain</a></code>, <code><a href="#unfold" class="nt">unfold</a></code>, <code><a href="#fold" class="nt">fold</a></code>, <code><a href="#inline" class="nt">inline</a></code>, <code><a href="#extract" class="nt">extract</a></code>, <code><a href="#abridge" class="nt">abridge</a></code>, <code><a href="#detour" class="nt">detour</a></code>, <code><a href="#unchain" class="nt">unchain</a></code>, <code><a href="#chain" class="nt">chain</a></code>, <code><a href="#refactoring-transformation" class="nt">refactoring-transformation</a></code>, <code><a href="#massage-massage" class="nt">massage-massage</a></code>, <code><a href="#factor-factor" class="nt">factor-factor</a></code>, <code><a href="#deyaccify-yaccify" class="nt">deyaccify-yaccify</a></code>, <code><a href="#yaccify-deyaccify" class="nt">yaccify-deyaccify</a></code>, <code><a href="#eliminate-introduce" class="nt">eliminate-introduce</a></code>, <code><a href="#introduce-eliminate" class="nt">introduce-eliminate</a></code>, <code><a href="#vertical-horizontal" class="nt">vertical-horizontal</a></code>, <code><a href="#horizontal-vertical" class="nt">horizontal-vertical</a></code>, <code><a href="#assoc-iterate" class="nt">assoc-iterate</a></code>, <code><a href="#iterate-assoc" class="nt">iterate-assoc</a></code>, <code><a href="#equate-clone" class="nt">equate-clone</a></code>, <code><a href="#clone-equate" class="nt">clone-equate</a></code>, <code><a href="#massage" class="nt">massage</a></code>, <code><a href="#distribute" class="nt">distribute</a></code>, <code><a href="#factor" class="nt">factor</a></code>, <code><a href="#deyaccify" class="nt">deyaccify</a></code>, <code><a href="#yaccify" class="nt">yaccify</a></code>, <code><a href="#eliminate" class="nt">eliminate</a></code>, <code><a href="#introduce" class="nt">introduce</a></code>, <code><a href="#import" class="nt">import</a></code>, <code><a href="#vertical" class="nt">vertical</a></code>, <code><a href="#horizontal" class="nt">horizontal</a></code>, <code><a href="#equate" class="nt">equate</a></code>, <code><a href="#rassoc" class="nt">rassoc</a></code>, <code><a href="#lassoc" class="nt">lassoc</a></code>, <code><a href="#iterate" class="nt">iterate</a></code>, <code><a href="#splitT" class="nt">splitT</a></code>, <code><a href="#increasing-decreasing-transformation" class="nt">increasing-decreasing-transformation</a></code>, <code><a href="#add-remove" class="nt">add-remove</a></code>, <code><a href="#remove-add" class="nt">remove-add</a></code>, <code><a href="#appear-disappear" class="nt">appear-disappear</a></code>, <code><a href="#disappear-appear" class="nt">disappear-appear</a></code>, <code><a href="#widen-narrow" class="nt">widen-narrow</a></code>, <code><a href="#narrow-widen" class="nt">narrow-widen</a></code>, <code><a href="#upgrade-downgrade" class="nt">upgrade-downgrade</a></code>, <code><a href="#downgrade-upgrade" class="nt">downgrade-upgrade</a></code>, <code><a href="#unite-split" class="nt">unite-split</a></code>, <code><a href="#split-unite" class="nt">split-unite</a></code>, <code><a href="#concrete-revising-transformation" class="nt">concrete-revising-transformation</a></code>, <code><a href="#abstractize-concretize" class="nt">abstractize-concretize</a></code>, <code><a href="#concretize-abstractize" class="nt">concretize-abstractize</a></code>, <code><a href="#permute-permute" class="nt">permute-permute</a></code>, <code><a href="#abstractize" class="nt">abstractize</a></code>, <code><a href="#concretize" class="nt">concretize</a></code>, <code><a href="#permute" class="nt">permute</a></code>, <code><a href="#abstract-revising-transformation" class="nt">abstract-revising-transformation</a></code>, <code><a href="#define-undefine" class="nt">define-undefine</a></code>, <code><a href="#undefine-define" class="nt">undefine-define</a></code>, <code><a href="#inject-project" class="nt">inject-project</a></code>, <code><a href="#project-inject" class="nt">project-inject</a></code>, <code><a href="#replace-replace" class="nt">replace-replace</a></code>, <code><a href="#define" class="nt">define</a></code>, <code><a href="#undefine" class="nt">undefine</a></code>, <code><a href="#redefine" class="nt">redefine</a></code>, <code><a href="#inject" class="nt">inject</a></code>, <code><a href="#project" class="nt">project</a></code>, <code><a href="#replace" class="nt">replace</a></code>, <code><a href="#decorative-transformation" class="nt">decorative-transformation</a></code>, <code><a href="#designate-unlabel" class="nt">designate-unlabel</a></code>, <code><a href="#unlabel-designate" class="nt">unlabel-designate</a></code>, <code><a href="#deanonymize-anonymize" class="nt">deanonymize-anonymize</a></code>, <code><a href="#anonymize-deanonymize" class="nt">anonymize-deanonymize</a></code>, <code><a href="#designate" class="nt">designate</a></code>, <code><a href="#unlabel" class="nt">unlabel</a></code>, <code><a href="#deanonymize" class="nt">deanonymize</a></code>, <code><a href="#anonymize" class="nt">anonymize</a></code>, <code><a href="#rename-rename" class="nt">rename-rename</a></code>, <code><a href="#reroot-reroot" class="nt">reroot-reroot</a></code>, <code><a href="#roots" class="nt">roots</a></code>, <code><a href="#increasing-transformation" class="nt">increasing-transformation</a></code>, <code><a href="#add" class="nt">add</a></code>, <code><a href="#appear" class="nt">appear</a></code>, <code><a href="#widen" class="nt">widen</a></code>, <code><a href="#upgrade" class="nt">upgrade</a></code>, <code><a href="#unite" class="nt">unite</a></code>, <code><a href="#decreasing-transformation" class="nt">decreasing-transformation</a></code>, <code><a href="#remove" class="nt">remove</a></code>, <code><a href="#disappear" class="nt">disappear</a></code>, <code><a href="#narrow" class="nt">narrow</a></code>, <code><a href="#downgrade" class="nt">downgrade</a></code>, <code><a href="#split" class="nt">split</a></code>, <code><a href="#rename" class="nt">rename</a></code>, <code><a href="#reroot" class="nt">reroot</a></code>, <code><a href="#strip" class="nt">strip</a></code>, <code><a href="#dump" class="nt">dump</a></code>, <code><a href="#bypass" class="nt">bypass</a></code>, <code><a href="#atomic" class="nt">atomic</a></code>), <strong>1</strong> root (<code><a href="#sequence" class="nt">sequence</a></code>), <strong>0</strong> top (—), <strong>0</strong> bottom (—).</li><li>Total <strong>35</strong> labels: <code>[<a href="#nonterminal" class="lbl">nonterminal</a>]</code><sup> 19</sup>, <code>[<a href="#in" class="lbl">in</a>]</code><sup> 24</sup>, <code>[<a href="#label" class="lbl">label</a>]</code><sup> 8</sup>, <code>[<a href="#epsilon" class="lbl">epsilon</a>]</code><sup> 2</sup>, <code>[<a href="#empty" class="lbl">empty</a>]</code><sup> 2</sup>, <code>[<a href="#value" class="lbl">value</a>]</code><sup> 2</sup>, <code>[<a href="#any" class="lbl">any</a>]</code><sup> 2</sup>, <code>[<a href="#terminal" class="lbl">terminal</a>]</code><sup> 7</sup>, <code>[<a href="#selector" class="lbl">selector</a>]</code><sup> 5</sup>, <code>[<a href="#selectable" class="lbl">selectable</a>]</code><sup> 2</sup>, <code>[<a href="#marked" class="lbl">marked</a>]</code><sup> 2</sup>, <code>[<a href="#sequence" class="lbl">sequence</a>]</code><sup> 2</sup>, <code>[<a href="#choice" class="lbl">choice</a>]</code><sup> 2</sup>, <code>[<a href="#allof" class="lbl">allof</a>]</code><sup> 2</sup>, <code>[<a href="#not" class="lbl">not</a>]</code><sup> 2</sup>, <code>[<a href="#optional" class="lbl">optional</a>]</code><sup> 2</sup>, <code>[<a href="#plus" class="lbl">plus</a>]</code><sup> 2</sup>, <code>[<a href="#star" class="lbl">star</a>]</code><sup> 2</sup>, <code>[<a href="#seplistplus" class="lbl">seplistplus</a>]</code><sup> 2</sup>, <code>[<a href="#sepliststar" class="lbl">sepliststar</a>]</code><sup> 2</sup>, <code>[<a href="#int" class="lbl">int</a>]</code><sup> 2</sup>, <code>[<a href="#string" class="lbl">string</a>]</code><sup> 2</sup>, <code>[<a href="#align" class="lbl">align</a>]</code><sup> 3</sup>, <code>[<a href="#with" class="lbl">with</a>]</code><sup> 3</sup>, <code>[<a href="#into" class="lbl">into</a>]</code>, <code>[<a href="#vertical" class="lbl">vertical</a>]</code><sup> 4</sup>, <code>[<a href="#horizontal" class="lbl">horizontal</a>]</code><sup> 4</sup>, <code>[<a href="#add" class="lbl">add</a>]</code><sup> 3</sup>, <code>[<a href="#to" class="lbl">to</a>]</code><sup> 12</sup>, <code>[<a href="#tag" class="lbl">tag</a>]</code><sup> 7</sup>, <code>[<a href="#from" class="lbl">from</a>]</code><sup> 9</sup>, <code>[<a href="#root" class="lbl">root</a>]</code><sup> 2</sup>, <code>[<a href="#allLabels" class="lbl">allLabels</a>]</code>, <code>[<a href="#allSelectors" class="lbl">allSelectors</a>]</code>, <code>[<a href="#allTerminals" class="lbl">allTerminals</a>]</code>.</li></ul><h2 class="l">Syntax</h2><pre><a name="sequence" class="nt">sequence</a> ::=
+	<span class="meta">(</span><a href="#transformation" class="nt">transformation</a><span class="meta"> | </span><a href="#atomic" class="nt">atomic</a><span class="meta">)</span><span class="meta">*</span></pre><pre><a name="transformation" class="nt">transformation</a> ::=
+	<a href="#folding-unfolding-transformation" class="nt">folding-unfolding-transformation</a>
+	<a href="#refactoring-transformation" class="nt">refactoring-transformation</a>
+	<a href="#increasing-decreasing-transformation" class="nt">increasing-decreasing-transformation</a>
+	<a href="#concrete-revising-transformation" class="nt">concrete-revising-transformation</a>
+	<a href="#abstract-revising-transformation" class="nt">abstract-revising-transformation</a>
+	<a href="#decorative-transformation" class="nt">decorative-transformation</a>
+	<a href="#rename-rename" class="nt">rename-rename</a>
+	<a href="#reroot-reroot" class="nt">reroot-reroot</a></pre><pre><a name="transformation" class="nt">transformation</a> ::=
+	<a href="#folding-unfolding-transformation" class="nt">folding-unfolding-transformation</a>
+	<a href="#refactoring-transformation" class="nt">refactoring-transformation</a>
+	<a href="#increasing-transformation" class="nt">increasing-transformation</a>
+	<a href="#decreasing-transformation" class="nt">decreasing-transformation</a>
+	<a href="#concrete-revising-transformation" class="nt">concrete-revising-transformation</a>
+	<a href="#abstract-revising-transformation" class="nt">abstract-revising-transformation</a>
+	<a href="#decorative-transformation" class="nt">decorative-transformation</a>
+	<a href="#rename" class="nt">rename</a>
+	<a href="#reroot" class="nt">reroot</a>
+	<a href="#strip" class="nt">strip</a>
+	<a href="#dump" class="nt">dump</a>
+	<a href="#bypass" class="nt">bypass</a></pre><pre><a name="folding-unfolding-transformation" class="nt">folding-unfolding-transformation</a> ::=
+	<a href="#unfold-fold" class="nt">unfold-fold</a>
+	<a href="#fold-unfold" class="nt">fold-unfold</a>
+	<a href="#inline-extract" class="nt">inline-extract</a>
+	<a href="#extract-inline" class="nt">extract-inline</a>
+	<a href="#abridge-detour" class="nt">abridge-detour</a>
+	<a href="#detour-abridge" class="nt">detour-abridge</a>
+	<a href="#unchain-chain" class="nt">unchain-chain</a>
+	<a href="#chain-unchain" class="nt">chain-unchain</a></pre><pre><a name="folding-unfolding-transformation" class="nt">folding-unfolding-transformation</a> ::=
+	<a href="#unfold" class="nt">unfold</a>
+	<a href="#fold" class="nt">fold</a>
+	<a href="#inline" class="nt">inline</a>
+	<a href="#extract" class="nt">extract</a>
+	<a href="#abridge" class="nt">abridge</a>
+	<a href="#detour" class="nt">detour</a>
+	<a href="#unchain" class="nt">unchain</a>
+	<a href="#chain" class="nt">chain</a></pre><pre><a name="unfold-fold" class="nt">unfold-fold</a> ::=
+	[<a name="nonterminal" class="lbl">nonterminal</a>]::<a href="#nonterminal" class="nt">nonterminal</a> [<a name="in" class="lbl">in</a>]::<a href="#scope" class="nt">scope</a><span class="meta">?</span></pre><pre><a name="nonterminal" class="nt">nonterminal</a> ::=
+	string</pre><pre><a name="nonterminal" class="nt">nonterminal</a> ::=
+	string</pre><pre><a name="scope" class="nt">scope</a> ::=
+	[<a name="label" class="lbl">label</a>]::<a href="#label" class="nt">label</a>
+	[<a name="nonterminal" class="lbl">nonterminal</a>]::<a href="#nonterminal" class="nt">nonterminal</a></pre><pre><a name="scope" class="nt">scope</a> ::=
+	[<a name="label" class="lbl">label</a>]::<a href="#label" class="nt">label</a>
+	[<a name="nonterminal" class="lbl">nonterminal</a>]::<a href="#nonterminal" class="nt">nonterminal</a></pre><pre><a name="label" class="nt">label</a> ::=
+	string</pre><pre><a name="label" class="nt">label</a> ::=
+	string</pre><pre><a name="fold-unfold" class="nt">fold-unfold</a> ::=
+	[<a name="nonterminal" class="lbl">nonterminal</a>]::<a href="#nonterminal" class="nt">nonterminal</a> [<a name="in" class="lbl">in</a>]::<a href="#scope" class="nt">scope</a><span class="meta">?</span></pre><pre><a name="inline-extract" class="nt">inline-extract</a> ::=
+	<a href="#production" class="nt">production</a> [<a name="in" class="lbl">in</a>]::<a href="#scope" class="nt">scope</a><span class="meta">?</span></pre><pre><a name="production" class="nt">production</a> ::=
+	[<a name="label" class="lbl">label</a>]::<a href="#label" class="nt">label</a><span class="meta">?</span> [<a name="nonterminal" class="lbl">nonterminal</a>]::<a href="#nonterminal" class="nt">nonterminal</a> <a href="#expression" class="nt">expression</a></pre><pre><a name="production" class="nt">production</a> ::=
+	[<a name="label" class="lbl">label</a>]::<a href="#label" class="nt">label</a><span class="meta">?</span> [<a name="nonterminal" class="lbl">nonterminal</a>]::<a href="#nonterminal" class="nt">nonterminal</a> <a href="#expression" class="nt">expression</a></pre><pre><a name="expression" class="nt">expression</a> ::=
+	[<a name="epsilon" class="lbl">epsilon</a>]::ε
+	[<a name="empty" class="lbl">empty</a>]::ε
+	[<a name="value" class="lbl">value</a>]::<a href="#value" class="nt">value</a>
+	[<a name="any" class="lbl">any</a>]::ε
+	[<a name="terminal" class="lbl">terminal</a>]::<a href="#terminal" class="nt">terminal</a>
+	[<a name="nonterminal" class="lbl">nonterminal</a>]::<a href="#nonterminal" class="nt">nonterminal</a>
+	[<a name="selectable" class="lbl">selectable</a>]::<span class="meta">(</span>[<a name="selector" class="lbl">selector</a>]::<a href="#selector" class="nt">selector</a> <a href="#expression" class="nt">expression</a><span class="meta">)</span>
+	[<a name="marked" class="lbl">marked</a>]::<a href="#expression" class="nt">expression</a>
+	[<a name="sequence" class="lbl">sequence</a>]::<a href="#expression" class="nt">expression</a><span class="meta">+</span>
+	[<a name="choice" class="lbl">choice</a>]::<a href="#expression" class="nt">expression</a><span class="meta">+</span>
+	[<a name="allof" class="lbl">allof</a>]::<a href="#expression" class="nt">expression</a><span class="meta">+</span>
+	[<a name="not" class="lbl">not</a>]::<a href="#expression" class="nt">expression</a>
+	[<a name="optional" class="lbl">optional</a>]::<a href="#expression" class="nt">expression</a>
+	[<a name="plus" class="lbl">plus</a>]::<a href="#expression" class="nt">expression</a>
+	[<a name="star" class="lbl">star</a>]::<a href="#expression" class="nt">expression</a>
+	[<a name="seplistplus" class="lbl">seplistplus</a>]::<span class="meta">(</span><a href="#expression" class="nt">expression</a> <a href="#expression" class="nt">expression</a><span class="meta">)</span>
+	[<a name="sepliststar" class="lbl">sepliststar</a>]::<span class="meta">(</span><a href="#expression" class="nt">expression</a> <a href="#expression" class="nt">expression</a><span class="meta">)</span></pre><pre><a name="expression" class="nt">expression</a> ::=
+	[<a name="epsilon" class="lbl">epsilon</a>]::ε
+	[<a name="empty" class="lbl">empty</a>]::ε
+	[<a name="value" class="lbl">value</a>]::<a href="#value" class="nt">value</a>
+	[<a name="any" class="lbl">any</a>]::ε
+	[<a name="terminal" class="lbl">terminal</a>]::<a href="#terminal" class="nt">terminal</a>
+	[<a name="nonterminal" class="lbl">nonterminal</a>]::<a href="#nonterminal" class="nt">nonterminal</a>
+	[<a name="selectable" class="lbl">selectable</a>]::<span class="meta">(</span>[<a name="selector" class="lbl">selector</a>]::<a href="#selector" class="nt">selector</a> <a href="#expression" class="nt">expression</a><span class="meta">)</span>
+	[<a name="marked" class="lbl">marked</a>]::<a href="#expression" class="nt">expression</a>
+	[<a name="sequence" class="lbl">sequence</a>]::<a href="#expression" class="nt">expression</a><span class="meta">+</span>
+	[<a name="choice" class="lbl">choice</a>]::<a href="#expression" class="nt">expression</a><span class="meta">+</span>
+	[<a name="allof" class="lbl">allof</a>]::<a href="#expression" class="nt">expression</a><span class="meta">+</span>
+	[<a name="not" class="lbl">not</a>]::<a href="#expression" class="nt">expression</a>
+	[<a name="optional" class="lbl">optional</a>]::<a href="#expression" class="nt">expression</a>
+	[<a name="plus" class="lbl">plus</a>]::<a href="#expression" class="nt">expression</a>
+	[<a name="star" class="lbl">star</a>]::<a href="#expression" class="nt">expression</a>
+	[<a name="seplistplus" class="lbl">seplistplus</a>]::<span class="meta">(</span><a href="#expression" class="nt">expression</a> <a href="#expression" class="nt">expression</a><span class="meta">)</span>
+	[<a name="sepliststar" class="lbl">sepliststar</a>]::<span class="meta">(</span><a href="#expression" class="nt">expression</a> <a href="#expression" class="nt">expression</a><span class="meta">)</span></pre><pre><a name="value" class="nt">value</a> ::=
+	[<a name="int" class="lbl">int</a>]::ε
+	[<a name="string" class="lbl">string</a>]::ε</pre><pre><a name="value" class="nt">value</a> ::=
+	[<a name="int" class="lbl">int</a>]::ε
+	[<a name="string" class="lbl">string</a>]::ε</pre><pre><a name="terminal" class="nt">terminal</a> ::=
+	string</pre><pre><a name="terminal" class="nt">terminal</a> ::=
+	string</pre><pre><a name="selector" class="nt">selector</a> ::=
+	string</pre><pre><a name="selector" class="nt">selector</a> ::=
+	string</pre><pre><a name="extract-inline" class="nt">extract-inline</a> ::=
+	<a href="#production" class="nt">production</a> [<a name="in" class="lbl">in</a>]::<a href="#scope" class="nt">scope</a><span class="meta">?</span></pre><pre><a name="abridge-detour" class="nt">abridge-detour</a> ::=
+	<a href="#production" class="nt">production</a></pre><pre><a name="detour-abridge" class="nt">detour-abridge</a> ::=
+	<a href="#production" class="nt">production</a></pre><pre><a name="unchain-chain" class="nt">unchain-chain</a> ::=
+	<a href="#production" class="nt">production</a></pre><pre><a name="chain-unchain" class="nt">chain-unchain</a> ::=
+	<a href="#production" class="nt">production</a></pre><pre><a name="unfold" class="nt">unfold</a> ::=
+	[<a name="nonterminal" class="lbl">nonterminal</a>]::<a href="#nonterminal" class="nt">nonterminal</a> [<a name="in" class="lbl">in</a>]::<a href="#scope" class="nt">scope</a><span class="meta">?</span></pre><pre><a name="fold" class="nt">fold</a> ::=
+	[<a name="nonterminal" class="lbl">nonterminal</a>]::<a href="#nonterminal" class="nt">nonterminal</a> [<a name="in" class="lbl">in</a>]::<a href="#scope" class="nt">scope</a><span class="meta">?</span></pre><pre><a name="inline" class="nt">inline</a> ::=
+	<a href="#nonterminal" class="nt">nonterminal</a></pre><pre><a name="extract" class="nt">extract</a> ::=
+	<a href="#production" class="nt">production</a> [<a name="in" class="lbl">in</a>]::<a href="#scope" class="nt">scope</a><span class="meta">?</span></pre><pre><a name="abridge" class="nt">abridge</a> ::=
+	<a href="#production" class="nt">production</a></pre><pre><a name="detour" class="nt">detour</a> ::=
+	<a href="#production" class="nt">production</a></pre><pre><a name="unchain" class="nt">unchain</a> ::=
+	<a href="#production" class="nt">production</a></pre><pre><a name="chain" class="nt">chain</a> ::=
+	<a href="#production" class="nt">production</a></pre><pre><a name="refactoring-transformation" class="nt">refactoring-transformation</a> ::=
+	<a href="#massage-massage" class="nt">massage-massage</a>
+	<a href="#factor-factor" class="nt">factor-factor</a>
+	<a href="#deyaccify-yaccify" class="nt">deyaccify-yaccify</a>
+	<a href="#yaccify-deyaccify" class="nt">yaccify-deyaccify</a>
+	<a href="#eliminate-introduce" class="nt">eliminate-introduce</a>
+	<a href="#introduce-eliminate" class="nt">introduce-eliminate</a>
+	<a href="#vertical-horizontal" class="nt">vertical-horizontal</a>
+	<a href="#horizontal-vertical" class="nt">horizontal-vertical</a>
+	<a href="#assoc-iterate" class="nt">assoc-iterate</a>
+	<a href="#iterate-assoc" class="nt">iterate-assoc</a>
+	<a href="#equate-clone" class="nt">equate-clone</a>
+	<a href="#clone-equate" class="nt">clone-equate</a></pre><pre><a name="refactoring-transformation" class="nt">refactoring-transformation</a> ::=
+	<a href="#massage" class="nt">massage</a>
+	<a href="#distribute" class="nt">distribute</a>
+	<a href="#factor" class="nt">factor</a>
+	<a href="#deyaccify" class="nt">deyaccify</a>
+	<a href="#yaccify" class="nt">yaccify</a>
+	<a href="#eliminate" class="nt">eliminate</a>
+	<a href="#introduce" class="nt">introduce</a>
+	<a href="#import" class="nt">import</a>
+	<a href="#vertical" class="nt">vertical</a>
+	<a href="#horizontal" class="nt">horizontal</a>
+	<a href="#equate" class="nt">equate</a>
+	<a href="#rassoc" class="nt">rassoc</a>
+	<a href="#lassoc" class="nt">lassoc</a>
+	<a href="#iterate" class="nt">iterate</a>
+	<a href="#splitT" class="nt">splitT</a></pre><pre><a name="massage-massage" class="nt">massage-massage</a> ::=
+	<a href="#expression" class="nt">expression</a> <a href="#expression" class="nt">expression</a> [<a name="in" class="lbl">in</a>]::<a href="#scope" class="nt">scope</a><span class="meta">?</span></pre><pre><a name="factor-factor" class="nt">factor-factor</a> ::=
+	<a href="#expression" class="nt">expression</a> <a href="#expression" class="nt">expression</a> [<a name="in" class="lbl">in</a>]::<a href="#scope" class="nt">scope</a><span class="meta">?</span></pre><pre><a name="deyaccify-yaccify" class="nt">deyaccify-yaccify</a> ::=
+	<a href="#production" class="nt">production</a><span class="meta">+</span></pre><pre><a name="yaccify-deyaccify" class="nt">yaccify-deyaccify</a> ::=
+	<a href="#production" class="nt">production</a><span class="meta">+</span></pre><pre><a name="eliminate-introduce" class="nt">eliminate-introduce</a> ::=
+	<a href="#production" class="nt">production</a><span class="meta">+</span></pre><pre><a name="introduce-eliminate" class="nt">introduce-eliminate</a> ::=
+	<a href="#production" class="nt">production</a><span class="meta">+</span></pre><pre><a name="vertical-horizontal" class="nt">vertical-horizontal</a> ::=
+	[<a name="nonterminal" class="lbl">nonterminal</a>]::<a href="#nonterminal" class="nt">nonterminal</a></pre><pre><a name="horizontal-vertical" class="nt">horizontal-vertical</a> ::=
+	[<a name="nonterminal" class="lbl">nonterminal</a>]::<a href="#nonterminal" class="nt">nonterminal</a></pre><pre><a name="assoc-iterate" class="nt">assoc-iterate</a> ::=
+	<a href="#production" class="nt">production</a> <a href="#production" class="nt">production</a></pre><pre><a name="iterate-assoc" class="nt">iterate-assoc</a> ::=
+	<a href="#production" class="nt">production</a> <a href="#production" class="nt">production</a></pre><pre><a name="equate-clone" class="nt">equate-clone</a> ::=
+	[<a name="align" class="lbl">align</a>]::<a href="#production" class="nt">production</a><span class="meta">+</span> [<a name="with" class="lbl">with</a>]::<a href="#nonterminal" class="nt">nonterminal</a> [<a name="in" class="lbl">in</a>]::<a href="#scope" class="nt">scope</a><span class="meta">+</span></pre><pre><a name="clone-equate" class="nt">clone-equate</a> ::=
+	[<a name="align" class="lbl">align</a>]::<a href="#production" class="nt">production</a><span class="meta">+</span> [<a name="with" class="lbl">with</a>]::<a href="#nonterminal" class="nt">nonterminal</a> [<a name="in" class="lbl">in</a>]::<a href="#scope" class="nt">scope</a><span class="meta">+</span></pre><pre><a name="massage" class="nt">massage</a> ::=
+	<a href="#expression" class="nt">expression</a> <a href="#expression" class="nt">expression</a> [<a name="in" class="lbl">in</a>]::<a href="#scope" class="nt">scope</a><span class="meta">?</span></pre><pre><a name="distribute" class="nt">distribute</a> ::=
+	<a href="#scope" class="nt">scope</a></pre><pre><a name="factor" class="nt">factor</a> ::=
+	<a href="#expression" class="nt">expression</a> <a href="#expression" class="nt">expression</a> [<a name="in" class="lbl">in</a>]::<a href="#scope" class="nt">scope</a><span class="meta">?</span></pre><pre><a name="deyaccify" class="nt">deyaccify</a> ::=
+	[<a name="nonterminal" class="lbl">nonterminal</a>]::<a href="#nonterminal" class="nt">nonterminal</a></pre><pre><a name="yaccify" class="nt">yaccify</a> ::=
+	<a href="#production" class="nt">production</a><span class="meta">+</span></pre><pre><a name="eliminate" class="nt">eliminate</a> ::=
+	[<a name="nonterminal" class="lbl">nonterminal</a>]::<a href="#nonterminal" class="nt">nonterminal</a></pre><pre><a name="introduce" class="nt">introduce</a> ::=
+	<a href="#production" class="nt">production</a><span class="meta">+</span></pre><pre><a name="import" class="nt">import</a> ::=
+	<a href="#production" class="nt">production</a><span class="meta">+</span></pre><pre><a name="vertical" class="nt">vertical</a> ::=
+	<a href="#scope" class="nt">scope</a></pre><pre><a name="horizontal" class="nt">horizontal</a> ::=
+	[<a name="nonterminal" class="lbl">nonterminal</a>]::<a href="#nonterminal" class="nt">nonterminal</a></pre><pre><a name="equate" class="nt">equate</a> ::=
+	[<a name="align" class="lbl">align</a>]::<a href="#nonterminal" class="nt">nonterminal</a> [<a name="with" class="lbl">with</a>]::<a href="#nonterminal" class="nt">nonterminal</a></pre><pre><a name="rassoc" class="nt">rassoc</a> ::=
+	<a href="#production" class="nt">production</a></pre><pre><a name="lassoc" class="nt">lassoc</a> ::=
+	<a href="#production" class="nt">production</a></pre><pre><a name="iterate" class="nt">iterate</a> ::=
+	<a href="#production" class="nt">production</a></pre><pre><a name="splitT" class="nt">splitT</a> ::=
+	[<a name="terminal" class="lbl">terminal</a>]::<a href="#terminal" class="nt">terminal</a> [<a name="into" class="lbl">into</a>]::[<a name="terminal" class="lbl">terminal</a>]::<a href="#terminal" class="nt">terminal</a><span class="meta">+</span> [<a name="in" class="lbl">in</a>]::<a href="#scope" class="nt">scope</a><span class="meta">?</span></pre><pre><a name="increasing-decreasing-transformation" class="nt">increasing-decreasing-transformation</a> ::=
+	<a href="#add-remove" class="nt">add-remove</a>
+	<a href="#remove-add" class="nt">remove-add</a>
+	<a href="#appear-disappear" class="nt">appear-disappear</a>
+	<a href="#disappear-appear" class="nt">disappear-appear</a>
+	<a href="#widen-narrow" class="nt">widen-narrow</a>
+	<a href="#narrow-widen" class="nt">narrow-widen</a>
+	<a href="#upgrade-downgrade" class="nt">upgrade-downgrade</a>
+	<a href="#downgrade-upgrade" class="nt">downgrade-upgrade</a>
+	<a href="#unite-split" class="nt">unite-split</a>
+	<a href="#split-unite" class="nt">split-unite</a></pre><pre><a name="add-remove" class="nt">add-remove</a> ::=
+	[<a name="vertical" class="lbl">vertical</a>]::<a href="#production" class="nt">production</a>
+	[<a name="horizontal" class="lbl">horizontal</a>]::<a href="#production" class="nt">production</a></pre><pre><a name="remove-add" class="nt">remove-add</a> ::=
+	[<a name="vertical" class="lbl">vertical</a>]::<a href="#production" class="nt">production</a>
+	[<a name="horizontal" class="lbl">horizontal</a>]::<a href="#production" class="nt">production</a></pre><pre><a name="appear-disappear" class="nt">appear-disappear</a> ::=
+	<a href="#production" class="nt">production</a></pre><pre><a name="disappear-appear" class="nt">disappear-appear</a> ::=
+	<a href="#production" class="nt">production</a></pre><pre><a name="widen-narrow" class="nt">widen-narrow</a> ::=
+	<a href="#expression" class="nt">expression</a> <a href="#expression" class="nt">expression</a> [<a name="in" class="lbl">in</a>]::<a href="#scope" class="nt">scope</a><span class="meta">?</span></pre><pre><a name="narrow-widen" class="nt">narrow-widen</a> ::=
+	<a href="#expression" class="nt">expression</a> <a href="#expression" class="nt">expression</a> [<a name="in" class="lbl">in</a>]::<a href="#scope" class="nt">scope</a><span class="meta">?</span></pre><pre><a name="upgrade-downgrade" class="nt">upgrade-downgrade</a> ::=
+	<a href="#production" class="nt">production</a> <a href="#production" class="nt">production</a></pre><pre><a name="downgrade-upgrade" class="nt">downgrade-upgrade</a> ::=
+	<a href="#production" class="nt">production</a> <a href="#production" class="nt">production</a></pre><pre><a name="unite-split" class="nt">unite-split</a> ::=
+	[<a name="add" class="lbl">add</a>]::<a href="#production" class="nt">production</a><span class="meta">+</span> [<a name="to" class="lbl">to</a>]::<a href="#production" class="nt">production</a><span class="meta">+</span> [<a name="in" class="lbl">in</a>]::<a href="#scope" class="nt">scope</a><span class="meta">+</span></pre><pre><a name="split-unite" class="nt">split-unite</a> ::=
+	[<a name="add" class="lbl">add</a>]::<a href="#production" class="nt">production</a><span class="meta">+</span> [<a name="to" class="lbl">to</a>]::<a href="#production" class="nt">production</a><span class="meta">+</span> [<a name="in" class="lbl">in</a>]::<a href="#scope" class="nt">scope</a><span class="meta">+</span></pre><pre><a name="concrete-revising-transformation" class="nt">concrete-revising-transformation</a> ::=
+	<a href="#abstractize-concretize" class="nt">abstractize-concretize</a>
+	<a href="#concretize-abstractize" class="nt">concretize-abstractize</a>
+	<a href="#permute-permute" class="nt">permute-permute</a></pre><pre><a name="concrete-revising-transformation" class="nt">concrete-revising-transformation</a> ::=
+	<a href="#abstractize" class="nt">abstractize</a>
+	<a href="#concretize" class="nt">concretize</a>
+	<a href="#permute" class="nt">permute</a></pre><pre><a name="abstractize-concretize" class="nt">abstractize-concretize</a> ::=
+	<a href="#production" class="nt">production</a></pre><pre><a name="concretize-abstractize" class="nt">concretize-abstractize</a> ::=
+	<a href="#production" class="nt">production</a></pre><pre><a name="permute-permute" class="nt">permute-permute</a> ::=
+	<a href="#production" class="nt">production</a> <a href="#production" class="nt">production</a></pre><pre><a name="abstractize" class="nt">abstractize</a> ::=
+	<a href="#production" class="nt">production</a></pre><pre><a name="concretize" class="nt">concretize</a> ::=
+	<a href="#production" class="nt">production</a></pre><pre><a name="permute" class="nt">permute</a> ::=
+	<a href="#production" class="nt">production</a></pre><pre><a name="abstract-revising-transformation" class="nt">abstract-revising-transformation</a> ::=
+	<a href="#define-undefine" class="nt">define-undefine</a>
+	<a href="#undefine-define" class="nt">undefine-define</a>
+	<a href="#inject-project" class="nt">inject-project</a>
+	<a href="#project-inject" class="nt">project-inject</a>
+	<a href="#replace-replace" class="nt">replace-replace</a></pre><pre><a name="abstract-revising-transformation" class="nt">abstract-revising-transformation</a> ::=
+	<a href="#define" class="nt">define</a>
+	<a href="#undefine" class="nt">undefine</a>
+	<a href="#redefine" class="nt">redefine</a>
+	<a href="#inject" class="nt">inject</a>
+	<a href="#project" class="nt">project</a>
+	<a href="#replace" class="nt">replace</a></pre><pre><a name="define-undefine" class="nt">define-undefine</a> ::=
+	<a href="#production" class="nt">production</a><span class="meta">+</span></pre><pre><a name="undefine-define" class="nt">undefine-define</a> ::=
+	<a href="#production" class="nt">production</a><span class="meta">+</span></pre><pre><a name="inject-project" class="nt">inject-project</a> ::=
+	<a href="#production" class="nt">production</a></pre><pre><a name="project-inject" class="nt">project-inject</a> ::=
+	<a href="#production" class="nt">production</a></pre><pre><a name="replace-replace" class="nt">replace-replace</a> ::=
+	<a href="#expression" class="nt">expression</a> <a href="#expression" class="nt">expression</a> [<a name="in" class="lbl">in</a>]::<a href="#scope" class="nt">scope</a><span class="meta">?</span> [<a name="tag" class="lbl">tag</a>]::string</pre><pre><a name="define" class="nt">define</a> ::=
+	<a href="#production" class="nt">production</a><span class="meta">+</span> [<a name="tag" class="lbl">tag</a>]::string</pre><pre><a name="undefine" class="nt">undefine</a> ::=
+	[<a name="nonterminal" class="lbl">nonterminal</a>]::<a href="#nonterminal" class="nt">nonterminal</a><span class="meta">+</span> [<a name="tag" class="lbl">tag</a>]::string</pre><pre><a name="redefine" class="nt">redefine</a> ::=
+	<a href="#production" class="nt">production</a><span class="meta">+</span> [<a name="tag" class="lbl">tag</a>]::string</pre><pre><a name="inject" class="nt">inject</a> ::=
+	<a href="#production" class="nt">production</a> [<a name="tag" class="lbl">tag</a>]::string</pre><pre><a name="project" class="nt">project</a> ::=
+	<a href="#production" class="nt">production</a> [<a name="tag" class="lbl">tag</a>]::string</pre><pre><a name="replace" class="nt">replace</a> ::=
+	<a href="#expression" class="nt">expression</a> <a href="#expression" class="nt">expression</a> [<a name="in" class="lbl">in</a>]::<a href="#scope" class="nt">scope</a><span class="meta">?</span> [<a name="tag" class="lbl">tag</a>]::string</pre><pre><a name="decorative-transformation" class="nt">decorative-transformation</a> ::=
+	<a href="#designate-unlabel" class="nt">designate-unlabel</a>
+	<a href="#unlabel-designate" class="nt">unlabel-designate</a>
+	<a href="#deanonymize-anonymize" class="nt">deanonymize-anonymize</a>
+	<a href="#anonymize-deanonymize" class="nt">anonymize-deanonymize</a></pre><pre><a name="decorative-transformation" class="nt">decorative-transformation</a> ::=
+	<a href="#designate" class="nt">designate</a>
+	<a href="#unlabel" class="nt">unlabel</a>
+	<a href="#deanonymize" class="nt">deanonymize</a>
+	<a href="#anonymize" class="nt">anonymize</a></pre><pre><a name="designate-unlabel" class="nt">designate-unlabel</a> ::=
+	<a href="#production" class="nt">production</a></pre><pre><a name="unlabel-designate" class="nt">unlabel-designate</a> ::=
+	<a href="#production" class="nt">production</a></pre><pre><a name="deanonymize-anonymize" class="nt">deanonymize-anonymize</a> ::=
+	<a href="#production" class="nt">production</a></pre><pre><a name="anonymize-deanonymize" class="nt">anonymize-deanonymize</a> ::=
+	<a href="#production" class="nt">production</a></pre><pre><a name="designate" class="nt">designate</a> ::=
+	<a href="#production" class="nt">production</a></pre><pre><a name="unlabel" class="nt">unlabel</a> ::=
+	[<a name="label" class="lbl">label</a>]::<a href="#label" class="nt">label</a></pre><pre><a name="deanonymize" class="nt">deanonymize</a> ::=
+	<a href="#production" class="nt">production</a></pre><pre><a name="anonymize" class="nt">anonymize</a> ::=
+	<a href="#production" class="nt">production</a></pre><pre><a name="rename-rename" class="nt">rename-rename</a> ::=
+	[<a name="label" class="lbl">label</a>]::<span class="meta">(</span>[<a name="from" class="lbl">from</a>]::<a href="#label" class="nt">label</a> [<a name="to" class="lbl">to</a>]::<a href="#label" class="nt">label</a><span class="meta">)</span>
+	[<a name="nonterminal" class="lbl">nonterminal</a>]::<span class="meta">(</span>[<a name="from" class="lbl">from</a>]::<a href="#nonterminal" class="nt">nonterminal</a> [<a name="to" class="lbl">to</a>]::<a href="#nonterminal" class="nt">nonterminal</a><span class="meta">)</span>
+	[<a name="selector" class="lbl">selector</a>]::<span class="meta">(</span>[<a name="in" class="lbl">in</a>]::<a href="#label" class="nt">label</a><span class="meta">?</span> [<a name="from" class="lbl">from</a>]::<a href="#selector" class="nt">selector</a> [<a name="to" class="lbl">to</a>]::<a href="#selector" class="nt">selector</a><span class="meta">)</span>
+	[<a name="terminal" class="lbl">terminal</a>]::<span class="meta">(</span>[<a name="from" class="lbl">from</a>]::<a href="#terminal" class="nt">terminal</a> [<a name="to" class="lbl">to</a>]::<a href="#terminal" class="nt">terminal</a><span class="meta">)</span></pre><pre><a name="reroot-reroot" class="nt">reroot-reroot</a> ::=
+	[<a name="from" class="lbl">from</a>]::<a href="#roots" class="nt">roots</a> [<a name="to" class="lbl">to</a>]::<a href="#roots" class="nt">roots</a></pre><pre><a name="roots" class="nt">roots</a> ::=
+	[<a name="root" class="lbl">root</a>]::<a href="#nonterminal" class="nt">nonterminal</a><span class="meta">*</span></pre><pre><a name="increasing-transformation" class="nt">increasing-transformation</a> ::=
+	<a href="#add" class="nt">add</a>
+	<a href="#appear" class="nt">appear</a>
+	<a href="#widen" class="nt">widen</a>
+	<a href="#upgrade" class="nt">upgrade</a>
+	<a href="#unite" class="nt">unite</a></pre><pre><a name="add" class="nt">add</a> ::=
+	[<a name="vertical" class="lbl">vertical</a>]::<a href="#production" class="nt">production</a>
+	[<a name="horizontal" class="lbl">horizontal</a>]::<a href="#production" class="nt">production</a></pre><pre><a name="appear" class="nt">appear</a> ::=
+	<a href="#production" class="nt">production</a></pre><pre><a name="widen" class="nt">widen</a> ::=
+	<a href="#expression" class="nt">expression</a> <a href="#expression" class="nt">expression</a> [<a name="in" class="lbl">in</a>]::<a href="#scope" class="nt">scope</a><span class="meta">?</span></pre><pre><a name="upgrade" class="nt">upgrade</a> ::=
+	<a href="#production" class="nt">production</a> <a href="#production" class="nt">production</a></pre><pre><a name="unite" class="nt">unite</a> ::=
+	[<a name="add" class="lbl">add</a>]::<a href="#nonterminal" class="nt">nonterminal</a> [<a name="to" class="lbl">to</a>]::<a href="#nonterminal" class="nt">nonterminal</a></pre><pre><a name="decreasing-transformation" class="nt">decreasing-transformation</a> ::=
+	<a href="#remove" class="nt">remove</a>
+	<a href="#disappear" class="nt">disappear</a>
+	<a href="#narrow" class="nt">narrow</a>
+	<a href="#downgrade" class="nt">downgrade</a>
+	<a href="#split" class="nt">split</a></pre><pre><a name="remove" class="nt">remove</a> ::=
+	[<a name="vertical" class="lbl">vertical</a>]::<a href="#production" class="nt">production</a>
+	[<a name="horizontal" class="lbl">horizontal</a>]::<a href="#production" class="nt">production</a></pre><pre><a name="disappear" class="nt">disappear</a> ::=
+	<a href="#production" class="nt">production</a></pre><pre><a name="narrow" class="nt">narrow</a> ::=
+	<a href="#expression" class="nt">expression</a> <a href="#expression" class="nt">expression</a> [<a name="in" class="lbl">in</a>]::<a href="#scope" class="nt">scope</a><span class="meta">?</span></pre><pre><a name="downgrade" class="nt">downgrade</a> ::=
+	<a href="#production" class="nt">production</a> <a href="#production" class="nt">production</a></pre><pre><a name="split" class="nt">split</a> ::=
+	[<a name="nonterminal" class="lbl">nonterminal</a>]::<a href="#nonterminal" class="nt">nonterminal</a> <a href="#production" class="nt">production</a><span class="meta">+</span> <a href="#scope" class="nt">scope</a><span class="meta">*</span></pre><pre><a name="rename" class="nt">rename</a> ::=
+	[<a name="label" class="lbl">label</a>]::<span class="meta">(</span>[<a name="from" class="lbl">from</a>]::<a href="#label" class="nt">label</a> [<a name="to" class="lbl">to</a>]::<a href="#label" class="nt">label</a><span class="meta">)</span>
+	[<a name="nonterminal" class="lbl">nonterminal</a>]::<span class="meta">(</span>[<a name="from" class="lbl">from</a>]::<a href="#nonterminal" class="nt">nonterminal</a> [<a name="to" class="lbl">to</a>]::<a href="#nonterminal" class="nt">nonterminal</a><span class="meta">)</span>
+	[<a name="selector" class="lbl">selector</a>]::<span class="meta">(</span>[<a name="in" class="lbl">in</a>]::<a href="#label" class="nt">label</a><span class="meta">?</span> [<a name="from" class="lbl">from</a>]::<a href="#selector" class="nt">selector</a> [<a name="to" class="lbl">to</a>]::<a href="#selector" class="nt">selector</a><span class="meta">)</span>
+	[<a name="terminal" class="lbl">terminal</a>]::<span class="meta">(</span>[<a name="from" class="lbl">from</a>]::<a href="#terminal" class="nt">terminal</a> [<a name="to" class="lbl">to</a>]::<a href="#terminal" class="nt">terminal</a><span class="meta">)</span></pre><pre><a name="reroot" class="nt">reroot</a> ::=
+	[<a name="root" class="lbl">root</a>]::<a href="#nonterminal" class="nt">nonterminal</a><span class="meta">*</span></pre><pre><a name="strip" class="nt">strip</a> ::=
+	[<a name="label" class="lbl">label</a>]::<a href="#label" class="nt">label</a>
+	[<a name="allLabels" class="lbl">allLabels</a>]::ε
+	[<a name="selector" class="lbl">selector</a>]::<a href="#selector" class="nt">selector</a>
+	[<a name="allSelectors" class="lbl">allSelectors</a>]::ε
+	[<a name="terminal" class="lbl">terminal</a>]::<a href="#terminal" class="nt">terminal</a>
+	[<a name="allTerminals" class="lbl">allTerminals</a>]::ε</pre><pre><a name="dump" class="nt">dump</a> ::=
+	ε</pre><pre><a name="bypass" class="nt">bypass</a> ::=
+	ε</pre><pre><a name="atomic" class="nt">atomic</a> ::=
+	<a href="#transformation" class="nt">transformation</a><span class="meta">+</span></pre><hr /><div class="b"><a href="http://grammarware.github.io/lab"><img src="../../../../by-grammarlab.png" alt="GrammarLab" title="Powered by GrammarLab"></img></a>Maintained by Dr. <a href="http://grammarware.net/">Vadim Zaytsev</a> a.k.a. @<a href="http://twitter.com/grammarware">grammarware</a>. Last updated in October 2014. <span class="links"> [<a href="#TOP">↑</a>]</span></div></body></html>

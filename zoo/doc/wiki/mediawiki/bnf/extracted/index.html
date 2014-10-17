@@ -1,0 +1,693 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="content-type" content="text/html; charset=utf-8" /><title>Grammar Zoo - Browsable MediaWiki Grammar</title><link href="../../../../../slps.css" rel="stylesheet" type="text/css" /></head><body><h1 class="l"><a name="TOP"></a>Browsable MediaWiki Grammar</h1><a href="http://creativecommons.org/licenses/by/3.0/"><img src="../../../../../cc-by.png" alt="CC-BY" title="View the CC-BY license"></img></a><p>Grammar extracted by <strong><a href="http://grammarware.net/">Vadim Zaytsev</a></strong>, see the <a href="http://grammarzoo.github.io/">Grammar Zoo</a> entry for details: <a href="../../../../../index.html#doc_wiki_mediawiki_bnf_extracted">doc/wiki/mediawiki/bnf/extracted</a><br />Source used for this grammar: MediaWiki, <em>Markup spec/BNF/Article title, </em>Revision 295042,  28 December 2009<span class="links"> [<a href="http://www.mediawiki.org/w/index.php?title=Markup_spec/BNF/Article_title&amp;oldid=295042">Page</a>]</span><br />Source used for this grammar: MediaWiki, <em>Markup spec/BNF/Article, </em>Revision 281674,  17 October 2009<span class="links"> [<a href="http://www.mediawiki.org/w/index.php?title=Markup_spec/BNF/Article&amp;oldid=281674">Page</a>]</span><br />Source used for this grammar: MediaWiki, <em>Markup spec/BNF/Noparse-block, </em>Revision 372814,  30 December 2010<span class="links"> [<a href="http://www.mediawiki.org/w/index.php?title=Markup_spec/BNF/Noparse-block&amp;oldid=372814">Page</a>]</span><br />Source used for this grammar: MediaWiki, <em>Markup spec/BNF/Links, </em>Revision 376721,  18 January 2011<span class="links"> [<a href="http://www.mediawiki.org/w/index.php?title=Markup_spec/BNF/Links&amp;oldid=376721">Page</a>]</span><br />Source used for this grammar: MediaWiki, <em>Markup spec/BNF/Magic links, </em>Revision 269783,  8 August 2009<span class="links"> [<a href="http://www.mediawiki.org/w/index.php?title=Markup_spec/BNF/Magic_links&amp;oldid=269783">Page</a>]</span><br />Source used for this grammar: MediaWiki, <em>Markup spec/BNF/Special block, </em>Revision 281676,  17 October 2009<span class="links"> [<a href="http://www.mediawiki.org/w/index.php?title=Markup_spec/BNF/Special_block&amp;oldid=281676">Page</a>]</span><br />Source used for this grammar: MediaWiki, <em>Markup spec/BNF/Inline text, </em>Revision 295055,  29 December 2009<span class="links"> [<a href="http://www.mediawiki.org/w/index.php?title=Markup_spec/BNF/Inline_text&amp;oldid=295055">Page</a>]</span><br />Source used for this grammar: MediaWiki, <em>Markup spec/BNF/Fundamental elements, </em>Revision 212918,  17 September 2008<span class="links"> [<a href="http://www.mediawiki.org/w/index.php?title=Markup_spec/BNF/Fundamental_elements&amp;oldid=212918">Page</a>]</span></p><h2 class="l">Summary</h2><ul class="nl"><li>Total <strong>191</strong> production rules with <strong>691</strong> top alternatives and <strong>1753</strong> symbols.</li><li>Vocabulary: <strong>570</strong> = <strong>267</strong> nonterminals + <strong>303</strong> terminals + <strong>0</strong> labels + <strong>0</strong> markers.</li><li>Total <strong>267</strong> nonterminal symbols: <strong>188</strong> defined (<code><a href="#BlockHTML" class="nt">BlockHTML</a></code>, <code><a href="#WikiMarkupCharacters" class="nt">WikiMarkupCharacters</a></code>, <code><a href="#UnicodeCharacter" class="nt">UnicodeCharacter</a></code>, <code><a href="#UnicodeWiki" class="nt">UnicodeWiki</a></code>, <code><a href="#PlainText" class="nt">PlainText</a></code>, <code><a href="#WhiteSpaces" class="nt">WhiteSpaces</a></code>, <code><a href="#NewLine" class="nt">NewLine</a></code>, <code><a href="#Line" class="nt">Line</a></code>, <code><a href="#Text" class="nt">Text</a></code>, <code><a href="#PageName" class="nt">PageName</a></code>, <code><a href="#PageNameLink" class="nt">PageNameLink</a></code>, <code><a href="#SectionTitle" class="nt">SectionTitle</a></code>, <code><a href="#SectionLink" class="nt">SectionLink</a></code>, <code><a href="#LinkTitle" class="nt">LinkTitle</a></code>, <code><a href="#TitleCharacter" class="nt">TitleCharacter</a></code>, <code><a href="#BadTitleCharacters" class="nt">BadTitleCharacters</a></code>, <code><a href="#SectionLinkCharacter" class="nt">SectionLinkCharacter</a></code>, <code><a href="#BadSectionLinkCharacters" class="nt">BadSectionLinkCharacters</a></code>, <code><a href="#noparse-block" class="nt">noparse-block</a></code>, <code><a href="#nowiki-block" class="nt">nowiki-block</a></code>, <code><a href="#nowiki-opening-tag" class="nt">nowiki-opening-tag</a></code>, <code><a href="#nowiki-closing-tag" class="nt">nowiki-closing-tag</a></code>, <code><a href="#nowiki-body" class="nt">nowiki-body</a></code>, <code><a href="#pre-block" class="nt">pre-block</a></code>, <code><a href="#pre-opening-tag" class="nt">pre-opening-tag</a></code>, <code><a href="#pre-closing-tag" class="nt">pre-closing-tag</a></code>, <code><a href="#pre-body" class="nt">pre-body</a></code>, <code><a href="#html-block" class="nt">html-block</a></code>, <code><a href="#html-opening-tag" class="nt">html-opening-tag</a></code>, <code><a href="#html-closing-tag" class="nt">html-closing-tag</a></code>, <code><a href="#html-body" class="nt">html-body</a></code>, <code><a href="#html-comment" class="nt">html-comment</a></code>, <code><a href="#Table" class="nt">Table</a></code>, <code><a href="#TableFirstRow" class="nt">TableFirstRow</a></code>, <code><a href="#TableRow" class="nt">TableRow</a></code>, <code><a href="#TableColumn" class="nt">TableColumn</a></code>, <code><a href="#TableColumnLine" class="nt">TableColumnLine</a></code>, <code><a href="#TableColumnMultiLine" class="nt">TableColumnMultiLine</a></code>, <code><a href="#TableParameters" class="nt">TableParameters</a></code>, <code><a href="#TableCellParameter" class="nt">TableCellParameter</a></code>, <code><a href="#ImageInline" class="nt">ImageInline</a></code>, <code><a href="#ImageName" class="nt">ImageName</a></code>, <code><a href="#ImageExtension" class="nt">ImageExtension</a></code>, <code><a href="#ImageOption" class="nt">ImageOption</a></code>, <code><a href="#ImageModeParameter" class="nt">ImageModeParameter</a></code>, <code><a href="#ImageModeManualThumb" class="nt">ImageModeManualThumb</a></code>, <code><a href="#ImageModeAutoThumb" class="nt">ImageModeAutoThumb</a></code>, <code><a href="#ImageModeFrame" class="nt">ImageModeFrame</a></code>, <code><a href="#ImageModeFrameless" class="nt">ImageModeFrameless</a></code>, <code><a href="#ImageOtherParameter" class="nt">ImageOtherParameter</a></code>, <code><a href="#ImageParamPage" class="nt">ImageParamPage</a></code>, <code><a href="#ImageParamUpgright" class="nt">ImageParamUpgright</a></code>, <code><a href="#ImageParamBorder" class="nt">ImageParamBorder</a></code>, <code><a href="#ImageSizeParameter" class="nt">ImageSizeParameter</a></code>, <code><a href="#ImageAlignParameter" class="nt">ImageAlignParameter</a></code>, <code><a href="#ImageAlignLeft" class="nt">ImageAlignLeft</a></code>, <code><a href="#ImageAlignCenter" class="nt">ImageAlignCenter</a></code>, <code><a href="#ImageAlignRight" class="nt">ImageAlignRight</a></code>, <code><a href="#ImageAlignNone" class="nt">ImageAlignNone</a></code>, <code><a href="#ImageValignParameter" class="nt">ImageValignParameter</a></code>, <code><a href="#ImageValignBaseline" class="nt">ImageValignBaseline</a></code>, <code><a href="#ImageValignSub" class="nt">ImageValignSub</a></code>, <code><a href="#ImageValignSuper" class="nt">ImageValignSuper</a></code>, <code><a href="#ImageValignTop" class="nt">ImageValignTop</a></code>, <code><a href="#ImageValignTextTop" class="nt">ImageValignTextTop</a></code>, <code><a href="#ImageValignMiddle" class="nt">ImageValignMiddle</a></code>, <code><a href="#ImageValignBottom" class="nt">ImageValignBottom</a></code>, <code><a href="#ImageValignTextBottom" class="nt">ImageValignTextBottom</a></code>, <code><a href="#Caption" class="nt">Caption</a></code>, <code><a href="#MediaInline" class="nt">MediaInline</a></code>, <code><a href="#MediaExtension" class="nt">MediaExtension</a></code>, <code><a href="#GalleryBlock" class="nt">GalleryBlock</a></code>, <code><a href="#GalleryImage" class="nt">GalleryImage</a></code>, <code><a href="#canonical-article-title" class="nt">canonical-article-title</a></code>, <code><a href="#canonical-sub-pages" class="nt">canonical-sub-pages</a></code>, <code><a href="#canonical-sub-page" class="nt">canonical-sub-page</a></code>, <code><a href="#canonical-page" class="nt">canonical-page</a></code>, <code><a href="#canonical-page-chars" class="nt">canonical-page-chars</a></code>, <code><a href="#canonical-page-first-char" class="nt">canonical-page-first-char</a></code>, <code><a href="#canonical-page-char" class="nt">canonical-page-char</a></code>, <code><a href="#sub-page-separator" class="nt">sub-page-separator</a></code>, <code><a href="#article-title" class="nt">article-title</a></code>, <code><a href="#sub-pages" class="nt">sub-pages</a></code>, <code><a href="#sub-page" class="nt">sub-page</a></code>, <code><a href="#page" class="nt">page</a></code>, <code><a href="#page-chars" class="nt">page-chars</a></code>, <code><a href="#page-first-char" class="nt">page-first-char</a></code>, <code><a href="#page-char" class="nt">page-char</a></code>, <code><a href="#wiki-page" class="nt">wiki-page</a></code>, <code><a href="#redirect" class="nt">redirect</a></code>, <code><a href="#redirect-tag" class="nt">redirect-tag</a></code>, <code><a href="#article" class="nt">article</a></code>, <code><a href="#special-block-and-more" class="nt">special-block-and-more</a></code>, <code><a href="#paragraph-and-more" class="nt">paragraph-and-more</a></code>, <code><a href="#paragraph" class="nt">paragraph</a></code>, <code><a href="#lines-of-text" class="nt">lines-of-text</a></code>, <code><a href="#line-of-text" class="nt">line-of-text</a></code>, <code><a href="#link" class="nt">link</a></code>, <code><a href="#internal-link" class="nt">internal-link</a></code>, <code><a href="#article-link" class="nt">article-link</a></code>, <code><a href="#title-legal-chars" class="nt">title-legal-chars</a></code>, <code><a href="#interwiki-prefix" class="nt">interwiki-prefix</a></code>, <code><a href="#interwiki" class="nt">interwiki</a></code>, <code><a href="#namespace-prefix" class="nt">namespace-prefix</a></code>, <code><a href="#namespace" class="nt">namespace</a></code>, <code><a href="#link-description" class="nt">link-description</a></code>, <code><a href="#extra-description" class="nt">extra-description</a></code>, <code><a href="#internal-link-start" class="nt">internal-link-start</a></code>, <code><a href="#internal-link-end" class="nt">internal-link-end</a></code>, <code><a href="#pipe" class="nt">pipe</a></code>, <code><a href="#section-id" class="nt">section-id</a></code>, <code><a href="#category" class="nt">category</a></code>, <code><a href="#category-namespace" class="nt">category-namespace</a></code>, <code><a href="#external-link" class="nt">external-link</a></code>, <code><a href="#url" class="nt">url</a></code>, <code><a href="#protocol" class="nt">protocol</a></code>, <code><a href="#url-path" class="nt">url-path</a></code>, <code><a href="#url-char" class="nt">url-char</a></code>, <code><a href="#external-link-start" class="nt">external-link-start</a></code>, <code><a href="#external-link-end" class="nt">external-link-end</a></code>, <code><a href="#magic-link" class="nt">magic-link</a></code>, <code><a href="#isbn" class="nt">isbn</a></code>, <code><a href="#isbn-number" class="nt">isbn-number</a></code>, <code><a href="#rfc-number" class="nt">rfc-number</a></code>, <code><a href="#pmid-number" class="nt">pmid-number</a></code>, <code><a href="#special-block" class="nt">special-block</a></code>, <code><a href="#horizontal-rule" class="nt">horizontal-rule</a></code>, <code><a href="#dashes" class="nt">dashes</a></code>, <code><a href="#heading" class="nt">heading</a></code>, <code><a href="#level-6-heading" class="nt">level-6-heading</a></code>, <code><a href="#level-5-heading" class="nt">level-5-heading</a></code>, <code><a href="#level-4-heading" class="nt">level-4-heading</a></code>, <code><a href="#level-3-heading" class="nt">level-3-heading</a></code>, <code><a href="#level-2-heading" class="nt">level-2-heading</a></code>, <code><a href="#level-1-heading" class="nt">level-1-heading</a></code>, <code><a href="#list-item" class="nt">list-item</a></code>, <code><a href="#indent-item" class="nt">indent-item</a></code>, <code><a href="#enumerated-item" class="nt">enumerated-item</a></code>, <code><a href="#bullet-item" class="nt">bullet-item</a></code>, <code><a href="#item-body" class="nt">item-body</a></code>, <code><a href="#defined-term" class="nt">defined-term</a></code>, <code><a href="#definition" class="nt">definition</a></code>, <code><a href="#space-block" class="nt">space-block</a></code>, <code><a href="#space-block-2" class="nt">space-block-2</a></code>, <code><a href="#inline-text" class="nt">inline-text</a></code>, <code><a href="#inline-element" class="nt">inline-element</a></code>, <code><a href="#text-with-formatting" class="nt">text-with-formatting</a></code>, <code><a href="#text" class="nt">text</a></code>, <code><a href="#html-entity" class="nt">html-entity</a></code>, <code><a href="#html-entity-name" class="nt">html-entity-name</a></code>, <code><a href="#html-unsafe-symbol" class="nt">html-unsafe-symbol</a></code>, <code><a href="#unescaped-ampersand" class="nt">unescaped-ampersand</a></code>, <code><a href="#unescaped-less-than" class="nt">unescaped-less-than</a></code>, <code><a href="#unescaped-greater-than" class="nt">unescaped-greater-than</a></code>, <code><a href="#harmless-characters" class="nt">harmless-characters</a></code>, <code><a href="#random-character" class="nt">random-character</a></code>, <code><a href="#character" class="nt">character</a></code>, <code><a href="#whitespace" class="nt">whitespace</a></code>, <code><a href="#newlines" class="nt">newlines</a></code>, <code><a href="#space-tabs" class="nt">space-tabs</a></code>, <code><a href="#whitespace-char" class="nt">whitespace-char</a></code>, <code><a href="#space-tab" class="nt">space-tab</a></code>, <code><a href="#spaces" class="nt">spaces</a></code>, <code><a href="#space" class="nt">space</a></code>, <code><a href="#newline" class="nt">newline</a></code>, <code><a href="#BOL" class="nt">BOL</a></code>, <code><a href="#EOL" class="nt">EOL</a></code>, <code><a href="#non-whitespace-char" class="nt">non-whitespace-char</a></code>, <code><a href="#letter" class="nt">letter</a></code>, <code><a href="#ucase-letter" class="nt">ucase-letter</a></code>, <code><a href="#lcase-letter" class="nt">lcase-letter</a></code>, <code><a href="#symbol" class="nt">symbol</a></code>, <code><a href="#underscore" class="nt">underscore</a></code>, <code><a href="#decimal-number" class="nt">decimal-number</a></code>, <code><a href="#decimal-digit" class="nt">decimal-digit</a></code>, <code><a href="#hex-number" class="nt">hex-number</a></code>, <code><a href="#hex-digit" class="nt">hex-digit</a></code>, <code><a href="#formatting" class="nt">formatting</a></code>, <code><a href="#bold-italic-toggle" class="nt">bold-italic-toggle</a></code>, <code><a href="#bold-toggle" class="nt">bold-toggle</a></code>, <code><a href="#italic-toggle" class="nt">italic-toggle</a></code>, <code><a href="#apostrophe-jungle" class="nt">apostrophe-jungle</a></code>, <code><a href="#behaviour-switch" class="nt">behaviour-switch</a></code>, <code><a href="#behaviourswitch-toc" class="nt">behaviourswitch-toc</a></code>, <code><a href="#behaviourswitch-forcetoc" class="nt">behaviourswitch-forcetoc</a></code>, <code><a href="#behaviourswitch-notoc" class="nt">behaviourswitch-notoc</a></code>, <code><a href="#behaviourswitch-noeditsection" class="nt">behaviourswitch-noeditsection</a></code>, <code><a href="#behaviourswitch-nogallery" class="nt">behaviourswitch-nogallery</a></code>), <strong>0</strong> root (—), <strong>28</strong> top (<code><a href="#BlockHTML" class="nt">BlockHTML</a></code>, <code><a href="#WikiMarkupCharacters" class="nt">WikiMarkupCharacters</a></code>, <code><a href="#WhiteSpaces" class="nt">WhiteSpaces</a></code>, <code><a href="#Text" class="nt">Text</a></code>, <code><a href="#PageNameLink" class="nt">PageNameLink</a></code>, <code><a href="#SectionTitle" class="nt">SectionTitle</a></code>, <code><a href="#SectionLink" class="nt">SectionLink</a></code>, <code><a href="#LinkTitle" class="nt">LinkTitle</a></code>, <code><a href="#BadTitleCharacters" class="nt">BadTitleCharacters</a></code>, <code><a href="#BadSectionLinkCharacters" class="nt">BadSectionLinkCharacters</a></code>, <code><a href="#noparse-block" class="nt">noparse-block</a></code>, <code><a href="#Table" class="nt">Table</a></code>, <code><a href="#TableCellParameter" class="nt">TableCellParameter</a></code>, <code><a href="#ImageInline" class="nt">ImageInline</a></code>, <code><a href="#ImageModeAutoThumb" class="nt">ImageModeAutoThumb</a></code>, <code><a href="#ImageOtherParameter" class="nt">ImageOtherParameter</a></code>, <code><a href="#ImageParamUpgright" class="nt">ImageParamUpgright</a></code>, <code><a href="#ImageAlignCenter" class="nt">ImageAlignCenter</a></code>, <code><a href="#ImageValignParameter" class="nt">ImageValignParameter</a></code>, <code><a href="#MediaInline" class="nt">MediaInline</a></code>, <code><a href="#GalleryBlock" class="nt">GalleryBlock</a></code>, <code><a href="#canonical-article-title" class="nt">canonical-article-title</a></code>, <code><a href="#wiki-page" class="nt">wiki-page</a></code>, <code><a href="#link" class="nt">link</a></code>, <code><a href="#category" class="nt">category</a></code>, <code><a href="#unescaped-less-than" class="nt">unescaped-less-than</a></code>, <code><a href="#harmless-characters" class="nt">harmless-characters</a></code>, <code><a href="#BOL" class="nt">BOL</a></code>), <strong>79</strong> bottom (<code class="nt">inline-html</code>, <code class="nt">?</code><sup> 4</sup>, <code class="nt">ImageVAlignParameter</code>, <code class="nt">__essentially___foo_</code>, <code class="nt">?_carriage_return_and_line_feed_?</code>, <code class="nt">close-guillemet</code>, <code class="nt">wgHtmlEntities</code>, <code class="nt">EOF</code><sup> 4</sup>, <code class="nt">noparseblock</code>, <code class="nt">?_carriage_return_?</code>, <code class="nt">UnicodeCharacter_-</code>, <code class="nt">LF</code><sup> 3</sup>, <code class="nt">TableCellParameters</code>, <code class="nt">LEGAL_URL_ENTITY</code>, <code class="nt">BOF</code>, <code class="nt">AnyText</code>, <code class="nt">TableHTML</code>, <code class="nt">SectionLinkCharacter_-</code><sup> 2</sup>, <code class="nt">HeaderHTML</code>, <code class="nt">ImageModeThumb</code>, <code class="nt">NS_CATEGORY</code>, <code class="nt">attributes</code><sup> 2</sup>, <code class="nt">sensitive</code>, <code class="nt">TAB</code>, <code class="nt">more</code>, <code class="nt">?_tab_?</code>, <code class="nt">Center</code>, <code class="nt">unespaced-less-than</code>, <code class="nt">gallery-block</code>, <code class="nt">LEGAL_ARTICLE_ENTITY</code>, <code class="nt">nowiki</code>, <code class="nt">Div</code>, <code class="nt">sort-key</code>, <code class="nt">case</code>, <code class="nt">ImageParamUpright</code>, <code class="nt">Blockquote</code>, <code class="nt">open-guillemet</code>, <code class="nt">CR</code><sup> 3</sup>, <code class="nt">Pipe</code>, <code class="nt">table</code><sup> 2</sup>, <code class="nt">FROM_LANGUAGE_FILE</code>, <code class="nt">to_be_defined_</code>, <code class="nt">digit</code><sup> 2</sup>, <code class="nt">DIGIT</code><sup> 2</sup>, <code class="nt">any</code>, <code class="nt">HTML</code><sup> 2</sup>, <code class="nt">image-inline</code>, <code class="nt">ImageAlign</code>, <code class="nt">characters</code><sup> 8</sup>, <code class="nt">?_line_feed_?</code>, <code class="nt">UnicodeCharacter_-_BadSectionLinkCharacters</code>, <code class="nt">i</code><sup> 5</sup>, <code class="nt">category-link</code>, <code class="nt">STRING_FROM_CONFIG</code>, <code class="nt">harmless-character</code>, <code class="nt">Sanitizer</code>, <code class="nt">math-block</code>, <code class="nt">ALLOWED_PROTOCOL_FROM_CONFIG</code>, <code class="nt">g</code>, <code class="nt">UnicodeCharacter_-_WikiMarkupCharacters</code>, <code class="nt">InlineText</code>, <code class="nt">non-word-character</code>, <code class="nt">caption</code>, <code class="nt">missing</code>, <code class="nt">digits</code><sup> 2</sup>, <code class="nt">STRING_FROM_DB</code>, <code class="nt">PositiveInteger</code>, <code class="nt">e</code>, <code class="nt">?_variants_of_spaces_?</code>, <code class="nt">Pre</code>, <code class="nt">CSS</code><sup> 3</sup>, <code class="nt">PositiveNumber</code>, <code class="nt">/ nowiki</code>, <code class="nt">b</code>, <code class="nt">_jpg</code>, <code class="nt">UnicodeCharacter_-_BadTitleCharacters</code>, <code class="nt">cell</code>, <code class="nt">media-inline</code>, <code class="nt">?_all_supported_Unicode_characters_?_-_Whitespaces</code>).</li><li>Total <strong>303</strong> terminal symbols: <strong>39</strong> keywords (<span class="t">"jpg"</span>, <span class="t">"jpeg"</span>, <span class="t">"png"</span>, <span class="t">"svg"</span>, <span class="t">"gif"</span>, <span class="t">"bmp"</span>, <span class="t">"thumbnail"</span>, <span class="t">"thumb"</span>, <span class="t">"framed"</span>, <span class="t">"enframed"</span>, <span class="t">"frame"</span>, <span class="t">"frameless"</span>, <span class="t">"upright"</span>, <span class="t">"border"</span>, <span class="t">"px"</span>, <span class="t">"left"</span>, <span class="t">"center"</span>, <span class="t">"centre"</span>, <span class="t">"right"</span>, <span class="t">"none"</span>, <span class="t">"baseline"</span>, <span class="t">"sub"</span>, <span class="t">"super"</span>, <span class="t">"sup"</span>, <span class="t">"top"</span>, <span class="t">"middle"</span>, <span class="t">"bottom"</span>, <span class="t">"ogg"</span>, <span class="t">"wav"</span>, <span class="t">"ISBN"</span>, <span class="t">"RFC"</span>, <span class="t">"PMID"</span>, <span class="t">"Aacute"</span>, <span class="t">"aacute"</span>, <span class="t">"__TOC__"</span>, <span class="t">"__FORCETOC__"</span>, <span class="t">"__NOTOC__"</span>, <span class="t">"__NOEDITSECTION__"</span>, <span class="t">"__NOGALLERY__"</span>), <strong>52</strong> letters (<span class="t">"A"</span><sup> 4</sup>, <span class="t">"B"</span><sup> 4</sup>, <span class="t">"C"</span><sup> 4</sup>, <span class="t">"D"</span><sup> 4</sup>, <span class="t">"E"</span><sup> 4</sup>, <span class="t">"F"</span><sup> 4</sup>, <span class="t">"G"</span><sup> 3</sup>, <span class="t">"H"</span><sup> 3</sup>, <span class="t">"I"</span><sup> 3</sup>, <span class="t">"J"</span><sup> 3</sup>, <span class="t">"K"</span><sup> 3</sup>, <span class="t">"L"</span><sup> 3</sup>, <span class="t">"M"</span><sup> 3</sup>, <span class="t">"N"</span><sup> 3</sup>, <span class="t">"O"</span><sup> 3</sup>, <span class="t">"P"</span><sup> 3</sup>, <span class="t">"Q"</span><sup> 3</sup>, <span class="t">"R"</span><sup> 3</sup>, <span class="t">"S"</span><sup> 3</sup>, <span class="t">"T"</span><sup> 3</sup>, <span class="t">"U"</span><sup> 3</sup>, <span class="t">"V"</span><sup> 3</sup>, <span class="t">"W"</span><sup> 3</sup>, <span class="t">"X"</span><sup> 4</sup>, <span class="t">"Y"</span><sup> 3</sup>, <span class="t">"Z"</span><sup> 3</sup>, <span class="t">"a"</span><sup> 4</sup>, <span class="t">"b"</span><sup> 4</sup>, <span class="t">"c"</span><sup> 4</sup>, <span class="t">"d"</span><sup> 4</sup>, <span class="t">"e"</span><sup> 4</sup>, <span class="t">"f"</span><sup> 4</sup>, <span class="t">"g"</span><sup> 3</sup>, <span class="t">"h"</span><sup> 3</sup>, <span class="t">"i"</span><sup> 3</sup>, <span class="t">"j"</span><sup> 3</sup>, <span class="t">"k"</span><sup> 3</sup>, <span class="t">"l"</span><sup> 3</sup>, <span class="t">"m"</span><sup> 3</sup>, <span class="t">"n"</span><sup> 3</sup>, <span class="t">"o"</span><sup> 3</sup>, <span class="t">"p"</span><sup> 3</sup>, <span class="t">"q"</span><sup> 3</sup>, <span class="t">"r"</span><sup> 3</sup>, <span class="t">"s"</span><sup> 3</sup>, <span class="t">"t"</span><sup> 3</sup>, <span class="t">"u"</span><sup> 3</sup>, <span class="t">"v"</span><sup> 3</sup>, <span class="t">"w"</span><sup> 3</sup>, <span class="t">"x"</span><sup> 4</sup>, <span class="t">"y"</span><sup> 3</sup>, <span class="t">"z"</span><sup> 3</sup>), <strong>11</strong> numerics (<span class="t">"0"</span><sup> 3</sup>, <span class="t">"1"</span><sup> 3</sup>, <span class="t">"2"</span><sup> 3</sup>, <span class="t">"3"</span><sup> 3</sup>, <span class="t">"4"</span><sup> 3</sup>, <span class="t">"5"</span><sup> 3</sup>, <span class="t">"6"</span><sup> 3</sup>, <span class="t">"7"</span><sup> 3</sup>, <span class="t">"8"</span><sup> 4</sup>, <span class="t">"9"</span><sup> 5</sup>, <span class="t">"97"</span>), <strong>178</strong> signs (<span class="t">"|"</span><sup> 9</sup>, <span class="t">"["</span><sup> 5</sup>, <span class="t">"]"</span><sup> 6</sup>, <span class="t">"*"</span><sup> 6</sup>, <span class="t">"#"</span><sup> 6</sup>, <span class="t">":"</span><sup> 13</sup>, <span class="t">";"</span><sup> 7</sup>, <span class="t">"&lt;"</span><sup> 4</sup>, <span class="t">"&gt;"</span><sup> 4</sup>, <span class="t">"="</span><sup> 8</sup>, <span class="t">"'"</span><sup> 5</sup>, <span class="t">"{"</span><sup> 3</sup>, <span class="t">"}"</span><sup> 3</sup>, <span class="t">" "</span><sup> 18</sup>, <span class="t">","</span><sup> 5</sup>, <span class="t">"_"</span><sup> 5</sup>, <span class="t">"--&gt;"</span>, <span class="t">"{|"</span>, <span class="t">"|}"</span>, <span class="t">"|-"</span>, <span class="t">"[["</span><sup> 3</sup>, <span class="t">"."</span><sup> 35</sup>, <span class="t">"]]"</span><sup> 3</sup>, <span class="t">"?"</span><sup> 11</sup>, <span class="t">"/"</span><sup> 5</sup>, <span class="t">"../"</span>, <span class="t">"%"</span><sup> 3</sup>, <span class="t">"!"</span>, <span class="t">"""</span>, <span class="t">"$"</span><sup> 2</sup>, <span class="t">"&amp;"</span><sup> 3</sup>, <span class="t">"("</span>, <span class="t">")"</span>, <span class="t">"-"</span><sup> 4</sup>, <span class="t">"@"</span>, <span class="t">"\"</span><sup> 2</sup>, <span class="t">"^"</span>, <span class="t">"`"</span>, <span class="t">"~"</span>, <span class="t">""</span>, <span class="t">""</span>, <span class="t">""</span>, <span class="t">""</span>, <span class="t">""</span>, <span class="t">""</span>, <span class="t">""</span>, <span class="t">""</span>, <span class="t">""</span>, <span class="t">""</span>, <span class="t">""</span>, <span class="t">""</span>, <span class="t">""</span>, <span class="t">""</span>, <span class="t">""</span>, <span class="t">""</span>, <span class="t">""</span>, <span class="t">""</span>, <span class="t">""</span>, <span class="t">""</span>, <span class="t">""</span>, <span class="t">""</span>, <span class="t">""</span>, <span class="t">""</span>, <span class="t">""</span>, <span class="t">""</span>, <span class="t">""</span>, <span class="t">""</span>, <span class="t">""</span>, <span class="t">""</span>, <span class="t">""</span>, <span class="t">""</span>, <span class="t">" "</span>, <span class="t">"¡"</span>, <span class="t">"¢"</span>, <span class="t">"£"</span>, <span class="t">"¤"</span>, <span class="t">"¥"</span>, <span class="t">"¦"</span>, <span class="t">"§"</span>, <span class="t">"¨"</span>, <span class="t">"©"</span>, <span class="t">"ª"</span>, <span class="t">"«"</span>, <span class="t">"¬"</span>, <span class="t">"­"</span>, <span class="t">"®"</span>, <span class="t">"¯"</span>, <span class="t">"°"</span>, <span class="t">"±"</span>, <span class="t">"²"</span>, <span class="t">"³"</span>, <span class="t">"´"</span>, <span class="t">"µ"</span>, <span class="t">"¶"</span>, <span class="t">"·"</span>, <span class="t">"¸"</span>, <span class="t">"¹"</span>, <span class="t">"º"</span>, <span class="t">"»"</span>, <span class="t">"¼"</span>, <span class="t">"½"</span>, <span class="t">"¾"</span>, <span class="t">"¿"</span>, <span class="t">"À"</span>, <span class="t">"Á"</span>, <span class="t">"Â"</span>, <span class="t">"Ã"</span>, <span class="t">"Ä"</span>, <span class="t">"Å"</span>, <span class="t">"Æ"</span>, <span class="t">"Ç"</span>, <span class="t">"È"</span>, <span class="t">"É"</span>, <span class="t">"Ê"</span>, <span class="t">"Ë"</span>, <span class="t">"Ì"</span>, <span class="t">"Í"</span>, <span class="t">"Î"</span>, <span class="t">"Ï"</span>, <span class="t">"Ð"</span>, <span class="t">"Ñ"</span>, <span class="t">"Ò"</span>, <span class="t">"Ó"</span>, <span class="t">"Ô"</span>, <span class="t">"Õ"</span>, <span class="t">"Ö"</span>, <span class="t">"×"</span>, <span class="t">"Ø"</span>, <span class="t">"Ù"</span>, <span class="t">"Ú"</span>, <span class="t">"Û"</span>, <span class="t">"Ü"</span>, <span class="t">"Ý"</span>, <span class="t">"Þ"</span>, <span class="t">"ß"</span>, <span class="t">"à"</span>, <span class="t">"á"</span>, <span class="t">"â"</span>, <span class="t">"ã"</span>, <span class="t">"ä"</span>, <span class="t">"å"</span>, <span class="t">"æ"</span>, <span class="t">"ç"</span>, <span class="t">"è"</span>, <span class="t">"é"</span>, <span class="t">"ê"</span>, <span class="t">"ë"</span>, <span class="t">"ì"</span>, <span class="t">"í"</span>, <span class="t">"î"</span>, <span class="t">"ï"</span>, <span class="t">"ð"</span>, <span class="t">"ñ"</span>, <span class="t">"ò"</span>, <span class="t">"ó"</span>, <span class="t">"ô"</span>, <span class="t">"õ"</span>, <span class="t">"ö"</span>, <span class="t">"÷"</span>, <span class="t">"ø"</span>, <span class="t">"ù"</span>, <span class="t">"ú"</span>, <span class="t">"û"</span>, <span class="t">"ü"</span>, <span class="t">"ý"</span>, <span class="t">"þ"</span>, <span class="t">"ÿ"</span>, <span class="t">"+"</span><sup> 2</sup>, <span class="t">"----"</span>, <span class="t">"======"</span><sup> 2</sup>, <span class="t">"====="</span><sup> 2</sup>, <span class="t">"===="</span><sup> 2</sup>, <span class="t">"==="</span><sup> 2</sup>, <span class="t">"=="</span><sup> 2</sup>, <span class="t">"&amp;#"</span>, <span class="t">"'''''"</span>, <span class="t">"'''"</span>, <span class="t">"''"</span><sup> 2</sup>).</li></ul><h2 class="l">Syntax</h2><pre><a name="BlockHTML" class="nt">BlockHTML</a> ::=
+	<a href="#Pre" class="nt">Pre</a>
+	<a href="#Blockquote" class="nt">Blockquote</a>
+	<a href="#TableHTML" class="nt">TableHTML</a>
+	<a href="#Div" class="nt">Div</a>
+	<a href="#HeaderHTML" class="nt">HeaderHTML</a></pre><pre><a name="WikiMarkupCharacters" class="nt">WikiMarkupCharacters</a> ::=
+	<span class="t">"|"</span>
+	<span class="t">"["</span>
+	<span class="t">"]"</span>
+	<span class="t">"*"</span>
+	<span class="t">"#"</span>
+	<span class="t">":"</span>
+	<span class="t">";"</span>
+	<span class="t">"&lt;"</span>
+	<span class="t">"&gt;"</span>
+	<span class="t">"="</span>
+	<span class="t">"'"</span>
+	<span class="t">"{"</span>
+	<span class="t">"}"</span></pre><pre><a name="UnicodeCharacter" class="nt">UnicodeCharacter</a> ::=
+	<a href="#?_all_supported_Unicode_characters_?_-_Whitespaces" class="nt">?_all_supported_Unicode_characters_?_-_Whitespaces</a></pre><pre><a name="UnicodeWiki" class="nt">UnicodeWiki</a> ::=
+	<a href="#UnicodeCharacter_-_WikiMarkupCharacters" class="nt">UnicodeCharacter_-_WikiMarkupCharacters</a></pre><pre><a name="PlainText" class="nt">PlainText</a> ::=
+	<a href="#UnicodeWiki" class="nt">UnicodeWiki</a>
+	<span class="t">"&lt;nowiki&gt;"</span> <span class="meta">(</span><span class="t">"|"</span><span class="meta"> | </span><span class="t">"["</span><span class="meta"> | </span><span class="t">"]"</span><span class="meta"> | </span><span class="t">"&lt;"</span><span class="meta"> | </span><span class="t">"&gt;"</span><span class="meta"> | </span><span class="t">"{"</span><span class="meta"> | </span><span class="t">"}"</span><span class="meta">)</span><span class="meta">*</span> <span class="t">"&lt;/nowiki&gt;"</span>
+	<a href="#UnicodeWiki" class="nt">UnicodeWiki</a> <span class="t">" "</span><span class="meta">*</span> <span class="meta">(</span><span class="t">"*"</span><span class="meta"> | </span><span class="t">"#"</span><span class="meta"> | </span><span class="t">":"</span><span class="meta"> | </span><span class="t">";"</span><span class="meta">)</span>
+	<a href="#UnicodeWiki" class="nt">UnicodeWiki</a> <span class="t">" "</span><span class="meta">?</span> <span class="t">"="</span> <span class="t">" "</span><span class="meta">?</span> <a href="#UnicodeWiki" class="nt">UnicodeWiki</a>
+	<a href="#UnicodeWiki" class="nt">UnicodeWiki</a> <span class="t">"'"</span>
+	<span class="t">"'"</span> <a href="#UnicodeWiki" class="nt">UnicodeWiki</a></pre><pre><a name="WhiteSpaces" class="nt">WhiteSpaces</a> ::=
+	<span class="t">" "</span>
+	<a href="#NewLine" class="nt">NewLine</a>
+	<a href="#?_carriage_return_?" class="nt">?_carriage_return_?</a>
+	<a href="#?_line_feed_?" class="nt">?_line_feed_?</a>
+	<a href="#?_tab_?" class="nt">?_tab_?</a>
+	<a href="#?_variants_of_spaces_?" class="nt">?_variants_of_spaces_?</a></pre><pre><a name="NewLine" class="nt">NewLine</a> ::=
+	<a href="#?_carriage_return_and_line_feed_?" class="nt">?_carriage_return_and_line_feed_?</a></pre><pre><a name="Line" class="nt">Line</a> ::=
+	<a href="#PlainText" class="nt">PlainText</a> <a href="#PlainText" class="nt">PlainText</a><span class="meta">*</span> <span class="meta">(</span><span class="t">" "</span> <span class="t">" "</span><span class="meta">*</span> <a href="#PlainText" class="nt">PlainText</a> <a href="#PlainText" class="nt">PlainText</a><span class="meta">*</span><span class="meta">)</span><span class="meta">*</span></pre><pre><a name="Text" class="nt">Text</a> ::=
+	<a href="#Line" class="nt">Line</a> <a href="#Line" class="nt">Line</a><span class="meta">*</span> <span class="meta">(</span><a href="#NewLine" class="nt">NewLine</a> <a href="#NewLine" class="nt">NewLine</a><span class="meta">*</span> <a href="#Line" class="nt">Line</a> <a href="#Line" class="nt">Line</a><span class="meta">*</span><span class="meta">)</span><span class="meta">*</span></pre><pre><a name="PageName" class="nt">PageName</a> ::=
+	<a href="#TitleCharacter" class="nt">TitleCharacter</a> <span class="t">","</span> <span class="meta">(</span><span class="t">" "</span><span class="meta">?</span> <a href="#TitleCharacter" class="nt">TitleCharacter</a><span class="meta">)</span><span class="meta">*</span></pre><pre><a name="PageNameLink" class="nt">PageNameLink</a> ::=
+	<a href="#TitleCharacter" class="nt">TitleCharacter</a> <span class="t">","</span> <span class="meta">(</span><span class="meta">(</span><span class="t">" "</span><span class="meta"> | </span><span class="t">"_"</span><span class="meta">)</span><span class="meta">?</span> <a href="#TitleCharacter" class="nt">TitleCharacter</a><span class="meta">)</span><span class="meta">*</span></pre><pre><a name="SectionTitle" class="nt">SectionTitle</a> ::=
+	<span class="meta">(</span><a href="#SectionLinkCharacter_-" class="nt">SectionLinkCharacter_-</a> <span class="t">"="</span><span class="meta">)</span> <span class="meta">(</span><span class="t">" "</span><span class="meta">?</span> <span class="meta">(</span><a href="#SectionLinkCharacter_-" class="nt">SectionLinkCharacter_-</a> <span class="t">"="</span><span class="meta">)</span><span class="meta">)</span><span class="meta">*</span></pre><pre><a name="SectionLink" class="nt">SectionLink</a> ::=
+	<a href="#SectionLinkCharacter" class="nt">SectionLinkCharacter</a> <span class="meta">(</span><span class="t">"_"</span><span class="meta">?</span> <a href="#SectionLinkCharacter" class="nt">SectionLinkCharacter</a><span class="meta">)</span><span class="meta">*</span></pre><pre><a name="LinkTitle" class="nt">LinkTitle</a> ::=
+	<span class="meta">(</span><a href="#UnicodeCharacter" class="nt">UnicodeCharacter</a> <span class="t">" "</span><span class="meta">*</span><span class="meta">)</span><span class="meta">*</span> <span class="meta">(</span><a href="#UnicodeCharacter_-" class="nt">UnicodeCharacter_-</a> <span class="t">"]"</span><span class="meta">)</span></pre><pre><a name="TitleCharacter" class="nt">TitleCharacter</a> ::=
+	<a href="#UnicodeCharacter_-_BadTitleCharacters" class="nt">UnicodeCharacter_-_BadTitleCharacters</a></pre><pre><a name="BadTitleCharacters" class="nt">BadTitleCharacters</a> ::=
+	<span class="t">"["</span>
+	<span class="t">"]"</span>
+	<span class="t">"{"</span>
+	<span class="t">"}"</span>
+	<span class="t">"&lt;"</span>
+	<span class="t">"&gt;"</span>
+	<span class="t">"_"</span>
+	<span class="t">"|"</span>
+	<span class="t">"#"</span></pre><pre><a name="SectionLinkCharacter" class="nt">SectionLinkCharacter</a> ::=
+	<a href="#UnicodeCharacter_-_BadSectionLinkCharacters" class="nt">UnicodeCharacter_-_BadSectionLinkCharacters</a></pre><pre><a name="BadSectionLinkCharacters" class="nt">BadSectionLinkCharacters</a> ::=
+	<span class="t">"["</span>
+	<span class="t">"]"</span>
+	<span class="t">"|"</span></pre><pre><a name="noparse-block" class="nt">noparse-block</a> ::=
+	<a href="#nowiki-block" class="nt">nowiki-block</a>
+	<a href="#html-block" class="nt">html-block</a>
+	<a href="#math-block" class="nt">math-block</a>
+	<a href="#pre-block" class="nt">pre-block</a>
+	<a href="#html-comment" class="nt">html-comment</a></pre><pre><a name="nowiki-block" class="nt">nowiki-block</a> ::=
+	<a href="#nowiki-opening-tag" class="nt">nowiki-opening-tag</a> <a href="#whitespace" class="nt">whitespace</a><span class="meta">?</span> <a href="#nowiki-body" class="nt">nowiki-body</a> <a href="#whitespace" class="nt">whitespace</a><span class="meta">?</span> <span class="meta">(</span><a href="#nowiki-closing-tag" class="nt">nowiki-closing-tag</a><span class="meta"> | </span>ε<span class="meta">)</span></pre><pre><a name="nowiki-opening-tag" class="nt">nowiki-opening-tag</a> ::=
+	<span class="t">"&amp;lt;nowiki"</span> <span class="meta">(</span><a href="#whitespace" class="nt">whitespace</a> <a href="#characters" class="nt">characters</a><span class="meta">?</span><span class="meta">)</span><span class="meta">?</span> <span class="t">"&amp;gt;"</span></pre><pre><a name="nowiki-closing-tag" class="nt">nowiki-closing-tag</a> ::=
+	<span class="t">"&amp;lt;/nowiki"</span> <a href="#whitespace" class="nt">whitespace</a><span class="meta">?</span> <span class="t">"&amp;gt;"</span></pre><pre><a name="nowiki-body" class="nt">nowiki-body</a> ::=
+	<a href="#characters" class="nt">characters</a></pre><pre><a name="pre-block" class="nt">pre-block</a> ::=
+	<a href="#pre-opening-tag" class="nt">pre-opening-tag</a> <a href="#whitespace" class="nt">whitespace</a><span class="meta">?</span> <a href="#pre-body" class="nt">pre-body</a> <a href="#whitespace" class="nt">whitespace</a><span class="meta">?</span> <span class="meta">(</span><a href="#pre-closing-tag" class="nt">pre-closing-tag</a><span class="meta"> | </span>ε<span class="meta">)</span></pre><pre><a name="pre-opening-tag" class="nt">pre-opening-tag</a> ::=
+	<span class="t">"&amp;lt;pre"</span> <span class="meta">(</span><a href="#whitespace" class="nt">whitespace</a> <a href="#characters" class="nt">characters</a><span class="meta">?</span><span class="meta">)</span><span class="meta">?</span> <span class="t">"&amp;gt;"</span></pre><pre><a name="pre-closing-tag" class="nt">pre-closing-tag</a> ::=
+	<span class="t">"&amp;lt;/pre"</span> <a href="#whitespace" class="nt">whitespace</a><span class="meta">?</span> <span class="t">"&amp;gt;"</span></pre><pre><a name="pre-body" class="nt">pre-body</a> ::=
+	<a href="#characters" class="nt">characters</a></pre><pre><a name="html-block" class="nt">html-block</a> ::=
+	<a href="#html-opening-tag" class="nt">html-opening-tag</a> <a href="#whitespace" class="nt">whitespace</a><span class="meta">?</span> <a href="#html-body" class="nt">html-body</a> <a href="#whitespace" class="nt">whitespace</a><span class="meta">?</span> <span class="meta">(</span><a href="#html-closing-tag" class="nt">html-closing-tag</a><span class="meta"> | </span>ε<span class="meta">)</span></pre><pre><a name="html-opening-tag" class="nt">html-opening-tag</a> ::=
+	<span class="t">"&amp;lt;html"</span> <span class="meta">(</span><a href="#whitespace" class="nt">whitespace</a> <a href="#characters" class="nt">characters</a><span class="meta">?</span><span class="meta">)</span><span class="meta">?</span> <span class="t">"&amp;gt;"</span></pre><pre><a name="html-closing-tag" class="nt">html-closing-tag</a> ::=
+	<span class="t">"&amp;lt;/html"</span> <a href="#whitespace" class="nt">whitespace</a><span class="meta">?</span> <span class="t">"&amp;gt;"</span></pre><pre><a name="html-body" class="nt">html-body</a> ::=
+	<a href="#characters" class="nt">characters</a></pre><pre><a name="html-comment" class="nt">html-comment</a> ::=
+	<span class="t">"&amp;lt;!--"</span> <a href="#characters" class="nt">characters</a><span class="meta">*</span><span class="meta">?</span> <span class="t">"--&gt;"</span></pre><pre><a name="Table" class="nt">Table</a> ::=
+	<span class="t">"{|"</span> <span class="meta">(</span><span class="t">" "</span> <a href="#TableParameters" class="nt">TableParameters</a><span class="meta">)</span><span class="meta">?</span> <a href="#NewLine" class="nt">NewLine</a> <a href="#TableFirstRow" class="nt">TableFirstRow</a> <span class="t">"|}"</span></pre><pre><a name="TableFirstRow" class="nt">TableFirstRow</a> ::=
+	<a href="#TableColumnLine" class="nt">TableColumnLine</a> <a href="#NewLine" class="nt">NewLine</a>
+	<a href="#TableColumnMultiLine" class="nt">TableColumnMultiLine</a>
+	<a href="#TableRow" class="nt">TableRow</a></pre><pre><a name="TableRow" class="nt">TableRow</a> ::=
+	<span class="t">"|-"</span> <a href="#CSS" class="nt">CSS</a><span class="meta">?</span> <a href="#NewLine" class="nt">NewLine</a> <a href="#TableColumn" class="nt">TableColumn</a> <a href="#TableRow" class="nt">TableRow</a><span class="meta">?</span></pre><pre><a name="TableColumn" class="nt">TableColumn</a> ::=
+	<a href="#TableColumnLine" class="nt">TableColumnLine</a>
+	<a href="#TableColumnMultiLine" class="nt">TableColumnMultiLine</a></pre><pre><a name="TableColumnLine" class="nt">TableColumnLine</a> ::=
+	<span class="t">"|"</span> <a href="#InlineText" class="nt">InlineText</a> <span class="meta">(</span><span class="t">"|"</span> <a href="#TableColumnLine" class="nt">TableColumnLine</a><span class="meta">)</span><span class="meta">?</span></pre><pre><a name="TableColumnMultiLine" class="nt">TableColumnMultiLine</a> ::=
+	<span class="t">"|"</span> <span class="meta">(</span><a href="#TableCellParameters" class="nt">TableCellParameters</a> <span class="t">"|"</span><span class="meta">)</span><span class="meta">?</span> <a href="#AnyText" class="nt">AnyText</a> <a href="#NewLine" class="nt">NewLine</a> <a href="#TableColumnMultiLine" class="nt">TableColumnMultiLine</a><span class="meta">?</span></pre><pre><a name="TableParameters" class="nt">TableParameters</a> ::=
+	<a href="#CSS" class="nt">CSS</a>
+	<a href="#?" class="nt">?</a> <a href="#HTML" class="nt">HTML</a> <a href="#table" class="nt">table</a> <a href="#attributes" class="nt">attributes</a> <a href="#?" class="nt">?</a></pre><pre><a name="TableCellParameter" class="nt">TableCellParameter</a> ::=
+	<a href="#CSS" class="nt">CSS</a>
+	<a href="#?" class="nt">?</a> <a href="#HTML" class="nt">HTML</a> <a href="#cell" class="nt">cell</a> <a href="#attributes" class="nt">attributes</a> <a href="#?" class="nt">?</a></pre><pre><a name="ImageInline" class="nt">ImageInline</a> ::=
+	<span class="t">"[["</span> <span class="t">"Image:"</span> <a href="#PageName" class="nt">PageName</a> <span class="t">"."</span> <a href="#ImageExtension" class="nt">ImageExtension</a> <span class="meta">(</span><a href="#Pipe" class="nt">Pipe</a> <a href="#ImageOption" class="nt">ImageOption</a><span class="meta">)</span><span class="meta">*</span> <span class="t">"]]"</span></pre><pre><a name="ImageName" class="nt">ImageName</a> ::=
+	<a href="#PageName" class="nt">PageName</a> <span class="t">"."</span> <a href="#ImageExtension" class="nt">ImageExtension</a></pre><pre><a name="ImageExtension" class="nt">ImageExtension</a> ::=
+	<span class="t">"jpg"</span>
+	<span class="t">"jpeg"</span>
+	<span class="t">"png"</span>
+	<span class="t">"svg"</span>
+	<span class="t">"gif"</span>
+	<span class="t">"bmp"</span></pre><pre><a name="ImageOption" class="nt">ImageOption</a> ::=
+	<a href="#ImageModeParameter" class="nt">ImageModeParameter</a>
+	<a href="#ImageSizeParameter" class="nt">ImageSizeParameter</a>
+	<a href="#ImageAlignParameter" class="nt">ImageAlignParameter</a>
+	<a href="#ImageVAlignParameter" class="nt">ImageVAlignParameter</a>
+	<a href="#Caption" class="nt">Caption</a></pre><pre><a name="ImageModeParameter" class="nt">ImageModeParameter</a> ::=
+	<a href="#ImageModeManualThumb" class="nt">ImageModeManualThumb</a>
+	<a href="#ImageModeThumb" class="nt">ImageModeThumb</a>
+	<a href="#ImageModeFrame" class="nt">ImageModeFrame</a>
+	<a href="#ImageModeFrameless" class="nt">ImageModeFrameless</a></pre><pre><a name="ImageModeManualThumb" class="nt">ImageModeManualThumb</a> ::=
+	<span class="t">"thumbnail="</span> <a href="#ImageName" class="nt">ImageName</a>
+	<span class="t">"thumb="</span> <a href="#ImageName" class="nt">ImageName</a></pre><pre><a name="ImageModeAutoThumb" class="nt">ImageModeAutoThumb</a> ::=
+	<span class="t">"thumbnail"</span>
+	<span class="t">"thumb"</span></pre><pre><a name="ImageModeFrame" class="nt">ImageModeFrame</a> ::=
+	<span class="t">"framed"</span>
+	<span class="t">"enframed"</span>
+	<span class="t">"frame"</span></pre><pre><a name="ImageModeFrameless" class="nt">ImageModeFrameless</a> ::=
+	<span class="t">"frameless"</span></pre><pre><a name="ImageOtherParameter" class="nt">ImageOtherParameter</a> ::=
+	<a href="#ImageParamPage" class="nt">ImageParamPage</a>
+	<a href="#ImageParamUpright" class="nt">ImageParamUpright</a>
+	<a href="#ImageParamBorder" class="nt">ImageParamBorder</a></pre><pre><a name="ImageParamPage" class="nt">ImageParamPage</a> ::=
+	<span class="t">"page=$1"</span>
+	<span class="t">"page $1"</span></pre><pre><a name="ImageParamUpgright" class="nt">ImageParamUpgright</a> ::=
+	<span class="t">"upright"</span> <span class="meta">(</span><span class="t">"="</span><span class="meta">?</span> <a href="#PositiveInteger" class="nt">PositiveInteger</a><span class="meta">)</span><span class="meta">?</span></pre><pre><a name="ImageParamBorder" class="nt">ImageParamBorder</a> ::=
+	<span class="t">"border"</span></pre><pre><a name="ImageSizeParameter" class="nt">ImageSizeParameter</a> ::=
+	<a href="#PositiveNumber" class="nt">PositiveNumber</a> <span class="t">"px"</span></pre><pre><a name="ImageAlignParameter" class="nt">ImageAlignParameter</a> ::=
+	<a href="#ImageAlignLeft" class="nt">ImageAlignLeft</a>
+	<a href="#ImageAlign" class="nt">ImageAlign</a>
+	<a href="#Center" class="nt">Center</a>
+	<a href="#ImageAlignRight" class="nt">ImageAlignRight</a>
+	<a href="#ImageAlignNone" class="nt">ImageAlignNone</a></pre><pre><a name="ImageAlignLeft" class="nt">ImageAlignLeft</a> ::=
+	<span class="t">"left"</span></pre><pre><a name="ImageAlignCenter" class="nt">ImageAlignCenter</a> ::=
+	<span class="t">"center"</span>
+	<span class="t">"centre"</span></pre><pre><a name="ImageAlignRight" class="nt">ImageAlignRight</a> ::=
+	<span class="t">"right"</span></pre><pre><a name="ImageAlignNone" class="nt">ImageAlignNone</a> ::=
+	<span class="t">"none"</span></pre><pre><a name="ImageValignParameter" class="nt">ImageValignParameter</a> ::=
+	<a href="#ImageValignBaseline" class="nt">ImageValignBaseline</a>
+	<a href="#ImageValignSub" class="nt">ImageValignSub</a>
+	<a href="#ImageValignSuper" class="nt">ImageValignSuper</a>
+	<a href="#ImageValignTop" class="nt">ImageValignTop</a>
+	<a href="#ImageValignTextTop" class="nt">ImageValignTextTop</a>
+	<a href="#ImageValignMiddle" class="nt">ImageValignMiddle</a>
+	<a href="#ImageValignBottom" class="nt">ImageValignBottom</a>
+	<a href="#ImageValignTextBottom" class="nt">ImageValignTextBottom</a></pre><pre><a name="ImageValignBaseline" class="nt">ImageValignBaseline</a> ::=
+	<span class="t">"baseline"</span></pre><pre><a name="ImageValignSub" class="nt">ImageValignSub</a> ::=
+	<span class="t">"sub"</span></pre><pre><a name="ImageValignSuper" class="nt">ImageValignSuper</a> ::=
+	<span class="t">"super"</span>
+	<span class="t">"sup"</span></pre><pre><a name="ImageValignTop" class="nt">ImageValignTop</a> ::=
+	<span class="t">"top"</span></pre><pre><a name="ImageValignTextTop" class="nt">ImageValignTextTop</a> ::=
+	<span class="t">"text-top"</span></pre><pre><a name="ImageValignMiddle" class="nt">ImageValignMiddle</a> ::=
+	<span class="t">"middle"</span></pre><pre><a name="ImageValignBottom" class="nt">ImageValignBottom</a> ::=
+	<span class="t">"bottom"</span></pre><pre><a name="ImageValignTextBottom" class="nt">ImageValignTextBottom</a> ::=
+	<span class="t">"text-bottom"</span></pre><pre><a name="Caption" class="nt">Caption</a> ::=
+	<a href="#inline-text" class="nt">inline-text</a></pre><pre><a name="MediaInline" class="nt">MediaInline</a> ::=
+	<span class="t">"[["</span> <span class="t">"Media:"</span> <a href="#PageName" class="nt">PageName</a> <span class="t">"."</span> <a href="#MediaExtension" class="nt">MediaExtension</a> <span class="t">"]]"</span></pre><pre><a name="MediaExtension" class="nt">MediaExtension</a> ::=
+	<span class="t">"ogg"</span>
+	<span class="t">"wav"</span></pre><pre><a name="GalleryBlock" class="nt">GalleryBlock</a> ::=
+	<span class="t">"&lt;gallery&gt;"</span> <a href="#NewLine" class="nt">NewLine</a><span class="meta">?</span> <a href="#GalleryImage" class="nt">GalleryImage</a> <span class="meta">(</span><a href="#NewLine" class="nt">NewLine</a><span class="meta">?</span> <a href="#GalleryImage" class="nt">GalleryImage</a><span class="meta">)</span><span class="meta">*</span> <a href="#NewLine" class="nt">NewLine</a><span class="meta">?</span> <span class="t">"&lt;/gallery&gt;"</span></pre><pre><a name="GalleryImage" class="nt">GalleryImage</a> ::=
+	<a href="#to_be_defined_" class="nt">to_be_defined_</a> <span class="t">":"</span> <a href="#__essentially___foo_" class="nt">__essentially___foo_</a> <span class="t">"."</span> <a href="#_jpg" class="nt">_jpg</a> <span class="meta">(</span>ε<span class="meta"> | </span><a href="#caption" class="nt">caption</a><span class="meta">)</span><span class="meta">?</span></pre><pre><a name="canonical-article-title" class="nt">canonical-article-title</a> ::=
+	<a href="#canonical-page" class="nt">canonical-page</a> <a href="#canonical-sub-pages" class="nt">canonical-sub-pages</a><span class="meta">?</span></pre><pre><a name="canonical-sub-pages" class="nt">canonical-sub-pages</a> ::=
+	<a href="#canonical-sub-page" class="nt">canonical-sub-page</a> <a href="#canonical-sub-pages" class="nt">canonical-sub-pages</a><span class="meta">?</span></pre><pre><a name="canonical-sub-page" class="nt">canonical-sub-page</a> ::=
+	<a href="#sub-page-separator" class="nt">sub-page-separator</a> <a href="#canonical-page-chars" class="nt">canonical-page-chars</a></pre><pre><a name="canonical-page" class="nt">canonical-page</a> ::=
+	<a href="#canonical-page-first-char" class="nt">canonical-page-first-char</a> <a href="#canonical-page-chars" class="nt">canonical-page-chars</a><span class="meta">?</span></pre><pre><a name="canonical-page-chars" class="nt">canonical-page-chars</a> ::=
+	<a href="#canonical-page-char" class="nt">canonical-page-char</a> <a href="#canonical-page-chars" class="nt">canonical-page-chars</a><span class="meta">?</span></pre><pre><a name="canonical-page-first-char" class="nt">canonical-page-first-char</a> ::=
+	<a href="#ucase-letter" class="nt">ucase-letter</a>
+	<a href="#digit" class="nt">digit</a>
+	<a href="#underscore" class="nt">underscore</a>
+	<span class="t">"."</span> <span class="t">"."</span> <span class="t">"."</span> <span class="t">"?"</span></pre><pre><a name="canonical-page-char" class="nt">canonical-page-char</a> ::=
+	<a href="#letter" class="nt">letter</a>
+	<a href="#digit" class="nt">digit</a>
+	<a href="#underscore" class="nt">underscore</a>
+	<span class="t">"."</span> <span class="t">"."</span> <span class="t">"."</span> <span class="t">"?"</span></pre><pre><a name="sub-page-separator" class="nt">sub-page-separator</a> ::=
+	<span class="t">"/"</span></pre><pre><a name="article-title" class="nt">article-title</a> ::=
+	<a href="#page" class="nt">page</a> <a href="#sub-pages" class="nt">sub-pages</a><span class="meta">?</span></pre><pre><a name="sub-pages" class="nt">sub-pages</a> ::=
+	<a href="#sub-page" class="nt">sub-page</a> <a href="#sub-pages" class="nt">sub-pages</a><span class="meta">?</span></pre><pre><a name="sub-page" class="nt">sub-page</a> ::=
+	<a href="#sub-page-separator" class="nt">sub-page-separator</a> <a href="#page-chars" class="nt">page-chars</a></pre><pre><a name="page" class="nt">page</a> ::=
+	<a href="#page-first-char" class="nt">page-first-char</a> <a href="#page-chars" class="nt">page-chars</a><span class="meta">?</span></pre><pre><a name="page-chars" class="nt">page-chars</a> ::=
+	<a href="#page-char" class="nt">page-char</a> <a href="#page-chars" class="nt">page-chars</a><span class="meta">?</span></pre><pre><a name="page-first-char" class="nt">page-first-char</a> ::=
+	<a href="#canonical-page-first-char" class="nt">canonical-page-first-char</a>
+	<a href="#lcase-letter" class="nt">lcase-letter</a>
+	<span class="t">"."</span> <span class="t">"."</span> <span class="t">"."</span> <span class="t">"?"</span></pre><pre><a name="page-char" class="nt">page-char</a> ::=
+	<a href="#canonical-page-char" class="nt">canonical-page-char</a>
+	<a href="#space" class="nt">space</a>
+	<span class="t">"."</span> <span class="t">"."</span> <span class="t">"."</span> <span class="t">"?"</span></pre><pre><a name="wiki-page" class="nt">wiki-page</a> ::=
+	<a href="#redirect" class="nt">redirect</a> <a href="#article" class="nt">article</a><span class="meta">?</span>
+	<a href="#article" class="nt">article</a><span class="meta">?</span></pre><pre><a name="redirect" class="nt">redirect</a> ::=
+	<a href="#redirect-tag" class="nt">redirect-tag</a> <a href="#characters" class="nt">characters</a> <a href="#internal-link-start" class="nt">internal-link-start</a> <a href="#article-link" class="nt">article-link</a> <span class="meta">(</span><a href="#internal-link-end" class="nt">internal-link-end</a><span class="meta"> | </span><a href="#pipe" class="nt">pipe</a><span class="meta"> | </span><a href="#EOL" class="nt">EOL</a><span class="meta">)</span></pre><pre><a name="redirect-tag" class="nt">redirect-tag</a> ::=
+	<a href="#FROM_LANGUAGE_FILE" class="nt">FROM_LANGUAGE_FILE</a></pre><pre><a name="article" class="nt">article</a> ::=
+	<a href="#special-block-and-more" class="nt">special-block-and-more</a>
+	<a href="#paragraph-and-more" class="nt">paragraph-and-more</a></pre><pre><a name="special-block-and-more" class="nt">special-block-and-more</a> ::=
+	<a href="#special-block" class="nt">special-block</a> <span class="meta">(</span><a href="#EOF" class="nt">EOF</a><span class="meta"> | </span><a href="#newline" class="nt">newline</a><span class="meta">?</span> <a href="#special-block-and-more" class="nt">special-block-and-more</a><span class="meta"> | </span><span class="meta">(</span><a href="#newline" class="nt">newline</a><span class="meta"> | </span>ε<span class="meta">)</span> <a href="#paragraph-and-more" class="nt">paragraph-and-more</a><span class="meta">)</span></pre><pre><a name="paragraph-and-more" class="nt">paragraph-and-more</a> ::=
+	<a href="#paragraph" class="nt">paragraph</a> <span class="meta">(</span><a href="#EOF" class="nt">EOF</a><span class="meta"> | </span><a href="#newline" class="nt">newline</a><span class="meta">?</span> <a href="#special-block-and-more" class="nt">special-block-and-more</a><span class="meta"> | </span><a href="#newline" class="nt">newline</a> <a href="#paragraph-and-more" class="nt">paragraph-and-more</a><span class="meta">)</span></pre><pre><a name="paragraph" class="nt">paragraph</a> ::=
+	<a href="#newline" class="nt">newline</a> <a href="#lines-of-text" class="nt">lines-of-text</a><span class="meta">?</span>
+	<a href="#lines-of-text" class="nt">lines-of-text</a></pre><pre><a name="lines-of-text" class="nt">lines-of-text</a> ::=
+	<a href="#line-of-text" class="nt">line-of-text</a> <a href="#lines-of-text" class="nt">lines-of-text</a><span class="meta">?</span></pre><pre><a name="line-of-text" class="nt">line-of-text</a> ::=
+	<a href="#inline-text" class="nt">inline-text</a> <a href="#newline" class="nt">newline</a></pre><pre><a name="link" class="nt">link</a> ::=
+	<a href="#internal-link" class="nt">internal-link</a>
+	<a href="#external-link" class="nt">external-link</a></pre><pre><a name="internal-link" class="nt">internal-link</a> ::=
+	<a href="#internal-link-start" class="nt">internal-link-start</a> <a href="#article-link" class="nt">article-link</a> <span class="meta">(</span><span class="t">"#"</span> <a href="#section-id" class="nt">section-id</a><span class="meta">)</span><span class="meta">?</span> <span class="meta">(</span><a href="#pipe" class="nt">pipe</a> <a href="#link-description" class="nt">link-description</a><span class="meta">?</span><span class="meta">)</span><span class="meta">?</span> <a href="#internal-link-end" class="nt">internal-link-end</a> <a href="#extra-description" class="nt">extra-description</a><span class="meta">?</span></pre><pre><a name="article-link" class="nt">article-link</a> ::=
+	<span class="meta">(</span><a href="#interwiki-prefix" class="nt">interwiki-prefix</a><span class="meta"> | </span><span class="t">":"</span><span class="meta">)</span><span class="meta">?</span> <a href="#namespace-prefix" class="nt">namespace-prefix</a><span class="meta">?</span> <a href="#article-title" class="nt">article-title</a></pre><pre><a name="article-link" class="nt">article-link</a> ::=
+	<span class="meta">(</span><a href="#interwiki-prefix" class="nt">interwiki-prefix</a><span class="meta"> | </span><span class="t">":"</span><span class="meta">)</span><span class="meta">?</span> <a href="#namespace-prefix" class="nt">namespace-prefix</a><span class="meta">?</span> <a href="#article-title" class="nt">article-title</a>
+	<span class="t">"/"</span> <a href="#article-title" class="nt">article-title</a>
+	<span class="t">"../"</span><span class="meta">*</span> <a href="#article-title" class="nt">article-title</a><span class="meta">?</span></pre><pre><a name="article-title" class="nt">article-title</a> ::=
+	<span class="meta">(</span><a href="#title-legal-chars" class="nt">title-legal-chars</a><span class="meta"> | </span><span class="t">"%"</span><span class="meta">)</span><span class="meta">?</span><span class="meta">+</span></pre><pre><a name="title-legal-chars" class="nt">title-legal-chars</a> ::=
+	<span class="t">" "</span>
+	<span class="t">"%"</span>
+	<span class="t">"!"</span>
+	<span class="t">"""</span>
+	<span class="t">"$"</span>
+	<span class="t">"&amp;"</span>
+	<span class="t">"'"</span>
+	<span class="t">"("</span>
+	<span class="t">")"</span>
+	<span class="t">"*"</span>
+	<span class="t">","</span>
+	<span class="t">"-"</span>
+	<span class="t">"."</span>
+	<span class="t">"/"</span>
+	<span class="t">"0"</span>
+	<span class="t">"1"</span>
+	<span class="t">"2"</span>
+	<span class="t">"3"</span>
+	<span class="t">"4"</span>
+	<span class="t">"5"</span>
+	<span class="t">"6"</span>
+	<span class="t">"7"</span>
+	<span class="t">"8"</span>
+	<span class="t">"9"</span>
+	<span class="t">":"</span>
+	<span class="t">";"</span>
+	<span class="t">"="</span>
+	<span class="t">"?"</span>
+	<span class="t">"@"</span>
+	<span class="t">"A"</span>
+	<span class="t">"B"</span>
+	<span class="t">"C"</span>
+	<span class="t">"D"</span>
+	<span class="t">"E"</span>
+	<span class="t">"F"</span>
+	<span class="t">"G"</span>
+	<span class="t">"H"</span>
+	<span class="t">"I"</span>
+	<span class="t">"J"</span>
+	<span class="t">"K"</span>
+	<span class="t">"L"</span>
+	<span class="t">"M"</span>
+	<span class="t">"N"</span>
+	<span class="t">"O"</span>
+	<span class="t">"P"</span>
+	<span class="t">"Q"</span>
+	<span class="t">"R"</span>
+	<span class="t">"S"</span>
+	<span class="t">"T"</span>
+	<span class="t">"U"</span>
+	<span class="t">"V"</span>
+	<span class="t">"W"</span>
+	<span class="t">"X"</span>
+	<span class="t">"Y"</span>
+	<span class="t">"Z"</span>
+	<span class="t">"\"</span>
+	<span class="t">"^"</span>
+	<span class="t">"_"</span>
+	<span class="t">"`"</span>
+	<span class="t">"a"</span>
+	<span class="t">"b"</span>
+	<span class="t">"c"</span>
+	<span class="t">"d"</span>
+	<span class="t">"e"</span>
+	<span class="t">"f"</span>
+	<span class="t">"g"</span>
+	<span class="t">"h"</span>
+	<span class="t">"i"</span>
+	<span class="t">"j"</span>
+	<span class="t">"k"</span>
+	<span class="t">"l"</span>
+	<span class="t">"m"</span>
+	<span class="t">"n"</span>
+	<span class="t">"o"</span>
+	<span class="t">"p"</span>
+	<span class="t">"q"</span>
+	<span class="t">"r"</span>
+	<span class="t">"s"</span>
+	<span class="t">"t"</span>
+	<span class="t">"u"</span>
+	<span class="t">"v"</span>
+	<span class="t">"w"</span>
+	<span class="t">"x"</span>
+	<span class="t">"y"</span>
+	<span class="t">"z"</span>
+	<span class="t">"~"</span>
+	<span class="t">""</span>
+	<span class="t">""</span>
+	<span class="t">""</span>
+	<span class="t">""</span>
+	<span class="t">""</span>
+	<span class="t">""</span>
+	<span class="t">""</span>
+	<span class="t">""</span>
+	<span class="t">""</span>
+	<span class="t">""</span>
+	<span class="t">""</span>
+	<span class="t">""</span>
+	<span class="t">""</span>
+	<span class="t">""</span>
+	<span class="t">""</span>
+	<span class="t">""</span>
+	<span class="t">""</span>
+	<span class="t">""</span>
+	<span class="t">""</span>
+	<span class="t">""</span>
+	<span class="t">""</span>
+	<span class="t">""</span>
+	<span class="t">""</span>
+	<span class="t">""</span>
+	<span class="t">""</span>
+	<span class="t">""</span>
+	<span class="t">""</span>
+	<span class="t">""</span>
+	<span class="t">""</span>
+	<span class="t">""</span>
+	<span class="t">""</span>
+	<span class="t">""</span>
+	<span class="t">" "</span>
+	<span class="t">"¡"</span>
+	<span class="t">"¢"</span>
+	<span class="t">"£"</span>
+	<span class="t">"¤"</span>
+	<span class="t">"¥"</span>
+	<span class="t">"¦"</span>
+	<span class="t">"§"</span>
+	<span class="t">"¨"</span>
+	<span class="t">"©"</span>
+	<span class="t">"ª"</span>
+	<span class="t">"«"</span>
+	<span class="t">"¬"</span>
+	<span class="t">"­"</span>
+	<span class="t">"®"</span>
+	<span class="t">"¯"</span>
+	<span class="t">"°"</span>
+	<span class="t">"±"</span>
+	<span class="t">"²"</span>
+	<span class="t">"³"</span>
+	<span class="t">"´"</span>
+	<span class="t">"µ"</span>
+	<span class="t">"¶"</span>
+	<span class="t">"·"</span>
+	<span class="t">"¸"</span>
+	<span class="t">"¹"</span>
+	<span class="t">"º"</span>
+	<span class="t">"»"</span>
+	<span class="t">"¼"</span>
+	<span class="t">"½"</span>
+	<span class="t">"¾"</span>
+	<span class="t">"¿"</span>
+	<span class="t">"À"</span>
+	<span class="t">"Á"</span>
+	<span class="t">"Â"</span>
+	<span class="t">"Ã"</span>
+	<span class="t">"Ä"</span>
+	<span class="t">"Å"</span>
+	<span class="t">"Æ"</span>
+	<span class="t">"Ç"</span>
+	<span class="t">"È"</span>
+	<span class="t">"É"</span>
+	<span class="t">"Ê"</span>
+	<span class="t">"Ë"</span>
+	<span class="t">"Ì"</span>
+	<span class="t">"Í"</span>
+	<span class="t">"Î"</span>
+	<span class="t">"Ï"</span>
+	<span class="t">"Ð"</span>
+	<span class="t">"Ñ"</span>
+	<span class="t">"Ò"</span>
+	<span class="t">"Ó"</span>
+	<span class="t">"Ô"</span>
+	<span class="t">"Õ"</span>
+	<span class="t">"Ö"</span>
+	<span class="t">"×"</span>
+	<span class="t">"Ø"</span>
+	<span class="t">"Ù"</span>
+	<span class="t">"Ú"</span>
+	<span class="t">"Û"</span>
+	<span class="t">"Ü"</span>
+	<span class="t">"Ý"</span>
+	<span class="t">"Þ"</span>
+	<span class="t">"ß"</span>
+	<span class="t">"à"</span>
+	<span class="t">"á"</span>
+	<span class="t">"â"</span>
+	<span class="t">"ã"</span>
+	<span class="t">"ä"</span>
+	<span class="t">"å"</span>
+	<span class="t">"æ"</span>
+	<span class="t">"ç"</span>
+	<span class="t">"è"</span>
+	<span class="t">"é"</span>
+	<span class="t">"ê"</span>
+	<span class="t">"ë"</span>
+	<span class="t">"ì"</span>
+	<span class="t">"í"</span>
+	<span class="t">"î"</span>
+	<span class="t">"ï"</span>
+	<span class="t">"ð"</span>
+	<span class="t">"ñ"</span>
+	<span class="t">"ò"</span>
+	<span class="t">"ó"</span>
+	<span class="t">"ô"</span>
+	<span class="t">"õ"</span>
+	<span class="t">"ö"</span>
+	<span class="t">"÷"</span>
+	<span class="t">"ø"</span>
+	<span class="t">"ù"</span>
+	<span class="t">"ú"</span>
+	<span class="t">"û"</span>
+	<span class="t">"ü"</span>
+	<span class="t">"ý"</span>
+	<span class="t">"þ"</span>
+	<span class="t">"ÿ"</span>
+	<span class="t">"+"</span></pre><pre><a name="interwiki-prefix" class="nt">interwiki-prefix</a> ::=
+	<a href="#interwiki" class="nt">interwiki</a> <span class="t">":"</span></pre><pre><a name="interwiki" class="nt">interwiki</a> ::=
+	<a href="#STRING_FROM_DB" class="nt">STRING_FROM_DB</a></pre><pre><a name="namespace-prefix" class="nt">namespace-prefix</a> ::=
+	<a href="#namespace" class="nt">namespace</a><span class="meta">?</span> <span class="t">":"</span></pre><pre><a name="namespace" class="nt">namespace</a> ::=
+	<a href="#STRING_FROM_CONFIG" class="nt">STRING_FROM_CONFIG</a></pre><pre><a name="link-description" class="nt">link-description</a> ::=
+	<a href="#LEGAL_ARTICLE_ENTITY" class="nt">LEGAL_ARTICLE_ENTITY</a></pre><pre><a name="extra-description" class="nt">extra-description</a> ::=
+	<a href="#letter" class="nt">letter</a> <a href="#extra-description" class="nt">extra-description</a><span class="meta">?</span></pre><pre><a name="internal-link-start" class="nt">internal-link-start</a> ::=
+	<span class="t">"[["</span></pre><pre><a name="internal-link-end" class="nt">internal-link-end</a> ::=
+	<span class="t">"]]"</span></pre><pre><a name="pipe" class="nt">pipe</a> ::=
+	<span class="t">"|"</span></pre><pre><a name="section-id" class="nt">section-id</a> ::=
+	<span class="meta">(</span><a href="#title-legal-chars" class="nt">title-legal-chars</a><span class="meta"> | </span><span class="t">"%"</span><span class="meta"> | </span><span class="t">"#"</span><span class="meta">)</span><span class="meta">?</span><span class="meta">+</span></pre><pre><a name="category" class="nt">category</a> ::=
+	<a href="#internal-link-start" class="nt">internal-link-start</a> <a href="#category-namespace" class="nt">category-namespace</a> <span class="t">":"</span> <a href="#article-title" class="nt">article-title</a> <span class="meta">(</span><a href="#pipe" class="nt">pipe</a> <a href="#sort-key" class="nt">sort-key</a><span class="meta">)</span><span class="meta">?</span> <a href="#internal-link-end" class="nt">internal-link-end</a></pre><pre><a name="category-namespace" class="nt">category-namespace</a> ::=
+	<a href="#NS_CATEGORY" class="nt">NS_CATEGORY</a></pre><pre><a name="external-link" class="nt">external-link</a> ::=
+	<a href="#external-link-start" class="nt">external-link-start</a> <a href="#url" class="nt">url</a> <a href="#whitespace" class="nt">whitespace</a><span class="meta">?</span> <a href="#link-description" class="nt">link-description</a><span class="meta">?</span> <a href="#external-link-end" class="nt">external-link-end</a>
+	<a href="#url" class="nt">url</a></pre><pre><a name="url" class="nt">url</a> ::=
+	<a href="#protocol" class="nt">protocol</a> <a href="#url-path" class="nt">url-path</a></pre><pre><a name="protocol" class="nt">protocol</a> ::=
+	<a href="#ALLOWED_PROTOCOL_FROM_CONFIG" class="nt">ALLOWED_PROTOCOL_FROM_CONFIG</a> <span class="meta">(</span><a href="#e" class="nt">e</a> <span class="t">"."</span> <a href="#g" class="nt">g</a> <span class="t">"."</span> <span class="t">"http://"</span> <span class="t">","</span> <span class="t">"mailto:"</span><span class="meta">)</span></pre><pre><a name="url-path" class="nt">url-path</a> ::=
+	<a href="#url-char" class="nt">url-char</a> <a href="#url-path" class="nt">url-path</a><span class="meta">?</span></pre><pre><a name="url-char" class="nt">url-char</a> ::=
+	<a href="#LEGAL_URL_ENTITY" class="nt">LEGAL_URL_ENTITY</a></pre><pre><a name="external-link-start" class="nt">external-link-start</a> ::=
+	<span class="t">"["</span></pre><pre><a name="external-link-end" class="nt">external-link-end</a> ::=
+	<span class="t">"]"</span></pre><pre><a name="magic-link" class="nt">magic-link</a> ::=
+	<a href="#isbn" class="nt">isbn</a>
+	<a href="#rfc-number" class="nt">rfc-number</a>
+	<a href="#pmid-number" class="nt">pmid-number</a></pre><pre><a name="isbn" class="nt">isbn</a> ::=
+	<span class="t">"ISBN"</span> <span class="meta">(</span><span class="t">" "</span> <span class="t">"+"</span><span class="meta">)</span> <a href="#isbn-number" class="nt">isbn-number</a> <span class="t">"?"</span> <span class="meta">(</span><a href="#non-word-character" class="nt">non-word-character</a> <span class="t">"/"</span> <span class="t">"\"</span> <a href="#b" class="nt">b</a> <span class="t">"/"</span><span class="meta">)</span></pre><pre><a name="isbn-number" class="nt">isbn-number</a> ::=
+	<span class="meta">(</span><span class="t">"97"</span> <span class="meta">(</span><span class="t">"8"</span><span class="meta"> | </span><span class="t">"9"</span><span class="meta">)</span> <span class="meta">(</span><span class="t">" "</span><span class="meta"> | </span><span class="t">"-"</span><span class="meta">)</span> <span class="t">"?"</span><span class="meta">)</span> <span class="meta">(</span><a href="#DIGIT" class="nt">DIGIT</a> <span class="meta">(</span><span class="t">" "</span><span class="meta"> | </span><span class="t">"-"</span><span class="meta">)</span> <span class="t">"?"</span><span class="meta">)</span> <span class="t">"9"</span><span class="meta">*</span> <span class="meta">(</span><a href="#DIGIT" class="nt">DIGIT</a><span class="meta"> | </span><span class="t">"X"</span><span class="meta"> | </span><span class="t">"x"</span><span class="meta">)</span></pre><pre><a name="rfc-number" class="nt">rfc-number</a> ::=
+	<span class="t">"RFC"</span> <a href="#spaces" class="nt">spaces</a> <a href="#digits" class="nt">digits</a></pre><pre><a name="pmid-number" class="nt">pmid-number</a> ::=
+	<span class="t">"PMID"</span> <a href="#spaces" class="nt">spaces</a> <a href="#digits" class="nt">digits</a></pre><pre><a name="special-block" class="nt">special-block</a> ::=
+	<a href="#horizontal-rule" class="nt">horizontal-rule</a>
+	<a href="#heading" class="nt">heading</a>
+	<a href="#list-item" class="nt">list-item</a>
+	<a href="#nowiki" class="nt">nowiki</a> <a href="#table" class="nt">table</a> <a href="#/ nowiki" class="nt">/ nowiki</a>
+	<a href="#space-block" class="nt">space-block</a>
+	<span class="t">"."</span> <span class="t">"."</span> <span class="t">"."</span></pre><pre><a name="horizontal-rule" class="nt">horizontal-rule</a> ::=
+	<span class="t">"----"</span> <a href="#dashes" class="nt">dashes</a><span class="meta">?</span> <a href="#inline-text" class="nt">inline-text</a><span class="meta">?</span> <a href="#newline" class="nt">newline</a></pre><pre><a name="dashes" class="nt">dashes</a> ::=
+	<span class="t">"-"</span> <a href="#dashes" class="nt">dashes</a><span class="meta">?</span></pre><pre><a name="heading" class="nt">heading</a> ::=
+	<a href="#level-6-heading" class="nt">level-6-heading</a>
+	<a href="#level-5-heading" class="nt">level-5-heading</a>
+	<a href="#level-4-heading" class="nt">level-4-heading</a>
+	<a href="#level-3-heading" class="nt">level-3-heading</a>
+	<a href="#level-2-heading" class="nt">level-2-heading</a>
+	<a href="#level-1-heading" class="nt">level-1-heading</a></pre><pre><a name="level-6-heading" class="nt">level-6-heading</a> ::=
+	<span class="t">"======"</span> <a href="#inline-text" class="nt">inline-text</a> <span class="t">"======"</span> <a href="#space-tabs" class="nt">space-tabs</a> <a href="#newline" class="nt">newline</a></pre><pre><a name="level-5-heading" class="nt">level-5-heading</a> ::=
+	<span class="t">"====="</span> <a href="#inline-text" class="nt">inline-text</a> <span class="t">"====="</span> <a href="#space-tabs" class="nt">space-tabs</a> <a href="#newline" class="nt">newline</a></pre><pre><a name="level-4-heading" class="nt">level-4-heading</a> ::=
+	<span class="t">"===="</span> <a href="#inline-text" class="nt">inline-text</a> <span class="t">"===="</span> <a href="#space-tabs" class="nt">space-tabs</a> <a href="#newline" class="nt">newline</a></pre><pre><a name="level-3-heading" class="nt">level-3-heading</a> ::=
+	<span class="t">"==="</span> <a href="#inline-text" class="nt">inline-text</a> <span class="t">"==="</span> <a href="#space-tabs" class="nt">space-tabs</a> <a href="#newline" class="nt">newline</a></pre><pre><a name="level-2-heading" class="nt">level-2-heading</a> ::=
+	<span class="t">"=="</span> <a href="#inline-text" class="nt">inline-text</a> <span class="t">"=="</span> <a href="#space-tabs" class="nt">space-tabs</a> <a href="#newline" class="nt">newline</a></pre><pre><a name="level-1-heading" class="nt">level-1-heading</a> ::=
+	<span class="t">"="</span> <a href="#inline-text" class="nt">inline-text</a> <span class="t">"="</span> <a href="#space-tabs" class="nt">space-tabs</a> <a href="#newline" class="nt">newline</a></pre><pre><a name="list-item" class="nt">list-item</a> ::=
+	<a href="#indent-item" class="nt">indent-item</a>
+	<a href="#enumerated-item" class="nt">enumerated-item</a>
+	<a href="#bullet-item" class="nt">bullet-item</a></pre><pre><a name="indent-item" class="nt">indent-item</a> ::=
+	<span class="t">":"</span> <span class="meta">(</span><a href="#list-item" class="nt">list-item</a><span class="meta"> | </span><a href="#item-body" class="nt">item-body</a><span class="meta">)</span><span class="meta">?</span></pre><pre><a name="enumerated-item" class="nt">enumerated-item</a> ::=
+	<span class="t">"#"</span> <span class="meta">(</span><a href="#list-item" class="nt">list-item</a><span class="meta"> | </span><a href="#item-body" class="nt">item-body</a><span class="meta">)</span><span class="meta">?</span></pre><pre><a name="bullet-item" class="nt">bullet-item</a> ::=
+	<span class="t">"*"</span> <span class="meta">(</span><a href="#list-item" class="nt">list-item</a><span class="meta"> | </span><a href="#item-body" class="nt">item-body</a><span class="meta">)</span><span class="meta">?</span></pre><pre><a name="item-body" class="nt">item-body</a> ::=
+	<a href="#defined-term" class="nt">defined-term</a>
+	<a href="#whitespace" class="nt">whitespace</a><span class="meta">?</span> <a href="#inline-text" class="nt">inline-text</a></pre><pre><a name="defined-term" class="nt">defined-term</a> ::=
+	<span class="t">";"</span> <a href="#text" class="nt">text</a> <a href="#definition" class="nt">definition</a><span class="meta">?</span></pre><pre><a name="definition" class="nt">definition</a> ::=
+	<span class="t">":"</span> <a href="#inline-text" class="nt">inline-text</a></pre><pre><a name="space-block" class="nt">space-block</a> ::=
+	<span class="t">" "</span> <a href="#inline-text" class="nt">inline-text</a> <a href="#newline" class="nt">newline</a> <a href="#space-block-2" class="nt">space-block-2</a><span class="meta">*</span><span class="meta">?</span></pre><pre><a name="space-block-2" class="nt">space-block-2</a> ::=
+	<span class="t">" "</span> <a href="#inline-text" class="nt">inline-text</a><span class="meta">?</span> <a href="#newline" class="nt">newline</a></pre><pre><a name="inline-text" class="nt">inline-text</a> ::=
+	<a href="#inline-element" class="nt">inline-element</a> <a href="#inline-text" class="nt">inline-text</a><span class="meta">?</span></pre><pre><a name="inline-element" class="nt">inline-element</a> ::=
+	<a href="#category-link" class="nt">category-link</a>
+	<a href="#internal-link" class="nt">internal-link</a>
+	<a href="#external-link" class="nt">external-link</a>
+	<a href="#magic-link" class="nt">magic-link</a>
+	<a href="#image-inline" class="nt">image-inline</a>
+	<a href="#gallery-block" class="nt">gallery-block</a>
+	<a href="#media-inline" class="nt">media-inline</a>
+	<a href="#text-with-formatting" class="nt">text-with-formatting</a></pre><pre><a name="text-with-formatting" class="nt">text-with-formatting</a> ::=
+	<a href="#formatting" class="nt">formatting</a>
+	<a href="#inline-html" class="nt">inline-html</a>
+	<a href="#noparseblock" class="nt">noparseblock</a>
+	<a href="#behaviour-switch" class="nt">behaviour-switch</a>
+	<a href="#open-guillemet" class="nt">open-guillemet</a>
+	<a href="#close-guillemet" class="nt">close-guillemet</a>
+	<a href="#html-entity" class="nt">html-entity</a>
+	<a href="#html-unsafe-symbol" class="nt">html-unsafe-symbol</a>
+	<a href="#text" class="nt">text</a>
+	<a href="#random-character" class="nt">random-character</a>
+	<span class="meta">(</span><a href="#more" class="nt">more</a> <a href="#missing" class="nt">missing</a> <span class="t">"?"</span><span class="meta">)</span> <span class="t">"."</span> <span class="t">"."</span> <span class="t">"."</span></pre><pre><a name="text" class="nt">text</a> ::=
+	<a href="#harmless-character" class="nt">harmless-character</a><span class="meta">+</span></pre><pre><a name="html-entity" class="nt">html-entity</a> ::=
+	<span class="t">"&amp;"</span> <a href="#html-entity-name" class="nt">html-entity-name</a> <span class="t">";"</span>
+	<span class="t">"&amp;#"</span> <a href="#decimal-number" class="nt">decimal-number</a> <span class="t">";"</span>
+	<span class="t">"&amp;#x"</span> <a href="#hex-number" class="nt">hex-number</a> <span class="t">";"</span></pre><pre><a name="html-entity-name" class="nt">html-entity-name</a> ::=
+	<a href="#Sanitizer" class="nt">Sanitizer</a> <span class="t">":"</span> <span class="t">":"</span> <span class="t">"$"</span> <a href="#wgHtmlEntities" class="nt">wgHtmlEntities</a> <span class="meta">(</span><a href="#case" class="nt">case</a> <a href="#sensitive" class="nt">sensitive</a><span class="meta">)</span> <span class="meta">(</span><span class="t">"*"</span> <span class="t">"Aacute"</span><span class="meta"> | </span><span class="t">"aacute"</span><span class="meta"> | </span><span class="t">"."</span> <span class="t">"."</span> <span class="t">"."</span> <span class="t">"*"</span><span class="meta">)</span></pre><pre><a name="html-unsafe-symbol" class="nt">html-unsafe-symbol</a> ::=
+	<a href="#unescaped-ampersand" class="nt">unescaped-ampersand</a>
+	<a href="#unespaced-less-than" class="nt">unespaced-less-than</a>
+	<a href="#unescaped-greater-than" class="nt">unescaped-greater-than</a></pre><pre><a name="unescaped-ampersand" class="nt">unescaped-ampersand</a> ::=
+	<span class="t">"&amp;"</span></pre><pre><a name="unescaped-less-than" class="nt">unescaped-less-than</a> ::=
+	<span class="t">"&lt;"</span></pre><pre><a name="unescaped-greater-than" class="nt">unescaped-greater-than</a> ::=
+	<span class="t">"&gt;"</span></pre><pre><a name="harmless-characters" class="nt">harmless-characters</a> ::=
+	<span class="t">"A"</span>
+	<span class="t">"B"</span>
+	<span class="t">"C"</span>
+	<span class="t">"D"</span>
+	<span class="t">"E"</span>
+	<span class="t">"F"</span>
+	<span class="t">"G"</span>
+	<span class="t">"H"</span>
+	<span class="t">"I"</span>
+	<span class="t">"J"</span>
+	<span class="t">"K"</span>
+	<span class="t">"L"</span>
+	<span class="t">"M"</span>
+	<span class="t">"N"</span>
+	<span class="t">"O"</span>
+	<span class="t">"P"</span>
+	<span class="t">"Q"</span>
+	<span class="t">"R"</span>
+	<span class="t">"S"</span>
+	<span class="t">"T"</span>
+	<span class="t">"U"</span>
+	<span class="t">"V"</span>
+	<span class="t">"W"</span>
+	<span class="t">"X"</span>
+	<span class="t">"Y"</span>
+	<span class="t">"Z"</span>
+	<span class="t">"a"</span>
+	<span class="t">"b"</span>
+	<span class="t">"c"</span>
+	<span class="t">"d"</span>
+	<span class="t">"e"</span>
+	<span class="t">"f"</span>
+	<span class="t">"g"</span>
+	<span class="t">"h"</span>
+	<span class="t">"i"</span>
+	<span class="t">"j"</span>
+	<span class="t">"k"</span>
+	<span class="t">"l"</span>
+	<span class="t">"m"</span>
+	<span class="t">"n"</span>
+	<span class="t">"o"</span>
+	<span class="t">"p"</span>
+	<span class="t">"q"</span>
+	<span class="t">"r"</span>
+	<span class="t">"s"</span>
+	<span class="t">"t"</span>
+	<span class="t">"u"</span>
+	<span class="t">"v"</span>
+	<span class="t">"w"</span>
+	<span class="t">"x"</span>
+	<span class="t">"y"</span>
+	<span class="t">"z"</span>
+	<span class="t">"0"</span>
+	<span class="t">"1"</span>
+	<span class="t">"2"</span>
+	<span class="t">"3"</span>
+	<span class="t">"4"</span>
+	<span class="t">"5"</span>
+	<span class="t">"6"</span>
+	<span class="t">"7"</span>
+	<span class="t">"8"</span>
+	<span class="t">"9"</span></pre><pre><a name="random-character" class="nt">random-character</a> ::=
+	<span class="t">"?"</span> <a href="#any" class="nt">any</a> <a href="#character" class="nt">character</a> <span class="t">"."</span> <span class="t">"."</span> <span class="t">"."</span> <span class="t">"?"</span></pre><pre><a name="character" class="nt">character</a> ::=
+	<a href="#whitespace-char" class="nt">whitespace-char</a>
+	<a href="#non-whitespace-char" class="nt">non-whitespace-char</a>
+	<a href="#html-entity" class="nt">html-entity</a></pre><pre><a name="whitespace" class="nt">whitespace</a> ::=
+	<a href="#whitespace-char" class="nt">whitespace-char</a> <a href="#whitespace" class="nt">whitespace</a><span class="meta">?</span>
+	<a href="#EOF" class="nt">EOF</a></pre><pre><a name="newlines" class="nt">newlines</a> ::=
+	<a href="#newline" class="nt">newline</a> <a href="#newlines" class="nt">newlines</a><span class="meta">?</span></pre><pre><a name="space-tabs" class="nt">space-tabs</a> ::=
+	<a href="#space-tab" class="nt">space-tab</a> <a href="#space-tabs" class="nt">space-tabs</a><span class="meta">?</span></pre><pre><a name="whitespace-char" class="nt">whitespace-char</a> ::=
+	<a href="#space-tab" class="nt">space-tab</a>
+	<a href="#newline" class="nt">newline</a></pre><pre><a name="space-tab" class="nt">space-tab</a> ::=
+	<a href="#space" class="nt">space</a>
+	<a href="#TAB" class="nt">TAB</a></pre><pre><a name="spaces" class="nt">spaces</a> ::=
+	<a href="#space" class="nt">space</a> <a href="#spaces" class="nt">spaces</a><span class="meta">?</span></pre><pre><a name="space" class="nt">space</a> ::=
+	<span class="t">" "</span></pre><pre><a name="newline" class="nt">newline</a> ::=
+	<a href="#CR" class="nt">CR</a> <a href="#LF" class="nt">LF</a>
+	<a href="#LF" class="nt">LF</a> <a href="#CR" class="nt">CR</a>
+	<a href="#CR" class="nt">CR</a>
+	<a href="#LF" class="nt">LF</a></pre><pre><a name="BOL" class="nt">BOL</a> ::=
+	<a href="#newline" class="nt">newline</a>
+	<a href="#BOF" class="nt">BOF</a></pre><pre><a name="EOL" class="nt">EOL</a> ::=
+	<a href="#newline" class="nt">newline</a>
+	<a href="#EOF" class="nt">EOF</a></pre><pre><a name="non-whitespace-char" class="nt">non-whitespace-char</a> ::=
+	<a href="#letter" class="nt">letter</a>
+	<a href="#decimal-digit" class="nt">decimal-digit</a>
+	<a href="#symbol" class="nt">symbol</a></pre><pre><a name="letter" class="nt">letter</a> ::=
+	<a href="#ucase-letter" class="nt">ucase-letter</a>
+	<a href="#lcase-letter" class="nt">lcase-letter</a></pre><pre><a name="ucase-letter" class="nt">ucase-letter</a> ::=
+	<span class="t">"A"</span>
+	<span class="t">"B"</span>
+	<span class="t">"C"</span>
+	<span class="t">"D"</span>
+	<span class="t">"E"</span>
+	<span class="t">"F"</span>
+	<span class="t">"G"</span>
+	<span class="t">"H"</span>
+	<span class="t">"I"</span>
+	<span class="t">"J"</span>
+	<span class="t">"K"</span>
+	<span class="t">"L"</span>
+	<span class="t">"M"</span>
+	<span class="t">"N"</span>
+	<span class="t">"O"</span>
+	<span class="t">"P"</span>
+	<span class="t">"Q"</span>
+	<span class="t">"R"</span>
+	<span class="t">"S"</span>
+	<span class="t">"T"</span>
+	<span class="t">"U"</span>
+	<span class="t">"V"</span>
+	<span class="t">"W"</span>
+	<span class="t">"X"</span>
+	<span class="t">"Y"</span>
+	<span class="t">"Z"</span></pre><pre><a name="lcase-letter" class="nt">lcase-letter</a> ::=
+	<span class="t">"a"</span>
+	<span class="t">"b"</span>
+	<span class="t">"c"</span>
+	<span class="t">"d"</span>
+	<span class="t">"e"</span>
+	<span class="t">"f"</span>
+	<span class="t">"g"</span>
+	<span class="t">"h"</span>
+	<span class="t">"i"</span>
+	<span class="t">"j"</span>
+	<span class="t">"k"</span>
+	<span class="t">"l"</span>
+	<span class="t">"m"</span>
+	<span class="t">"n"</span>
+	<span class="t">"o"</span>
+	<span class="t">"p"</span>
+	<span class="t">"q"</span>
+	<span class="t">"r"</span>
+	<span class="t">"s"</span>
+	<span class="t">"t"</span>
+	<span class="t">"u"</span>
+	<span class="t">"v"</span>
+	<span class="t">"w"</span>
+	<span class="t">"x"</span>
+	<span class="t">"y"</span>
+	<span class="t">"z"</span></pre><pre><a name="symbol" class="nt">symbol</a> ::=
+	<a href="#html-unsafe-symbol" class="nt">html-unsafe-symbol</a>
+	<a href="#underscore" class="nt">underscore</a>
+	<span class="t">"."</span>
+	<span class="t">","</span>
+	<span class="t">"."</span> <span class="t">"."</span> <span class="t">"."</span></pre><pre><a name="underscore" class="nt">underscore</a> ::=
+	<span class="t">"_"</span></pre><pre><a name="decimal-number" class="nt">decimal-number</a> ::=
+	<a href="#decimal-digit" class="nt">decimal-digit</a> <a href="#decimal-number" class="nt">decimal-number</a><span class="meta">?</span></pre><pre><a name="decimal-digit" class="nt">decimal-digit</a> ::=
+	<span class="t">"0"</span>
+	<span class="t">"1"</span>
+	<span class="t">"2"</span>
+	<span class="t">"3"</span>
+	<span class="t">"4"</span>
+	<span class="t">"5"</span>
+	<span class="t">"6"</span>
+	<span class="t">"7"</span>
+	<span class="t">"8"</span>
+	<span class="t">"9"</span></pre><pre><a name="hex-number" class="nt">hex-number</a> ::=
+	<a href="#hex-digit" class="nt">hex-digit</a> <a href="#hex-number" class="nt">hex-number</a><span class="meta">?</span></pre><pre><a name="hex-digit" class="nt">hex-digit</a> ::=
+	<a href="#decimal-digit" class="nt">decimal-digit</a>
+	<span class="t">"A"</span>
+	<span class="t">"B"</span>
+	<span class="t">"C"</span>
+	<span class="t">"D"</span>
+	<span class="t">"E"</span>
+	<span class="t">"F"</span>
+	<span class="t">"a"</span>
+	<span class="t">"b"</span>
+	<span class="t">"c"</span>
+	<span class="t">"d"</span>
+	<span class="t">"e"</span>
+	<span class="t">"f"</span></pre><pre><a name="formatting" class="nt">formatting</a> ::=
+	<a href="#bold-italic-toggle" class="nt">bold-italic-toggle</a>
+	<a href="#bold-toggle" class="nt">bold-toggle</a>
+	<a href="#italic-toggle" class="nt">italic-toggle</a></pre><pre><a name="bold-italic-toggle" class="nt">bold-italic-toggle</a> ::=
+	<span class="t">"'''''"</span></pre><pre><a name="bold-toggle" class="nt">bold-toggle</a> ::=
+	<span class="t">"'''"</span></pre><pre><a name="italic-toggle" class="nt">italic-toggle</a> ::=
+	<span class="t">"''"</span></pre><pre><a name="formatting" class="nt">formatting</a> ::=
+	<a href="#apostrophe-jungle" class="nt">apostrophe-jungle</a></pre><pre><a name="apostrophe-jungle" class="nt">apostrophe-jungle</a> ::=
+	<span class="t">"''"</span> <span class="t">"'"</span><span class="meta">*</span></pre><pre><a name="behaviour-switch" class="nt">behaviour-switch</a> ::=
+	<a href="#behaviourswitch-toc" class="nt">behaviourswitch-toc</a>
+	<a href="#behaviourswitch-forcetoc" class="nt">behaviourswitch-forcetoc</a>
+	<a href="#behaviourswitch-notoc" class="nt">behaviourswitch-notoc</a>
+	<a href="#behaviourswitch-noeditsection" class="nt">behaviourswitch-noeditsection</a>
+	<a href="#behaviourswitch-nogallery" class="nt">behaviourswitch-nogallery</a></pre><pre><a name="behaviourswitch-toc" class="nt">behaviourswitch-toc</a> ::=
+	<span class="t">"__TOC__"</span> <a href="#i" class="nt">i</a></pre><pre><a name="behaviourswitch-forcetoc" class="nt">behaviourswitch-forcetoc</a> ::=
+	<span class="t">"__FORCETOC__"</span> <a href="#i" class="nt">i</a></pre><pre><a name="behaviourswitch-notoc" class="nt">behaviourswitch-notoc</a> ::=
+	<span class="t">"__NOTOC__"</span> <a href="#i" class="nt">i</a></pre><pre><a name="behaviourswitch-noeditsection" class="nt">behaviourswitch-noeditsection</a> ::=
+	<span class="t">"__NOEDITSECTION__"</span> <a href="#i" class="nt">i</a></pre><pre><a name="behaviourswitch-nogallery" class="nt">behaviourswitch-nogallery</a> ::=
+	<span class="t">"__NOGALLERY__"</span> <a href="#i" class="nt">i</a></pre><hr /><div class="b"><a href="http://grammarware.github.io/lab"><img src="../../../../../by-grammarlab.png" alt="GrammarLab" title="Powered by GrammarLab"></img></a>Maintained by Dr. <a href="http://grammarware.net/">Vadim Zaytsev</a> a.k.a. @<a href="http://twitter.com/grammarware">grammarware</a>. Last updated in October 2014. <span class="links"> [<a href="#TOP">↑</a>]</span></div></body></html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="content-type" content="text/html; charset=utf-8" /><title>Grammar Zoo - Browsable Clafer Grammar</title><link href="../../../slps.css" rel="stylesheet" type="text/css" /></head><body><h1 class="l"><a name="TOP"></a>Browsable Clafer Grammar</h1><a href="http://creativecommons.org/licenses/by/3.0/"><img src="../../../cc-by.png" alt="CC-BY" title="View the CC-BY license"></img></a><p>Grammar extracted by <strong><a href="http://grammarware.net/">Vadim Zaytsev</a></strong>, see the <a href="http://grammarzoo.github.io/">Grammar Zoo</a> entry for details: <a href="../../../index.html#clafer_unknown_extracted">clafer/unknown/extracted</a><br />Source used for this grammar: <em>Source unknown, </em>This grammar looks like it was copy-pasted from a PDF,  15 June 2012<span class="links" /></p><h2 class="l">Summary</h2><ul class="nl"><li>Total <strong>54</strong> production rules with <strong>122</strong> top alternatives and <strong>422</strong> symbols.</li><li>Vocabulary: <strong>109</strong> = <strong>57</strong> nonterminals + <strong>52</strong> terminals + <strong>0</strong> labels + <strong>0</strong> markers.</li><li>Total <strong>57</strong> nonterminal symbols: <strong>54</strong> defined (<code><a href="#Module" class="nt">Module</a></code>, <code><a href="#Declaration" class="nt">Declaration</a></code>, <code><a href="#Clafer" class="nt">Clafer</a></code>, <code><a href="#Constraint" class="nt">Constraint</a></code>, <code><a href="#Abstract" class="nt">Abstract</a></code>, <code><a href="#Elements" class="nt">Elements</a></code>, <code><a href="#Element" class="nt">Element</a></code>, <code><a href="#Super" class="nt">Super</a></code>, <code><a href="#GCard" class="nt">GCard</a></code>, <code><a href="#Card" class="nt">Card</a></code>, <code><a href="#GNCard" class="nt">GNCard</a></code>, <code><a href="#NCard" class="nt">NCard</a></code>, <code><a href="#ExInteger" class="nt">ExInteger</a></code>, <code><a href="#Name" class="nt">Name</a></code>, <code><a href="#LExp" class="nt">LExp</a></code>, <code><a href="#LExp1" class="nt">LExp1</a></code>, <code><a href="#LExp2" class="nt">LExp2</a></code>, <code><a href="#LExp3" class="nt">LExp3</a></code>, <code><a href="#LExp4" class="nt">LExp4</a></code>, <code><a href="#LExp5" class="nt">LExp5</a></code>, <code><a href="#LExp6" class="nt">LExp6</a></code>, <code><a href="#Term" class="nt">Term</a></code>, <code><a href="#Iff" class="nt">Iff</a></code>, <code><a href="#Implies" class="nt">Implies</a></code>, <code><a href="#And" class="nt">And</a></code>, <code><a href="#Xor" class="nt">Xor</a></code>, <code><a href="#Or" class="nt">Or</a></code>, <code><a href="#Neg" class="nt">Neg</a></code>, <code><a href="#CmpExp" class="nt">CmpExp</a></code>, <code><a href="#Exp" class="nt">Exp</a></code>, <code><a href="#Quant" class="nt">Quant</a></code>, <code><a href="#ExQuant" class="nt">ExQuant</a></code>, <code><a href="#SExp" class="nt">SExp</a></code>, <code><a href="#SExp1" class="nt">SExp1</a></code>, <code><a href="#SExp2" class="nt">SExp2</a></code>, <code><a href="#SExp3" class="nt">SExp3</a></code>, <code><a href="#SExp4" class="nt">SExp4</a></code>, <code><a href="#SExp5" class="nt">SExp5</a></code>, <code><a href="#Decl" class="nt">Decl</a></code>, <code><a href="#Disj" class="nt">Disj</a></code>, <code><a href="#AExp" class="nt">AExp</a></code>, <code><a href="#AExp1" class="nt">AExp1</a></code>, <code><a href="#AExp2" class="nt">AExp2</a></code>, <code><a href="#StrExp" class="nt">StrExp</a></code>, <code><a href="#EnumId" class="nt">EnumId</a></code>, <code><a href="#ModId" class="nt">ModId</a></code>, <code><a href="#LocId" class="nt">LocId</a></code>, <code><a href="#ListDeclaration" class="nt">ListDeclaration</a></code>, <code><a href="#ListEnumId" class="nt">ListEnumId</a></code>, <code><a href="#ListElement" class="nt">ListElement</a></code>, <code><a href="#ListLExp" class="nt">ListLExp</a></code>, <code><a href="#ListDecl" class="nt">ListDecl</a></code>, <code><a href="#ListLocId" class="nt">ListLocId</a></code>, <code><a href="#ListModId" class="nt">ListModId</a></code>), <strong>0</strong> root (—), <strong>1</strong> top (<code><a href="#Module" class="nt">Module</a></code>), <strong>3</strong> bottom (<code class="nt">Integer</code><sup> 4</sup>, <code class="nt">String</code>, <code class="nt">Ident</code><sup> 7</sup>).</li><li>Total <strong>52</strong> terminal symbols: <strong>16</strong> keywords (<span class="t">"enum"</span>, <span class="t">"abstract"</span>, <span class="t">"extends"</span>, <span class="t">"xor"</span><sup> 2</sup>, <span class="t">"or"</span>, <span class="t">"mux"</span>, <span class="t">"opt"</span>, <span class="t">"else"</span>, <span class="t">"in"</span><sup> 2</sup>, <span class="t">"not"</span>, <span class="t">"no"</span>, <span class="t">"lone"</span>, <span class="t">"one"</span>, <span class="t">"some"</span>, <span class="t">"all"</span>, <span class="t">"disj"</span>), <strong>0</strong> letters (—), <strong>0</strong> numerics (—), <strong>36</strong> signs (<span class="t">"="</span><sup> 2</sup>, <span class="t">"["</span>, <span class="t">"]"</span>, <span class="t">"{"</span>, <span class="t">"}"</span>, <span class="t">"‘"</span>, <span class="t">":"</span><sup> 2</sup>, <span class="t">"−&gt;"</span>, <span class="t">"&lt;"</span><sup> 2</sup>, <span class="t">"&gt;"</span><sup> 2</sup>, <span class="t">"?"</span>, <span class="t">"+"</span><sup> 2</sup>, <span class="t">"*"</span><sup> 3</sup>, <span class="t">"−"</span><sup> 2</sup>, <span class="t">".."</span>, <span class="t">"("</span><sup> 3</sup>, <span class="t">")"</span><sup> 3</sup>, <span class="t">"|"</span><sup> 2</sup>, <span class="t">"&lt;=&gt;"</span>, <span class="t">"=&gt;"</span>, <span class="t">"&amp;&amp;"</span>, <span class="t">"||"</span>, <span class="t">"~"</span>, <span class="t">"=="</span>, <span class="t">"&lt;="</span>, <span class="t">"&gt;="</span>, <span class="t">"!="</span>, <span class="t">"/="</span>, <span class="t">"++"</span><sup> 2</sup>, <span class="t">"&amp;"</span>, <span class="t">"&lt;:"</span>, <span class="t">":&gt;"</span>, <span class="t">"."</span>, <span class="t">"#"</span>, <span class="t">","</span><sup> 2</sup>, <span class="t">"/"</span>).</li></ul><h2 class="l">Syntax</h2><pre><a name="Module" class="nt">Module</a> ::=
+	<a href="#ListDeclaration" class="nt">ListDeclaration</a></pre><pre><a name="Declaration" class="nt">Declaration</a> ::=
+	<span class="t">"enum"</span> <a href="#Ident" class="nt">Ident</a> <span class="t">"="</span> <a href="#ListEnumId" class="nt">ListEnumId</a>
+	<a href="#Clafer" class="nt">Clafer</a>
+	<a href="#Constraint" class="nt">Constraint</a></pre><pre><a name="Clafer" class="nt">Clafer</a> ::=
+	<a href="#Abstract" class="nt">Abstract</a> <a href="#GCard" class="nt">GCard</a> <a href="#Ident" class="nt">Ident</a> <a href="#Super" class="nt">Super</a> <a href="#Card" class="nt">Card</a> <a href="#Elements" class="nt">Elements</a></pre><pre><a name="Constraint" class="nt">Constraint</a> ::=
+	<span class="t">"["</span> <a href="#ListLExp" class="nt">ListLExp</a> <span class="t">"]"</span></pre><pre><a name="Abstract" class="nt">Abstract</a> ::=
+	ε
+	<span class="t">"abstract"</span></pre><pre><a name="Elements" class="nt">Elements</a> ::=
+	ε
+	<span class="t">"{"</span> <a href="#ListElement" class="nt">ListElement</a> <span class="t">"}"</span></pre><pre><a name="Element" class="nt">Element</a> ::=
+	<a href="#Clafer" class="nt">Clafer</a>
+	<span class="t">"‘"</span> <a href="#Name" class="nt">Name</a> <a href="#Card" class="nt">Card</a> <a href="#Elements" class="nt">Elements</a>
+	<a href="#Constraint" class="nt">Constraint</a></pre><pre><a name="Super" class="nt">Super</a> ::=
+	ε
+	<span class="t">":"</span> <a href="#Name" class="nt">Name</a>
+	<span class="t">"extends"</span> <a href="#Name" class="nt">Name</a>
+	<span class="t">"−&gt;"</span> <a href="#ListModId" class="nt">ListModId</a> <a href="#SExp" class="nt">SExp</a></pre><pre><a name="GCard" class="nt">GCard</a> ::=
+	ε
+	<span class="t">"xor"</span>
+	<span class="t">"or"</span>
+	<span class="t">"mux"</span>
+	<span class="t">"opt"</span>
+	<span class="t">"&lt;"</span> <a href="#GNCard" class="nt">GNCard</a> <span class="t">"&gt;"</span></pre><pre><a name="Card" class="nt">Card</a> ::=
+	ε
+	<span class="t">"?"</span>
+	<span class="t">"+"</span>
+	<span class="t">"*"</span>
+	<a href="#NCard" class="nt">NCard</a></pre><pre><a name="GNCard" class="nt">GNCard</a> ::=
+	<a href="#Integer" class="nt">Integer</a> <span class="t">"−"</span> <a href="#ExInteger" class="nt">ExInteger</a></pre><pre><a name="NCard" class="nt">NCard</a> ::=
+	<a href="#Integer" class="nt">Integer</a> <span class="t">".."</span> <a href="#ExInteger" class="nt">ExInteger</a></pre><pre><a name="ExInteger" class="nt">ExInteger</a> ::=
+	<span class="t">"*"</span>
+	<a href="#Integer" class="nt">Integer</a></pre><pre><a name="Name" class="nt">Name</a> ::=
+	<a href="#ListModId" class="nt">ListModId</a> <a href="#Ident" class="nt">Ident</a></pre><pre><a name="LExp" class="nt">LExp</a> ::=
+	<a href="#LExp" class="nt">LExp</a> <a href="#Iff" class="nt">Iff</a> <a href="#LExp1" class="nt">LExp1</a>
+	<a href="#LExp1" class="nt">LExp1</a></pre><pre><a name="LExp1" class="nt">LExp1</a> ::=
+	<a href="#LExp1" class="nt">LExp1</a> <a href="#Implies" class="nt">Implies</a> <a href="#LExp2" class="nt">LExp2</a>
+	<a href="#LExp1" class="nt">LExp1</a> <a href="#Implies" class="nt">Implies</a> <a href="#LExp2" class="nt">LExp2</a> <span class="t">"else"</span> <a href="#LExp2" class="nt">LExp2</a>
+	<a href="#LExp2" class="nt">LExp2</a></pre><pre><a name="LExp2" class="nt">LExp2</a> ::=
+	<a href="#LExp2" class="nt">LExp2</a> <a href="#Or" class="nt">Or</a> <a href="#LExp3" class="nt">LExp3</a>
+	<a href="#LExp3" class="nt">LExp3</a></pre><pre><a name="LExp3" class="nt">LExp3</a> ::=
+	<a href="#LExp3" class="nt">LExp3</a> <a href="#Xor" class="nt">Xor</a> <a href="#LExp4" class="nt">LExp4</a>
+	<a href="#LExp4" class="nt">LExp4</a></pre><pre><a name="LExp4" class="nt">LExp4</a> ::=
+	<a href="#LExp4" class="nt">LExp4</a> <a href="#And" class="nt">And</a> <a href="#LExp5" class="nt">LExp5</a>
+	<a href="#LExp5" class="nt">LExp5</a></pre><pre><a name="LExp5" class="nt">LExp5</a> ::=
+	<a href="#Neg" class="nt">Neg</a> <a href="#LExp6" class="nt">LExp6</a>
+	<a href="#LExp6" class="nt">LExp6</a></pre><pre><a name="LExp6" class="nt">LExp6</a> ::=
+	<a href="#Term" class="nt">Term</a>
+	<span class="t">"("</span> <a href="#LExp" class="nt">LExp</a> <span class="t">")"</span></pre><pre><a name="Term" class="nt">Term</a> ::=
+	<a href="#CmpExp" class="nt">CmpExp</a>
+	<a href="#SExp" class="nt">SExp</a>
+	<a href="#Quant" class="nt">Quant</a> <a href="#SExp" class="nt">SExp</a>
+	<a href="#ListDecl" class="nt">ListDecl</a>
+	<span class="t">"|"</span>
+	<a href="#LExp" class="nt">LExp</a></pre><pre><a name="Iff" class="nt">Iff</a> ::=
+	<span class="t">"&lt;=&gt;"</span></pre><pre><a name="Implies" class="nt">Implies</a> ::=
+	<span class="t">"=&gt;"</span></pre><pre><a name="And" class="nt">And</a> ::=
+	<span class="t">"&amp;&amp;"</span></pre><pre><a name="Xor" class="nt">Xor</a> ::=
+	<span class="t">"xor"</span></pre><pre><a name="Or" class="nt">Or</a> ::=
+	<span class="t">"||"</span></pre><pre><a name="Neg" class="nt">Neg</a> ::=
+	<span class="t">"~"</span></pre><pre><a name="CmpExp" class="nt">CmpExp</a> ::=
+	<a href="#Exp" class="nt">Exp</a> <span class="t">"&lt;"</span> <a href="#Exp" class="nt">Exp</a>
+	<a href="#Exp" class="nt">Exp</a> <span class="t">"&gt;"</span> <a href="#Exp" class="nt">Exp</a>
+	<a href="#Exp" class="nt">Exp</a> <span class="t">"="</span> <a href="#Exp" class="nt">Exp</a>
+	<a href="#Exp" class="nt">Exp</a> <span class="t">"=="</span> <a href="#Exp" class="nt">Exp</a>
+	<a href="#Exp" class="nt">Exp</a> <span class="t">"&lt;="</span> <a href="#Exp" class="nt">Exp</a>
+	<a href="#Exp" class="nt">Exp</a> <span class="t">"&gt;="</span> <a href="#Exp" class="nt">Exp</a>
+	<a href="#Exp" class="nt">Exp</a> <span class="t">"!="</span> <a href="#Exp" class="nt">Exp</a>
+	<a href="#Exp" class="nt">Exp</a> <span class="t">"/="</span> <a href="#Exp" class="nt">Exp</a>
+	<a href="#Exp" class="nt">Exp</a> <span class="t">"in"</span> <a href="#Exp" class="nt">Exp</a>
+	<a href="#Exp" class="nt">Exp</a> <span class="t">"not"</span> <span class="t">"in"</span> <a href="#Exp" class="nt">Exp</a></pre><pre><a name="Exp" class="nt">Exp</a> ::=
+	<a href="#AExp" class="nt">AExp</a>
+	<a href="#StrExp" class="nt">StrExp</a></pre><pre><a name="Quant" class="nt">Quant</a> ::=
+	<span class="t">"no"</span>
+	<span class="t">"lone"</span>
+	<span class="t">"one"</span>
+	<span class="t">"some"</span></pre><pre><a name="ExQuant" class="nt">ExQuant</a> ::=
+	<span class="t">"all"</span>
+	<a href="#Quant" class="nt">Quant</a></pre><pre><a name="SExp" class="nt">SExp</a> ::=
+	<a href="#SExp" class="nt">SExp</a> <span class="t">"++"</span> <a href="#SExp1" class="nt">SExp1</a>
+	<a href="#SExp1" class="nt">SExp1</a></pre><pre><a name="SExp1" class="nt">SExp1</a> ::=
+	<a href="#SExp1" class="nt">SExp1</a> <span class="t">"&amp;"</span> <a href="#SExp2" class="nt">SExp2</a>
+	<a href="#SExp2" class="nt">SExp2</a></pre><pre><a name="SExp2" class="nt">SExp2</a> ::=
+	<a href="#SExp2" class="nt">SExp2</a> <span class="t">"&lt;:"</span> <a href="#SExp3" class="nt">SExp3</a>
+	<a href="#SExp3" class="nt">SExp3</a></pre><pre><a name="SExp3" class="nt">SExp3</a> ::=
+	<a href="#SExp3" class="nt">SExp3</a> <span class="t">":&gt;"</span> <a href="#SExp4" class="nt">SExp4</a>
+	<a href="#SExp4" class="nt">SExp4</a></pre><pre><a name="SExp4" class="nt">SExp4</a> ::=
+	<a href="#SExp4" class="nt">SExp4</a> <span class="t">"."</span> <a href="#SExp5" class="nt">SExp5</a>
+	<a href="#SExp5" class="nt">SExp5</a></pre><pre><a name="SExp5" class="nt">SExp5</a> ::=
+	<a href="#Ident" class="nt">Ident</a>
+	<span class="t">"("</span> <a href="#SExp" class="nt">SExp</a> <span class="t">")"</span></pre><pre><a name="Decl" class="nt">Decl</a> ::=
+	<a href="#ExQuant" class="nt">ExQuant</a> <a href="#Disj" class="nt">Disj</a> <a href="#ListLocId" class="nt">ListLocId</a> <span class="t">":"</span> <a href="#SExp" class="nt">SExp</a></pre><pre><a name="Disj" class="nt">Disj</a> ::=
+	ε
+	<span class="t">"disj"</span></pre><pre><a name="AExp" class="nt">AExp</a> ::=
+	<a href="#AExp" class="nt">AExp</a> <span class="t">"+"</span> <a href="#AExp1" class="nt">AExp1</a>
+	<a href="#AExp" class="nt">AExp</a> <span class="t">"−"</span> <a href="#AExp1" class="nt">AExp1</a>
+	<a href="#AExp1" class="nt">AExp1</a></pre><pre><a name="AExp1" class="nt">AExp1</a> ::=
+	<a href="#AExp1" class="nt">AExp1</a> <span class="t">"*"</span> <a href="#AExp2" class="nt">AExp2</a>
+	<a href="#AExp2" class="nt">AExp2</a></pre><pre><a name="AExp2" class="nt">AExp2</a> ::=
+	<span class="t">"#"</span> <a href="#SExp" class="nt">SExp</a>
+	<a href="#SExp" class="nt">SExp</a>
+	<a href="#Integer" class="nt">Integer</a>
+	<span class="t">"("</span> <a href="#AExp" class="nt">AExp</a> <span class="t">")"</span></pre><pre><a name="StrExp" class="nt">StrExp</a> ::=
+	<a href="#StrExp" class="nt">StrExp</a> <span class="t">"++"</span> <a href="#StrExp" class="nt">StrExp</a>
+	<a href="#String" class="nt">String</a></pre><pre><a name="EnumId" class="nt">EnumId</a> ::=
+	<a href="#Ident" class="nt">Ident</a></pre><pre><a name="ModId" class="nt">ModId</a> ::=
+	<a href="#Ident" class="nt">Ident</a></pre><pre><a name="LocId" class="nt">LocId</a> ::=
+	<a href="#Ident" class="nt">Ident</a></pre><pre><a name="ListDeclaration" class="nt">ListDeclaration</a> ::=
+	ε
+	<a href="#Declaration" class="nt">Declaration</a> <a href="#ListDeclaration" class="nt">ListDeclaration</a></pre><pre><a name="ListEnumId" class="nt">ListEnumId</a> ::=
+	<a href="#EnumId" class="nt">EnumId</a>
+	<a href="#EnumId" class="nt">EnumId</a>
+	<a href="#EnumId" class="nt">EnumId</a> <span class="t">"|"</span> <a href="#ListEnumId" class="nt">ListEnumId</a></pre><pre><a name="ListElement" class="nt">ListElement</a> ::=
+	ε
+	<a href="#Element" class="nt">Element</a> <a href="#ListElement" class="nt">ListElement</a></pre><pre><a name="ListLExp" class="nt">ListLExp</a> ::=
+	ε
+	<a href="#LExp" class="nt">LExp</a> <a href="#ListLExp" class="nt">ListLExp</a></pre><pre><a name="ListDecl" class="nt">ListDecl</a> ::=
+	<a href="#Decl" class="nt">Decl</a>
+	<a href="#Decl" class="nt">Decl</a> <span class="t">","</span> <a href="#ListDecl" class="nt">ListDecl</a></pre><pre><a name="ListLocId" class="nt">ListLocId</a> ::=
+	<a href="#LocId" class="nt">LocId</a>
+	<a href="#LocId" class="nt">LocId</a> <span class="t">","</span> <a href="#ListLocId" class="nt">ListLocId</a></pre><pre><a name="ListModId" class="nt">ListModId</a> ::=
+	ε
+	<a href="#ModId" class="nt">ModId</a> <span class="t">"/"</span> <a href="#ListModId" class="nt">ListModId</a></pre><hr /><div class="b"><a href="http://grammarware.github.io/lab"><img src="../../../by-grammarlab.png" alt="GrammarLab" title="Powered by GrammarLab"></img></a>Maintained by Dr. <a href="http://grammarware.net/">Vadim Zaytsev</a> a.k.a. @<a href="http://twitter.com/grammarware">grammarware</a>. Last updated in October 2014. <span class="links"> [<a href="#TOP">↑</a>]</span></div></body></html>
