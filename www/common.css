@@ -2,14 +2,13 @@
 body {color:#033; background-color:#AAA; font-family:"Futura", "Montserrat", sans-serif}
 .pic .p {color:#003355; padding-top:5px}
 .pic {float:left; text-align:center; width:150px; height:250px; margin:5px; font-weight:bold; border:2px solid #888}
-.tile {float:left; width:100px; height:100px; margin:5px}
 .pic img, .tile img {border:0px; max-height:100px}
 .icon {height:80px;border:0px;margin:0px}
 div, span.pic, span.p {display:block}
 br {clear:both}
 .last {width:100%; text-align:right; font-style:italic; font-size:smaller}
-a:link, a:visited {color:#EEF}
-.last a:link, .last a:visited {color:#039}
+.tile a:link, .tile a:visited {color:#EEF}
+a:link, a:visited {color:#039}
 .pic:hover, .double:hover {background-color:#888}
 h1 a img, h1 img {float:right; margin-left:50px; margin-bottom:50px}
 code {font-family:"Courier Prime", Courier, monospace}
