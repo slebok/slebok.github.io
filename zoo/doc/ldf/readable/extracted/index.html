@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="content-type" content="text/html; charset=utf-8" /><title>Grammar Zoo - Browsable LDF Grammar</title><link href="../../../../slps.css" rel="stylesheet" type="text/css" /></head><body><h1 class="l"><a name="TOP"></a>Browsable LDF Grammar</h1><a href="http://creativecommons.org/licenses/by/3.0/"><img src="../../../../cc-by.png" alt="CC-BY" title="View the CC-BY license"></img></a><p>Grammar extracted by <strong><a href="http://grammarware.net/">Vadim Zaytsev</a></strong>, see the <a href="http://grammarzoo.github.io/">Grammar Zoo</a> entry for details: <a href="../../../../index.html#doc_ldf_readable_extracted">doc/ldf/readable/extracted</a><br />Source used for this grammar: Vadim Zaytsev, <em>Software Language Processing Suite, </em>LDF, <code>shared/xsd/ldf.xsd</code>,  2008–2011, readable version<span class="links" /></p><h2 class="l">Summary</h2><ul class="nl"><li>Total <strong>28</strong> production rules with <strong>104</strong> top alternatives and <strong>355</strong> symbols.</li><li>Vocabulary: <strong>130</strong> = <strong>31</strong> nonterminals + <strong>0</strong> terminals + <strong>99</strong> labels + <strong>0</strong> markers.</li><li>Total <strong>31</strong> nonterminal symbols: <strong>28</strong> defined (<code><a href="#document" class="nt">document</a></code>, <code><a href="#document-metadata" class="nt">document-metadata</a></code>, <code><a href="#body" class="nt">body</a></code>, <code><a href="#person" class="nt">person</a></code>, <code><a href="#status" class="nt">status</a></code>, <code><a href="#version-or-edition" class="nt">version-or-edition</a></code>, <code><a href="#named-link" class="nt">named-link</a></code>, <code><a href="#part" class="nt">part</a></code>, <code><a href="#part-metadata" class="nt">part-metadata</a></code>, <code><a href="#part-role" class="nt">part-role</a></code>, <code><a href="#section" class="nt">section</a></code>, <code><a href="#section-metadata" class="nt">section-metadata</a></code>, <code><a href="#section-role" class="nt">section-role</a></code>, <code><a href="#type" class="nt">type</a></code>, <code><a href="#section-structure" class="nt">section-structure</a></code>, <code><a href="#content-content" class="nt">content-content</a></code>, <code><a href="#mixed" class="nt">mixed</a></code>, <code><a href="#list" class="nt">list</a></code>, <code><a href="#production" class="nt">production</a></code>, <code><a href="#label" class="nt">label</a></code>, <code><a href="#nonterminal" class="nt">nonterminal</a></code>, <code><a href="#expression" class="nt">expression</a></code>, <code><a href="#value" class="nt">value</a></code>, <code><a href="#terminal" class="nt">terminal</a></code>, <code><a href="#selector" class="nt">selector</a></code>, <code><a href="#subsection" class="nt">subsection</a></code>, <code><a href="#subsection-metadata" class="nt">subsection-metadata</a></code>, <code><a href="#subsection-role" class="nt">subsection-role</a></code>), <strong>1</strong> root (<code><a href="#document" class="nt">document</a></code>), <strong>0</strong> top (—), <strong>3</strong> bottom (<code class="nt">ID</code><sup> 3</sup>, <code class="nt">timestamp</code>, <code class="nt">anyURI</code>).</li><li>Total <strong>99</strong> labels: <code>[<a href="#number" class="lbl">number</a>]</code>, <code>[<a href="#author" class="lbl">author</a>]</code><sup> 4</sup>, <code>[<a href="#topic" class="lbl">topic</a>]</code>, <code>[<a href="#previous" class="lbl">previous</a>]</code>, <code>[<a href="#date" class="lbl">date</a>]</code>, <code>[<a href="#ansi" class="lbl">ansi</a>]</code>, <code>[<a href="#ecma" class="lbl">ecma</a>]</code>, <code>[<a href="#ieee" class="lbl">ieee</a>]</code>, <code>[<a href="#iso" class="lbl">iso</a>]</code>, <code>[<a href="#iso/iet" class="lbl">iso/iet</a>]</code>, <code>[<a href="#itu" class="lbl">itu</a>]</code>, <code>[<a href="#iec" class="lbl">iec</a>]</code>, <code>[<a href="#ietf" class="lbl">ietf</a>]</code>, <code>[<a href="#oasis" class="lbl">oasis</a>]</code>, <code>[<a href="#omg" class="lbl">omg</a>]</code>, <code>[<a href="#wsa" class="lbl">wsa</a>]</code>, <code>[<a href="#w3c" class="lbl">w3c</a>]</code>, <code>[<a href="#name" class="lbl">name</a>]</code>, <code>[<a href="#affiliation" class="lbl">affiliation</a>]</code>, <code>[<a href="#email" class="lbl">email</a>]</code>, <code>[<a href="#unknown" class="lbl">unknown</a>]</code>, <code>[<a href="#draft" class="lbl">draft</a>]</code>, <code>[<a href="#candidate" class="lbl">candidate</a>]</code>, <code>[<a href="#proposed" class="lbl">proposed</a>]</code>, <code>[<a href="#approved" class="lbl">approved</a>]</code>, <code>[<a href="#revised" class="lbl">revised</a>]</code>, <code>[<a href="#obsolete" class="lbl">obsolete</a>]</code>, <code>[<a href="#withdrawn" class="lbl">withdrawn</a>]</code>, <code>[<a href="#collection" class="lbl">collection</a>]</code>, <code>[<a href="#trial" class="lbl">trial</a>]</code>, <code>[<a href="#errata" class="lbl">errata</a>]</code>, <code>[<a href="#report" class="lbl">report</a>]</code>, <code>[<a href="#version" class="lbl">version</a>]</code>, <code>[<a href="#edition" class="lbl">edition</a>]</code>, <code>[<a href="#title" class="lbl">title</a>]</code><sup> 4</sup>, <code>[<a href="#uri" class="lbl">uri</a>]</code>, <code>[<a href="#id" class="lbl">id</a>]</code><sup> 3</sup>, <code>[<a href="#front-matter" class="lbl">front-matter</a>]</code>, <code>[<a href="#core-part" class="lbl">core-part</a>]</code>, <code>[<a href="#back-matter" class="lbl">back-matter</a>]</code>, <code>[<a href="#annex" class="lbl">annex</a>]</code>, <code>[<a href="#abstract" class="lbl">abstract</a>]</code>, <code>[<a href="#conformance" class="lbl">conformance</a>]</code>, <code>[<a href="#compatibility" class="lbl">compatibility</a>]</code>, <code>[<a href="#design-goals" class="lbl">design-goals</a>]</code>, <code>[<a href="#document-structure" class="lbl">document-structure</a>]</code>, <code>[<a href="#foreword" class="lbl">foreword</a>]</code>, <code>[<a href="#references" class="lbl">references</a>]</code>, <code>[<a href="#notation" class="lbl">notation</a>]</code>, <code>[<a href="#scope" class="lbl">scope</a>]</code>, <code>[<a href="#what-is-new" class="lbl">what-is-new</a>]</code>, <code>[<a href="#index" class="lbl">index</a>]</code>, <code>[<a href="#full-grammar" class="lbl">full-grammar</a>]</code>, <code>[<a href="#list-of-tables" class="lbl">list-of-tables</a>]</code>, <code>[<a href="#list-of-authors" class="lbl">list-of-authors</a>]</code>, <code>[<a href="#list-of-contents" class="lbl">list-of-contents</a>]</code>, <code>[<a href="#list-of-references" class="lbl">list-of-references</a>]</code>, <code>[<a href="#top-section" class="lbl">top-section</a>]</code>, <code>[<a href="#lexical-section" class="lbl">lexical-section</a>]</code>, <code>[<a href="#normative" class="lbl">normative</a>]</code>, <code>[<a href="#informative" class="lbl">informative</a>]</code>, <code>[<a href="#content" class="lbl">content</a>]</code>, <code>[<a href="#placeholder" class="lbl">placeholder</a>]</code>, <code>[<a href="#para" class="lbl">para</a>]</code>, <code>[<a href="#list" class="lbl">list</a>]</code>, <code>[<a href="#item" class="lbl">item</a>]</code>, <code>[<a href="#label" class="lbl">label</a>]</code>, <code>[<a href="#nonterminal" class="lbl">nonterminal</a>]</code><sup> 2</sup>, <code>[<a href="#epsilon" class="lbl">epsilon</a>]</code>, <code>[<a href="#empty" class="lbl">empty</a>]</code>, <code>[<a href="#value" class="lbl">value</a>]</code>, <code>[<a href="#any" class="lbl">any</a>]</code>, <code>[<a href="#terminal" class="lbl">terminal</a>]</code>, <code>[<a href="#selector" class="lbl">selector</a>]</code>, <code>[<a href="#selectable" class="lbl">selectable</a>]</code>, <code>[<a href="#marked" class="lbl">marked</a>]</code>, <code>[<a href="#sequence" class="lbl">sequence</a>]</code>, <code>[<a href="#choice" class="lbl">choice</a>]</code>, <code>[<a href="#allof" class="lbl">allof</a>]</code>, <code>[<a href="#not" class="lbl">not</a>]</code>, <code>[<a href="#optional" class="lbl">optional</a>]</code>, <code>[<a href="#plus" class="lbl">plus</a>]</code>, <code>[<a href="#star" class="lbl">star</a>]</code>, <code>[<a href="#seplistplus" class="lbl">seplistplus</a>]</code>, <code>[<a href="#sepliststar" class="lbl">sepliststar</a>]</code>, <code>[<a href="#int" class="lbl">int</a>]</code>, <code>[<a href="#string" class="lbl">string</a>]</code>, <code>[<a href="#synopsis" class="lbl">synopsis</a>]</code>, <code>[<a href="#description" class="lbl">description</a>]</code>, <code>[<a href="#syntax" class="lbl">syntax</a>]</code>, <code>[<a href="#constraints" class="lbl">constraints</a>]</code>, <code>[<a href="#relationship" class="lbl">relationship</a>]</code>, <code>[<a href="#semantics" class="lbl">semantics</a>]</code>, <code>[<a href="#default" class="lbl">default</a>]</code>, <code>[<a href="#rationale" class="lbl">rationale</a>]</code>, <code>[<a href="#example" class="lbl">example</a>]</code>, <code>[<a href="#update" class="lbl">update</a>]</code>, <code>[<a href="#subtopic" class="lbl">subtopic</a>]</code>, <code>[<a href="#section" class="lbl">section</a>]</code>.</li></ul><h2 class="l">Syntax</h2><pre><a name="document" class="nt">document</a> ::=
+	<a href="#document-metadata" class="nt">document-metadata</a> <a href="#part" class="nt">part</a><span class="meta">+</span></pre><pre><a name="document-metadata" class="nt">document-metadata</a> ::=
+	<a href="#body" class="nt">body</a><span class="meta">?</span> [<a name="number" class="lbl">number</a>]::string<span class="meta">?</span> [<a name="author" class="lbl">author</a>]::<a href="#person" class="nt">person</a><span class="meta">*</span> [<a name="topic" class="lbl">topic</a>]::string <a href="#status" class="nt">status</a> <a href="#version-or-edition" class="nt">version-or-edition</a> [<a name="previous" class="lbl">previous</a>]::<a href="#named-link" class="nt">named-link</a><span class="meta">*</span> [<a name="date" class="lbl">date</a>]::<a href="#timestamp" class="nt">timestamp</a></pre><pre><a name="body" class="nt">body</a> ::=
+	[<a name="ansi" class="lbl">ansi</a>]::ε
+	[<a name="ecma" class="lbl">ecma</a>]::ε
+	[<a name="ieee" class="lbl">ieee</a>]::ε
+	[<a name="iso" class="lbl">iso</a>]::ε
+	[<a name="iso/iet" class="lbl">iso/iet</a>]::ε
+	[<a name="itu" class="lbl">itu</a>]::ε
+	[<a name="iec" class="lbl">iec</a>]::ε
+	[<a name="ietf" class="lbl">ietf</a>]::ε
+	[<a name="oasis" class="lbl">oasis</a>]::ε
+	[<a name="omg" class="lbl">omg</a>]::ε
+	[<a name="wsa" class="lbl">wsa</a>]::ε
+	[<a name="w3c" class="lbl">w3c</a>]::ε</pre><pre><a name="person" class="nt">person</a> ::=
+	[<a name="name" class="lbl">name</a>]::string [<a name="affiliation" class="lbl">affiliation</a>]::string<span class="meta">?</span> [<a name="email" class="lbl">email</a>]::string<span class="meta">?</span></pre><pre><a name="status" class="nt">status</a> ::=
+	[<a name="unknown" class="lbl">unknown</a>]::ε
+	[<a name="draft" class="lbl">draft</a>]::ε
+	[<a name="candidate" class="lbl">candidate</a>]::ε
+	[<a name="proposed" class="lbl">proposed</a>]::ε
+	[<a name="approved" class="lbl">approved</a>]::ε
+	[<a name="revised" class="lbl">revised</a>]::ε
+	[<a name="obsolete" class="lbl">obsolete</a>]::ε
+	[<a name="withdrawn" class="lbl">withdrawn</a>]::ε
+	[<a name="collection" class="lbl">collection</a>]::ε
+	[<a name="trial" class="lbl">trial</a>]::ε
+	[<a name="errata" class="lbl">errata</a>]::ε
+	[<a name="report" class="lbl">report</a>]::ε</pre><pre><a name="version-or-edition" class="nt">version-or-edition</a> ::=
+	[<a name="version" class="lbl">version</a>]::string
+	[<a name="edition" class="lbl">edition</a>]::string</pre><pre><a name="named-link" class="nt">named-link</a> ::=
+	[<a name="title" class="lbl">title</a>]::string <a href="#version-or-edition" class="nt">version-or-edition</a><span class="meta">?</span> [<a name="uri" class="lbl">uri</a>]::<a href="#anyURI" class="nt">anyURI</a><span class="meta">?</span></pre><pre><a name="part" class="nt">part</a> ::=
+	<a href="#part-metadata" class="nt">part-metadata</a> <a href="#section" class="nt">section</a><span class="meta">+</span></pre><pre><a name="part-metadata" class="nt">part-metadata</a> ::=
+	[<a name="id" class="lbl">id</a>]::<a href="#ID" class="nt">ID</a><span class="meta">?</span> <a href="#part-role" class="nt">part-role</a> [<a name="title" class="lbl">title</a>]::string<span class="meta">?</span> [<a name="author" class="lbl">author</a>]::<a href="#person" class="nt">person</a><span class="meta">*</span></pre><pre><a name="part-role" class="nt">part-role</a> ::=
+	[<a name="front-matter" class="lbl">front-matter</a>]::ε
+	[<a name="core-part" class="lbl">core-part</a>]::ε
+	[<a name="back-matter" class="lbl">back-matter</a>]::ε
+	[<a name="annex" class="lbl">annex</a>]::ε</pre><pre><a name="section" class="nt">section</a> ::=
+	<a href="#section-metadata" class="nt">section-metadata</a> <a href="#section-structure" class="nt">section-structure</a></pre><pre><a name="section-metadata" class="nt">section-metadata</a> ::=
+	[<a name="id" class="lbl">id</a>]::<a href="#ID" class="nt">ID</a><span class="meta">?</span> <a href="#section-role" class="nt">section-role</a> <a href="#type" class="nt">type</a><span class="meta">?</span> [<a name="title" class="lbl">title</a>]::string<span class="meta">?</span> [<a name="author" class="lbl">author</a>]::<a href="#person" class="nt">person</a><span class="meta">*</span></pre><pre><a name="section-role" class="nt">section-role</a> ::=
+	[<a name="abstract" class="lbl">abstract</a>]::ε
+	[<a name="conformance" class="lbl">conformance</a>]::ε
+	[<a name="compatibility" class="lbl">compatibility</a>]::ε
+	[<a name="design-goals" class="lbl">design-goals</a>]::ε
+	[<a name="document-structure" class="lbl">document-structure</a>]::ε
+	[<a name="foreword" class="lbl">foreword</a>]::ε
+	[<a name="references" class="lbl">references</a>]::ε
+	[<a name="notation" class="lbl">notation</a>]::ε
+	[<a name="scope" class="lbl">scope</a>]::ε
+	[<a name="what-is-new" class="lbl">what-is-new</a>]::ε
+	[<a name="index" class="lbl">index</a>]::ε
+	[<a name="full-grammar" class="lbl">full-grammar</a>]::ε
+	[<a name="list-of-tables" class="lbl">list-of-tables</a>]::ε
+	[<a name="list-of-authors" class="lbl">list-of-authors</a>]::ε
+	[<a name="list-of-contents" class="lbl">list-of-contents</a>]::ε
+	[<a name="list-of-references" class="lbl">list-of-references</a>]::ε
+	[<a name="top-section" class="lbl">top-section</a>]::ε
+	[<a name="lexical-section" class="lbl">lexical-section</a>]::ε</pre><pre><a name="type" class="nt">type</a> ::=
+	[<a name="normative" class="lbl">normative</a>]::ε
+	[<a name="informative" class="lbl">informative</a>]::ε</pre><pre><a name="section-structure" class="nt">section-structure</a> ::=
+	[<a name="content" class="lbl">content</a>]::<a href="#content-content" class="nt">content-content</a><span class="meta">+</span>
+	[<a name="placeholder" class="lbl">placeholder</a>]::α
+	<a href="#subsection" class="nt">subsection</a><span class="meta">+</span></pre><pre><a name="content-content" class="nt">content-content</a> ::=
+	[<a name="para" class="lbl">para</a>]::<a href="#mixed" class="nt">mixed</a>
+	[<a name="list" class="lbl">list</a>]::<a href="#list" class="nt">list</a>
+	<a href="#production" class="nt">production</a></pre><pre><a name="mixed" class="nt">mixed</a> ::=
+	<span class="meta">(</span>α<span class="meta"> | </span>string<span class="meta">)</span><span class="meta">*</span></pre><pre><a name="list" class="nt">list</a> ::=
+	[<a name="item" class="lbl">item</a>]::<a href="#mixed" class="nt">mixed</a><span class="meta">+</span></pre><pre><a name="production" class="nt">production</a> ::=
+	[<a name="label" class="lbl">label</a>]::<a href="#label" class="nt">label</a><span class="meta">?</span> [<a name="nonterminal" class="lbl">nonterminal</a>]::<a href="#nonterminal" class="nt">nonterminal</a> <a href="#expression" class="nt">expression</a></pre><pre><a name="label" class="nt">label</a> ::=
+	string</pre><pre><a name="nonterminal" class="nt">nonterminal</a> ::=
+	string</pre><pre><a name="expression" class="nt">expression</a> ::=
+	[<a name="epsilon" class="lbl">epsilon</a>]::ε
+	[<a name="empty" class="lbl">empty</a>]::ε
+	[<a name="value" class="lbl">value</a>]::<a href="#value" class="nt">value</a>
+	[<a name="any" class="lbl">any</a>]::ε
+	[<a name="terminal" class="lbl">terminal</a>]::<a href="#terminal" class="nt">terminal</a>
+	[<a name="nonterminal" class="lbl">nonterminal</a>]::<a href="#nonterminal" class="nt">nonterminal</a>
+	[<a name="selectable" class="lbl">selectable</a>]::<span class="meta">(</span>[<a name="selector" class="lbl">selector</a>]::<a href="#selector" class="nt">selector</a> <a href="#expression" class="nt">expression</a><span class="meta">)</span>
+	[<a name="marked" class="lbl">marked</a>]::<a href="#expression" class="nt">expression</a>
+	[<a name="sequence" class="lbl">sequence</a>]::<a href="#expression" class="nt">expression</a><span class="meta">+</span>
+	[<a name="choice" class="lbl">choice</a>]::<a href="#expression" class="nt">expression</a><span class="meta">+</span>
+	[<a name="allof" class="lbl">allof</a>]::<a href="#expression" class="nt">expression</a><span class="meta">+</span>
+	[<a name="not" class="lbl">not</a>]::<a href="#expression" class="nt">expression</a>
+	[<a name="optional" class="lbl">optional</a>]::<a href="#expression" class="nt">expression</a>
+	[<a name="plus" class="lbl">plus</a>]::<a href="#expression" class="nt">expression</a>
+	[<a name="star" class="lbl">star</a>]::<a href="#expression" class="nt">expression</a>
+	[<a name="seplistplus" class="lbl">seplistplus</a>]::<span class="meta">(</span><a href="#expression" class="nt">expression</a> <a href="#expression" class="nt">expression</a><span class="meta">)</span>
+	[<a name="sepliststar" class="lbl">sepliststar</a>]::<span class="meta">(</span><a href="#expression" class="nt">expression</a> <a href="#expression" class="nt">expression</a><span class="meta">)</span></pre><pre><a name="value" class="nt">value</a> ::=
+	[<a name="int" class="lbl">int</a>]::ε
+	[<a name="string" class="lbl">string</a>]::ε</pre><pre><a name="terminal" class="nt">terminal</a> ::=
+	string</pre><pre><a name="selector" class="nt">selector</a> ::=
+	string</pre><pre><a name="subsection" class="nt">subsection</a> ::=
+	<a href="#subsection-metadata" class="nt">subsection-metadata</a> <a href="#section-structure" class="nt">section-structure</a></pre><pre><a name="subsection-metadata" class="nt">subsection-metadata</a> ::=
+	[<a name="id" class="lbl">id</a>]::<a href="#ID" class="nt">ID</a><span class="meta">?</span> <a href="#subsection-role" class="nt">subsection-role</a> <a href="#type" class="nt">type</a><span class="meta">?</span> [<a name="title" class="lbl">title</a>]::string<span class="meta">?</span> [<a name="author" class="lbl">author</a>]::<a href="#person" class="nt">person</a><span class="meta">*</span></pre><pre><a name="subsection-role" class="nt">subsection-role</a> ::=
+	[<a name="synopsis" class="lbl">synopsis</a>]::ε
+	[<a name="description" class="lbl">description</a>]::ε
+	[<a name="syntax" class="lbl">syntax</a>]::ε
+	[<a name="constraints" class="lbl">constraints</a>]::ε
+	[<a name="relationship" class="lbl">relationship</a>]::ε
+	[<a name="semantics" class="lbl">semantics</a>]::ε
+	[<a name="default" class="lbl">default</a>]::ε
+	[<a name="rationale" class="lbl">rationale</a>]::ε
+	[<a name="example" class="lbl">example</a>]::ε
+	[<a name="update" class="lbl">update</a>]::ε
+	[<a name="subtopic" class="lbl">subtopic</a>]::ε
+	[<a name="section" class="lbl">section</a>]::ε</pre><hr /><div class="b"><a href="http://grammarware.github.io/lab"><img src="../../../../by-grammarlab.png" alt="GrammarLab" title="Powered by GrammarLab"></img></a>Maintained by Dr. <a href="http://grammarware.net/">Vadim Zaytsev</a> a.k.a. @<a href="http://twitter.com/grammarware">grammarware</a>. Last updated in September 2015. <span class="links"> [<a href="#TOP">↑</a>]</span></div></body></html>
