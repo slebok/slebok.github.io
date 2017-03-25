@@ -1,6 +1,22 @@
 #!/c/Users/vadim/AppData/Local/Programs/Python/Python35/python
 # -*- coding: utf-8 -*-
 
+def fancy(x):
+	return debreviate(intralink(emph(x)))
+
+def debreviate(x):
+	for s in (
+		('4GLs', 'Fourth Generation Languages'),
+		('GPLs', 'General Purpose Languages'),
+		('DSLs', 'Domain-Specific Languages'),
+		('JVM', 'Java Virtual Machine'),
+		('VS.NET', 'Visual Studio .NET'),
+		('OS', 'Operating System'),
+		('IDE', 'Integrated Development Environment')
+		):
+		x = x.replace(s[0], '<abbr title="{}">{}</abbr>'.format(s[1], s[0]))
+	return x
+
 def intralink(x):
 	y = x.split('**')
 	r = y[0]
@@ -122,11 +138,9 @@ for line in lines[1:]:
 				'			<src>PPL:{}</src>\n'.format(fs[IDXppl]))
 		continue
 	card.append('		<pic card>\n')
-	card.append('			<title>{}</title>\n'.format(name))
+	card.append('			<title>{}</title>\n'.format(name.replace('&','&amp;')))
 	text = fs[IDXtxt] if fs[IDXtxt]!='' else fs[IDXexp].replace('&','&amp;')
-	if text == '':
-		text = 'TBD'
-	card.append('			<text>{}</text>\n'.format(intralink(emph(text))))
+	card.append('			<text>{}</text>\n'.format(fancy(text if text != '' else 'TBD')))
 	if fs[0]!='' and fs[IDXdwi] != '':
 		card.append('			<src>{}:{}</src>\n'.format(fs[0],fs[IDXdwi]).replace('&','&amp;'))
 	if fs[IDXcpl]!='':
