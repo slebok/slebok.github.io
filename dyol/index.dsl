@@ -56,19 +56,19 @@
 		</pic>
 		<pic card>
 			<title>Classes</title>
-			<text>+traits?</text>
+			<text>A class or a trait represents a template that can be followed by objects: a particular collection of properties and methods that can be always relied on. A class can be then <em>instantiated</em> with appropriate parameters to form an object that <em>conforms to</em> the class definition. Classes are the ultimate form of <a href="#Encapsulation">encapsulation</a>. They can be <a href="#Inheritance">inherited</a> from one another to form <a href="#Substitution">subclasses</a>.</text>
 			<src>CPL:107</src>
-		</pic>
-		<pic card>
-			<title>Code Authorship</title>
-			<text>(write names on stuff)</text>
-			<src>P:Watermarking</src>
 		</pic>
 		<pic card>
 			<title>Code Completion</title>
 			<text>Many IDEs monitor what the language user is typing and make suggestions based on their knowledge of the language keywords, constructs allowed in the context, variables visible from the current namespace, etc. The list of such suggestions must be short to be useful, otherwise it does nothing but annoy the users.</text>
 			<src>E:Choice editing</src>
 			<src>E:Portions</src>
+		</pic>
+		<pic card>
+			<title>Code Ownership</title>
+			<text>Signing the language user's name under a piece of code has the same effect as signing a person's name on an item: they care more about what happens to the item later. Developers used to leave comments explaining who made which code changes since very early on. In modern ecosystems, ownership is tracked automatically by a version control system and can be checked at any time (<em>git blame</em>).</text>
+			<src>P:Watermarking</src>
 		</pic>
 		<pic card>
 			<title>Code Review</title>
@@ -93,12 +93,12 @@
 		</pic>
 		<pic card>
 			<title>Composite Types</title>
-			<text>arrays, lists, sets</text>
+			<text>Arrays, lists, tuples, sets and multisets are the most common <a href="#Type Definitions">user-defined</a> <a href="#Parametrised Types">parametrised types</a> for collections of elements. It is up to the language designer to decide which ones are supported and how they are handled — can elements within on collection have different types, are they mutable, passed by name/value/reference, etc.</text>
 			<src>CPL:156</src>
 		</pic>
 		<pic card>
 			<title>Conditional Compilation</title>
-			<text>preprocessors</text>
+			<text>Some conditions can be checked during compile type and result in different code to be produced by the compiler to be run later. This is frequently used in situations when one codebase specifies the behaviour of a system that must be compiled and deployed under a variety of devices and hardware architectures.</text>
 		</pic>
 		<pic card>
 			<title>Defaults</title>
@@ -118,7 +118,7 @@
 		</pic>
 		<pic card>
 			<title>Encapsulation</title>
-			<text>Most high level language abstract from low level details like video memory manipulation, memory allocation, register values, caching, etc. Depending on the language philosophy, these features may be prohibited or just hard to find for beginners.</text>
+			<text>Most high level language abstract from low level details like video memory manipulation, memory allocation, register values, caching, etc. Depending on the language philosophy, these features may be prohibited or just hard to find for beginners. Data structures can also be encapsulated by bundling them into <a href="#Records">records</a> or <a href="#Classes">classes</a>.</text>
 			<src>A:Hiding things</src>
 			<src>CPL:104</src>
 		</pic>
@@ -129,7 +129,7 @@
 		</pic>
 		<pic card>
 			<title>Event Loop</title>
-			<text>form of UI-biased concurrency</text>
+			<text>This pattern in user interface implementation turns entire program into a giant loop waiting for the user to activate its functionality by choosing the way to communicate (click, tap, edit, etc). Since direct implementations are not green (consume too much energy), it can be built natively into the language and optimised by the compiler and hardware.</text>
 			<src>CPL:265</src>
 		</pic>
 		<pic card>
@@ -152,6 +152,11 @@
 			<text>Tedious, repetitive and error-prone programming tasks can be automated by using templates, wizards, explicit staging/morphing constructs, construction workbenches, etc. In many cases the language user is allowed to edit the result to fine-tune it.</text>
 			<src>A:Mazes</src>
 			<src>I:Tunnelling &amp; wizards</src>
+		</pic>
+		<pic card>
+			<title>Holy Wars</title>
+			<text>Software engineers are very passionate about what they do and which choices they make in doing it. By explicitly stating which camp the language is siding with, one can invoke an emotional response directly mappable to language's acceptance and popularity.</text>
+			<src>C:Emotional engagement</src>
 		</pic>
 		<pic card>
 			<title>IDE</title>
@@ -187,6 +192,11 @@
 			<title>Labelling</title>
 			<text>Since most engineers know several languages, some language manuals directly assume some initial familiarity of their users with other languages. Can refer to paradigms or families (<em>"this is a <a href="#Type Check">strongly typed</a> functional language"</em>) or directly to other languages (<em>"<a href="#Inheritance">inheritance</a> works like in Java"</em>).</text>
 			<src>M:Anchoring</src>
+		</pic>
+		<pic card>
+			<title>Language & Platform</title>
+			<text>Making a great language and providing support for it only for one particular hardware platform, OS or IDE, implicitly forces people to use them. For instance, malware practices of JRE installers turned a lot of users agains JVM, which deprived them of languages like Scala or Clojure. Another example is .NET Core, a redesign of the .NET Framework which allows typically Windows-specific code to run on Linux.</text>
+			<src>M:Format lock-in/out</src>
 		</pic>
 		<pic card>
 			<title>Lazy Evaluation</title>
@@ -227,13 +237,8 @@
 		</pic>
 		<pic card>
 			<title>Parametrised Types</title>
-			<text>array of …, stack of …</text>
+			<text>Some <a href="#Type Check">types</a> can be defined partially by the user and partially by the language designer. For example, the language designer knows what a <a href="#Composite Types"><em>list</em></a> is, and the language user can select any other type for list elements — this will change handling of such elements, but the philosophy behind their collection will stay the same.</text>
 			<src>CPL:180</src>
-		</pic>
-		<pic card>
-			<title>Passwords?</title>
-			<text>TBD</text>
-			<src>S:What you know</src>
 		</pic>
 		<pic card>
 			<title>Performance Testing</title>
@@ -265,13 +270,18 @@
 			<src>CPL:106</src>
 		</pic>
 		<pic card>
+			<title>Program Smells</title>
+			<text>A <em>smell</em> is found when a code fragment has suspicious characteristics even without being wrong. Modern computer science identifies smells for code, architecture, spreadsheets, models, hardware, grammars, etc. The very use of the word "smell" strongly implies that any neat self-respecting language user should try to leave less of those when touching the code.</text>
+			<src>C:Desire for order</src>
+		</pic>
+		<pic card>
 			<title>Records</title>
 			<text>Many languages have some kinds of records or structures that bundle several related pieces of data without attaching methods to work with that data. A dynamic variation thereof is known as a dictionary or a map (e.g., hashmap) and it allows users to add and remove fields at runtime.</text>
 			<src>CPL:169</src>
 		</pic>
 		<pic card>
 			<title>Redefines</title>
-			<text>overloading, shadowing, info hiding</text>
+			<text>Once something has been defined, it can be redefined in many languages: <a href="#Inheritance">derived classes</a> can overload base classes' properties, local variables can shadow the global ones with the same name, the same memory fragment can be treated as belonging to two separate <a href="#Type Check">data types</a>, etc.</text>
 			<src>CPL:138</src>
 		</pic>
 		<pic card>
@@ -286,7 +296,7 @@
 		</pic>
 		<pic card>
 			<title>Synchronisation</title>
-			<text>Managing the use of resources by some predefined form of synchronisation between readers and writers. Can be synchronous or asynchronous, and take forms of resource locks, semaphors, pipes, rendezvous, message passing channels, etc.</text>
+			<text>Managing the use of resources by some predefined form of synchronisation between readers and writers. Can be synchronous or asynchronous, and take forms of resource locks, semaphors, pipes, rendezvous, handshakes, message passing channels, etc.</text>
 			<src>A:Converging &amp; diverging</src>
 			<src>CPL:267</src>
 		</pic>
@@ -308,7 +318,7 @@
 		</pic>
 		<pic card>
 			<title>Type Definitions</title>
-			<text>composite types, ADTs</text>
+			<text>Several GPLs and many DSLs can exist perfectly without ever needing any user-defined types. However, in many cases it can prove useful to allow the language user to make their own <a href="#Records">data structures</a> and algebraic data types to provide their input for the <a href="#Type Check">type checker</a>.</text>
 			<src>CPL:60</src>
 		</pic>
 		<pic card>
@@ -328,7 +338,7 @@
 		</pic>
 		<pic card>
 			<title>Variables</title>
-			<text>named storage fragments</text>
+			<text>These named memory areas are thought to be fundamental for the nature of computation — and they are within the von Neumann paradigm, which is not the only choice modern people have. One can make their language more functional and force its users to think about data flow, or make it more imperative and let them worry about where the intermediate data is stored.</text>
 			<src>CPL:52</src>
 		</pic>
 		<pic card>
