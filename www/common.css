@@ -16,6 +16,7 @@ code {font-family:"Courier Prime", Courier, monospace}
 .card {float:left; text-align:left; width:350px; height:250px; margin:5px; font-weight:bold; border:2px solid #888; position: relative; background-color: #CCC}
 .card > * {float: none; margin: 5px}
 .card h6 {position: absolute; bottom: 0}
+.card a[href] {color:#039;}
 .dwi {color: white;}
 .dwi:before {content: "DwI:";}
 .dwi.A {background-color: #74b649;}

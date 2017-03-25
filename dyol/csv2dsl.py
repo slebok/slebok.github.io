@@ -1,6 +1,35 @@
 #!/c/Users/vadim/AppData/Local/Programs/Python/Python35/python
 # -*- coding: utf-8 -*-
 
+def intralink(x):
+	y = x.split('**')
+	r = y[0]
+	inside = False
+	ins = ''
+	for i in range(1,len(y)):
+		if not inside:
+			if y[i].find('!')<0:
+				where = what = y[i]
+			else:
+				where,what = y[i].split('!')
+			r += '<a href="#{}">{}</a>'.format(capitalize(where), what)
+		else:
+			r += y[i]
+		inside = not inside
+	return r
+
+def emph(x):
+	y = x.split('__')
+	r = y[0]
+	closed = True
+	for i in range(1,len(y)):
+		if closed:
+			r += '<em>' + y[i]
+		else:
+			r += '</em>' + y[i]
+		closed = not closed
+	return r
+
 def capitalize(s):
 	z = s.split(' ')
 	r = []
@@ -97,7 +126,7 @@ for line in lines[1:]:
 	text = fs[IDXtxt] if fs[IDXtxt]!='' else fs[IDXexp].replace('&','&amp;')
 	if text == '':
 		text = 'TBD'
-	card.append('			<text>{}</text>\n'.format(text))
+	card.append('			<text>{}</text>\n'.format(intralink(emph(text))))
 	if fs[0]!='' and fs[IDXdwi] != '':
 		card.append('			<src>{}:{}</src>\n'.format(fs[0],fs[IDXdwi]).replace('&','&amp;'))
 	if fs[IDXcpl]!='':

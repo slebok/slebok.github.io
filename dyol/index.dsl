@@ -12,8 +12,12 @@
 		<divclass>tile</divclass>
 		<pic card>
 			<title>Access Modifiers</title>
-			<text>Annotate components with information about how others are allowed or not allowed to access them. Possibly limited by inheritance (protected in C++), package structure (internal in C#), etc.</text>
+			<text>Annotate components with information about how others are allowed or not allowed to access them. Access can be limited by <a href="#Inheritance">inheritance</a> (<em>protected</em> in C++), <a href="#Modules">modules</a> structure (<em>internal</em> in C#), etc. The most popular modifiers are <em>public</em> (everyone welcome) and <em>private</em> (fully restricted).</text>
 			<src>A:Angles</src>
+		</pic>
+		<pic card>
+			<title>Assertions</title>
+			<text>This non-invasive form of <a href="#Exception Handling">exception handling</a> allows language users to explicitly state (<em>assert</em>) invariants, pre-conditions and post-conditions as logic expressions that must universally hold. Such assertions can be easily removed before deploying the system into production.</text>
 		</pic>
 		<pic card>
 			<title>Assignment</title>
@@ -27,12 +31,12 @@
 		</pic>
 		<pic card>
 			<title>Blocks</title>
-			<text>Viewing a list of statements as a specific kind of statement is a conceptual eye-opener and allows to treat many composite constructs in a uniform and orthogonal way (__if … begin … end__ and __do … begin … end__ instead of __if … endif__ and __do … enddo__). Two big camps of languages exist, using delimiters (begin/end or curly brackets) or indentation.</text>
+			<text>Viewing a list of statements as a specific kind of statement is a conceptual eye-opener and allows to treat many composite constructs in a uniform and orthogonal way (<em>if … begin … end</em> and <em>do … begin … end</em> instead of <em>if … endif</em> and <em>do … enddo</em>). Two big camps of languages exist, using delimiters (begin/end or curly brackets) or indentation.</text>
 			<src>CPL:85</src>
 		</pic>
 		<pic card>
 			<title>Branching</title>
-			<text>Forking the computation based on conditions known at runtime, is a popular construct. Control flow can be transferred unconditionally (branch, jump, goto), or conditionally (based on true/false, zero/positive/negative, explicit condition, exhaustive patterns, etc).</text>
+			<text>Forking the computation based on conditions known at runtime, is a popular construct. Control flow can be transferred unconditionally (<em>branch, jump, goto</em>), or conditionally (based on true/false, zero/positive/negative, explicit condition, exhaustive patterns, etc).</text>
 			<src>CPL:86</src>
 		</pic>
 		<pic card>
@@ -42,7 +46,7 @@
 		</pic>
 		<pic card>
 			<title>Character Types</title>
-			<text>A family of value types that can be used in a language: single characters, special characters, zero-terminated strings, fixed length strings, variable length strings, structured strings, etc.</text>
+			<text>A family of <a href="#Type Check">value types</a> that can be used in a language: single characters, special characters, zero-terminated strings, fixed length strings, variable length strings, structured strings, etc.</text>
 			<src>CPL:67</src>
 		</pic>
 		<pic card>
@@ -79,12 +83,12 @@
 		</pic>
 		<pic card>
 			<title>Compilation Errors</title>
-			<text>Modern languages have many means of assessing executability of the program before it is actually run. Thus, compilers tend to have a sophisticated error handling facility and try to provide enough information for the language user to fix the problems. Some languages are notoriously known for providing bad error messages.</text>
+			<text>Modern languages have many means of assessing executability of the program before it is actually run. Thus, compilers tend to have a sophisticated error handling facility and try to provide enough information for the language user to fix the problems. Some languages are notoriously known for providing bad error messages. Can be provided as a <a href="#Live Feedback">live feedback</a>.</text>
 			<src>E:Conditional warnings</src>
 		</pic>
 		<pic card>
 			<title>Compilation Warnings</title>
-			<text>When a compiler detects a possibly dangerous situation with extremely limited applicability, it displays a warning message and proceeds with the build process anyway. In many cases there is a special option for disabling a particular warning for a particular piece of code.</text>
+			<text>When a compiler detects a possibly dangerous situation with extremely limited applicability, it displays a warning message and proceeds with the build process anyway. In many cases there is a special option for disabling a particular warning for a particular piece of code. Can be provided as a <a href="#Live Feedback">live feedback</a>.</text>
 			<src>E:Did you mean?</src>
 		</pic>
 		<pic card>
@@ -98,7 +102,7 @@
 		</pic>
 		<pic card>
 			<title>Defaults</title>
-			<text>Unchanged configuration options, uninitialised variables and unspecified optional modifiers are examples of situations when a default value must be used by the compiler. These default values are decided by the language designer and typically represent the __best__ option within the paradigm.</text>
+			<text>Unchanged configuration options, uninitialised variables and unspecified optional modifiers are examples of situations when a default value must be used by the compiler. These default values are decided by the language designer and typically represent the <em>best</em> option within the paradigm.</text>
 			<src>E:Defaults</src>
 			<src>E:Opt-outs</src>
 		</pic>
@@ -130,12 +134,12 @@
 		</pic>
 		<pic card>
 			<title>Exception Handling</title>
-			<text>An emergency sibling of __Branching__ used for extraordinary situations — can be slower than the normal branching, but usually more robust in handling situations like a cricial failure during the handling of another failure. A less invasive form of exception handling is invariants (__asserts__) that state that a certain condition must hold at all times. Such invariants can be easily removed before deploying into production.</text>
+			<text>An emergency sibling of <a href="#Branching">branching</a> used for extraordinary situations — can be slower than the normal branching, but usually more robust in handling situations like a cricial failure during the handling of another failure. A less invasive form of exception handling are <a href="#Assertions">assertions</a>.</text>
 			<src>CPL:95</src>
 		</pic>
 		<pic card>
 			<title>Feature Lock-out</title>
-			<text>Certain combinations of language features may be disabled (errorneous) by default, with a possibility of enabling them explicitly. For example, redefining a method in a derived class is only allowed in C# when a specific __override__ keyword is used, which leaves visual cues to future readers of the piece of code in question.</text>
+			<text>Certain combinations of language features may be disabled (errorneous) by default, with a possibility of enabling them explicitly. For example, redefining a method in a derived class is only allowed in C# when a specific <em>override</em> keyword is used, which leaves visual cues to future readers of the piece of code in question.</text>
 			<src>E:Task lock-in/out</src>
 		</pic>
 		<pic card>
@@ -161,7 +165,7 @@
 		</pic>
 		<pic card>
 			<title>Inheritance</title>
-			<text>An "is-a" relation can be represented by a language construct when one class, object or function __inherits__ all the properties of its __parent__ and possibly adds others exclusive to itself. It is a design consideration which entities can be derived from which, whether one can inherit from several parents, etc.</text>
+			<text>An "is-a" relation can be represented by a language construct when one class, object or function <em>inherits</em> all the properties of its <em>parent</em> and possibly adds others exclusive to itself. It is a design consideration which entities can be derived from which, whether one can inherit from several parents, etc.</text>
 			<src>CPL:194</src>
 		</pic>
 		<pic card>
@@ -171,7 +175,7 @@
 		</pic>
 		<pic card>
 			<title>Iteration</title>
-			<text>There are many looping constructs, ranging from the imperative classics such as a for loop, to the functional classics such as __map__, __filter__ and __fold__ (or __reduce__). It is not uncommon for languages to support only some of these constructs. Some older GPLs and 4GLs also have one iterative construct which can be annotated with all kinds of conditions and steppers.</text>
+			<text>There are many looping constructs, ranging from the imperative classics such as a for loop, to the functional classics such as <em>map</em>, <em>filter</em> and <em>fold</em> (or <em>reduce</em>). It is not uncommon for languages to support only some of these constructs. Some older GPLs and 4GLs also have one iterative construct which can be annotated with all kinds of conditions and steppers.</text>
 			<src>CPL:89</src>
 		</pic>
 		<pic card>
@@ -181,12 +185,12 @@
 		</pic>
 		<pic card>
 			<title>Labelling</title>
-			<text>Since most engineers know several languages, some language manuals directly assume some initial familiarity of their users with other languages. Can refer to paradigms or families (__"this is a strongly typed functional language"__) or directly to other languages (__"inheritance works like in Java"__).</text>
+			<text>Since most engineers know several languages, some language manuals directly assume some initial familiarity of their users with other languages. Can refer to paradigms or families (<em>"this is a <a href="#Type Check">strongly typed</a> functional language"</em>) or directly to other languages (<em>"<a href="#Inheritance">inheritance</a> works like in Java"</em>).</text>
 			<src>M:Anchoring</src>
 		</pic>
 		<pic card>
 			<title>Lazy Evaluation</title>
-			<text>A __lazy__ compiler defers evaluation to the latest possible moment. Lazy languages allow infinite data structures (as long as they are processed one chunk at a time) and may have unpredictable outcomes if calculations are allowed to have side effects (like C's ++). Lazy evaluation has many applications from code optimisation to stream data processing.</text>
+			<text>A <em>lazy</em> compiler defers evaluation to the latest possible moment. Lazy languages allow infinite data structures (as long as they are processed one chunk at a time) and may have unpredictable outcomes if calculations are allowed to have side effects (like C's ++). Lazy evaluation has many applications from code optimisation to stream data processing.</text>
 			<src>CPL:239</src>
 		</pic>
 		<pic card>
@@ -213,7 +217,7 @@
 		</pic>
 		<pic card>
 			<title>Numeric Data Types</title>
-			<text>This important point often gets overlooked at the early stages of language design, but it could significantly shape the application area of the language. There are many integer types, distinguished by their byte sizes and therefore value ranges; also decimal types with fixed scale and precision, and floating point types good for scientific computations but not for handling finances.</text>
+			<text>Often gets overlooked at the early stages of language design, but could significantly shape the application area of the language. There are many integer <a href="#Type Check">types</a>, distinguished by their byte sizes and therefore value ranges; also decimal types with fixed scale and precision, and floating point types good for scientific computations but not for handling finances.</text>
 			<src>CPL:63</src>
 		</pic>
 		<pic card>
@@ -243,11 +247,11 @@
 		</pic>
 		<pic card>
 			<title>Picture Clause</title>
-			<text>A data type that saves a specially formatted entity (usually a float or a date) that can be used directly in printing statements but also manipulated as data.</text>
+			<text>A <a href="#Type Check">data type</a> that saves a specially formatted entity (usually a float or a date) that can be used directly in printing statements but also manipulated as data.</text>
 		</pic>
 		<pic card>
 			<title>Pointers</title>
-			<text>A popular data type in low level languages, representing a memory address where the data structure is stored — which is more efficient to pass across functions than the structure itself. The type of the structure needs to be known to decipher itse contents, since the pointer itself is nothing more than a number.</text>
+			<text>A popular data type in low level languages, representing a memory address where the data structure is stored — which is more efficient to pass across functions than the structure itself. The <a href="#Type Check">type</a> of the structure needs to be known to decipher itse contents, since the pointer itself is nothing more than a number.</text>
 			<src>CPL:69</src>
 		</pic>
 		<pic card>
@@ -272,12 +276,12 @@
 		</pic>
 		<pic card>
 			<title>Static Analysis</title>
-			<text>If a language does not directly limit its users' ability to express thing in a "bad" way, this is still possible for the compiler of the language. Parsing, type checking, dependence analysis, formatting, conventions are all examples of this.</text>
+			<text>If a language does not directly limit its users' ability to express thing in a "bad" way, this is still possible for the compiler of the language. Parsing, <a href="#Type Check">type checking</a>, dependence analysis, formatting, conventions are all examples of this.</text>
 			<src>A:Roadblock</src>
 		</pic>
 		<pic card>
 			<title>Substitution</title>
-			<text>When a subprogram specifies the types of input it expects, these types do not need to be treated precisely: often one can use entities of subtypes of the specified types (e.g., put a circle in a function that draws a shape because a circle is a subtype of shape). Subtyping is nontrivial, and the language designer must choose among covariance, contravariance, invariance, etc.</text>
+			<text>When a subprogram specifies the <a href="#Type Check">types</a> of input it expects, these types do not need to be treated precisely: often one can use entities of subtypes of the specified types (e.g., put a circle in a function that draws a shape because a circle is a subtype of shape). Subtyping is nontrivial, and the language designer must choose among covariance, contravariance, invariance, etc.</text>
 			<src>CPL:197</src>
 		</pic>
 		<pic card>
@@ -299,7 +303,7 @@
 		</pic>
 		<pic card>
 			<title>Type Check</title>
-			<text>Components can be identified, explicitly or automatically, to belong to a particular __type__. Among other things, the type determines applicability and compatibility of components with one another. In complex scenarios (like a monadic bind) hard to understand components can only fit together in one possible way.</text>
+			<text>Components can be identified, explicitly or automatically, to belong to a particular <em>type</em>. Among other things, the type determines applicability and compatibility of components with one another. In complex scenarios (like a monadic bind) hard to understand components can only fit together in one possible way.</text>
 			<src>E:Matched affordances</src>
 		</pic>
 		<pic card>
