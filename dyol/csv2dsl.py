@@ -5,11 +5,11 @@ def capitalize(s):
 	z = s.split(' ')
 	r = []
 	for w in z:
-		if w == w.upper():
+		if w == w.upper() or w[1:]!=w[1:].lower():
 			r.append(w)
 		else:
 			r.append(w.capitalize())
-	return ' '.join(r)
+	return ' '.join(r).replace(' / ', '/')
 
 def split(s,max):
 	i = 0
@@ -80,6 +80,18 @@ for line in lines[1:]:
 		continue
 	card = []
 	name = capitalize(fs[IDXnam])
+	if name in cards.keys():
+		# second time the same name - just take the sources
+		if fs[0]!='' and fs[IDXdwi] != '':
+			cards[name].insert(len(cards[name])-1,
+				'			<src>{}:{}</src>\n'.format(fs[0],fs[IDXdwi]).replace('&','&amp;'))
+		if fs[IDXcpl]!='':
+			cards[name].insert(len(cards[name])-1,
+				'			<src>CPL:{}</src>\n'.format(fs[IDXcpl]))
+		if fs[IDXppl]!='':
+			cards[name].insert(len(cards[name])-1,
+				'			<src>PPL:{}</src>\n'.format(fs[IDXppl]))
+		continue
 	card.append('		<pic card>\n')
 	card.append('			<title>{}</title>\n'.format(name))
 	text = fs[IDXtxt] if fs[IDXtxt]!='' else fs[IDXexp].replace('&','&amp;')
@@ -100,6 +112,7 @@ keys.sort()
 for c in keys:
 	for line in cards[c]:
 		dsl.write(line)
+print('{} cards created from {} lines.'.format(len(keys), len(lines)))
 
 dsl.write('''		<div class="last">
 			<br/><hr/>

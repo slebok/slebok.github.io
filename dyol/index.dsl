@@ -12,13 +12,18 @@
 		<divclass>tile</divclass>
 		<pic card>
 			<title>Access Modifiers</title>
-			<text>public / internal / protected /private</text>
+			<text>Annotate components with information about how others are allowed or not allowed to access them. Possibly limited by inheritance (protected in C++), package structure (internal in C#), etc.</text>
 			<src>A:Angles</src>
 		</pic>
 		<pic card>
 			<title>Assignment</title>
-			<text>:=, =, +=, overlay, map, boxing, SAC</text>
+			<text>Moving a data structure into another data structure. Some 4GLs have separate statements for straightforward (byte-copying) and composite (pattern-matching) assignments. In modern languages the source data structure can usually be created on the fly.</text>
 			<src>CPL:82</src>
+		</pic>
+		<pic card>
+			<title>Backward Compatibility</title>
+			<text>In language evolution, introduce new features that should supercede older ones, but ensure the users that their existing code will still run. Ideally, this code should eventually be rewritten and coevolved.</text>
+			<src>M:Worry resolution</src>
 		</pic>
 		<pic card>
 			<title>Blocks</title>
@@ -32,7 +37,7 @@
 		</pic>
 		<pic card>
 			<title>Built-in Patterns</title>
-			<text>MVC in Angular, Visitor in Rascal</text>
+			<text>Design patterns, implementation patterns and architecture patterns are used across language boundaries, but many domain-specific languages incorporate well-known patterns as native language constructs: State, Singleton, Visitor, Model-View-Controller, etc.</text>
 			<src>A:Simplicity</src>
 		</pic>
 		<pic card>
@@ -41,7 +46,7 @@
 			<src>CPL:67</src>
 		</pic>
 		<pic card>
-			<title>Charts / Diagrams?</title>
+			<title>Charts/Diagrams?</title>
 			<text>TBD</text>
 			<src>P:Possibility trees</src>
 		</pic>
@@ -57,24 +62,30 @@
 		</pic>
 		<pic card>
 			<title>Code Completion</title>
-			<text>TBD</text>
+			<text>Many IDEs monitor what the language user is typing and make suggestions based on their knowledge of the language keywords, constructs allowed in the context, variables visible from the current namespace, etc. The list of such suggestions must be short to be useful, otherwise it does nothing but annoy the users.</text>
 			<src>E:Choice editing</src>
+			<src>E:Portions</src>
 		</pic>
 		<pic card>
 			<title>Code Review</title>
-			<text>commits are reviewed</text>
+			<text>A family of practices around other developers reviewing the code submitted by one of them. Can vary in frequency, volatility, scrutiny, responsibility, intent, etc.</text>
 			<src>S:Peerveillance</src>
 		</pic>
 		<pic card>
-			<title>Cohesion & Coupling</title>
-			<text>TBD</text>
-			<src>P:Proximity &amp; grouping</src>
-		</pic>
-		<pic card>
 			<title>Comments</title>
-			<text>TBD</text>
+			<text>Comments are pieces of documentation built directly into the source of the system. Most IDEs support comments visually by presenting them in a completely different colour, usually dimmer than the rest of the program, to focus developers on executable constructs first.</text>
 			<src>P:Contrast</src>
 			<src>CPL:12</src>
+		</pic>
+		<pic card>
+			<title>Compilation Errors</title>
+			<text>Modern languages have many means of assessing executability of the program before it is actually run. Thus, compilers tend to have a sophisticated error handling facility and try to provide enough information for the language user to fix the problems. Some languages are notoriously known for providing bad error messages.</text>
+			<src>E:Conditional warnings</src>
+		</pic>
+		<pic card>
+			<title>Compilation Warnings</title>
+			<text>When a compiler detects a possibly dangerous situation with extremely limited applicability, it displays a warning message and proceeds with the build process anyway. In many cases there is a special option for disabling a particular warning for a particular piece of code.</text>
+			<src>E:Did you mean?</src>
 		</pic>
 		<pic card>
 			<title>Composite Types</title>
@@ -85,17 +96,28 @@
 			<title>Defaults</title>
 			<text>TBD</text>
 			<src>E:Defaults</src>
+			<src>E:Opt-outs</src>
 		</pic>
 		<pic card>
 			<title>Deprecated Construct</title>
-			<text>unused / undesirable</text>
+			<text>In language evolution, do not remove a no longer desired construct to avoid breaking backward compatibility, but mark it explicitly as deprecated to discourage users to rely on it.</text>
 			<src>A:Feature deletion</src>
 		</pic>
 		<pic card>
+			<title>Dev Comm</title>
+			<text>A communication channel among language users that is open at all or almost all times during development. Can take a form of a specially designed office, skype chat rooms, slack channels, etc.</text>
+			<src>A:Converging &amp; diverging</src>
+		</pic>
+		<pic card>
 			<title>Encapsulation</title>
-			<text>hide memory alloc / registers / video</text>
+			<text>Most high level language abstract from low level details like video memory manipulation, memory allocation, register values, caching, etc. Depending on the language philosophy, these features may be prohibited or just hard to find for beginners.</text>
 			<src>A:Hiding things</src>
 			<src>CPL:104</src>
+		</pic>
+		<pic card>
+			<title>Esoteric Languages</title>
+			<text>Intercal, Unlambda, Befunge, Malbolge and others are languages developed based on paradigms that are so unconventional that writing even one program puts disproportional strain on the language user. The challenging nature makes people compete in programming in such languages as a form of entertainment.</text>
+			<src>L:Challenges &amp; targets</src>
 		</pic>
 		<pic card>
 			<title>Event Loop</title>
@@ -109,32 +131,33 @@
 		</pic>
 		<pic card>
 			<title>First Class</title>
-			<text>FP etc, higher order functions</text>
+			<text>It is an important design point to decide which entities within a program have the right to be saved, passed as arguments, transferred through other means, etc. Numbers? Collections? Objects? Functions? Unfinished computations? Data streams? Unfilled templates?</text>
 			<src>CPL:151</src>
 		</pic>
 		<pic card>
 			<title>Generative Methods</title>
-			<text>wizards / staging / …</text>
+			<text>Tedious, repetitive and error-prone programming tasks can be automated by using templates, wizards, explicit staging/morphing constructs, construction workbenches, etc. In many cases the language user is allowed to edit the result to fine-tune it.</text>
 			<src>A:Mazes</src>
+			<src>I:Tunnelling &amp; wizards</src>
 		</pic>
 		<pic card>
 			<title>IDE</title>
-			<text>TBD</text>
+			<text>Integrated Development Environments (IDEs) are used to support language users in their common tasks: code navigation, debugging, building, modularising, refactoring, etc. Can take a form of a dedicated standalone editor, a website or a plugin for a universal editor.</text>
 			<src>A:Conveyor belts</src>
 		</pic>
 		<pic card>
 			<title>IDE GUI</title>
-			<text>debug window / project explorer / …</text>
+			<text>Most IDEs divide the screen space among areas with different functionality: one for navigating through adjacent programs, one for editing the code, one for reviewing the architecture, one for watching how values change at runtime, etc. Advanced IDEs like IntelliJ, Eclipse or VS.NET have so many subwindows that the user has to choose which ones to keep open at each given time.</text>
 			<src>A:Positioning</src>
 		</pic>
 		<pic card>
 			<title>Inheritance</title>
-			<text>base and derived classes, multiple</text>
+			<text>An "is-a" relation can be represented by a language construct when one class, object or function "inherits" all the properties of its "parent" and possibly adds others exclusive to itself. It is a design consideration which entities can be derived from which, whether one can inherit from several parents, etc.</text>
 			<src>CPL:194</src>
 		</pic>
 		<pic card>
-			<title>Input/output</title>
-			<text>files, monads, read/write</text>
+			<title>Input/Output</title>
+			<text>Most programs are not self-contained and require input data to run and produce results, which in turn need to be propagated somewhere. There are languages that are volatile with input and output, those that only work with files, those that wrap I/O as a side effect of a monad, etc.</text>
 			<src>CPL:187</src>
 		</pic>
 		<pic card>
@@ -144,13 +167,23 @@
 		</pic>
 		<pic card>
 			<title>Keywords</title>
-			<text>TBD</text>
+			<text>Special words that carry identical meaning across all possible programs in the same language. Can be made reserved so that programmers may not redefine them. A language can get new keywords by evolution.</text>
 			<src>CPL:11</src>
 		</pic>
 		<pic card>
+			<title>Labelling</title>
+			<text>Since most engineers know several languages, some language manuals directly assume some initial familiarity of their users with other languages. Can refer to paradigms or families ("this is a strongly typed functional language") or directly to other languages ("inheritance works like in Java").</text>
+			<src>M:Anchoring</src>
+		</pic>
+		<pic card>
 			<title>Lazy Evaluation</title>
-			<text>weak (ifs), strong (haskell)</text>
+			<text>A "lazy" compiler defers evaluation to the latest possible moment. Lazy languages allow infinite data structures (as long as they are processed one chunk at a time) and may have unpredictable outcomes if calculations are allowed to have side effects (like C's ++). Lazy evaluation has many applications from code optimisation to stream data processing.</text>
 			<src>CPL:239</src>
+		</pic>
+		<pic card>
+			<title>Live Feedback</title>
+			<text>An advanced IDE running on modern hardware can utilise its idle cycles to attempt parsing, compilation, dependency analysis and other kinds of checks while the language user is still typing the program. Errorneous and suspicious pieces of code are commonly underlined with red or yellow squiggly lines familiar from natural word processors.</text>
+			<src>I:Real-time feedback</src>
 		</pic>
 		<pic card>
 			<title>Logical Types</title>
@@ -158,10 +191,16 @@
 			<src>CPL:66</src>
 		</pic>
 		<pic card>
+			<title>Memes</title>
+			<text>LOLCODE, Arnold, Shakespeare and others are languages developed based on the memes that are circulating among software engineers: the popularity of them piggybacks entirely on the viral nature of those memes.</text>
+			<src>L:Make it a meme</src>
+		</pic>
+		<pic card>
 			<title>Modules</title>
-			<text>packages / modules / classes / procs</text>
+			<text>Large programs inevitably outgrow their creators' capabilities to understand them all at once. Comprehension can be aided greatly by the language providing modules, packages, classes, procedures and other elements to group related code fragments together. Modern IDEs can analyse code for cohesion and coupling to help improve modularisation.</text>
 			<src>A:Segmentation &amp; spacing</src>
 			<src>CPL:113</src>
+			<src>P:Proximity &amp; grouping</src>
 		</pic>
 		<pic card>
 			<title>Numeric Data Types</title>
@@ -169,13 +208,8 @@
 			<src>CPL:63</src>
 		</pic>
 		<pic card>
-			<title>Open Office</title>
-			<text>chat rooms / office design / slack</text>
-			<src>A:Converging &amp; diverging</src>
-		</pic>
-		<pic card>
 			<title>Operator Precedence</title>
-			<text>TBD</text>
+			<text>To avoid excessive use of parentheses, a language can provide a default convention of disambiguating constructs with 3+ entities bound by binary operators. In arithmetic expressions, the precedence usually follows mathematical laws.</text>
 			<src>CPL:79</src>
 		</pic>
 		<pic card>
@@ -189,13 +223,18 @@
 			<src>S:What you know</src>
 		</pic>
 		<pic card>
-			<title>Phased Processing</title>
-			<text>compilation phases, build phases</text>
+			<title>Performance Testing</title>
+			<text>Performance testing and its variations like profiling and stress testing are commonly desired nice-to-have features in IDEs. Languages and their ecosystems greatly vary in the extent to which this aspect is recognised and supported.</text>
+			<src>A:Pave the cowpaths</src>
+		</pic>
+		<pic card>
+			<title>Phases</title>
+			<text>Breaking a process into phases is one of the most used divide-and-conquer principles applied in language processing. Most compilers are designed to work in phases, and different competences and skills are required to implement each phase.</text>
 			<src>I:Partial completion</src>
 		</pic>
 		<pic card>
 			<title>Picture Clause</title>
-			<text>TBD</text>
+			<text>A data type that saves a specially formatted entity (usually a float or a date) that can be used directly in printing statements but also manipulated as data.</text>
 		</pic>
 		<pic card>
 			<title>Pointers</title>
@@ -204,18 +243,13 @@
 		</pic>
 		<pic card>
 			<title>Preview</title>
-			<text>in refactoring</text>
+			<text>Some features are very useful in general, but implemented in a way that sometimes fails. In this case, the impact of an application of a feature can be explicitly examined by the language user before agreeing to proceed. Common for database queries and object-oriented refactorings.</text>
 			<src>I:Simulation &amp; feedforward</src>
 		</pic>
 		<pic card>
 			<title>Procedures</title>
-			<text>methods, procs, functions, coroutines</text>
+			<text>Pieces of code that can be executed from other places in the program, are common to all languages, since they promote reuse, but they are designed differently. Some languages only allow them to be attached to an object (methods) or a class (static methods), others provide special synchronisation mechanisms to procedures to cooperate (coroutines, delegates), etc.</text>
 			<src>CPL:106</src>
-		</pic>
-		<pic card>
-			<title>Profiling</title>
-			<text>perf testing</text>
-			<src>A:Pave the cowpaths</src>
 		</pic>
 		<pic card>
 			<title>Records</title>
@@ -223,54 +257,45 @@
 			<src>CPL:169</src>
 		</pic>
 		<pic card>
-			<title>Red Squiggles</title>
-			<text>also compile time errors?</text>
-			<src>E:Conditional warnings</src>
-		</pic>
-		<pic card>
 			<title>Redefines</title>
 			<text>overloading, shadowing, info hiding</text>
 			<src>CPL:138</src>
 		</pic>
 		<pic card>
-			<title>Save On Exit</title>
-			<text>TBD</text>
-			<src>E:Task lock-in/out</src>
-		</pic>
-		<pic card>
 			<title>Static Analysis</title>
-			<text>parsing / type checking</text>
+			<text>If a language does not directly limit its users' ability to express thing in a "bad" way, this is still possible for the compiler of the language. Parsing, type checking, dependence analysis, formatting, conventions are all examples of this.</text>
 			<src>A:Roadblock</src>
 		</pic>
 		<pic card>
 			<title>Substitution</title>
-			<text>casting, subtyping, polymorphism</text>
+			<text>When a program or a subprogram specifies the types of input it expects, these types do not need to be treated precisely: in many languages the users are allowed to use entities of subtypes of the specified types (e.g., put a circle in a function that draws a shape because a circle is a subtype of shape). Subtyping is nontrivial for composite types, and the language designer must choose among covariance, contravariance, invariance, etc.</text>
 			<src>CPL:197</src>
 		</pic>
 		<pic card>
-			<title>Suggestion Box?</title>
-			<text>TBD</text>
-			<src>E:Portions</src>
-		</pic>
-		<pic card>
 			<title>Synchronisation</title>
-			<text>async, sem, rendezvous, pipes, monitors</text>
+			<text>Managing the use of resources by some predefined form of synchronisation between readers and writers. Can be synchronous or asynchronous, and take forms of resource locks, semaphors, pipes, rendezvous, message passing channels, etc.</text>
 			<src>A:Converging &amp; diverging</src>
 			<src>CPL:267</src>
 		</pic>
 		<pic card>
 			<title>Syntactic Sugar</title>
-			<text>TBD</text>
+			<text>Nice-to-have constructs that are not extending the expressive power of the language, are sometimes not actually implemented directly — just expanded into bigger sequences of more primitive and less user-friendly constructs.</text>
 			<src>P:Fake affordances</src>
 		</pic>
 		<pic card>
 			<title>Syntax Highlighting</title>
-			<text>TBD</text>
+			<text>A development environment of the language can profit from visualisation even if the language is textual by colour-coding different categories of words (strings, numbers, standard libraries, reserved words, etc).</text>
+			<src>A:Material properties</src>
 			<src>P:Colour associations</src>
 		</pic>
 		<pic card>
+			<title>Trust Me I'm An Engineer</title>
+			<text>Certain combinations of language features may be disabled (errorneous) by default, with a possibility of enabling them explicitly. For example, redefining a method in a derived class is only allowed in C# when a specific "override" keyword is used, which leaves visual cues to future readers of the piece of code in question.</text>
+			<src>E:Task lock-in/out</src>
+		</pic>
+		<pic card>
 			<title>Type Check</title>
-			<text>monadic bind</text>
+			<text>Components can be identified, explicitly or automatically, to belong to a particular "type". Among other things, the type determines applicability and compatibility of components with one another. In complex scenarios (like a monadic bind) hard to understand components can only fit together in one possible way.</text>
 			<src>E:Matched affordances</src>
 		</pic>
 		<pic card>
@@ -285,8 +310,13 @@
 		</pic>
 		<pic card>
 			<title>Unification</title>
-			<text>prolog, Rascal templates</text>
+			<text>Given two composite data structures, a compiler can be tasked to find their matching components and proceed with assignment, transformation, etc. Widely used in logic programming, metaprogramming, model synchronisation, bidirectional transformation, 4GLs for banking, etc.</text>
 			<src>CPL:248</src>
+		</pic>
+		<pic card>
+			<title>Unpredictable Behaviour</title>
+			<text>When a particular combination of language constructs is not explicitly specified by the standard, its implementers can take different shortcuts in interpreting it. As a result, the same piece of code produces different results based on the compiler, the computer, time of day, etc. Common in legacy languages like C or COBOL.</text>
+			<src>M:Antifeatures &amp; crippleware</src>
 		</pic>
 		<pic card>
 			<title>Variables</title>

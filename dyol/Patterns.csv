@@ -1,43 +1,43 @@
 ﻿,Inspired by,Key phrase,Name,Explanation,CPL,PPL,Text
-A,Angles,some actions are easier than others,Access modifiers,public / internal / protected /private,,,
-A,Converging & diverging,channel people so they come together,Open office,chat rooms / office design / slack,,,
-A,Converging & diverging,channel people to split up,Synchronisation,"async, sem, rendezvous, pipes, monitors",267,,
-A,Conveyor belts,bring a feature to the users,IDE,,,,
-A,Feature deletion,take away features,Deprecated construct,unused / undesirable,,,
-A,Hiding things,hide functions that shouldn't be used,Encapsulation,hide memory alloc / registers / video,104,,
-A,Material properties,use materials to favour some actions ,Syntax highlighting,"colour code keywords, constants, clickables",,,
-A,Mazes,get people to follow the desired path,Generative methods,wizards / staging / …,,,
-A,Pave the cowpaths,recognise desire paths & encode them,Profiling,perf testing,,,
-A,Pave the cowpaths,recognise desire paths & encode them,WatchDog,learning / adapting plugin,,,
-A,Positioning,rearrange things in space,IDE GUI,debug window / project explorer / …,,,
-A,Roadblock,put things in users' way,Static analysis,parsing / type checking,,,
-A,Segmentation & spacing,divide into parts usable one at a time,Modules,packages / modules / classes / procs,113,,
-A,Simplicity,structure things to easily use features,Built-in patterns,"MVC in Angular, Visitor in Rascal",,,
+A,Angles,some actions are easier than others,Access modifiers,public / internal / protected /private,,,"Annotate components with information about how others are allowed or not allowed to access them. Possibly limited by inheritance (protected in C++), package structure (internal in C#), etc."
+A,Converging & diverging,channel people so they come together,Dev comm,chat rooms / office design / slack,,,"A communication channel among language users that is open at all or almost all times during development. Can take a form of a specially designed office, skype chat rooms, slack channels, etc."
+A,Converging & diverging,channel people to split up,Synchronisation,"async, sem, rendezvous, pipes, monitors",267,,"Managing the use of resources by some predefined form of synchronisation between readers and writers. Can be synchronous or asynchronous, and take forms of resource locks, semaphors, pipes, rendezvous, message passing channels, etc."
+A,Conveyor belts,bring a feature to the users,IDE,,,,"Integrated Development Environments (IDEs) are used to support language users in their common tasks: code navigation, debugging, building, modularising, refactoring, etc. Can take a form of a dedicated standalone editor, a website or a plugin for a universal editor."
+A,Feature deletion,take away features,Deprecated construct,unused / undesirable,,,"In language evolution, do not remove a no longer desired construct to avoid breaking backward compatibility, but mark it explicitly as deprecated to discourage users to rely on it."
+A,Hiding things,hide functions that shouldn't be used,Encapsulation,hide memory alloc / registers / video,104,,"Most high level language abstract from low level details like video memory manipulation, memory allocation, register values, caching, etc. Depending on the language philosophy, these features may be prohibited or just hard to find for beginners."
+A,Material properties,use materials to favour some actions ,Syntax highlighting,"colour code keywords, constants, clickables",,,"A development environment of the language can profit from visualisation even if the language is textual by colour-coding different categories of words (strings, numbers, standard libraries, reserved words, etc)."
+A,Mazes,get people to follow the desired path,Generative methods,wizards / staging / …,,,"Tedious, repetitive and error-prone programming tasks can be automated by using templates, wizards, explicit staging/morphing constructs, construction workbenches, etc. In many cases the language user is allowed to edit the result to fine-tune it."
+A,Pave the cowpaths,recognise desired paths & encode them,Performance testing,perf testing,,,Performance testing and its variations like profiling and stress testing are commonly desired nice-to-have features in IDEs. Languages and their ecosystems greatly vary in the extent to which this aspect is recognised and supported.
+A,Pave the cowpaths,recognise desired paths & encode them,WatchDog,learning / adapting plugin,,,
+A,Positioning,rearrange things in space,IDE GUI,debug window / project explorer / …,,,"Most IDEs divide the screen space among areas with different functionality: one for navigating through adjacent programs, one for editing the code, one for reviewing the architecture, one for watching how values change at runtime, etc. Advanced IDEs like IntelliJ, Eclipse or VS.NET have so many subwindows that the user has to choose which ones to keep open at each given time."
+A,Roadblock,put things in users' way,Static analysis,parsing / type checking,,,"If a language does not directly limit its users' ability to express thing in a ""bad"" way, this is still possible for the compiler of the language. Parsing, type checking, dependence analysis, formatting, conventions are all examples of this."
+A,Segmentation & spacing,divide into parts usable one at a time,Modules,packages / modules / classes / procs,113,,"Large programs inevitably outgrow their creators' capabilities to understand them all at once. Comprehension can be aided greatly by the language providing modules, packages, classes, procedures and other elements to group related code fragments together. Modern IDEs can analyse code for cohesion and coupling to help improve modularisation."
+A,Simplicity,structure things to easily use features,Built-in patterns,"MVC in Angular, Visitor in Rascal",,,"Design patterns, implementation patterns and architecture patterns are used across language boundaries, but many domain-specific languages incorporate well-known patterns as native language constructs: State, Singleton, Visitor, Model-View-Controller, etc."
 E,Are you sure?,extra confirmation step,,__ in Python,,,
-E,Choice editing,phase out undesired choices,Code completion,,,,
-E,Conditional warnings,warning based on the error,Red squiggles,also compile time errors?,,,
+E,Choice editing,phase out undesired choices,Code completion,,,,"Many IDEs monitor what the language user is typing and make suggestions based on their knowledge of the language keywords, constructs allowed in the context, variables visible from the current namespace, etc. The list of such suggestions must be short to be useful, otherwise it does nothing but annoy the users."
+E,Conditional warnings,warning based on the error,Compilation errors,also compile time errors?,,,"Modern languages have many means of assessing executability of the program before it is actually run. Thus, compilers tend to have a sophisticated error handling facility and try to provide enough information for the language user to fix the problems. Some languages are notoriously known for providing bad error messages."
 E,Defaults,make preferred option default,Defaults,,,,
-E,Did you mean?,"detect error, suggest a better option",,tolerant completion?,,,
+E,Did you mean?,"detect error, suggest a better option",Compilation warnings,tolerant completion?,,,"When a compiler detects a possibly dangerous situation with extremely limited applicability, it displays a warning message and proceeds with the build process anyway. In many cases there is a special option for disabling a particular warning for a particular piece of code."
 E,Interlock,disable feature until another one done,,,,,
-E,Matched affordances,fit the right way around,Type check,monadic bind,,,
-E,Opt-outs,yes to desired option by default,,disabling convention notifications?,,,
-E,Portions,change the portion size,Suggestion box?,,,,
-E,Task lock-in/out,prevent inadventent use of feature,Save on exit,,,,
+E,Matched affordances,fit the right way around,Type check,monadic bind,,,"Components can be identified, explicitly or automatically, to belong to a particular ""type"". Among other things, the type determines applicability and compatibility of components with one another. In complex scenarios (like a monadic bind) hard to understand components can only fit together in one possible way."
+E,Opt-outs,yes to desired option by default,Defaults,disabling convention notifications?,,,
+E,Portions,change the portion size,Code completion,,,,
+E,Task lock-in/out,prevent inadventent use of feature,Trust me I'm an engineer,,,,"Certain combinations of language features may be disabled (errorneous) by default, with a possibility of enabling them explicitly. For example, redefining a method in a derived class is only allowed in C# when a specific ""override"" keyword is used, which leaves visual cues to future readers of the piece of code in question."
 I,Feedback through form,form suggest usage,,,,,
 I,Kairos,time the suggestion to change behr,,,,,
-I,Partial completion,build confidence by finishing phase,Phased processing,"compilation phases, build phases",,,
+I,Partial completion,build confidence by finishing phase,Phases,"compilation phases, build phases",,,"Breaking a process into phases is one of the most used divide-and-conquer principles applied in language processing. Most compilers are designed to work in phases, and different competences and skills are required to implement each phase."
 I,Peer feedback,gen feedback from similar users,,,,,
 I,Progress bar,show progress towards a goal,,,,,
-I,Real-time feedback,let users know their actions affect it,,(memory consumption?),,,
-I,Simulation & feedforward,preview of results of user's actions,Preview,in refactoring,,,
+I,Real-time feedback,let users know their actions affect it,Live feedback,(memory consumption?),,,"An advanced IDE running on modern hardware can utilise its idle cycles to attempt parsing, compilation, dependency analysis and other kinds of checks while the language user is still typing the program. Errorneous and suspicious pieces of code are commonly underlined with red or yellow squiggly lines familiar from natural word processors."
+I,Simulation & feedforward,preview of results of user's actions,Preview,in refactoring,,,"Some features are very useful in general, but implemented in a way that sometimes fails. In this case, the impact of an application of a feature can be explicitly examined by the language user before agreeing to proceed. Common for database queries and object-oriented refactorings."
 I,Summary feedback,report on what users were doing,,,,,
 I,Tailoring,adapt proposed features to user's needs,,,,,
-I,Tunnelling & wizards,take users through a decision process,,(duplicate?),,,
-L,Challenges & targets,present a challenge,,esoteric languages - Befunge etc,,,
+I,Tunnelling & wizards,take users through a decision process,Generative methods,(duplicate?),,,
+L,Challenges & targets,present a challenge,Esoteric languages,esoteric languages - Befunge etc,,,"Intercal, Unlambda, Befunge, Malbolge and others are languages developed based on paradigms that are so unconventional that writing even one program puts disproportional strain on the language user. The challenging nature makes people compete in programming in such languages as a form of entertainment."
 L,Collections,get users to collect things through usage,,(gamification?),,,
 L,Leave gaps to fill,leave deliberate gaps to implement,,ANTIPATTERN!,,,
 L,Levels,split the system into achievable levels,,,,,
-L,Make it a meme,make the design viral,,LOLCODE etc,,,
+L,Make it a meme,make the design viral,Memes,LOLCODE etc,,,"LOLCODE, Arnold, Shakespeare and others are languages developed based on the memes that are circulating among software engineers: the popularity of them piggybacks entirely on the viral nature of those memes."
 L,Playfulness,elements that play a game with users,,,,,
 L,Rewards,reveal bonus functionality to good users,,,,,
 L,Role-playing,makes users feel like they're playing roles,,,,,
@@ -46,8 +46,8 @@ L,Storytelling,tell engaging story through design,,,,,
 L,Unpredictable reinforcement,give rewards on random schedule,,,,,
 P,(A)symmetry,"symmetric = related, asymmetric = unrel",,???,,,
 P,Colour associations,colour suggests grouping,Syntax highlighting,,,,
-P,Contrast,obvious contrast of parts and background,Comments,,12,,
-P,Fake affordances,feature that does not really work,Syntactic sugar,,,,
+P,Contrast,obvious contrast of parts and background,Comments,,12,,"Comments are pieces of documentation built directly into the source of the system. Most IDEs support comments visually by presenting them in a completely different colour, usually dimmer than the rest of the program, to focus developers on executable constructs first."
+P,Fake affordances,feature that does not really work,Syntactic sugar,,,,"Nice-to-have constructs that are not extending the expressive power of the language, are sometimes not actually implemented directly — just expanded into bigger sequences of more primitive and less user-friendly constructs."
 P,Implied sequences,make the order obvious,,,,,
 P,Metaphors,metaphor / analogy,,"bug, cloud, jump",,,
 P,Mimicry & mirroring,mirror or mimic a user's behaviour,,,,,
@@ -56,7 +56,7 @@ P,Nakedness,remove the usual cues to make users think,,,,,
 P,Perceived affordances,the form of the system suggests its use,,,,,
 P,Possibility trees,(metro map),Charts / diagrams?,,,,
 P,Prominence,exaggerate or hide a feature,,,,,
-P,Proximity & grouping,put related elements closer,Cohesion & coupling,,,,
+P,Proximity & grouping,put related elements closer,Modules,"cohesion, coupling",,,
 P,Seductive atmospherics,use ambient sensory effects to induce beh,,,,,
 P,Similarity,hide unrelated elements by mimicry,,,,,
 P,Transparency,reveal what's under the cover,,,,,
@@ -76,8 +76,8 @@ C,Reciprocation,make user feel there's a favour to be repaid,,,,,
 C,Rephrasing & renaming,"rename buttons, labels, etc",,,,,
 C,Scarcity,emphasize that the resource is valuable/limited,,,,,
 C,Social proof,show that other users do the same,,,,,
-M,Anchoring,affect expectations by controlling reference points,,"""this is FP""",,,
-M,Antifeatures & crippleware,disable feature to force people to upgrade,,,,,
+M,Anchoring,affect expectations by controlling reference points,Labelling,"""this is FP""",,,"Since most engineers know several languages, some language manuals directly assume some initial familiarity of their users with other languages. Can refer to paradigms or families (""this is a strongly typed functional language"") or directly to other languages (""inheritance works like in Java"")."
+M,Antifeatures & crippleware,disable feature to force people to upgrade,Unpredictable behaviour,,,,"When a particular combination of language constructs is not explicitly specified by the standard, its implementers can take different shortcuts in interpreting it. As a result, the same piece of code produces different results based on the compiler, the computer, time of day, etc. Common in legacy languages like C or COBOL."
 M,Bundling,include what you want to do with smth user wants,,,,,
 M,Degrading performance,degrade performance until demands are met,,,,,
 M,First one free,free giveaway lures people in to pay for more,,,,,
@@ -89,9 +89,9 @@ M,Poison pill,add unpleasant side-effects,,XML Booster?,,,
 M,Serving suggestion,direct the use through demonstration,,,,,
 M,Slow / no response,encourage alternatives by making options slow,,,,,
 M,Style obsolescence,design things to go out of fashion quickly,,,,,
-M,Worry resolution,suggest a worry about behaviour and remove it,,,,,
+M,Worry resolution,suggest a worry about behaviour and remove it,Backward compatibility,,,,"In language evolution, introduce new features that should supercede older ones, but ensure the users that their existing code will still run. Ideally, this code should eventually be rewritten and coevolved."
 S,Coercive atmospherics,ambient sensory effects affect behavr,,,,,
-S,Peerveillance,what you do is visible to peers,Code review,commits are reviewed,,,
+S,Peerveillance,what you do is visible to peers,Code review,commits are reviewed,,,"A family of practices around other developers reviewing the code submitted by one of them. Can vary in frequency, volatility, scrutiny, responsibility, intent, etc."
 S,Sousveillance,what you do is visible to inferiors,,,,,
 S,Surveillance,what you do is visible to superiors,,,,,
 S,Threat of injury,(spikes on walls),,,,,
@@ -102,31 +102,31 @@ S,What you know,"password, info",Passwords?,,,,
 S,What you’ve done,change depending on prev.behaviour,,,,,
 S,Where you are,enable features by location,,,,,
 S,Who or what you are,vary features per person/group/object,,(gamified language learning),,,
-,,,Keywords,,11,,
+,,,Keywords,,11,,Special words that carry identical meaning across all possible programs in the same language. Can be made reserved so that programmers may not redefine them. A language can get new keywords by evolution.
 ,,,Variables,named storage fragments,52,,
 ,,,Types & scopes,,55,,
 ,,,Type definitions,"composite types, ADTs",60,,
 ,,,Parametrised types,"array of …, stack of …",180,,
 ,,,Composite types,"arrays, lists, sets",156,,
 ,,,Records,"structs, dictionaries, hashmaps, tables",169,,
-,,,Picture clause,,,,
+,,,Picture clause,,,,A data type that saves a specially formatted entity (usually a float or a date) that can be used directly in printing statements but also manipulated as data.
 ,,,Numeric data types,integers and floats,63,,
 ,,,Logical types,booleans,66,,
 ,,,Character types,chars and strings,67,,
 ,,,Pointers,references,69,,
-,,,Operator precedence,,79,,
-,,,Assignment,":=, =, +=, overlay, map, boxing, SAC",82,,
+,,,Operator precedence,,79,,"To avoid excessive use of parentheses, a language can provide a default convention of disambiguating constructs with 3+ entities bound by binary operators. In arithmetic expressions, the precedence usually follows mathematical laws."
+,,,Assignment,":=, =, +=, overlay, map, boxing, SAC",82,,Moving a data structure into another data structure. Some 4GLs have separate statements for straightforward (byte-copying) and composite (pattern-matching) assignments. In modern languages the source data structure can usually be created on the fly.
 ,,,Blocks,compound statements,85,,
 ,,,Branching,"if, jmp, cond, switch/case, goto",86,,
 ,,,Iteration,"while, for, foreach, LINQ",89,,
 ,,,Exception handling,"raise, throw, catch, try",95,,
-,,,Procedures,"methods, procs, functions, coroutines",106,,
+,,,Procedures,"methods, procs, functions, coroutines",106,,"Pieces of code that can be executed from other places in the program, are common to all languages, since they promote reuse, but they are designed differently. Some languages only allow them to be attached to an object (methods) or a class (static methods), others provide special synchronisation mechanisms to procedures to cooperate (coroutines, delegates), etc."
 ,,,Classes,+traits?,107,,
 ,,,Redefines,"overloading, shadowing, info hiding",138,,
-,,,First class,"FP etc, higher order functions",151,,
-,,,Input/output,"files, monads, read/write",187,,
-,,,Inheritance,"base and derived classes, multiple",194,,
-,,,Substitution,"casting, subtyping, polymorphism",197,,
-,,,Lazy evaluation,"weak (ifs), strong (haskell)",239,,
-,,,Unification,"prolog, Rascal templates",248,,
+,,,First class,"FP etc, higher order functions",151,,"It is an important design point to decide which entities within a program have the right to be saved, passed as arguments, transferred through other means, etc. Numbers? Collections? Objects? Functions? Unfinished computations? Data streams? Unfilled templates?"
+,,,Input / Output,"files, monads, read/write",187,,"Most programs are not self-contained and require input data to run and produce results, which in turn need to be propagated somewhere. There are languages that are volatile with input and output, those that only work with files, those that wrap I/O as a side effect of a monad, etc."
+,,,Inheritance,"base and derived classes, multiple",194,,"An ""is-a"" relation can be represented by a language construct when one class, object or function ""inherits"" all the properties of its ""parent"" and possibly adds others exclusive to itself. It is a design consideration which entities can be derived from which, whether one can inherit from several parents, etc."
+,,,Substitution,"casting, subtyping, polymorphism",197,,"When a program or a subprogram specifies the types of input it expects, these types do not need to be treated precisely: in many languages the users are allowed to use entities of subtypes of the specified types (e.g., put a circle in a function that draws a shape because a circle is a subtype of shape). Subtyping is nontrivial for composite types, and the language designer must choose among covariance, contravariance, invariance, etc."
+,,,Lazy evaluation,"weak (ifs), strong (haskell)",239,,"A ""lazy"" compiler defers evaluation to the latest possible moment. Lazy languages allow infinite data structures (as long as they are processed one chunk at a time) and may have unpredictable outcomes if calculations are allowed to have side effects (like C's ++). Lazy evaluation has many applications from code optimisation to stream data processing."
+,,,Unification,"prolog, Rascal templates",248,,"Given two composite data structures, a compiler can be tasked to find their matching components and proceed with assignment, transformation, etc. Widely used in logic programming, metaprogramming, model synchronisation, bidirectional transformation, 4GLs for banking, etc."
 ,,,Event loop,form of UI-biased concurrency,265,,
