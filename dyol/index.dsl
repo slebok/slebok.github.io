@@ -17,32 +17,32 @@
 		</pic>
 		<pic card>
 			<title>Assignment</title>
-			<text>Moving a data structure into another data structure. Some 4GLs have separate statements for straightforward (byte-copying) and composite (pattern-matching) assignments. In modern languages the source data structure can usually be created on the fly.</text>
+			<text>Moving a data structure into another data structure. Some 4GLs have separate statements for straightforward (byte-copying) and composite (pattern-matching) assignments. In modern languages the source data structure can usually be created on the fly. Many languages combine assignment with trivial manipulation (such as +=).</text>
 			<src>CPL:82</src>
 		</pic>
 		<pic card>
-			<title>Backward Compatibility</title>
+			<title>Backward Compatible</title>
 			<text>In language evolution, introduce new features that should supercede older ones, but ensure the users that their existing code will still run. Ideally, this code should eventually be rewritten and coevolved.</text>
 			<src>M:Worry resolution</src>
 		</pic>
 		<pic card>
 			<title>Blocks</title>
-			<text>compound statements</text>
+			<text>Viewing a list of statements as a specific kind of statement is a conceptual eye-opener and allows to treat many composite constructs in a uniform and orthogonal way (__if … begin … end__ and __do … begin … end__ instead of __if … endif__ and __do … enddo__). Two big camps of languages exist, using delimiters (begin/end or curly brackets) or indentation.</text>
 			<src>CPL:85</src>
 		</pic>
 		<pic card>
 			<title>Branching</title>
-			<text>if, jmp, cond, switch/case, goto</text>
+			<text>Forking the computation based on conditions known at runtime, is a popular construct. Control flow can be transferred unconditionally (branch, jump, goto), or conditionally (based on true/false, zero/positive/negative, explicit condition, exhaustive patterns, etc).</text>
 			<src>CPL:86</src>
 		</pic>
 		<pic card>
 			<title>Built-in Patterns</title>
-			<text>Design patterns, implementation patterns and architecture patterns are used across language boundaries, but many domain-specific languages incorporate well-known patterns as native language constructs: State, Singleton, Visitor, Model-View-Controller, etc.</text>
+			<text>Design patterns, implementation patterns and architecture patterns are used across language boundaries, but many domain-specific languages incorporate well-known patterns as native language constructs: Model-View-Controller, Singleton, State, Visitor, etc.</text>
 			<src>A:Simplicity</src>
 		</pic>
 		<pic card>
 			<title>Character Types</title>
-			<text>chars and strings</text>
+			<text>A family of value types that can be used in a language: single characters, special characters, zero-terminated strings, fixed length strings, variable length strings, structured strings, etc.</text>
 			<src>CPL:67</src>
 		</pic>
 		<pic card>
@@ -93,8 +93,12 @@
 			<src>CPL:156</src>
 		</pic>
 		<pic card>
+			<title>Conditional Compilation</title>
+			<text>preprocessors</text>
+		</pic>
+		<pic card>
 			<title>Defaults</title>
-			<text>TBD</text>
+			<text>Unchanged configuration options, uninitialised variables and unspecified optional modifiers are examples of situations when a default value must be used by the compiler. These default values are decided by the language designer and typically represent the __best__ option within the paradigm.</text>
 			<src>E:Defaults</src>
 			<src>E:Opt-outs</src>
 		</pic>
@@ -126,8 +130,13 @@
 		</pic>
 		<pic card>
 			<title>Exception Handling</title>
-			<text>raise, throw, catch, try</text>
+			<text>An emergency sibling of __Branching__ used for extraordinary situations — can be slower than the normal branching, but usually more robust in handling situations like a cricial failure during the handling of another failure. A less invasive form of exception handling is invariants (__asserts__) that state that a certain condition must hold at all times. Such invariants can be easily removed before deploying into production.</text>
 			<src>CPL:95</src>
+		</pic>
+		<pic card>
+			<title>Feature Lock-out</title>
+			<text>Certain combinations of language features may be disabled (errorneous) by default, with a possibility of enabling them explicitly. For example, redefining a method in a derived class is only allowed in C# when a specific __override__ keyword is used, which leaves visual cues to future readers of the piece of code in question.</text>
+			<src>E:Task lock-in/out</src>
 		</pic>
 		<pic card>
 			<title>First Class</title>
@@ -152,7 +161,7 @@
 		</pic>
 		<pic card>
 			<title>Inheritance</title>
-			<text>An "is-a" relation can be represented by a language construct when one class, object or function "inherits" all the properties of its "parent" and possibly adds others exclusive to itself. It is a design consideration which entities can be derived from which, whether one can inherit from several parents, etc.</text>
+			<text>An "is-a" relation can be represented by a language construct when one class, object or function __inherits__ all the properties of its __parent__ and possibly adds others exclusive to itself. It is a design consideration which entities can be derived from which, whether one can inherit from several parents, etc.</text>
 			<src>CPL:194</src>
 		</pic>
 		<pic card>
@@ -162,7 +171,7 @@
 		</pic>
 		<pic card>
 			<title>Iteration</title>
-			<text>while, for, foreach, LINQ</text>
+			<text>There are many looping constructs, ranging from the imperative classics such as a for loop, to the functional classics such as __map__, __filter__ and __fold__ (or __reduce__). It is not uncommon for languages to support only some of these constructs. Some older GPLs and 4GLs also have one iterative construct which can be annotated with all kinds of conditions and steppers.</text>
 			<src>CPL:89</src>
 		</pic>
 		<pic card>
@@ -172,12 +181,12 @@
 		</pic>
 		<pic card>
 			<title>Labelling</title>
-			<text>Since most engineers know several languages, some language manuals directly assume some initial familiarity of their users with other languages. Can refer to paradigms or families ("this is a strongly typed functional language") or directly to other languages ("inheritance works like in Java").</text>
+			<text>Since most engineers know several languages, some language manuals directly assume some initial familiarity of their users with other languages. Can refer to paradigms or families (__"this is a strongly typed functional language"__) or directly to other languages (__"inheritance works like in Java"__).</text>
 			<src>M:Anchoring</src>
 		</pic>
 		<pic card>
 			<title>Lazy Evaluation</title>
-			<text>A "lazy" compiler defers evaluation to the latest possible moment. Lazy languages allow infinite data structures (as long as they are processed one chunk at a time) and may have unpredictable outcomes if calculations are allowed to have side effects (like C's ++). Lazy evaluation has many applications from code optimisation to stream data processing.</text>
+			<text>A __lazy__ compiler defers evaluation to the latest possible moment. Lazy languages allow infinite data structures (as long as they are processed one chunk at a time) and may have unpredictable outcomes if calculations are allowed to have side effects (like C's ++). Lazy evaluation has many applications from code optimisation to stream data processing.</text>
 			<src>CPL:239</src>
 		</pic>
 		<pic card>
@@ -204,7 +213,7 @@
 		</pic>
 		<pic card>
 			<title>Numeric Data Types</title>
-			<text>integers and floats</text>
+			<text>This important point often gets overlooked at the early stages of language design, but it could significantly shape the application area of the language. There are many integer types, distinguished by their byte sizes and therefore value ranges; also decimal types with fixed scale and precision, and floating point types good for scientific computations but not for handling finances.</text>
 			<src>CPL:63</src>
 		</pic>
 		<pic card>
@@ -238,7 +247,7 @@
 		</pic>
 		<pic card>
 			<title>Pointers</title>
-			<text>references</text>
+			<text>A popular data type in low level languages, representing a memory address where the data structure is stored — which is more efficient to pass across functions than the structure itself. The type of the structure needs to be known to decipher itse contents, since the pointer itself is nothing more than a number.</text>
 			<src>CPL:69</src>
 		</pic>
 		<pic card>
@@ -253,7 +262,7 @@
 		</pic>
 		<pic card>
 			<title>Records</title>
-			<text>structs, dictionaries, hashmaps, tables</text>
+			<text>Many languages have some kinds of records or structures that bundle several related pieces of data without attaching methods to work with that data. A dynamic variation thereof is known as a dictionary or a map (e.g., hashmap) and it allows users to add and remove fields at runtime.</text>
 			<src>CPL:169</src>
 		</pic>
 		<pic card>
@@ -268,7 +277,7 @@
 		</pic>
 		<pic card>
 			<title>Substitution</title>
-			<text>When a program or a subprogram specifies the types of input it expects, these types do not need to be treated precisely: in many languages the users are allowed to use entities of subtypes of the specified types (e.g., put a circle in a function that draws a shape because a circle is a subtype of shape). Subtyping is nontrivial for composite types, and the language designer must choose among covariance, contravariance, invariance, etc.</text>
+			<text>When a subprogram specifies the types of input it expects, these types do not need to be treated precisely: often one can use entities of subtypes of the specified types (e.g., put a circle in a function that draws a shape because a circle is a subtype of shape). Subtyping is nontrivial, and the language designer must choose among covariance, contravariance, invariance, etc.</text>
 			<src>CPL:197</src>
 		</pic>
 		<pic card>
@@ -289,13 +298,8 @@
 			<src>P:Colour associations</src>
 		</pic>
 		<pic card>
-			<title>Trust Me I'm An Engineer</title>
-			<text>Certain combinations of language features may be disabled (errorneous) by default, with a possibility of enabling them explicitly. For example, redefining a method in a derived class is only allowed in C# when a specific "override" keyword is used, which leaves visual cues to future readers of the piece of code in question.</text>
-			<src>E:Task lock-in/out</src>
-		</pic>
-		<pic card>
 			<title>Type Check</title>
-			<text>Components can be identified, explicitly or automatically, to belong to a particular "type". Among other things, the type determines applicability and compatibility of components with one another. In complex scenarios (like a monadic bind) hard to understand components can only fit together in one possible way.</text>
+			<text>Components can be identified, explicitly or automatically, to belong to a particular __type__. Among other things, the type determines applicability and compatibility of components with one another. In complex scenarios (like a monadic bind) hard to understand components can only fit together in one possible way.</text>
 			<src>E:Matched affordances</src>
 		</pic>
 		<pic card>
@@ -309,14 +313,14 @@
 			<src>CPL:55</src>
 		</pic>
 		<pic card>
+			<title>Undefined Behaviour</title>
+			<text>When a particular combination of language constructs is not explicitly specified by the standard, its implementers can take different shortcuts in interpreting it. As a result, the same piece of code produces different results based on the compiler, the computer, time of day, etc. Common in legacy languages like C or COBOL.</text>
+			<src>M:Antifeatures &amp; crippleware</src>
+		</pic>
+		<pic card>
 			<title>Unification</title>
 			<text>Given two composite data structures, a compiler can be tasked to find their matching components and proceed with assignment, transformation, etc. Widely used in logic programming, metaprogramming, model synchronisation, bidirectional transformation, 4GLs for banking, etc.</text>
 			<src>CPL:248</src>
-		</pic>
-		<pic card>
-			<title>Unpredictable Behaviour</title>
-			<text>When a particular combination of language constructs is not explicitly specified by the standard, its implementers can take different shortcuts in interpreting it. As a result, the same piece of code produces different results based on the compiler, the computer, time of day, etc. Common in legacy languages like C or COBOL.</text>
-			<src>M:Antifeatures &amp; crippleware</src>
 		</pic>
 		<pic card>
 			<title>Variables</title>
@@ -324,7 +328,7 @@
 			<src>CPL:52</src>
 		</pic>
 		<pic card>
-			<title>Watchdog</title>
+			<title>WatchDog</title>
 			<text>learning / adapting plugin</text>
 			<src>A:Pave the cowpaths</src>
 		</pic>
