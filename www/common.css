@@ -13,3 +13,16 @@ a:link, a:visited {color:#039}
 h1 a img, h1 img {float:right; margin-left:50px; margin-bottom:50px}
 code {font-family:"Courier Prime", Courier, monospace}
 .help {color:#ffdec9; font-size:smaller; font-style:italic}
+.card {float:left; text-align:left; width:350px; height:250px; margin:5px; font-weight:bold; border:2px solid #888; position: relative; background-color: #CCC}
+.card > * {float: none; margin: 5px}
+.card h6 {position: absolute; bottom: 0}
+.dwi {color: white;}
+.dwi:before {content: "DwI:";}
+.dwi.A {background-color: #74b649;}
+.dwi.E {background-color: #eb1c23;}
+.dwi.I {background-color: #f6921e;}
+.dwi.L {background-color: #ef5a28;}
+.dwi.P {background-color: #d91c5c;}
+.dwi.C {background-color: #1b75ba;}
+.dwi.M {background-color: #5f3813;}
+.dwi.S {background-color: #777777;}
