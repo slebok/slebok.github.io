@@ -11,8 +11,9 @@ def debreviate(x):
 		('DSLs', 'Domain-Specific Languages'),
 		('JVM', 'Java Virtual Machine'),
 		('VS.NET', 'Visual Studio .NET'),
-		('OS', 'Operating System'),
-		('IDE', 'Integrated Development Environment')
+		('UML', 'Unified Modelling Language'),
+		('OS', 'Operating System')
+		# ('IDE', 'Integrated Development Environment')
 		):
 		x = x.replace(s[0], '<abbr title="{}">{}</abbr>'.format(s[1], s[0]))
 	return x
@@ -127,7 +128,13 @@ for line in lines[1:]:
 	card = []
 	name = capitalize(fs[IDXnam])
 	if name in cards.keys():
-		# second time the same name - just take the sources
+		# second time the same name
+		if fs[IDXtxt] != '':
+			# if the new item has a proper explanation, take it
+			i = 0
+			while cards[name][i].find('<text>')<0: i += 1
+			cards[name][i] = '			<text>{}</text>\n'.format(fancy(fs[IDXtxt]))
+		# update the sources if there are any
 		if fs[0]!='' and fs[IDXdwi] != '':
 			cards[name].insert(len(cards[name])-1,
 				'			<src>{}:{}</src>\n'.format(fs[0],fs[IDXdwi]).replace('&','&amp;'))

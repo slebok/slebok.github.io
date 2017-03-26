@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
 body {color:#033; background-color:#AAA; font-family:"Futura", "Montserrat", sans-serif}
+h1 {font-family:"Arial Rounded MT", sans-serif}
 .pic .p {color:#003355; padding-top:5px}
 .pic {float:left; text-align:center; width:150px; height:250px; margin:5px; font-weight:bold; border:2px solid #888}
 .pic img, .tile img {border:0px; max-height:100px}
@@ -13,10 +14,11 @@ a:link, a:visited {color:#039}
 h1 a img, h1 img {float:right; margin-left:50px; margin-bottom:50px}
 code {font-family:"Courier Prime", Courier, monospace}
 .help {color:#ffdec9; font-size:smaller; font-style:italic}
-.card {float:left; text-align:left; width:350px; height:250px; margin:5px; font-weight:bold; border:2px solid #888; position: relative; background-color: #CCC}
+.card {float:left; text-align:left; width:440px; height:205px; margin:5px; font-weight:bold; border:2px solid #888; position: relative; background-color: #CCC}
 .card > * {float: none; margin: 5px}
 .card h6 {position: absolute; bottom: 0}
 .card a[href] {color:#039;}
+.card h1 {background: white;}
 .dwi {color: white;}
 .dwi.A {background-color: #74b649;}
 .dwi.E {background-color: #eb1c23;}

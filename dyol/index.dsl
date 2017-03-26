@@ -26,9 +26,20 @@
 			<src>PPL:105</src>
 		</pic>
 		<pic card>
-			<title>Backward Compatible</title>
+			<title>Backtracking</title>
+			<text>A computation strategy commonly found in declarative languages. Every choice in the evaluation path becomes a <em>save point</em> to which the computation returns in case of failure. All the changes made between the save point and the point of failure are undone. Backtracking is common in parsers and logic programming, and used for <a href="#Error Handling">error recovery</a> everywhere else.</text>
+			<src>I:Kairos</src>
+			<src>PPL:516</src>
+		</pic>
+		<pic card>
+			<title>Backward Compatibility</title>
 			<text>In language evolution, introduce new features that should supercede older ones, but ensure the users that their existing code will still run. Ideally, this code should eventually be rewritten and coevolved.</text>
 			<src>M:Worry resolution</src>
+		</pic>
+		<pic card>
+			<title>Big Brother</title>
+			<text>A more invasive and more powerful form of <a href="#Code Mining">code mining</a> is examining language users' actions directly. This can be done through the <a href="#IDE">IDE</a> by equipping the plugin with logging functionality: make it record every single action taken by the user, with all the necessary context such as the files opened, and analyse it later.</text>
+			<src>A:Pave the cowpaths</src>
 		</pic>
 		<pic card>
 			<title>Blocks</title>
@@ -54,8 +65,8 @@
 			<src>PPL:185</src>
 		</pic>
 		<pic card>
-			<title>Charts/Diagrams?</title>
-			<text>TBD</text>
+			<title>Charts &amp; Diagrams</title>
+			<text><abbr title="Unified Modelling Language">UML</abbr> distinguishes between structural (class, package, object, component, composite structure, deployment) and behavioural diagrams (activity, sequence, use case, state, communication, interaction overview, timing). The former specify and visualise structure break up, the latter — events and interaction. Some languages (e.g., syntactic diagrams) are both.</text>
 			<src>P:Possibility trees</src>
 		</pic>
 		<pic card>
@@ -66,9 +77,14 @@
 		</pic>
 		<pic card>
 			<title>Code Completion</title>
-			<text>Many <abbr title="Integrated Development Environment">IDE</abbr>s monitor what the language user is typing and make suggestions based on their knowledge of the language keywords, constructs allowed in the context, variables visible from the current namespace, etc. The list of such suggestions must be short to be useful, otherwise it does nothing but annoy the users.</text>
+			<text>Many <a href="#IDE">IDEs</a> monitor what the language user is typing and make suggestions based on their knowledge of the language keywords, constructs allowed in the context, variables visible from the current namespace, etc. The list of such suggestions must be short to be useful, otherwise it does nothing but annoy the users.</text>
 			<src>E:Choice editing</src>
 			<src>E:Portions</src>
+		</pic>
+		<pic card>
+			<title>Code Mining</title>
+			<text>Besides user surveys and expert opinions, there is a third way to uncover points to improve the language in its next versions: examining existing artefacts created in this language. There are many modern techniques in mining software repositories and machine learning that can be helpful here.</text>
+			<src>I:Peer feedback</src>
 		</pic>
 		<pic card>
 			<title>Code Ownership</title>
@@ -82,14 +98,14 @@
 		</pic>
 		<pic card>
 			<title>Comments</title>
-			<text>Comments are pieces of documentation built directly into the source of the system. Most <abbr title="Integrated Development Environment">IDE</abbr>s support comments visually by presenting them in a completely different colour, usually dimmer than the rest of the program, to focus developers on executable constructs first.</text>
+			<text>Comments are pieces of documentation built directly into the source of the system. Most <a href="#IDE">IDEs</a> support comments visually by presenting them in a completely different colour, usually dimmer than the rest of the program, to focus developers on executable constructs first.</text>
 			<src>P:Contrast</src>
 			<src>CPL:12</src>
 			<src>EML:23</src>
 		</pic>
 		<pic card>
 			<title>Commit Hooks</title>
-			<text>TBD</text>
+			<text>In many version control systems it is possible to write system scripts and let them run automatically on the client side (when a language user is preparing a commit) or on the server side (when the changes are shared with others). Such scripts are used to check conformance with language conventions and thus form and influence patterns of its use.</text>
 			<src>C:Habits</src>
 		</pic>
 		<pic card>
@@ -120,6 +136,12 @@
 			<text>Some conditions can be checked during compile type and result in different code to be produced by the compiler to be run later. This is frequently used in situations when one codebase specifies the behaviour of a system that must be compiled and deployed under a variety of devices and hardware architectures.</text>
 		</pic>
 		<pic card>
+			<title>Debugging</title>
+			<text>The activity of finding and fixing sources of incorrect behaviour is not enjoyed by many language users, but is used by all of them without exception anyway. Declarative languages are the hardest to debug and imperative ones are the easiest. Most modern languages are shipped with a dedicated debugger or have debugging functionality in the <a href="#IDE">IDE</a>.</text>
+			<src>E:Are you sure?</src>
+			<src>E:Interlock</src>
+		</pic>
+		<pic card>
 			<title>Defaults</title>
 			<text>Unchanged configuration options, uninitialised variables and unspecified optional modifiers are examples of situations when a default value must be used by the compiler. These default values are decided by the language designer and typically represent the <em>best</em> option within the paradigm.</text>
 			<src>E:Defaults</src>
@@ -127,11 +149,11 @@
 		</pic>
 		<pic card>
 			<title>Deprecated Construct</title>
-			<text>In language evolution, do not remove a no longer desired construct to avoid breaking backward compatibility, but mark it explicitly as deprecated to discourage users to rely on it.</text>
+			<text>In language evolution, sometimes a no longer desired construct cannot be simply removed to avoid breaking <a href="#Backward Compatibility">backward compatibility</a>. However, it can be marked explicitly as deprecated to discourage language users to rely on it.</text>
 			<src>A:Feature deletion</src>
 		</pic>
 		<pic card>
-			<title>Dev Comm</title>
+			<title>Developer Communication</title>
 			<text>A communication channel among language users that is open at all or almost all times during development. Can take a form of a specially designed office, skype chat rooms, slack channels, etc.</text>
 			<src>A:Converging &amp; diverging</src>
 		</pic>
@@ -144,7 +166,7 @@
 		</pic>
 		<pic card>
 			<title>Enumeration Types</title>
-			<text>When a <a href="#Type Definitions">data type</a> defines a very limited set of possible values which are, nevertheless, more comfortably referred to by their names and not by encoded numbers, we have an enumeration. The most famous enumeration is the logical type, or Boolean type, which contains only two values: <em>true</em> and <em>false</em>. If the domain permits, the language does not have to support user-defined enumerations.</text>
+			<text>An enumeration is a <a href="#Type Definitions">data type</a> that defines a very limited set of possible values which are, nevertheless, more comfortably referred to by their names and not by encoded numbers. The most famous enumeration is the Boolean (logical) type, which contains only two values: <em>true</em> and <em>false</em>. If the domain permits, the language does not have to support user-defined enumerations.</text>
 			<src>CPL:66</src>
 			<src>PPL:188</src>
 		</pic>
@@ -170,14 +192,14 @@
 			<src>E:Task lock-in/out</src>
 		</pic>
 		<pic card>
-			<title>First Class</title>
+			<title>First Class Citizen</title>
 			<text>It is an important design point to decide which entities within a program have the right to be saved, passed as arguments, transferred through other means, etc. Numbers? Collections? Objects? Functions? Unfinished computations? Data streams? Unfilled templates?</text>
 			<src>CPL:151</src>
 			<src>PPL:397</src>
 		</pic>
 		<pic card>
 			<title>Garbage Collection</title>
-			<text>Automatic release of memory is impossible for cyclic data structures. Languages that want to support them, have a <em>garbage collector</em> — a runtime compiler component that occasionally <em>marks</em> data structures that have become inaccessible and then <em>sweeps</em> them away, freeing the memory. Garbage collection can compromise language responsiveness and performance.</text>
+			<text>Automatic release of memory is impossible for cyclic data structures. Languages that want to support them, have a <em>garbage collector</em> — a runtime compiler component that occasionally <em>marks</em> data structures that have become inaccessible and then <em>sweeps</em> them away, freeing the memory. GC can compromise language responsiveness and performance.</text>
 			<src>M:Bundling</src>
 			<src>PPL:443</src>
 		</pic>
@@ -190,17 +212,18 @@
 		</pic>
 		<pic card>
 			<title>Holy Wars</title>
-			<text>Software engineers are very passionate about what they do and which choices they make in doing it. By explicitly stating which camp the language is siding with, one can invoke an emotional response directly mappable to language's acceptance and popularity.</text>
+			<text>Software engineers are very passionate about what they do and which choices they make in doing it. By explicitly stating which camp the language is siding with or which key figures of the community endorse it, one can invoke an emotional response directly mappable to language's acceptance and popularity.</text>
+			<src>C:Do as you’re told</src>
 			<src>C:Emotional engagement</src>
 		</pic>
 		<pic card>
 			<title>IDE</title>
-			<text>Integrated Development Environments (<abbr title="Integrated Development Environment">IDE</abbr>s) are used to support language users in their common tasks: code navigation, debugging, building, modularising, refactoring, etc. Can take a form of a dedicated standalone editor, a website or a plugin for a universal editor.</text>
+			<text>Integrated Development Environments (IDEs) are used to support language users in their common tasks: code navigation, debugging, building, modularising, refactoring, etc. Can take a form of a dedicated standalone editor, a website or a plugin for a universal editor.</text>
 			<src>A:Conveyor belts</src>
 		</pic>
 		<pic card>
 			<title>IDE GUI</title>
-			<text>Most <abbr title="Integrated Development Environment">IDE</abbr>s divide the screen space among areas with different functionality: one for navigating through adjacent programs, one for editing the code, one for reviewing the architecture, one for watching how values change at runtime, etc. Advanced <abbr title="Integrated Development Environment">IDE</abbr>s like IntelliJ, Eclipse or <abbr title="Visual Studio .NET">VS.NET</abbr> have so many subwindows that the user has to choose which ones to keep open at each given time.</text>
+			<text>Most <a href="#IDE">IDEs</a> divide the screen space among areas with different functionality: one for navigating through adjacent programs, one for editing the code, one for reviewing the architecture, one for watching how values change at runtime, etc. Advanced IDEs like IntelliJ, Eclipse or <abbr title="Visual Studio .NET">VS.NET</abbr> have so many subwindows that the user has to choose which ones to keep open at each given time.</text>
 			<src>A:Positioning</src>
 		</pic>
 		<pic card>
@@ -223,7 +246,7 @@
 		</pic>
 		<pic card>
 			<title>Keywords</title>
-			<text>Special words that carry identical meaning across all possible programs in the same language. Can be made reserved so that programmers may not redefine them. A language can get new keywords by evolution.</text>
+			<text>Special words in <a href="#Concrete Syntax">concrete syntax</a> of the language that carry identical meaning across all possible programs in the same language. Can be made reserved so that programmers may not redefine them. A language can get new keywords by evolution.</text>
 			<src>CPL:11</src>
 			<src>PPL:92</src>
 		</pic>
@@ -233,18 +256,13 @@
 			<src>M:Anchoring</src>
 		</pic>
 		<pic card>
-			<title>Language &amp; Platform</title>
-			<text>Supporting a great language only for one particular hardware platform, <abbr title="Operating System">OS</abbr> or <abbr title="Integrated Development Environment">IDE</abbr>, implicitly forces people to use them. For example, malware practices of its installers turned some users agains <abbr title="Java Virtual Machine">JVM</abbr>, which also deprived them of Scala and Clojure. Another example is .NET Core, a redesign of the .NET Framework which allows typically Windows-specific code to run on Linux.</text>
-			<src>M:Format lock-in/out</src>
-		</pic>
-		<pic card>
 			<title>Lazy Evaluation</title>
 			<text>A <em>lazy</em> compiler defers evaluation to the latest possible moment. Lazy languages allow infinite data structures (as long as they are processed one chunk at a time) and may have unpredictable outcomes if calculations are allowed to have side effects (like C's ++). Lazy evaluation has many applications from code optimisation to stream data processing.</text>
 			<src>CPL:239</src>
 		</pic>
 		<pic card>
 			<title>Live Feedback</title>
-			<text>An advanced <abbr title="Integrated Development Environment">IDE</abbr> running on modern hardware can utilise its idle cycles to attempt parsing, compilation, dependency analysis and other kinds of checks while the language user is still typing the program. Errorneous and suspicious pieces of code are commonly underlined with red or yellow squiggly lines familiar from natural word processors.</text>
+			<text>An advanced <a href="#IDE">IDE</a> running on modern hardware can utilise its idle cycles to attempt parsing, compilation, dependency analysis and other kinds of checks while the language user is still typing the program. Errorneous and suspicious pieces of code are commonly underlined with red or yellow squiggly lines familiar from natural word processors.</text>
 			<src>I:Real-time feedback</src>
 		</pic>
 		<pic card>
@@ -253,8 +271,13 @@
 			<src>L:Make it a meme</src>
 		</pic>
 		<pic card>
+			<title>Metaphors</title>
+			<text>Atom, <a href="#Backtracking">backtracking</a>, binding, body, build, cloud, collision, compiler, dangling else, <a href="#Debugging">debugging</a>, <a href="#Syntactic Sugar">desugaring</a>, <a href="#Records">dictionary</a>, <a href="#Type Check">duck typing</a>, environment, filter, <a href="#Numeric Data Types">floating point</a>, forest, framework, <a href="#Garbage Collection">garbage collection</a>, <a href="#Branching">go to</a>, heap, <a href="#Inheritance">inheritance</a>, <a href="#Branching">jump</a>, library, linking, map, <a href="#Pointers">pointer</a>, pruning, <a href="#Synchronisation">rendezvous</a>, stack, turtle, weaving, window, …</text>
+			<src>P:Metaphors</src>
+		</pic>
+		<pic card>
 			<title>Modules</title>
-			<text>Large programs inevitably outgrow their creators' capabilities to understand them all at once. Comprehension can be aided greatly by the language providing modules, packages, classes, procedures and other elements to group related code fragments together. Modern <abbr title="Integrated Development Environment">IDE</abbr>s can analyse code for cohesion and coupling to help improve modularisation.</text>
+			<text>Large programs inevitably outgrow their creators' capabilities to understand them all at once. Comprehension can be aided greatly by the language providing modules, packages, classes, procedures and other elements to group related code fragments together. Modern <a href="#IDE">IDEs</a> can analyse code for cohesion and coupling to help improve modularisation.</text>
 			<src>A:Segmentation</src>
 			<src>CPL:113</src>
 			<src>PPL:267</src>
@@ -262,7 +285,7 @@
 		</pic>
 		<pic card>
 			<title>Numeric Data Types</title>
-			<text>Often gets overlooked at the early stages of language design, but could significantly shape the application area of the language. There are many integer <a href="#Type Check">types</a>, distinguished by their byte sizes and therefore value ranges; also decimal types with fixed scale and precision, and floating point types good for scientific computations but not for handling finances.</text>
+			<text>Often gets overlooked at the early stages of language design, but could significantly shape the application area of the language. There are many integer <a href="#Type Check">types</a>, distinguished by their byte sizes and therefore value ranges; also decimal types with fixed scale and precision; and floating point types good for scientific computations but not for handling finances.</text>
 			<src>CPL:63</src>
 			<src>PPL:65</src>
 		</pic>
@@ -274,7 +297,7 @@
 		</pic>
 		<pic card>
 			<title>Orthogonal Design</title>
-			<text>Independent features should be controlled by independent mechanisms. Related constructs should look similar and different ones should look different. Regular rules without exceptions are easier to learn. The less surprises one has while learning the language, the higher the language quality.</text>
+			<text>Independent features should be controlled by independent mechanisms. Related constructs should look similar</text>
 			<src>P:Similarity</src>
 			<src>PPL:8</src>
 			<src>PPL:8</src>
@@ -287,7 +310,7 @@
 		</pic>
 		<pic card>
 			<title>Performance Testing</title>
-			<text>Performance testing and its variations like profiling and stress testing are commonly desired nice-to-have features in <abbr title="Integrated Development Environment">IDE</abbr>s. Languages and their ecosystems greatly vary in the extent to which this aspect is recognised and supported.</text>
+			<text>Performance testing and its variations like profiling and stress testing are commonly desired nice-to-have features in <a href="#IDE">IDEs</a>. Languages and their ecosystems greatly vary in the extent to which this aspect is recognised and supported.</text>
 			<src>A:Pave the cowpaths</src>
 		</pic>
 		<pic card>
@@ -301,6 +324,11 @@
 			<text>A <a href="#Type Check">data type</a> that saves a specially formatted entity (usually a float or a date) that can be used directly in printing statements but also manipulated as data.</text>
 		</pic>
 		<pic card>
+			<title>Platform Lock-in/out</title>
+			<text>Supporting a great language only for one particular hardware platform, <abbr title="Operating System">OS</abbr> or IDE, implicitly forces people to use them. For example, malware practices of Java installers turned some users agains <abbr title="Java Virtual Machine">JVM</abbr>, which also deprived them of Scala and Clojure. Another example is .NET Core, a redesign of the .NET Framework which allows typically Windows-specific code to run on Linux.</text>
+			<src>M:Format lock-in/out</src>
+		</pic>
+		<pic card>
 			<title>Pointers</title>
 			<text>A popular data type in low level languages, representing a memory address where the data structure is stored — which is more efficient to pass across functions than the structure itself. The <a href="#Type Check">type</a> of the structure needs to be known to decipher itse contents, since the pointer itself is nothing more than a number.</text>
 			<src>CPL:69</src>
@@ -308,24 +336,25 @@
 		</pic>
 		<pic card>
 			<title>Pretty-printing</title>
-			<text>A language can have a "default" formatting convention that is not only accepted by the community to improve the representation quality of the programs, but also automated and shipped in a form of a tool. Such a tool can be very configurable, have limited feature selection or none at all.</text>
+			<text>A language can have a <a href="#Defaults">default</a> formatting convention that is not only accepted by the community to improve the representation quality of the programs, but also automated and shipped in a form of a tool. Such a tool can be very configurable, have limited feature selection or none at all.</text>
 			<src>P:Implied sequences</src>
+			<src>PPL:89</src>
 			<src>EML:23</src>
 		</pic>
 		<pic card>
 			<title>Preview</title>
-			<text>Some features are very useful in general, but implemented in a way that sometimes fails. In this case, the impact of an application of a feature can be explicitly examined by the language user before agreeing to proceed. Common for database queries and object-oriented refactorings.</text>
+			<text>Some features are very useful in general, but implemented in a way that sometimes fails. In this case, the impact of an application of a feature can be explicitly examined by the language user before agreeing to proceed. Common for database queries and <a href="#Refactoring">object-oriented refactorings</a>.</text>
 			<src>I:Simulation &amp; feedforward</src>
 		</pic>
 		<pic card>
 			<title>Procedures</title>
-			<text>Pieces of code that can be executed from other places in the program, are common to all languages, since they promote reuse, but they are designed differently. Some languages only allow them to be attached to an object (methods) or a class (static methods), others provide special synchronisation mechanisms to procedures to cooperate (coroutines, delegates), etc.</text>
+			<text>Pieces of code that can be executed from other places in the program, are common to all languages, since they promote reuse, but they are designed differently. Some languages only allow them to be attached to an object (methods) or a class (static methods), others provide special <a href="#Synchronisation">synchronisation</a> mechanisms to procedures to cooperate (coroutines, delegates), etc.</text>
 			<src>CPL:106</src>
 			<src>PPL:35</src>
 		</pic>
 		<pic card>
 			<title>Program Smells</title>
-			<text>A <em>smell</em> is found when a code fragment has suspicious characteristics even without being wrong. Modern computer science identifies smells for code, architecture, spreadsheets, models, hardware, grammars, etc. The very use of the word "smell" strongly implies that any neat self-respecting language user should try to leave less of those when touching the code.</text>
+			<text>A <em>smell</em> is found when a code fragment has suspicious characteristics even without being wrong. Modern computer science identifies smells for code, models, architecture, spreadsheets, hardware, grammars, etc. The very use of the word "smell" strongly implies that any neat self-respecting language user should try to leave less of those when touching the code.</text>
 			<src>C:Desire for order</src>
 		</pic>
 		<pic card>
@@ -342,12 +371,12 @@
 		</pic>
 		<pic card>
 			<title>Refactoring</title>
-			<text>TBD</text>
+			<text>Refactorings are code changes that do not impact the system's behaviour but change its internal structure to improve code quality, prepare for the subsequent change, etc. Few languages are co-designed with refactorings from the first day, but it is not uncommon to get refactoring support in the <a href="#IDE">IDE</a> afterwards.</text>
 			<src>C:Rephrasing &amp; renaming</src>
 		</pic>
 		<pic card>
 			<title>Static Analysis</title>
-			<text>If a language does not directly limit its users' ability to express thing in a "bad" way, this is still possible for the compiler of the language. Parsing, <a href="#Type Check">type checking</a>, dependence analysis, formatting, conventions are all examples of this. One of the good principles of language design states that if an erroe gets though one line of defence, it should be caught by the next one.</text>
+			<text>If a language does not directly limit its users' ability to express thing in a "bad" way, this is still possible for the compiler of the language. Parsing, <a href="#Type Check">type checking</a>, dependence analysis, <a href="#Pretty-printing">formatting</a>, conventions are all examples of this. One of the language design principles states that if an error gets though one line of defence, it should be caught by the next one.</text>
 			<src>A:Roadblock</src>
 			<src>PPL:7</src>
 		</pic>
@@ -388,11 +417,6 @@
 			<src>PPL:268</src>
 		</pic>
 		<pic card>
-			<title>Types &amp; Scopes</title>
-			<text>TBD</text>
-			<src>CPL:55</src>
-		</pic>
-		<pic card>
 			<title>Undefined Behaviour</title>
 			<text>When a particular combination of language constructs is not explicitly specified by the standard, its implementers can take different shortcuts in interpreting it. As a result, the same piece of code produces different results based on the compiler, the computer, time of day, etc. Common in legacy languages like C or COBOL.</text>
 			<src>M:Antifeatures &amp; crippleware</src>
@@ -408,11 +432,6 @@
 			<text>These named memory areas are thought to be fundamental for the nature of computation — and they are within the von Neumann paradigm, which is not the only choice modern people have. One can make their language more functional and force its users to think about data flow, or make it more imperative and let them worry about where the intermediate data is stored.</text>
 			<src>CPL:52</src>
 			<src>PPL:22</src>
-		</pic>
-		<pic card>
-			<title>WatchDog</title>
-			<text>learning / adapting plugin</text>
-			<src>A:Pave the cowpaths</src>
 		</pic>
 		<br/><hr/>
 		<div class="left">
