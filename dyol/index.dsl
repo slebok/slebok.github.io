@@ -96,10 +96,12 @@
 			<title>Code Review</title>
 			<text>A family of practices around other developers reviewing the code submitted by one of them. Can vary in frequency, volatility, scrutiny, responsibility, intent, etc.</text>
 			<src>S:Peerveillance</src>
+			<src>S:Sousveillance</src>
+			<src>S:Surveillance</src>
 		</pic>
 		<pic card>
 			<title>Comments</title>
-			<text>Comments are pieces of documentation built directly into the source of the system. Most <a href="#IDE">IDEs</a> support comments visually by presenting them in a completely different colour, usually dimmer than the rest of the program, to focus developers on executable constructs first. In some languages like BibTeX or INTERCAL everything uncompilable is a comment.</text>
+			<text>Comments are pieces of <a href="#Documentation">documentation</a> built directly into the source of the system. Most <a href="#IDE">IDEs</a> support comments visually by presenting them in a completely different colour, usually dimmer than the rest of the program, to focus developers on executable constructs first. In some languages like BibTeX or INTERCAL everything uncompilable is a comment.</text>
 			<src>P:Contrast</src>
 			<src>CPL:12</src>
 			<src>EML:23</src>
@@ -157,6 +159,12 @@
 			<title>Developer Communication</title>
 			<text>A communication channel among language users that is open at all or almost all times during development. Can take a form of a specially designed office, skype chat rooms, slack channels, etc.</text>
 			<src>A:Converging &amp; diverging</src>
+		</pic>
+		<pic card>
+			<title>Documentation</title>
+			<text>Language manuals are important for people learning the language, as well as for active users — sometimes these are two different sets of documents. Documentation may contain executable examples and can/should be automatically checked for internal validity and consistency with the tooling.</text>
+			<src>M:Serving suggestion</src>
+			<src>EML:264</src>
 		</pic>
 		<pic card>
 			<title>Encapsulation</title>
@@ -222,6 +230,7 @@
 			<title>IDE</title>
 			<text>Integrated Development Environments (IDEs) are used to support language users in their common tasks: code navigation, <a href="#Debugging">debugging</a>, building, <a href="#Modules">modularising</a>, <a href="#Refactoring">refactoring</a>, etc. Can take a form of a dedicated standalone editor, a website or a plugin for a universal editor.</text>
 			<src>A:Conveyor belts</src>
+			<src>EML:264</src>
 		</pic>
 		<pic card>
 			<title>IDE GUI</title>
@@ -260,7 +269,7 @@
 		</pic>
 		<pic card>
 			<title>Labelling</title>
-			<text>Since most engineers know several languages, some language manuals directly assume some initial familiarity of their users with other languages. Can refer to paradigms or families (<em>"this is a <a href="#Type Check">strongly typed</a> functional language"</em>) or directly to other languages (<em>"<a href="#Inheritance">inheritance</a> works like in Java"</em>).</text>
+			<text>Since most engineers know several languages, some <a href="#Documentation">language manuals</a> directly assume some initial familiarity of their users with other languages. Can refer to paradigms or families (<em>"this is a <a href="#Type Check">strongly typed</a> functional language"</em>) or directly to other languages (<em>"<a href="#Inheritance">inheritance</a> works like in Java"</em>).</text>
 			<src>M:Anchoring</src>
 		</pic>
 		<pic card>
@@ -388,10 +397,11 @@
 			<text>If a language does not directly limit its users' ability to express thing in a "bad" way, this is still possible for the compiler of the language. Parsing, <a href="#Type Check">type checking</a>, dependence analysis, <a href="#Pretty-printing">formatting</a>, conventions are all examples of this. One of the language design principles states that if an error gets though one line of defence, it should be caught by the next one.</text>
 			<src>A:Roadblock</src>
 			<src>PPL:7</src>
+			<src>EML:264</src>
 		</pic>
 		<pic card>
 			<title>Substitution</title>
-			<text>When a subprogram specifies the <a href="#Type Check">types</a> of input it expects, these types do not need to be treated precisely: often one can use entities of subtypes of the specified types (e.g., put a circle in a function that draws a shape because a circle is a subtype of shape). Subtyping is nontrivial, and the language designer must choose among covariance, contravariance, invariance, etc.</text>
+			<text>When a subprogram specifies the <a href="#Type Check">types</a> of input it expects, these types do not need to be treated precisely: often one can use entities of subtypes of the specified types (e.g., put a circle in a function that draws a shape because a circle is a subtype of shape). Subtyping is nontrivial, and the designer must choose among covariance, contravariance, invariance, etc.</text>
 			<src>CPL:197</src>
 			<src>PPL:208</src>
 		</pic>
