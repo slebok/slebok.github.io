@@ -27,7 +27,7 @@
 		</pic>
 		<pic card>
 			<title>Backtracking</title>
-			<text>A computation strategy commonly found in declarative languages. Every choice in the evaluation path becomes a <em>save point</em> to which the computation returns in case of failure. All the changes made between the save point and the point of failure are undone. Backtracking is common in parsers and logic programming, and used for <a href="#Error Handling">error recovery</a> everywhere else.</text>
+			<text>A computation strategy commonly found in declarative languages. Every choice in the evaluation path becomes a <em>save point</em> to which the computation returns in case of failure. All the changes made between the save point and the point of failure are undone. Backtracking is common in parsers and logic programming, and used for <a href="#Exception Handling">error recovery</a> everywhere else.</text>
 			<src>I:Kairos</src>
 			<src>PPL:516</src>
 		</pic>
@@ -43,7 +43,7 @@
 		</pic>
 		<pic card>
 			<title>Blocks</title>
-			<text>Viewing a list of statements as a specific kind of statement is a conceptual eye-opener and allows to treat composite constructs in a uniform and orthogonal way (<em>if … begin … end</em> and <em>do … begin … end</em> instead of <em>if … endif</em> and <em>do … enddo</em>). Languages either use delimiters (begin/end or curly brackets) or indentation. Blocks can be seen as degenerate <a href="#Procedures">procedures</a>.</text>
+			<text>Viewing a list of statements as a specific kind of statement is a conceptual eye-opener and allows to treat composite constructs in a uniform and orthogonal way (<em>if … begin … end</em> and <em>do … begin … end</em> instead of <em>if … endif</em> and <em>do … enddo</em>). Languages either use delimiters (begin/end or curly brackets) or <a href="#Indentation & Whitespace">indentation</a>. Blocks can be seen as degenerate <a href="#Procedures">procedures</a>.</text>
 			<src>CPL:85</src>
 			<src>PPL:106</src>
 		</pic>
@@ -68,6 +68,7 @@
 			<title>Charts &amp; Diagrams</title>
 			<text><abbr title="Unified Modelling Language">UML</abbr> distinguishes between structural (class, package, object, component, composite structure, deployment) and behavioural diagrams (activity, sequence, use case, state, communication, interaction overview, timing). The former specify and visualise structure break up, the latter — events and interaction. Some languages (e.g., syntactic diagrams) are both.</text>
 			<src>P:Possibility trees</src>
+			<src>EML:30</src>
 		</pic>
 		<pic card>
 			<title>Classes</title>
@@ -88,7 +89,7 @@
 		</pic>
 		<pic card>
 			<title>Code Ownership</title>
-			<text>Signing the user's name under a piece of code has the same effect as signing a person's name on an item: caring about what happens to the item later. Comments explaining which dev made which code changes existed since very early on. In modern ecosystems, ownership is tracked automatically by a version control system and can be checked at any time (<em>git blame</em>).</text>
+			<text>Signing the user's name under a piece of code has the same effect as signing a person's name on an item: caring about what happens to the item later. <a href="#Comments">Comments</a> explaining which dev made which code changes existed since very early on. In modern ecosystems, ownership is tracked automatically by a version control system and can be checked at any time (<em>git blame</em>).</text>
 			<src>P:Watermarking</src>
 		</pic>
 		<pic card>
@@ -98,7 +99,7 @@
 		</pic>
 		<pic card>
 			<title>Comments</title>
-			<text>Comments are pieces of documentation built directly into the source of the system. Most <a href="#IDE">IDEs</a> support comments visually by presenting them in a completely different colour, usually dimmer than the rest of the program, to focus developers on executable constructs first.</text>
+			<text>Comments are pieces of documentation built directly into the source of the system. Most <a href="#IDE">IDEs</a> support comments visually by presenting them in a completely different colour, usually dimmer than the rest of the program, to focus developers on executable constructs first. In some languages like BibTeX or INTERCAL everything uncompilable is a comment.</text>
 			<src>P:Contrast</src>
 			<src>CPL:12</src>
 			<src>EML:23</src>
@@ -172,7 +173,7 @@
 		</pic>
 		<pic card>
 			<title>Esoteric Languages</title>
-			<text>Intercal, Unlambda, Befunge, Malbolge and others are languages developed based on paradigms that are so unconventional that writing even one program puts disproportional strain on the language user. The challenging nature makes people compete in programming in such languages as a form of entertainment.</text>
+			<text><a href="http://catb.org/esr/intercal/">INTERCAL</a>, <a href="http://www.madore.org/~david/programs/unlambda/">Unlambda</a>, <a href="http://catseye.tc/node/Befunge-93.html">Befunge</a>, <a href="http://www.lscheffer.com/malbolge.shtml">Malbolge</a> and <a href="https://esolangs.org/wiki/">others</a> are languages developed based on paradigms that are so unconventional that writing even one program puts disproportional strain on the language user. The challenging nature makes people compete in programming in such languages as a form of entertainment.</text>
 			<src>L:Challenges &amp; targets</src>
 		</pic>
 		<pic card>
@@ -208,6 +209,7 @@
 			<text>Tedious, repetitive and error-prone programming tasks can be automated by using templates, wizards, explicit staging/morphing constructs, construction workbenches, etc. In many cases the language user is allowed to edit the result to fine-tune it.</text>
 			<src>A:Mazes</src>
 			<src>PPL:5</src>
+			<src>EML:119</src>
 			<src>I:Tunnelling &amp; wizards</src>
 		</pic>
 		<pic card>
@@ -218,13 +220,19 @@
 		</pic>
 		<pic card>
 			<title>IDE</title>
-			<text>Integrated Development Environments (IDEs) are used to support language users in their common tasks: code navigation, debugging, building, modularising, refactoring, etc. Can take a form of a dedicated standalone editor, a website or a plugin for a universal editor.</text>
+			<text>Integrated Development Environments (IDEs) are used to support language users in their common tasks: code navigation, <a href="#Debugging">debugging</a>, building, <a href="#Modules">modularising</a>, <a href="#Refactoring">refactoring</a>, etc. Can take a form of a dedicated standalone editor, a website or a plugin for a universal editor.</text>
 			<src>A:Conveyor belts</src>
 		</pic>
 		<pic card>
 			<title>IDE GUI</title>
 			<text>Most <a href="#IDE">IDEs</a> divide the screen space among areas with different functionality: one for navigating through adjacent programs, one for editing the code, one for reviewing the architecture, one for watching how values change at runtime, etc. Advanced IDEs like IntelliJ, Eclipse or <abbr title="Visual Studio .NET">VS.NET</abbr> have so many subwindows that the user has to choose which ones to keep open at each given time.</text>
 			<src>A:Positioning</src>
+		</pic>
+		<pic card>
+			<title>Indentation &amp; Whitespace</title>
+			<text>The two extremes for this aspect are: treat indentation as something crucial to the program structure (and thus process constructs differently based on columns where they start) and discard all possible indentation (even in the middle of names, as FORTRAN does). Most languages are somewhere in the middle. Normalisation of whitespace use is called <a href="#Pretty-printing">pretty-printing</a>.</text>
+			<src>PPL:91</src>
+			<src>EML:23</src>
 		</pic>
 		<pic card>
 			<title>Inheritance</title>
@@ -267,7 +275,7 @@
 		</pic>
 		<pic card>
 			<title>Memes</title>
-			<text>LOLCODE, Arnold, Shakespeare and others are languages developed based on the memes that are circulating among software engineers: the popularity of them piggybacks entirely on the viral nature of those memes.</text>
+			<text><a href="http://lolcode.org/">LOLCODE</a>, <a href="http://lhartikk.github.io/ArnoldC/">ArnoldC</a> and others are languages developed based on the memes that are circulating among software engineers: the popularity of them piggybacks entirely on the viral nature of those memes.</text>
 			<src>L:Make it a meme</src>
 		</pic>
 		<pic card>
@@ -371,8 +379,9 @@
 		</pic>
 		<pic card>
 			<title>Refactoring</title>
-			<text>Refactorings are code changes that do not impact the system's behaviour but change its internal structure to improve code quality, prepare for the subsequent change, etc. Few languages are co-designed with refactorings from the first day, but it is not uncommon to get refactoring support in the <a href="#IDE">IDE</a> afterwards.</text>
+			<text>Refactorings are code changes that do not impact the system's behaviour but change its internal structure to improve code quality, prepare for the subsequent change, etc. Some <abbr title="Domain-Specific Modelling Languages">DSMLs</abbr> mean their programs to <em>only</em> change through refactorings and refinements. In other domains it is also not uncommon to eventually get refactoring support in the <a href="#IDE">IDE</a>.</text>
 			<src>C:Rephrasing &amp; renaming</src>
+			<src>EML:154</src>
 		</pic>
 		<pic card>
 			<title>Static Analysis</title>
@@ -400,8 +409,9 @@
 		</pic>
 		<pic card>
 			<title>Syntax Highlighting</title>
-			<text>A development environment of the language can profit from visualisation even if the language is textual by colour-coding different categories of words (strings, numbers, standard libraries, reserved words, etc).</text>
+			<text>A development environment of the language can profit from visualisation even if the language is textual by colour-coding different categories of words (strings, numbers, standard libraries, reserved words, etc). Colours are also commonly used for non-textual languages, unless programs are expected to be printed or viewed on grayscale devices.</text>
 			<src>A:Material properties</src>
+			<src>EML:27</src>
 			<src>P:Colour associations</src>
 		</pic>
 		<pic card>

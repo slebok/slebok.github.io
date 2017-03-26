@@ -1,6 +1,9 @@
 #!/c/Users/vadim/AppData/Local/Programs/Python/Python35/python
 # -*- coding: utf-8 -*-
 
+links   = []
+targets = []
+
 def fancy(x):
 	return debreviate(intralink(emph(x)))
 
@@ -9,6 +12,7 @@ def debreviate(x):
 		('4GLs', 'Fourth Generation Languages'),
 		('GPLs', 'General Purpose Languages'),
 		('DSLs', 'Domain-Specific Languages'),
+		('DSMLs', 'Domain-Specific Modelling Languages'),
 		('JVM', 'Java Virtual Machine'),
 		('VS.NET', 'Visual Studio .NET'),
 		('UML', 'Unified Modelling Language'),
@@ -29,7 +33,12 @@ def intralink(x):
 				where = what = y[i]
 			else:
 				where,what = y[i].split('!')
-			r += '<a href="#{}">{}</a>'.format(capitalize(where), what)
+			if not where.startswith('http://') and not where.startswith('https://'):
+				where = capitalize(where)
+				if where not in links:
+					links.append(where)
+				where = '#' + where
+			r += '<a href="{}">{}</a>'.format(where, what)
 		else:
 			r += y[i]
 		inside = not inside
@@ -147,6 +156,7 @@ for line in lines[1:]:
 		continue
 	card.append('		<pic card>\n')
 	card.append('			<title>{}</title>\n'.format(name.replace('&','&amp;')))
+	targets.append(name)
 	text = fs[IDXtxt] if fs[IDXtxt]!='' else fs[IDXexp].replace('&','&amp;')
 	card.append('			<text>{}</text>\n'.format(fancy(text if text != '' else 'TBD')))
 	if fs[0]!='' and fs[IDXdwi] != '':
@@ -193,3 +203,7 @@ dsl.write('''		<br/><hr/>
 	</body>
 </html>''')
 dsl.close()
+
+for card in links:
+	if card not in targets:
+		print('Card {} referenced but undefined!'.format(card))
