@@ -85,6 +85,12 @@
 			<text>Comments are pieces of documentation built directly into the source of the system. Most <abbr title="Integrated Development Environment">IDE</abbr>s support comments visually by presenting them in a completely different colour, usually dimmer than the rest of the program, to focus developers on executable constructs first.</text>
 			<src>P:Contrast</src>
 			<src>CPL:12</src>
+			<src>EML:23</src>
+		</pic>
+		<pic card>
+			<title>Commit Hooks</title>
+			<text>TBD</text>
+			<src>C:Habits</src>
 		</pic>
 		<pic card>
 			<title>Compilation Errors</title>
@@ -101,6 +107,13 @@
 			<text>Arrays, lists, tuples, sets and multisets are the most common <a href="#Type Definitions">user-defined</a> <a href="#Parametrised Types">parametrised types</a> for collections of elements. It is up to the language designer to decide which ones are supported and how they are handled — can elements within on collection have different types, are they mutable, passed by name/value/reference, etc.</text>
 			<src>CPL:156</src>
 			<src>PPL:70</src>
+		</pic>
+		<pic card>
+			<title>Concrete Syntax</title>
+			<text>The way to describe the concrete representation of the programs. The concrete syntax is used by humans to read, write, create and understand sentences of the language. Usually the only languages that do not have concrete syntax are those intended for internal intermediate representation. Some languages have more than one.</text>
+			<src>P:Transparency</src>
+			<src>PPL:89</src>
+			<src>EML:21</src>
 		</pic>
 		<pic card>
 			<title>Conditional Compilation</title>
@@ -294,6 +307,12 @@
 			<src>PPL:206</src>
 		</pic>
 		<pic card>
+			<title>Pretty-printing</title>
+			<text>A language can have a "default" formatting convention that is not only accepted by the community to improve the representation quality of the programs, but also automated and shipped in a form of a tool. Such a tool can be very configurable, have limited feature selection or none at all.</text>
+			<src>P:Implied sequences</src>
+			<src>EML:23</src>
+		</pic>
+		<pic card>
 			<title>Preview</title>
 			<text>Some features are very useful in general, but implemented in a way that sometimes fails. In this case, the impact of an application of a feature can be explicitly examined by the language user before agreeing to proceed. Common for database queries and object-oriented refactorings.</text>
 			<src>I:Simulation &amp; feedforward</src>
@@ -320,6 +339,11 @@
 			<text>Once something has been defined, it can be redefined in many languages: <a href="#Inheritance">derived classes</a> can overload base classes' properties, local variables can shadow the global ones with the same name, the same memory fragment can be treated as belonging to two separate <a href="#Type Check">data types</a>, etc.</text>
 			<src>CPL:138</src>
 			<src>PPL:85</src>
+		</pic>
+		<pic card>
+			<title>Refactoring</title>
+			<text>TBD</text>
+			<src>C:Rephrasing &amp; renaming</src>
 		</pic>
 		<pic card>
 			<title>Static Analysis</title>
@@ -390,9 +414,25 @@
 			<text>learning / adapting plugin</text>
 			<src>A:Pave the cowpaths</src>
 		</pic>
-		<div class="last">
-			<br/><hr/>
-			The collection created and maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
+		<br/><hr/>
+		<div class="left">
+			<ul>
+				<li class="dwi A">Design with Intent (Lockton, Harrison, Stanton, 2010): Architectural Lens</li>
+				<li class="dwi E">Design with Intent (Lockton, Harrison, Stanton, 2010): Errorproofing Lens</li>
+				<li class="dwi I">Design with Intent (Lockton, Harrison, Stanton, 2010): Interaction Lens</li>
+				<li class="dwi L">Design with Intent (Lockton, Harrison, Stanton, 2010): Ludic Lens</li>
+				<li class="dwi P">Design with Intent (Lockton, Harrison, Stanton, 2010): Perceptual Lens</li>
+				<li class="dwi C">Design with Intent (Lockton, Harrison, Stanton, 2010): Cognitive Lens</li>
+				<li class="dwi M">Design with Intent (Lockton, Harrison, Stanton, 2010): Machiavellian Lens</li>
+				<li class="dwi S">Design with Intent (Lockton, Harrison, Stanton, 2010): Security Lens</li>
+				<li class="pl">Comparative Programming Languages (Wilson, Clark, 1993)</li>
+				<li class="pl">Principles of Programming Languages: Design, Evaluation and Implementation (MacLennan, 1983)</li>
+				<li class="pl">Engineering Modeling Languages (Combemale, France, Jezequel, Rumpe, Steel, Vojtisek, 2017)</li>
+			</ul>
+		</div>
+		<div class="right">
+			The collection created and maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.<br/>
+			Sources colour coded and explained on the left.<br/>
 			Last updated: #LASTMOD#.<br/>
 			<a href="http://validator.w3.org/check/referer"><img src="../www/xhtml.88.png" alt="XHTML 1.1" /></a>
 			<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="../www/css.88.png" alt="CSS 3" /></a>

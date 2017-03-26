@@ -18,7 +18,6 @@ code {font-family:"Courier Prime", Courier, monospace}
 .card h6 {position: absolute; bottom: 0}
 .card a[href] {color:#039;}
 .dwi {color: white;}
-.dwi:before {content: "DwI:";}
 .dwi.A {background-color: #74b649;}
 .dwi.E {background-color: #eb1c23;}
 .dwi.I {background-color: #f6921e;}
@@ -27,3 +26,7 @@ code {font-family:"Courier Prime", Courier, monospace}
 .dwi.C {background-color: #1b75ba;}
 .dwi.M {background-color: #5f3813;}
 .dwi.S {background-color: #777777;}
+.pl {background-color: white;}
+.right {width:50%; text-align:right; font-style:italic; font-size:smaller;float: right;}
+.left {text-align:left; font-size:smaller; float: left; }
+.left ul {padding-left:1em; margin: 0;}

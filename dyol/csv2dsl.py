@@ -115,6 +115,7 @@ IDXnam = header.index('Name')
 IDXexp = header.index('Explanation')
 IDXcpl = header.index('CPL')
 IDXppl = header.index('PPL')
+IDXeml = header.index('EML')
 IDXtxt = header.index('Text')
 
 cards = {}
@@ -147,6 +148,8 @@ for line in lines[1:]:
 		card.append('			<src>CPL:{}</src>\n'.format(fs[IDXcpl]))
 	if fs[IDXppl]!='':
 		card.append('			<src>PPL:{}</src>\n'.format(fs[IDXppl]))
+	if fs[IDXeml]!='':
+		card.append('			<src>EML:{}</src>\n'.format(fs[IDXeml]))
 	card.append('		</pic>\n')
 	cards[name] = card
 
@@ -157,9 +160,25 @@ for c in keys:
 		dsl.write(line)
 print('{} cards created from {} lines.'.format(len(keys), len(lines)))
 
-dsl.write('''		<div class="last">
-			<br/><hr/>
-			The collection created and maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
+dsl.write('''		<br/><hr/>
+		<div class="left">
+			<ul>
+				<li class="dwi A">Design with Intent (Lockton, Harrison, Stanton, 2010): Architectural Lens</li>
+				<li class="dwi E">Design with Intent (Lockton, Harrison, Stanton, 2010): Errorproofing Lens</li>
+				<li class="dwi I">Design with Intent (Lockton, Harrison, Stanton, 2010): Interaction Lens</li>
+				<li class="dwi L">Design with Intent (Lockton, Harrison, Stanton, 2010): Ludic Lens</li>
+				<li class="dwi P">Design with Intent (Lockton, Harrison, Stanton, 2010): Perceptual Lens</li>
+				<li class="dwi C">Design with Intent (Lockton, Harrison, Stanton, 2010): Cognitive Lens</li>
+				<li class="dwi M">Design with Intent (Lockton, Harrison, Stanton, 2010): Machiavellian Lens</li>
+				<li class="dwi S">Design with Intent (Lockton, Harrison, Stanton, 2010): Security Lens</li>
+				<li class="pl">Comparative Programming Languages (Wilson, Clark, 1993)</li>
+				<li class="pl">Principles of Programming Languages: Design, Evaluation and Implementation (MacLennan, 1983)</li>
+				<li class="pl">Engineering Modeling Languages (Combemale, France, Jezequel, Rumpe, Steel, Vojtisek, 2017)</li>
+			</ul>
+		</div>
+		<div class="right">
+			The collection created and maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.<br/>
+			Sources colour coded and explained on the left.<br/>
 			Last updated: #LASTMOD#.<br/>
 			<a href="http://validator.w3.org/check/referer"><img src="../www/xhtml.88.png" alt="XHTML 1.1" /></a>
 			<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="../www/css.88.png" alt="CSS 3" /></a>
