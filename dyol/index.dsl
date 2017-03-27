@@ -11,12 +11,12 @@
 		<picdir>../www</picdir>
 		<divclass>tile</divclass>
 		<pic card>
-			<title>Access Modifiers</title>
-			<text>Annotate components with information about how others are allowed or not allowed to access them. Access can be limited by <a href="#Inheritance">inheritance</a> (<em>protected</em> in C++), <a href="#Modules">modules</a> structure (<em>internal</em> in C#), etc. The most popular modifiers are <em>public</em> (everyone welcome) and <em>private</em> (fully restricted).</text>
+			<title>Access Modifier</title>
+			<text>Annotate components with information about how others are allowed or not allowed to access them. Access can be limited by <a href="#Inheritance">inheritance</a> (<em>protected</em> in C++), <a href="#Module">modular</a> structure (<em>internal</em> in C#), etc. The most popular modifiers are <em>public</em> (everyone welcome) and <em>private</em> (fully restricted).</text>
 			<src>A:Angles</src>
 		</pic>
 		<pic card>
-			<title>Assertions</title>
+			<title>Assertion</title>
 			<text>This non-invasive form of <a href="#Exception Handling">exception handling</a> allows language users to explicitly state (<em>assert</em>) invariants, pre-conditions and post-conditions as logic expressions that must universally hold. Such assertions can be easily removed before deploying the system into production.</text>
 		</pic>
 		<pic card>
@@ -42,8 +42,8 @@
 			<src>A:Pave the cowpaths</src>
 		</pic>
 		<pic card>
-			<title>Blocks</title>
-			<text>Viewing a list of statements as a specific kind of statement is a conceptual eye-opener and allows to treat composite constructs in a uniform and orthogonal way (<em>if … begin … end</em> and <em>do … begin … end</em> instead of <em>if … endif</em> and <em>do … enddo</em>). Languages either use delimiters (begin/end or curly brackets) or <a href="#Indentation & Whitespace">indentation</a>. Blocks can be seen as degenerate <a href="#Procedures">procedures</a>.</text>
+			<title>Block</title>
+			<text>Viewing a list of statements as a specific kind of statement is a conceptual eye-opener and allows to treat composite constructs in a uniform and orthogonal way (<em>if … begin … end</em> and <em>do … begin … end</em> instead of <em>if … endif</em> and <em>do … enddo</em>). Languages either use delimiters (begin/end or curly brackets) or <a href="#Indentation & Whitespace">indentation</a>. Blocks can be seen as degenerate <a href="#Procedure">procedures</a>.</text>
 			<src>CPL:85</src>
 			<src>PPL:106</src>
 		</pic>
@@ -54,24 +54,18 @@
 			<src>PPL:42</src>
 		</pic>
 		<pic card>
-			<title>Built-in Patterns</title>
+			<title>Built-in Pattern</title>
 			<text>Design patterns, implementation patterns and architecture patterns are used across language boundaries, but many domain-specific languages incorporate well-known patterns as native language constructs: Model-View-Controller, Singleton, State, Visitor, etc.</text>
 			<src>A:Simplicity</src>
 		</pic>
 		<pic card>
-			<title>Character Types</title>
+			<title>Character Type</title>
 			<text>A family of <a href="#Type Check">value types</a> that can be used in a language: single characters, special characters, zero-terminated strings, fixed length strings, variable length strings, structured strings, etc.</text>
 			<src>CPL:67</src>
 			<src>PPL:185</src>
 		</pic>
 		<pic card>
-			<title>Charts &amp; Diagrams</title>
-			<text><abbr title="Unified Modelling Language">UML</abbr> distinguishes between structural (class, package, object, component, composite structure, deployment) and behavioural diagrams (activity, sequence, use case, state, communication, interaction overview, timing). The former specify and visualise structure break up, the latter — events and interaction. Some languages (e.g., syntactic diagrams) are both.</text>
-			<src>P:Possibility trees</src>
-			<src>EML:30</src>
-		</pic>
-		<pic card>
-			<title>Classes</title>
+			<title>Class</title>
 			<text>A class or a trait represents a template that can be followed by objects: a particular collection of properties and methods that can be always relied on. A class can be then <em>instantiated</em> with appropriate parameters to form an object that <em>conforms to</em> the class definition. Classes are the ultimate form of <a href="#Encapsulation">encapsulation</a>. They can be <a href="#Inheritance">inherited</a> from one another to form <a href="#Substitution">subclasses</a>.</text>
 			<src>CPL:107</src>
 			<src>PPL:464</src>
@@ -89,7 +83,7 @@
 		</pic>
 		<pic card>
 			<title>Code Ownership</title>
-			<text>Signing the user's name under a piece of code has the same effect as signing a person's name on an item: caring about what happens to the item later. <a href="#Comments">Comments</a> explaining which dev made which code changes existed since very early on. In modern ecosystems, ownership is tracked automatically by a version control system and can be checked at any time (<em>git blame</em>).</text>
+			<text>Signing the user's name under a piece of code has the same effect as signing a person's name on an item: caring about what happens to the item later. <a href="#Comment">Comments</a> explaining which dev made which code changes existed since very early on. In modern ecosystems, ownership is tracked automatically by a version control system and can be checked at any time (<em>git blame</em>).</text>
 			<src>P:Watermarking</src>
 		</pic>
 		<pic card>
@@ -100,30 +94,30 @@
 			<src>S:Surveillance</src>
 		</pic>
 		<pic card>
-			<title>Comments</title>
+			<title>Comment</title>
 			<text>Comments are pieces of <a href="#Documentation">documentation</a> built directly into the source of the system. Most <a href="#IDE">IDEs</a> support comments visually by presenting them in a completely different colour, usually dimmer than the rest of the program, to focus developers on executable constructs first. In some languages like BibTeX or INTERCAL everything uncompilable is a comment.</text>
 			<src>P:Contrast</src>
 			<src>CPL:12</src>
 			<src>EML:23</src>
 		</pic>
 		<pic card>
-			<title>Commit Hooks</title>
+			<title>Commit Hook</title>
 			<text>In many version control systems it is possible to write system scripts and let them run automatically on the client side (when a language user is preparing a commit) or on the server side (when the changes are shared with others). Such scripts are used to check conformance with language conventions and thus form and influence patterns of its use.</text>
 			<src>C:Habits</src>
 		</pic>
 		<pic card>
-			<title>Compilation Errors</title>
+			<title>Compilation Error</title>
 			<text>Modern languages have many means of assessing executability of the program before it is actually run. Thus, compilers tend to have a sophisticated error handling facility and try to provide enough information for the language user to fix the problems. Some languages are notoriously known for providing bad error messages. Can be provided as a <a href="#Live Feedback">live feedback</a>.</text>
 			<src>E:Conditional warnings</src>
 		</pic>
 		<pic card>
-			<title>Compilation Warnings</title>
+			<title>Compilation Warning</title>
 			<text>When a compiler detects a possibly dangerous situation with extremely limited applicability, it displays a warning message and proceeds with the build process anyway. In many cases there is a special option for disabling a particular warning for a particular piece of code. Can be provided as a <a href="#Live Feedback">live feedback</a>.</text>
 			<src>E:Did you mean?</src>
 		</pic>
 		<pic card>
-			<title>Composite Types</title>
-			<text>Arrays, lists, tuples, sets and multisets are the most common <a href="#Type Definitions">user-defined</a> <a href="#Parametrised Types">parametrised types</a> for collections of elements. It is up to the language designer to decide which ones are supported and how they are handled — can elements within on collection have different types, are they mutable, passed by name/value/reference, etc.</text>
+			<title>Composite Type</title>
+			<text>Arrays, lists, tuples, sets and multisets are the most common <a href="#Type Definition">user-defined</a> <a href="#Parametrised Type">parametrised</a> types for collections of elements. It is up to the language designer to decide which ones are supported and how they are handled — can elements within on collection have different types, are they mutable, passed by name/value/reference, etc.</text>
 			<src>CPL:156</src>
 			<src>PPL:70</src>
 		</pic>
@@ -145,8 +139,8 @@
 			<src>E:Interlock</src>
 		</pic>
 		<pic card>
-			<title>Defaults</title>
-			<text>Unchanged configuration options, uninitialised variables and unspecified optional modifiers are examples of situations when a default value must be used by the compiler. These default values are decided by the language designer and typically represent the <em>best</em> option within the paradigm.</text>
+			<title>Default</title>
+			<text>Unchanged configuration options, uninitialised <a href="#Variable">variables</a> and unspecified optional <a href="#Access Modifier">modifiers</a> are examples of situations when a default value must be used by the compiler. These default values are decided by the language designer and typically represent the <em>best</em> option within the paradigm.</text>
 			<src>E:Defaults</src>
 			<src>E:Opt-outs</src>
 		</pic>
@@ -154,6 +148,12 @@
 			<title>Deprecated Construct</title>
 			<text>In language evolution, sometimes a no longer desired construct cannot be simply removed to avoid breaking <a href="#Backward Compatibility">backward compatibility</a>. However, it can be marked explicitly as deprecated to discourage language users to rely on it.</text>
 			<src>A:Feature deletion</src>
+		</pic>
+		<pic card>
+			<title>Design Chart/Diagram</title>
+			<text><abbr title="Unified Modelling Language">UML</abbr> distinguishes between structural (<a href="#Class">class</a>, <a href="#Module">package</a>, object, component, composite structure, deployment) and behavioural diagrams (activity, sequence, use case, state, communication, interaction overview, timing). The former specify and visualise structure breakdown, the latter — events and interaction. Some languages (e.g., syntactic diagrams) are both.</text>
+			<src>P:Possibility trees</src>
+			<src>EML:30</src>
 		</pic>
 		<pic card>
 			<title>Developer Communication</title>
@@ -168,30 +168,31 @@
 		</pic>
 		<pic card>
 			<title>Encapsulation</title>
-			<text>Most high level language abstract from low level details like video memory access, memory allocation, register values, caching, etc. Depending on the language philosophy, these features may be prohibited or just hard to find for beginners. Data structures can also be encapsulated by bundling them into <a href="#Records">records</a> or <a href="#Classes">classes</a>.</text>
+			<text>Most high level language abstract from low level details like video memory access, memory allocation, register values, caching, etc. Depending on the language philosophy, these features may be prohibited or just hard to find for beginners. Data structures can also be encapsulated by bundling them into <a href="#Record">records</a> or <a href="#Class">classes</a>, and code can be organised in hierarchical <a href="#Module">modules</a>.</text>
 			<src>A:Hiding things</src>
 			<src>CPL:104</src>
 			<src>PPL:12</src>
 		</pic>
 		<pic card>
-			<title>Enumeration Types</title>
-			<text>An enumeration is a <a href="#Type Definitions">data type</a> that defines a very limited set of possible values which are, nevertheless, more comfortably referred to by their names and not by encoded numbers. The most famous enumeration is the Boolean (logical) type, which contains only two values: <em>true</em> and <em>false</em>. If the domain permits, the language does not have to support user-defined enumerations.</text>
+			<title>Enumeration Type</title>
+			<text>An enumeration is a <a href="#Type Definition">data type</a> that defines a very limited set of possible values which are, nevertheless, more comfortably referred to by their names and not by encoded numbers. The most famous enumeration is the Boolean (logical) type, which contains only two values: <em>true</em> and <em>false</em>. If the domain permits, the language does not have to support user-defined enumerations.</text>
 			<src>CPL:66</src>
 			<src>PPL:188</src>
 		</pic>
 		<pic card>
-			<title>Esoteric Languages</title>
-			<text><a href="http://catb.org/esr/intercal/">INTERCAL</a>, <a href="http://www.madore.org/~david/programs/unlambda/">Unlambda</a>, <a href="http://catseye.tc/node/Befunge-93.html">Befunge</a>, <a href="http://www.lscheffer.com/malbolge.shtml">Malbolge</a> and <a href="https://esolangs.org/wiki/">others</a> are languages developed based on paradigms that are so unconventional that writing even one program puts disproportional strain on the language user. The challenging nature makes people compete in programming in such languages as a form of entertainment.</text>
+			<title>Esotericism</title>
+			<text><a href="http://catb.org/esr/intercal/">INTERCAL</a>, <a href="http://www.madore.org/~david/programs/unlambda/">Unlambda</a>, <a href="http://catseye.tc/node/Befunge-93.html">Befunge</a>, <a href="http://www.lscheffer.com/malbolge.shtml">Malbolge</a> and other <a href="https://esolangs.org/wiki/">esoteric languages</a> are developed based on paradigms that are so unconventional that writing even one program puts disproportional strain on the language user. The challenging nature makes people engage and compete in programming in such languages as a form of entertainment.</text>
 			<src>L:Challenges &amp; targets</src>
 		</pic>
 		<pic card>
 			<title>Event Loop</title>
 			<text>This pattern in user interface implementation turns entire program into a giant loop waiting for the user to activate its functionality by choosing the way to communicate (click, tap, edit, etc). Since direct implementations are not green (consume too much energy), it can be built natively into the language and optimised by the compiler and hardware.</text>
+			<src>I:Feedback through form</src>
 			<src>CPL:265</src>
 		</pic>
 		<pic card>
 			<title>Exception Handling</title>
-			<text>An emergency sibling of <a href="#Branching">branching</a> used for extraordinary situations — can be slower than the normal branching, but usually more robust in handling situations like a cricial failure during the handling of another failure. A less invasive form of exception handling are <a href="#Assertions">assertions</a>.</text>
+			<text>An emergency sibling of <a href="#Branching">branching</a> used for extraordinary situations — can be slower than the normal branching, but usually more robust in handling situations like a cricial failure during the handling of another failure. A less invasive form of exception handling are <a href="#Assertion">assertions</a>.</text>
 			<src>CPL:95</src>
 			<src>PPL:316</src>
 		</pic>
@@ -213,22 +214,22 @@
 			<src>PPL:443</src>
 		</pic>
 		<pic card>
-			<title>Generative Methods</title>
-			<text>Tedious, repetitive and error-prone programming tasks can be automated by using templates, wizards, explicit staging/morphing constructs, construction workbenches, etc. In many cases the language user is allowed to edit the result to fine-tune it.</text>
+			<title>Generation</title>
+			<text>Tedious, repetitive and error-prone programming tasks can be automated by using templates, wizards, explicit staging/morphing constructs of generative programming, construction workbenches, etc. In many practical cases the language user is allowed to edit the result to fine-tune it.</text>
 			<src>A:Mazes</src>
 			<src>PPL:5</src>
 			<src>EML:119</src>
 			<src>I:Tunnelling &amp; wizards</src>
 		</pic>
 		<pic card>
-			<title>Holy Wars</title>
+			<title>Holy War</title>
 			<text>Software engineers are very passionate about what they do and which choices they make in doing it. By explicitly stating which camp the language is siding with or which key figures of the community endorse it, one can invoke an emotional response directly mappable to language's acceptance and popularity.</text>
 			<src>C:Do as you’re told</src>
 			<src>C:Emotional engagement</src>
 		</pic>
 		<pic card>
 			<title>IDE</title>
-			<text>Integrated Development Environments (IDEs) are used to support language users in their common tasks: code navigation, <a href="#Debugging">debugging</a>, building, <a href="#Modules">modularising</a>, <a href="#Refactoring">refactoring</a>, etc. Can take a form of a dedicated standalone editor, a website or a plugin for a universal editor.</text>
+			<text>Integrated Development Environments (IDEs) are used to support language users in their common tasks: code navigation, <a href="#Debugging">debugging</a>, building, <a href="#Module">modularising</a>, <a href="#Refactoring">refactoring</a>, etc. Can take a form of a dedicated standalone editor, a website or a plugin for a universal editor.</text>
 			<src>A:Conveyor belts</src>
 			<src>EML:264</src>
 		</pic>
@@ -262,7 +263,7 @@
 			<src>PPL:47</src>
 		</pic>
 		<pic card>
-			<title>Keywords</title>
+			<title>Keyword</title>
 			<text>Special words in <a href="#Concrete Syntax">concrete syntax</a> of the language that carry identical meaning across all possible programs in the same language. Can be made reserved so that programmers may not redefine them. A language can get new keywords by evolution.</text>
 			<src>CPL:11</src>
 			<src>PPL:92</src>
@@ -283,17 +284,17 @@
 			<src>I:Real-time feedback</src>
 		</pic>
 		<pic card>
-			<title>Memes</title>
+			<title>Meme</title>
 			<text><a href="http://lolcode.org/">LOLCODE</a>, <a href="http://lhartikk.github.io/ArnoldC/">ArnoldC</a> and others are languages developed based on the memes that are circulating among software engineers: the popularity of them piggybacks entirely on the viral nature of those memes.</text>
 			<src>L:Make it a meme</src>
 		</pic>
 		<pic card>
-			<title>Metaphors</title>
-			<text>Atom, <a href="#Backtracking">backtracking</a>, binding, body, build, cloud, collision, compiler, dangling else, <a href="#Debugging">debugging</a>, <a href="#Syntactic Sugar">desugaring</a>, <a href="#Records">dictionary</a>, <a href="#Type Check">duck typing</a>, environment, filter, <a href="#Numeric Data Types">floating point</a>, forest, framework, <a href="#Garbage Collection">garbage collection</a>, <a href="#Branching">go to</a>, heap, <a href="#Inheritance">inheritance</a>, <a href="#Branching">jump</a>, library, linking, map, <a href="#Pointers">pointer</a>, pruning, <a href="#Synchronisation">rendezvous</a>, stack, turtle, weaving, window, …</text>
+			<title>Metaphor</title>
+			<text>Atom, <a href="#Backtracking">backtracking</a>, binding, body, build, cloud, collision, compiler, dangling else, <a href="#Debugging">debugging</a>, <a href="#Syntactic Sugar">desugaring</a>, <a href="#Record">dictionary</a>, <a href="#Type Check">duck typing</a>, environment, filter, <a href="#Numeric Data Type">floating point</a>, forest, framework, <a href="#Garbage Collection">garbage collection</a>, <a href="#Branching">go to</a>, heap, <a href="#Inheritance">inheritance</a>, <a href="#Branching">jump</a>, library, linking, map, <a href="#Pointer">pointer</a>, pruning, <a href="#Synchronisation">rendezvous</a>, stack, turtle, weaving, window, …</text>
 			<src>P:Metaphors</src>
 		</pic>
 		<pic card>
-			<title>Modules</title>
+			<title>Module</title>
 			<text>Large programs inevitably outgrow their creators' capabilities to understand them all at once. Comprehension can be aided greatly by the language providing modules, packages, classes, procedures and other elements to group related code fragments together. Modern <a href="#IDE">IDEs</a> can analyse code for cohesion and coupling to help improve modularisation.</text>
 			<src>A:Segmentation</src>
 			<src>CPL:113</src>
@@ -301,7 +302,7 @@
 			<src>P:Proximity &amp; grouping</src>
 		</pic>
 		<pic card>
-			<title>Numeric Data Types</title>
+			<title>Numeric Data Type</title>
 			<text>Often gets overlooked at the early stages of language design, but could significantly shape the application area of the language. There are many integer <a href="#Type Check">types</a>, distinguished by their byte sizes and therefore value ranges; also decimal types with fixed scale and precision; and floating point types good for scientific computations but not for handling finances.</text>
 			<src>CPL:63</src>
 			<src>PPL:65</src>
@@ -314,14 +315,15 @@
 		</pic>
 		<pic card>
 			<title>Orthogonal Design</title>
-			<text>Independent features should be controlled by independent mechanisms. Related constructs should look similar</text>
-			<src>P:Similarity</src>
+			<text>Independent features should be controlled by independent mechanisms. Related constructs should look similar and different ones should look different. Regular rules without exceptions are easier to learn. The less surprises one has while learning the language, the higher the language quality.</text>
+			<src>P:(A)symmetry</src>
 			<src>PPL:8</src>
+			<src>P:Similarity</src>
 			<src>PPL:8</src>
 		</pic>
 		<pic card>
-			<title>Parametrised Types</title>
-			<text>Some <a href="#Type Check">types</a> can be defined partially by the user and partially by the language designer. For example, the language designer knows what a <a href="#Composite Types"><em>list</em></a> is, and the language user can select any other type for list elements — this will change handling of such elements, but the philosophy behind their collection will stay the same.</text>
+			<title>Parametrised Type</title>
+			<text>Some <a href="#Type Check">types</a> can be defined partially by the user and partially by the language designer. For example, the language designer knows what a <a href="#Composite Type"><em>list</em></a> is, and the language user can select any other type for list elements — this will change handling of such elements, but the philosophy behind their collection will stay the same.</text>
 			<src>CPL:180</src>
 			<src>PPL:279</src>
 		</pic>
@@ -331,7 +333,7 @@
 			<src>A:Pave the cowpaths</src>
 		</pic>
 		<pic card>
-			<title>Phases</title>
+			<title>Phased Process</title>
 			<text>Breaking a process into phases is one of the most used divide-and-conquer principles applied in language processing. Most compilers are designed to work in phases, and different competences and skills are required to implement each phase.</text>
 			<src>I:Partial completion</src>
 			<src>PPL:38</src>
@@ -346,14 +348,14 @@
 			<src>M:Format lock-in/out</src>
 		</pic>
 		<pic card>
-			<title>Pointers</title>
+			<title>Pointer</title>
 			<text>A popular data type in low level languages, representing a memory address where the data structure is stored — which is more efficient to pass across functions than the structure itself. The <a href="#Type Check">type</a> of the structure needs to be known to decipher itse contents, since the pointer itself is nothing more than a number.</text>
 			<src>CPL:69</src>
 			<src>PPL:206</src>
 		</pic>
 		<pic card>
 			<title>Pretty-printing</title>
-			<text>A language can have a <a href="#Defaults">default</a> formatting convention that is not only accepted by the community to improve the representation quality of the programs, but also automated and shipped in a form of a tool. Such a tool can be very configurable, have limited feature selection or none at all.</text>
+			<text>A language can have a <a href="#Default">default</a> formatting convention that is not only accepted by the community to improve the representation quality of the programs, but also automated and shipped in a form of a tool. Such a tool can be very configurable, have limited feature selection or none at all.</text>
 			<src>P:Implied sequences</src>
 			<src>PPL:89</src>
 			<src>EML:23</src>
@@ -364,24 +366,24 @@
 			<src>I:Simulation &amp; feedforward</src>
 		</pic>
 		<pic card>
-			<title>Procedures</title>
+			<title>Procedure</title>
 			<text>Pieces of code that can be executed from other places in the program, are common to all languages, since they promote reuse, but they are designed differently. Some languages only allow them to be attached to an object (methods) or a class (static methods), others provide special <a href="#Synchronisation">synchronisation</a> mechanisms to procedures to cooperate (coroutines, delegates), etc.</text>
 			<src>CPL:106</src>
 			<src>PPL:35</src>
 		</pic>
 		<pic card>
-			<title>Program Smells</title>
+			<title>Program Smell</title>
 			<text>A <em>smell</em> is found when a code fragment has suspicious characteristics even without being wrong. Modern computer science identifies smells for code, models, architecture, spreadsheets, hardware, grammars, etc. The very use of the word "smell" strongly implies that any neat self-respecting language user should try to leave less of those when touching the code.</text>
 			<src>C:Desire for order</src>
 		</pic>
 		<pic card>
-			<title>Records</title>
-			<text>Many languages have some kinds of records or structures that bundle several related pieces of data without attaching methods to work with that data. A dynamic variation thereof is known as a dictionary or a map (e.g., hashmap) and it allows users to add and remove fields at runtime.</text>
+			<title>Record</title>
+			<text>Many languages have some kinds of records or structures that bundle several related pieces of data without attaching methods to work with that data. A dynamic variation thereof is known as a <em>dictionary</em> or a <em>map</em> (e.g., hashmap) and it allows users to add and remove fields at runtime.</text>
 			<src>CPL:169</src>
 			<src>PPL:199</src>
 		</pic>
 		<pic card>
-			<title>Redefines</title>
+			<title>Redefine</title>
 			<text>Once something has been defined, it can be redefined in many languages: <a href="#Inheritance">derived classes</a> can overload base classes' properties, local variables can shadow the global ones with the same name, the same memory fragment can be treated as belonging to two separate <a href="#Type Check">data types</a>, etc.</text>
 			<src>CPL:138</src>
 			<src>PPL:85</src>
@@ -431,8 +433,8 @@
 			<src>PPL:129</src>
 		</pic>
 		<pic card>
-			<title>Type Definitions</title>
-			<text>Several <abbr title="General Purpose Languages">GPLs</abbr> and many <abbr title="Domain-Specific Languages">DSLs</abbr> can exist perfectly without ever needing any user-defined types. However, in many cases it can prove useful to allow the language user to make their own <a href="#Records">data structures</a> and algebraic data types to provide their input for the <a href="#Type Check">type checker</a>.</text>
+			<title>Type Definition</title>
+			<text>Several <abbr title="General Purpose Languages">GPLs</abbr> and many <abbr title="Domain-Specific Languages">DSLs</abbr> can exist perfectly without ever needing any user-defined types. However, in many cases it can prove useful to allow the language user to make their own <a href="#Record">data structures</a> and algebraic data types to provide their input for the <a href="#Type Check">type checker</a>.</text>
 			<src>CPL:60</src>
 			<src>PPL:268</src>
 		</pic>
@@ -448,30 +450,30 @@
 			<src>PPL:507</src>
 		</pic>
 		<pic card>
-			<title>Variables</title>
+			<title>Variable</title>
 			<text>These named memory areas are thought to be fundamental for the nature of computation — and they are within the von Neumann paradigm, which is not the only choice modern people have. One can make their language more functional and force its users to think about data flow, or make it more imperative and let them worry about where the intermediate data is stored.</text>
 			<src>CPL:52</src>
 			<src>PPL:22</src>
 		</pic>
 		<br/><hr/>
-		<div class="left">
-			<ul>
-				<li class="dwi A">Design with Intent (Lockton, Harrison, Stanton, 2010): Architectural Lens</li>
-				<li class="dwi E">Design with Intent (Lockton, Harrison, Stanton, 2010): Errorproofing Lens</li>
-				<li class="dwi I">Design with Intent (Lockton, Harrison, Stanton, 2010): Interaction Lens</li>
-				<li class="dwi L">Design with Intent (Lockton, Harrison, Stanton, 2010): Ludic Lens</li>
-				<li class="dwi P">Design with Intent (Lockton, Harrison, Stanton, 2010): Perceptual Lens</li>
-				<li class="dwi C">Design with Intent (Lockton, Harrison, Stanton, 2010): Cognitive Lens</li>
-				<li class="dwi M">Design with Intent (Lockton, Harrison, Stanton, 2010): Machiavellian Lens</li>
-				<li class="dwi S">Design with Intent (Lockton, Harrison, Stanton, 2010): Security Lens</li>
-				<li class="pl">Comparative Programming Languages (Wilson, Clark, 1993)</li>
-				<li class="pl">Principles of Programming Languages: Design, Evaluation and Implementation (MacLennan, 1983)</li>
-				<li class="pl">Engineering Modeling Languages (Combemale, France, Jezequel, Rumpe, Steel, Vojtisek, 2017)</li>
+		<div class="src">
+			<ul>				<li class="dwi A"><a href="http://designwithintent.co.uk/architectural-lens/">Design with Intent (Lockton, Harrison, Stanton, 2010): Architectural Lens</a></li>
+				<li class="dwi E"><a href="http://designwithintent.co.uk/errorproofing-lens/">Design with Intent (Lockton, Harrison, Stanton, 2010): Errorproofing Lens</a></li>
+				<li class="dwi I"><a href="http://designwithintent.co.uk/interaction-lens/">Design with Intent (Lockton, Harrison, Stanton, 2010): Interaction Lens</a></li>
+				<li class="dwi L"><a href="http://designwithintent.co.uk/ludic-lens/">Design with Intent (Lockton, Harrison, Stanton, 2010): Ludic Lens</a></li>
+				<li class="dwi P"><a href="http://designwithintent.co.uk/perceptual-lens/">Design with Intent (Lockton, Harrison, Stanton, 2010): Perceptual Lens</a></li>
+				<li class="dwi C"><a href="http://designwithintent.co.uk/cognitive-lens/">Design with Intent (Lockton, Harrison, Stanton, 2010): Cognitive Lens</a></li>
+				<li class="dwi M"><a href="http://designwithintent.co.uk/machiavellian-lens/">Design with Intent (Lockton, Harrison, Stanton, 2010): Machiavellian Lens</a></li>
+				<li class="dwi S"><a href="http://designwithintent.co.uk/security-lens/">Design with Intent (Lockton, Harrison, Stanton, 2010): Security Lens</a></li>
 			</ul>
 		</div>
-		<div class="right">
+		<div class="src">
+			<ul>				<li class="pl cpl"><a href="http://amzn.to/2n8cd5u">Comparative Programming Languages (Wilson, Clark, 1993)</a></li>				<li class="pl ppl"><a href="http://amzn.to/2nmFg70">Principles of Programming Languages: Design, Evaluation and Implementation (MacLennan, 1983)</a></li>				<li class="pl eml"><a href="http://amzn.to/2n8yz6y">Engineering Modeling Languages (Combemale, France, Jézéquel, Rumpe, Steel, Vojtisek, 2017)</a></li>			</ul>
+		</div>
+		<br/><hr/>
+		<div class="last">
 			The collection created and maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.<br/>
-			Sources colour coded and explained on the left.<br/>
+			Sources colour coded and explained above this notice.<br/>
 			Last updated: #LASTMOD#.<br/>
 			<a href="http://validator.w3.org/check/referer"><img src="../www/xhtml.88.png" alt="XHTML 1.1" /></a>
 			<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="../www/css.88.png" alt="CSS 3" /></a>

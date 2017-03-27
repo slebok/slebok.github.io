@@ -100,11 +100,11 @@ def split(s,max):
 
 
 
-csv = open('Patterns.csv', 'r')
+csv = open('Patterns.csv', 'r', encoding='utf-8')
 lines = csv.readlines()
 csv.close()
 
-dsl = open('index.dsl', 'w')
+dsl = open('index.dsl', 'w', encoding='utf-8')
 dsl.write('''<?xml version="1.0" encoding="UTF-8"?>
 <html doctype>
 	<head>
@@ -178,24 +178,26 @@ for c in keys:
 print('{} cards created from {} lines.'.format(len(keys), len(lines)))
 
 dsl.write('''		<br/><hr/>
-		<div class="left">
-			<ul>
-				<li class="dwi A">Design with Intent (Lockton, Harrison, Stanton, 2010): Architectural Lens</li>
-				<li class="dwi E">Design with Intent (Lockton, Harrison, Stanton, 2010): Errorproofing Lens</li>
-				<li class="dwi I">Design with Intent (Lockton, Harrison, Stanton, 2010): Interaction Lens</li>
-				<li class="dwi L">Design with Intent (Lockton, Harrison, Stanton, 2010): Ludic Lens</li>
-				<li class="dwi P">Design with Intent (Lockton, Harrison, Stanton, 2010): Perceptual Lens</li>
-				<li class="dwi C">Design with Intent (Lockton, Harrison, Stanton, 2010): Cognitive Lens</li>
-				<li class="dwi M">Design with Intent (Lockton, Harrison, Stanton, 2010): Machiavellian Lens</li>
-				<li class="dwi S">Design with Intent (Lockton, Harrison, Stanton, 2010): Security Lens</li>
-				<li class="pl">Comparative Programming Languages (Wilson, Clark, 1993)</li>
-				<li class="pl">Principles of Programming Languages: Design, Evaluation and Implementation (MacLennan, 1983)</li>
-				<li class="pl">Engineering Modeling Languages (Combemale, France, Jezequel, Rumpe, Steel, Vojtisek, 2017)</li>
-			</ul>
+		<div class="src">
+			<ul>''')
+for lens in ('Architectural', 'Errorproofing', 'Interaction', 'Ludic', 'Perceptual', 'Cognitive', 'Machiavellian', 'Security'):
+	dsl.write('				<li class="dwi {}"><a href="http://designwithintent.co.uk/{}-lens/">Design with Intent (Lockton, Harrison, Stanton, 2010): {} Lens</a></li>\n'.format(lens[0], lens.lower(), lens))
+dsl.write('''			</ul>
 		</div>
-		<div class="right">
+		<div class="src">
+			<ul>''')
+for book in (
+		('cpl', 'http://amzn.to/2n8cd5u', 'Comparative Programming Languages (Wilson, Clark, 1993)'),
+		('ppl', 'http://amzn.to/2nmFg70', 'Principles of Programming Languages: Design, Evaluation and Implementation (MacLennan, 1983)'),
+		('eml', 'http://amzn.to/2n8yz6y', 'Engineering Modeling Languages (Combemale, France, Jézéquel, Rumpe, Steel, Vojtisek, 2017)'),
+	):
+	dsl.write('				<li class="pl {}"><a href="{}">{}</a></li>'.format(book[0], book[1], book[2]))
+dsl.write('''			</ul>
+		</div>
+		<br/><hr/>
+		<div class="last">
 			The collection created and maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.<br/>
-			Sources colour coded and explained on the left.<br/>
+			Sources colour coded and explained above this notice.<br/>
 			Last updated: #LASTMOD#.<br/>
 			<a href="http://validator.w3.org/check/referer"><img src="../www/xhtml.88.png" alt="XHTML 1.1" /></a>
 			<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="../www/css.88.png" alt="CSS 3" /></a>

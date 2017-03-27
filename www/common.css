@@ -1,6 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
 body {color:#033; background-color:#AAA; font-family:"Futura", "Montserrat", sans-serif}
-h1 {font-family:"Arial Rounded MT", sans-serif}
+.card {font-family:sans-serif}
+.card h1 {font-family:"Arial Rounded MT", sans-serif}
 .pic .p {color:#003355; padding-top:5px}
 .pic {float:left; text-align:center; width:150px; height:250px; margin:5px; font-weight:bold; border:2px solid #888}
 .pic img, .tile img {border:0px; max-height:100px}
@@ -20,6 +21,8 @@ code {font-family:"Courier Prime", Courier, monospace}
 .card a[href] {color:#039;}
 .card h1 {background: white;}
 .dwi {color: white;}
+li.dwi a {color: white}
+li.dwi a, li.pl a {text-decoration: none;}
 .dwi.A {background-color: #74b649;}
 .dwi.E {background-color: #eb1c23;}
 .dwi.I {background-color: #f6921e;}
@@ -29,6 +32,15 @@ code {font-family:"Courier Prime", Courier, monospace}
 .dwi.M {background-color: #5f3813;}
 .dwi.S {background-color: #777777;}
 .pl {background-color: white;}
-.right {width:50%; text-align:right; font-style:italic; font-size:smaller;float: right;}
-.left {text-align:left; font-size:smaller; float: left; }
-.left ul {padding-left:1em; margin: 0;}
+.src {width: 50%; text-align:left; font-size:smaller; float: left; }
+.src ul {padding-left: 1.5em; margin: 0;}
+.pl.cpl, .pl.cpl a {color: #f44336;}
+.pl.ppl, .pl.ppl a {color: #c2185b;}
+.pl.eml, .pl.eml a {color: #9c27b0;}
+.pl.b4, .pl.b4 a {color: #4527a0;}
+.pl.b5, .pl.b5 a {color: #7986cb;}
+.pl.b6, .pl.b6 a {color: #2196f3;}
+.pl.b7, .pl.b7 a {color: #00bcd4;}
+.pl.b8, .pl.b8 a {color: #009688;}
+.pl.b9, .pl.b9 a {color: #4caf50;}
+/*https://material.io/guidelines/style/color.html#color-color-palette*/
