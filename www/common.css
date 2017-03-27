@@ -1,7 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
 body {color:#033; background-color:#AAA; font-family:"Futura", "Montserrat", sans-serif}
-.card {font-family:sans-serif}
-.card h1 {font-family:"Arial Rounded MT", sans-serif}
 .pic .p {color:#003355; padding-top:5px}
 .pic {float:left; text-align:center; width:150px; height:250px; margin:5px; font-weight:bold; border:2px solid #888}
 .pic img, .tile img {border:0px; max-height:100px}
@@ -15,8 +13,9 @@ a:link, a:visited {color:#039}
 h1 a img, h1 img {float:right; margin-left:50px; margin-bottom:50px}
 code {font-family:"Courier Prime", Courier, monospace}
 .help {color:#ffdec9; font-size:smaller; font-style:italic}
-.card {float:left; text-align:left; width:440px; height:205px; margin:5px; font-weight:bold; border:2px solid #888; position: relative; background-color: #CCC}
+.card {float:left; text-align:left; width:485px; height:253px; margin:5px; font-weight:bold; border:2px solid #888; position: relative; background-color: #CCC; font-family:sans-serif}
 .card > * {float: none; margin: 5px}
+.card h1 {font-family:"Arial Rounded MT", sans-serif}
 .card h6 {position: absolute; bottom: 0}
 .card a[href] {color:#039;}
 .card h1 {background: white;}
@@ -37,8 +36,7 @@ li.dwi a, li.pl a {text-decoration: none;}
 .pl.cpl, .pl.cpl a {color: #f44336;}
 .pl.ppl, .pl.ppl a {color: #c2185b;}
 .pl.eml, .pl.eml a {color: #9c27b0;}
-.pl.b4, .pl.b4 a {color: #4527a0;}
-.pl.b5, .pl.b5 a {color: #7986cb;}
+.pl.pzpl,.pl.pzpl a {color: #7986cb;}
 .pl.b6, .pl.b6 a {color: #2196f3;}
 .pl.b7, .pl.b7 a {color: #00bcd4;}
 .pl.b8, .pl.b8 a {color: #009688;}

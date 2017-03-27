@@ -16,6 +16,7 @@ def debreviate(x):
 		('JVM', 'Java Virtual Machine'),
 		('VS.NET', 'Visual Studio .NET'),
 		('UML', 'Unified Modelling Language'),
+		('MDE', 'Model-Driven Engineering'),
 		('OS', 'Operating System')
 		# ('IDE', 'Integrated Development Environment')
 		):
@@ -185,6 +186,7 @@ for book in (
 		('ppl', 'http://amzn.to/2nmFg70', 'Principles of Programming Languages: Design, Evaluation and Implementation (MacLennan, 1983)'),
 		('eml', 'http://amzn.to/2n8yz6y', 'Engineering Modeling Languages (Combemale, France, Jézéquel, Rumpe, Steel, Vojtisek, 2017)'),
 		('wcc', 'http://amzn.to/2nmUPeU', 'Compiler Construction (Wirth, 2005)'),
+		('pzpl','http://amzn.to/2nnaieI', 'Programming Languages: Design and Implementation (Pratt, Zelkowitz, 2001)'),
 	):
 	dsl.write('				<li class="pl {}"><a href="{}">{}</a></li>'.format(book[0], book[1], book[2]))
 dsl.write('''			</ul>

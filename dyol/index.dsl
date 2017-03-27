@@ -23,12 +23,14 @@
 			<text>Moving a data structure into another data structure. Some <abbr title="Fourth Generation Languages">4GLs</abbr> have separate statements for straightforward (byte-copying) and composite (pattern-matching) assignments. In modern languages the source data structure can usually be created on the fly. Many languages combine assignment with trivial manipulation (such as +=).</text>
 			<src>CPL:82</src>
 			<src>PPL:105</src>
+			<src>PZPL:201</src>
 		</pic>
 		<pic card>
 			<title>Backtracking</title>
 			<text>A computation strategy commonly found in declarative languages. Every choice in the evaluation path becomes a <em>save point</em> to which the computation returns in case of failure. All the changes made between the save point and the point of failure are undone. Backtracking is common in parsers and logic programming, and used for <a href="#Exception_Handling">error recovery</a> everywhere else.</text>
 			<src>I:Kairos</src>
 			<src>PPL:516</src>
+			<src>PZPL:378</src>
 		</pic>
 		<pic card>
 			<title>Backward Compatibility</title>
@@ -45,6 +47,7 @@
 			<text>Viewing a list of statements as a specific kind of statement is a conceptual eye-opener and allows to treat composite constructs in a uniform and orthogonal way (<em>if … begin … end</em> and <em>do … begin … end</em> instead of <em>if … endif</em> and <em>do … enddo</em>). Languages either use delimiters (begin/end or curly brackets) or <a href="#Indentation__Whitespace">indentation</a>. Blocks can be seen as degenerate <a href="#Procedure">procedures</a>.</text>
 			<src>CPL:85</src>
 			<src>PPL:106</src>
+			<src>PZPL:356</src>
 		</pic>
 		<pic card>
 			<title>Branching</title>
@@ -52,6 +55,7 @@
 			<src>CPL:86</src>
 			<src>PPL:42</src>
 			<src>WCC:61</src>
+			<src>PZPL:357</src>
 		</pic>
 		<pic card>
 			<title>Built-in Pattern</title>
@@ -63,6 +67,7 @@
 			<text>A family of <a href="#Type_Check">value types</a> that can be used in a language: single characters, special characters, zero-terminated strings, fixed length strings, variable length strings, structured strings, etc.</text>
 			<src>CPL:67</src>
 			<src>PPL:185</src>
+			<src>PZPL:215</src>
 		</pic>
 		<pic card>
 			<title>Class</title>
@@ -71,10 +76,20 @@
 			<src>PPL:464</src>
 		</pic>
 		<pic card>
+			<title>Client/Server</title>
+			<text>A language may allow one conceptual program to be split into two intercommunicating and <a href="#Synchronisation">synchronised</a> components: the <em>server</em> side which has access to all the necessary system data and runs in a fully controlled environment, and the <em>client</em> side which runs closer to the system user's data and has to survive in a much less controllable environment. Client code and server code can be written in different languages or compiled to different languages before deployment.</text>
+			<src>PZPL:526</src>
+		</pic>
+		<pic card>
 			<title>Code Completion</title>
 			<text>Many <a href="#IDE">IDEs</a> monitor what the language user is typing and make suggestions based on their knowledge of the language keywords, constructs allowed in the context, variables visible from the current namespace, etc. The list of such suggestions must be short to be useful, otherwise it does nothing but annoy the users.</text>
 			<src>E:Choice editing</src>
 			<src>E:Portions</src>
+		</pic>
+		<pic card>
+			<title>Code Generation</title>
+			<text><a href="#Generation">Generation</a> of machine code, a program in a target language, an output model or a textual result, is the last <a href="#Phased_Process">phase</a> of a classic compiler (before or after <a href="#Optimisation">optimisation</a>). What is typical for code generation is the richness of the input (generously annotated intermediate graphs) and a deliberate limitedness of the output (which is often platform-specific). In <abbr title="Model-Driven Engineering">MDE</abbr> code generation is usually implemented by model-to-text transformations.</text>
+			<src>PZPL:111</src>
 		</pic>
 		<pic card>
 			<title>Code Mining</title>
@@ -99,6 +114,7 @@
 			<src>P:Contrast</src>
 			<src>CPL:12</src>
 			<src>EML:23</src>
+			<src>PZPL:99</src>
 		</pic>
 		<pic card>
 			<title>Commit Hook</title>
@@ -109,6 +125,7 @@
 			<title>Compilation Error</title>
 			<text>Modern languages have many means of assessing executability of the program before it is actually run. Thus, compilers tend to have a sophisticated error handling facility and try to provide enough information for the language user to fix the problems. Some languages are notoriously known for providing bad error messages. Can be provided as a <a href="#Live_Feedback">live feedback</a>.</text>
 			<src>E:Conditional warnings</src>
+			<src>PZPL:109</src>
 		</pic>
 		<pic card>
 			<title>Compilation Warning</title>
@@ -121,6 +138,7 @@
 			<src>CPL:156</src>
 			<src>PPL:70</src>
 			<src>WCC:83</src>
+			<src>PZPL:238</src>
 		</pic>
 		<pic card>
 			<title>Concrete Syntax</title>
@@ -128,16 +146,23 @@
 			<src>P:Transparency</src>
 			<src>PPL:89</src>
 			<src>EML:21</src>
+			<src>PZPL:41</src>
+		</pic>
+		<pic card>
+			<title>Concurrency</title>
+			<text>Sometimes a program can be decomposed into components that are executable in parallel on different CPU cores or different devices. This can be completely undesirable, or performed automatically, or use the language user's guidance in <a href="#Synchronisation">synchronisation</a> of threads, tasks and processes.</text>
+			<src>PZPL:483</src>
 		</pic>
 		<pic card>
 			<title>Conditional Compilation</title>
-			<text>Some conditions can be checked during compile type and result in different code to be produced by the compiler to be run later. This is frequently used in situations when one codebase specifies the behaviour of a system that must be compiled and deployed under a variety of devices and hardware architectures.</text>
+			<text>Some conditions can be checked during compile type and result in different code to be produced by the compiler to be run later. This is frequently used in situations when one codebase specifies the behaviour of a system that must be compiled and deployed under a variety of devices and hardware architectures. To simplify compiler construction, conditional compilation can be handled by a preprocessor.</text>
 		</pic>
 		<pic card>
 			<title>Debugging</title>
 			<text>The activity of finding and fixing sources of incorrect behaviour is not enjoyed by many language users, but is used by all of them without exception anyway. Declarative languages are the hardest to debug and imperative ones are the easiest. Most modern languages are shipped with a dedicated debugger or have debugging functionality in the <a href="#IDE">IDE</a>.</text>
 			<src>E:Are you sure?</src>
 			<src>E:Interlock</src>
+			<src>PZPL:55</src>
 		</pic>
 		<pic card>
 			<title>Default</title>
@@ -155,6 +180,7 @@
 			<text><abbr title="Unified Modelling Language">UML</abbr> distinguishes between structural (<a href="#Class">class</a>, <a href="#Module">package</a>, object, component, composite structure, deployment) and behavioural diagrams (activity, sequence, use case, state, communication, interaction overview, timing). The former specify and visualise structure breakdown, the latter — events and interaction. Some languages (e.g., syntactic diagrams) are both.</text>
 			<src>P:Possibility trees</src>
 			<src>EML:30</src>
+			<src>PZPL:363</src>
 		</pic>
 		<pic card>
 			<title>Developer Communication</title>
@@ -166,6 +192,7 @@
 			<text>Language manuals are important for people learning the language, as well as for active users — sometimes these are two different sets of documents. Documentation may contain executable examples and can/should be automatically checked for internal validity and consistency with the tooling.</text>
 			<src>M:Serving suggestion</src>
 			<src>EML:264</src>
+			<src>PZPL:532</src>
 		</pic>
 		<pic card>
 			<title>Encapsulation</title>
@@ -173,6 +200,7 @@
 			<src>A:Hiding things</src>
 			<src>CPL:104</src>
 			<src>PPL:12</src>
+			<src>PZPL:236</src>
 		</pic>
 		<pic card>
 			<title>Enumeration Type</title>
@@ -180,6 +208,7 @@
 			<src>CPL:66</src>
 			<src>PPL:188</src>
 			<src>WCC:65</src>
+			<src>PZPL:213</src>
 		</pic>
 		<pic card>
 			<title>Esotericism</title>
@@ -197,6 +226,7 @@
 			<text>An emergency sibling of <a href="#Branching">branching</a> used for extraordinary situations — can be slower than the normal branching, but usually more robust in handling situations like a cricial failure during the handling of another failure. A less invasive form of exception handling are <a href="#Assertion">assertions</a>.</text>
 			<src>CPL:95</src>
 			<src>PPL:316</src>
+			<src>PZPL:484</src>
 		</pic>
 		<pic card>
 			<title>Feature Lock-out</title>
@@ -208,12 +238,14 @@
 			<text>It is an important design point to decide which entities within a program have the right to be saved, passed as arguments, transferred through other means, etc. Numbers? Collections? Objects? Functions? Unfinished computations? Data streams? Unfilled templates?</text>
 			<src>CPL:151</src>
 			<src>PPL:397</src>
+			<src>PZPL:431</src>
 		</pic>
 		<pic card>
 			<title>Garbage Collection</title>
 			<text>Automatic release of memory is impossible for cyclic data structures. Languages that want to support them, have a <em>garbage collector</em> — a runtime compiler component that occasionally <em>marks</em> data structures that have become inaccessible and then <em>sweeps</em> them away, freeing the memory. GC can compromise language responsiveness and performance.</text>
 			<src>M:Bundling</src>
 			<src>PPL:443</src>
+			<src>PZPL:471</src>
 		</pic>
 		<pic card>
 			<title>Generation</title>
@@ -234,6 +266,7 @@
 			<text>Integrated Development Environments (IDEs) are used to support language users in their common tasks: code navigation, <a href="#Debugging">debugging</a>, building, <a href="#Module">modularising</a>, <a href="#Refactoring">refactoring</a>, etc. Can take a form of a dedicated standalone editor, a website or a plugin for a universal editor. Needs to have a well-designed <a href="#IDE_GUI">UI</a>.</text>
 			<src>A:Conveyor belts</src>
 			<src>EML:264</src>
+			<src>PZPL:53</src>
 		</pic>
 		<pic card>
 			<title>IDE GUI</title>
@@ -245,18 +278,21 @@
 			<text>The two extremes for this aspect are: treat indentation as something crucial to the program structure (and thus process constructs differently based on columns where they start) and discard all possible indentation (even in the middle of names, as FORTRAN does). Most languages are somewhere in the middle. Normalisation of whitespace use is called <a href="#Pretty-printing">pretty-printing</a>.</text>
 			<src>PPL:91</src>
 			<src>EML:23</src>
+			<src>PZPL:100</src>
 		</pic>
 		<pic card>
 			<title>Inheritance</title>
 			<text>An "is-a" relation can be represented by a language construct when one class, object or function <em>inherits</em> all the properties of its <em>parent</em> and possibly adds others exclusive to itself. It is a design consideration which entities can be derived from which, whether one can inherit from several parents, etc.</text>
 			<src>CPL:194</src>
 			<src>PPL:465</src>
+			<src>PZPL:311</src>
 		</pic>
 		<pic card>
 			<title>Input/Output</title>
 			<text>Most programs are not self-contained and require input data to run and produce results, which in turn need to be propagated somewhere. There are languages that are volatile with input and output, those that only work with files, those that wrap I/O as a side effect of a monad, etc.</text>
 			<src>CPL:187</src>
 			<src>PPL:13</src>
+			<src>PZPL:223</src>
 		</pic>
 		<pic card>
 			<title>Instruction Set</title>
@@ -268,6 +304,7 @@
 			<src>CPL:89</src>
 			<src>PPL:47</src>
 			<src>WCC:61</src>
+			<src>PZPL:358</src>
 		</pic>
 		<pic card>
 			<title>Keyword</title>
@@ -275,6 +312,7 @@
 			<src>CPL:11</src>
 			<src>PPL:92</src>
 			<src>WCC:33</src>
+			<src>PZPL:99</src>
 		</pic>
 		<pic card>
 			<title>Labelling</title>
@@ -283,8 +321,9 @@
 		</pic>
 		<pic card>
 			<title>Lazy Evaluation</title>
-			<text>A <em>lazy</em> compiler defers evaluation to the latest possible moment. Lazy languages allow infinite data structures (as long as they are processed one chunk at a time) and may have unpredictable outcomes if calculations are allowed to have side effects (like C's ++). Lazy evaluation has many applications from code optimisation to stream data processing.</text>
+			<text>A <em>lazy</em> compiler defers evaluation to the latest possible moment. Lazy languages allow infinite data structures (as long as they are processed one chunk at a time) and may have unpredictable outcomes if calculations are allowed to have side effects (like C's ++). Lazy evaluation has many applications from <a href="#Optimisation">optimisation</a> of <a href="#Code_Generation">generated code</a> to stream data processing.</text>
 			<src>CPL:239</src>
+			<src>PZPL:345</src>
 		</pic>
 		<pic card>
 			<title>Live Feedback</title>
@@ -293,7 +332,8 @@
 		</pic>
 		<pic card>
 			<title>Macro</title>
-			<text>A mechanism commonly found in low level languages that allow users to define a piece of <a href="#Syntactic_Sugar">syntactic sugar</a> to be <em>expanded</em> into a longer sequence of <a href="#Instruction_Set">instructions</a>. Advanced parametrised macros resemble <a href="#Procedure">procedures</a> in expressivity but may behave less reliably due to their lexical nature.</text>
+			<text>A mechanism commonly found in low level languages that allow users to define a piece of <a href="#Syntactic_Sugar">syntactic sugar</a> to be <em>expanded</em> into a longer sequence of <a href="#Instruction_Set">instructions</a>. Advanced parametrised macros resemble <a href="#Procedure">procedures</a> in expressivity but may behave less reliably due to their lexical nature. In bigger languages macros are typically handled by a preprocessor.</text>
+			<src>PZPL:74</src>
 		</pic>
 		<pic card>
 			<title>Meme</title>
@@ -320,18 +360,24 @@
 			<src>CPL:63</src>
 			<src>PPL:65</src>
 			<src>WCC:81</src>
+			<src>PZPL:205</src>
 		</pic>
 		<pic card>
 			<title>Operator Precedence</title>
 			<text>To avoid excessive use of parentheses, a language can provide a default convention of disambiguating constructs with 3+ entities bound by binary operators. In arithmetic expressions, the precedence usually follows mathematical laws.</text>
 			<src>CPL:79</src>
 			<src>PPL:94</src>
+			<src>PZPL:332</src>
+		</pic>
+		<pic card>
+			<title>Optimisation</title>
+			<text>It is always easier and less error-prone to <a href="#Generation">generate</a> intermediate code or <a href="#Code_Generation">machine code</a> with simple and straightforward patterns and subsequently optimise the result in a different <a href="#Phased_Process">phase</a>. The effect on the language users is that they do not need to optimise their programs to the fullest, since their own naïve code will be optimised together with the rest. Small efficiences are only relevant 3% of the time, for the rest premature optimisation is considered the root of all evil.</text>
+			<src>PZPL:110</src>
 		</pic>
 		<pic card>
 			<title>Orthogonal Design</title>
 			<text>Independent features should be controlled by independent mechanisms. Related constructs should look similar and different ones should look different. Regular rules without exceptions are easier to learn. The less surprises one has while learning the language, the higher the language quality.</text>
 			<src>P:(A)symmetry</src>
-			<src>PPL:8</src>
 			<src>P:Similarity</src>
 			<src>PPL:8</src>
 		</pic>
@@ -340,6 +386,7 @@
 			<text>Some <a href="#Type_Check">types</a> can be defined partially by the user and partially by the language designer. For example, the language designer knows what a <a href="#Composite_Type"><em>list</em></a> is, and the language user can select any other type for list elements — this will change handling of such elements, but the philosophy behind their collection will stay the same.</text>
 			<src>CPL:180</src>
 			<src>PPL:279</src>
+			<src>PZPL:291</src>
 		</pic>
 		<pic card>
 			<title>Performance Testing</title>
@@ -352,6 +399,7 @@
 			<src>I:Partial completion</src>
 			<src>PPL:38</src>
 			<src>WCC:7</src>
+			<src>PZPL:73</src>
 		</pic>
 		<pic card>
 			<title>Picture Clause</title>
@@ -368,6 +416,7 @@
 			<src>CPL:69</src>
 			<src>PPL:206</src>
 			<src>WCC:86</src>
+			<src>PZPL:220</src>
 		</pic>
 		<pic card>
 			<title>Pretty-printing</title>
@@ -387,6 +436,7 @@
 			<src>CPL:106</src>
 			<src>PPL:35</src>
 			<src>WCC:74</src>
+			<src>PZPL:276</src>
 		</pic>
 		<pic card>
 			<title>Program Smell</title>
@@ -399,6 +449,7 @@
 			<src>CPL:169</src>
 			<src>PPL:199</src>
 			<src>WCC:41</src>
+			<src>PZPL:257</src>
 		</pic>
 		<pic card>
 			<title>Redefine</title>
@@ -418,6 +469,12 @@
 			<src>WCC:42</src>
 		</pic>
 		<pic card>
+			<title>Scope &amp; Binding</title>
+			<text>If a <a href="#Type_Definition">type</a> or a <a href="#Variable">variable</a> is declared, how far from the declaration can you still use them? If an outside entity is used in a <a href="#Procedure">procedure</a>, will it be taken from the parent scope of the procedure or from the scope of the call? Several equally viable paradigms are known for scoping, name-type binding and declaration-reference binding.</text>
+			<src>CPL:55</src>
+			<src>PZPL:82</src>
+		</pic>
+		<pic card>
 			<title>Standard Library</title>
 			<text>A library or a set of libraries that are shipped together with the language. It can be a tough design decision for the language designer to decide which functionality needs to become native constructs and which can go into the standard library.</text>
 			<src>WCC:78</src>
@@ -428,19 +485,22 @@
 			<src>A:Roadblock</src>
 			<src>PPL:7</src>
 			<src>EML:264</src>
+			<src>PZPL:169</src>
 		</pic>
 		<pic card>
 			<title>Substitution</title>
 			<text>When a subprogram specifies the <a href="#Type_Check">types</a> of input it expects, these types do not need to be treated precisely: often one can use entities of subtypes of the specified types (e.g., put a circle in a function that draws a shape because a circle is a subtype of shape). Subtyping is nontrivial, and the designer must choose among covariance, contravariance, invariance, etc.</text>
 			<src>CPL:197</src>
 			<src>PPL:208</src>
+			<src>PZPL:199</src>
 		</pic>
 		<pic card>
 			<title>Synchronisation</title>
-			<text>Managing the use of resources by some predefined form of synchronisation between readers and writers. Can be synchronous or asynchronous, and take forms of resource locks, semaphors, pipes, rendezvous, handshakes, message passing channels, etc.</text>
+			<text>Managing the use of resources by some predefined form of synchronisation between readers and writers. Can be synchronous or asynchronous, and take forms of resource locks, semaphors, pipes, rendezvous, handshakes, message passing channels, etc. Always needed for <a href="#Concurrency">concurrent computing</a>.</text>
 			<src>A:Converging &amp; diverging</src>
 			<src>CPL:267</src>
 			<src>PPL:328</src>
+			<src>PZPL:321</src>
 		</pic>
 		<pic card>
 			<title>Syntactic Sugar</title>
@@ -459,6 +519,7 @@
 			<text>Components can be identified, explicitly or automatically, to belong to a particular <em>type</em>. Among other things, the type determines applicability and compatibility of components with one another. In complex scenarios (like a monadic bind) hard to understand components can only fit together in one possible way.</text>
 			<src>E:Matched affordances</src>
 			<src>PPL:129</src>
+			<src>PZPL:195</src>
 		</pic>
 		<pic card>
 			<title>Type Definition</title>
@@ -466,6 +527,7 @@
 			<src>CPL:60</src>
 			<src>PPL:268</src>
 			<src>WCC:26</src>
+			<src>PZPL:186</src>
 		</pic>
 		<pic card>
 			<title>Undefined Behaviour</title>
@@ -474,9 +536,10 @@
 		</pic>
 		<pic card>
 			<title>Unification</title>
-			<text>Given two composite data structures, a compiler can be tasked to find their matching components and proceed with assignment, transformation, etc. Widely used in logic programming, metaprogramming, model synchronisation, bidirectional transformation, <abbr title="Fourth Generation Languages">4GLs</abbr> for banking, etc.</text>
+			<text>Given two composite data structures, a compiler can be tasked to find their matching components and proceed with assignment, transformation, etc. Limited forms of unification may be called <em>pattern matching</em>. Widely used in logic programming, metaprogramming, model synchronisation, bidirectional transformation, <abbr title="Fourth Generation Languages">4GLs</abbr> for banking, etc.</text>
 			<src>CPL:248</src>
 			<src>PPL:507</src>
+			<src>PZPL:369</src>
 		</pic>
 		<pic card>
 			<title>Variable</title>
@@ -484,10 +547,12 @@
 			<src>CPL:52</src>
 			<src>PPL:22</src>
 			<src>WCC:72</src>
+			<src>PZPL:183</src>
 		</pic>
 		<pic card>
 			<title>Virtual Machine</title>
 			<text>An emulator for a real or imaginary hardware architecture that has a low level coding language that can be used by other components or tools to compiler high level languages to. VMs trades off performance for an extra layer of abstraction. Some virtual machines (e.g., <a href="https:en.wikipedia.orgwikiLimbo_(programming_language)">Dis</a>) compile their code into native machine code just before running it.</text>
+			<src>PZPL:75</src>
 		</pic>
 		<hr/>
 		<div class="src">
@@ -502,11 +567,11 @@
 			</ul>
 		</div>
 		<div class="src">
-			<ul>				<li class="pl cpl"><a href="http://amzn.to/2n8cd5u">Comparative Programming Languages (Wilson, Clark, 1993)</a></li>				<li class="pl ppl"><a href="http://amzn.to/2nmFg70">Principles of Programming Languages: Design, Evaluation and Implementation (MacLennan, 1983)</a></li>				<li class="pl eml"><a href="http://amzn.to/2n8yz6y">Engineering Modeling Languages (Combemale, France, Jézéquel, Rumpe, Steel, Vojtisek, 2017)</a></li>				<li class="pl wcc"><a href="http://amzn.to/2nmUPeU">Compiler Construction (Wirth, 2005)</a></li>			</ul>
+			<ul>				<li class="pl cpl"><a href="http://amzn.to/2n8cd5u">Comparative Programming Languages (Wilson, Clark, 1993)</a></li>				<li class="pl ppl"><a href="http://amzn.to/2nmFg70">Principles of Programming Languages: Design, Evaluation and Implementation (MacLennan, 1983)</a></li>				<li class="pl eml"><a href="http://amzn.to/2n8yz6y">Engineering Modeling Languages (Combemale, France, Jézéquel, Rumpe, Steel, Vojtisek, 2017)</a></li>				<li class="pl wcc"><a href="http://amzn.to/2nmUPeU">Compiler Construction (Wirth, 2005)</a></li>				<li class="pl pzpl"><a href="http://amzn.to/2nnaieI">Programming Languages: Design and Implementation (Pratt, Zelkowitz, 2001)</a></li>			</ul>
 		</div>
 		<hr/>
 		<div class="last">
-			The collection of <strong>82</strong> cards created and maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.<br/>
+			The collection of <strong>87</strong> cards created and maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.<br/>
 			Sources colour coded and explained above this notice.<br/>
 			Last updated: #LASTMOD#.<br/>
 			<a href="http://validator.w3.org/check/referer"><img src="../www/xhtml.88.png" alt="XHTML 1.1" /></a>
