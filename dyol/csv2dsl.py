@@ -38,7 +38,7 @@ def intralink(x):
 				if where not in links:
 					links.append(where)
 				where = '#' + where
-			r += '<a href="{}">{}</a>'.format(where, what)
+			r += '<a href="{}">{}</a>'.format(where.replace('&','').replace(' ','_').replace('/',''), what)
 		else:
 			r += y[i]
 		inside = not inside
@@ -116,7 +116,6 @@ dsl.write('''<?xml version="1.0" encoding="UTF-8"?>
 	<body>
 		<hr/>
 		<picdir>../www</picdir>
-		<divclass>tile</divclass>
 ''')
 # ,Inspired by,Key phrase,Name,Explanation,CPL,PPL,Text
 header = lines[0].strip().split(',')
@@ -172,7 +171,7 @@ for c in keys:
 		dsl.write(line)
 print('{} cards created from {} lines.'.format(len(keys), len(lines)))
 
-dsl.write('''		<br/><hr/>
+dsl.write('''		<hr/>
 		<div class="src">
 			<ul>''')
 for lens in ('Architectural', 'Errorproofing', 'Interaction', 'Ludic', 'Perceptual', 'Cognitive', 'Machiavellian', 'Security'):
@@ -190,7 +189,7 @@ for book in (
 	dsl.write('				<li class="pl {}"><a href="{}">{}</a></li>'.format(book[0], book[1], book[2]))
 dsl.write('''			</ul>
 		</div>
-		<br/><hr/>
+		<hr/>
 		<div class="last">
 			The collection of <strong>{}</strong> cards created and maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.<br/>
 			Sources colour coded and explained above this notice.<br/>

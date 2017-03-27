@@ -9,7 +9,6 @@
 	<body>
 		<hr/>
 		<picdir>../www</picdir>
-		<divclass>tile</divclass>
 		<pic card>
 			<title>Access Modifier</title>
 			<text>Annotate components with information about how others are allowed or not allowed to access them. Access can be limited by <a href="#Inheritance">inheritance</a> (<em>protected</em> in C++), <a href="#Module">modular</a> structure (<em>internal</em> in C#), etc. The most popular modifiers are <em>public</em> (everyone welcome) and <em>private</em> (fully restricted).</text>
@@ -17,7 +16,7 @@
 		</pic>
 		<pic card>
 			<title>Assertion</title>
-			<text>This non-invasive form of <a href="#Exception Handling">exception handling</a> allows language users to explicitly state (<em>assert</em>) invariants, pre-conditions and post-conditions as logic expressions that must universally hold. Such assertions can be easily removed before deploying the system into production.</text>
+			<text>This non-invasive form of <a href="#Exception_Handling">exception handling</a> allows language users to explicitly state (<em>assert</em>) invariants, pre-conditions and post-conditions as logic expressions that must universally hold. Such assertions can be easily removed before deploying the system into production.</text>
 		</pic>
 		<pic card>
 			<title>Assignment</title>
@@ -27,7 +26,7 @@
 		</pic>
 		<pic card>
 			<title>Backtracking</title>
-			<text>A computation strategy commonly found in declarative languages. Every choice in the evaluation path becomes a <em>save point</em> to which the computation returns in case of failure. All the changes made between the save point and the point of failure are undone. Backtracking is common in parsers and logic programming, and used for <a href="#Exception Handling">error recovery</a> everywhere else.</text>
+			<text>A computation strategy commonly found in declarative languages. Every choice in the evaluation path becomes a <em>save point</em> to which the computation returns in case of failure. All the changes made between the save point and the point of failure are undone. Backtracking is common in parsers and logic programming, and used for <a href="#Exception_Handling">error recovery</a> everywhere else.</text>
 			<src>I:Kairos</src>
 			<src>PPL:516</src>
 		</pic>
@@ -38,12 +37,12 @@
 		</pic>
 		<pic card>
 			<title>Big Brother</title>
-			<text>A more invasive and more powerful form of <a href="#Code Mining">code mining</a> is examining language users' actions directly. This can be done through the <a href="#IDE">IDE</a> by equipping the plugin with logging functionality: make it record every single action taken by the user, with all the necessary context such as the files opened, and analyse it later.</text>
+			<text>A more invasive and more powerful form of <a href="#Code_Mining">code mining</a> is examining language users' actions directly. This can be done through the <a href="#IDE">IDE</a> by equipping the plugin with logging functionality: make it record every single action taken by the user, with all the necessary context such as the files opened, and analyse it later.</text>
 			<src>A:Pave the cowpaths</src>
 		</pic>
 		<pic card>
 			<title>Block</title>
-			<text>Viewing a list of statements as a specific kind of statement is a conceptual eye-opener and allows to treat composite constructs in a uniform and orthogonal way (<em>if … begin … end</em> and <em>do … begin … end</em> instead of <em>if … endif</em> and <em>do … enddo</em>). Languages either use delimiters (begin/end or curly brackets) or <a href="#Indentation & Whitespace">indentation</a>. Blocks can be seen as degenerate <a href="#Procedure">procedures</a>.</text>
+			<text>Viewing a list of statements as a specific kind of statement is a conceptual eye-opener and allows to treat composite constructs in a uniform and orthogonal way (<em>if … begin … end</em> and <em>do … begin … end</em> instead of <em>if … endif</em> and <em>do … enddo</em>). Languages either use delimiters (begin/end or curly brackets) or <a href="#Indentation__Whitespace">indentation</a>. Blocks can be seen as degenerate <a href="#Procedure">procedures</a>.</text>
 			<src>CPL:85</src>
 			<src>PPL:106</src>
 		</pic>
@@ -61,7 +60,7 @@
 		</pic>
 		<pic card>
 			<title>Character Type</title>
-			<text>A family of <a href="#Type Check">value types</a> that can be used in a language: single characters, special characters, zero-terminated strings, fixed length strings, variable length strings, structured strings, etc.</text>
+			<text>A family of <a href="#Type_Check">value types</a> that can be used in a language: single characters, special characters, zero-terminated strings, fixed length strings, variable length strings, structured strings, etc.</text>
 			<src>CPL:67</src>
 			<src>PPL:185</src>
 		</pic>
@@ -108,17 +107,17 @@
 		</pic>
 		<pic card>
 			<title>Compilation Error</title>
-			<text>Modern languages have many means of assessing executability of the program before it is actually run. Thus, compilers tend to have a sophisticated error handling facility and try to provide enough information for the language user to fix the problems. Some languages are notoriously known for providing bad error messages. Can be provided as a <a href="#Live Feedback">live feedback</a>.</text>
+			<text>Modern languages have many means of assessing executability of the program before it is actually run. Thus, compilers tend to have a sophisticated error handling facility and try to provide enough information for the language user to fix the problems. Some languages are notoriously known for providing bad error messages. Can be provided as a <a href="#Live_Feedback">live feedback</a>.</text>
 			<src>E:Conditional warnings</src>
 		</pic>
 		<pic card>
 			<title>Compilation Warning</title>
-			<text>When a compiler detects a possibly dangerous situation with extremely limited applicability, it displays a warning message and proceeds with the build process anyway. In many cases there is a special option for disabling a particular warning for a particular piece of code. Can be provided as a <a href="#Live Feedback">live feedback</a>.</text>
+			<text>When a compiler detects a possibly dangerous situation with extremely limited applicability, it displays a warning message and proceeds with the build process anyway. In many cases there is a special option for disabling a particular warning for a particular piece of code. Can be provided as a <a href="#Live_Feedback">live feedback</a>.</text>
 			<src>E:Did you mean?</src>
 		</pic>
 		<pic card>
 			<title>Composite Type</title>
-			<text>Arrays, lists, tuples, sets and multisets are the most common <a href="#Type Definition">user-defined</a> <a href="#Parametrised Type">parametrised</a> types for collections of elements. It is up to the language designer to decide which ones are supported and how they are handled — can elements within on collection have different types, are they mutable, passed by name/value/reference, etc.</text>
+			<text>Arrays, lists, tuples, sets and multisets are the most common <a href="#Type_Definition">user-defined</a> <a href="#Parametrised_Type">parametrised</a> types for collections of elements. It is up to the language designer to decide which ones are supported and how they are handled — can elements within on collection have different types, are they mutable, passed by name/value/reference, etc.</text>
 			<src>CPL:156</src>
 			<src>PPL:70</src>
 			<src>WCC:83</src>
@@ -142,13 +141,13 @@
 		</pic>
 		<pic card>
 			<title>Default</title>
-			<text>Unchanged configuration options, uninitialised <a href="#Variable">variables</a> and unspecified optional <a href="#Access Modifier">modifiers</a> are examples of situations when a default value must be used by the compiler. These default values are decided by the language designer and typically represent the <em>best</em> option within the paradigm.</text>
+			<text>Unchanged configuration options, uninitialised <a href="#Variable">variables</a> and unspecified optional <a href="#Access_Modifier">modifiers</a> are examples of situations when a default value must be used by the compiler. These default values are decided by the language designer and typically represent the <em>best</em> option within the paradigm.</text>
 			<src>E:Defaults</src>
 			<src>E:Opt-outs</src>
 		</pic>
 		<pic card>
 			<title>Deprecated Construct</title>
-			<text>In language evolution, sometimes a no longer desired construct cannot be simply removed to avoid breaking <a href="#Backward Compatibility">backward compatibility</a>. However, it can be marked explicitly as deprecated to discourage language users to rely on it.</text>
+			<text>In language evolution, sometimes a no longer desired construct cannot be simply removed to avoid breaking <a href="#Backward_Compatibility">backward compatibility</a>. However, it can be marked explicitly as deprecated to discourage language users to rely on it.</text>
 			<src>A:Feature deletion</src>
 		</pic>
 		<pic card>
@@ -177,14 +176,14 @@
 		</pic>
 		<pic card>
 			<title>Enumeration Type</title>
-			<text>An enumeration is a <a href="#Type Definition">data type</a> that defines a very limited set of possible values which are, nevertheless, more comfortably referred to by their names and not by encoded numbers. The most famous enumeration is the Boolean (logical) type, which contains only two values: <em>true</em> and <em>false</em>. If the domain permits, the language does not have to support user-defined enumerations.</text>
+			<text>An enumeration is a <a href="#Type_Definition">data type</a> that defines a very limited set of possible values which are, nevertheless, more comfortably referred to by their names and not by encoded numbers. The most famous enumeration is the Boolean (logical) type, which contains only two values: <em>true</em> and <em>false</em>. If the domain permits, the language does not have to support user-defined enumerations.</text>
 			<src>CPL:66</src>
 			<src>PPL:188</src>
 			<src>WCC:65</src>
 		</pic>
 		<pic card>
 			<title>Esotericism</title>
-			<text><a href="http://catb.org/esr/intercal/">INTERCAL</a>, <a href="http://www.madore.org/~david/programs/unlambda/">Unlambda</a>, <a href="http://catseye.tc/node/Befunge-93.html">Befunge</a>, <a href="http://www.lscheffer.com/malbolge.shtml">Malbolge</a> and other <a href="https://esolangs.org/wiki/">esoteric languages</a> are developed based on paradigms that are so unconventional that writing even one program puts disproportional strain on the language user. The challenging nature makes people engage and compete in programming in such languages as a form of entertainment.</text>
+			<text><a href="http:catb.orgesrintercal">INTERCAL</a>, <a href="http:www.madore.org~davidprogramsunlambda">Unlambda</a>, <a href="http:catseye.tcnodeBefunge-93.html">Befunge</a>, <a href="http:www.lscheffer.commalbolge.shtml">Malbolge</a> and other <a href="https:esolangs.orgwiki">esoteric languages</a> are developed based on paradigms that are so unconventional that writing even one program puts disproportional strain on the language user. The challenging nature makes people engage and compete in programming in such languages as a form of entertainment.</text>
 			<src>L:Challenges &amp; targets</src>
 		</pic>
 		<pic card>
@@ -232,13 +231,13 @@
 		</pic>
 		<pic card>
 			<title>IDE</title>
-			<text>Integrated Development Environments (IDEs) are used to support language users in their common tasks: code navigation, <a href="#Debugging">debugging</a>, building, <a href="#Module">modularising</a>, <a href="#Refactoring">refactoring</a>, etc. Can take a form of a dedicated standalone editor, a website or a plugin for a universal editor.</text>
+			<text>Integrated Development Environments (IDEs) are used to support language users in their common tasks: code navigation, <a href="#Debugging">debugging</a>, building, <a href="#Module">modularising</a>, <a href="#Refactoring">refactoring</a>, etc. Can take a form of a dedicated standalone editor, a website or a plugin for a universal editor. Needs to have a well-designed <a href="#IDE_GUI">UI</a>.</text>
 			<src>A:Conveyor belts</src>
 			<src>EML:264</src>
 		</pic>
 		<pic card>
 			<title>IDE GUI</title>
-			<text>Most <a href="#IDE">IDEs</a> divide the screen space among areas with different functionality: one for navigating through adjacent programs, one for editing the code, one for reviewing the architecture, one for watching how values change at runtime, etc. Advanced IDEs like IntelliJ, Eclipse or <abbr title="Visual Studio .NET">VS.NET</abbr> have so many subwindows that the user has to choose which ones to keep open at each given time.</text>
+			<text>Most <a href="#IDE">IDEs</a> divide the screen space among areas with different functionality: for navigating through adjacent programs, for editing the code, for reviewing the architecture, for watching how values change at runtime, etc. Advanced IDEs like IntelliJ, Eclipse or <abbr title="Visual Studio .NET">VS.NET</abbr> have so many subwindows that the user has to choose which ones to keep open at each given time.</text>
 			<src>A:Positioning</src>
 		</pic>
 		<pic card>
@@ -261,7 +260,7 @@
 		</pic>
 		<pic card>
 			<title>Instruction Set</title>
-			<text>Instead of freely combinable statements and expressions, low level languages (microcodes, assemblers, <a href="#Virtual Machine">virtual machine</a> bytecodes, etc) have limited non-extendable instruction sets. Each of the instructions typically has a mnemonic (name) and a bit-level encoding. Realistic assemblers had to introduce <a href="#Macro">macro</a> expansions to make programming experience tolerable.</text>
+			<text>Instead of freely combinable statements and expressions, low level languages (microcodes, assemblers, <a href="#Virtual_Machine">virtual machine</a> bytecodes, etc) have limited non-extendable instruction sets. Each of the instructions typically has a mnemonic (name) and a bit-level encoding. Realistic assemblers had to introduce <a href="#Macro">macro</a> expansions to make programming experience tolerable.</text>
 		</pic>
 		<pic card>
 			<title>Iteration</title>
@@ -272,14 +271,14 @@
 		</pic>
 		<pic card>
 			<title>Keyword</title>
-			<text>Special words in <a href="#Concrete Syntax">concrete syntax</a> of the language that carry identical meaning across all possible programs in the same language. Can be made reserved so that programmers may not redefine them. A language can get new keywords by evolution.</text>
+			<text>Special words in <a href="#Concrete_Syntax">concrete syntax</a> of the language that carry identical meaning across all possible programs in the same language. Can be made reserved so that programmers may not redefine them. A language can get new keywords by evolution.</text>
 			<src>CPL:11</src>
 			<src>PPL:92</src>
 			<src>WCC:33</src>
 		</pic>
 		<pic card>
 			<title>Labelling</title>
-			<text>Since most engineers know several languages, some <a href="#Documentation">language manuals</a> directly assume some initial familiarity of their users with other languages. Can refer to paradigms or families (<em>"this is a <a href="#Type Check">strongly typed</a> functional language"</em>) or directly to other languages (<em>"<a href="#Inheritance">inheritance</a> works like in Java"</em>).</text>
+			<text>Since most engineers know several languages, some <a href="#Documentation">language manuals</a> directly assume some initial familiarity of their users with other languages. Can refer to paradigms or families (<em>"this is a <a href="#Type_Check">strongly typed</a> functional language"</em>) or directly to other languages (<em>"<a href="#Inheritance">inheritance</a> works like in Java"</em>).</text>
 			<src>M:Anchoring</src>
 		</pic>
 		<pic card>
@@ -294,16 +293,16 @@
 		</pic>
 		<pic card>
 			<title>Macro</title>
-			<text>A mechanism commonly found in low level languages that allow users to define a piece of <a href="#Syntactic Sugar">syntactic sugar</a> to be <em>expanded</em> into a longer sequence of <a href="#Instruction Set">instructions</a>. Advanced parametrised macros resemble <a href="#Procedure">procedures</a> in expressivity but may behave less reliably due to their lexical nature.</text>
+			<text>A mechanism commonly found in low level languages that allow users to define a piece of <a href="#Syntactic_Sugar">syntactic sugar</a> to be <em>expanded</em> into a longer sequence of <a href="#Instruction_Set">instructions</a>. Advanced parametrised macros resemble <a href="#Procedure">procedures</a> in expressivity but may behave less reliably due to their lexical nature.</text>
 		</pic>
 		<pic card>
 			<title>Meme</title>
-			<text><a href="http://lolcode.org/">LOLCODE</a>, <a href="http://lhartikk.github.io/ArnoldC/">ArnoldC</a> and others are languages developed based on the memes that are circulating among software engineers: the popularity of them piggybacks entirely on the viral nature of those memes.</text>
+			<text><a href="http:lolcode.org">LOLCODE</a>, <a href="http:lhartikk.github.ioArnoldC">ArnoldC</a> and others are languages developed based on the memes that are circulating among software engineers: the popularity of them piggybacks entirely on the viral nature of those memes.</text>
 			<src>L:Make it a meme</src>
 		</pic>
 		<pic card>
 			<title>Metaphor</title>
-			<text>Atom, <a href="#Backtracking">backtracking</a>, binding, body, build, cloud, collision, compiler, dangling else, <a href="#Debugging">debugging</a>, <a href="#Syntactic Sugar">desugaring</a>, <a href="#Record">dictionary</a>, <a href="#Type Check">duck typing</a>, environment, filter, <a href="#Numeric Data Type">floating point</a>, forest, framework, <a href="#Garbage Collection">garbage collection</a>, <a href="#Branching">go to</a>, heap, <a href="#Inheritance">inheritance</a>, <a href="#Branching">jump</a>, library, linking, map, <a href="#Pointer">pointer</a>, pruning, <a href="#Synchronisation">rendezvous</a>, stack, turtle, weaving, window, …</text>
+			<text>Atom, <a href="#Backtracking">backtracking</a>, binding, body, build, cloud, collision, compiler, dangling else, <a href="#Debugging">debugging</a>, <a href="#Syntactic_Sugar">desugaring</a>, <a href="#Record">dictionary</a>, <a href="#Type_Check">duck typing</a>, environment, filter, <a href="#Numeric_Data_Type">floating point</a>, forest, framework, <a href="#Garbage_Collection">garbage collection</a>, <a href="#Branching">go to</a>, heap, <a href="#Inheritance">inheritance</a>, <a href="#Branching">jump</a>, library, linking, map, <a href="#Pointer">pointer</a>, pruning, <a href="#Synchronisation">rendezvous</a>, stack, turtle, weaving, window, …</text>
 			<src>P:Metaphors</src>
 		</pic>
 		<pic card>
@@ -317,7 +316,7 @@
 		</pic>
 		<pic card>
 			<title>Numeric Data Type</title>
-			<text>Often gets overlooked at the early stages of language design, but could significantly shape the application area of the language. There are many integer <a href="#Type Check">types</a>, distinguished by their byte sizes and therefore value ranges; also decimal types with fixed scale and precision; and floating point types good for scientific computations but not for handling finances.</text>
+			<text>Often gets overlooked at the early stages of language design, but could significantly shape the application area of the language. There are many integer <a href="#Type_Check">types</a>, distinguished by their byte sizes and therefore value ranges; also decimal types with fixed scale and precision; and floating point types good for scientific computations but not for handling finances.</text>
 			<src>CPL:63</src>
 			<src>PPL:65</src>
 			<src>WCC:81</src>
@@ -338,7 +337,7 @@
 		</pic>
 		<pic card>
 			<title>Parametrised Type</title>
-			<text>Some <a href="#Type Check">types</a> can be defined partially by the user and partially by the language designer. For example, the language designer knows what a <a href="#Composite Type"><em>list</em></a> is, and the language user can select any other type for list elements — this will change handling of such elements, but the philosophy behind their collection will stay the same.</text>
+			<text>Some <a href="#Type_Check">types</a> can be defined partially by the user and partially by the language designer. For example, the language designer knows what a <a href="#Composite_Type"><em>list</em></a> is, and the language user can select any other type for list elements — this will change handling of such elements, but the philosophy behind their collection will stay the same.</text>
 			<src>CPL:180</src>
 			<src>PPL:279</src>
 		</pic>
@@ -356,7 +355,7 @@
 		</pic>
 		<pic card>
 			<title>Picture Clause</title>
-			<text>A <a href="#Type Check">data type</a> that saves a specially formatted entity (usually a float or a date) that can be used directly in printing statements but also manipulated as data.</text>
+			<text>A <a href="#Type_Check">data type</a> that saves a specially formatted entity (usually a float or a date) that can be used directly in printing statements but also manipulated as data.</text>
 		</pic>
 		<pic card>
 			<title>Platform Lock-in/out</title>
@@ -365,7 +364,7 @@
 		</pic>
 		<pic card>
 			<title>Pointer</title>
-			<text>A popular data type in low level languages, representing a memory address where the data structure is stored — which is more efficient to pass across functions than the structure itself. The <a href="#Type Check">type</a> of the structure needs to be known to decipher itse contents, since the pointer itself is nothing more than a number.</text>
+			<text>A popular data type in low level languages, representing a memory address where the data structure is stored — which is more efficient to pass across functions than the structure itself. The <a href="#Type_Check">type</a> of the structure needs to be known to decipher itse contents, since the pointer itself is nothing more than a number.</text>
 			<src>CPL:69</src>
 			<src>PPL:206</src>
 			<src>WCC:86</src>
@@ -403,7 +402,7 @@
 		</pic>
 		<pic card>
 			<title>Redefine</title>
-			<text>Once something has been defined, it can be redefined in many languages: <a href="#Inheritance">derived classes</a> can overload base classes' properties, local variables can shadow the global ones with the same name, the same memory fragment can be treated as belonging to two separate <a href="#Type Check">data types</a>, etc.</text>
+			<text>Once something has been defined, it can be redefined in many languages: <a href="#Inheritance">derived classes</a> can overload base classes' properties, local variables can shadow the global ones with the same name, the same memory fragment can be treated as belonging to two separate <a href="#Type_Check">data types</a>, etc.</text>
 			<src>CPL:138</src>
 			<src>PPL:85</src>
 		</pic>
@@ -415,7 +414,7 @@
 		</pic>
 		<pic card>
 			<title>Runtime</title>
-			<text>A runtime environment is a system component that must accompany the result of the compilation in order for it to function correctly. May be completely non-existent, contain <a href="#Standard Library">standard libraries</a> or a <a href="#Virtual Machine">virtual machine</a>.</text>
+			<text>A runtime environment is a system component that must accompany the result of the compilation in order for it to function correctly. May be completely non-existent, contain <a href="#Standard_Library">standard libraries</a> or a <a href="#Virtual_Machine">virtual machine</a>.</text>
 			<src>WCC:42</src>
 		</pic>
 		<pic card>
@@ -425,14 +424,14 @@
 		</pic>
 		<pic card>
 			<title>Static Analysis</title>
-			<text>If a language does not directly limit its users' ability to express thing in a "bad" way, this is still possible for the compiler of the language. Parsing, <a href="#Type Check">type checking</a>, dependence analysis, <a href="#Pretty-printing">formatting</a>, conventions are all examples of this. One of the language design principles states that if an error gets though one line of defence, it should be caught by the next one.</text>
+			<text>If a language does not directly limit its users' ability to express thing in a "bad" way, this is still possible for the compiler of the language. Parsing, <a href="#Type_Check">type checking</a>, dependence analysis, <a href="#Pretty-printing">formatting</a>, conventions are all examples of this. One of the language design principles states that if an error gets though one line of defence, it should be caught by the next one.</text>
 			<src>A:Roadblock</src>
 			<src>PPL:7</src>
 			<src>EML:264</src>
 		</pic>
 		<pic card>
 			<title>Substitution</title>
-			<text>When a subprogram specifies the <a href="#Type Check">types</a> of input it expects, these types do not need to be treated precisely: often one can use entities of subtypes of the specified types (e.g., put a circle in a function that draws a shape because a circle is a subtype of shape). Subtyping is nontrivial, and the designer must choose among covariance, contravariance, invariance, etc.</text>
+			<text>When a subprogram specifies the <a href="#Type_Check">types</a> of input it expects, these types do not need to be treated precisely: often one can use entities of subtypes of the specified types (e.g., put a circle in a function that draws a shape because a circle is a subtype of shape). Subtyping is nontrivial, and the designer must choose among covariance, contravariance, invariance, etc.</text>
 			<src>CPL:197</src>
 			<src>PPL:208</src>
 		</pic>
@@ -463,7 +462,7 @@
 		</pic>
 		<pic card>
 			<title>Type Definition</title>
-			<text>Several <abbr title="General Purpose Languages">GPLs</abbr> and many <abbr title="Domain-Specific Languages">DSLs</abbr> can exist perfectly without ever needing any user-defined types. However, in many cases it can prove useful to allow the language user to make their own <a href="#Record">data structures</a> and algebraic data types to provide their input for the <a href="#Type Check">type checker</a>.</text>
+			<text>Several <abbr title="General Purpose Languages">GPLs</abbr> and many <abbr title="Domain-Specific Languages">DSLs</abbr> can exist perfectly without ever needing any user-defined types. However, in many cases it can prove useful to allow the language user to make their own <a href="#Record">data structures</a> and algebraic data types to provide their input for the <a href="#Type_Check">type checker</a>.</text>
 			<src>CPL:60</src>
 			<src>PPL:268</src>
 			<src>WCC:26</src>
@@ -488,9 +487,9 @@
 		</pic>
 		<pic card>
 			<title>Virtual Machine</title>
-			<text>An emulator for a real or imaginary hardware architecture that has a low level coding language that can be used by other components or tools to compiler high level languages to. VMs trades off performance for an extra layer of abstraction. Some virtual machines (e.g., Dis) compile their code into native machine code just before running it.</text>
+			<text>An emulator for a real or imaginary hardware architecture that has a low level coding language that can be used by other components or tools to compiler high level languages to. VMs trades off performance for an extra layer of abstraction. Some virtual machines (e.g., <a href="https:en.wikipedia.orgwikiLimbo_(programming_language)">Dis</a>) compile their code into native machine code just before running it.</text>
 		</pic>
-		<br/><hr/>
+		<hr/>
 		<div class="src">
 			<ul>				<li class="dwi A"><a href="http://designwithintent.co.uk/architectural-lens/">Design with Intent (Lockton, Harrison, Stanton, 2010): Architectural Lens</a></li>
 				<li class="dwi E"><a href="http://designwithintent.co.uk/errorproofing-lens/">Design with Intent (Lockton, Harrison, Stanton, 2010): Errorproofing Lens</a></li>
@@ -505,9 +504,9 @@
 		<div class="src">
 			<ul>				<li class="pl cpl"><a href="http://amzn.to/2n8cd5u">Comparative Programming Languages (Wilson, Clark, 1993)</a></li>				<li class="pl ppl"><a href="http://amzn.to/2nmFg70">Principles of Programming Languages: Design, Evaluation and Implementation (MacLennan, 1983)</a></li>				<li class="pl eml"><a href="http://amzn.to/2n8yz6y">Engineering Modeling Languages (Combemale, France, Jézéquel, Rumpe, Steel, Vojtisek, 2017)</a></li>				<li class="pl wcc"><a href="http://amzn.to/2nmUPeU">Compiler Construction (Wirth, 2005)</a></li>			</ul>
 		</div>
-		<br/><hr/>
+		<hr/>
 		<div class="last">
-			The collection created and maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.<br/>
+			The collection of <strong>82</strong> cards created and maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.<br/>
 			Sources colour coded and explained above this notice.<br/>
 			Last updated: #LASTMOD#.<br/>
 			<a href="http://validator.w3.org/check/referer"><img src="../www/xhtml.88.png" alt="XHTML 1.1" /></a>
