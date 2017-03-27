@@ -52,6 +52,7 @@
 			<text>Forking the computation based on conditions known at runtime, is a popular construct. Control flow can be transferred unconditionally (<em>branch, jump, goto</em>), or conditionally (based on true/false, zero/positive/negative, explicit condition, exhaustive patterns, etc).</text>
 			<src>CPL:86</src>
 			<src>PPL:42</src>
+			<src>WCC:61</src>
 		</pic>
 		<pic card>
 			<title>Built-in Pattern</title>
@@ -120,6 +121,7 @@
 			<text>Arrays, lists, tuples, sets and multisets are the most common <a href="#Type Definition">user-defined</a> <a href="#Parametrised Type">parametrised</a> types for collections of elements. It is up to the language designer to decide which ones are supported and how they are handled — can elements within on collection have different types, are they mutable, passed by name/value/reference, etc.</text>
 			<src>CPL:156</src>
 			<src>PPL:70</src>
+			<src>WCC:83</src>
 		</pic>
 		<pic card>
 			<title>Concrete Syntax</title>
@@ -178,6 +180,7 @@
 			<text>An enumeration is a <a href="#Type Definition">data type</a> that defines a very limited set of possible values which are, nevertheless, more comfortably referred to by their names and not by encoded numbers. The most famous enumeration is the Boolean (logical) type, which contains only two values: <em>true</em> and <em>false</em>. If the domain permits, the language does not have to support user-defined enumerations.</text>
 			<src>CPL:66</src>
 			<src>PPL:188</src>
+			<src>WCC:65</src>
 		</pic>
 		<pic card>
 			<title>Esotericism</title>
@@ -257,16 +260,22 @@
 			<src>PPL:13</src>
 		</pic>
 		<pic card>
+			<title>Instruction Set</title>
+			<text>Instead of freely combinable statements and expressions, low level languages (microcodes, assemblers, <a href="#Virtual Machine">virtual machine</a> bytecodes, etc) have limited non-extendable instruction sets. Each of the instructions typically has a mnemonic (name) and a bit-level encoding. Realistic assemblers had to introduce <a href="#Macro">macro</a> expansions to make programming experience tolerable.</text>
+		</pic>
+		<pic card>
 			<title>Iteration</title>
 			<text>There are many looping constructs, ranging from the imperative classics such as a for loop, to the functional classics such as <em>map</em>, <em>filter</em> and <em>fold</em> (or <em>reduce</em>). It is not uncommon for languages to support only some of these constructs. Some older <abbr title="General Purpose Languages">GPLs</abbr> and <abbr title="Fourth Generation Languages">4GLs</abbr> also have one iterative construct which can be annotated with all kinds of conditions and steppers.</text>
 			<src>CPL:89</src>
 			<src>PPL:47</src>
+			<src>WCC:61</src>
 		</pic>
 		<pic card>
 			<title>Keyword</title>
 			<text>Special words in <a href="#Concrete Syntax">concrete syntax</a> of the language that carry identical meaning across all possible programs in the same language. Can be made reserved so that programmers may not redefine them. A language can get new keywords by evolution.</text>
 			<src>CPL:11</src>
 			<src>PPL:92</src>
+			<src>WCC:33</src>
 		</pic>
 		<pic card>
 			<title>Labelling</title>
@@ -284,6 +293,10 @@
 			<src>I:Real-time feedback</src>
 		</pic>
 		<pic card>
+			<title>Macro</title>
+			<text>A mechanism commonly found in low level languages that allow users to define a piece of <a href="#Syntactic Sugar">syntactic sugar</a> to be <em>expanded</em> into a longer sequence of <a href="#Instruction Set">instructions</a>. Advanced parametrised macros resemble <a href="#Procedure">procedures</a> in expressivity but may behave less reliably due to their lexical nature.</text>
+		</pic>
+		<pic card>
 			<title>Meme</title>
 			<text><a href="http://lolcode.org/">LOLCODE</a>, <a href="http://lhartikk.github.io/ArnoldC/">ArnoldC</a> and others are languages developed based on the memes that are circulating among software engineers: the popularity of them piggybacks entirely on the viral nature of those memes.</text>
 			<src>L:Make it a meme</src>
@@ -299,6 +312,7 @@
 			<src>A:Segmentation</src>
 			<src>CPL:113</src>
 			<src>PPL:267</src>
+			<src>WCC:92</src>
 			<src>P:Proximity &amp; grouping</src>
 		</pic>
 		<pic card>
@@ -306,6 +320,7 @@
 			<text>Often gets overlooked at the early stages of language design, but could significantly shape the application area of the language. There are many integer <a href="#Type Check">types</a>, distinguished by their byte sizes and therefore value ranges; also decimal types with fixed scale and precision; and floating point types good for scientific computations but not for handling finances.</text>
 			<src>CPL:63</src>
 			<src>PPL:65</src>
+			<src>WCC:81</src>
 		</pic>
 		<pic card>
 			<title>Operator Precedence</title>
@@ -337,6 +352,7 @@
 			<text>Breaking a process into phases is one of the most used divide-and-conquer principles applied in language processing. Most compilers are designed to work in phases, and different competences and skills are required to implement each phase.</text>
 			<src>I:Partial completion</src>
 			<src>PPL:38</src>
+			<src>WCC:7</src>
 		</pic>
 		<pic card>
 			<title>Picture Clause</title>
@@ -352,6 +368,7 @@
 			<text>A popular data type in low level languages, representing a memory address where the data structure is stored — which is more efficient to pass across functions than the structure itself. The <a href="#Type Check">type</a> of the structure needs to be known to decipher itse contents, since the pointer itself is nothing more than a number.</text>
 			<src>CPL:69</src>
 			<src>PPL:206</src>
+			<src>WCC:86</src>
 		</pic>
 		<pic card>
 			<title>Pretty-printing</title>
@@ -370,6 +387,7 @@
 			<text>Pieces of code that can be executed from other places in the program, are common to all languages, since they promote reuse, but they are designed differently. Some languages only allow them to be attached to an object (methods) or a class (static methods), others provide special <a href="#Synchronisation">synchronisation</a> mechanisms to procedures to cooperate (coroutines, delegates), etc.</text>
 			<src>CPL:106</src>
 			<src>PPL:35</src>
+			<src>WCC:74</src>
 		</pic>
 		<pic card>
 			<title>Program Smell</title>
@@ -381,6 +399,7 @@
 			<text>Many languages have some kinds of records or structures that bundle several related pieces of data without attaching methods to work with that data. A dynamic variation thereof is known as a <em>dictionary</em> or a <em>map</em> (e.g., hashmap) and it allows users to add and remove fields at runtime.</text>
 			<src>CPL:169</src>
 			<src>PPL:199</src>
+			<src>WCC:41</src>
 		</pic>
 		<pic card>
 			<title>Redefine</title>
@@ -393,6 +412,16 @@
 			<text>Refactorings are code changes that do not impact the system's behaviour but change its internal structure to improve code quality, prepare for the subsequent change, etc. Some <abbr title="Domain-Specific Modelling Languages">DSMLs</abbr> mean their programs to <em>only</em> change through refactorings and refinements. In other domains it is also not uncommon to eventually get refactoring support in the <a href="#IDE">IDE</a>.</text>
 			<src>C:Rephrasing &amp; renaming</src>
 			<src>EML:154</src>
+		</pic>
+		<pic card>
+			<title>Runtime</title>
+			<text>A runtime environment is a system component that must accompany the result of the compilation in order for it to function correctly. May be completely non-existent, contain <a href="#Standard Library">standard libraries</a> or a <a href="#Virtual Machine">virtual machine</a>.</text>
+			<src>WCC:42</src>
+		</pic>
+		<pic card>
+			<title>Standard Library</title>
+			<text>A library or a set of libraries that are shipped together with the language. It can be a tough design decision for the language designer to decide which functionality needs to become native constructs and which can go into the standard library.</text>
+			<src>WCC:78</src>
 		</pic>
 		<pic card>
 			<title>Static Analysis</title>
@@ -437,6 +466,7 @@
 			<text>Several <abbr title="General Purpose Languages">GPLs</abbr> and many <abbr title="Domain-Specific Languages">DSLs</abbr> can exist perfectly without ever needing any user-defined types. However, in many cases it can prove useful to allow the language user to make their own <a href="#Record">data structures</a> and algebraic data types to provide their input for the <a href="#Type Check">type checker</a>.</text>
 			<src>CPL:60</src>
 			<src>PPL:268</src>
+			<src>WCC:26</src>
 		</pic>
 		<pic card>
 			<title>Undefined Behaviour</title>
@@ -454,6 +484,11 @@
 			<text>These named memory areas are thought to be fundamental for the nature of computation — and they are within the von Neumann paradigm, which is not the only choice modern people have. One can make their language more functional and force its users to think about data flow, or make it more imperative and let them worry about where the intermediate data is stored.</text>
 			<src>CPL:52</src>
 			<src>PPL:22</src>
+			<src>WCC:72</src>
+		</pic>
+		<pic card>
+			<title>Virtual Machine</title>
+			<text>An emulator for a real or imaginary hardware architecture that has a low level coding language that can be used by other components or tools to compiler high level languages to. VMs trades off performance for an extra layer of abstraction. Some virtual machines (e.g., Dis) compile their code into native machine code just before running it.</text>
 		</pic>
 		<br/><hr/>
 		<div class="src">
@@ -468,7 +503,7 @@
 			</ul>
 		</div>
 		<div class="src">
-			<ul>				<li class="pl cpl"><a href="http://amzn.to/2n8cd5u">Comparative Programming Languages (Wilson, Clark, 1993)</a></li>				<li class="pl ppl"><a href="http://amzn.to/2nmFg70">Principles of Programming Languages: Design, Evaluation and Implementation (MacLennan, 1983)</a></li>				<li class="pl eml"><a href="http://amzn.to/2n8yz6y">Engineering Modeling Languages (Combemale, France, Jézéquel, Rumpe, Steel, Vojtisek, 2017)</a></li>			</ul>
+			<ul>				<li class="pl cpl"><a href="http://amzn.to/2n8cd5u">Comparative Programming Languages (Wilson, Clark, 1993)</a></li>				<li class="pl ppl"><a href="http://amzn.to/2nmFg70">Principles of Programming Languages: Design, Evaluation and Implementation (MacLennan, 1983)</a></li>				<li class="pl eml"><a href="http://amzn.to/2n8yz6y">Engineering Modeling Languages (Combemale, France, Jézéquel, Rumpe, Steel, Vojtisek, 2017)</a></li>				<li class="pl wcc"><a href="http://amzn.to/2nmUPeU">Compiler Construction (Wirth, 2005)</a></li>			</ul>
 		</div>
 		<br/><hr/>
 		<div class="last">

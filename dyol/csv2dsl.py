@@ -147,12 +147,10 @@ for line in lines[1:]:
 		if fs[0]!='' and fs[IDXdwi] != '':
 			cards[name].insert(len(cards[name])-1,
 				'			<src>{}:{}</src>\n'.format(fs[0],fs[IDXdwi]).replace('&','&amp;'))
-		if fs[IDXcpl]!='':
-			cards[name].insert(len(cards[name])-1,
-				'			<src>CPL:{}</src>\n'.format(fs[IDXcpl]))
-		if fs[IDXppl]!='':
-			cards[name].insert(len(cards[name])-1,
-				'			<src>PPL:{}</src>\n'.format(fs[IDXppl]))
+		for idx in range(IDXexp+1,IDXtxt):
+			if fs[idx]!='':
+				cards[name].insert(len(cards[name])-1,
+					'			<src>{}:{}</src>\n'.format(header[idx], fs[idx]))
 		continue
 	card.append('		<pic card>\n')
 	card.append('			<title>{}</title>\n'.format(name.replace('&','&amp;')))
@@ -161,12 +159,9 @@ for line in lines[1:]:
 	card.append('			<text>{}</text>\n'.format(fancy(text if text != '' else 'TBD')))
 	if fs[0]!='' and fs[IDXdwi] != '':
 		card.append('			<src>{}:{}</src>\n'.format(fs[0],fs[IDXdwi]).replace('&','&amp;'))
-	if fs[IDXcpl]!='':
-		card.append('			<src>CPL:{}</src>\n'.format(fs[IDXcpl]))
-	if fs[IDXppl]!='':
-		card.append('			<src>PPL:{}</src>\n'.format(fs[IDXppl]))
-	if fs[IDXeml]!='':
-		card.append('			<src>EML:{}</src>\n'.format(fs[IDXeml]))
+	for idx in range(IDXexp+1,IDXtxt):
+		if fs[idx]!='':
+			card.append('			<src>{}:{}</src>\n'.format(header[idx], fs[idx]))
 	card.append('		</pic>\n')
 	cards[name] = card
 
@@ -190,20 +185,21 @@ for book in (
 		('cpl', 'http://amzn.to/2n8cd5u', 'Comparative Programming Languages (Wilson, Clark, 1993)'),
 		('ppl', 'http://amzn.to/2nmFg70', 'Principles of Programming Languages: Design, Evaluation and Implementation (MacLennan, 1983)'),
 		('eml', 'http://amzn.to/2n8yz6y', 'Engineering Modeling Languages (Combemale, France, Jézéquel, Rumpe, Steel, Vojtisek, 2017)'),
+		('wcc', 'http://amzn.to/2nmUPeU', 'Compiler Construction (Wirth, 2005)'),
 	):
 	dsl.write('				<li class="pl {}"><a href="{}">{}</a></li>'.format(book[0], book[1], book[2]))
 dsl.write('''			</ul>
 		</div>
 		<br/><hr/>
 		<div class="last">
-			The collection created and maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.<br/>
+			The collection of <strong>{}</strong> cards created and maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.<br/>
 			Sources colour coded and explained above this notice.<br/>
 			Last updated: #LASTMOD#.<br/>
 			<a href="http://validator.w3.org/check/referer"><img src="../www/xhtml.88.png" alt="XHTML 1.1" /></a>
 			<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="../www/css.88.png" alt="CSS 3" /></a>
 		</div>
 	</body>
-</html>''')
+</html>'''.format(len(keys)))
 dsl.close()
 
 for card in links:
