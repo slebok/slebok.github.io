@@ -13,6 +13,7 @@
 			<title>Access Modifier</title>
 			<text>Annotate components with information about how others are allowed or not allowed to access them. Access can be limited by <a href="#Inheritance">inheritance</a> (<em>protected</em> in C++), <a href="#Module">modular</a> structure (<em>internal</em> in C#), etc. The most popular modifiers are <em>public</em> (everyone welcome) and <em>private</em> (fully restricted).</text>
 			<src>A:Angles</src>
+			<src>HCD:42</src>
 		</pic>
 		<pic card>
 			<title>Assertion</title>
@@ -26,6 +27,10 @@
 			<src>PZPL:201</src>
 			<src>WGCC:23</src>
 			<src>A60:3</src>
+			<src>GDB:50</src>
+			<src>HCD:620</src>
+			<src>ACDI:36</src>
+			<src>WCI:87</src>
 		</pic>
 		<pic card>
 			<title>Backtracking</title>
@@ -33,6 +38,7 @@
 			<src>I:Kairos</src>
 			<src>PPL:516</src>
 			<src>PZPL:378</src>
+			<src>GDB:174</src>
 		</pic>
 		<pic card>
 			<title>Backward Compatibility</title>
@@ -46,11 +52,15 @@
 		</pic>
 		<pic card>
 			<title>Block</title>
-			<text>Viewing a list of statements as a specific kind of statement is a conceptual eye-opener and allows to treat composite constructs in a uniform and orthogonal way (<em>if … begin … end</em> and <em>do … begin … end</em> instead of <em>if … endif</em> and <em>do … enddo</em>). Languages either use delimiters (begin/end or curly brackets) or <a href="#Indentation__Whitespace">indentation</a>. Blocks can be seen as degenerate <a href="#Procedure">procedures</a>.</text>
+			<text>Viewing a list of statements as a specific (<em>compound</em>) kind of statement is a conceptual eye-opener and allows to treat composite constructs in a uniform and <a href="#Orthogonal_Design">orthogonal</a> way (<em>if … begin … end</em> and <em>do … begin … end</em> instead of <em>if … endif</em> and <em>do … enddo</em>). Languages either use delimiters (begin/end or curly brackets) or <a href="#Indentation__Whitespace">indentation</a>. Blocks can be seen as degenerate <a href="#Procedure">procedures</a>.</text>
 			<src>CPL:85</src>
 			<src>PPL:106</src>
 			<src>PZPL:356</src>
 			<src>A60:13</src>
+			<src>GDB:53</src>
+			<src>HCD:559</src>
+			<src>ACDI:676</src>
+			<src>WCI:88</src>
 		</pic>
 		<pic card>
 			<title>Branching</title>
@@ -61,6 +71,10 @@
 			<src>PZPL:357</src>
 			<src>WGCC:31</src>
 			<src>A60:20</src>
+			<src>GDB:282</src>
+			<src>HCD:474</src>
+			<src>ACDI:38</src>
+			<src>WCI:87</src>
 		</pic>
 		<pic card>
 			<title>Built-in Pattern</title>
@@ -75,6 +89,8 @@
 			<src>PZPL:215</src>
 			<src>WGCC:25</src>
 			<src>A60:81</src>
+			<src>GDB:43</src>
+			<src>WCI:35</src>
 		</pic>
 		<pic card>
 			<title>Class</title>
@@ -95,9 +111,12 @@
 		</pic>
 		<pic card>
 			<title>Code Generation</title>
-			<text><a href="#Generation">Generation</a> of machine code, a program in a target language, an output model or a textual result, is the last <a href="#Phased_Process">phase</a> of a classic compiler (before or after <a href="#Optimisation">optimisation</a>). What is typical for code generation is the richness of the input (generously annotated intermediate graphs) and a deliberate limitedness of the output (which is often platform-specific). In <abbr title="Model-Driven Engineering">MDE</abbr> code generation is usually implemented by model-to-text transformations.</text>
+			<text><a href="#Generation">Generation</a> of machine code, intermediate code, a program in a target language, an output model or a textual result, is the last <a href="#Phased_Process">phase</a> of a classic compiler (before or after <a href="#Optimisation">optimisation</a>). What is typical for code generation is the richness of the input (generously annotated intermediate graphs) and a deliberate limitedness of the output (which is often platform-specific). In <abbr title="Model-Driven Engineering">MDE</abbr> code generation is usually implemented by model-to-text transformations.</text>
 			<src>PZPL:111</src>
 			<src>WGCC:253</src>
+			<src>GDB:518</src>
+			<src>HCD:445</src>
+			<src>ACDI:137</src>
 		</pic>
 		<pic card>
 			<title>Code Mining</title>
@@ -124,6 +143,7 @@
 			<src>EML:23</src>
 			<src>PZPL:99</src>
 			<src>A60:36</src>
+			<src>WCI:33</src>
 		</pic>
 		<pic card>
 			<title>Commit Hook</title>
@@ -136,22 +156,32 @@
 			<src>E:Conditional warnings</src>
 			<src>PZPL:109</src>
 			<src>WGCC:303</src>
+			<src>GDB:21</src>
+			<src>HCD:88</src>
+			<src>WCI:39</src>
 		</pic>
 		<pic card>
 			<title>Compilation Warning</title>
 			<text>When a compiler detects a possibly dangerous situation with extremely limited applicability, it displays a warning message and proceeds with the build process anyway. In many cases there is a special option for disabling a particular warning for a particular piece of code. Warnings can be given when an <em>anomaly</em> or a <a href="#Program_Smell">smell</a> is detected. Can be provided as a <a href="#Live_Feedback">live feedback</a>.</text>
 			<src>E:Did you mean?</src>
 			<src>WGCC:304</src>
+			<src>GDB:382</src>
+			<src>HCD:34</src>
+			<src>WCI:79</src>
 		</pic>
 		<pic card>
 			<title>Composite Type</title>
-			<text>Arrays, lists, tuples, sets and multisets are the most common <a href="#Type_Definition">user-defined</a> <a href="#Parametrised_Type">parametrised</a> types for collections of elements. It is up to the language designer to decide which ones are supported and how they are handled — can elements within on collection have different types, are they mutable, passed by name/value/reference, etc.</text>
+			<text>Arrays, lists, tuples, sets and multisets are the most common <a href="#Type_Definition">user-defined</a> <a href="#Parametrised_Type">parametrised</a> types for collections of elements. It is up to the language designer to decide which ones are supported and how they are handled — can elements within on collection have different types, are they mutable, <a href="#Parameter_Passing">passed</a> by name/value/reference, etc.</text>
 			<src>CPL:156</src>
 			<src>PPL:70</src>
 			<src>WCC:83</src>
 			<src>PZPL:238</src>
 			<src>WGCC:23</src>
 			<src>A60:37</src>
+			<src>GDB:39</src>
+			<src>HCD:599</src>
+			<src>ACDI:30</src>
+			<src>WCI:123</src>
 		</pic>
 		<pic card>
 			<title>Concrete Syntax</title>
@@ -161,24 +191,42 @@
 			<src>EML:21</src>
 			<src>PZPL:41</src>
 			<src>WGCC:17</src>
+			<src>GDB:28</src>
+			<src>HCD:166</src>
 		</pic>
 		<pic card>
 			<title>Concurrency</title>
 			<text>Sometimes a program can be decomposed into components that are executable in parallel on different CPU cores or different devices. This can be completely undesirable, or performed automatically, or use the language user's guidance in <a href="#Synchronisation">synchronisation</a> of threads, tasks and processes.</text>
 			<src>PZPL:483</src>
 			<src>WGCC:32</src>
+			<src>ACDI:571</src>
 		</pic>
 		<pic card>
 			<title>Conditional Compilation</title>
 			<text>Some conditions can be checked during compile type and result in different code to be produced by the compiler to be run later. This is frequently used in situations when one codebase specifies the behaviour of a system that must be compiled and deployed under a variety of devices and hardware architectures. To simplify compiler construction, conditional compilation can be handled by a preprocessor.</text>
+			<src>HCD:275</src>
+		</pic>
+		<pic card>
+			<title>Cross-compilation</title>
+			<text>A cross-compiler, or a <em>transpiler</em>, works on one platform but ultimately targets another. Relying on a cross-compiler allows to separate the development platform from the one where the programs get deployed to — for instance, a mobile app developer can work with a proper keyboard and a big screen. The <a href="#IDE">IDE</a> for a cross-compiled language may include a <a href="#Virtual_Machine">virtual machine</a> for execution, <a href="#Debugging">debugging</a>, etc.</text>
+			<src>CPL:?</src>
+			<src>PPL:?</src>
+			<src>EML:?</src>
+			<src>WCC:?</src>
+			<src>PZPL:?</src>
+			<src>WGCC:?</src>
+			<src>A60:?</src>
+			<src>GDB:24</src>
 		</pic>
 		<pic card>
 			<title>Debugging</title>
 			<text>The activity of finding and fixing sources of incorrect behaviour is not enjoyed by many language users, but is used by all of them without exception anyway. Declarative languages are the hardest to debug and imperative ones are the easiest. Most modern languages are shipped with a dedicated debugger or have debugging functionality in the <a href="#IDE">IDE</a>.</text>
 			<src>E:Are you sure?</src>
-			<src>WGCC:322</src>
-			<src>E:Interlock</src>
 			<src>PZPL:55</src>
+			<src>WGCC:322</src>
+			<src>HCD:263</src>
+			<src>WCI:261</src>
+			<src>E:Interlock</src>
 		</pic>
 		<pic card>
 			<title>Default</title>
@@ -198,6 +246,10 @@
 			<src>EML:30</src>
 			<src>PZPL:363</src>
 			<src>WGCC:90</src>
+			<src>GDB:79</src>
+			<src>HCD:13</src>
+			<src>ACDI:100</src>
+			<src>WCI:63</src>
 		</pic>
 		<pic card>
 			<title>Developer Communication</title>
@@ -228,6 +280,9 @@
 			<src>PZPL:213</src>
 			<src>WGCC:21</src>
 			<src>A60:65</src>
+			<src>HCD:550</src>
+			<src>ACDI:29</src>
+			<src>WCI:123</src>
 		</pic>
 		<pic card>
 			<title>Esotericism</title>
@@ -246,6 +301,7 @@
 			<src>CPL:95</src>
 			<src>PPL:316</src>
 			<src>PZPL:484</src>
+			<src>ACDI:637</src>
 		</pic>
 		<pic card>
 			<title>Feature Lock-out</title>
@@ -268,11 +324,26 @@
 		</pic>
 		<pic card>
 			<title>Generation</title>
-			<text>Tedious, repetitive and error-prone programming tasks can be automated by using templates, wizards, explicit staging/morphing constructs of generative programming, construction workbenches, etc. In many practical cases the language user is allowed to edit the result to fine-tune it.</text>
+			<text>Tedious, repetitive and error-prone programming tasks can be automated by using templates, wizards, explicit staging/morphing constructs of generative programming, construction workbenches, etc. In many practical cases the language user is allowed to edit the result to fine-tune it. The final generation <a href="#Phased_Process">phase</a> is called <a href="#Code_Generation">code generation</a>.</text>
 			<src>A:Mazes</src>
 			<src>PPL:5</src>
 			<src>EML:119</src>
 			<src>I:Tunnelling &amp; wizards</src>
+		</pic>
+		<pic card>
+			<title>Heterogeneous Structures</title>
+			<text>Some languages allow considerable freedom in <a href="#Type_Definition">types</a> that makes <a href="#Composite_Type">composite types</a> capable of carrying elements of varying structure. Examples: variant <a href="#Record">records</a> in Modula and Ada, heterogeneous lists in Python, polytypic <a href="#Procedure">functions</a> in Haskell, <a href="https:wiki.haskell.orgGeneralised_algebraic_datatype">GADTs</a> in Haskell.</text>
+			<src>CPL:?</src>
+			<src>PPL:?</src>
+			<src>EML:?</src>
+			<src>WCC:?</src>
+			<src>PZPL:?</src>
+			<src>WGCC:?</src>
+			<src>A60:?</src>
+			<src>GDB:?</src>
+			<src>RDB:?</src>
+			<src>PDB:?</src>
+			<src>HCD:?</src>
 		</pic>
 		<pic card>
 			<title>Holy War</title>
@@ -313,11 +384,14 @@
 			<src>PPL:13</src>
 			<src>PZPL:223</src>
 			<src>A60:73</src>
+			<src>WCI:341</src>
 		</pic>
 		<pic card>
 			<title>Instruction Set</title>
 			<text>Instead of freely combinable statements and expressions, low level languages (microcodes, assemblers, <a href="#Virtual_Machine">virtual machine</a> bytecodes, etc) have limited non-extendable instruction sets. Each of the instructions typically has a mnemonic (name) and a bit-level encoding. Realistic assemblers had to introduce <a href="#Macro">macro</a> expansions to make programming experience tolerable.</text>
 			<src>WGCC:292</src>
+			<src>ACDI:599</src>
+			<src>WCI:288</src>
 		</pic>
 		<pic card>
 			<title>Iteration</title>
@@ -328,6 +402,10 @@
 			<src>PZPL:358</src>
 			<src>WGCC:31</src>
 			<src>A60:26</src>
+			<src>GDB:282</src>
+			<src>HCD:642</src>
+			<src>ACDI:39</src>
+			<src>WCI:87</src>
 		</pic>
 		<pic card>
 			<title>Keyword</title>
@@ -337,6 +415,9 @@
 			<src>WCC:33</src>
 			<src>PZPL:99</src>
 			<src>WGCC:140</src>
+			<src>GDB:33</src>
+			<src>ACDI:40</src>
+			<src>WCI:34</src>
 		</pic>
 		<pic card>
 			<title>Labelling</title>
@@ -359,6 +440,8 @@
 			<text>A mechanism commonly found in low level languages that allow users to define a piece of <a href="#Syntactic_Sugar">syntactic sugar</a> to be <em>expanded</em> into a longer sequence of <a href="#Instruction_Set">instructions</a>. Advanced parametrised macros resemble <a href="#Procedure">procedures</a> in expressivity but may behave less reliably due to their lexical nature. In bigger languages macros are typically handled by a preprocessor.</text>
 			<src>PZPL:74</src>
 			<src>WGCC:294</src>
+			<src>GDB:3</src>
+			<src>HCD:101</src>
 		</pic>
 		<pic card>
 			<title>Meme</title>
@@ -377,6 +460,7 @@
 			<src>CPL:113</src>
 			<src>PPL:267</src>
 			<src>WCC:92</src>
+			<src>HCD:459</src>
 			<src>P:Proximity &amp; grouping</src>
 		</pic>
 		<pic card>
@@ -388,6 +472,7 @@
 			<src>PZPL:205</src>
 			<src>WGCC:22</src>
 			<src>A60:16</src>
+			<src>WCI:36</src>
 		</pic>
 		<pic card>
 			<title>Operator Precedence</title>
@@ -397,12 +482,19 @@
 			<src>PZPL:332</src>
 			<src>WGCC:28</src>
 			<src>A60:9</src>
+			<src>GDB:47</src>
+			<src>HCD:819</src>
+			<src>WCI:71</src>
 		</pic>
 		<pic card>
 			<title>Optimisation</title>
 			<text>It is always easier and less error-prone to <a href="#Generation">generate</a> intermediate code or <a href="#Code_Generation">machine code</a> with simple and straightforward patterns and subsequently optimise the result in a different <a href="#Phased_Process">phase</a>. The effect on the language users is that they do not need to optimise their programs to the fullest, since their own naïve code will be optimised together with the rest. Small efficiences are only relevant 3% of the time, for the rest premature optimisation is considered the root of all evil.</text>
 			<src>PZPL:110</src>
 			<src>WGCC:326</src>
+			<src>GDB:406</src>
+			<src>HCD:657</src>
+			<src>ACDI:6</src>
+			<src>WCI:382</src>
 		</pic>
 		<pic card>
 			<title>Order</title>
@@ -425,6 +517,23 @@
 			<src>PPL:8</src>
 		</pic>
 		<pic card>
+			<title>Parameter Passing</title>
+			<text>There are several strategies in mapping <em>arguments</em> that are being passed to a <a href="#Procedure">procedure</a> in a call with the <em>parameters</em> that procedure expects to get: <em>call by value</em> (expose only the values, safe but inefficient for <a href="#Composite_Type">composite data</a>), <em>call by result</em> (same but can return several values at once), <em>call by value-result</em> (the caller gets values, updates them, they are passed back), <em>call by reference</em> (expose <a href="#Pointer">pointers</a> to values, efficient but unsafe), <em>call by name</em> (evaluate pointers when they are used inside the caller), etc.</text>
+			<src>CPL:?</src>
+			<src>PPL:?</src>
+			<src>EML:?</src>
+			<src>WCC:?</src>
+			<src>PZPL:?</src>
+			<src>WGCC:?</src>
+			<src>A60:?</src>
+			<src>GDB:?</src>
+			<src>RDB:?</src>
+			<src>PDB:?</src>
+			<src>HCD:?</src>
+			<src>ACDI:116</src>
+			<src>WCI:161</src>
+		</pic>
+		<pic card>
 			<title>Parametrised Type</title>
 			<text>Some <a href="#Type_Check">types</a> can be defined partially by the user and partially by the language designer. For example, the language designer knows what a <a href="#Composite_Type"><em>list</em></a> is, and the language user can select any other type for list elements — this will change handling of such elements, but the philosophy behind their collection will stay the same.</text>
 			<src>CPL:180</src>
@@ -435,6 +544,7 @@
 			<title>Performance Testing</title>
 			<text>Performance testing and its variations like profiling and stress testing are commonly desired nice-to-have features in <a href="#IDE">IDEs</a>. Languages and their ecosystems greatly vary in the extent to which this aspect is recognised and supported.</text>
 			<src>A:Pave the cowpaths</src>
+			<src>WCI:279</src>
 		</pic>
 		<pic card>
 			<title>Phased Process</title>
@@ -444,6 +554,10 @@
 			<src>WCC:7</src>
 			<src>PZPL:73</src>
 			<src>WGCC:4</src>
+			<src>GDB:6</src>
+			<src>HCD:2</src>
+			<src>ACDI:2</src>
+			<src>WCI:7</src>
 		</pic>
 		<pic card>
 			<title>Picture Clause</title>
@@ -462,13 +576,17 @@
 			<src>WCC:86</src>
 			<src>PZPL:220</src>
 			<src>WGCC:25</src>
+			<src>GDB:34</src>
+			<src>HCD:469</src>
+			<src>ACDI:110</src>
 		</pic>
 		<pic card>
 			<title>Pretty-printing</title>
-			<text>A language can have a <a href="#Default">default</a> formatting convention that is not only accepted by the community to improve the representation quality of the programs, but also automated and shipped in a form of a tool. Such a tool can be very configurable, have limited feature selection or none at all.</text>
+			<text>A language can have a <a href="#Default">default</a> formatting convention that is not only accepted by the community to improve the representation quality of the programs, but also automated and shipped in a form of a tool. Such a tool can be very configurable, have limited feature selection or none at all. A pretty-printer that scans the input and minimises the <a href="#Indentation__Whitespace">delimiters</a> in it, is sometimes called a program <em>compactor</em>.</text>
 			<src>P:Implied sequences</src>
 			<src>PPL:89</src>
 			<src>EML:23</src>
+			<src>WCI:42</src>
 		</pic>
 		<pic card>
 			<title>Preview</title>
@@ -477,13 +595,17 @@
 		</pic>
 		<pic card>
 			<title>Procedure</title>
-			<text>Pieces of code that can be executed from other places in the program, are common to all languages, since they promote reuse, but they are designed differently. Some languages only allow them to be attached to an object (methods) or a class (static methods), others provide special <a href="#Synchronisation">synchronisation</a> mechanisms to procedures to cooperate (coroutines, delegates), etc.</text>
+			<text>Pieces of code that can be executed from other places in the program, are common to all languages, since they promote reuse, but they are designed differently. Some languages only allow them to be attached to an object (methods) or a class (static methods), others provide special <a href="#Synchronisation">synchronisation</a> mechanisms to procedures to cooperate (coroutines, delegates), etc. If a procedure may have <em>parameters</em>, the designer must decide on the <a href="#Parameter_Passing">parameter passing</a> strategy.</text>
 			<src>CPL:106</src>
 			<src>PPL:35</src>
 			<src>WCC:74</src>
 			<src>PZPL:276</src>
 			<src>WGCC:75</src>
 			<src>A60:42</src>
+			<src>GDB:55</src>
+			<src>HCD:466</src>
+			<src>ACDI:34</src>
+			<src>WCI:157</src>
 		</pic>
 		<pic card>
 			<title>Program Smell</title>
@@ -497,12 +619,17 @@
 			<src>PPL:199</src>
 			<src>WCC:41</src>
 			<src>PZPL:257</src>
+			<src>GDB:41</src>
+			<src>HCD:543</src>
+			<src>ACDI:33</src>
+			<src>WCI:124</src>
 		</pic>
 		<pic card>
 			<title>Redefine</title>
-			<text>Once something has been defined, it can be redefined in many languages: <a href="#Inheritance">derived classes</a> can overload base classes' properties, local variables can shadow the global ones with the same name, the same memory fragment can be treated as belonging to two separate <a href="#Type_Check">data types</a>, etc.</text>
+			<text>Once something has been defined, it can be redefined in many languages: <a href="#Inheritance">derived classes</a> can overload base classes' properties, local variables can shadow the global ones with the same name, the same memory fragment can be treated as belonging to two separate <a href="#Type_Check">data types</a> (requiring <em>alias <a href="#Static_Analysis">analysis</a></em>), etc.</text>
 			<src>CPL:138</src>
 			<src>PPL:85</src>
+			<src>ACDI:293</src>
 		</pic>
 		<pic card>
 			<title>Refactoring</title>
@@ -515,6 +642,10 @@
 			<text>A runtime environment is a system component that must accompany the result of the compilation in order for it to function correctly. May be completely non-existent, contain <a href="#Standard_Library">standard libraries</a> or a <a href="#Virtual_Machine">virtual machine</a>.</text>
 			<src>WCC:42</src>
 			<src>WGCC:319</src>
+			<src>GDB:350</src>
+			<src>HCD:477</src>
+			<src>ACDI:105</src>
+			<src>WCI:199</src>
 		</pic>
 		<pic card>
 			<title>Scope &amp; Binding</title>
@@ -523,12 +654,17 @@
 			<src>PZPL:82</src>
 			<src>WGCC:20</src>
 			<src>A60:48</src>
+			<src>GDB:60</src>
+			<src>HCD:559</src>
+			<src>ACDI:43</src>
+			<src>WCI:150</src>
 		</pic>
 		<pic card>
 			<title>Standard Library</title>
 			<text>A library or a set of libraries that are shipped together with the language. It can be a tough design decision for the language designer to decide which functionality needs to become native constructs and which can go into the standard library.</text>
 			<src>WCC:78</src>
 			<src>A60:32</src>
+			<src>WCI:164</src>
 		</pic>
 		<pic card>
 			<title>Static Analysis</title>
@@ -537,6 +673,8 @@
 			<src>PPL:7</src>
 			<src>EML:264</src>
 			<src>PZPL:169</src>
+			<src>ACDI:169</src>
+			<src>WCI:105</src>
 		</pic>
 		<pic card>
 			<title>Substitution</title>
@@ -572,6 +710,9 @@
 			<src>PPL:129</src>
 			<src>PZPL:195</src>
 			<src>WGCC:26</src>
+			<src>GDB:49</src>
+			<src>HCD:489</src>
+			<src>WCI:91</src>
 		</pic>
 		<pic card>
 			<title>Type Definition</title>
@@ -582,15 +723,20 @@
 			<src>PZPL:186</src>
 			<src>WGCC:234</src>
 			<src>A60:15</src>
+			<src>GDB:314</src>
+			<src>HCD:489</src>
+			<src>ACDI:25</src>
+			<src>WCI:111</src>
 		</pic>
 		<pic card>
 			<title>Undefined Behaviour</title>
 			<text>When a particular combination of language constructs is not explicitly specified by the standard, its implementers can take different shortcuts in interpreting it. As a result, the same piece of code produces different results based on the compiler, the computer, time of day, etc. Common in legacy languages like C or COBOL.</text>
 			<src>M:Antifeatures &amp; crippleware</src>
+			<src>HCD:598</src>
 		</pic>
 		<pic card>
 			<title>Unification</title>
-			<text>Given two composite data structures, a compiler can be tasked to find their matching components and proceed with assignment, transformation, etc. Limited forms of unification may be called <em>pattern matching</em>. Widely used in logic programming, metaprogramming, model synchronisation, bidirectional transformation, <abbr title="Fourth Generation Languages">4GLs</abbr> for banking, etc.</text>
+			<text>Given two <a href="#Composite_Type">composite data structures</a>, a compiler can be tasked to find their matching components and proceed with <a href="#Assignment">assignment</a>, transformation, etc. Limited forms of unification may be called <em>pattern matching</em>. Widely used in logic programming, metaprogramming, model synchronisation, bidirectional transformation, <abbr title="Fourth Generation Languages">4GLs</abbr> for banking, etc.</text>
 			<src>CPL:248</src>
 			<src>PPL:507</src>
 			<src>PZPL:369</src>
@@ -604,12 +750,16 @@
 			<src>PZPL:183</src>
 			<src>WGCC:9</src>
 			<src>A60:5</src>
+			<src>HCD:522</src>
+			<src>ACDI:26</src>
 		</pic>
 		<pic card>
 			<title>Virtual Machine</title>
 			<text>An emulator for a real or imaginary hardware architecture that has a low level coding language that can be used by other components or tools to compiler high level languages to. VMs trades off performance for an extra layer of abstraction. Some virtual machines (e.g., <a href="https:en.wikipedia.orgwikiLimbo_(programming_language)">Dis</a>) compile their code into native machine code just before running it.</text>
 			<src>PZPL:75</src>
 			<src>WGCC:271</src>
+			<src>HCD:446</src>
+			<src>ACDI:767</src>
 		</pic>
 		<hr/>
 		<div class="src">
@@ -624,11 +774,11 @@
 			</ul>
 		</div>
 		<div class="src">
-			<ul>				<li class="pl cpl"><a href="http://amzn.to/2n8cd5u">CPL: Comparative Programming Languages (Wilson, Clark, 1993)</a></li>				<li class="pl ppl"><a href="http://amzn.to/2nmFg70">PPL: Principles of Programming Languages: Design, Evaluation and Implementation (MacLennan, 1983)</a></li>				<li class="pl eml"><a href="http://amzn.to/2n8yz6y">EML: Engineering Modeling Languages (Combemale, France, Jézéquel, Rumpe, Steel, Vojtisek, 2017)</a></li>				<li class="pl wcc"><a href="http://amzn.to/2nmUPeU">WCC: Compiler Construction (Wirth, 2005)</a></li>				<li class="pl pzpl"><a href="http://amzn.to/2nnaieI">PZPL: Programming Languages: Design and Implementation (Pratt, Zelkowitz, 2001)</a></li>				<li class="pl wgcc"><a href="#">WGCC: Compiler Construction (Waite, Goos, 1984)</a></li>				<li class="pl a60"><a href="#">A60: A Primer of ALGOL 60 Programming (Dijkstra, 1962)</a></li>			</ul>
+			<ul>				<li class="pl rdb"><a href="#">RDB: Compilers: (Aho, Sethi, Ullman, ...)</a></li>				<li class="pl ppl"><a href="http://amzn.to/2nmFg70">PPL: Principles of Programming Languages: Design, Evaluation and Implementation (MacLennan, 1983)</a></li>				<li class="pl pdb"><a href="#">PDB: Compilers: (Aho, Sethi, Ullman, Lam, ...)</a></li>				<li class="pl wcc"><a href="http://amzn.to/2nmUPeU">WCC: Compiler Construction (Wirth, 2005)</a></li>				<li class="pl pzpl"><a href="http://amzn.to/2nnaieI">PZPL: Programming Languages: Design and Implementation (Pratt, Zelkowitz, 2001)</a></li>				<li class="pl wgcc"><a href="#">WGCC: Compiler Construction (Waite, Goos, 1984)</a></li>				<li class="pl a60"><a href="#">A60: A Primer of ALGOL 60 Programming (Dijkstra, 1962)</a></li>				<li class="pl cpl"><a href="http://amzn.to/2n8cd5u">CPL: Comparative Programming Languages (Wilson, Clark, 1993)</a></li>				<li class="pl gdb"><a href="#">GDB: Principles of Compiler Design (Aho, Ullman, 1979)</a></li>				<li class="pl eml"><a href="http://amzn.to/2n8yz6y">EML: Engineering Modeling Languages (Combemale, France, Jézéquel, Rumpe, Steel, Vojtisek, 2017)</a></li>				<li class="pl hcd"><a href="#">HCD: Compiler Design in C (Holub, 1990)</a></li>				<li class="pl acdi"><a href="#">ACDI: Advanced Compiler Design and Implementation (Muchnick, 1997)</a></li>				<li class="pl wci"><a href="#">WCI: Writing Compilers and Interpreters: An Applied Approach (Mak, 1991)</a></li>			</ul>
 		</div>
 		<hr/>
 		<div class="last">
-			The collection of <strong>88</strong> cards created and maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.<br/>
+			The collection of <strong>91</strong> cards created and maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.<br/>
 			Sources colour coded and explained above this notice.<br/>
 			Last updated: #LASTMOD#.<br/>
 			<a href="http://validator.w3.org/check/referer"><img src="../www/xhtml.88.png" alt="XHTML 1.1" /></a>

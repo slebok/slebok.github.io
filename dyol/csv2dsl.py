@@ -182,13 +182,19 @@ dsl.write('''			</ul>
 		<div class="src">
 			<ul>''')
 for book in (
-		('cpl', 'http://amzn.to/2n8cd5u', 'Comparative Programming Languages (Wilson, Clark, 1993)'),
+		('rdb','#', 'Compilers: (Aho, Sethi, Ullman, ...)'),
 		('ppl', 'http://amzn.to/2nmFg70', 'Principles of Programming Languages: Design, Evaluation and Implementation (MacLennan, 1983)'),
-		('eml', 'http://amzn.to/2n8yz6y', 'Engineering Modeling Languages (Combemale, France, Jézéquel, Rumpe, Steel, Vojtisek, 2017)'),
+		('pdb','#', 'Compilers: (Aho, Sethi, Ullman, Lam, ...)'),
 		('wcc', 'http://amzn.to/2nmUPeU', 'Compiler Construction (Wirth, 2005)'),
 		('pzpl','http://amzn.to/2nnaieI', 'Programming Languages: Design and Implementation (Pratt, Zelkowitz, 2001)'),
 		('wgcc','#', 'Compiler Construction (Waite, Goos, 1984)'),
 		('a60','#', 'A Primer of ALGOL 60 Programming (Dijkstra, 1962)'),
+		('cpl', 'http://amzn.to/2n8cd5u', 'Comparative Programming Languages (Wilson, Clark, 1993)'),
+		('gdb','#', 'Principles of Compiler Design (Aho, Ullman, 1979)'),
+		('eml', 'http://amzn.to/2n8yz6y', 'Engineering Modeling Languages (Combemale, France, Jézéquel, Rumpe, Steel, Vojtisek, 2017)'),
+		('hcd','#', 'Compiler Design in C (Holub, 1990)'),
+		('acdi','#', 'Advanced Compiler Design and Implementation (Muchnick, 1997)'),
+		('wci','#', 'Writing Compilers and Interpreters: An Applied Approach (Mak, 1991)'),
 	):
 	dsl.write('				<li class="pl {}"><a href="{}">{}: {}</a></li>'.format(book[0], book[1], book[0].upper(), book[2]))
 dsl.write('''			</ul>
