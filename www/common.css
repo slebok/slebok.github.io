@@ -37,8 +37,8 @@ li.dwi a, li.pl a {text-decoration: none;}
 .pl.ppl, .pl.ppl a {color: #c2185b;}
 .pl.eml, .pl.eml a {color: #9c27b0;}
 .pl.pzpl,.pl.pzpl a {color: #7986cb;}
-.pl.b6, .pl.b6 a {color: #2196f3;}
-.pl.b7, .pl.b7 a {color: #00bcd4;}
+.pl.wgcc,.pl.wgcc a {color: #2196f3;}
+.pl.a60, .pl.a60 a {color: #00bcd4;}
 .pl.b8, .pl.b8 a {color: #009688;}
 .pl.b9, .pl.b9 a {color: #4caf50;}
 /*https://material.io/guidelines/style/color.html#color-color-palette*/

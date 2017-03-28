@@ -24,6 +24,8 @@
 			<src>CPL:82</src>
 			<src>PPL:105</src>
 			<src>PZPL:201</src>
+			<src>WGCC:23</src>
+			<src>A60:3</src>
 		</pic>
 		<pic card>
 			<title>Backtracking</title>
@@ -48,6 +50,7 @@
 			<src>CPL:85</src>
 			<src>PPL:106</src>
 			<src>PZPL:356</src>
+			<src>A60:13</src>
 		</pic>
 		<pic card>
 			<title>Branching</title>
@@ -56,6 +59,8 @@
 			<src>PPL:42</src>
 			<src>WCC:61</src>
 			<src>PZPL:357</src>
+			<src>WGCC:31</src>
+			<src>A60:20</src>
 		</pic>
 		<pic card>
 			<title>Built-in Pattern</title>
@@ -68,6 +73,8 @@
 			<src>CPL:67</src>
 			<src>PPL:185</src>
 			<src>PZPL:215</src>
+			<src>WGCC:25</src>
+			<src>A60:81</src>
 		</pic>
 		<pic card>
 			<title>Class</title>
@@ -90,6 +97,7 @@
 			<title>Code Generation</title>
 			<text><a href="#Generation">Generation</a> of machine code, a program in a target language, an output model or a textual result, is the last <a href="#Phased_Process">phase</a> of a classic compiler (before or after <a href="#Optimisation">optimisation</a>). What is typical for code generation is the richness of the input (generously annotated intermediate graphs) and a deliberate limitedness of the output (which is often platform-specific). In <abbr title="Model-Driven Engineering">MDE</abbr> code generation is usually implemented by model-to-text transformations.</text>
 			<src>PZPL:111</src>
+			<src>WGCC:253</src>
 		</pic>
 		<pic card>
 			<title>Code Mining</title>
@@ -115,6 +123,7 @@
 			<src>CPL:12</src>
 			<src>EML:23</src>
 			<src>PZPL:99</src>
+			<src>A60:36</src>
 		</pic>
 		<pic card>
 			<title>Commit Hook</title>
@@ -123,14 +132,16 @@
 		</pic>
 		<pic card>
 			<title>Compilation Error</title>
-			<text>Modern languages have many means of assessing executability of the program before it is actually run. Thus, compilers tend to have a sophisticated error handling facility and try to provide enough information for the language user to fix the problems. Some languages are notoriously known for providing bad error messages. Can be provided as a <a href="#Live_Feedback">live feedback</a>.</text>
+			<text>Modern languages have many means of assessing executability of the program before it is actually run. Thus, compilers tend to have a sophisticated error handling facility and try to provide enough information for the language user to fix the problems. Some languages are notoriously known for providing bad error messages. There are many ways to <em>recover</em> from an error in order to analyse the rest of the program and report multiple problems at once. Can be provided as a <a href="#Live_Feedback">live feedback</a>.</text>
 			<src>E:Conditional warnings</src>
 			<src>PZPL:109</src>
+			<src>WGCC:303</src>
 		</pic>
 		<pic card>
 			<title>Compilation Warning</title>
-			<text>When a compiler detects a possibly dangerous situation with extremely limited applicability, it displays a warning message and proceeds with the build process anyway. In many cases there is a special option for disabling a particular warning for a particular piece of code. Can be provided as a <a href="#Live_Feedback">live feedback</a>.</text>
+			<text>When a compiler detects a possibly dangerous situation with extremely limited applicability, it displays a warning message and proceeds with the build process anyway. In many cases there is a special option for disabling a particular warning for a particular piece of code. Warnings can be given when an <em>anomaly</em> or a <a href="#Program_Smell">smell</a> is detected. Can be provided as a <a href="#Live_Feedback">live feedback</a>.</text>
 			<src>E:Did you mean?</src>
+			<src>WGCC:304</src>
 		</pic>
 		<pic card>
 			<title>Composite Type</title>
@@ -139,6 +150,8 @@
 			<src>PPL:70</src>
 			<src>WCC:83</src>
 			<src>PZPL:238</src>
+			<src>WGCC:23</src>
+			<src>A60:37</src>
 		</pic>
 		<pic card>
 			<title>Concrete Syntax</title>
@@ -147,11 +160,13 @@
 			<src>PPL:89</src>
 			<src>EML:21</src>
 			<src>PZPL:41</src>
+			<src>WGCC:17</src>
 		</pic>
 		<pic card>
 			<title>Concurrency</title>
 			<text>Sometimes a program can be decomposed into components that are executable in parallel on different CPU cores or different devices. This can be completely undesirable, or performed automatically, or use the language user's guidance in <a href="#Synchronisation">synchronisation</a> of threads, tasks and processes.</text>
 			<src>PZPL:483</src>
+			<src>WGCC:32</src>
 		</pic>
 		<pic card>
 			<title>Conditional Compilation</title>
@@ -161,6 +176,7 @@
 			<title>Debugging</title>
 			<text>The activity of finding and fixing sources of incorrect behaviour is not enjoyed by many language users, but is used by all of them without exception anyway. Declarative languages are the hardest to debug and imperative ones are the easiest. Most modern languages are shipped with a dedicated debugger or have debugging functionality in the <a href="#IDE">IDE</a>.</text>
 			<src>E:Are you sure?</src>
+			<src>WGCC:322</src>
 			<src>E:Interlock</src>
 			<src>PZPL:55</src>
 		</pic>
@@ -181,6 +197,7 @@
 			<src>P:Possibility trees</src>
 			<src>EML:30</src>
 			<src>PZPL:363</src>
+			<src>WGCC:90</src>
 		</pic>
 		<pic card>
 			<title>Developer Communication</title>
@@ -189,7 +206,7 @@
 		</pic>
 		<pic card>
 			<title>Documentation</title>
-			<text>Language manuals are important for people learning the language, as well as for active users — sometimes these are two different sets of documents. Documentation may contain executable examples and can/should be automatically checked for internal validity and consistency with the tooling.</text>
+			<text>Language manuals are important for people learning the language, as well as for active users — sometimes these are two different sets of documents. Documentation may contain executable examples and can/should be automatically checked for internal validity and consistency with the tooling. Many elements of the language implementation ooze into its documentation (e.g., using a grammar both to define the <a href="#Concrete_Syntax">concrete syntax</a> and enumerate language constructs in a manual).</text>
 			<src>M:Serving suggestion</src>
 			<src>EML:264</src>
 			<src>PZPL:532</src>
@@ -209,6 +226,8 @@
 			<src>PPL:188</src>
 			<src>WCC:65</src>
 			<src>PZPL:213</src>
+			<src>WGCC:21</src>
+			<src>A60:65</src>
 		</pic>
 		<pic card>
 			<title>Esotericism</title>
@@ -293,10 +312,12 @@
 			<src>CPL:187</src>
 			<src>PPL:13</src>
 			<src>PZPL:223</src>
+			<src>A60:73</src>
 		</pic>
 		<pic card>
 			<title>Instruction Set</title>
 			<text>Instead of freely combinable statements and expressions, low level languages (microcodes, assemblers, <a href="#Virtual_Machine">virtual machine</a> bytecodes, etc) have limited non-extendable instruction sets. Each of the instructions typically has a mnemonic (name) and a bit-level encoding. Realistic assemblers had to introduce <a href="#Macro">macro</a> expansions to make programming experience tolerable.</text>
+			<src>WGCC:292</src>
 		</pic>
 		<pic card>
 			<title>Iteration</title>
@@ -305,6 +326,8 @@
 			<src>PPL:47</src>
 			<src>WCC:61</src>
 			<src>PZPL:358</src>
+			<src>WGCC:31</src>
+			<src>A60:26</src>
 		</pic>
 		<pic card>
 			<title>Keyword</title>
@@ -313,6 +336,7 @@
 			<src>PPL:92</src>
 			<src>WCC:33</src>
 			<src>PZPL:99</src>
+			<src>WGCC:140</src>
 		</pic>
 		<pic card>
 			<title>Labelling</title>
@@ -334,6 +358,7 @@
 			<title>Macro</title>
 			<text>A mechanism commonly found in low level languages that allow users to define a piece of <a href="#Syntactic_Sugar">syntactic sugar</a> to be <em>expanded</em> into a longer sequence of <a href="#Instruction_Set">instructions</a>. Advanced parametrised macros resemble <a href="#Procedure">procedures</a> in expressivity but may behave less reliably due to their lexical nature. In bigger languages macros are typically handled by a preprocessor.</text>
 			<src>PZPL:74</src>
+			<src>WGCC:294</src>
 		</pic>
 		<pic card>
 			<title>Meme</title>
@@ -342,7 +367,7 @@
 		</pic>
 		<pic card>
 			<title>Metaphor</title>
-			<text>Atom, <a href="#Backtracking">backtracking</a>, binding, body, build, cloud, collision, compiler, dangling else, <a href="#Debugging">debugging</a>, <a href="#Syntactic_Sugar">desugaring</a>, <a href="#Record">dictionary</a>, <a href="#Type_Check">duck typing</a>, environment, filter, <a href="#Numeric_Data_Type">floating point</a>, forest, framework, <a href="#Garbage_Collection">garbage collection</a>, <a href="#Branching">go to</a>, heap, <a href="#Inheritance">inheritance</a>, <a href="#Branching">jump</a>, library, linking, map, <a href="#Pointer">pointer</a>, pruning, <a href="#Synchronisation">rendezvous</a>, stack, turtle, weaving, window, …</text>
+			<text>Atom, <a href="#Backtracking">backtracking</a>, binding, <a href="#Procedure">body</a>, build, cloud, collision, compiler, dangling else, <a href="#Debugging">debugging</a>, <a href="#Syntactic_Sugar">desugaring</a>, <a href="#Record">dictionary</a>, <a href="#Type_Check">duck typing</a>, environment, filter, <a href="#Numeric_Data_Type">floating point</a>, forest, framework, <a href="#Garbage_Collection">garbage collection</a>, <a href="#Branching">go to</a>, heap, <a href="#Inheritance">inheritance</a>, <a href="#Branching">jump</a>, library, linking, map, <a href="#Pointer">pointer</a>, pruning, <a href="#Synchronisation">rendezvous</a>, stack, turtle, weaving, window, …</text>
 			<src>P:Metaphors</src>
 		</pic>
 		<pic card>
@@ -361,6 +386,8 @@
 			<src>PPL:65</src>
 			<src>WCC:81</src>
 			<src>PZPL:205</src>
+			<src>WGCC:22</src>
+			<src>A60:16</src>
 		</pic>
 		<pic card>
 			<title>Operator Precedence</title>
@@ -368,11 +395,27 @@
 			<src>CPL:79</src>
 			<src>PPL:94</src>
 			<src>PZPL:332</src>
+			<src>WGCC:28</src>
+			<src>A60:9</src>
 		</pic>
 		<pic card>
 			<title>Optimisation</title>
 			<text>It is always easier and less error-prone to <a href="#Generation">generate</a> intermediate code or <a href="#Code_Generation">machine code</a> with simple and straightforward patterns and subsequently optimise the result in a different <a href="#Phased_Process">phase</a>. The effect on the language users is that they do not need to optimise their programs to the fullest, since their own naïve code will be optimised together with the rest. Small efficiences are only relevant 3% of the time, for the rest premature optimisation is considered the root of all evil.</text>
 			<src>PZPL:110</src>
+			<src>WGCC:326</src>
+		</pic>
+		<pic card>
+			<title>Order</title>
+			<text>Many languages have ordering constraints: a <a href="#Variable">variable</a> must be declared before its use, a <a href="#Procedure">procedure</a> signature known before its call, etc. Sometimes constructs are grouped and it is the groups that must follow the order: e.g., first all declarations, then all functions, then the rest of the code (COBOL's <em>divisions</em> are the extreme example of this).</text>
+			<src>P:Implied sequences</src>
+			<src>CPL:?</src>
+			<src>PPL:?</src>
+			<src>EML:?</src>
+			<src>WCC:?</src>
+			<src>PZPL:?</src>
+			<src>WGCC:?</src>
+			<src>A60:45</src>
+			<src>P:Nakedness</src>
 		</pic>
 		<pic card>
 			<title>Orthogonal Design</title>
@@ -400,6 +443,7 @@
 			<src>PPL:38</src>
 			<src>WCC:7</src>
 			<src>PZPL:73</src>
+			<src>WGCC:4</src>
 		</pic>
 		<pic card>
 			<title>Picture Clause</title>
@@ -417,6 +461,7 @@
 			<src>PPL:206</src>
 			<src>WCC:86</src>
 			<src>PZPL:220</src>
+			<src>WGCC:25</src>
 		</pic>
 		<pic card>
 			<title>Pretty-printing</title>
@@ -437,6 +482,8 @@
 			<src>PPL:35</src>
 			<src>WCC:74</src>
 			<src>PZPL:276</src>
+			<src>WGCC:75</src>
+			<src>A60:42</src>
 		</pic>
 		<pic card>
 			<title>Program Smell</title>
@@ -467,17 +514,21 @@
 			<title>Runtime</title>
 			<text>A runtime environment is a system component that must accompany the result of the compilation in order for it to function correctly. May be completely non-existent, contain <a href="#Standard_Library">standard libraries</a> or a <a href="#Virtual_Machine">virtual machine</a>.</text>
 			<src>WCC:42</src>
+			<src>WGCC:319</src>
 		</pic>
 		<pic card>
 			<title>Scope &amp; Binding</title>
 			<text>If a <a href="#Type_Definition">type</a> or a <a href="#Variable">variable</a> is declared, how far from the declaration can you still use them? If an outside entity is used in a <a href="#Procedure">procedure</a>, will it be taken from the parent scope of the procedure or from the scope of the call? Several equally viable paradigms are known for scoping, name-type binding and declaration-reference binding.</text>
 			<src>CPL:55</src>
 			<src>PZPL:82</src>
+			<src>WGCC:20</src>
+			<src>A60:48</src>
 		</pic>
 		<pic card>
 			<title>Standard Library</title>
 			<text>A library or a set of libraries that are shipped together with the language. It can be a tough design decision for the language designer to decide which functionality needs to become native constructs and which can go into the standard library.</text>
 			<src>WCC:78</src>
+			<src>A60:32</src>
 		</pic>
 		<pic card>
 			<title>Static Analysis</title>
@@ -516,10 +567,11 @@
 		</pic>
 		<pic card>
 			<title>Type Check</title>
-			<text>Components can be identified, explicitly or automatically, to belong to a particular <em>type</em>. Among other things, the type determines applicability and compatibility of components with one another. In complex scenarios (like a monadic bind) hard to understand components can only fit together in one possible way.</text>
+			<text>Components can be identified, explicitly or automatically, to belong to a particular <em>type</em>. Among other things, the type determines applicability and compatibility of components with one another. In complex scenarios (like a monadic bind) hard to understand components can only fit together in one possible way. Type equivalence rules can be based on names, structure, <a href="#Scope__Binding">scopes</a>, etc.</text>
 			<src>E:Matched affordances</src>
 			<src>PPL:129</src>
 			<src>PZPL:195</src>
+			<src>WGCC:26</src>
 		</pic>
 		<pic card>
 			<title>Type Definition</title>
@@ -528,6 +580,8 @@
 			<src>PPL:268</src>
 			<src>WCC:26</src>
 			<src>PZPL:186</src>
+			<src>WGCC:234</src>
+			<src>A60:15</src>
 		</pic>
 		<pic card>
 			<title>Undefined Behaviour</title>
@@ -548,11 +602,14 @@
 			<src>PPL:22</src>
 			<src>WCC:72</src>
 			<src>PZPL:183</src>
+			<src>WGCC:9</src>
+			<src>A60:5</src>
 		</pic>
 		<pic card>
 			<title>Virtual Machine</title>
 			<text>An emulator for a real or imaginary hardware architecture that has a low level coding language that can be used by other components or tools to compiler high level languages to. VMs trades off performance for an extra layer of abstraction. Some virtual machines (e.g., <a href="https:en.wikipedia.orgwikiLimbo_(programming_language)">Dis</a>) compile their code into native machine code just before running it.</text>
 			<src>PZPL:75</src>
+			<src>WGCC:271</src>
 		</pic>
 		<hr/>
 		<div class="src">
@@ -567,11 +624,11 @@
 			</ul>
 		</div>
 		<div class="src">
-			<ul>				<li class="pl cpl"><a href="http://amzn.to/2n8cd5u">Comparative Programming Languages (Wilson, Clark, 1993)</a></li>				<li class="pl ppl"><a href="http://amzn.to/2nmFg70">Principles of Programming Languages: Design, Evaluation and Implementation (MacLennan, 1983)</a></li>				<li class="pl eml"><a href="http://amzn.to/2n8yz6y">Engineering Modeling Languages (Combemale, France, Jézéquel, Rumpe, Steel, Vojtisek, 2017)</a></li>				<li class="pl wcc"><a href="http://amzn.to/2nmUPeU">Compiler Construction (Wirth, 2005)</a></li>				<li class="pl pzpl"><a href="http://amzn.to/2nnaieI">Programming Languages: Design and Implementation (Pratt, Zelkowitz, 2001)</a></li>			</ul>
+			<ul>				<li class="pl cpl"><a href="http://amzn.to/2n8cd5u">CPL: Comparative Programming Languages (Wilson, Clark, 1993)</a></li>				<li class="pl ppl"><a href="http://amzn.to/2nmFg70">PPL: Principles of Programming Languages: Design, Evaluation and Implementation (MacLennan, 1983)</a></li>				<li class="pl eml"><a href="http://amzn.to/2n8yz6y">EML: Engineering Modeling Languages (Combemale, France, Jézéquel, Rumpe, Steel, Vojtisek, 2017)</a></li>				<li class="pl wcc"><a href="http://amzn.to/2nmUPeU">WCC: Compiler Construction (Wirth, 2005)</a></li>				<li class="pl pzpl"><a href="http://amzn.to/2nnaieI">PZPL: Programming Languages: Design and Implementation (Pratt, Zelkowitz, 2001)</a></li>				<li class="pl wgcc"><a href="#">WGCC: Compiler Construction (Waite, Goos, 1984)</a></li>				<li class="pl a60"><a href="#">A60: A Primer of ALGOL 60 Programming (Dijkstra, 1962)</a></li>			</ul>
 		</div>
 		<hr/>
 		<div class="last">
-			The collection of <strong>87</strong> cards created and maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.<br/>
+			The collection of <strong>88</strong> cards created and maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.<br/>
 			Sources colour coded and explained above this notice.<br/>
 			Last updated: #LASTMOD#.<br/>
 			<a href="http://validator.w3.org/check/referer"><img src="../www/xhtml.88.png" alt="XHTML 1.1" /></a>

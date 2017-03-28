@@ -187,8 +187,10 @@ for book in (
 		('eml', 'http://amzn.to/2n8yz6y', 'Engineering Modeling Languages (Combemale, France, Jézéquel, Rumpe, Steel, Vojtisek, 2017)'),
 		('wcc', 'http://amzn.to/2nmUPeU', 'Compiler Construction (Wirth, 2005)'),
 		('pzpl','http://amzn.to/2nnaieI', 'Programming Languages: Design and Implementation (Pratt, Zelkowitz, 2001)'),
+		('wgcc','#', 'Compiler Construction (Waite, Goos, 1984)'),
+		('a60','#', 'A Primer of ALGOL 60 Programming (Dijkstra, 1962)'),
 	):
-	dsl.write('				<li class="pl {}"><a href="{}">{}</a></li>'.format(book[0], book[1], book[2]))
+	dsl.write('				<li class="pl {}"><a href="{}">{}: {}</a></li>'.format(book[0], book[1], book[0].upper(), book[2]))
 dsl.write('''			</ul>
 		</div>
 		<hr/>
