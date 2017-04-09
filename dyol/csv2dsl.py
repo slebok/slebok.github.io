@@ -144,9 +144,9 @@ for line in lines[1:]:
 			while cards[name][i].find('<text>')<0: i += 1
 			cards[name][i] = '			<text>{}</text>\n'.format(fancy(fs[IDXtxt]))
 		# update the sources if there are any
-		if fs[0]!='' and fs[IDXdwi] != '':
+		if fs[1]!='' and fs[IDXdwi] != '':
 			cards[name].insert(len(cards[name])-1,
-				'			<src>{}:{}</src>\n'.format(fs[0],fs[IDXdwi]).replace('&','&amp;'))
+				'			<src>{}:{}</src>\n'.format(fs[1],fs[IDXdwi]).replace('&','&amp;'))
 		for idx in range(IDXexp+1,IDXtxt):
 			if fs[idx]!='':
 				cards[name].insert(len(cards[name])-1,
@@ -157,8 +157,8 @@ for line in lines[1:]:
 	targets.append(name)
 	text = fs[IDXtxt] if fs[IDXtxt]!='' else fs[IDXexp].replace('&','&amp;')
 	card.append('			<text>{}</text>\n'.format(fancy(text if text != '' else 'TBD')))
-	if fs[0]!='' and fs[IDXdwi] != '':
-		card.append('			<src>{}:{}</src>\n'.format(fs[0],fs[IDXdwi]).replace('&','&amp;'))
+	if fs[1]!='' and fs[IDXdwi] != '':
+		card.append('			<src>{}:{}</src>\n'.format(fs[1],fs[IDXdwi]).replace('&','&amp;'))
 	for idx in range(IDXexp+1,IDXtxt):
 		if fs[idx]!='':
 			card.append('			<src>{}:{}</src>\n'.format(header[idx], fs[idx]))

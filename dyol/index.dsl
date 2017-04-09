@@ -11,7 +11,7 @@
 		<picdir>../www</picdir>
 		<pic card>
 			<title>Access Modifier</title>
-			<text>Annotate components with information about how others are allowed or not allowed to access them. Access can be limited by <a href="#Inheritance">inheritance</a> (<em>protected</em> in C++), <a href="#Module">modular</a> structure (<em>internal</em> in C#), etc. The most popular modifiers are <em>public</em> (everyone welcome) and <em>private</em> (fully restricted).</text>
+			<text>Annotate components with information about how others are allowed or not allowed to access them. Access can be limited by <a href="#Inheritance">inheritance</a> (<em>protected</em> in C++), <a href="#Module">modular</a> structure (<em>internal</em> in C#), etc. The most popular modifiers are <em>public</em> (everyone welcome) and <em>private</em> (fully restricted). Similar modifiers can be used to manage <a href="#Scope__Binding">scope</a>, such as <em>global</em> and <em>nonlocal</em> in Python.</text>
 			<src>A:Angles</src>
 			<src>HCD:42</src>
 		</pic>
@@ -159,6 +159,7 @@
 			<src>GDB:21</src>
 			<src>HCD:88</src>
 			<src>WCI:39</src>
+			<src>MCD:95</src>
 		</pic>
 		<pic card>
 			<title>Compilation Warning</title>
@@ -168,6 +169,7 @@
 			<src>GDB:382</src>
 			<src>HCD:34</src>
 			<src>WCI:79</src>
+			<src>MCD:121</src>
 		</pic>
 		<pic card>
 			<title>Composite Type</title>
@@ -205,10 +207,11 @@
 			<title>Conditional Compilation</title>
 			<text>Some conditions can be checked during compile type and result in different code to be produced by the compiler to be run later. This is frequently used in situations when one codebase specifies the behaviour of a system that must be compiled and deployed under a variety of devices and hardware architectures. To simplify compiler construction, conditional compilation can be handled by a preprocessor.</text>
 			<src>HCD:275</src>
+			<src>MCD:107</src>
 		</pic>
 		<pic card>
 			<title>Cross-compilation</title>
-			<text>A cross-compiler, or a <em>transpiler</em>, works on one platform but ultimately targets another. Relying on a cross-compiler allows to separate the development platform from the one where the programs get deployed to — for instance, a mobile app developer can work with a proper keyboard and a big screen. The <a href="#IDE">IDE</a> for a cross-compiled language may include a <a href="#Virtual_Machine">virtual machine</a> for execution, <a href="#Debugging">debugging</a>, etc.</text>
+			<text>A cross-compiler, or a <em>transpiler</em>, works on one platform but ultimately targets another. Relying on a cross-compiler allows to separate the development platform from the one where the programs get deployed to — for instance, a mobile app developer can work with a proper keyboard and a big screen. The <a href="#IDE">IDE</a> for a cross-compiled language may include a <a href="#Virtual_Machine">virtual machine</a> for execution, <a href="#Debugging">debugging</a>, etc. A compiler capable of producing code for different targets, is called <em>retargetable</em>.</text>
 			<src>CPL:?</src>
 			<src>PPL:?</src>
 			<src>EML:?</src>
@@ -217,6 +220,7 @@
 			<src>WGCC:?</src>
 			<src>A60:?</src>
 			<src>GDB:24</src>
+			<src>MCD:32</src>
 		</pic>
 		<pic card>
 			<title>Debugging</title>
@@ -328,6 +332,7 @@
 			<src>A:Mazes</src>
 			<src>PPL:5</src>
 			<src>EML:119</src>
+			<src>MCD:8</src>
 			<src>I:Tunnelling &amp; wizards</src>
 		</pic>
 		<pic card>
@@ -442,6 +447,7 @@
 			<src>WGCC:294</src>
 			<src>GDB:3</src>
 			<src>HCD:101</src>
+			<src>MCD:102</src>
 		</pic>
 		<pic card>
 			<title>Meme</title>
@@ -455,12 +461,13 @@
 		</pic>
 		<pic card>
 			<title>Module</title>
-			<text>Large programs inevitably outgrow their creators' capabilities to understand them all at once. Comprehension can be aided greatly by the language providing modules, packages, classes, procedures and other elements to group related code fragments together. Modern <a href="#IDE">IDEs</a> can analyse code for cohesion and coupling to help improve modularisation.</text>
+			<text>Large programs inevitably outgrow their creators' capabilities to understand them all at once. Comprehension can be aided greatly by the language providing modules, packages, classes, procedures and other elements to group related code fragments together. Modern <a href="#IDE">IDEs</a> can analyse code for cohesion and coupling to help improve modularisation. Modules are often [one of the possible] <em>compilation units</em>.</text>
 			<src>A:Segmentation</src>
 			<src>CPL:113</src>
 			<src>PPL:267</src>
 			<src>WCC:92</src>
 			<src>HCD:459</src>
+			<src>MCD:32</src>
 			<src>P:Proximity &amp; grouping</src>
 		</pic>
 		<pic card>
@@ -495,6 +502,7 @@
 			<src>HCD:657</src>
 			<src>ACDI:6</src>
 			<src>WCI:382</src>
+			<src>MCD:70</src>
 		</pic>
 		<pic card>
 			<title>Order</title>
@@ -558,6 +566,7 @@
 			<src>HCD:2</src>
 			<src>ACDI:2</src>
 			<src>WCI:7</src>
+			<src>MCD:3</src>
 		</pic>
 		<pic card>
 			<title>Picture Clause</title>
@@ -646,6 +655,7 @@
 			<src>HCD:477</src>
 			<src>ACDI:105</src>
 			<src>WCI:199</src>
+			<src>MCD:25</src>
 		</pic>
 		<pic card>
 			<title>Scope &amp; Binding</title>
@@ -675,6 +685,7 @@
 			<src>PZPL:169</src>
 			<src>ACDI:169</src>
 			<src>WCI:105</src>
+			<src>MCD:115</src>
 		</pic>
 		<pic card>
 			<title>Substitution</title>
