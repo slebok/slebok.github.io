@@ -129,6 +129,7 @@ IDXeml = header.index('EML')
 IDXtxt = header.index('Text')
 
 cards = {}
+codes = 0
 
 for line in lines[1:]:
 	fs = split(line.strip(), len(header))
@@ -147,10 +148,12 @@ for line in lines[1:]:
 		if fs[1]!='' and fs[IDXdwi] != '':
 			cards[name].insert(len(cards[name])-1,
 				'			<src>{}:{}</src>\n'.format(fs[1],fs[IDXdwi]).replace('&','&amp;'))
+			codes += 1
 		for idx in range(IDXexp+1,IDXtxt):
-			if fs[idx]!='':
+			if fs[idx]!='' and fs[idx]!='?':
 				cards[name].insert(len(cards[name])-1,
 					'			<src>{}:{}</src>\n'.format(header[idx], fs[idx]))
+				codes += 1
 		continue
 	card.append('		<pic card>\n')
 	card.append('			<title>{}</title>\n'.format(name.replace('&','&amp;')))
@@ -159,9 +162,11 @@ for line in lines[1:]:
 	card.append('			<text>{}</text>\n'.format(fancy(text if text != '' else 'TBD')))
 	if fs[1]!='' and fs[IDXdwi] != '':
 		card.append('			<src>{}:{}</src>\n'.format(fs[1],fs[IDXdwi]).replace('&','&amp;'))
+		codes += 1
 	for idx in range(IDXexp+1,IDXtxt):
-		if fs[idx]!='':
+		if fs[idx]!='' and fs[idx]!='?':
 			card.append('			<src>{}:{}</src>\n'.format(header[idx], fs[idx]))
+			codes += 1
 	card.append('		</pic>\n')
 	cards[name] = card
 
@@ -170,7 +175,7 @@ keys.sort()
 for c in keys:
 	for line in cards[c]:
 		dsl.write(line)
-print('{} cards created from {} lines.'.format(len(keys), len(lines)))
+print('{} cards and {} codes created from {} lines.'.format(len(keys), codes, len(lines)))
 
 dsl.write('''		<hr/>
 		<div class="src">

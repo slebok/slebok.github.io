@@ -31,6 +31,7 @@
 			<src>HCD:620</src>
 			<src>ACDI:36</src>
 			<src>WCI:87</src>
+			<src>MCD:270</src>
 		</pic>
 		<pic card>
 			<title>Backtracking</title>
@@ -39,6 +40,7 @@
 			<src>PPL:516</src>
 			<src>PZPL:378</src>
 			<src>GDB:174</src>
+			<src>MCD:688</src>
 		</pic>
 		<pic card>
 			<title>Backward Compatibility</title>
@@ -75,6 +77,7 @@
 			<src>HCD:474</src>
 			<src>ACDI:38</src>
 			<src>WCI:87</src>
+			<src>MCD:580</src>
 		</pic>
 		<pic card>
 			<title>Built-in Pattern</title>
@@ -97,6 +100,7 @@
 			<text>A class or a trait represents a template that can be followed by objects: a particular collection of properties and methods that can be always relied on. A class can be then <em>instantiated</em> with appropriate parameters to form an object that <em>conforms to</em> the class definition. Classes are the ultimate form of <a href="#Encapsulation">encapsulation</a>. They can be <a href="#Inheritance">inherited</a> from one another to form <a href="#Substitution">subclasses</a>.</text>
 			<src>CPL:107</src>
 			<src>PPL:464</src>
+			<src>MCD:544</src>
 		</pic>
 		<pic card>
 			<title>Client/Server</title>
@@ -117,6 +121,7 @@
 			<src>GDB:518</src>
 			<src>HCD:445</src>
 			<src>ACDI:137</src>
+			<src>MCD:313</src>
 		</pic>
 		<pic card>
 			<title>Code Mining</title>
@@ -144,6 +149,7 @@
 			<src>PZPL:99</src>
 			<src>A60:36</src>
 			<src>WCI:33</src>
+			<src>MCD:71</src>
 		</pic>
 		<pic card>
 			<title>Commit Hook</title>
@@ -163,7 +169,7 @@
 		</pic>
 		<pic card>
 			<title>Compilation Warning</title>
-			<text>When a compiler detects a possibly dangerous situation with extremely limited applicability, it displays a warning message and proceeds with the build process anyway. In many cases there is a special option for disabling a particular warning for a particular piece of code. Warnings can be given when an <em>anomaly</em> or a <a href="#Program_Smell">smell</a> is detected. Can be provided as a <a href="#Live_Feedback">live feedback</a>.</text>
+			<text>When a compiler detects a possibly dangerous situation with extremely limited applicability, it displays a warning message and proceeds with the build process anyway. In many cases there is a special option for disabling a particular warning for a particular piece of code. Warnings can be given when an <em>anomaly</em> or a <a href="#Program_Smell">smell</a> is detected, and may involve some form of <em>error correction</em>. Can be provided as a <a href="#Live_Feedback">live feedback</a>.</text>
 			<src>E:Did you mean?</src>
 			<src>WGCC:304</src>
 			<src>GDB:382</src>
@@ -184,6 +190,12 @@
 			<src>HCD:599</src>
 			<src>ACDI:30</src>
 			<src>WCI:123</src>
+			<src>MCD:473</src>
+		</pic>
+		<pic card>
+			<title>Comprehensions</title>
+			<text>List and set comprehensions are language constructs resembling the mathematical notation for constructing a set by its characteristic function, and combine <em>map</em> and <em>filter</em> classical for functional programming. Comprehensions as a language construct exist in Haskell, Python, Rascal and some other languages.</text>
+			<src>MCD:621</src>
 		</pic>
 		<pic card>
 			<title>Concrete Syntax</title>
@@ -195,6 +207,7 @@
 			<src>WGCC:17</src>
 			<src>GDB:28</src>
 			<src>HCD:166</src>
+			<src>MCD:115</src>
 		</pic>
 		<pic card>
 			<title>Concurrency</title>
@@ -202,6 +215,7 @@
 			<src>PZPL:483</src>
 			<src>WGCC:32</src>
 			<src>ACDI:571</src>
+			<src>MCD:331</src>
 		</pic>
 		<pic card>
 			<title>Conditional Compilation</title>
@@ -212,13 +226,6 @@
 		<pic card>
 			<title>Cross-compilation</title>
 			<text>A cross-compiler, or a <em>transpiler</em>, works on one platform but ultimately targets another. Relying on a cross-compiler allows to separate the development platform from the one where the programs get deployed to — for instance, a mobile app developer can work with a proper keyboard and a big screen. The <a href="#IDE">IDE</a> for a cross-compiled language may include a <a href="#Virtual_Machine">virtual machine</a> for execution, <a href="#Debugging">debugging</a>, etc. A compiler capable of producing code for different targets, is called <em>retargetable</em>.</text>
-			<src>CPL:?</src>
-			<src>PPL:?</src>
-			<src>EML:?</src>
-			<src>WCC:?</src>
-			<src>PZPL:?</src>
-			<src>WGCC:?</src>
-			<src>A60:?</src>
 			<src>GDB:24</src>
 			<src>MCD:32</src>
 		</pic>
@@ -254,6 +261,7 @@
 			<src>HCD:13</src>
 			<src>ACDI:100</src>
 			<src>WCI:63</src>
+			<src>MCD:215</src>
 		</pic>
 		<pic card>
 			<title>Developer Communication</title>
@@ -276,6 +284,12 @@
 			<src>PZPL:236</src>
 		</pic>
 		<pic card>
+			<title>Energy Saving</title>
+			<text>Computationally heavy code requires more CPU or GPU cycles, which consumes more power, which in turn makes the applications spend more energy. Making a compiler of a language especially <a href="#Optimisation">optimised</a> towards power reduction may increase its appeal for users that intend to run their programs on devices with limited power (mobile phones and smaller). Power reduction and energy saving techniques also contribute towards global sustainability, and can be used/chosen for ethical reasons.</text>
+			<src>C:Assuaging guilt</src>
+			<src>MCD:443</src>
+		</pic>
+		<pic card>
 			<title>Enumeration Type</title>
 			<text>An enumeration is a <a href="#Type_Definition">data type</a> that defines a very limited set of possible values which are, nevertheless, more comfortably referred to by their names and not by encoded numbers. The most famous enumeration is the Boolean (logical) type, which contains only two values: <em>true</em> and <em>false</em>. If the domain permits, the language does not have to support user-defined enumerations.</text>
 			<src>CPL:66</src>
@@ -287,6 +301,7 @@
 			<src>HCD:550</src>
 			<src>ACDI:29</src>
 			<src>WCI:123</src>
+			<src>MCD:533</src>
 		</pic>
 		<pic card>
 			<title>Esotericism</title>
@@ -295,9 +310,10 @@
 		</pic>
 		<pic card>
 			<title>Event Loop</title>
-			<text>This pattern in user interface implementation turns entire program into a giant loop waiting for the user to activate its functionality by choosing the way to communicate (click, tap, edit, etc). Since direct implementations are not green (consume too much energy), it can be built natively into the language and optimised by the compiler and hardware.</text>
+			<text>This pattern in user interface implementation turns entire program into a giant loop waiting for the user to activate its functionality by choosing the way to communicate (click, tap, edit, etc). Since direct implementations are not <a href="#Energy_Saving">green</a> (consume too much energy), it can be built natively into the language and optimised by the compiler and hardware.</text>
 			<src>I:Feedback through form</src>
 			<src>CPL:265</src>
+			<src>MCD:473</src>
 		</pic>
 		<pic card>
 			<title>Exception Handling</title>
@@ -306,6 +322,13 @@
 			<src>PPL:316</src>
 			<src>PZPL:484</src>
 			<src>ACDI:637</src>
+			<src>MCD:600</src>
+		</pic>
+		<pic card>
+			<title>Execution Error</title>
+			<text>Errors can happen at <a href="#Compilation_Error">compile time</a>, but also at run time, due to hardware faults, communication problems, invalid user input or simply <a href="#Debugging">bugs</a> that were left undetected at compile time by <a href="#Static_Analysis">static analysis</a>. Some languages (Erlang) have very well-designed strategies for handling execution errors, but all others also feature some form of partial recovery from them. The language user controls runtime error handling with <a href="#Exception_Handling">exceptions</a>.</text>
+			<src>E:Conditional warnings</src>
+			<src>MCD:597</src>
 		</pic>
 		<pic card>
 			<title>Feature Lock-out</title>
@@ -318,6 +341,7 @@
 			<src>CPL:151</src>
 			<src>PPL:397</src>
 			<src>PZPL:431</src>
+			<src>MCD:625</src>
 		</pic>
 		<pic card>
 			<title>Garbage Collection</title>
@@ -325,6 +349,7 @@
 			<src>M:Bundling</src>
 			<src>PPL:443</src>
 			<src>PZPL:471</src>
+			<src>MCD:476</src>
 		</pic>
 		<pic card>
 			<title>Generation</title>
@@ -338,17 +363,6 @@
 		<pic card>
 			<title>Heterogeneous Structures</title>
 			<text>Some languages allow considerable freedom in <a href="#Type_Definition">types</a> that makes <a href="#Composite_Type">composite types</a> capable of carrying elements of varying structure. Examples: variant <a href="#Record">records</a> in Modula and Ada, heterogeneous lists in Python, polytypic <a href="#Procedure">functions</a> in Haskell, <a href="https:wiki.haskell.orgGeneralised_algebraic_datatype">GADTs</a> in Haskell.</text>
-			<src>CPL:?</src>
-			<src>PPL:?</src>
-			<src>EML:?</src>
-			<src>WCC:?</src>
-			<src>PZPL:?</src>
-			<src>WGCC:?</src>
-			<src>A60:?</src>
-			<src>GDB:?</src>
-			<src>RDB:?</src>
-			<src>PDB:?</src>
-			<src>HCD:?</src>
 		</pic>
 		<pic card>
 			<title>Holy War</title>
@@ -374,6 +388,7 @@
 			<src>PPL:91</src>
 			<src>EML:23</src>
 			<src>PZPL:100</src>
+			<src>MCD:619</src>
 		</pic>
 		<pic card>
 			<title>Inheritance</title>
@@ -381,6 +396,7 @@
 			<src>CPL:194</src>
 			<src>PPL:465</src>
 			<src>PZPL:311</src>
+			<src>MCD:545</src>
 		</pic>
 		<pic card>
 			<title>Input/Output</title>
@@ -397,6 +413,7 @@
 			<src>WGCC:292</src>
 			<src>ACDI:599</src>
 			<src>WCI:288</src>
+			<src>MCD:367</src>
 		</pic>
 		<pic card>
 			<title>Iteration</title>
@@ -411,6 +428,7 @@
 			<src>HCD:642</src>
 			<src>ACDI:39</src>
 			<src>WCI:87</src>
+			<src>MCD:582</src>
 		</pic>
 		<pic card>
 			<title>Keyword</title>
@@ -434,6 +452,7 @@
 			<text>A <em>lazy</em> compiler defers evaluation to the latest possible moment. Lazy languages allow infinite data structures (as long as they are processed one chunk at a time) and may have unpredictable outcomes if calculations are allowed to have side effects (like C's ++). Lazy evaluation has many applications from <a href="#Optimisation">optimisation</a> of <a href="#Code_Generation">generated code</a> to stream data processing.</text>
 			<src>CPL:239</src>
 			<src>PZPL:345</src>
+			<src>MCD:627</src>
 		</pic>
 		<pic card>
 			<title>Live Feedback</title>
@@ -456,7 +475,7 @@
 		</pic>
 		<pic card>
 			<title>Metaphor</title>
-			<text>Atom, <a href="#Backtracking">backtracking</a>, binding, <a href="#Procedure">body</a>, build, cloud, collision, compiler, dangling else, <a href="#Debugging">debugging</a>, <a href="#Syntactic_Sugar">desugaring</a>, <a href="#Record">dictionary</a>, <a href="#Type_Check">duck typing</a>, environment, filter, <a href="#Numeric_Data_Type">floating point</a>, forest, framework, <a href="#Garbage_Collection">garbage collection</a>, <a href="#Branching">go to</a>, heap, <a href="#Inheritance">inheritance</a>, <a href="#Branching">jump</a>, library, linking, map, <a href="#Pointer">pointer</a>, pruning, <a href="#Synchronisation">rendezvous</a>, stack, turtle, weaving, window, …</text>
+			<text>Atom, <a href="#Backtracking">backtracking</a>, binding, <a href="#Procedure">body</a>, build, cloud, collision, compiler, dangling else, <a href="#Debugging">debugging</a>, <a href="#Syntactic_Sugar">desugaring</a>, <a href="#Record">dictionary</a>, <a href="#Type_Check">duck typing</a>, environment, filter, <a href="#Numeric_Data_Type">floating point</a>, forest, framework, <a href="#Garbage_Collection">garbage collection</a>, <a href="#Branching">go to</a>, heap, <a href="#Inheritance">inheritance</a>, <a href="#Branching">jump</a>, <a href="#Standard_Library">library</a>, linking, map, <a href="#Pointer">pointer</a>, pruning, <a href="#Synchronisation">rendezvous</a>, stack, turtle, weaving, window, …</text>
 			<src>P:Metaphors</src>
 		</pic>
 		<pic card>
@@ -480,6 +499,7 @@
 			<src>WGCC:22</src>
 			<src>A60:16</src>
 			<src>WCI:36</src>
+			<src>MCD:532</src>
 		</pic>
 		<pic card>
 			<title>Operator Precedence</title>
@@ -492,6 +512,7 @@
 			<src>GDB:47</src>
 			<src>HCD:819</src>
 			<src>WCI:71</src>
+			<src>MCD:158</src>
 		</pic>
 		<pic card>
 			<title>Optimisation</title>
@@ -507,14 +528,10 @@
 		<pic card>
 			<title>Order</title>
 			<text>Many languages have ordering constraints: a <a href="#Variable">variable</a> must be declared before its use, a <a href="#Procedure">procedure</a> signature known before its call, etc. Sometimes constructs are grouped and it is the groups that must follow the order: e.g., first all declarations, then all functions, then the rest of the code (COBOL's <em>divisions</em> are the extreme example of this).</text>
-			<src>P:Implied sequences</src>
-			<src>CPL:?</src>
-			<src>PPL:?</src>
-			<src>EML:?</src>
-			<src>WCC:?</src>
-			<src>PZPL:?</src>
-			<src>WGCC:?</src>
+			<src>L:Storytelling</src>
 			<src>A60:45</src>
+			<src>MCD:388</src>
+			<src>P:Implied sequences</src>
 			<src>P:Nakedness</src>
 		</pic>
 		<pic card>
@@ -527,19 +544,9 @@
 		<pic card>
 			<title>Parameter Passing</title>
 			<text>There are several strategies in mapping <em>arguments</em> that are being passed to a <a href="#Procedure">procedure</a> in a call with the <em>parameters</em> that procedure expects to get: <em>call by value</em> (expose only the values, safe but inefficient for <a href="#Composite_Type">composite data</a>), <em>call by result</em> (same but can return several values at once), <em>call by value-result</em> (the caller gets values, updates them, they are passed back), <em>call by reference</em> (expose <a href="#Pointer">pointers</a> to values, efficient but unsafe), <em>call by name</em> (evaluate pointers when they are used inside the caller), etc.</text>
-			<src>CPL:?</src>
-			<src>PPL:?</src>
-			<src>EML:?</src>
-			<src>WCC:?</src>
-			<src>PZPL:?</src>
-			<src>WGCC:?</src>
-			<src>A60:?</src>
-			<src>GDB:?</src>
-			<src>RDB:?</src>
-			<src>PDB:?</src>
-			<src>HCD:?</src>
 			<src>ACDI:116</src>
 			<src>WCI:161</src>
+			<src>MCD:559</src>
 		</pic>
 		<pic card>
 			<title>Parametrised Type</title>
@@ -553,6 +560,7 @@
 			<text>Performance testing and its variations like profiling and stress testing are commonly desired nice-to-have features in <a href="#IDE">IDEs</a>. Languages and their ecosystems greatly vary in the extent to which this aspect is recognised and supported.</text>
 			<src>A:Pave the cowpaths</src>
 			<src>WCI:279</src>
+			<src>MCD:349</src>
 		</pic>
 		<pic card>
 			<title>Phased Process</title>
@@ -588,6 +596,7 @@
 			<src>GDB:34</src>
 			<src>HCD:469</src>
 			<src>ACDI:110</src>
+			<src>MCD:464</src>
 		</pic>
 		<pic card>
 			<title>Pretty-printing</title>
@@ -615,6 +624,7 @@
 			<src>HCD:466</src>
 			<src>ACDI:34</src>
 			<src>WCI:157</src>
+			<src>MCD:544</src>
 		</pic>
 		<pic card>
 			<title>Program Smell</title>
@@ -632,6 +642,7 @@
 			<src>HCD:543</src>
 			<src>ACDI:33</src>
 			<src>WCI:124</src>
+			<src>MCD:538</src>
 		</pic>
 		<pic card>
 			<title>Redefine</title>
@@ -639,6 +650,7 @@
 			<src>CPL:138</src>
 			<src>PPL:85</src>
 			<src>ACDI:293</src>
+			<src>MCD:520</src>
 		</pic>
 		<pic card>
 			<title>Refactoring</title>
@@ -668,13 +680,15 @@
 			<src>HCD:559</src>
 			<src>ACDI:43</src>
 			<src>WCI:150</src>
+			<src>MCD:515</src>
 		</pic>
 		<pic card>
 			<title>Standard Library</title>
-			<text>A library or a set of libraries that are shipped together with the language. It can be a tough design decision for the language designer to decide which functionality needs to become native constructs and which can go into the standard library.</text>
+			<text>A library or a set of libraries that are built into the language. It can be a tough design decision for the language designer to decide which functionality needs to become native constructs and which can go into the standard library. Such library functions can be <a href="#Macro">expanded</a> into code directly or shipped together with the compiled code as a <a href="#Runtime">runtime</a>.</text>
 			<src>WCC:78</src>
 			<src>A60:32</src>
 			<src>WCI:164</src>
+			<src>MCD:364</src>
 		</pic>
 		<pic card>
 			<title>Static Analysis</title>
@@ -689,10 +703,11 @@
 		</pic>
 		<pic card>
 			<title>Substitution</title>
-			<text>When a subprogram specifies the <a href="#Type_Check">types</a> of input it expects, these types do not need to be treated precisely: often one can use entities of subtypes of the specified types (e.g., put a circle in a function that draws a shape because a circle is a subtype of shape). Subtyping is nontrivial, and the designer must choose among covariance, contravariance, invariance, etc.</text>
+			<text>When a subprogram specifies the <a href="#Type_Check">types</a> of input it expects, these types do not need to be treated precisely: often one can use entities of subtypes of the specified types (e.g., put a circle in a function that draws a shape because a circle is a subtype of shape). Subtyping is nontrivial, and the designer must choose among covariance, contravariance, invariance, etc. Non-strict handling of values of different types involves designing rules for type casts and conversions.</text>
 			<src>CPL:197</src>
 			<src>PPL:208</src>
 			<src>PZPL:199</src>
+			<src>MCD:530</src>
 		</pic>
 		<pic card>
 			<title>Synchronisation</title>
@@ -701,11 +716,13 @@
 			<src>CPL:267</src>
 			<src>PPL:328</src>
 			<src>PZPL:321</src>
+			<src>MCD:740</src>
 		</pic>
 		<pic card>
 			<title>Syntactic Sugar</title>
 			<text>Nice-to-have constructs that are not extending the expressive power of the language, are sometimes not actually implemented directly — just expanded into bigger sequences of more primitive and less user-friendly constructs.</text>
 			<src>P:Fake affordances</src>
+			<src>MCD:633</src>
 		</pic>
 		<pic card>
 			<title>Syntax Highlighting</title>
@@ -715,8 +732,14 @@
 			<src>P:Colour associations</src>
 		</pic>
 		<pic card>
+			<title>Trade Off</title>
+			<text>When direct <a href="#Optimisation">optimisation</a> is impossible or not sufficiently effective, the language designer can identify trade offs and leave them all inside the language for the users to choose. For example, many compilers have compilation options optimising <a href="#Code_Generation">code generation</a> for speed, size or <a href="#Energy_Saving">power</a>, but not all three. Many languages have <a href="#Standard_Library">libraries</a> and <a href="#Composite_Type">structures</a> for both <em>arrays</em> (fast, immutable length) and <em>lists</em> (slower but flexible).</text>
+			<src>C:Framing</src>
+			<src>MCD:445</src>
+		</pic>
+		<pic card>
 			<title>Type Check</title>
-			<text>Components can be identified, explicitly or automatically, to belong to a particular <em>type</em>. Among other things, the type determines applicability and compatibility of components with one another. In complex scenarios (like a monadic bind) hard to understand components can only fit together in one possible way. Type equivalence rules can be based on names, structure, <a href="#Scope__Binding">scopes</a>, etc.</text>
+			<text>Components can be identified, explicitly or automatically, to belong to a particular <em>type</em>. Among other things, the type determines applicability and compatibility of components with one another. In complex scenarios (like a monadic bind) hard to understand components can only fit together in one possible way. Type equivalence rules can be based on names, <a href="#Type_Definition">structure</a>, <a href="#Scope__Binding">scopes</a>, etc.</text>
 			<src>E:Matched affordances</src>
 			<src>PPL:129</src>
 			<src>PZPL:195</src>
@@ -724,6 +747,7 @@
 			<src>GDB:49</src>
 			<src>HCD:489</src>
 			<src>WCI:91</src>
+			<src>MCD:521</src>
 		</pic>
 		<pic card>
 			<title>Type Definition</title>
@@ -738,6 +762,7 @@
 			<src>HCD:489</src>
 			<src>ACDI:25</src>
 			<src>WCI:111</src>
+			<src>MCD:522</src>
 		</pic>
 		<pic card>
 			<title>Undefined Behaviour</title>
@@ -751,10 +776,11 @@
 			<src>CPL:248</src>
 			<src>PPL:507</src>
 			<src>PZPL:369</src>
+			<src>MCD:622</src>
 		</pic>
 		<pic card>
 			<title>Variable</title>
-			<text>These named memory areas are thought to be fundamental for the nature of computation — and they are within the von Neumann paradigm, which is not the only choice modern people have. One can make their language more functional and force its users to think about data flow, or make it more imperative and let them worry about where the intermediate data is stored.</text>
+			<text>These named memory areas are thought to be fundamental for the nature of computation — and they are within the von Neumann paradigm, which is not the only choice modern designers have. One can make their language more functional and force its users to think about data flow, or make it more imperative and let them worry about where the intermediate data is stored.</text>
 			<src>CPL:52</src>
 			<src>PPL:22</src>
 			<src>WCC:72</src>
@@ -771,6 +797,7 @@
 			<src>WGCC:271</src>
 			<src>HCD:446</src>
 			<src>ACDI:767</src>
+			<src>MCD:450</src>
 		</pic>
 		<hr/>
 		<div class="src">
@@ -789,7 +816,7 @@
 		</div>
 		<hr/>
 		<div class="last">
-			The collection of <strong>91</strong> cards created and maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.<br/>
+			The collection of <strong>95</strong> cards created and maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.<br/>
 			Sources colour coded and explained above this notice.<br/>
 			Last updated: #LASTMOD#.<br/>
 			<a href="http://validator.w3.org/check/referer"><img src="../www/xhtml.88.png" alt="XHTML 1.1" /></a>
