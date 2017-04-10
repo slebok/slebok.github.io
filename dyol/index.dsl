@@ -32,6 +32,7 @@
 			<src>ACDI:36</src>
 			<src>WCI:87</src>
 			<src>MCD:270</src>
+			<src>SEB:293</src>
 		</pic>
 		<pic card>
 			<title>Backtracking</title>
@@ -41,6 +42,7 @@
 			<src>PZPL:378</src>
 			<src>GDB:174</src>
 			<src>MCD:688</src>
+			<src>SEB:629</src>
 		</pic>
 		<pic card>
 			<title>Backward Compatibility</title>
@@ -63,6 +65,7 @@
 			<src>HCD:559</src>
 			<src>ACDI:676</src>
 			<src>WCI:88</src>
+			<src>SEB:305</src>
 		</pic>
 		<pic card>
 			<title>Branching</title>
@@ -78,6 +81,7 @@
 			<src>ACDI:38</src>
 			<src>WCI:87</src>
 			<src>MCD:580</src>
+			<src>SEB:306</src>
 		</pic>
 		<pic card>
 			<title>Built-in Pattern</title>
@@ -94,6 +98,7 @@
 			<src>A60:81</src>
 			<src>GDB:43</src>
 			<src>WCI:35</src>
+			<src>SEB:219</src>
 		</pic>
 		<pic card>
 			<title>Class</title>
@@ -101,6 +106,7 @@
 			<src>CPL:107</src>
 			<src>PPL:464</src>
 			<src>MCD:544</src>
+			<src>SEB:110</src>
 		</pic>
 		<pic card>
 			<title>Client/Server</title>
@@ -191,6 +197,7 @@
 			<src>ACDI:30</src>
 			<src>WCI:123</src>
 			<src>MCD:473</src>
+			<src>SEB:71</src>
 		</pic>
 		<pic card>
 			<title>Comprehensions</title>
@@ -216,6 +223,7 @@
 			<src>WGCC:32</src>
 			<src>ACDI:571</src>
 			<src>MCD:331</src>
+			<src>SEB:503</src>
 		</pic>
 		<pic card>
 			<title>Conditional Compilation</title>
@@ -262,6 +270,7 @@
 			<src>ACDI:100</src>
 			<src>WCI:63</src>
 			<src>MCD:215</src>
+			<src>SEB:139</src>
 		</pic>
 		<pic card>
 			<title>Developer Communication</title>
@@ -282,6 +291,7 @@
 			<src>CPL:104</src>
 			<src>PPL:12</src>
 			<src>PZPL:236</src>
+			<src>SEB:37</src>
 		</pic>
 		<pic card>
 			<title>Energy Saving</title>
@@ -302,6 +312,7 @@
 			<src>ACDI:29</src>
 			<src>WCI:123</src>
 			<src>MCD:533</src>
+			<src>SEB:224</src>
 		</pic>
 		<pic card>
 			<title>Esotericism</title>
@@ -323,12 +334,18 @@
 			<src>PZPL:484</src>
 			<src>ACDI:637</src>
 			<src>MCD:600</src>
+			<src>SEB:38</src>
 		</pic>
 		<pic card>
 			<title>Execution Error</title>
 			<text>Errors can happen at <a href="#Compilation_Error">compile time</a>, but also at run time, due to hardware faults, communication problems, invalid user input or simply <a href="#Debugging">bugs</a> that were left undetected at compile time by <a href="#Static_Analysis">static analysis</a>. Some languages (Erlang) have very well-designed strategies for handling execution errors, but all others also feature some form of partial recovery from them. The language user controls runtime error handling with <a href="#Exception_Handling">exceptions</a>.</text>
 			<src>E:Conditional warnings</src>
 			<src>MCD:597</src>
+		</pic>
+		<pic card>
+			<title>Expressivity</title>
+			<text>There is ultimate expressivity of a software language, typically incorporated in answers to questions like <em>"is it Turing complete?"</em> (i.e., does it have enough constructs to emulate a Turing machine?), and there is a much more important and subtle issue of local expressivity in the sense of how small programs can get without sacrificing their <a href="#Readability">readability</a>. Many long existing languages have eventually developed <a href="#Syntactic_Sugar">shorthand</a> constructs for writing commonly used combinations of constructs shorter and thus faster.</text>
+			<src>SEB:37</src>
 		</pic>
 		<pic card>
 			<title>Feature Lock-out</title>
@@ -342,6 +359,7 @@
 			<src>PPL:397</src>
 			<src>PZPL:431</src>
 			<src>MCD:625</src>
+			<src>SEB:373</src>
 		</pic>
 		<pic card>
 			<title>Garbage Collection</title>
@@ -350,6 +368,7 @@
 			<src>PPL:443</src>
 			<src>PZPL:471</src>
 			<src>MCD:476</src>
+			<src>SEB:117</src>
 		</pic>
 		<pic card>
 			<title>Generation</title>
@@ -363,6 +382,7 @@
 		<pic card>
 			<title>Heterogeneous Structures</title>
 			<text>Some languages allow considerable freedom in <a href="#Type_Definition">types</a> that makes <a href="#Composite_Type">composite types</a> capable of carrying elements of varying structure. Examples: variant <a href="#Record">records</a> in Modula and Ada, heterogeneous lists in Python, polytypic <a href="#Procedure">functions</a> in Haskell, <a href="https:wiki.haskell.orgGeneralised_algebraic_datatype">GADTs</a> in Haskell.</text>
+			<src>SEB:246</src>
 		</pic>
 		<pic card>
 			<title>Holy War</title>
@@ -376,6 +396,7 @@
 			<src>A:Conveyor belts</src>
 			<src>EML:264</src>
 			<src>PZPL:53</src>
+			<src>SEB:53</src>
 		</pic>
 		<pic card>
 			<title>IDE GUI</title>
@@ -397,6 +418,7 @@
 			<src>PPL:465</src>
 			<src>PZPL:311</src>
 			<src>MCD:545</src>
+			<src>SEB:453</src>
 		</pic>
 		<pic card>
 			<title>Input/Output</title>
@@ -429,6 +451,7 @@
 			<src>ACDI:39</src>
 			<src>WCI:87</src>
 			<src>MCD:582</src>
+			<src>SEB:318</src>
 		</pic>
 		<pic card>
 			<title>Keyword</title>
@@ -441,6 +464,7 @@
 			<src>GDB:33</src>
 			<src>ACDI:40</src>
 			<src>WCI:34</src>
+			<src>SEB:35</src>
 		</pic>
 		<pic card>
 			<title>Labelling</title>
@@ -487,6 +511,7 @@
 			<src>WCC:92</src>
 			<src>HCD:459</src>
 			<src>MCD:32</src>
+			<src>SEB:380</src>
 			<src>P:Proximity &amp; grouping</src>
 		</pic>
 		<pic card>
@@ -500,6 +525,12 @@
 			<src>A60:16</src>
 			<src>WCI:36</src>
 			<src>MCD:532</src>
+			<src>SEB:216</src>
+		</pic>
+		<pic card>
+			<title>Operator Overloading</title>
+			<text>A language designer may decide to reuse the same symbol for several different operators, usually conceptually related (such as + for arithmetic addition and string concatenation). Using it for totally unrelated operations is considered harmful for <a href="#Readability">readability</a> (such as & for pointer referencing and bit conjunction in C). In some languages (C++, Ada, Fortran) language users can also <a href="#Redefine">redefine</a> their own operators that complement their own <a href="#Type_Definition">defined types</a>.</text>
+			<src>SEB:284</src>
 		</pic>
 		<pic card>
 			<title>Operator Precedence</title>
@@ -513,6 +544,7 @@
 			<src>HCD:819</src>
 			<src>WCI:71</src>
 			<src>MCD:158</src>
+			<src>SEB:133</src>
 		</pic>
 		<pic card>
 			<title>Optimisation</title>
@@ -540,6 +572,7 @@
 			<src>P:(A)symmetry</src>
 			<src>P:Similarity</src>
 			<src>PPL:8</src>
+			<src>SEB:31</src>
 		</pic>
 		<pic card>
 			<title>Parameter Passing</title>
@@ -547,6 +580,7 @@
 			<src>ACDI:116</src>
 			<src>WCI:161</src>
 			<src>MCD:559</src>
+			<src>SEB:348</src>
 		</pic>
 		<pic card>
 			<title>Parametrised Type</title>
@@ -554,6 +588,7 @@
 			<src>CPL:180</src>
 			<src>PPL:279</src>
 			<src>PZPL:291</src>
+			<src>SEB:446</src>
 		</pic>
 		<pic card>
 			<title>Performance Testing</title>
@@ -575,6 +610,7 @@
 			<src>ACDI:2</src>
 			<src>WCI:7</src>
 			<src>MCD:3</src>
+			<src>SEB:48</src>
 		</pic>
 		<pic card>
 			<title>Picture Clause</title>
@@ -597,6 +633,7 @@
 			<src>HCD:469</src>
 			<src>ACDI:110</src>
 			<src>MCD:464</src>
+			<src>SEB:255</src>
 		</pic>
 		<pic card>
 			<title>Pretty-printing</title>
@@ -625,11 +662,18 @@
 			<src>ACDI:34</src>
 			<src>WCI:157</src>
 			<src>MCD:544</src>
+			<src>SEB:346</src>
 		</pic>
 		<pic card>
 			<title>Program Smell</title>
 			<text>A <em>smell</em> is found when a code fragment has suspicious characteristics even without being wrong. Modern computer science identifies smells for code, models, architecture, spreadsheets, hardware, grammars, etc. The very use of the word "smell" strongly implies that any neat self-respecting language user should try to leave less of those when touching the code.</text>
 			<src>C:Desire for order</src>
+		</pic>
+		<pic card>
+			<title>Readability</title>
+			<text>In many cases a program is written once but read many times for many purposes: to <a href="#Debugging">fix bugs</a>, introduce new features, understand its behaviour, change it, etc. Hence, the ease of reading a program can become a cornerstone of the design of a language. Some existing languages, like COBOL and many modern <abbr title="Domain-Specific Languages">DSLs</abbr>, were specifically designed to empower domain experts to read and write in them. Others, like APL and Perl, while <a href="#Expressivity">expressive</a>, are known to produce unreadable programs.</text>
+			<src>L:Storytelling</src>
+			<src>SEB:30</src>
 		</pic>
 		<pic card>
 			<title>Record</title>
@@ -643,6 +687,7 @@
 			<src>ACDI:33</src>
 			<src>WCI:124</src>
 			<src>MCD:538</src>
+			<src>SEB:224</src>
 		</pic>
 		<pic card>
 			<title>Redefine</title>
@@ -651,6 +696,7 @@
 			<src>PPL:85</src>
 			<src>ACDI:293</src>
 			<src>MCD:520</src>
+			<src>SEB:39</src>
 		</pic>
 		<pic card>
 			<title>Refactoring</title>
@@ -681,6 +727,7 @@
 			<src>ACDI:43</src>
 			<src>WCI:150</src>
 			<src>MCD:515</src>
+			<src>SEB:179</src>
 		</pic>
 		<pic card>
 			<title>Standard Library</title>
@@ -700,6 +747,7 @@
 			<src>ACDI:169</src>
 			<src>WCI:105</src>
 			<src>MCD:115</src>
+			<src>SEB:196</src>
 		</pic>
 		<pic card>
 			<title>Substitution</title>
@@ -717,6 +765,7 @@
 			<src>PPL:328</src>
 			<src>PZPL:321</src>
 			<src>MCD:740</src>
+			<src>SEB:511</src>
 		</pic>
 		<pic card>
 			<title>Syntactic Sugar</title>
@@ -736,6 +785,7 @@
 			<text>When direct <a href="#Optimisation">optimisation</a> is impossible or not sufficiently effective, the language designer can identify trade offs and leave them all inside the language for the users to choose. For example, many compilers have compilation options optimising <a href="#Code_Generation">code generation</a> for speed, size or <a href="#Energy_Saving">power</a>, but not all three. Many languages have <a href="#Standard_Library">libraries</a> and <a href="#Composite_Type">structures</a> for both <em>arrays</em> (fast, immutable length) and <em>lists</em> (slower but flexible).</text>
 			<src>C:Framing</src>
 			<src>MCD:445</src>
+			<src>SEB:44</src>
 		</pic>
 		<pic card>
 			<title>Type Check</title>
@@ -748,6 +798,7 @@
 			<src>HCD:489</src>
 			<src>WCI:91</src>
 			<src>MCD:521</src>
+			<src>SEB:38</src>
 		</pic>
 		<pic card>
 			<title>Type Definition</title>
@@ -763,6 +814,7 @@
 			<src>ACDI:25</src>
 			<src>WCI:111</src>
 			<src>MCD:522</src>
+			<src>SEB:34</src>
 		</pic>
 		<pic card>
 			<title>Undefined Behaviour</title>
@@ -780,7 +832,7 @@
 		</pic>
 		<pic card>
 			<title>Variable</title>
-			<text>These named memory areas are thought to be fundamental for the nature of computation — and they are within the von Neumann paradigm, which is not the only choice modern designers have. One can make their language more functional and force its users to think about data flow, or make it more imperative and let them worry about where the intermediate data is stored.</text>
+			<text>These named memory areas are thought to be fundamental for the nature of computation — and they are within the von Neumann paradigm, which is not the only choice modern designers have. One can make their language more functional and force its users to think about data flow, or make it more imperative and let them worry about where the intermediate data is stored. In some languages naming or stropping of the variables can implicitly define their <a href="#Type_Check">types</a>.</text>
 			<src>CPL:52</src>
 			<src>PPL:22</src>
 			<src>WCC:72</src>
@@ -789,6 +841,7 @@
 			<src>A60:5</src>
 			<src>HCD:522</src>
 			<src>ACDI:26</src>
+			<src>SEB:35</src>
 		</pic>
 		<pic card>
 			<title>Virtual Machine</title>
@@ -816,7 +869,7 @@
 		</div>
 		<hr/>
 		<div class="last">
-			The collection of <strong>95</strong> cards created and maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.<br/>
+			The collection of <strong>98</strong> cards created and maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.<br/>
 			Sources colour coded and explained above this notice.<br/>
 			Last updated: #LASTMOD#.<br/>
 			<a href="http://validator.w3.org/check/referer"><img src="../www/xhtml.88.png" alt="XHTML 1.1" /></a>
