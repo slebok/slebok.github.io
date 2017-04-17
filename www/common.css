@@ -19,9 +19,8 @@ code {font-family:"Courier Prime", Courier, monospace}
 .card h6 {position: absolute; bottom: 0}
 .card a[href] {color:#039;}
 .card h1 {background: white;}
-.dwi {color: white;}
-li.dwi a {color: white}
-li.dwi a, li.pl a {text-decoration: none;}
+.dwi, li.dwi a, .dsl, .dsl a {color: white}
+li.dwi a, li.b a {text-decoration: none;}
 .dwi.A {background-color: #74b649;}
 .dwi.E {background-color: #eb1c23;}
 .dwi.I {background-color: #f6921e;}
@@ -30,20 +29,23 @@ li.dwi a, li.pl a {text-decoration: none;}
 .dwi.C {background-color: #1b75ba;}
 .dwi.M {background-color: #5f3813;}
 .dwi.S {background-color: #777777;}
-.pl {background-color: white;}
+.dsl {background-color: black}
+.b {background-color: white;}
 .src {width: 50%; text-align:left; font-size:smaller; float: left; }
 .src ul {padding-left: 1.5em; margin: 0;}
-.pl.cpl, .pl.cpl  a {color: #009688;}
-.pl.ppl, .pl.ppl  a {color: #c2185b;}
-.pl.eml, .pl.eml  a {color: #9e9d24;}
-.pl.pzpl,.pl.pzpl a {color: #7986cb;}
-.pl.wgcc,.pl.wgcc a {color: #2196f3;}
-.pl.a60, .pl.a60  a {color: #00bcd4;}
-.pl.gdb, .pl.gdb  a {color: #4caf50;}
-.pl.rdb, .pl.rdb  a {color: #f44336;}
-.pl.pdb, .pl.pdb  a {color: #9c27b0;}
-.pl.hcd, .pl.hcd  a {color: #ffb300;}
-.pl.acdi,.pl.acdi a {color: #ff9800;}
-.pl.wci, .pl.wci  a {color: #795548;}
+.b.db, .b.db a {color: #f44336;}
+/*{color: #c2185b;}*/
+.b.cc, .b.cc a {color: #9c27b0;}
+.b.cd, .b.cd a {color: #7986cb;}
+.b.li, .b.li a {color: #2196f3;}
+/*{color: #00bcd4;}*/
+.b.pl, .b.pl a {color: #009688;}
+/*{color: #4caf50;}*/
+.b.pt, .b.pt a {color: #9e9d24;}
+/*{color: #ffb300;}*/
+.b.ld, .b.ld a {color: #ff9800;}
+/*{color: #795548;}*/
+/*{color: #bdbdbd;}*/
+.b.sl, .b.sl a {color: #607d8b;}
 /*https://material.io/guidelines/style/color.html#color-color-palette*/
 hr{clear: both;}

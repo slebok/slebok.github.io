@@ -119,19 +119,17 @@ dsl.write('''<?xml version="1.0" encoding="UTF-8"?>
 		<picdir>../www</picdir>
 ''')
 # ,Inspired by,Key phrase,Name,Explanation,CPL,PPL,Text
-header = lines[0].strip().split(',')
+categs = lines[1].strip().split(',')
+header = lines[2].strip().split(',')
 IDXdwi = header.index('Inspired by')
 IDXnam = header.index('Name')
 IDXexp = header.index('Explanation')
-IDXcpl = header.index('CPL')
-IDXppl = header.index('PPL')
-IDXeml = header.index('EML')
 IDXtxt = header.index('Text')
 
 cards = {}
 codes = 0
 
-for line in lines[1:]:
+for line in lines[3:]:
 	fs = split(line.strip(), len(header))
 	if fs[IDXnam].strip() == '':
 		continue
@@ -165,7 +163,7 @@ for line in lines[1:]:
 		codes += 1
 	for idx in range(IDXexp+1,IDXtxt):
 		if fs[idx]!='' and fs[idx]!='?':
-			card.append('			<src>{}:{}</src>\n'.format(header[idx], fs[idx]))
+			card.append('			<src>{}:{}:{}</src>\n'.format(categs[idx], header[idx], fs[idx]))
 			codes += 1
 	card.append('		</pic>\n')
 	cards[name] = card
@@ -182,26 +180,40 @@ dsl.write('''		<hr/>
 			<ul>''')
 for lens in ('Architectural', 'Errorproofing', 'Interaction', 'Ludic', 'Perceptual', 'Cognitive', 'Machiavellian', 'Security'):
 	dsl.write('				<li class="dwi {}"><a href="http://designwithintent.co.uk/{}-lens/">Design with Intent (Lockton, Harrison, Stanton, 2010): {} Lens</a></li>\n'.format(lens[0], lens.lower(), lens))
+dsl.write('				<li class="dsl">Supporting the DSL Spectrum (Wile, 2001)</li>\n')
+dsl.write('				<li class="dsl">Notable Design Patterns for Domain-specific Languages (Spinellis, 2001)</li>\n')
+dsl.write('				<li class="dsl">When and How to Develop Domain-specific Languages (Mernik, Heering, Sloane, 2005)</li>\n')
 dsl.write('''			</ul>
 		</div>
 		<div class="src">
 			<ul>''')
 for book in (
-		('rdb','#', 'Compilers: (Aho, Sethi, Ullman, ...)'),
-		('ppl', 'http://amzn.to/2nmFg70', 'Principles of Programming Languages: Design, Evaluation and Implementation (MacLennan, 1983)'),
-		('pdb','#', 'Compilers: (Aho, Sethi, Ullman, Lam, ...)'),
-		('wcc', 'http://amzn.to/2nmUPeU', 'Compiler Construction (Wirth, 2005)'),
-		('pzpl','http://amzn.to/2nnaieI', 'Programming Languages: Design and Implementation (Pratt, Zelkowitz, 2001)'),
-		('wgcc','#', 'Compiler Construction (Waite, Goos, 1984)'),
-		('a60','#', 'A Primer of ALGOL 60 Programming (Dijkstra, 1962)'),
-		('cpl', 'http://amzn.to/2n8cd5u', 'Comparative Programming Languages (Wilson, Clark, 1993)'),
-		('gdb','#', 'Principles of Compiler Design (Aho, Ullman, 1979)'),
-		('eml', 'http://amzn.to/2n8yz6y', 'Engineering Modeling Languages (Combemale, France, Jézéquel, Rumpe, Steel, Vojtisek, 2017)'),
-		('hcd','#', 'Compiler Design in C (Holub, 1990)'),
-		('acdi','#', 'Advanced Compiler Design and Implementation (Muchnick, 1997)'),
-		('wci','#', 'Writing Compilers and Interpreters: An Applied Approach (Mak, 1991)'),
+		('db','gd', 'http://amzn.to/2ofkepP', 'Principles of Compiler Design (Aho, Ullman, 1977)'),
+		('db','rd', 'http://amzn.to/2pAUncU', 'Compilers: Principles, Techniques, and Tools (Aho, Sethi, Ullman, 1986)'),
+		('db','pd', 'http://amzn.to/2offvUI', 'Compilers: Principles, Techniques, &amp; Tools (Aho, Lam, Sethi, Ullman, 2006)'),
+		('cc','dg', '#', 'Compiler Construction for Digital Computers (Gries, 1971)'),
+		('cc','wg', 'http://amzn.to/2phWrHp', 'Compiler Construction (Waite, Goos, 1984)'),
+		('cc','nw', 'http://amzn.to/2nmUPeU', 'Compiler Construction (Wirth, 2005)'),
+		('cd','ch', 'http://amzn.to/2pAYPYW', 'Compiler Design in C (Holub, 1990)'),
+		('cd','sm', 'http://amzn.to/2p3nnxw', 'Advanced Compiler Design and Implementation (Muchnick, 1997)'),
+		('cd','gb', 'http://amzn.to/2ofhgRP', 'Modern Compiler Design (Grune, van Reeuwijk, Bal, Jacobs, Langendoen, 2012)'),
+		('li','bh', '#', 'Brinch Hansen on Pascal Compilers (Hansen, 1985)'),
+		('li','rm', 'http://amzn.to/2pAW75O', 'Writing Compilers and Interpreters: An Applied Approach (Mak, 1991)'),
+		('li','pz', 'http://amzn.to/2nnaieI', 'Programming Languages: Design and Implementation (Pratt, Zelkowitz, 2001)'),
+		('pl','ml', 'http://amzn.to/2nmFg70', 'Principles of Programming Languages: Design, Evaluation and Implementation (MacLennan, 1983)'),
+		('pl','wc', 'http://amzn.to/2n8cd5u', 'Comparative Programming Languages (Wilson, Clark, 1993)'),
+		('pl','rs', 'http://amzn.to/2ofl1qu', 'Concepts of Programming Languages (Sebesta, 2001)'),
+		('pt','ao', '#', 'Definition of Programming Languages by Interpreting Automata (Ollongren, 1974)'),
+		('pt','hu', '#', 'Introduction to Automata Theory, Languages, and Computation (Hopcroft, Ullman, 1979)'),
+		('pt','gj', '#', 'Parsing Techniques: A Practical Guide (Grune, Jacobs, 2008)'),
+		('ld','ed', 'http://amzn.to/2oupTtC', 'A Primer of ALGOL 60 Programming (Dijkstra, 1962)'),
+		('ld','jw', '#', 'Pascal User Manual and Report (Jensen, Wirth, 1985)'),
+		('ld','wh', '#', 'Programming in the .NET Environment (Watkins, Hammond, Abrams, 2003)'),
+		('sl','as', '', 'Structure and Interpretation of Computer Programs (Abelson, Sussman, Sussman, 1996)'),
+		('sl','cf', 'http://amzn.to/2n8yz6y', 'Engineering Modeling Languages (Combemale, France, Jézéquel, Rumpe, Steel, Vojtisek, 2017)'),
+		('sl','rl', '', 'Software Languages: Syntax, Semantics, and Metaprogramming (Lämmel, 2017)'),
 	):
-	dsl.write('				<li class="pl {}"><a href="{}">{}: {}</a></li>'.format(book[0], book[1], book[0].upper(), book[2]))
+	dsl.write('				<li class="b {}"><a href="{}">{}:{} — {}</a></li>'.format(book[0], book[2], book[0].upper(), book[1].upper(), book[3]))
 dsl.write('''			</ul>
 		</div>
 		<hr/>
