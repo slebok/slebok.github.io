@@ -163,7 +163,7 @@ for line in lines[3:]:
 		codes += 1
 	for idx in range(IDXexp+1,IDXtxt):
 		if fs[idx]!='' and fs[idx]!='?':
-			card.append('			<src>{}:{}:{}</src>\n'.format(categs[idx], header[idx], fs[idx]))
+			card.append('			<src>{}-{}:{}</src>\n'.format(categs[idx], header[idx], fs[idx]))
 			codes += 1
 	card.append('		</pic>\n')
 	cards[name] = card
