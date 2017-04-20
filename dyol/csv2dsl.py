@@ -122,7 +122,7 @@ dsl.write('''<?xml version="1.0" encoding="UTF-8"?>
 categs = lines[1].strip().split(',')
 header = lines[2].strip().split(',')
 IDXdwi = header.index('Inspired by')
-IDXnam = header.index('Name')
+IDXnam = header.index('!Name')
 IDXexp = header.index('Explanation')
 IDXtxt = header.index('Text')
 
@@ -131,7 +131,7 @@ codes = 0
 
 for line in lines[3:]:
 	fs = split(line.strip(), len(header))
-	if fs[IDXnam].strip() == '':
+	if fs[IDXnam].strip() == '' or fs[IDXnam].strip().startswith('%'):
 		continue
 	card = []
 	name = capitalize(fs[IDXnam])

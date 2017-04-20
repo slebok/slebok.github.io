@@ -30,7 +30,7 @@ li.dwi a, li.b a {text-decoration: none;}
 .dwi.M {background-color: #5f3813;}
 .dwi.S {background-color: #777777;}
 .dsl {background-color: black}
-.b {background-color: white;}
+.b {background-color: white; white-space: nowrap;}
 .src {width: 50%; text-align:left; font-size:smaller; float: left; }
 .src ul {padding-left: 1.5em; margin: 0;}
 .b.db, .b.db a {color: #f44336;}
