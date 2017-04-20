@@ -36,6 +36,11 @@ def intralink(x):
 				where,what = y[i].split('!')
 			if not where.startswith('http://') and not where.startswith('https://'):
 				where = capitalize(where)
+				if where.endswith('s'):
+					if where.endswith('Classes'):
+						where = where[:-2]
+					elif where.split(' ')[-1] not in ('Class', 'Analysis', 'Process'):
+						where = where[:-1]
 				if where not in links:
 					links.append(where)
 				where = '#' + where
