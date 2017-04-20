@@ -20,7 +20,7 @@ code {font-family:"Courier Prime", Courier, monospace}
 .card a[href] {color:#039;}
 .card h1 {background: white;}
 .dwi, li.dwi a, .dsl, .dsl a {color: white}
-li.dwi a, li.b a {text-decoration: none;}
+li.dwi a, li.dsl a, li.b a {text-decoration: none;}
 .dwi.A {background-color: #74b649;}
 .dwi.E {background-color: #eb1c23;}
 .dwi.I {background-color: #f6921e;}

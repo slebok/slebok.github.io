@@ -185,9 +185,9 @@ dsl.write('''		<hr/>
 			<ul>''')
 for lens in ('Architectural', 'Errorproofing', 'Interaction', 'Ludic', 'Perceptual', 'Cognitive', 'Machiavellian', 'Security'):
 	dsl.write('				<li class="dwi {}"><a href="http://designwithintent.co.uk/{}-lens/">Design with Intent (Lockton, Harrison, Stanton, 2010): {} Lens</a></li>\n'.format(lens[0], lens.lower(), lens))
-dsl.write('				<li class="dsl">Supporting the DSL Spectrum (Wile, 2001)</li>\n')
-dsl.write('				<li class="dsl">Notable Design Patterns for Domain-specific Languages (Spinellis, 2001)</li>\n')
-dsl.write('				<li class="dsl">When and How to Develop Domain-specific Languages (Mernik, Heering, Sloane, 2005)</li>\n')
+dsl.write('				<li class="dsl"><a href="http://dx.doi.org/10.2498/cit.2001.04.01">Supporting the DSL Spectrum (Wile, 2001)</a></li>\n')
+dsl.write('				<li class="dsl"><a href="http://dx.doi.org/10.1016/S0164-1212(00)00089-3">Notable Design Patterns for Domain-specific Languages (Spinellis, 2001)</a></li>\n')
+dsl.write('				<li class="dsl"><a href="https://doi.org/10.1145/1118890.1118892">When and How to Develop Domain-specific Languages (Mernik, Heering, Sloane, 2005)</a></li>\n')
 dsl.write('''			</ul>
 		</div>
 		<div class="src">
@@ -196,27 +196,27 @@ for book in (
 		('db','gd', 'http://amzn.to/2ofkepP', 'Principles of Compiler Design (Aho, Ullman, 1977)'),
 		('db','rd', 'http://amzn.to/2pAUncU', 'Compilers: Principles, Techniques, and Tools (Aho, Sethi, Ullman, 1986)'),
 		('db','pd', 'http://amzn.to/2offvUI', 'Compilers: Principles, Techniques, &amp; Tools (Aho, Lam, Sethi, Ullman, 2006)'),
-		('cc','dg', '#', 'Compiler Construction for Digital Computers (Gries, 1971)'),
+		('cc','dg', 'http://amzn.to/2oYBQdc', 'Compiler Construction for Digital Computers (Gries, 1971)'),
 		('cc','wg', 'http://amzn.to/2phWrHp', 'Compiler Construction (Waite, Goos, 1984)'),
 		('cc','nw', 'http://amzn.to/2nmUPeU', 'Compiler Construction (Wirth, 2005)'),
 		('cd','ch', 'http://amzn.to/2pAYPYW', 'Compiler Design in C (Holub, 1990)'),
 		('cd','sm', 'http://amzn.to/2p3nnxw', 'Advanced Compiler Design and Implementation (Muchnick, 1997)'),
 		('cd','gb', 'http://amzn.to/2ofhgRP', 'Modern Compiler Design (Grune, van Reeuwijk, Bal, Jacobs, Langendoen, 2012)'),
-		('li','bh', '#', 'Brinch Hansen on Pascal Compilers (Hansen, 1985)'),
+		('li','bh', 'http://amzn.to/2opUpnG', 'Brinch Hansen on Pascal Compilers (Hansen, 1985)'),
 		('li','rm', 'http://amzn.to/2pAW75O', 'Writing Compilers and Interpreters: An Applied Approach (Mak, 1991)'),
 		('li','pz', 'http://amzn.to/2nnaieI', 'Programming Languages: Design and Implementation (Pratt, Zelkowitz, 2001)'),
 		('pl','ml', 'http://amzn.to/2nmFg70', 'Principles of Programming Languages: Design, Evaluation and Implementation (MacLennan, 1983)'),
 		('pl','wc', 'http://amzn.to/2n8cd5u', 'Comparative Programming Languages (Wilson, Clark, 1993)'),
 		('pl','rs', 'http://amzn.to/2ofl1qu', 'Concepts of Programming Languages (Sebesta, 2001)'),
-		('pt','ao', '#', 'Definition of Programming Languages by Interpreting Automata (Ollongren, 1974)'),
-		('pt','hu', '#', 'Introduction to Automata Theory, Languages, and Computation (Hopcroft, Ullman, 1979)'),
-		('pt','gj', '#', 'Parsing Techniques: A Practical Guide (Grune, Jacobs, 2008)'),
+		('pt','ao', 'http://amzn.to/2oSL1u0', 'Definition of Programming Languages by Interpreting Automata (Ollongren, 1974)'),
+		('pt','hu', 'http://amzn.to/2o776HL', 'Introduction to Automata Theory, Languages, and Computation (Hopcroft, Ullman, 1979)'),
+		('pt','gj', 'http://amzn.to/2oYyF5C', 'Parsing Techniques: A Practical Guide (Grune, Jacobs, 2008)'),
 		('ld','ed', 'http://amzn.to/2oupTtC', 'A Primer of ALGOL 60 Programming (Dijkstra, 1962)'),
-		('ld','jw', '#', 'Pascal User Manual and Report (Jensen, Wirth, 1985)'),
-		('ld','wh', '#', 'Programming in the .NET Environment (Watkins, Hammond, Abrams, 2003)'),
-		('sl','as', '', 'Structure and Interpretation of Computer Programs (Abelson, Sussman, Sussman, 1996)'),
+		('ld','jw', 'http://amzn.to/2opWUX1', 'Pascal User Manual and Report (Jensen, Wirth, 1985)'),
+		('ld','wh', 'http://amzn.to/2o7eCm1', 'Programming in the .NET Environment (Watkins, Hammond, Abrams, 2003)'),
+		('sl','as', 'http://amzn.to/2oYs232', 'Structure and Interpretation of Computer Programs (Abelson, Sussman, Sussman, 1996)'),
 		('sl','cf', 'http://amzn.to/2n8yz6y', 'Engineering Modeling Languages (Combemale, France, Jézéquel, Rumpe, Steel, Vojtisek, 2017)'),
-		('sl','rl', '', 'Software Languages: Syntax, Semantics, and Metaprogramming (Lämmel, 2017)'),
+		('sl','rl', 'http://www.softlang.org/book', 'Software Languages: Syntax, Semantics, and Metaprogramming (Lämmel, 2017)'),
 	):
 	dsl.write('				<li class="b {}"><a href="{}">{}:{} — {}</a></li>'.format(book[0], book[2], book[0].upper(), book[1].upper(), book[3]))
 dsl.write('''			</ul>
