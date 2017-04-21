@@ -21,9 +21,11 @@
 			<title>Alphabet</title>
 			<text>The basic alphabet is often taken for granted, especially for textual languages, but it can be an important design aspect. In some languages (<a href="http:tryapl.org">APL</a> being the extreme) the alphabet is extremely broad, with all kinds of specific symbols being used for <a href="#Standard_Library">built-in</a> operators, which shifts the visual feel of the language closer to mathematics. In other languages <a href="#Keyword">keywords</a> are taken from the English dictionary, which also in some sense limited language appeal to some groups of users (and led to reimplementations with translated keywords).</text>
 			<src>P:Perceived affordances</src>
+			<src>DB-GD:28</src>
 			<src>DB-RD:92</src>
 			<src>DB-PD:165</src>
 			<src>CC-DG:15</src>
+			<src>CD-AH:52</src>
 			<src>LI-BH:10</src>
 			<src>PT-AO:34</src>
 			<src>PT-HU:1</src>
@@ -49,6 +51,7 @@
 			<src>LD-JW:28</src>
 			<src>LD-WH:54</src>
 			<src>SL-AS:190</src>
+			<src>SL-RL:9</src>
 		</pic>
 		<pic card>
 			<title>Backtracking</title>
@@ -62,11 +65,13 @@
 			<src>PL-RS:629</src>
 			<src>PL-BM:516</src>
 			<src>PT-GJ:183</src>
+			<src>SL-RL:201</src>
 		</pic>
 		<pic card>
 			<title>Backward Compatibility</title>
 			<text>In language evolution, introduce new features that should supercede older ones, but ensure the users that their existing code will still run. Ideally, this code should eventually be rewritten and coevolved.</text>
 			<src>M:Worry resolution</src>
+			<src>SL-RL:38</src>
 		</pic>
 		<pic card>
 			<title>Block</title>
@@ -87,6 +92,7 @@
 			<src>LD-ED:13</src>
 			<src>LD-JW:1</src>
 			<src>SL-AS:34</src>
+			<src>SL-RL:178</src>
 		</pic>
 		<pic card>
 			<title>Branching</title>
@@ -110,6 +116,7 @@
 			<src>LD-ED:20</src>
 			<src>LD-JW:43</src>
 			<src>SL-AS:26</src>
+			<src>SL-RL:380</src>
 		</pic>
 		<pic card>
 			<title>Character Type</title>
@@ -173,6 +180,7 @@
 			<title>Code Mining</title>
 			<text>Besides user surveys and expert opinions, there is a third way to uncover points to improve the language in its next versions: examining existing artefacts created in this language. There are many modern techniques in mining software repositories and machine learning that can be helpful here.</text>
 			<src>I:Peer feedback</src>
+			<src>SL-RL:446</src>
 		</pic>
 		<pic card>
 			<title>Code Ownership</title>
@@ -194,6 +202,7 @@
 			<src>LD-JW:9</src>
 			<src>SL-AS:111</src>
 			<src>SL-CF:23</src>
+			<src>SL-RL:212</src>
 		</pic>
 		<pic card>
 			<title>Compilation Error</title>
@@ -211,6 +220,7 @@
 			<src>LI-PZ:109</src>
 			<src>PT-GJ:521</src>
 			<src>LD-JW:201</src>
+			<src>SL-RL:151</src>
 		</pic>
 		<pic card>
 			<title>Compilation Warning</title>
@@ -307,6 +317,7 @@
 			<src>PT-GJ:567</src>
 			<src>LD-WH:474</src>
 			<src>SL-AS:393</src>
+			<src>SL-RL:400</src>
 		</pic>
 		<pic card>
 			<title>Cross-compilation</title>
@@ -333,6 +344,7 @@
 			<title>Default</title>
 			<text>Unchanged configuration options, uninitialised <a href="#Variable">variables</a> and unspecified optional <a href="#Access_Modifier">modifiers</a> are examples of situations when a default value must be used by the compiler. These default values are decided by the language designer and typically represent the <em>best</em> option within the paradigm.</text>
 			<src>E:Defaults</src>
+			<src>SL-RL:57</src>
 			<src>E:Opt-outs</src>
 		</pic>
 		<pic card>
@@ -346,6 +358,7 @@
 			<title>Deprecated Construct</title>
 			<text>In language evolution, sometimes a no longer desired construct cannot be simply removed to avoid breaking <a href="#Backward_Compatibility">backward compatibility</a>. However, it can be marked explicitly as deprecated to discourage language users to rely on it.</text>
 			<src>A:Feature deletion</src>
+			<src>SL-RL:15</src>
 		</pic>
 		<pic card>
 			<title>Design Chart/Diagram</title>
@@ -388,6 +401,7 @@
 			<src>PL-BM:12</src>
 			<src>LD-WH:229</src>
 			<src>SL-AS:15</src>
+			<src>SL-RL:19</src>
 		</pic>
 		<pic card>
 			<title>Energy Saving</title>
@@ -428,6 +442,7 @@
 			<src>PL-WC:265</src>
 			<src>LD-WH:14</src>
 			<src>SL-AS:415</src>
+			<src>SL-RL:10</src>
 		</pic>
 		<pic card>
 			<title>Exception Handling</title>
@@ -439,6 +454,7 @@
 			<src>PL-WC:95</src>
 			<src>PL-BM:316</src>
 			<src>LD-WH:379</src>
+			<src>SL-RL:64</src>
 		</pic>
 		<pic card>
 			<title>Execution Error</title>
@@ -452,6 +468,7 @@
 			<title>Expressivity</title>
 			<text>There is ultimate expressivity of a software language, typically incorporated in answers to questions like <em>"is it Turing complete?"</em> (i.e., does it have enough constructs to emulate a Turing machine?), and there is a much more important and subtle issue of local expressivity in the sense of how small programs can get without sacrificing their <a href="#Readability">readability</a>. Many long existing languages have eventually developed <a href="#Syntactic_Sugar">shorthand</a> constructs for writing commonly used combinations of constructs shorter and thus faster.</text>
 			<src>PL-RS:37</src>
+			<src>SL-RL:247</src>
 		</pic>
 		<pic card>
 			<title>First Class Citizen</title>
@@ -466,12 +483,13 @@
 			<src>LD-JW:117</src>
 			<src>LD-WH:410</src>
 			<src>SL-AS:59</src>
+			<src>SL-RL:12</src>
 		</pic>
 		<pic card>
 			<title>Garbage Collection</title>
 			<text>Automatic release of memory is impossible for cyclic data structures. Languages that want to support them, have a <em>garbage collector</em> — a runtime compiler component that occasionally <em>marks</em> data structures that have become inaccessible and then <em>sweeps</em> them away, freeing the memory. GC can compromise language responsiveness and performance.</text>
 			<src>M:Bundling</src>
-			<src>DB-RD:424</src>
+			<src>DB-RD:441</src>
 			<src>DB-PD:568</src>
 			<src>CC-DG:209</src>
 			<src>CD-GB:476</src>
@@ -503,6 +521,7 @@
 			<src>LD-JW:69</src>
 			<src>LD-WH:309</src>
 			<src>SL-AS:99</src>
+			<src>SL-RL:332</src>
 		</pic>
 		<pic card>
 			<title>IDE</title>
@@ -511,6 +530,7 @@
 			<src>LI-PZ:53</src>
 			<src>PL-RS:53</src>
 			<src>SL-CF:264</src>
+			<src>SL-RL:19</src>
 		</pic>
 		<pic card>
 			<title>IDE GUI</title>
@@ -528,6 +548,7 @@
 			<src>PL-BM:91</src>
 			<src>LD-JW:9</src>
 			<src>SL-CF:23</src>
+			<src>SL-RL:219</src>
 		</pic>
 		<pic card>
 			<title>Inheritance</title>
@@ -563,6 +584,7 @@
 			<src>LI-RM:288</src>
 			<src>LD-WH:103</src>
 			<src>SL-AS:427</src>
+			<src>SL-RL:144</src>
 		</pic>
 		<pic card>
 			<title>Iteration</title>
@@ -586,6 +608,7 @@
 			<src>LD-ED:26</src>
 			<src>LD-JW:35</src>
 			<src>SL-AS:40</src>
+			<src>SL-RL:288</src>
 		</pic>
 		<pic card>
 			<title>Keyword</title>
@@ -651,6 +674,7 @@
 			<src>CD-GB:102</src>
 			<src>LI-PZ:74</src>
 			<src>SL-AS:314</src>
+			<src>SL-RL:24</src>
 		</pic>
 		<pic card>
 			<title>Metaphor</title>
@@ -694,10 +718,11 @@
 			<src>LD-JW:12</src>
 			<src>LD-WH:26</src>
 			<src>SL-AS:80</src>
+			<src>SL-RL:268</src>
 		</pic>
 		<pic card>
 			<title>Operator Overloading</title>
-			<text>A language designer may decide to reuse the same symbol for several different operators, usually conceptually related (such as + for arithmetic addition and string concatenation). Using it for totally unrelated operations is considered harmful for <a href="#Readability">readability</a> (such as & for pointer referencing and bit conjunction in C). In some languages (C++, Ada, Fortran) language users can also <a href="#Redefine">redefine</a> their own operators that complement their own <a href="#Type_Definition">defined types</a>.</text>
+			<text>A language designer may decide to reuse the same symbol for several different operators, usually conceptually related (such as + for arithmetic addition and string concatenation). Using it for totally unrelated operations is considered harmful for <a href="#Readability">readability</a> (such as &amp; for pointer referencing and bit conjunction in C). In some languages (C++, Ada, Fortran) language users can also <a href="#Redefine">redefine</a> their own operators that complement their own <a href="#Type_Definition">defined types</a>.</text>
 			<src>DB-PD:481</src>
 			<src>PL-RS:284</src>
 			<src>LD-WH:336</src>
@@ -736,6 +761,7 @@
 			<src>LI-RM:382</src>
 			<src>LI-PZ:110</src>
 			<src>SL-AS:497</src>
+			<src>SL-RL:156</src>
 		</pic>
 		<pic card>
 			<title>Order</title>
@@ -759,6 +785,7 @@
 		<pic card>
 			<title>Parameter Passing</title>
 			<text>There are several strategies in mapping <em>arguments</em> that are being passed to a <a href="#Subprogram">procedure</a> in a call with the <em>parameters</em> that procedure expects to get: <em>call by value</em> (expose only the values, safe but inefficient for <a href="#Composite_Type">composite data</a>), <em>call by result</em> (same but can return several values at once), <em>call by value-result</em> (the caller gets values, updates them, they are passed back), <em>call by reference</em> (expose <a href="#Pointer">pointers</a> to values, efficient but unsafe), <em>call by name</em> (evaluate pointers when they are used inside the caller), etc.</text>
+			<src>DB-GD:60</src>
 			<src>DB-RD:424</src>
 			<src>DB-PD:68</src>
 			<src>CC-DG:187</src>
@@ -771,6 +798,7 @@
 			<src>LD-JW:106</src>
 			<src>LD-WH:122</src>
 			<src>SL-AS:24</src>
+			<src>SL-RL:315</src>
 		</pic>
 		<pic card>
 			<title>Parametrised Type</title>
@@ -806,6 +834,7 @@
 			<src>LI-PZ:73</src>
 			<src>PL-RS:48</src>
 			<src>PL-BM:38</src>
+			<src>SL-RL:18</src>
 		</pic>
 		<pic card>
 			<title>Picture Clause</title>
@@ -835,6 +864,7 @@
 			<src>PL-BM:206</src>
 			<src>LD-JW:94</src>
 			<src>LD-WH:49</src>
+			<src>SL-RL:111</src>
 		</pic>
 		<pic card>
 			<title>Pretty-printing</title>
@@ -846,6 +876,7 @@
 			<src>PL-BM:89</src>
 			<src>SL-AS:19</src>
 			<src>SL-CF:23</src>
+			<src>SL-RL:219</src>
 		</pic>
 		<pic card>
 			<title>Preview</title>
@@ -877,6 +908,7 @@
 			<src>PL-BM:199</src>
 			<src>LD-JW:65</src>
 			<src>LD-WH:386</src>
+			<src>SL-RL:332</src>
 		</pic>
 		<pic card>
 			<title>Redefine</title>
@@ -899,7 +931,7 @@
 		</pic>
 		<pic card>
 			<title>Runtime</title>
-			<text>A runtime environment is a system component that must accompany the result of the compilation in order for it to function correctly. May be completely non-existent, contain <a href="#Standard_Library">standard libraries</a> or a <a href="#Virtual_Machine">virtual machine</a>.</text>
+			<text>A runtime environment is a system component that must accompany the result of the compilation in order for it to function correctly. May be completely non-existent, contain <a href="#Standard_Library">standard libraries</a> or a <a href="#Virtual_Machine">virtual machine</a>. The <em>multi-stage</em> paradigm can accommodate several intermediate stages of <a href="#Generation">generation</a> between compile-time and runtime.</text>
 			<src>DSL-Wile:Analyzers and Simulators</src>
 			<src>DSL-Mernik:Interpreter</src>
 			<src>DB-GD:350</src>
@@ -934,6 +966,7 @@
 			<src>LD-JW:5</src>
 			<src>LD-WH:248</src>
 			<src>SL-AS:33</src>
+			<src>SL-RL:20</src>
 		</pic>
 		<pic card>
 			<title>Security</title>
@@ -946,6 +979,7 @@
 			<text>A <em>smell</em> is found when a code fragment has suspicious characteristics even without being wrong. Modern computer science identifies smells for code, models, architecture, spreadsheets, hardware, grammars, etc. The very use of the word "smell" strongly implies that any neat self-respecting language user should try to leave less of those when touching the code.</text>
 			<src>C:Desire for order</src>
 			<src>PT-GJ:47</src>
+			<src>SL-RL:446</src>
 		</pic>
 		<pic card>
 			<title>Standard Library</title>
@@ -983,6 +1017,7 @@
 			<src>DSL-Wile:Sub-languages</src>
 			<src>DSL-Spinellis:Piggyback</src>
 			<src>DSL-Mernik:Language Exploitation</src>
+			<src>SL-RL:16</src>
 			<src>P:Nakedness</src>
 			<src>Spinellis:Language Extension</src>
 			<src>Mernik:Language Invention</src>
@@ -991,7 +1026,7 @@
 		</pic>
 		<pic card>
 			<title>Subprogram</title>
-			<text>Pieces of code that can be executed from other places in the program, are common to all languages, since they promote reuse, but they are designed differently. Some languages only allow them to be attached to an object (methods) or a <a href="#Class">class</a> (static methods) or exist independently (procedures, functions), others provide special <a href="#Synchronisation">synchronisation</a> mechanisms to procedures to cooperate (coroutines, delegates) or allow them to be <a href="#First_Class_Citizen">first class citizens</a> to be passed as arguments. If a procedure may have <em>parameters</em>, the designer must decide on the <a href="#Parameter_Passing">parameter passing</a> strategy.</text>
+			<text>Pieces of code executable from other places promote reuse, but can be designed differently. Some languages only allow them to be independent (<em>procedures, functions</em>), or attached to an object (<em>methods</em>) or a <a href="#Class">class</a> (<em>static methods</em>), others provide special <a href="#Synchronisation">synchronisation</a> among them (<em>coroutines, delegates</em>) or allow them to be <a href="#First_Class_Citizen">passed as arguments</a>. If they may have <em>parameters</em>, the designer must decide on the <a href="#Parameter_Passing">parameter passing</a> strategy.</text>
 			<src>DB-GD:55</src>
 			<src>DB-RD:506</src>
 			<src>DB-PD:63</src>
@@ -1024,6 +1059,7 @@
 			<src>PL-BM:208</src>
 			<src>LD-JW:159</src>
 			<src>SL-AS:172</src>
+			<src>SL-RL:335</src>
 		</pic>
 		<pic card>
 			<title>Synchronisation</title>
@@ -1079,7 +1115,7 @@
 			<src>PL-BM:129</src>
 			<src>PT-AO:98</src>
 			<src>LD-WH:13</src>
-			<src>SL-RL:13</src>
+			<src>SL-RL:267</src>
 		</pic>
 		<pic card>
 			<title>Type Definition</title>
@@ -1127,6 +1163,7 @@
 			<src>PT-GJ:573</src>
 			<src>LD-WH:92</src>
 			<src>SL-AS:379</src>
+			<src>SL-RL:400</src>
 		</pic>
 		<pic card>
 			<title>Variable</title>
@@ -1163,6 +1200,13 @@
 		</pic>
 		<hr/>
 		<div class="src">
+			<div class="dyolast">
+				The collection of <strong>96</strong> cards created and maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.<br/>
+				Sources colour coded and explained/linked around this notice.<br/>
+				Last updated: #LASTMOD#.<br/>
+				<a href="http://validator.w3.org/check/referer"><img src="../www/xhtml.88.png" alt="XHTML 1.1" /></a>
+				<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="../www/css.88.png" alt="CSS 3" /></a>
+			</div>
 			<ul>				<li class="dwi A"><a href="http://designwithintent.co.uk/architectural-lens/">Design with Intent (Lockton, Harrison, Stanton, 2010): Architectural Lens</a></li>
 				<li class="dwi E"><a href="http://designwithintent.co.uk/errorproofing-lens/">Design with Intent (Lockton, Harrison, Stanton, 2010): Errorproofing Lens</a></li>
 				<li class="dwi I"><a href="http://designwithintent.co.uk/interaction-lens/">Design with Intent (Lockton, Harrison, Stanton, 2010): Interaction Lens</a></li>
@@ -1180,12 +1224,5 @@
 			<ul>				<li class="b db"><a href="http://amzn.to/2ofkepP">DB:GD — Principles of Compiler Design (Aho, Ullman, 1977)</a></li>				<li class="b db"><a href="http://amzn.to/2pAUncU">DB:RD — Compilers: Principles, Techniques, and Tools (Aho, Sethi, Ullman, 1986)</a></li>				<li class="b db"><a href="http://amzn.to/2offvUI">DB:PD — Compilers: Principles, Techniques, &amp; Tools (Aho, Lam, Sethi, Ullman, 2006)</a></li>				<li class="b cc"><a href="http://amzn.to/2oYBQdc">CC:DG — Compiler Construction for Digital Computers (Gries, 1971)</a></li>				<li class="b cc"><a href="http://amzn.to/2phWrHp">CC:WG — Compiler Construction (Waite, Goos, 1984)</a></li>				<li class="b cc"><a href="http://amzn.to/2nmUPeU">CC:NW — Compiler Construction (Wirth, 2005)</a></li>				<li class="b cd"><a href="http://amzn.to/2pAYPYW">CD:CH — Compiler Design in C (Holub, 1990)</a></li>				<li class="b cd"><a href="http://amzn.to/2p3nnxw">CD:SM — Advanced Compiler Design and Implementation (Muchnick, 1997)</a></li>				<li class="b cd"><a href="http://amzn.to/2ofhgRP">CD:GB — Modern Compiler Design (Grune, van Reeuwijk, Bal, Jacobs, Langendoen, 2012)</a></li>				<li class="b li"><a href="http://amzn.to/2opUpnG">LI:BH — Brinch Hansen on Pascal Compilers (Hansen, 1985)</a></li>				<li class="b li"><a href="http://amzn.to/2pAW75O">LI:RM — Writing Compilers and Interpreters: An Applied Approach (Mak, 1991)</a></li>				<li class="b li"><a href="http://amzn.to/2nnaieI">LI:PZ — Programming Languages: Design and Implementation (Pratt, Zelkowitz, 2001)</a></li>				<li class="b pl"><a href="http://amzn.to/2nmFg70">PL:ML — Principles of Programming Languages: Design, Evaluation and Implementation (MacLennan, 1983)</a></li>				<li class="b pl"><a href="http://amzn.to/2n8cd5u">PL:WC — Comparative Programming Languages (Wilson, Clark, 1993)</a></li>				<li class="b pl"><a href="http://amzn.to/2ofl1qu">PL:RS — Concepts of Programming Languages (Sebesta, 2001)</a></li>				<li class="b pt"><a href="http://amzn.to/2oSL1u0">PT:AO — Definition of Programming Languages by Interpreting Automata (Ollongren, 1974)</a></li>				<li class="b pt"><a href="http://amzn.to/2o776HL">PT:HU — Introduction to Automata Theory, Languages, and Computation (Hopcroft, Ullman, 1979)</a></li>				<li class="b pt"><a href="http://amzn.to/2oYyF5C">PT:GJ — Parsing Techniques: A Practical Guide (Grune, Jacobs, 2008)</a></li>				<li class="b ld"><a href="http://amzn.to/2oupTtC">LD:ED — A Primer of ALGOL 60 Programming (Dijkstra, 1962)</a></li>				<li class="b ld"><a href="http://amzn.to/2opWUX1">LD:JW — Pascal User Manual and Report (Jensen, Wirth, 1985)</a></li>				<li class="b ld"><a href="http://amzn.to/2o7eCm1">LD:WH — Programming in the .NET Environment (Watkins, Hammond, Abrams, 2003)</a></li>				<li class="b sl"><a href="http://amzn.to/2oYs232">SL:AS — Structure and Interpretation of Computer Programs (Abelson, Sussman, Sussman, 1996)</a></li>				<li class="b sl"><a href="http://amzn.to/2n8yz6y">SL:CF — Engineering Modeling Languages (Combemale, France, Jézéquel, Rumpe, Steel, Vojtisek, 2017)</a></li>				<li class="b sl"><a href="http://www.softlang.org/book">SL:RL — Software Languages: Syntax, Semantics, and Metaprogramming (Lämmel, 2017)</a></li>			</ul>
 		</div>
 		<hr/>
-		<div class="last">
-			The collection of <strong>96</strong> cards created and maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.<br/>
-			Sources colour coded and explained above this notice.<br/>
-			Last updated: #LASTMOD#.<br/>
-			<a href="http://validator.w3.org/check/referer"><img src="../www/xhtml.88.png" alt="XHTML 1.1" /></a>
-			<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="../www/css.88.png" alt="CSS 3" /></a>
-		</div>
 	</body>
 </html>

@@ -17,11 +17,11 @@ def debreviate(x):
 		('VS.NET', 'Visual Studio .NET'),
 		('UML', 'Unified Modelling Language'),
 		('MDE', 'Model-Driven Engineering'),
-		('OS', 'Operating System')
+		('OS', 'Operating System'),
 		# ('IDE', 'Integrated Development Environment')
 		):
 		x = x.replace(s[0], '<abbr title="{}">{}</abbr>'.format(s[1], s[0]))
-	return x
+	return x.replace('&', '&amp;')
 
 def intralink(x):
 	y = x.split('**')
@@ -182,7 +182,14 @@ print('{} cards and {} codes created from {} lines.'.format(len(keys), codes, le
 
 dsl.write('''		<hr/>
 		<div class="src">
-			<ul>''')
+			<div class="dyolast">
+				The collection of <strong>{}</strong> cards created and maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.<br/>
+				Sources colour coded and explained/linked around this notice.<br/>
+				Last updated: #LASTMOD#.<br/>
+				<a href="http://validator.w3.org/check/referer"><img src="../www/xhtml.88.png" alt="XHTML 1.1" /></a>
+				<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="../www/css.88.png" alt="CSS 3" /></a>
+			</div>
+			<ul>'''.format(len(keys)))
 for lens in ('Architectural', 'Errorproofing', 'Interaction', 'Ludic', 'Perceptual', 'Cognitive', 'Machiavellian', 'Security'):
 	dsl.write('				<li class="dwi {}"><a href="http://designwithintent.co.uk/{}-lens/">Design with Intent (Lockton, Harrison, Stanton, 2010): {} Lens</a></li>\n'.format(lens[0], lens.lower(), lens))
 dsl.write('				<li class="dsl"><a href="http://dx.doi.org/10.2498/cit.2001.04.01">Supporting the DSL Spectrum (Wile, 2001)</a></li>\n')
@@ -222,15 +229,8 @@ for book in (
 dsl.write('''			</ul>
 		</div>
 		<hr/>
-		<div class="last">
-			The collection of <strong>{}</strong> cards created and maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.<br/>
-			Sources colour coded and explained above this notice.<br/>
-			Last updated: #LASTMOD#.<br/>
-			<a href="http://validator.w3.org/check/referer"><img src="../www/xhtml.88.png" alt="XHTML 1.1" /></a>
-			<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="../www/css.88.png" alt="CSS 3" /></a>
-		</div>
 	</body>
-</html>'''.format(len(keys)))
+</html>''')
 dsl.close()
 
 for card in links:

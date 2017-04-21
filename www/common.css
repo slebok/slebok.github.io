@@ -7,6 +7,8 @@ body {color:#033; background-color:#AAA; font-family:"Futura", "Montserrat", san
 div, span.pic, span.p {display:block}
 br {clear:both}
 .last {width:100%; text-align:right; font-style:italic; font-size:smaller}
+.dyolast {width:100%; font-style:italic; margin-bottom: 6em;}
+.dyolast img {margin-top: 2em;}
 .tile a:link, .tile a:visited {color:#EEF}
 a:link, a:visited {color:#039}
 .pic:hover, .double:hover {background-color:#888}
