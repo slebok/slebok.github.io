@@ -52,3 +52,4 @@ li.dwi a, li.dsl a, li.b a {text-decoration: none;}
 .b.sl, .b.sl a {color: #607d8b;}
 /*https://material.io/guidelines/style/color.html#color-color-palette*/
 hr{clear: both;}
+.wb {word-break: break-all}
