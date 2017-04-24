@@ -125,7 +125,8 @@ dsl.write('''<?xml version="1.0" encoding="UTF-8"?>
 	</head>
 	<body>
 		<hr/>
-		<picdir>../www</picdir>
+		<h1><abbr title="DYOL is pronounced like 'duel' in English">DYOL</abbr>: <a href="index.html">Design Your Own Language</a></h1>
+		<hr/>
 ''')
 # ,Inspired by,Key phrase,Name,Explanation,CPL,PPL,Text
 categs = lines[1].strip().split(',')

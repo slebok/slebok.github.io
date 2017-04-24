@@ -8,7 +8,8 @@
 	</head>
 	<body>
 		<hr/>
-		<picdir>../www</picdir>
+		<h1><abbr title="DYOL is pronounced like 'duel' in English">DYOL</abbr>: <a href="index.html">Design Your Own Language</a></h1>
+		<hr/>
 		<pic card>
 			<title>Access Modifier</title>
 			<text>Annotate components with information about how others are allowed or not allowed to access them. Access can be limited by <a href="#Inheritance">inheritance</a> (<em>protected</em> in C++), <a href="#Module">modular</a> structure (<em>internal</em> in C#), etc. The most popular modifiers are <em>public</em> (everyone welcome) and <em>private</em> (fully restricted). Similar modifiers can be used to manage <a href="#Scope__Binding">scope</a>, such as <em>global</em> and <em>nonlocal</em> in Python.</text>

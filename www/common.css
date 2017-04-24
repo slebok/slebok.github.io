@@ -38,15 +38,15 @@ li.dwi a, li.dsl a, li.b a {text-decoration: none;}
 .src ul {padding-left: 1.5em; margin: 0;}
 .b.db, .b.db a {color: #f44336;}
 /*{color: #c2185b;}*/
-.b.cc, .b.cc a {color: #9c27b0;}
-.b.cd, .b.cd a {color: #7986cb;}
+.b.pl, .b.pl a {color: #9c27b0;}
+.b.ld, .b.ld a {color: #7986cb;}
 .b.li, .b.li a {color: #2196f3;}
 /*{color: #00bcd4;}*/
-.b.pl, .b.pl a {color: #009688;}
+.b.cd, .b.cd a {color: #009688;}
 /*{color: #4caf50;}*/
-.b.pt, .b.pt a {color: #9e9d24;}
+.b.cc, .b.cc a {color: #9e9d24;}
 /*{color: #ffb300;}*/
-.b.ld, .b.ld a {color: #ff9800;}
+.b.pt, .b.pt a {color: #ff9800;}
 /*{color: #795548;}*/
 /*{color: #bdbdbd;}*/
 .b.sl, .b.sl a {color: #607d8b;}
