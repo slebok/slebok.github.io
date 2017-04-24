@@ -202,7 +202,7 @@ dsl.write('''		<hr/>
 		<div class="src">
 			<div class="dyolast">
 				The collection of <strong>{}</strong> cards created and maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.<br/>
-				Sources colour coded and explained/linked around this notice.<br/>
+				Sources colour coded and explained/linked around this notice. See also the <a href="books.html">separate page about the books</a>.<br/>
 				Last updated: #LASTMOD#.<br/>
 				<a href="http://validator.w3.org/check/referer"><img src="../www/xhtml.88.png" alt="XHTML 1.1" /></a>
 				<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="../www/css.88.png" alt="CSS 3" /></a>

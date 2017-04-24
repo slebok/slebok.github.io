@@ -191,7 +191,7 @@
 		</pic>
 		<pic card>
 			<title>Collection</title>
-			<text>Arrays, lists, tuples, sets and multisets are the most common composite <a href="#Type_Definition">user-defined</a> <a href="#Parametrised_Type">parametrised</a> types for <em>collections</em> of elements. It is up to the language designer to decide which ones are supported and how they are handled — can elements within one collection <a href="#Heterogeneous_Structure">have different types</a>, are they mutable, <a href="#Parameter_Passing">passed</a> by name/value/reference, etc.</text>
+			<text>Arrays, lists, tuples, sets and multisets are the most common composite <a href="#Type_Definition">user-defined</a> <a href="#Parametrised_Type">parametrised</a> types for <em>collections</em> of elements. It is up to the language designer to decide which ones are supported and how they are handled — can elements within one collection <a href="#Heterogeneous_Data">have different types</a>, are they mutable, <a href="#Parameter_Passing">passed</a> by name/value/reference, etc.</text>
 			<src>DB-GD:39</src>
 			<src>DB-RD:552</src>
 			<src>DB-PD:471</src>
@@ -511,7 +511,7 @@
 			<src>I:Tunnelling &amp; wizards</src>
 		</pic>
 		<pic card>
-			<title>Heterogeneous Structure</title>
+			<title>Heterogeneous Data</title>
 			<text>Some languages allow considerable freedom in <a href="#Type_Definition">types</a> that makes <a href="#Collection">collections</a> capable of carrying elements of varying structure. Examples: variant <a href="#Record">records</a> in Modula and Ada, heterogeneous lists in Python, polytypic <a href="#Subprogram">functions</a> in Haskell, <a href="https:wiki.haskell.orgGeneralised_algebraic_datatype">GADTs</a> in Haskell. Allowing heterogeneity empowers the language user but makes the language harder to learn. </text>
 			<src>CC-DG:186</src>
 			<src>PL-RS:246</src>
@@ -538,6 +538,7 @@
 		<pic card>
 			<title>Indentation &amp; Whitespace</title>
 			<text>The two extremes for this aspect are: treat indentation as something crucial to the program structure (and thus process constructs differently based on columns where they start) and discard all possible indentation (even in the middle of names, as FORTRAN does). Most languages are somewhere in the middle. Normalisation of whitespace use is called <a href="#Pretty-printing">pretty-printing</a>.</text>
+			<src>A:Positioning</src>
 			<src>DB-RD:54</src>
 			<src>CD-GB:619</src>
 			<src>LI-BH:33</src>
@@ -627,6 +628,8 @@
 		<pic card>
 			<title>Labelling</title>
 			<text>Since most engineers know several languages, some <a href="#Documentation">language manuals</a> directly assume initial familiarity of their users with other languages. Can refer to paradigms or families (<em>"this language is <a href="#Type_Analysis">strongly typed</a>"</em>) or directly to other languages (<em>"<a href="#Inheritance">inheritance</a> works like in Java"</em>). Also, by explicitly stating which camp the language is siding with or which key community figures endorse it, the designer can invoke an emotional response directly mappable to language's acceptance and popularity.</text>
+			<src>C:Do as you’re told</src>
+			<src>C:Emotional engagement</src>
 			<src>M:Anchoring</src>
 			<src>DB-PD:43</src>
 			<src>PT-GJ:563</src>
@@ -634,8 +637,6 @@
 			<src>LD-WH:417</src>
 			<src>SL-AS:201</src>
 			<src>SL-RL:12</src>
-			<src>C:Do as you’re told</src>
-			<src>C:Emotional engagement</src>
 			<src>M:Forced dichotomy</src>
 		</pic>
 		<pic card>
@@ -655,8 +656,8 @@
 		<pic card>
 			<title>Lock-out/Opt-in</title>
 			<text>Certain combinations of language features may be disabled (errorneous) by default, with a possibility of enabling them explicitly. For example, redefining a method in a derived class is only allowed in C# when a specific <em>override</em> keyword is used, which leaves visual cues to future readers of the piece of code in question.</text>
-			<src>E:Task lock-in/out</src>
 			<src>E:Opt-outs</src>
+			<src>E:Task lock-in/out</src>
 		</pic>
 		<pic card>
 			<title>Macro</title>
@@ -773,11 +774,11 @@
 		</pic>
 		<pic card>
 			<title>Orthogonal Design</title>
-			<text>Independent features should be controlled by independent mechanisms. Related constructs should look similar and different ones should look different. Regular rules without exceptions are easier to learn. The less surprises one has while learning the language, the higher the language quality.</text>
+			<text>Independent features should be controlled by independent mechanisms. Related constructs should look similar and different ones should look different. Regular rules without exceptions are easier to learn. The fewer surprises one has while learning the language, the higher the language quality.</text>
+			<src>P:(A)symmetry</src>
 			<src>P:Similarity</src>
 			<src>PL-RS:31</src>
 			<src>PL-BM:8</src>
-			<src>P:(A)symmetry</src>
 		</pic>
 		<pic card>
 			<title>Parameter Passing</title>
@@ -786,6 +787,7 @@
 			<src>DB-RD:424</src>
 			<src>DB-PD:68</src>
 			<src>CC-DG:187</src>
+			<src>CC-NW:73</src>
 			<src>CD-SM:116</src>
 			<src>CD-GB:559</src>
 			<src>LI-BH:173</src>
@@ -841,7 +843,7 @@
 			<title>Platform Lock-in/out</title>
 			<text>Supporting a great language only for one particular hardware platform, <abbr title="Operating System">OS</abbr> or IDE, implicitly forces people to use them. For example, malware practices of Java installers turned some users agains <abbr title="Java Virtual Machine">JVM</abbr>, which also deprived them of Scala and Clojure. Another example is .NET Core, a redesign of the .NET Framework which allows typically Windows-specific code to run on Linux.</text>
 			<src>M:Format lock-in/out</src>
-			<src>LD-WH:1</src>
+			<src>LD-WH</src>
 		</pic>
 		<pic card>
 			<title>Pointer</title>
@@ -1205,7 +1207,7 @@
 		<div class="src">
 			<div class="dyolast">
 				The collection of <strong>96</strong> cards created and maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.<br/>
-				Sources colour coded and explained/linked around this notice.<br/>
+				Sources colour coded and explained/linked around this notice. See also the <a href="books.html">separate page about the books</a>.<br/>
 				Last updated: #LASTMOD#.<br/>
 				<a href="http://validator.w3.org/check/referer"><img src="../www/xhtml.88.png" alt="XHTML 1.1" /></a>
 				<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="../www/css.88.png" alt="CSS 3" /></a>
