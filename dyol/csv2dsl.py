@@ -9,15 +9,18 @@ def fancy(x):
 
 def debreviate(x):
 	for s in (
+		('API', 'Application Programming Interface'),
 		('4GLs', 'Fourth Generation Languages'),
-		('GPLs', 'General Purpose Languages'),
+		('CPU', 'Central Processing Unit'),
 		('DSLs', 'Domain-Specific Languages'),
 		('DSMLs', 'Domain-Specific Modelling Languages'),
+		('GPLs', 'General Purpose Languages'),
 		('JVM', 'Java Virtual Machine'),
-		('VS.NET', 'Visual Studio .NET'),
-		('UML', 'Unified Modelling Language'),
 		('MDE', 'Model-Driven Engineering'),
+		('monad', 'monoid in a category of endofunctors'),
 		('OS', 'Operating System'),
+		('UML', 'Unified Modelling Language'),
+		('VS.NET', 'Visual Studio .NET'),
 		# ('IDE', 'Integrated Development Environment')
 		):
 		x = x.replace(s[0], '<abbr title="{}">{}</abbr>'.format(s[1], s[0]))
@@ -132,6 +135,7 @@ IDXexp = header.index('Explanation')
 IDXtxt = header.index('Text')
 
 cards = {}
+sources = {}
 codes = 0
 
 for line in lines[3:]:
@@ -140,6 +144,9 @@ for line in lines[3:]:
 		continue
 	card = []
 	name = capitalize(fs[IDXnam])
+	srcs = []
+	if name not in sources.keys():
+		sources[name] = []
 	if name in cards.keys():
 		# second time the same name
 		if fs[IDXtxt] != '':
@@ -149,35 +156,44 @@ for line in lines[3:]:
 			cards[name][i] = '			<text>{}</text>\n'.format(fancy(fs[IDXtxt]))
 		# update the sources if there are any
 		if fs[1]!='' and fs[IDXdwi] != '':
-			cards[name].insert(len(cards[name])-1,
-				'			<src>{}:{}</src>\n'.format(fs[1],fs[IDXdwi]).replace('&','&amp;'))
+			src = '			<src>{}:{}</src>\n'.format(fs[1],fs[IDXdwi]).replace('&','&amp;')
+			if src not in sources[name]:
+				sources[name].append(src)
 			codes += 1
 		for idx in range(IDXexp+1,IDXtxt):
 			if fs[idx]!='' and fs[idx]!='?':
-				cards[name].insert(len(cards[name])-1,
-					'			<src>{}:{}</src>\n'.format(header[idx], fs[idx]))
+				src = '			<src>{}-{}{}</src>\n'.format(categs[idx], header[idx], ':'+fs[idx] if fs[idx]!='0' else '')
+				if src not in sources[name]:
+					sources[name].append(src)
 				codes += 1
 		continue
-	card.append('		<pic card>\n')
 	card.append('			<title>{}</title>\n'.format(name.replace('&','&amp;')))
 	targets.append(name)
 	text = fs[IDXtxt] if fs[IDXtxt]!='' else fs[IDXexp].replace('&','&amp;')
 	card.append('			<text>{}</text>\n'.format(fancy(text if text != '' else 'TBD')))
 	if fs[1]!='' and fs[IDXdwi] != '':
-		card.append('			<src>{}:{}</src>\n'.format(fs[1],fs[IDXdwi]).replace('&','&amp;'))
+		src = '			<src>{}:{}</src>\n'.format(fs[1],fs[IDXdwi]).replace('&','&amp;')
+		if src not in sources[name]:
+			sources[name].append(src)
 		codes += 1
 	for idx in range(IDXexp+1,IDXtxt):
 		if fs[idx]!='' and fs[idx]!='?':
-			card.append('			<src>{}-{}:{}</src>\n'.format(categs[idx], header[idx], fs[idx]))
+			# mark the entire book if page is zero
+			src = '			<src>{}-{}{}</src>\n'.format(categs[idx], header[idx], ':'+fs[idx] if fs[idx]!='0' else '')
+			if src not in sources[name]:
+				sources[name].append(src)
 			codes += 1
-	card.append('		</pic>\n')
 	cards[name] = card
 
 keys = list(cards.keys())
 keys.sort()
 for c in keys:
+	dsl.write('		<pic card>\n')
 	for line in cards[c]:
 		dsl.write(line)
+	for line in sources[c]:
+		dsl.write(line)
+	dsl.write('		</pic>\n')
 print('{} cards and {} codes created from {} lines.'.format(len(keys), codes, len(lines)))
 
 dsl.write('''		<hr/>

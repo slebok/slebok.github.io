@@ -19,12 +19,13 @@
 		</pic>
 		<pic card>
 			<title>Alphabet</title>
-			<text>The basic alphabet is often taken for granted, especially for textual languages, but it can be an important design aspect. In some languages (<a href="http:tryapl.org">APL</a> being the extreme) the alphabet is extremely broad, with all kinds of specific symbols being used for <a href="#Standard_Library">built-in</a> operators, which shifts the visual feel of the language closer to mathematics. In other languages <a href="#Keyword">keywords</a> are taken from the English dictionary, which also in some sense limited language appeal to some groups of users (and led to reimplementations with translated keywords).</text>
+			<text>The basic alphabet is often taken for granted, especially for textual languages, but it can be an important design aspect. In some languages (<a href="http:tryapl.org">APL</a> being the extreme) the alphabet is extremely broad, with all kinds of specific symbols being used for <a href="#Standard_Library">built-in</a> operators, which shifts the visual feel of the language closer to mathematics. In other languages <a href="#Keyword">keywords</a> are taken from the English dictionary, which limited language appeal to some groups of users (and led to reimplementations with translated keywords).</text>
 			<src>P:Perceived affordances</src>
 			<src>DB-GD:28</src>
 			<src>DB-RD:92</src>
 			<src>DB-PD:165</src>
 			<src>CC-DG:15</src>
+			<src>CC-NW:10</src>
 			<src>CD-AH:52</src>
 			<src>LI-BH:10</src>
 			<src>PT-AO:34</src>
@@ -34,7 +35,7 @@
 		</pic>
 		<pic card>
 			<title>Assignment</title>
-			<text>Moving a data structure into another data structure. Some <abbr title="Fourth Generation Languages">4GLs</abbr> have separate statements for straightforward (byte-copying) and composite (pattern-matching) assignments such as Cobol's <em>MOVE CORRESPONDING</em> which requires <a href="#Unification">unification</a>. In modern languages the source data structure (and sometimes the target one) can usually be created on the fly. Many languages combine assignment with trivial manipulation (such as +=).</text>
+			<text>Moving a data from one place to another. Some <abbr title="Fourth Generation Languages">4GLs</abbr> have separate statements for straightforward (byte-copying) and composite (pattern-matching) assignments such as Cobol's <em>MOVE CORRESPONDING</em> which requires <a href="#Unification">unification</a>. In modern languages the source data structure (and sometimes the target one) can often be created on the fly. Many languages combine assignment with trivial manipulation (such as +=).</text>
 			<src>DB-GD:50</src>
 			<src>DB-RD:478</src>
 			<src>CC-WG:23</src>
@@ -147,7 +148,7 @@
 		</pic>
 		<pic card>
 			<title>Client/Server</title>
-			<text>A language may allow one conceptual program to be split into two intercommunicating and <a href="#Synchronisation">synchronised</a> components: the <em>server</em> side which has access to all the necessary system data and runs in a fully controlled environment, and the <em>client</em> side which runs closer to the system user's data and has to survive in a much less controllable environment. Client code and server code can be written in different languages or compiled to different languages before deployment.</text>
+			<text>A language may allow one conceptual model to be split into two <a href="#Synchronisation">intercommunicating</a> components to be executed <a href="#Concurrency">in parallel</a>: the <em>server</em> side which has access to all the necessary system data and runs in a fully controlled environment, and the <em>client</em> side which runs closer to the system user's data and has to survive in a much less controllable environment. Client code and server code can be written in different languages or compiled to different languages before deployment.</text>
 			<src>LI-PZ:526</src>
 			<src>LD-WH:12</src>
 		</pic>
@@ -159,7 +160,7 @@
 		</pic>
 		<pic card>
 			<title>Code Generation</title>
-			<text><a href="#Generation">Generation</a> of machine code, intermediate code, a program in a target language, an output model or a textual result, is the last <a href="#Phased_Process">phase</a> of a classic compiler (before or after <a href="#Optimisation">optimisation</a>). What is typical for code generation is the richness of the input (generously annotated intermediate graphs) and a deliberate limitedness of the output (which is often platform-specific and/or hardware-specific). In <abbr title="Model-Driven Engineering">MDE</abbr> code generation is usually implemented by model-to-text transformations.</text>
+			<text><a href="#Generation">Generation</a> of machine code, intermediate code, a model in a target language, an output model or a textual result, is the last <a href="#Phased_Process">phase</a> of a classic compiler (before or after <a href="#Optimisation">optimisation</a>). What is typical for code generation is the richness of the input (generously annotated intermediate graphs) and a deliberate limitedness of the output (which is often platform-specific and/or hardware-specific). In <abbr title="Model-Driven Engineering">MDE</abbr> code generation is usually implemented by model-to-text transformations.</text>
 			<src>DSL-Wile:Code Generation</src>
 			<src>DB-GD:518</src>
 			<src>DB-RD:513</src>
@@ -178,7 +179,7 @@
 		</pic>
 		<pic card>
 			<title>Code Mining</title>
-			<text>Besides user surveys and expert opinions, there is a third way to uncover points to improve the language in its next versions: examining existing artefacts created in this language. There are many modern techniques in mining software repositories and machine learning that can be helpful here.</text>
+			<text>Besides user surveys and expert opinions, there is a third way to uncover points to improve the language in its next versions: examining existing models created in this language. There are many modern techniques in mining software repositories that can be helpful here: clustering, <a href="#Alphabet">vocabulary</a> analysis, statistics (especially correlations), natural language processing, information retrieval, machine learning, etc.</text>
 			<src>I:Peer feedback</src>
 			<src>SL-RL:446</src>
 		</pic>
@@ -188,8 +189,32 @@
 			<src>P:Watermarking</src>
 		</pic>
 		<pic card>
+			<title>Collection</title>
+			<text>Arrays, lists, tuples, sets and multisets are the most common composite <a href="#Type_Definition">user-defined</a> <a href="#Parametrised_Type">parametrised</a> types for <em>collections</em> of elements. It is up to the language designer to decide which ones are supported and how they are handled — can elements within one collection <a href="#Heterogeneous_Structure">have different types</a>, are they mutable, <a href="#Parameter_Passing">passed</a> by name/value/reference, etc.</text>
+			<src>DB-GD:39</src>
+			<src>DB-RD:552</src>
+			<src>DB-PD:471</src>
+			<src>CC-DG:175</src>
+			<src>CC-WG:23</src>
+			<src>CC-NW:83</src>
+			<src>CD-AH:599</src>
+			<src>CD-SM:30</src>
+			<src>CD-GB:473</src>
+			<src>LI-BH:122</src>
+			<src>LI-RM:123</src>
+			<src>LI-PZ:238</src>
+			<src>PL-RS:71</src>
+			<src>PL-WC:156</src>
+			<src>PL-BM:70</src>
+			<src>PT-AO:142</src>
+			<src>LD-ED:37</src>
+			<src>LD-JW:55</src>
+			<src>LD-WH:34</src>
+			<src>SL-AS:92</src>
+		</pic>
+		<pic card>
 			<title>Comment</title>
-			<text>Comments are pieces of <a href="#Documentation">documentation</a> built directly into the source of the system. Most <a href="#IDE">IDEs</a> support comments visually by presenting them in a completely different colour, usually dimmer than the rest of the program, to focus developers on executable constructs first. In some languages like BibTeX or INTERCAL everything uncompilable is a comment.</text>
+			<text>Comments are pieces of <a href="#Documentation">documentation</a> built directly into the source of the system. Most <a href="#IDE">IDEs</a> support comments visually by presenting them in a completely different colour, usually dimmer than the rest of the model, to focus developers on executable constructs first. In some languages like BibTeX or INTERCAL everything uncompilable is a comment.</text>
 			<src>P:Contrast</src>
 			<src>DB-RD:54</src>
 			<src>CC-DG:64</src>
@@ -206,7 +231,7 @@
 		</pic>
 		<pic card>
 			<title>Compilation Error</title>
-			<text>Modern languages have many means of assessing executability of the program before it is actually run. Thus, compilers tend to have a sophisticated error handling facility and try to provide enough information for the language user to fix the problems. Some languages are notoriously known for providing bad error messages. There are many ways to <em>recover</em> from an error in order to analyse the rest of the program and report multiple problems at once. Can be provided as a <a href="#Live_Feedback">live feedback</a>.</text>
+			<text>Modern languages have many means of assessing validity of the model before it is actually used. Thus, compilers tend to have a sophisticated error handling facility and try to provide enough information for the language user to fix the problems. Some languages are notoriously known for providing bad error messages. There are many ways to <em>recover</em> from an error in order to analyse the rest of the program and report multiple problems at once. Can be provided as a <a href="#Live_Feedback">live feedback</a>.</text>
 			<src>E:Conditional warnings</src>
 			<src>DB-GD:21</src>
 			<src>DB-RD:11</src>
@@ -238,32 +263,8 @@
 			<src>PT-GJ:522</src>
 		</pic>
 		<pic card>
-			<title>Composite Type</title>
-			<text>Arrays, lists, tuples, sets and multisets are the most common <a href="#Type_Definition">user-defined</a> <a href="#Parametrised_Type">parametrised</a> types for collections of elements. It is up to the language designer to decide which ones are supported and how they are handled — can elements within on collection have different types, are they mutable, <a href="#Parameter_Passing">passed</a> by name/value/reference, etc.</text>
-			<src>DB-GD:39</src>
-			<src>DB-RD:552</src>
-			<src>DB-PD:471</src>
-			<src>CC-DG:175</src>
-			<src>CC-WG:23</src>
-			<src>CC-NW:83</src>
-			<src>CD-AH:599</src>
-			<src>CD-SM:30</src>
-			<src>CD-GB:473</src>
-			<src>LI-BH:122</src>
-			<src>LI-RM:123</src>
-			<src>LI-PZ:238</src>
-			<src>PL-RS:71</src>
-			<src>PL-WC:156</src>
-			<src>PL-BM:70</src>
-			<src>PT-AO:142</src>
-			<src>LD-ED:37</src>
-			<src>LD-JW:55</src>
-			<src>LD-WH:34</src>
-			<src>SL-AS:92</src>
-		</pic>
-		<pic card>
 			<title>Comprehension</title>
-			<text>List and set comprehensions are language constructs resembling the mathematical notation for constructing a set by its characteristic function, and combine <em>map</em> and <em>filter</em> classical for functional programming. Comprehensions as a language construct exist in Haskell, Python, Rascal, C# and some other languages.</text>
+			<text>List and set comprehensions are language constructs resembling the mathematical notation for creating a set by its characteristic function (<em>"for all numbers from 1 to 10, give me their squared values"</em>), and combine <em>map</em> and <em>filter</em> classical for functional programming. Comprehensions as a language construct exist in Haskell, Python, Rascal, C# and some other languages.</text>
 			<src>CD-GB:621</src>
 		</pic>
 		<pic card>
@@ -290,7 +291,7 @@
 		</pic>
 		<pic card>
 			<title>Concurrency</title>
-			<text>Sometimes a program can be decomposed into components that are executable in parallel on different CPU cores or different devices. This can be completely undesirable, or performed automatically, or use the language user's guidance in <a href="#Synchronisation">synchronisation</a> of threads, tasks and processes.</text>
+			<text>Since modern computers and systems are good at multitasking, a language designer may decide to use that. An executable model can then be decomposed into components that are executable in parallel on different <abbr title="Central Processing Unit">CPU</abbr> cores or different devices. This can be completely undesirable (to avoid deadlocks, overhead, race conditions, etc), or performed automatically, or use the language user's guidance in <a href="#Synchronisation">synchronisation</a> of threads, tasks and processes.</text>
 			<src>DB-PD:51</src>
 			<src>CC-WG:32</src>
 			<src>CD-SM:571</src>
@@ -300,14 +301,6 @@
 			<src>PT-AO:254</src>
 			<src>LD-WH:419</src>
 			<src>SL-AS:254</src>
-		</pic>
-		<pic card>
-			<title>Conditional Compilation</title>
-			<text>Some conditions can be checked during compile type and result in different code to be produced by the compiler to be run later. This is frequently used for <em>product lines</em> in situations when one codebase specifies the behaviour of a system that must be compiled and deployed under a variety of devices and hardware architectures. To simplify compiler construction, conditional compilation can be handled by a preprocessor.</text>
-			<src>DSL-Mernik:Product Line</src>
-			<src>CD-AH:275</src>
-			<src>CD-GB:107</src>
-			<src>SL-RL:24</src>
 		</pic>
 		<pic card>
 			<title>Constraint</title>
@@ -327,7 +320,7 @@
 		</pic>
 		<pic card>
 			<title>Debugging</title>
-			<text>The activity of finding and fixing sources of incorrect behaviour is not enjoyed by many language users, but is used by all of them without exception anyway. Declarative languages are the hardest to debug and imperative ones are the easiest. Most modern languages are shipped with a dedicated debugger or have debugging functionality in the <a href="#IDE">IDE</a>.</text>
+			<text>The activity of finding and fixing sources of incorrect behaviour is not enjoyed by many language users, but is used by all of them without exception anyway. Declarative and <a href="#Constraint">constraint</a> languages are the hardest to debug due to their complex evaluation strategies (<a href="#Unification">unification</a>, <a href="#Backtracking">backtracking</a>, etc) and imperative ones are the easiest since they specify the algorithm most explicitly. Most modern languages are shipped with a dedicated debugger or have debugging functionality in the <a href="#IDE">IDE</a>.</text>
 			<src>E:Are you sure?</src>
 			<src>DSL-Wile:Debugging</src>
 			<src>DB-RD:703</src>
@@ -349,7 +342,7 @@
 		</pic>
 		<pic card>
 			<title>Deployment</title>
-			<text>Once the program written in a languages, has been <a href="#Static_Analysis">checked</a>, compiled, linked and otherwise prepared for use, it needs to be deployed. This can happen directly by copying it to the machine of the end user, or by connecting it to the network, or by creating a special installer, etc. In many cases deployment is not viewed as a concern of a language designer, but among practitioners it is perceived as a part of language design.</text>
+			<text>Once the model written in a language, has been <a href="#Static_Analysis">checked</a>, compiled, linked and otherwise prepared for use, it may need to be <em>deployed</em>. This happens directly by copying it to the machine of the end user, or by connecting it to the network, or by creating a special installer, etc. In many cases deployment is not viewed as a concern of a language designer, but among practitioners it is perceived as a part of language design.</text>
 			<src>A:Conveyor belts</src>
 			<src>DSL-Mernik:Deployment</src>
 			<src>LD-WH:195</src>
@@ -386,14 +379,17 @@
 		</pic>
 		<pic card>
 			<title>Documentation</title>
-			<text>Language manuals are important for people learning the language, as well as for active users — sometimes these are two different sets of documents. Documentation may contain executable examples and can/should be automatically checked for internal validity and consistency with the tooling. Many elements of the language implementation ooze into its documentation (e.g., using a grammar both to define the <a href="#Concrete_Syntax">concrete syntax</a> and enumerate language constructs in a manual).</text>
+			<text>There are two equally important kinds of language manuals: for people learning the language and for its active users — and sometimes these are two disjoint sets of documents. Documentation may contain executable examples and can/should be automatically checked for internal validity and consistency. Some documentation elements must be provided through an <a href="#IDE">IDE</a>, especially if the language is an <abbr title="Application Programming Interface">API</abbr>.</text>
 			<src>M:Serving suggestion</src>
 			<src>LI-PZ:532</src>
+			<src>LD-ED</src>
+			<src>LD-JW</src>
+			<src>LD-WH</src>
 			<src>SL-CF:264</src>
 		</pic>
 		<pic card>
 			<title>Encapsulation</title>
-			<text>Most high level language abstract from low level details like video memory access, memory allocation, register values, caching, etc. Depending on the language philosophy, these features may be prohibited or just hard to find for beginners. Data structures can also be encapsulated by bundling them into <a href="#Record">records</a> or <a href="#Class">classes</a>, and code can be organised in hierarchical <a href="#Module">modules</a>.</text>
+			<text>Most high level language abstract from low level details like video memory access, memory allocation, register values, caching, etc. Depending on the language design and philosophy, these features may be prohibited or just hard to find for beginners. Data structures can also be encapsulated by bundling them into <a href="#Record">records</a> or <a href="#Class">classes</a>, and code can be organised in hierarchical <a href="#Module">modules</a> and <a href="#Subprogram">subprograms</a>.</text>
 			<src>A:Hiding things</src>
 			<src>LI-PZ:236</src>
 			<src>PL-RS:37</src>
@@ -405,7 +401,7 @@
 		</pic>
 		<pic card>
 			<title>Energy Saving</title>
-			<text>Computationally heavy code requires more CPU or GPU cycles, which consumes more power, which in turn makes the applications spend more energy. Making a compiler of a language especially <a href="#Optimisation">optimised</a> towards power reduction may increase its appeal for users that intend to run their programs on devices with limited power (mobile phones and smaller). Power reduction and energy saving techniques also contribute towards global sustainability, and can be used/chosen for ethical reasons.</text>
+			<text>Computationally heavy code requires more <abbr title="Central Processing Unit">CPU</abbr> or GPU cycles, which consumes more power, which in turn makes the applications spend more energy. Making a compiler of a language especially <a href="#Optimisation">optimised</a> towards power reduction may increase its appeal for users that intend to run their programs on devices with limited power (mobile phones and smaller). Power reduction and energy saving techniques also contribute towards global sustainability, and can be used/chosen for ethical reasons.</text>
 			<src>C:Assuaging guilt</src>
 			<src>CD-GB:443</src>
 		</pic>
@@ -435,7 +431,7 @@
 		</pic>
 		<pic card>
 			<title>Event</title>
-			<text>The first implementations of user interfaces were turning the entire program into a giant loop waiting for the user to activate its functionality by choosing the way to communicate (click, tap, edit, etc). Since direct implementations of such an event loop are not <a href="#Energy_Saving">green</a> (consume too much energy), it can be built natively into the language and optimised by the compiler and hardware. Events are used for interacting with end users, sensors, <a href="#Synchronisation">threads</a>, etc.</text>
+			<text>The first implementations of user interfaces were turning the entire program into a giant loop waiting for the user to activate its functionality by choosing the way to communicate (click, tap, edit, etc). Since direct implementations of such an event loop are not <a href="#Energy_Saving">green</a> (consume too much energy), event handling can be built natively into the language and implemented <a href="#Optimisation">efficiently</a> by the compiler and hardware. Events are used for interacting with end users, sensors, <a href="#Synchronisation">threads</a>, etc.</text>
 			<src>I:Feedback through form</src>
 			<src>DSL-Mernik:Interaction</src>
 			<src>CD-GB:473</src>
@@ -466,7 +462,7 @@
 		</pic>
 		<pic card>
 			<title>Expressivity</title>
-			<text>There is ultimate expressivity of a software language, typically incorporated in answers to questions like <em>"is it Turing complete?"</em> (i.e., does it have enough constructs to emulate a Turing machine?), and there is a much more important and subtle issue of local expressivity in the sense of how small programs can get without sacrificing their <a href="#Readability">readability</a>. Many long existing languages have eventually developed <a href="#Syntactic_Sugar">shorthand</a> constructs for writing commonly used combinations of constructs shorter and thus faster.</text>
+			<text>There is ultimate expressivity of a software language, typically incorporated in answers to questions like <em>"is it Turing complete?"</em> (i.e., does it have enough constructs to emulate a <a href="https:en.wikipedia.orgwikiTuring_machine">Turing machine</a>?), and there is a much more important and subtle issue of local expressivity in the sense of how small programs can get without sacrificing their <a href="#Readability">readability</a>. Many languages eventually develop <a href="#Syntactic_Sugar">shorthand</a> constructs for writing commonly used combinations of constructs shorter and thus faster.</text>
 			<src>PL-RS:37</src>
 			<src>SL-RL:247</src>
 		</pic>
@@ -515,7 +511,7 @@
 		</pic>
 		<pic card>
 			<title>Heterogeneous Structure</title>
-			<text>Some languages allow considerable freedom in <a href="#Type_Definition">types</a> that makes <a href="#Composite_Type">composite types</a> capable of carrying elements of varying structure. Examples: variant <a href="#Record">records</a> in Modula and Ada, heterogeneous lists in Python, polytypic <a href="#Subprogram">functions</a> in Haskell, <a href="https:wiki.haskell.orgGeneralised_algebraic_datatype">GADTs</a> in Haskell.</text>
+			<text>Some languages allow considerable freedom in <a href="#Type_Definition">types</a> that makes <a href="#Collection">collections</a> capable of carrying elements of varying structure. Examples: variant <a href="#Record">records</a> in Modula and Ada, heterogeneous lists in Python, polytypic <a href="#Subprogram">functions</a> in Haskell, <a href="https:wiki.haskell.orgGeneralised_algebraic_datatype">GADTs</a> in Haskell. Allowing heterogeneity empowers the language user but makes the language harder to learn. </text>
 			<src>CC-DG:186</src>
 			<src>PL-RS:246</src>
 			<src>LD-JW:69</src>
@@ -534,7 +530,7 @@
 		</pic>
 		<pic card>
 			<title>IDE GUI</title>
-			<text>Most <a href="#IDE">IDEs</a> divide the screen space among areas with different functionality: for navigating through adjacent programs, for editing the code, for reviewing the architecture, for watching how values change at runtime, etc. Advanced IDEs like IntelliJ, Eclipse or <abbr title="Visual Studio .NET">VS.NET</abbr> have so many subwindows that the user has to choose which ones to keep open at each given time.</text>
+			<text>Most <a href="#IDE">IDEs</a> divide the screen space among areas with different functionality: for navigating through adjacent models, for editing the code, for reviewing the architecture, for watching how values change at <a href="#Runtime">runtime</a>, etc. Advanced IDEs like IntelliJ, Eclipse or <abbr title="Visual Studio .NET">VS.NET</abbr> have so many subwindows that the user has to choose which ones to keep open at each given time.</text>
 			<src>A:Positioning</src>
 			<src>LD-WH:224</src>
 		</pic>
@@ -552,7 +548,7 @@
 		</pic>
 		<pic card>
 			<title>Inheritance</title>
-			<text>An "is-a" relation can be represented by a language construct when one class, object or function <em>inherits</em> all the properties of its <em>parent</em> and possibly adds others exclusive to itself. It is a design consideration which entities can be derived from which, whether one can inherit from several parents, etc.</text>
+			<text>An "is-a" relation can be represented by a language construct when one <a href="#Class">class</a>, object or <a href="#Subprogram">function</a> <em>inherits</em> all the properties of its <em>parent</em> and possibly adds others exclusive to itself. It is a design consideration which entities can be derived from which, what are the rules for inheriting from several parents, etc.</text>
 			<src>CD-GB:545</src>
 			<src>LI-PZ:311</src>
 			<src>PL-RS:453</src>
@@ -562,7 +558,7 @@
 		</pic>
 		<pic card>
 			<title>Input/Output</title>
-			<text>Most programs are not self-contained and require input data to run and produce results, which in turn need to be propagated somewhere. There are languages that are volatile with input and output, those that only work with files, those that wrap I/O as a side effect of a monad, etc.</text>
+			<text>Most executable models are not self-contained and require input data to run and produce results, which in turn need to be propagated somewhere. There are languages that are volatile with input and output, those that only work with files, those that wrap I/O as a side effect of a <abbr title="monoid in a category of endofunctors">monad</abbr>, etc.</text>
 			<src>LI-BH:177</src>
 			<src>LI-RM:341</src>
 			<src>LI-PZ:223</src>
@@ -612,7 +608,7 @@
 		</pic>
 		<pic card>
 			<title>Keyword</title>
-			<text>Special words in <a href="#Concrete_Syntax">concrete syntax</a> of the language that carry identical meaning across all possible programs in the same language. Can be made reserved so that programmers may not redefine them. A language can get new keywords by evolution.</text>
+			<text>Special words in <a href="#Concrete_Syntax">concrete syntax</a> of the language that carry identical meaning across all possible models in the same language. Can be made reserved so that programmers may not redefine them. A language can get new keywords by evolution.</text>
 			<src>DB-GD:33</src>
 			<src>DB-RD:56</src>
 			<src>DB-PD:121</src>
@@ -629,16 +625,16 @@
 		</pic>
 		<pic card>
 			<title>Labelling</title>
-			<text>Since most engineers know several languages, some <a href="#Documentation">language manuals</a> directly assume initial familiarity of their users with other languages. Can refer to paradigms or families (<em>"this is a <a href="#Type_Analysis">strongly typed</a> functional language"</em>) or directly to other languages (<em>"<a href="#Inheritance">inheritance</a> works like in Java"</em>). Also, by explicitly stating which camp the language is siding with or which key figures of the community endorse it, the designer can invoke an emotional response directly mappable to language's acceptance and popularity.</text>
+			<text>Since most engineers know several languages, some <a href="#Documentation">language manuals</a> directly assume initial familiarity of their users with other languages. Can refer to paradigms or families (<em>"this language is <a href="#Type_Analysis">strongly typed</a>"</em>) or directly to other languages (<em>"<a href="#Inheritance">inheritance</a> works like in Java"</em>). Also, by explicitly stating which camp the language is siding with or which key community figures endorse it, the designer can invoke an emotional response directly mappable to language's acceptance and popularity.</text>
+			<src>M:Anchoring</src>
+			<src>DB-PD:43</src>
+			<src>PT-GJ:563</src>
+			<src>LD-JW:7</src>
+			<src>LD-WH:417</src>
+			<src>SL-AS:201</src>
+			<src>SL-RL:12</src>
 			<src>C:Do as you’re told</src>
 			<src>C:Emotional engagement</src>
-			<src>M:Anchoring</src>
-			<src>PD:43</src>
-			<src>GJ:563</src>
-			<src>JW:7</src>
-			<src>WH:417</src>
-			<src>AS:201</src>
-			<src>RL:12</src>
 			<src>M:Forced dichotomy</src>
 		</pic>
 		<pic card>
@@ -652,14 +648,14 @@
 		</pic>
 		<pic card>
 			<title>Live Feedback</title>
-			<text>An advanced <a href="#IDE">IDE</a> running on modern hardware can utilise its idle cycles to attempt parsing, compilation, dependency analysis and other kinds of checks while the language user is still typing the program. Errorneous and suspicious pieces of code are commonly underlined with red or yellow squiggly lines familiar from natural word processors.</text>
+			<text>An advanced <a href="#IDE">IDE</a> running on modern hardware can utilise its idle cycles to attempt parsing, compilation, dependency analysis and other kinds of checks while the language user is still typing the model. Errorneous and suspicious pieces of code are commonly underlined with red or yellow squiggly lines familiar from natural word processors.</text>
 			<src>I:Real-time feedback</src>
 		</pic>
 		<pic card>
 			<title>Lock-out/Opt-in</title>
 			<text>Certain combinations of language features may be disabled (errorneous) by default, with a possibility of enabling them explicitly. For example, redefining a method in a derived class is only allowed in C# when a specific <em>override</em> keyword is used, which leaves visual cues to future readers of the piece of code in question.</text>
-			<src>E:Opt-outs</src>
 			<src>E:Task lock-in/out</src>
+			<src>E:Opt-outs</src>
 		</pic>
 		<pic card>
 			<title>Macro</title>
@@ -683,7 +679,7 @@
 		</pic>
 		<pic card>
 			<title>Module</title>
-			<text>Large programs inevitably outgrow their creators' capabilities to understand them all at once. Comprehension can be aided greatly by the language providing modules, packages, <a href="#Class">classes</a>, <a href="#Subprogram">subprograms</a>, procedures and other elements to group related code fragments together. Modern <a href="#IDE">IDEs</a> can analyse code for cohesion and coupling to help improve modularisation. Modules are often [one of the possible] <em>compilation units</em>.</text>
+			<text>Large models inevitably outgrow their creators' capabilities to understand them all at once. Comprehension can be aided greatly by the language providing modules, packages, <a href="#Class">classes</a>, <a href="#Subprogram">procedures</a>, <a href="#Block">blocks</a> and other elements to group related code fragments together. Modern <a href="#IDE">IDEs</a> can analyse code for cohesion and coupling to help improve modularisation. Modules are often [one of the possible] <em>compilation units</em>.</text>
 			<src>A:Segmentation</src>
 			<src>CC-DG:366</src>
 			<src>CC-NW:92</src>
@@ -748,7 +744,7 @@
 		</pic>
 		<pic card>
 			<title>Optimisation</title>
-			<text>It is always easier and less error-prone to <a href="#Generation">generate</a> intermediate code or <a href="#Code_Generation">machine code</a> with simple and straightforward patterns and subsequently optimise the result in a different <a href="#Phased_Process">phase</a>. The effect on the language users is that they do not need to optimise their programs to the fullest, since their own naïve code will be optimised together with the rest. Small efficiences are only relevant 3% of the time, for the rest premature optimisation is considered the root of all evil.</text>
+			<text>It is always easier and less error-prone to <a href="#Generation">generate</a> intermediate code or <a href="#Code_Generation">machine code</a> with simple and straightforward patterns and subsequently optimise the result in a different <a href="#Phased_Process">phase</a>. The effect on the language users is that they do not need to optimise their models to the fullest, since their own naïve code will be optimised together with the rest. Small efficiences are only relevant 3% of the time, for the rest premature optimisation is considered the root of all evil.</text>
 			<src>DB-GD:406</src>
 			<src>DB-RD:585</src>
 			<src>DB-PD:39</src>
@@ -777,14 +773,14 @@
 		<pic card>
 			<title>Orthogonal Design</title>
 			<text>Independent features should be controlled by independent mechanisms. Related constructs should look similar and different ones should look different. Regular rules without exceptions are easier to learn. The less surprises one has while learning the language, the higher the language quality.</text>
-			<src>P:(A)symmetry</src>
 			<src>P:Similarity</src>
-			<src>RS:31</src>
-			<src>BM:8</src>
+			<src>PL-RS:31</src>
+			<src>PL-BM:8</src>
+			<src>P:(A)symmetry</src>
 		</pic>
 		<pic card>
 			<title>Parameter Passing</title>
-			<text>There are several strategies in mapping <em>arguments</em> that are being passed to a <a href="#Subprogram">procedure</a> in a call with the <em>parameters</em> that procedure expects to get: <em>call by value</em> (expose only the values, safe but inefficient for <a href="#Composite_Type">composite data</a>), <em>call by result</em> (same but can return several values at once), <em>call by value-result</em> (the caller gets values, updates them, they are passed back), <em>call by reference</em> (expose <a href="#Pointer">pointers</a> to values, efficient but unsafe), <em>call by name</em> (evaluate pointers when they are used inside the caller), etc.</text>
+			<text>There are several strategies in mapping <em>arguments</em> that are being passed to a <a href="#Subprogram">procedure</a> in a call with the <em>parameters</em> that procedure expects to get: <em>call by value</em> (expose only the values, safe but inefficient for <a href="#Collection">composite data</a>), <em>call by result</em> (same but can return several values at once), <em>call by value-result</em> (the caller gets values, updates them, they are passed back), <em>call by reference</em> (expose <a href="#Pointer">pointers</a> to values, efficient but unsafe), <em>call by name</em> (evaluate pointers when they are used inside the caller), etc.</text>
 			<src>DB-GD:60</src>
 			<src>DB-RD:424</src>
 			<src>DB-PD:68</src>
@@ -802,7 +798,7 @@
 		</pic>
 		<pic card>
 			<title>Parametrised Type</title>
-			<text>Some <a href="#Type_Analysis">types</a> can be defined partially by the user and partially by the language designer. For example, the language designer knows what a <a href="#Composite_Type"><em>list</em></a> is, and the language user can select any other type for list elements — this will change handling of such elements, but the philosophy behind their collection will stay the same.</text>
+			<text>Some <a href="#Type_Analysis">types</a> can be defined partially by the user and partially by the language designer. For example, the language <em>designer</em> knows what a <a href="#Collection">list</a> is, and the language <em>user</em> can select any other type for list elements — this will change handling of such elements, but the philosophy behind their collection will stay the same.</text>
 			<src>LI-PZ:291</src>
 			<src>PL-RS:446</src>
 			<src>PL-WC:180</src>
@@ -868,7 +864,7 @@
 		</pic>
 		<pic card>
 			<title>Pretty-printing</title>
-			<text>A language can have a <a href="#Default">default</a> formatting convention that is not only accepted by the community to improve the representation quality of the programs, but also automated and shipped in a form of a tool. Such a tool can be very configurable, have limited feature selection or none at all. A pretty-printer that scans the input and minimises the <a href="#Indentation__Whitespace">delimiters</a> in it, is sometimes called a program <em>compactor</em>.</text>
+			<text>A language can have a <a href="#Default">default</a> formatting convention that is not only accepted by the community to improve the representation quality of the models, but also automated and shipped in a form of a tool. Such a tool can be very configurable, have limited feature selection or none at all. A pretty-printer that scans the input and minimises the <a href="#Indentation__Whitespace">delimiters</a> in it, is sometimes called a program <em>compactor</em>. Pretty-printers are omnipresent in textual languages and may require layout strategies/policies for graphical ones.</text>
 			<src>P:Implied sequences</src>
 			<src>DSL-Wile:Unparsing</src>
 			<src>DB-RD:3</src>
@@ -884,8 +880,16 @@
 			<src>I:Simulation &amp; feedforward</src>
 		</pic>
 		<pic card>
+			<title>Product Line</title>
+			<text>Unified production of things that belong to the same family (similar cars, computers, furniture, drinks) is typical for any industry, including software engineering. To make it so that one codebase specifies the behaviour of a system that must be compiled and <a href="#Deployment">deployed</a> under a variety of devices and hardware architectures, the model can be annotated with conditions to be checked during compile time and result in different code to be produced by the compiler to be run later. To simplify compiler construction, conditional compilation is handled by a preprocessor.</text>
+			<src>DSL-Mernik:Product Line</src>
+			<src>CD-AH:275</src>
+			<src>CD-GB:107</src>
+			<src>SL-RL:24</src>
+		</pic>
+		<pic card>
 			<title>Readability</title>
-			<text>In many cases a program is written once but read many times for many purposes: to <a href="#Debugging">fix bugs</a>, introduce new features, understand its behaviour, change it, etc. Hence, the ease of reading a program can become a cornerstone of the design of a language. Some existing languages, like COBOL and many modern <abbr title="Domain-Specific Languages">DSLs</abbr>, were specifically designed to empower domain experts to read and write in them. Others, like APL and Perl, while <a href="#Expressivity">expressive</a>, are known to produce unreadable programs.</text>
+			<text>In many cases a model is written once but read many times for many purposes: to <a href="#Debugging">fix bugs</a>, introduce new features, understand its behaviour, change it, etc. Hence, the ease of reading a model can become a cornerstone of the design of a language. Some existing languages, like COBOL and many modern <abbr title="Domain-Specific Languages">DSLs</abbr>, were specifically designed to empower domain experts to read and write in them. Others, like APL and Perl, while <a href="#Expressivity">expressive</a>, are known to produce unreadable models.</text>
 			<src>L:Storytelling</src>
 			<src>PL-RS:30</src>
 		</pic>
@@ -924,7 +928,7 @@
 		</pic>
 		<pic card>
 			<title>Refactoring</title>
-			<text>Refactorings are code changes that do not impact the system's behaviour but change its internal structure to improve code quality, prepare for the subsequent change, etc. Some <abbr title="Domain-Specific Modelling Languages">DSMLs</abbr> mean their programs to <em>only</em> change through refactorings and refinements. In other domains it is also not uncommon to eventually get refactoring support in the <a href="#IDE">IDE</a> (often with <a href="#Preview">previews</a>).</text>
+			<text>Refactorings are code changes that do not impact the system's behaviour but change its internal structure to improve code quality, prepare for the subsequent change, etc. Some <abbr title="Domain-Specific Modelling Languages">DSMLs</abbr> mean their models to <em>only</em> change through refactorings and refinements. In other domains it is also not uncommon to eventually get refactoring support in the <a href="#IDE">IDE</a> (often with <a href="#Preview">previews</a>).</text>
 			<src>C:Rephrasing &amp; renaming</src>
 			<src>SL-CF:154</src>
 			<src>SL-RL:24</src>
@@ -1018,11 +1022,9 @@
 			<src>DSL-Spinellis:Piggyback</src>
 			<src>DSL-Mernik:Language Exploitation</src>
 			<src>SL-RL:16</src>
-			<src>P:Nakedness</src>
-			<src>Spinellis:Language Extension</src>
-			<src>Mernik:Language Invention</src>
-			<src>P:Nakedness</src>
-			<src>Mernik:Embedding</src>
+			<src>DSL-Spinellis:Language Extension</src>
+			<src>DSL-Mernik:Language Invention</src>
+			<src>DSL-Mernik:Embedding</src>
 		</pic>
 		<pic card>
 			<title>Subprogram</title>
@@ -1083,14 +1085,14 @@
 		</pic>
 		<pic card>
 			<title>Syntax Highlighting</title>
-			<text>A development environment of the language can profit from visualisation even if the language is textual by colour-coding different categories of words (strings, numbers, standard libraries, reserved words, etc). Colours are also commonly used for non-textual languages, unless programs are expected to be printed or viewed on grayscale devices.</text>
+			<text>A development environment of the language can profit from visualisation even if the language is textual by colour-coding different categories of words (strings, numbers, standard libraries, reserved words, etc). Colours are also commonly used for non-textual languages, unless models are expected to be printed or viewed on grayscale devices.</text>
 			<src>A:Material properties</src>
 			<src>SL-CF:27</src>
 			<src>P:Colour associations</src>
 		</pic>
 		<pic card>
 			<title>Trade Off</title>
-			<text>When direct <a href="#Optimisation">optimisation</a> is impossible or not sufficiently effective, the language designer can identify trade offs and leave them all inside the language for the users to choose. For example, many compilers have compilation options optimising <a href="#Code_Generation">code generation</a> for speed, size or <a href="#Energy_Saving">power</a>, but not all three. Many languages have <a href="#Standard_Library">libraries</a> and <a href="#Composite_Type">structures</a> for both <em>arrays</em> (fast, immutable length) and <em>lists</em> (slower but flexible).</text>
+			<text>When direct <a href="#Optimisation">optimisation</a> is impossible or not sufficiently effective, the language designer can identify trade offs and leave them all inside the language for the users to choose. For example, many compilers have compilation options optimising <a href="#Code_Generation">code generation</a> for speed, size or <a href="#Energy_Saving">power</a>, but not all three. Many languages have <a href="#Standard_Library">libraries</a> and <a href="#Collection">structures</a> for both <em>arrays</em> (fast, immutable length) and <em>lists</em> (slower but flexible).</text>
 			<src>C:Framing</src>
 			<src>DB-RD:127</src>
 			<src>DB-PD:242</src>
@@ -1099,7 +1101,7 @@
 		</pic>
 		<pic card>
 			<title>Type Analysis</title>
-			<text>Components can be identified, explicitly or automatically, to belong to a particular <em>type</em>. Among other things, the type determines applicability and compatibility of components with one another. In complex scenarios (like a monadic bind) hard to understand components can only fit together in one possible way. Type equivalence rules can be based on names, <a href="#Type_Definition">structure</a>, <a href="#Scope__Binding">scopes</a>, etc.</text>
+			<text>Components can be identified, explicitly or automatically, to belong to a particular <em>type</em>. Among other things, the type determines applicability and compatibility of components with one another. In complex scenarios (like a <abbr title="monoid in a category of endofunctors">monad</abbr>ic bind) hard to understand components can only fit together in one possible way. Type equivalence rules can be based on names, <a href="#Type_Definition">structure</a>, <a href="#Scope__Binding">scopes</a>, etc.</text>
 			<src>E:Matched affordances</src>
 			<src>DSL-Wile:Type Checking</src>
 			<src>DB-GD:49</src>
@@ -1151,7 +1153,7 @@
 		</pic>
 		<pic card>
 			<title>Unification</title>
-			<text>Given two <a href="#Composite_Type">composite data structures</a>, a compiler can be tasked to find their matching components and proceed with <a href="#Assignment">assignment</a>, transformation, etc. Limited forms of unification may be called <em>pattern matching</em>. Widely used in logic programming, metaprogramming, model synchronisation, bidirectional transformation, <abbr title="Fourth Generation Languages">4GLs</abbr> for banking, etc.</text>
+			<text>Given two hierarchical <a href="#Collection">composite data structures</a>, a compiler can be tasked to find their matching components and proceed with <a href="#Assignment">assignment</a>, transformation, etc. Limited forms of unification may be called <em>pattern matching</em>. Widely used in logic programming, metaprogramming, model synchronisation, bidirectional transformation, <abbr title="Fourth Generation Languages">4GLs</abbr> for banking, etc.</text>
 			<src>DSL-Mernik:Data Structure Traversal</src>
 			<src>DB-RD:370</src>
 			<src>DB-PD:487</src>
