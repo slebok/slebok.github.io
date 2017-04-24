@@ -32,6 +32,13 @@
 		<picdir>www</picdir>
 		<divclass>tile</divclass>
 		<pic>
+			<a>dyol</a>
+			<img>dyol.200.png</img>
+			<title>Design Your Own Language</title>
+			<name>DYOL</name>
+			<text>a card set for designing a software language (2017–…)</text>
+		</pic>
+		<pic>
 			<a>http://oopsle.github.io/</a>
 			<img>oopsle.200.png</img>
 			<title>International Workshop on Open and Original Problems in Software Language Engineering</title>
