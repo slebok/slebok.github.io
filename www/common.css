@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
 body {color:#033; background-color:#AAA; font-family:"Futura", "Montserrat", sans-serif}
+div.card p {font-family:"Futura", "Montserrat", sans-serif}
 .pic .p {color:#003355; padding-top:5px}
 .pic {float:left; text-align:center; width:150px; height:250px; margin:5px; font-weight:bold; border:2px solid #888}
 .pic img, .tile img {border:0px; max-height:100px}

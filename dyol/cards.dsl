@@ -20,7 +20,7 @@
 		</pic>
 		<pic card>
 			<title>Alphabet</title>
-			<text>The basic alphabet is often taken for granted, especially for textual languages, but it can be an important design aspect. In some languages (<a href="http:tryapl.org">APL</a> being the extreme) the alphabet is extremely broad, with all kinds of specific symbols being used for <a href="#Standard_Library">built-in</a> operators, which shifts the visual feel of the language closer to mathematics. In other languages <a href="#Keyword">keywords</a> are taken from the English dictionary, which limited language appeal to some groups of users (and led to reimplementations with translated keywords).</text>
+			<text>The basic alphabet is often taken for granted, especially for textual languages, but it is an important design aspect. In some languages (<a href="http:tryapl.org">APL</a> being the extreme) the alphabet is extremely broad, with specific symbols being used for <a href="#Standard_Library">built-in</a> operators, which shifts the visual feel of the language closer to mathematics. In other languages <a href="#Keyword">keywords</a> are taken from English, which limits language appeal to some groups of users (and may lead to reimplementations with translated keywords).</text>
 			<src>P:Perceived affordances</src>
 			<src>DB-GD:28</src>
 			<src>DB-RD:92</src>
@@ -782,7 +782,7 @@
 		</pic>
 		<pic card>
 			<title>Parameter Passing</title>
-			<text>There are several strategies in mapping <em>arguments</em> that are being passed to a <a href="#Subprogram">procedure</a> in a call with the <em>parameters</em> that procedure expects to get: <em>call by value</em> (expose only the values, safe but inefficient for <a href="#Collection">composite data</a>), <em>call by result</em> (same but can return several values at once), <em>call by value-result</em> (the caller gets values, updates them, they are passed back), <em>call by reference</em> (expose <a href="#Pointer">pointers</a> to values, efficient but unsafe), <em>call by name</em> (evaluate pointers when they are used inside the caller), etc.</text>
+			<text>There are several strategies in mapping <em>arguments</em> that are being passed to a <a href="#Subprogram">procedure</a> in a call with the <em>parameters</em> that procedure expects to get: <em>call by value</em> (expose only the values, safe but inefficient for <a href="#Collection">composite data</a>), <em>call by result</em> (can return several values at once), <em>call by value-result</em> (the caller gets values, updates them, they are passed back), <em>call by reference</em> (expose <a href="#Pointer">pointers</a> to values, efficient but unsafe), <em>call by name</em> (evaluate pointers when they are used inside the caller), etc.</text>
 			<src>DB-GD:60</src>
 			<src>DB-RD:424</src>
 			<src>DB-PD:68</src>
