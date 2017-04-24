@@ -9,12 +9,13 @@ def fancy(x):
 
 def debreviate(x):
 	for s in (
-		('API', 'Application Programming Interface'),
 		('4GLs', 'Fourth Generation Languages'),
+		('API', 'Application Programming Interface'),
 		('CPU', 'Central Processing Unit'),
 		('DSLs', 'Domain-Specific Languages'),
 		('DSMLs', 'Domain-Specific Modelling Languages'),
 		('GPLs', 'General Purpose Languages'),
+		('GPU', 'Graphics Processing Unit'),
 		('JVM', 'Java Virtual Machine'),
 		('MDE', 'Model-Driven Engineering'),
 		('monad', 'monoid in a category of endofunctors'),
@@ -113,7 +114,7 @@ csv = open('Patterns.csv', 'r', encoding='utf-8')
 lines = csv.readlines()
 csv.close()
 
-dsl = open('index.dsl', 'w', encoding='utf-8')
+dsl = open('cards.dsl', 'w', encoding='utf-8')
 dsl.write('''<?xml version="1.0" encoding="UTF-8"?>
 <html doctype>
 	<head>

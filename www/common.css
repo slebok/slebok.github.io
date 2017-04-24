@@ -13,7 +13,8 @@ br {clear:both}
 a:link, a:visited {color:#039}
 .pic:hover, .double:hover {background-color:#888}
 h1 a img, h1 img {float:right; margin-left:50px; margin-bottom:50px}
-code {font-family:"Courier Prime", Courier, monospace}
+code, .date {font-family:"Courier Prime", Courier, monospace}
+.date {font-weight: bold; color: #004d40}
 .help {color:#ffdec9; font-size:smaller; font-style:italic}
 .card {float:left; text-align:left; width:485px; height:253px; margin:5px; font-weight:bold; border:2px solid #888; position: relative; background-color: #CCC; font-family:sans-serif}
 .card > * {float: none; margin: 5px}
