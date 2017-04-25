@@ -13,14 +13,14 @@
 		<hr/>
 		<p>There are eight categories of books chosen for this project:</p>
 		<ul>
-			<li>Dragon Books (DB) — the classic, traditional studybooks; while getting inevitably outdated, they are strongly associated with the domain of language processing.</li>
-			<li>Parsing Techniques (PT) — in a <a href="http://grammarware.github.io/parsing/">narrow</a>, text-to-model sense; these books were included for completeness and were not expected to contribute much to the toolkit.</li>
-			<li>Compiler Construction (CC) — mostly course books for students learning how to make language translators.</li>
-			<li>Compiler Design (CD) — books claiming to explain external and internal design details around language translators.</li>
-			<li>Language Implementation (LI) — similar to the previous two, but with more focus on practical aspects and implementation efficiency.</li>
-			<li>Language Documentation (LD) — documents explaining one particular language to its potential users.</li>
-			<li>Programming Languages (PL) — collections of concepts found in existing languages.</li>
-			<li>Software Languages (SL) — books with general applicability, not limited to DSLs or programming.</li>
+			<li><span class="b db">Dragon Books (DB)</span> — the classic, traditional studybooks; while getting inevitably outdated, they are strongly associated with the domain of language processing.</li>
+			<li><span class="b pt">Parsing Techniques (PT)</span> — in a <a href="http://grammarware.github.io/parsing/">narrow</a>, text-to-model sense; these books were included for completeness and were not expected to contribute much to the toolkit.</li>
+			<li><span class="b cc">Compiler Construction (CC)</span> — mostly course books for students learning how to make language translators.</li>
+			<li><span class="b cd">Compiler Design (CD)</span> — books claiming to explain external and internal design details around language translators.</li>
+			<li><span class="b li">Language Implementation (LI)</span> — similar to the previous two, but with more focus on practical aspects and implementation efficiency.</li>
+			<li><span class="b ld">Language Documentation (LD)</span> — documents explaining one particular language to its potential users.</li>
+			<li><span class="b pl">Programming Languages (PL)</span> — collections of concepts found in existing languages.</li>
+			<li><span class="b sl">Software Languages (SL)</span> — books with general applicability, not limited to DSLs or programming.</li>
 		</ul>
 		<hr/>
 		<pic>
@@ -60,19 +60,19 @@
 			<text>Parsing Techniques: A Practical Guide (Grune, Jacobs, 2008)</text>
 		</pic>
 		<pic>
-			<a>http://amzn.to/2oYBQdc</a>
+			<a>CC-DG.html</a>
 			<img>CC-DG.jpg</img>
 			<name>CC-DG</name>
 			<text>Compiler Construction for Digital Computers (Gries, 1971)</text>
 		</pic>
 		<pic>
-			<a>http://amzn.to/2phWrHp</a>
+			<a>CC-WG.html</a>
 			<img>CC-WG.jpg</img>
 			<name>CC-WG</name>
 			<text>Compiler Construction (Waite, Goos, 1984)</text>
 		</pic>
 		<pic>
-			<a>http://amzn.to/2nmUPeU</a>
+			<a>CC-NW.html</a>
 			<img>CC-NW.jpg</img>
 			<name>CC-NW</name>
 			<text>Compiler Construction (Wirth, 2005)</text>
