@@ -187,6 +187,18 @@ for line in lines[3:]:
 			codes += 1
 	cards[name] = card
 
+backsources = {}
+for name in sources.keys():
+	for src in sources[name]:
+		src = src.replace('<src>','').replace('</src>','').strip()
+		if src[2] != '-':
+			continue
+		book = src[:5]
+		page = src[6:] if len(src)>6 else ''
+		if book not in backsources.keys():
+			backsources[book] = {}
+		backsources[book][name] = page
+
 keys = list(cards.keys())
 keys.sort()
 for c in keys:
@@ -244,7 +256,8 @@ for book in (
 		('sl','rl', 'http://www.softlang.org/book', 'Software Languages: Syntax, Semantics, and Metaprogramming (Lämmel, 2017)'),
 	):
 	dsl.write('				<li class="b {}"><a href="{}">{}:{} — {}</a></li>\n'.format(book[0], book[2], book[0].upper(), book[1].upper(), book[3]))
-	bookfile = 'books/{}-{}.dsl'.format(book[0].upper(),book[1].upper())
+	bookname = '{}-{}'.format(book[0].upper(),book[1].upper())
+	bookfile = 'books/{}.dsl'.format(bookname)
 	bookdsl = open(bookfile, 'r', encoding='utf-8')
 	lines = bookdsl.readlines()
 	bookdsl.close()
@@ -259,6 +272,15 @@ for book in (
 		bookdsl.write(line)
 		if line.strip() == '<h2>Marked:</h2>':
 			skip = True
+			bookdsl.write('<ul>\n')
+			for card in sorted(backsources[bookname].keys()):
+				bookdsl.write('<li><a href="{}">{}</a>: '.format(card.replace(' ','_').replace('&',''), card))
+				if backsources[bookname] == '':
+					bookdsl.write('the entire book')
+				else:
+					bookdsl.write('page ' + backsources[bookname][card])
+				bookdsl.write('</li>\n')
+			bookdsl.write('</ul>\n')
 	bookdsl.close()
 dsl.write('''			</ul>
 		</div>

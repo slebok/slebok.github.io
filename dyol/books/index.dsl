@@ -30,13 +30,13 @@
 			<text>Principles of Compiler Design (Aho, Ullman, 1977)</text>
 		</pic>
 		<pic>
-			<a>http://amzn.to/2pAUncU</a>
+			<a>DB-RD.html</a>
 			<img>DB-RD.jpg</img>
 			<name>DB-RD</name>
 			<text>Compilers: Principles, Techniques, and Tools (Aho, Sethi, Ullman, 1986)</text>
 		</pic>
 		<pic>
-			<a>http://amzn.to/2offvUI</a>
+			<a>DB-PD.html</a>
 			<img>DB-PD.jpg</img>
 			<name>DB-PD</name>
 			<text>Compilers: Principles, Techniques, &amp; Tools (Aho, Lam, Sethi, Ullman, 2006)</text>
