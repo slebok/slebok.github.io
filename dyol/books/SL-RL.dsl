@@ -9,7 +9,7 @@
 	<body>
 		<header/>
 		<h1>
-			<a href="http://www.softlang.org/book"><img src="SL-RL.jpg" alt="Kwasnik/Dünker/Sheehy/Void/Lämmel's artwork that will end up on the cover of the book"/></a>
+			<a href="http://www.softlang.org/book"><img src="SL-RL.png" alt="Kwasnik/Dünker/Sheehy/Void/Lämmel's artwork that will end up on the cover of the book"/></a>
 			<abbr title="DYOL is pronounced like 'duel' in English">DYOL</abbr>:
 			<a href="../index.html">Design Your Own Language</a>
 		</h1>

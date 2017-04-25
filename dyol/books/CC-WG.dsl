@@ -30,7 +30,7 @@
 			to the user, are enumerated quickly in the introduction, and the main focus of
 			the rest of the book is on the implementation details and in how to construct
 			a compiler in the best possible way. One of the interesting oddities is that
-			this book never talks about <a href="../cards.html#Comments">Comments</a>, even in the lexical analysis
+			this book never talks about <a href="../cards.html#Comment">Comments</a>, even in the lexical analysis
 			chapter.
 		</p>
 		<h2>Marked:</h2>
