@@ -274,7 +274,7 @@ for book in (
 			skip = True
 			bookdsl.write('<ul>\n')
 			for card in sorted(backsources[bookname].keys()):
-				bookdsl.write('<li><a href="{}">{}</a>: '.format(card.replace(' ','_').replace('&',''), card))
+				bookdsl.write('<li><a href="../cards.html#{}">{}</a>: '.format(card.replace(' ','_').replace('&',''), card))
 				if backsources[bookname] == '':
 					bookdsl.write('the entire book')
 				else:

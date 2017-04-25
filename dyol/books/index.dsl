@@ -42,19 +42,19 @@
 			<text>Compilers: Principles, Techniques, &amp; Tools (Aho, Lam, Sethi, Ullman, 2006)</text>
 		</pic>
 		<pic>
-			<a>http://amzn.to/2oSL1u0</a>
+			<a>PT-AO.html</a>
 			<img>PT-AO.jpg</img>
 			<name>PT-AO</name>
 			<text>Definition of Programming Languages by Interpreting Automata (Ollongren, 1974)</text>
 		</pic>
 		<pic>
-			<a>http://amzn.to/2o776HL</a>
+			<a>PT-HU.html</a>
 			<img>PT-HU.jpg</img>
 			<name>PT-HU</name>
 			<text>Introduction to Automata Theory, Languages, and Computation (Hopcroft, Ullman, 1979)</text>
 		</pic>
 		<pic>
-			<a>http://amzn.to/2oYyF5C</a>
+			<a>PT-GJ.html</a>
 			<img>PT-GJ.jpg</img>
 			<name>PT-GJ</name>
 			<text>Parsing Techniques: A Practical Guide (Grune, Jacobs, 2008)</text>
