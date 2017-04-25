@@ -244,6 +244,22 @@ for book in (
 		('sl','rl', 'http://www.softlang.org/book', 'Software Languages: Syntax, Semantics, and Metaprogramming (Lämmel, 2017)'),
 	):
 	dsl.write('				<li class="b {}"><a href="{}">{}:{} — {}</a></li>\n'.format(book[0], book[2], book[0].upper(), book[1].upper(), book[3]))
+	bookfile = 'books/{}-{}.dsl'.format(book[0].upper(),book[1].upper())
+	bookdsl = open(bookfile, 'r', encoding='utf-8')
+	lines = bookdsl.readlines()
+	bookdsl.close()
+	bookdsl = open(bookfile, 'w', encoding='utf-8')
+	skip = False
+	for line in lines:
+		if skip:
+			if line.strip() == '<hr/>':
+				skip = False
+			else:
+				continue
+		bookdsl.write(line)
+		if line.strip() == '<h2>Marked:</h2>':
+			skip = True
+	bookdsl.close()
 dsl.write('''			</ul>
 		</div>
 		<hr/>
@@ -254,3 +270,4 @@ dsl.close()
 for card in links:
 	if card not in targets:
 		print('Card {} referenced but undefined!'.format(card))
+

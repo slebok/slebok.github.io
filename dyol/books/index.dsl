@@ -24,7 +24,7 @@
 		</ul>
 		<hr/>
 		<pic>
-			<a>http://amzn.to/2ofkepP</a>
+			<a>DB-GD.html</a>
 			<img>DB-GD.jpg</img>
 			<name>DB-GD</name>
 			<text>Principles of Compiler Design (Aho, Ullman, 1977)</text>
@@ -133,8 +133,8 @@
 		</pic>
 		<pic>
 			<a>http://amzn.to/2nmFg70</a>
-			<img>PL-ML.jpg</img>
-			<name>PL-ML</name>
+			<img>PL-BM.jpg</img>
+			<name>PL-BM</name>
 			<text>Principles of Programming Languages (MacLennan, 1983)</text>
 		</pic>
 		<pic>
