@@ -132,37 +132,37 @@
 			<text>Programming in the .NET Environment (Watkins, Hammond, Abrams, 2003)</text>
 		</pic>
 		<pic>
-			<a>http://amzn.to/2nmFg70</a>
+			<a>PL-BM.html</a>
 			<img>PL-BM.jpg</img>
 			<name>PL-BM</name>
 			<text>Principles of Programming Languages (MacLennan, 1983)</text>
 		</pic>
 		<pic>
-			<a>http://amzn.to/2n8cd5u</a>
+			<a>PL-WC.html</a>
 			<img>PL-WC.jpg</img>
 			<name>PL-WC</name>
 			<text>Comparative Programming Languages (Wilson, Clark, 1993)</text>
 		</pic>
 		<pic>
-			<a>http://amzn.to/2ofl1qu</a>
+			<a>PL-RS.html</a>
 			<img>PL-RS.jpg</img>
 			<name>PL-RS</name>
 			<text>Concepts of Programming Languages (Sebesta, 2001)</text>
 		</pic>
 		<pic wb>
-			<a>http://amzn.to/2oYs232</a>
+			<a>SL-AS.html</a>
 			<img>SL-AS.jpg</img>
 			<name>SL-AS</name>
 			<text>Structure and Interpretation of Computer Programs (Abelson, Sussman, Sussman, 1996)</text>
 		</pic>
 		<pic>
-			<a>http://amzn.to/2n8yz6y</a>
+			<a>SL-CF.html</a>
 			<img>SL-CF.jpg</img>
 			<name>SL-CF</name>
 			<text>Engineering Modeling Languages (Combemale, France et al, 2017)</text>
 		</pic>
 		<pic wb>
-			<a>http://www.softlang.org/book</a>
+			<a>SL-RL.html</a>
 			<img>SL-RL.png</img>
 			<name>SL-RL</name>
 			<text>Software Languages: Syntax, Semantics, and Metaprogramming (Lämmel, 2017)</text>
