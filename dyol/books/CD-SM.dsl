@@ -52,7 +52,7 @@
 <li><a href="../cards.html#Record">Record</a>: page 33</li>
 <li><a href="../cards.html#Redefine">Redefine</a>: page 293</li>
 <li><a href="../cards.html#Runtime">Runtime</a>: page 105</li>
-<li><a href="../cards.html#Scope__Binding">Scope & Binding</a>: page 43</li>
+<li><a href="../cards.html#Scope__Binding">Scope &amp; Binding</a>: page 43</li>
 <li><a href="../cards.html#Static_Analysis">Static Analysis</a>: page 169</li>
 <li><a href="../cards.html#Subprogram">Subprogram</a>: page 34</li>
 <li><a href="../cards.html#Type_Definition">Type Definition</a>: page 25</li>

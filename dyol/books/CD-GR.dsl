@@ -59,7 +59,7 @@
 <li><a href="../cards.html#First_Class_Citizen">First Class Citizen</a>: page 625</li>
 <li><a href="../cards.html#Garbage_Collection">Garbage Collection</a>: page 476</li>
 <li><a href="../cards.html#Generation">Generation</a>: page 8</li>
-<li><a href="../cards.html#Indentation__Whitespace">Indentation & Whitespace</a>: page 619</li>
+<li><a href="../cards.html#Indentation__Whitespace">Indentation &amp; Whitespace</a>: page 619</li>
 <li><a href="../cards.html#Inheritance">Inheritance</a>: page 545</li>
 <li><a href="../cards.html#Instruction_Set">Instruction Set</a>: page 367</li>
 <li><a href="../cards.html#Iteration">Iteration</a>: page 582</li>
@@ -78,7 +78,7 @@
 <li><a href="../cards.html#Record">Record</a>: page 538</li>
 <li><a href="../cards.html#Redefine">Redefine</a>: page 520</li>
 <li><a href="../cards.html#Runtime">Runtime</a>: page 25</li>
-<li><a href="../cards.html#Scope__Binding">Scope & Binding</a>: page 515</li>
+<li><a href="../cards.html#Scope__Binding">Scope &amp; Binding</a>: page 515</li>
 <li><a href="../cards.html#Standard_Library">Standard Library</a>: page 364</li>
 <li><a href="../cards.html#Static_Analysis">Static Analysis</a>: page 115</li>
 <li><a href="../cards.html#Subprogram">Subprogram</a>: page 544</li>

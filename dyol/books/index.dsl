@@ -96,19 +96,19 @@
 			<text>Modern Compiler Design (Grune, van Reeuwijk, Bal, Jacobs, Langendoen, 2012)</text>
 		</pic>
 		<pic>
-			<a>http://amzn.to/2opUpnG</a>
+			<a>LI-BH.html</a>
 			<img>LI-BH.jpg</img>
 			<name>LI-BH</name>
 			<text>Brinch Hansen on Pascal Compilers (Hansen, 1985)</text>
 		</pic>
 		<pic>
-			<a>http://amzn.to/2pAW75O</a>
+			<a>LI-RM.html</a>
 			<img>LI-RM.jpg</img>
 			<name>LI-RM</name>
 			<text>Writing Compilers and Interpreters: An Applied Approach (Mak, 1991)</text>
 		</pic>
 		<pic>
-			<a>http://amzn.to/2nnaieI</a>
+			<a>LI-PZ.html</a>
 			<img>LI-PZ.jpg</img>
 			<name>LI-PZ</name>
 			<text>Programming Languages: Design and Implementation (Pratt, Zelkowitz, 2001)</text>

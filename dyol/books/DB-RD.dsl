@@ -56,7 +56,7 @@
 <li><a href="../cards.html#First_Class_Citizen">First Class Citizen</a>: page 418</li>
 <li><a href="../cards.html#Garbage_Collection">Garbage Collection</a>: page 441</li>
 <li><a href="../cards.html#Generation">Generation</a>: page 12</li>
-<li><a href="../cards.html#Indentation__Whitespace">Indentation & Whitespace</a>: page 54</li>
+<li><a href="../cards.html#Indentation__Whitespace">Indentation &amp; Whitespace</a>: page 54</li>
 <li><a href="../cards.html#Instruction_Set">Instruction Set</a>: page 17</li>
 <li><a href="../cards.html#Iteration">Iteration</a>: page 533</li>
 <li><a href="../cards.html#Keyword">Keyword</a>: page 56</li>
@@ -72,7 +72,7 @@
 <li><a href="../cards.html#Record">Record</a>: page 477</li>
 <li><a href="../cards.html#Redefine">Redefine</a>: page 361</li>
 <li><a href="../cards.html#Runtime">Runtime</a>: page 389</li>
-<li><a href="../cards.html#Scope__Binding">Scope & Binding</a>: page 394</li>
+<li><a href="../cards.html#Scope__Binding">Scope &amp; Binding</a>: page 394</li>
 <li><a href="../cards.html#Static_Analysis">Static Analysis</a>: page 3</li>
 <li><a href="../cards.html#Subprogram">Subprogram</a>: page 506</li>
 <li><a href="../cards.html#Substitution">Substitution</a>: page 370</li>
