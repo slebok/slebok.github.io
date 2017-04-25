@@ -114,19 +114,19 @@
 			<text>Programming Languages: Design and Implementation (Pratt, Zelkowitz, 2001)</text>
 		</pic>
 		<pic>
-			<a>http://amzn.to/2oupTtC</a>
+			<a>LD-ED.html</a>
 			<img>LD-ED.jpg</img>
 			<name>LD-ED</name>
 			<text>A Primer of ALGOL 60 Programming (Dijkstra, 1962)</text>
 		</pic>
 		<pic>
-			<a>http://amzn.to/2opWUX1</a>
+			<a>LD-JW.html</a>
 			<img>LD-JW.jpg</img>
 			<name>LD-JW</name>
 			<text>Pascal User Manual and Report (Jensen, Wirth, 1985)</text>
 		</pic>
 		<pic>
-			<a>http://amzn.to/2o7eCm1</a>
+			<a>LD-WH.html</a>
 			<img>LD-WH.jpg</img>
 			<name>LD-WH</name>
 			<text>Programming in the .NET Environment (Watkins, Hammond, Abrams, 2003)</text>
