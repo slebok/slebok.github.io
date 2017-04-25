@@ -1,6 +1,6 @@
 ﻿-30,,,,!,,,,,8,9,10,16,6,4,11,12,14,,13,5,15,1,2,,,,7,,,,3,17,
 -20,,,,!,,DSL,DSL,DSL,DB,DB,DB,CC,CC,CC,CD,CD,CD,LI,LI,LI,PL,PL,PL,PT,PT,PT,LD,LD,LD,SL,SL,SL,
--10,,Inspired by,Key phrase,!Name,Explanation,Wile,Spinellis,Mernik,GD,RD,PD,DG,WG,NW,AH,SM,GB,BH,RM,PZ,RS,WC,BM,AO,HU,GJ,ED,JW,WH,AS,CF,RL,Text
+-10,,Inspired by,Key phrase,!Name,Explanation,Wile,Spinellis,Mernik,GD,RD,PD,DG,WG,NW,AH,SM,GR,BH,RM,PZ,RS,WC,BM,AO,HU,GJ,ED,JW,WH,AS,CF,RL,Text
 7,A,Pave the cowpaths,recognise desired paths & encode them,%Big Brother,learning / adapting plugin a-la WatchDog,,,,,,,,,,,,,,,,,,,,,,,,,,,,"A more invasive and more powerful form of **code mining** is examining language users' actions directly. This can be done through the **IDE** by equipping the plugin with logging functionality: make it record every single action taken by the user, with all the necessary context such as the files opened, and analyse it later."
 121,S,Peerveillance,what you do is visible to peers,%Code review,commits are reviewed,,,,,,,,,,,,,,,,,,,,,,,,,,,,"A family of practices around other developers reviewing the code submitted by one of them. Can vary in frequency, volatility, scrutiny, responsibility, intent, etc."
 122,S,Sousveillance,what you do is visible to inferiors,%Code review,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

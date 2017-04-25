@@ -78,19 +78,19 @@
 			<text>Compiler Construction (Wirth, 2005)</text>
 		</pic>
 		<pic>
-			<a>http://amzn.to/2pAYPYW</a>
+			<a>CD-AH.html</a>
 			<img>CD-AH.jpg</img>
 			<name>CD-AH</name>
 			<text>Compiler Design in C (Holub, 1990)</text>
 		</pic>
 		<pic>
-			<a>http://amzn.to/2p3nnxw</a>
+			<a>CD-SM.html</a>
 			<img>CD-SM.jpg</img>
 			<name>CD-SM</name>
 			<text>Advanced Compiler Design and Implementation (Muchnick, 1997)</text>
 		</pic>
 		<pic>
-			<a>http://amzn.to/2ofhgRP</a>
+			<a>CD-GR.html</a>
 			<img>CD-GR.jpg</img>
 			<name>CD-GR</name>
 			<text>Modern Compiler Design (Grune, van Reeuwijk, Bal, Jacobs, Langendoen, 2012)</text>

@@ -42,7 +42,7 @@
 			<src>CC-WG:23</src>
 			<src>CD-AH:620</src>
 			<src>CD-SM:36</src>
-			<src>CD-GB:270</src>
+			<src>CD-GR:270</src>
 			<src>LI-RM:87</src>
 			<src>LI-PZ:201</src>
 			<src>PL-RS:293</src>
@@ -62,7 +62,7 @@
 			<src>DB-GD:174</src>
 			<src>DB-RD:181</src>
 			<src>CC-DG:85</src>
-			<src>CD-GB:688</src>
+			<src>CD-GR:688</src>
 			<src>LI-PZ:378</src>
 			<src>PL-RS:629</src>
 			<src>PL-BM:516</src>
@@ -107,7 +107,7 @@
 			<src>CC-NW:61</src>
 			<src>CD-AH:474</src>
 			<src>CD-SM:38</src>
-			<src>CD-GB:580</src>
+			<src>CD-GR:580</src>
 			<src>LI-BH:133</src>
 			<src>LI-RM:87</src>
 			<src>LI-PZ:357</src>
@@ -140,7 +140,7 @@
 			<title>Class</title>
 			<text>A class or a trait represents a template that can be followed by objects: a particular collection of properties and methods that can be always relied on. A class can be then <em>instantiated</em> with appropriate parameters to form an object that <em>conforms to</em> the class definition. Classes are the ultimate form of <a href="#Encapsulation">encapsulation</a>. They can be <a href="#Inheritance">inherited</a> from one another to form <a href="#Substitution">subclasses</a>.</text>
 			<src>DSL-Wile:Relationships</src>
-			<src>CD-GB:544</src>
+			<src>CD-GR:544</src>
 			<src>PL-RS:110</src>
 			<src>PL-WC:107</src>
 			<src>PL-BM:464</src>
@@ -170,7 +170,7 @@
 			<src>CC-WG:253</src>
 			<src>CD-AH:445</src>
 			<src>CD-SM:137</src>
-			<src>CD-GB:313</src>
+			<src>CD-GR:313</src>
 			<src>LI-BH:183</src>
 			<src>LI-PZ:111</src>
 			<src>PT-GJ:570</src>
@@ -200,7 +200,7 @@
 			<src>CC-NW:83</src>
 			<src>CD-AH:599</src>
 			<src>CD-SM:30</src>
-			<src>CD-GB:473</src>
+			<src>CD-GR:473</src>
 			<src>LI-BH:122</src>
 			<src>LI-RM:123</src>
 			<src>LI-PZ:238</src>
@@ -219,7 +219,7 @@
 			<src>P:Contrast</src>
 			<src>DB-RD:54</src>
 			<src>CC-DG:64</src>
-			<src>CD-GB:71</src>
+			<src>CD-GR:71</src>
 			<src>LI-BH:10</src>
 			<src>LI-RM:33</src>
 			<src>LI-PZ:99</src>
@@ -240,7 +240,7 @@
 			<src>CC-DG:455</src>
 			<src>CC-WG:303</src>
 			<src>CD-AH:88</src>
-			<src>CD-GB:95</src>
+			<src>CD-GR:95</src>
 			<src>LI-BH:21</src>
 			<src>LI-RM:39</src>
 			<src>LI-PZ:109</src>
@@ -258,7 +258,7 @@
 			<src>CC-DG:315</src>
 			<src>CC-WG:304</src>
 			<src>CD-AH:34</src>
-			<src>CD-GB:121</src>
+			<src>CD-GR:121</src>
 			<src>LI-BH:83</src>
 			<src>LI-RM:79</src>
 			<src>PT-GJ:522</src>
@@ -266,7 +266,7 @@
 		<pic card>
 			<title>Comprehension</title>
 			<text>List and set comprehensions are language constructs resembling the mathematical notation for creating a set by its characteristic function (<em>"for all numbers from 1 to 10, give me their squared values"</em>), and combine <em>map</em> and <em>filter</em> classical for functional programming. Comprehensions as a language construct exist in Haskell, Python, Rascal, C# and some other languages.</text>
-			<src>CD-GB:621</src>
+			<src>CD-GR:621</src>
 		</pic>
 		<pic card>
 			<title>Concrete Syntax</title>
@@ -279,7 +279,7 @@
 			<src>DB-PD:78</src>
 			<src>CC-WG:17</src>
 			<src>CD-AH:166</src>
-			<src>CD-GB:115</src>
+			<src>CD-GR:115</src>
 			<src>LI-BH:3</src>
 			<src>LI-PZ:41</src>
 			<src>PL-RS:124</src>
@@ -296,7 +296,7 @@
 			<src>DB-PD:51</src>
 			<src>CC-WG:32</src>
 			<src>CD-SM:571</src>
-			<src>CD-GB:331</src>
+			<src>CD-GR:331</src>
 			<src>LI-PZ:483</src>
 			<src>PL-RS:503</src>
 			<src>PT-AO:254</src>
@@ -317,7 +317,7 @@
 			<title>Cross-compilation</title>
 			<text>A cross-compiler works on one platform but ultimately targets another. Relying on a cross-compiler allows to separate the development platform from the one where the programs get deployed to — for instance, a mobile app developer can work with a proper keyboard and a big screen. The <a href="#IDE">IDE</a> for a cross-compiled language may include a <a href="#Virtual_Machine">virtual machine</a> for execution, <a href="#Debugging">debugging</a>, etc. A compiler capable of producing code for different targets, is called <em>retargetable</em>.</text>
 			<src>DB-GD:24</src>
-			<src>CD-GB:32</src>
+			<src>CD-GR:32</src>
 		</pic>
 		<pic card>
 			<title>Debugging</title>
@@ -366,7 +366,7 @@
 			<src>CC-WG:90</src>
 			<src>CD-AH:13</src>
 			<src>CD-SM:100</src>
-			<src>CD-GB:215</src>
+			<src>CD-GR:215</src>
 			<src>LI-BH:21</src>
 			<src>LI-RM:63</src>
 			<src>LI-PZ:363</src>
@@ -404,7 +404,7 @@
 			<title>Energy Saving</title>
 			<text>Computationally heavy code requires more <abbr title="Central Processing Unit">CPU</abbr> or <abbr title="Graphics Processing Unit">GPU</abbr> cycles, which consumes more power, which in turn makes the applications spend more energy. Making a compiler of a language especially <a href="#Optimisation">optimised</a> towards power reduction may increase its appeal for users that intend to run their programs on devices with limited power (mobile phones and smaller). Power reduction and energy saving techniques also contribute towards global sustainability, and can be used/chosen for ethical reasons.</text>
 			<src>C:Assuaging guilt</src>
-			<src>CD-GB:443</src>
+			<src>CD-GR:443</src>
 		</pic>
 		<pic card>
 			<title>Enumeration Type</title>
@@ -414,7 +414,7 @@
 			<src>CC-NW:65</src>
 			<src>CD-AH:550</src>
 			<src>CD-SM:29</src>
-			<src>CD-GB:533</src>
+			<src>CD-GR:533</src>
 			<src>LI-RM:123</src>
 			<src>LI-PZ:213</src>
 			<src>PL-RS:224</src>
@@ -435,7 +435,7 @@
 			<text>The first implementations of user interfaces were turning the entire program into a giant loop waiting for the user to activate its functionality by choosing the way to communicate (click, tap, edit, etc). Since direct implementations of such an event loop are not <a href="#Energy_Saving">green</a> (consume too much energy), event handling can be built natively into the language and implemented <a href="#Optimisation">efficiently</a> by the compiler and hardware. Events are used for interacting with end users, sensors, <a href="#Synchronisation">threads</a>, etc.</text>
 			<src>I:Feedback through form</src>
 			<src>DSL-Mernik:Interaction</src>
-			<src>CD-GB:473</src>
+			<src>CD-GR:473</src>
 			<src>PL-WC:265</src>
 			<src>LD-WH:14</src>
 			<src>SL-AS:415</src>
@@ -445,7 +445,7 @@
 			<title>Exception Handling</title>
 			<text>An emergency sibling of <a href="#Branching">branching</a> used for extraordinary situations — can be slower than the normal branching, but usually more robust in handling situations like a cricial failure during the handling of another failure. A less invasive form of exception handling are <a href="#Constraint">assertions</a>.</text>
 			<src>CD-SM:637</src>
-			<src>CD-GB:600</src>
+			<src>CD-GR:600</src>
 			<src>LI-PZ:484</src>
 			<src>PL-RS:38</src>
 			<src>PL-WC:95</src>
@@ -458,7 +458,7 @@
 			<text>Errors can happen at <a href="#Compilation_Error">compile time</a>, but also at run time, due to hardware faults, communication problems, invalid user input or simply <a href="#Debugging">bugs</a> that were left undetected at compile time by <a href="#Static_Analysis">static analysis</a>. Some languages (Erlang) have very well-designed strategies for handling execution errors, but all others also feature some form of partial recovery from them. The language user controls runtime error handling with <a href="#Exception_Handling">exceptions</a>.</text>
 			<src>E:Conditional warnings</src>
 			<src>CC-DG:457</src>
-			<src>CD-GB:597</src>
+			<src>CD-GR:597</src>
 			<src>SL-AS:68</src>
 		</pic>
 		<pic card>
@@ -472,7 +472,7 @@
 			<text>It is an important design point to decide which entities within a program have the right to be saved, passed as arguments, transferred through other means, etc. Numbers? Collections? Objects? Functions? Unfinished computations? Data streams? Unfilled templates?</text>
 			<src>DB-RD:418</src>
 			<src>CC-DG:191</src>
-			<src>CD-GB:625</src>
+			<src>CD-GR:625</src>
 			<src>LI-PZ:431</src>
 			<src>PL-RS:373</src>
 			<src>PL-WC:151</src>
@@ -489,7 +489,7 @@
 			<src>DB-RD:441</src>
 			<src>DB-PD:568</src>
 			<src>CC-DG:209</src>
-			<src>CD-GB:476</src>
+			<src>CD-GR:476</src>
 			<src>LI-PZ:471</src>
 			<src>PL-RS:117</src>
 			<src>PL-BM:443</src>
@@ -503,7 +503,7 @@
 			<src>DSL-Mernik:Task automation</src>
 			<src>DB-RD:12</src>
 			<src>CC-DG:6</src>
-			<src>CD-GB:8</src>
+			<src>CD-GR:8</src>
 			<src>PL-RS:126</src>
 			<src>PL-BM:5</src>
 			<src>SL-CF:119</src>
@@ -540,7 +540,7 @@
 			<text>The two extremes for this aspect are: treat indentation as something crucial to the program structure (and thus process constructs differently based on columns where they start) and discard all possible indentation (even in the middle of names, as FORTRAN does). Most languages are somewhere in the middle. Normalisation of whitespace use is called <a href="#Pretty-printing">pretty-printing</a>.</text>
 			<src>A:Positioning</src>
 			<src>DB-RD:54</src>
-			<src>CD-GB:619</src>
+			<src>CD-GR:619</src>
 			<src>LI-BH:33</src>
 			<src>LI-PZ:100</src>
 			<src>PL-BM:91</src>
@@ -551,7 +551,7 @@
 		<pic card>
 			<title>Inheritance</title>
 			<text>An "is-a" relation can be represented by a language construct when one <a href="#Class">class</a>, object or <a href="#Subprogram">function</a> <em>inherits</em> all the properties of its <em>parent</em> and possibly adds others exclusive to itself. It is a design consideration which entities can be derived from which, what are the rules for inheriting from several parents, etc.</text>
-			<src>CD-GB:545</src>
+			<src>CD-GR:545</src>
 			<src>LI-PZ:311</src>
 			<src>PL-RS:453</src>
 			<src>PL-WC:194</src>
@@ -577,7 +577,7 @@
 			<src>CC-DG:253</src>
 			<src>CC-WG:292</src>
 			<src>CD-SM:599</src>
-			<src>CD-GB:367</src>
+			<src>CD-GR:367</src>
 			<src>LI-BH:164</src>
 			<src>LI-RM:288</src>
 			<src>LD-WH:103</src>
@@ -595,7 +595,7 @@
 			<src>CC-NW:61</src>
 			<src>CD-AH:642</src>
 			<src>CD-SM:39</src>
-			<src>CD-GB:582</src>
+			<src>CD-GR:582</src>
 			<src>LI-BH:133</src>
 			<src>LI-RM:87</src>
 			<src>LI-PZ:358</src>
@@ -642,7 +642,7 @@
 		<pic card>
 			<title>Lazy Evaluation</title>
 			<text>A <em>lazy</em> compiler defers evaluation to the latest possible moment. Lazy languages allow infinite data structures (as long as they are processed one chunk at a time) and may have unpredictable outcomes if calculations are allowed to have side effects (like C's ++). Lazy evaluation has many applications from <a href="#Optimisation">optimisation</a> of <a href="#Code_Generation">generated code</a> to stream data processing.</text>
-			<src>CD-GB:627</src>
+			<src>CD-GR:627</src>
 			<src>LI-PZ:345</src>
 			<src>PL-RS:74</src>
 			<src>PL-WC:239</src>
@@ -669,7 +669,7 @@
 			<src>CC-DG:413</src>
 			<src>CC-WG:294</src>
 			<src>CD-AH:101</src>
-			<src>CD-GB:102</src>
+			<src>CD-GR:102</src>
 			<src>LI-PZ:74</src>
 			<src>SL-AS:314</src>
 			<src>SL-RL:24</src>
@@ -686,7 +686,7 @@
 			<src>CC-DG:366</src>
 			<src>CC-NW:92</src>
 			<src>CD-AH:459</src>
-			<src>CD-GB:32</src>
+			<src>CD-GR:32</src>
 			<src>PL-RS:380</src>
 			<src>PL-WC:113</src>
 			<src>PL-BM:267</src>
@@ -705,7 +705,7 @@
 			<text>Often gets overlooked at the early stages of language design, but could significantly shape the application area of the language. There are many integer <a href="#Type_Analysis">types</a>, distinguished by their byte sizes and therefore value ranges; also decimal types with fixed scale and precision; and floating point types good for scientific computations but not for handling finances.</text>
 			<src>CC-WG:22</src>
 			<src>CC-NW:81</src>
-			<src>CD-GB:532</src>
+			<src>CD-GR:532</src>
 			<src>LI-BH:10</src>
 			<src>LI-RM:36</src>
 			<src>LI-PZ:205</src>
@@ -734,7 +734,7 @@
 			<src>CC-DG:103</src>
 			<src>CC-WG:28</src>
 			<src>CD-AH:819</src>
-			<src>CD-GB:158</src>
+			<src>CD-GR:158</src>
 			<src>LI-RM:71</src>
 			<src>LI-PZ:332</src>
 			<src>PL-RS:133</src>
@@ -754,7 +754,7 @@
 			<src>CC-WG:326</src>
 			<src>CD-AH:657</src>
 			<src>CD-SM:6</src>
-			<src>CD-GB:70</src>
+			<src>CD-GR:70</src>
 			<src>LI-BH:204</src>
 			<src>LI-RM:382</src>
 			<src>LI-PZ:110</src>
@@ -766,7 +766,7 @@
 			<text>Many languages have ordering constraints: a <a href="#Variable">variable</a> must be declared before its use, a <a href="#Subprogram">function</a> signature known before its call, etc. Sometimes constructs are grouped and it is the groups that must follow the order: e.g., first all declarations, then all functions, then the rest of the code (COBOL's <em>divisions</em> are the extreme example of this).</text>
 			<src>L:Storytelling</src>
 			<src>DB-RD:285</src>
-			<src>CD-GB:388</src>
+			<src>CD-GR:388</src>
 			<src>LD-ED:45</src>
 			<src>LD-JW:3</src>
 			<src>P:Implied sequences</src>
@@ -789,7 +789,7 @@
 			<src>CC-DG:187</src>
 			<src>CC-NW:73</src>
 			<src>CD-SM:116</src>
-			<src>CD-GB:559</src>
+			<src>CD-GR:559</src>
 			<src>LI-BH:173</src>
 			<src>LI-RM:161</src>
 			<src>PL-RS:348</src>
@@ -812,7 +812,7 @@
 			<text>Performance testing and its variations like profiling and stress testing are commonly desired nice-to-have features in <a href="#IDE">IDEs</a>. Languages and their ecosystems greatly vary in the extent to which this aspect is recognised and supported.</text>
 			<src>A:Pave the cowpaths</src>
 			<src>DB-RD:587</src>
-			<src>CD-GB:349</src>
+			<src>CD-GR:349</src>
 			<src>LI-RM:279</src>
 		</pic>
 		<pic card>
@@ -828,7 +828,7 @@
 			<src>CC-NW:7</src>
 			<src>CD-AH:2</src>
 			<src>CD-SM:2</src>
-			<src>CD-GB:3</src>
+			<src>CD-GR:3</src>
 			<src>LI-RM:7</src>
 			<src>LI-PZ:73</src>
 			<src>PL-RS:48</src>
@@ -856,7 +856,7 @@
 			<src>CC-NW:86</src>
 			<src>CD-AH:469</src>
 			<src>CD-SM:110</src>
-			<src>CD-GB:464</src>
+			<src>CD-GR:464</src>
 			<src>LI-PZ:220</src>
 			<src>PL-RS:255</src>
 			<src>PL-WC:69</src>
@@ -887,7 +887,7 @@
 			<text>Unified production of things that belong to the same family (similar cars, computers, furniture, drinks) is typical for any industry, including software engineering. To make it so that one codebase specifies the behaviour of a system that must be compiled and <a href="#Deployment">deployed</a> under a variety of devices and hardware architectures, the model can be annotated with conditions to be checked during compile time and result in different code to be produced by the compiler to be run later. To simplify compiler construction, conditional compilation is handled by a preprocessor.</text>
 			<src>DSL-Mernik:Product Line</src>
 			<src>CD-AH:275</src>
-			<src>CD-GB:107</src>
+			<src>CD-GR:107</src>
 			<src>SL-RL:24</src>
 		</pic>
 		<pic card>
@@ -906,7 +906,7 @@
 			<src>CC-NW:41</src>
 			<src>CD-AH:543</src>
 			<src>CD-SM:33</src>
-			<src>CD-GB:538</src>
+			<src>CD-GR:538</src>
 			<src>LI-BH:125</src>
 			<src>LI-RM:124</src>
 			<src>LI-PZ:257</src>
@@ -923,7 +923,7 @@
 			<src>DB-RD:361</src>
 			<src>CC-DG:304</src>
 			<src>CD-SM:293</src>
-			<src>CD-GB:520</src>
+			<src>CD-GR:520</src>
 			<src>PL-RS:39</src>
 			<src>PL-WC:138</src>
 			<src>PL-BM:85</src>
@@ -949,7 +949,7 @@
 			<src>CC-NW:42</src>
 			<src>CD-AH:477</src>
 			<src>CD-SM:105</src>
-			<src>CD-GB:25</src>
+			<src>CD-GR:25</src>
 			<src>LI-RM:199</src>
 			<src>PT-AO:203</src>
 			<src>LD-WH:8</src>
@@ -963,7 +963,7 @@
 			<src>CC-WG:20</src>
 			<src>CD-AH:559</src>
 			<src>CD-SM:43</src>
-			<src>CD-GB:515</src>
+			<src>CD-GR:515</src>
 			<src>LI-BH:97</src>
 			<src>LI-RM:150</src>
 			<src>LI-PZ:82</src>
@@ -992,7 +992,7 @@
 			<title>Standard Library</title>
 			<text>A library or a set of libraries that are built into the language. It can be a tough design decision for the language designer to decide which functionality needs to become native constructs and which can go into the standard library. Such library functions can be <a href="#Macro">expanded</a> into code directly or shipped together with the compiled code as a <a href="#Runtime">runtime</a>.</text>
 			<src>CC-NW:78</src>
-			<src>CD-GB:364</src>
+			<src>CD-GR:364</src>
 			<src>LI-RM:164</src>
 			<src>LD-ED:32</src>
 			<src>LD-WH:229</src>
@@ -1006,7 +1006,7 @@
 			<src>DB-RD:3</src>
 			<src>DB-PD:100</src>
 			<src>CD-SM:169</src>
-			<src>CD-GB:115</src>
+			<src>CD-GR:115</src>
 			<src>LI-RM:105</src>
 			<src>LI-PZ:169</src>
 			<src>PL-RS:196</src>
@@ -1040,7 +1040,7 @@
 			<src>CC-NW:74</src>
 			<src>CD-AH:466</src>
 			<src>CD-SM:34</src>
-			<src>CD-GB:544</src>
+			<src>CD-GR:544</src>
 			<src>LI-BH:8</src>
 			<src>LI-RM:157</src>
 			<src>LI-PZ:276</src>
@@ -1058,7 +1058,7 @@
 			<text>When a subprogram specifies the <a href="#Type_Analysis">types</a> of input it expects, these types do not need to be treated precisely: often one can use entities of subtypes of the specified types (e.g., put a circle in a function that draws a shape because a circle is a subtype of shape). Subtyping is nontrivial, and the designer must choose among covariance, contravariance, invariance, etc. Non-strict handling of values of different types involves designing rules for type casts and conversions.</text>
 			<src>DB-RD:370</src>
 			<src>DB-PD:461</src>
-			<src>CD-GB:530</src>
+			<src>CD-GR:530</src>
 			<src>LI-PZ:199</src>
 			<src>PL-WC:197</src>
 			<src>PL-BM:208</src>
@@ -1071,7 +1071,7 @@
 			<text>Managing the use of resources by some predefined form of synchronisation between readers and writers. Can be synchronous or asynchronous, and take forms of resource locks, semaphors, pipes, rendezvous, handshakes, message passing channels, etc. Always needed for <a href="#Concurrency">concurrent computing</a>.</text>
 			<src>A:Converging &amp; diverging</src>
 			<src>DB-PD:978</src>
-			<src>CD-GB:740</src>
+			<src>CD-GR:740</src>
 			<src>LI-PZ:321</src>
 			<src>PL-RS:511</src>
 			<src>PL-WC:267</src>
@@ -1084,7 +1084,7 @@
 			<title>Syntactic Sugar</title>
 			<text>Nice-to-have constructs that are not extending the expressive power of the language, are sometimes not actually implemented directly — just expanded into bigger sequences of more primitive and less user-friendly constructs.</text>
 			<src>P:Fake affordances</src>
-			<src>CD-GB:633</src>
+			<src>CD-GR:633</src>
 		</pic>
 		<pic card>
 			<title>Syntax Highlighting</title>
@@ -1099,7 +1099,7 @@
 			<src>C:Framing</src>
 			<src>DB-RD:127</src>
 			<src>DB-PD:242</src>
-			<src>CD-GB:445</src>
+			<src>CD-GR:445</src>
 			<src>PL-RS:44</src>
 		</pic>
 		<pic card>
@@ -1112,7 +1112,7 @@
 			<src>DB-PD:56</src>
 			<src>CC-WG:26</src>
 			<src>CD-AH:489</src>
-			<src>CD-GB:521</src>
+			<src>CD-GR:521</src>
 			<src>LI-BH:110</src>
 			<src>LI-RM:91</src>
 			<src>LI-PZ:195</src>
@@ -1136,7 +1136,7 @@
 			<src>CC-NW:26</src>
 			<src>CD-AH:489</src>
 			<src>CD-SM:25</src>
-			<src>CD-GB:522</src>
+			<src>CD-GR:522</src>
 			<src>LI-BH:6</src>
 			<src>LI-RM:111</src>
 			<src>LI-PZ:186</src>
@@ -1160,7 +1160,7 @@
 			<src>DSL-Mernik:Data Structure Traversal</src>
 			<src>DB-RD:370</src>
 			<src>DB-PD:487</src>
-			<src>CD-GB:622</src>
+			<src>CD-GR:622</src>
 			<src>LI-PZ:369</src>
 			<src>PL-RS:621</src>
 			<src>PL-WC:248</src>
@@ -1197,7 +1197,7 @@
 			<src>CC-WG:271</src>
 			<src>CD-AH:446</src>
 			<src>CD-SM:767</src>
-			<src>CD-GB:450</src>
+			<src>CD-GR:450</src>
 			<src>LI-BH:145</src>
 			<src>LI-PZ:75</src>
 			<src>LD-WH:8</src>
