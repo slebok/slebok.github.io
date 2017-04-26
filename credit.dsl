@@ -1,21 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html version="-//W3C//DTD XHTML 1.1//EN" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/1999/xhtml http://www.w3.org/MarkUp/SCHEMA/xhtml11.xsd">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		<meta http-equiv="x-ua-compatible" content="IE=9">
-		<title>SLEBOK — Attribution</title>
-		<link href="www/common.css" rel="stylesheet" type="text/css" />
-		<script type="text/javascript">
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-3743366-8', 'auto');
-  ga('send', 'pageview');
-
-		</script>
-	</head>
+<path css="www" img="www"/>
+<html doctype>
+	<head title="SLEBOK — Attribution"/>
 	<body>
 		<div style="text-align:center;"><a href="http://slebok.github.io">Software Language Engineering Book of Knowledge</a></div><hr/>
 		<h1>
@@ -31,6 +16,7 @@
 		<hr/>
 		<h2>People and their projects</h2>
 		<ul>
+
 			<li><a href="https://twitter.com/jeanmariefavre">Jean-Marie Favre</a> was the main ideologist of SLEBOK, who organised a series of semi-related sub-events leading to coining of the term.
 				<ul>
 					<li><a href="http://gttse.wikidot.com/2009:research-2-0">Research 2.0 at GTTSE 2009</a></li>
@@ -69,9 +55,8 @@
 		<div class="last">
 			<br/><hr/>
 			The page is maintained by <a href="http://grammarware.net/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.github.io/">grammarware</a>.
-			Last updated: April 2017.
-<br/><a href="http://validator.w3.org/check/referer"><img src="www/xhtml.88.png" alt="XHTML 1.1" /></a>
-			<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="www/css.88.png" alt="CSS 3" /></a>
+			Last updated: #LASTMOD#.
+			<valid/>
 		</div>
 	</body>
 </html>

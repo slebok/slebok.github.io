@@ -27,7 +27,7 @@
 			LD-WH is one of the many modern language manuals we have on our
 			desks, and was chosen because it presented not just one language out of its
 			context, but an entire platform. The second half of the book is dedicated to
-			specific languages that run on .NET (Visual Basic, C#, Python, Perl, Active
+			specific languages that run on .NET (Visual Basic, C♯, Python, Perl, Active
 			Oberon, Component Pascal, HotDog and Mondrian). Because of this platform
 			focus, the book covered many language design aspects that were otherwise
 			easily overlooked (<a href="../cards.html#Runtime">Runtime</a>, <a href="../cards.html#Standard_Library">Standard Libraries</a>,
