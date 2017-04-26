@@ -45,11 +45,11 @@
 					<li><a href="http://grammarware.net/talks/index.html#Subatomic2012">Subatomic Scientific Knowledge Objects</a> (SL(E)BOK 2012 invited talk)</li>
 				</ul>
 			</li>
-			<li><a href="http://www.ii.uib.no/~anya/">Anya Helene Bagge</a> attended most of the events mentioned above, co-founded OOPSLE and forked SLEG by assigning definitions to most of the terms and using it for teaching.
+			<li><a href="http://www.ii.uib.no/~anya/">Anya Helene Bagge</a> attended most of the events mentioned above, co-founded OOPSLE and forked SLEG by assigning definitions to most of the terms and using it in teaching.
 				<ul>
 					<li><a href="http://oopsle.github.io">Open and Original Problems in Software Language Engineering (OOPSLE)</a></li>
 					<li><a href="http://ceur-ws.org/Vol-1354/paper-12.pdf">Languages, Models and Megamodels</a> (SATToSE 2014 tutorial)</li>
-					<li><a href="https://bitbucket.org/anyahelene/inf225public/wiki/glossary/Glossary">Glossary of Software Language Engineering Terms</a></li>
+					<li><a href="https://bitbucket.org/sle-uib/inf225/wiki/glossary/Glossary">Glossary of Software Language Engineering Terms</a></li>
 				</ul>
 			</li>
 		</ul>
