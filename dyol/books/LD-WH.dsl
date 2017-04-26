@@ -1,11 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<path css="../../www" img="../../www"/>
 <html doctype>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		<meta name="viewport" content="initial-scale=1.0"/>
-		<title>DYOL: Design Your Own Language — corpus — Language Documentation — Watkins/Hammond</title>
-		<link href="../../www/common.css" rel="stylesheet" type="text/css" />
-	</head>
+	<head title="DYOL: Design Your Own Language — corpus — Language Documentation — Watkins/Hammond"/>
 	<body>
 		<header/>
 		<h1>
@@ -82,9 +77,8 @@
 		<hr/>
 		<div class="last">
 			The DYOL toolkit was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
-			Page last updated in #LASTMOD#.<br/>
-			<a href="http://validator.w3.org/check/referer"><img src="../../www/xhtml.88.png" alt="XHTML 1.1" /></a>
-			<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="../../www/css.88.png" alt="CSS 3" /></a>
+			Page last updated in #LASTMOD#.
+			<valid/>
 		</div>
 	</body>
 </html>
