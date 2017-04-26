@@ -15,6 +15,7 @@
 	title     = "{Principles of Compiler Design}",
 	author    = "Alfred Vaino Aho and Jeffrey David Ullman",
 	publisher = "Addison-Wesley",
+	isbn      = "978-0201000221",
 	year      = 1977,
 }
 		</pre>
@@ -30,33 +31,33 @@
 		</p>
 		<h2>Marked:</h2>
 <ul>
-<li><a href="../cards.html#Alphabet">Alphabet</a>: page 28</li>
-<li><a href="../cards.html#Assignment">Assignment</a>: page 50</li>
-<li><a href="../cards.html#Backtracking">Backtracking</a>: page 174</li>
-<li><a href="../cards.html#Block">Block</a>: page 53</li>
-<li><a href="../cards.html#Branching">Branching</a>: page 282</li>
-<li><a href="../cards.html#Character_Type">Character Type</a>: page 43</li>
-<li><a href="../cards.html#Code_Generation">Code Generation</a>: page 518</li>
-<li><a href="../cards.html#Collection">Collection</a>: page 39</li>
-<li><a href="../cards.html#Compilation_Error">Compilation Error</a>: page 21</li>
-<li><a href="../cards.html#Compilation_Warning">Compilation Warning</a>: page 382</li>
-<li><a href="../cards.html#Concrete_Syntax">Concrete Syntax</a>: page 28</li>
-<li><a href="../cards.html#Cross-compilation">Cross-compilation</a>: page 24</li>
-<li><a href="../cards.html#Design_Chart/Diagram">Design Chart/Diagram</a>: page 79</li>
-<li><a href="../cards.html#Iteration">Iteration</a>: page 282</li>
-<li><a href="../cards.html#Keyword">Keyword</a>: page 33</li>
-<li><a href="../cards.html#Macro">Macro</a>: page 3</li>
-<li><a href="../cards.html#Operator_Precedence">Operator Precedence</a>: page 47</li>
-<li><a href="../cards.html#Optimisation">Optimisation</a>: page 406</li>
-<li><a href="../cards.html#Parameter_Passing">Parameter Passing</a>: page 60</li>
-<li><a href="../cards.html#Phased_Process">Phased Process</a>: page 6</li>
-<li><a href="../cards.html#Pointer">Pointer</a>: page 34</li>
-<li><a href="../cards.html#Record">Record</a>: page 41</li>
-<li><a href="../cards.html#Runtime">Runtime</a>: page 350</li>
-<li><a href="../cards.html#Scope__Binding">Scope &amp; Binding</a>: page 60</li>
-<li><a href="../cards.html#Subprogram">Subprogram</a>: page 55</li>
-<li><a href="../cards.html#Type_Analysis">Type Analysis</a>: page 49</li>
-<li><a href="../cards.html#Type_Definition">Type Definition</a>: page 314</li>
+<li><a class="mark" href="../cards.html#Alphabet">Alphabet</a>: page 28</li>
+<li><a class="mark" href="../cards.html#Assignment">Assignment</a>: page 50</li>
+<li><a class="mark" href="../cards.html#Backtracking">Backtracking</a>: page 174</li>
+<li><a class="mark" href="../cards.html#Block">Block</a>: page 53</li>
+<li><a class="mark" href="../cards.html#Branching">Branching</a>: page 282</li>
+<li><a class="mark" href="../cards.html#Character_Type">Character Type</a>: page 43</li>
+<li><a class="mark" href="../cards.html#Code_Generation">Code Generation</a>: page 518</li>
+<li><a class="mark" href="../cards.html#Collection">Collection</a>: page 39</li>
+<li><a class="mark" href="../cards.html#Compilation_Error">Compilation Error</a>: page 21</li>
+<li><a class="mark" href="../cards.html#Compilation_Warning">Compilation Warning</a>: page 382</li>
+<li><a class="mark" href="../cards.html#Concrete_Syntax">Concrete Syntax</a>: page 28</li>
+<li><a class="mark" href="../cards.html#Cross-compilation">Cross-compilation</a>: page 24</li>
+<li><a class="mark" href="../cards.html#Design_Chart/Diagram">Design Chart/Diagram</a>: page 79</li>
+<li><a class="mark" href="../cards.html#Iteration">Iteration</a>: page 282</li>
+<li><a class="mark" href="../cards.html#Keyword">Keyword</a>: page 33</li>
+<li><a class="mark" href="../cards.html#Macro">Macro</a>: page 3</li>
+<li><a class="mark" href="../cards.html#Operator_Precedence">Operator Precedence</a>: page 47</li>
+<li><a class="mark" href="../cards.html#Optimisation">Optimisation</a>: page 406</li>
+<li><a class="mark" href="../cards.html#Parameter_Passing">Parameter Passing</a>: page 60</li>
+<li><a class="mark" href="../cards.html#Phased_Process">Phased Process</a>: page 6</li>
+<li><a class="mark" href="../cards.html#Pointer">Pointer</a>: page 34</li>
+<li><a class="mark" href="../cards.html#Record">Record</a>: page 41</li>
+<li><a class="mark" href="../cards.html#Runtime">Runtime</a>: page 350</li>
+<li><a class="mark" href="../cards.html#Scope__Binding">Scope &amp; Binding</a>: page 60</li>
+<li><a class="mark" href="../cards.html#Subprogram">Subprogram</a>: page 55</li>
+<li><a class="mark" href="../cards.html#Type_Analysis">Type Analysis</a>: page 49</li>
+<li><a class="mark" href="../cards.html#Type_Definition">Type Definition</a>: page 314</li>
 </ul>
 		<hr/>
 		<div class="last">

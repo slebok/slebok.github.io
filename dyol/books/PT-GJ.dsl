@@ -16,6 +16,7 @@
 	author    = "Dick Grune and Ceriel J. H. Jacobs",
 	publisher = "Addison-Wesley",
 	edition   = "Second",
+	isbn      = "978-0387202488",
 	url       = "https://dickgrune.com/Books/PTAPG_2nd_Edition/",
 	year      = 2008,
 }
@@ -32,18 +33,18 @@
 		</p>
 		<h2>Marked:</h2>
 <ul>
-<li><a href="../cards.html#Alphabet">Alphabet</a>: page 6</li>
-<li><a href="../cards.html#Backtracking">Backtracking</a>: page 183</li>
-<li><a href="../cards.html#Code_Generation">Code Generation</a>: page 570</li>
-<li><a href="../cards.html#Compilation_Error">Compilation Error</a>: page 521</li>
-<li><a href="../cards.html#Compilation_Warning">Compilation Warning</a>: page 522</li>
-<li><a href="../cards.html#Concrete_Syntax">Concrete Syntax</a>: page 7</li>
-<li><a href="../cards.html#Constraint">Constraint</a>: page 567</li>
-<li><a href="../cards.html#Design_Chart/Diagram">Design Chart/Diagram</a>: page 58</li>
-<li><a href="../cards.html#Labelling">Labelling</a>: page 563</li>
-<li><a href="../cards.html#Operator_Precedence">Operator Precedence</a>: page 266</li>
-<li><a href="../cards.html#Smell">Smell</a>: page 47</li>
-<li><a href="../cards.html#Unification">Unification</a>: page 573</li>
+<li><a class="mark" href="../cards.html#Alphabet">Alphabet</a>: page 6</li>
+<li><a class="mark" href="../cards.html#Backtracking">Backtracking</a>: page 183</li>
+<li><a class="mark" href="../cards.html#Code_Generation">Code Generation</a>: page 570</li>
+<li><a class="mark" href="../cards.html#Compilation_Error">Compilation Error</a>: page 521</li>
+<li><a class="mark" href="../cards.html#Compilation_Warning">Compilation Warning</a>: page 522</li>
+<li><a class="mark" href="../cards.html#Concrete_Syntax">Concrete Syntax</a>: page 7</li>
+<li><a class="mark" href="../cards.html#Constraint">Constraint</a>: page 567</li>
+<li><a class="mark" href="../cards.html#Design_Chart/Diagram">Design Chart/Diagram</a>: page 58</li>
+<li><a class="mark" href="../cards.html#Labelling">Labelling</a>: page 563</li>
+<li><a class="mark" href="../cards.html#Operator_Precedence">Operator Precedence</a>: page 266</li>
+<li><a class="mark" href="../cards.html#Smell">Smell</a>: page 47</li>
+<li><a class="mark" href="../cards.html#Unification">Unification</a>: page 573</li>
 </ul>
 		<hr/>
 		<div class="last">

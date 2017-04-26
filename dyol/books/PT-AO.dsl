@@ -15,6 +15,7 @@
 	title     = "{Definition of Programming Languages by Interpreting Automata}",
 	author    = "Alexander Ollongren",
 	publisher = "Academic Press",
+	isbn      = "978-0125257503",
 	year      = 1974,
 }
 		</pre>
@@ -26,31 +27,40 @@
 			in the narrow sense and language design are unrelated. This particular book is
 			pretty realistic and mixes formal definitions with a selection of language
 			constructs which a real world language designer may decide to use. It also
-			covers <a href="../cards.html#Concurrency">Concurrency</a> and <a href="../cards.html#Synchronisation">Synchronisation</a>, but surprisingly avoids
-			the complexity of <a href="../cards.html#Parameter_Passing">Parameter Passing</a> discussion when formalising
-			<a href="../cards.html#Subprogram">Subprograms</a>.
-			Neither PT-AO nor <a href="PT-HU.html">PT-HU</a> mention <a href="../cards.html#Operator_Precedence">Operator Precedence</a> when talking
+			covers <a class="mark" href="../cards.html#Concurrency">Concurrency</a> and <a class="mark" href="../cards.html#Synchronisation">Synchronisation</a>, but surprisingly avoids
+			the complexity of <a class="mark" href="../cards.html#Parameter_Passing">Parameter Passing</a> discussion when formalising
+			<a class="mark" href="../cards.html#Subprogram">Subprograms</a>.
+			Neither PT-AO nor <a href="PT-HU.html">PT-HU</a> mention <a class="mark" href="../cards.html#Operator_Precedence">Operator Precedence</a> when talking
 			about ambiguous grammars.
 		</p>
 		<p class="nb">NB: marking was done with the Russian translation of the book, so page numbers may be slightly different!</p>
+		<pre>
+@book{PT-AO-Russian,
+	title     = "{Определение языков программирования интерпретирующими автоматами}",
+	author    = "Александр Оллонгрен",
+	series    = "{Математическое обеспечение ЭВМ}",
+	publisher = "Мир",
+	year      = 1977,
+}
+		</pre>
 		<h2>Marked:</h2>
 <ul>
-<li><a href="../cards.html#Alphabet">Alphabet</a>: page 34</li>
-<li><a href="../cards.html#Assignment">Assignment</a>: page 206</li>
-<li><a href="../cards.html#Branching">Branching</a>: page 173</li>
-<li><a href="../cards.html#Collection">Collection</a>: page 142</li>
-<li><a href="../cards.html#Concrete_Syntax">Concrete Syntax</a>: page 39</li>
-<li><a href="../cards.html#Concurrency">Concurrency</a>: page 254</li>
-<li><a href="../cards.html#Design_Chart/Diagram">Design Chart/Diagram</a>: page 43</li>
-<li><a href="../cards.html#Iteration">Iteration</a>: page 171</li>
-<li><a href="../cards.html#Module">Module</a>: page 161</li>
-<li><a href="../cards.html#Runtime">Runtime</a>: page 203</li>
-<li><a href="../cards.html#Static_Analysis">Static Analysis</a>: page 57</li>
-<li><a href="../cards.html#Subprogram">Subprogram</a>: page 167</li>
-<li><a href="../cards.html#Synchronisation">Synchronisation</a>: page 259</li>
-<li><a href="../cards.html#Type_Analysis">Type Analysis</a>: page 98</li>
-<li><a href="../cards.html#Type_Definition">Type Definition</a>: page 163</li>
-<li><a href="../cards.html#Variable">Variable</a>: page 46</li>
+<li><a class="mark" href="../cards.html#Alphabet">Alphabet</a>: page 34</li>
+<li><a class="mark" href="../cards.html#Assignment">Assignment</a>: page 206</li>
+<li><a class="mark" href="../cards.html#Branching">Branching</a>: page 173</li>
+<li><a class="mark" href="../cards.html#Collection">Collection</a>: page 142</li>
+<li><a class="mark" href="../cards.html#Concrete_Syntax">Concrete Syntax</a>: page 39</li>
+<li><a class="mark" href="../cards.html#Concurrency">Concurrency</a>: page 254</li>
+<li><a class="mark" href="../cards.html#Design_Chart/Diagram">Design Chart/Diagram</a>: page 43</li>
+<li><a class="mark" href="../cards.html#Iteration">Iteration</a>: page 171</li>
+<li><a class="mark" href="../cards.html#Module">Module</a>: page 161</li>
+<li><a class="mark" href="../cards.html#Runtime">Runtime</a>: page 203</li>
+<li><a class="mark" href="../cards.html#Static_Analysis">Static Analysis</a>: page 57</li>
+<li><a class="mark" href="../cards.html#Subprogram">Subprogram</a>: page 167</li>
+<li><a class="mark" href="../cards.html#Synchronisation">Synchronisation</a>: page 259</li>
+<li><a class="mark" href="../cards.html#Type_Analysis">Type Analysis</a>: page 98</li>
+<li><a class="mark" href="../cards.html#Type_Definition">Type Definition</a>: page 163</li>
+<li><a class="mark" href="../cards.html#Variable">Variable</a>: page 46</li>
 </ul>
 		<hr/>
 		<div class="last">

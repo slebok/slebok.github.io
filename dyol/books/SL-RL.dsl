@@ -25,7 +25,9 @@
 			project. When published, this book will fill the niche of a standard studybook
 			for <a href="http://softlang.uni-koblenz.de/edusymp14/">SLE courses</a>. At this point, it was particularly
 			hard to map to our cards because of its ambitious nature: many notions like
-			<a href="../cards.html#Variable">Variables</a>, <a href="../cards.html#Class">Classes</a> or <a href="../cards.html#Inheritance">Inheritance</a> are used without ever
+			<a class="mark" href="../cards.html#Variable">Variables</a>,
+			<a class="mark" href="../cards.html#Class">Classes</a> or
+			<a class="mark" href="../cards.html#Inheritance">Inheritance</a> are used without ever
 			explaining or introducing them, and many others (much more than were put on
 			cards as of yet) are mentioned in passing. In the end we confirmed marking
 			only those concepts that either took considerable space or were explained as
@@ -33,49 +35,49 @@
 		</p>
 		<h2>Marked:</h2>
 <ul>
-<li><a href="../cards.html#Assignment">Assignment</a>: page 9</li>
-<li><a href="../cards.html#Backtracking">Backtracking</a>: page 201</li>
-<li><a href="../cards.html#Backward_Compatibility">Backward Compatibility</a>: page 38</li>
-<li><a href="../cards.html#Block">Block</a>: page 178</li>
-<li><a href="../cards.html#Branching">Branching</a>: page 380</li>
-<li><a href="../cards.html#Code_Generation">Code Generation</a>: page 73</li>
-<li><a href="../cards.html#Code_Mining">Code Mining</a>: page 446</li>
-<li><a href="../cards.html#Comment">Comment</a>: page 212</li>
-<li><a href="../cards.html#Compilation_Error">Compilation Error</a>: page 151</li>
-<li><a href="../cards.html#Concrete_Syntax">Concrete Syntax</a>: page 65</li>
-<li><a href="../cards.html#Constraint">Constraint</a>: page 400</li>
-<li><a href="../cards.html#Default">Default</a>: page 57</li>
-<li><a href="../cards.html#Deprecated_Construct">Deprecated Construct</a>: page 15</li>
-<li><a href="../cards.html#Design_Chart/Diagram">Design Chart/Diagram</a>: page 8</li>
-<li><a href="../cards.html#Encapsulation">Encapsulation</a>: page 19</li>
-<li><a href="../cards.html#Event">Event</a>: page 10</li>
-<li><a href="../cards.html#Exception_Handling">Exception Handling</a>: page 64</li>
-<li><a href="../cards.html#Expressivity">Expressivity</a>: page 247</li>
-<li><a href="../cards.html#First_Class_Citizen">First Class Citizen</a>: page 12</li>
-<li><a href="../cards.html#Generation">Generation</a>: page 25</li>
-<li><a href="../cards.html#Heterogeneous_Data">Heterogeneous Data</a>: page 332</li>
-<li><a href="../cards.html#IDE">IDE</a>: page 19</li>
-<li><a href="../cards.html#Indentation__Whitespace">Indentation &amp; Whitespace</a>: page 219</li>
-<li><a href="../cards.html#Instruction_Set">Instruction Set</a>: page 144</li>
-<li><a href="../cards.html#Iteration">Iteration</a>: page 288</li>
-<li><a href="../cards.html#Labelling">Labelling</a>: page 12</li>
-<li><a href="../cards.html#Macro">Macro</a>: page 24</li>
-<li><a href="../cards.html#Numeric_Data_Type">Numeric Data Type</a>: page 268</li>
-<li><a href="../cards.html#Optimisation">Optimisation</a>: page 156</li>
-<li><a href="../cards.html#Parameter_Passing">Parameter Passing</a>: page 315</li>
-<li><a href="../cards.html#Phased_Process">Phased Process</a>: page 18</li>
-<li><a href="../cards.html#Pointer">Pointer</a>: page 111</li>
-<li><a href="../cards.html#Pretty-printing">Pretty-printing</a>: page 219</li>
-<li><a href="../cards.html#Product_Line">Product Line</a>: page 24</li>
-<li><a href="../cards.html#Record">Record</a>: page 332</li>
-<li><a href="../cards.html#Refactoring">Refactoring</a>: page 24</li>
-<li><a href="../cards.html#Scope__Binding">Scope &amp; Binding</a>: page 20</li>
-<li><a href="../cards.html#Smell">Smell</a>: page 446</li>
-<li><a href="../cards.html#Static_Analysis">Static Analysis</a>: page 25</li>
-<li><a href="../cards.html#Sublanguage">Sublanguage</a>: page 16</li>
-<li><a href="../cards.html#Substitution">Substitution</a>: page 335</li>
-<li><a href="../cards.html#Type_Analysis">Type Analysis</a>: page 267</li>
-<li><a href="../cards.html#Unification">Unification</a>: page 400</li>
+<li><a class="mark" href="../cards.html#Assignment">Assignment</a>: page 9</li>
+<li><a class="mark" href="../cards.html#Backtracking">Backtracking</a>: page 201</li>
+<li><a class="mark" href="../cards.html#Backward_Compatibility">Backward Compatibility</a>: page 38</li>
+<li><a class="mark" href="../cards.html#Block">Block</a>: page 178</li>
+<li><a class="mark" href="../cards.html#Branching">Branching</a>: page 380</li>
+<li><a class="mark" href="../cards.html#Code_Generation">Code Generation</a>: page 73</li>
+<li><a class="mark" href="../cards.html#Code_Mining">Code Mining</a>: page 446</li>
+<li><a class="mark" href="../cards.html#Comment">Comment</a>: page 212</li>
+<li><a class="mark" href="../cards.html#Compilation_Error">Compilation Error</a>: page 151</li>
+<li><a class="mark" href="../cards.html#Concrete_Syntax">Concrete Syntax</a>: page 65</li>
+<li><a class="mark" href="../cards.html#Constraint">Constraint</a>: page 400</li>
+<li><a class="mark" href="../cards.html#Default">Default</a>: page 57</li>
+<li><a class="mark" href="../cards.html#Deprecated_Construct">Deprecated Construct</a>: page 15</li>
+<li><a class="mark" href="../cards.html#Design_Chart/Diagram">Design Chart/Diagram</a>: page 8</li>
+<li><a class="mark" href="../cards.html#Encapsulation">Encapsulation</a>: page 19</li>
+<li><a class="mark" href="../cards.html#Event">Event</a>: page 10</li>
+<li><a class="mark" href="../cards.html#Exception_Handling">Exception Handling</a>: page 64</li>
+<li><a class="mark" href="../cards.html#Expressivity">Expressivity</a>: page 247</li>
+<li><a class="mark" href="../cards.html#First_Class_Citizen">First Class Citizen</a>: page 12</li>
+<li><a class="mark" href="../cards.html#Generation">Generation</a>: page 25</li>
+<li><a class="mark" href="../cards.html#Heterogeneous_Data">Heterogeneous Data</a>: page 332</li>
+<li><a class="mark" href="../cards.html#IDE">IDE</a>: page 19</li>
+<li><a class="mark" href="../cards.html#Indentation__Whitespace">Indentation &amp; Whitespace</a>: page 219</li>
+<li><a class="mark" href="../cards.html#Instruction_Set">Instruction Set</a>: page 144</li>
+<li><a class="mark" href="../cards.html#Iteration">Iteration</a>: page 288</li>
+<li><a class="mark" href="../cards.html#Labelling">Labelling</a>: page 12</li>
+<li><a class="mark" href="../cards.html#Macro">Macro</a>: page 24</li>
+<li><a class="mark" href="../cards.html#Numeric_Data_Type">Numeric Data Type</a>: page 268</li>
+<li><a class="mark" href="../cards.html#Optimisation">Optimisation</a>: page 156</li>
+<li><a class="mark" href="../cards.html#Parameter_Passing">Parameter Passing</a>: page 315</li>
+<li><a class="mark" href="../cards.html#Phased_Process">Phased Process</a>: page 18</li>
+<li><a class="mark" href="../cards.html#Pointer">Pointer</a>: page 111</li>
+<li><a class="mark" href="../cards.html#Pretty-printing">Pretty-printing</a>: page 219</li>
+<li><a class="mark" href="../cards.html#Product_Line">Product Line</a>: page 24</li>
+<li><a class="mark" href="../cards.html#Record">Record</a>: page 332</li>
+<li><a class="mark" href="../cards.html#Refactoring">Refactoring</a>: page 24</li>
+<li><a class="mark" href="../cards.html#Scope__Binding">Scope &amp; Binding</a>: page 20</li>
+<li><a class="mark" href="../cards.html#Smell">Smell</a>: page 446</li>
+<li><a class="mark" href="../cards.html#Static_Analysis">Static Analysis</a>: page 25</li>
+<li><a class="mark" href="../cards.html#Sublanguage">Sublanguage</a>: page 16</li>
+<li><a class="mark" href="../cards.html#Substitution">Substitution</a>: page 335</li>
+<li><a class="mark" href="../cards.html#Type_Analysis">Type Analysis</a>: page 267</li>
+<li><a class="mark" href="../cards.html#Unification">Unification</a>: page 400</li>
 </ul>
 		<hr/>
 		<div class="last">
