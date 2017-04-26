@@ -69,8 +69,8 @@
 		</pic>
 		<div class="last">
 			<br/><hr/>
-			Initiative maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
-			See <a href="http://grammarware.github.io/copyright">copyright disclaimer</a>.
+			This initiative involves <a href="credit.html">many people</a>.
+			The website is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
 			Last updated: #LASTMOD#.
 			<valid/>
 		</div>
