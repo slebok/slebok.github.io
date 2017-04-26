@@ -17,6 +17,7 @@
 	publisher = "Academic Press",
 	series    = "APIC Studies in Data Processing",
 	volume    = 2,
+	isbn      = "978-0122162503",
 	year      = 1962,
 }
 		</pre>

@@ -15,6 +15,7 @@
 	title     = "{Advanced Compiler Design and Implementation}",
 	author    = "Steven Muchnick",
 	publisher = "Morgan Kaufmann",
+	isbn      = "978-8131214039",
 	year      = 1997,
 }
 		</pre>

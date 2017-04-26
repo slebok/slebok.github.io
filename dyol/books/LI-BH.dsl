@@ -15,6 +15,7 @@
 	title     = "{Brinch Hansen on Pascal Compilers}",
 	author    = "Per Brinch Hansen",
 	publisher = "Prentice-Hall",
+	isbn      = "978-0130830982",
 	year      = 1985,
 }
 		</pre>

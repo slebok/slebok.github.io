@@ -16,6 +16,7 @@
 	author    = "Robert W. Sebesta",
 	publisher = "Addison-Wesley",
 	edition   = "Fifth",
+	isbn      = "978-0131395312",
 	year      = 2001,
 }
 		</pre>
@@ -32,6 +33,7 @@
 	editor    = "Дмитрий Клюшин",
 	publisher = "Вильямс",
 	edition   = "5-е",
+	isbn      = "5-8459-01-92-8",
 	year      = 2001,
 }
 		</pre>

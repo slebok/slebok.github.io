@@ -15,6 +15,7 @@
 	title     = "{Programming in the .NET Environment}",
 	author    = "Damien Watkins and Mark Hammond and Brad Abrams",
 	publisher = "Addison-Wesley",
+	isbn      = "978-0201770186",
 	year      = 2003,
 }
 		</pre>

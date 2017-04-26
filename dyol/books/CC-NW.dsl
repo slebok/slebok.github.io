@@ -15,6 +15,7 @@
 	title     = "{Compiler Construction}",
 	author    = "Niklaus Wirth",
 	publisher = "Addison-Wesley",
+	isbn      = "978-0201403534",
 	url       = "http://www.ethoberon.ethz.ch/WirthPubl/CBEAll.pdf",
 	year      = 2005,
 }

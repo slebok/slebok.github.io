@@ -12,11 +12,12 @@
 		<p>L. B. Wilson, R. G. Clark, <a href="http://amzn.to/2n8cd5u"><em>Comparative Programming Languages</em></a>, Addison-Wesley, 1993.</p>
 		<pre>
 @book{PL-WC,
-	author = {Leslie B. Wilson and Robert G. Clark},
-	title = "{Comparative Programming Languages}",
-	edition = "Second",
+	title     = "{Comparative Programming Languages}",
+	author    = {Leslie B. Wilson and Robert G. Clark},
+	edition   = "Second",
 	publisher = {Addison-Wesley},
-	year = 1993,
+	isbn      = "978-0201710120",
+	year      = 1993,
 }
 		</pre>
 		<p>

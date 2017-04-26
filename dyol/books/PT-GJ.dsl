@@ -16,6 +16,7 @@
 	author    = "Dick Grune and Ceriel J. H. Jacobs",
 	publisher = "Addison-Wesley",
 	edition   = "Second",
+	series    = "Monographs in Computer Science",
 	isbn      = "978-0387202488",
 	url       = "https://dickgrune.com/Books/PTAPG_2nd_Edition/",
 	year      = 2008,

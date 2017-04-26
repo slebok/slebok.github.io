@@ -15,6 +15,7 @@
 	title     = "{Principles of Programming Languages: Design, Evaluation and Implementation}",
 	author    = "Bruce J. MacLennan",
 	publisher = "Holt-Saunders",
+	isbn      = "978-0195113068",
 	year      = 1983,
 }
 		</pre>

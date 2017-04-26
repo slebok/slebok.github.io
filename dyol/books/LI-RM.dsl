@@ -9,14 +9,14 @@
 			<a href="../index.html">Design Your Own Language</a>
 		</h1>
 		<h2><a href="index.html">Book sources</a> — <span class="b li">Language Implementation</span> — Ronald Mak</h2>
-		<p>R. Mak, <a href="http://amzn.to/2pAW75O"><em>Writing Compilers &amp; Interpreters: An Applied Approach</em></a>, John Wiley &amp; Sons, 1991.</p>
+		<p>R. Mak, <a href="http://amzn.to/2pAW75O"><em>Writing Compilers &amp; Interpreters: An Applied Approach</em></a>, John Wiley &amp; Sons, 1996.</p>
 		<pre>
 @book{LI-RM,
 	author    = {Ronald Mak},
 	title     = "{Writing Compilers &amp; Interpreters: An Applied Approach}",
-	isbn      = {0-471-50968-X},
-	publisher = {John Wiley &amp; Sons, Inc.},
-	year      = 1991,
+	isbn      = "978-0471113539",
+	publisher = {John Wiley &amp; Sons},
+	year      = 1996,
 }
 		</pre>
 		<p>

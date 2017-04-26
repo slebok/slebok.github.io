@@ -15,6 +15,7 @@
 	title     = "{Compiler Design in C}",
 	author    = "Allen I. Holub",
 	publisher = "Prentice-Hall",
+	isbn      = "978-0131550452",
 	year      = 1990,
 }
 		</pre>

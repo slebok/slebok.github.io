@@ -20,6 +20,7 @@
 	             Koen G. Langendoen",
 	publisher = "Addison-Wesley",
 	edition   = "Second",
+	isbn      = "978-1461446989",
 	url       = "https://dickgrune.com/Books/MCD_2nd_Edition/",
 	year      = 2012,
 }
