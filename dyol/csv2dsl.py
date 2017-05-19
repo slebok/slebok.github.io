@@ -47,8 +47,8 @@ def intralink(x):
 						where = where[:-1]
 				if where not in links:
 					links.append(where)
-				where = '#' + where
-			r += '<a href="{}">{}</a>'.format(where.replace('&','').replace(' ','_').replace('/',''), what)
+				where = '#' + where.replace('/','')
+			r += '<a href="{}">{}</a>'.format(where.replace('&','').replace(' ','_'), what)
 		else:
 			r += y[i]
 		inside = not inside

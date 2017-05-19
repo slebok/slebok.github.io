@@ -20,7 +20,7 @@
 		</pic>
 		<pic card>
 			<title>Alphabet</title>
-			<text>The basic alphabet is often taken for granted, especially for textual languages, but it is an important design aspect. In some languages (<a href="http:tryapl.org">APL</a> being the extreme) the alphabet is extremely broad, with specific symbols being used for <a href="#Standard_Library">built-in</a> operators, which shifts the visual feel of the language closer to mathematics. In other languages <a href="#Keyword">keywords</a> are taken from English, which limits language appeal to some groups of users (and may lead to reimplementations with translated keywords).</text>
+			<text>The basic alphabet is often taken for granted, especially for textual languages, but it is an important design aspect. In some languages (<a href="http://tryapl.org/">APL</a> being the extreme) the alphabet is extremely broad, with specific symbols being used for <a href="#Standard_Library">built-in</a> operators, which shifts the visual feel of the language closer to mathematics. In other languages <a href="#Keyword">keywords</a> are taken from English, which limits language appeal to some groups of users (and may lead to reimplementations with translated keywords).</text>
 			<src>P:Perceived affordances</src>
 			<src>DB-GD:28</src>
 			<src>DB-RD:92</src>
@@ -426,7 +426,7 @@
 		</pic>
 		<pic card>
 			<title>Esotericism</title>
-			<text><a href="http:catb.orgesrintercal">INTERCAL</a>, <a href="http:www.madore.org~davidprogramsunlambda">Unlambda</a>, <a href="http:catseye.tcnodeBefunge-93.html">Befunge</a>, <a href="http:www.lscheffer.commalbolge.shtml">Malbolge</a> and other <a href="https:esolangs.orgwiki">esoteric languages</a> are based on paradigms so unconventional that writing even one program puts disproportional strain on the users. This challenging nature makes people engage and compete in programming in such languages as a form of entertainment. <a href="http:lolcode.org">LOLCODE</a>, <a href="http:lhartikk.github.ioArnoldC">ArnoldC</a> and others are languages developed based on the memes that are circulating among software engineers: the popularity of them piggybacks entirely on the viral nature of those memes.</text>
+			<text><a href="http://catb.org/esr/intercal/">INTERCAL</a>, <a href="http://www.madore.org/~david/programs/unlambda/">Unlambda</a>, <a href="http://catseye.tc/node/Befunge-93.html">Befunge</a>, <a href="http://www.lscheffer.com/malbolge.shtml">Malbolge</a> and other <a href="https://esolangs.org/wiki/">esoteric languages</a> are based on paradigms so unconventional that writing even one program puts disproportional strain on the users. This challenging nature makes people engage and compete in programming in such languages as a form of entertainment. <a href="http://lolcode.org/">LOLCODE</a>, <a href="http://lhartikk.github.io/ArnoldC/">ArnoldC</a> and others are languages developed based on the memes that are circulating among software engineers: the popularity of them piggybacks entirely on the viral nature of those memes.</text>
 			<src>L:Challenges &amp; targets</src>
 			<src>L:Make it a meme</src>
 		</pic>
@@ -463,7 +463,7 @@
 		</pic>
 		<pic card>
 			<title>Expressivity</title>
-			<text>There is ultimate expressivity of a software language, typically incorporated in answers to questions like <em>"is it Turing complete?"</em> (i.e., does it have enough constructs to emulate a <a href="https:en.wikipedia.orgwikiTuring_machine">Turing machine</a>?), and there is a much more important and subtle issue of local expressivity in the sense of how small programs can get without sacrificing their <a href="#Readability">readability</a>. Many languages eventually develop <a href="#Syntactic_Sugar">shorthand</a> constructs for writing commonly used combinations of constructs shorter and thus faster.</text>
+			<text>There is ultimate expressivity of a software language, typically incorporated in answers to questions like <em>"is it Turing complete?"</em> (i.e., does it have enough constructs to emulate a <a href="https://en.wikipedia.org/wiki/Turing_machine">Turing machine</a>?), and there is a much more important and subtle issue of local expressivity in the sense of how small programs can get without sacrificing their <a href="#Readability">readability</a>. Many languages eventually develop <a href="#Syntactic_Sugar">shorthand</a> constructs for writing commonly used combinations of constructs shorter and thus faster.</text>
 			<src>PL-RS:37</src>
 			<src>SL-RL:247</src>
 		</pic>
@@ -512,7 +512,7 @@
 		</pic>
 		<pic card>
 			<title>Heterogeneous Data</title>
-			<text>Some languages allow considerable freedom in <a href="#Type_Definition">types</a> that makes <a href="#Collection">collections</a> capable of carrying elements of varying structure. Examples: variant <a href="#Record">records</a> in Modula and Ada, heterogeneous lists in Python, polytypic <a href="#Subprogram">functions</a> in Haskell, <a href="https:wiki.haskell.orgGeneralised_algebraic_datatype">GADTs</a> in Haskell. Allowing heterogeneity empowers the language user but makes the language harder to learn. </text>
+			<text>Some languages allow considerable freedom in <a href="#Type_Definition">types</a> that makes <a href="#Collection">collections</a> capable of carrying elements of varying structure. Examples: variant <a href="#Record">records</a> in Modula and Ada, heterogeneous lists in Python, polytypic <a href="#Subprogram">functions</a> in Haskell, <a href="https://wiki.haskell.org/Generalised_algebraic_datatype">GADTs</a> in Haskell. Allowing heterogeneity empowers the language user but makes the language harder to learn. </text>
 			<src>CC-DG:186</src>
 			<src>PL-RS:246</src>
 			<src>LD-JW:69</src>
@@ -1172,7 +1172,7 @@
 		</pic>
 		<pic card>
 			<title>Variable</title>
-			<text>Assigning names to memory areas or expressions is thought to be fundamental for the nature of computation, be it within the <a href="https:en.wikipedia.orgwikiVon_Neumann_architecture">von Neumann paradigm</a> or <a href="https:en.wikipedia.orgwikiFunctional_programming">functional one</a>. The designer can make their language more functional and force its users to think about data flow, or make it more imperative and let them worry about where the intermediate data is stored. In some languages naming or stropping of the variables can implicitly define their <a href="#Type_Analysis">types</a>.</text>
+			<text>Assigning names to memory areas or expressions is thought to be fundamental for the nature of computation, be it within the <a href="https://en.wikipedia.org/wiki/Von_Neumann_architecture">von Neumann paradigm</a> or <a href="https://en.wikipedia.org/wiki/Functional_programming">functional one</a>. The designer can make their language more functional and force its users to think about data flow, or make it more imperative and let them worry about where the intermediate data is stored. In some languages naming or stropping of the variables can implicitly define their <a href="#Type_Analysis">types</a>.</text>
 			<src>DB-RD:704</src>
 			<src>DB-PD:61</src>
 			<src>CC-DG:197</src>
@@ -1193,7 +1193,7 @@
 		</pic>
 		<pic card>
 			<title>Virtual Machine</title>
-			<text>An emulator for a real or imaginary hardware architecture that has a low level coding language that can be used by other components or tools to compiler high level languages to. VMs trades off performance for an extra layer of abstraction. Some virtual machines (e.g., <a href="https:en.wikipedia.orgwikiLimbo_(programming_language)">Dis</a>) compile their code into native machine code just before running it.</text>
+			<text>An emulator for a real or imaginary hardware architecture that has a low level coding language that can be used by other components or tools to compiler high level languages to. VMs trades off performance for an extra layer of abstraction. Some virtual machines (e.g., <a href="https://en.wikipedia.org/wiki/Limbo_(programming_language)">Dis</a>) compile their code into native machine code just before running it.</text>
 			<src>CC-WG:271</src>
 			<src>CD-AH:446</src>
 			<src>CD-SM:767</src>
