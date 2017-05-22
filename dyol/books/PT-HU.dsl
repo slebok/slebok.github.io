@@ -32,10 +32,10 @@
 		</p>
 		<h2>Marked:</h2>
 <ul>
-<li><a class="mark" href="../cards.html#Alphabet">Alphabet</a>: page 1</li>
-<li><a class="mark" href="../cards.html#Concrete_Syntax">Concrete Syntax</a>: page 2</li>
-<li><a class="mark" href="../cards.html#Design_Chart/Diagram">Design Chart/Diagram</a>: page 2</li>
-<li><a class="mark" href="../cards.html#Static_Analysis">Static Analysis</a>: page 45</li>
+<li><a class="mark" href="../cards/index.html#Alphabet">Alphabet</a>: page 1</li>
+<li><a class="mark" href="../cards/index.html#Concrete_Syntax">Concrete Syntax</a>: page 2</li>
+<li><a class="mark" href="../cards/index.html#Design_ChartDiagram">Design Chart/Diagram</a>: page 2</li>
+<li><a class="mark" href="../cards/index.html#Static_Analysis">Static Analysis</a>: page 45</li>
 </ul>
 		<hr/>
 		<div class="last">

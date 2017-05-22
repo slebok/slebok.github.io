@@ -45,22 +45,22 @@
 		</pre>
 		<h2>Marked:</h2>
 <ul>
-<li><a class="mark" href="../cards.html#Alphabet">Alphabet</a>: page 34</li>
-<li><a class="mark" href="../cards.html#Assignment">Assignment</a>: page 206</li>
-<li><a class="mark" href="../cards.html#Branching">Branching</a>: page 173</li>
-<li><a class="mark" href="../cards.html#Collection">Collection</a>: page 142</li>
-<li><a class="mark" href="../cards.html#Concrete_Syntax">Concrete Syntax</a>: page 39</li>
-<li><a class="mark" href="../cards.html#Concurrency">Concurrency</a>: page 254</li>
-<li><a class="mark" href="../cards.html#Design_Chart/Diagram">Design Chart/Diagram</a>: page 43</li>
-<li><a class="mark" href="../cards.html#Iteration">Iteration</a>: page 171</li>
-<li><a class="mark" href="../cards.html#Module">Module</a>: page 161</li>
-<li><a class="mark" href="../cards.html#Runtime">Runtime</a>: page 203</li>
-<li><a class="mark" href="../cards.html#Static_Analysis">Static Analysis</a>: page 57</li>
-<li><a class="mark" href="../cards.html#Subprogram">Subprogram</a>: page 167</li>
-<li><a class="mark" href="../cards.html#Synchronisation">Synchronisation</a>: page 259</li>
-<li><a class="mark" href="../cards.html#Type_Analysis">Type Analysis</a>: page 98</li>
-<li><a class="mark" href="../cards.html#Type_Definition">Type Definition</a>: page 163</li>
-<li><a class="mark" href="../cards.html#Variable">Variable</a>: page 46</li>
+<li><a class="mark" href="../cards/index.html#Alphabet">Alphabet</a>: page 34</li>
+<li><a class="mark" href="../cards/index.html#Assignment">Assignment</a>: page 206</li>
+<li><a class="mark" href="../cards/index.html#Branching">Branching</a>: page 173</li>
+<li><a class="mark" href="../cards/index.html#Collection">Collection</a>: page 142</li>
+<li><a class="mark" href="../cards/index.html#Concrete_Syntax">Concrete Syntax</a>: page 39</li>
+<li><a class="mark" href="../cards/index.html#Concurrency">Concurrency</a>: page 254</li>
+<li><a class="mark" href="../cards/index.html#Design_ChartDiagram">Design Chart/Diagram</a>: page 43</li>
+<li><a class="mark" href="../cards/index.html#Iteration">Iteration</a>: page 171</li>
+<li><a class="mark" href="../cards/index.html#Module">Module</a>: page 161</li>
+<li><a class="mark" href="../cards/index.html#Runtime">Runtime</a>: page 203</li>
+<li><a class="mark" href="../cards/index.html#Static_Analysis">Static Analysis</a>: page 57</li>
+<li><a class="mark" href="../cards/index.html#Subprogram">Subprogram</a>: page 167</li>
+<li><a class="mark" href="../cards/index.html#Synchronisation">Synchronisation</a>: page 259</li>
+<li><a class="mark" href="../cards/index.html#Type_Analysis">Type Analysis</a>: page 98</li>
+<li><a class="mark" href="../cards/index.html#Type_Definition">Type Definition</a>: page 163</li>
+<li><a class="mark" href="../cards/index.html#Variable">Variable</a>: page 46</li>
 </ul>
 		<hr/>
 		<div class="last">

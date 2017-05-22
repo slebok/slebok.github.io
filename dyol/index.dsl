@@ -9,7 +9,7 @@
 	</head>
 	<body>
 		<header/>
-		<h1><a href="cards.html"><abbr title="DYOL is pronounced like 'duel' in English">DYOL</abbr>: Design Your Own Language</a></h1>
+		<h1><a href="cards/index.html"><abbr title="DYOL is pronounced like 'duel' in English">DYOL</abbr>: Design Your Own Language</a></h1>
 		<h2>A software language design toolkit</h2>
 		<hr/>
 		<p>

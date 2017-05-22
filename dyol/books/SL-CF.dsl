@@ -30,17 +30,17 @@
 		</p>
 		<h2>Marked:</h2>
 <ul>
-<li><a class="mark" href="../cards.html#Comment">Comment</a>: page 23</li>
-<li><a class="mark" href="../cards.html#Concrete_Syntax">Concrete Syntax</a>: page 21</li>
-<li><a class="mark" href="../cards.html#Design_Chart/Diagram">Design Chart/Diagram</a>: page 30</li>
-<li><a class="mark" href="../cards.html#Documentation">Documentation</a>: page 264</li>
-<li><a class="mark" href="../cards.html#Generation">Generation</a>: page 119</li>
-<li><a class="mark" href="../cards.html#IDE">IDE</a>: page 264</li>
-<li><a class="mark" href="../cards.html#Indentation__Whitespace">Indentation &amp; Whitespace</a>: page 23</li>
-<li><a class="mark" href="../cards.html#Pretty-printing">Pretty-printing</a>: page 23</li>
-<li><a class="mark" href="../cards.html#Refactoring">Refactoring</a>: page 154</li>
-<li><a class="mark" href="../cards.html#Static_Analysis">Static Analysis</a>: page 264</li>
-<li><a class="mark" href="../cards.html#Syntax_Highlighting">Syntax Highlighting</a>: page 27</li>
+<li><a class="mark" href="../cards/index.html#Comment">Comment</a>: page 23</li>
+<li><a class="mark" href="../cards/index.html#Concrete_Syntax">Concrete Syntax</a>: page 21</li>
+<li><a class="mark" href="../cards/index.html#Design_ChartDiagram">Design Chart/Diagram</a>: page 30</li>
+<li><a class="mark" href="../cards/index.html#Documentation">Documentation</a>: page 264</li>
+<li><a class="mark" href="../cards/index.html#Generation">Generation</a>: page 119</li>
+<li><a class="mark" href="../cards/index.html#IDE">IDE</a>: page 264</li>
+<li><a class="mark" href="../cards/index.html#Indentation__Whitespace">Indentation &amp; Whitespace</a>: page 23</li>
+<li><a class="mark" href="../cards/index.html#Pretty-printing">Pretty-printing</a>: page 23</li>
+<li><a class="mark" href="../cards/index.html#Refactoring">Refactoring</a>: page 154</li>
+<li><a class="mark" href="../cards/index.html#Static_Analysis">Static Analysis</a>: page 264</li>
+<li><a class="mark" href="../cards/index.html#Syntax_Highlighting">Syntax Highlighting</a>: page 27</li>
 </ul>
 		<hr/>
 		<div class="last">

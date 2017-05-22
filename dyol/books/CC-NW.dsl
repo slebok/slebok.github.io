@@ -37,23 +37,23 @@
 		</pre>
 		<h2>Marked:</h2>
 <ul>
-<li><a class="mark" href="../cards.html#Alphabet">Alphabet</a>: page 10</li>
-<li><a class="mark" href="../cards.html#Branching">Branching</a>: page 61</li>
-<li><a class="mark" href="../cards.html#Collection">Collection</a>: page 83</li>
-<li><a class="mark" href="../cards.html#Enumeration_Type">Enumeration Type</a>: page 65</li>
-<li><a class="mark" href="../cards.html#Iteration">Iteration</a>: page 61</li>
-<li><a class="mark" href="../cards.html#Keyword">Keyword</a>: page 33</li>
-<li><a class="mark" href="../cards.html#Module">Module</a>: page 92</li>
-<li><a class="mark" href="../cards.html#Numeric_Data_Type">Numeric Data Type</a>: page 81</li>
-<li><a class="mark" href="../cards.html#Parameter_Passing">Parameter Passing</a>: page 73</li>
-<li><a class="mark" href="../cards.html#Phased_Process">Phased Process</a>: page 7</li>
-<li><a class="mark" href="../cards.html#Pointer">Pointer</a>: page 86</li>
-<li><a class="mark" href="../cards.html#Record">Record</a>: page 41</li>
-<li><a class="mark" href="../cards.html#Runtime">Runtime</a>: page 42</li>
-<li><a class="mark" href="../cards.html#Standard_Library">Standard Library</a>: page 78</li>
-<li><a class="mark" href="../cards.html#Subprogram">Subprogram</a>: page 74</li>
-<li><a class="mark" href="../cards.html#Type_Definition">Type Definition</a>: page 26</li>
-<li><a class="mark" href="../cards.html#Variable">Variable</a>: page 72</li>
+<li><a class="mark" href="../cards/index.html#Alphabet">Alphabet</a>: page 10</li>
+<li><a class="mark" href="../cards/index.html#Branching">Branching</a>: page 61</li>
+<li><a class="mark" href="../cards/index.html#Collection">Collection</a>: page 83</li>
+<li><a class="mark" href="../cards/index.html#Enumeration_Type">Enumeration Type</a>: page 65</li>
+<li><a class="mark" href="../cards/index.html#Iteration">Iteration</a>: page 61</li>
+<li><a class="mark" href="../cards/index.html#Keyword">Keyword</a>: page 33</li>
+<li><a class="mark" href="../cards/index.html#Module">Module</a>: page 92</li>
+<li><a class="mark" href="../cards/index.html#Numeric_Data_Type">Numeric Data Type</a>: page 81</li>
+<li><a class="mark" href="../cards/index.html#Parameter_Passing">Parameter Passing</a>: page 73</li>
+<li><a class="mark" href="../cards/index.html#Phased_Process">Phased Process</a>: page 7</li>
+<li><a class="mark" href="../cards/index.html#Pointer">Pointer</a>: page 86</li>
+<li><a class="mark" href="../cards/index.html#Record">Record</a>: page 41</li>
+<li><a class="mark" href="../cards/index.html#Runtime">Runtime</a>: page 42</li>
+<li><a class="mark" href="../cards/index.html#Standard_Library">Standard Library</a>: page 78</li>
+<li><a class="mark" href="../cards/index.html#Subprogram">Subprogram</a>: page 74</li>
+<li><a class="mark" href="../cards/index.html#Type_Definition">Type Definition</a>: page 26</li>
+<li><a class="mark" href="../cards/index.html#Variable">Variable</a>: page 72</li>
 </ul>
 		<hr/>
 		<div class="last">
