@@ -8,7 +8,7 @@
 	</head>
 	<body>
 		<hr/>
-		<h1><abbr title="DYOL is pronounced like 'duel' in English">DYOL</abbr>: <a href="index.html">Design Your Own Language</a></h1>
+		<h1><abbr title="DYOL is pronounced like 'duel' in English">DYOL</abbr>: <a href="../index.html">Design Your Own Language</a></h1>
 		<hr/>
 		<pic card>
 			<title>Access Modifier</title>
@@ -33,6 +33,7 @@
 			<src>PT-HU:1</src>
 			<src>PT-GJ:6</src>
 			<src>LD-ED:5</src>
+		<extended>Alphabet</extended>
 		</pic>
 		<pic card>
 			<title>Assignment</title>
@@ -1207,10 +1208,10 @@
 		<div class="src">
 			<div class="dyolast">
 				The collection of <strong>96</strong> cards created and maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.<br/>
-				Sources colour coded and explained/linked around this notice. See also the <a href="books.html">separate page about the books</a>.<br/>
+				Sources colour coded and explained/linked around this notice. See also the <a href="../books/index.html">separate page about the books</a>.<br/>
 				Last updated: #LASTMOD#.<br/>
-				<a href="http://validator.w3.org/check/referer"><img src="../www/xhtml.88.png" alt="XHTML 1.1" /></a>
-				<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="../www/css.88.png" alt="CSS 3" /></a>
+				<a href="http://validator.w3.org/check/referer"><img src="../../www/xhtml.88.png" alt="XHTML 1.1" /></a>
+				<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="../../www/css.88.png" alt="CSS 3" /></a>
 			</div>
 			<ul>				<li class="dwi A"><a href="http://designwithintent.co.uk/architectural-lens/">Design with Intent (Lockton, Harrison, Stanton, 2010): Architectural Lens</a></li>
 				<li class="dwi E"><a href="http://designwithintent.co.uk/errorproofing-lens/">Design with Intent (Lockton, Harrison, Stanton, 2010): Errorproofing Lens</a></li>
@@ -1222,7 +1223,7 @@
 				<li class="dwi S"><a href="http://designwithintent.co.uk/security-lens/">Design with Intent (Lockton, Harrison, Stanton, 2010): Security Lens</a></li>
 				<li class="dsl"><a href="http://dx.doi.org/10.2498/cit.2001.04.01">Supporting the DSL Spectrum (Wile, 2001)</a></li>
 				<li class="dsl"><a href="http://dx.doi.org/10.1016/S0164-1212(00)00089-3">Notable Design Patterns for Domain-specific Languages (Spinellis, 2001)</a></li>
-				<li class="dsl"><a href="https://doi.org/10.1145/1118890.1118892">When and How to Develop Domain-specific Languages (Mernik, Heering, Sloane, 2005)</a></li>
+				<li class="dsl"><a href="http://doi.org/10.1145/1118890.1118892">When and How to Develop Domain-specific Languages (Mernik, Heering, Sloane, 2005)</a></li>
 			</ul>
 		</div>
 		<div class="src">

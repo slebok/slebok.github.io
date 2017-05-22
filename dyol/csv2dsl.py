@@ -1,8 +1,11 @@
 #!/c/Users/vadim/AppData/Local/Programs/Python/Python35/python
 # -*- coding: utf-8 -*-
 
-links   = []
-targets = []
+import os
+
+links	= []
+targets  = []
+extended = []
 
 def fancy(x):
 	return debreviate(intralink(emph(x)))
@@ -108,9 +111,11 @@ def split(s,max):
 		r.append('')
 	return r
 
+for fn in os.listdir('hidden'):
+	if fn.endswith('.crd') and os.path.isfile(os.path.join('hidden',fn)):
+		extended.append(fn.split('.')[0])
 
-
-csv = open('Patterns.csv', 'r', encoding='utf-8')
+csv = open('hidden/Patterns.csv', 'r', encoding='utf-8')
 lines = csv.readlines()
 csv.close()
 
@@ -125,7 +130,7 @@ dsl.write('''<?xml version="1.0" encoding="UTF-8"?>
 	</head>
 	<body>
 		<hr/>
-		<h1><abbr title="DYOL is pronounced like 'duel' in English">DYOL</abbr>: <a href="index.html">Design Your Own Language</a></h1>
+		<h1><abbr title="DYOL is pronounced like 'duel' in English">DYOL</abbr>: <a href="../index.html">Design Your Own Language</a></h1>
 		<hr/>
 ''')
 # ,Inspired by,Key phrase,Name,Explanation,CPL,PPL,Text
@@ -207,6 +212,74 @@ for c in keys:
 		dsl.write(line)
 	for line in sources[c]:
 		dsl.write(line)
+	if c in extended:
+		dsl.write('		<extended>{0}</extended>\n'.format(c))
+		card = open('hidden/'+c+'.crd', 'r', encoding='utf-8')
+		lines = card.readlines()
+		card.close()
+		card = open('cards/'+c+'.dsl', 'w', encoding='utf-8')
+		card.write('''<?xml version="1.0" encoding="UTF-8"?>
+<html doctype>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="initial-scale=1.0"/>
+		<title>DYOL: Design Your Own Language — {0}</title>
+		<link href="../../www/common.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<header/>
+		<h1><abbr title="DYOL is pronounced like 'duel' in English">DYOL</abbr>: <a href="../index.html">Design Your Own Language</a> — <a href="index.html#{0}">{0}</a></h1>
+		<hr/>
+			<picdir>pic</picdir>
+'''.format(c))
+		card.write('		<pic card>\n')
+		for line in cards[c]:
+			card.write(line)
+		# card.write('			<single>true</single>\n')
+		card.write('		</pic>\n')
+		i = 0
+		while i < len(lines):
+			if lines[i].strip() == '':
+				i += 1
+				continue
+			if lines[i].startswith('Illustration '):
+				card.write('		<pic card>\n')
+				card.write('			<img>'+lines[i].split(' ')[1]+'</img>\n')
+				if lines[i].strip().endswith('self'):
+					cr = 'photo taken by <a href="http://grammarware.github.io">@grammarware</a>'
+				else:
+					license = lines[i].split(' ')[3]
+					if license == 'CC-BY-SA':
+						license = '<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a>'
+					elif license == 'FU':
+						license = '<a href="https://en.wikipedia.org/wiki/Fair_use">fair use</a>'
+					cr = '<a href="{0}">Source</a>: {2}, {1}'.format(\
+						lines[i].split(' ')[2],
+						license,
+						' '.join(lines[i].strip().split(' ')[4:]),
+					)
+				i += 1
+				text = ''
+				while i<len(lines) and lines[i].strip() != '':
+					text += ' ' + lines[i].strip()
+					i += 1
+				text += ' (' + cr + ')'
+				card.write('			<text>{0}</text>\n'.format(text.strip()))
+				card.write('		</pic>\n')
+				continue
+			else:
+				print('Skipped line '+lines[i])
+			i += 1
+		card.write('''		<hr/>
+		<div class="last">
+			The DYOL toolkit was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
+			Page last updated in #LASTMOD#.<br/>
+			<a href="http://validator.w3.org/check/referer"><img src="../../www/xhtml.88.png" alt="XHTML 1.1" /></a>
+			<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="../../www/css.88.png" alt="CSS 3" /></a>
+		</div>
+	</body>
+</html>''')
+		card.close()
 	dsl.write('		</pic>\n')
 print('{} cards and {} codes created from {} lines.'.format(len(keys), codes, len(lines)))
 
@@ -214,17 +287,17 @@ dsl.write('''		<hr/>
 		<div class="src">
 			<div class="dyolast">
 				The collection of <strong>{}</strong> cards created and maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.<br/>
-				Sources colour coded and explained/linked around this notice. See also the <a href="books.html">separate page about the books</a>.<br/>
+				Sources colour coded and explained/linked around this notice. See also the <a href="../books/index.html">separate page about the books</a>.<br/>
 				Last updated: #LASTMOD#.<br/>
-				<a href="http://validator.w3.org/check/referer"><img src="../www/xhtml.88.png" alt="XHTML 1.1" /></a>
-				<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="../www/css.88.png" alt="CSS 3" /></a>
+				<a href="http://validator.w3.org/check/referer"><img src="../../www/xhtml.88.png" alt="XHTML 1.1" /></a>
+				<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="../../www/css.88.png" alt="CSS 3" /></a>
 			</div>
 			<ul>'''.format(len(keys)))
 for lens in ('Architectural', 'Errorproofing', 'Interaction', 'Ludic', 'Perceptual', 'Cognitive', 'Machiavellian', 'Security'):
 	dsl.write('				<li class="dwi {}"><a href="http://designwithintent.co.uk/{}-lens/">Design with Intent (Lockton, Harrison, Stanton, 2010): {} Lens</a></li>\n'.format(lens[0], lens.lower(), lens))
 dsl.write('				<li class="dsl"><a href="http://dx.doi.org/10.2498/cit.2001.04.01">Supporting the DSL Spectrum (Wile, 2001)</a></li>\n')
 dsl.write('				<li class="dsl"><a href="http://dx.doi.org/10.1016/S0164-1212(00)00089-3">Notable Design Patterns for Domain-specific Languages (Spinellis, 2001)</a></li>\n')
-dsl.write('				<li class="dsl"><a href="https://doi.org/10.1145/1118890.1118892">When and How to Develop Domain-specific Languages (Mernik, Heering, Sloane, 2005)</a></li>\n')
+dsl.write('				<li class="dsl"><a href="http://doi.org/10.1145/1118890.1118892">When and How to Develop Domain-specific Languages (Mernik, Heering, Sloane, 2005)</a></li>\n')
 dsl.write('''			</ul>
 		</div>
 		<div class="src">
@@ -293,4 +366,3 @@ dsl.close()
 for card in links:
 	if card not in targets:
 		print('Card {} referenced but undefined!'.format(card))
-

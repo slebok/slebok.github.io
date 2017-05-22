@@ -4,6 +4,7 @@ div.card p {font-family:"Futura", "Montserrat", sans-serif}
 .pic .p {color:#003355; padding-top:5px}
 .pic {float:left; text-align:center; width:150px; height:250px; margin:5px; font-weight:bold; border:2px solid #888}
 .pic img, .tile img {border:0px; max-height:100px}
+.card img {max-height: 240px; max-width: 450px}
 .icon {height:80px;border:0px;margin:0px}
 div, span.pic, span.p {display:block}
 br {clear:both}
@@ -19,11 +20,15 @@ pre {border: 1px solid black; margin-right: 500px;}
 .date {font-weight: bold; color: #004d40}
 .help {color:#ffdec9; font-size:smaller; font-style:italic}
 .card {float:left; text-align:left; width:480px; height:300px; margin:5px; font-weight:bold; border:2px solid #888; position: relative; background-color: #CCC; font-family:sans-serif}
+/*.card {float:left; text-align:left; width:362px; height:332px; margin:5px; font-weight:bold; border:2px solid #888; position: relative; background-color: #CCC; font-family:sans-serif}*/
+/*.card {float:left; text-align:left; width:380px; height:320px; margin:5px; font-weight:bold; border:2px solid #888; position: relative; background-color: #CCC; font-family:sans-serif}*/
 .card > * {float: none; margin: 5px}
 .card h1, a.mark {font-family:"Arial Rounded MT", sans-serif}
 .card h6 {position: absolute; bottom: 0}
 .card a[href] {color:#039;}
 .card h1 {background: white;}
+.card h1 a[href] {text-decoration: none; color: #033;}
+.flr {float: right;}
 .dwi, li.dwi a, .dsl, .dsl a {color: white}
 li.dwi a, li.dsl a, li.b a {text-decoration: none;}
 .dwi.A {background-color: #74b649;}
