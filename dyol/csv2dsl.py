@@ -114,14 +114,14 @@ csv = open('Patterns.csv', 'r', encoding='utf-8')
 lines = csv.readlines()
 csv.close()
 
-dsl = open('cards.dsl', 'w', encoding='utf-8')
+dsl = open('cards/index.dsl', 'w', encoding='utf-8')
 dsl.write('''<?xml version="1.0" encoding="UTF-8"?>
 <html doctype>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="initial-scale=1.0"/>
 		<title>DYOL: Design Your Own Language</title>
-		<link href="../www/common.css" rel="stylesheet" type="text/css" />
+		<link href="../../www/common.css" rel="stylesheet" type="text/css" />
 	</head>
 	<body>
 		<hr/>
@@ -255,7 +255,8 @@ for book in (
 		('sl','cf', 'http://amzn.to/2n8yz6y', 'Engineering Modeling Languages (Combemale, France, Jézéquel, Rumpe, Steel, Vojtisek, 2017)'),
 		('sl','rl', 'http://www.softlang.org/book', 'Software Languages: Syntax, Semantics, and Metaprogramming (Lämmel, 2017)'),
 	):
-	dsl.write('				<li class="b {}"><a href="{}">{}:{} — {}</a></li>\n'.format(book[0], book[2], book[0].upper(), book[1].upper(), book[3]))
+	dsl.write('				<li class="b {4}"><a href="../books/{0}-{1}.html">{0}:{1}</a> — <a href="{2}">{3}</a></li>\n'.format(
+		book[0].upper(), book[1].upper(), book[2], book[3], book[0]))
 	bookname = '{}-{}'.format(book[0].upper(),book[1].upper())
 	bookfile = 'books/{}.dsl'.format(bookname)
 	bookdsl = open(bookfile, 'r', encoding='utf-8')

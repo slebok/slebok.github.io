@@ -4,7 +4,7 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="initial-scale=1.0"/>
 		<title>DYOL: Design Your Own Language</title>
-		<link href="../www/common.css" rel="stylesheet" type="text/css" />
+		<link href="../../www/common.css" rel="stylesheet" type="text/css" />
 	</head>
 	<body>
 		<hr/>
@@ -1226,30 +1226,30 @@
 			</ul>
 		</div>
 		<div class="src">
-			<ul>				<li class="b db"><a href="http://amzn.to/2ofkepP">DB:GD — Principles of Compiler Design (Aho, Ullman, 1977)</a></li>
-				<li class="b db"><a href="http://amzn.to/2pAUncU">DB:RD — Compilers: Principles, Techniques, and Tools (Aho, Sethi, Ullman, 1986)</a></li>
-				<li class="b db"><a href="http://amzn.to/2offvUI">DB:PD — Compilers: Principles, Techniques, &amp; Tools (Aho, Lam, Sethi, Ullman, 2006)</a></li>
-				<li class="b pt"><a href="http://amzn.to/2oSL1u0">PT:AO — Definition of Programming Languages by Interpreting Automata (Ollongren, 1974)</a></li>
-				<li class="b pt"><a href="http://amzn.to/2o776HL">PT:HU — Introduction to Automata Theory, Languages, and Computation (Hopcroft, Ullman, 1979)</a></li>
-				<li class="b pt"><a href="http://amzn.to/2oYyF5C">PT:GJ — Parsing Techniques: A Practical Guide (Grune, Jacobs, 2008)</a></li>
-				<li class="b cc"><a href="http://amzn.to/2oYBQdc">CC:DG — Compiler Construction for Digital Computers (Gries, 1971)</a></li>
-				<li class="b cc"><a href="http://amzn.to/2phWrHp">CC:WG — Compiler Construction (Waite, Goos, 1984)</a></li>
-				<li class="b cc"><a href="http://amzn.to/2nmUPeU">CC:NW — Compiler Construction (Wirth, 2005)</a></li>
-				<li class="b cd"><a href="http://amzn.to/2pAYPYW">CD:AH — Compiler Design in C (Holub, 1990)</a></li>
-				<li class="b cd"><a href="http://amzn.to/2p3nnxw">CD:SM — Advanced Compiler Design and Implementation (Muchnick, 1997)</a></li>
-				<li class="b cd"><a href="http://amzn.to/2ofhgRP">CD:GR — Modern Compiler Design (Grune, van Reeuwijk, Bal, Jacobs, Langendoen, 2012)</a></li>
-				<li class="b li"><a href="http://amzn.to/2opUpnG">LI:BH — Brinch Hansen on Pascal Compilers (Hansen, 1985)</a></li>
-				<li class="b li"><a href="http://amzn.to/2pAW75O">LI:RM — Writing Compilers and Interpreters: An Applied Approach (Mak, 1991)</a></li>
-				<li class="b li"><a href="http://amzn.to/2nnaieI">LI:PZ — Programming Languages: Design and Implementation (Pratt, Zelkowitz, 2001)</a></li>
-				<li class="b ld"><a href="http://amzn.to/2oupTtC">LD:ED — A Primer of ALGOL 60 Programming (Dijkstra, 1962)</a></li>
-				<li class="b ld"><a href="http://amzn.to/2opWUX1">LD:JW — Pascal User Manual and Report (Jensen, Wirth, 1985)</a></li>
-				<li class="b ld"><a href="http://amzn.to/2o7eCm1">LD:WH — Programming in the .NET Environment (Watkins, Hammond, Abrams, 2003)</a></li>
-				<li class="b pl"><a href="http://amzn.to/2nmFg70">PL:BM — Principles of Programming Languages: Design, Evaluation and Implementation (MacLennan, 1983)</a></li>
-				<li class="b pl"><a href="http://amzn.to/2n8cd5u">PL:WC — Comparative Programming Languages (Wilson, Clark, 1993)</a></li>
-				<li class="b pl"><a href="http://amzn.to/2ofl1qu">PL:RS — Concepts of Programming Languages (Sebesta, 2001)</a></li>
-				<li class="b sl"><a href="http://amzn.to/2oYs232">SL:AS — Structure and Interpretation of Computer Programs (Abelson, Sussman, Sussman, 1996)</a></li>
-				<li class="b sl"><a href="http://amzn.to/2n8yz6y">SL:CF — Engineering Modeling Languages (Combemale, France, Jézéquel, Rumpe, Steel, Vojtisek, 2017)</a></li>
-				<li class="b sl"><a href="http://www.softlang.org/book">SL:RL — Software Languages: Syntax, Semantics, and Metaprogramming (Lämmel, 2017)</a></li>
+			<ul>				<li class="b db"><a href="../books/DB-GD.html">DB:GD</a> — <a href="http://amzn.to/2ofkepP">Principles of Compiler Design (Aho, Ullman, 1977)</a></li>
+				<li class="b db"><a href="../books/DB-RD.html">DB:RD</a> — <a href="http://amzn.to/2pAUncU">Compilers: Principles, Techniques, and Tools (Aho, Sethi, Ullman, 1986)</a></li>
+				<li class="b db"><a href="../books/DB-PD.html">DB:PD</a> — <a href="http://amzn.to/2offvUI">Compilers: Principles, Techniques, &amp; Tools (Aho, Lam, Sethi, Ullman, 2006)</a></li>
+				<li class="b pt"><a href="../books/PT-AO.html">PT:AO</a> — <a href="http://amzn.to/2oSL1u0">Definition of Programming Languages by Interpreting Automata (Ollongren, 1974)</a></li>
+				<li class="b pt"><a href="../books/PT-HU.html">PT:HU</a> — <a href="http://amzn.to/2o776HL">Introduction to Automata Theory, Languages, and Computation (Hopcroft, Ullman, 1979)</a></li>
+				<li class="b pt"><a href="../books/PT-GJ.html">PT:GJ</a> — <a href="http://amzn.to/2oYyF5C">Parsing Techniques: A Practical Guide (Grune, Jacobs, 2008)</a></li>
+				<li class="b cc"><a href="../books/CC-DG.html">CC:DG</a> — <a href="http://amzn.to/2oYBQdc">Compiler Construction for Digital Computers (Gries, 1971)</a></li>
+				<li class="b cc"><a href="../books/CC-WG.html">CC:WG</a> — <a href="http://amzn.to/2phWrHp">Compiler Construction (Waite, Goos, 1984)</a></li>
+				<li class="b cc"><a href="../books/CC-NW.html">CC:NW</a> — <a href="http://amzn.to/2nmUPeU">Compiler Construction (Wirth, 2005)</a></li>
+				<li class="b cd"><a href="../books/CD-AH.html">CD:AH</a> — <a href="http://amzn.to/2pAYPYW">Compiler Design in C (Holub, 1990)</a></li>
+				<li class="b cd"><a href="../books/CD-SM.html">CD:SM</a> — <a href="http://amzn.to/2p3nnxw">Advanced Compiler Design and Implementation (Muchnick, 1997)</a></li>
+				<li class="b cd"><a href="../books/CD-GR.html">CD:GR</a> — <a href="http://amzn.to/2ofhgRP">Modern Compiler Design (Grune, van Reeuwijk, Bal, Jacobs, Langendoen, 2012)</a></li>
+				<li class="b li"><a href="../books/LI-BH.html">LI:BH</a> — <a href="http://amzn.to/2opUpnG">Brinch Hansen on Pascal Compilers (Hansen, 1985)</a></li>
+				<li class="b li"><a href="../books/LI-RM.html">LI:RM</a> — <a href="http://amzn.to/2pAW75O">Writing Compilers and Interpreters: An Applied Approach (Mak, 1991)</a></li>
+				<li class="b li"><a href="../books/LI-PZ.html">LI:PZ</a> — <a href="http://amzn.to/2nnaieI">Programming Languages: Design and Implementation (Pratt, Zelkowitz, 2001)</a></li>
+				<li class="b ld"><a href="../books/LD-ED.html">LD:ED</a> — <a href="http://amzn.to/2oupTtC">A Primer of ALGOL 60 Programming (Dijkstra, 1962)</a></li>
+				<li class="b ld"><a href="../books/LD-JW.html">LD:JW</a> — <a href="http://amzn.to/2opWUX1">Pascal User Manual and Report (Jensen, Wirth, 1985)</a></li>
+				<li class="b ld"><a href="../books/LD-WH.html">LD:WH</a> — <a href="http://amzn.to/2o7eCm1">Programming in the .NET Environment (Watkins, Hammond, Abrams, 2003)</a></li>
+				<li class="b pl"><a href="../books/PL-BM.html">PL:BM</a> — <a href="http://amzn.to/2nmFg70">Principles of Programming Languages: Design, Evaluation and Implementation (MacLennan, 1983)</a></li>
+				<li class="b pl"><a href="../books/PL-WC.html">PL:WC</a> — <a href="http://amzn.to/2n8cd5u">Comparative Programming Languages (Wilson, Clark, 1993)</a></li>
+				<li class="b pl"><a href="../books/PL-RS.html">PL:RS</a> — <a href="http://amzn.to/2ofl1qu">Concepts of Programming Languages (Sebesta, 2001)</a></li>
+				<li class="b sl"><a href="../books/SL-AS.html">SL:AS</a> — <a href="http://amzn.to/2oYs232">Structure and Interpretation of Computer Programs (Abelson, Sussman, Sussman, 1996)</a></li>
+				<li class="b sl"><a href="../books/SL-CF.html">SL:CF</a> — <a href="http://amzn.to/2n8yz6y">Engineering Modeling Languages (Combemale, France, Jézéquel, Rumpe, Steel, Vojtisek, 2017)</a></li>
+				<li class="b sl"><a href="../books/SL-RL.html">SL:RL</a> — <a href="http://www.softlang.org/book">Software Languages: Syntax, Semantics, and Metaprogramming (Lämmel, 2017)</a></li>
 			</ul>
 		</div>
 		<hr/>
