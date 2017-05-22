@@ -27,10 +27,10 @@
 			in the narrow sense and language design are unrelated. This particular book is
 			pretty realistic and mixes formal definitions with a selection of language
 			constructs which a real world language designer may decide to use. It also
-			covers <a class="mark" href="../cards.html#Concurrency">Concurrency</a> and <a class="mark" href="../cards.html#Synchronisation">Synchronisation</a>, but surprisingly avoids
-			the complexity of <a class="mark" href="../cards.html#Parameter_Passing">Parameter Passing</a> discussion when formalising
-			<a class="mark" href="../cards.html#Subprogram">Subprograms</a>.
-			Neither PT-AO nor <a href="PT-HU.html">PT-HU</a> mention <a class="mark" href="../cards.html#Operator_Precedence">Operator Precedence</a> when talking
+			covers <a class="mark" href="../cards/index.html#Concurrency">Concurrency</a> and <a class="mark" href="../cards/index.html#Synchronisation">Synchronisation</a>, but surprisingly avoids
+			the complexity of <a class="mark" href="../cards/index.html#Parameter_Passing">Parameter Passing</a> discussion when formalising
+			<a class="mark" href="../cards/index.html#Subprogram">Subprograms</a>.
+			Neither PT-AO nor <a href="PT-HU.html">PT-HU</a> mention <a class="mark" href="../cards/index.html#Operator_Precedence">Operator Precedence</a> when talking
 			about ambiguous grammars.
 		</p>
 		<p class="nb">NB: marking was done with the Russian translation of the book, so page numbers may be slightly different!</p>

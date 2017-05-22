@@ -23,8 +23,8 @@
 			LI-BH is a book about compilers for beginners. It takes the
 			readers by the hand and walks them very gently through all phases of designing
 			and developing a compiler of a subset of Pascal written in a superset of
-			Pascal. Some terminology has become outdated: e.g., <a class="mark" href="../cards.html#Keyword">Keywords</a> are “word
-			symbols” and <a class="mark" href="../cards.html#Virtual_Machine">Virtual Machines</a> are “language-based computers”. The
+			Pascal. Some terminology has become outdated: e.g., <a class="mark" href="../cards/index.html#Keyword">Keywords</a> are “word
+			symbols” and <a class="mark" href="../cards/index.html#Virtual_Machine">Virtual Machines</a> are “language-based computers”. The
 			author also heavily optimises every step which has a fair chance of teaching
 			people premature optimisation, and makes some sections unnecessarily outdated
 			for dismissing certain design options for the compiler because they would

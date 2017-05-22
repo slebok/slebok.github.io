@@ -26,9 +26,9 @@
 			specific languages that run on .NET (Visual Basic, C♯, Python, Perl, Active
 			Oberon, Component Pascal, HotDog and Mondrian). Because of this platform
 			focus, the book covered many language design aspects that were otherwise
-			easily overlooked (<a class="mark" href="../cards.html#Runtime">Runtime</a>,
-			<a class="mark" href="../cards.html#Standard_Library">Standard Libraries</a>,
-			<a class="mark" href="../cards.html#Deployment">Deployment</a>, etc).
+			easily overlooked (<a class="mark" href="../cards/index.html#Runtime">Runtime</a>,
+			<a class="mark" href="../cards/index.html#Standard_Library">Standard Libraries</a>,
+			<a class="mark" href="../cards/index.html#Deployment">Deployment</a>, etc).
 		</p>
 		<h2>Marked:</h2>
 <ul>

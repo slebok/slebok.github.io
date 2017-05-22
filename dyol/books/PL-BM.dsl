@@ -24,7 +24,7 @@
 			<a href="http://www.sigplan.org/Conferences/POPL/">the flagship conference</a> in the domain of programming languages,
 			but is not as overly formal as their proceedings. It gives a fairly
 			comprehensive overview of the domain for early 1980s and includes concepts
-			such as OOP and <a class="mark" href="../cards.html#Garbage_Collection">Garbage Collection</a>.
+			such as OOP and <a class="mark" href="../cards/index.html#Garbage_Collection">Garbage Collection</a>.
 		</p>
 		<h2>Marked:</h2>
 <ul>
