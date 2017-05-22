@@ -4,7 +4,7 @@ div.card p {font-family:"Futura", "Montserrat", sans-serif}
 .pic .p {color:#003355; padding-top:5px}
 .pic {float:left; text-align:center; width:150px; height:250px; margin:5px; font-weight:bold; border:2px solid #888}
 .pic img, .tile img {border:0px; max-height:100px}
-.card img {max-height: 240px; max-width: 450px}
+.card img {max-height: 200px; max-width: 450px}
 .icon {height:80px;border:0px;margin:0px}
 div, span.pic, span.p {display:block}
 br {clear:both}

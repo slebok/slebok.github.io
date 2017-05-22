@@ -248,20 +248,27 @@ for c in keys:
 				if lines[i].strip().endswith('self'):
 					cr = 'photo taken by <a href="http://grammarware.github.io">@grammarware</a>'
 				else:
-					license = lines[i].split(' ')[3]
+					license = lines[i].split(' ')[3].strip()
 					if license == 'CC-BY-SA':
-						license = '<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a>'
+						license = '<a href="https://creativecommons.org/licenses/by-sa/4.0/">sharealike</a>'
 					elif license == 'FU':
 						license = '<a href="https://en.wikipedia.org/wiki/Fair_use">fair use</a>'
-					cr = '<a href="{0}">Source</a>: {2}, {1}'.format(\
-						lines[i].split(' ')[2],
-						license,
-						' '.join(lines[i].strip().split(' ')[4:]),
-					)
+					elif license == 'PD':
+						license = '<a href="https://creativecommons.org/share-your-work/public-domain/pdm/">public domain</a>'
+					fullname = ' '.join(lines[i].strip().split(' ')[4:])
+					if fullname:
+						cr = '<a href="{0}">Source</a>: {2}, {1}'.format(\
+							lines[i].split(' ')[2],
+							license,
+							fullname)
+					else:
+						cr = '<a href="{0}">Source</a>: {1}'.format(\
+							lines[i].split(' ')[2],
+							license)
 				i += 1
 				text = ''
 				while i<len(lines) and lines[i].strip() != '':
-					text += ' ' + lines[i].strip()
+					text += ' ' + lines[i].strip().replace('&', '&amp;')
 					i += 1
 				text += ' (' + cr + ')'
 				card.write('			<text>{0}</text>\n'.format(text.strip()))

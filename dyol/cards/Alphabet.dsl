@@ -17,23 +17,35 @@
 		</pic>
 		<pic card>
 			<img>Alphabet1.png</img>
-			<text>A theoretical prototype of a keyboard for APL (<a href="https://commons.wikimedia.org/wiki/File:APL2-nappaimisto.png">Source</a>: Wm313, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a>)</text>
+			<text>ASCII, or American Standard Code for Information Interchange, was developed in the 1960s based on telegraph code. Its limitations shaped the alphabet of many software languages (<a href="https://commons.wikimedia.org/wiki/File:US-ASCII_code_chart.png">Source</a>: <a href="https://creativecommons.org/share-your-work/public-domain/pdm/">public domain</a>)</text>
 		</pic>
 		<pic card>
-			<img>Alphabet2.jpg</img>
-			<text>A hand-made keyboard for APL (<a href="http://ageinghacker.net/hacks/apl-keyboard/">Source</a>: Luca Saiu, <a href="https://en.wikipedia.org/wiki/Fair_use">fair use</a>)</text>
+			<img>Alphabet2.png</img>
+			<text>EBCDIC, or Extended Binary Coded Decimal Interchange Code, played a similar role on IBM mainframes and midrange computers. Its 8 bits could hold bigger alphabets than ASCII's 7 bits (<a href="https://commons.wikimedia.org/wiki/File:US-ASCII_code_chart.png">Source</a>: <a href="https://creativecommons.org/share-your-work/public-domain/pdm/">public domain</a>)</text>
 		</pic>
 		<pic card>
-			<img>Alphabet3.jpg</img>
-			<text>A factory-made keyboard for APL sold for a little over £100 (<a href="https://www.dyalog.com/apl-font-keyboard.htm">Source</a>: Dyalog, <a href="https://en.wikipedia.org/wiki/Fair_use">fair use</a>)</text>
+			<img>Alphabet3.png</img>
+			<text>A theoretical prototype of a keyboard for APL (<a href="https://commons.wikimedia.org/wiki/File:APL2-nappaimisto.png">Source</a>: Wm313, <a href="https://creativecommons.org/licenses/by-sa/4.0/">sharealike</a>)</text>
 		</pic>
 		<pic card>
 			<img>Alphabet4.jpg</img>
+			<text>A hand-made keyboard for APL (<a href="http://ageinghacker.net/hacks/apl-keyboard/">Source</a>: Luca Saiu, <a href="https://en.wikipedia.org/wiki/Fair_use">fair use</a>)</text>
+		</pic>
+		<pic card>
+			<img>Alphabet5.jpg</img>
+			<text>A factory-made keyboard for APL sold for a little over £100 (<a href="https://www.dyalog.com/apl-font-keyboard.htm">Source</a>: Dyalog, <a href="https://en.wikipedia.org/wiki/Fair_use">fair use</a>)</text>
+		</pic>
+		<pic card>
+			<img>Alphabet6.png</img>
+			<text>Scratch uses colour-coded visual symbols as its alphabet (<a href="https://scratch.mit.edu/">Source</a>: MIT, <a href="https://creativecommons.org/licenses/by-sa/4.0/">sharealike</a>)</text>
+		</pic>
+		<pic card>
+			<img>Alphabet7.jpg</img>
 			<text>COBOL translated to Russian, from L. Coddington's <em>Quick Cobol</em>, 1971/1974 (photo taken by <a href="http://grammarware.github.io">@grammarware</a>)</text>
 		</pic>
 		<pic card>
-			<img>Alphabet5.png</img>
-			<text>Scratch uses colour-coded visual symbols as its alphabet (<a href="https://scratch.mit.edu/">Source</a>: MIT, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a>)</text>
+			<img>Alphabet8.jpg@Alphabet9.png</img>
+			<text>At Hackers &amp; Designers Summer Academy 2015 participants designed a language for ordering pizza with emojis (photo taken by <a href="http://grammarware.github.io">@grammarware</a>)</text>
 		</pic>
 		<hr/>
 		<div class="last">
