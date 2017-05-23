@@ -7,6 +7,8 @@ links	= []
 targets  = []
 extended = []
 
+Lenses = ('Architectural', 'Errorproofing', 'Interaction', 'Ludic', 'Perceptual', 'Cognitive', 'Machiavellian', 'Security')
+
 def fancy(x):
 	return debreviate(intralink(emph(x)))
 
@@ -212,12 +214,13 @@ for c in keys:
 		dsl.write(line)
 	for line in sources[c]:
 		dsl.write(line)
-	if c in extended:
+	e = c.replace(' ','_').replace('&','').replace('/','')
+	if e in extended:
 		dsl.write('		<extended>{0}</extended>\n'.format(c))
-		card = open('hidden/'+c+'.crd', 'r', encoding='utf-8')
+		card = open('hidden/'+e+'.crd', 'r', encoding='utf-8')
 		lines = card.readlines()
 		card.close()
-		card = open('cards/'+c+'.dsl', 'w', encoding='utf-8')
+		card = open('cards/'+e+'.dsl', 'w', encoding='utf-8')
 		card.write('''<?xml version="1.0" encoding="UTF-8"?>
 <html doctype>
 	<head>
@@ -228,10 +231,10 @@ for c in keys:
 	</head>
 	<body>
 		<header/>
-		<h1><abbr title="DYOL is pronounced like 'duel' in English">DYOL</abbr>: <a href="../index.html">Design Your Own Language</a> — <a href="index.html#{0}">{0}</a></h1>
+		<h1><abbr title="DYOL is pronounced like 'duel' in English">DYOL</abbr>: <a href="../index.html">Design Your Own Language</a> — <a href="index.html#{1}">{0}</a></h1>
 		<hr/>
-			<picdir>pic</picdir>
-'''.format(c))
+		<picdir>pic</picdir>
+'''.format(c,e))
 		card.write('		<pic card>\n')
 		for line in cards[c]:
 			card.write(line)
@@ -274,6 +277,40 @@ for c in keys:
 				card.write('			<text>{0}</text>\n'.format(text.strip()))
 				card.write('		</pic>\n')
 				continue
+			elif lines[i].startswith('DwI '):
+				card.write('		<pic card>\n')
+				link = '#'
+				for lens in Lenses:
+					if lines[i][4] == lens[0]:
+						link = 'http://designwithintent.co.uk/{0}-lens/'.format(lens.lower())
+				txt = '<h1 class="dwi {0}"><a href="{2}">{1}</a></h1>'.format(\
+					lines[i][4],
+					lines[i][5:].strip(),
+					link)
+				card.write('			<raw>' + txt + '</raw>\n')
+				txt = ''
+				i += 1
+				while i < len(lines) and lines[i].strip() != '':
+					txt += ' ' + lines[i].strip()
+					i += 1
+				card.write('			<text>' + txt + '</text>\n')
+				card.write('		</pic>\n')
+			elif lines[i].startswith('Related'):
+				# <a class="mark" href="../cards/index.html#Concrete_Syntax">Concrete Syntax</a>
+				card.write('		<pic card>\n')
+				card.write('			<title>Related cards</title>\n')
+				txt = ''
+				i += 1
+				while i < len(lines) and lines[i].strip() != '':
+					thing = lines[i].strip()
+					if thing.startswith('* '):
+						thing = thing[2:].strip()
+					txt += '<li><a class="mark" href="../cards/index.html#{1}">{0}</a></li>'.format(\
+						thing,
+						thing.replace(' ','_').replace('&','').replace('/',''))
+					i += 1
+				card.write('			<text><ul>' + txt + '</ul></text>\n')
+				card.write('		</pic>\n')
 			else:
 				print('Skipped line '+lines[i])
 			i += 1
@@ -300,7 +337,7 @@ dsl.write('''		<hr/>
 				<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="../../www/css.88.png" alt="CSS 3" /></a>
 			</div>
 			<ul>'''.format(len(keys)))
-for lens in ('Architectural', 'Errorproofing', 'Interaction', 'Ludic', 'Perceptual', 'Cognitive', 'Machiavellian', 'Security'):
+for lens in Lenses:
 	dsl.write('				<li class="dwi {}"><a href="http://designwithintent.co.uk/{}-lens/">Design with Intent (Lockton, Harrison, Stanton, 2010): {} Lens</a></li>\n'.format(lens[0], lens.lower(), lens))
 dsl.write('				<li class="dsl"><a href="http://dx.doi.org/10.2498/cit.2001.04.01">Supporting the DSL Spectrum (Wile, 2001)</a></li>\n')
 dsl.write('				<li class="dsl"><a href="http://dx.doi.org/10.1016/S0164-1212(00)00089-3">Notable Design Patterns for Domain-specific Languages (Spinellis, 2001)</a></li>\n')

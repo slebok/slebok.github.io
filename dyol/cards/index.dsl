@@ -1122,6 +1122,7 @@
 			<src>PT-AO:98</src>
 			<src>LD-WH:13</src>
 			<src>SL-RL:267</src>
+		<extended>Type Analysis</extended>
 		</pic>
 		<pic card>
 			<title>Type Definition</title>

@@ -29,7 +29,7 @@ pre {border: 1px solid black; margin-right: 500px;}
 .card h1 {background: white;}
 .card h1 a[href] {text-decoration: none; color: #033;}
 .flr {float: right;}
-.dwi, li.dwi a, .dsl, .dsl a {color: white}
+.dwi, li.dwi a, .dsl, .dsl a, .dwi a[href], div.card h1.dwi a[href] {color: white}
 li.dwi a, li.dsl a, li.b a {text-decoration: none;}
 .dwi.A {background-color: #74b649;}
 .dwi.E {background-color: #eb1c23;}

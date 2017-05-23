@@ -10,10 +10,14 @@
 		<header/>
 		<h1><abbr title="DYOL is pronounced like 'duel' in English">DYOL</abbr>: <a href="../index.html">Design Your Own Language</a> — <a href="index.html#Alphabet">Alphabet</a></h1>
 		<hr/>
-			<picdir>pic</picdir>
+		<picdir>pic</picdir>
 		<pic card>
 			<title>Alphabet</title>
 			<text>The basic alphabet is often taken for granted, especially for textual languages, but it is an important design aspect. In some languages (<a href="http://tryapl.org/">APL</a> being the extreme) the alphabet is extremely broad, with specific symbols being used for <a href="#Standard_Library">built-in</a> operators, which shifts the visual feel of the language closer to mathematics. In other languages <a href="#Keyword">keywords</a> are taken from English, which limits language appeal to some groups of users (and may lead to reimplementations with translated keywords).</text>
+		</pic>
+		<pic card>
+			<raw><h1 class="dwi P"><a href="http://designwithintent.co.uk/perceptual-lens/">Perceived affordances</a></h1></raw>
+			<text> The original design card was about suggestive physical form of the designed system, such as shaping holes in recycle bins to match the type of waste, which was measured to increase recycling levels. Shaping the alphabet of the language, along with its <a class="mark" href="../cards/index.html#Concrete_Syntax">Concrete Syntax</a>, can send a message about its platform or technology bias, or make it more attractive to specific target audiences (scientists, children, etc).</text>
 		</pic>
 		<pic card>
 			<img>Alphabet1.png</img>
