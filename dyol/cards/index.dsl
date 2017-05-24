@@ -268,6 +268,7 @@
 			<title>Comprehension</title>
 			<text>List and set comprehensions are language constructs resembling the mathematical notation for creating a set by its characteristic function (<em>"for all numbers from 1 to 10, give me their squared values"</em>), and combine <em>map</em> and <em>filter</em> classical for functional programming. Comprehensions as a language construct exist in Haskell, Python, Rascal, C# and some other languages.</text>
 			<src>CD-GR:621</src>
+		<extended>Comprehension</extended>
 		</pic>
 		<pic card>
 			<title>Concrete Syntax</title>
@@ -561,7 +562,7 @@
 		</pic>
 		<pic card>
 			<title>Input/Output</title>
-			<text>Most executable models are not self-contained and require input data to run and produce results, which in turn need to be propagated somewhere. There are languages that are volatile with input and output, those that only work with files, those that wrap I/O as a side effect of a <abbr title="monoid in a category of endofunctors">monad</abbr>, etc.</text>
+			<text>Most executable models are not self-contained and require input data to run and produce results, which in turn need to be propagated somewhere. There are languages that are volatile with input and output, those that only work with files, those that wrap I/O as a side effect of a <abbr title="a monad is a monoid in a category of endofunctors">monad</abbr>, etc.</text>
 			<src>LI-BH:177</src>
 			<src>LI-RM:341</src>
 			<src>LI-PZ:223</src>
@@ -1105,7 +1106,7 @@
 		</pic>
 		<pic card>
 			<title>Type Analysis</title>
-			<text>Components can be identified, explicitly or automatically, to belong to a particular <em>type</em>. Among other things, the type determines applicability and compatibility of components with one another. In complex scenarios (like a <abbr title="monoid in a category of endofunctors">monad</abbr>ic bind) hard to understand components can only fit together in one possible way. Type equivalence rules can be based on names, <a href="#Type_Definition">structure</a>, <a href="#Scope__Binding">scopes</a>, etc.</text>
+			<text>Components can be identified, explicitly or automatically, to belong to a particular <em>type</em>. Among other things, the type determines applicability and compatibility of components with one another. In complex scenarios (like a <abbr title="a monad is a monoid in a category of endofunctors">monad</abbr>ic bind) hard to understand components can only fit together in one possible way. Type equivalence rules can be based on names, <a href="#Type_Definition">structure</a>, <a href="#Scope__Binding">scopes</a>, etc.</text>
 			<src>E:Matched affordances</src>
 			<src>DSL-Wile:Type Checking</src>
 			<src>DB-GD:49</src>

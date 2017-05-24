@@ -10,6 +10,7 @@
 		<header/>
 		<h1><abbr title="DYOL is pronounced like 'duel' in English">DYOL</abbr>: <a href="../index.html">Design Your Own Language</a> — <a href="index.html#Alphabet">Alphabet</a></h1>
 		<hr/>
+			<p><strong>Caveat emptor</strong>: these individual <em>card pages</em> are work in progress, and their content is in no way final!</p>
 		<picdir>pic</picdir>
 		<pic card>
 			<title>Alphabet</title>
@@ -17,7 +18,11 @@
 		</pic>
 		<pic card>
 			<raw><h1 class="dwi P"><a href="http://designwithintent.co.uk/perceptual-lens/">Perceived affordances</a></h1></raw>
-			<text> The original design card was about suggestive physical form of the designed system, such as shaping holes in recycle bins to match the type of waste, which was measured to increase recycling levels. Shaping the alphabet of the language, along with its <a class="mark" href="../cards/index.html#Concrete_Syntax">Concrete Syntax</a>, can send a message about its platform or technology bias, or make it more attractive to specific target audiences (scientists, children, etc).</text>
+			<text>The original design card was about suggestive physical form of the designed system, such as shaping holes in recycle bins to match the type of waste, which was measured to increase recycling levels. Shaping the alphabet of the language, along with its <a class="mark" href="../cards/index.html#Concrete_Syntax">Concrete Syntax</a>, can send a message about its platform or technology bias, or make it more attractive to specific target audiences (scientists, children, etc).</text>
+		</pic>
+		<pic card>
+			<title>Synonyms and similar terms</title>
+			<raw><dl>				<dt>Dictionary</dt>				<dd>In higher level software languages the designers prefer to call their alphabets "dictionaries" to stress the fact that atomic language elements are words and not just letters of symbols.</dd>			</dl></raw>
 		</pic>
 		<pic card>
 			<img>Alphabet1.png</img>

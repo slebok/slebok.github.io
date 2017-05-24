@@ -23,7 +23,7 @@ def debreviate(x):
 		('GPU', 'Graphics Processing Unit'),
 		('JVM', 'Java Virtual Machine'),
 		('MDE', 'Model-Driven Engineering'),
-		('monad', 'monoid in a category of endofunctors'),
+		('monad', 'a monad is a monoid in a category of endofunctors'),
 		('OS', 'Operating System'),
 		('UML', 'Unified Modelling Language'),
 		('VS.NET', 'Visual Studio .NET'),
@@ -233,6 +233,7 @@ for c in keys:
 		<header/>
 		<h1><abbr title="DYOL is pronounced like 'duel' in English">DYOL</abbr>: <a href="../index.html">Design Your Own Language</a> — <a href="index.html#{1}">{0}</a></h1>
 		<hr/>
+			<p><strong>Caveat emptor</strong>: these individual <em>card pages</em> are work in progress, and their content is in no way final!</p>
 		<picdir>pic</picdir>
 '''.format(c,e))
 		card.write('		<pic card>\n')
@@ -293,23 +294,60 @@ for c in keys:
 				while i < len(lines) and lines[i].strip() != '':
 					txt += ' ' + lines[i].strip()
 					i += 1
-				card.write('			<text>' + txt + '</text>\n')
+				card.write('			<text>' + txt.strip() + '</text>\n')
 				card.write('		</pic>\n')
 			elif lines[i].startswith('Related'):
-				# <a class="mark" href="../cards/index.html#Concrete_Syntax">Concrete Syntax</a>
 				card.write('		<pic card>\n')
 				card.write('			<title>Related cards</title>\n')
 				txt = ''
 				i += 1
 				while i < len(lines) and lines[i].strip() != '':
 					thing = lines[i].strip()
+					expl = ''
 					if thing.startswith('* '):
 						thing = thing[2:].strip()
-					txt += '<li><a class="mark" href="../cards/index.html#{1}">{0}</a></li>'.format(\
+					if thing.find('(') > 0:
+						thing, expl = thing.split('(')
+						expl = '(' + expl
+						thing.strip()
+					txt += '<li><a class="mark" href="../cards/index.html#{2}">{0}</a>{1}</li>'.format(\
 						thing,
+						expl,
 						thing.replace(' ','_').replace('&','').replace('/',''))
 					i += 1
 				card.write('			<text><ul>' + txt + '</ul></text>\n')
+				card.write('		</pic>\n')
+			elif lines[i].startswith('Example: '):
+				card.write('		<pic card>\n')
+				card.write('			<title>Examples</title>\n')
+				txt = '<p>'+lines[i][8:].strip()+'</p>'
+				i += 1
+				while i+1 < len(lines) and lines[i].strip() != '':
+					txt += lines[i].strip() + '<pre>' + lines[i+1].strip() + '</pre>'
+					i += 2
+				card.write('			<raw>' + txt + '</raw>\n')
+				card.write('		</pic>\n')
+			elif lines[i].startswith('AKA'):
+				card.write('		<pic card>\n')
+				card.write('			<title>Synonyms and similar terms</title>\n')
+				txt = {}
+				cur = ''
+				i += 1
+				while i < len(lines) and lines[i].strip() != '':
+					thing = lines[i].strip()
+					if thing.startswith('# '):
+						cur = thing[2:].strip()
+						txt[cur] = ''
+						i += 1
+					else:
+						while i < len(lines) and lines[i].strip() != '' and not lines[i].strip().startswith('#'):
+							txt[cur] += ' ' + lines[i].strip()
+							i += 1
+				card.write('			<raw><dl>')
+				for key in sorted(txt.keys()):
+					card.write('				<dt>{0}</dt>'.format(key))
+					card.write('				<dd>{0}</dd>'.format(txt[key].strip()))
+				card.write('			</dl></raw>\n')
 				card.write('		</pic>\n')
 			else:
 				print('Skipped line '+lines[i])
