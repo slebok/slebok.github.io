@@ -18,6 +18,7 @@
 			<li><span class="b pl">Programming Languages (PL)</span> — collections of concepts found in existing languages.</li>
 			<li><span class="b sl">Software Languages (SL)</span> — books with general applicability, not limited to DSLs or programming.</li>
 		</ul>
+		<p>The work is <a href="wip.html">ongoing.</a>
 		<hr/>
 		<pic>
 			<a>DB-GD.html</a>
