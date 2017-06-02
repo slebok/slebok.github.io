@@ -39,7 +39,8 @@
 		</ul>
 		<h2>Publications / presentations</h2>
 		<ul>
-			<li>Vadim Zaytsev, <em><a href="http://grammarware.net/writes/index.html#Design2017">Language Design with Intent</a></em>, submitted to MoDELS’17, pending reviews.</li>
+			<li>Vadim Zaytsev, <em><a href="http://grammarware.net/writes/index.html#Design2017">Language Design with Intent</a></em>, submitted to <a href="https://www.cs.utexas.edu/models2017/calls/call-papers">MoDELS’17</a>, pending reviews.</li>
+			<li>Vadim Zaytsev, <em><a href="http://grammarware.net/talks/index.html#SPLASHI2017">DYOL: Design a Language, Know the Consequences</a></em>, invited talk at <a href="http://2017.splashcon.org/track/splash-2017-SPLASH-I">SPLASH-I’17</a>.</li>
 		</ul>
 		<hr/>
 		<div class="last">

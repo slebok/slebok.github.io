@@ -8,13 +8,15 @@
 		<h2>Book sources for the software language design toolkit</h2>
 		<hr/>
 		<p>
-			There are <a href="index.html">24 books</a> that have already been
-			processed within this project. Each of them has been read and
-			annotated with “marks” — links to <a
+			A <a href="index.html">separate page lists 24 books</a> that have
+			already been processed within this project. Each of them has been
+			read and annotated with “marks” — links to <a
 			href="../cards/index.html">cards</a> of the toolkit. However,
 			there is always work remaining. This page is a backlog that lists
 			some books I would like to be a part of the project but those that
-			I have not processed yet.
+			I have not processed yet. <a
+			href="mailto:vadim@grammarware.net">Get in touch</a> if you wish
+			to help.		
 		</p>
 		<p>These eight categories of books are already represented in this project:</p>
 		<ul>
