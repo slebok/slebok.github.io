@@ -14,9 +14,8 @@
 			href="../cards/index.html">cards</a> of the toolkit. However,
 			there is always work remaining. This page is a backlog that lists
 			some books I would like to be a part of the project but those that
-			I have not processed yet. <a
-			href="mailto:vadim@grammarware.net">Get in touch</a> if you wish
-			to help.		
+			I have not processed yet.
+			<a href="mailto:vadim@grammarware.net">Get in touch</a> if you wish to help.		
 		</p>
 		<p>These eight categories of books are already represented in this project:</p>
 		<ul>

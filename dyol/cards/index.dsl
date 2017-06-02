@@ -96,6 +96,7 @@
 			<src>LD-JW:1</src>
 			<src>SL-AS:34</src>
 			<src>SL-RL:178</src>
+		<extended>Block</extended>
 		</pic>
 		<pic card>
 			<title>Branching</title>

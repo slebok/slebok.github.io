@@ -349,6 +349,25 @@ for c in keys:
 					card.write('				<dd>{0}</dd>'.format(txt[key].strip()))
 				card.write('			</dl></raw>\n')
 				card.write('		</pic>\n')
+			elif lines[i].startswith('Paper'):
+				card.write('		<pic card>\n')
+				authors = []
+				for author in lines[i+3].strip().split(', '):
+					safe = author.replace(' ', '_').replace('.', '')
+					if os.path.isfile('c:\\bigrepos\\bibsleigh\\frontend\\person\\'+safe+'.html'):
+						authors.append('<a href="http://bibtex.github.io/person/{0}.html">{1}</a>'.format(safe, author))
+					else:
+						authors.append(author)
+				card.write(('			<title>{1}</title>\n'+
+							'			<text>{3}<br/>{2}<br/>{5} <a href="{0}">{0}</a><br/><br/>{4}</text>\n').format(\
+					lines[i+1].strip(),  # {0}:link
+					lines[i+2].strip(),  # {1}:title
+					', '.join(authors),  # {2}:authors
+					lines[i+4].strip(),  # {3}:venue
+					lines[i+5].strip(), # {4}:summary
+					'<img src="../../www/{0}.png" alt="{0} access" />'.format(lines[i].strip().split(' ')[-1]) ))
+				card.write('		</pic>\n')
+				i += 6
 			else:
 				print('Skipped line '+lines[i])
 			i += 1
