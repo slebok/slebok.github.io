@@ -62,3 +62,6 @@ hr{clear: both;}
 .wb {word-break: break-all}
 .nb {color:#dd2c00}
 blockquote {font-style:italic}
+.dim {opacity:0.3}
+ul.dim:hover {opacity:0.8; color: blue;}
+ul.dim {text-indent:0}
