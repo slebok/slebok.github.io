@@ -4,74 +4,74 @@
 	<head viewport title="GraSs: A Taxonomy of Grammar Smells">
 	<body>
 		<header/>
-		<h1>GraSs: A Taxonomy of Grammar Smells</h1>
+		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
 		<hr/>
 		<pic dwarf dim>
 			<a>navigation.html</a>
 			<name>Navigation</name>
-			<text></text>
+			<small>problems with navigating through the grammar</small>
 		</pic>
 		<pic dwarf>
 			<a>organisation.html</a>
 			<name>Organisation</name>
-			<text></text>
+			<small>global problems</small>
 		</pic>
 		<pic dwarf dim>
 			<a>structure.html</a>
 			<name>Structure</name>
-			<text></text>
+			<small>harmful relationships among grammar components</small>
 		</pic>
 		<hr/>
 		<pic dwarf dim>
 			<a>convention.html</a>
 			<name>Convention</name>
-			<text></text>
+			<small>violations of visual policies</small>
 		</pic>
 		<pic dwarf dim>
 			<a>duplication.html</a>
 			<name>Duplication</name>
-			<text></text>
+			<small>the same fragment is repeated</small>
 		</pic>
 		<pic dwarf>
 			<a>notation.html</a>
 			<name>Notation</name>
-			<text></text>
+			<small>metalanguage-related</small>
 		</pic>
 		<pic dwarf dim>
 			<a>parsing.html</a>
 			<name>Parsing</name>
-			<text></text>
+			<small>parsing techniques related smells</small>
 		</pic>
 		<hr/>
 		<pic dwarf>
 			<a>combo.html</a>
 			<name>Combo</name>
-			<text></text>
+			<small>double modifier creates an ambiguity</small>
 		</pic>
 		<pic dwarf dim>
 			<a>overspec.html</a>
 			<name>Overspec</name>
-			<text></text>
+			<small>the same constraint specified through several means</small>
 		</pic>
 		<pic dwarf dim>
 			<a>priorities.html</a>
 			<name>Priorities</name>
-			<text></text>
+			<small>not present or circular</small>
 		</pic>
 		<pic dwarf dim>
 			<a>singleton.html</a>
 			<name>Singleton</name>
-			<text></text>
+			<small>trivial choice, sequence or conjunction</small>
 		</pic>
 		<pic dwarf dim>
 			<a>underuse.html</a>
 			<name>Underuse</name>
-			<text></text>
+			<small>inferior substitutes are used instead of an available feature</small>
 		</pic>
 		<hr/>
 		<pic wide>
 			<name>Combo</name>
-			<raw></raw>
+			<small>double modifier creates an ambiguity</small>
 		</pic>
 		<hr/>
 		<div class="last">

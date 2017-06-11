@@ -4,69 +4,69 @@
 	<head viewport title="GraSs: A Taxonomy of Grammar Smells">
 	<body>
 		<header/>
-		<h1>GraSs: A Taxonomy of Grammar Smells</h1>
+		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
 		<hr/>
 		<pic dwarf dim>
 			<a>navigation.html</a>
 			<name>Navigation</name>
-			<text></text>
+			<small>problems with navigating through the grammar</small>
 		</pic>
 		<pic dwarf dim>
 			<a>organisation.html</a>
 			<name>Organisation</name>
-			<text></text>
+			<small>global problems</small>
 		</pic>
 		<pic dwarf>
 			<a>structure.html</a>
 			<name>Structure</name>
-			<text></text>
+			<small>harmful relationships among grammar components</small>
 		</pic>
 		<hr/>
 		<pic dwarf>
 			<a>complexity.html</a>
 			<name>Complexity</name>
-			<text></text>
+			<small>metric-based smells</small>
 		</pic>
 		<pic dwarf dim>
 			<a>dependency.html</a>
 			<name>Dependency</name>
-			<text></text>
+			<small>antipatterns in use</small>
 		</pic>
 		<pic dwarf dim>
 			<a>proxy.html</a>
 			<name>Proxy</name>
-			<text></text>
+			<small>indirect uses</small>
 		</pic>
 		<hr/>
 		<pic dwarf dim>
 			<a>toonested.html</a>
 			<name>TooNested</name>
-			<text></text>
+			<small>groups are too deeply nested</small>
 		</pic>
 		<pic dwarf dim>
 			<a>tooramose.html</a>
 			<name>TooRamose</name>
-			<text></text>
+			<small>too much branching</small>
 		</pic>
 		<pic dwarf dim>
 			<a>toorecursive.html</a>
 			<name>TooRecursive</name>
-			<text></text>
+			<small>too much recursion</small>
 		</pic>
 		<pic dwarf dim>
 			<a>tootall.html</a>
 			<name>TooTall</name>
-			<text></text>
+			<small>the height (distance from the root) is too big</small>
 		</pic>
 		<pic dwarf>
 			<a>toowide.html</a>
 			<name>TooWide</name>
-			<text></text>
+			<small>the width (right hand side length) is too big</small>
 		</pic>
 		<hr/>
 		<pic wide>
 			<name>TooWide</name>
-			<raw></raw>
+			<small>the width (right hand side length) is too big</small>
 		</pic>
 		<hr/>
 		<div class="last">

@@ -4,54 +4,54 @@
 	<head viewport title="GraSs: A Taxonomy of Grammar Smells">
 	<body>
 		<header/>
-		<h1>GraSs: A Taxonomy of Grammar Smells</h1>
+		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
 		<hr/>
 		<pic dwarf dim>
 			<a>navigation.html</a>
 			<name>Navigation</name>
-			<text></text>
+			<small>problems with navigating through the grammar</small>
 		</pic>
 		<pic dwarf dim>
 			<a>organisation.html</a>
 			<name>Organisation</name>
-			<text></text>
+			<small>global problems</small>
 		</pic>
 		<pic dwarf>
 			<a>structure.html</a>
 			<name>Structure</name>
-			<text></text>
+			<small>harmful relationships among grammar components</small>
 		</pic>
 		<hr/>
 		<pic dwarf dim>
 			<a>complexity.html</a>
 			<name>Complexity</name>
-			<text></text>
+			<small>metric-based smells</small>
 		</pic>
 		<pic dwarf dim>
 			<a>dependency.html</a>
 			<name>Dependency</name>
-			<text></text>
+			<small>antipatterns in use</small>
 		</pic>
 		<pic dwarf>
 			<a>proxy.html</a>
 			<name>Proxy</name>
-			<text></text>
+			<small>indirect uses</small>
 		</pic>
 		<hr/>
 		<pic dwarf dim>
 			<a>chain.html</a>
 			<name>Chain</name>
-			<text></text>
+			<small>right hand side is a nonterminal</small>
 		</pic>
 		<pic dwarf>
 			<a>throwaway.html</a>
 			<name>Throwaway</name>
-			<text></text>
+			<small>a nonterminal used only once</small>
 		</pic>
 		<hr/>
 		<pic wide>
 			<name>Throwaway</name>
-			<raw></raw>
+			<small>a nonterminal used only once</small>
 		</pic>
 		<hr/>
 		<div class="last">

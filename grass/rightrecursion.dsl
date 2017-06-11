@@ -4,64 +4,64 @@
 	<head viewport title="GraSs: A Taxonomy of Grammar Smells">
 	<body>
 		<header/>
-		<h1>GraSs: A Taxonomy of Grammar Smells</h1>
+		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
 		<hr/>
 		<pic dwarf dim>
 			<a>navigation.html</a>
 			<name>Navigation</name>
-			<text></text>
+			<small>problems with navigating through the grammar</small>
 		</pic>
 		<pic dwarf>
 			<a>organisation.html</a>
 			<name>Organisation</name>
-			<text></text>
+			<small>global problems</small>
 		</pic>
 		<pic dwarf dim>
 			<a>structure.html</a>
 			<name>Structure</name>
-			<text></text>
+			<small>harmful relationships among grammar components</small>
 		</pic>
 		<hr/>
 		<pic dwarf dim>
 			<a>convention.html</a>
 			<name>Convention</name>
-			<text></text>
+			<small>violations of visual policies</small>
 		</pic>
 		<pic dwarf dim>
 			<a>duplication.html</a>
 			<name>Duplication</name>
-			<text></text>
+			<small>the same fragment is repeated</small>
 		</pic>
 		<pic dwarf dim>
 			<a>notation.html</a>
 			<name>Notation</name>
-			<text></text>
+			<small>metalanguage-related</small>
 		</pic>
 		<pic dwarf>
 			<a>parsing.html</a>
 			<name>Parsing</name>
-			<text></text>
+			<small>parsing techniques related smells</small>
 		</pic>
 		<hr/>
 		<pic dwarf dim>
 			<a>factoring.html</a>
 			<name>Factoring</name>
-			<text></text>
+			<small>improper factoring or distribution</small>
 		</pic>
 		<pic dwarf dim>
 			<a>leftrecursion.html</a>
 			<name>LeftRecursion</name>
-			<text></text>
+			<small>left recursive rules</small>
 		</pic>
 		<pic dwarf>
 			<a>rightrecursion.html</a>
 			<name>RightRecursion</name>
-			<text></text>
+			<small>right recursive rules</small>
 		</pic>
 		<hr/>
 		<pic wide>
 			<name>RightRecursion</name>
-			<raw></raw>
+			<small>right recursive rules</small>
 		</pic>
 		<hr/>
 		<div class="last">

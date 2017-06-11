@@ -11,7 +11,7 @@ def makeheader():
 	<head viewport title="GraSs: A Taxonomy of Grammar Smells">
 	<body>
 		<header/>
-		<h1>GraSs: A Taxonomy of Grammar Smells</h1>
+		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
 '''
 
 def makefooter():
@@ -28,14 +28,14 @@ def makepic(link, name, text, dim):
 	return '''		<pic dwarf{3}>
 			<a>{0}.html</a>
 			<name>{1}</name>
-			<text>{2}</text>
+			<small>{2}</small>
 		</pic>
 '''.format(link, name, text, ' dim' if dim else '')
 
 def makelastpic(name, text):
 	return '''		<pic wide>
 			<name>{0}</name>
-			<raw>{1}</raw>
+			<small>{1}</small>
 		</pic>
 '''.format(name, text)
 
@@ -50,6 +50,7 @@ def mysplit(s):
 
 taxonomy = {}
 explanation = {}
+longdesc = {}
 
 cur1 = cur2 = ''
 f = open('index.tax', 'r', encoding='utf-8')
@@ -57,17 +58,23 @@ for line in f.readlines():
 	if line.startswith('\t\t'):
 		a, b = mysplit(line)
 		taxonomy[cur1][cur2].append(a)
-		explanation[a] = b
+		explanation[a] = b if b else '...'
 	elif line.startswith('\t'):
 		a, b = mysplit(line)
 		cur2 = a
-		explanation[a] = b
+		explanation[a] = b if b else '...'
 		taxonomy[cur1][cur2] = []
 	else:
 		a, b = mysplit(line)
 		cur1 = a
-		explanation[a] = b
+		explanation[a] = b if b else '...'
 		taxonomy[cur1] = {}
+f.close()
+
+f = open('long.tax', 'r', encoding='utf-8')
+for line in f.readlines():
+	a, b = mysplit(line)
+	longdesc[a] = b if b else explanation[a]
 f.close()
 
 keys = sorted(taxonomy.keys())
@@ -130,7 +137,7 @@ for key1 in keys:
 			for key3e in sorted(taxonomy[key1][key2]):
 				f.write(makepic(key3e.lower(), key3e, explanation[key3e], key3e != key3))
 			f.write(makehr())
-			f.write(makelastpic(key3, explanation[key3]))
+			f.write(makelastpic(key3, longdesc[key3]))
 			f.write(makehr())
 			f.write(makefooter())
 			f.close()

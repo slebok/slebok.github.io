@@ -4,38 +4,38 @@
 	<head viewport title="GraSs: A Taxonomy of Grammar Smells">
 	<body>
 		<header/>
-		<h1>GraSs: A Taxonomy of Grammar Smells</h1>
+		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
 		<hr/>
 		<pic dwarf>
 			<a>navigation.html</a>
 			<name>Navigation</name>
-			<text></text>
+			<small>problems with navigating through the grammar</small>
 		</pic>
 		<pic dwarf dim>
 			<a>organisation.html</a>
 			<name>Organisation</name>
-			<text></text>
+			<small>global problems</small>
 		</pic>
 		<pic dwarf dim>
 			<a>structure.html</a>
 			<name>Structure</name>
-			<text></text>
+			<small>harmful relationships among grammar components</small>
 		</pic>
 		<hr/>
 		<pic dwarf>
 			<a>mix.html</a>
 			<name>Mix</name>
-			<text></text>
+			<small>spicing the grammar with alien fragments</small>
 		</pic>
 		<pic dwarf>
 			<a>shortage.html</a>
 			<name>Shortage</name>
-			<text></text>
+			<small>incompleteness</small>
 		</pic>
 		<pic dwarf>
 			<a>spaghetti.html</a>
 			<name>Spaghetti</name>
-			<text></text>
+			<small>scattering details over the grammar</small>
 		</pic>
 		<hr/>
 		<div class="last">

@@ -1,50 +1,50 @@
-Organisation
-	Notation
-		Underuse
-		Overspec
-		Priorities
-		Combo
-		Singleton
-	Convention
-		Formatting
-		Naming
-		ZigZag
-		Splat
-	Parsing
-		Factoring
-		LeftRecursion
-		RightRecursion
-	Duplication
-		Echo
-		Clone
-		Foldable
-		Common
-		Permuted
-		Lookalike
-Navigation
-	Spaghetti
-		Uncluster
-		Unsequence
-		Start
-	Shortage
-		Alphabet
-		Entry
-		Dead
-		Undefined
-		Module
-	Mix
-		Layout
-		Preprocessor
-Structure
-	Proxy
-		Chain
-		Throwaway
-	Dependency
-		Diamond
-		Rivalry
-	Complexity
-		TooWide
-		TooRamose
-		TooRecursive
-		TooNested
-		TooTall
+Organisation: global problems
+	Notation: metalanguage-related
+		Underuse: inferior substitutes are used instead of an available feature
+		Overspec: the same constraint specified through several means
+		Priorities: not present or circular
+		Combo: double modifier creates an ambiguity
+		Singleton: trivial choice, sequence or conjunction
+	Convention: violations of visual policies
+		Formatting: misleading formatting
+		Naming: problems with naming policies
+		ZigZag: mixing horizontal and vertical styles
+		Splat: nonterminal fragments scattered over the grammar
+	Parsing: parsing techniques related smells
+		Factoring: improper factoring or distribution
+		LeftRecursion: left recursive rules
+		RightRecursion: right recursive rules
+	Duplication: the same fragment is repeated
+		Echo: same rule occurs twice or more
+		Clone: same right hand side occurs twice or more
+		Foldable: nonterminal's right hand side is not unique
+		Common: common subexpressions
+		Permuted: permutations in commutative combinators
+		Lookalike: near-clones
+Navigation: problems with navigating through the grammar
+	Spaghetti: scattering details over the grammar
+		Uncluster: related nonterminals too far from one another
+		Unsequence: confusing order of the production rules
+		Start: the root symbol should not occur in the middle
+	Shortage: incompleteness
+		Alphabet: seemingly incomplete collections
+		Entry: no starting symbol
+		Dead: nonterminal defined, but not referenced
+		Undefined: nonterminal referenced, but not defined
+		Module: a missing module
+	Mix: spicing the grammar with alien fragments
+		Layout: problems with whitespace and comments
+		Preprocessor: combining parsing spec with preprocessor spec
+Structure: harmful relationships among grammar components
+	Proxy: indirect uses
+		Chain: right hand side is a nonterminal
+		Throwaway: a nonterminal used only once
+	Dependency: antipatterns in use
+		Diamond: A is X and B is X, but C is A or B
+		Rivalry: overlapping alternatives
+	Complexity: metric-based smells
+		TooWide: the width (right hand side length) is too big
+		TooRamose: too much branching
+		TooRecursive: too much recursion
+		TooNested: groups are too deeply nested
+		TooTall: the height (distance from the root) is too big

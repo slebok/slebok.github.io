@@ -1,0 +1,37 @@
+Alphabet: The completeness of some character classes and terminal choices can be predicted, and compared to the actual value given by the grammar. For example, if a character class includes all Latin letters except one or all whitespace characters except \r, it may be an error. Similarly, if a preterminal is defined as a choice of all other alphanumeric terminals in the grammar (common for keyword definitions), then not a single one of them should be skipped.
+Chain
+Clone
+Combo
+Common
+Dead
+Diamond
+Echo
+Entry
+Factoring
+Foldable
+Formatting
+Layout
+LeftRecursion
+Lookalike
+Module
+Naming
+Overspec
+Permuted
+Preprocessor
+Priorities
+RightRecursion
+Rivalry
+Singleton
+Splat
+Start: The starting symbol of the grammar should be on top or the bottom of the grammar, not in the middle
+Throwaway
+TooNested
+TooRamose
+TooRecursive
+TooTall
+TooWide
+Uncluster: Nonterminals that refer to one another, should be located close to one another
+Undefined
+Underuse
+Unsequence: The order of the production rules in the grammar should be set up in a consistent manner, such that referred nonterminals in production rules refer either up or down in the grammar
+ZigZag

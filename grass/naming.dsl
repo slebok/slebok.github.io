@@ -4,69 +4,69 @@
 	<head viewport title="GraSs: A Taxonomy of Grammar Smells">
 	<body>
 		<header/>
-		<h1>GraSs: A Taxonomy of Grammar Smells</h1>
+		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
 		<hr/>
 		<pic dwarf dim>
 			<a>navigation.html</a>
 			<name>Navigation</name>
-			<text></text>
+			<small>problems with navigating through the grammar</small>
 		</pic>
 		<pic dwarf>
 			<a>organisation.html</a>
 			<name>Organisation</name>
-			<text></text>
+			<small>global problems</small>
 		</pic>
 		<pic dwarf dim>
 			<a>structure.html</a>
 			<name>Structure</name>
-			<text></text>
+			<small>harmful relationships among grammar components</small>
 		</pic>
 		<hr/>
 		<pic dwarf>
 			<a>convention.html</a>
 			<name>Convention</name>
-			<text></text>
+			<small>violations of visual policies</small>
 		</pic>
 		<pic dwarf dim>
 			<a>duplication.html</a>
 			<name>Duplication</name>
-			<text></text>
+			<small>the same fragment is repeated</small>
 		</pic>
 		<pic dwarf dim>
 			<a>notation.html</a>
 			<name>Notation</name>
-			<text></text>
+			<small>metalanguage-related</small>
 		</pic>
 		<pic dwarf dim>
 			<a>parsing.html</a>
 			<name>Parsing</name>
-			<text></text>
+			<small>parsing techniques related smells</small>
 		</pic>
 		<hr/>
 		<pic dwarf dim>
 			<a>formatting.html</a>
 			<name>Formatting</name>
-			<text></text>
+			<small>misleading formatting</small>
 		</pic>
 		<pic dwarf>
 			<a>naming.html</a>
 			<name>Naming</name>
-			<text></text>
+			<small>problems with naming policies</small>
 		</pic>
 		<pic dwarf dim>
 			<a>splat.html</a>
 			<name>Splat</name>
-			<text></text>
+			<small>nonterminal fragments scattered over the grammar</small>
 		</pic>
 		<pic dwarf dim>
 			<a>zigzag.html</a>
 			<name>ZigZag</name>
-			<text></text>
+			<small>mixing horizontal and vertical styles</small>
 		</pic>
 		<hr/>
 		<pic wide>
 			<name>Naming</name>
-			<raw></raw>
+			<small>problems with naming policies</small>
 		</pic>
 		<hr/>
 		<div class="last">
