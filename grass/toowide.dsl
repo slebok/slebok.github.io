@@ -39,6 +39,31 @@
 		</pic>
 		<hr/>
 		<pic dwarf dim>
+			<a>toocoupled.html</a>
+			<name>TooCoupled</name>
+			<small>low cohesion and/or high coupling</small>
+		</pic>
+		<pic dwarf dim>
+			<a>toogreedy.html</a>
+			<name>TooGreedy</name>
+			<small>one module that does too much</small>
+		</pic>
+		<pic dwarf dim>
+			<a>toolazy.html</a>
+			<name>TooLazy</name>
+			<small>one module that does not do much</small>
+		</pic>
+		<pic dwarf dim>
+			<a>toolonely.html</a>
+			<name>TooLonely</name>
+			<small>large non-modular grammar</small>
+		</pic>
+		<pic dwarf dim>
+			<a>toomodular.html</a>
+			<name>TooModular</name>
+			<small>too many modules</small>
+		</pic>
+		<pic dwarf dim>
 			<a>toonested.html</a>
 			<name>TooNested</name>
 			<small>groups are too deeply nested</small>
@@ -66,7 +91,7 @@
 		<hr/>
 		<pic wide>
 			<name>TooWide</name>
-			<small>the width (right hand side length) is too big</small>
+			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/SATL.html">Subsystem-API Too Large</a>, <a href="http://tusharma.in/smells/LM.html">Long Method</a>, <a href="http://tusharma.in/smells/LPL.html">Long Parameter List</a>, <a href="http://tusharma.in/smells/CE.html">Complex Expression</a>, <a href="http://tusharma.in/smells/LS.html">Long Statement</a></small>
 		</pic>
 		<hr/>
 		<div class="last">

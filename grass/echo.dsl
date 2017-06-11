@@ -76,7 +76,7 @@
 		<hr/>
 		<pic wide>
 			<name>Echo</name>
-			<small>same rule occurs twice or more</small>
+			<small>???</small>
 		</pic>
 		<hr/>
 		<div class="last">

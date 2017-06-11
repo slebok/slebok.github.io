@@ -44,9 +44,19 @@
 			<small>right hand side is a nonterminal</small>
 		</pic>
 		<pic dwarf>
+			<a>ghost.html</a>
+			<name>Ghost</name>
+			<small>a subexpression that should have been a nonterminal</small>
+		</pic>
+		<pic dwarf>
 			<a>throwaway.html</a>
 			<name>Throwaway</name>
 			<small>a nonterminal used only once</small>
+		</pic>
+		<pic dwarf>
+			<a>weak.html</a>
+			<name>Weak</name>
+			<small>a nonterminal does not form a proper abstraction</small>
 		</pic>
 		<hr/>
 		<div class="last">

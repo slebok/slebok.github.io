@@ -44,9 +44,24 @@
 		</pic>
 		<hr/>
 		<pic dwarf>
+			<a>action.html</a>
+			<name>Action</name>
+			<small>a code smell in a semantic action</small>
+		</pic>
+		<pic dwarf>
+			<a>default.html</a>
+			<name>Default</name>
+			<small>no error-localising default branch</small>
+		</pic>
+		<pic dwarf>
 			<a>factoring.html</a>
 			<name>Factoring</name>
 			<small>improper factoring or distribution</small>
+		</pic>
+		<pic dwarf>
+			<a>future.html</a>
+			<name>Future</name>
+			<small>a chunk of input could be parsed in more detail</small>
 		</pic>
 		<pic dwarf>
 			<a>leftrecursion.html</a>
@@ -57,6 +72,11 @@
 			<a>rightrecursion.html</a>
 			<name>RightRecursion</name>
 			<small>right recursive rules</small>
+		</pic>
+		<pic dwarf>
+			<a>superset.html</a>
+			<name>Superset</name>
+			<small>parser spec is too relaxed</small>
 		</pic>
 		<hr/>
 		<div class="last">

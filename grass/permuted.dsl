@@ -76,7 +76,7 @@
 		<hr/>
 		<pic wide>
 			<name>Permuted</name>
-			<small>permutations in commutative combinators</small>
+			<small>???</small>
 		</pic>
 		<hr/>
 		<div class="last">

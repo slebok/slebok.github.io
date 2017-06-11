@@ -53,6 +53,11 @@
 			<name>Naming</name>
 			<small>problems with naming policies</small>
 		</pic>
+		<pic dwarf dim>
+			<a>natural.html</a>
+			<name>Natural</name>
+			<small>a misspelling or improper use of the natural language</small>
+		</pic>
 		<pic dwarf>
 			<a>splat.html</a>
 			<name>Splat</name>
@@ -66,7 +71,7 @@
 		<hr/>
 		<pic wide>
 			<name>Splat</name>
-			<small>nonterminal fragments scattered over the grammar</small>
+			<small>???</small>
 		</pic>
 		<hr/>
 		<div class="last">

@@ -44,9 +44,24 @@
 		</pic>
 		<hr/>
 		<pic dwarf dim>
+			<a>action.html</a>
+			<name>Action</name>
+			<small>a code smell in a semantic action</small>
+		</pic>
+		<pic dwarf dim>
+			<a>default.html</a>
+			<name>Default</name>
+			<small>no error-localising default branch</small>
+		</pic>
+		<pic dwarf dim>
 			<a>factoring.html</a>
 			<name>Factoring</name>
 			<small>improper factoring or distribution</small>
+		</pic>
+		<pic dwarf dim>
+			<a>future.html</a>
+			<name>Future</name>
+			<small>a chunk of input could be parsed in more detail</small>
 		</pic>
 		<pic dwarf dim>
 			<a>leftrecursion.html</a>
@@ -58,10 +73,15 @@
 			<name>RightRecursion</name>
 			<small>right recursive rules</small>
 		</pic>
+		<pic dwarf dim>
+			<a>superset.html</a>
+			<name>Superset</name>
+			<small>parser spec is too relaxed</small>
+		</pic>
 		<hr/>
 		<pic wide>
 			<name>RightRecursion</name>
-			<small>right recursive rules</small>
+			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/CH.html">Cyclic Hierarchy</a>, <a href="http://tusharma.in/smells/ESA.html">Self Assignment</a></small>
 		</pic>
 		<hr/>
 		<div class="last">

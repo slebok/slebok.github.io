@@ -76,7 +76,7 @@
 		<hr/>
 		<pic wide>
 			<name>Common</name>
-			<small>common subexpressions</small>
+			<small>TODO: DC is when data is used together<br/>Related smells: <a href="http://tusharma.in/smells/DC.html">Data Clumps</a>, <a href="http://tusharma.in/smells/RW.html">Reinvent the Wheel</a>, <a href="http://tusharma.in/smells/DB.html">Duplicate Block</a></small>
 		</pic>
 		<hr/>
 		<div class="last">

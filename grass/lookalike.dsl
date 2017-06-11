@@ -76,7 +76,7 @@
 		<hr/>
 		<pic wide>
 			<name>Lookalike</name>
-			<small>near-clones</small>
+			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/RW.html">Reinvent the Wheel</a></small>
 		</pic>
 		<hr/>
 		<div class="last">

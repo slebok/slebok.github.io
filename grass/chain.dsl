@@ -44,14 +44,24 @@
 			<small>right hand side is a nonterminal</small>
 		</pic>
 		<pic dwarf dim>
+			<a>ghost.html</a>
+			<name>Ghost</name>
+			<small>a subexpression that should have been a nonterminal</small>
+		</pic>
+		<pic dwarf dim>
 			<a>throwaway.html</a>
 			<name>Throwaway</name>
 			<small>a nonterminal used only once</small>
 		</pic>
+		<pic dwarf dim>
+			<a>weak.html</a>
+			<name>Weak</name>
+			<small>a nonterminal does not form a proper abstraction</small>
+		</pic>
 		<hr/>
 		<pic wide>
 			<name>Chain</name>
-			<small>right hand side is a nonterminal</small>
+			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/LC2.html">Lazy Class</a>, <a href="http://tusharma.in/smells/EAC.html">Extraneous Adjacent Connector</a>, <a href="http://tusharma.in/smells/MC.html">Message Chains</a>, <a href="http://tusharma.in/smells/MM.html">Middle Man</a></small>
 		</pic>
 		<hr/>
 		<div class="last">

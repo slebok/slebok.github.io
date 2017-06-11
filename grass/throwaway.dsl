@@ -43,15 +43,25 @@
 			<name>Chain</name>
 			<small>right hand side is a nonterminal</small>
 		</pic>
+		<pic dwarf dim>
+			<a>ghost.html</a>
+			<name>Ghost</name>
+			<small>a subexpression that should have been a nonterminal</small>
+		</pic>
 		<pic dwarf>
 			<a>throwaway.html</a>
 			<name>Throwaway</name>
 			<small>a nonterminal used only once</small>
 		</pic>
+		<pic dwarf dim>
+			<a>weak.html</a>
+			<name>Weak</name>
+			<small>a nonterminal does not form a proper abstraction</small>
+		</pic>
 		<hr/>
 		<pic wide>
 			<name>Throwaway</name>
-			<small>a nonterminal used only once</small>
+			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/LIH.html">List-like Inheritance Hierarchy</a>, <a href="http://tusharma.in/smells/POL.html">Poltergeist</a></small>
 		</pic>
 		<hr/>
 		<div class="last">

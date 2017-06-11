@@ -76,7 +76,7 @@
 		<hr/>
 		<pic wide>
 			<name>Foldable</name>
-			<small>nonterminal's right hand side is not unique</small>
+			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/SPF.html">Scattered Parasitic Functionality</a>, <a href="http://tusharma.in/smells/SAB.html">Subsystem-API Bypassed</a>, <a href="http://tusharma.in/smells/GODY.html">The Grand Old Duke of York</a>, <a href="http://tusharma.in/smells/BH.html">Broken Hierarchy</a>, <a href="http://tusharma.in/smells/СBH.html">Broken Hierarchy</a></small>
 		</pic>
 		<hr/>
 		<div class="last">

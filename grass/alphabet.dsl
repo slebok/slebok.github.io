@@ -59,6 +59,11 @@
 			<small>a missing module</small>
 		</pic>
 		<pic dwarf dim>
+			<a>todo.html</a>
+			<name>ToDo</name>
+			<small>incompletenesses covered up by todo/fixme comments</small>
+		</pic>
+		<pic dwarf dim>
 			<a>undefined.html</a>
 			<name>Undefined</name>
 			<small>nonterminal referenced, but not defined</small>
@@ -66,7 +71,7 @@
 		<hr/>
 		<pic wide>
 			<name>Alphabet</name>
-			<small>The completeness of some character classes and terminal choices can be predicted, and compared to the actual value given by the grammar. For example, if a character class includes all Latin letters except one or all whitespace characters except \r, it may be an error. Similarly, if a preterminal is defined as a choice of all other alphanumeric terminals in the grammar (common for keyword definitions), then not a single one of them should be skipped.</small>
+			<small>The completeness of some character classes and terminal choices can be predicted, and compared to the actual value given by the grammar. For example, if a character class includes all Latin letters except one or all whitespace characters except <code>\r</code>, it may be an error. Similarly, if a preterminal is defined as a choice of all other alphanumeric terminals in the grammar (common for keyword definitions), then not a single one of them should be skipped.</small>
 		</pic>
 		<hr/>
 		<div class="last">

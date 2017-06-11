@@ -44,9 +44,24 @@
 			<small>A is X and B is X, but C is A or B</small>
 		</pic>
 		<pic dwarf>
+			<a>mythic.html</a>
+			<name>Mythic</name>
+			<small>an alternative that is never exercised in the codebase</small>
+		</pic>
+		<pic dwarf>
+			<a>ouroboros.html</a>
+			<name>Ouroboros</name>
+			<small>a circular dependency among modules</small>
+		</pic>
+		<pic dwarf>
 			<a>rivalry.html</a>
 			<name>Rivalry</name>
 			<small>overlapping alternatives</small>
+		</pic>
+		<pic dwarf>
+			<a>soulmates.html</a>
+			<name>Soulmates</name>
+			<small>nonterminals or modules are always changed together</small>
 		</pic>
 		<hr/>
 		<div class="last">

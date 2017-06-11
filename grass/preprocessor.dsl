@@ -51,7 +51,7 @@
 		<hr/>
 		<pic wide>
 			<name>Preprocessor</name>
-			<small>combining parsing spec with preprocessor spec</small>
+			<small>???</small>
 		</pic>
 		<hr/>
 		<div class="last">

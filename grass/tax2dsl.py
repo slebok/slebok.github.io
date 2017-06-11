@@ -51,13 +51,23 @@ def mysplit(s):
 taxonomy = {}
 explanation = {}
 longdesc = {}
+related = {}
 
-cur1 = cur2 = ''
+cur1 = cur2 = cur3 = ''
 f = open('index.tax', 'r', encoding='utf-8')
 for line in f.readlines():
-	if line.startswith('\t\t'):
+	if line.startswith('\t\t\t'):
+		line = line.strip()
+		if line.startswith('Related: '):
+			related[cur3].append(line[9:].strip())
+		else:
+			longdesc[cur3] += line.strip()
+	elif line.startswith('\t\t'):
 		a, b = mysplit(line)
-		taxonomy[cur1][cur2].append(a)
+		cur3 = a
+		taxonomy[cur1][cur2].append(cur3)
+		longdesc[cur3] = ''
+		related[cur3] = []
 		explanation[a] = b if b else '...'
 	elif line.startswith('\t'):
 		a, b = mysplit(line)
@@ -71,11 +81,11 @@ for line in f.readlines():
 		taxonomy[cur1] = {}
 f.close()
 
-f = open('long.tax', 'r', encoding='utf-8')
-for line in f.readlines():
-	a, b = mysplit(line)
-	longdesc[a] = b if b else explanation[a]
-f.close()
+# f = open('long.tax', 'r', encoding='utf-8')
+# for line in f.readlines():
+# 	a, b = mysplit(line)
+# 	longdesc[a] = b if b else explanation[a]
+# f.close()
 
 keys = sorted(taxonomy.keys())
 
@@ -137,7 +147,14 @@ for key1 in keys:
 			for key3e in sorted(taxonomy[key1][key2]):
 				f.write(makepic(key3e.lower(), key3e, explanation[key3e], key3e != key3))
 			f.write(makehr())
-			f.write(makelastpic(key3, longdesc[key3]))
+			s = longdesc[key3]
+			if not s:
+				s = '???'
+			if key3 in related.keys() and related[key3]:
+				s += '<br/>Related smells: ' + ', '.join(\
+					['<a href="http://tusharma.in/smells/{0}.html">{1}</a>'.format(*x.split('|'))
+						for x in related[key3]])
+			f.write(makelastpic(key3, s))
 			f.write(makehr())
 			f.write(makefooter())
 			f.close()

@@ -56,7 +56,7 @@
 		<hr/>
 		<pic wide>
 			<name>Unsequence</name>
-			<small>The order of the production rules in the grammar should be set up in a consistent manner, such that referred nonterminals in production rules refer either up or down in the grammar</small>
+			<small>The order of the production rules in the grammar should be set up in a consistent manner, such that referred nonterminals in production rules refer either up or down in the grammar<br/>Related smells: <a href="http://tusharma.in/smells/SC.html">Spaghetti Code</a></small>
 		</pic>
 		<hr/>
 		<div class="last">

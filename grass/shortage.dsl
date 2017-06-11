@@ -59,6 +59,11 @@
 			<small>a missing module</small>
 		</pic>
 		<pic dwarf>
+			<a>todo.html</a>
+			<name>ToDo</name>
+			<small>incompletenesses covered up by todo/fixme comments</small>
+		</pic>
+		<pic dwarf>
 			<a>undefined.html</a>
 			<name>Undefined</name>
 			<small>nonterminal referenced, but not defined</small>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html version="-//W3C//DTD XHTML 1.1//EN" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/1999/xhtml http://www.w3.org/MarkUp/SCHEMA/xhtml11.xsd">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="x-ua-compatible" content="IE=9"/>
+		<meta name="viewport" content="initial-scale=1.0"/>
+		<title>GraSs: A Taxonomy of Grammar Smells</title>
+		<link href="../www/common.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3743366-8', 'auto');
+  ga('send', 'pageview');
+
+		</script>
+	</head>
+	<body>
+<div style="text-align:center;"><a href="http://grammarware.github.io">Vadim Zaytsev</a> aka @<a href="http://grammarware.net">grammarware</a></div><hr/>		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
+		<hr/>
+		<div><a href="navigation.html"><span class="dwarf dim pic">Navigation<br/><span class="s">problems with navigating through the grammar</span></span></a></div>
+		<div><a href="organisation.html"><span class="dwarf dim pic">Organisation<br/><span class="s">global problems</span></span></a></div>
+		<div><a href="structure.html"><span class="dwarf pic">Structure<br/><span class="s">harmful relationships among grammar components</span></span></a></div>
+		<hr/>
+		<div><a href="complexity.html"><span class="dwarf dim pic">Complexity<br/><span class="s">metric-based smells</span></span></a></div>
+		<div><a href="dependency.html"><span class="dwarf dim pic">Dependency<br/><span class="s">antipatterns in use</span></span></a></div>
+		<div><a href="proxy.html"><span class="dwarf pic">Proxy<br/><span class="s">indirect uses</span></span></a></div>
+		<hr/>
+		<div><a href="chain.html"><span class="dwarf dim pic">Chain<br/><span class="s">right hand side is a nonterminal</span></span></a></div>
+		<div><a href="ghost.html"><span class="dwarf dim pic">Ghost<br/><span class="s">a subexpression that should have been a nonterminal</span></span></a></div>
+		<div><a href="throwaway.html"><span class="dwarf dim pic">Throwaway<br/><span class="s">a nonterminal used only once</span></span></a></div>
+		<div><a href="weak.html"><span class="dwarf pic">Weak<br/><span class="s">a nonterminal does not form a proper abstraction</span></span></a></div>
+		<hr/>
+		<div><span class="wide pic">Weak<br/><p class="s">When the right hand side of a nonterminal is formed from several symbols that happen to occur one after another, without forming a proper abstraction, this can hinder grammar's understanding. The terminology is borrowed from TODO which distinguished strong nonterminals (used during parsing and present in the resulting tree) from weak ones (used during parsing but flattened into single nodes in the tree). (TODO in the paper with if/then/else)<br/>Related smells: <a href="http://tusharma.in/smells/IA2.html">Incomplete Abstraction</a>, <a href="http://tusharma.in/smells/UA.html">Unnecessary Abstraction</a>, <a href="http://tusharma.in/smells/UAC.html">Unnecessary Abstraction</a></p></span></div>
+		<hr/>
+		<div class="last">
+			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
+			Page last updated in June 2017.
+<br/><a href="http://validator.w3.org/check/referer"><img src="../www/xhtml.88.png" alt="XHTML 1.1" /></a>
+			<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="../www/css.88.png" alt="CSS 3" /></a>
+		</div>
+	</body>
+</html>

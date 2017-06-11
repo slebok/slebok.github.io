@@ -51,7 +51,7 @@
 		<hr/>
 		<pic wide>
 			<name>Layout</name>
-			<small>problems with whitespace and comments</small>
+			<small>???</small>
 		</pic>
 		<hr/>
 		<div class="last">

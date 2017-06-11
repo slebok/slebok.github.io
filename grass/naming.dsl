@@ -54,6 +54,11 @@
 			<small>problems with naming policies</small>
 		</pic>
 		<pic dwarf dim>
+			<a>natural.html</a>
+			<name>Natural</name>
+			<small>a misspelling or improper use of the natural language</small>
+		</pic>
+		<pic dwarf dim>
 			<a>splat.html</a>
 			<name>Splat</name>
 			<small>nonterminal fragments scattered over the grammar</small>
@@ -66,7 +71,7 @@
 		<hr/>
 		<pic wide>
 			<name>Naming</name>
-			<small>problems with naming policies</small>
+			<small>Several smells in one!<br/>Related smells: <a href="http://tusharma.in/smells/PNCN.html">Packages Not Clearly Named</a>, <a href="http://tusharma.in/smells/DA.html">Duplicate Abstraction</a>, <a href="http://tusharma.in/smells/INC.html">Inconsistent Naming Convention</a></small>
 		</pic>
 		<hr/>
 		<div class="last">

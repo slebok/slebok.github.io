@@ -59,6 +59,11 @@
 			<small>a missing module</small>
 		</pic>
 		<pic dwarf dim>
+			<a>todo.html</a>
+			<name>ToDo</name>
+			<small>incompletenesses covered up by todo/fixme comments</small>
+		</pic>
+		<pic dwarf dim>
 			<a>undefined.html</a>
 			<name>Undefined</name>
 			<small>nonterminal referenced, but not defined</small>
@@ -66,7 +71,7 @@
 		<hr/>
 		<pic wide>
 			<name>Module</name>
-			<small>a missing module</small>
+			<small>???</small>
 		</pic>
 		<hr/>
 		<div class="last">

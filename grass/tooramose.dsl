@@ -39,6 +39,31 @@
 		</pic>
 		<hr/>
 		<pic dwarf dim>
+			<a>toocoupled.html</a>
+			<name>TooCoupled</name>
+			<small>low cohesion and/or high coupling</small>
+		</pic>
+		<pic dwarf dim>
+			<a>toogreedy.html</a>
+			<name>TooGreedy</name>
+			<small>one module that does too much</small>
+		</pic>
+		<pic dwarf dim>
+			<a>toolazy.html</a>
+			<name>TooLazy</name>
+			<small>one module that does not do much</small>
+		</pic>
+		<pic dwarf dim>
+			<a>toolonely.html</a>
+			<name>TooLonely</name>
+			<small>large non-modular grammar</small>
+		</pic>
+		<pic dwarf dim>
+			<a>toomodular.html</a>
+			<name>TooModular</name>
+			<small>too many modules</small>
+		</pic>
+		<pic dwarf dim>
 			<a>toonested.html</a>
 			<name>TooNested</name>
 			<small>groups are too deeply nested</small>
@@ -66,7 +91,7 @@
 		<hr/>
 		<pic wide>
 			<name>TooRamose</name>
-			<small>too much branching</small>
+			<small>TODO: conjunction, disjunction, relate to CC; TODO: WH suggests intermediate "types" but DCT considers those a smell<br/>Related smells: <a href="http://tusharma.in/smells/GC.html">God Class</a>, <a href="http://tusharma.in/smells/PGC.html">God Class</a>, <a href="http://tusharma.in/smells/WH.html">Wide Hierarchy</a>, <a href="http://tusharma.in/smells/DCT.html">Clone Tables</a></small>
 		</pic>
 		<hr/>
 		<div class="last">

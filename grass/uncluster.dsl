@@ -56,7 +56,7 @@
 		<hr/>
 		<pic wide>
 			<name>Uncluster</name>
-			<small>Nonterminals that refer to one another, should be located close to one another</small>
+			<small>Nonterminals that refer to one another, should be located close to one another<br/>Related smells: <a href="http://tusharma.in/smells/SC.html">Spaghetti Code</a></small>
 		</pic>
 		<hr/>
 		<div class="last">

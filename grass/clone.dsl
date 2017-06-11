@@ -76,7 +76,7 @@
 		<hr/>
 		<pic wide>
 			<name>Clone</name>
-			<small>same right hand side occurs twice or more</small>
+			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/DC2.html">Duplicate Code</a>, <a href="http://tusharma.in/smells/RW.html">Reinvent the Wheel</a>, <a href="http://tusharma.in/smells/CPP.html">Cut and Paste Programming</a>, <a href="http://tusharma.in/smells/UH2.html">Unfactored Hierarchy</a>, <a href="http://tusharma.in/smells/DE2.html">Duplicate Entity</a></small>
 		</pic>
 		<hr/>
 		<div class="last">

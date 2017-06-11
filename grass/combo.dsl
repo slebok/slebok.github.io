@@ -49,6 +49,16 @@
 			<small>double modifier creates an ambiguity</small>
 		</pic>
 		<pic dwarf dim>
+			<a>deprecated.html</a>
+			<name>Deprecated</name>
+			<small>the use of a feature that is no longer welcome</small>
+		</pic>
+		<pic dwarf dim>
+			<a>letmeexplain.html</a>
+			<name>LetMeExplain</name>
+			<small>comments cover up bad code</small>
+		</pic>
+		<pic dwarf dim>
 			<a>overspec.html</a>
 			<name>Overspec</name>
 			<small>the same constraint specified through several means</small>
@@ -71,7 +81,7 @@
 		<hr/>
 		<pic wide>
 			<name>Combo</name>
-			<small>double modifier creates an ambiguity</small>
+			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/EUCF.html">Useless Control Flow</a></small>
 		</pic>
 		<hr/>
 		<div class="last">

@@ -48,6 +48,16 @@
 			<name>Combo</name>
 			<small>double modifier creates an ambiguity</small>
 		</pic>
+		<pic dwarf dim>
+			<a>deprecated.html</a>
+			<name>Deprecated</name>
+			<small>the use of a feature that is no longer welcome</small>
+		</pic>
+		<pic dwarf dim>
+			<a>letmeexplain.html</a>
+			<name>LetMeExplain</name>
+			<small>comments cover up bad code</small>
+		</pic>
 		<pic dwarf>
 			<a>overspec.html</a>
 			<name>Overspec</name>
@@ -71,7 +81,7 @@
 		<hr/>
 		<pic wide>
 			<name>Overspec</name>
-			<small>the same constraint specified through several means</small>
+			<small>???</small>
 		</pic>
 		<hr/>
 		<div class="last">

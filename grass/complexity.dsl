@@ -39,6 +39,31 @@
 		</pic>
 		<hr/>
 		<pic dwarf>
+			<a>toocoupled.html</a>
+			<name>TooCoupled</name>
+			<small>low cohesion and/or high coupling</small>
+		</pic>
+		<pic dwarf>
+			<a>toogreedy.html</a>
+			<name>TooGreedy</name>
+			<small>one module that does too much</small>
+		</pic>
+		<pic dwarf>
+			<a>toolazy.html</a>
+			<name>TooLazy</name>
+			<small>one module that does not do much</small>
+		</pic>
+		<pic dwarf>
+			<a>toolonely.html</a>
+			<name>TooLonely</name>
+			<small>large non-modular grammar</small>
+		</pic>
+		<pic dwarf>
+			<a>toomodular.html</a>
+			<name>TooModular</name>
+			<small>too many modules</small>
+		</pic>
+		<pic dwarf>
 			<a>toonested.html</a>
 			<name>TooNested</name>
 			<small>groups are too deeply nested</small>
