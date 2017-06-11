@@ -6,81 +6,67 @@
 		<header/>
 		<h1>GraSs: A Taxonomy of Grammar Smells</h1>
 		<hr/>
-		<pic dim>
-			<a>complexity.html</a>
-			<name>Complexity</name>
-			<text>...</text>
+		<pic dwarf dim>
+			<a>navigation.html</a>
+			<name>Navigation</name>
+			<text></text>
 		</pic>
-		<pic dim>
-			<a>convention.html</a>
-			<name>Convention</name>
-			<text>...</text>
+		<pic dwarf>
+			<a>organisation.html</a>
+			<name>Organisation</name>
+			<text></text>
 		</pic>
-		<pic dim>
-			<a>dependency.html</a>
-			<name>Dependency</name>
-			<text>...</text>
-		</pic>
-		<pic dim>
-			<a>duplication.html</a>
-			<name>Duplication</name>
-			<text>...</text>
-		</pic>
-		<pic dim>
-			<a>incompleteness.html</a>
-			<name>Incompleteness</name>
-			<text>...</text>
-		</pic>
-		<pic dim>
-			<a>mix.html</a>
-			<name>Mix</name>
-			<text>...</text>
-		</pic>
-		<pic>
-			<a>notation.html</a>
-			<name>Notation</name>
-			<text>...</text>
-		</pic>
-		<pic dim>
-			<a>parsing.html</a>
-			<name>Parsing</name>
-			<text>...</text>
-		</pic>
-		<pic dim>
-			<a>proxy.html</a>
-			<name>Proxy</name>
-			<text>...</text>
-		</pic>
-		<pic dim>
-			<a>spaghetti.html</a>
-			<name>Spaghetti</name>
-			<text>...</text>
+		<pic dwarf dim>
+			<a>structure.html</a>
+			<name>Structure</name>
+			<text></text>
 		</pic>
 		<hr/>
-		<pic>
-			<a>underuse.html</a>
-			<name>Underuse</name>
-			<text>...</text>
+		<pic dwarf dim>
+			<a>convention.html</a>
+			<name>Convention</name>
+			<text></text>
 		</pic>
-		<pic>
-			<a>overspec.html</a>
-			<name>Overspec</name>
-			<text>...</text>
+		<pic dwarf dim>
+			<a>duplication.html</a>
+			<name>Duplication</name>
+			<text></text>
 		</pic>
-		<pic>
-			<a>priorities.html</a>
-			<name>Priorities</name>
-			<text>...</text>
+		<pic dwarf>
+			<a>notation.html</a>
+			<name>Notation</name>
+			<text></text>
 		</pic>
-		<pic>
+		<pic dwarf dim>
+			<a>parsing.html</a>
+			<name>Parsing</name>
+			<text></text>
+		</pic>
+		<hr/>
+		<pic dwarf>
 			<a>combo.html</a>
 			<name>Combo</name>
-			<text>...</text>
+			<text></text>
 		</pic>
-		<pic>
+		<pic dwarf>
+			<a>overspec.html</a>
+			<name>Overspec</name>
+			<text></text>
+		</pic>
+		<pic dwarf>
+			<a>priorities.html</a>
+			<name>Priorities</name>
+			<text></text>
+		</pic>
+		<pic dwarf>
 			<a>singleton.html</a>
 			<name>Singleton</name>
-			<text>...</text>
+			<text></text>
+		</pic>
+		<pic dwarf>
+			<a>underuse.html</a>
+			<name>Underuse</name>
+			<text></text>
 		</pic>
 		<hr/>
 		<div class="last">

@@ -6,83 +6,68 @@
 		<header/>
 		<h1>GraSs: A Taxonomy of Grammar Smells</h1>
 		<hr/>
-		<pic dim>
-			<a>complexity.html</a>
-			<name>Complexity</name>
-			<text>...</text>
+		<pic dwarf>
+			<a>navigation.html</a>
+			<name>Navigation</name>
+			<text></text>
 		</pic>
-		<pic dim>
-			<a>convention.html</a>
-			<name>Convention</name>
-			<text>...</text>
+		<pic dwarf dim>
+			<a>organisation.html</a>
+			<name>Organisation</name>
+			<text></text>
 		</pic>
-		<pic dim>
-			<a>dependency.html</a>
-			<name>Dependency</name>
-			<text>...</text>
+		<pic dwarf dim>
+			<a>structure.html</a>
+			<name>Structure</name>
+			<text></text>
 		</pic>
-		<pic dim>
-			<a>duplication.html</a>
-			<name>Duplication</name>
-			<text>...</text>
-		</pic>
-		<pic>
-			<a>incompleteness.html</a>
-			<name>Incompleteness</name>
-			<text>...</text>
-		</pic>
-		<pic dim>
+		<hr/>
+		<pic dwarf dim>
 			<a>mix.html</a>
 			<name>Mix</name>
-			<text>...</text>
+			<text></text>
 		</pic>
-		<pic dim>
-			<a>notation.html</a>
-			<name>Notation</name>
-			<text>...</text>
+		<pic dwarf>
+			<a>shortage.html</a>
+			<name>Shortage</name>
+			<text></text>
 		</pic>
-		<pic dim>
-			<a>parsing.html</a>
-			<name>Parsing</name>
-			<text>...</text>
-		</pic>
-		<pic dim>
-			<a>proxy.html</a>
-			<name>Proxy</name>
-			<text>...</text>
-		</pic>
-		<pic dim>
+		<pic dwarf dim>
 			<a>spaghetti.html</a>
 			<name>Spaghetti</name>
-			<text>...</text>
+			<text></text>
 		</pic>
 		<hr/>
-		<pic dim>
+		<pic dwarf dim>
 			<a>alphabet.html</a>
 			<name>Alphabet</name>
-			<text>...</text>
+			<text></text>
 		</pic>
-		<pic dim>
-			<a>entry.html</a>
-			<name>Entry</name>
-			<text>...</text>
-		</pic>
-		<pic dim>
+		<pic dwarf dim>
 			<a>dead.html</a>
 			<name>Dead</name>
-			<text>...</text>
+			<text></text>
 		</pic>
-		<pic dim>
-			<a>undefined.html</a>
-			<name>Undefined</name>
-			<text>...</text>
+		<pic dwarf dim>
+			<a>entry.html</a>
+			<name>Entry</name>
+			<text></text>
 		</pic>
-		<pic>
+		<pic dwarf>
 			<a>module.html</a>
 			<name>Module</name>
-			<text>...</text>
+			<text></text>
+		</pic>
+		<pic dwarf dim>
+			<a>undefined.html</a>
+			<name>Undefined</name>
+			<text></text>
 		</pic>
 		<hr/>
+		<pic wide>
+			<name>Module</name>
+			<raw></raw>
+		</pic>
 		<hr/>
 		<div class="last">
 			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.

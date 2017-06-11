@@ -6,55 +6,20 @@
 		<header/>
 		<h1>GraSs: A Taxonomy of Grammar Smells</h1>
 		<hr/>
-		<pic>
-			<a>complexity.html</a>
-			<name>Complexity</name>
-			<text>...</text>
+		<pic dwarf>
+			<a>navigation.html</a>
+			<name>Navigation</name>
+			<text></text>
 		</pic>
-		<pic>
-			<a>convention.html</a>
-			<name>Convention</name>
-			<text>...</text>
+		<pic dwarf>
+			<a>organisation.html</a>
+			<name>Organisation</name>
+			<text></text>
 		</pic>
-		<pic>
-			<a>dependency.html</a>
-			<name>Dependency</name>
-			<text>...</text>
-		</pic>
-		<pic>
-			<a>duplication.html</a>
-			<name>Duplication</name>
-			<text>...</text>
-		</pic>
-		<pic>
-			<a>incompleteness.html</a>
-			<name>Incompleteness</name>
-			<text>...</text>
-		</pic>
-		<pic>
-			<a>mix.html</a>
-			<name>Mix</name>
-			<text>...</text>
-		</pic>
-		<pic>
-			<a>notation.html</a>
-			<name>Notation</name>
-			<text>...</text>
-		</pic>
-		<pic>
-			<a>parsing.html</a>
-			<name>Parsing</name>
-			<text>...</text>
-		</pic>
-		<pic>
-			<a>proxy.html</a>
-			<name>Proxy</name>
-			<text>...</text>
-		</pic>
-		<pic>
-			<a>spaghetti.html</a>
-			<name>Spaghetti</name>
-			<text>...</text>
+		<pic dwarf>
+			<a>structure.html</a>
+			<name>Structure</name>
+			<text></text>
 		</pic>
 		<hr/>
 		<div class="last">

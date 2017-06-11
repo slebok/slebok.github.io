@@ -6,68 +6,53 @@
 		<header/>
 		<h1>GraSs: A Taxonomy of Grammar Smells</h1>
 		<hr/>
-		<pic dim>
+		<pic dwarf dim>
+			<a>navigation.html</a>
+			<name>Navigation</name>
+			<text></text>
+		</pic>
+		<pic dwarf dim>
+			<a>organisation.html</a>
+			<name>Organisation</name>
+			<text></text>
+		</pic>
+		<pic dwarf>
+			<a>structure.html</a>
+			<name>Structure</name>
+			<text></text>
+		</pic>
+		<hr/>
+		<pic dwarf dim>
 			<a>complexity.html</a>
 			<name>Complexity</name>
-			<text>...</text>
+			<text></text>
 		</pic>
-		<pic dim>
-			<a>convention.html</a>
-			<name>Convention</name>
-			<text>...</text>
-		</pic>
-		<pic>
+		<pic dwarf>
 			<a>dependency.html</a>
 			<name>Dependency</name>
-			<text>...</text>
+			<text></text>
 		</pic>
-		<pic dim>
-			<a>duplication.html</a>
-			<name>Duplication</name>
-			<text>...</text>
-		</pic>
-		<pic dim>
-			<a>incompleteness.html</a>
-			<name>Incompleteness</name>
-			<text>...</text>
-		</pic>
-		<pic dim>
-			<a>mix.html</a>
-			<name>Mix</name>
-			<text>...</text>
-		</pic>
-		<pic dim>
-			<a>notation.html</a>
-			<name>Notation</name>
-			<text>...</text>
-		</pic>
-		<pic dim>
-			<a>parsing.html</a>
-			<name>Parsing</name>
-			<text>...</text>
-		</pic>
-		<pic dim>
+		<pic dwarf dim>
 			<a>proxy.html</a>
 			<name>Proxy</name>
-			<text>...</text>
-		</pic>
-		<pic dim>
-			<a>spaghetti.html</a>
-			<name>Spaghetti</name>
-			<text>...</text>
+			<text></text>
 		</pic>
 		<hr/>
-		<pic dim>
+		<pic dwarf dim>
 			<a>diamond.html</a>
 			<name>Diamond</name>
-			<text>...</text>
+			<text></text>
 		</pic>
-		<pic>
+		<pic dwarf>
 			<a>rivalry.html</a>
 			<name>Rivalry</name>
-			<text>...</text>
+			<text></text>
 		</pic>
 		<hr/>
+		<pic wide>
+			<name>Rivalry</name>
+			<raw></raw>
+		</pic>
 		<hr/>
 		<div class="last">
 			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.

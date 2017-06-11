@@ -6,81 +6,62 @@
 		<header/>
 		<h1>GraSs: A Taxonomy of Grammar Smells</h1>
 		<hr/>
-		<pic>
-			<a>complexity.html</a>
-			<name>Complexity</name>
-			<text>...</text>
+		<pic dwarf dim>
+			<a>navigation.html</a>
+			<name>Navigation</name>
+			<text></text>
 		</pic>
-		<pic dim>
-			<a>convention.html</a>
-			<name>Convention</name>
-			<text>...</text>
+		<pic dwarf dim>
+			<a>organisation.html</a>
+			<name>Organisation</name>
+			<text></text>
 		</pic>
-		<pic dim>
-			<a>dependency.html</a>
-			<name>Dependency</name>
-			<text>...</text>
-		</pic>
-		<pic dim>
-			<a>duplication.html</a>
-			<name>Duplication</name>
-			<text>...</text>
-		</pic>
-		<pic dim>
-			<a>incompleteness.html</a>
-			<name>Incompleteness</name>
-			<text>...</text>
-		</pic>
-		<pic dim>
-			<a>mix.html</a>
-			<name>Mix</name>
-			<text>...</text>
-		</pic>
-		<pic dim>
-			<a>notation.html</a>
-			<name>Notation</name>
-			<text>...</text>
-		</pic>
-		<pic dim>
-			<a>parsing.html</a>
-			<name>Parsing</name>
-			<text>...</text>
-		</pic>
-		<pic dim>
-			<a>proxy.html</a>
-			<name>Proxy</name>
-			<text>...</text>
-		</pic>
-		<pic dim>
-			<a>spaghetti.html</a>
-			<name>Spaghetti</name>
-			<text>...</text>
+		<pic dwarf>
+			<a>structure.html</a>
+			<name>Structure</name>
+			<text></text>
 		</pic>
 		<hr/>
-		<pic>
-			<a>width.html</a>
-			<name>Width</name>
-			<text>...</text>
+		<pic dwarf>
+			<a>complexity.html</a>
+			<name>Complexity</name>
+			<text></text>
 		</pic>
-		<pic>
-			<a>branches.html</a>
-			<name>Branches</name>
-			<text>...</text>
+		<pic dwarf dim>
+			<a>dependency.html</a>
+			<name>Dependency</name>
+			<text></text>
 		</pic>
-		<pic>
-			<a>recursion.html</a>
-			<name>Recursion</name>
-			<text>...</text>
+		<pic dwarf dim>
+			<a>proxy.html</a>
+			<name>Proxy</name>
+			<text></text>
 		</pic>
-		<pic>
-			<a>nesting.html</a>
-			<name>Nesting</name>
-			<text>...</text>
+		<hr/>
+		<pic dwarf>
+			<a>toonested.html</a>
+			<name>TooNested</name>
+			<text></text>
 		</pic>
-		<pic>
-			<a>height.html</a>
-			<name>Height</name>
-			<text>...</text>
+		<pic dwarf>
+			<a>tooramose.html</a>
+			<name>TooRamose</name>
+			<text></text>
+		</pic>
+		<pic dwarf>
+			<a>toorecursive.html</a>
+			<name>TooRecursive</name>
+			<text></text>
+		</pic>
+		<pic dwarf>
+			<a>tootall.html</a>
+			<name>TooTall</name>
+			<text></text>
+		</pic>
+		<pic dwarf>
+			<a>toowide.html</a>
+			<name>TooWide</name>
+			<text></text>
 		</pic>
 		<hr/>
 		<div class="last">

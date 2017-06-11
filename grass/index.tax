@@ -1,47 +1,50 @@
-Convention
-	Formatting
-	Naming
-	ZigZag
-	Splat
-Parsing
-	Factoring
-	LeftRecursion
-	RightRecursion
-Duplication
-	Echo
-	Clone
-	Foldable
-	Common
-	Permuted
-	Lookalike
-Spaghetti
-	Uncluster
-	Unsequence
-	Start
-Incompleteness
-	Alphabet
-	Entry
-	Dead
-	Undefined
-	Module
-Proxy
-	Chain
-	Throwaway
-Dependency
-	Diamond
-	Rivalry
-Complexity
-	Width
-	Branches
-	Recursion
-	Nesting
-	Height
-Mix
-	Layout
-	Preprocessor
-Notation
-	Underuse
-	Overspec
-	Priorities
-	Combo
-	Singleton
+Organisation
+	Notation
+		Underuse
+		Overspec
+		Priorities
+		Combo
+		Singleton
+	Convention
+		Formatting
+		Naming
+		ZigZag
+		Splat
+	Parsing
+		Factoring
+		LeftRecursion
+		RightRecursion
+	Duplication
+		Echo
+		Clone
+		Foldable
+		Common
+		Permuted
+		Lookalike
+Navigation
+	Spaghetti
+		Uncluster
+		Unsequence
+		Start
+	Shortage
+		Alphabet
+		Entry
+		Dead
+		Undefined
+		Module
+	Mix
+		Layout
+		Preprocessor
+Structure
+	Proxy
+		Chain
+		Throwaway
+	Dependency
+		Diamond
+		Rivalry
+	Complexity
+		TooWide
+		TooRamose
+		TooRecursive
+		TooNested
+		TooTall
