@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <path css="../www" img="../www"/>
 <html doctype>
-	<head viewport title="GraSs: A Taxonomy of Grammar Smells">
+	<head viewport title="TooRamose in the GraSs">
 	<body>
 		<header/>
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
@@ -39,19 +39,19 @@
 		</pic>
 		<hr/>
 		<pic dwarf dim>
-			<a>toocoupled.html</a>
-			<name>TooCoupled</name>
-			<small>low cohesion and/or high coupling</small>
-		</pic>
-		<pic dwarf dim>
-			<a>toogreedy.html</a>
-			<name>TooGreedy</name>
+			<a>greedy.html</a>
+			<name>Greedy</name>
 			<small>one module that does too much</small>
 		</pic>
 		<pic dwarf dim>
-			<a>toolazy.html</a>
-			<name>TooLazy</name>
+			<a>lazy.html</a>
+			<name>Lazy</name>
 			<small>one module that does not do much</small>
+		</pic>
+		<pic dwarf dim>
+			<a>toocoupled.html</a>
+			<name>TooCoupled</name>
+			<small>low cohesion and/or high coupling</small>
 		</pic>
 		<pic dwarf dim>
 			<a>toolonely.html</a>
@@ -91,7 +91,7 @@
 		<hr/>
 		<pic wide>
 			<name>TooRamose</name>
-			<small>TODO: conjunction, disjunction, relate to CC; TODO: WH suggests intermediate "types" but DCT considers those a smell<br/>Related smells: <a href="http://tusharma.in/smells/GC.html">God Class</a>, <a href="http://tusharma.in/smells/PGC.html">God Class</a>, <a href="http://tusharma.in/smells/WH.html">Wide Hierarchy</a>, <a href="http://tusharma.in/smells/DCT.html">Clone Tables</a></small>
+			<small>TODO: conjunction, disjunction, relate to CC; TODO: WH suggests intermediate "types" but DCT/BM consider those a smell<br/>Related smells: <a href="http://tusharma.in/smells/WH.html">Wide Hierarchy</a>, <a href="http://tusharma.in/smells/DCT.html">Clone Tables</a>, <a href="http://tusharma.in/smells/SCC.html">Conditional Complexity</a>, <a href="http://tusharma.in/smells/BM.html">Broken Modularization</a></small>
 		</pic>
 		<hr/>
 		<div class="last">

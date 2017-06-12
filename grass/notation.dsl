@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <path css="../www" img="../www"/>
 <html doctype>
-	<head viewport title="GraSs: A Taxonomy of Grammar Smells">
+	<head viewport title="Notation Smells (Organisation) in the GraSs">
 	<body>
 		<header/>
-		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
+		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells (8 in the selected group)</h1>
 		<hr/>
 		<pic dwarf dim>
 			<a>navigation.html</a>
@@ -44,6 +44,11 @@
 		</pic>
 		<hr/>
 		<pic dwarf>
+			<a>chant.html</a>
+			<name>Chant</name>
+			<small>comments cover up bad code</small>
+		</pic>
+		<pic dwarf>
 			<a>combo.html</a>
 			<name>Combo</name>
 			<small>double modifier creates an ambiguity</small>
@@ -54,9 +59,9 @@
 			<small>the use of a feature that is no longer welcome</small>
 		</pic>
 		<pic dwarf>
-			<a>letmeexplain.html</a>
-			<name>LetMeExplain</name>
-			<small>comments cover up bad code</small>
+			<a>exotic.html</a>
+			<name>Exotic</name>
+			<small>too idiosyncratic notational features decrease portability</small>
 		</pic>
 		<pic dwarf>
 			<a>overspec.html</a>

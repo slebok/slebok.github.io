@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <path css="../www" img="../www"/>
 <html doctype>
-	<head viewport title="Soulmates in the GraSs">
+	<head viewport title="Spillover in the GraSs">
 	<body>
 		<header/>
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
@@ -63,20 +63,20 @@
 			<name>Rivalry</name>
 			<small>overlapping alternatives</small>
 		</pic>
-		<pic dwarf>
+		<pic dwarf dim>
 			<a>soulmates.html</a>
 			<name>Soulmates</name>
 			<small>nonterminals or modules are always changed together</small>
 		</pic>
-		<pic dwarf dim>
+		<pic dwarf>
 			<a>spillover.html</a>
 			<name>Spillover</name>
 			<small>a nonterminal that is too linked to the adjacent symbols</small>
 		</pic>
 		<hr/>
 		<pic wide>
-			<name>Soulmates</name>
-			<small>If enough information is available about the evolution of the grammar (e.g., in a form of a versioned repository or a piece of documentation describing all changes), one can notice two nonterminals having a so-called <emph>co-change relationship</emph> when each revision that changes one, also changes the other. The smell occurs when this co-change relationship in the revision log does not correspond to explicit dependencies between modules and nonterminals. TODO can be a thought experiment: if we do X, we must do Y; TODO actually can *only* be done with revision mining or conceptually, not by code analysis like usual for FE<br/>Related smells: <a href="http://tusharma.in/smells/CROSSM.html">Implicit Cross-Module Dependency</a>, <a href="http://tusharma.in/smells/PIH.html">Parallel Inheritance Hierarchies</a>, <a href="http://tusharma.in/smells/SS.html">Shotgun Surgery</a>, <a href="http://tusharma.in/smells/SSS.html">Shotgun Surgery</a>, <a href="http://tusharma.in/smells/FE.html">Feature Envy</a>, <a href="http://tusharma.in/smells/SFE.html">Feature Envy</a>, <a href="http://tusharma.in/smells/II.html">Inappropriate Intimacy</a>, <a href="http://tusharma.in/smells/SII.html">Inappropriate Intimacy</a></small>
+			<name>Spillover</name>
+			<small>???</small>
 		</pic>
 		<hr/>
 		<div class="last">

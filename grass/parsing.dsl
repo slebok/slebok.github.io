@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <path css="../www" img="../www"/>
 <html doctype>
-	<head viewport title="GraSs: A Taxonomy of Grammar Smells">
+	<head viewport title="Parsing Smells (Organisation) in the GraSs">
 	<body>
 		<header/>
-		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
+		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells (7 in the selected group)</h1>
 		<hr/>
 		<pic dwarf dim>
 			<a>navigation.html</a>
@@ -49,19 +49,9 @@
 			<small>a code smell in a semantic action</small>
 		</pic>
 		<pic dwarf>
-			<a>default.html</a>
-			<name>Default</name>
-			<small>no error-localising default branch</small>
-		</pic>
-		<pic dwarf>
 			<a>factoring.html</a>
 			<name>Factoring</name>
 			<small>improper factoring or distribution</small>
-		</pic>
-		<pic dwarf>
-			<a>future.html</a>
-			<name>Future</name>
-			<small>a chunk of input could be parsed in more detail</small>
 		</pic>
 		<pic dwarf>
 			<a>leftrecursion.html</a>
@@ -69,9 +59,19 @@
 			<small>left recursive rules</small>
 		</pic>
 		<pic dwarf>
+			<a>nodefault.html</a>
+			<name>NoDefault</name>
+			<small>no error-localising default branch</small>
+		</pic>
+		<pic dwarf>
 			<a>rightrecursion.html</a>
 			<name>RightRecursion</name>
 			<small>right recursive rules</small>
+		</pic>
+		<pic dwarf>
+			<a>sloppy.html</a>
+			<name>Sloppy</name>
+			<small>a chunk of input could be parsed in more detail</small>
 		</pic>
 		<pic dwarf>
 			<a>superset.html</a>

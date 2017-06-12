@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <path css="../www" img="../www"/>
 <html doctype>
-	<head viewport title="GraSs: A Taxonomy of Grammar Smells">
+	<head viewport title="Greedy in the GraSs">
 	<body>
 		<header/>
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
@@ -38,20 +38,20 @@
 			<small>indirect uses</small>
 		</pic>
 		<hr/>
+		<pic dwarf>
+			<a>greedy.html</a>
+			<name>Greedy</name>
+			<small>one module that does too much</small>
+		</pic>
+		<pic dwarf dim>
+			<a>lazy.html</a>
+			<name>Lazy</name>
+			<small>one module that does not do much</small>
+		</pic>
 		<pic dwarf dim>
 			<a>toocoupled.html</a>
 			<name>TooCoupled</name>
 			<small>low cohesion and/or high coupling</small>
-		</pic>
-		<pic dwarf>
-			<a>toogreedy.html</a>
-			<name>TooGreedy</name>
-			<small>one module that does too much</small>
-		</pic>
-		<pic dwarf dim>
-			<a>toolazy.html</a>
-			<name>TooLazy</name>
-			<small>one module that does not do much</small>
 		</pic>
 		<pic dwarf dim>
 			<a>toolonely.html</a>
@@ -90,7 +90,7 @@
 		</pic>
 		<hr/>
 		<pic wide>
-			<name>TooGreedy</name>
+			<name>Greedy</name>
 			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/IM.html">Insufficient Modularization</a>, <a href="http://tusharma.in/smells/TLP.html">Too Large Packages/Subsystems</a>, <a href="http://tusharma.in/smells/LC.html">Large Class</a>, <a href="http://tusharma.in/smells/BL.html">The Blob</a></small>
 		</pic>
 		<hr/>

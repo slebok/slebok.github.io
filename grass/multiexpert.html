@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta http-equiv="x-ua-compatible" content="IE=9"/>
 		<meta name="viewport" content="initial-scale=1.0"/>
-		<title>Ouroboros in the GraSs</title>
+		<title>Multiexpert in the GraSs</title>
 		<link href="../www/common.css" rel="stylesheet" type="text/css" />
 		<script type="text/javascript">
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -26,18 +26,16 @@
 		<div><a href="structure.html"><span class="dwarf pic">Structure<br/><span class="s">harmful relationships among grammar components</span></span></a></div>
 		<hr/>
 		<div><a href="complexity.html"><span class="dwarf dim pic">Complexity<br/><span class="s">metric-based smells</span></span></a></div>
-		<div><a href="dependency.html"><span class="dwarf pic">Dependency<br/><span class="s">antipatterns in use</span></span></a></div>
-		<div><a href="proxy.html"><span class="dwarf dim pic">Proxy<br/><span class="s">indirect uses</span></span></a></div>
+		<div><a href="dependency.html"><span class="dwarf dim pic">Dependency<br/><span class="s">antipatterns in use</span></span></a></div>
+		<div><a href="proxy.html"><span class="dwarf pic">Proxy<br/><span class="s">indirect uses</span></span></a></div>
 		<hr/>
-		<div><a href="diamond.html"><span class="dwarf dim pic">Diamond<br/><span class="s">A is X and B is X, but C is A or B</span></span></a></div>
-		<div><a href="mythic.html"><span class="dwarf dim pic">Mythic<br/><span class="s">an alternative that is never exercised in the codebase</span></span></a></div>
-		<div><a href="ouroboros.html"><span class="dwarf pic">Ouroboros<br/><span class="s">a circular dependency among modules</span></span></a></div>
-		<div><a href="related.html"><span class="dwarf dim pic">Related<br/><span class="s">UINT|Unstable Interface</span></span></a></div>
-		<div><a href="rivalry.html"><span class="dwarf dim pic">Rivalry<br/><span class="s">overlapping alternatives</span></span></a></div>
-		<div><a href="soulmates.html"><span class="dwarf dim pic">Soulmates<br/><span class="s">nonterminals or modules are always changed together</span></span></a></div>
-		<div><a href="spillover.html"><span class="dwarf dim pic">Spillover<br/><span class="s">a nonterminal that is too linked to the adjacent symbols</span></span></a></div>
+		<div><a href="chain.html"><span class="dwarf dim pic">Chain<br/><span class="s">right hand side is a nonterminal</span></span></a></div>
+		<div><a href="ghost.html"><span class="dwarf dim pic">Ghost<br/><span class="s">a subexpression that should have been a nonterminal</span></span></a></div>
+		<div><a href="multiexpert.html"><span class="dwarf pic">Multiexpert<br/><span class="s">a nonterminal that represents two or more concepts</span></span></a></div>
+		<div><a href="throwaway.html"><span class="dwarf dim pic">Throwaway<br/><span class="s">a nonterminal used only once</span></span></a></div>
+		<div><a href="weak.html"><span class="dwarf dim pic">Weak<br/><span class="s">a nonterminal does not form a proper abstraction</span></span></a></div>
 		<hr/>
-		<div><span class="wide pic">Ouroboros<br/><p class="s">???<br/>Related smells: <a href="http://tusharma.in/smells/DCP.html">Dependency Cycles between Packages/Subsystems</a>, <a href="http://tusharma.in/smells/CM.html">Cyclically-dependent Modularization</a>, <a href="http://tusharma.in/smells/SCDG.html">Static Cycles in Dependency Graphs</a></p></span></div>
+		<div><span class="wide pic">Multiexpert<br/><p class="s">TODO violates the single responsibility principle<br/>Related smells: <a href="http://tusharma.in/smells/GC.html">God Class</a>, <a href="http://tusharma.in/smells/PGC.html">God Class</a>, <a href="http://tusharma.in/smells/SAK.html">Swiss Army Knife</a>, <a href="http://tusharma.in/smells/MAC.html">Multifaceted Abstraction</a>, <a href="http://tusharma.in/smells/PBB.html">Brother of the Bride</a></p></span></div>
 		<hr/>
 		<div class="last">
 			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.

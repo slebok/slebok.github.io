@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta http-equiv="x-ua-compatible" content="IE=9"/>
 		<meta name="viewport" content="initial-scale=1.0"/>
-		<title>GraSs: A Taxonomy of Grammar Smells</title>
+		<title>Soulmates in the GraSs</title>
 		<link href="../www/common.css" rel="stylesheet" type="text/css" />
 		<script type="text/javascript">
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -32,10 +32,12 @@
 		<div><a href="diamond.html"><span class="dwarf dim pic">Diamond<br/><span class="s">A is X and B is X, but C is A or B</span></span></a></div>
 		<div><a href="mythic.html"><span class="dwarf dim pic">Mythic<br/><span class="s">an alternative that is never exercised in the codebase</span></span></a></div>
 		<div><a href="ouroboros.html"><span class="dwarf dim pic">Ouroboros<br/><span class="s">a circular dependency among modules</span></span></a></div>
+		<div><a href="related.html"><span class="dwarf dim pic">Related<br/><span class="s">UINT|Unstable Interface</span></span></a></div>
 		<div><a href="rivalry.html"><span class="dwarf dim pic">Rivalry<br/><span class="s">overlapping alternatives</span></span></a></div>
 		<div><a href="soulmates.html"><span class="dwarf pic">Soulmates<br/><span class="s">nonterminals or modules are always changed together</span></span></a></div>
+		<div><a href="spillover.html"><span class="dwarf dim pic">Spillover<br/><span class="s">a nonterminal that is too linked to the adjacent symbols</span></span></a></div>
 		<hr/>
-		<div><span class="wide pic">Soulmates<br/><p class="s">If enough information is available about the evolution of the grammar (e.g., in a form of a versioned repository or a piece of documentation describing all changes), one can notice two nonterminals having a so-called <emph>co-change relationship</emph> when each revision that changes one, also changes the other. The smell occurs when this co-change relationship in the revision log does not correspond to explicit dependencies between modules and nonterminals. TODO can be a thought experiment: if we do X, we must do Y<br/>Related smells: <a href="http://tusharma.in/smells/CROSSM.html">Implicit Cross-Module Dependency</a>, <a href="http://tusharma.in/smells/PIH.html">Parallel Inheritance Hierarchies</a>, <a href="http://tusharma.in/smells/SS.html">Shotgun Surgery</a></p></span></div>
+		<div><span class="wide pic">Soulmates<br/><p class="s">If enough information is available about the evolution of the grammar (e.g., in a form of a versioned repository or a piece of documentation describing all changes), one can notice two nonterminals having a so-called <emph>co-change relationship</emph> when each revision that changes one, also changes the other. The smell occurs when this co-change relationship in the revision log does not correspond to explicit dependencies between modules and nonterminals. TODO can be a thought experiment: if we do X, we must do Y; TODO actually can *only* be done with revision mining or conceptually, not by code analysis like usual for FE<br/>Related smells: <a href="http://tusharma.in/smells/CROSSM.html">Implicit Cross-Module Dependency</a>, <a href="http://tusharma.in/smells/PIH.html">Parallel Inheritance Hierarchies</a>, <a href="http://tusharma.in/smells/SS.html">Shotgun Surgery</a>, <a href="http://tusharma.in/smells/SSS.html">Shotgun Surgery</a>, <a href="http://tusharma.in/smells/FE.html">Feature Envy</a>, <a href="http://tusharma.in/smells/SFE.html">Feature Envy</a>, <a href="http://tusharma.in/smells/II.html">Inappropriate Intimacy</a>, <a href="http://tusharma.in/smells/SII.html">Inappropriate Intimacy</a></p></span></div>
 		<hr/>
 		<div class="last">
 			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.

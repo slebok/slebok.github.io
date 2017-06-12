@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <path css="../www" img="../www"/>
 <html doctype>
-	<head viewport title="GraSs: A Taxonomy of Grammar Smells">
+	<head viewport title="Throwaway in the GraSs">
 	<body>
 		<header/>
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
@@ -48,6 +48,11 @@
 			<name>Ghost</name>
 			<small>a subexpression that should have been a nonterminal</small>
 		</pic>
+		<pic dwarf dim>
+			<a>multiexpert.html</a>
+			<name>Multiexpert</name>
+			<small>a nonterminal that represents two or more concepts</small>
+		</pic>
 		<pic dwarf>
 			<a>throwaway.html</a>
 			<name>Throwaway</name>
@@ -61,7 +66,7 @@
 		<hr/>
 		<pic wide>
 			<name>Throwaway</name>
-			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/LIH.html">List-like Inheritance Hierarchy</a>, <a href="http://tusharma.in/smells/POL.html">Poltergeist</a></small>
+			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/LIH.html">List-like Inheritance Hierarchy</a>, <a href="http://tusharma.in/smells/POL.html">Poltergeist</a>, <a href="http://tusharma.in/smells/IA.html">Imperative Abstraction</a>, <a href="http://tusharma.in/smells/TDG.html">Tree-like Dependency Graph</a></small>
 		</pic>
 		<hr/>
 		<div class="last">

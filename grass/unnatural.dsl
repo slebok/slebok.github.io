@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <path css="../www" img="../www"/>
 <html doctype>
-	<head viewport title="GraSs: A Taxonomy of Grammar Smells">
+	<head viewport title="Unnatural in the GraSs">
 	<body>
 		<header/>
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
@@ -53,15 +53,15 @@
 			<name>Naming</name>
 			<small>problems with naming policies</small>
 		</pic>
-		<pic dwarf>
-			<a>natural.html</a>
-			<name>Natural</name>
-			<small>a misspelling or improper use of the natural language</small>
-		</pic>
 		<pic dwarf dim>
 			<a>splat.html</a>
 			<name>Splat</name>
 			<small>nonterminal fragments scattered over the grammar</small>
+		</pic>
+		<pic dwarf>
+			<a>unnatural.html</a>
+			<name>Unnatural</name>
+			<small>a misspelling or improper use of the natural language</small>
 		</pic>
 		<pic dwarf dim>
 			<a>zigzag.html</a>
@@ -70,7 +70,7 @@
 		</pic>
 		<hr/>
 		<pic wide>
-			<name>Natural</name>
+			<name>Unnatural</name>
 			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/PSS.html">Stung by Spell-bee</a></small>
 		</pic>
 		<hr/>

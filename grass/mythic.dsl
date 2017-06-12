@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <path css="../www" img="../www"/>
 <html doctype>
-	<head viewport title="GraSs: A Taxonomy of Grammar Smells">
+	<head viewport title="Mythic in the GraSs">
 	<body>
 		<header/>
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
@@ -54,6 +54,11 @@
 			<small>a circular dependency among modules</small>
 		</pic>
 		<pic dwarf dim>
+			<a>related.html</a>
+			<name>Related</name>
+			<small>UINT|Unstable Interface</small>
+		</pic>
+		<pic dwarf dim>
 			<a>rivalry.html</a>
 			<name>Rivalry</name>
 			<small>overlapping alternatives</small>
@@ -63,10 +68,15 @@
 			<name>Soulmates</name>
 			<small>nonterminals or modules are always changed together</small>
 		</pic>
+		<pic dwarf dim>
+			<a>spillover.html</a>
+			<name>Spillover</name>
+			<small>a nonterminal that is too linked to the adjacent symbols</small>
+		</pic>
 		<hr/>
 		<pic wide>
 			<name>Mythic</name>
-			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/UH.html">Unnecessary Hierarchy</a></small>
+			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/UH.html">Unnecessary Hierarchy</a>, <a href="http://tusharma.in/smells/SG.html">Speculative Generality</a>, <a href="http://tusharma.in/smells/SH.html">Speculative Hierarchy</a></small>
 		</pic>
 		<hr/>
 		<div class="last">

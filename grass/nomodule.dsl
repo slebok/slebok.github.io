@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <path css="../www" img="../www"/>
 <html doctype>
-	<head viewport title="Splat in the GraSs">
+	<head viewport title="NoModule in the GraSs">
 	<body>
 		<header/>
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
 		<hr/>
-		<pic dwarf dim>
+		<pic dwarf>
 			<a>navigation.html</a>
 			<name>Navigation</name>
 			<small>problems with navigating through the grammar</small>
 		</pic>
-		<pic dwarf>
+		<pic dwarf dim>
 			<a>organisation.html</a>
 			<name>Organisation</name>
 			<small>global problems</small>
@@ -22,55 +22,55 @@
 			<small>harmful relationships among grammar components</small>
 		</pic>
 		<hr/>
+		<pic dwarf dim>
+			<a>mixture.html</a>
+			<name>Mixture</name>
+			<small>spicing the grammar with alien fragments</small>
+		</pic>
 		<pic dwarf>
-			<a>convention.html</a>
-			<name>Convention</name>
-			<small>violations of visual policies</small>
+			<a>shortage.html</a>
+			<name>Shortage</name>
+			<small>incompleteness</small>
 		</pic>
 		<pic dwarf dim>
-			<a>duplication.html</a>
-			<name>Duplication</name>
-			<small>the same fragment is repeated</small>
-		</pic>
-		<pic dwarf dim>
-			<a>notation.html</a>
-			<name>Notation</name>
-			<small>metalanguage-related</small>
-		</pic>
-		<pic dwarf dim>
-			<a>parsing.html</a>
-			<name>Parsing</name>
-			<small>parsing techniques related smells</small>
+			<a>spaghetti.html</a>
+			<name>Spaghetti</name>
+			<small>scattering details over the grammar</small>
 		</pic>
 		<hr/>
 		<pic dwarf dim>
-			<a>formatting.html</a>
-			<name>Formatting</name>
-			<small>misleading formatting</small>
+			<a>alphabet.html</a>
+			<name>Alphabet</name>
+			<small>seemingly incomplete collections</small>
 		</pic>
 		<pic dwarf dim>
-			<a>naming.html</a>
-			<name>Naming</name>
-			<small>problems with naming policies</small>
+			<a>dead.html</a>
+			<name>Dead</name>
+			<small>nonterminal defined, but not referenced</small>
+		</pic>
+		<pic dwarf dim>
+			<a>entry.html</a>
+			<name>Entry</name>
+			<small>no starting symbol</small>
 		</pic>
 		<pic dwarf>
-			<a>splat.html</a>
-			<name>Splat</name>
-			<small>nonterminal fragments scattered over the grammar</small>
+			<a>nomodule.html</a>
+			<name>NoModule</name>
+			<small>a missing module</small>
 		</pic>
 		<pic dwarf dim>
-			<a>unnatural.html</a>
-			<name>Unnatural</name>
-			<small>a misspelling or improper use of the natural language</small>
+			<a>todo.html</a>
+			<name>ToDo</name>
+			<small>incompletenesses covered up by todo/fixme comments</small>
 		</pic>
 		<pic dwarf dim>
-			<a>zigzag.html</a>
-			<name>ZigZag</name>
-			<small>mixing horizontal and vertical styles</small>
+			<a>undefined.html</a>
+			<name>Undefined</name>
+			<small>nonterminal referenced, but not defined</small>
 		</pic>
 		<hr/>
 		<pic wide>
-			<name>Splat</name>
+			<name>NoModule</name>
 			<small>???</small>
 		</pic>
 		<hr/>

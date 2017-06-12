@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <path css="../www" img="../www"/>
 <html doctype>
-	<head viewport title="GraSs: A Taxonomy of Grammar Smells">
+	<head viewport title="Ghost in the GraSs">
 	<body>
 		<header/>
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
@@ -47,6 +47,11 @@
 			<a>ghost.html</a>
 			<name>Ghost</name>
 			<small>a subexpression that should have been a nonterminal</small>
+		</pic>
+		<pic dwarf dim>
+			<a>multiexpert.html</a>
+			<name>Multiexpert</name>
+			<small>a nonterminal that represents two or more concepts</small>
 		</pic>
 		<pic dwarf dim>
 			<a>throwaway.html</a>

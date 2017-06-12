@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <path css="../www" img="../www"/>
 <html doctype>
-	<head viewport title="GraSs: A Taxonomy of Grammar Smells">
+	<head viewport title="Chain in the GraSs">
 	<body>
 		<header/>
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
@@ -49,6 +49,11 @@
 			<small>a subexpression that should have been a nonterminal</small>
 		</pic>
 		<pic dwarf dim>
+			<a>multiexpert.html</a>
+			<name>Multiexpert</name>
+			<small>a nonterminal that represents two or more concepts</small>
+		</pic>
+		<pic dwarf dim>
 			<a>throwaway.html</a>
 			<name>Throwaway</name>
 			<small>a nonterminal used only once</small>
@@ -61,7 +66,7 @@
 		<hr/>
 		<pic wide>
 			<name>Chain</name>
-			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/LC2.html">Lazy Class</a>, <a href="http://tusharma.in/smells/EAC.html">Extraneous Adjacent Connector</a>, <a href="http://tusharma.in/smells/MC.html">Message Chains</a>, <a href="http://tusharma.in/smells/MM.html">Middle Man</a></small>
+			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/LC2.html">Lazy Class</a>, <a href="http://tusharma.in/smells/EAC.html">Extraneous Adjacent Connector</a>, <a href="http://tusharma.in/smells/MC.html">Message Chains</a>, <a href="http://tusharma.in/smells/MM.html">Middle Man</a>, <a href="http://tusharma.in/smells/SMM.html">Middle Man</a>, <a href="http://tusharma.in/smells/SLCC.html">Long Calculation Chain</a>, <a href="http://tusharma.in/smells/TML.html">Too Many Layers</a></small>
 		</pic>
 		<hr/>
 		<div class="last">

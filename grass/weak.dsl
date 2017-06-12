@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <path css="../www" img="../www"/>
 <html doctype>
-	<head viewport title="GraSs: A Taxonomy of Grammar Smells">
+	<head viewport title="Weak in the GraSs">
 	<body>
 		<header/>
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
@@ -49,6 +49,11 @@
 			<small>a subexpression that should have been a nonterminal</small>
 		</pic>
 		<pic dwarf dim>
+			<a>multiexpert.html</a>
+			<name>Multiexpert</name>
+			<small>a nonterminal that represents two or more concepts</small>
+		</pic>
+		<pic dwarf dim>
 			<a>throwaway.html</a>
 			<name>Throwaway</name>
 			<small>a nonterminal used only once</small>
@@ -61,7 +66,7 @@
 		<hr/>
 		<pic wide>
 			<name>Weak</name>
-			<small>When the right hand side of a nonterminal is formed from several symbols that happen to occur one after another, without forming a proper abstraction, this can hinder grammar's understanding. The terminology is borrowed from TODO which distinguished strong nonterminals (used during parsing and present in the resulting tree) from weak ones (used during parsing but flattened into single nodes in the tree). (TODO in the paper with if/then/else)<br/>Related smells: <a href="http://tusharma.in/smells/IA2.html">Incomplete Abstraction</a>, <a href="http://tusharma.in/smells/UA.html">Unnecessary Abstraction</a>, <a href="http://tusharma.in/smells/UAC.html">Unnecessary Abstraction</a></small>
+			<small>When the right hand side of a nonterminal is formed from several symbols that happen to occur one after another, without forming a proper abstraction, this can hinder grammar's understanding. The terminology is borrowed from TODO which distinguished strong nonterminals (used during parsing and present in the resulting tree) from weak ones (used during parsing but flattened into single nodes in the tree). (TODO in the paper with if/then/else)<br/>Related smells: <a href="http://tusharma.in/smells/IA2.html">Incomplete Abstraction</a>, <a href="http://tusharma.in/smells/UA.html">Unnecessary Abstraction</a>, <a href="http://tusharma.in/smells/UAC.html">Unnecessary Abstraction</a>, <a href="http://tusharma.in/smells/DCA.html">Compound Attribute</a>, <a href="http://tusharma.in/smells/DMA.html">Multicolumn Attribute</a></small>
 		</pic>
 		<hr/>
 		<div class="last">

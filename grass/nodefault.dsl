@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <path css="../www" img="../www"/>
 <html doctype>
-	<head viewport title="GraSs: A Taxonomy of Grammar Smells">
+	<head viewport title="NoDefault in the GraSs">
 	<body>
 		<header/>
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
@@ -32,56 +32,56 @@
 			<name>Duplication</name>
 			<small>the same fragment is repeated</small>
 		</pic>
-		<pic dwarf>
+		<pic dwarf dim>
 			<a>notation.html</a>
 			<name>Notation</name>
 			<small>metalanguage-related</small>
 		</pic>
-		<pic dwarf dim>
+		<pic dwarf>
 			<a>parsing.html</a>
 			<name>Parsing</name>
 			<small>parsing techniques related smells</small>
 		</pic>
 		<hr/>
 		<pic dwarf dim>
-			<a>combo.html</a>
-			<name>Combo</name>
-			<small>double modifier creates an ambiguity</small>
+			<a>action.html</a>
+			<name>Action</name>
+			<small>a code smell in a semantic action</small>
 		</pic>
 		<pic dwarf dim>
-			<a>deprecated.html</a>
-			<name>Deprecated</name>
-			<small>the use of a feature that is no longer welcome</small>
+			<a>factoring.html</a>
+			<name>Factoring</name>
+			<small>improper factoring or distribution</small>
+		</pic>
+		<pic dwarf dim>
+			<a>leftrecursion.html</a>
+			<name>LeftRecursion</name>
+			<small>left recursive rules</small>
 		</pic>
 		<pic dwarf>
-			<a>letmeexplain.html</a>
-			<name>LetMeExplain</name>
-			<small>comments cover up bad code</small>
+			<a>nodefault.html</a>
+			<name>NoDefault</name>
+			<small>no error-localising default branch</small>
 		</pic>
 		<pic dwarf dim>
-			<a>overspec.html</a>
-			<name>Overspec</name>
-			<small>the same constraint specified through several means</small>
+			<a>rightrecursion.html</a>
+			<name>RightRecursion</name>
+			<small>right recursive rules</small>
 		</pic>
 		<pic dwarf dim>
-			<a>priorities.html</a>
-			<name>Priorities</name>
-			<small>not present or circular</small>
+			<a>sloppy.html</a>
+			<name>Sloppy</name>
+			<small>a chunk of input could be parsed in more detail</small>
 		</pic>
 		<pic dwarf dim>
-			<a>singleton.html</a>
-			<name>Singleton</name>
-			<small>trivial choice, sequence or conjunction</small>
-		</pic>
-		<pic dwarf dim>
-			<a>underuse.html</a>
-			<name>Underuse</name>
-			<small>inferior substitutes are used instead of an available feature</small>
+			<a>superset.html</a>
+			<name>Superset</name>
+			<small>parser spec is too relaxed</small>
 		</pic>
 		<hr/>
 		<pic wide>
-			<name>LetMeExplain</name>
-			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/CO.html">Comments</a></small>
+			<name>NoDefault</name>
+			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/MDC.html">Missing Default Case</a>, <a href="http://tusharma.in/smells/AR.html">Assertion Roulette</a></small>
 		</pic>
 		<hr/>
 		<div class="last">

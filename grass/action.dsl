@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <path css="../www" img="../www"/>
 <html doctype>
-	<head viewport title="GraSs: A Taxonomy of Grammar Smells">
+	<head viewport title="Action in the GraSs">
 	<body>
 		<header/>
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
@@ -49,19 +49,9 @@
 			<small>a code smell in a semantic action</small>
 		</pic>
 		<pic dwarf dim>
-			<a>default.html</a>
-			<name>Default</name>
-			<small>no error-localising default branch</small>
-		</pic>
-		<pic dwarf dim>
 			<a>factoring.html</a>
 			<name>Factoring</name>
 			<small>improper factoring or distribution</small>
-		</pic>
-		<pic dwarf dim>
-			<a>future.html</a>
-			<name>Future</name>
-			<small>a chunk of input could be parsed in more detail</small>
 		</pic>
 		<pic dwarf dim>
 			<a>leftrecursion.html</a>
@@ -69,9 +59,19 @@
 			<small>left recursive rules</small>
 		</pic>
 		<pic dwarf dim>
+			<a>nodefault.html</a>
+			<name>NoDefault</name>
+			<small>no error-localising default branch</small>
+		</pic>
+		<pic dwarf dim>
 			<a>rightrecursion.html</a>
 			<name>RightRecursion</name>
 			<small>right recursive rules</small>
+		</pic>
+		<pic dwarf dim>
+			<a>sloppy.html</a>
+			<name>Sloppy</name>
+			<small>a chunk of input could be parsed in more detail</small>
 		</pic>
 		<pic dwarf dim>
 			<a>superset.html</a>
@@ -81,7 +81,7 @@
 		<hr/>
 		<pic wide>
 			<name>Action</name>
-			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/ESRA.html">Switch Redundant Assignment</a>, <a href="http://tusharma.in/smells/PCTH.html">Circuitous Treasure Hunt</a>, <a href="http://tusharma.in/smells/PEDA.html">Excessive Dynamic Allocation</a>, <a href="http://tusharma.in/smells/POLB.html">The One Lane Bridge</a>, <a href="http://tusharma.in/smells/MG.html">Mystery Guest</a>, <a href="http://tusharma.in/smells/RO.html">Resource Optimism</a>, <a href="http://tusharma.in/smells/IPV.html">Invalid Property Value</a></small>
+			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/ESRA.html">Switch Redundant Assignment</a>, <a href="http://tusharma.in/smells/PCTH.html">Circuitous Treasure Hunt</a>, <a href="http://tusharma.in/smells/PEDA.html">Excessive Dynamic Allocation</a>, <a href="http://tusharma.in/smells/POLB.html">The One Lane Bridge</a>, <a href="http://tusharma.in/smells/MG.html">Mystery Guest</a>, <a href="http://tusharma.in/smells/RO.html">Resource Optimism</a>, <a href="http://tusharma.in/smells/IPV.html">Invalid Property Value</a>, <a href="http://tusharma.in/smells/II.html">Inappropriate Intimacy</a>, <a href="http://tusharma.in/smells/TQ.html">Type Queries</a>, <a href="http://tusharma.in/smells/UE.html">Unexploited Encapsulation</a>, <a href="http://tusharma.in/smells/OILS.html">Obscure In-Line Setup</a></small>
 		</pic>
 		<hr/>
 		<div class="last">

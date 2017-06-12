@@ -4,15 +4,23 @@
 
 import os
 
-def makeheader():
+def makeheader(title, counter):
+	if title:
+		title = title + ' in the GraSs'
+	else:
+		title = 'GraSs: A Taxonomy of Grammar Smells'
+	if counter:
+		counter = ' ({})'.format(counter)
+	else:
+		counter = ''
 	return '''<?xml version="1.0" encoding="UTF-8"?>
 <path css="../www" img="../www"/>
 <html doctype>
-	<head viewport title="GraSs: A Taxonomy of Grammar Smells">
+	<head viewport title="{0}">
 	<body>
 		<header/>
-		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
-'''
+		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells{1}</h1>
+'''.format(title, counter)
 
 def makefooter():
 	return '''		<div class="last">
@@ -91,7 +99,8 @@ keys = sorted(taxonomy.keys())
 
 # generate the index
 f = open('index.dsl', 'w', encoding='utf-8')
-f.write(makeheader())
+cx = sum([sum([len(taxonomy[key1][key2]) for key2 in taxonomy[key1]]) for key1 in keys])
+f.write(makeheader('', '{} smells total'.format(cx)))
 f.write(makehr())
 for key1 in keys:
 	f.write(makepic(key1.lower(), key1, explanation[key1], False))
@@ -102,7 +111,8 @@ f.close()
 # generate top levels
 for key1 in keys:
 	f = open(key1.lower()+'.dsl', 'w', encoding='utf-8')
-	f.write(makeheader())
+	cx = sum([len(taxonomy[key1][key2]) for key2 in taxonomy[key1]])
+	f.write(makeheader('{} Smells'.format(key1), '{} in the selected group'.format(cx)))
 	f.write(makehr())
 	for key1e in keys:
 		f.write(makepic(key1e.lower(), key1e, explanation[key1e], key1e != key1))
@@ -117,7 +127,8 @@ for key1 in keys:
 for key1 in keys:
 	for key2 in taxonomy[key1].keys():
 		f = open(key2.lower()+'.dsl', 'w', encoding='utf-8')
-		f.write(makeheader())
+		cx = len(taxonomy[key1][key2])
+		f.write(makeheader('{} Smells ({})'.format(key2, key1), '{} in the selected group'.format(cx)))
 		f.write(makehr())
 		for key1e in keys:
 			f.write(makepic(key1e.lower(), key1e, explanation[key1e], key1e != key1))
@@ -136,7 +147,7 @@ for key1 in keys:
 	for key2 in taxonomy[key1].keys():
 		for key3 in taxonomy[key1][key2]:
 			f = open(key3.lower()+'.dsl', 'w', encoding='utf-8')
-			f.write(makeheader())
+			f.write(makeheader(key3, ''))
 			f.write(makehr())
 			for key1e in keys:
 				f.write(makepic(key1e.lower(), key1e, explanation[key1e], key1e != key1))

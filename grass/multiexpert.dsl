@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <path css="../www" img="../www"/>
 <html doctype>
-	<head viewport title="Diamond in the GraSs">
+	<head viewport title="Multiexpert in the GraSs">
 	<body>
 		<header/>
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
@@ -27,56 +27,46 @@
 			<name>Complexity</name>
 			<small>metric-based smells</small>
 		</pic>
-		<pic dwarf>
+		<pic dwarf dim>
 			<a>dependency.html</a>
 			<name>Dependency</name>
 			<small>antipatterns in use</small>
 		</pic>
-		<pic dwarf dim>
+		<pic dwarf>
 			<a>proxy.html</a>
 			<name>Proxy</name>
 			<small>indirect uses</small>
 		</pic>
 		<hr/>
+		<pic dwarf dim>
+			<a>chain.html</a>
+			<name>Chain</name>
+			<small>right hand side is a nonterminal</small>
+		</pic>
+		<pic dwarf dim>
+			<a>ghost.html</a>
+			<name>Ghost</name>
+			<small>a subexpression that should have been a nonterminal</small>
+		</pic>
 		<pic dwarf>
-			<a>diamond.html</a>
-			<name>Diamond</name>
-			<small>A is X and B is X, but C is A or B</small>
+			<a>multiexpert.html</a>
+			<name>Multiexpert</name>
+			<small>a nonterminal that represents two or more concepts</small>
 		</pic>
 		<pic dwarf dim>
-			<a>mythic.html</a>
-			<name>Mythic</name>
-			<small>an alternative that is never exercised in the codebase</small>
+			<a>throwaway.html</a>
+			<name>Throwaway</name>
+			<small>a nonterminal used only once</small>
 		</pic>
 		<pic dwarf dim>
-			<a>ouroboros.html</a>
-			<name>Ouroboros</name>
-			<small>a circular dependency among modules</small>
-		</pic>
-		<pic dwarf dim>
-			<a>related.html</a>
-			<name>Related</name>
-			<small>UINT|Unstable Interface</small>
-		</pic>
-		<pic dwarf dim>
-			<a>rivalry.html</a>
-			<name>Rivalry</name>
-			<small>overlapping alternatives</small>
-		</pic>
-		<pic dwarf dim>
-			<a>soulmates.html</a>
-			<name>Soulmates</name>
-			<small>nonterminals or modules are always changed together</small>
-		</pic>
-		<pic dwarf dim>
-			<a>spillover.html</a>
-			<name>Spillover</name>
-			<small>a nonterminal that is too linked to the adjacent symbols</small>
+			<a>weak.html</a>
+			<name>Weak</name>
+			<small>a nonterminal does not form a proper abstraction</small>
 		</pic>
 		<hr/>
 		<pic wide>
-			<name>Diamond</name>
-			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/AAI.html">Ambiguous Interfaces</a></small>
+			<name>Multiexpert</name>
+			<small>TODO violates the single responsibility principle<br/>Related smells: <a href="http://tusharma.in/smells/GC.html">God Class</a>, <a href="http://tusharma.in/smells/PGC.html">God Class</a>, <a href="http://tusharma.in/smells/SAK.html">Swiss Army Knife</a>, <a href="http://tusharma.in/smells/MAC.html">Multifaceted Abstraction</a>, <a href="http://tusharma.in/smells/PBB.html">Brother of the Bride</a></small>
 		</pic>
 		<hr/>
 		<div class="last">

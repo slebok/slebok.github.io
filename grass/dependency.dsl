@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <path css="../www" img="../www"/>
 <html doctype>
-	<head viewport title="GraSs: A Taxonomy of Grammar Smells">
+	<head viewport title="Dependency Smells (Structure) in the GraSs">
 	<body>
 		<header/>
-		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
+		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells (7 in the selected group)</h1>
 		<hr/>
 		<pic dwarf dim>
 			<a>navigation.html</a>
@@ -54,6 +54,11 @@
 			<small>a circular dependency among modules</small>
 		</pic>
 		<pic dwarf>
+			<a>related.html</a>
+			<name>Related</name>
+			<small>UINT|Unstable Interface</small>
+		</pic>
+		<pic dwarf>
 			<a>rivalry.html</a>
 			<name>Rivalry</name>
 			<small>overlapping alternatives</small>
@@ -62,6 +67,11 @@
 			<a>soulmates.html</a>
 			<name>Soulmates</name>
 			<small>nonterminals or modules are always changed together</small>
+		</pic>
+		<pic dwarf>
+			<a>spillover.html</a>
+			<name>Spillover</name>
+			<small>a nonterminal that is too linked to the adjacent symbols</small>
 		</pic>
 		<hr/>
 		<div class="last">

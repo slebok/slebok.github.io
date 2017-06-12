@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <path css="../www" img="../www"/>
 <html doctype>
-	<head viewport title="GraSs: A Taxonomy of Grammar Smells">
+	<head viewport title="Complexity Smells (Structure) in the GraSs">
 	<body>
 		<header/>
-		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
+		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells (10 in the selected group)</h1>
 		<hr/>
 		<pic dwarf dim>
 			<a>navigation.html</a>
@@ -39,19 +39,19 @@
 		</pic>
 		<hr/>
 		<pic dwarf>
-			<a>toocoupled.html</a>
-			<name>TooCoupled</name>
-			<small>low cohesion and/or high coupling</small>
-		</pic>
-		<pic dwarf>
-			<a>toogreedy.html</a>
-			<name>TooGreedy</name>
+			<a>greedy.html</a>
+			<name>Greedy</name>
 			<small>one module that does too much</small>
 		</pic>
 		<pic dwarf>
-			<a>toolazy.html</a>
-			<name>TooLazy</name>
+			<a>lazy.html</a>
+			<name>Lazy</name>
 			<small>one module that does not do much</small>
+		</pic>
+		<pic dwarf>
+			<a>toocoupled.html</a>
+			<name>TooCoupled</name>
+			<small>low cohesion and/or high coupling</small>
 		</pic>
 		<pic dwarf>
 			<a>toolonely.html</a>

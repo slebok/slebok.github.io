@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <path css="../www" img="../www"/>
 <html doctype>
-	<head viewport title="Splat in the GraSs">
+	<head viewport title="Chant in the GraSs">
 	<body>
 		<header/>
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
@@ -22,7 +22,7 @@
 			<small>harmful relationships among grammar components</small>
 		</pic>
 		<hr/>
-		<pic dwarf>
+		<pic dwarf dim>
 			<a>convention.html</a>
 			<name>Convention</name>
 			<small>violations of visual policies</small>
@@ -32,7 +32,7 @@
 			<name>Duplication</name>
 			<small>the same fragment is repeated</small>
 		</pic>
-		<pic dwarf dim>
+		<pic dwarf>
 			<a>notation.html</a>
 			<name>Notation</name>
 			<small>metalanguage-related</small>
@@ -43,35 +43,50 @@
 			<small>parsing techniques related smells</small>
 		</pic>
 		<hr/>
-		<pic dwarf dim>
-			<a>formatting.html</a>
-			<name>Formatting</name>
-			<small>misleading formatting</small>
-		</pic>
-		<pic dwarf dim>
-			<a>naming.html</a>
-			<name>Naming</name>
-			<small>problems with naming policies</small>
-		</pic>
 		<pic dwarf>
-			<a>splat.html</a>
-			<name>Splat</name>
-			<small>nonterminal fragments scattered over the grammar</small>
+			<a>chant.html</a>
+			<name>Chant</name>
+			<small>comments cover up bad code</small>
 		</pic>
 		<pic dwarf dim>
-			<a>unnatural.html</a>
-			<name>Unnatural</name>
-			<small>a misspelling or improper use of the natural language</small>
+			<a>combo.html</a>
+			<name>Combo</name>
+			<small>double modifier creates an ambiguity</small>
 		</pic>
 		<pic dwarf dim>
-			<a>zigzag.html</a>
-			<name>ZigZag</name>
-			<small>mixing horizontal and vertical styles</small>
+			<a>deprecated.html</a>
+			<name>Deprecated</name>
+			<small>the use of a feature that is no longer welcome</small>
+		</pic>
+		<pic dwarf dim>
+			<a>exotic.html</a>
+			<name>Exotic</name>
+			<small>too idiosyncratic notational features decrease portability</small>
+		</pic>
+		<pic dwarf dim>
+			<a>overspec.html</a>
+			<name>Overspec</name>
+			<small>the same constraint specified through several means</small>
+		</pic>
+		<pic dwarf dim>
+			<a>priorities.html</a>
+			<name>Priorities</name>
+			<small>not present or circular</small>
+		</pic>
+		<pic dwarf dim>
+			<a>singleton.html</a>
+			<name>Singleton</name>
+			<small>trivial choice, sequence or conjunction</small>
+		</pic>
+		<pic dwarf dim>
+			<a>underuse.html</a>
+			<name>Underuse</name>
+			<small>inferior substitutes are used instead of an available feature</small>
 		</pic>
 		<hr/>
 		<pic wide>
-			<name>Splat</name>
-			<small>???</small>
+			<name>Chant</name>
+			<small>TODO: explain why too much comments is a bad thing<br/>Related smells: <a href="http://tusharma.in/smells/CO.html">Comments</a>, <a href="http://tusharma.in/smells/PDD.html">The Devil of Details</a></small>
 		</pic>
 		<hr/>
 		<div class="last">

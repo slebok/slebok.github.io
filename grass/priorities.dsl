@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <path css="../www" img="../www"/>
 <html doctype>
-	<head viewport title="GraSs: A Taxonomy of Grammar Smells">
+	<head viewport title="Priorities in the GraSs">
 	<body>
 		<header/>
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
@@ -44,6 +44,11 @@
 		</pic>
 		<hr/>
 		<pic dwarf dim>
+			<a>chant.html</a>
+			<name>Chant</name>
+			<small>comments cover up bad code</small>
+		</pic>
+		<pic dwarf dim>
 			<a>combo.html</a>
 			<name>Combo</name>
 			<small>double modifier creates an ambiguity</small>
@@ -54,9 +59,9 @@
 			<small>the use of a feature that is no longer welcome</small>
 		</pic>
 		<pic dwarf dim>
-			<a>letmeexplain.html</a>
-			<name>LetMeExplain</name>
-			<small>comments cover up bad code</small>
+			<a>exotic.html</a>
+			<name>Exotic</name>
+			<small>too idiosyncratic notational features decrease portability</small>
 		</pic>
 		<pic dwarf dim>
 			<a>overspec.html</a>
@@ -81,7 +86,7 @@
 		<hr/>
 		<pic wide>
 			<name>Priorities</name>
-			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/CMC.html">Cross-module Cycle</a>, <a href="http://tusharma.in/smells/NL.html">No Layers</a></small>
+			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/CMC.html">Cross-module Cycle</a>, <a href="http://tusharma.in/smells/NL.html">No Layers</a>, <a href="http://tusharma.in/smells/SS1.html">Stovepipe System</a></small>
 		</pic>
 		<hr/>
 		<div class="last">
