@@ -81,7 +81,7 @@
 		<hr/>
 		<pic wide>
 			<name>NoDefault</name>
-			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/MDC.html">Missing Default Case</a>, <a href="http://tusharma.in/smells/AR.html">Assertion Roulette</a></small>
+			<small>Related smells: <a href="http://tusharma.in/smells/MDC.html">Missing Default Case</a>, <a href="http://tusharma.in/smells/AR.html">Assertion Roulette</a><br/>???</small>
 		</pic>
 		<hr/>
 		<div class="last">

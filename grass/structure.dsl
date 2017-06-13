@@ -4,7 +4,7 @@
 	<head viewport title="Structure Smells in the GraSs">
 	<body>
 		<header/>
-		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells (22 in the selected group)</h1>
+		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells (21 in the selected group)</h1>
 		<hr/>
 		<pic dwarf dim>
 			<a>navigation.html</a>

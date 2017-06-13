@@ -86,7 +86,7 @@
 		<hr/>
 		<pic wide>
 			<name>Singleton</name>
-			<small>TODO other things with improper use of notation<br/>Related smells: <a href="http://tusharma.in/smells/IC.html">Incomplete Conditional</a></small>
+			<small>Related smells: <a href="http://tusharma.in/smells/IC.html">Incomplete Conditional</a><br/>TODO other things with improper use of notation</small>
 		</pic>
 		<hr/>
 		<div class="last">

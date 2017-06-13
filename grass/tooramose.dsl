@@ -91,7 +91,7 @@
 		<hr/>
 		<pic wide>
 			<name>TooRamose</name>
-			<small>TODO: conjunction, disjunction, relate to CC; TODO: WH suggests intermediate "types" but DCT/BM consider those a smell<br/>Related smells: <a href="http://tusharma.in/smells/WH.html">Wide Hierarchy</a>, <a href="http://tusharma.in/smells/DCT.html">Clone Tables</a>, <a href="http://tusharma.in/smells/SCC.html">Conditional Complexity</a>, <a href="http://tusharma.in/smells/BM.html">Broken Modularization</a></small>
+			<small>Related smells: <a href="http://tusharma.in/smells/WH.html">Wide Hierarchy</a>, <a href="http://tusharma.in/smells/DCT.html">Clone Tables</a>, <a href="http://tusharma.in/smells/SCC.html">Conditional Complexity</a>, <a href="http://tusharma.in/smells/BM.html">Broken Modularization</a><br/>TODO: conjunction, disjunction, relate to CC; TODO: WH suggests intermediate "types" but DCT/BM consider those a smell</small>
 		</pic>
 		<hr/>
 		<div class="last">

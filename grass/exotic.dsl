@@ -86,7 +86,7 @@
 		<hr/>
 		<pic wide>
 			<name>Exotic</name>
-			<small>TODO: also people too attached to their tools or the ways their tools do it<br/>Related smells: <a href="http://tusharma.in/smells/VLI.html">Vendor Lock−In</a>, <a href="http://tusharma.in/smells/GH.html">Golden Hammer</a></small>
+			<small>Related smells: <a href="http://tusharma.in/smells/VLI.html">Vendor Lock−In</a>, <a href="http://tusharma.in/smells/GH.html">Golden Hammer</a><br/>TODO: also people too attached to their tools or the ways their tools do it</small>
 		</pic>
 		<hr/>
 		<div class="last">

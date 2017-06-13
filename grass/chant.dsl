@@ -86,7 +86,7 @@
 		<hr/>
 		<pic wide>
 			<name>Chant</name>
-			<small>TODO: explain why too much comments is a bad thing<br/>Related smells: <a href="http://tusharma.in/smells/CO.html">Comments</a>, <a href="http://tusharma.in/smells/PDD.html">The Devil of Details</a></small>
+			<small>Related smells: <a href="http://tusharma.in/smells/CO.html">Comments</a>, <a href="http://tusharma.in/smells/PDD.html">The Devil of Details</a><br/>TODO: explain why too much comments is a bad thing</small>
 		</pic>
 		<hr/>
 		<div class="last">

@@ -54,11 +54,6 @@
 			<small>a circular dependency among modules</small>
 		</pic>
 		<pic dwarf dim>
-			<a>related.html</a>
-			<name>Related</name>
-			<small>UINT|Unstable Interface</small>
-		</pic>
-		<pic dwarf dim>
 			<a>rivalry.html</a>
 			<name>Rivalry</name>
 			<small>overlapping alternatives</small>
@@ -76,7 +71,7 @@
 		<hr/>
 		<pic wide>
 			<name>Soulmates</name>
-			<small>If enough information is available about the evolution of the grammar (e.g., in a form of a versioned repository or a piece of documentation describing all changes), one can notice two nonterminals having a so-called <emph>co-change relationship</emph> when each revision that changes one, also changes the other. The smell occurs when this co-change relationship in the revision log does not correspond to explicit dependencies between modules and nonterminals. TODO can be a thought experiment: if we do X, we must do Y; TODO actually can *only* be done with revision mining or conceptually, not by code analysis like usual for FE<br/>Related smells: <a href="http://tusharma.in/smells/CROSSM.html">Implicit Cross-Module Dependency</a>, <a href="http://tusharma.in/smells/PIH.html">Parallel Inheritance Hierarchies</a>, <a href="http://tusharma.in/smells/SS.html">Shotgun Surgery</a>, <a href="http://tusharma.in/smells/SSS.html">Shotgun Surgery</a>, <a href="http://tusharma.in/smells/FE.html">Feature Envy</a>, <a href="http://tusharma.in/smells/SFE.html">Feature Envy</a>, <a href="http://tusharma.in/smells/II.html">Inappropriate Intimacy</a>, <a href="http://tusharma.in/smells/SII.html">Inappropriate Intimacy</a></small>
+			<small>Related smells: <a href="http://tusharma.in/smells/CROSSM.html">Implicit Cross-Module Dependency</a>, <a href="http://tusharma.in/smells/PIH.html">Parallel Inheritance Hierarchies</a>, <a href="http://tusharma.in/smells/SS.html">Shotgun Surgery</a>, <a href="http://tusharma.in/smells/SSS.html">Shotgun Surgery</a>, <a href="http://tusharma.in/smells/FE.html">Feature Envy</a>, <a href="http://tusharma.in/smells/SFE.html">Feature Envy</a>, <a href="http://tusharma.in/smells/II.html">Inappropriate Intimacy</a>, <a href="http://tusharma.in/smells/SII.html">Inappropriate Intimacy</a><br/>If enough information is available about the evolution of the grammar (e.g., in a form of a versioned repository or a piece of documentation describing all changes), one can notice two nonterminals having a so-called <emph>co-change relationship</emph> when each revision that changes one, also changes the other. The smell occurs when this co-change relationship in the revision log does not correspond to explicit dependencies between modules and nonterminals. TODO can be a thought experiment: if we do X, we must do Y; TODO actually can *only* be done with revision mining or conceptually, not by code analysis like usual for FE</small>
 		</pic>
 		<hr/>
 		<div class="last">

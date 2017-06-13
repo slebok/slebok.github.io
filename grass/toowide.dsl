@@ -91,7 +91,7 @@
 		<hr/>
 		<pic wide>
 			<name>TooWide</name>
-			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/SATL.html">Subsystem-API Too Large</a>, <a href="http://tusharma.in/smells/LM.html">Long Method</a>, <a href="http://tusharma.in/smells/LPL.html">Long Parameter List</a>, <a href="http://tusharma.in/smells/CE.html">Complex Expression</a>, <a href="http://tusharma.in/smells/LS.html">Long Statement</a>, <a href="http://tusharma.in/smells/SMO.html">Multiple Operations</a>, <a href="http://tusharma.in/smells/SMR.html">Multiple References</a></small>
+			<small>Related smells: <a href="http://tusharma.in/smells/SATL.html">Subsystem-API Too Large</a>, <a href="http://tusharma.in/smells/LM.html">Long Method</a>, <a href="http://tusharma.in/smells/LPL.html">Long Parameter List</a>, <a href="http://tusharma.in/smells/CE.html">Complex Expression</a>, <a href="http://tusharma.in/smells/LS.html">Long Statement</a>, <a href="http://tusharma.in/smells/SMO.html">Multiple Operations</a>, <a href="http://tusharma.in/smells/SMR.html">Multiple References</a><br/>???</small>
 		</pic>
 		<hr/>
 		<div class="last">

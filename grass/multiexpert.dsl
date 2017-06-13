@@ -66,7 +66,7 @@
 		<hr/>
 		<pic wide>
 			<name>Multiexpert</name>
-			<small>TODO violates the single responsibility principle<br/>Related smells: <a href="http://tusharma.in/smells/GC.html">God Class</a>, <a href="http://tusharma.in/smells/PGC.html">God Class</a>, <a href="http://tusharma.in/smells/SAK.html">Swiss Army Knife</a>, <a href="http://tusharma.in/smells/MAC.html">Multifaceted Abstraction</a>, <a href="http://tusharma.in/smells/PBB.html">Brother of the Bride</a></small>
+			<small>Related smells: <a href="http://tusharma.in/smells/GC.html">God Class</a>, <a href="http://tusharma.in/smells/PGC.html">God Class</a>, <a href="http://tusharma.in/smells/SAK.html">Swiss Army Knife</a>, <a href="http://tusharma.in/smells/MAC.html">Multifaceted Abstraction</a>, <a href="http://tusharma.in/smells/PBB.html">Brother of the Bride</a>, <a href="http://tusharma.in/smells/MA2.html">Multifaceted Abstraction</a><br/>TODO violates the single responsibility principle</small>
 		</pic>
 		<hr/>
 		<div class="last">

@@ -76,7 +76,7 @@
 		<hr/>
 		<pic wide>
 			<name>Common</name>
-			<small>TODO: DC is when data is used together<br/>Related smells: <a href="http://tusharma.in/smells/DC.html">Data Clumps</a>, <a href="http://tusharma.in/smells/RW.html">Reinvent the Wheel</a>, <a href="http://tusharma.in/smells/DB.html">Duplicate Block</a>, <a href="http://tusharma.in/smells/SDF.html">Duplicated Formulas</a>, <a href="http://tusharma.in/smells/ACE.html">Connector Envy</a></small>
+			<small>Related smells: <a href="http://tusharma.in/smells/DC.html">Data Clumps</a>, <a href="http://tusharma.in/smells/RW.html">Reinvent the Wheel</a>, <a href="http://tusharma.in/smells/DB.html">Duplicate Block</a>, <a href="http://tusharma.in/smells/SDF.html">Duplicated Formulas</a>, <a href="http://tusharma.in/smells/ACE.html">Connector Envy</a><br/>TODO: DC is when data is used together</small>
 		</pic>
 		<hr/>
 		<div class="last">

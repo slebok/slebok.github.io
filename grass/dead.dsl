@@ -71,7 +71,7 @@
 		<hr/>
 		<pic wide>
 			<name>Dead</name>
-			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/UP.html">Unused Packages</a>, <a href="http://tusharma.in/smells/LF.html">Lava Flow</a>, <a href="http://tusharma.in/smells/OC.html">Obsolete Classes</a>, <a href="http://tusharma.in/smells/UA2.html">Unutilized Abstraction</a>, <a href="http://tusharma.in/smells/EDLS.html">Dead Local Store</a>, <a href="http://tusharma.in/smells/DF.html">Dead Fields</a></small>
+			<small>Related smells: <a href="http://tusharma.in/smells/UP.html">Unused Packages</a>, <a href="http://tusharma.in/smells/LF.html">Lava Flow</a>, <a href="http://tusharma.in/smells/OC.html">Obsolete Classes</a>, <a href="http://tusharma.in/smells/UA2.html">Unutilized Abstraction</a>, <a href="http://tusharma.in/smells/EDLS.html">Dead Local Store</a>, <a href="http://tusharma.in/smells/DF.html">Dead Fields</a><br/>???</small>
 		</pic>
 		<hr/>
 		<div class="last">

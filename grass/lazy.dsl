@@ -91,7 +91,7 @@
 		<hr/>
 		<pic wide>
 			<name>Lazy</name>
-			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/LC2.html">Lazy Class</a></small>
+			<small>Related smells: <a href="http://tusharma.in/smells/LC2.html">Lazy Class</a><br/>???</small>
 		</pic>
 		<hr/>
 		<div class="last">

@@ -66,7 +66,7 @@
 		<hr/>
 		<pic wide>
 			<name>Ghost</name>
-			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/ME.html">Missing Encapsulation</a></small>
+			<small>Related smells: <a href="http://tusharma.in/smells/ME.html">Missing Encapsulation</a><br/>???</small>
 		</pic>
 		<hr/>
 		<div class="last">

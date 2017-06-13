@@ -86,7 +86,7 @@
 		<hr/>
 		<pic wide>
 			<name>Deprecated</name>
-			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/DSU.html">Deprecated Statement Usage</a></small>
+			<small>Related smells: <a href="http://tusharma.in/smells/DSU.html">Deprecated Statement Usage</a><br/>???</small>
 		</pic>
 		<hr/>
 		<div class="last">

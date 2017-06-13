@@ -71,7 +71,7 @@
 		<hr/>
 		<pic wide>
 			<name>Naming</name>
-			<small>Several smells in one!<br/>Related smells: <a href="http://tusharma.in/smells/PNCN.html">Packages Not Clearly Named</a>, <a href="http://tusharma.in/smells/DA.html">Duplicate Abstraction</a>, <a href="http://tusharma.in/smells/INC.html">Inconsistent Naming Convention</a>, <a href="http://tusharma.in/smells/IQU.html">Improper Quote Usage</a></small>
+			<small>Related smells: <a href="http://tusharma.in/smells/PNCN.html">Packages Not Clearly Named</a>, <a href="http://tusharma.in/smells/DA.html">Duplicate Abstraction</a>, <a href="http://tusharma.in/smells/INC.html">Inconsistent Naming Convention</a>, <a href="http://tusharma.in/smells/IQU.html">Improper Quote Usage</a><br/>Several smells in one!</small>
 		</pic>
 		<hr/>
 		<div class="last">

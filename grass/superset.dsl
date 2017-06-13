@@ -81,7 +81,7 @@
 		<hr/>
 		<pic wide>
 			<name>Superset</name>
-			<small>Some grammars represent a superset of the intended language. This may become a problem if the parser based on the grammar is to be used as an oracle for program correctness, since in this role it is inadequate. Overly relaxed grammars are routinely used in other scenarios and can be very useful in inter-language translation.<br/>Related smells: <a href="http://tusharma.in/smells/OG.html">Overgeneralization</a></small>
+			<small>Related smells: <a href="http://tusharma.in/smells/OG.html">Overgeneralization</a><br/>Some grammars represent a superset of the intended language. This may become a problem if the parser based on the grammar is to be used as an oracle for program correctness, since in this role it is inadequate. Overly relaxed grammars are routinely used in other scenarios and can be very useful in inter-language translation.</small>
 		</pic>
 		<hr/>
 		<div class="last">

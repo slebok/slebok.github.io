@@ -81,7 +81,7 @@
 		<hr/>
 		<pic wide>
 			<name>Factoring</name>
-			<small>TODO: also when distinction is made deeper than conceptually should be<br/>Related smells: <a href="http://tusharma.in/smells/MH.html">Missing Hierarchy</a>, <a href="http://tusharma.in/smells/ERC.html">Repeated Conditionals</a></small>
+			<small>Related smells: <a href="http://tusharma.in/smells/MH.html">Missing Hierarchy</a>, <a href="http://tusharma.in/smells/ERC.html">Repeated Conditionals</a><br/>TODO: also when distinction is made deeper than conceptually should be</small>
 		</pic>
 		<hr/>
 		<div class="last">

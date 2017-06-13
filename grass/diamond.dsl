@@ -54,11 +54,6 @@
 			<small>a circular dependency among modules</small>
 		</pic>
 		<pic dwarf dim>
-			<a>related.html</a>
-			<name>Related</name>
-			<small>UINT|Unstable Interface</small>
-		</pic>
-		<pic dwarf dim>
 			<a>rivalry.html</a>
 			<name>Rivalry</name>
 			<small>overlapping alternatives</small>
@@ -76,7 +71,7 @@
 		<hr/>
 		<pic wide>
 			<name>Diamond</name>
-			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/AAI.html">Ambiguous Interfaces</a></small>
+			<small>Related smells: <a href="http://tusharma.in/smells/AAI.html">Ambiguous Interfaces</a><br/>???</small>
 		</pic>
 		<hr/>
 		<div class="last">

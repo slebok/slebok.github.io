@@ -91,7 +91,7 @@
 		<hr/>
 		<pic wide>
 			<name>TooNested</name>
-			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/AFC.html">Feature Concentration</a></small>
+			<small>Related smells: <a href="http://tusharma.in/smells/AFC.html">Feature Concentration</a><br/>???</small>
 		</pic>
 		<hr/>
 		<div class="last">

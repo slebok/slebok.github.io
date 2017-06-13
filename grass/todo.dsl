@@ -71,7 +71,7 @@
 		<hr/>
 		<pic wide>
 			<name>ToDo</name>
-			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/IT.html">Incomplete Tasks</a></small>
+			<small>Related smells: <a href="http://tusharma.in/smells/IT.html">Incomplete Tasks</a><br/>???</small>
 		</pic>
 		<hr/>
 		<div class="last">

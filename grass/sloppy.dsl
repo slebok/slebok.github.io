@@ -81,7 +81,7 @@
 		<hr/>
 		<pic wide>
 			<name>Sloppy</name>
-			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/MA.html">Missing Abstraction</a>, <a href="http://tusharma.in/smells/MAC2.html">Missing Abstraction</a></small>
+			<small>Related smells: <a href="http://tusharma.in/smells/MA.html">Missing Abstraction</a>, <a href="http://tusharma.in/smells/MAC2.html">Missing Abstraction</a><br/>???</small>
 		</pic>
 		<hr/>
 		<div class="last">

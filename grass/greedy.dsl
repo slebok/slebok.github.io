@@ -91,7 +91,7 @@
 		<hr/>
 		<pic wide>
 			<name>Greedy</name>
-			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/IM.html">Insufficient Modularization</a>, <a href="http://tusharma.in/smells/TLP.html">Too Large Packages/Subsystems</a>, <a href="http://tusharma.in/smells/LC.html">Large Class</a>, <a href="http://tusharma.in/smells/BL.html">The Blob</a></small>
+			<small>Related smells: <a href="http://tusharma.in/smells/IM.html">Insufficient Modularization</a>, <a href="http://tusharma.in/smells/TLP.html">Too Large Packages/Subsystems</a>, <a href="http://tusharma.in/smells/LC.html">Large Class</a>, <a href="http://tusharma.in/smells/BL.html">The Blob</a><br/>???</small>
 		</pic>
 		<hr/>
 		<div class="last">

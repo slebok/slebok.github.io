@@ -86,7 +86,7 @@
 		<hr/>
 		<pic wide>
 			<name>Priorities</name>
-			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/CMC.html">Cross-module Cycle</a>, <a href="http://tusharma.in/smells/NL.html">No Layers</a>, <a href="http://tusharma.in/smells/SS1.html">Stovepipe System</a></small>
+			<small>Related smells: <a href="http://tusharma.in/smells/CMC.html">Cross-module Cycle</a>, <a href="http://tusharma.in/smells/NL.html">No Layers</a>, <a href="http://tusharma.in/smells/SS1.html">Stovepipe System</a><br/>???</small>
 		</pic>
 		<hr/>
 		<div class="last">

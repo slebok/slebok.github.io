@@ -91,7 +91,7 @@
 		<hr/>
 		<pic wide>
 			<name>TooModular</name>
-			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/TMS.html">Too Many Subsystems</a>, <a href="http://tusharma.in/smells/TSP.html">Too Small Packages/Subsystems</a></small>
+			<small>Related smells: <a href="http://tusharma.in/smells/TMS.html">Too Many Subsystems</a>, <a href="http://tusharma.in/smells/TSP.html">Too Small Packages/Subsystems</a><br/>???</small>
 		</pic>
 		<hr/>
 		<div class="last">

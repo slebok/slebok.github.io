@@ -81,7 +81,7 @@
 		<hr/>
 		<pic wide>
 			<name>LeftRecursion</name>
-			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/CH.html">Cyclic Hierarchy</a>, <a href="http://tusharma.in/smells/ESA.html">Self Assignment</a></small>
+			<small>Related smells: <a href="http://tusharma.in/smells/CH.html">Cyclic Hierarchy</a>, <a href="http://tusharma.in/smells/ESA.html">Self Assignment</a><br/>???</small>
 		</pic>
 		<hr/>
 		<div class="last">

@@ -66,7 +66,7 @@
 		<hr/>
 		<pic wide>
 			<name>Chain</name>
-			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/LC2.html">Lazy Class</a>, <a href="http://tusharma.in/smells/EAC.html">Extraneous Adjacent Connector</a>, <a href="http://tusharma.in/smells/MC.html">Message Chains</a>, <a href="http://tusharma.in/smells/MM.html">Middle Man</a>, <a href="http://tusharma.in/smells/SMM.html">Middle Man</a>, <a href="http://tusharma.in/smells/SLCC.html">Long Calculation Chain</a>, <a href="http://tusharma.in/smells/TML.html">Too Many Layers</a></small>
+			<small>Related smells: <a href="http://tusharma.in/smells/LC2.html">Lazy Class</a>, <a href="http://tusharma.in/smells/EAC.html">Extraneous Adjacent Connector</a>, <a href="http://tusharma.in/smells/MC.html">Message Chains</a>, <a href="http://tusharma.in/smells/MM.html">Middle Man</a>, <a href="http://tusharma.in/smells/SMM.html">Middle Man</a>, <a href="http://tusharma.in/smells/SLCC.html">Long Calculation Chain</a>, <a href="http://tusharma.in/smells/TML.html">Too Many Layers</a><br/>???</small>
 		</pic>
 		<hr/>
 		<div class="last">

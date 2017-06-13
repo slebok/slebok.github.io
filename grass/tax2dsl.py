@@ -4,6 +4,13 @@
 
 import os
 
+wdir = '../../acceptware/patterns/grass/'
+
+mapped = {\
+	'LDTA-2012-Zaytsev' : 'NPGR2012',
+	'SCAM-J-2009-LammelZ11' : 'JLS-SQJ2011',\
+}
+
 def makeheader(title, counter):
 	if title:
 		title = title + ' in the GraSs'
@@ -56,18 +63,79 @@ def mysplit(s):
 	else:
 		return s[:s.index(':')].strip(), s[s.index(':')+1:].strip()
 
+def tax2dsl(lines):
+	res = []
+	i = 0
+	while i < len(lines):
+		line = lines[i].strip()
+		if line == '[example]':
+			elines = []
+			i += 1
+			while i < len(lines) and lines[i].strip() != '[/example]':
+				elines.append(lines[i])
+				i += 1
+			pre = ''.join(elines).replace('\n', '<br/>')
+			res.append('<br/><code>' + pre.replace(' ', '&nbsp;') + '</code>')
+			i += 1
+			continue
+		while line.find('[cite]') > -1:
+			x = line.index('[cite]')
+			y = line.index('[/cite]')
+			link = line[x+6:y]
+			line = line[:x] + '<a href="http://bibtex.github.io/' + link + '.html">[' + link + ']</a>' + line[y+7:]
+		# normalise
+		line = line.replace('[code]', '<code>').replace('[/code]', '</code>')
+		res.append(line)
+		i += 1
+	return ' '.join(res)
+
+def tax2tex(lines):
+	res = []
+	verbatim = False
+	for line in lines:
+		if verbatim:
+			if line.strip() == '[/example]':
+				res.append('\\end{verbatim}\n')
+				verbatim = False
+				continue
+			res.append(line)
+			continue
+		line = line.strip()
+		if line.strip() == '[example]':
+			res.append('\n\\begin{verbatim}\n')
+			verbatim = True
+			continue
+		while line.find('[cite]') > -1:
+			x = line.index('[cite]')
+			y = line.index('[/cite]')
+			link = line[x+6:y]
+			if link in mapped:
+				link = mapped[link]
+			line = line[:x] + '~\\cite{' + link + '}' + line[y+7:]
+		# normalise
+		line = line.replace('[code]', '\\texttt{').replace('[/code]', '}')
+		line = line.replace(' ~', '~')
+		line = line.replace('}~\cite{', ',')
+		res.append(line)
+	return ' '.join(res)
+
 taxonomy = {}
 explanation = {}
 longdesc = {}
 related = {}
+latex = {}
 
 cur1 = cur2 = cur3 = ''
-f = open('index.tax', 'r', encoding='utf-8')
+f = open(wdir + 'all.tax', 'r', encoding='utf-8')
 for line in f.readlines():
 	if line.startswith('\t\t\t'):
 		line = line.strip()
 		if line.startswith('Related: '):
 			related[cur3].append(line[9:].strip())
+		elif line.startswith('@ '):
+			lines = open(wdir + line[2:].strip(), 'r', encoding='utf-8').readlines()
+			longdesc[cur3] = tax2dsl(lines)
+			latex[cur3] = tax2tex(lines)
 		else:
 			longdesc[cur3] += line.strip()
 	elif line.startswith('\t\t'):
@@ -88,12 +156,6 @@ for line in f.readlines():
 		explanation[a] = b if b else '...'
 		taxonomy[cur1] = {}
 f.close()
-
-# f = open('long.tax', 'r', encoding='utf-8')
-# for line in f.readlines():
-# 	a, b = mysplit(line)
-# 	longdesc[a] = b if b else explanation[a]
-# f.close()
 
 keys = sorted(taxonomy.keys())
 
@@ -162,10 +224,24 @@ for key1 in keys:
 			if not s:
 				s = '???'
 			if key3 in related.keys() and related[key3]:
-				s += '<br/>Related smells: ' + ', '.join(\
+				s = 'Related smells: ' + ', '.join(\
 					['<a href="http://tusharma.in/smells/{0}.html">{1}</a>'.format(*x.split('|'))
-						for x in related[key3]])
+						for x in related[key3]]) + '<br/>' + s
 			f.write(makelastpic(key3, s))
 			f.write(makehr())
 			f.write(makefooter())
 			f.close()
+
+# generate LaTeX
+f = open('smells.tex', 'w', encoding='utf-8')
+for key1 in keys:
+	f.write('\\section{' + key1 + ' Smells}\n\n')
+	for key2 in taxonomy[key1].keys():
+		f.write('\\subsection{' + key2 + '}\n\n')
+		for key3 in taxonomy[key1][key2]:
+			f.write('\\subsubsection{' + key3 + '}\n\n')
+			if key3 in latex:
+				f.write(latex[key3])
+			else:
+				f.write('TODO\n')
+f.close()

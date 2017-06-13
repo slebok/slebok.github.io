@@ -86,7 +86,7 @@
 		<hr/>
 		<pic wide>
 			<name>Combo</name>
-			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/EUCF.html">Useless Control Flow</a></small>
+			<small>Related smells: <a href="http://tusharma.in/smells/EUCF.html">Useless Control Flow</a><br/>???</small>
 		</pic>
 		<hr/>
 		<div class="last">

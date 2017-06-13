@@ -91,7 +91,7 @@
 		<hr/>
 		<pic wide>
 			<name>TooTall</name>
-			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/DH.html">Deep Hierarchy</a>, <a href="http://tusharma.in/smells/TDIH.html">Too Deep Inheritance Hierarchy</a></small>
+			<small>Related smells: <a href="http://tusharma.in/smells/DH.html">Deep Hierarchy</a>, <a href="http://tusharma.in/smells/TDIH.html">Too Deep Inheritance Hierarchy</a><br/>???</small>
 		</pic>
 		<hr/>
 		<div class="last">

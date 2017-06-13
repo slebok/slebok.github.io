@@ -91,7 +91,7 @@
 		<hr/>
 		<pic wide>
 			<name>TooCoupled</name>
-			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/CWM.html">Weakened Modularity</a></small>
+			<small>Related smells: <a href="http://tusharma.in/smells/CWM.html">Weakened Modularity</a><br/>???</small>
 		</pic>
 		<hr/>
 		<div class="last">

@@ -91,7 +91,7 @@
 		<hr/>
 		<pic wide>
 			<name>TooLonely</name>
-			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/NS.html">No Subsystems</a>, <a href="http://tusharma.in/smells/IM.html">Insufficient Modularization</a>, <a href="http://tusharma.in/smells/CIM.html">Insufficient Modularization</a></small>
+			<small>Related smells: <a href="http://tusharma.in/smells/NS.html">No Subsystems</a>, <a href="http://tusharma.in/smells/IM.html">Insufficient Modularization</a>, <a href="http://tusharma.in/smells/CIM.html">Insufficient Modularization</a><br/>???</small>
 		</pic>
 		<hr/>
 		<div class="last">

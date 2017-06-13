@@ -71,7 +71,7 @@
 		<hr/>
 		<pic wide>
 			<name>Unnatural</name>
-			<small>???<br/>Related smells: <a href="http://tusharma.in/smells/PSS.html">Stung by Spell-bee</a></small>
+			<small>Related smells: <a href="http://tusharma.in/smells/PSS.html">Stung by Spell-bee</a><br/>???</small>
 		</pic>
 		<hr/>
 		<div class="last">
