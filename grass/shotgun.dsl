@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <path css="../www" img="../www"/>
 <html doctype>
-	<head viewport title="Sloppy in the GraSs">
+	<head viewport title="Shotgun in the GraSs">
 	<body>
 		<header/>
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
 		<hr/>
-		<pic dwarf dim>
-			<a>navigation.html</a>
-			<name>Navigation</name>
-			<small>problems with navigating through the grammar</small>
-		</pic>
 		<pic dwarf>
 			<a>organisation.html</a>
 			<name>Organisation</name>
 			<small>global problems</small>
+		</pic>
+		<pic dwarf dim>
+			<a>navigation.html</a>
+			<name>Navigation</name>
+			<small>problems with navigating through the grammar</small>
 		</pic>
 		<pic dwarf dim>
 			<a>structure.html</a>
@@ -28,11 +28,6 @@
 			<small>violations of visual policies</small>
 		</pic>
 		<pic dwarf dim>
-			<a>duplication.html</a>
-			<name>Duplication</name>
-			<small>the same fragment is repeated</small>
-		</pic>
-		<pic dwarf dim>
 			<a>notation.html</a>
 			<name>Notation</name>
 			<small>metalanguage-related</small>
@@ -42,12 +37,12 @@
 			<name>Parsing</name>
 			<small>parsing techniques related smells</small>
 		</pic>
-		<hr/>
 		<pic dwarf dim>
-			<a>action.html</a>
-			<name>Action</name>
-			<small>a code smell in a semantic action</small>
+			<a>duplication.html</a>
+			<name>Duplication</name>
+			<small>the same fragment is repeated</small>
 		</pic>
+		<hr/>
 		<pic dwarf dim>
 			<a>factoring.html</a>
 			<name>Factoring</name>
@@ -59,29 +54,34 @@
 			<small>left recursive rules</small>
 		</pic>
 		<pic dwarf dim>
-			<a>nodefault.html</a>
-			<name>NoDefault</name>
-			<small>no error-localising default branch</small>
-		</pic>
-		<pic dwarf dim>
 			<a>rightrecursion.html</a>
 			<name>RightRecursion</name>
 			<small>right recursive rules</small>
-		</pic>
-		<pic dwarf>
-			<a>sloppy.html</a>
-			<name>Sloppy</name>
-			<small>a chunk of input could be parsed in more detail</small>
 		</pic>
 		<pic dwarf dim>
 			<a>superset.html</a>
 			<name>Superset</name>
 			<small>parser spec is too relaxed</small>
 		</pic>
+		<pic dwarf>
+			<a>shotgun.html</a>
+			<name>Shotgun</name>
+			<small>a chunk of input could be parsed in more detail</small>
+		</pic>
+		<pic dwarf dim>
+			<a>nodefault.html</a>
+			<name>NoDefault</name>
+			<small>no error-localising default branch</small>
+		</pic>
+		<pic dwarf dim>
+			<a>action.html</a>
+			<name>Action</name>
+			<small>a code smell in a semantic action</small>
+		</pic>
 		<hr/>
 		<pic wide>
-			<name>Sloppy</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/MA.html">Missing Abstraction</a>, <a href="http://tusharma.in/smells/MAC2.html">Missing Abstraction</a><br/>???</small>
+			<name>Shotgun</name>
+			<small>Related smells: <a href="http://tusharma.in/smells/MA.html">Missing Abstraction</a>, <a href="http://tusharma.in/smells/MAC2.html">Missing Abstraction</a><br/>TODO link to Meredith</small>
 		</pic>
 		<hr/>
 		<div class="last">

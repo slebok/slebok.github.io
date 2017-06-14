@@ -6,15 +6,15 @@
 		<header/>
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
 		<hr/>
-		<pic dwarf dim>
-			<a>navigation.html</a>
-			<name>Navigation</name>
-			<small>problems with navigating through the grammar</small>
-		</pic>
 		<pic dwarf>
 			<a>organisation.html</a>
 			<name>Organisation</name>
 			<small>global problems</small>
+		</pic>
+		<pic dwarf dim>
+			<a>navigation.html</a>
+			<name>Navigation</name>
+			<small>problems with navigating through the grammar</small>
 		</pic>
 		<pic dwarf dim>
 			<a>structure.html</a>
@@ -28,11 +28,6 @@
 			<small>violations of visual policies</small>
 		</pic>
 		<pic dwarf dim>
-			<a>duplication.html</a>
-			<name>Duplication</name>
-			<small>the same fragment is repeated</small>
-		</pic>
-		<pic dwarf dim>
 			<a>notation.html</a>
 			<name>Notation</name>
 			<small>metalanguage-related</small>
@@ -42,25 +37,25 @@
 			<name>Parsing</name>
 			<small>parsing techniques related smells</small>
 		</pic>
+		<pic dwarf dim>
+			<a>duplication.html</a>
+			<name>Duplication</name>
+			<small>the same fragment is repeated</small>
+		</pic>
 		<hr/>
 		<pic dwarf dim>
-			<a>formatting.html</a>
-			<name>Formatting</name>
+			<a>misformat.html</a>
+			<name>Misformat</name>
 			<small>misleading formatting</small>
 		</pic>
 		<pic dwarf dim>
-			<a>naming.html</a>
-			<name>Naming</name>
+			<a>misnomer.html</a>
+			<name>Misnomer</name>
 			<small>problems with naming policies</small>
 		</pic>
-		<pic dwarf>
-			<a>splat.html</a>
-			<name>Splat</name>
-			<small>nonterminal fragments scattered over the grammar</small>
-		</pic>
 		<pic dwarf dim>
-			<a>unnatural.html</a>
-			<name>Unnatural</name>
+			<a>saymyname.html</a>
+			<name>SayMyName</name>
 			<small>a misspelling or improper use of the natural language</small>
 		</pic>
 		<pic dwarf dim>
@@ -68,10 +63,15 @@
 			<name>ZigZag</name>
 			<small>mixing horizontal and vertical styles</small>
 		</pic>
+		<pic dwarf>
+			<a>splat.html</a>
+			<name>Splat</name>
+			<small>nonterminal fragments scattered over the grammar</small>
+		</pic>
 		<hr/>
 		<pic wide>
 			<name>Splat</name>
-			<small>???</small>
+			<small>Since definitions of vertical nonterminals (see ZigZag) consist of several production rules, these rules can be distributed over the grammar and not focused in one place. This may be bad, especially if most of the rules are collected together, and only one or two are elsewhere.</small>
 		</pic>
 		<hr/>
 		<div class="last">

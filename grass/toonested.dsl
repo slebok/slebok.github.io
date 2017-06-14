@@ -7,14 +7,14 @@
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
 		<hr/>
 		<pic dwarf dim>
-			<a>navigation.html</a>
-			<name>Navigation</name>
-			<small>problems with navigating through the grammar</small>
-		</pic>
-		<pic dwarf dim>
 			<a>organisation.html</a>
 			<name>Organisation</name>
 			<small>global problems</small>
+		</pic>
+		<pic dwarf dim>
+			<a>navigation.html</a>
+			<name>Navigation</name>
+			<small>problems with navigating through the grammar</small>
 		</pic>
 		<pic dwarf>
 			<a>structure.html</a>
@@ -22,22 +22,57 @@
 			<small>harmful relationships among grammar components</small>
 		</pic>
 		<hr/>
-		<pic dwarf>
-			<a>complexity.html</a>
-			<name>Complexity</name>
-			<small>metric-based smells</small>
+		<pic dwarf dim>
+			<a>proxy.html</a>
+			<name>Proxy</name>
+			<small>indirect uses</small>
 		</pic>
 		<pic dwarf dim>
 			<a>dependency.html</a>
 			<name>Dependency</name>
 			<small>antipatterns in use</small>
 		</pic>
-		<pic dwarf dim>
-			<a>proxy.html</a>
-			<name>Proxy</name>
-			<small>indirect uses</small>
+		<pic dwarf>
+			<a>complexity.html</a>
+			<name>Complexity</name>
+			<small>metric-based smells</small>
 		</pic>
 		<hr/>
+		<pic dwarf dim>
+			<a>toowide.html</a>
+			<name>TooWide</name>
+			<small>the width (right hand side length) is too big</small>
+		</pic>
+		<pic dwarf dim>
+			<a>tooramose.html</a>
+			<name>TooRamose</name>
+			<small>too much branching</small>
+		</pic>
+		<pic dwarf dim>
+			<a>toorecursive.html</a>
+			<name>TooRecursive</name>
+			<small>too much recursion</small>
+		</pic>
+		<pic dwarf>
+			<a>toonested.html</a>
+			<name>TooNested</name>
+			<small>groups are too deeply nested</small>
+		</pic>
+		<pic dwarf dim>
+			<a>tootall.html</a>
+			<name>TooTall</name>
+			<small>the height (distance from the root) is too big</small>
+		</pic>
+		<pic dwarf dim>
+			<a>toolonely.html</a>
+			<name>TooLonely</name>
+			<small>large non-modular grammar</small>
+		</pic>
+		<pic dwarf dim>
+			<a>toomodular.html</a>
+			<name>TooModular</name>
+			<small>too many modules</small>
+		</pic>
 		<pic dwarf dim>
 			<a>greedy.html</a>
 			<name>Greedy</name>
@@ -53,45 +88,10 @@
 			<name>TooCoupled</name>
 			<small>low cohesion and/or high coupling</small>
 		</pic>
-		<pic dwarf dim>
-			<a>toolonely.html</a>
-			<name>TooLonely</name>
-			<small>large non-modular grammar</small>
-		</pic>
-		<pic dwarf dim>
-			<a>toomodular.html</a>
-			<name>TooModular</name>
-			<small>too many modules</small>
-		</pic>
-		<pic dwarf>
-			<a>toonested.html</a>
-			<name>TooNested</name>
-			<small>groups are too deeply nested</small>
-		</pic>
-		<pic dwarf dim>
-			<a>tooramose.html</a>
-			<name>TooRamose</name>
-			<small>too much branching</small>
-		</pic>
-		<pic dwarf dim>
-			<a>toorecursive.html</a>
-			<name>TooRecursive</name>
-			<small>too much recursion</small>
-		</pic>
-		<pic dwarf dim>
-			<a>tootall.html</a>
-			<name>TooTall</name>
-			<small>the height (distance from the root) is too big</small>
-		</pic>
-		<pic dwarf dim>
-			<a>toowide.html</a>
-			<name>TooWide</name>
-			<small>the width (right hand side length) is too big</small>
-		</pic>
 		<hr/>
 		<pic wide>
 			<name>TooNested</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/AFC.html">Feature Concentration</a><br/>???</small>
+			<small>Related smells: <a href="http://tusharma.in/smells/AFC.html">Feature Concentration</a><br/>TODO of groups/sequences</small>
 		</pic>
 		<hr/>
 		<div class="last">

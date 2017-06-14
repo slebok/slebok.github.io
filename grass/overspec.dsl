@@ -6,15 +6,15 @@
 		<header/>
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
 		<hr/>
-		<pic dwarf dim>
-			<a>navigation.html</a>
-			<name>Navigation</name>
-			<small>problems with navigating through the grammar</small>
-		</pic>
 		<pic dwarf>
 			<a>organisation.html</a>
 			<name>Organisation</name>
 			<small>global problems</small>
+		</pic>
+		<pic dwarf dim>
+			<a>navigation.html</a>
+			<name>Navigation</name>
+			<small>problems with navigating through the grammar</small>
 		</pic>
 		<pic dwarf dim>
 			<a>structure.html</a>
@@ -27,11 +27,6 @@
 			<name>Convention</name>
 			<small>violations of visual policies</small>
 		</pic>
-		<pic dwarf dim>
-			<a>duplication.html</a>
-			<name>Duplication</name>
-			<small>the same fragment is repeated</small>
-		</pic>
 		<pic dwarf>
 			<a>notation.html</a>
 			<name>Notation</name>
@@ -42,26 +37,16 @@
 			<name>Parsing</name>
 			<small>parsing techniques related smells</small>
 		</pic>
+		<pic dwarf dim>
+			<a>duplication.html</a>
+			<name>Duplication</name>
+			<small>the same fragment is repeated</small>
+		</pic>
 		<hr/>
 		<pic dwarf dim>
-			<a>chant.html</a>
-			<name>Chant</name>
-			<small>comments cover up bad code</small>
-		</pic>
-		<pic dwarf dim>
-			<a>combo.html</a>
-			<name>Combo</name>
-			<small>double modifier creates an ambiguity</small>
-		</pic>
-		<pic dwarf dim>
-			<a>deprecated.html</a>
-			<name>Deprecated</name>
-			<small>the use of a feature that is no longer welcome</small>
-		</pic>
-		<pic dwarf dim>
-			<a>exotic.html</a>
-			<name>Exotic</name>
-			<small>too idiosyncratic notational features decrease portability</small>
+			<a>underuse.html</a>
+			<name>Underuse</name>
+			<small>inferior substitutes are used instead of an available feature</small>
 		</pic>
 		<pic dwarf>
 			<a>overspec.html</a>
@@ -74,19 +59,34 @@
 			<small>not present or circular</small>
 		</pic>
 		<pic dwarf dim>
+			<a>combo.html</a>
+			<name>Combo</name>
+			<small>double modifier creates an ambiguity</small>
+		</pic>
+		<pic dwarf dim>
 			<a>singleton.html</a>
 			<name>Singleton</name>
 			<small>trivial choice, sequence or conjunction</small>
 		</pic>
 		<pic dwarf dim>
-			<a>underuse.html</a>
-			<name>Underuse</name>
-			<small>inferior substitutes are used instead of an available feature</small>
+			<a>chant.html</a>
+			<name>Chant</name>
+			<small>comments cover up bad code</small>
+		</pic>
+		<pic dwarf dim>
+			<a>deprecated.html</a>
+			<name>Deprecated</name>
+			<small>the use of a feature that is no longer welcome</small>
+		</pic>
+		<pic dwarf dim>
+			<a>exotic.html</a>
+			<name>Exotic</name>
+			<small>too idiosyncratic notational features decrease portability</small>
 		</pic>
 		<hr/>
 		<pic wide>
 			<name>Overspec</name>
-			<small>???</small>
+			<small>TODO overfiltering by putting overly detailed follow restrictions</small>
 		</pic>
 		<hr/>
 		<div class="last">

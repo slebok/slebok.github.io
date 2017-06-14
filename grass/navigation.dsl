@@ -4,17 +4,17 @@
 	<head viewport title="Navigation Smells in the GraSs">
 	<body>
 		<header/>
-		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells (11 in the selected group)</h1>
+		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells (10 in the selected group)</h1>
 		<hr/>
-		<pic dwarf>
-			<a>navigation.html</a>
-			<name>Navigation</name>
-			<small>problems with navigating through the grammar</small>
-		</pic>
 		<pic dwarf dim>
 			<a>organisation.html</a>
 			<name>Organisation</name>
 			<small>global problems</small>
+		</pic>
+		<pic dwarf>
+			<a>navigation.html</a>
+			<name>Navigation</name>
+			<small>problems with navigating through the grammar</small>
 		</pic>
 		<pic dwarf dim>
 			<a>structure.html</a>
@@ -23,9 +23,9 @@
 		</pic>
 		<hr/>
 		<pic dwarf>
-			<a>mixture.html</a>
-			<name>Mixture</name>
-			<small>spicing the grammar with alien fragments</small>
+			<a>spaghetti.html</a>
+			<name>Spaghetti</name>
+			<small>scattering details over the grammar</small>
 		</pic>
 		<pic dwarf>
 			<a>shortage.html</a>
@@ -33,9 +33,9 @@
 			<small>incompleteness</small>
 		</pic>
 		<pic dwarf>
-			<a>spaghetti.html</a>
-			<name>Spaghetti</name>
-			<small>scattering details over the grammar</small>
+			<a>mixture.html</a>
+			<name>Mixture</name>
+			<small>spicing the grammar with alien fragments</small>
 		</pic>
 		<hr/>
 		<div class="last">

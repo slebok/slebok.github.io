@@ -7,14 +7,14 @@
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
 		<hr/>
 		<pic dwarf dim>
-			<a>navigation.html</a>
-			<name>Navigation</name>
-			<small>problems with navigating through the grammar</small>
-		</pic>
-		<pic dwarf dim>
 			<a>organisation.html</a>
 			<name>Organisation</name>
 			<small>global problems</small>
+		</pic>
+		<pic dwarf dim>
+			<a>navigation.html</a>
+			<name>Navigation</name>
+			<small>problems with navigating through the grammar</small>
 		</pic>
 		<pic dwarf>
 			<a>structure.html</a>
@@ -22,36 +22,26 @@
 			<small>harmful relationships among grammar components</small>
 		</pic>
 		<hr/>
-		<pic dwarf dim>
-			<a>complexity.html</a>
-			<name>Complexity</name>
-			<small>metric-based smells</small>
+		<pic dwarf>
+			<a>proxy.html</a>
+			<name>Proxy</name>
+			<small>indirect uses</small>
 		</pic>
 		<pic dwarf dim>
 			<a>dependency.html</a>
 			<name>Dependency</name>
 			<small>antipatterns in use</small>
 		</pic>
-		<pic dwarf>
-			<a>proxy.html</a>
-			<name>Proxy</name>
-			<small>indirect uses</small>
+		<pic dwarf dim>
+			<a>complexity.html</a>
+			<name>Complexity</name>
+			<small>metric-based smells</small>
 		</pic>
 		<hr/>
 		<pic dwarf>
 			<a>chain.html</a>
 			<name>Chain</name>
 			<small>right hand side is a nonterminal</small>
-		</pic>
-		<pic dwarf dim>
-			<a>ghost.html</a>
-			<name>Ghost</name>
-			<small>a subexpression that should have been a nonterminal</small>
-		</pic>
-		<pic dwarf dim>
-			<a>multiexpert.html</a>
-			<name>Multiexpert</name>
-			<small>a nonterminal that represents two or more concepts</small>
 		</pic>
 		<pic dwarf dim>
 			<a>throwaway.html</a>
@@ -63,10 +53,20 @@
 			<name>Weak</name>
 			<small>a nonterminal does not form a proper abstraction</small>
 		</pic>
+		<pic dwarf dim>
+			<a>ghost.html</a>
+			<name>Ghost</name>
+			<small>a subexpression that should have been a nonterminal</small>
+		</pic>
+		<pic dwarf dim>
+			<a>multiexpert.html</a>
+			<name>Multiexpert</name>
+			<small>a nonterminal that represents two or more concepts</small>
+		</pic>
 		<hr/>
 		<pic wide>
 			<name>Chain</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/LC2.html">Lazy Class</a>, <a href="http://tusharma.in/smells/EAC.html">Extraneous Adjacent Connector</a>, <a href="http://tusharma.in/smells/MC.html">Message Chains</a>, <a href="http://tusharma.in/smells/MM.html">Middle Man</a>, <a href="http://tusharma.in/smells/SMM.html">Middle Man</a>, <a href="http://tusharma.in/smells/SLCC.html">Long Calculation Chain</a>, <a href="http://tusharma.in/smells/TML.html">Too Many Layers</a><br/>???</small>
+			<small>Related smells: <a href="http://tusharma.in/smells/LC2.html">Lazy Class</a>, <a href="http://tusharma.in/smells/EAC.html">Extraneous Adjacent Connector</a>, <a href="http://tusharma.in/smells/MC.html">Message Chains</a>, <a href="http://tusharma.in/smells/MM.html">Middle Man</a>, <a href="http://tusharma.in/smells/SMM.html">Middle Man</a>, <a href="http://tusharma.in/smells/SLCC.html">Long Calculation Chain</a>, <a href="http://tusharma.in/smells/TML.html">Too Many Layers</a><br/>TODO rules that have RHS as one nonterminal</small>
 		</pic>
 		<hr/>
 		<div class="last">

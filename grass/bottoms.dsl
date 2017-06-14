@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <path css="../www" img="../www"/>
 <html doctype>
-	<head viewport title="NoModule in the GraSs">
+	<head viewport title="Bottoms in the GraSs">
 	<body>
 		<header/>
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
 		<hr/>
-		<pic dwarf>
-			<a>navigation.html</a>
-			<name>Navigation</name>
-			<small>problems with navigating through the grammar</small>
-		</pic>
 		<pic dwarf dim>
 			<a>organisation.html</a>
 			<name>Organisation</name>
 			<small>global problems</small>
+		</pic>
+		<pic dwarf>
+			<a>navigation.html</a>
+			<name>Navigation</name>
+			<small>problems with navigating through the grammar</small>
 		</pic>
 		<pic dwarf dim>
 			<a>structure.html</a>
@@ -23,9 +23,9 @@
 		</pic>
 		<hr/>
 		<pic dwarf dim>
-			<a>mixture.html</a>
-			<name>Mixture</name>
-			<small>spicing the grammar with alien fragments</small>
+			<a>spaghetti.html</a>
+			<name>Spaghetti</name>
+			<small>scattering details over the grammar</small>
 		</pic>
 		<pic dwarf>
 			<a>shortage.html</a>
@@ -33,45 +33,40 @@
 			<small>incompleteness</small>
 		</pic>
 		<pic dwarf dim>
-			<a>spaghetti.html</a>
-			<name>Spaghetti</name>
-			<small>scattering details over the grammar</small>
+			<a>mixture.html</a>
+			<name>Mixture</name>
+			<small>spicing the grammar with alien fragments</small>
 		</pic>
 		<hr/>
 		<pic dwarf dim>
-			<a>alphabet.html</a>
-			<name>Alphabet</name>
+			<a>almostalphabet.html</a>
+			<name>AlmostAlphabet</name>
 			<small>seemingly incomplete collections</small>
+		</pic>
+		<pic dwarf dim>
+			<a>confusingentry.html</a>
+			<name>ConfusingEntry</name>
+			<small>no starting symbol</small>
 		</pic>
 		<pic dwarf dim>
 			<a>dead.html</a>
 			<name>Dead</name>
 			<small>nonterminal defined, but not referenced</small>
 		</pic>
-		<pic dwarf dim>
-			<a>entry.html</a>
-			<name>Entry</name>
-			<small>no starting symbol</small>
-		</pic>
 		<pic dwarf>
-			<a>nomodule.html</a>
-			<name>NoModule</name>
-			<small>a missing module</small>
+			<a>bottoms.html</a>
+			<name>Bottoms</name>
+			<small>nonterminal referenced, but not defined</small>
 		</pic>
 		<pic dwarf dim>
 			<a>todo.html</a>
 			<name>ToDo</name>
 			<small>incompletenesses covered up by todo/fixme comments</small>
 		</pic>
-		<pic dwarf dim>
-			<a>undefined.html</a>
-			<name>Undefined</name>
-			<small>nonterminal referenced, but not defined</small>
-		</pic>
 		<hr/>
 		<pic wide>
-			<name>NoModule</name>
-			<small>???</small>
+			<name>Bottoms</name>
+			<small>TODO bottom (used but not defined) nonterminals <br/> The lack of definition for nonterminals that are used within the grammar, is an obvious mistake that must be reported one way or another, and also possibly as a smell. There are three main reasons for nonterminals left undefined: (1) they were forgotten by the grammar engineer; (2) they are defined in a different module; (3) they are defined on a separate conceptual layer. For scenario (1), we cannot do anything to fix the problem (beyond attempting to apply heuristics)</small>
 		</pic>
 		<hr/>
 		<div class="last">

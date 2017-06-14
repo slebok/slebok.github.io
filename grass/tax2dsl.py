@@ -8,6 +8,8 @@ wdir = '../../acceptware/patterns/grass/'
 
 mapped = {\
 	'LDTA-2012-Zaytsev' : 'NPGR2012',
+	'SAC-2012-Zaytsev': 'BNF-WAS-HERE2012',
+	'SLE-2013-Zaytsev': 'Micropatterns2013',
 	'SCAM-J-2009-LammelZ11' : 'JLS-SQJ2011',\
 }
 
@@ -68,6 +70,13 @@ def tax2dsl(lines):
 	i = 0
 	while i < len(lines):
 		line = lines[i].strip()
+		if not line:
+			res.append('<br/>')
+			i += 1
+			continue
+		if line.startswith('% '):
+			i += 1
+			continue
 		if line == '[example]':
 			elines = []
 			i += 1
@@ -82,9 +91,28 @@ def tax2dsl(lines):
 			x = line.index('[cite]')
 			y = line.index('[/cite]')
 			link = line[x+6:y]
-			line = line[:x] + '<a href="http://bibtex.github.io/' + link + '.html">[' + link + ']</a>' + line[y+7:]
+			if link.find('/') < 0:
+				linkurl = linktext = link
+			else:
+				linkurl = link.split('/')[1]
+				linktext = linkurl + ', ' + link.split('/')[0]
+			line = line[:x] + '<a href="http://bibtex.github.io/' + linkurl + '.html">[' + linktext + ']</a>' + line[y+7:]
+		while line.find('[dyol]') > -1:
+			x = line.index('[dyol]')
+			y = line.index('[/dyol]')
+			link = line[x+6:y]
+			line = line[:x] + '<a href="http://slebok.github.io/dyol/books/' + link + '.html">[' + link + ']</a>' + line[y+7:]
+		if line.find('[zoo]') > -1:
+			x = line.index('[zoo]')
+			y = line.index('[/zoo]')
+			zoo = line[x+5:y].strip().split('|')
+			fnote = '({0}, <em><a href="http://slebok.github.io/zoo/{1}">{2}</a></em>, {3})'.format(*zoo)
+			line = line[:x] + fnote + line[y+6:]
 		# normalise
 		line = line.replace('[code]', '<code>').replace('[/code]', '</code>')
+		line = line.replace('[verb]', '<code>').replace('[/verb]', '</code>')
+		line = line.replace('[emph]', '<em>').replace('[/emph]', '</em>')
+		line = line.replace('---', ' – ').replace('``', '“').replace("''", '”')
 		res.append(line)
 		i += 1
 	return ' '.join(res)
@@ -101,6 +129,11 @@ def tax2tex(lines):
 			res.append(line)
 			continue
 		line = line.strip()
+		if line.startswith('% '):
+			continue
+		if not line:
+			res.append('\n\n')
+			continue
 		if line.strip() == '[example]':
 			res.append('\n\\begin{verbatim}\n')
 			verbatim = True
@@ -109,13 +142,37 @@ def tax2tex(lines):
 			x = line.index('[cite]')
 			y = line.index('[/cite]')
 			link = line[x+6:y]
+			if link.find('/') < 0:
+				if link in mapped:
+					link = mapped[link]
+				line = line[:x] + '~\\cite{' + link + '}' + line[y+7:]
+			else:
+				linkurl = link.split('/')[1]
+				if linkurl in mapped:
+					linkurl = mapped[linkurl]
+				line = line[:x] + '~\\cite[' + link.split('/')[0] + ']{' + linkurl + '}' + line[y+7:]
+		while line.find('[dyol]') > -1:
+			x = line.index('[dyol]')
+			y = line.index('[/dyol]')
+			link = line[x+6:y]
 			if link in mapped:
 				link = mapped[link]
 			line = line[:x] + '~\\cite{' + link + '}' + line[y+7:]
+		if line.find('[zoo]') > -1:
+			x = line.index('[zoo]')
+			y = line.index('[/zoo]')
+			zoo = line[x+5:y].strip().split('|')
+			if zoo[1][0] == '#':
+				zoo[1] = '\\' + zoo[1]
+			# "from the Grammar Zoo"
+			fnote = '\\footnote{{{0}, \\emph{{\\href{{http://slebok.github.io/zoo/{1}}}{{{2}}}}}, {3}~\cite{{Zoo2015}}.}}'.format(*zoo)
+			line = line[:x] + fnote + line[y+6:]
 		# normalise
 		line = line.replace('[code]', '\\texttt{').replace('[/code]', '}')
-		line = line.replace(' ~', '~')
-		line = line.replace('}~\cite{', ',')
+		line = line.replace('[verb]', '\\verb!').replace('[/verb]', '!')
+		line = line.replace('[emph]', '\\emph{').replace('[/emph]', '}')
+		line = line.replace(' ~', '~').replace(' \\footnote', '\\footnote')
+		line = line.replace('}~\\cite{', ',')
 		res.append(line)
 	return ' '.join(res)
 
@@ -124,10 +181,14 @@ explanation = {}
 longdesc = {}
 related = {}
 latex = {}
+taxkeys = {}
 
 cur1 = cur2 = cur3 = ''
 f = open(wdir + 'all.tax', 'r', encoding='utf-8')
+taxkeys[''] = []
 for line in f.readlines():
+	if line.strip()[0] == '%':
+		continue
 	if line.startswith('\t\t\t'):
 		line = line.strip()
 		if line.startswith('Related: '):
@@ -137,10 +198,17 @@ for line in f.readlines():
 			longdesc[cur3] = tax2dsl(lines)
 			latex[cur3] = tax2tex(lines)
 		else:
-			longdesc[cur3] += line.strip()
+			longdesc[cur3] += tax2dsl([line])
+			latex[cur3] = tax2tex([line])
 	elif line.startswith('\t\t'):
+		if line.strip().startswith('@ '):
+			lines = open(wdir + line.strip()[2:].strip(), 'r', encoding='utf-8').readlines()
+			# longdesc[cur3] = tax2dsl(lines)
+			latex[cur2] = tax2tex(lines)
+			continue
 		a, b = mysplit(line)
 		cur3 = a
+		taxkeys[cur2].append(cur3)
 		taxonomy[cur1][cur2].append(cur3)
 		longdesc[cur3] = ''
 		related[cur3] = []
@@ -148,76 +216,80 @@ for line in f.readlines():
 	elif line.startswith('\t'):
 		a, b = mysplit(line)
 		cur2 = a
+		taxkeys[cur1].append(cur2)
+		taxkeys[cur2] = []
 		explanation[a] = b if b else '...'
 		taxonomy[cur1][cur2] = []
 	else:
 		a, b = mysplit(line)
 		cur1 = a
+		taxkeys[''].append(cur1)
+		taxkeys[cur1] = []
 		explanation[a] = b if b else '...'
 		taxonomy[cur1] = {}
 f.close()
 
-keys = sorted(taxonomy.keys())
+# keys = sorted(taxonomy.keys())
 
 # generate the index
 f = open('index.dsl', 'w', encoding='utf-8')
-cx = sum([sum([len(taxonomy[key1][key2]) for key2 in taxonomy[key1]]) for key1 in keys])
+cx = sum([sum([len(taxonomy[key1][key2]) for key2 in taxonomy[key1]]) for key1 in taxkeys['']])
 f.write(makeheader('', '{} smells total'.format(cx)))
 f.write(makehr())
-for key1 in keys:
+for key1 in taxkeys['']:
 	f.write(makepic(key1.lower(), key1, explanation[key1], False))
 f.write(makehr())
 f.write(makefooter())
 f.close()
 
 # generate top levels
-for key1 in keys:
+for key1 in taxkeys['']:
 	f = open(key1.lower()+'.dsl', 'w', encoding='utf-8')
 	cx = sum([len(taxonomy[key1][key2]) for key2 in taxonomy[key1]])
 	f.write(makeheader('{} Smells'.format(key1), '{} in the selected group'.format(cx)))
 	f.write(makehr())
-	for key1e in keys:
+	for key1e in taxkeys['']:
 		f.write(makepic(key1e.lower(), key1e, explanation[key1e], key1e != key1))
 	f.write(makehr())
-	for key2 in sorted(taxonomy[key1]):
+	for key2 in taxkeys[key1]:
 		f.write(makepic(key2.lower(), key2, explanation[key2], False))
 	f.write(makehr())
 	f.write(makefooter())
 	f.close()
 
 # generate second levels
-for key1 in keys:
-	for key2 in taxonomy[key1].keys():
+for key1 in taxkeys['']:
+	for key2 in taxkeys[key1]:
 		f = open(key2.lower()+'.dsl', 'w', encoding='utf-8')
 		cx = len(taxonomy[key1][key2])
 		f.write(makeheader('{} Smells ({})'.format(key2, key1), '{} in the selected group'.format(cx)))
 		f.write(makehr())
-		for key1e in keys:
+		for key1e in taxkeys['']:
 			f.write(makepic(key1e.lower(), key1e, explanation[key1e], key1e != key1))
 		f.write(makehr())
-		for key2e in sorted(taxonomy[key1]):
+		for key2e in taxkeys[key1]:
 			f.write(makepic(key2e.lower(), key2e, explanation[key2e], key2e != key2))
 		f.write(makehr())
-		for key3 in sorted(taxonomy[key1][key2]):
+		for key3 in taxkeys[key2]:
 			f.write(makepic(key3.lower(), key3, explanation[key3], False))
 		f.write(makehr())
 		f.write(makefooter())
 		f.close()
 
 # generate inner
-for key1 in keys:
-	for key2 in taxonomy[key1].keys():
-		for key3 in taxonomy[key1][key2]:
+for key1 in taxkeys['']:
+	for key2 in taxkeys[key1]:
+		for key3 in taxkeys[key2]:
 			f = open(key3.lower()+'.dsl', 'w', encoding='utf-8')
 			f.write(makeheader(key3, ''))
 			f.write(makehr())
-			for key1e in keys:
+			for key1e in taxkeys['']:
 				f.write(makepic(key1e.lower(), key1e, explanation[key1e], key1e != key1))
 			f.write(makehr())
-			for key2e in sorted(taxonomy[key1].keys()):
+			for key2e in taxkeys[key1]:
 				f.write(makepic(key2e.lower(), key2e, explanation[key2e], key2e != key2))
 			f.write(makehr())
-			for key3e in sorted(taxonomy[key1][key2]):
+			for key3e in taxkeys[key2]:
 				f.write(makepic(key3e.lower(), key3e, explanation[key3e], key3e != key3))
 			f.write(makehr())
 			s = longdesc[key3]
@@ -234,12 +306,16 @@ for key1 in keys:
 
 # generate LaTeX
 f = open('smells.tex', 'w', encoding='utf-8')
-for key1 in keys:
-	f.write('\\section{' + key1 + ' Smells}\n\n')
-	for key2 in taxonomy[key1].keys():
-		f.write('\\subsection{' + key2 + '}\n\n')
-		for key3 in taxonomy[key1][key2]:
-			f.write('\\subsubsection{' + key3 + '}\n\n')
+for key1 in taxkeys['']:
+	f.write('\n\\section{' + key1 + ' Smells}\n\n')
+	if key1 in latex:
+		f.write(latex[key1])
+	for key2 in taxkeys[key1]:
+		f.write('\n\\subsection{' + key2 + '}\n\n')
+		if key2 in latex:
+			f.write(latex[key2])
+		for key3 in taxkeys[key2]:
+			f.write('\n\\subsubsection{' + key3 + '}\n\n')
 			if key3 in latex:
 				f.write(latex[key3])
 			else:

@@ -6,15 +6,15 @@
 		<header/>
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells (26 in the selected group)</h1>
 		<hr/>
-		<pic dwarf dim>
-			<a>navigation.html</a>
-			<name>Navigation</name>
-			<small>problems with navigating through the grammar</small>
-		</pic>
 		<pic dwarf>
 			<a>organisation.html</a>
 			<name>Organisation</name>
 			<small>global problems</small>
+		</pic>
+		<pic dwarf dim>
+			<a>navigation.html</a>
+			<name>Navigation</name>
+			<small>problems with navigating through the grammar</small>
 		</pic>
 		<pic dwarf dim>
 			<a>structure.html</a>
@@ -28,11 +28,6 @@
 			<small>violations of visual policies</small>
 		</pic>
 		<pic dwarf>
-			<a>duplication.html</a>
-			<name>Duplication</name>
-			<small>the same fragment is repeated</small>
-		</pic>
-		<pic dwarf>
 			<a>notation.html</a>
 			<name>Notation</name>
 			<small>metalanguage-related</small>
@@ -41,6 +36,11 @@
 			<a>parsing.html</a>
 			<name>Parsing</name>
 			<small>parsing techniques related smells</small>
+		</pic>
+		<pic dwarf>
+			<a>duplication.html</a>
+			<name>Duplication</name>
+			<small>the same fragment is repeated</small>
 		</pic>
 		<hr/>
 		<div class="last">

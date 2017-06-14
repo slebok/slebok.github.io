@@ -7,14 +7,14 @@
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells (21 in the selected group)</h1>
 		<hr/>
 		<pic dwarf dim>
-			<a>navigation.html</a>
-			<name>Navigation</name>
-			<small>problems with navigating through the grammar</small>
-		</pic>
-		<pic dwarf dim>
 			<a>organisation.html</a>
 			<name>Organisation</name>
 			<small>global problems</small>
+		</pic>
+		<pic dwarf dim>
+			<a>navigation.html</a>
+			<name>Navigation</name>
+			<small>problems with navigating through the grammar</small>
 		</pic>
 		<pic dwarf>
 			<a>structure.html</a>
@@ -23,9 +23,9 @@
 		</pic>
 		<hr/>
 		<pic dwarf>
-			<a>complexity.html</a>
-			<name>Complexity</name>
-			<small>metric-based smells</small>
+			<a>proxy.html</a>
+			<name>Proxy</name>
+			<small>indirect uses</small>
 		</pic>
 		<pic dwarf>
 			<a>dependency.html</a>
@@ -33,9 +33,9 @@
 			<small>antipatterns in use</small>
 		</pic>
 		<pic dwarf>
-			<a>proxy.html</a>
-			<name>Proxy</name>
-			<small>indirect uses</small>
+			<a>complexity.html</a>
+			<name>Complexity</name>
+			<small>metric-based smells</small>
 		</pic>
 		<hr/>
 		<div class="last">

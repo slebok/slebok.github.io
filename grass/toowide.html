@@ -21,26 +21,26 @@
 	<body>
 <div style="text-align:center;"><a href="http://grammarware.github.io">Vadim Zaytsev</a> aka @<a href="http://grammarware.net">grammarware</a></div><hr/>		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
 		<hr/>
-		<div><span class="dwarf dim pic"><a href="navigation.html">Navigation<br/><span class="s">problems with navigating through the grammar</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="organisation.html">Organisation<br/><span class="s">global problems</span></a></span></div>
+		<div><span class="dwarf dim pic"><a href="navigation.html">Navigation<br/><span class="s">problems with navigating through the grammar</span></a></span></div>
 		<div><span class="dwarf pic"><a href="structure.html">Structure<br/><span class="s">harmful relationships among grammar components</span></a></span></div>
 		<hr/>
-		<div><span class="dwarf pic"><a href="complexity.html">Complexity<br/><span class="s">metric-based smells</span></a></span></div>
-		<div><span class="dwarf dim pic"><a href="dependency.html">Dependency<br/><span class="s">antipatterns in use</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="proxy.html">Proxy<br/><span class="s">indirect uses</span></a></span></div>
+		<div><span class="dwarf dim pic"><a href="dependency.html">Dependency<br/><span class="s">antipatterns in use</span></a></span></div>
+		<div><span class="dwarf pic"><a href="complexity.html">Complexity<br/><span class="s">metric-based smells</span></a></span></div>
 		<hr/>
+		<div><span class="dwarf pic"><a href="toowide.html">TooWide<br/><span class="s">the width (right hand side length) is too big</span></a></span></div>
+		<div><span class="dwarf dim pic"><a href="tooramose.html">TooRamose<br/><span class="s">too much branching</span></a></span></div>
+		<div><span class="dwarf dim pic"><a href="toorecursive.html">TooRecursive<br/><span class="s">too much recursion</span></a></span></div>
+		<div><span class="dwarf dim pic"><a href="toonested.html">TooNested<br/><span class="s">groups are too deeply nested</span></a></span></div>
+		<div><span class="dwarf dim pic"><a href="tootall.html">TooTall<br/><span class="s">the height (distance from the root) is too big</span></a></span></div>
+		<div><span class="dwarf dim pic"><a href="toolonely.html">TooLonely<br/><span class="s">large non-modular grammar</span></a></span></div>
+		<div><span class="dwarf dim pic"><a href="toomodular.html">TooModular<br/><span class="s">too many modules</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="greedy.html">Greedy<br/><span class="s">one module that does too much</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="lazy.html">Lazy<br/><span class="s">one module that does not do much</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="toocoupled.html">TooCoupled<br/><span class="s">low cohesion and/or high coupling</span></a></span></div>
-		<div><span class="dwarf dim pic"><a href="toolonely.html">TooLonely<br/><span class="s">large non-modular grammar</span></a></span></div>
-		<div><span class="dwarf dim pic"><a href="toomodular.html">TooModular<br/><span class="s">too many modules</span></a></span></div>
-		<div><span class="dwarf dim pic"><a href="toonested.html">TooNested<br/><span class="s">groups are too deeply nested</span></a></span></div>
-		<div><span class="dwarf dim pic"><a href="tooramose.html">TooRamose<br/><span class="s">too much branching</span></a></span></div>
-		<div><span class="dwarf dim pic"><a href="toorecursive.html">TooRecursive<br/><span class="s">too much recursion</span></a></span></div>
-		<div><span class="dwarf dim pic"><a href="tootall.html">TooTall<br/><span class="s">the height (distance from the root) is too big</span></a></span></div>
-		<div><span class="dwarf pic"><a href="toowide.html">TooWide<br/><span class="s">the width (right hand side length) is too big</span></a></span></div>
 		<hr/>
-		<div><span class="wide pic">TooWide<br/><p class="s">Related smells: <a href="http://tusharma.in/smells/SATL.html">Subsystem-API Too Large</a>, <a href="http://tusharma.in/smells/LM.html">Long Method</a>, <a href="http://tusharma.in/smells/LPL.html">Long Parameter List</a>, <a href="http://tusharma.in/smells/CE.html">Complex Expression</a>, <a href="http://tusharma.in/smells/LS.html">Long Statement</a>, <a href="http://tusharma.in/smells/SMO.html">Multiple Operations</a>, <a href="http://tusharma.in/smells/SMR.html">Multiple References</a><br/>???</p></span></div>
+		<div><span class="wide pic">TooWide<br/><p class="s">Related smells: <a href="http://tusharma.in/smells/SATL.html">Subsystem-API Too Large</a>, <a href="http://tusharma.in/smells/LM.html">Long Method</a>, <a href="http://tusharma.in/smells/LPL.html">Long Parameter List</a>, <a href="http://tusharma.in/smells/CE.html">Complex Expression</a>, <a href="http://tusharma.in/smells/LS.html">Long Statement</a>, <a href="http://tusharma.in/smells/SMO.html">Multiple Operations</a>, <a href="http://tusharma.in/smells/SMR.html">Multiple References</a><br/>Discuss variations (only terminals, only nonterminals, only metasymbols) <br/> e.g., high metasymbols-in-RHS is bad because it stresses the importance of knowing the notation <br/> high nonterminals-in-RHS is bad because is requires knowledge about referenced nonterminals to debug a grammar (not counting preterminals!) <br/> long streaks of consequent terminals obscure the syntactic structure</p></span></div>
 		<hr/>
 		<div class="last">
 			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.

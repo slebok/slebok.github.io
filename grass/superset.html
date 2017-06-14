@@ -21,22 +21,22 @@
 	<body>
 <div style="text-align:center;"><a href="http://grammarware.github.io">Vadim Zaytsev</a> aka @<a href="http://grammarware.net">grammarware</a></div><hr/>		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
 		<hr/>
-		<div><span class="dwarf dim pic"><a href="navigation.html">Navigation<br/><span class="s">problems with navigating through the grammar</span></a></span></div>
 		<div><span class="dwarf pic"><a href="organisation.html">Organisation<br/><span class="s">global problems</span></a></span></div>
+		<div><span class="dwarf dim pic"><a href="navigation.html">Navigation<br/><span class="s">problems with navigating through the grammar</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="structure.html">Structure<br/><span class="s">harmful relationships among grammar components</span></a></span></div>
 		<hr/>
 		<div><span class="dwarf dim pic"><a href="convention.html">Convention<br/><span class="s">violations of visual policies</span></a></span></div>
-		<div><span class="dwarf dim pic"><a href="duplication.html">Duplication<br/><span class="s">the same fragment is repeated</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="notation.html">Notation<br/><span class="s">metalanguage-related</span></a></span></div>
 		<div><span class="dwarf pic"><a href="parsing.html">Parsing<br/><span class="s">parsing techniques related smells</span></a></span></div>
+		<div><span class="dwarf dim pic"><a href="duplication.html">Duplication<br/><span class="s">the same fragment is repeated</span></a></span></div>
 		<hr/>
-		<div><span class="dwarf dim pic"><a href="action.html">Action<br/><span class="s">a code smell in a semantic action</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="factoring.html">Factoring<br/><span class="s">improper factoring or distribution</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="leftrecursion.html">LeftRecursion<br/><span class="s">left recursive rules</span></a></span></div>
-		<div><span class="dwarf dim pic"><a href="nodefault.html">NoDefault<br/><span class="s">no error-localising default branch</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="rightrecursion.html">RightRecursion<br/><span class="s">right recursive rules</span></a></span></div>
-		<div><span class="dwarf dim pic"><a href="sloppy.html">Sloppy<br/><span class="s">a chunk of input could be parsed in more detail</span></a></span></div>
 		<div><span class="dwarf pic"><a href="superset.html">Superset<br/><span class="s">parser spec is too relaxed</span></a></span></div>
+		<div><span class="dwarf dim pic"><a href="shotgun.html">Shotgun<br/><span class="s">a chunk of input could be parsed in more detail</span></a></span></div>
+		<div><span class="dwarf dim pic"><a href="nodefault.html">NoDefault<br/><span class="s">no error-localising default branch</span></a></span></div>
+		<div><span class="dwarf dim pic"><a href="action.html">Action<br/><span class="s">a code smell in a semantic action</span></a></span></div>
 		<hr/>
 		<div><span class="wide pic">Superset<br/><p class="s">Related smells: <a href="http://tusharma.in/smells/OG.html">Overgeneralization</a><br/>Some grammars represent a superset of the intended language. This may become a problem if the parser based on the grammar is to be used as an oracle for program correctness, since in this role it is inadequate. Overly relaxed grammars are routinely used in other scenarios and can be very useful in inter-language translation.</p></span></div>
 		<hr/>

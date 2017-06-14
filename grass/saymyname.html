@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta http-equiv="x-ua-compatible" content="IE=9"/>
 		<meta name="viewport" content="initial-scale=1.0"/>
-		<title>Formatting in the GraSs</title>
+		<title>SayMyName in the GraSs</title>
 		<link href="../www/common.css" rel="stylesheet" type="text/css" />
 		<script type="text/javascript">
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -21,22 +21,22 @@
 	<body>
 <div style="text-align:center;"><a href="http://grammarware.github.io">Vadim Zaytsev</a> aka @<a href="http://grammarware.net">grammarware</a></div><hr/>		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
 		<hr/>
-		<div><span class="dwarf dim pic"><a href="navigation.html">Navigation<br/><span class="s">problems with navigating through the grammar</span></a></span></div>
 		<div><span class="dwarf pic"><a href="organisation.html">Organisation<br/><span class="s">global problems</span></a></span></div>
+		<div><span class="dwarf dim pic"><a href="navigation.html">Navigation<br/><span class="s">problems with navigating through the grammar</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="structure.html">Structure<br/><span class="s">harmful relationships among grammar components</span></a></span></div>
 		<hr/>
 		<div><span class="dwarf pic"><a href="convention.html">Convention<br/><span class="s">violations of visual policies</span></a></span></div>
-		<div><span class="dwarf dim pic"><a href="duplication.html">Duplication<br/><span class="s">the same fragment is repeated</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="notation.html">Notation<br/><span class="s">metalanguage-related</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="parsing.html">Parsing<br/><span class="s">parsing techniques related smells</span></a></span></div>
+		<div><span class="dwarf dim pic"><a href="duplication.html">Duplication<br/><span class="s">the same fragment is repeated</span></a></span></div>
 		<hr/>
-		<div><span class="dwarf pic"><a href="formatting.html">Formatting<br/><span class="s">misleading formatting</span></a></span></div>
-		<div><span class="dwarf dim pic"><a href="naming.html">Naming<br/><span class="s">problems with naming policies</span></a></span></div>
-		<div><span class="dwarf dim pic"><a href="splat.html">Splat<br/><span class="s">nonterminal fragments scattered over the grammar</span></a></span></div>
-		<div><span class="dwarf dim pic"><a href="unnatural.html">Unnatural<br/><span class="s">a misspelling or improper use of the natural language</span></a></span></div>
+		<div><span class="dwarf dim pic"><a href="misformat.html">Misformat<br/><span class="s">misleading formatting</span></a></span></div>
+		<div><span class="dwarf dim pic"><a href="misnomer.html">Misnomer<br/><span class="s">problems with naming policies</span></a></span></div>
+		<div><span class="dwarf pic"><a href="saymyname.html">SayMyName<br/><span class="s">a misspelling or improper use of the natural language</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="zigzag.html">ZigZag<br/><span class="s">mixing horizontal and vertical styles</span></a></span></div>
+		<div><span class="dwarf dim pic"><a href="splat.html">Splat<br/><span class="s">nonterminal fragments scattered over the grammar</span></a></span></div>
 		<hr/>
-		<div><span class="wide pic">Formatting<br/><p class="s">Related smells: <a href="http://tusharma.in/smells/IPA.html">Improper Alignment</a><br/>There are many formatting mistakes one can make when creating a grammar without proper tool support <a href="http://bibtex.github.io/LDTA-2012-Zaytsev.html">[LDTA-2012-Zaytsev]</a><a href="http://bibtex.github.io/SCAM-J-2009-LammelZ11.html">[SCAM-J-2009-LammelZ11]</a>. Mostly they revolve around mistypings, misspellings, misalignments, etc, and result in actual incorrect constructs in extracted grammars. However, there can be other, more subtle smells within formatting of a grammar, that do not change the way the machine processes it, but do change the way a tired grammarware engineer may understand it. The most canonic example of misleading formatting would be (mind the colon, not a semicolon, following <code>ghi</code>):  <br/><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;abc&nbsp;:<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;def;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ghi:<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jkl;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mno&nbsp;:<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pqr;<br/></code></p></span></div>
+		<div><span class="wide pic">SayMyName<br/><p class="s">Related smells: <a href="http://tusharma.in/smells/PSS.html">Stung by Spell-bee</a><br/>The information is conveyed both by the structure specified in the grammar notation and by natural language used for naming nonterminals and modules. In small grammars misspellings and misnamings are easy to overlook since humans are naturally capable of that. When the grammar size increases, primitive automation techniques are used like plain text search, and such a search query looking for all statements will not find the one labelled with “staetment”.</p></span></div>
 		<hr/>
 		<div class="last">
 			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.

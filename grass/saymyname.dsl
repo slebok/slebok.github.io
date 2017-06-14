@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <path css="../www" img="../www"/>
 <html doctype>
-	<head viewport title="Naming in the GraSs">
+	<head viewport title="SayMyName in the GraSs">
 	<body>
 		<header/>
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
 		<hr/>
-		<pic dwarf dim>
-			<a>navigation.html</a>
-			<name>Navigation</name>
-			<small>problems with navigating through the grammar</small>
-		</pic>
 		<pic dwarf>
 			<a>organisation.html</a>
 			<name>Organisation</name>
 			<small>global problems</small>
+		</pic>
+		<pic dwarf dim>
+			<a>navigation.html</a>
+			<name>Navigation</name>
+			<small>problems with navigating through the grammar</small>
 		</pic>
 		<pic dwarf dim>
 			<a>structure.html</a>
@@ -28,11 +28,6 @@
 			<small>violations of visual policies</small>
 		</pic>
 		<pic dwarf dim>
-			<a>duplication.html</a>
-			<name>Duplication</name>
-			<small>the same fragment is repeated</small>
-		</pic>
-		<pic dwarf dim>
 			<a>notation.html</a>
 			<name>Notation</name>
 			<small>metalanguage-related</small>
@@ -42,25 +37,25 @@
 			<name>Parsing</name>
 			<small>parsing techniques related smells</small>
 		</pic>
+		<pic dwarf dim>
+			<a>duplication.html</a>
+			<name>Duplication</name>
+			<small>the same fragment is repeated</small>
+		</pic>
 		<hr/>
 		<pic dwarf dim>
-			<a>formatting.html</a>
-			<name>Formatting</name>
+			<a>misformat.html</a>
+			<name>Misformat</name>
 			<small>misleading formatting</small>
 		</pic>
-		<pic dwarf>
-			<a>naming.html</a>
-			<name>Naming</name>
+		<pic dwarf dim>
+			<a>misnomer.html</a>
+			<name>Misnomer</name>
 			<small>problems with naming policies</small>
 		</pic>
-		<pic dwarf dim>
-			<a>splat.html</a>
-			<name>Splat</name>
-			<small>nonterminal fragments scattered over the grammar</small>
-		</pic>
-		<pic dwarf dim>
-			<a>unnatural.html</a>
-			<name>Unnatural</name>
+		<pic dwarf>
+			<a>saymyname.html</a>
+			<name>SayMyName</name>
 			<small>a misspelling or improper use of the natural language</small>
 		</pic>
 		<pic dwarf dim>
@@ -68,10 +63,15 @@
 			<name>ZigZag</name>
 			<small>mixing horizontal and vertical styles</small>
 		</pic>
+		<pic dwarf dim>
+			<a>splat.html</a>
+			<name>Splat</name>
+			<small>nonterminal fragments scattered over the grammar</small>
+		</pic>
 		<hr/>
 		<pic wide>
-			<name>Naming</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/PNCN.html">Packages Not Clearly Named</a>, <a href="http://tusharma.in/smells/DA.html">Duplicate Abstraction</a>, <a href="http://tusharma.in/smells/INC.html">Inconsistent Naming Convention</a>, <a href="http://tusharma.in/smells/IQU.html">Improper Quote Usage</a><br/>Several smells in one!</small>
+			<name>SayMyName</name>
+			<small>Related smells: <a href="http://tusharma.in/smells/PSS.html">Stung by Spell-bee</a><br/>The information is conveyed both by the structure specified in the grammar notation and by natural language used for naming nonterminals and modules. In small grammars misspellings and misnamings are easy to overlook since humans are naturally capable of that. When the grammar size increases, primitive automation techniques are used like plain text search, and such a search query looking for all statements will not find the one labelled with “staetment”.</small>
 		</pic>
 		<hr/>
 		<div class="last">

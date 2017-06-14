@@ -7,14 +7,14 @@
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
 		<hr/>
 		<pic dwarf dim>
-			<a>navigation.html</a>
-			<name>Navigation</name>
-			<small>problems with navigating through the grammar</small>
-		</pic>
-		<pic dwarf dim>
 			<a>organisation.html</a>
 			<name>Organisation</name>
 			<small>global problems</small>
+		</pic>
+		<pic dwarf dim>
+			<a>navigation.html</a>
+			<name>Navigation</name>
+			<small>problems with navigating through the grammar</small>
 		</pic>
 		<pic dwarf>
 			<a>structure.html</a>
@@ -23,9 +23,9 @@
 		</pic>
 		<hr/>
 		<pic dwarf dim>
-			<a>complexity.html</a>
-			<name>Complexity</name>
-			<small>metric-based smells</small>
+			<a>proxy.html</a>
+			<name>Proxy</name>
+			<small>indirect uses</small>
 		</pic>
 		<pic dwarf>
 			<a>dependency.html</a>
@@ -33,9 +33,9 @@
 			<small>antipatterns in use</small>
 		</pic>
 		<pic dwarf dim>
-			<a>proxy.html</a>
-			<name>Proxy</name>
-			<small>indirect uses</small>
+			<a>complexity.html</a>
+			<name>Complexity</name>
+			<small>metric-based smells</small>
 		</pic>
 		<hr/>
 		<pic dwarf dim>
@@ -43,20 +43,15 @@
 			<name>Diamond</name>
 			<small>A is X and B is X, but C is A or B</small>
 		</pic>
-		<pic dwarf>
-			<a>mythic.html</a>
-			<name>Mythic</name>
-			<small>an alternative that is never exercised in the codebase</small>
+		<pic dwarf dim>
+			<a>rivalry.html</a>
+			<name>Rivalry</name>
+			<small>overlapping alternatives</small>
 		</pic>
 		<pic dwarf dim>
 			<a>ouroboros.html</a>
 			<name>Ouroboros</name>
 			<small>a circular dependency among modules</small>
-		</pic>
-		<pic dwarf dim>
-			<a>rivalry.html</a>
-			<name>Rivalry</name>
-			<small>overlapping alternatives</small>
 		</pic>
 		<pic dwarf dim>
 			<a>soulmates.html</a>
@@ -67,6 +62,11 @@
 			<a>spillover.html</a>
 			<name>Spillover</name>
 			<small>a nonterminal that is too linked to the adjacent symbols</small>
+		</pic>
+		<pic dwarf>
+			<a>mythic.html</a>
+			<name>Mythic</name>
+			<small>an alternative that is never exercised in the codebase</small>
 		</pic>
 		<hr/>
 		<pic wide>
