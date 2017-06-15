@@ -59,8 +59,8 @@
 			<small>a subexpression that should have been a nonterminal</small>
 		</pic>
 		<pic dwarf>
-			<a>multiexpert.html</a>
-			<name>Multiexpert</name>
+			<a>multitool.html</a>
+			<name>Multitool</name>
 			<small>a nonterminal that represents two or more concepts</small>
 		</pic>
 		<hr/>

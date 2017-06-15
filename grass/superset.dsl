@@ -49,14 +49,9 @@
 			<small>improper factoring or distribution</small>
 		</pic>
 		<pic dwarf dim>
-			<a>leftrecursion.html</a>
-			<name>LeftRecursion</name>
-			<small>left recursive rules</small>
-		</pic>
-		<pic dwarf dim>
-			<a>rightrecursion.html</a>
-			<name>RightRecursion</name>
-			<small>right recursive rules</small>
+			<a>1sidedrecursion.html</a>
+			<name>1SidedRecursion</name>
+			<small>left or right recursive rules</small>
 		</pic>
 		<pic dwarf>
 			<a>superset.html</a>
@@ -81,7 +76,7 @@
 		<hr/>
 		<pic wide>
 			<name>Superset</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/OG.html">Overgeneralization</a><br/>Some grammars represent a superset of the intended language. This may become a problem if the parser based on the grammar is to be used as an oracle for program correctness, since in this role it is inadequate. Overly relaxed grammars are routinely used in other scenarios and can be very useful in inter-language translation.</small>
+			<small>Related smells: <a href="http://tusharma.in/smells/OG.html">Overgeneralization</a><br/>Some grammars represent a superset of the intended language. This may become a problem if the parser based on the grammar is to be used as an oracle for program correctness, since in this role it is inadequate. Overly relaxed grammars are routinely used in other scenarios such as software analytics and inter-language translation, and can be very useful there.</small>
 		</pic>
 		<hr/>
 		<div class="last">

@@ -56,7 +56,7 @@
 		<hr/>
 		<pic wide>
 			<name>StartInTheMiddle</name>
-			<small>The starting symbol of the grammar should be on top or the bottom of the grammar, not in the middle</small>
+			<small>To improve the readability and navigability of the grammar, its starting symbol should be on top or the bottom of the grammar, not lost somewhere in the middle.</small>
 		</pic>
 		<hr/>
 		<div class="last">

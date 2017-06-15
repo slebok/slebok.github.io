@@ -59,14 +59,14 @@
 			<small>a subexpression that should have been a nonterminal</small>
 		</pic>
 		<pic dwarf dim>
-			<a>multiexpert.html</a>
-			<name>Multiexpert</name>
+			<a>multitool.html</a>
+			<name>Multitool</name>
 			<small>a nonterminal that represents two or more concepts</small>
 		</pic>
 		<hr/>
 		<pic wide>
 			<name>Chain</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/LC2.html">Lazy Class</a>, <a href="http://tusharma.in/smells/EAC.html">Extraneous Adjacent Connector</a>, <a href="http://tusharma.in/smells/MC.html">Message Chains</a>, <a href="http://tusharma.in/smells/MM.html">Middle Man</a>, <a href="http://tusharma.in/smells/SMM.html">Middle Man</a>, <a href="http://tusharma.in/smells/SLCC.html">Long Calculation Chain</a>, <a href="http://tusharma.in/smells/TML.html">Too Many Layers</a><br/>TODO rules that have RHS as one nonterminal</small>
+			<small>Related smells: <a href="http://tusharma.in/smells/LC2.html">Lazy Class</a>, <a href="http://tusharma.in/smells/EAC.html">Extraneous Adjacent Connector</a>, <a href="http://tusharma.in/smells/MC.html">Message Chains</a>, <a href="http://tusharma.in/smells/MM.html">Middle Man</a>, <a href="http://tusharma.in/smells/SMM.html">Middle Man</a>, <a href="http://tusharma.in/smells/SLCC.html">Long Calculation Chain</a>, <a href="http://tusharma.in/smells/TML.html">Too Many Layers</a><br/>Chain rules are a well-known smell in grammar engineering <a href="http://bibtex.github.io/IFM-2009-LammelZ.html">[IFM-2009-LammelZ]</a><a href="http://bibtex.github.io/SCAM-J-2009-LammelZ11.html">[SCAM-J-2009-LammelZ11]</a>: it happens when a nonterminal is defined with only one production rule which has exactly one nonterminal as its right hand side. The “inner” nonterminal acts like a middle man and does not play a significant rule in structural commitments of the grammar. In Fowler's words, “after a while it’s time to cut out the middle man and talk to the object that really knows what’s going on” <a href="http://bibtex.github.io/Refactoring.html">[Refactoring]</a>.</small>
 		</pic>
 		<hr/>
 		<div class="last">

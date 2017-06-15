@@ -54,19 +54,19 @@
 			<small>nonterminal defined, but not referenced</small>
 		</pic>
 		<pic dwarf dim>
-			<a>bottoms.html</a>
-			<name>Bottoms</name>
+			<a>bottom.html</a>
+			<name>Bottom</name>
 			<small>nonterminal referenced, but not defined</small>
 		</pic>
 		<pic dwarf dim>
-			<a>todo.html</a>
-			<name>ToDo</name>
+			<a>debt.html</a>
+			<name>Debt</name>
 			<small>incompletenesses covered up by todo/fixme comments</small>
 		</pic>
 		<hr/>
 		<pic wide>
 			<name>Dead</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/UP.html">Unused Packages</a>, <a href="http://tusharma.in/smells/LF.html">Lava Flow</a>, <a href="http://tusharma.in/smells/OC.html">Obsolete Classes</a>, <a href="http://tusharma.in/smells/UA2.html">Unutilized Abstraction</a>, <a href="http://tusharma.in/smells/EDLS.html">Dead Local Store</a>, <a href="http://tusharma.in/smells/DF.html">Dead Fields</a><br/>TODO top (unused) nonterminals</small>
+			<small>Related smells: <a href="http://tusharma.in/smells/UP.html">Unused Packages</a>, <a href="http://tusharma.in/smells/LF.html">Lava Flow</a>, <a href="http://tusharma.in/smells/OC.html">Obsolete Classes</a>, <a href="http://tusharma.in/smells/UA2.html">Unutilized Abstraction</a>, <a href="http://tusharma.in/smells/EDLS.html">Dead Local Store</a>, <a href="http://tusharma.in/smells/DF.html">Dead Fields</a><br/>All top (unused) nonterminals that were identified as not being the starting symbol(s) of the grammar, represent unreachable fragments. The programming counterpart of this smell is dead code and its variants.</small>
 		</pic>
 		<hr/>
 		<div class="last">

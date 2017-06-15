@@ -59,14 +59,14 @@
 			<small>not present or circular</small>
 		</pic>
 		<pic dwarf dim>
-			<a>combo.html</a>
-			<name>Combo</name>
-			<small>double modifier creates an ambiguity</small>
-		</pic>
-		<pic dwarf dim>
 			<a>singleton.html</a>
 			<name>Singleton</name>
 			<small>trivial choice, sequence or conjunction</small>
+		</pic>
+		<pic dwarf dim>
+			<a>combo.html</a>
+			<name>Combo</name>
+			<small>double modifier creates an ambiguity</small>
 		</pic>
 		<pic dwarf>
 			<a>chant.html</a>
@@ -86,7 +86,7 @@
 		<hr/>
 		<pic wide>
 			<name>Chant</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/CO.html">Comments</a>, <a href="http://tusharma.in/smells/PDD.html">The Devil of Details</a><br/>TODO: explain why too much comments is a bad thing</small>
+			<small>Related smells: <a href="http://tusharma.in/smells/CO.html">Comments</a>, <a href="http://tusharma.in/smells/PDD.html">The Devil of Details</a><br/>During grammar recovery projects in the past we were occasionally stumbling across nonterminals that were “defined” in natural language instead of the actual grammar notation: “defined similarly to...”, “all Unicode characters of class...”, “any of the following”, etc. These are drastic examples of this smell, since they make the grammar completely useless for automatic machine consumption. However, having improper constructions in one's grammar that are covered up by an extensive comment explaining why it is not that that bad, is still an instance of this smell.</small>
 		</pic>
 		<hr/>
 		<div class="last">

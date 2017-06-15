@@ -56,7 +56,7 @@
 		<hr/>
 		<pic wide>
 			<name>Uncluster</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/SC.html">Spaghetti Code</a><br/>Nonterminals that refer to one another, should be located close to one another</small>
+			<small>Related smells: <a href="http://tusharma.in/smells/DC3.html">Divergent Change</a>, <a href="http://tusharma.in/smells/SC.html">Spaghetti Code</a><br/>Nonterminals that refer to one another, should be located close to one another. The longer the distance between the use of a nonterminal from its definition, the more the reader of the grammar will have to switch context. A lot of scrolling always means there is something smelly about how the grammar is set up. Moving the production rules that cause the scrolling closer to each other to form a cluster, will result in an easier grammar with more coherent structure. <br/> Automated removal of this smell is problematic, since the grammar engineer should decide which nonterminals to move where, but there are a lot of heuristics one can develop and test their effectiveness empirically.</small>
 		</pic>
 		<hr/>
 		<div class="last">

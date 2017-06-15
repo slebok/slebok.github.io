@@ -31,14 +31,13 @@
 		<div><span class="dwarf dim pic"><a href="duplication.html">Duplication<br/><span class="s">the same fragment is repeated</span></a></span></div>
 		<hr/>
 		<div><span class="dwarf dim pic"><a href="factoring.html">Factoring<br/><span class="s">improper factoring or distribution</span></a></span></div>
-		<div><span class="dwarf dim pic"><a href="leftrecursion.html">LeftRecursion<br/><span class="s">left recursive rules</span></a></span></div>
-		<div><span class="dwarf dim pic"><a href="rightrecursion.html">RightRecursion<br/><span class="s">right recursive rules</span></a></span></div>
+		<div><span class="dwarf dim pic"><a href="1sidedrecursion.html">1SidedRecursion<br/><span class="s">left or right recursive rules</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="superset.html">Superset<br/><span class="s">parser spec is too relaxed</span></a></span></div>
 		<div><span class="dwarf pic"><a href="shotgun.html">Shotgun<br/><span class="s">a chunk of input could be parsed in more detail</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="nodefault.html">NoDefault<br/><span class="s">no error-localising default branch</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="action.html">Action<br/><span class="s">a code smell in a semantic action</span></a></span></div>
 		<hr/>
-		<div><span class="wide pic">Shotgun<br/><p class="s">Related smells: <a href="http://tusharma.in/smells/MA.html">Missing Abstraction</a>, <a href="http://tusharma.in/smells/MAC2.html">Missing Abstraction</a><br/>TODO link to Meredith</p></span></div>
+		<div><span class="wide pic">Shotgun<br/><p class="s">Related smells: <a href="http://tusharma.in/smells/MA.html">Missing Abstraction</a>, <a href="http://tusharma.in/smells/MAC2.html">Missing Abstraction</a><br/><em>Shotgun parsing</em> is a term used in cybersecurity to represent an architecture where a proper parser is substituted with lightweight treatment (by regular expression matches and direct string manipulation) <a href="http://bibtex.github.io/Shotgun12.html">[Shotgun12]</a>. The name comes from the fact that in a pipeline of tools built with such defects, the problems quickly multiply with each step when the receiver is applying Postel's Law in trying to be relaxed with its input <a href="http://bibtex.github.io/Sassaman2012.html">[Sassaman2012]</a>, and is known to cause all kinds of subtle bugs in software language processing <a href="http://bibtex.github.io/Flexible2015.html">[Flexible2015]</a>. We define the Shotgun smell as a situation when the grammatical bind is too loose on one of its ends. For example, imagine function arguments in a C-like language to be parsed as a parenthesis-enclosing string which is expected to be split into a proper list by the code that uses the resulting tree. This smell was not seen within grammars of the Grammar Zoo, but was observed in the industrial setting when time pressure got the best of grammar engineers.</p></span></div>
 		<hr/>
 		<div class="last">
 			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.

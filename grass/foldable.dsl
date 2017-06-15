@@ -76,7 +76,7 @@
 		<hr/>
 		<pic wide>
 			<name>Foldable</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/SPF.html">Scattered Parasitic Functionality</a>, <a href="http://tusharma.in/smells/SAB.html">Subsystem-API Bypassed</a>, <a href="http://tusharma.in/smells/GODY.html">The Grand Old Duke of York</a>, <a href="http://tusharma.in/smells/BH.html">Broken Hierarchy</a>, <a href="http://tusharma.in/smells/СBH.html">Broken Hierarchy</a><br/>TODO an RHS of a nonterminal occurs as a subexpression in an RHS of another nonterminals</small>
+			<small>Related smells: <a href="http://tusharma.in/smells/SPF.html">Scattered Parasitic Functionality</a>, <a href="http://tusharma.in/smells/SAB.html">Subsystem-API Bypassed</a>, <a href="http://tusharma.in/smells/GODY.html">The Grand Old Duke of York</a>, <a href="http://tusharma.in/smells/BH.html">Broken Hierarchy</a>, <a href="http://tusharma.in/smells/СBH.html">Broken Hierarchy</a><br/>This smell occurs when the clone is formed not between full definitions of two nonterminals, but when the right hand side of one nonterminal occurs as a subexpression in the right hand side of another nonterminal. Conceptually they are still clones and suffer from all known consequences of coupled evolution, but the solution is different: instead of merging the nonterminals, the subexpression needs to be folded into a nonterminal that defines it.</small>
 		</pic>
 		<hr/>
 		<div class="last">

@@ -49,14 +49,9 @@
 			<small>improper factoring or distribution</small>
 		</pic>
 		<pic dwarf dim>
-			<a>leftrecursion.html</a>
-			<name>LeftRecursion</name>
-			<small>left recursive rules</small>
-		</pic>
-		<pic dwarf dim>
-			<a>rightrecursion.html</a>
-			<name>RightRecursion</name>
-			<small>right recursive rules</small>
+			<a>1sidedrecursion.html</a>
+			<name>1SidedRecursion</name>
+			<small>left or right recursive rules</small>
 		</pic>
 		<pic dwarf dim>
 			<a>superset.html</a>
@@ -81,7 +76,7 @@
 		<hr/>
 		<pic wide>
 			<name>Action</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/ESRA.html">Switch Redundant Assignment</a>, <a href="http://tusharma.in/smells/PCTH.html">Circuitous Treasure Hunt</a>, <a href="http://tusharma.in/smells/PEDA.html">Excessive Dynamic Allocation</a>, <a href="http://tusharma.in/smells/POLB.html">The One Lane Bridge</a>, <a href="http://tusharma.in/smells/MG.html">Mystery Guest</a>, <a href="http://tusharma.in/smells/RO.html">Resource Optimism</a>, <a href="http://tusharma.in/smells/IPV.html">Invalid Property Value</a>, <a href="http://tusharma.in/smells/II.html">Inappropriate Intimacy</a>, <a href="http://tusharma.in/smells/TQ.html">Type Queries</a>, <a href="http://tusharma.in/smells/UE.html">Unexploited Encapsulation</a>, <a href="http://tusharma.in/smells/OILS.html">Obscure In-Line Setup</a>, <a href="http://tusharma.in/smells/FD.html">Functional Decomposition</a><br/>???</small>
+			<small>Related smells: <a href="http://tusharma.in/smells/ESRA.html">Switch Redundant Assignment</a>, <a href="http://tusharma.in/smells/PCTH.html">Circuitous Treasure Hunt</a>, <a href="http://tusharma.in/smells/PEDA.html">Excessive Dynamic Allocation</a>, <a href="http://tusharma.in/smells/POLB.html">The One Lane Bridge</a>, <a href="http://tusharma.in/smells/MG.html">Mystery Guest</a>, <a href="http://tusharma.in/smells/RO.html">Resource Optimism</a>, <a href="http://tusharma.in/smells/IPV.html">Invalid Property Value</a>, <a href="http://tusharma.in/smells/II.html">Inappropriate Intimacy</a>, <a href="http://tusharma.in/smells/TQ.html">Type Queries</a>, <a href="http://tusharma.in/smells/UE.html">Unexploited Encapsulation</a>, <a href="http://tusharma.in/smells/OILS.html">Obscure In-Line Setup</a>, <a href="http://tusharma.in/smells/FD.html">Functional Decomposition</a><br/>Many realistic language workbenches draw the line to prevent endless growing of their notations, and introduce a concept of a “semantic action”, which is introduced like an annotation in the grammar and acts as a doorway to the mainstream language typical for the target platform. Obviously, since this action consists of code, the code can suffer from one of the numerous code smells.</small>
 		</pic>
 		<hr/>
 		<div class="last">

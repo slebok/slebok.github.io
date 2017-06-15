@@ -71,7 +71,7 @@
 		<hr/>
 		<pic wide>
 			<name>Splat</name>
-			<small>Since definitions of vertical nonterminals (see ZigZag) consist of several production rules, these rules can be distributed over the grammar and not focused in one place. This may be bad, especially if most of the rules are collected together, and only one or two are elsewhere.</small>
+			<small>Since definitions of vertical nonterminals (see [smell]ZigZag[/smell]) consist of several production rules, these rules can be distributed over the grammar and not focused in one place. This may be bad, especially if most of the rules are collected together, and only one or two are elsewhere.</small>
 		</pic>
 		<hr/>
 		<div class="last">

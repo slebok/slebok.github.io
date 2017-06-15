@@ -4,7 +4,7 @@
 	<head viewport title="Parsing Smells (Organisation) in the GraSs">
 	<body>
 		<header/>
-		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells (7 in the selected group)</h1>
+		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells (6 in the selected group)</h1>
 		<hr/>
 		<pic dwarf>
 			<a>organisation.html</a>
@@ -49,14 +49,9 @@
 			<small>improper factoring or distribution</small>
 		</pic>
 		<pic dwarf>
-			<a>leftrecursion.html</a>
-			<name>LeftRecursion</name>
-			<small>left recursive rules</small>
-		</pic>
-		<pic dwarf>
-			<a>rightrecursion.html</a>
-			<name>RightRecursion</name>
-			<small>right recursive rules</small>
+			<a>1sidedrecursion.html</a>
+			<name>1SidedRecursion</name>
+			<small>left or right recursive rules</small>
 		</pic>
 		<pic dwarf>
 			<a>superset.html</a>

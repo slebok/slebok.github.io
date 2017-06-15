@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <path css="../www" img="../www"/>
 <html doctype>
-	<head viewport title="Bottoms in the GraSs">
+	<head viewport title="Debt in the GraSs">
 	<body>
 		<header/>
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
@@ -53,20 +53,20 @@
 			<name>Dead</name>
 			<small>nonterminal defined, but not referenced</small>
 		</pic>
-		<pic dwarf>
-			<a>bottoms.html</a>
-			<name>Bottoms</name>
+		<pic dwarf dim>
+			<a>bottom.html</a>
+			<name>Bottom</name>
 			<small>nonterminal referenced, but not defined</small>
 		</pic>
-		<pic dwarf dim>
-			<a>todo.html</a>
-			<name>ToDo</name>
+		<pic dwarf>
+			<a>debt.html</a>
+			<name>Debt</name>
 			<small>incompletenesses covered up by todo/fixme comments</small>
 		</pic>
 		<hr/>
 		<pic wide>
-			<name>Bottoms</name>
-			<small>TODO bottom (used but not defined) nonterminals <br/> The lack of definition for nonterminals that are used within the grammar, is an obvious mistake that must be reported one way or another, and also possibly as a smell. There are three main reasons for nonterminals left undefined: (1) they were forgotten by the grammar engineer; (2) they are defined in a different module; (3) they are defined on a separate conceptual layer. For scenario (1), we cannot do anything to fix the problem (beyond attempting to apply heuristics)</small>
+			<name>Debt</name>
+			<small>Related smells: <a href="http://tusharma.in/smells/IT.html">Incomplete Tasks</a><br/>Similarly to [smell]Chant[/smell] that covers up imperfect fragments with comments in natural language, there could be pieces missing entirely from the grammar and replaced with comments. If the comments admit clearly what is missing, use searchable tags like “TODO” or “FIXME” and are intended to use as a backlog, the current practice is to refer to them as “self-admitted technical debt” <a href="http://bibtex.github.io/ICSME-2014-PotdarS.html">[ICSME-2014-PotdarS]</a>.</small>
 		</pic>
 		<hr/>
 		<div class="last">

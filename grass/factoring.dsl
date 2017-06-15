@@ -49,14 +49,9 @@
 			<small>improper factoring or distribution</small>
 		</pic>
 		<pic dwarf dim>
-			<a>leftrecursion.html</a>
-			<name>LeftRecursion</name>
-			<small>left recursive rules</small>
-		</pic>
-		<pic dwarf dim>
-			<a>rightrecursion.html</a>
-			<name>RightRecursion</name>
-			<small>right recursive rules</small>
+			<a>1sidedrecursion.html</a>
+			<name>1SidedRecursion</name>
+			<small>left or right recursive rules</small>
 		</pic>
 		<pic dwarf dim>
 			<a>superset.html</a>
@@ -81,7 +76,7 @@
 		<hr/>
 		<pic wide>
 			<name>Factoring</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/MH.html">Missing Hierarchy</a>, <a href="http://tusharma.in/smells/ERC.html">Repeated Conditionals</a><br/>In classic by-the-book <a href="http://slebok.github.io/dyol/books/PT-GJ.html">[PT-GJ]</a> non-memoising parsing, if alternative production rules from the same nonterminal start from the same symbols, these would have to be reparsed in each of the branches. As a real example (Doug Cooper, Scott Moore, <em><a href="http://slebok.github.io/zoo/#pascal_pascal_cooper-moore_fetched">Pascal grammar in Yacc format</a></em>, fetched): <br/> <br/><code>open_if_statement<br/>&nbsp;:&nbsp;IF&nbsp;boolean_expression&nbsp;THEN&nbsp;statement<br/>&nbsp;|&nbsp;IF&nbsp;boolean_expression&nbsp;THEN&nbsp;closed_statement<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE&nbsp;open_statement;<br/></code> <br/> Interestingly, this example is a false positive: factoring the first three symbols into a separate nonterminal will clutter the grammar without bringing any noticeable benefits. In other cases, this smell has been avoided/removed (The Dart Team, <em><a href="http://slebok.github.io/zoo/#dart_latex_v01.0_extracted">Dart Programming Language Specification</a></em>, extracted): <br/> <br/><code>ifStatement&nbsp;::=&nbsp;"if"&nbsp;"("&nbsp;expression&nbsp;")"&nbsp;statement<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;("else"&nbsp;statement)?<br/></code> <br/> <br/></small>
+			<small>Related smells: <a href="http://tusharma.in/smells/MH.html">Missing Hierarchy</a>, <a href="http://tusharma.in/smells/ERC.html">Repeated Conditionals</a><br/>In classic by-the-book <a href="http://slebok.github.io/dyol/books/PT-GJ.html">[PT-GJ]</a> non-memoising parsing, if alternative production rules from the same nonterminal start from the same symbols, these would have to be reparsed in each of the branches. As a real example (Doug Cooper, Scott Moore, <em><a href="http://slebok.github.io/zoo/#pascal_pascal_cooper-moore_fetched">Pascal grammar in Yacc format</a></em>, fetched): <br/> <br/><code>open_if_statement<br/>&nbsp;:&nbsp;IF&nbsp;boolean_expression&nbsp;THEN&nbsp;statement<br/>&nbsp;|&nbsp;IF&nbsp;boolean_expression&nbsp;THEN&nbsp;closed_statement<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE&nbsp;open_statement;<br/></code> <br/> Interestingly, this example is a false positive: factoring the first three symbols into a separate nonterminal will clutter the grammar without bringing any noticeable benefits (and will introduce the [smell]Weak[/smell] smell). In other cases, this smell has been avoided/removed (The Dart Team, <em><a href="http://slebok.github.io/zoo/#dart_latex_v01.0_extracted">Dart Programming Language Specification</a></em>, extracted): <br/> <br/><code>ifStatement&nbsp;::=&nbsp;"if"&nbsp;"("&nbsp;expression&nbsp;")"&nbsp;statement<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;("else"&nbsp;statement)?<br/></code> <br/> <br/></small>
 		</pic>
 		<hr/>
 		<div class="last">

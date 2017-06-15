@@ -59,14 +59,14 @@
 			<small>not present or circular</small>
 		</pic>
 		<pic dwarf>
-			<a>combo.html</a>
-			<name>Combo</name>
-			<small>double modifier creates an ambiguity</small>
-		</pic>
-		<pic dwarf>
 			<a>singleton.html</a>
 			<name>Singleton</name>
 			<small>trivial choice, sequence or conjunction</small>
+		</pic>
+		<pic dwarf>
+			<a>combo.html</a>
+			<name>Combo</name>
+			<small>double modifier creates an ambiguity</small>
 		</pic>
 		<pic dwarf>
 			<a>chant.html</a>

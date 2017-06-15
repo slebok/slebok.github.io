@@ -10,6 +10,8 @@ mapped = {\
 	'LDTA-2012-Zaytsev' : 'NPGR2012',
 	'SAC-2012-Zaytsev': 'BNF-WAS-HERE2012',
 	'SLE-2013-Zaytsev': 'Micropatterns2013',
+	'IFM-2009-LammelZ': 'Convergence2009',
+	'CSMR-WCRE-2014-Zaytsev': 'Semiparsing2014',
 	'SCAM-J-2009-LammelZ11' : 'JLS-SQJ2011',\
 }
 
@@ -77,7 +79,7 @@ def tax2dsl(lines):
 		if line.startswith('% '):
 			i += 1
 			continue
-		if line == '[example]':
+		if line == '[example]' or line == '[example small]':
 			elines = []
 			i += 1
 			while i < len(lines) and lines[i].strip() != '[/example]':
@@ -109,6 +111,7 @@ def tax2dsl(lines):
 			fnote = '({0}, <em><a href="http://slebok.github.io/zoo/{1}">{2}</a></em>, {3})'.format(*zoo)
 			line = line[:x] + fnote + line[y+6:]
 		# normalise
+		# TODO smell -> a href
 		line = line.replace('[code]', '<code>').replace('[/code]', '</code>')
 		line = line.replace('[verb]', '<code>').replace('[/verb]', '</code>')
 		line = line.replace('[emph]', '<em>').replace('[/emph]', '</em>')
@@ -120,10 +123,14 @@ def tax2dsl(lines):
 def tax2tex(lines):
 	res = []
 	verbatim = False
+	small = False
 	for line in lines:
 		if verbatim:
 			if line.strip() == '[/example]':
 				res.append('\\end{verbatim}\n')
+				if small:
+					res.append('}')
+					small = False
 				verbatim = False
 				continue
 			res.append(line)
@@ -137,6 +144,11 @@ def tax2tex(lines):
 		if line.strip() == '[example]':
 			res.append('\n\\begin{verbatim}\n')
 			verbatim = True
+			continue
+		if line.strip() == '[example small]':
+			res.append('\n{\\footnotesize\\begin{verbatim}\n')
+			verbatim = True
+			small = True
 			continue
 		while line.find('[cite]') > -1:
 			x = line.index('[cite]')
@@ -164,17 +176,31 @@ def tax2tex(lines):
 			zoo = line[x+5:y].strip().split('|')
 			if zoo[1][0] == '#':
 				zoo[1] = '\\' + zoo[1]
-			# "from the Grammar Zoo"
 			fnote = '\\footnote{{{0}, \\emph{{\\href{{http://slebok.github.io/zoo/{1}}}{{{2}}}}}, {3}~\cite{{Zoo2015}}.}}'.format(*zoo)
+			if len(zoo) > 4:
+				fnote = fnote[:-2] + ', ' + zoo[-1] + '.}'
 			line = line[:x] + fnote + line[y+6:]
 		# normalise
+		line = line.replace('[smell]', '\\smell{').replace('[/smell]', '}')
 		line = line.replace('[code]', '\\texttt{').replace('[/code]', '}')
 		line = line.replace('[verb]', '\\verb!').replace('[/verb]', '!')
 		line = line.replace('[emph]', '\\emph{').replace('[/emph]', '}')
 		line = line.replace(' ~', '~').replace(' \\footnote', '\\footnote')
 		line = line.replace('}~\\cite{', ',')
+		line = line.replace('&', '\\&')
 		res.append(line)
-	return ' '.join(res)
+	res2 = []
+	empty = False
+	for line in res:
+		if not line.strip():
+			if empty:
+				continue
+			else:
+				empty = True
+		else:
+			empty = False
+		res2.append(line)
+	return ' '.join(res2).replace('\n \n', '\n\n').replace('\n\n\n', '\n\n').replace(' \\end{verbatim}', '\\end{verbatim}')
 
 taxonomy = {}
 explanation = {}
@@ -214,6 +240,10 @@ for line in f.readlines():
 		related[cur3] = []
 		explanation[a] = b if b else '...'
 	elif line.startswith('\t'):
+		if line.strip().startswith('@ '):
+			lines = open(wdir + line.strip()[2:].strip(), 'r', encoding='utf-8').readlines()
+			latex[cur1] = tax2tex(lines)
+			continue
 		a, b = mysplit(line)
 		cur2 = a
 		taxkeys[cur1].append(cur2)
@@ -307,15 +337,15 @@ for key1 in taxkeys['']:
 # generate LaTeX
 f = open('smells.tex', 'w', encoding='utf-8')
 for key1 in taxkeys['']:
-	f.write('\n\\section{' + key1 + ' Smells}\n\n')
+	f.write('\n\\section{{{0} Smells}}\\label{{{0}}}\n\n'.format(key1))
 	if key1 in latex:
 		f.write(latex[key1])
 	for key2 in taxkeys[key1]:
-		f.write('\n\\subsection{' + key2 + '}\n\n')
+		f.write('\n\\subsection{{{0} Smells}}\\label{{{0}}}\n\n'.format(key2))
 		if key2 in latex:
 			f.write(latex[key2])
 		for key3 in taxkeys[key2]:
-			f.write('\n\\subsubsection{' + key3 + '}\n\n')
+			f.write('\n\\subsubsection{{{0}}}\\label{{{0}}}\n\n'.format(key3))
 			if key3 in latex:
 				f.write(latex[key3])
 			else:

@@ -56,7 +56,7 @@
 		<hr/>
 		<pic wide>
 			<name>Unsequence</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/SC.html">Spaghetti Code</a><br/>The order of the production rules in the grammar should be set up in a consistent manner, such that referred nonterminals in production rules refer either up or down in the grammar</small>
+			<small>Related smells: <a href="http://tusharma.in/smells/SC.html">Spaghetti Code</a><br/>The order of the production rules in the grammar should be set up in a consistent manner, such that referred nonterminals in production rules refer either up or down in the grammar. If [smell]Uncluster[/smell] and [smell]Splat[/smell] are concerned with general placement of production rules, this smell is about how they need to be structured to keep the reading experience optimal. <br/> In the past we have been using a grammar mutation called <em>SubGrammar</em> to improve the readability of grammars extracted from language manuals <a href="http://bibtex.github.io/SLEIR2014.html">[SLEIR2014]</a>. It would reorder the rules in the following way: grab the starting symbol (usually the root of the grammar) and list all its production rules, and then go through all nonterminals used in their right hand sides one by one in the same sequence that they occur, add their production rules to the target grammar and add the newly used nonterminals to the backlog. Once the backlog was empty, the mutation stopped. This was one of the possible strategies to get rid of both [smell]Splat[/smell] and [smell]Unsequence[/smell], and to some extent of [smell]Uncluster[/smell], but not the only one. <br/></small>
 		</pic>
 		<hr/>
 		<div class="last">

@@ -59,14 +59,14 @@
 			<small>not present or circular</small>
 		</pic>
 		<pic dwarf dim>
-			<a>combo.html</a>
-			<name>Combo</name>
-			<small>double modifier creates an ambiguity</small>
-		</pic>
-		<pic dwarf dim>
 			<a>singleton.html</a>
 			<name>Singleton</name>
 			<small>trivial choice, sequence or conjunction</small>
+		</pic>
+		<pic dwarf dim>
+			<a>combo.html</a>
+			<name>Combo</name>
+			<small>double modifier creates an ambiguity</small>
 		</pic>
 		<pic dwarf dim>
 			<a>chant.html</a>
@@ -86,7 +86,7 @@
 		<hr/>
 		<pic wide>
 			<name>Deprecated</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/DSU.html">Deprecated Statement Usage</a><br/>???</small>
+			<small>Related smells: <a href="http://tusharma.in/smells/DSU.html">Deprecated Statement Usage</a><br/>Similarly to deprecated statements and methods in programming, grammar notations may have some functionality that is no longer considered viable and proper in the new version. This does not happen all that often, but it may.</small>
 		</pic>
 		<hr/>
 		<div class="last">

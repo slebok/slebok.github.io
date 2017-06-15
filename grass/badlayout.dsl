@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <path css="../www" img="../www"/>
 <html doctype>
-	<head viewport title="ToDo in the GraSs">
+	<head viewport title="BadLayout in the GraSs">
 	<body>
 		<header/>
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
@@ -27,46 +27,31 @@
 			<name>Spaghetti</name>
 			<small>scattering details over the grammar</small>
 		</pic>
-		<pic dwarf>
+		<pic dwarf dim>
 			<a>shortage.html</a>
 			<name>Shortage</name>
 			<small>incompleteness</small>
 		</pic>
-		<pic dwarf dim>
+		<pic dwarf>
 			<a>mixture.html</a>
 			<name>Mixture</name>
 			<small>spicing the grammar with alien fragments</small>
 		</pic>
 		<hr/>
-		<pic dwarf dim>
-			<a>almostalphabet.html</a>
-			<name>AlmostAlphabet</name>
-			<small>seemingly incomplete collections</small>
-		</pic>
-		<pic dwarf dim>
-			<a>confusingentry.html</a>
-			<name>ConfusingEntry</name>
-			<small>no starting symbol</small>
-		</pic>
-		<pic dwarf dim>
-			<a>dead.html</a>
-			<name>Dead</name>
-			<small>nonterminal defined, but not referenced</small>
-		</pic>
-		<pic dwarf dim>
-			<a>bottoms.html</a>
-			<name>Bottoms</name>
-			<small>nonterminal referenced, but not defined</small>
-		</pic>
 		<pic dwarf>
-			<a>todo.html</a>
-			<name>ToDo</name>
-			<small>incompletenesses covered up by todo/fixme comments</small>
+			<a>badlayout.html</a>
+			<name>BadLayout</name>
+			<small>problems with whitespace and comments</small>
+		</pic>
+		<pic dwarf dim>
+			<a>preprocessor.html</a>
+			<name>Preprocessor</name>
+			<small>combining parsing spec with preprocessor spec</small>
 		</pic>
 		<hr/>
 		<pic wide>
-			<name>ToDo</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/IT.html">Incomplete Tasks</a><br/>???</small>
+			<name>BadLayout</name>
+			<small>Dealing with layout and whitespace can be very tricky, and, as any tricky process, there may be issues with it. Some language workbenches offer default layout, which, again, may be smelly to use it or not to use it – we cannot provide any general guidelines. Not specifying any layout may be harmful in some cases as well. <br/> One particular issue with layout can be explained in a bit of more detail. Usually there are two naturally different things covered by layout: whitespace (in software languages that ignore it) and comments (that do not influence behaviour of the system but can have an impact on its understanding). Mixing those two indiscriminately in the grammar may eventually lead to the point where it is required but impossible or overly complex to get one but not the other (e.g., for handling structured comments or preserving it through transformations).</small>
 		</pic>
 		<hr/>
 		<div class="last">

@@ -33,13 +33,13 @@
 		<div><span class="dwarf dim pic"><a href="underuse.html">Underuse<br/><span class="s">inferior substitutes are used instead of an available feature</span></a></span></div>
 		<div><span class="dwarf pic"><a href="overspec.html">Overspec<br/><span class="s">the same constraint specified through several means</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="priorities.html">Priorities<br/><span class="s">not present or circular</span></a></span></div>
-		<div><span class="dwarf dim pic"><a href="combo.html">Combo<br/><span class="s">double modifier creates an ambiguity</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="singleton.html">Singleton<br/><span class="s">trivial choice, sequence or conjunction</span></a></span></div>
+		<div><span class="dwarf dim pic"><a href="combo.html">Combo<br/><span class="s">double modifier creates an ambiguity</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="chant.html">Chant<br/><span class="s">comments cover up bad code</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="deprecated.html">Deprecated<br/><span class="s">the use of a feature that is no longer welcome</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="exotic.html">Exotic<br/><span class="s">too idiosyncratic notational features decrease portability</span></a></span></div>
 		<hr/>
-		<div><span class="wide pic">Overspec<br/><p class="s">TODO overfiltering by putting overly detailed follow restrictions</p></span></div>
+		<div><span class="wide pic">Overspec<br/><p class="s">In many notations, there are various ways to achieve the same effect, and information in those should not be duplicated or contradictory, since it only confuses grammar engineers and leads to grammars with very subtle bugs. The simplest example of Overspec is something like <code>!"a" & ("b" | "c")</code>, where the choice between <code>"b"</code> and <code>"c"</code> is preceded by a negative conjunctive clause saying that they at the same must not be <code>"a"</code>. Naturally, this cannot happen in either case, so the clause is either disposable or erroneous.</p></span></div>
 		<hr/>
 		<div class="last">
 			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.

@@ -59,14 +59,14 @@
 			<small>a subexpression that should have been a nonterminal</small>
 		</pic>
 		<pic dwarf dim>
-			<a>multiexpert.html</a>
-			<name>Multiexpert</name>
+			<a>multitool.html</a>
+			<name>Multitool</name>
 			<small>a nonterminal that represents two or more concepts</small>
 		</pic>
 		<hr/>
 		<pic wide>
 			<name>Weak</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/IA2.html">Incomplete Abstraction</a>, <a href="http://tusharma.in/smells/UA.html">Unnecessary Abstraction</a>, <a href="http://tusharma.in/smells/UAC.html">Unnecessary Abstraction</a>, <a href="http://tusharma.in/smells/DCA.html">Compound Attribute</a>, <a href="http://tusharma.in/smells/DMA.html">Multicolumn Attribute</a><br/>When the right hand side of a nonterminal is formed from several symbols that happen to occur one after another, without forming a proper abstraction, this can hinder grammar's understanding. The terminology is borrowed from TODO which distinguished strong nonterminals (used during parsing and present in the resulting tree) from weak ones (used during parsing but flattened into single nodes in the tree). (TODO in the paper with if/then/else)</small>
+			<small>Related smells: <a href="http://tusharma.in/smells/IA2.html">Incomplete Abstraction</a>, <a href="http://tusharma.in/smells/UA.html">Unnecessary Abstraction</a>, <a href="http://tusharma.in/smells/UAC.html">Unnecessary Abstraction</a>, <a href="http://tusharma.in/smells/DCA.html">Compound Attribute</a>, <a href="http://tusharma.in/smells/DMA.html">Multicolumn Attribute</a><br/>When the right hand side of a nonterminal is formed from several symbols that happen to occur one after another, without forming a proper abstraction, this can hinder grammar's understanding. The terminology is borrowed from <a href="http://bibtex.github.io/McCord1985.html">[McCord1985]</a> which distinguished <em>strong</em> nonterminals (used during parsing and present in the resulting tree) from <em>weak</em> ones (used during parsing but flattened into single nodes in the tree).</small>
 		</pic>
 		<hr/>
 		<div class="last">

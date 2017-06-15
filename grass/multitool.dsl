@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <path css="../www" img="../www"/>
 <html doctype>
-	<head viewport title="Multiexpert in the GraSs">
+	<head viewport title="Multitool in the GraSs">
 	<body>
 		<header/>
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
@@ -59,14 +59,14 @@
 			<small>a subexpression that should have been a nonterminal</small>
 		</pic>
 		<pic dwarf>
-			<a>multiexpert.html</a>
-			<name>Multiexpert</name>
+			<a>multitool.html</a>
+			<name>Multitool</name>
 			<small>a nonterminal that represents two or more concepts</small>
 		</pic>
 		<hr/>
 		<pic wide>
-			<name>Multiexpert</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/GC.html">God Class</a>, <a href="http://tusharma.in/smells/PGC.html">God Class</a>, <a href="http://tusharma.in/smells/SAK.html">Swiss Army Knife</a>, <a href="http://tusharma.in/smells/MAC.html">Multifaceted Abstraction</a>, <a href="http://tusharma.in/smells/PBB.html">Brother of the Bride</a>, <a href="http://tusharma.in/smells/MA2.html">Multifaceted Abstraction</a><br/>TODO violates the single responsibility principle</small>
+			<name>Multitool</name>
+			<small>Related smells: <a href="http://tusharma.in/smells/GC.html">God Class</a>, <a href="http://tusharma.in/smells/PGC.html">God Class</a>, <a href="http://tusharma.in/smells/SAK.html">Swiss Army Knife</a>, <a href="http://tusharma.in/smells/MAC.html">Multifaceted Abstraction</a>, <a href="http://tusharma.in/smells/PBB.html">Brother of the Bride</a>, <a href="http://tusharma.in/smells/MA2.html">Multifaceted Abstraction</a><br/>This smells takes place when a nonterminal violates the single responsibility principle, and represents several (hopefully related) abstractions.</small>
 		</pic>
 		<hr/>
 		<div class="last">

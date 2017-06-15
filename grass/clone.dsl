@@ -76,7 +76,7 @@
 		<hr/>
 		<pic wide>
 			<name>Clone</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/DC2.html">Duplicate Code</a>, <a href="http://tusharma.in/smells/RW.html">Reinvent the Wheel</a>, <a href="http://tusharma.in/smells/CPP.html">Cut and Paste Programming</a>, <a href="http://tusharma.in/smells/UH2.html">Unfactored Hierarchy</a>, <a href="http://tusharma.in/smells/DE2.html">Duplicate Entity</a><br/>Nonterminals that have exactly the same definitions, are only cluttering the grammar, and can be painlessly united. In clone management research, these are called “type 1 clones”, we will revisit this classification later when defining Lookalike.</small>
+			<small>Related smells: <a href="http://tusharma.in/smells/DC2.html">Duplicate Code</a>, <a href="http://tusharma.in/smells/RW.html">Reinvent the Wheel</a>, <a href="http://tusharma.in/smells/CPP.html">Cut and Paste Programming</a>, <a href="http://tusharma.in/smells/UH2.html">Unfactored Hierarchy</a>, <a href="http://tusharma.in/smells/DE2.html">Duplicate Entity</a><br/>Nonterminals that have exactly the same definitions, are only cluttering the grammar, and can be painlessly united. In clone management research, these are called “type 1 clones”, we will revisit this classification later when defining [smell]Lookalike[/smell].</small>
 		</pic>
 		<hr/>
 		<div class="last">

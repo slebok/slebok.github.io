@@ -54,19 +54,19 @@
 			<small>nonterminal defined, but not referenced</small>
 		</pic>
 		<pic dwarf dim>
-			<a>bottoms.html</a>
-			<name>Bottoms</name>
+			<a>bottom.html</a>
+			<name>Bottom</name>
 			<small>nonterminal referenced, but not defined</small>
 		</pic>
 		<pic dwarf dim>
-			<a>todo.html</a>
-			<name>ToDo</name>
+			<a>debt.html</a>
+			<name>Debt</name>
 			<small>incompletenesses covered up by todo/fixme comments</small>
 		</pic>
 		<hr/>
 		<pic wide>
 			<name>ConfusingEntry</name>
-			<small>TODO multiple tops, no top <br/> top is referenced from other places</small>
+			<small>With [smell]StartInTheMiddle[/smell] we have already addressed positioning of the starting symbol of the grammar, but there can be three more problems with it. First, some grammars do not have any root symbol specified at all. There are heuristics that work well on otherwise perfect grammars, and assign the root to be the only top nonterminal (defined but not referenced). Second, there can be multiple roots, especially for notations that do not deal with classic formal grammars. This can indicate several independent grammars that got merged into one, or just several entry points into the grammar (which would allow, for example, to parse statements or expressions out of context – it is a not quite challenging exercise in theory, but extremely useful in practical grammarware engineering when integrating software languages with an IDE and a debugger). The third issue arises when the root symbol is properly marked as such, but is also referenced from other nonterminals in the grammar (so the starting symbol is not a top nonterminal). <br/> The exact harmfulness of this smell heavily depends on the grammar handling framework.</small>
 		</pic>
 		<hr/>
 		<div class="last">

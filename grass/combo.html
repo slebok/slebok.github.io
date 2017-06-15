@@ -33,13 +33,13 @@
 		<div><span class="dwarf dim pic"><a href="underuse.html">Underuse<br/><span class="s">inferior substitutes are used instead of an available feature</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="overspec.html">Overspec<br/><span class="s">the same constraint specified through several means</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="priorities.html">Priorities<br/><span class="s">not present or circular</span></a></span></div>
-		<div><span class="dwarf pic"><a href="combo.html">Combo<br/><span class="s">double modifier creates an ambiguity</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="singleton.html">Singleton<br/><span class="s">trivial choice, sequence or conjunction</span></a></span></div>
+		<div><span class="dwarf pic"><a href="combo.html">Combo<br/><span class="s">double modifier creates an ambiguity</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="chant.html">Chant<br/><span class="s">comments cover up bad code</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="deprecated.html">Deprecated<br/><span class="s">the use of a feature that is no longer welcome</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="exotic.html">Exotic<br/><span class="s">too idiosyncratic notational features decrease portability</span></a></span></div>
 		<hr/>
-		<div><span class="wide pic">Combo<br/><p class="s">Related smells: <a href="http://tusharma.in/smells/EUCF.html">Useless Control Flow</a><br/>TODO double regular (star of a star), massageable</p></span></div>
+		<div><span class="wide pic">Combo<br/><p class="s">Related smells: <a href="http://tusharma.in/smells/EUCF.html">Useless Control Flow</a><br/>Grammar combinators (metasymbols of arity 1 and up) such as the Kleene star and cross, or an optional, can be combined in an improper way. For example, a grammar engineer who defines <code>A ::= B?;</code> and <code>B ::= C?;</code>, may mean well, but creates a confusing contract if <code>A</code> is used to bind a textual structure with a tree structure: it is ambiguous what an empty string corresponds to – an empty node <code>A</code> or a node <code>A</code> containing an empty node <code>B</code>. Some of these issues may be harder to detect due to indirection, but they are all automatically fixable.</p></span></div>
 		<hr/>
 		<div class="last">
 			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.

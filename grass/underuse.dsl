@@ -59,14 +59,14 @@
 			<small>not present or circular</small>
 		</pic>
 		<pic dwarf dim>
-			<a>combo.html</a>
-			<name>Combo</name>
-			<small>double modifier creates an ambiguity</small>
-		</pic>
-		<pic dwarf dim>
 			<a>singleton.html</a>
 			<name>Singleton</name>
 			<small>trivial choice, sequence or conjunction</small>
+		</pic>
+		<pic dwarf dim>
+			<a>combo.html</a>
+			<name>Combo</name>
+			<small>double modifier creates an ambiguity</small>
 		</pic>
 		<pic dwarf dim>
 			<a>chant.html</a>
@@ -86,7 +86,7 @@
 		<hr/>
 		<pic wide>
 			<name>Underuse</name>
-			<small>TODO recursion instead of repetition (yacc) <br/> emulating constructs instead of using them explicitly (separator lists) <br/> imperfect albeit working constructs (examples!) <br/> layered grammars <br/> recursion instead of optional</small>
+			<small>The original BNF used for early ALGOL versions, did not yet borrow Kleene star and Kleene cross from the regular expressions, and early parser specification notations were just as limited. Grammars written with those notations in mind (not necessarily for using them!), suffer from so-called “yaccification” <a href="http://bibtex.github.io/FME-2001-Lammel.html">[FME-2001-Lammel]</a><a href="http://bibtex.github.io/ICSM-2001-JongeM.html">[ICSM-2001-JongeM]</a>, when all repetitions are written out explicitly as additional left-recursive nonterminals. This pattern is well-known to be harmful since it reduces grammar's both readability (yaccification is basically an encoding move, not a modelling one) and portability (a left-recursive grammar is often useless or suboptimal for top-down parsing). <br/> There can be other similar patterns falling under the same smell description: for instance, separator lists are concisely and efficiently handled by many grammar notations, and if one of those is used, should not be written out with group repetition or recursion. <br/> <br/> <br/></small>
 		</pic>
 		<hr/>
 		<div class="last">

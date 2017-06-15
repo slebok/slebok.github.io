@@ -54,13 +54,13 @@
 			<small>nonterminal defined, but not referenced</small>
 		</pic>
 		<pic dwarf>
-			<a>bottoms.html</a>
-			<name>Bottoms</name>
+			<a>bottom.html</a>
+			<name>Bottom</name>
 			<small>nonterminal referenced, but not defined</small>
 		</pic>
 		<pic dwarf>
-			<a>todo.html</a>
-			<name>ToDo</name>
+			<a>debt.html</a>
+			<name>Debt</name>
 			<small>incompletenesses covered up by todo/fixme comments</small>
 		</pic>
 		<hr/>

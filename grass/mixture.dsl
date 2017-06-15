@@ -39,8 +39,8 @@
 		</pic>
 		<hr/>
 		<pic dwarf>
-			<a>layout.html</a>
-			<name>Layout</name>
+			<a>badlayout.html</a>
+			<name>BadLayout</name>
 			<small>problems with whitespace and comments</small>
 		</pic>
 		<pic dwarf>

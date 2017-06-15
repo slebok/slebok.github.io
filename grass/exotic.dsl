@@ -59,14 +59,14 @@
 			<small>not present or circular</small>
 		</pic>
 		<pic dwarf dim>
-			<a>combo.html</a>
-			<name>Combo</name>
-			<small>double modifier creates an ambiguity</small>
-		</pic>
-		<pic dwarf dim>
 			<a>singleton.html</a>
 			<name>Singleton</name>
 			<small>trivial choice, sequence or conjunction</small>
+		</pic>
+		<pic dwarf dim>
+			<a>combo.html</a>
+			<name>Combo</name>
+			<small>double modifier creates an ambiguity</small>
 		</pic>
 		<pic dwarf dim>
 			<a>chant.html</a>
@@ -86,7 +86,7 @@
 		<hr/>
 		<pic wide>
 			<name>Exotic</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/VLI.html">Vendor Lock−In</a>, <a href="http://tusharma.in/smells/GH.html">Golden Hammer</a><br/>TODO: also people too attached to their tools or the ways their tools do it</small>
+			<small>Related smells: <a href="http://tusharma.in/smells/VLI.html">Vendor Lock−In</a>, <a href="http://tusharma.in/smells/GH.html">Golden Hammer</a><br/>This smell is in contradiction with [smell]Underuse[/smell], and states that using notational features that are uncommon, obscure or overly exotic, should be limited. Excessive use of features idiosyncratic for one particular notation, will result in a vendor lock-in. For example, if a notation allows context handling (pushing the grammar outside the comfort zone of CFGs), using it is only fully justified when the result is too cumbersome otherwise.</small>
 		</pic>
 		<hr/>
 		<div class="last">

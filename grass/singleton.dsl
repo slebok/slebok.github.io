@@ -58,15 +58,15 @@
 			<name>Priorities</name>
 			<small>not present or circular</small>
 		</pic>
-		<pic dwarf dim>
-			<a>combo.html</a>
-			<name>Combo</name>
-			<small>double modifier creates an ambiguity</small>
-		</pic>
 		<pic dwarf>
 			<a>singleton.html</a>
 			<name>Singleton</name>
 			<small>trivial choice, sequence or conjunction</small>
+		</pic>
+		<pic dwarf dim>
+			<a>combo.html</a>
+			<name>Combo</name>
+			<small>double modifier creates an ambiguity</small>
 		</pic>
 		<pic dwarf dim>
 			<a>chant.html</a>
@@ -86,7 +86,7 @@
 		<hr/>
 		<pic wide>
 			<name>Singleton</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/IC.html">Incomplete Conditional</a><br/>TODO other things with improper use of notation; malformed (singular) groups, disjunctions, conjunctions</small>
+			<small>Related smells: <a href="http://tusharma.in/smells/IC.html">Incomplete Conditional</a><br/>The designers of grammar notations, as all DSL designers, try to make them fit the domain, but never achieve absolute perfection. In particular, multiary symbols with arity of 2 and up, are commonly expressed in such a way that allows their use on an empty or trivial list of arguments. Single-element sequences, disjunctions and conjunctions like this are easy to detect and remove by algebraic rewriting.</small>
 		</pic>
 		<hr/>
 		<div class="last">

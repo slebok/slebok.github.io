@@ -76,7 +76,7 @@
 		<hr/>
 		<pic wide>
 			<name>Permuted</name>
-			<small>TODO duplication: if the choice is ordered, it is confusing to the engineer, if not, it is a clone/common</small>
+			<small>Clones modulo permutations (e.g., <code>A | B</code> vs <code>B | A</code>) are confusing: if the choice used in the notation is commutative, they are just [smell]Clone[/smell]s, otherwise if the choice is ordered, having both <code>A / B</code> and <code>B / A</code> within the same grammar is even more confusing for everyone.</small>
 		</pic>
 		<hr/>
 		<div class="last">

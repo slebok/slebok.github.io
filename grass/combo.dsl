@@ -58,15 +58,15 @@
 			<name>Priorities</name>
 			<small>not present or circular</small>
 		</pic>
-		<pic dwarf>
-			<a>combo.html</a>
-			<name>Combo</name>
-			<small>double modifier creates an ambiguity</small>
-		</pic>
 		<pic dwarf dim>
 			<a>singleton.html</a>
 			<name>Singleton</name>
 			<small>trivial choice, sequence or conjunction</small>
+		</pic>
+		<pic dwarf>
+			<a>combo.html</a>
+			<name>Combo</name>
+			<small>double modifier creates an ambiguity</small>
 		</pic>
 		<pic dwarf dim>
 			<a>chant.html</a>
@@ -86,7 +86,7 @@
 		<hr/>
 		<pic wide>
 			<name>Combo</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/EUCF.html">Useless Control Flow</a><br/>TODO double regular (star of a star), massageable</small>
+			<small>Related smells: <a href="http://tusharma.in/smells/EUCF.html">Useless Control Flow</a><br/>Grammar combinators (metasymbols of arity 1 and up) such as the Kleene star and cross, or an optional, can be combined in an improper way. For example, a grammar engineer who defines <code>A ::= B?;</code> and <code>B ::= C?;</code>, may mean well, but creates a confusing contract if <code>A</code> is used to bind a textual structure with a tree structure: it is ambiguous what an empty string corresponds to – an empty node <code>A</code> or a node <code>A</code> containing an empty node <code>B</code>. Some of these issues may be harder to detect due to indirection, but they are all automatically fixable.</small>
 		</pic>
 		<hr/>
 		<div class="last">

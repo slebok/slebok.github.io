@@ -59,14 +59,14 @@
 			<small>not present or circular</small>
 		</pic>
 		<pic dwarf dim>
-			<a>combo.html</a>
-			<name>Combo</name>
-			<small>double modifier creates an ambiguity</small>
-		</pic>
-		<pic dwarf dim>
 			<a>singleton.html</a>
 			<name>Singleton</name>
 			<small>trivial choice, sequence or conjunction</small>
+		</pic>
+		<pic dwarf dim>
+			<a>combo.html</a>
+			<name>Combo</name>
+			<small>double modifier creates an ambiguity</small>
 		</pic>
 		<pic dwarf dim>
 			<a>chant.html</a>
@@ -86,7 +86,7 @@
 		<hr/>
 		<pic wide>
 			<name>Overspec</name>
-			<small>TODO overfiltering by putting overly detailed follow restrictions</small>
+			<small>In many notations, there are various ways to achieve the same effect, and information in those should not be duplicated or contradictory, since it only confuses grammar engineers and leads to grammars with very subtle bugs. The simplest example of Overspec is something like <code>!"a" & ("b" | "c")</code>, where the choice between <code>"b"</code> and <code>"c"</code> is preceded by a negative conjunctive clause saying that they at the same must not be <code>"a"</code>. Naturally, this cannot happen in either case, so the clause is either disposable or erroneous.</small>
 		</pic>
 		<hr/>
 		<div class="last">

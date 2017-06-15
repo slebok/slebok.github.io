@@ -59,14 +59,14 @@
 			<small>a subexpression that should have been a nonterminal</small>
 		</pic>
 		<pic dwarf dim>
-			<a>multiexpert.html</a>
-			<name>Multiexpert</name>
+			<a>multitool.html</a>
+			<name>Multitool</name>
 			<small>a nonterminal that represents two or more concepts</small>
 		</pic>
 		<hr/>
 		<pic wide>
 			<name>Ghost</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/ME.html">Missing Encapsulation</a><br/>???</small>
+			<small>Related smells: <a href="http://tusharma.in/smells/ME.html">Missing Encapsulation</a><br/>If an expression, especially a [smell]Common[/smell] subexpression, could have formed a proper abstraction, but is not made into a separate nonterminal, we speak of it as a Ghost.</small>
 		</pic>
 		<hr/>
 		<div class="last">

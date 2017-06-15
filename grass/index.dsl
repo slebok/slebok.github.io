@@ -4,7 +4,7 @@
 	<head viewport title="GraSs: A Taxonomy of Grammar Smells">
 	<body>
 		<header/>
-		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells (57 smells total)</h1>
+		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells (56 smells total)</h1>
 		<hr/>
 		<pic dwarf>
 			<a>organisation.html</a>
