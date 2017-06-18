@@ -64,8 +64,8 @@
 			<small>the height (distance from the root) is too big</small>
 		</pic>
 		<pic dwarf dim>
-			<a>toolonely.html</a>
-			<name>TooLonely</name>
+			<a>lonely.html</a>
+			<name>Lonely</name>
 			<small>large non-modular grammar</small>
 		</pic>
 		<pic dwarf dim>
@@ -91,7 +91,7 @@
 		<hr/>
 		<pic wide>
 			<name>Greedy</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/IM.html">Insufficient Modularization</a>, <a href="http://tusharma.in/smells/TLP.html">Too Large Packages/Subsystems</a>, <a href="http://tusharma.in/smells/LC.html">Large Class</a>, <a href="http://tusharma.in/smells/BL.html">The Blob</a><br/>???</small>
+			<small>Related smells: <a href="http://tusharma.in/smells/IM.html">Insufficient Modularization</a>, <a href="http://tusharma.in/smells/TLP.html">Too Large Packages/Subsystems</a>, <a href="http://tusharma.in/smells/LC.html">Large Class</a>, <a href="http://tusharma.in/smells/BL.html">The Blob</a><br/>Similarly to [smell]TooLonely[/smell] but not quite identical to it, there is a scenario when a grammar is modularised, but still insufficiently: in particular, if there is one module that is much greedier than the rest and does too much compared to any other module. In realistic grammars this smell is quite common, and the culture of proper modularisation with close to uniform distribution of responsibilities among modules, has not yet developed. The harmfulness of this smell has also never been shown, and also not been investigated properly (to the best of our knowledge).</small>
 		</pic>
 		<hr/>
 		<div class="last">

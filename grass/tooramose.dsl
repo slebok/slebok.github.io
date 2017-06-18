@@ -64,8 +64,8 @@
 			<small>the height (distance from the root) is too big</small>
 		</pic>
 		<pic dwarf dim>
-			<a>toolonely.html</a>
-			<name>TooLonely</name>
+			<a>lonely.html</a>
+			<name>Lonely</name>
 			<small>large non-modular grammar</small>
 		</pic>
 		<pic dwarf dim>
@@ -91,7 +91,7 @@
 		<hr/>
 		<pic wide>
 			<name>TooRamose</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/WH.html">Wide Hierarchy</a>, <a href="http://tusharma.in/smells/DCT.html">Clone Tables</a>, <a href="http://tusharma.in/smells/SCC.html">Conditional Complexity</a>, <a href="http://tusharma.in/smells/BM.html">Broken Modularization</a><br/>TODO: conjunction, disjunction, relate to CC; TODO: WH suggests intermediate "types" but DCT/BM consider those a smell; cyclomatic complexity extended to conjunction, high value is bad because these are all branches the parser will have to explore</small>
+			<small>Related smells: <a href="http://tusharma.in/smells/WH.html">Wide Hierarchy</a>, <a href="http://tusharma.in/smells/DCT.html">Clone Tables</a>, <a href="http://tusharma.in/smells/SCC.html">Conditional Complexity</a>, <a href="http://tusharma.in/smells/BM.html">Broken Modularization</a><br/>McCabe's cyclomatic complexity has received a lot of critique over the years, but nevertheless is present in many code analysis tools either directly or conceptually through improvements like cognitive complexity <a href="http://bibtex.github.io/IWPC-2003-RillingK.html">[IWPC-2003-RillingK]</a> or control flow patterns <a href="http://bibtex.github.io/SCAM-2012-VinjuG.html">[SCAM-2012-VinjuG]</a>. In grammars cyclomatic complexity is easy to estimate if we think of the parsing semantics, and it will be rather close for any other concrete application of the grammar. Alternatives and all kinds of disjunction obviously contribute to its increase, as well as repetition metasymbols. Conjunction, if present, also contributes to the branching since a construct like <code>A & B</code> means that both the parser and the grammar engineer will have to explore both branches related to <code>A</code> as well as to <code>B</code>. <br/> It is interesting to consider how this smell can be eliminated: a similar “Wide Hierarchy” code smell suggests to introduce intermediate hubs for groups of nonterminals, but others blame such a solution from other points of view because there is a chance of those nonterminals to be [smell]Weak[/smell].</small>
 		</pic>
 		<hr/>
 		<div class="last">

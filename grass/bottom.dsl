@@ -66,7 +66,7 @@
 		<hr/>
 		<pic wide>
 			<name>Bottom</name>
-			<small><br/> The lack of definition for nonterminals that are used within the grammar, is an obvious mistake that must be reported one way or another, and also possibly as a smell. There are three main reasons for nonterminals left undefined: (1) they were forgotten by the grammar engineer; (2) they are defined in a different module; (3) they are defined on a separate conceptual layer. For scenario (1), we cannot do anything to fix the problem automatically (beyond attempting to apply heuristics).</small>
+			<small><br/> The lack of definition for nonterminals that are used within the grammar, is an obvious mistake that must be reported one way or another, and also possibly as a smell. There are three main reasons for undefined nonterminals: (1) they were forgotten by the grammar engineer; (2) they are defined in a different module; (3) they are defined on a separate conceptual layer. For scenario (1), we cannot do anything to fix the problem automatically (beyond attempting heuristics).</small>
 		</pic>
 		<hr/>
 		<div class="last">

@@ -64,8 +64,8 @@
 			<small>the height (distance from the root) is too big</small>
 		</pic>
 		<pic dwarf dim>
-			<a>toolonely.html</a>
-			<name>TooLonely</name>
+			<a>lonely.html</a>
+			<name>Lonely</name>
 			<small>large non-modular grammar</small>
 		</pic>
 		<pic dwarf dim>
@@ -91,7 +91,7 @@
 		<hr/>
 		<pic wide>
 			<name>Lazy</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/LC2.html">Lazy Class</a><br/>???</small>
+			<small>Related smells: <a href="http://tusharma.in/smells/LC2.html">Lazy Class</a><br/>The opposite of [smell]Greedy[/smell], a Lazy module is the one that does not do much: it is empty or contains just one nonterminal.</small>
 		</pic>
 		<hr/>
 		<div class="last">

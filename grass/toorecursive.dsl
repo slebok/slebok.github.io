@@ -64,8 +64,8 @@
 			<small>the height (distance from the root) is too big</small>
 		</pic>
 		<pic dwarf dim>
-			<a>toolonely.html</a>
-			<name>TooLonely</name>
+			<a>lonely.html</a>
+			<name>Lonely</name>
 			<small>large non-modular grammar</small>
 		</pic>
 		<pic dwarf dim>
@@ -91,7 +91,7 @@
 		<hr/>
 		<pic wide>
 			<name>TooRecursive</name>
-			<small>TODO directly recursive and mutual recursive nonterminals</small>
+			<small>We have talked about [smell]1SidedRecursion[/smell] before but other kinds of recursion can also be confusing if recursion and mutual recursion is too prevalent.</small>
 		</pic>
 		<hr/>
 		<div class="last">

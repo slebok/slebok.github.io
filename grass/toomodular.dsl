@@ -64,8 +64,8 @@
 			<small>the height (distance from the root) is too big</small>
 		</pic>
 		<pic dwarf dim>
-			<a>toolonely.html</a>
-			<name>TooLonely</name>
+			<a>lonely.html</a>
+			<name>Lonely</name>
 			<small>large non-modular grammar</small>
 		</pic>
 		<pic dwarf>
@@ -91,7 +91,7 @@
 		<hr/>
 		<pic wide>
 			<name>TooModular</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/TMS.html">Too Many Subsystems</a>, <a href="http://tusharma.in/smells/TSP.html">Too Small Packages/Subsystems</a><br/>???</small>
+			<small>Related smells: <a href="http://tusharma.in/smells/TMS.html">Too Many Subsystems</a>, <a href="http://tusharma.in/smells/TSP.html">Too Small Packages/Subsystems</a><br/>On the other side of the spectrum from [smell]TooLonely[/smell], a grammar can be too modular and split into so many modules that each of them is meaninglessly tiny, yet their combination is unbearably unintelligible.</small>
 		</pic>
 		<hr/>
 		<div class="last">

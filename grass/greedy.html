@@ -34,13 +34,13 @@
 		<div><span class="dwarf dim pic"><a href="toorecursive.html">TooRecursive<br/><span class="s">too much recursion</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="toonested.html">TooNested<br/><span class="s">groups are too deeply nested</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="tootall.html">TooTall<br/><span class="s">the height (distance from the root) is too big</span></a></span></div>
-		<div><span class="dwarf dim pic"><a href="toolonely.html">TooLonely<br/><span class="s">large non-modular grammar</span></a></span></div>
+		<div><span class="dwarf dim pic"><a href="lonely.html">Lonely<br/><span class="s">large non-modular grammar</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="toomodular.html">TooModular<br/><span class="s">too many modules</span></a></span></div>
 		<div><span class="dwarf pic"><a href="greedy.html">Greedy<br/><span class="s">one module that does too much</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="lazy.html">Lazy<br/><span class="s">one module that does not do much</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="toocoupled.html">TooCoupled<br/><span class="s">low cohesion and/or high coupling</span></a></span></div>
 		<hr/>
-		<div><span class="wide pic">Greedy<br/><p class="s">Related smells: <a href="http://tusharma.in/smells/IM.html">Insufficient Modularization</a>, <a href="http://tusharma.in/smells/TLP.html">Too Large Packages/Subsystems</a>, <a href="http://tusharma.in/smells/LC.html">Large Class</a>, <a href="http://tusharma.in/smells/BL.html">The Blob</a><br/>???</p></span></div>
+		<div><span class="wide pic">Greedy<br/><p class="s">Related smells: <a href="http://tusharma.in/smells/IM.html">Insufficient Modularization</a>, <a href="http://tusharma.in/smells/TLP.html">Too Large Packages/Subsystems</a>, <a href="http://tusharma.in/smells/LC.html">Large Class</a>, <a href="http://tusharma.in/smells/BL.html">The Blob</a><br/>Similarly to [smell]TooLonely[/smell] but not quite identical to it, there is a scenario when a grammar is modularised, but still insufficiently: in particular, if there is one module that is much greedier than the rest and does too much compared to any other module. In realistic grammars this smell is quite common, and the culture of proper modularisation with close to uniform distribution of responsibilities among modules, has not yet developed. The harmfulness of this smell has also never been shown, and also not been investigated properly (to the best of our knowledge).</p></span></div>
 		<hr/>
 		<div class="last">
 			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.

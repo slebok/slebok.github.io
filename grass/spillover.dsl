@@ -71,7 +71,7 @@
 		<hr/>
 		<pic wide>
 			<name>Spillover</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/UINT.html">Unstable Interface</a>, <a href="http://tusharma.in/smells/ILC.html">Incomplete Library Class</a><br/>???</small>
+			<small>Related smells: <a href="http://tusharma.in/smells/UINT.html">Unstable Interface</a>, <a href="http://tusharma.in/smells/ILC.html">Incomplete Library Class</a><br/>Spillover happens when some symbols that should have been a part of the nonterminal definition, are not included in its right hand side, and appended every time to its use. This creates a co-change relationship between the nonterminal and the context of its use. If every time a definition of a nonterminal is changed in a particular way, all occurrences of the same nonterminal needs to be updated, this smell is detected.</small>
 		</pic>
 		<hr/>
 		<div class="last">

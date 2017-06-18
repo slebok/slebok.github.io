@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <path css="../www" img="../www"/>
 <html doctype>
-	<head viewport title="TooLonely in the GraSs">
+	<head viewport title="Lonely in the GraSs">
 	<body>
 		<header/>
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
@@ -64,8 +64,8 @@
 			<small>the height (distance from the root) is too big</small>
 		</pic>
 		<pic dwarf>
-			<a>toolonely.html</a>
-			<name>TooLonely</name>
+			<a>lonely.html</a>
+			<name>Lonely</name>
 			<small>large non-modular grammar</small>
 		</pic>
 		<pic dwarf dim>
@@ -90,8 +90,8 @@
 		</pic>
 		<hr/>
 		<pic wide>
-			<name>TooLonely</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/NS.html">No Subsystems</a>, <a href="http://tusharma.in/smells/IM.html">Insufficient Modularization</a>, <a href="http://tusharma.in/smells/CIM.html">Insufficient Modularization</a><br/>???</small>
+			<name>Lonely</name>
+			<small>Related smells: <a href="http://tusharma.in/smells/NS.html">No Subsystems</a>, <a href="http://tusharma.in/smells/IM.html">Insufficient Modularization</a>, <a href="http://tusharma.in/smells/CIM.html">Insufficient Modularization</a><br/>A variant of the well-known Insufficient Modularisation smell, ported to grammars: if the size of a grammar is much larger than expected, the time has come to split it up in modules. Old-fashioned notations did not have any explicit modularisation capabilities and treated a collection of production rules as a set, but modern language workbenches have advanced frameworks with namespaces, dependence management, etc <a href="http://bibtex.github.io/SLE-2013-ErdwegSVBBCGHKLKMPPSSSVVVWW.html">[SLE-2013-ErdwegSVBBCGHKLKMPPSSSVVVWW]</a> <a href="http://bibtex.github.io/BastenB0KLLPSV15.html">[BastenB0KLLPSV15]</a>.</small>
 		</pic>
 		<hr/>
 		<div class="last">

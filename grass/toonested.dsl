@@ -64,8 +64,8 @@
 			<small>the height (distance from the root) is too big</small>
 		</pic>
 		<pic dwarf dim>
-			<a>toolonely.html</a>
-			<name>TooLonely</name>
+			<a>lonely.html</a>
+			<name>Lonely</name>
 			<small>large non-modular grammar</small>
 		</pic>
 		<pic dwarf dim>
@@ -91,7 +91,7 @@
 		<hr/>
 		<pic wide>
 			<name>TooNested</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/AFC.html">Feature Concentration</a><br/>TODO of groups/sequences</small>
+			<small>Related smells: <a href="http://tusharma.in/smells/AFC.html">Feature Concentration</a><br/>Subsequences (often called <em>groups</em>) may be used to avoid [smell]Misformat[/smell], but really hamper the understanding of the system if used excessively. This smell often correlates with production rules being [smell]TooRamose[/smell].</small>
 		</pic>
 		<hr/>
 		<div class="last">

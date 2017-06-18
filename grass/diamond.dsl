@@ -71,7 +71,7 @@
 		<hr/>
 		<pic wide>
 			<name>Diamond</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/AAI.html">Ambiguous Interfaces</a><br/>???</small>
+			<small>Related smells: <a href="http://tusharma.in/smells/AAI.html">Ambiguous Interfaces</a><br/>A well-known pattern in dependency and inclusion is then a class A inherits from class X and class B also inherits from class X, but class C inherits from both A and B and thus gets to see double of each of X's elements. The problem is solved differently in different programming and modelling languages – in grammars, it causes an ambiguity(ISO/IEC 23270:2003(E), <em><a href="http://slebok.github.io/zoo/#csharp_v1.x_iso-23270-2003_extracted">Information technology — Programming languages — C Sharp</a></em>, extracted): <br/> <br/><code>reference-type&nbsp;::=&nbsp;class-type&nbsp;|&nbsp;interface-type<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;delegate-type&nbsp;|&nbsp;...&nbsp;;<br/>class-type&nbsp;::=&nbsp;type-name&nbsp;|&nbsp;"object"&nbsp;|&nbsp;"string";<br/>interface-type&nbsp;::=&nbsp;type-name&nbsp;;<br/>delegate-type&nbsp;::=&nbsp;type-name&nbsp;;<br/></code> <br/> Parsing something recognisable as <code>type-name</code> will cause at least a triple ambiguity since it will be an acceptable <code>class-type</code>, <code>interface-type</code> as well as <code>delegate-type</code> <a href="http://bibtex.github.io/Too-Sharp2005.html">[Too-Sharp2005]</a>.</small>
 		</pic>
 		<hr/>
 		<div class="last">

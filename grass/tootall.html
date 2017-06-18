@@ -34,13 +34,13 @@
 		<div><span class="dwarf dim pic"><a href="toorecursive.html">TooRecursive<br/><span class="s">too much recursion</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="toonested.html">TooNested<br/><span class="s">groups are too deeply nested</span></a></span></div>
 		<div><span class="dwarf pic"><a href="tootall.html">TooTall<br/><span class="s">the height (distance from the root) is too big</span></a></span></div>
-		<div><span class="dwarf dim pic"><a href="toolonely.html">TooLonely<br/><span class="s">large non-modular grammar</span></a></span></div>
+		<div><span class="dwarf dim pic"><a href="lonely.html">Lonely<br/><span class="s">large non-modular grammar</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="toomodular.html">TooModular<br/><span class="s">too many modules</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="greedy.html">Greedy<br/><span class="s">one module that does too much</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="lazy.html">Lazy<br/><span class="s">one module that does not do much</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="toocoupled.html">TooCoupled<br/><span class="s">low cohesion and/or high coupling</span></a></span></div>
 		<hr/>
-		<div><span class="wide pic">TooTall<br/><p class="s">Related smells: <a href="http://tusharma.in/smells/DH.html">Deep Hierarchy</a>, <a href="http://tusharma.in/smells/TDIH.html">Too Deep Inheritance Hierarchy</a><br/>???</p></span></div>
+		<div><span class="wide pic">TooTall<br/><p class="s">Related smells: <a href="http://tusharma.in/smells/DH.html">Deep Hierarchy</a>, <a href="http://tusharma.in/smells/TDIH.html">Too Deep Inheritance Hierarchy</a><br/>For each nonterminal we can calculate its minimal distance from the starting symbol, as the minimal number of productions in a full derivation that contains it. The maximum of all these distances for all nonterminals, is what is referred to as the height of the grammar. Out of two grammars of comparable size with respect to number of terminals, nonterminals and production rules, a taller grammar will be more complex to understand – thus, it is advisable to refactor a grammar that has grown too tall.</p></span></div>
 		<hr/>
 		<div class="last">
 			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.

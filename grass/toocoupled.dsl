@@ -64,8 +64,8 @@
 			<small>the height (distance from the root) is too big</small>
 		</pic>
 		<pic dwarf dim>
-			<a>toolonely.html</a>
-			<name>TooLonely</name>
+			<a>lonely.html</a>
+			<name>Lonely</name>
 			<small>large non-modular grammar</small>
 		</pic>
 		<pic dwarf dim>
@@ -91,7 +91,7 @@
 		<hr/>
 		<pic wide>
 			<name>TooCoupled</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/CWM.html">Weakened Modularity</a><br/>???</small>
+			<small>Related smells: <a href="http://tusharma.in/smells/CWM.html">Weakened Modularity</a><br/>Modularity can not only be broken or insufficient, it can also be weakened. A grammar split into several modules that have high coupling among them and low cohesion inside each of them, had better stayed as [smell]Lonely[/smell].</small>
 		</pic>
 		<hr/>
 		<div class="last">

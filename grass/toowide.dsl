@@ -64,8 +64,8 @@
 			<small>the height (distance from the root) is too big</small>
 		</pic>
 		<pic dwarf dim>
-			<a>toolonely.html</a>
-			<name>TooLonely</name>
+			<a>lonely.html</a>
+			<name>Lonely</name>
 			<small>large non-modular grammar</small>
 		</pic>
 		<pic dwarf dim>
@@ -91,7 +91,7 @@
 		<hr/>
 		<pic wide>
 			<name>TooWide</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/SATL.html">Subsystem-API Too Large</a>, <a href="http://tusharma.in/smells/LM.html">Long Method</a>, <a href="http://tusharma.in/smells/LPL.html">Long Parameter List</a>, <a href="http://tusharma.in/smells/CE.html">Complex Expression</a>, <a href="http://tusharma.in/smells/LS.html">Long Statement</a>, <a href="http://tusharma.in/smells/SMO.html">Multiple Operations</a>, <a href="http://tusharma.in/smells/SMR.html">Multiple References</a><br/>Discuss variations (only terminals, only nonterminals, only metasymbols) <br/> e.g., high metasymbols-in-RHS is bad because it stresses the importance of knowing the notation <br/> high nonterminals-in-RHS is bad because is requires knowledge about referenced nonterminals to debug a grammar (not counting preterminals!) <br/> long streaks of consequent terminals obscure the syntactic structure</small>
+			<small>Related smells: <a href="http://tusharma.in/smells/SATL.html">Subsystem-API Too Large</a>, <a href="http://tusharma.in/smells/LM.html">Long Method</a>, <a href="http://tusharma.in/smells/LPL.html">Long Parameter List</a>, <a href="http://tusharma.in/smells/CE.html">Complex Expression</a>, <a href="http://tusharma.in/smells/LS.html">Long Statement</a>, <a href="http://tusharma.in/smells/SMO.html">Multiple Operations</a>, <a href="http://tusharma.in/smells/SMR.html">Multiple References</a><br/>This smell is designed to recognise production rules which are too wide – that is, their right hand side is too long. There could be at least three different ways to define what is “too long”: <br/> <ul> <li>The number of consequent terminals is too high, which is harmful because long streaks of consequent terminals obscure the syntactic structure.</li> <li>The number of nonterminals is too high, which is harmful because it requires knowledge about referenced nonterminals to debug a grammar (so we should not count preterminals).</li> <li>The number of metasymbols (stars, optionals, crosses, separator lists and other combinators) is too high, which is harmful because the importance of knowing the notation is stressed when a grammar engineer needs to understand such a production rule.</li> </ul> <br/> The last option also correlates to the omnipresent notion of cyclomatic complexity (covered by the [smell]TooRamose[/smell] smell), because many metasymbols imply branching that is done during parsing or analysing an instance.</small>
 		</pic>
 		<hr/>
 		<div class="last">

@@ -64,8 +64,8 @@
 			<small>the height (distance from the root) is too big</small>
 		</pic>
 		<pic dwarf dim>
-			<a>toolonely.html</a>
-			<name>TooLonely</name>
+			<a>lonely.html</a>
+			<name>Lonely</name>
 			<small>large non-modular grammar</small>
 		</pic>
 		<pic dwarf dim>
@@ -91,7 +91,7 @@
 		<hr/>
 		<pic wide>
 			<name>TooTall</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/DH.html">Deep Hierarchy</a>, <a href="http://tusharma.in/smells/TDIH.html">Too Deep Inheritance Hierarchy</a><br/>???</small>
+			<small>Related smells: <a href="http://tusharma.in/smells/DH.html">Deep Hierarchy</a>, <a href="http://tusharma.in/smells/TDIH.html">Too Deep Inheritance Hierarchy</a><br/>For each nonterminal we can calculate its minimal distance from the starting symbol, as the minimal number of productions in a full derivation that contains it. The maximum of all these distances for all nonterminals, is what is referred to as the height of the grammar. Out of two grammars of comparable size with respect to number of terminals, nonterminals and production rules, a taller grammar will be more complex to understand – thus, it is advisable to refactor a grammar that has grown too tall.</small>
 		</pic>
 		<hr/>
 		<div class="last">

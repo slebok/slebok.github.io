@@ -115,6 +115,8 @@ def tax2dsl(lines):
 		line = line.replace('[code]', '<code>').replace('[/code]', '</code>')
 		line = line.replace('[verb]', '<code>').replace('[/verb]', '</code>')
 		line = line.replace('[emph]', '<em>').replace('[/emph]', '</em>')
+		line = line.replace('[list]', '<ul>').replace('[/list]', '</ul>')
+		line = line.replace('[item]', '<li>').replace('[/item]', '</li>')
 		line = line.replace('---', ' – ').replace('``', '“').replace("''", '”')
 		res.append(line)
 		i += 1
@@ -185,9 +187,11 @@ def tax2tex(lines):
 		line = line.replace('[code]', '\\texttt{').replace('[/code]', '}')
 		line = line.replace('[verb]', '\\verb!').replace('[/verb]', '!')
 		line = line.replace('[emph]', '\\emph{').replace('[/emph]', '}')
+		line = line.replace('[list]', '\\begin{itemize}').replace('[/list]', '\\end{itemize}')
+		line = line.replace('[item]', '\\item ').replace('[/item]', '')
 		line = line.replace(' ~', '~').replace(' \\footnote', '\\footnote')
 		line = line.replace('}~\\cite{', ',')
-		line = line.replace('&', '\\&')
+		line = line.replace('&', '\\&').replace('%', '\\%')
 		res.append(line)
 	res2 = []
 	empty = False
