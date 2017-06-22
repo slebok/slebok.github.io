@@ -64,6 +64,8 @@ hr{clear: both;}
 .wb {word-break: break-all}
 .nb {color:#dd2c00}
 blockquote {font-style:italic}
+div.dixit::before {content: open-quote; font-size: 4em; }
+div.dixit::after  {content: close-quote; font-size: 4em; float: right;}
 .dim {opacity:0.3}
 ul.dim:hover {opacity:0.8; color: blue;}
 ul.dim {text-indent:0}
