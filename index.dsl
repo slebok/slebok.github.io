@@ -11,7 +11,7 @@
 			<img>dyol.200.png</img>
 			<title>Design Your Own Language</title>
 			<name>DYOL</name>
-			<text>a card set for designing a software language (2017–…)</text>
+			<text>a software language design toolkit (2017–…)</text>
 		</pic>
 		<pic>
 			<a>http://oopsle.github.io/</a>
