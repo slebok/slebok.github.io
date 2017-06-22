@@ -2,9 +2,10 @@
 # -*- coding: utf-8 -*-
 # pylint: disable=C0103,C0111
 
-import os
+import os, sys
 
 wdir = '../../acceptware/patterns/grass/'
+wdir = os.path.join('..', '..', 'grass')
 
 mapped = {\
 	'LDTA-2012-Zaytsev' : 'NPGR2012',
@@ -52,10 +53,10 @@ def makepic(link, name, text, dim):
 '''.format(link, name, text, ' dim' if dim else '')
 
 def makelastpic(name, text):
-	return '''		<pic wide>
+	return '''		
 			<name>{0}</name>
 			<small>{1}</small>
-		</pic>
+		
 '''.format(name, text)
 
 def makehr():
@@ -212,8 +213,133 @@ longdesc = {}
 related = {}
 latex = {}
 taxkeys = {}
+insides = {}
+taxkeys[''] = []
 
 cur1 = cur2 = cur3 = ''
+list1 = ['Organisation', 'Navigation', 'Structure']
+for n1 in os.listdir(wdir):
+	if os.path.isfile(os.path.join(wdir, n1)) or n1.startswith('.'):
+		continue
+	if n1 not in list1:
+		list1.append(n1)
+		print('\tWarning: 1 level {} included only implicitly!'.format(n1))
+for n1 in list1:
+	cur1 = n1.split('/')[-1]
+	f1 = os.path.join(wdir, n1)
+	readme1 = os.path.join(f1, 'README.tax')
+	if not os.path.isfile(readme1):
+		print('No readme at: ', cur1)
+		continue
+	print('Traverse ' + cur1)
+	f = open(readme1, 'r', encoding='utf-8')
+	lines = f.readlines()
+	a, b = mysplit(lines[0])
+	if a != cur1:
+		print('\tWarning: {} vs {} mismatch on level 1!'.format(cur1, a))
+	taxkeys[''].append(cur1)
+	taxkeys[cur1] = []
+	explanation[a] = b if b else '...'
+	taxonomy[cur1] = {}
+	insides[cur1] = []
+	for line in lines[1:]:
+		if not line.strip() or line.strip() == '*':
+			continue
+		# TODO change later?
+		insides[cur1].append(line.strip().split(' ')[-1])
+	f.close()
+	for n2 in os.listdir(f1):
+		if not os.path.isfile(os.path.join(f1, n2)) and n2 not in insides[cur1]:
+			insides[cur1].append(n2)
+			print('\tWarning: 2 level {} included only implicitly!')
+	for cur2 in insides[cur1]:
+		f2 = os.path.join(f1, cur2)
+		readme2 = os.path.join(f2, 'README.tax')
+		if not os.path.isfile(readme2):
+			print('No readme at: ', cur2)
+			continue
+		print('Traverse ' + cur1 + ' \\ ' + cur2)
+		if cur2 not in insides[cur1]:
+			insides[cur1].append(cur2)
+		insides[cur2] = []
+		f = open(readme2, 'r', encoding='utf-8')
+		lines = f.readlines()
+		a, b = mysplit(lines[0])
+		if a != cur2:
+			print('\tWarning: {} vs {} mismatch on level 2!'.format(cur2, a))
+		taxkeys[cur1].append(cur2)
+		taxkeys[cur2] = []
+		explanation[a] = b if b else '...'
+		taxonomy[cur1][cur2] = []
+		for line in lines[1:]:
+			if not line.strip() or line.strip() == '*':
+				continue
+			# TODO change later?
+			insides[cur2].append(line.strip().split(' ')[-1])
+		f.close()
+		for n3 in os.listdir(f2):
+			if not os.path.isfile(os.path.join(f2, n3)) or not cur3.endswith('.tax') or cur3 == 'README.tax':
+				continue
+			if n3 not in insides[cur2]:
+				insides[cur2].append(n3)
+				print('\tWarning: 3 level {} included only implicitly!'.format(n3))
+		for cur3 in insides[cur2]:
+			# n3 = os.path.join()TODODODODOD
+			f3 = os.path.join(f2, cur3 + '.tax')
+			# cur3 = n3.split('/')[-1][:-4]
+			print('Traverse ' + cur1 + ' \\ ' + cur2 + ' \\ ' + cur3)
+			if cur3 not in insides[cur2]:
+				insides[cur2].append(cur3)
+			f = open(f3, 'r', encoding='utf-8')
+			lines = f.readlines()
+			if len(lines) < 1:
+				print('Empty file!')
+			else:
+				# process the first line
+				a, b = mysplit(lines[0])
+				if a != cur3:
+					print('\tWarning: {} vs {} mismatch on level 3!'.format(cur3, a))
+				cur3 = a
+				taxkeys[cur2].append(cur3)
+				taxonomy[cur1][cur2].append(cur3)
+				longdesc[cur3] = ''
+				related[cur3] = []
+				explanation[a] = b if b else '...'
+				# process the rest of the lines
+				midlines = []
+				example = False
+				for line in lines[1:]:
+					if example:
+						midlines[-1] += line
+						if line.strip() == '[/example]':
+							example = False
+					else:
+						if line.startswith('Related: '):
+							related[cur3].append(line[9:].strip())
+						else:
+							if line.strip() == '[example]':
+								midlines.append(line)
+								example = True
+							else:
+								midlines.append(line.strip())
+				longdesc[cur3] = tax2dsl(midlines)
+				latex[cur3] = tax2tex(midlines)
+			f.close()
+		# write references back
+		f = open(readme2, 'w', encoding='utf-8')
+		f.write('{}: {}\n\n'.format(cur2, explanation[cur2]))
+		for line in insides[cur2]:
+			f.write('* {}\n'.format(line))
+		f.close()
+	# write references back
+	f = open(readme1, 'w', encoding='utf-8')
+	f.write('{}: {}\n\n'.format(cur1, explanation[cur1]))
+	for line in insides[cur1]:
+		f.write('* {}\n'.format(line))
+	f.close()
+comment = '''
+sys.exit(1)
+
 f = open(wdir + 'all.tax', 'r', encoding='utf-8')
 taxkeys[''] = []
 for line in f.readlines():
@@ -262,7 +388,7 @@ for line in f.readlines():
 		explanation[a] = b if b else '...'
 		taxonomy[cur1] = {}
 f.close()
-
+'''
 # keys = sorted(taxonomy.keys())
 
 # generate the index

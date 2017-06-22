@@ -2,13 +2,17 @@
 <path css="../../www" img="../../www"/>
 <html doctype>
 	<head viewport title="Dixit — Turing" />
-	<body>
+	<body style="background-color:#F6F6F6;">
 		<header/>
 		<h2><a href="/dixit">Dixit</a>: verified quotes by <a href="index.html">Turing</a> and other famous scientists.</h2>
 		<hr/>
 		<div class="dixit"><blockquote>
 			<p>How can one check a large routine in the sense of making sure that it's right?</p>
-			<p>In order that the man who checks may not have too difficult a task the programmer should make a number of definite assertions which can be checked individually, and from which the correctness of the whole program easily follows.</p>
+			<p>In order that the man who checks may not have too difficult a
+			task the programmer should make a number of definite
+			<strong>assertions</strong> which can be checked individually, and
+			from which the correctness of the whole program easily
+			follows.</p>			
 		</blockquote></div>
 		<hr/>
 		<h2>Source</h2>
