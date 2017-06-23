@@ -89,10 +89,8 @@
 			<small>low cohesion and/or high coupling</small>
 		</pic>
 		<hr/>
-		<pic wide>
-			<name>TooRecursive</name>
-			<small>We have talked about [smell]1SidedRecursion[/smell] before but other kinds of recursion can also be confusing if recursion and mutual recursion is too prevalent.</small>
-		</pic>
+			<h2>TooRecursive <span class="edit"><a href="https://github.com/slebok/grass/edit/master/Structure/Complexity/TooRecursive.tax">Edit!</a></span></h2>
+			<p></p><p> We have talked about <a href="1sidedrecursion.html">1SidedRecursion</a> before but other kinds of recursion can also be confusing if recursion and mutual recursion is too prevalent.</p>
 		<hr/>
 		<div class="last">
 			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.

@@ -74,10 +74,8 @@
 			<small>a code smell in a semantic action</small>
 		</pic>
 		<hr/>
-		<pic wide>
-			<name>Superset</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/OG.html">Overgeneralization</a><br/>Some grammars represent a superset of the intended language. This may become a problem if the parser based on the grammar is to be used as a correctness oracle, since in this role it is inadequate. Overly relaxed grammars are routinely used in other scenarios such as software analytics and inter-language translation, and can be very useful there.</small>
-		</pic>
+			<h2>Superset <span class="edit"><a href="https://github.com/slebok/grass/edit/master/Organisation/Parsing/Superset.tax">Edit!</a></span></h2>
+			<p>Related smells: <a href="http://tusharma.in/smells/OG.html">Overgeneralization</a><br/></p><p> Some grammars represent a superset of the intended language. This may become a problem if the parser based on the grammar is to be used as a correctness oracle, since in this role it is inadequate. Overly relaxed grammars are routinely used in other scenarios such as software analytics and inter-language translation, and can be very useful there. </p><p></p>
 		<hr/>
 		<div class="last">
 			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.

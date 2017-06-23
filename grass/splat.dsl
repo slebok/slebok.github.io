@@ -69,10 +69,8 @@
 			<small>nonterminal fragments scattered over the grammar</small>
 		</pic>
 		<hr/>
-		<pic wide>
-			<name>Splat</name>
-			<small>Since definitions of vertical nonterminals (see [smell]ZigZag[/smell]) consist of several production rules, these rules can be distributed over the grammar and not focused in one place. This may be bad, especially if most of the rules are collected together, and only one or two are elsewhere.</small>
-		</pic>
+			<h2>Splat <span class="edit"><a href="https://github.com/slebok/grass/edit/master/Organisation/Convention/Splat.tax">Edit!</a></span></h2>
+			<p></p><p> Since definitions of vertical nonterminals (see <a href="zigzag.html">ZigZag</a>) consist of several production rules, these rules can be distributed over the grammar and not focused in one place. This may be bad, especially if most of the rules are collected together, and only one or two are elsewhere.</p>
 		<hr/>
 		<div class="last">
 			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.

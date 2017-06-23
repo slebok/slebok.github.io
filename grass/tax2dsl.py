@@ -16,6 +16,17 @@ mapped = {\
 	'SCAM-J-2009-LammelZ11' : 'JLS-SQJ2011',\
 }
 
+backmapped = {\
+	'BNF': 'https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form',
+	# 'http://www.softwarepreservation.org/projects/ALGOL/paper/Backus-Syntax_and_Semantics_of_Proposed_IAL.pdf/view',
+	'Refactoring': 'https://martinfowler.com/books/refactoring.html',
+	'McCord1985': 'https://doi.org/10.3115/981210.981223',
+	'Roy2009': 'https://doi.org/10.1016/j.scico.2009.02.007',
+	'Martin2011': 'https://doi.org/10.1145/1985404.1985412',
+	'Sassaman2012': 'https://doi.org/10.1109/MSP.2012.31',
+	'Shotgun12': 'http://langsec.org',\
+}
+
 def makeheader(title, counter):
 	if title:
 		title = title + ' in the GraSs'
@@ -52,12 +63,10 @@ def makepic(link, name, text, dim):
 		</pic>
 '''.format(link, name, text, ' dim' if dim else '')
 
-def makelastpic(name, text):
-	return '''		
-			<name>{0}</name>
-			<small>{1}</small>
-		
-'''.format(name, text)
+def makelastpic(name, text, cat1, cat2):
+	return '''			<h2>{0} <span class="edit"><a href="https://github.com/slebok/grass/edit/master/{2}/{3}/{0}.tax">Edit!</a></span></h2>
+			<p>{1}</p>
+'''.format(name, text, cat1, cat2)
 
 def makehr():
 	return '		<hr/>\n'
@@ -68,13 +77,18 @@ def mysplit(s):
 	else:
 		return s[:s.index(':')].strip(), s[s.index(':')+1:].strip()
 
+def splitBySqTag(line, tag):
+	x = line.index('['+tag+']')
+	y = line.index('[/'+tag+']')
+	return line[:x], line[x + 2 + len(tag):y], line[y + 3 + len(tag):]
+
 def tax2dsl(lines):
 	res = []
 	i = 0
 	while i < len(lines):
 		line = lines[i].strip()
 		if not line:
-			res.append('<br/>')
+			res.append('</p><p>')
 			i += 1
 			continue
 		if line.startswith('% '):
@@ -91,26 +105,39 @@ def tax2dsl(lines):
 			i += 1
 			continue
 		while line.find('[cite]') > -1:
-			x = line.index('[cite]')
-			y = line.index('[/cite]')
-			link = line[x+6:y]
+			before, link, after = splitBySqTag(line, 'cite')
 			if link.find('/') < 0:
-				linkurl = linktext = link
+				linkurl = 'http://bibtex.github.io/' + link + '.html'
+				linktext = link
 			else:
-				linkurl = link.split('/')[1]
-				linktext = linkurl + ', ' + link.split('/')[0]
-			line = line[:x] + '<a href="http://bibtex.github.io/' + linkurl + '.html">[' + linktext + ']</a>' + line[y+7:]
+				ls = link.split('/')
+				linkurl = 'http://bibtex.github.io/' + ls[1] + '.html'
+				linktext = ls[1] + ', ' + ls[0]
+			if link in backmapped:
+				linkurl = backmapped[link]
+			line = before + \
+				'<a href="' + linkurl + '">[' + linktext + ']</a>' \
+				+ after
+		while line.find('[gwnet]') > -1:
+			before, link, after = splitBySqTag(line, 'gwnet')
+			line = before + \
+				'<a href="http://grammarware.net/writes/#' + link + '">[' + link + ']</a>' \
+				+ after
 		while line.find('[dyol]') > -1:
-			x = line.index('[dyol]')
-			y = line.index('[/dyol]')
-			link = line[x+6:y]
-			line = line[:x] + '<a href="http://slebok.github.io/dyol/books/' + link + '.html">[' + link + ']</a>' + line[y+7:]
+			before, link, after = splitBySqTag(line, 'dyol')
+			line = before + \
+				'<a href="http://slebok.github.io/dyol/books/' + link + '.html">[' + link + ']</a>' \
+				+ after
+		while line.find('[smell]') > -1:
+			before, link, after = splitBySqTag(line, 'smell')
+			line = before + \
+				'<a href="' + link.lower() + '.html">' + link + '</a>' \
+				+ after
 		if line.find('[zoo]') > -1:
-			x = line.index('[zoo]')
-			y = line.index('[/zoo]')
-			zoo = line[x+5:y].strip().split('|')
-			fnote = '({0}, <em><a href="http://slebok.github.io/zoo/{1}">{2}</a></em>, {3})'.format(*zoo)
-			line = line[:x] + fnote + line[y+6:]
+			before, inside, after = splitBySqTag(line, 'zoo')
+			zoo = inside.strip().split('|')
+			fnote = ' ({0}, <em><a href="http://slebok.github.io/zoo/{1}">{2}</a></em>, {3})'.format(*zoo)
+			line = before + fnote + after
 		# normalise
 		# TODO smell -> a href
 		line = line.replace('[code]', '<code>').replace('[/code]', '</code>')
@@ -154,18 +181,27 @@ def tax2tex(lines):
 			small = True
 			continue
 		while line.find('[cite]') > -1:
-			x = line.index('[cite]')
-			y = line.index('[/cite]')
-			link = line[x+6:y]
+			before, link, after = splitBySqTag(line, 'cite')
 			if link.find('/') < 0:
 				if link in mapped:
 					link = mapped[link]
-				line = line[:x] + '~\\cite{' + link + '}' + line[y+7:]
+				line = before + '~\\cite{' + link + '}' + after
 			else:
 				linkurl = link.split('/')[1]
 				if linkurl in mapped:
 					linkurl = mapped[linkurl]
-				line = line[:x] + '~\\cite[' + link.split('/')[0] + ']{' + linkurl + '}' + line[y+7:]
+				line = before + '~\\cite[' + link.split('/')[0] + ']{' + linkurl + '}' + after
+		while line.find('[gwnet]') > -1:
+			before, link, after = splitBySqTag(line, 'gwnet')
+			if link.find('/') < 0:
+				if link in mapped:
+					link = mapped[link]
+				line = before + '~\\cite{' + link + '}' + after
+			else:
+				linkurl = link.split('/')[1]
+				if linkurl in mapped:
+					linkurl = mapped[linkurl]
+				line = before + '~\\cite[' + link.split('/')[0] + ']{' + linkurl + '}' + after
 		while line.find('[dyol]') > -1:
 			x = line.index('[dyol]')
 			y = line.index('[/dyol]')
@@ -217,14 +253,31 @@ insides = {}
 taxkeys[''] = []
 
 cur1 = cur2 = cur3 = ''
-list1 = ['Organisation', 'Navigation', 'Structure']
+readme0 = os.path.join(wdir, 'README.tax')
+if not os.path.isfile(readme0):
+	print('Fatal: cannot find the starting README!')
+	sys.exit(-1)
+
+insides[''] = []
+f = open(readme0, 'r', encoding='utf-8')
+lines = f.readlines()
+for line in lines[1:]:
+	if not line.strip():
+		continue
+	insides[''].append(line.strip().split(' ')[-1])
+f.close()
 for n1 in os.listdir(wdir):
 	if os.path.isfile(os.path.join(wdir, n1)) or n1.startswith('.'):
 		continue
-	if n1 not in list1:
-		list1.append(n1)
+	if n1 not in insides['']:
+		insides[''].append(n1)
 		print('\tWarning: 1 level {} included only implicitly!'.format(n1))
-for n1 in list1:
+f = open(readme0, 'w', encoding='utf-8')
+f.write(lines[0] + '\n')
+for line in insides['']:
+	f.write('* {}\n'.format(line))
+f.close()
+for n1 in insides['']:
 	cur1 = n1.split('/')[-1]
 	f1 = os.path.join(wdir, n1)
 	readme1 = os.path.join(f1, 'README.tax')
@@ -284,9 +337,7 @@ for n1 in list1:
 				insides[cur2].append(n3)
 				print('\tWarning: 3 level {} included only implicitly!'.format(n3))
 		for cur3 in insides[cur2]:
-			# n3 = os.path.join()TODODODODOD
 			f3 = os.path.join(f2, cur3 + '.tax')
-			# cur3 = n3.split('/')[-1][:-4]
 			print('Traverse ' + cur1 + ' \\ ' + cur2 + ' \\ ' + cur3)
 			if cur3 not in insides[cur2]:
 				insides[cur2].append(cur3)
@@ -303,25 +354,9 @@ for n1 in list1:
 				taxkeys[cur2].append(cur3)
 				taxonomy[cur1][cur2].append(cur3)
 				longdesc[cur3] = ''
-				related[cur3] = []
+				related[cur3] = [line[9:].strip() for line in lines if line.startswith('Related: ')]
 				explanation[a] = b if b else '...'
-				# process the rest of the lines
-				midlines = []
-				example = False
-				for line in lines[1:]:
-					if example:
-						midlines[-1] += line
-						if line.strip() == '[/example]':
-							example = False
-					else:
-						if line.startswith('Related: '):
-							related[cur3].append(line[9:].strip())
-						else:
-							if line.strip() == '[example]':
-								midlines.append(line)
-								example = True
-							else:
-								midlines.append(line.strip())
+				midlines = [line for line in lines[1:] if not line.startswith('Related: ')]
 				longdesc[cur3] = tax2dsl(midlines)
 				latex[cur3] = tax2tex(midlines)
 			f.close()
@@ -459,7 +494,7 @@ for key1 in taxkeys['']:
 				s = 'Related smells: ' + ', '.join(\
 					['<a href="http://tusharma.in/smells/{0}.html">{1}</a>'.format(*x.split('|'))
 						for x in related[key3]]) + '<br/>' + s
-			f.write(makelastpic(key3, s))
+			f.write(makelastpic(key3, s, key1, key2))
 			f.write(makehr())
 			f.write(makefooter())
 			f.close()

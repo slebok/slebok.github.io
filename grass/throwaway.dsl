@@ -64,10 +64,8 @@
 			<small>a nonterminal that represents two or more concepts</small>
 		</pic>
 		<hr/>
-		<pic wide>
-			<name>Throwaway</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/LIH.html">List-like Inheritance Hierarchy</a>, <a href="http://tusharma.in/smells/POL.html">Poltergeist</a>, <a href="http://tusharma.in/smells/IA.html">Imperative Abstraction</a>, <a href="http://tusharma.in/smells/TDG.html">Tree-like Dependency Graph</a><br/>A nonterminal that is used only once, may be useful to tame the length of production rules (see [smell]TooWide[/smell]), and may occasionally convey a useful abstraction with its name, but beyond those circumstances it is a smell and should be a candidate for refactoring.</small>
-		</pic>
+			<h2>Throwaway <span class="edit"><a href="https://github.com/slebok/grass/edit/master/Structure/Proxy/Throwaway.tax">Edit!</a></span></h2>
+			<p>Related smells: <a href="http://tusharma.in/smells/LIH.html">List-like Inheritance Hierarchy</a>, <a href="http://tusharma.in/smells/POL.html">Poltergeist</a>, <a href="http://tusharma.in/smells/IA.html">Imperative Abstraction</a>, <a href="http://tusharma.in/smells/TDG.html">Tree-like Dependency Graph</a><br/></p><p> A nonterminal that is used only once, may be useful to tame the length of production rules (see <a href="toowide.html">TooWide</a>), and may occasionally convey a useful abstraction with its name, but beyond those circumstances it is a smell and should be a candidate for refactoring. </p><p></p>
 		<hr/>
 		<div class="last">
 			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.

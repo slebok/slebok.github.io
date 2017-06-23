@@ -3,7 +3,7 @@ body {color:#033; background-color:#AAA; font-family:"Futura", "Montserrat", san
 div.card p {font-family:"Futura", "Montserrat", sans-serif}
 .pic .p {color:#003355; padding-top:5px}
 .pic {float:left; text-align:center; width:150px; height:250px; margin:5px; font-weight:bold; border:2px solid #888}
-.pic.dwarf {height: 100px; width: 200px;}
+.pic.dwarf {height: 70px; width: 220px;}
 .pic.wide {min-height: 100px; width: 99%; height: auto;}
 .pic img, .tile img {border:0px; max-height:100px}
 .card img {max-height: 200px; max-width: 450px}
@@ -70,3 +70,5 @@ div.dixit::after  {content: close-quote; font-size: 4em; float: right;}
 ul.dim:hover {opacity:0.8; color: blue;}
 ul.dim {text-indent:0}
 .s {font-size: smaller; color:#033; text-align: left;}
+.edit {float: right}
+.edit a:link, .edit a:visited {color:#eb1c23}

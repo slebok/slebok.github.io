@@ -64,10 +64,8 @@
 			<small>incompletenesses covered up by todo/fixme comments</small>
 		</pic>
 		<hr/>
-		<pic wide>
-			<name>Bottom</name>
-			<small><br/> The lack of definition for nonterminals that are used within the grammar, is an obvious mistake that must be reported one way or another, and also possibly as a smell. There are three main reasons for undefined nonterminals: (1) they were forgotten by the grammar engineer; (2) they are defined in a different module; (3) they are defined on a separate conceptual layer. For scenario (1), we cannot do anything to fix the problem automatically (beyond attempting heuristics).</small>
-		</pic>
+			<h2>Bottom <span class="edit"><a href="https://github.com/slebok/grass/edit/master/Navigation/Shortage/Bottom.tax">Edit!</a></span></h2>
+			<p></p><p> </p><p> The lack of definition for nonterminals that are used within the grammar, is an obvious mistake that must be reported one way or another, and also possibly as a smell. There are three main reasons for undefined nonterminals: (1) they were forgotten by the grammar engineer; (2) they are defined in a different module; (3) they are defined on a separate conceptual layer. For scenario (1), we cannot do anything to fix the problem automatically (beyond attempting heuristics).</p>
 		<hr/>
 		<div class="last">
 			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.

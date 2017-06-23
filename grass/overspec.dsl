@@ -84,10 +84,8 @@
 			<small>too idiosyncratic notational features decrease portability</small>
 		</pic>
 		<hr/>
-		<pic wide>
-			<name>Overspec</name>
-			<small>In many notations, there are various ways to achieve the same effect, and information in those should not be duplicated or contradictory, since it only confuses grammar engineers and leads to grammars with very subtle bugs. The simplest example of Overspec is something like <code>!"a" & ("b" | "c")</code>, where the choice between <code>"b"</code> and <code>"c"</code> is preceded by a negative conjunctive clause saying that they at the same must not be <code>"a"</code>. Naturally, this cannot happen in either case, so the clause is either disposable or erroneous.</small>
-		</pic>
+			<h2>Overspec <span class="edit"><a href="https://github.com/slebok/grass/edit/master/Organisation/Notation/Overspec.tax">Edit!</a></span></h2>
+			<p></p><p> In many notations, there are various ways to achieve the same effect, and information in those should not be duplicated or contradictory, since it only confuses grammar engineers and leads to grammars with very subtle bugs. The simplest example of Overspec is something like <code>!"a" & ("b" | "c")</code>, where the choice between <code>"b"</code> and <code>"c"</code> is preceded by a negative conjunctive clause saying that they at the same must not be <code>"a"</code>. Naturally, this cannot happen in either case, so the clause is either disposable or erroneous. </p><p></p>
 		<hr/>
 		<div class="last">
 			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.

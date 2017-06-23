@@ -84,10 +84,8 @@
 			<small>too idiosyncratic notational features decrease portability</small>
 		</pic>
 		<hr/>
-		<pic wide>
-			<name>Combo</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/EUCF.html">Useless Control Flow</a><br/>Grammar combinators (metasymbols of arity 1 and up) such as the Kleene star and cross, or an optional, can be combined in an improper way. For example, a grammar engineer who defines <code>A ::= B?;</code> and <code>B ::= C?;</code>, may mean well, but creates a confusing contract if <code>A</code> is used to bind a textual structure with a tree structure: it is ambiguous what an empty string corresponds to – an empty node <code>A</code> or a node <code>A</code> containing an empty node <code>B</code>. Some of these issues may be harder to detect due to indirection, but they are all automatically fixable.</small>
-		</pic>
+			<h2>Combo <span class="edit"><a href="https://github.com/slebok/grass/edit/master/Organisation/Notation/Combo.tax">Edit!</a></span></h2>
+			<p>Related smells: <a href="http://tusharma.in/smells/EUCF.html">Useless Control Flow</a><br/></p><p> Grammar combinators (metasymbols of arity 1 and up) such as the Kleene star and cross, or an optional, can be combined in an improper way. For example, a grammar engineer who defines <code>A ::= B?;</code> and <code>B ::= C?;</code>, may mean well, but creates a confusing contract if <code>A</code> is used to bind a textual structure with a tree structure: it is ambiguous what an empty string corresponds to – an empty node <code>A</code> or a node <code>A</code> containing an empty node <code>B</code>. Some of these issues may be harder to detect due to indirection, but they are all automatically fixable. </p><p></p>
 		<hr/>
 		<div class="last">
 			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.

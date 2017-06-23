@@ -64,10 +64,8 @@
 			<small>a nonterminal that represents two or more concepts</small>
 		</pic>
 		<hr/>
-		<pic wide>
-			<name>Multitool</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/GC.html">God Class</a>, <a href="http://tusharma.in/smells/PGC.html">God Class</a>, <a href="http://tusharma.in/smells/SAK.html">Swiss Army Knife</a>, <a href="http://tusharma.in/smells/MAC.html">Multifaceted Abstraction</a>, <a href="http://tusharma.in/smells/PBB.html">Brother of the Bride</a>, <a href="http://tusharma.in/smells/MA2.html">Multifaceted Abstraction</a><br/>This smells takes place when a nonterminal violates the single responsibility principle, and represents several (hopefully related) abstractions.</small>
-		</pic>
+			<h2>Multitool <span class="edit"><a href="https://github.com/slebok/grass/edit/master/Structure/Proxy/Multitool.tax">Edit!</a></span></h2>
+			<p>Related smells: <a href="http://tusharma.in/smells/GC.html">God Class</a>, <a href="http://tusharma.in/smells/PGC.html">God Class</a>, <a href="http://tusharma.in/smells/SAK.html">Swiss Army Knife</a>, <a href="http://tusharma.in/smells/MAC.html">Multifaceted Abstraction</a>, <a href="http://tusharma.in/smells/PBB.html">Brother of the Bride</a>, <a href="http://tusharma.in/smells/MA2.html">Multifaceted Abstraction</a><br/></p><p> This smells takes place when a nonterminal violates the single responsibility principle, and represents several (hopefully related) abstractions. </p><p></p>
 		<hr/>
 		<div class="last">
 			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.

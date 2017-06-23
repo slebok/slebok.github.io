@@ -89,10 +89,8 @@
 			<small>low cohesion and/or high coupling</small>
 		</pic>
 		<hr/>
-		<pic wide>
-			<name>Lonely</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/NS.html">No Subsystems</a>, <a href="http://tusharma.in/smells/IM.html">Insufficient Modularization</a>, <a href="http://tusharma.in/smells/CIM.html">Insufficient Modularization</a><br/>A variant of the well-known Insufficient Modularisation smell, ported to grammars: if the size of a grammar is much larger than expected, the time has come to split it up in modules. Old-fashioned notations did not have any explicit modularisation capabilities and treated a collection of production rules as a set, but modern language workbenches have advanced frameworks with namespaces, dependence management, etc <a href="http://bibtex.github.io/SLE-2013-ErdwegSVBBCGHKLKMPPSSSVVVWW.html">[SLE-2013-ErdwegSVBBCGHKLKMPPSSSVVVWW]</a> <a href="http://bibtex.github.io/BastenB0KLLPSV15.html">[BastenB0KLLPSV15]</a>.</small>
-		</pic>
+			<h2>Lonely <span class="edit"><a href="https://github.com/slebok/grass/edit/master/Structure/Complexity/Lonely.tax">Edit!</a></span></h2>
+			<p>Related smells: <a href="http://tusharma.in/smells/NS.html">No Subsystems</a>, <a href="http://tusharma.in/smells/IM.html">Insufficient Modularization</a>, <a href="http://tusharma.in/smells/CIM.html">Insufficient Modularization</a><br/></p><p> A variant of the well-known Insufficient Modularisation smell, ported to grammars: if the size of a grammar is much larger than expected, the time has come to split it up in modules. Old-fashioned notations did not have any explicit modularisation capabilities and treated a collection of production rules as a set, but modern language workbenches have advanced frameworks with namespaces, dependence management, etc <a href="http://bibtex.github.io/SLE-2013-ErdwegSVBBCGHKLKMPPSSSVVVWW.html">[SLE-2013-ErdwegSVBBCGHKLKMPPSSSVVVWW]</a> <a href="http://bibtex.github.io/BastenB0KLLPSV15.html">[BastenB0KLLPSV15]</a>. </p><p></p>
 		<hr/>
 		<div class="last">
 			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.

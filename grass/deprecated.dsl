@@ -84,10 +84,8 @@
 			<small>too idiosyncratic notational features decrease portability</small>
 		</pic>
 		<hr/>
-		<pic wide>
-			<name>Deprecated</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/DSU.html">Deprecated Statement Usage</a><br/>Similarly to deprecated statements and methods in programming, grammar notations may have some functionality that is no longer considered viable and proper in the new version. This does not happen all that often, but it may.</small>
-		</pic>
+			<h2>Deprecated <span class="edit"><a href="https://github.com/slebok/grass/edit/master/Organisation/Notation/Deprecated.tax">Edit!</a></span></h2>
+			<p>Related smells: <a href="http://tusharma.in/smells/DSU.html">Deprecated Statement Usage</a><br/></p><p> Similarly to deprecated statements and methods in programming, grammar notations may have some functionality that is no longer considered viable and proper in the new version. This does not happen all that often, but it may. </p><p></p>
 		<hr/>
 		<div class="last">
 			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.

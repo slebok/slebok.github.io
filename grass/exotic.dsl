@@ -84,10 +84,8 @@
 			<small>too idiosyncratic notational features decrease portability</small>
 		</pic>
 		<hr/>
-		<pic wide>
-			<name>Exotic</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/VLI.html">Vendor Lock−In</a>, <a href="http://tusharma.in/smells/GH.html">Golden Hammer</a><br/>This smell is in contradiction with [smell]Underuse[/smell], and states that using notational features that are uncommon, obscure or overly exotic, should be limited. Excessive use of features idiosyncratic for one particular notation, will result in a vendor lock-in. For example, if a notation allows context handling (pushing the grammar outside the comfort zone of CFGs), using it is only fully justified when the result is too cumbersome otherwise.</small>
-		</pic>
+			<h2>Exotic <span class="edit"><a href="https://github.com/slebok/grass/edit/master/Organisation/Notation/Exotic.tax">Edit!</a></span></h2>
+			<p>Related smells: <a href="http://tusharma.in/smells/VLI.html">Vendor Lock−In</a>, <a href="http://tusharma.in/smells/GH.html">Golden Hammer</a><br/></p><p> This smell is in contradiction with <a href="underuse.html">Underuse</a>, and states that using notational features that are uncommon, obscure or overly exotic, should be limited. Excessive use of features idiosyncratic for one particular notation, will result in a vendor lock-in. For example, if a notation allows context handling (pushing the grammar outside the comfort zone of CFGs), using it is only fully justified when the result is too cumbersome otherwise. </p><p></p>
 		<hr/>
 		<div class="last">
 			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.

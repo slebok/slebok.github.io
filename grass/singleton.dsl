@@ -84,10 +84,8 @@
 			<small>too idiosyncratic notational features decrease portability</small>
 		</pic>
 		<hr/>
-		<pic wide>
-			<name>Singleton</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/IC.html">Incomplete Conditional</a><br/>The designers of grammar notations, as all DSL designers, try to make them fit the domain, but never achieve absolute perfection. In particular, multiary symbols with arity of 2 and up, are commonly expressed in such a way that allows their use on an empty or trivial list of arguments. Single-element sequences, disjunctions and conjunctions like this are easy to detect and remove by algebraic rewriting.</small>
-		</pic>
+			<h2>Singleton <span class="edit"><a href="https://github.com/slebok/grass/edit/master/Organisation/Notation/Singleton.tax">Edit!</a></span></h2>
+			<p>Related smells: <a href="http://tusharma.in/smells/IC.html">Incomplete Conditional</a><br/></p><p> The designers of grammar notations, as all DSL designers, try to make them fit the domain, but never achieve absolute perfection. In particular, multiary symbols with arity of 2 and up, are commonly expressed in such a way that allows their use on an empty or trivial list of arguments. Single-element sequences, disjunctions and conjunctions like this are easy to detect and remove by algebraic rewriting. </p><p></p>
 		<hr/>
 		<div class="last">
 			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.

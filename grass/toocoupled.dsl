@@ -89,10 +89,8 @@
 			<small>low cohesion and/or high coupling</small>
 		</pic>
 		<hr/>
-		<pic wide>
-			<name>TooCoupled</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/CWM.html">Weakened Modularity</a><br/>Modularity can not only be broken or insufficient, it can also be weakened. A grammar split into several modules that have high coupling among them and low cohesion inside each of them, had better stayed as [smell]Lonely[/smell].</small>
-		</pic>
+			<h2>TooCoupled <span class="edit"><a href="https://github.com/slebok/grass/edit/master/Structure/Complexity/TooCoupled.tax">Edit!</a></span></h2>
+			<p>Related smells: <a href="http://tusharma.in/smells/CWM.html">Weakened Modularity</a><br/></p><p> Modularity can not only be broken or insufficient, it can also be weakened. A grammar split into several modules that have high coupling among them and low cohesion inside each of them, had better stayed as <a href="lonely.html">Lonely</a>. </p><p></p>
 		<hr/>
 		<div class="last">
 			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.

@@ -54,10 +54,8 @@
 			<small>the root symbol should not occur in the middle</small>
 		</pic>
 		<hr/>
-		<pic wide>
-			<name>StartInTheMiddle</name>
-			<small>To improve the readability and navigability of the grammar, its starting symbol should be on top or the bottom of the grammar, not lost somewhere in the middle.</small>
-		</pic>
+			<h2>StartInTheMiddle <span class="edit"><a href="https://github.com/slebok/grass/edit/master/Navigation/Spaghetti/StartInTheMiddle.tax">Edit!</a></span></h2>
+			<p></p><p> To improve the readability and navigability of the grammar, its starting symbol should be on top or the bottom of the grammar, not lost somewhere in the middle.</p>
 		<hr/>
 		<div class="last">
 			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.

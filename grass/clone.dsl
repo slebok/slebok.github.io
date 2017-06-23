@@ -74,10 +74,8 @@
 			<small>near-clones</small>
 		</pic>
 		<hr/>
-		<pic wide>
-			<name>Clone</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/DC2.html">Duplicate Code</a>, <a href="http://tusharma.in/smells/RW.html">Reinvent the Wheel</a>, <a href="http://tusharma.in/smells/CPP.html">Cut and Paste Programming</a>, <a href="http://tusharma.in/smells/UH2.html">Unfactored Hierarchy</a>, <a href="http://tusharma.in/smells/DE2.html">Duplicate Entity</a><br/>Nonterminals that have exactly the same definitions, are only cluttering the grammar, and can be painlessly united. In clone management research, these are called “type 1 clones”, we will revisit this classification later when defining [smell]Lookalike[/smell].</small>
-		</pic>
+			<h2>Clone <span class="edit"><a href="https://github.com/slebok/grass/edit/master/Organisation/Duplication/Clone.tax">Edit!</a></span></h2>
+			<p>Related smells: <a href="http://tusharma.in/smells/DC2.html">Duplicate Code</a>, <a href="http://tusharma.in/smells/RW.html">Reinvent the Wheel</a>, <a href="http://tusharma.in/smells/CPP.html">Cut and Paste Programming</a>, <a href="http://tusharma.in/smells/UH2.html">Unfactored Hierarchy</a>, <a href="http://tusharma.in/smells/DE2.html">Duplicate Entity</a><br/></p><p> Nonterminals that have exactly the same definitions, are only cluttering the grammar, and can be painlessly united. In clone management research, these are called “type 1 clones”, we will revisit this classification later when defining <a href="lookalike.html">Lookalike</a>. </p><p></p>
 		<hr/>
 		<div class="last">
 			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.

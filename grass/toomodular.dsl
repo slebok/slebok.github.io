@@ -89,10 +89,8 @@
 			<small>low cohesion and/or high coupling</small>
 		</pic>
 		<hr/>
-		<pic wide>
-			<name>TooModular</name>
-			<small>Related smells: <a href="http://tusharma.in/smells/TMS.html">Too Many Subsystems</a>, <a href="http://tusharma.in/smells/TSP.html">Too Small Packages/Subsystems</a><br/>On the other side of the spectrum from [smell]TooLonely[/smell], a grammar can be too modular and split into so many modules that each of them is meaninglessly tiny, yet their combination is unbearably unintelligible.</small>
-		</pic>
+			<h2>TooModular <span class="edit"><a href="https://github.com/slebok/grass/edit/master/Structure/Complexity/TooModular.tax">Edit!</a></span></h2>
+			<p>Related smells: <a href="http://tusharma.in/smells/TMS.html">Too Many Subsystems</a>, <a href="http://tusharma.in/smells/TSP.html">Too Small Packages/Subsystems</a><br/></p><p> On the other side of the spectrum from <a href="toolonely.html">TooLonely</a>, a grammar can be too modular and split into so many modules that each of them is meaninglessly tiny, yet their combination is unbearably unintelligible. </p><p></p>
 		<hr/>
 		<div class="last">
 			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.

@@ -74,10 +74,8 @@
 			<small>near-clones</small>
 		</pic>
 		<hr/>
-		<pic wide>
-			<name>Permuted</name>
-			<small>Clones modulo permutations (e.g., <code>A | B</code> vs <code>B | A</code>) are confusing: if the choice used in the notation is commutative, they are just [smell]Clone[/smell]s, otherwise if the choice is ordered, having both <code>A / B</code> and <code>B / A</code> within the same grammar is even more confusing for everyone.</small>
-		</pic>
+			<h2>Permuted <span class="edit"><a href="https://github.com/slebok/grass/edit/master/Organisation/Duplication/Permuted.tax">Edit!</a></span></h2>
+			<p></p><p> Clones modulo permutations (e.g., <code>A | B</code> vs <code>B | A</code>) are confusing: if the choice used in the notation is commutative, they are just <a href="clone.html">Clone</a>s, otherwise if the choice is ordered, having both <code>A / B</code> and <code>B / A</code> within the same grammar is even more confusing for everyone.</p>
 		<hr/>
 		<div class="last">
 			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
