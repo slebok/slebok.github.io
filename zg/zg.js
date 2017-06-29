@@ -33,8 +33,12 @@ function enhanceLinks(where, handle, res)
 		$('#'+where).append('<a href="http://dx.doi.org/' + res.doi + '">[DOI]</a>&nbsp;&nbsp;');
 	if ('ee' in res && !res.ee.includes('doi'))
 		$('#'+where).append('<a href="' + res.ee + '">[EE]</a>&nbsp;&nbsp;');
+	if ('url' in res && !res.url.includes('doi'))
+		$('#'+where).append('<a href="' + res.url + '">[URL]</a>&nbsp;&nbsp;');
 	if ('dblpkey' in res)
 		$('#'+where).append('<a href="http://dblp.uni-trier.de/rec/html/' + res.dblpkey + '">[DBLP]</a>&nbsp;&nbsp;');
+	if ('mgp' in res)
+		$('#'+where).append('<a href="http://www.genealogy.ams.org/id.php?id=' + res.mgp + '">[MGP]</a>&nbsp;&nbsp;');
 	// universal
 	$('#'+where).append('<a href="https://www.google.com/search?q=%22' + res.title.split(' ').join('+') + '%22">[Google]</a>&nbsp;&nbsp;');
 	$('#'+where).append('<a href="https://scholar.google.be/scholar?q=%22' + res.title.split(' ').join('+') + '%22">[Scholar]</a>&nbsp;&nbsp;');
@@ -84,6 +88,7 @@ function loadPaper(handle, res)
 
 			if (x.startsWith('dblp:'))
 			{
+				$('#past'+n).append('<img src="../www/dblp.jpg" />')
 				var xml = url2text(base + 'dblp/' + x.substring(5) + '.xml');
 				console.log(xml);
 				var xmlDoc = $.parseXML(xml);
@@ -101,6 +106,26 @@ function loadPaper(handle, res)
 						$('#past'+n).append(' <a href="' + $(this).text() + '">[DOI]</a>');
 				});
 			}
+			else if (x.startsWith('phd:'))
+			{
+				$('#past'+n).append('<img src="../www/phd.jpg" />')
+				var bib = JSON.parse(url2text(base + 'phd/' + x.substring(4) + '.json'));
+				console.log(bib);
+
+				$('#past'+n).append(bib.author + ', ');
+				$('#past'+n).append('<em>' + bib.title + '</em>, PhD thesis at ' + bib.university);
+				if ('country' in bib)
+					$('#past'+n).append(' (' + bib.country + ')');
+				// TODO: enable several supervisors/cosupervisors
+				if ('supervisor' in bib)
+					$('#past'+n).append(', supervised by ' + bib.supervisor);
+				if ('cosupervisor' in bib)
+					$('#past'+n).append(', cosupervised by ' + bib.cosupervisor);
+				$('#past'+n).append(', ' + bib.year + '.');
+				$('#past'+n).append(' <span id="links'+n+'"></span>');
+				bib.bibsleigh = ''
+				enhanceLinks('links'+n, x.substring(10), bib);
+			}
 			else if (x.startsWith('bibsleigh:'))
 			{
 				var bib = JSON.parse(url2text('https://raw.githubusercontent.com/slebok/bibsleigh/master/corpus/' + x.substring(10) + '.json'));
@@ -111,8 +136,8 @@ function loadPaper(handle, res)
 				$.each(bib.author, function(k,z) { $('#past'+n).append(z + ', '); });
 				$('#past'+n).append('<em>' + bib.title + '</em>, <abbr title="' + bib.booktitle + '">' + bib.booktitleshort + '</abbr> '
 					+ bib.year + ', pp. ' + bib.pages.replace('-','–') + '.');
-				$('#past'+n).append('<span id="links'+n+'"></span>');
-				enhanceLinks('links'+n, x.substring(10), bib)
+				$('#past'+n).append(' <span id="links'+n+'"></span>');
+				enhanceLinks('links'+n, x.substring(10), bib);
 			}
 			else
 				$('#past' + n).append(x);
