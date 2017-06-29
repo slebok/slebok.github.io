@@ -1,0 +1,7 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+body {color:#033; background-color:#AAA; font-family:"Futura", "Montserrat", sans-serif}
+div.card p {font-family:"Futura", "Montserrat", sans-serif}
+.last {width:100%; text-align:right; font-style:italic; font-size:smaller}
+img.logo {float: left; margin-right: 1em; width: 100px; height: 100px;}
+hr {clear: both;}
+#main img {width: 20px; height: 20px; padding-right: 10px;}
