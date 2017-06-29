@@ -19,7 +19,8 @@
 		</script>
 	</head>
 	<body>
-<div style="text-align:center;"><a href="http://grammarware.github.io">Vadim Zaytsev</a> aka @<a href="http://grammarware.net">grammarware</a></div><hr/>		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
+<div style="text-align:center;"><a href="http://grammarware.github.io">Vadim Zaytsev</a> aka @<a href="http://grammarware.net">grammarware</a></div><hr/>		<img src="../www/grass.200.png" style="width:100px;height:100px;" class="flr" />
+		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
 		<hr/>
 		<div><span class="dwarf dim pic"><a href="organisation.html">Organisation<br/><span class="s">global problems</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="navigation.html">Navigation<br/><span class="s">problems with navigating through the grammar</span></a></span></div>
@@ -44,7 +45,7 @@
 			<p>Related smells: <a href="http://tusharma.in/smells/WH.html">Wide Hierarchy</a>, <a href="http://tusharma.in/smells/DCT.html">Clone Tables</a>, <a href="http://tusharma.in/smells/SCC.html">Conditional Complexity</a>, <a href="http://tusharma.in/smells/BM.html">Broken Modularization</a><br/></p><p> McCabe's cyclomatic complexity has received a lot of critique over the years, but nevertheless is present in many code analysis tools either directly or conceptually through improvements like cognitive complexity <a href="http://bibtex.github.io/IWPC-2003-RillingK.html">[IWPC-2003-RillingK]</a> or control flow patterns <a href="http://bibtex.github.io/SCAM-2012-VinjuG.html">[SCAM-2012-VinjuG]</a>. In grammars cyclomatic complexity is easy to estimate if we think of the parsing semantics, and it will be rather close for any other concrete application of the grammar. Alternatives and all kinds of disjunction obviously contribute to its increase, as well as repetition metasymbols. Conjunction, if present, also contributes to the branching since a construct like <code>A & B</code> means that both the parser and the grammar engineer will have to explore both branches related to <code>A</code> as well as to <code>B</code>. </p><p> It is interesting to consider how this smell can be eliminated: a similar “Wide Hierarchy” code smell suggests to introduce intermediate hubs for groups of nonterminals, but others blame such a solution from other points of view because there is a chance of those nonterminals to be <a href="weak.html">Weak</a>. </p><p> </p><p></p>
 		<hr/>
 		<div class="last">
-			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
+			The GraSs taxonomy is a <a href="../credit.html">joint effort</a> maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
 			Page last updated in June 2017.
 <br/><a href="http://validator.w3.org/check/referer"><img src="../www/xhtml.88.png" alt="XHTML 1.1" /></a>
 			<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="../www/css.88.png" alt="CSS 3" /></a>

@@ -4,6 +4,7 @@
 	<head viewport title="Factoring in the GraSs">
 	<body>
 		<header/>
+		<img src="../www/grass.200.png" style="width:100px;height:100px;" class="flr" />
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
 		<hr/>
 		<pic dwarf>
@@ -78,7 +79,7 @@
 			<p>Related smells: <a href="http://tusharma.in/smells/MH.html">Missing Hierarchy</a>, <a href="http://tusharma.in/smells/ERC.html">Repeated Conditionals</a><br/></p><p> In classic by-the-book <a href="http://slebok.github.io/dyol/books/PT-GJ.html">[PT-GJ]</a> non-memoising parsing, if alternative production rules from the same nonterminal start from the same symbols, these would have to be reparsed in each of the branches. As a real example  (Doug Cooper, Scott Moore, <em><a href="http://slebok.github.io/zoo/#pascal_pascal_cooper-moore_fetched">Pascal grammar in Yacc format</a></em>, fetched): </p><p> <br/><code>open_if_statement<br/>&nbsp;:&nbsp;IF&nbsp;boolean_expression&nbsp;THEN&nbsp;statement<br/>&nbsp;|&nbsp;IF&nbsp;boolean_expression&nbsp;THEN&nbsp;closed_statement<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE&nbsp;open_statement;<br/></code> </p><p> Interestingly, this example is a false positive: factoring the first three symbols into a separate nonterminal will clutter the grammar without bringing any noticeable benefits (and will introduce the <a href="weak.html">Weak</a> smell). In other cases, this smell has been avoided/removed  (The Dart Team, <em><a href="http://slebok.github.io/zoo/#dart_latex_v01.0_extracted">Dart Programming Language Specification</a></em>, extracted): </p><p> <br/><code>ifStatement&nbsp;::=&nbsp;"if"&nbsp;"("&nbsp;expression&nbsp;")"&nbsp;statement<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;("else"&nbsp;statement)?<br/></code> </p><p> </p><p></p>
 		<hr/>
 		<div class="last">
-			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
+			The GraSs taxonomy is a <a href="../credit.html">joint effort</a> maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
 			Page last updated in #LASTMOD#.
 			<valid/>
 		</div>

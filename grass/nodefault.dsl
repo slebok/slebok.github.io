@@ -4,6 +4,7 @@
 	<head viewport title="NoDefault in the GraSs">
 	<body>
 		<header/>
+		<img src="../www/grass.200.png" style="width:100px;height:100px;" class="flr" />
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
 		<hr/>
 		<pic dwarf>
@@ -78,7 +79,7 @@
 			<p>Related smells: <a href="http://tusharma.in/smells/MDC.html">Missing Default Case</a>, <a href="http://tusharma.in/smells/AR.html">Assertion Roulette</a><br/></p><p> Parser generators are great for everything, except for one aspect: error handling. There are many methods that use heuristics in an attempt to improve the situation, but error detection, localisation and reporting in manually written parsers is always incomparably better than in generated ones. However, there are certain tricks experienced grammar engineers use to improve the situation. For example, consider a DSL where each statement starts with a keyword and ends with a period. An obvious improvement to the naïve approach would be to, for instance, once a keyword <code>MAP</code> is recognised, have a panic mode setup or some other semiparsing <a href="http://bibtex.github.io/CSMR-WCRE-2014-Zaytsev.html">[CSMR-WCRE-2014-Zaytsev]</a> machinery to fail locally and report on an “error in a map statement” rather than pointlessly try to backtrack and fail at the general statement level. To do this, one has to have a special <em>default</em> case among the rules for each particular statement kind. This recipe is more often observed in grammars written for frameworks where ordered choice is more natural (TXL, PEGs, etc). </p><p></p>
 		<hr/>
 		<div class="last">
-			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
+			The GraSs taxonomy is a <a href="../credit.html">joint effort</a> maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
 			Page last updated in #LASTMOD#.
 			<valid/>
 		</div>

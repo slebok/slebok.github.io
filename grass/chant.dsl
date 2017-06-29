@@ -4,6 +4,7 @@
 	<head viewport title="Chant in the GraSs">
 	<body>
 		<header/>
+		<img src="../www/grass.200.png" style="width:100px;height:100px;" class="flr" />
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
 		<hr/>
 		<pic dwarf>
@@ -88,7 +89,7 @@
 			<p>Related smells: <a href="http://tusharma.in/smells/CO.html">Comments</a>, <a href="http://tusharma.in/smells/PDD.html">The Devil of Details</a><br/></p><p> During grammar recovery projects in the past we were occasionally stumbling across nonterminals that were “defined” in natural language instead of the actual grammar notation: “defined similarly to...”, “all Unicode characters of class...”, “any of the following”, etc. These are drastic examples of this smell, since they make the grammar completely useless for automatic machine consumption. However, having improper constructions in one's grammar that are covered up by an extensive comment explaining why it is not that that bad, is still an instance of this smell. </p><p></p>
 		<hr/>
 		<div class="last">
-			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
+			The GraSs taxonomy is a <a href="../credit.html">joint effort</a> maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
 			Page last updated in #LASTMOD#.
 			<valid/>
 		</div>

@@ -4,6 +4,7 @@
 	<head viewport title="Ouroboros in the GraSs">
 	<body>
 		<header/>
+		<img src="../www/grass.200.png" style="width:100px;height:100px;" class="flr" />
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
 		<hr/>
 		<pic dwarf dim>
@@ -73,7 +74,7 @@
 			<p>Related smells: <a href="http://tusharma.in/smells/DCP.html">Dependency Cycles between Packages/Subsystems</a>, <a href="http://tusharma.in/smells/CM.html">Cyclically-dependent Modularization</a>, <a href="http://tusharma.in/smells/SCDG.html">Static Cycles in Dependency Graphs</a><br/></p><p> If nonterminals are mutually, say, left recursive, and have no non-recursive alternatives, they are useless and cannot express a proper syntactic commitment. However, a similar issue may be encountered on the level of modules, and it is harder to detect for a human because modular grammars are already stretching comprehension capabilities of a grammar engineer. Such circular dependencies are fairly easy to detect automatically with a tool. </p><p></p>
 		<hr/>
 		<div class="last">
-			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
+			The GraSs taxonomy is a <a href="../credit.html">joint effort</a> maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
 			Page last updated in #LASTMOD#.
 			<valid/>
 		</div>

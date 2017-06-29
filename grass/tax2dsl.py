@@ -42,12 +42,13 @@ def makeheader(title, counter):
 	<head viewport title="{0}">
 	<body>
 		<header/>
+		<img src="../www/grass.200.png" style="width:100px;height:100px;" class="flr" />
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells{1}</h1>
 '''.format(title, counter)
 
 def makefooter():
 	return '''		<div class="last">
-			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
+			The GraSs taxonomy is a <a href="../credit.html">joint effort</a> maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
 			Page last updated in #LASTMOD#.
 			<valid/>
 		</div>

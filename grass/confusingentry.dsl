@@ -4,6 +4,7 @@
 	<head viewport title="ConfusingEntry in the GraSs">
 	<body>
 		<header/>
+		<img src="../www/grass.200.png" style="width:100px;height:100px;" class="flr" />
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
 		<hr/>
 		<pic dwarf dim>
@@ -68,7 +69,7 @@
 			<p></p><p> With <a href="startinthemiddle.html">StartInTheMiddle</a> we have already addressed positioning of the starting symbol of the grammar, but there can be three more problems with it. First, some grammars do not have any start specified at all. There are heuristics that work well on otherwise perfect grammars, and assign it to be the only top nonterminal (defined but not referenced). Second, there can be multiple starts, especially for notations that exceed with classic CFGs. This can indicate several independent grammars that got merged into one, or just several entry points into the grammar (which would allow, for example, to parse statements or expressions out of context – it is a not quite challenging exercise in theory, but extremely useful in practical grammarware engineering when integrating software languages with an IDE and a debugger). The third issue arises when the root symbol is properly marked as such, but is also referenced from other nonterminals in the grammar (so the starting symbol is not a top nonterminal). </p><p> The exact harmfulness of this smell heavily depends on the grammar handling framework.</p>
 		<hr/>
 		<div class="last">
-			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
+			The GraSs taxonomy is a <a href="../credit.html">joint effort</a> maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
 			Page last updated in #LASTMOD#.
 			<valid/>
 		</div>

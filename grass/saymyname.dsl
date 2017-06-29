@@ -4,6 +4,7 @@
 	<head viewport title="SayMyName in the GraSs">
 	<body>
 		<header/>
+		<img src="../www/grass.200.png" style="width:100px;height:100px;" class="flr" />
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
 		<hr/>
 		<pic dwarf>
@@ -73,7 +74,7 @@
 			<p>Related smells: <a href="http://tusharma.in/smells/PSS.html">Stung by Spell-bee</a><br/></p><p> The information is conveyed both by the structure specified in the grammar notation and by natural language used for naming nonterminals and modules. In small grammars misspellings and misnamings are easy to overlook since humans are naturally capable of that. When the grammar size increases, primitive automation techniques are used like plain text search, and such a search query looking for all statements will not find the one labelled with “staetment”. </p><p></p>
 		<hr/>
 		<div class="last">
-			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
+			The GraSs taxonomy is a <a href="../credit.html">joint effort</a> maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
 			Page last updated in #LASTMOD#.
 			<valid/>
 		</div>

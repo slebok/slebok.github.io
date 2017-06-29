@@ -4,6 +4,7 @@
 	<head viewport title="Diamond in the GraSs">
 	<body>
 		<header/>
+		<img src="../www/grass.200.png" style="width:100px;height:100px;" class="flr" />
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
 		<hr/>
 		<pic dwarf dim>
@@ -73,7 +74,7 @@
 			<p>Related smells: <a href="http://tusharma.in/smells/AAI.html">Ambiguous Interfaces</a><br/></p><p> A well-known pattern in dependency and inclusion is then a class A inherits from class X and class B also inherits from class X, but class C inherits from both A and B and thus gets to see double of each of X's elements. The problem is solved differently in different programming and modelling languages – in grammars, it causes an ambiguity (ISO/IEC 23270:2003(E), <em><a href="http://slebok.github.io/zoo/#csharp_v1.x_iso-23270-2003_extracted">Information technology — Programming languages — C Sharp</a></em>, extracted): </p><p> <br/><code>reference-type&nbsp;::=&nbsp;class-type&nbsp;|&nbsp;interface-type<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;delegate-type&nbsp;|&nbsp;...&nbsp;;<br/>class-type&nbsp;::=&nbsp;type-name&nbsp;|&nbsp;"object"&nbsp;|&nbsp;"string";<br/>interface-type&nbsp;::=&nbsp;type-name&nbsp;;<br/>delegate-type&nbsp;::=&nbsp;type-name&nbsp;;<br/></code> </p><p> Parsing something recognisable as <code>type-name</code> will cause at least a triple ambiguity since it will be an acceptable <code>class-type</code>, <code>interface-type</code> as well as <code>delegate-type</code> <a href="http://grammarware.net/writes/#Too-Sharp2005">[Too-Sharp2005]</a>. </p><p></p>
 		<hr/>
 		<div class="last">
-			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
+			The GraSs taxonomy is a <a href="../credit.html">joint effort</a> maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
 			Page last updated in #LASTMOD#.
 			<valid/>
 		</div>

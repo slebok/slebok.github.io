@@ -4,6 +4,7 @@
 	<head viewport title="Multitool in the GraSs">
 	<body>
 		<header/>
+		<img src="../www/grass.200.png" style="width:100px;height:100px;" class="flr" />
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
 		<hr/>
 		<pic dwarf dim>
@@ -68,7 +69,7 @@
 			<p>Related smells: <a href="http://tusharma.in/smells/GC.html">God Class</a>, <a href="http://tusharma.in/smells/PGC.html">God Class</a>, <a href="http://tusharma.in/smells/SAK.html">Swiss Army Knife</a>, <a href="http://tusharma.in/smells/MAC.html">Multifaceted Abstraction</a>, <a href="http://tusharma.in/smells/PBB.html">Brother of the Bride</a>, <a href="http://tusharma.in/smells/MA2.html">Multifaceted Abstraction</a><br/></p><p> This smells takes place when a nonterminal violates the single responsibility principle, and represents several (hopefully related) abstractions. </p><p></p>
 		<hr/>
 		<div class="last">
-			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
+			The GraSs taxonomy is a <a href="../credit.html">joint effort</a> maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
 			Page last updated in #LASTMOD#.
 			<valid/>
 		</div>

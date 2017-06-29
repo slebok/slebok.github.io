@@ -4,6 +4,7 @@
 	<head viewport title="Action in the GraSs">
 	<body>
 		<header/>
+		<img src="../www/grass.200.png" style="width:100px;height:100px;" class="flr" />
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
 		<hr/>
 		<pic dwarf>
@@ -78,7 +79,7 @@
 			<p>Related smells: <a href="http://tusharma.in/smells/ESRA.html">Switch Redundant Assignment</a>, <a href="http://tusharma.in/smells/PCTH.html">Circuitous Treasure Hunt</a>, <a href="http://tusharma.in/smells/PEDA.html">Excessive Dynamic Allocation</a>, <a href="http://tusharma.in/smells/POLB.html">The One Lane Bridge</a>, <a href="http://tusharma.in/smells/MG.html">Mystery Guest</a>, <a href="http://tusharma.in/smells/RO.html">Resource Optimism</a>, <a href="http://tusharma.in/smells/IPV.html">Invalid Property Value</a>, <a href="http://tusharma.in/smells/II.html">Inappropriate Intimacy</a>, <a href="http://tusharma.in/smells/TQ.html">Type Queries</a>, <a href="http://tusharma.in/smells/UE.html">Unexploited Encapsulation</a>, <a href="http://tusharma.in/smells/OILS.html">Obscure In-Line Setup</a>, <a href="http://tusharma.in/smells/FD.html">Functional Decomposition</a><br/></p><p> Many realistic language workbenches draw the line to prevent endless growing of their notations, and introduce a concept of a “semantic action”, which is written like an annotation in the grammar and acts as a doorway to the mainstream language typical for the target platform <a href="http://bibtex.github.io/SLE-2013-ErdwegSVBBCGHKLKMPPSSSVVVWW.html">[SLE-2013-ErdwegSVBBCGHKLKMPPSSSVVVWW]</a>. Obviously, since this action consists of code, the code can suffer from one of the numerous code smells. </p><p></p>
 		<hr/>
 		<div class="last">
-			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
+			The GraSs taxonomy is a <a href="../credit.html">joint effort</a> maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
 			Page last updated in #LASTMOD#.
 			<valid/>
 		</div>

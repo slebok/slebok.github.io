@@ -19,7 +19,8 @@
 		</script>
 	</head>
 	<body>
-<div style="text-align:center;"><a href="http://grammarware.github.io">Vadim Zaytsev</a> aka @<a href="http://grammarware.net">grammarware</a></div><hr/>		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
+<div style="text-align:center;"><a href="http://grammarware.github.io">Vadim Zaytsev</a> aka @<a href="http://grammarware.net">grammarware</a></div><hr/>		<img src="../www/grass.200.png" style="width:100px;height:100px;" class="flr" />
+		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
 		<hr/>
 		<div><span class="dwarf pic"><a href="organisation.html">Organisation<br/><span class="s">global problems</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="navigation.html">Navigation<br/><span class="s">problems with navigating through the grammar</span></a></span></div>
@@ -40,7 +41,7 @@
 			<p></p><p> ZigZag was a previously identified micropattern of a nonterminal defined in a style that mixes horizontal production rules (the ones with a top-level choice) with vertical production rules (with several rules per nonterminal) <a href="http://bibtex.github.io/SLE-2013-Zaytsev.html">[SLE-2013-Zaytsev]</a>. In this fragment <code>aaa</code> is horizontal, <code>ddd</code> is vertical and <code>ggg</code> is zigzag: </p><p> <br/><code>&nbsp;&nbsp;&nbsp;&nbsp;aaa&nbsp;::=&nbsp;bbb&nbsp;|&nbsp;ccc;<br/>&nbsp;&nbsp;&nbsp;&nbsp;ddd&nbsp;::=&nbsp;eee;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ddd&nbsp;::=&nbsp;fff;<br/>&nbsp;&nbsp;&nbsp;&nbsp;ggg&nbsp;::=&nbsp;hhh&nbsp;|&nbsp;jjj;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ggg&nbsp;::=&nbsp;mmm;<br/></code> </p><p> When it comes to smells, we have at least two ways to define and detect ZigZags: the <em>local</em> one within a nonterminal (equal to the micropattern) and the <em>global</em> within a grammar. The latter would mean that some nonterminals are defined horizontally while others are defined vertically, which may not be technically detrimental, but is still sloppy.</p>
 		<hr/>
 		<div class="last">
-			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
+			The GraSs taxonomy is a <a href="../credit.html">joint effort</a> maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
 			Page last updated in June 2017.
 <br/><a href="http://validator.w3.org/check/referer"><img src="../www/xhtml.88.png" alt="XHTML 1.1" /></a>
 			<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="../www/css.88.png" alt="CSS 3" /></a>

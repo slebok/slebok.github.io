@@ -4,6 +4,7 @@
 	<head viewport title="Foldable in the GraSs">
 	<body>
 		<header/>
+		<img src="../www/grass.200.png" style="width:100px;height:100px;" class="flr" />
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
 		<hr/>
 		<pic dwarf>
@@ -78,7 +79,7 @@
 			<p>Related smells: <a href="http://tusharma.in/smells/SPF.html">Scattered Parasitic Functionality</a>, <a href="http://tusharma.in/smells/SAB.html">Subsystem-API Bypassed</a>, <a href="http://tusharma.in/smells/GODY.html">The Grand Old Duke of York</a>, <a href="http://tusharma.in/smells/BH.html">Broken Hierarchy</a>, <a href="http://tusharma.in/smells/СBH.html">Broken Hierarchy</a><br/></p><p> This smell occurs when the clone is formed not between full definitions of two nonterminals, but when the right hand side of one nonterminal occurs as a subexpression in the right hand side of another nonterminal. Conceptually they are still clones and suffer from all known consequences of coupled evolution, but the solution is different: instead of merging the nonterminals, the subexpression needs to be folded into a nonterminal that defines it. </p><p></p>
 		<hr/>
 		<div class="last">
-			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
+			The GraSs taxonomy is a <a href="../credit.html">joint effort</a> maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
 			Page last updated in #LASTMOD#.
 			<valid/>
 		</div>

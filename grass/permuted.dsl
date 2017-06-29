@@ -4,6 +4,7 @@
 	<head viewport title="Permuted in the GraSs">
 	<body>
 		<header/>
+		<img src="../www/grass.200.png" style="width:100px;height:100px;" class="flr" />
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
 		<hr/>
 		<pic dwarf>
@@ -78,7 +79,7 @@
 			<p></p><p> Clones modulo permutations (e.g., <code>A | B</code> vs <code>B | A</code>) are confusing: if the choice used in the notation is commutative, they are just <a href="clone.html">Clone</a>s, otherwise if the choice is ordered, having both <code>A / B</code> and <code>B / A</code> within the same grammar is even more confusing for everyone.</p>
 		<hr/>
 		<div class="last">
-			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
+			The GraSs taxonomy is a <a href="../credit.html">joint effort</a> maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
 			Page last updated in #LASTMOD#.
 			<valid/>
 		</div>

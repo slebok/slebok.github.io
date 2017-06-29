@@ -4,6 +4,7 @@
 	<head viewport title="Chain in the GraSs">
 	<body>
 		<header/>
+		<img src="../www/grass.200.png" style="width:100px;height:100px;" class="flr" />
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
 		<hr/>
 		<pic dwarf dim>
@@ -68,7 +69,7 @@
 			<p>Related smells: <a href="http://tusharma.in/smells/LC2.html">Lazy Class</a>, <a href="http://tusharma.in/smells/EAC.html">Extraneous Adjacent Connector</a>, <a href="http://tusharma.in/smells/MC.html">Message Chains</a>, <a href="http://tusharma.in/smells/MM.html">Middle Man</a>, <a href="http://tusharma.in/smells/SMM.html">Middle Man</a>, <a href="http://tusharma.in/smells/SLCC.html">Long Calculation Chain</a>, <a href="http://tusharma.in/smells/TML.html">Too Many Layers</a><br/></p><p> Chain rules are a well-known smell in grammar engineering <a href="http://bibtex.github.io/IFM-2009-LammelZ.html">[IFM-2009-LammelZ]</a><a href="http://bibtex.github.io/SCAM-J-2009-LammelZ11.html">[SCAM-J-2009-LammelZ11]</a>: it happens when a nonterminal is defined with only one production rule which has exactly one nonterminal as its right hand side. The “inner” nonterminal acts like a middle man and does not play a significant rule in structural commitments of the grammar. In Fowler's words, “after a while it’s time to cut out the middle man and talk to the object that really knows what’s going on” <a href="https://martinfowler.com/books/refactoring.html">[Refactoring]</a>. </p><p></p>
 		<hr/>
 		<div class="last">
-			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
+			The GraSs taxonomy is a <a href="../credit.html">joint effort</a> maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
 			Page last updated in #LASTMOD#.
 			<valid/>
 		</div>

@@ -19,7 +19,8 @@
 		</script>
 	</head>
 	<body>
-<div style="text-align:center;"><a href="http://grammarware.github.io">Vadim Zaytsev</a> aka @<a href="http://grammarware.net">grammarware</a></div><hr/>		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
+<div style="text-align:center;"><a href="http://grammarware.github.io">Vadim Zaytsev</a> aka @<a href="http://grammarware.net">grammarware</a></div><hr/>		<img src="../www/grass.200.png" style="width:100px;height:100px;" class="flr" />
+		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
 		<hr/>
 		<div><span class="dwarf dim pic"><a href="organisation.html">Organisation<br/><span class="s">global problems</span></a></span></div>
 		<div><span class="dwarf dim pic"><a href="navigation.html">Navigation<br/><span class="s">problems with navigating through the grammar</span></a></span></div>
@@ -44,7 +45,7 @@
 			<p>Related smells: <a href="http://tusharma.in/smells/SATL.html">Subsystem-API Too Large</a>, <a href="http://tusharma.in/smells/LM.html">Long Method</a>, <a href="http://tusharma.in/smells/LPL.html">Long Parameter List</a>, <a href="http://tusharma.in/smells/CE.html">Complex Expression</a>, <a href="http://tusharma.in/smells/LS.html">Long Statement</a>, <a href="http://tusharma.in/smells/SMO.html">Multiple Operations</a>, <a href="http://tusharma.in/smells/SMR.html">Multiple References</a><br/></p><p> This smell is designed to recognise production rules which are too wide – that is, their right hand side is too long. There could be at least three different ways to define what is “too long”: </p><p> <ul> <li>The number of consequent terminals is too high, which is harmful because long streaks of consequent terminals obscure the syntactic structure.</li> <li>The number of nonterminals is too high, which is harmful because it requires knowledge about referenced nonterminals to debug a grammar (so we should not count preterminals).</li> <li>The number of metasymbols (stars, optionals, crosses, separator lists and other combinators) is too high, which is harmful because the importance of knowing the notation is stressed when a grammar engineer needs to understand such a production rule.</li> </ul> </p><p> The last option also correlates to the omnipresent notion of cyclomatic complexity (covered by the <a href="tooramose.html">TooRamose</a> smell), because many metasymbols imply branching that is done during parsing or analysing an instance. </p><p></p>
 		<hr/>
 		<div class="last">
-			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
+			The GraSs taxonomy is a <a href="../credit.html">joint effort</a> maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
 			Page last updated in June 2017.
 <br/><a href="http://validator.w3.org/check/referer"><img src="../www/xhtml.88.png" alt="XHTML 1.1" /></a>
 			<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="../www/css.88.png" alt="CSS 3" /></a>

@@ -4,6 +4,7 @@
 	<head viewport title="Echo in the GraSs">
 	<body>
 		<header/>
+		<img src="../www/grass.200.png" style="width:100px;height:100px;" class="flr" />
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
 		<hr/>
 		<pic dwarf>
@@ -78,7 +79,7 @@
 			<p></p><p> A nonterminal definition is echoed if it is included in the grammar several times, each of which is identical to any other. Echoes were found in the Java Language Specification as a result of manual (not tool supported) creation of both the grammar and language documentation. They were merged in the grammar extractor – that is, during the phase of converting the original HTML document to the first version of the grammar <a href="http://bibtex.github.io/SCAM-J-2009-LammelZ11.html">[SCAM-J-2009-LammelZ11, p.348]</a>. A similar error was observed earlier in the C\# standard <a href="http://grammarware.net/writes/#Too-Sharp2005">[Too-Sharp2005]</a> and later in other languages <a href="http://grammarware.net/writes/#Zoo2015">[Zoo2015]</a>.</p>
 		<hr/>
 		<div class="last">
-			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
+			The GraSs taxonomy is a <a href="../credit.html">joint effort</a> maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
 			Page last updated in #LASTMOD#.
 			<valid/>
 		</div>

@@ -4,6 +4,7 @@
 	<head viewport title="Common in the GraSs">
 	<body>
 		<header/>
+		<img src="../www/grass.200.png" style="width:100px;height:100px;" class="flr" />
 		<h1><a href="index.html">GraSs</a>: A Taxonomy of Grammar Smells</h1>
 		<hr/>
 		<pic dwarf>
@@ -78,7 +79,7 @@
 			<p>Related smells: <a href="http://tusharma.in/smells/DC.html">Data Clumps</a>, <a href="http://tusharma.in/smells/RW.html">Reinvent the Wheel</a>, <a href="http://tusharma.in/smells/DB.html">Duplicate Block</a>, <a href="http://tusharma.in/smells/SDF.html">Duplicated Formulas</a>, <a href="http://tusharma.in/smells/ACE.html">Connector Envy</a><br/></p><p> One step further, we may observe clones between two or more subexpressions found in different places in the grammar. The detection pattern is almost the same as with <a href="foldable.html">Foldable</a>, but the solution must involve creating a new nonterminal and then folding it (<em>extract</em> in the terminology of <a href="http://bibtex.github.io/IFM-2009-LammelZ.html">[IFM-2009-LammelZ]</a><a href="http://bibtex.github.io/SCAM-J-2009-LammelZ11.html">[SCAM-J-2009-LammelZ11]</a>). Since creating a new nonterminal implies inventing a new name for it, and only suboptimal heuristics are available, the removal of this smell cannot be properly fully automated. </p><p></p>
 		<hr/>
 		<div class="last">
-			The GraSs taxonomy was created and is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
+			The GraSs taxonomy is a <a href="../credit.html">joint effort</a> maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
 			Page last updated in #LASTMOD#.
 			<valid/>
 		</div>
