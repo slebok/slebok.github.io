@@ -98,12 +98,16 @@ function loadPaper(handle, res)
 				$('#past'+n).append('<em>' + $xml.find("title").text() + '</em>, '
 					+ $xml.find("booktitle").text() + ' '
 					+ $xml.find("year").text());
-				var dblpkey = $xml.find('inproceedings').attr('key');
+				var dblpkey = $xml.find('*[key]').attr('key');
 				$('#past'+n).append(' <a href="http://dblp.uni-trier.de/rec/html/' + dblpkey + '">[DBLP]</a>');
 				var $ee = $xml.find("ee");
 				$ee.each(function(){
 					if ($(this).text().includes('https://doi.org/'))
 						$('#past'+n).append(' <a href="' + $(this).text() + '">[DOI]</a>');
+					else if ($(this).text().includes('arxiv.org'))
+						$('#past'+n).append(' <a href="' + $(this).text() + '">[arXiv]</a>');
+					else if (!$(this).text().includes('doi'))
+						$('#past'+n).append(' <a href="' + $(this).text() + '">[URL]</a>');
 				});
 			}
 			else if (x.startsWith('phd:'))
@@ -126,21 +130,38 @@ function loadPaper(handle, res)
 				bib.bibsleigh = ''
 				enhanceLinks('links'+n, x.substring(10), bib);
 			}
+			else if (x.startsWith('book:'))
+			{
+				$('#past'+n).append('<img src="../www/book.png" />')
+				var bib = JSON.parse(url2text(base + 'book/' + x.substring(5) + '.json'));
+				console.log(bib);
+
+				$('#past'+n).append(bib.author + ', ');
+				$('#past'+n).append('<em>' + bib.title + '</em>, ');
+				if ('publisher' in bib)
+					$('#past'+n).append(bib.publisher + ', ');
+				$('#past'+n).append(bib.year + '.');
+				$('#past'+n).append(' <span id="links'+n+'"></span>');
+				bib.bibsleigh = ''
+				enhanceLinks('links'+n, x.substring(10), bib);
+			}
 			else if (x.startsWith('bibsleigh:'))
 			{
 				var bib = JSON.parse(url2text('https://raw.githubusercontent.com/slebok/bibsleigh/master/corpus/' + x.substring(10) + '.json'));
 				console.log(bib);
 
 				$('#past'+n).append('<img src="http://bibtex.github.io/stuff/' + bib.venue.toLowerCase() + '.png" />')
-				// TODO: make robust towards solo papers
-				$.each(bib.author, function(k,z) { $('#past'+n).append(z + ', '); });
+				if (bib.author.constructor === Array)
+					$.each(bib.author, function(k,z) { $('#past'+n).append(z + ', '); });
+				else
+					$('#past'+n).append(bib.author + ', ');
 				$('#past'+n).append('<em>' + bib.title + '</em>, <abbr title="' + bib.booktitle + '">' + bib.booktitleshort + '</abbr> '
-					+ bib.year + ', pp. ' + bib.pages.replace('-','–') + '.');
+					+ bib.year + ', pp. ' + (''+bib.pages).replace('-','–') + '.');
 				$('#past'+n).append(' <span id="links'+n+'"></span>');
 				enhanceLinks('links'+n, x.substring(10), bib);
 			}
 			else
-				$('#past' + n).append(x);
+				$('#past' + n).append('<span class="unclear">' + x + '</span>');
 		});
 	if ('future' in res)
 		$.each(res.future, function(n,x) {
