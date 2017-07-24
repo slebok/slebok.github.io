@@ -34,13 +34,14 @@
 		<hr/>
 		<h2>History</h2>
 		<ul>
-			<li><span class="date">25.03.2017</span> — DYOL v0.1, based on <a href="http://designwithintent.co.uk/docs/designwithintent_cards_1.0_draft_rev_sm.pdf">the DwI deck v1.0</a>; contained 57 cards</li>
-			<li><span class="date">24.04.2017</span> — DYOL v0.2, based on the DwI deck, 3 papers and <a href="books/index.html">24 books</a>; contains 96 cards.</li>
+			<li><span class="date">25.03.2017</span> — DYOL v0.1, based on <a href="http://designwithintent.co.uk/docs/designwithintent_cards_1.0_draft_rev_sm.pdf">the DwI deck v1.0</a>; contained 57 cards.</li>
+			<li><span class="date">24.04.2017</span> — DYOL v0.2, based on the DwI deck, 3 papers and <a href="books/index.html">24 books</a>; contained 96 cards. Archived: <a href="https://doi.org/10.6084/m9.figshare.5234581.v1">DOI:10.6084/m9.figshare.5234581</a>.</li>
+			<li><span class="date">??.??.2017</span> — work in progress towards DYOL v0.3</li>
 		</ul>
 		<h2>Publications / presentations</h2>
 		<ul>
-			<li>Vadim Zaytsev, <em><a href="http://grammarware.net/writes/index.html#Design2017">Language Design with Intent</a></em>, submitted to <a href="https://www.cs.utexas.edu/models2017/calls/call-papers">MoDELS’17</a>, pending reviews.</li>
-			<li>Vadim Zaytsev, <em><a href="http://grammarware.net/talks/index.html#SPLASHI2017">DYOL: Design a Language, Know the Consequences</a></em>, invited talk at <a href="http://2017.splashcon.org/track/splash-2017-SPLASH-I">SPLASH-I’17</a>.</li>
+			<li>Vadim Zaytsev, <em><a href="http://grammarware.net/writes/index.html#Design2017">Language Design with Intent</a></em>, in print. To be presented at <a href="https://www.cs.utexas.edu/models2017">MoDELS’17</a>.</li>
+			<li>Vadim Zaytsev, <em><a href="http://grammarware.net/talks/index.html#SPLASHI2017">DYOL: Design a Language, Know the Consequences</a></em>, invited talk. To be presented at <a href="http://2017.splashcon.org/track/splash-2017-SPLASH-I">SPLASH-I’17</a>.</li>
 		</ul>
 		<hr/>
 		<div class="last">

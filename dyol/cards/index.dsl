@@ -217,7 +217,7 @@
 		</pic>
 		<pic card>
 			<title>Comment</title>
-			<text>Comments are pieces of <a href="#Documentation">documentation</a> built directly into the source of the system. Most <a href="#IDE">IDEs</a> support comments visually by presenting them in a completely different colour, usually dimmer than the rest of the model, to focus developers on executable constructs first. In some languages like BibTeX or INTERCAL everything uncompilable is a comment.</text>
+			<text>Comments are pieces of <a href="#Documentation">documentation</a> built directly into the source of the system. Most <a href="#IDE">IDEs</a> support comments visually by presenting them in a completely different colour, usually dimmer than the rest of the model, to focus developers on executable constructs first. In some languages like BibTeX or INTERCAL everything uncompilable is a comment. Some comments like <a href="https://hackernoon.com/never-forget-anything-before-after-and-while-coding-98d187ae4cf1">codetags</a>, <a href="http://www.oracle.com/technetwork/java/javase/documentation/index-137868.html">Javadoc</a> or <a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments">Documentation Comments</a> are strictly or semi-structured.</text>
 			<src>P:Contrast</src>
 			<src>DB-RD:54</src>
 			<src>CC-DG:64</src>

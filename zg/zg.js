@@ -41,7 +41,7 @@ function enhanceLinks(where, handle, res)
 		$('#'+where).append('<a href="http://www.genealogy.ams.org/id.php?id=' + res.mgp + '">[MGP]</a>&nbsp;&nbsp;');
 	// universal
 	$('#'+where).append('<a href="https://www.google.com/search?q=%22' + res.title.split(' ').join('+') + '%22">[Google]</a>&nbsp;&nbsp;');
-	$('#'+where).append('<a href="https://scholar.google.be/scholar?q=%22' + res.title.split(' ').join('+') + '%22">[Scholar]</a>&nbsp;&nbsp;');
+	$('#'+where).append('<a href="https://scholar.google.com/scholar?q=%22' + res.title.split(' ').join('+') + '%22">[Scholar]</a>&nbsp;&nbsp;');
 }
 
 function loadEvent(handle, res)
