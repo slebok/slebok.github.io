@@ -7,6 +7,13 @@
 		<picdir>www</picdir>
 		<divclass>tile</divclass>
 		<pic>
+			<a>grass</a>
+			<img>grass.200.png</img>
+			<title>Grammar Smells</title>
+			<name>GraSs</name>
+			<text>a taxonomy of bad smells in grammars (2017–…)</text>
+		</pic>
+		<pic>
 			<a>dyol</a>
 			<img>dyol.200.png</img>
 			<title>Design Your Own Language</title>
