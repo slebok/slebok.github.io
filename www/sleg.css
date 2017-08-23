@@ -12,3 +12,4 @@ body {background-color:#CCC}
        column-count:4;column-gap:20px;}
 a.src {font-family:'Courier New',Courier,Monaco,mono}
 ul ul {padding-top:10px;padding-bottom:10px}
+.left img[alt="CC-BY-SA"] {max-width: 88px}

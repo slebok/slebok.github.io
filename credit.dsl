@@ -5,7 +5,7 @@
 		<div style="text-align:center;"><a href="http://slebok.github.io">Software Language Engineering Book of Knowledge</a></div><hr/>
 		<h1>
 			SLEBOK Acknowledgements
-			<img src="www/slebok.200.png" alt="SLEBOK" title="SLEBOK logo designed by Jean-Marie Favre, reconstructed by Vadim Zaytsev"/>
+			<img src="www/slebok2.200.png" alt="SLEBOK" title="SLEBOK logo designed by Jean-Marie Favre, reconstructed by Vadim Zaytsev"/>
 		</h1>
 		<p>
 			<strong>SL(E)BOK</strong> is an emerging community-based collaborative-oriented initiative
@@ -64,6 +64,7 @@
 				</ul>
 			</li>
 			<li><a href="http://www.dagstuhl.de/program/calendar/partlist/?semnr=17342&SUOG">Participants of the Dagstuhl Seminar on SLEBOK</a></li>
+			<li><a href="https://github.com/slebok/slebok/graphs/contributors">Contributors</a> to the <a href="https://github.com/slebok/slebok">@slebok/slebok</a> repository</li>
 		</ul>
 		<div class="last">
 			<br/><hr/>

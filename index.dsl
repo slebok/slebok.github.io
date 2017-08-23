@@ -60,7 +60,7 @@
 		</pic>
 		<pic>
 			<a>http://web.archive.org/web/20130324073945/http://planet-sl.org/slebok/index.php?option=com_content&amp;view=article&amp;id=202&amp;Itemid=514&amp;lang=en</a>
-			<img>slebok.200.png</img>
+			<img>slebok2.200.png</img>
 			<alt>SL(E)BOK 2.0 workshop at SLE 2012</alt>
 			<title>Software Languages, Linguistics and Language Engineering Body of Knowledge</title>
 			<name>SL(E)BOK@SLE</name>
