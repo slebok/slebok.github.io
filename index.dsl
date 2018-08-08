@@ -7,6 +7,13 @@
 		<picdir>www</picdir>
 		<divclass>tile</divclass>
 		<pic>
+			<a>slebok</a>
+			<img>slebok.200.png</img>
+			<title>Software Language Engineering Body of Knowledge</title>
+			<name>SLEBoK</name>
+			<text>an SLE community effort (2017–…)</text>
+		</pic>
+		<pic>
 			<a>grass</a>
 			<img>grass.200.png</img>
 			<title>Grammar Smells</title>
