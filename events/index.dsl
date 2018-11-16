@@ -14,7 +14,7 @@
 		<picdir>../www</picdir>
 		<divclass>tile</divclass>
 		<pic>
-			<a>http://www.sleconf.org/slebok-2018/</a>
+			<a>http://www.sleconf.org/2018</a>
 			<img>sle.200.png</img>
 			<title>International Conference on Software Language Engineering (conference)</title>
 			<name>SLE’18</name>
@@ -28,7 +28,7 @@
 			<text>a workshop specifically about SLEBoK, held at SPLASH</text>
 		</pic>
 		<pic>
-			<a>http://www.sleconf.org/2017/</a>
+			<a>http://www.sleconf.org/2017</a>
 			<img>sle.200.png</img>
 			<title>International Conference on Software Language Engineering (conference)</title>
 			<name>SLE’17</name>
@@ -42,7 +42,7 @@
 			<text>a SLEBoK seminar, held at Schloss Dagstuhl</text>
 		</pic>
 		<pic>
-			<a>http://www.sleconf.org/2016/</a>
+			<a>http://www.sleconf.org/2016</a>
 			<img>sle.200.png</img>
 			<title>International Conference on Software Language Engineering (conference)</title>
 			<name>SLE’16</name>
@@ -56,7 +56,7 @@
 			<text>a workshop about open and original problems in SLE, held at SANER</text>
 		</pic>
 		<pic>
-			<a>http://www.sleconf.org/2015/</a>
+			<a>http://www.sleconf.org/2015</a>
 			<img>sle.200.png</img>
 			<title>International Conference on Software Language Engineering (conference)</title>
 			<name>SLE’15</name>
@@ -70,7 +70,7 @@
 			<text>a workshop about open and original problems in SLE, held at SANER</text>
 		</pic>
 		<pic>
-			<a>http://www.sleconf.org/2014/</a>
+			<a>http://www.sleconf.org/2014</a>
 			<img>sle.200.png</img>
 			<title>International Conference on Software Language Engineering (conference)</title>
 			<name>SLE’14</name>
@@ -84,7 +84,7 @@
 			<text>a workshop about open and original problems in SLE, held at CSMR-WCRE</text>
 		</pic>
 		<pic>
-			<a>http://www.sleconf.org/2013/</a>
+			<a>http://www.sleconf.org/2013</a>
 			<img>sle.200.png</img>
 			<title>International Conference on Software Language Engineering (conference)</title>
 			<name>SLE’13</name>
@@ -99,7 +99,6 @@
 		</pic>
 		<pic>
 			<a>http://www.sleconf.org/2012/SLEBOK_SLE2012.html</a>
-			<!-- <a>http://web.archive.org/web/20130324073945/http://planet-sl.org/slebok/index.php?option=com_content&amp;view=article&amp;id=202&amp;Itemid=514&amp;lang=en</a> -->
 			<img>slebok2.200.png</img>
 			<alt>SL(E)BOK 2.0 workshop at SLE 2012</alt>
 			<title>Software Languages, Linguistics and Language Engineering Body of Knowledge</title>
@@ -107,7 +106,7 @@
 			<text>a workshop on constructing a body of knowledge, held at SLE’12</text>
 		</pic>
 		<pic>
-			<a>http://www.sleconf.org/2012/</a>
+			<a>http://www.sleconf.org/2012</a>
 			<img>sle.200.png</img>
 			<title>International Conference on Software Language Engineering (conference)</title>
 			<name>SLE’12</name>
@@ -121,21 +120,21 @@
 			<text>a working group at the SoTeSoLa’12 summer school</text>
 		</pic>
 		<pic>
-			<a>http://www.sleconf.org/2011/</a>
+			<a>http://www.sleconf.org/2011</a>
 			<img>sle.200.png</img>
 			<title>International Conference on Software Language Engineering (conference)</title>
 			<name>SLE’11</name>
 			<text>a conference on software languages, held with GTTSE</text>
 		</pic>
 		<pic>
-			<a>http://www.sleconf.org/2010/</a>
+			<a>http://www.sleconf.org/2010</a>
 			<img>sle.200.png</img>
 			<title>International Conference on Software Language Engineering (conference)</title>
 			<name>SLE’10</name>
 			<text>a conference on software languages, held with GPCE and FOSD</text>
 		</pic>
 		<pic>
-			<a>http://www.sleconf.org/2009/</a>
+			<a>http://www.sleconf.org/2009</a>
 			<img>sle.200.png</img>
 			<title>International Conference on Software Language Engineering (conference)</title>
 			<name>SLE’09</name>
@@ -149,7 +148,7 @@
 			<text>an event in the GTTSE’09 summer school programme</text>
 		</pic>
 		<pic>
-			<a>http://www.sleconf.org/2008/</a>
+			<a>http://www.sleconf.org/2008</a>
 			<img>sle.200.png</img>
 			<title>International Conference on Software Language Engineering (conference)</title>
 			<name>SLE’08</name>
