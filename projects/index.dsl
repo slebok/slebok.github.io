@@ -21,6 +21,13 @@
 			<text>a body of knowledge for model-based software engineering (2018)</text>
 		</pic>
 		<pic>
+			<a>https://amzn.to/2RXUuNE</a>
+			<img>slebook.jpg</img>
+			<alt>Software Languages: Syntax, Semantics, and Metaprogramming</alt>
+			<name>Software Languages</name>
+			<text>a new book about software language engineering (2018)</text>
+		</pic>
+		<pic>
 			<a>../grass</a>
 			<img>grass.200.png</img>
 			<title>Grammar Smells</title>
