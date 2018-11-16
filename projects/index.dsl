@@ -14,6 +14,13 @@
 		</p>
 		<hr/>
 		<pic>
+			<a>https://hal.archives-ouvertes.fr/hal-01886114</a>
+			<img>mbebok.png</img>
+			<alt>Towards a Body of Knowledge for Model-Based Software Engineering</alt>
+			<name>MBEBOK</name>
+			<text>a body of knowledge for model-based software engineering (2018)</text>
+		</pic>
+		<pic>
 			<a>../grass</a>
 			<img>grass.200.png</img>
 			<title>Grammar Smells</title>
@@ -28,20 +35,19 @@
 			<text>a software language design toolkit (VZ, 2017)</text>
 		</pic>
 		<pic>
-			<a>../zoo</a>
-			<img>zoo.200.png</img>
-			<alt>SLPS Grammar Zoo</alt>
-			<title>Accumulating grammars of contemporary programming languages, extracted and recovered from language documentation, parser specifications and other artefacts and make them available in a range of formats</title>
-			<name>Grammar Zoo</name>
-			<text>collection of extracted grammars in a broad sense (VZ, 2009)</text>
-		</pic>
-		<pic>
 			<a>http://bibtex.github.io/</a>
 			<img>bibsleigh.200.png</img>
 			<alt>BibSLEIGH</alt>
 			<title>BibSLEIGH: Bibliography of Software Language Engineering in Generated Hypertext</title>
 			<name>BibSLEIGH</name>
 			<text>an interactive BibTeX browser and formatter (VZ, 2014)</text>
+		</pic>
+		<pic>
+			<a>http://grammarware.github.io/parsing</a>
+			<img>pitbs.200.png</img>
+			<name>(Un)Parsing\nin a broad sense</name>
+			<title>Bidirectional Megamodel of Parsing</title>
+			<text>a bidirectional megamodel of (un)parsing in a broad sense (2014)</text>
 		</pic>
 		<pic>
 			<a>https://github.com/slebok/yabib</a>
@@ -52,6 +58,28 @@
 			<text>an annotated SLE bibliography presented by Ralf Lämmel at OOPSLE (2013)</text>
 		</pic>
 		<pic>
+			<a>https://www.sebokwiki.org/wiki/Guide_to_the_Systems_Engineering_Body_of_Knowledge_(SEBoK)</a>
+			<img>mbebok.png</img>
+			<alt>Guide to the Systems Engineering Body of Knowledge</alt>
+			<name>SEBoK</name>
+			<text>the systems engineering body of knowledge (2010), v.1.9.1 (2018)</text>
+		</pic>
+		<pic>
+			<a>https://technicspub.com/dmbok/</a>
+			<img>dmbok.png</img>
+			<alt>Guide to the Data Management Body of Knowledge</alt>
+			<name>DMBOK</name>
+			<text>the data management body of knowledge (2010), v.2 (2017)</text>
+		</pic>
+		<pic>
+			<a>../zoo</a>
+			<img>zoo.200.png</img>
+			<alt>SLPS Grammar Zoo</alt>
+			<title>Accumulating grammars of contemporary programming languages, extracted and recovered from language documentation, parser specifications and other artefacts and make them available in a range of formats</title>
+			<name>Grammar Zoo</name>
+			<text>collection of extracted grammars in a broad sense (VZ, 2009)</text>
+		</pic>
+		<pic>
 			<a>../sleg</a>
 			<img>sleg.200.png</img>
 			<alt>Software Language Engineering Glossary</alt>
@@ -59,6 +87,33 @@
 			<name>SLEG</name>
 			<text>an SLE glossary (VZ ~2009), superseded by SLEBoK terms</text>
 		</pic>
+		<pic>
+			<a>https://en.wikipedia.org/wiki/Body_of_knowledge</a>
+			<img>wiki.200.png</img>
+			<name>Body of Knowledge</name>
+			<text>an encyclopedic definition of “body of knowledge” (2007)</text>
+		</pic>
+		<pic>
+			<a>https://www.isa.org/store/a-guide-to-the-automation-body-of-knowledge,-third-edition/60891879</a>
+			<img>abok.png</img>
+			<alt>A Guide to the Automation Body of Knowledge, Third Edition</alt>
+			<name>ABOK</name>
+			<text>a guide to the automation engineering body of knowledge (2006), 3 ed. (2018)</text>
+		</pic>
+		<pic>
+			<a>https://www.computer.org/web/swebok</a>
+			<img>swebok.png</img>
+			<alt>Guide to the Software Engineering Body of Knowledge V3.0</alt>
+			<name>SWEBOK</name>
+			<text>a guide to the software engineering body of knowledge (2004), v.3 (2014)</text>
+		</pic>
+		<pic>
+			<a>http://web.imt-atlantique.fr/x-info/atlanmod/index.php?title=Zoos</a>
+			<img>atlanmod.png</img>
+			<alt>Atlantic Metamodel Zoo</alt>
+			<name>Atlantic Zoo</name>
+			<text>a repository of metamodels in various formats (2003)</text>
+		</pic>		
 		<div class="last">
 			<br/><hr/>
 			This initiative involves <a href="../credit.html">many people</a>.
