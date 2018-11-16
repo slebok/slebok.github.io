@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta http-equiv="x-ua-compatible" content="IE=9"/>
 		<meta name="viewport" content="initial-scale=1.0"/>
-		<title>SLEBOK: Software Language Engineering Book of Knowledge</title>
+		<title>SLEBoK: Software Language Engineering Book of Knowledge</title>
 		<link href="www/common.css" rel="stylesheet" type="text/css" />
 		<script type="text/javascript">
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -19,22 +19,38 @@
 		</script>
 	</head>
 	<body>
-		<hr/>
-		<div class="tile"><a href="slebok/index.html"><span class="pic"><img src="www/slebok.200.png" alt="SLEBoK" title="Software Language Engineering Body of Knowledge"/><br/>SLEBoK<span class="p">an SLE community effort (2017–…)</span></span></a></div>
-		<div class="tile"><a href="grass/index.html"><span class="pic"><img src="www/grass.200.png" alt="GraSs" title="Grammar Smells"/><br/>GraSs<span class="p">a taxonomy of bad smells in grammars (2017–…)</span></span></a></div>
-		<div class="tile"><a href="dyol/index.html"><span class="pic"><img src="www/dyol.200.png" alt="DYOL" title="Design Your Own Language"/><br/>DYOL<span class="p">a software language design toolkit (2017–…)</span></span></a></div>
-		<div class="tile"><a href="http://oopsle.github.io/"><span class="pic"><img src="www/oopsle.200.png" alt="OOPSLE" title="International Workshop on Open and Original Problems in Software Language Engineering"/><br/>OOPSLE<span class="p">a workshop about open and original problems in SLE (2013–…)</span></span></a></div>
-		<div class="tile"><a href="http://www.sleconf.org/"><span class="pic"><img src="www/sle.200.png" alt="SLE" title="International Conference on Software Language Engineering (SLE)"/><br/>SLE<span class="p">a conference on software languages (2008–…)</span></span></a></div>
-		<div class="tile"><a href="zoo/index.html"><span class="pic"><img src="www/zoo.200.png" alt="SLPS Grammar Zoo" title="Accumulating grammars of contemporary programming languages, extracted and recovered from language documentation, parser specifications and other artefacts and make them available in a range of formats"/><br/>Grammar Zoo<span class="p">collection of extracted grammars in a broad sense (2009–…)</span></span></a></div>
-		<div class="tile"><a href="http://bibtex.github.io/"><span class="pic"><img src="www/bibsleigh.200.png" alt="BibSLEIGH" title="BibSLEIGH: Bibliography of Software Language Engineering in Generated Hypertext"/><br/>BibSLEIGH<span class="p">interactive bibtex browser and formatter<br/>(2014–…)</span></span></a></div>
-		<div class="tile"><a href="https://github.com/slebok/yabib"><span class="pic"><img src="www/yabib.200.png" alt="Yet another annotated SLEBOK bibliography" title="An extensive annotated bibliography of key publications in the area of Software Language Engineering"/><br/>YABIB<span class="p">annotated SLEBOK bibliography (2013–…)</span></span></a></div>
-		<div class="tile"><a href="http://web.archive.org/web/20130324073945/http://planet-sl.org/slebok/index.php?option=com_content&amp;view=article&amp;id=202&amp;Itemid=514&amp;lang=en"><span class="pic"><img src="www/slebok2.200.png" alt="SL(E)BOK 2.0 workshop at SLE 2012" title="Software Languages, Linguistics and Language Engineering Body of Knowledge"/><br/>SL(E)BOK@SLE<span class="p">a workshop on constructing a body of knowledge (2012)</span></span></a></div>
-		<div class="tile"><a href="sleg/index.html"><span class="pic"><img src="www/sleg.200.png" alt="Software Language Engineering Glossary" title="Collecting various terms used by software language engineers across natural languages"/><br/>SLEG<span class="p">a software language engineering glossary in development</span></span></a></div>
+		<div class="slebok">
+			<img src="www/slebok.200.png" style="width:200px;height:200px;" class="flr" />
+			<h1>SLEBoK (Software Language Engineering Body of Knowledge)</h1>
+<h2>General Description</h2>
+<p>The field of software language engineering (SLE) has emerged based on a strong motivation to connect and integrate different research disciplines such as compiler
+construction, reverse engineering, software transformation, model-driven engineering, and ontologies. SLE is defined as the application of systematic, disciplined, and measurable approaches to the development, deployment, use, and maintenance of software languages.</p>
+<p>The <em>Software Language Engineering Body of Knowledge</em> (SLEBoK) is a community-wide effort to provide a unique and comprehensive description of the concepts, tools and methods developped by the SLE community. It features artefacts, definitions, methods, techniques, best practices, open challenges, case studies, teaching material, and other components that would help students, researchers, teachers, and practitioners to learn from, to better leverage, to better contribute to, and to better disseminate the intellectual contributions and practical tools and techniques coming from the SLE field.</p>
+<p>The SLEBoK has been initiated during the <a href="http://www.dagstuhl.de/about-dagstuhl/searchbox/?catchword=17342">SLEBoK Dagstuhl Seminar</a> in August, 2017, exactly one decade after the advent of SLE as a scientific field (<a href="http://www.sleconf.org/2008/">SLE 2008</a> in Toulouse, France) to continue working on ideas of earlier initiatives like <a href="http://www.sleconf.org/2012/SLEBOK_SLE2012.html">SL(E)BOK @ SLE 2012</a> and extend them. The SLEBoK is expected to continuously involve, reflecting an up-to-date view on SLE.</p>
+<p>Should you need further information regarding SLEBoK, feel free to contact the Editor-in-Chief (EiC). The current SLEBoK EiC is <a href="http://grammarware.net">Dr. Vadim Zaytsev</a> (<a href="http://grammarware.github.io">@grammarware</a>).</p>
+<h2>How to ...</h2>
+<h3>Use the SLEBoK</h3>
+<p>The SLEBoK is provided as a Github repository. We recommend users to browse directly the SLEBoK through Github, or to clone the repository for local consultations.</p>
+<p>The SLEBoK is currently composed of the following main sections that the reader may consult:</p>
+<ul>
+<li><a href="https://github.com/slebok/slebok/tree/master/terms">terms</a>: provides a glossary and precise definitions of the concepts used and developped in SLE.</li>
+<li><a href="https://github.com/slebok/slebok/tree/master/topics">topics</a>: connects terms into broader categories to form a proper taxonomy and eventually ontology.</li>
+<li><a href="https://github.com/slebok/slebok/tree/master/literature">literature</a>: provides several reviews of the litterature on specific topics related to SLE.</li>
+<li><a href="https://github.com/slebok/slebok/tree/master/tools">tools</a>: provides the description of some SLE tools.</li>
+<li><a href="https://github.com/slebok/slebok/tree/master/usecases">usecases</a>: describes relevant scenarios for SLE.</li>
+<li><a href="https://github.com/slebok/slebok/tree/master/teaching">teaching</a>: provides materials about existing courses, and insights regarding an SLE curriculum.</li>
+</ul>
+<h3>Contribute to the SLEBoK</h3>
+<p>Contributions can be made through pull requests. Github issues are also used for discussing the contributions, and for community-wise discussions.</p>
+<p>The <a href="http://slebok.slack.com">SLEBoK Slack channel</a> is also available to discuss any improvements of the SLEBoK (content, structure, etc.):</p>
+<h2>Acknowledgement</h2>
+<p>The SLEBoK would not have been possible without the initial set up provided by the <a href="http://www.dagstuhl.de/program/calendar/partlist/?semnr=17342&amp;SUOG">Dagstuhl Seminar 17342 Participants</a>.</p>
+		</div>
 		<div class="last">
 			<br/><hr/>
 			This initiative involves <a href="credit.html">many people</a>.
 			The website is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
-			Last updated: August 2018.
+			Last updated: November 2018.
 <br/><a href="http://validator.w3.org/check/referer"><img src="www/xhtml.88.png" alt="XHTML 1.1" /></a>
 			<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="www/css.88.png" alt="CSS 3" /></a>
 		</div>

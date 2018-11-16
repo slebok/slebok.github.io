@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<path css="www" img="www"/>
+<path css="../www" img="../www"/>
 <html doctype>
-	<head viewport title="SLEBOK: Software Language Engineering Book of Knowledge">
+	<head viewport title="SLEBOK: Software Language Engineering Book of Knowledge - projects">
 	<body>
 		<hr/>
-		<picdir>www</picdir>
+		<picdir>../www</picdir>
 		<divclass>tile</divclass>
 		<pic>
-			<a>slebok</a>
+			<a>..</a>
 			<img>slebok.200.png</img>
 			<title>Software Language Engineering Body of Knowledge</title>
 			<name>SLEBoK</name>
 			<text>an SLE community effort (2017–…)</text>
 		</pic>
 		<pic>
-			<a>grass</a>
+			<a>../grass</a>
 			<img>grass.200.png</img>
 			<title>Grammar Smells</title>
 			<name>GraSs</name>
 			<text>a taxonomy of bad smells in grammars (2017–…)</text>
 		</pic>
 		<pic>
-			<a>dyol</a>
+			<a>../dyol</a>
 			<img>dyol.200.png</img>
 			<title>Design Your Own Language</title>
 			<name>DYOL</name>
@@ -42,7 +42,7 @@
 			<text>a conference on software languages (2008–…)</text>
 		</pic>
 		<pic>
-			<a>zoo</a>
+			<a>../zoo</a>
 			<img>zoo.200.png</img>
 			<alt>SLPS Grammar Zoo</alt>
 			<title>Accumulating grammars of contemporary programming languages, extracted and recovered from language documentation, parser specifications and other artefacts and make them available in a range of formats</title>
@@ -74,7 +74,7 @@
 			<text>a workshop on constructing a body of knowledge (2012)</text>
 		</pic>
 		<pic>
-			<a>sleg</a>
+			<a>../sleg</a>
 			<img>sleg.200.png</img>
 			<alt>Software Language Engineering Glossary</alt>
 			<title>Collecting various terms used by software language engineers across natural languages</title>
