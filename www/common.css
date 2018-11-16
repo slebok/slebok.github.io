@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
-body {color:#033; background-color:#AAA; font-family:"Futura", "Montserrat", sans-serif}
+body {color:#033; background-color:#AAA; font-family:"Segoe UI", "Futura", sans-serif}
 div.card p {font-family:"Futura", "Montserrat", sans-serif}
 .pic .p {color:#003355; padding-top:5px}
 .pic {float:left; text-align:center; width:150px; height:250px; margin:5px; font-weight:bold; border:2px solid #888}
@@ -13,6 +13,7 @@ br {clear:both}
 .last {width:100%; text-align:right; font-style:italic; font-size:smaller}
 .dyolast {width:100%; font-style:italic; margin-bottom: 6em;}
 .dyolast img {margin-top: 2em;}
+.tile {font-family:"Futura", "Montserrat", sans-serif;}
 .tile a:link, .tile a:visited {color:#EEF}
 a:link, a:visited {color:#039}
 .pic:hover, .double:hover {background-color:#888}
