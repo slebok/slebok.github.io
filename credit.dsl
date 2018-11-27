@@ -2,7 +2,7 @@
 <html doctype>
 	<head title="SLEBOK — Attribution"/>
 	<body>
-		<div style="text-align:center;"><a href="http://slebok.github.io">Software Language Engineering Book of Knowledge</a></div><hr/>
+		<div style="text-align:center;"><a href="http://slebok.github.io">Software Language Engineering Body of Knowledge</a></div><hr/>
 		<h1>
 			SLEBOK Acknowledgements
 			<img src="www/slebok.200.png" alt="SLEBOK" title="SLEBoK logo by Vadim Zaytsev in collaboration with Pieter Bruegel the Elder" />

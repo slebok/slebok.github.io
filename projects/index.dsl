@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <path css="../www" img="../www"/>
 <html doctype>
-	<head viewport title="SLEBOK: Software Language Engineering Book of Knowledge - projects">
+	<head viewport title="SLEBOK: Software Language Engineering Body of Knowledge - projects">
 	<body>
 		<picdir>../www</picdir>
 		<divclass>tile</divclass>
-		<div style="text-align:center;"><a href="http://slebok.github.io">Software Language Engineering Book of Knowledge</a></div>
+		<div style="text-align:center;"><a href="http://slebok.github.io">Software Language Engineering Body of Knowledge</a></div>
 		<hr/>
 		<p>
 			On this page we collect links to project related or useful to SLEBoK.

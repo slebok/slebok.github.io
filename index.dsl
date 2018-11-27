@@ -1,6 +1,6 @@
 <path css="www" img="www"/>
 <html doctype>
-	<head title="SLEBoK: Software Language Engineering Book of Knowledge"/>
+	<head title="SLEBoK: Software Language Engineering Body of Knowledge"/>
 	<body>
 		<img src="www/slebok.200.png" style="width:200px;height:200px;" class="flr" />
 		<h1>SLEBoK (Software Language Engineering Body of Knowledge)</h1>
