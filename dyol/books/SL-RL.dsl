@@ -4,19 +4,21 @@
 	<body>
 		<header/>
 		<h1>
-			<a href="http://www.softlang.org/book"><img src="SL-RL.png" alt="Kwasnik/Dünker/Sheehy/Void/Lämmel's artwork that will end up on the cover of the book"/></a>
+			<a href="https://amzn.to/2TZV7bC"><img src="SL-RL.jpg" alt="Kwasnik/Dünker/Sheehy/Void/Lämmel's artwork on the cover of the book"/></a>
 			<abbr title="DYOL is pronounced like 'duel' in English">DYOL</abbr>:
 			<a href="../index.html">Design Your Own Language</a>
 		</h1>
 		<h2><a href="index.html">Book sources</a> — <span class="b sl">Software Languages</span> — Ralf Lämmel</h2>
-		<p>R. Lämmel, <a href="http://www.softlang.org/book"><em>Software Languages: Syntax, Semantics, and Metaprogramming</em></a>, Springer, TBA.</p>
+		<p>R. Lämmel, <a href="http://www.softlang.org/book"><em>Software Languages: Syntax, Semantics, and Metaprogramming</em></a>, Springer, 2018.</p>
 		<pre>
 @book{SL-RL,
 	title     = "{Software Languages: Syntax, Semantics, and Metaprogramming}",
 	author    = "Ralf Lämmel",
 	publisher = "Springer",
-	year      = 2017,
-	note      = "In print. Marked version of 27 March 2017."
+	isbn      = "978-3-319-90800-7",
+	doi       = "10.1007/978-3-319-90800-7",
+	year      = 2018,
+	note      = "Marked version of 27 March 2017."
 }
 		</pre>
 		<p>

@@ -160,9 +160,9 @@
 		</pic>
 		<pic wb>
 			<a>SL-RL.html</a>
-			<img>SL-RL.png</img>
+			<img>SL-RL.jpg</img>
 			<name>SL-RL</name>
-			<text>Software Languages: Syntax, Semantics, and Metaprogramming (Lämmel, 2017)</text>
+			<text>Software Languages: Syntax, Semantics, and Metaprogramming (Lämmel, 2018)</text>
 		</pic>
 		<hr/>
 		<div class="last">
