@@ -6,6 +6,7 @@
 		<h1>SLEBoK (Software Language Engineering Body of Knowledge)</h1>
 		<h2 style="text-align:center">
 			<a href="events">Events</a> •
+			<a href="stories">Stories</a> •
 			<a href="projects">Projects</a> •
 			<a href="#gd">Description</a> •
 			<a href="#how">How to…</a> •
