@@ -1,7 +1,8 @@
-SL(E)BOK
+SLEBoK
 ========
 
-SL(E)BOK 2.0 is an emerging community-based collaborative-oriented project that aims at creating and maintaining a Body of Knowledge(BOK) about Software Languages, Software Linguistics and Software Language Engineering (SL(E)).
+The [Software Language Engineering Body of Knowledge](http://slebok.github.io/) (SLEBoK) is a community-wide effort to provide a unique and comprehensive description of the concepts, tools and methods developped by the SLE community. It features artefacts, definitions, methods, techniques, best practices, open challenges, case studies, teaching material, and other components that would help students, researchers, teachers, and practitioners to learn from, to better leverage, to better contribute to, and to better disseminate the intellectual contributions and practical tools and techniques coming from the SLE field.
 
-SL(E)BOK has offically launched as a [http://planet-sl.org/slebok](workshop) colocated with the conference of Software Language Engineering — [http://planet-sl.org/sle2012](SLE 2012) in Dresden.
+For more information, go to http://slebok.github.io
 
+For contacting the Editor in Сhief of SLEBoK, get in touch with [@grammarware](https://github.com/grammarware/).
