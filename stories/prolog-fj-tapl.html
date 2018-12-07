@@ -60,87 +60,87 @@ v  ::= new C(<span class="over">v</span>)
 <p>This (start) rule is implicit in TAPL. The (non-ground) term <code>program(P)</code> that is an argument to the start nonterminal <code>'P'</code> (quoted because in Prolog, unquoted identifiers starting with a capital letter are interpreted as variables) serves the construction of the syntax tree; the (root) node is a term of type <code>program</code>. (Unfortunately, Prolog is untyped and SWI-Prolog has no way of declaring structs.) <code>repeating</code> is a meta-predicate that implements the Kleene star for its argument, a nonterminal. In the above rule, it effects to <code>P</code> being unified with a list of nodes representing class definitions (possibly empty).</p>
 <pre><code class="lang-prolog">&#39;CL&#39;(class(C, D, F, K, M)) →
     keyword(&quot;class&quot;),
-    identifier(C), % class name
+    identifier(C), <span class="code-cmt">% class name</span>
     keyword(&quot;extends&quot;),
-    identifier(D), % superclass name; &#39;C&#39; in the original grammar!
+    identifier(D), <span class="code-cmt">% superclass name; &#39;C&#39; in the original grammar<span class="code-kw">!</span></span>
     symbol(&quot;{&quot;),
-    repeating(&#39;F&#39;(F)), % field declarations
-    &#39;K&#39;(K), % konstructor
-    repeating(&#39;M&#39;(M)), % method definitions
+    repeating(&#39;F&#39;(F)), <span class="code-cmt">% field declarations</span>
+    &#39;K&#39;(K), <span class="code-cmt">% konstructor</span>
+    repeating(&#39;M&#39;(M)), <span class="code-cmt">% method definitions</span>
     symbol(&quot;}&quot;).
 &#39;F&#39;(field(C, F)) →
-    identifier(C), % name of field type
-    identifier(F), % field name
+    identifier(C), <span class="code-cmt">% name of field type</span>
+    identifier(F), <span class="code-cmt">% field name</span>
     symbol(&quot;;&quot;).
 </code></pre>
 <p>The metavariable <em>C</em> from the original grammar (where it represents class names) translates to a logic variable. Deviating from what the original grammar seems to suggest, different logic variables <code>C</code> and <code>D</code> are introduced for the two occurrences of <em>C</em> in the original grammar. This is necessary because unlike for a metavariable in the syntax specification, multiple occurrences of a logic variable in the same rule express equality of whatever gets substituted for them. The rule <code>'CL'</code> also introduces a new non-terminal <code>'F'</code>, which is required so as to be able to use the metapredicate <code>repeating</code> for accepting sequences of field declarations.</p>
 <pre><code class="lang-prolog">&#39;K&#39;(constructor(C, X, SF, TF)) →
-    identifier(C), % name of class
+    identifier(C), <span class="code-cmt">% name of class</span>
     symbol(&quot;(&quot;),
-    repeating(variable(X), &quot;,&quot;), % formals (&quot;variables&quot;)
+    repeating(variable(X), &quot;,&quot;), <span class="code-cmt">% formals (&quot;variables&quot;)</span>
     symbol(&quot;)&quot;),
     symbol(&quot;{&quot;),
     keyword(&quot;super&quot;),
     symbol(&quot;(&quot;),
-    repeating(identifier(SF), &quot;,&quot;), % actuals (super fields)
+    repeating(identifier(SF), &quot;,&quot;), <span class="code-cmt">% actuals (super fields)</span>
     symbol(&quot;)&quot;),
     symbol(&quot;;&quot;),
-    repeating(init(TF)), % initialization
+    repeating(init(TF)), <span class="code-cmt">% initialization</span>
     symbol(&quot;}&quot;).
 init(init(F, X)) →
-    identifier(&quot;this&quot;), % &quot;this&quot; is a variable, not a keyword
+    identifier(&quot;this&quot;), <span class="code-cmt">% &quot;this&quot; is a variable, not a keyword</span>
     symbol(&quot;.&quot;),
-    identifier(F), % field name
+    identifier(F), <span class="code-cmt">% field name</span>
     symbol(&quot;=&quot;),
-    identifier(X), % var name
+    identifier(X), <span class="code-cmt">% var name</span>
     keyword(&quot;;&quot;).
 </code></pre>
-<p>The rule for constructors (<code>'K'</code>) uses a variant of <code>repeating</code> specifying a separator. The new nonterminal <code>init</code> was introduced for the same reason as <code>'F'</code> above; note that, unlike the original grammar, it binds to the variable <code>TF</code> a list of pairs (where the original grammar binds a pair of lists to two metavariables <em>f</em> overlined).</p>
+<p>The rule for constructors (<code>'K'</code>) uses a variant of <code>repeating</code> specifying a separator. The new nonterminal <code>init</code> was introduced for the same reason as <code>'F'</code> above; note that, unlike the original grammar, it binds to the variable <code>TF</code> a list of pairs (where the original grammar binds a pair of lists to two metavariables <em><span class="over">f</span></em>).</p>
 <pre><code class="lang-prolog">&#39;M&#39;(method(C, M, X, T)) →
-    identifier(C), % name of return type
-    identifier(M), % method name
+    identifier(C), <span class="code-cmt">% name of return type</span>
+    identifier(M), <span class="code-cmt">% method name</span>
     symbol(&quot;(&quot;),
-    repeating(variable(X), &quot;,&quot;), % formals (&quot;variables&quot;)
+    repeating(variable(X), &quot;,&quot;), <span class="code-cmt">% formals (&quot;variables&quot;)</span>
     symbol(&quot;)&quot;),
     symbol(&quot;{&quot;),
     keyword(&quot;return&quot;),
-    &#39;t&#39;(T), % term
+    &#39;t&#39;(T), <span class="code-cmt">% term</span>
     symbol(&quot;;&quot;),
     symbol(&quot;}&quot;).
 variable(variable(C, X)) →
-    identifier(C), % name of type
-    identifier(X). % variable name
+    identifier(C), <span class="code-cmt">% name of type</span>
+    identifier(X). <span class="code-cmt">% variable name</span>
 </code></pre>
 <p>Again, a new nonterminal <code>variable</code> was introduced for the purpose of handling repetition.</p>
-<pre><code class="lang-prolog">t(cast(C, T)) → % cast
+<pre><code class="lang-prolog">t(cast(C, T)) → <span class="code-cmt">% cast</span>
     symbol(&quot;(&quot;),
-    identifier(C), % name of target type
+    identifier(C), <span class="code-cmt">% name of target type</span>
     symbol(&quot;)&quot;),
     t(T).
-t(T) →     % expanded to cater for left recursion
-    e(E),    % and left associativity of member access
+t(T) →     <span class="code-cmt">% expanded to cater for left recursion</span>
+    e(E),    <span class="code-cmt">% and left associativity of member access</span>
     m(E, T).
-t(T) →     % cater for parenthesized receivers (not in original FJ syntax)
+t(T) →     <span class="code-cmt">% cater for parenthesized receivers (not in original FJ syntax)</span>
     symbol(&quot;(&quot;),
     t(E),
     symbol(&quot;)&quot;),
     m(E, T).
-e(varaccess(X)) → % variable
+e(varaccess(X)) → <span class="code-cmt">% variable</span>
     identifier(X).
-e(new(C, A)) → % object creation
+e(new(C, A)) → <span class="code-cmt">% object creation</span>
     keyword(&quot;new&quot;),
     identifier(C),
     symbol(&quot;(&quot;),
     repeating(t(A), &quot;,&quot;),
     symbol(&quot;)&quot;).
-% member access terms
-m(T, T) → % no member access
+<span class="code-cmt">% member access terms</span>
+m(T, T) → <span class="code-cmt">% no member access</span>
     empty.
-m(R, T) → % field access
+m(R, T) → <span class="code-cmt">% field access</span>
     symbol(&quot;.&quot;),
     identifier(F),
     m(faccess(R, F), T).
-m(R, T) → % method invocation
+m(R, T) → <span class="code-cmt">% method invocation</span>
     symbol(&quot;.&quot;),
     identifier(M),
     symbol(&quot;(&quot;),
@@ -152,7 +152,7 @@ m(R, T) → % method invocation
 <p>Note that the parser uses backtracking, and that the grammar is unambiguous.</p>
 <pre><code class="lang-prolog">v(new(C, Vs)) →
     keyword(&quot;new&quot;),
-    [C], % identifier(C) does not work in string generation mode
+    [C], <span class="code-cmt">% identifier(C) does not work in string generation mode</span>
     symbol(&quot;(&quot;),
     repeating(v(Vs), &quot;,&quot;),
     symbol(&quot;)&quot;).
@@ -172,16 +172,16 @@ m(R, T) → % method invocation
 </ol>
 <h3>Implementation in Prolog</h3>
 <p>The original subtype rules of Fig. 19-1 are not immediately accommodated by Prolog's operational semantics. Here is an amalgamation of the three rules into two:</p>
-<pre><code class="lang-prolog">subtype(C, C, _) :- !.
-subtype(C, D, P) :-
+<pre><code class="lang-prolog">subtype(C, C, _) <span class="code-kw">:-</span> <span class="code-kw">!</span>.
+subtype(C, D, P) <span class="code-kw">:-</span>
     P = program(CL),
-    memberchk(class(C, E, _, _, _), CL), !,
+    memberchk(class(C, E, _, _, _), CL), <span class="code-kw">!</span>,
     subtype(E, D, P).
 </code></pre>
 <p>@{Ralf, Vadim}%CHECKME: Any idea how to make Prolog reflect the original specification more directly?</p>
 <p>Note that the logic variables <code>C</code>, <code>D</code>, and <code>E</code> may be instantiated with the same class name. That is, the rules are a materialization of the assumption that <em>C</em>, <em>D</em>, and <em>E</em> in Fig. 19-1, right, may represent the same identifier.</p>
 <pre><code class="lang-prolog">subtype([], [], _).
-subtype([C|Cs], [D|Ds], P) :-
+subtype([C|Cs], [D|Ds], P) <span class="code-kw">:-</span>
     subtype(C, D, P),
     subtype(Cs, Ds, P).
 </code></pre>
@@ -190,63 +190,87 @@ subtype([C|Cs], [D|Ds], P) :-
 <h2>Evaluation</h2>
 <h3>Original Evaluation Rules</h3>
 <p>The evaluation rules of FJ are given in Fig. 19-3 of TAPL:</p>
-<p><img src="TAPL%20Fig.%2019-3.png" alt="TAPL Fig. 19-3" title="Evaluation" /></p>
+<pre><code>   <em>fields</em>(C) = <span class="over">C</span> <span class="over">f</span>
+—————————————————————— (E-ProjNew)
+  (new C(<span class="over">v</span>)).f<sub>i</sub> → v<sub>i</sub>  
+            <em>mbody</em>(m,C) = (<span class="over">x</span>, t<sub>0</sub>)
+———————————————————————————————————————————————— (E-InvkNew)
+(new C(<span class="over">v</span>)).m(<span class="over">u</span>) → [<span class="over">x</span> :→ <span class="over">u</span>, this :→ new C(<span class="over">v</span>)] t<sub>0</sub>
+        C &lt;: D
+———————————————————————— (E-CastNew)
+(D)(new C(<span class="over">v</span>)) → new C(<span class="over">v</span>)
+  t<sub>0</sub> → t'<sub>0</sub>
+———————————— (E-Field)
+t<sub>0</sub>.f → t'<sub>0</sub>.f
+      t<sub>0</sub> → t'<sub>0</sub>
+——————————————————— (E-Invk-Recv)
+t<sub>0</sub>.m(<span class="over">t</span>) → t'<sub>0</sub>.m(<span class="over">t</span>)
+         t<sub>i</sub> → t'<sub>i</sub>
+———————————————————————————————— (E-Invk-Arg)
+v<sub>0</sub>.m(<span class="over">v</span>, t<sub>i</sub>, <span class="over">t</span>) → v<sub>0</sub>.m(<span class="over">v</span>, t'<sub>i</sub>, <span class="over">t</span>)
+          t<sub>i</sub> → t'<sub>i</sub>
+—————————————————————————————————— (E-New-Arg)
+new C(<span class="over">v</span>, t<sub>i</sub>, <span class="over">t</span>) → new C(<span class="over">v</span>, t'<sub>i</sub>, <span class="over">t</span>)
+  t<sub>0</sub> → t'<sub>0</sub>
+———————————— (E-Cast)
+(C)t<sub>0</sub> → (C)t'<sub>0</sub>
+</code></pre>
 <p>They make use of the auxiliary definitions provided by Fig. 19-2 (which are also used by the typing rules; see below):</p>
-<p><img src="TAPL%20Fig.%2019-2.png" alt="TAPL Fig. 19-3" title="Auxiliary" /></p>
+<p><img src="TAPL%20Fig.%2019-2.png" alt="TAPL Fig. 19-2" title="Auxiliary" /></p>
 <p>The evaluation rules adhere to a small-step style, meaning that they are repeatedly applied until a value is produced or evaluation gets stuck.</p>
 <p>Again, there are some observations to be made:</p>
 <ol class="fwd">
 <li>Unlike for the syntax specification, multiple occurrences of the same metavariable in the same rule represent the same (meta)term. @Ralf%CHECKME: other word for metaterm? Note that "term" is ambiguous here, since TAPL uses it for expressions. This can be concluded from %FIXME: what? It follows that metavariables now correspond directly to logic variables.</li>
-<li>The metavariables denoted by <em>t</em> overline etc. are implicitly indexed with indices ranging from 1 to <em>n</em>; the use of the same index <em>i</em> means that metavariables are selected from the same position of the corresponding sequences. Note that this presupposes that the sequences are of the same length, which may, but need not be, guaranteed by the syntax rules of FJ (it is only guaranteed where two sequences are accepted by the grammar as a list of pairs; e.g.: <em>C</em> overline <em>x</em> overline, which is accepted as <code>[variable(C, X)]</code>).</li>
+<li>The metavariables denoted by <em><span class="over">t</span></em> etc. are implicitly indexed with indices ranging from 1 to <em>n</em>; the use of the same index <em>i</em> means that metavariables are selected from the same position of the corresponding sequences. Note that this presupposes that the sequences are of the same length, which may, but need not be, guaranteed by the syntax rules of FJ (it is only guaranteed where two sequences are accepted by the grammar as a list of pairs; e.g.: <em><span class="over">C</span></em> <em><span class="over">x</span></em>, which is accepted as <code>[variable(C, X)]</code>).</li>
 <li>The rules and their order specify the evaluation order of subterms. For instance, for a term <em>t</em> = <em>t</em>_0.<em>m</em>(<em>t</em>_1, <em>t</em>_2), the evaluation order of the subterms <em>t</em>_0 through <em>t</em>_2 is from left to right. </li>
 </ol>
 <h2>Translation of Evaluation Rules to Prolog</h2>
 <p>The evaluation loop (implicit in TAPL) is implemented by the Prolog predicate</p>
-<pre><code class="lang-prolog">eval(T, T, _) :- is_val(T), !. % term is ground -&gt; the term is the value!
-eval(T, V, P) :-
+<pre><code class="lang-prolog">eval(T, T, _) <span class="code-kw">:-</span> is_val(T), <span class="code-kw">!</span>. <span class="code-cmt">% term is ground -&gt; the term is the value<span class="code-kw">!</span></span>
+eval(T, V, P) <span class="code-kw">:-</span>
     step(T, Tp, P),
     eval(Tp, V, P).
 </code></pre>
 <p>where <code>is_val(T)</code> calls <a href="http://www.swi-prolog.org/pldoc/doc_for?object=phrase/2"><code>phrase(v(T), _)</code></a> either directly or lifts it over the members of <code>T</code> if <code>T</code> is a list, to check that the term <code>T</code> represents a value (@Ralf%CHECKME: Do we not have a metatyping problem here? Is T not <em>either</em> a term <em>or</em> a value?). The third argument <code>P</code> of <code>eval</code> holds the program in whose context the term <code>T</code> is evaluated to the value <code>V</code>.  Note that the evaluation loop terminates successfully when the input term has been reduced to a value, and fails when it arrives at a term that, although it is not a value, cannot be reduced further.</p>
 <p>The evaluation rules themselves are implemented as follows.</p>
-<pre><code class="lang-prolog">% E-ProjNew
-step(faccess(new(C, Vs), F_i), V_i, P) :-
-    is_val(Vs), !,
+<pre><code class="lang-prolog"><span class="code-cmt">% E-ProjNew</span>
+step(faccess(new(C, Vs), F_i), V_i, P) <span class="code-kw">:-</span>
+    is_val(Vs), <span class="code-kw">!</span>,
     fields(C, P, Fs),
     nth0(I, Fs, field(_, F_i)),
     nth0(I, Vs, V_i).
 </code></pre>
 <p>Here, the head of the rule makes sure that it can only be applied to field accesses on constructor invocations, while the first subgoal makes sure that the argument to the constructor invocation, <code>Vs</code>, is indeed a list of values, which is another precondition to rule application. The repeated invocation of <a href="http://www.swi-prolog.org/pldoc/man?predicate=nth0/3"><code>nth0</code></a> selects from <code>Vs</code>, the list of values passed to the constructor of <code>C</code>, the one assigned to the field named <code>F_i</code> (where correspondence is via position <code>I</code>). <code>fields</code> is the auxiliary function defined in TAPL Fig. 19-2 (see above); note that it depends of the program <code>P</code> (which is always implicit in TAPL).</p>
-<pre><code class="lang-prolo">% E-InvkNew
-step(minvoc(new(C, Vs), M, Us), V, P) :-
-    is_val(Vs), is_val(Us), !,
+<pre><code class="lang-prolog"><span class="code-cmt">% E-InvkNew</span>
+step(minvoc(new(C, Vs), M, Us), V, P) <span class="code-kw">:-</span>
+    is_val(Vs), is_val(Us), <span class="code-kw">!</span>,
     mbody(M, C, P, (Xs, T_0)),
     substitute([this|Xs], [new(C, Vs)|Us], T_0, V).
 </code></pre>
-<p>Here,  <code>mbody</code>is the auxiliary function defined in TAPL Fig. 19-2 and <code>substitute</code> is another auxiliary predicate.</p>
-<pre><code>% E-CastNew
-step(cast(D, new(C, Vs)), new(C, Vs), P) :-
-    is_val(Vs), !,
+<p>Here,  <code>mbody</code> is the auxiliary function defined in TAPL Fig. 19-2 and <code>substitute</code> is another auxiliary predicate.</p>
+<pre><code class="lang-prolog"><span class="code-cmt">% E-CastNew</span>
+step(cast(D, new(C, Vs)), new(C, Vs), P) <span class="code-kw">:-</span>
+    is_val(Vs), <span class="code-kw">!</span>,
     subtype(C, D, P).
-% E-Field
-step(faccess(T_0, F), faccess(Tp_0, F), P) :-
-    \+ is_val(T_0), !,
+<span class="code-cmt">% E-Field</span>
+step(faccess(T_0, F), faccess(Tp_0, F), P) <span class="code-kw">:-</span>
+    \+ is_val(T_0), <span class="code-kw">!</span>,
     eval(T_0, Tp_0, P).
-% E-Invk-Recv
-step(minvoc(T_0, M, Ts), minvoc(Tp_0, M, Ts), P) :-
-    \+ is_val(T_0), !,
+<span class="code-cmt">% E-Invk-Recv</span>
+step(minvoc(T_0, M, Ts), minvoc(Tp_0, M, Ts), P) <span class="code-kw">:-</span>
+    \+ is_val(T_0), <span class="code-kw">!</span>,
     eval(T_0, Tp_0, P).
-% E-Invk-Arg
-step(minvoc(V_0, M, Ts), minvoc(V_0, M, Tps), P) :-
-    is_val(V_0), !, % for is_val(Ts), E-Invk-New applies
-    select(T_i, Ts, Tp_i, Tps), \+ is_val(T_i), !, % will succeed; see above
+<span class="code-cmt">% E-Invk-Arg</span>
+step(minvoc(V_0, M, Ts), minvoc(V_0, M, Tps), P) <span class="code-kw">:-</span>
+    is_val(V_0), <span class="code-kw">!</span>, <span class="code-cmt">% for is_val(Ts), E-Invk-New applies</span>
+    select(T_i, Ts, Tp_i, Tps), \+ is_val(T_i), <span class="code-kw">!</span>, <span class="code-cmt">% will succeed; see above</span>
     eval(T_i, Tp_i, P).
-% E-New-Arg
-step(new(C, Ts), new(C, Tps), P) :-
-    select(T_i, Ts, Tp_i, Tps), \+ is_val(T_i), !, % all ground Ts caught by E-InvkNew
+<span class="code-cmt">% E-New-Arg</span>
+step(new(C, Ts), new(C, Tps), P) <span class="code-kw">:-</span>
+    select(T_i, Ts, Tp_i, Tps), \+ is_val(T_i), <span class="code-kw">!</span>, <span class="code-cmt">% all ground Ts caught by E-InvkNew</span>
     eval(T_i, Tp_i, P).
-% E-Cast
-step(cast(C, T_0), cast(C, Tp_0), P) :-
+<span class="code-cmt">% E-Cast</span>
+step(cast(C, T_0), cast(C, Tp_0), P) <span class="code-kw">:-</span>
     eval(T_0, Tp_0, P).
 </code></pre>
 <h2>Typing</h2>
@@ -258,70 +282,70 @@ step(cast(C, T_0), cast(C, Tp_0), P) :-
 <li>The environment is lean: It is comprised of the formals of a method, plus the variable <em>this</em>. The program, i.e., the environment for class (or type), field and method lookup, is implicit. (%CHECKME: how is this required for typing?)</li>
 </ol>
 <p>The typing rules</p>
-<pre><code>% T-Var
-type(E, varaccess(X), C, _) :-
-    memberchk(variable(C, X), E), !.
+<pre><code class="lang-prolog"><span class="code-cmt">% T-Var</span>
+type(E, varaccess(X), C, _) <span class="code-kw">:-</span>
+    memberchk(variable(C, X), E), <span class="code-kw">!</span>.
 </code></pre>
 <p>I somehow lost track of how E gets filled!</p>
-<pre><code class="lang-prolog">% T-Field
-type(E, faccess(T0, Fi), Ci, P) :-
+<pre><code class="lang-prolog"><span class="code-cmt">% T-Field</span>
+type(E, faccess(T0, Fi), Ci, P) <span class="code-kw">:-</span>
     type(E, T0, C0, P),
     fields(C0, P, Fs),
     memberchk(field(Ci, Fi), Fs).
-% T-Invk
-type(E, minvoc(T0, M, Ts), C, P) :-
+<span class="code-cmt">% T-Invk</span>
+type(E, minvoc(T0, M, Ts), C, P) <span class="code-kw">:-</span>
     type(E, T0, C0, P),
-    mtype(M, C0, P, (Ds -&gt; C)), %TBD: move P to end
+    mtype(M, C0, P, (Ds -&gt; C)), <span class="code-cmt">%TBD: move P to end</span>
     type(E, Ts, Cs, P),
     subtype(Cs, Ds, P).
-% T-New
-type(E, new(C, Ts), C, P) :-
+<span class="code-cmt">% T-New</span>
+type(E, new(C, Ts), C, P) <span class="code-kw">:-</span>
     fields(C, P, Fs),
     findall(D, member(field(D, _), Fs), Ds),
     type(E, Ts, Cs, P),
     subtype(Cs, Ds, P).
-% T-UCast
-type(E, cast(C, T0), C, P) :-
+<span class="code-cmt">% T-UCast</span>
+type(E, cast(C, T0), C, P) <span class="code-kw">:-</span>
     type(E, T0, D, P),
-    subtype(D, C, P), !.
-% T-DCast
-type(E, cast(C, T0), C, P) :-
+    subtype(D, C, P), <span class="code-kw">!</span>.
+<span class="code-cmt">% T-DCast</span>
+type(E, cast(C, T0), C, P) <span class="code-kw">:-</span>
     type(E, T0, D, P),
     subtype(C, D, P),
-    C \= D, !.
-% T-SCast
-type(E, cast(C, T0), C, P) :-
-    % C \&lt;: D and D \&lt;: C follow from above cuts
+    C \= D, <span class="code-kw">!</span>.
+<span class="code-cmt">% T-SCast</span>
+type(E, cast(C, T0), C, P) <span class="code-kw">:-</span>
+    <span class="code-cmt">% C \&lt;: D and D \&lt;: C follow from above cuts</span>
     type(E, T0, D, P),
-    writeln(&quot;cross cast from ~w to ~w!&quot;, [D, C]).
-% typing a list of terms (implicit in TAPL)
+    writeln(&quot;cross cast from ~w to ~w<span class="code-kw">!</span>&quot;, [D, C]).
+<span class="code-cmt">% typing a list of terms (implicit in TAPL)</span>
 type(_, [], [], _).
-type(E, [T|Ts], [C|Cs], P) :-
+type(E, [T|Ts], [C|Cs], P) <span class="code-kw">:-</span>
     type(E, T, C, P),
     type(E, Ts, Cs, P).
-% Method Typing
-ok(method(C0, M, Xs, T0), C, P) :-
+<span class="code-cmt">% Method Typing</span>
+ok(method(C0, M, Xs, T0), C, P) <span class="code-kw">:-</span>
     findall(Ci, member(field(Ci, _), Xs), Cs),
     type([variable(C, this)|Xs], T0, E0, P),
     subtype(E0, C0, P),
     P = program(CL), memberchk(class(C, D, _, _, _), CL),
     override(M, D, (Cs -&gt; C0), P).
-% swap arguments to enable lifting over lists of methods using maplist
-ok4all(C, P, M) :- ok(M, C, P).
-% Class Typing
-ok(class(C, D, Fs, K, Ms), P) :-
-    C \= D, \+ subtype(D, C, P), % anti-symmetry; not in TAPL, Fig. 19-4
-    findall(init(F, F), member(field(_, F), Fs), Is), % TBD: init(F, F) corresponds to?
+<span class="code-cmt">% swap arguments to enable lifting over lists of methods using maplist</span>
+ok4all(C, P, M) <span class="code-kw">:-</span> ok(M, C, P).
+<span class="code-cmt">% Class Typing</span>
+ok(class(C, D, Fs, K, Ms), P) <span class="code-kw">:-</span>
+    C \= D, \+ subtype(D, C, P), <span class="code-cmt">% anti-symmetry; not in TAPL, Fig. 19-4</span>
+    findall(init(F, F), member(field(_, F), Fs), Is), <span class="code-cmt">% TBD: init(F, F) corresponds to?</span>
     K = constructor(C, Xs, Ss, Is),
     findall(field(Cx, Nx), member(variable(Cx, Nx), Xs), GFs),
-    findall(field(_, S), member(S ,Ss), Gs), % type of S not checked???
+    findall(field(_, S), member(S ,Ss), Gs), <span class="code-cmt">% type of S not checked???</span>
     append(Gs, Fs, GFs),
-    fields(D, P, Gs), %TBD: move P to end
+    fields(D, P, Gs), <span class="code-cmt">%TBD: move P to end</span>
     maplist(ok4all(C, P), Ms).
-% swap arguments to enable lifting over lists of classes using maplist
-ok4all(P, C) :- ok(C, P).
-% Program Typing
-ok(P) :-
+<span class="code-cmt">% swap arguments to enable lifting over lists of classes using maplist</span>
+ok4all(P, C) <span class="code-kw">:-</span> ok(C, P).
+<span class="code-cmt">% Program Typing</span>
+ok(P) <span class="code-kw">:-</span>
     P = program(Cs),
     maplist(ok4all(P), Cs).
 </code></pre>

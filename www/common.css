@@ -81,3 +81,5 @@ a.local:link, a.local:visited {color:#6E9}
 }
 .over {text-decoration: overline;}
 .strike {text-decoration: line-through;}
+.code-cmt {color: grey;}
+.code-kw {color: red;}
