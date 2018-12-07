@@ -74,6 +74,7 @@ ul.dim {text-indent:0}
 .edit {float: right}
 .edit a:link, .edit a:visited {color:#eb1c23}
 a.local:link, a.local:visited {color:#6E9}
+.miss {color:#E69}
 .slebok
 {
 	font-family: "Segoe UI", sans-serif;

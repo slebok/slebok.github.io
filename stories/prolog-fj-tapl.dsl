@@ -8,7 +8,7 @@
 		<div class="flr edit">
 			<a href="https://github.com/slebok/slebok/edit/master/stories/prolog-fj-tapl/main.md">Edit @ the SLEBoK repo</a>
 		</div><h1>A Prological Reconstruction of Featherweight Java from TAPL</h1>
-<p>This is the story of how I naively reconstructed a parser, evaluator and type checker for Featherweight Java (FJ) from <a class="local" href="http://bibtex.github.io/person/Benjamin_C_Pierce.html">Benjamin Pierce</a>'s book %LINKME:"Types and Programming Languages" (TAPL), Sect. 19, in <a class="local" href="../tools/Prolog.md">Prolog</a> (<a href="http://www.swi-prolog.org/pldoc/man?predicate=select/4">SWI-Prolog</a>, to be precise). The insights of this story, if any, come from observing</p>
+<p>This is the story of how I naively reconstructed a <a class="local" href="../terms/parser.md">parser</a>, <a class="local" href="../terms/evaluator.md">evaluator</a> and <a class="local" href="../terms/typechecker.md">typechecker</a> for <span class="miss">Featherweight Java</span> (FJ) from <a class="local" href="http://bibtex.github.io/person/Benjamin_C_Pierce.html">Benjamin Pierce</a>'s book %LINKME:"Types and Programming Languages" (TAPL), Sect. 19, in <a class="local" href="../tools/Prolog.md">Prolog</a> (<a href="http://www.swi-prolog.org/pldoc/man?predicate=select/4">SWI-Prolog</a>, to be precise). The insights of this story, if any, come from observing</p>
 <ol>
 <li>how the implementation reconstructs the semantics of the book's figures' specifying syntax and semantics of FJ, and </li>
 <li>how and why the implementation differs from the specifications.</li>
@@ -31,18 +31,18 @@ t  ::= x
 
 v  ::= new C(<span class="over">v</span>)
 </code></pre>
-<p>Note that the grammar uses nonterminals, or <em>metavariables</em>, that have no rules (namely <em>C</em>, <em>f</em>, and <em>m</em>); they expand to (or represent) identifiers (of classes, fields, and methods, resp.).</p>
+<p>Note that the grammar uses <a class="local" href="../terms/nonterminal symbol.md">nonterminals</a>, or <em>metavariables</em>, that have no rules (namely <em>C</em>, <em>f</em>, and <em>m</em>); they expand to (or represent) identifiers (of classes, fields, and methods, resp.).</p>
 <p>Here is a number of findings:</p>
 <ol>
-<li>The overline notation replaces for the %LINKME:Kleene star found in other grammar specification languages, subject to conventions that, were they not detailed in the accompanying text, would need to be reconstructed from a more precise syntax specification of FJ. That is, the grammar as is can only be interpreted using extra knowledge, and therefore is insufficient to drive a standard parser generator.</li>
-<li>Multiple occurrences of the same metavariable in the same rule may expand to different strings. For instance, the two occurrences of <em>C</em> in "class <em>C</em> extends <em>C</em>" may expand to (and represent) different class names. This can be concluded from assuming that metavariables take the role of the nonterminals of a @Vadim%LINKME:CFG.</li>
-<li>The grammar for terms is left recursive; also, the left associativity of member access requires attention.</li>
+<li>The overline notation replaces for the <a class="local" href="../terms/Kleene_closure.md">Kleene star</a> found in other grammar specification languages, subject to conventions that, were they not detailed in the accompanying text, would need to be reconstructed from a more precise syntax specification of FJ. That is, the grammar as is can only be interpreted using extra knowledge, and therefore is insufficient to drive a standard <span class="miss">parser generator</span>.</li>
+<li>Multiple occurrences of the same metavariable in the same rule may expand to different strings. For instance, the two occurrences of <em>C</em> in "<code>class C extends C</code>" may expand to (and represent) different class names. This can be concluded from assuming that metavariables take the role of the nonterminals of a <a class="local" href="../terms/context-free_grammar.md">CFG</a>.</li>
+<li>The grammar for terms is <a class="local" href="../terms/left recursion.md">left recursive</a>; also, the <a class="local" href="../terms/left associativity.md">left associativity</a> of member access requires attention.</li>
 <li>The term sublanguage does not introduce parentheses, even though these are required for member access on cast expressions.</li>
 <li>Fig. 19-1 really specifies two grammars, one for programs (including terms) and one for values. The language of values is a sublanguage of the language of terms in the sense that all values are also terms syntactically.</li>
 </ol>
 <p>All findings are justified by the primary use of the grammar: providing an inductive definition of the language (or, rather, its syntax trees) suited to serve the evaluation and typing rules.</p>
 <h3>Prological Syntax and Parser</h3>
-<p>A grammar specification that is also suitable for parsing is reconstructed as a Definite Clause Grammar (DCG) in Prolog as follows.</p>
+<p>A grammar specification that is also suitable for parsing is reconstructed as a <a class="local" href="../terms/definite clause grammar.md">Definite Clause Grammar</a> (DCG) in Prolog as follows.</p>
 <pre><code class="lang-prolog">&#39;P&#39;(program(P)) → repeating(&#39;CL&#39;(P)).
 </code></pre>
 <p>This (start) rule is implicit in TAPL. The (non-ground) term <code>program(P)</code> that is an argument to the start nonterminal <code>'P'</code> (quoted because in Prolog, unquoted identifiers starting with a capital letter are interpreted as variables) serves the construction of the syntax tree; the (root) node is a term of type <code>program</code>. (Unfortunately, Prolog is untyped and SWI-Prolog has no way of declaring structs.) <code>repeating</code> is a meta-predicate that implements the Kleene star for its argument, a nonterminal. In the above rule, it effects to <code>P</code> being unified with a list of nodes representing class definitions (possibly empty).</p>
