@@ -20,7 +20,10 @@
 	</head>
 	<body>
 		<div style="text-align:center;"><a href="http://slebok.github.io">Software Language Engineering Body of Knowledge</a></div>
-		<hr/><h1>A Prological Reconstruction of Featherweight Java from TAPL</h1>
+		<hr/>
+		<div class="flr edit">
+			<a href="https://github.com/slebok/slebok/edit/master/stories/prolog-fj-tapl/main.md">Edit @ the SLEBoK repo</a>
+		</div><h1>A Prological Reconstruction of Featherweight Java from TAPL</h1>
 <p>This is the story of how I naively reconstructed a parser, evaluator and type checker for Featherweight Java (FJ) from Benjamin Pierce's book %LINKME:"Types and Programming Languages" (TAPL), Sect. 19, in %LINKME:Prolog (<a href="http://www.swi-prolog.org/pldoc/man?predicate=select/4">SWI-Prolog</a>, to be precise). The insights of this story, if any, come from observing</p>
 <ol class="fwd">
 <li>how the implementation reconstructs the semantics of the book's figures' specifying syntax and semantics of FJ, and </li>
@@ -30,7 +33,16 @@
 <h2>Syntax and Parser</h2>
 <h3>Original Syntax Specification</h3>
 <p>The syntax of FJ is given in TAPL, Fig. 19-1, left:</p>
-<p>%FIXME:(include figure here)</p>
+<pre><code>CL ::= class C extends C {<span class="over">C</span> <span class="over">f</span>; K <span class="over">M</span>}
+K  ::= C(<span class="over">C</span> <span class="over">f</span>) {super(<span class="over">f</span>); this.<span class="over">f</span>=<span class="over">f</span>;}
+M  ::= C m(<span class="over">C</span> <span class="over">x</span>) {return t;}
+t  ::= x
+     | t.f
+     | t.m(<span class="over">t</span>)
+     | new C(<span class="over">t</span>)
+     | (C) t
+v  ::= new C(<span class="over">v</span>)
+</code></pre>
 <p>Note that the grammar uses nonterminals, or <em>metavariables</em>, that have no rules (namely <em>C</em>, <em>f</em>, and <em>m</em>); they expand to (or represent) identifiers (of classes, fields, and methods, resp.).</p>
 <p>Here is a number of findings:</p>
 <ol class="fwd">
@@ -43,10 +55,10 @@
 <p>All findings are justified by the primary use of the grammar: providing an inductive definition of the language (or, rather, its syntax trees) suited to serve the evaluation and typing rules.</p>
 <h3>Syntax and Parser in Prolog</h3>
 <p>A grammar that is also suitable for parsing is reconstructed as a Definite Clause Grammar (DCG) in Prolog as follows:</p>
-<pre><code class="lang-prolog">&#39;P&#39;(program(P)) --&gt; repeating(&#39;CL&#39;(P)).
+<pre><code class="lang-prolog">&#39;P&#39;(program(P)) → repeating(&#39;CL&#39;(P)).
 </code></pre>
 <p>This (start) rule is implicit in TAPL. The (non-ground) term <code>program(P)</code> that is an argument to the start nonterminal <code>'P'</code> (quoted because in Prolog, unquoted identifiers starting with a capital letter are interpreted as variables) serves the construction of the syntax tree; the (root) node is a term of type <code>program</code>. (Unfortunately, Prolog is untyped and SWI-Prolog has no way of declaring structs.) <code>repeating</code> is a meta-predicate that implements the Kleene star for its argument, a nonterminal. In the above rule, it effects to <code>P</code> being unified with a list of nodes representing class definitions (possibly empty).</p>
-<pre><code class="lang-prolog">&#39;CL&#39;(class(C, D, F, K, M)) --&gt;
+<pre><code class="lang-prolog">&#39;CL&#39;(class(C, D, F, K, M)) →
     keyword(&quot;class&quot;),
     identifier(C), % class name
     keyword(&quot;extends&quot;),
@@ -56,13 +68,13 @@
     &#39;K&#39;(K), % constructor
     repeating(&#39;M&#39;(M)), % method definitions
     symbol(&quot;}&quot;).
-&#39;F&#39;(field(C, F)) --&gt;
+&#39;F&#39;(field(C, F)) →
     identifier(C), % name of field type
     identifier(F), % field name
     symbol(&quot;;&quot;).
 </code></pre>
 <p>The metavariable <em>C</em> from the original grammar (where it represents class names) translates to a logic variable. Deviating from what the original grammar seems to suggest, different logic variables <code>C</code> and <code>D</code> are introduced for the two occurrences of <em>C</em> in the original grammar. This is necessary because unlike for a metavariable in the syntax specification, multiple occurrences of a logic variable in the same rule express equality of whatever gets substituted for them. The rule <em>'CL'</em> also introduces a new non-terminal <code>'F'</code>, which is required so as to be able to use the metapredicate <code>repeating</code> for accepting sequences of field declarations.</p>
-<pre><code class="lang-prolog">&#39;K&#39;(constructor(C, X, SF, TF)) --&gt;
+<pre><code class="lang-prolog">&#39;K&#39;(constructor(C, X, SF, TF)) →
     identifier(C), % name of class
     symbol(&quot;(&quot;),
     repeating(variable(X), &quot;,&quot;), % formals (&quot;variables&quot;)
@@ -75,7 +87,7 @@
     symbol(&quot;;&quot;),
     repeating(init(TF)), % initialization
     symbol(&quot;}&quot;).
-init(init(F, X)) --&gt;
+init(init(F, X)) →
     identifier(&quot;this&quot;), % &quot;this&quot; is a variable, not a keyword
     symbol(&quot;.&quot;),
     identifier(F), % field name
@@ -84,7 +96,7 @@ init(init(F, X)) --&gt;
     keyword(&quot;;&quot;).
 </code></pre>
 <p>The rule for constructors (<code>'K'</code>) uses a variant of <code>repeating</code> specifying a separator. The new nonterminal <code>init</code> was introduced for the same reason as <code>'F'</code> above; note that, unlike the original grammar, it binds to the variable <code>TF</code> a list of pairs (where the original grammar binds a pair of lists to two metavariables <em>f</em> overlined).</p>
-<pre><code class="lang-prolog">&#39;M&#39;(method(C, M, X, T)) --&gt;
+<pre><code class="lang-prolog">&#39;M&#39;(method(C, M, X, T)) →
     identifier(C), % name of return type
     identifier(M), % method name
     symbol(&quot;(&quot;),
@@ -95,40 +107,40 @@ init(init(F, X)) --&gt;
     &#39;t&#39;(T), % term
     symbol(&quot;;&quot;),
     symbol(&quot;}&quot;).
-variable(variable(C, X)) --&gt;
+variable(variable(C, X)) →
     identifier(C), % name of type
     identifier(X). % variable name
 </code></pre>
 <p>Again, a new nonterminal <code>variable</code> was introduced for the purpose of handling repetition.</p>
-<pre><code class="lang-prolog">t(cast(C, T)) --&gt; % cast
+<pre><code class="lang-prolog">t(cast(C, T)) → % cast
     symbol(&quot;(&quot;),
     identifier(C), % name of target type
     symbol(&quot;)&quot;),
     t(T).
-t(T) --&gt;     % expanded to cater for left recursion
+t(T) →     % expanded to cater for left recursion
     e(E),    % and left associativity of member access
     m(E, T).
-t(T) --&gt;     % cater for parenthesized receivers (not in original FJ syntax)
+t(T) →     % cater for parenthesized receivers (not in original FJ syntax)
     symbol(&quot;(&quot;),
     t(E),
     symbol(&quot;)&quot;),
     m(E, T).
-e(varaccess(X)) --&gt; % variable
+e(varaccess(X)) → % variable
     identifier(X).
-e(new(C, A)) --&gt; % object creation
+e(new(C, A)) → % object creation
     keyword(&quot;new&quot;),
     identifier(C),
     symbol(&quot;(&quot;),
     repeating(t(A), &quot;,&quot;),
     symbol(&quot;)&quot;).
 % member access terms
-m(T, T) --&gt; % no member access
+m(T, T) → % no member access
     empty.
-m(R, T) --&gt; % field access
+m(R, T) → % field access
     symbol(&quot;.&quot;),
     identifier(F),
     m(faccess(R, F), T).
-m(R, T) --&gt; % method invocation
+m(R, T) → % method invocation
     symbol(&quot;.&quot;),
     identifier(M),
     symbol(&quot;(&quot;),
@@ -138,7 +150,7 @@ m(R, T) --&gt; % method invocation
 </code></pre>
 <p>The grammar rule for terms required more elaborate reworking, to account for left recursion (removed by introducing <code>e</code>, for elementary terms), the left associativity of member access (catered for by spending a second argument on <code>m</code> (where the first builds up a possible chain of member accesses and the second returns it at the end of the chain). Also, I fitted in the parentheses for member access on cast expressions; @Vadim%CHECKME:I am not sure how this accounts for the parentheses used in the evaluation rules of TAPL.</p>
 <p>Note that the parser uses backtracking, and that the grammar is unambiguous.</p>
-<pre><code class="lang-prolog">v(new(C, Vs)) --&gt;
+<pre><code class="lang-prolog">v(new(C, Vs)) →
     keyword(&quot;new&quot;),
     [C], % identifier(C) does not work in string generation mode
     symbol(&quot;(&quot;),
