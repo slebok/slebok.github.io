@@ -66,7 +66,7 @@
 		</pic>
 		<pic>
 			<a>https://www.sebokwiki.org/wiki/Guide_to_the_Systems_Engineering_Body_of_Knowledge_(SEBoK)</a>
-			<img>mbebok.png</img>
+			<img>sebok.png</img>
 			<alt>Guide to the Systems Engineering Body of Knowledge</alt>
 			<name>SEBoK</name>
 			<text>the systems engineering body of knowledge (2010), v.1.9.1 (2018)</text>
@@ -93,6 +93,14 @@
 			<title>Collecting various terms used by software language engineers across natural languages</title>
 			<name>SLEG</name>
 			<text>an SLE glossary (VZ ~2009), superseded by SLEBoK terms</text>
+		</pic>
+		<pic>
+			<a>http://slps.github.io/</a>
+			<img>slps.200.png</img>
+			<alt>SLPS</alt>
+			<title>Software Language Processing Suite</title>
+			<name>SL Processing Suite</name>
+			<text>collection of language processing approaches and techniques (VZ, RL, 2008–2012)</text>
 		</pic>
 		<pic>
 			<a>https://en.wikipedia.org/wiki/Body_of_knowledge</a>
