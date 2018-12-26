@@ -83,3 +83,10 @@ a.local:link, a.local:visited {color:#6E9}
 .strike {text-decoration: line-through;}
 .code-cmt {color: grey;}
 .code-kw {color: red;}
+table.border {border-collapse: collapse}
+table.border, table.border th, table.border td
+{
+  border: 1px solid black;
+  padding-left: 5px;
+  padding-right: 5px;
+}
