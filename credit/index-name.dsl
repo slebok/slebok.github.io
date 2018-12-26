@@ -107,7 +107,7 @@
 		</table>
 		<div class="last">
 			<br/><hr/>
-			The page is generated from <a href="https://github.com/slebok/toolkit/blob/master/credit.txt">@slebok/toolkit/credit.txt</a>.<br/>
+			The page is generated from <a href="https://github.com/slebok/toolbx/blob/master/credit.txt">@slebok/toolbx/credit.txt</a>.<br/>
 			The website is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
 			Last updated: #LASTMOD#.
 			<valid/>
