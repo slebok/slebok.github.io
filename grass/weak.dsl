@@ -69,7 +69,7 @@
 			<p>Related smells: <a href="http://tusharma.in/smells/IA2.html">Incomplete Abstraction</a>, <a href="http://tusharma.in/smells/UA.html">Unnecessary Abstraction</a>, <a href="http://tusharma.in/smells/UAC.html">Unnecessary Abstraction</a>, <a href="http://tusharma.in/smells/DCA.html">Compound Attribute</a>, <a href="http://tusharma.in/smells/DMA.html">Multicolumn Attribute</a><br/></p><p> When the right hand side of a nonterminal is formed from several symbols that happen to occur one after another, without forming a proper abstraction, this can hinder grammar's understanding. The terminology is borrowed from <a href="https://doi.org/10.3115/981210.981223">[McCord1985]</a> which distinguished <em>strong</em> nonterminals (used during parsing and present in the resulting tree) from <em>weak</em> ones (used during parsing but flattened into single nodes in the tree). </p><p></p>
 		<hr/>
 		<div class="last">
-			The GraSs taxonomy is a <a href="../credit.html">joint effort</a> maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
+			The GraSs taxonomy is a <a href="../ack.html">joint effort</a> maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
 			Page last updated in #LASTMOD#.
 			<valid/>
 		</div>

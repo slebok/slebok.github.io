@@ -79,7 +79,7 @@
 			<p>Related smells: <a href="http://tusharma.in/smells/OG.html">Overgeneralization</a><br/></p><p> Some grammars represent a superset of the intended language. This may become a problem if the parser based on the grammar is to be used as a correctness oracle, since in this role it is inadequate. Overly relaxed grammars are routinely used in other scenarios such as software analytics and inter-language translation, and can be very useful there. </p><p></p>
 		<hr/>
 		<div class="last">
-			The GraSs taxonomy is a <a href="../credit.html">joint effort</a> maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
+			The GraSs taxonomy is a <a href="../ack.html">joint effort</a> maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
 			Page last updated in #LASTMOD#.
 			<valid/>
 		</div>

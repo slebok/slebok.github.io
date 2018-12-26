@@ -69,7 +69,7 @@
 			<p></p><p> </p><p> The lack of definition for nonterminals that are used within the grammar, is an obvious mistake that must be reported one way or another, and also possibly as a smell. There are three main reasons for undefined nonterminals: (1) they were forgotten by the grammar engineer; (2) they are defined in a different module; (3) they are defined on a separate conceptual layer. For scenario (1), we cannot do anything to fix the problem automatically (beyond attempting heuristics).</p>
 		<hr/>
 		<div class="last">
-			The GraSs taxonomy is a <a href="../credit.html">joint effort</a> maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
+			The GraSs taxonomy is a <a href="../ack.html">joint effort</a> maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
 			Page last updated in #LASTMOD#.
 			<valid/>
 		</div>

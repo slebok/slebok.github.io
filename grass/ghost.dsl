@@ -69,7 +69,7 @@
 			<p>Related smells: <a href="http://tusharma.in/smells/ME.html">Missing Encapsulation</a><br/></p><p> If an expression, especially a <a href="common.html">Common</a> subexpression, could have formed a proper abstraction, but is not made into a separate nonterminal, we speak of it as a Ghost. </p><p></p>
 		<hr/>
 		<div class="last">
-			The GraSs taxonomy is a <a href="../credit.html">joint effort</a> maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
+			The GraSs taxonomy is a <a href="../ack.html">joint effort</a> maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
 			Page last updated in #LASTMOD#.
 			<valid/>
 		</div>

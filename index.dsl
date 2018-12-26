@@ -10,7 +10,7 @@
 			<a href="projects">Projects</a> •
 			<a href="#gd">Description</a> •
 			<a href="#how">How to…</a> •
-			<a href="credit.html">Credits</a>
+			<a href="ack.html">Acknowledgements</a>
 		</h2>
 <h2 name="gd" id="gd">General Description</h2>
 <p>The field of software language engineering (SLE) has emerged based on a strong motivation to connect and integrate different research disciplines such as compiler
@@ -37,7 +37,7 @@ construction, reverse engineering, software transformation, model-driven enginee
 <p>The SLEBoK would not have been possible without the initial set up provided by the <a href="http://www.dagstuhl.de/program/calendar/partlist/?semnr=17342&amp;SUOG">Dagstuhl Seminar 17342 Participants</a>.</p>
 		<div class="last">
 			<br/><hr/>
-			This initiative involves <a href="credit.html">many people</a>.
+			This initiative involves <a href="ack.html">many people</a>.
 			The website is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
 			Last updated: #LASTMOD#.
 			<valid/>

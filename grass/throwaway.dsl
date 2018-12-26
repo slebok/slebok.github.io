@@ -69,7 +69,7 @@
 			<p>Related smells: <a href="http://tusharma.in/smells/LIH.html">List-like Inheritance Hierarchy</a>, <a href="http://tusharma.in/smells/POL.html">Poltergeist</a>, <a href="http://tusharma.in/smells/IA.html">Imperative Abstraction</a>, <a href="http://tusharma.in/smells/TDG.html">Tree-like Dependency Graph</a><br/></p><p> A nonterminal that is used only once, may be useful to tame the length of production rules (see <a href="toowide.html">TooWide</a>), and may occasionally convey a useful abstraction with its name, but beyond those circumstances it is a smell and should be a candidate for refactoring. </p><p></p>
 		<hr/>
 		<div class="last">
-			The GraSs taxonomy is a <a href="../credit.html">joint effort</a> maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
+			The GraSs taxonomy is a <a href="../ack.html">joint effort</a> maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
 			Page last updated in #LASTMOD#.
 			<valid/>
 		</div>

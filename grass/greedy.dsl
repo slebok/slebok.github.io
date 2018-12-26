@@ -94,7 +94,7 @@
 			<p>Related smells: <a href="http://tusharma.in/smells/IM.html">Insufficient Modularization</a>, <a href="http://tusharma.in/smells/TLP.html">Too Large Packages/Subsystems</a>, <a href="http://tusharma.in/smells/LC.html">Large Class</a>, <a href="http://tusharma.in/smells/BL.html">The Blob</a><br/></p><p> Similarly to <a href="toolonely.html">TooLonely</a> but not quite identical to it, there is a scenario when a grammar is modularised, but still insufficiently: in particular, if there is one module that is much greedier than the rest and does too much compared to any other module. In realistic grammars this smell is quite common, and the culture of proper modularisation with close to uniform distribution of responsibilities among modules, has not yet developed. The harmfulness of this smell has also never been shown, and also not been investigated properly (to the best of our knowledge). </p><p></p>
 		<hr/>
 		<div class="last">
-			The GraSs taxonomy is a <a href="../credit.html">joint effort</a> maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
+			The GraSs taxonomy is a <a href="../ack.html">joint effort</a> maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
 			Page last updated in #LASTMOD#.
 			<valid/>
 		</div>

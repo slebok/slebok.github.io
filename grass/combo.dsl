@@ -89,7 +89,7 @@
 			<p>Related smells: <a href="http://tusharma.in/smells/EUCF.html">Useless Control Flow</a><br/></p><p> Grammar combinators (metasymbols of arity 1 and up) such as the Kleene star and cross, or an optional, can be combined in an improper way. For example, a grammar engineer who defines <code>A ::= B?;</code> and <code>B ::= C?;</code>, may mean well, but creates a confusing contract if <code>A</code> is used to bind a textual structure with a tree structure: it is ambiguous what an empty string corresponds to – an empty node <code>A</code> or a node <code>A</code> containing an empty node <code>B</code>. Some of these issues may be harder to detect due to indirection, but they are all automatically fixable. </p><p></p>
 		<hr/>
 		<div class="last">
-			The GraSs taxonomy is a <a href="../credit.html">joint effort</a> maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
+			The GraSs taxonomy is a <a href="../ack.html">joint effort</a> maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
 			Page last updated in #LASTMOD#.
 			<valid/>
 		</div>

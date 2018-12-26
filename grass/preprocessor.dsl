@@ -54,7 +54,7 @@
 			<p></p><p> A preprocessor <a href="http://bibtex.github.io/ICSM-1996-Favre.html">[ICSM-1996-Favre]</a> is a curious thing: it is essentially, for all intents and purposes, a compiler that processes the input text, expands macros, connects additional textual sources, performs variant compilation and other similar activities. On the other hand, it is so common to use it before the “actual” compiler, that some studybooks regard it as a separate phase of compilation. Some language manuals contain production rules belonging to the preprocessor, and, since the preprocessor is a separate compiler with its own grammar, those should not be mixed with the rest of the main grammar.</p>
 		<hr/>
 		<div class="last">
-			The GraSs taxonomy is a <a href="../credit.html">joint effort</a> maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
+			The GraSs taxonomy is a <a href="../ack.html">joint effort</a> maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
 			Page last updated in #LASTMOD#.
 			<valid/>
 		</div>
