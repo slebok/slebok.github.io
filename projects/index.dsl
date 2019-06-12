@@ -65,6 +65,14 @@
 			<text>an annotated SLE bibliography presented by Ralf Lämmel at OOPSLE (2013)</text>
 		</pic>
 		<pic>
+			<a>https://doi.org/10.1109/COMPSAC.2013.129</a>
+			<img>compsac.jpg</img>
+			<alt>Building a Body of Knowledge on Model Checking for Software Development</alt>
+			<title>The first draft of a body of knowledge on model checking</title>
+			<name>MCBOC</name>
+			<text>a body of knowledge in model checking by Kenji Taguchi et al. (2013)</text>
+		</pic>
+		<pic>
 			<a>https://www.sebokwiki.org/wiki/Guide_to_the_Systems_Engineering_Body_of_Knowledge_(SEBoK)</a>
 			<img>sebok.png</img>
 			<alt>Guide to the Systems Engineering Body of Knowledge</alt>
