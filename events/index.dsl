@@ -14,6 +14,13 @@
 		<picdir>../www</picdir>
 		<divclass>tile</divclass>
 		<pic>
+			<a>http://www.sleconf.org/2019</a>
+			<img>sle.200.png</img>
+			<title>International Conference on Software Language Engineering (conference)</title>
+			<name>SLE’19</name>
+			<text>a conference on software languages, to be held at SPLASH</text>
+		</pic>
+		<pic>
 			<a>http://www.sleconf.org/2018</a>
 			<img>sle.200.png</img>
 			<title>International Conference on Software Language Engineering (conference)</title>

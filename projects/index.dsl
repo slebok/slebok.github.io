@@ -14,6 +14,14 @@
 		</p>
 		<hr/>
 		<pic>
+			<a>https://doi.org/10.4018/IJOCI.2019070101</a>
+			<img>ijoci.jpg</img>
+			<alt>An Innovative Framework to Integrate CIO Competencies Within the Business Technology Management Body of Knowledge</alt>
+			<title>a review of recent literature to determine the requirements of BTM competencies to develop what elements are needed in the BTM BOK</title>
+			<name>BTM BOK</name>
+			<text>a business technology management BoK by Marc-André Leger et al. (2019)</text>
+		</pic>
+		<pic>
 			<a>https://hal.archives-ouvertes.fr/hal-01886114</a>
 			<img>mbebok.png</img>
 			<alt>Towards a Body of Knowledge for Model-Based Software Engineering</alt>
@@ -40,6 +48,14 @@
 			<title>Design Your Own Language</title>
 			<name>DYOL</name>
 			<text>a software language design toolkit (VZ, 2017)</text>
+		</pic>
+		<pic>
+			<a>https://www.cybok.org/</a>
+			<img>cybok.png</img>
+			<alt>The Cyber Security Body of Knowledge</alt>
+			<title>A comprehensive Body of Knowledge to inform and underpin education and professional training for the cyber security sector</title>
+			<name>CyBOK</name>
+			<text>a cyber security body of knowledge (2017)</text>
 		</pic>
 		<pic>
 			<a>http://bibtex.github.io/</a>
@@ -69,7 +85,7 @@
 			<img>compsac.jpg</img>
 			<alt>Building a Body of Knowledge on Model Checking for Software Development</alt>
 			<title>The first draft of a body of knowledge on model checking</title>
-			<name>MCBOC</name>
+			<name>MCBOK</name>
 			<text>a body of knowledge in model checking by Kenji Taguchi et al. (2013)</text>
 		</pic>
 		<pic>
