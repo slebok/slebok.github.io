@@ -14,6 +14,13 @@
 		<picdir>../www</picdir>
 		<divclass>tile</divclass>
 		<pic>
+			<a>http://oopsle.github.io/2020</a>
+			<img>oopsle.200.png</img>
+			<title>International Workshop on Open and Original Problems in Software Language Engineering (workshop)</title>
+			<name>OOPSLE’20</name>
+			<text>a workshop about open and original problems in SLE, held at STAF</text>
+		</pic>
+		<pic>
 			<a>http://www.sleconf.org/2019</a>
 			<img>sle.200.png</img>
 			<title>International Conference on Software Language Engineering (conference)</title>
