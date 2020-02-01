@@ -14,6 +14,13 @@
 		<picdir>../www</picdir>
 		<divclass>tile</divclass>
 		<pic>
+			<a>https://conf.researchr.org/home/sle-2020</a>
+			<img>sle.200.png</img>
+			<title>International Conference on Software Language Engineering (conference)</title>
+			<name>SLE’20</name>
+			<text>a conference on software languages, to be held at SPLASH</text>
+		</pic>
+		<pic>
 			<a>http://oopsle.github.io/2020</a>
 			<img>oopsle.200.png</img>
 			<title>International Workshop on Open and Original Problems in Software Language Engineering (workshop)</title>
@@ -25,7 +32,7 @@
 			<img>sle.200.png</img>
 			<title>International Conference on Software Language Engineering (conference)</title>
 			<name>SLE’19</name>
-			<text>a conference on software languages, to be held at SPLASH</text>
+			<text>a conference on software languages, held at SPLASH</text>
 		</pic>
 		<pic>
 			<a>http://www.sleconf.org/2018</a>
