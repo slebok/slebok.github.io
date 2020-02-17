@@ -1,0 +1,23 @@
+body
+{
+	color: #FED;
+	background-color:#765;
+}
+
+a:link, a:visited {color:#E55}
+.ff a:link, .ff a:visited {color: #FED; text-decoration: none;}
+.ff.lang a:link, .ff.lang a:visited {color: #E55; text-decoration: none;}
+.ff
+{
+	padding: 3px;
+	border-width: 8px;
+	border-style: solid;
+	border-left-color: #876;
+	border-top-color: #A98;
+	border-right-color: #CBA;
+	border-bottom-color: #EDC;
+	display: inline-block;
+}
+
+.used { background-color: #E55; }
+.lang { background-color: #FED; color: #E55; }
