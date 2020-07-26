@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
 body {color:#033; background-color:#AAA; font-family:"Segoe UI", "Futura", sans-serif}
 div.card p {font-family:"Futura", "Montserrat", sans-serif}
-.pic .p {color:#003355; padding-top:5px}
+.pic .p {color:#003355; padding-top:5px; font-weight:normal;}
 .pic {float:left; text-align:center; width:150px; height:250px; margin:5px; font-weight:bold; border:2px solid #888}
 .pic.dwarf {height: 70px; width: 220px;}
 .pic.wide {min-height: 100px; width: 99%; height: auto;}

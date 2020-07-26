@@ -124,7 +124,7 @@
 			<alt>SLPS</alt>
 			<title>Software Language Processing Suite</title>
 			<name>SL Processing Suite</name>
-			<text>collection of language processing approaches and techniques (VZ, RL, 2008–2012)</text>
+			<text>language processing approaches and techniques (VZ, RL, 2008–2012)</text>
 		</pic>
 		<pic>
 			<a>https://en.wikipedia.org/wiki/Body_of_knowledge</a>
