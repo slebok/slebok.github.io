@@ -18,14 +18,21 @@
 			<img>sle.200.png</img>
 			<title>International Conference on Software Language Engineering (conference)</title>
 			<name>SLE’20</name>
-			<text>a conference on software languages, to be held at SPLASH</text>
+			<text>a conference on software languages, to be held at SPLASH\n<em>virtually</em></text>
+		</pic>
+		<pic>
+			<a>https://mleworkshop.github.io/mle2020.html</a>
+			<img>mle.200.png</img>
+			<title>International Workshop on Modeling Language Engineering and Execution (workshop)</title>
+			<name>MLE’20</name>
+			<text>a workshop on SLE in software modelling, to be held at MoDELS\n<em>virtually</em></text>
 		</pic>
 		<pic>
 			<a>http://oopsle.github.io/2020</a>
 			<img>oopsle.200.png</img>
 			<title>International Workshop on Open and Original Problems in Software Language Engineering (workshop)</title>
 			<name>OOPSLE’20</name>
-			<text>a workshop about open and original problems in SLE, held at STAF</text>
+			<text>a workshop about open and original problems in SLE, held at STAF\n<em>virtually</em></text>
 		</pic>
 		<pic>
 			<a>http://www.sleconf.org/2019</a>
@@ -33,6 +40,13 @@
 			<title>International Conference on Software Language Engineering (conference)</title>
 			<name>SLE’19</name>
 			<text>a conference on software languages, held at SPLASH</text>
+		</pic>
+		<pic>
+			<a>http://gemoc.org/events/mle2019.html</a>
+			<img>mle.200.png</img>
+			<title>International Workshop on Modeling Language Engineering and Execution (workshop)</title>
+			<name>MLE’19</name>
+			<text>a workshop on SLE in software modelling, held at MoDELS</text>
 		</pic>
 		<pic>
 			<a>http://www.sleconf.org/2018</a>
