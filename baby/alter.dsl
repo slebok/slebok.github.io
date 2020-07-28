@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <path css="../www" img="../www"/>
 <html doctype>
-	<head viewport title="BabyCOBOL: ALTER">
+	<head viewport title="BabyCobol: ALTER">
 	<body>
 		<header/>
 		<link href="../www/babycobol.css" rel="stylesheet" type="text/css" />
 		<img src="../www/babycobol.png" style="width:200px;height:200px;" class="flr" />
-		<h1><span class="ff lang"><a href="index.html">BabyCOBOL</a></span>: <span class="ff used"><a href="alter.html">ALTER</a></span></h1>
+		<h1><span class="ff lang"><a href="index.html">BabyCobol</a></span>: <span class="ff used"><a href="alter.html">ALTER</a></span></h1>
 		change the target of a GO TO statement
 <hr/><h2>Format</h2>
 
@@ -29,7 +29,7 @@
 <span class="ff lang"><a href="cobol.html">COBOL</a></span>&nbsp;&nbsp;&nbsp;<span class="ff used"><a href="cobol.html" title="change the transfer point of an existing GO TO statement">ALTER</a></span> <br/><span class="ff lang"><a href="fortran.html">FORTRAN</a></span>&nbsp;&nbsp;&nbsp;<span class="ff used"><a href="fortran.html" title="change the target of an assigned GO TO statement">ASSIGN</a></span> <br/><span class="ff lang"><a href="rexx.html">REXX</a></span>&nbsp;&nbsp;&nbsp;<span class="ff used"><a href="rexx.html" title="change the destination of commands">ADDRESS</a></span> <br/>
 		<hr/>
 		<div class="last">
-			BabyCOBOL is a project by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
+			BabyCobol is a project by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
 			Page last updated in #LASTMOD#.
 			<valid/>
 		</div>

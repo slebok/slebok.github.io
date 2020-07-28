@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <path css="../www" img="../www"/>
 <html doctype>
-	<head viewport title="BabyCOBOL: NEXT SENTENCE">
+	<head viewport title="BabyCobol: NEXT SENTENCE">
 	<body>
 		<header/>
 		<link href="../www/babycobol.css" rel="stylesheet" type="text/css" />
 		<img src="../www/babycobol.png" style="width:200px;height:200px;" class="flr" />
-		<h1><span class="ff lang"><a href="index.html">BabyCOBOL</a></span>: <span class="ff used"><a href="nextsentence.html">NEXT SENTENCE</a></span></h1>
+		<h1><span class="ff lang"><a href="index.html">BabyCobol</a></span>: <span class="ff used"><a href="nextsentence.html">NEXT SENTENCE</a></span></h1>
 		branch unconditionally to the beginning of the next sentence
 <hr/><h2>Format</h2>
 
@@ -35,7 +35,7 @@ NEXT SENTENCE at the beginning of the paragraph can be used to comment out one o
 <span class="ff lang"><a href="cobol.html">COBOL</a></span>&nbsp;&nbsp;&nbsp;<span class="ff used"><a href="cobol.html" title="do nothing">CONTINUE</a></span> <span class="ff used"><a href="cobol.html" title="do nothing">EXIT</a></span> <span class="ff used"><a href="cobol.html" title="a special clause of the IF statement to transfer control to the statement after the next dot">NEXT SENTENCE</a></span> <br/><span class="ff lang"><a href="fortran.html">FORTRAN</a></span>&nbsp;&nbsp;&nbsp;<span class="ff used"><a href="fortran.html" title="do nothing">CONTINUE</a></span> <br/><span class="ff lang"><a href="pli.html">PL/I</a></span>&nbsp;&nbsp;&nbsp;<span class="ff used"><a href="pli.html" title="">;</a></span> <br/><span class="ff lang"><a href="rexx.html">REXX</a></span>&nbsp;&nbsp;&nbsp;<span class="ff used"><a href="rexx.html" title="do nothing">NOP</a></span> <br/>
 		<hr/>
 		<div class="last">
-			BabyCOBOL is a project by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
+			BabyCobol is a project by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
 			Page last updated in #LASTMOD#.
 			<valid/>
 		</div>

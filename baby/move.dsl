@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <path css="../www" img="../www"/>
 <html doctype>
-	<head viewport title="BabyCOBOL: MOVE">
+	<head viewport title="BabyCobol: MOVE">
 	<body>
 		<header/>
 		<link href="../www/babycobol.css" rel="stylesheet" type="text/css" />
 		<img src="../www/babycobol.png" style="width:200px;height:200px;" class="flr" />
-		<h1><span class="ff lang"><a href="index.html">BabyCOBOL</a></span>: <span class="ff used"><a href="move.html">MOVE</a></span></h1>
+		<h1><span class="ff lang"><a href="index.html">BabyCobol</a></span>: <span class="ff used"><a href="move.html">MOVE</a></span></h1>
 		partial structural assignment
 <hr/><h2>Format</h2>
 
@@ -31,7 +31,7 @@
 <span class="ff lang"><a href="clist.html">CLIST</a></span>&nbsp;&nbsp;&nbsp;<span class="ff used"><a href="clist.html" title="assign a value to a variable">SET</a></span> <br/><span class="ff lang"><a href="cobol.html">COBOL</a></span>&nbsp;&nbsp;&nbsp;<span class="ff used"><a href="cobol.html" title="transfer data from one storage area to another">MOVE</a></span> <br/><span class="ff lang"><a href="rpg.html">RPG</a></span>&nbsp;&nbsp;&nbsp;<span class="ff used"><a href="rpg.html" title="evaluate an expression and assign corresponding subfields">EVAL-CORR</a></span> <span class="ff used"><a href="rpg.html" title="move character data">MOVE</a></span> <span class="ff used"><a href="rpg.html" title="move data between arrays">MOVEA</a></span> <span class="ff used"><a href="rpg.html" title="move character data starting from the leftmost one">MOVEL</a></span> <br/>
 		<hr/>
 		<div class="last">
-			BabyCOBOL is a project by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
+			BabyCobol is a project by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
 			Page last updated in #LASTMOD#.
 			<valid/>
 		</div>
