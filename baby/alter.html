@@ -22,7 +22,7 @@
 <div style="text-align:center;"><a href="http://grammarware.github.io">Vadim Zaytsev</a> aka @<a href="http://grammarware.net">grammarware</a></div><hr/>		<link href="../www/babycobol.css" rel="stylesheet" type="text/css" />
 		<img src="../www/babycobol.png" style="width:200px;height:200px;" class="flr" />
 		<h1><span class="ff lang"><a href="index.html">BabyCobol</a></span>: <span class="ff used"><a href="alter.html">ALTER</a></span></h1>
-		change the target of a GO TO statement
+		change the target of a <code><a href="goto.html">GO TO</a></code> statement
 <hr/><h2>Format</h2>
 <svg xmlns="http://www.w3.org/2000/svg" width="640px" height="60px">
 	<defs>
@@ -37,12 +37,14 @@
 	</defs>
 <polygon points="28 30 20 26 20 34"/><polygon points="36 30 28 26 28 34"/><path d="M 36 30 h 20"/><text x="56" y="34">&nbsp;ALTER</text><path d="M 116 30 h 20"/><text class="i" x="136" y="34">&nbsp;ProcedureName</text><path d="M 276 30 h 20"/><text x="296" y="34">TO</text><text x="316" y="34">&nbsp;PROCEED</text><text x="396" y="34">TO</text><path d="M 416 30 h 20"/><text class="i" x="436" y="34">&nbsp;ProcedureName</text><path d="M 576 30 h 20"/><polygon points="604 30 596 26 596 34"/><polygon points="604 30 612 26 612 34"/>
 </svg>
+<h2>Remarks</h2>
+<ul><li>Essentially, the dreaded <code>GO TO</code> that has been considered harmful since 1968, is only hard on the end developer, but not on a software language engineer. Its implementation in a compiler is almost trivial and relies on two components: one collecting all possible targets and one fetching a target from that collection and generating an unconditional jump/branch there. <code>ALTER</code> is a complication because it forces the software language engineer to move all this machinery from compile time to runtime.</li><li>Unlike FORTRAN's <code>ASSIGN</code> statement which can be at least partially optimised because the set of possible values is known apriori for each <code>GO TO</code>, BabyCobol follows COBOL and does not restrict alterations in any way.</li></ul>
 <h2>Origins</h2>
 <span class="ff lang"><a href="cobol.html">COBOL</a></span>&nbsp;&nbsp;&nbsp;<span class="ff used"><a href="cobol.html" title="change the transfer point of an existing GO TO statement">ALTER</a></span> <br/><span class="ff lang"><a href="fortran.html">FORTRAN</a></span>&nbsp;&nbsp;&nbsp;<span class="ff used"><a href="fortran.html" title="change the target of an assigned GO TO statement">ASSIGN</a></span> <br/><span class="ff lang"><a href="rexx.html">REXX</a></span>&nbsp;&nbsp;&nbsp;<span class="ff used"><a href="rexx.html" title="change the destination of commands">ADDRESS</a></span> <br/>
 		<hr/>
 		<div class="last">
 			BabyCobol is a project by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
-			Page last updated in September 2020.
+			Page last updated in October 2020.
 <br/><a href="http://validator.w3.org/check/referer"><img src="../www/xhtml.88.png" alt="XHTML 1.1" /></a>
 			<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="../www/css.88.png" alt="CSS 3" /></a>
 		</div>

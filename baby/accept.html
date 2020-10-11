@@ -38,13 +38,13 @@
 <polygon points="28 40 20 36 20 44"/><polygon points="36 40 28 36 28 44"/><path d="M 36 40 h 20"/><text x="56" y="44">ACCEPT</text><path d="M 116 40 h 20"/><path d="M 136 40 h 20"/><text class="i" x="156" y="44">Identifier</text><path d="M 256 40 h 20"/><path d="M 276 40 v -20 h -140 v 20"/><polygon points="136 39 132 31 140 31"/><path d="M 276 40 h 20"/><polygon points="304 40 296 36 296 44"/><polygon points="304 40 312 36 312 44"/>
 </svg>
 <h2>Remarks</h2>
-<ul><li>the input is expected to obey the picture clause definition of the data fields being read</li></ul>
+<ul><li>the input is expected to obey the picture clause definition of the data fields being read</li><li>Essentially, the <code>PICTURE</code> clause is a binding between the actual data and its displayed representation. For a software language engineer, it might be tempting to implement this binding as two mappings between consistent formats. The <code>ACCEPT</code> statement prevents this, since it demands a binding between an unreliable displayable representation (entered by the user) and the consistent internal representation that must be created from it, available at runtime.</li><li>In real compilers of legacy languages, the internal representation also must conform to legacy character encodings like <a href="https://en.wikipedia.org/wiki/EBCDIC">EBCDIC</a> and legacy binary encodings like <a href="https://en.wikipedia.org/wiki/Binary-coded_decimal">BCD</a>.</li><li>If the input is erroneous, the end result in the target field must represent the fragment of entered data from the start until the error position.</li></ul>
 <h2>Origins</h2>
 <span class="ff lang"><a href="clist.html">CLIST</a></span>&nbsp;&nbsp;&nbsp;<span class="ff used"><a href="clist.html" title="read user input and store it in variables">READ</a></span> <br/><span class="ff lang"><a href="cobol.html">COBOL</a></span>&nbsp;&nbsp;&nbsp;<span class="ff used"><a href="cobol.html" title="accept user data as the new value of an identifier">ACCEPT</a></span> <br/><span class="ff lang"><a href="fortran.html">FORTRAN</a></span>&nbsp;&nbsp;&nbsp;<span class="ff used"><a href="fortran.html" title="accepts data from input cards, tape or drum">READ</a></span> <br/><span class="ff lang"><a href="rexx.html">REXX</a></span>&nbsp;&nbsp;&nbsp;<span class="ff used"><a href="rexx.html" title="syntactic sugar for PARSE UPPER PULL">PULL</a></span> <br/><span class="ff lang"><a href="rpg.html">RPG</a></span>&nbsp;&nbsp;&nbsp;<span class="ff used"><a href="rpg.html" title="parse a document into a variable">DATA-INTO</a></span> <br/>
 		<hr/>
 		<div class="last">
 			BabyCobol is a project by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
-			Page last updated in September 2020.
+			Page last updated in October 2020.
 <br/><a href="http://validator.w3.org/check/referer"><img src="../www/xhtml.88.png" alt="XHTML 1.1" /></a>
 			<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="../www/css.88.png" alt="CSS 3" /></a>
 		</div>
