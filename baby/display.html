@@ -24,7 +24,7 @@
 		<h1><span class="ff lang"><a href="index.html">BabyCobol</a></span>: <span class="ff used"><a href="display.html">DISPLAY</a></span></h1>
 		display text on the terminal
 <hr/><h2>Format</h2>
-<svg xmlns="http://www.w3.org/2000/svg" width="800px" height="80px">
+<svg xmlns="http://www.w3.org/2000/svg" width="840px" height="120px">
 	<defs>
 		<style type="text/css">
 			@namespace "http://www.w3.org/2000/svg";
@@ -35,16 +35,16 @@
 			text.i {font-style:italic;}
 		</style>
 	</defs>
-<polygon points="28 40 20 36 20 44"/><polygon points="36 40 28 36 28 44"/><path d="M 36 40 h 20"/><text x="56" y="44">&nbsp;DISPLAY</text><path d="M 136 40 h 40"/><text class="i" x="176" y="44">Atomic</text><path d="M 236 40 h 20"/><text x="256" y="44">DELIMITED BY</text><path d="M 376 40 h 20"/><path d="M 396 40 h 20"/><text x="416" y="44">SIZE</text><path d="M 456 40 h 60"/><path d="M 396 40 v 20 h 20"/><text x="416" y="64">&nbsp;SPACE</text><path d="M 476 60 h 20 v -20"/><polygon points="496 41 492 49 500 49"/><path d="M 516 40 v -20 h -360 v 20"/><polygon points="156 39 152 31 160 31"/><path d="M 516 40 h 20"/><path d="M 536 40 h 240"/><polygon points="784 40 776 36 776 44"/><polygon points="784 40 792 36 792 44"/><path d="M 536 40 v 20 h 20"/><text x="556" y="64">&nbsp;WITH NO ADVANCING</text><path d="M 736 60 h 20 v -20"/><polygon points="756 41 752 49 760 49"/>
+<polygon points="28 30 20 26 20 34"/><polygon points="36 30 28 26 28 34"/><path d="M 36 30 h 20"/><text x="56" y="34">&nbsp;DISPLAY</text><path d="M 136 30 h 40"/><text class="i" x="176" y="34">Atomic</text><path d="M 236 30 h 20"/><path d="M 256 30 h 240"/><path d="M 256 30 v 20 h 20"/><text x="276" y="54">DELIMITED BY</text><path d="M 396 50 h 20"/><path d="M 416 50 h 40"/><text x="456" y="54">SIZE</text><path d="M 496 50 h 20"/><path d="M 516 50 h 20 v -20"/><polygon points="536 31 532 39 540 39"/><path d="M 416 50 v 20 h 20"/><text x="436" y="74">&nbsp;SPACE</text><path d="M 496 70 h 40"/><path d="M 416 50 v 40 h 20"/><text class="i" x="436" y="94">&nbsp;Literal</text><path d="M 516 90 h 20 v -60"/><polygon points="536 31 532 39 540 39"/><path d="M 496 30 h 60"/><path d="M 556 30 v -20 h -400 v 20"/><polygon points="156 29 152 21 160 21"/><path d="M 556 30 h 20"/><path d="M 576 30 h 240"/><polygon points="824 30 816 26 816 34"/><polygon points="824 30 832 26 832 34"/><path d="M 576 30 v 20 h 20"/><text x="596" y="54">&nbsp;WITH NO ADVANCING</text><path d="M 776 50 h 20 v -20"/><polygon points="796 31 792 39 800 39"/>
 </svg>
 <h2>Remarks</h2>
-<ul><li><code>WITH NO ADVANCING</code> clause prints the text without appending newline character(s)</li><li>values <code>DELIMITED BY SPACE</code> are printed by converting them to strings and trimming empty spaces from both sides</li><li>values <code>DELIMITED BY SIZE</code> are printed by converting them to strings of fixed size corresponding to their defined (identifiers) or inferred (literals) type</li></ul>
+<ul><li><code>WITH NO ADVANCING</code> clause prints the text without appending newline character(s)</li><li>values <code>DELIMITED BY SPACE</code> are printed by converting them to strings and trimming empty spaces from both sides</li><li>values <code>DELIMITED BY SIZE</code> are printed by converting them to strings of fixed size corresponding to their defined (identifiers) or inferred (literals) type</li><li>values <code>DELIMITED BY <em>Literal</em></code> are printed up to the first occurrence of the substring expressed by the literal</li></ul>
 <h2>Origins</h2>
 <span class="ff lang"><a href="clist.html">CLIST</a></span>&nbsp;&nbsp;&nbsp;<span class="ff used"><a href="clist.html" title="display text on the terminal">WRITE</a></span> <span class="ff used"><a href="clist.html" title="display text on the terminal without advancing a cursor to the next line">WRITENR</a></span> <br/><span class="ff lang"><a href="cobol.html">COBOL</a></span>&nbsp;&nbsp;&nbsp;<span class="ff used"><a href="cobol.html" title="print contents of data fields on the display">DISPLAY</a></span> <span class="ff used"><a href="cobol.html" title="format and concatenate strings">STRING</a></span> <br/><span class="ff lang"><a href="fortran.html">FORTRAN</a></span>&nbsp;&nbsp;&nbsp;<span class="ff used"><a href="fortran.html" title="prepare data for printing">FORMAT</a></span> <span class="ff used"><a href="fortran.html" title="display data according to the given format">PRINT</a></span> <br/><span class="ff lang"><a href="rexx.html">REXX</a></span>&nbsp;&nbsp;&nbsp;<span class="ff used"><a href="rexx.html" title="display a line on the terminal">SAY</a></span> <br/><span class="ff lang"><a href="rpg.html">RPG</a></span>&nbsp;&nbsp;&nbsp;<span class="ff used"><a href="rpg.html" title="display a message">DSPLY</a></span> <br/>
 		<hr/>
 		<div class="last">
 			BabyCobol is a project by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net/">grammarware</a>.
-			Page last updated in January 2021.
+			Page last updated in February 2021.
 <br/><a href="http://validator.w3.org/check/referer"><img src="../www/xhtml.88.png" alt="XHTML 1.1" /></a>
 			<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="../www/css.88.png" alt="CSS 3" /></a>
 		</div>
