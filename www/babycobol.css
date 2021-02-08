@@ -4,7 +4,7 @@ body
 	background-color:#765;
 }
 
-a:link, a:visited {color:#E55}
+a:link, a:visited {color:#E75}
 .ff a:link, .ff a:visited {color: #FED; text-decoration: none;}
 .ff.lang a:link, .ff.lang a:visited {color: #E55; text-decoration: none;}
 .ff
