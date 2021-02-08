@@ -7,7 +7,7 @@
 		<link href="../www/babycobol.css" rel="stylesheet" type="text/css" />
 		<img src="../www/babycobol.png" style="width:200px;height:200px;" class="flr" />
 		<h1><span class="ff lang"><a href="index.html">BabyCobol</a></span>: <span class="ff used"><a href="if.html">IF</a></span></h1>
-		branch conditionally within a program
+		a statement to branch conditionally to a paragraph within a program
 <hr/><h2>Format</h2>
 
 <svg xmlns="http://www.w3.org/2000/svg" width="940px" height="100px">

@@ -7,7 +7,7 @@
 		<link href="../www/babycobol.css" rel="stylesheet" type="text/css" />
 		<img src="../www/babycobol.png" style="width:200px;height:200px;" class="flr" />
 		<h1><span class="ff lang"><a href="index.html">BabyCobol</a></span>: <span class="ff used"><a href="subtract.html">SUBTRACT</a></span></h1>
-		subtract one or more numeric values from another value
+		a statement to subtract one or more numeric values from another value
 <hr/><h2>Format</h2>
 
 <svg xmlns="http://www.w3.org/2000/svg" width="680px" height="80px">

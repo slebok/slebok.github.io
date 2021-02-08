@@ -7,7 +7,7 @@
 		<link href="../www/babycobol.css" rel="stylesheet" type="text/css" />
 		<img src="../www/babycobol.png" style="width:200px;height:200px;" class="flr" />
 		<h1><span class="ff lang"><a href="index.html">BabyCobol</a></span>: <span class="ff used"><a href="alter.html">ALTER</a></span></h1>
-		change the target of a GO TO statement
+		a statement to change the target of an existing GO TO statement
 <hr/><h2>Format</h2>
 
 <svg xmlns="http://www.w3.org/2000/svg" width="640px" height="60px">
