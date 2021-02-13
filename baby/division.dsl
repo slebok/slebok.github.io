@@ -26,7 +26,7 @@
 </svg>
 
 <h2>Remarks</h2>
-<ul><li>every BabyCobol program consists of up to three divisions</li><li>the first division is the only one mandatory, and it is the <a href="identification.html"><code>IDENTIFICATION DIVISION</code></a>, it contains some data that helps to identify this program and distinguish it from other programs</li><li>the second division is optional, and it is the <a href="data.html"><code>DATA DIVISION</code></a>, it contains field and structure declarations</li><li>the third division is also optional, and it is the <a href="procedure.html"><code>PROCEDURE DIVISION</code></a>, it contains executable code</li><li><a href="copy.html"><code>COPY</code></a> is the only instruction that is allowed in any division</li></ul>
+<ul><li>every BabyCobol program consists of up to three divisions</li><li>the first division is the only one mandatory, and it is the <a href="identificationdivision.html"><code>IDENTIFICATION DIVISION</code></a>, it contains some data that helps to identify this program and distinguish it from other programs</li><li>the second division is optional, and it is the <a href="datadivision.html"><code>DATA DIVISION</code></a>, it contains field and structure declarations</li><li>the third division is also optional, and it is the <a href="proceduredivision.html"><code>PROCEDURE DIVISION</code></a>, it contains executable code</li><li><a href="copy.html"><code>COPY</code></a> is the only instruction that is allowed in any division</li></ul>
 <h2>Origins</h2>
 <span class="ff lang"><a href="cobol.html">COBOL</a></span>&nbsp;&nbsp;&nbsp;<span class="ff used"><a href="cobol.html" title="the top level unit of any program">DIVISION</a></span> <br/>
 		<hr/>
