@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <path css="../www" img="../www"/>
 <html doctype>
-	<head viewport title="BabyCobol: NEXT SENTENCE">
+	<head viewport title="BabyCobol: NEXT SENTENCE" css="babycobol.css">
 	<body>
 		<header/>
-		<link href="../www/babycobol.css" rel="stylesheet" type="text/css" />
 		<img src="../www/babycobol.png" style="width:200px;height:200px;" class="flr" />
 		<h1><span class="ff lang"><a href="index.html">BabyCobol</a></span>: <span class="ff used"><a href="nextsentence.html">NEXT SENTENCE</a></span></h1>
 		a statement to branch unconditionally to the beginning of the next sentence

@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <path css="../www" img="../www"/>
 <html doctype>
-	<head viewport title="BabyCobol: PERFORM">
+	<head viewport title="BabyCobol: PERFORM" css="babycobol.css">
 	<body>
 		<header/>
-		<link href="../www/babycobol.css" rel="stylesheet" type="text/css" />
 		<img src="../www/babycobol.png" style="width:200px;height:200px;" class="flr" />
 		<h1><span class="ff lang"><a href="index.html">BabyCobol</a></span>: <span class="ff used"><a href="perform.html">PERFORM</a></span></h1>
 		a statement to call a paragraph or section within the program
