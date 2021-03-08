@@ -9,7 +9,7 @@
 		an instruction to terminate the program
 <hr/><h2>Format</h2>
 
-<svg xmlns="http://www.w3.org/2000/svg" width="140px" height="60px">
+<svg xmlns="http://www.w3.org/2000/svg" width="160px" height="60px">
 	<defs>
 		<style type="text/css">
 			@namespace "http://www.w3.org/2000/svg";
@@ -20,7 +20,7 @@
 			text.i {font-style:italic;}
 		</style>
 	</defs>
-<!-- [('size', '7:3:0'), ('begin',), ('skip',), ('term', 'STOP', 2), ('skip',), ('end',)] -->
+<!-- [('size', '8:3:0'), ('begin',), ('skip',), ('term', 'STOP', 2), ('skip',), ('end',)] -->
 <polygon points="28 30 20 26 20 34"/><polygon points="36 30 28 26 28 34"/><path d="M 36 30 h 20"/><text x="56" y="34">STOP</text><path d="M 96 30 h 20"/><polygon points="124 30 116 26 116 34"/><polygon points="124 30 132 26 132 34"/>
 </svg>
 

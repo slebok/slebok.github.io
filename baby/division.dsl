@@ -9,7 +9,7 @@
 		the top unit of a BabyCobol program
 <hr/><h2>Format</h2>
 
-<svg xmlns="http://www.w3.org/2000/svg" width="520px" height="80px">
+<svg xmlns="http://www.w3.org/2000/svg" width="520px" height="60px">
 	<defs>
 		<style type="text/css">
 			@namespace "http://www.w3.org/2000/svg";
@@ -20,8 +20,8 @@
 			text.i {font-style:italic;}
 		</style>
 	</defs>
-<!-- [('size', '26:4:1'), ('begin',), ('skip',), ('nt', 'Identification', 7), ('skip',), ('save', '1'), ('skip', 5), ('save', '2'), ('skip', 8), ('end',), ('load', '1'), ('downbranch',), ('nt', 'Data', 2), ('backbranch',), ('load', '2'), ('downbranch',), ('nt', 'Procedure', 5), ('backbranch',)] -->
-<polygon points="28 40 20 36 20 44"/><polygon points="36 40 28 36 28 44"/><path d="M 36 40 h 20"/><text class="i" x="56" y="44">Identification</text><path d="M 196 40 h 20"/><path d="M 216 40 h 100"/><path d="M 316 40 h 160"/><polygon points="484 40 476 36 476 44"/><polygon points="484 40 492 36 492 44"/><path d="M 216 40 v 20 h 20"/><text class="i" x="236" y="64">Data</text><path d="M 276 60 h 20 v -20"/><polygon points="296 41 292 49 300 49"/><path d="M 316 40 v 20 h 20"/><text class="i" x="336" y="64">&nbsp;Procedure</text><path d="M 436 60 h 20 v -20"/><polygon points="456 41 452 49 460 49"/>
+<!-- [('size', '26:3:-1'), ('begin',), ('skip',), ('nt', 'Identification', 7), ('skip',), ('save', '1'), ('skip', 5), ('save', '2'), ('skip', 8), ('end',), ('load', '1'), ('downbranch',), ('nt', 'Data', 2), ('backbranch',), ('load', '2'), ('downbranch',), ('nt', 'Procedure', 5), ('backbranch',)] -->
+<polygon points="28 20 20 16 20 24"/><polygon points="36 20 28 16 28 24"/><path d="M 36 20 h 20"/><text class="i" x="56" y="24">Identification</text><path d="M 196 20 h 20"/><path d="M 216 20 h 100"/><path d="M 316 20 h 160"/><polygon points="484 20 476 16 476 24"/><polygon points="484 20 492 16 492 24"/><path d="M 216 20 v 20 h 20"/><text class="i" x="236" y="44">Data</text><path d="M 276 40 h 20 v -20"/><polygon points="296 21 292 29 300 29"/><path d="M 316 20 v 20 h 20"/><text class="i" x="336" y="44">&nbsp;Procedure</text><path d="M 436 40 h 20 v -20"/><polygon points="456 21 452 29 460 29"/>
 </svg>
 
 <h2>Remarks</h2>

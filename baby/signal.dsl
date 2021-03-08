@@ -20,8 +20,8 @@
 			text.i {font-style:italic;}
 		</style>
 	</defs>
-<!-- [('size', '24:4:1'), ('begin',), ('skip',), ('term', 'SIGNAL', 3), ('skip',), ('save', '1'), ('skip',), ('nt', 'ProcedureName', 7), ('skip', 2), ('term', 'ON_ERROR', 4), ('skip',), ('end',), ('load', '1'), ('downbranch',), ('term', 'OFF', 2), ('skip', 5), ('backbranch',)] -->
-<polygon points="28 40 20 36 20 44"/><polygon points="36 40 28 36 28 44"/><path d="M 36 40 h 20"/><text x="56" y="44">SIGNAL</text><path d="M 116 40 h 20"/><path d="M 136 40 h 20"/><text class="i" x="156" y="44">&nbsp;ProcedureName</text><path d="M 296 40 h 40"/><text x="336" y="44">ON ERROR</text><path d="M 416 40 h 20"/><polygon points="444 40 436 36 436 44"/><polygon points="444 40 452 36 452 44"/><path d="M 136 40 v 20 h 20"/><text x="156" y="64">&nbsp;OFF</text><path d="M 196 60 h 100"/><path d="M 296 60 h 20 v -20"/><polygon points="316 41 312 49 320 49"/>
+<!-- [('size', '24:4:0'), ('begin',), ('skip',), ('term', 'SIGNAL', 3), ('skip',), ('save', '1'), ('skip',), ('nt', 'ProcedureName', 7), ('skip', 2), ('term', 'ON_ERROR', 4), ('skip',), ('end',), ('load', '1'), ('downbranch',), ('term', 'OFF', 2), ('skip', 5), ('backbranch',)] -->
+<polygon points="28 30 20 26 20 34"/><polygon points="36 30 28 26 28 34"/><path d="M 36 30 h 20"/><text x="56" y="34">SIGNAL</text><path d="M 116 30 h 20"/><path d="M 136 30 h 20"/><text class="i" x="156" y="34">&nbsp;ProcedureName</text><path d="M 296 30 h 40"/><text x="336" y="34">ON ERROR</text><path d="M 416 30 h 20"/><polygon points="444 30 436 26 436 34"/><polygon points="444 30 452 26 452 34"/><path d="M 136 30 v 20 h 20"/><text x="156" y="54">&nbsp;OFF</text><path d="M 196 50 h 100"/><path d="M 296 50 h 20 v -20"/><polygon points="316 31 312 39 320 39"/>
 </svg>
 
 <h2>Origins</h2>
