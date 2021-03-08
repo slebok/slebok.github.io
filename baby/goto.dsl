@@ -20,7 +20,7 @@
 			text.i {font-style:italic;}
 		</style>
 	</defs>
-<!-- [('size', '17.'), ('begin',), ('skip',), ('term', 'GO_TO', 3), ('skip',), ('nt', 'ProcedureName', 7), ('skip',), ('end',)] -->
+<!-- [('size', '17:3:0'), ('begin',), ('skip',), ('term', 'GO_TO', 3), ('skip',), ('nt', 'ProcedureName', 7), ('skip',), ('end',)] -->
 <polygon points="28 30 20 26 20 34"/><polygon points="36 30 28 26 28 34"/><path d="M 36 30 h 20"/><text x="56" y="34">&nbsp;GO TO</text><path d="M 116 30 h 20"/><text class="i" x="136" y="34">&nbsp;ProcedureName</text><path d="M 276 30 h 20"/><polygon points="304 30 296 26 296 34"/><polygon points="304 30 312 26 312 34"/>
 </svg>
 

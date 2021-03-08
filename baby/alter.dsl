@@ -20,7 +20,7 @@
 			text.i {font-style:italic;}
 		</style>
 	</defs>
-<!-- [('size', '32.'), ('begin',), ('skip',), ('term', 'ALTER', 3), ('skip',), ('nt', 'ProcedureName', 7), ('skip',), ('term', 'TO', 1), ('term', 'PROCEED', 4), ('term', 'TO', 1), ('skip',), ('nt', 'ProcedureName', 7), ('skip',), ('end',)] -->
+<!-- [('size', '32:3:0'), ('begin',), ('skip',), ('term', 'ALTER', 3), ('skip',), ('nt', 'ProcedureName', 7), ('skip',), ('term', 'TO', 1), ('term', 'PROCEED', 4), ('term', 'TO', 1), ('skip',), ('nt', 'ProcedureName', 7), ('skip',), ('end',)] -->
 <polygon points="28 30 20 26 20 34"/><polygon points="36 30 28 26 28 34"/><path d="M 36 30 h 20"/><text x="56" y="34">&nbsp;ALTER</text><path d="M 116 30 h 20"/><text class="i" x="136" y="34">&nbsp;ProcedureName</text><path d="M 276 30 h 20"/><text x="296" y="34">TO</text><text x="316" y="34">&nbsp;PROCEED</text><text x="396" y="34">TO</text><path d="M 416 30 h 20"/><text class="i" x="436" y="34">&nbsp;ProcedureName</text><path d="M 576 30 h 20"/><polygon points="604 30 596 26 596 34"/><polygon points="604 30 612 26 612 34"/>
 </svg>
 

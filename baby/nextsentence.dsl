@@ -20,7 +20,7 @@
 			text.i {font-style:italic;}
 		</style>
 	</defs>
-<!-- [('size', '13.'), ('begin',), ('skip',), ('term', 'NEXT_SENTENCE', 7), ('skip',), ('end',)] -->
+<!-- [('size', '13:3:0'), ('begin',), ('skip',), ('term', 'NEXT_SENTENCE', 7), ('skip',), ('end',)] -->
 <polygon points="28 30 20 26 20 34"/><polygon points="36 30 28 26 28 34"/><path d="M 36 30 h 20"/><text x="56" y="34">&nbsp;NEXT SENTENCE</text><path d="M 196 30 h 20"/><polygon points="224 30 216 26 216 34"/><polygon points="224 30 232 26 232 34"/>
 </svg>
 

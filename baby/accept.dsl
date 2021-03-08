@@ -20,7 +20,7 @@
 			text.i {font-style:italic;}
 		</style>
 	</defs>
-<!-- [('size', '17:'), ('begin',), ('skip',), ('term', 'ACCEPT', 3), ('skip',), ('skip',), ('nt', 'Identifier', 5), ('skip',), ('uploop', 7), ('skip',), ('end',)] -->
+<!-- [('size', '17:4:1'), ('begin',), ('skip',), ('term', 'ACCEPT', 3), ('skip',), ('skip',), ('nt', 'Identifier', 5), ('skip',), ('uploop', 7), ('skip',), ('end',)] -->
 <polygon points="28 40 20 36 20 44"/><polygon points="36 40 28 36 28 44"/><path d="M 36 40 h 20"/><text x="56" y="44">ACCEPT</text><path d="M 116 40 h 20"/><path d="M 136 40 h 20"/><text class="i" x="156" y="44">Identifier</text><path d="M 256 40 h 20"/><path d="M 276 40 v -20 h -140 v 20"/><polygon points="136 39 132 31 140 31"/><path d="M 276 40 h 20"/><polygon points="304 40 296 36 296 44"/><polygon points="304 40 312 36 312 44"/>
 </svg>
 
