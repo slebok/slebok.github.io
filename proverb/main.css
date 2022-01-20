@@ -1,0 +1,79 @@
+.subtitle {
+	font-style: italic;
+	font-size: small;
+	display: block;
+	font-weight: normal;
+	color: #1a237e;
+}
+
+.pv, .tag, .pv a, .tag a, .tag a:visited, .pv a:visited {
+    color: #49599a;
+    text-decoration: none;
+}
+.tag {
+    border: 1px solid #49599a;
+    margin: 6px;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.left {
+    float: left;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background: #7986cb;
+}
+
+.left h2, .left p {margin-top: 0; margin-left: 6px;}
+.left h1 {margin: 0; text-align: center; }
+
+.top {
+    background: #7986cb;
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.pvs {
+    padding-right: 50px;
+    background: #7986cb;
+    text-align: right;
+}
+
+.main {
+	margin-top: 80px;
+    margin-left: 160px;
+    margin-right: 10px;
+}
+
+body {
+	margin-left: 0;
+	background-color:#9fa8da;
+	color:black;
+	font-family: sans-serif
+}
+blockquote {border: 1px solid #004D40; padding: 10px}
+.red, .red a, .red a:visited, .cool a, .cool a:visited {color:red}
+a, a:visited, a.blue, a.blue:visited {color:#1a237e}
+.red a:hover {font-weight:bold}
+.c {text-align:center; font-weight:bold}
+.c h1, .c h2 {margin: 0px}
+.c a {text-decoration: none;}
+table {border-collapse:collapse}
+td {border:solid 1px black; padding:5px}
+td:first-child {white-space:nowrap}
+td:last-child {font-style:italic}
+.f {width:100%; text-align:right; font-style:italic; font-size:smaller}
+.f img {float: left}
+.tabbertab a {font-weight: bold}
+.tabbertab a.nobold {font-weight: normal;}
+.kw {color: #8C61DF; font-weight: bold}
+
+div.rl {width: 24em; height: 220px; border: solid #00695C 2px; border-top: none; right: 0; left: 0; margin-left: auto;margin-right: auto}
+h2.rl {background-color:#E0F2F1; width: 14em; right: 0; left: 0; margin-left: auto;margin-right: auto; margin-top:-15px}
+h2.rl, h2.rl * {color:orange;}
+pre img {width: 100%}
+
+@media screen and (max-width: 440px) { div.rl {width: 95%} }

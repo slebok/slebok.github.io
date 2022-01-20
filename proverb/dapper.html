@@ -1,0 +1,107 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html version="-//W3C//DTD XHTML 1.1//EN"
+      xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.w3.org/1999/xhtml
+                          http://www.w3.org/MarkUp/SCHEMA/xhtml11.xsd">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="initial-scale=1.0"/>
+		<title>DaPPer</title>
+		<link href="main.css" rel="stylesheet" type="text/css" />
+		<link href="tabber.css" rel="stylesheet" type="text/css" media="screen" />
+		<script type="text/javascript" src="tabber.js" />
+		<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-3743366-7']);
+		  _gaq.push(['_setDomainName', 'github.io']);
+		  _gaq.push(['_setAllowLinker', true]);
+		  _gaq.push(['_trackPageview']);
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
+	</head>
+	<body>
+		<div class="top">
+			<div class="pvs">
+				<h1>
+					<span class="tag"><a href="pv0.html" title="unprocessed">PV0</a></span>
+					<span class="tag"><a href="pv1.html" title="solvers/linters">PV1</a></span>
+					<span class="tag"><a href="pv2.html" title="property checkers">PV2</a></span>
+					<span class="tag"><a href="pv3.html" title="monoverifiers">PV3</a></span>
+					<span class="tag"><a href="pv4.html" title="spec compilers">PV4</a></span>
+					<span class="tag"><a href="pv5.html" title="proof assistants">PV5</a></span>
+				</h1>
+			</div>
+		</div>
+		<div class="left">
+			<a href="index.html"><img src="proverb.png" alt="ProVerB"/></a>
+			<h1>ProVerB:</h1>
+			<h2>Program<br/>Verification<br/>Book</h2>
+
+			<p>
+				<a href="index.html">Top</a><br/>
+				<a href="tags.html">Tags</a><br/>
+				<a href="index.html">Search</a><br/>
+				<br/>
+				<a href="framework.html">Frameworks</a><br/>
+				<a href="format.html">Formats</a><br/>
+				<br/>
+				<a href="https://github.com/Sophietje/Verification-Tool-Overview/">Backend repo</a><br/>
+				<a href="https://github.com/slebok/slebok.github.io/tree/master/proverb">Frontend repo</a><br/>
+				<br/>
+				<a href="help.html">Help</a><br/>
+			</p>
+		</div>
+		<div class="main">
+		<div class="tabber">
+			<div class="tabbertab"><h2>Tool</h2><div><span class="tag"><a href="probabilistic.html">Probabilistic</a></span>
+<span class="tag"><a href="synthesis.html">Synthesis</a></span></div><h1 class="fbs"><span class="pv"><a href="pv4.html">PV4</a> ⊧</span> DaPPer: Data-guided Probabilistic Program synthesizer<span class="subtitle">synthesises probabilistic programs from relational datasets</span></h1>A tool to synthesize full PPL (probabilistic programming language) models from relational datasets.
+<h3>Application domain/field</h3>
+<ul><li>Probabilistic programming</li>
+<li>Program synthesis</li></ul>
+<h3>Type of tool</h3>
+Probabilistic program synthesizer
+<h3>Expected input</h3>
+<ul>
+<li>Dataset</li>
+<li>Causal Order hypothesis (ordering of the dataset column identifiers). This is a hypothesis about the direction of causal links between variables.</li>
+</ul>
+
+<p>Format:</p>
+<ul>
+<li><em>Dataset</em>: <code>.csv</code> file</li>
+<li><em>Causal order hypothesis</em>: ?</li>
+</ul>
+
+<h3>Expected output</h3>
+PPL program in a subset of the <a href="blog.html">BLOG</a> language.
+
+<h3>Internals</h3>
+It uses simulated annealing (SA) to synthesize PPL (probabilistic programming language) programs from relational datasets.
+</div><div class="tabbertab"><h2>Meta</h2><div><span class="tag"><a href="probabilistic.html">Probabilistic</a></span>
+<span class="tag"><a href="synthesis.html">Synthesis</a></span></div><h3>Links</h3>
+Repository: <a href="https://github.com/schasins/PPL-synthesis"><code>https://github.com/schasins/PPL-synthesis</code></a>
+<h3>Last commit date</h3>
+21 January 2017
+<h3>Last publication date</h3>
+13 July 2017
+<h3>List of related papers</h3>
+<a href="https://doi.org/10.1007/978-3-319-63387-9<em>14"><code>https://doi.org/10.1007/978-3-319-63387-9</em>14</code></a> (CAV '17)
+<h3>Related tools</h3>
+<a href="psketch.html">PSketch</a>: given a sketch of a nearly complete PPL program and a dataset, it will synthesize expressions to complete the program.
+<h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/Synthesiser/DaPPer.md">View/edit source</a> (Markdown)</li></ul></div>
+		</div>
+		<br/><hr/>
+		<div class="f">
+			<a href="help.html">ProVerB</a> is a part of <a href="https://slebok.github.io/">SLEBoK</a>.
+			Last updated: <strong>January 2022</strong>.
+		</div>
+	</div>
+	</body>
+</html>

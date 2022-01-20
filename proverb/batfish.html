@@ -1,0 +1,122 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html version="-//W3C//DTD XHTML 1.1//EN"
+      xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.w3.org/1999/xhtml
+                          http://www.w3.org/MarkUp/SCHEMA/xhtml11.xsd">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="initial-scale=1.0"/>
+		<title>Batfish</title>
+		<link href="main.css" rel="stylesheet" type="text/css" />
+		<link href="tabber.css" rel="stylesheet" type="text/css" media="screen" />
+		<script type="text/javascript" src="tabber.js" />
+		<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-3743366-7']);
+		  _gaq.push(['_setDomainName', 'github.io']);
+		  _gaq.push(['_setAllowLinker', true]);
+		  _gaq.push(['_trackPageview']);
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
+	</head>
+	<body>
+		<div class="top">
+			<div class="pvs">
+				<h1>
+					<span class="tag"><a href="pv0.html" title="unprocessed">PV0</a></span>
+					<span class="tag"><a href="pv1.html" title="solvers/linters">PV1</a></span>
+					<span class="tag"><a href="pv2.html" title="property checkers">PV2</a></span>
+					<span class="tag"><a href="pv3.html" title="monoverifiers">PV3</a></span>
+					<span class="tag"><a href="pv4.html" title="spec compilers">PV4</a></span>
+					<span class="tag"><a href="pv5.html" title="proof assistants">PV5</a></span>
+				</h1>
+			</div>
+		</div>
+		<div class="left">
+			<a href="index.html"><img src="proverb.png" alt="ProVerB"/></a>
+			<h1>ProVerB:</h1>
+			<h2>Program<br/>Verification<br/>Book</h2>
+
+			<p>
+				<a href="index.html">Top</a><br/>
+				<a href="tags.html">Tags</a><br/>
+				<a href="index.html">Search</a><br/>
+				<br/>
+				<a href="framework.html">Frameworks</a><br/>
+				<a href="format.html">Formats</a><br/>
+				<br/>
+				<a href="https://github.com/Sophietje/Verification-Tool-Overview/">Backend repo</a><br/>
+				<a href="https://github.com/slebok/slebok.github.io/tree/master/proverb">Frontend repo</a><br/>
+				<br/>
+				<a href="help.html">Help</a><br/>
+			</p>
+		</div>
+		<div class="main">
+		<div class="tabber">
+			<div class="tabbertab"><h2>Tool</h2><div><span class="tag"><a href="datalog.html">Datalog</a></span>
+<span class="tag"><a href="networks.html">Networks</a></span></div><h1 class="fbs"><span class="pv"><a href="pv2.html">PV2</a> ⊧</span> Batfish<span class="subtitle">checks properties of networks</span></h1><h3>Application domain/field</h3>
+<ul><li>Networks</li>
+<li>Network configuration</li></ul>
+<h3>Type of tool</h3>
+Configuration testing tool
+<h3>Expected input</h3>
+<ul>
+<li>Network configuration</li>
+<li>Network topology</li>
+<li>User-defined properties that should be checked</li>
+</ul>
+
+<p>Format:</p>
+<ul>
+<li><em>Network configuration</em>: in the configuration language of Cisco IOS, Cisco NXOS, Juniper JunOS, Arist or Quanta.</li>
+<li><em>Network topology:</em> ?</li>
+<li><em>User-defined properties</em>: first-order logic formula</li>
+</ul>
+
+<h3>Expected output</h3>
+<ul>
+<li>User can query the system about control and data planes</li>
+<li>It can provide a counterexample in case of a property violation</li>
+</ul>
+
+<h3>Internals</h3>
+Uses Network Optimized Datalog (<a href="nod.html">NoD</a>)
+
+<h3>Comments</h3>
+Tool to detect network configuration errors
+
+The tool checks for some default properties such as:
+
+<ul>
+<li>Absence of black holes and loops</li>
+<li>Multipath consistency: all packets with the same header should be treated identically in terms of being accepted or dropped, regardless of the path taken through the network</li>
+<li>Failure consistency: Consider a network E. If a package is accepted by network E, then it should also be accepted in an identical network E' where some nodes/links are considered failed. (This is for testing the fault tolerance of a network)</li>
+<li>Destination consistency: A customer AS can only send route announcements for its own address, ensuring that it only receives packets destined to itself.</li>
+</ul>
+</div><div class="tabbertab"><h2>Meta</h2><div><span class="tag"><a href="datalog.html">Datalog</a></span>
+<span class="tag"><a href="networks.html">Networks</a></span></div><h3>Links</h3>
+<ul><li><a href="https://www.batfish.org/"><code>https://www.batfish.org/</code></a></li>
+<li><a href="https://github.com/batfish/batfish"><code>https://github.com/batfish/batfish</code></a></li></ul>
+<h3>Last commit date</h3>
+28 May 2021
+<h3>Last publication date</h3>
+2015
+<h3>List of related papers</h3>
+<a href="https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-fogel.pdf"><code>https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-fogel.pdf</code></a>
+<h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/Batfish.md">View/edit source</a> (Markdown)</li></ul></div>
+		</div>
+		<br/><hr/>
+		<div class="f">
+			<a href="help.html">ProVerB</a> is a part of <a href="https://slebok.github.io/">SLEBoK</a>.
+			Last updated: <strong>January 2022</strong>.
+		</div>
+	</div>
+	</body>
+</html>

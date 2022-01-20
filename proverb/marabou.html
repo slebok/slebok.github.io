@@ -1,0 +1,116 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html version="-//W3C//DTD XHTML 1.1//EN"
+      xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.w3.org/1999/xhtml
+                          http://www.w3.org/MarkUp/SCHEMA/xhtml11.xsd">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="initial-scale=1.0"/>
+		<title>Marabou</title>
+		<link href="main.css" rel="stylesheet" type="text/css" />
+		<link href="tabber.css" rel="stylesheet" type="text/css" media="screen" />
+		<script type="text/javascript" src="tabber.js" />
+		<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-3743366-7']);
+		  _gaq.push(['_setDomainName', 'github.io']);
+		  _gaq.push(['_setAllowLinker', true]);
+		  _gaq.push(['_trackPageview']);
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
+	</head>
+	<body>
+		<div class="top">
+			<div class="pvs">
+				<h1>
+					<span class="tag"><a href="pv0.html" title="unprocessed">PV0</a></span>
+					<span class="tag"><a href="pv1.html" title="solvers/linters">PV1</a></span>
+					<span class="tag"><a href="pv2.html" title="property checkers">PV2</a></span>
+					<span class="tag"><a href="pv3.html" title="monoverifiers">PV3</a></span>
+					<span class="tag"><a href="pv4.html" title="spec compilers">PV4</a></span>
+					<span class="tag"><a href="pv5.html" title="proof assistants">PV5</a></span>
+				</h1>
+			</div>
+		</div>
+		<div class="left">
+			<a href="index.html"><img src="proverb.png" alt="ProVerB"/></a>
+			<h1>ProVerB:</h1>
+			<h2>Program<br/>Verification<br/>Book</h2>
+
+			<p>
+				<a href="index.html">Top</a><br/>
+				<a href="tags.html">Tags</a><br/>
+				<a href="index.html">Search</a><br/>
+				<br/>
+				<a href="framework.html">Frameworks</a><br/>
+				<a href="format.html">Formats</a><br/>
+				<br/>
+				<a href="https://github.com/Sophietje/Verification-Tool-Overview/">Backend repo</a><br/>
+				<a href="https://github.com/slebok/slebok.github.io/tree/master/proverb">Frontend repo</a><br/>
+				<br/>
+				<a href="help.html">Help</a><br/>
+			</p>
+		</div>
+		<div class="main">
+		<div class="tabber">
+			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> Marabou</h1>Framework for verifying deep neural networks based on SMT solving.
+<h3>Application domain/field</h3>
+<ul><li>Deep neural networks</li>
+<li>Neural network verification</li></ul>
+<h3>Type of tool</h3>
+Neural network verifier
+<h3>Expected input</h3>
+<ul>
+<li>Neural network</li>
+<li>Property that should be checked</li>
+</ul>
+
+<p>Format:</p>
+<ul>
+<li><em>Neural network</em>: Tensorflow format (.pb file), .nnet format, .onnx file,</li>
+<li><em>Property</em>: inequality over input and output variables or via the Python interface</li>
+</ul>
+
+<h3>Expected output</h3>
+<code>SAT</code> or <code>UNSAT</code> indicating whether the network satisfies the property. If it does not satisfy the property then it will provide a counter-example (concrete input) for which the property is violated.
+
+<h3>Internals</h3>
+Marabou converts queries about a network into a constraint satisfaction problem.
+
+Marabou supports fully connected feed-forward and convolutional neural networks with piece-wise linear activation functions.
+
+The property/query that should be checked can be one of two types:
+<ul>
+<li><em>Reachability queries</em>: if the input is in a given range, the output will be guaranteed to be in some, typically safe, range.</li>
+<li><em>Robustness queries</em>: test whether there exist adversarial points around a given input point that change the output of the network.</li>
+</ul>
+
+Uses <a href="glpk.html">GLPK</a>
+</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>Links</h3>
+<ul><li>Repository: <a href="https://github.com/guykatzz/Marabou/"><code>https://github.com/guykatzz/Marabou/</code></a></li>
+<li>Repository (unsure what the difference is): <a href="https://github.com/NeuralNetworkVerification/Marabou"><code>https://github.com/NeuralNetworkVerification/Marabou</code></a></li>
+<li>Project page: <a href="https://neuralnetworkverification.github.io/"><code>https://neuralnetworkverification.github.io/</code></a></li></ul>
+<h3>Last commit date</h3>
+13 September 2020
+<h3>Last publication date</h3>
+23 March 2021
+<h3>List of related papers</h3>
+<ul><li><a href="https://doi.org/10.1007/978-3-030-25540-4<em>26"><code>https://doi.org/10.1007/978-3-030-25540-4</em>26</code></a></li>
+<li><a href="https://doi.org/10.1007/978-3-030-72013-1<em>11"><code>https://doi.org/10.1007/978-3-030-72013-1</em>11</code></a></li></ul>
+<h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/Marabou.md">View/edit source</a> (Markdown)</li></ul></div>
+		</div>
+		<br/><hr/>
+		<div class="f">
+			<a href="help.html">ProVerB</a> is a part of <a href="https://slebok.github.io/">SLEBoK</a>.
+			Last updated: <strong>January 2022</strong>.
+		</div>
+	</div>
+	</body>
+</html>

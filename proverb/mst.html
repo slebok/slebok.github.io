@@ -1,0 +1,101 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html version="-//W3C//DTD XHTML 1.1//EN"
+      xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.w3.org/1999/xhtml
+                          http://www.w3.org/MarkUp/SCHEMA/xhtml11.xsd">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="initial-scale=1.0"/>
+		<title>Mapping Synthesis Tool</title>
+		<link href="main.css" rel="stylesheet" type="text/css" />
+		<link href="tabber.css" rel="stylesheet" type="text/css" media="screen" />
+		<script type="text/javascript" src="tabber.js" />
+		<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-3743366-7']);
+		  _gaq.push(['_setDomainName', 'github.io']);
+		  _gaq.push(['_setAllowLinker', true]);
+		  _gaq.push(['_trackPageview']);
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
+	</head>
+	<body>
+		<div class="top">
+			<div class="pvs">
+				<h1>
+					<span class="tag"><a href="pv0.html" title="unprocessed">PV0</a></span>
+					<span class="tag"><a href="pv1.html" title="solvers/linters">PV1</a></span>
+					<span class="tag"><a href="pv2.html" title="property checkers">PV2</a></span>
+					<span class="tag"><a href="pv3.html" title="monoverifiers">PV3</a></span>
+					<span class="tag"><a href="pv4.html" title="spec compilers">PV4</a></span>
+					<span class="tag"><a href="pv5.html" title="proof assistants">PV5</a></span>
+				</h1>
+			</div>
+		</div>
+		<div class="left">
+			<a href="index.html"><img src="proverb.png" alt="ProVerB"/></a>
+			<h1>ProVerB:</h1>
+			<h2>Program<br/>Verification<br/>Book</h2>
+
+			<p>
+				<a href="index.html">Top</a><br/>
+				<a href="tags.html">Tags</a><br/>
+				<a href="index.html">Search</a><br/>
+				<br/>
+				<a href="framework.html">Frameworks</a><br/>
+				<a href="format.html">Formats</a><br/>
+				<br/>
+				<a href="https://github.com/Sophietje/Verification-Tool-Overview/">Backend repo</a><br/>
+				<a href="https://github.com/slebok/slebok.github.io/tree/master/proverb">Frontend repo</a><br/>
+				<br/>
+				<a href="help.html">Help</a><br/>
+			</p>
+		</div>
+		<div class="main">
+		<div class="tabber">
+			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> Mapping Synthesis Tool</h1>Tool to synthesize a set of implementation decisions ensuring that a desired property is preserved from a high-level design into a low-level platform implementation
+<h3>Type of tool</h3>
+Synthesis tool
+<h3>Expected input</h3>
+<ul>
+<li>Processes P and Q</li>
+<li>Specification <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>\Phi</mi></mrow></math></li>
+<li>Mapping constraint C</li>
+</ul>
+
+<p>Format:</p>
+Alloy model (.als file)?
+
+<h3>Expected output</h3>
+If it exists, a maximal set of mappings that ensures that the resulting platform implementation preserves the given property.
+
+<h3>Internals</h3>
+Uses <a href="alloy.html">Alloy</a> and <a href="alloyanalyzer.html">Alloy Analyzer</a>
+
+<h3>Comments</h3>
+Note the authors themselves call this a "prototype implementation" and it doesn't seem to have been updated since the paper was published.
+</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>Links</h3>
+Repository: <a href="https://github.com/eskang/MappingSynthesisTool"><code>https://github.com/eskang/MappingSynthesisTool</code></a>
+<h3>Last commit date</h3>
+3 February 2019
+<h3>Last publication date</h3>
+12 July 2019
+<h3>List of related papers</h3>
+<a href="https://doi.org/10.1007/978-3-030-25540-4<em>12"><code>https://doi.org/10.1007/978-3-030-25540-4</em>12</code></a>
+<h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/Mapping Synthesis Tool.md">View/edit source</a> (Markdown)</li></ul></div>
+		</div>
+		<br/><hr/>
+		<div class="f">
+			<a href="help.html">ProVerB</a> is a part of <a href="https://slebok.github.io/">SLEBoK</a>.
+			Last updated: <strong>January 2022</strong>.
+		</div>
+	</div>
+	</body>
+</html>

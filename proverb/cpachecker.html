@@ -1,0 +1,125 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html version="-//W3C//DTD XHTML 1.1//EN"
+      xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.w3.org/1999/xhtml
+                          http://www.w3.org/MarkUp/SCHEMA/xhtml11.xsd">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="initial-scale=1.0"/>
+		<title>CPAchecker</title>
+		<link href="main.css" rel="stylesheet" type="text/css" />
+		<link href="tabber.css" rel="stylesheet" type="text/css" media="screen" />
+		<script type="text/javascript" src="tabber.js" />
+		<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-3743366-7']);
+		  _gaq.push(['_setDomainName', 'github.io']);
+		  _gaq.push(['_setAllowLinker', true]);
+		  _gaq.push(['_trackPageview']);
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
+	</head>
+	<body>
+		<div class="top">
+			<div class="pvs">
+				<h1>
+					<span class="tag"><a href="pv0.html" title="unprocessed">PV0</a></span>
+					<span class="tag"><a href="pv1.html" title="solvers/linters">PV1</a></span>
+					<span class="tag"><a href="pv2.html" title="property checkers">PV2</a></span>
+					<span class="tag"><a href="pv3.html" title="monoverifiers">PV3</a></span>
+					<span class="tag"><a href="pv4.html" title="spec compilers">PV4</a></span>
+					<span class="tag"><a href="pv5.html" title="proof assistants">PV5</a></span>
+				</h1>
+			</div>
+		</div>
+		<div class="left">
+			<a href="index.html"><img src="proverb.png" alt="ProVerB"/></a>
+			<h1>ProVerB:</h1>
+			<h2>Program<br/>Verification<br/>Book</h2>
+
+			<p>
+				<a href="index.html">Top</a><br/>
+				<a href="tags.html">Tags</a><br/>
+				<a href="index.html">Search</a><br/>
+				<br/>
+				<a href="framework.html">Frameworks</a><br/>
+				<a href="format.html">Formats</a><br/>
+				<br/>
+				<a href="https://github.com/Sophietje/Verification-Tool-Overview/">Backend repo</a><br/>
+				<a href="https://github.com/slebok/slebok.github.io/tree/master/proverb">Frontend repo</a><br/>
+				<br/>
+				<a href="help.html">Help</a><br/>
+			</p>
+		</div>
+		<div class="main">
+		<div class="tabber">
+			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> CPAChecker</h1>Software verification framework
+<h3>Application domain/field</h3>
+<ul><li>Software verification</li>
+<li>Model checking</li>
+<li>Software model checking</li></ul>
+<h3>Type of tool</h3>
+Model checker?
+<h3>Expected input</h3>
+<ul>
+<li>C program</li>
+<li>CPAChecker will look for labels named <code>ERROR</code> (case insensitive) and assertions in the source code file</li>
+<li>Configuration file (there are default configurations available) which indicates what kind of analysis to perform</li>
+</ul>
+
+<p>Format:</p>
+<ul>
+<li><em>C program</em>: <code>.c</code> file</li>
+<li><em>Configuration</em>: <code>.properties</code> file</li>
+</ul>
+
+<h3>Expected output</h3>
+<code>Verification result:</code> <code>FALSE</code> or <code>TRUE</code> or <code>UNKNOWN</code> which indicates whether it found a violation of the property/assertion in the program.
+
+HTML report named <code>Report.html</code> if the result was <code>TRUE</code> or <code>Counterexample.*.html</code> if the result was <code>FALSE</code>.  You can open these HTML files in a browser to view the analysis results.
+The results include things such as a visualization of the control flow, counterexample (if there was an error) and time statistics.
+
+<h3>Internals</h3>
+Some techniques that are implemented/available in CPAChecker include:
+<ul>
+<li>Predicate abstraction</li>
+<li>Interpolation-based refinement</li>
+<li>Adjustable-block encoding</li>
+</ul>
+
+Uses <a href="mathsat.html">MathSAT</a>, <a href="csisat.html">CSIsat</a>, <a href="cbmc.html">CBMC</a>, <a href="javabdd.html">JavaBDD</a>.
+
+<h3>Comments</h3>
+License: Apache 2.0 License
+</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>Links</h3>
+<ul><li>Project page: <a href="https://cpachecker.sosy-lab.org/"><code>https://cpachecker.sosy-lab.org/</code></a></li>
+<li>Repository (mirror): <a href="https://github.com/sosy-lab/cpachecker"><code>https://github.com/sosy-lab/cpachecker</code></a></li>
+<li>Repository: <a href="https://svn.sosy-lab.org/software/cpachecker/trunk/"><code>https://svn.sosy-lab.org/software/cpachecker/trunk/</code></a></li></ul>
+<h3>Last commit date</h3>
+25 October 2021
+<h3>Last publication date</h3>
+November 2020
+<h3>List of related papers</h3>
+<ul><li><a href="https://doi.org/10.1145/3368089.3409718"><code>https://doi.org/10.1145/3368089.3409718</code></a> (ESEC/FSE '20)</li>
+<li><a href="https://doi.org/10.1007/978-3-662-49674-9<em>59"><code>https://doi.org/10.1007/978-3-662-49674-9</em>59</code></a> (TACAS '16)</li>
+<li><a href="https://doi.org/10.1007/978-3-662-46681-0<em>34"><code>https://doi.org/10.1007/978-3-662-46681-0</em>34</code></a> (TACAS '15)</li>
+<li><a href="https://doi.org/10.1007/978-3-642-22110-1<em>16"><code>https://doi.org/10.1007/978-3-642-22110-1</em>16</code></a> (CAV '11)</li></ul>
+<h3>Related tools</h3>
+<a href="blast.html">BLAST</a>
+<h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/Checkers/CPAchecker.md">View/edit source</a> (Markdown)</li></ul></div>
+		</div>
+		<br/><hr/>
+		<div class="f">
+			<a href="help.html">ProVerB</a> is a part of <a href="https://slebok.github.io/">SLEBoK</a>.
+			Last updated: <strong>January 2022</strong>.
+		</div>
+	</div>
+	</body>
+</html>
