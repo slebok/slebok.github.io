@@ -60,7 +60,8 @@
 		</div>
 		<div class="main">
 		<div class="tabber">
-			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> LLMC: Low-Level Model Checker</h1>Multi-core explicit-state model checker of multi-threaded LLVM IR.
+			<div class="tabbertab"><h2>Tool</h2><div><span class="tag"><a href="concurrency.html">Concurrency</a></span>
+<span class="tag"><a href="llvm.html">LLVM</a></span></div><h1 class="fbs"><span class="pv"><a href="pv2.html">PV2</a> ⊧</span> LLMC: Low-Level Model Checker<span class="subtitle">checks assertions in a multi-threaded program</span></h1>Multi-core explicit-state model checker of multi-threaded LLVM IR.
 
 <h3>Application domain/field</h3>
 <ul><li>Model checking</li>
@@ -71,8 +72,8 @@ Model checker
 <h3>Expected input</h3>
 <ul>
 <li>LLVM IR of a program (with assertions)</li>
-<li>Use single or multicore (with a single queue or with work-sharing) model checker (singlecore<em>simple, multicore</em>simple, multicore<em>bitbetter)</em></li>
-<li>How to store states (dtree, treedbsmod, treedbs_cchm, cchm or stdmap)</li>
+<li>Use single or multicore (with a single queue or with work-sharing) model checker (<code>singlecore_simple</code>, <code>multicore_simple</code>, <code>multicore_bitbetter</code>)</li>
+<li>How to store states (<code>dtree</code>, <code>treedbsmod</code>, <code>treedbs_cchm</code>, <code>cchm</code> or <code>stdmap</code>)</li>
 <li>Number of threads to use</li>
 </ul>
 
@@ -84,7 +85,8 @@ Uses <a href="dmc.html">DMC</a> (model checker)
 
 <h3>Comments</h3>
 License: GNU General Public License 3.0
-</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>Links</h3>
+</div><div class="tabbertab"><h2>Meta</h2><div><span class="tag"><a href="concurrency.html">Concurrency</a></span>
+<span class="tag"><a href="llvm.html">LLVM</a></span></div><h3>Links</h3>
 Repository: <a href="https://github.com/bergfi/llmc"><code>https://github.com/bergfi/llmc</code></a>
 <h3>Last commit date</h3>
 1 June 2021

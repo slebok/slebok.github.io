@@ -60,15 +60,15 @@
 		</div>
 		<div class="main">
 		<div class="tabber">
-			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> CoqQFBV</h1>SMT solver for QF_BV (quantifier-free bit-vector) logic.
+			<div class="tabbertab"><h2>Tool</h2><div><span class="tag"><a href="smt.html">SMT</a></span></div><h1 class="fbs"><span class="pv"><a href="pv4.html">PV4</a> ⊧</span> CoqQFBV<span class="subtitle">produces a satisfiability formula for a query</span></h1>SMT solver for <code>QF_BV</code> (quantifier-free bit-vector) logic.
 
 <h3>Application domain/field</h3>
 <ul><li>SMT solving</li>
-<li>Quantifier-Free Bit-Vector (QF_BV) logic</li></ul>
+<li>Quantifier-Free Bit-Vector (<code>QF_BV</code>) logic</li></ul>
 <h3>Type of tool</h3>
-SMT solver for QF_BV logic
+SMT solver for <code>QF_BV</code> logic
 <h3>Expected input</h3>
-SMT QF_BV query
+SMT <code>QF_BV</code> query
 
 <p>Format:</p>
 <a href="smtlib.html">SMT-LIB</a> v2
@@ -78,10 +78,10 @@ Boolean formula such that the query is satisfiable if and only if the Boolean fo
 Output is generated in the <a href="dimacs.html">DIMACS</a> format.
 
 <h3>Internals</h3>
-This is a certified SMT solver for quantifier-free bit-vector (QF_BV) formulas. It has been specified and verified in the proof assistant <a href="coq.html">Coq</a>.
+This is a certified SMT solver for quantifier-free bit-vector (<code>QF_BV</code>) formulas. It has been specified and verified in the proof assistant <a href="coq.html">Coq</a>.
 
-It takes a QF<em>BV query in <a href="smtlib.html">SMT-LIB</a> format. This is converted into a formal QF</em>BV expression. Then a CNF formula is constructed. Then it uses <a href="kissat.html">Kissat</a> to solve the CNF formula. If the result is unsat with a certificate, then the certificate is verified with <a href="grat.html">GRAT</a>. If the results is sat with assignments, then this is translated back to SMT assignments and the tool will verify whether these assignments satisfy the QF<em>BV expression.</em>
-</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>Links</h3>
+It takes a <code>QF_BV</code> query in <a href="smtlib.html">SMT-LIB</a> format. This is converted into a formal <code>QF_BV</code> expression. Then a CNF formula is constructed. Then it uses <a href="kissat.html">Kissat</a> to solve the CNF formula. If the result is unsat with a certificate, then the certificate is verified with <a href="grat.html">GRAT</a>. If the results is sat with assignments, then this is translated back to SMT assignments and the tool will verify whether these assignments satisfy the <code>QF_BV</code> expression.
+</div><div class="tabbertab"><h2>Meta</h2><div><span class="tag"><a href="smt.html">SMT</a></span></div><h3>Links</h3>
 Repository: <a href="https://github.com/fmlab-iis/coq-qfbv"><code>https://github.com/fmlab-iis/coq-qfbv</code></a>
 <h3>Last commit date</h3>
 9 September 2021

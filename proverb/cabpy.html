@@ -73,14 +73,14 @@ Two-player linear reachability game
 
 <p>Format:</p>
 <code>.rg</code> file with the following structure:
-
+<pre>
 bool: 'a list of the Boolean variables of the game'
 (int or real): 'a list of the variables of the game'
 init: 'a formula describing the initial states of the game'
 safe: 'a formula describing the moves of the safety player'
 reach: 'a formula describing the moves of the reachability player'
 goal: 'a formula describing the goal states of the game'
-
+</pre>
 The connectives -> (Implies), <-> (Iff), | (or), & (and), ! (not), < (less than), <= (less or equal), = (equal), >= (greater or equal), > (greater), + (plus) and - (minus) are allowed.
 
 <h3>Expected output</h3>

@@ -72,7 +72,7 @@ Program (annotated with an assertion over the final states), and the memory mode
 <p>Format:</p>
 <ul>
 <li>Program: PPC, x86, AArch64 assembly, subset of C11, or own .pts format (all limited to the subsets supported by Herd's .litmus format)</li>
-<li>Assertion in program should be written with the SVCOMP command: <code>VERIFIER<em>assert</code></em></li>
+<li>Assertion in program should be written with the SVCOMP command: <code>__VERIFIER_assert</code></li>
 <li>Memory model: CAT</li>
 </ul>
 
@@ -84,7 +84,7 @@ Dartagnan is a bounded model checker for concurrent programs under weak memory m
 Uses <a href="z3.html">Z3</a>.
 
 <h3>Comments</h3>
-<em>Note: repository only mentions that it supports programs written in the .litmus or .bpl (Boogie) formats. However, for .bpl files you have to specify the architecture as <code>none</code>, <code>tso</code>, <code>power</code>, <code>arm</code> or <code>arm8</code>.</em>
+<strong>Note:</strong> repository only mentions that it supports programs written in the .litmus or .bpl (Boogie) formats. However, for .bpl files you have to specify the architecture as <code>none</code>, <code>tso</code>, <code>power</code>, <code>arm</code> or <code>arm8</code>.
 </div><div class="tabbertab"><h2>Meta</h2><div><span class="tag"><a href="c.html">C</a></span></div><h3>Links</h3>
 Repository (also contains another tool): <a href="https://github.com/hernanponcedeleon/Dat3M"><code>https://github.com/hernanponcedeleon/Dat3M</code></a>
 <h3>Last commit date</h3>

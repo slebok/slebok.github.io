@@ -77,7 +77,7 @@ Model checker
 <li>needs to be <strong>finite</strong> (i.e. all tests need to have finite traces, so no infinite loops)</li>
 <li>needs to be <strong>data-deterministic</strong> (i.e. all non-determinism should originate from the scheduler or the employed memory model, can't use actions like <code>rand()</code> or perform actions based on user input or the clock)</li>
 <li><em>Optional</em>: specifications in the form of assertions in the code</li>
-<li><em>Optional</em>: assumptions to reduce the state space (in the <code>VERIFIER<em>assume()</code> syntax)</em></li>
+<li><em>Optional</em>: assumptions to reduce the state space (in the <code>__VERIFIER_assume()</code> syntax)</li>
 <li><em>Optional</em>: memory model, the default is the RC11 memory model</li>
 </ul>
 
