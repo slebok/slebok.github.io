@@ -61,10 +61,54 @@
 		</div>
 		<div class="main">
 		<div class="tabber">
-			<div class="tabbertab"><h2>Tool</h2><div><span class="tag"><a href="framework.html">Framework</a></span></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> Spot</h1>Spot: a platform for LTL and ω-automata manipulation
+			<div class="tabbertab"><h2>Tool</h2><div><span class="tag"><a href="framework.html">Framework</a></span></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> Spot</h1>A platform for LTL and ω-automata manipulation
 
-<a href="https://spot.lrde.epita.fr/"><code>https://spot.lrde.epita.fr/</code></a>
-</div><div class="tabbertab"><h2>Meta</h2><div><span class="tag"><a href="framework.html">Framework</a></span></div><h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/Frameworks/Spot.md">View/edit source</a> (Markdown)</li></ul></div>
+<h3>Application domain/field</h3>
+<ul><li>Linear Temporal Logic (LTL)</li>
+<li>Property Specification Language (PSL)</li>
+<li>ω-automata</li>
+<li>Model checking</li>
+<li>Formula manipulation</li>
+<li>Automata manipulation</li></ul>
+<h3>Type of tool</h3>
+Library & set of command-line tools to manipulation automata and LTL formulas
+<h3>Internals</h3>
+Spot is split into three libraries:
+<ul>
+<li><code>libbddx</code>: customized version of <a href="buddy.html">BuDDy</a>, for representing Binary Decision Diagrams</li>
+<li><code>libspot</code>: main library, contains data structures & algorithms</li>
+<li><code>libspot-ltsmin</code>: code to interface with state-spaces generated as shared libraries by LTSmin</li>
+</ul>
+
+Spot also contains the following command-line tools (see also: <a href="https://spot.lrde.epita.fr/tools.html):"><code>https://spot.lrde.epita.fr/tools.html):</code></a>
+<ul>
+<li><code>randltl</code>: generates random LTL/PSL formulas</li>
+<li><code>genltl</code>: generates LTL formulas from scalable patterns</li>
+<li><code>ltlfilt</code>: filter, converts, and transforms LTL/PSL formulas</li>
+<li><code>randaut</code>: generates random ω-automata</li>
+<li><code>autfilt</code>: filters, converts, and transforms ω-automata</li>
+<li><code>ltl2tgba</code>: translates LTL/PSL formula into generalized Büchi automata, or deterministic parity automata</li>
+<li><code>ltl2tgta</code>: translates LTL/PSL formula into Testing automata</li>
+<li><code>dstar2tgba</code>: converts ltl2dstar automata into Generalized Büchi automata</li>
+<li><code>ltlcross</code>: cross-compares LTL/PSL-to-automata translators to find bugs</li>
+<li><code>ltlgrind</code>: mutates LTL/PSL formulas to help reproduce bugs on smaller ones</li>
+<li><code>ltldo</code>: runs LTL/PSL formulas through other translators, providing uniform input and output interfaces</li>
+<li><code>ltlsynt</code>: synthesizes AIGER circuits from LTL/PSL specifications</li>
+</ul>
+
+<h3>Comments</h3>
+License: GPL v3.0
+</div><div class="tabbertab"><h2>Meta</h2><div><span class="tag"><a href="framework.html">Framework</a></span></div><h3>Links</h3>
+<ul><li>Project page: <a href="https://spot.lrde.epita.fr/"><code>https://spot.lrde.epita.fr/</code></a></li>
+<li>Try online: <a href="https://spot-sandbox.lrde.epita.fr/"><code>https://spot-sandbox.lrde.epita.fr/</code></a></li></ul>
+<h3>Last commit date</h3>
+17 January 2022 (last release date)
+<h3>Last publication date</h3>
+21 October 2019
+<h3>List of related papers</h3>
+<ul><li><a href="https://doi.org/10.1007/978-3-030-31784-3_26"><code>https://doi.org/10.1007/978-3-030-31784-3_26</code></a> (ATVA '19)</li>
+<li><a href="https://doi.org/10.1007/978-3-319-46520-3_8"><code>https://doi.org/10.1007/978-3-319-46520-3_8</code></a> (ATVA '16)</li></ul>
+<h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/Frameworks/Spot.md">View/edit source</a> (Markdown)</li></ul></div>
 		</div>
 		<br/><hr/>
 		<div class="f">
