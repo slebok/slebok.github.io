@@ -63,10 +63,62 @@
 		<div class="tabber">
 			<div class="tabbertab"><h2>Tool</h2><div><span class="tag"><a href="framework.html">Framework</a></span>
 <span class="tag"><a href="synthesis.html">Synthesis</a></span></div><h1 class="fbs"><span class="pv"><a href="pv4.html">PV4</a> ⊧</span> ABC<span class="subtitle">versatile verification and synthesis arsenal</span></h1>A System for Sequential Synthesis and Verification
+
+<h3>Application domain/field</h3>
+<ul><li>Sequential logic circuits</li>
+<li>Hardware design</li>
+<li>And-Inverter Graphs (AIGs)</li>
+<li>Sequential synthesis</li>
+<li>Combinational synthesis</li>
+<li>Binary logic circuits</li>
+<li>Model checking</li>
+<li>Equivalence checking</li></ul>
+<h3>Type of tool</h3>
+Framework for synthesis and verification of boolean networks
+<h3>Expected input</h3>
+Binary logic circuit/network
+
+<p>Format:</p>
+<ul>
+<li>binary BLIF</li>
+<li>binary PLA</li>
+<li>BENCH format</li>
+<li>subset of EDIF</li>
+<li>subet of Synopsys equation format</li>
+<li>subset of structural Verilog</li>
+</ul>
+
+<h3>Expected output</h3>
+The output can be given in many different formats:
+<ul>
+<li>binary BLIF</li>
+<li>binary PLA</li>
+<li>BENCH format</li>
+<li>Synopsys equation format</li>
+<li>CNF</li>
+<li>DOT format</li>
+<li>GML format</li>
+</ul>
+
+<h3>Internals</h3>
+ABC implements several different techniques including:
+<ul>
+<li>Equivalence checking: Can be used to check if the design after synthesis is equal to the initial design.</li>
+<li>Model checking: Can be used to check safety properties</li>
+<li>Logic synthesis: transforms a Boolean network to satisfy some criteria, e.g. reduce the number of nodes.</li>
+</ul>
+
+All of this is applied to boolean networks, i.e. directed acyclic graphs (DAGs).
 </div><div class="tabbertab"><h2>Meta</h2><div><span class="tag"><a href="framework.html">Framework</a></span>
 <span class="tag"><a href="synthesis.html">Synthesis</a></span></div><h3>Links</h3>
 <ul><li><a href="https://people.eecs.berkeley.edu/~alanmi/abc/"><code>https://people.eecs.berkeley.edu/~alanmi/abc/</code></a></li>
 <li><a href="https://github.com/berkeley-abc/abc"><code>https://github.com/berkeley-abc/abc</code></a></li></ul>
+<h3>Last commit date</h3>
+23 January 2022
+<h3>List of related papers</h3>
+<a href="https://doi.org/10.1007/978-3-642-14295-6<em>5"><code>https://doi.org/10.1007/978-3-642-14295-6</em>5</code></a> (CAV '10)
+<h3>Related tools</h3>
+<a href="sis.html">SIS</a>
 <h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/Frameworks/ABC.md">View/edit source</a> (Markdown)</li></ul></div>
 		</div>
 		<br/><hr/>
