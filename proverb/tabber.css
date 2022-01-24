@@ -7,7 +7,7 @@ ul.tabbernav li {list-style: none; margin: 0; display: inline; font-family: aria
 ul.tabbernav li a {padding: 3px 0.5em; padding-top: 0.2em; margin-left: 3px; border: 1px solid #6f79a8; border-bottom: none; background: #DDE; text-decoration: none; float: left}
 ul.tabbernav li a:link {color: #448}
 ul.tabbernav li a:hover {color: white; background: #6f79a8; border-color: #d1d9ff}
-ul.tabbernav li.tabberactive a {background-color: #d1d9ff}
+ul.tabbernav li.tabberactive a {background-color: white}
 ul.tabbernav li.tabberactive a:hover {color: #000; background: white}
 .tabberlive .tabbertab {padding: .5em 2em 2em 2em; border:1px solid #6f79a8; border-top:0}
 .tabberlive .tabbertab h2 {display:none}
