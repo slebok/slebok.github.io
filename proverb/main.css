@@ -7,11 +7,11 @@
 }
 
 .pv, .tag, .pv a, .tag a, .tag a:visited, .pv a:visited {
-    color: #49599a;
+    color: #6677b7;
     text-decoration: none;
 }
 .tag {
-    border: 1px solid #49599a;
+    border: 1px solid #6677b7;
     margin: 6px;
     padding: 2px;
     border-radius: 5px;
@@ -22,14 +22,16 @@
     height: 100%;
     position: fixed;
     top: 0;
-    background: #7986cb;
+    background: #b6bce2;
+    padding-right:5px;
+    padding-left: 5px;
 }
 
 .left h2, .left p {margin-top: 0; margin-left: 6px;}
 .left h1 {margin: 0; text-align: center; }
 
 .top {
-    background: #7986cb;
+    background: #f5f5f5;
     position: absolute;
     top: 0;
     padding: 0;
@@ -38,24 +40,23 @@
 }
 .pvs {
     padding-right: 50px;
-    background: #7986cb;
+    background: #f5f5f5;
     text-align: right;
 }
 
 .main {
 	margin-top: 80px;
-    margin-left: 160px;
+    margin-left: 170px;
     margin-right: 10px;
 }
 
 body {
 	margin-left: 0;
-	background-color:#9fa8da;
 	color:black;
 	font-family: sans-serif
 }
 blockquote {border: 1px solid #004D40; padding: 10px}
-.red, .red a, .red a:visited, .cool a, .cool a:visited {color:red}
+.red, .red a, .red a:visited, .cool a, .cool a:visited {color:#fb3640}
 a, a:visited, a.blue, a.blue:visited {color:#1a237e}
 .red a:hover {font-weight:bold}
 .c {text-align:center; font-weight:bold}
