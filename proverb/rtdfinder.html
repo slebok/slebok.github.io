@@ -84,7 +84,7 @@ It will report whether the safety property is satisfied or not. If it is not sat
 
 <h3>Internals</h3>
 It takes as input a RT-BIP model and a safety property to check for. Then it computes a global invariant. The idea is that this global invariant encodes the components of the system and the interactions relating them. This invariant is sometimes called the interaction invariant because of this.
-The invariant together with the safety property are then given to the <a href="yices.html">Yices</a> solver to check whether <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>GI \wedge \neg \Psi</mi></mrow></math> is satisfiable. It will then report that (1) the property is satisfied, or (2) that it is not satisfied and a counterexample.
+The invariant together with the safety property are then given to the <a href="yices.html">Yices</a> solver to check whether <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>G</mi><mi>I</mi><mo>&#x02227;</mo><mi>&#x000AC;</mi><mi>&#x003A8;</mi></mrow></math> is satisfiable. It will then report that (1) the property is satisfied, or (2) that it is not satisfied and a counterexample.
 
 Uses <a href="yices.html">Yices</a>
 </div><div class="tabbertab"><h2>Meta</h2><div></div><h3>Links</h3>

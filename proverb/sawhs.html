@@ -67,23 +67,20 @@
 <h3>Expected input</h3>
 Model file that specifies
 <ul>
-<li>Dynamic system <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>f</mi></mrow></math></li>
-<li>Sampling period <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>\delta</mi></mrow></math></li>
-<li>Safe state region <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>X</mi></mrow></math></li>
-<li>Weakly-hard constraint <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>(m,K)</mi></mrow></math></li>
-<li>Control law <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>\pi</mi></mrow></math></li>
+<li>Dynamic system <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>f</mi></mrow></math></li>
+<li>Sampling period <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x003B4;</mi></mrow></math></li>
+<li>Safe state region <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>X</mi></mrow></math></li>
+<li>Weakly-hard constraint <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mo stretchy="false">&#x00028;</mo><mi>m</mi><mo>&#x0002C;</mo><mi>K</mi><mo stretchy="false">&#x00029;</mo></mrow></math></li>
+<li>Control law <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x003C0;</mi></mrow></math></li>
 </ul>
 
 <em>Optional</em>: Configuration file of Flow*. This is set by default but can be customized.
 
 <h3>Expected output</h3>
 <ul>
-<li><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>X_s</mi></mrow></math>: Safe initial set</li>
-<li><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>\Gamma_S</mi></mrow></math>: Largest set from which the system will not leave the safe region.</li>
-<li><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>\Gamma<em>I</mi></mrow></math>
-		: Largest subset of 
-		<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>\Gamma</em>S</mi></mrow></math>
-		 that satisfies the inductiveness</li>
+<li><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>X</mi><mi>s</mi></msub></mrow></math>: Safe initial set</li>
+<li><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>&#x00393;</mi><mi>S</mi></msub></mrow></math>: Largest set from which the system will not leave the safe region.</li>
+<li><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>&#x00393;</mi><mi>I</mi></msub></mrow></math>: Largest subset of <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>&#x00393;</mi><mi>S</mi></msub></mrow></math> that satisfies the inductiveness</li>
 </ul>
 
 <h3>Internals</h3>

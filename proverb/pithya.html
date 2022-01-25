@@ -74,7 +74,7 @@ Parameter synthesizer
 <h3>Expected input</h3>
 <ul>
 <li>Parametrised model of a continuous-time dynamical system</li>
-<li>Desired properties, expressed in a hybrid extension of the UCTL logic, <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>HUCTL_P</mi></mrow></math></li>
+<li>Desired properties, expressed in a hybrid extension of the UCTL logic, <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>H</mi><mi>U</mi><mi>C</mi><mi>T</mi><msub><mi>L</mi><mi>P</mi></msub></mrow></math></li>
 </ul>
 
 <p>Format:</p>
@@ -89,7 +89,7 @@ Set of all parameter valuations under which the system satisfies the formula.
 <h3>Internals</h3>
 Pithya takes as input a parametrised model of a continuous-time dynamical system. This system is described by autonomous ordinary differential equations (ODEs) with sigmoidal functions.
 Pithya then approximates this model into a piecewise multi-affine model and discretises it into a paramtrised direction transition system (PDTS).
-Using the computed PDTS and the <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>HUCTL_P</mi></mrow></math> formula, it computes all parameter valuations under which the PDTS satisfies the formula.
+Using the computed PDTS and the <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>H</mi><mi>U</mi><mi>C</mi><mi>T</mi><msub><mi>L</mi><mi>P</mi></msub></mrow></math> formula, it computes all parameter valuations under which the PDTS satisfies the formula.
 
 <h3>Comments</h3>
 License: GPL v3.0

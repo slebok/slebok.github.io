@@ -71,19 +71,19 @@ Synthesis tool
 <h3>Expected input</h3>
 <ul>
 <li>a Consumption Markov Decision Process</li>
-<li>Capacity <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>cap</mi></mrow></math></li>
-<li>Set of accepting states <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>T</mi></mrow></math></li>
+<li>Capacity <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>c</mi><mi>a</mi><mi>p</mi></mrow></math></li>
+<li>Set of accepting states <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>T</mi></mrow></math></li>
 </ul>
 
 <p>Format:</p>
 <ul>
 <li><em>CMDP</em>: either as a <a href="prism.html">PRISM</a> model, <a href="storm.html">Storm</a> model, or it can be constructed in Python.</li>
-<li><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>cap</mi></mrow></math>: passed as an argument when calling the algorithm in Python</li>
-<li><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>T</mi></mrow></math>: passed as an argument when calling the algorithm in Python</li>
+<li><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>c</mi><mi>a</mi><mi>p</mi></mrow></math>: passed as an argument when calling the algorithm in Python</li>
+<li><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>T</mi></mrow></math>: passed as an argument when calling the algorithm in Python</li>
 </ul>
 
 <h3>Expected output</h3>
-If it exists, then it returns a strategy $\sigma$ such that when starting with resource level $d$, the resource level never drops below 0 and the system infinitely often visits some state in $T$ 
+If it exists, then it returns a strategy <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x003C3;</mi></mrow></math> such that when starting with resource level <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>d</mi></mrow></math>, the resource level never drops below 0 and the system infinitely often visits some state in <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>T</mi></mrow></math>
 
 <h3>Internals</h3>
 This technique focuses on synthesizing controllers for resource-constrained Markov decision processes (MDPs). This controller must ensure that (1) some linear-time property is satisfied and (2) that the system's operation is not compromised by lack of resources (e.g. power). Consumption Markov Decision Processes (CMDPs) are used to represent the resource-constrained MDPs.

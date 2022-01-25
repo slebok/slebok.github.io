@@ -66,19 +66,19 @@
 <li>Discounted-Sum automata (DS-automata)</li></ul>
 <h3>Expected input</h3>
 <ul>
-<li>Weighted automata P</li>
-<li>Weighted automata Q</li>
-<li>Discount-factor d > 1</li>
+<li>Weighted automata <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>P</mi></mrow></math></li>
+<li>Weighted automata <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>Q</mi></mrow></math></li>
+<li>Discount-factor <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>d</mi><mo>&#x0003E;</mo><mn>1</mn></mrow></math></li>
 </ul>
 
 <p>Format:</p>
 <ul>
-<li>Weighted automata should be in .txt files according to a specific format described in the code.</li>
+<li>Weighted automata should be in <code>.txt</code> files according to a specific format described in the code.</li>
 <li>The discount-factor can be passed when calling the python script.</li>
 </ul>
 
 <h3>Expected output</h3>
-True if <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>P⊆_dQ</mi></mrow></math>
+True if <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>P</mi><msub><mo>&#x02286;</mo><mi>d</mi></msub><mi>Q</mi></mrow></math>
 
 <h3>Internals</h3>
 Linear-programming based DS-inclusion

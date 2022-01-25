@@ -61,7 +61,8 @@
 		</div>
 		<div class="main">
 		<div class="tabber">
-			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> MCHyper</h1>Hardware model checker for hyperproperties
+			<div class="tabbertab"><h2>Tool</h2><div><span class="tag"><a href="hardware.html">Hardware</a></span>
+<span class="tag"><a href="hyperltl.html">HyperLTL</a></span></div><h1 class="fbs"><span class="pv"><a href="pv4.html">PV4</a> ⊧</span> MCHyper<span class="subtitle">proves given properties on a given circuit</span></h1>Hardware model checker for hyperproperties
 
 <h3>Application domain/field</h3>
 <ul><li>Model checking</li>
@@ -77,7 +78,7 @@ Model checker
 
 <p>Format:</p>
 <ul>
-<li><em>Circuit</em>: <a href="fv.html">../../Formats/Verilog</a> module or <a href="aiger.html">AIGER</a> circuit</li>
+<li><em>Circuit</em>: <a href="verilog.html">Verilog</a> module or <a href="aiger.html">AIGER</a> circuit</li>
 <li><em>HyperLTL formula</em>: <a href="eahyper.html">EAHyper</a> or <a href="mchyper.html">MCHyper</a> (own) format</li>
 </ul>
 
@@ -90,8 +91,9 @@ MCHyper is a model checker for synchronous HyperLTL properties. It can handle up
 HyperLTL allows the user to specify temporal properties that relate multiple computation traces, also called hyperproperties. Therefore, the user can check a.o. information-flow properties and noninterference between two traces.
 
 It uses <a href="abc.html">ABC</a> as the backend for checking the reachability of a violation.
-If given a Verilog system as input, it will be converted into an Aiger circuit using <a href="../yosys.html">../Yosys</a>.
-</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>Links</h3>
+If given a Verilog system as input, it will be converted into an Aiger circuit using <a href="yosys.html">Yosys</a>.
+</div><div class="tabbertab"><h2>Meta</h2><div><span class="tag"><a href="hardware.html">Hardware</a></span>
+<span class="tag"><a href="hyperltl.html">HyperLTL</a></span></div><h3>Links</h3>
 <ul><li>Try online: <a href="https://www.react.uni-saarland.de/tools/online/MCHyper/"><code>https://www.react.uni-saarland.de/tools/online/MCHyper/</code></a></li>
 <li>Tutorial: <a href="https://www.react.uni-saarland.de/tools/online/MCHyper/help.html"><code>https://www.react.uni-saarland.de/tools/online/MCHyper/help.html</code></a></li>
 <li>Project page: <a href="https://www.react.uni-saarland.de/tools/mchyper/"><code>https://www.react.uni-saarland.de/tools/mchyper/</code></a></li>

@@ -61,7 +61,7 @@
 		</div>
 		<div class="main">
 		<div class="tabber">
-			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> MLTLconverter</h1>Converts Mission-time LTL (MLTL) to either LTL, <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>LTL_f</mi></mrow></math> (LTL over finite traces), SMV or SMT
+			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> MLTLconverter</h1>Converts Mission-time LTL (MLTL) to either LTL, <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>L</mi><mi>T</mi><msub><mi>L</mi><mi>f</mi></msub></mrow></math> (LTL over finite traces), SMV or SMT
 
 <h3>Application domain/field</h3>
 <ul><li>Satisfiability checking</li>
@@ -71,13 +71,13 @@
 Translator
 <h3>Expected input</h3>
 MLTL formula and a converter flag.
-The converter flag indicates whether it should be translated to LTL, <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>LTL_f</mi></mrow></math>, SMV or SMT-LIB v2.
+The converter flag indicates whether it should be translated to LTL, <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>L</mi><mi>T</mi><msub><mi>L</mi><mi>f</mi></msub></mrow></math>, SMV or SMT-LIB v2.
 
 <h3>Expected output</h3>
 Reports whether the MLTL formula is satisfiable or not.
 
 <h3>Internals</h3>
-Uses <a href="aalta.html">aalta</a> (LTL solver), <a href="aaltaf.html">aaltaf</a> (<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>LTL<a href="nuxmv.html">nuXmv</a><a href="z3.html">Z3</a>_f</mi></mrow></math> solver),  (SMV model checker),  (SMT solver). These tools are used to check the satisfiability of the input MLTL formula and their encodings.
+Uses <a href="aalta.html">aalta</a> (LTL solver), <a href="aaltaf.html">aaltaf</a> (<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>L</mi><mi>T</mi><msub><mi>L</mi><mi>f</mi></msub></mrow></math> solver), <a href="nuxmv.html">nuXmv</a> (SMV model checker), <a href="z3.html">Z3</a> (SMT solver). These tools are used to check the satisfiability of the input MLTL formula and their encodings.
 
 <h3>Comments</h3>
 They tested the different translations and it seemed that the SMT-based approach tends to perform best for satisfiability checking.

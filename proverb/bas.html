@@ -68,7 +68,7 @@
 <h3>Type of tool</h3>
 Synthesis tool
 <h3>Expected input</h3>
-LTL formula <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>φ</mi></mrow></math>
+LTL formula <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x003C6;</mi></mrow></math>
 
 <p>Format:</p>
 ? (probably LTL3BA format)
@@ -76,16 +76,8 @@ LTL formula <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>φ</mi></
 <h3>Expected output</h3>
 <ul>
 <li><code>UNREALIZABLE</code> if the LTL specification is synchronously unrealizable</li>
-<li><code>REALIZABLE</code> and implementation if 
-		<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>PR(φ)</mi></mrow></math>
-		 (Pnueli-Rosner closure of 
-		<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>φ</mi></mrow></math>
-		) is synchronously realizable.</li>
-<li><code>UNREALIZABLE</code>  if 
-		<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>PR(¬φ)</mi></mrow></math>
-		 (Pnueli-Rosner closure of 
-		<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>¬φ</mi></mrow></math>
-		) is not synchronously realizable.</li>
+<li><code>REALIZABLE</code> and implementation if <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>P</mi><mi>R</mi><mo stretchy="false">&#x00028;</mo><mi>&#x003C6;</mi><mo stretchy="false">&#x00029;</mo></mrow></math> (Pnueli-Rosner closure of <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x003C6;</mi></mrow></math>) is synchronously realizable.</li>
+<li><code>UNREALIZABLE</code>  if <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>P</mi><mi>R</mi><mo stretchy="false">&#x00028;</mo><mi>&#x000AC;</mi><mi>&#x003C6;</mi><mo stretchy="false">&#x00029;</mo></mrow></math> (Pnueli-Rosner closure of <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x000AC;</mi><mi>&#x003C6;</mi></mrow></math>) is not synchronously realizable.</li>
 </ul>
 
 <h3>Internals</h3>

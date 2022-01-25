@@ -75,7 +75,7 @@ Model checker
 <ul>
 <li>Rectified Linear Unit (ReLU) neural network</li>
 <li>Image file</li>
-<li>Max-norm perturbation <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>\epsilon</mi></mrow></math></li>
+<li>Max-norm perturbation <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x003F5;</mi></mrow></math></li>
 </ul>
 
 <p>Format:</p>
@@ -86,7 +86,7 @@ Model checker
 </ul>
 
 <h3>Expected output</h3>
-Proves whether a particular input image always results in the same classification when it is subjected to a max-norm perturbation of at most some fixed size <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>\epsilon</mi></mrow></math>.
+Proves whether a particular input image always results in the same classification when it is subjected to a max-norm perturbation of at most some fixed size <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x003F5;</mi></mrow></math>.
 
 <h3>Internals</h3>
 Uses <a href="gurobi.html">Gurobi</a> 9.1 convex optimizer for solving linear programs, <a href="volesti.html">Volesti</a> to sample from the input polytope for the sampling inference block

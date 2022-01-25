@@ -72,11 +72,13 @@ SMT formula
 <a href="smtlib.html">SMT-LIB</a> v2
 
 <h3>Expected output</h3>
-"unsat" or "<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>\delta</mi></mrow></math>-sat"
+"unsat" or "<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x003B4;</mi></mrow></math>-sat"
 
 <h3>Internals</h3>
-dReal focuses on formulas over <em>real</em> numbers. "Its special strength is in handling problems that involve a wide range of nonlinear real functions." (<a href="source.html">Source</a>)
-It can handle <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>\exists\forall</mi></mrow></math>-formulas with most standard elementary, trigonometric and hyberbolic functions (e.g. power, exp, log, root, sin, cos, tan, arcsin, arccos, arctan, sinh, cosh, tanh), etc.
+<ul>
+<li>dReal focuses on formulas over <em>real</em> numbers. "Its special strength is in handling problems that involve a wide range of nonlinear real functions." (Source: <a href="https://dreal.github.io/)"><code>https://dreal.github.io/)</code></a></li>
+<li>It can handle <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mo>&#x02203;</mo><mo>&#x02200;</mo></mrow></math>-formulas with most standard elementary, trigonometric and hyberbolic functions (e.g. power, exp, log, root, sin, cos, tan, arcsin, arccos, arctan, sinh, cosh, tanh), etc.</li>
+</ul>
 
 It uses <a href="ibexlib.html">IBEX-lib</a>, <a href="clp.html">CLP</a>, <a href="nlopt.html">NLopt</a>, <a href="picosat.html">PicoSAT</a> and <a href="capd.html">capd</a>
 </div><div class="tabbertab"><h2>Meta</h2><div><span class="tag"><a href="smt.html">SMT</a></span></div><h3>Links</h3>

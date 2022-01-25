@@ -74,7 +74,7 @@ Probabilistic model checker
 <ul>
 <li>Global MDP <code>M</code></li>
 <li>Set of bad states <code>B</code></li>
-<li>Threshold <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>\lambda</mi></mrow></math></li>
+<li>Threshold <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x003BB;</mi></mrow></math></li>
 </ul>
 
 <p>Format:</p>
@@ -86,7 +86,7 @@ Probabilistic model checker
 
 <h3>Expected output</h3>
 <code>true</code> or <code>false</code>.
-If the tool returns <code>false</code>, it will provide a <em>possible</em> counterexample. This can be caused by two reasons: either the MDP is indeed unsafe, or the heuristic was inappropriate. The counterexample consists of a subsystem of states of the MDP witnessing <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>Pr^{max}(s_I \models \lozenge B) > \lambda</mi></mrow></math>
+If the tool returns <code>false</code>, it will provide a <em>possible</em> counterexample. This can be caused by two reasons: either the MDP is indeed unsafe, or the heuristic was inappropriate. The counterexample consists of a subsystem of states of the MDP witnessing <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>P</mi><msup><mi>r</mi><mrow><mi>m</mi><mi>a</mi><mi>x</mi></mrow></msup><mo stretchy="false">&#x00028;</mo><msub><mi>s</mi><mi>I</mi></msub><mo>&#x022A7;</mo><mi>&#x025CA;</mi><mi>B</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003E;</mo><mi>&#x003BB;</mi></mrow></math>
 
 <h3>Internals</h3>
 Extension of <a href="ic3.html">IC3</a>, for quantitative reachability in MDPs.

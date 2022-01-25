@@ -84,14 +84,14 @@ Model checker
 </ul>
 
 <h3>Expected output</h3>
-Confidence interval for each confidence level <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>\alpha</mi></mrow></math> from the user-specified range
+Confidence interval for each confidence level <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x003B1;</mi></mrow></math> from the user-specified range
 
 <h3>Internals</h3>
 FACT uses a four-step approach:
 <ol>
 <li>Parametric quantitative verification is used to obtain an algebraic expressed for the analysed PCTL property (uses <a href="prism.html">PRISM</a>)</li>
 <li>Simultaneous confidence intervals are calculated for each set of parameters</li>
-<li>Uses results of step 2 for a convex optimisation problem whose solution represents an <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>\alpha</mi></mrow></math> confidence interval for the analysed property</li>
+<li>Uses results of step 2 for a convex optimisation problem whose solution represents an <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x003B1;</mi></mrow></math> confidence interval for the analysed property</li>
 <li>Uses a heuristic to seek alternative confidence intervals. This optimisation might reduce the width of property confidence intervals.</li>
 </ol>
 

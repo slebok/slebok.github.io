@@ -61,7 +61,8 @@
 		</div>
 		<div class="main">
 		<div class="tabber">
-			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> NNV: Neural Network Verification</h1>Set-based verification framework for deep neural networks (DNNs) and learning-enabled cyber-physical systems (CPS).
+			<div class="tabbertab"><h2>Tool</h2><div><span class="tag"><a href="dnn.html">DNN</a></span>
+<span class="tag"><a href="neuralnetwork.html">Neural network</a></span></div><h1 class="fbs"><span class="pv"><a href="pv3.html">PV3</a> ⊧</span> NNV: Neural Network Verification<span class="subtitle">checks whether the given network is safe</span></h1>Set-based verification framework for deep neural networks (DNNs) and learning-enabled cyber-physical systems (CPS).
 
 <h3>Application domain/field</h3>
 <ul><li>Neural network</li>
@@ -85,14 +86,17 @@ If the network is unsafe then it will provide a complete set of counter-examples
 It is possible for the tool to report <code>UNK</code> in case the result is unknown.
 
 <h3>Internals</h3>
-NNV consists of a set of reachability algorithms that can be used to reason about deep neural networks (DNNs), specifically for <em>sequential</em> FFNNs (feed forward neural networks) and CNNs (convolutional neural networks), as well as NNCS (neural network control systems) with FFNN controllers.
-These reachability algorithms can be used to compute exact and over-approximate reachable sets of DNNs and neural network control systems (NNCSs).
+<ul>
+<li>NNV consists of a set of reachability algorithms that can be used to reason about deep neural networks (DNNs), specifically for <em>sequential</em> FFNNs (feed forward neural networks) and CNNs (convolutional neural networks), as well as NNCS (neural network control systems) with FFNN controllers.</li>
+<li>These reachability algorithms can be used to compute exact and over-approximate reachable sets of DNNs and neural network control systems (NNCSs).</li>
+</ul>
 
 Uses <a href="mpt.html">MPT</a>, <a href="cora.html">CORA</a>, <a href="nnmt.html">NNMT</a>, <a href="hyst.html">HyST</a>, <a href="yalmip.html">YALMIP</a>, <a href="matconvnet.html">MatConvNet</a>
 
 <h3>Comments</h3>
 The repository calls it a "Matlab Toolbox for Neural Network Verification". It requires the user to install Matlab and use it from within Matlab.
-</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>Links</h3>
+</div><div class="tabbertab"><h2>Meta</h2><div><span class="tag"><a href="dnn.html">DNN</a></span>
+<span class="tag"><a href="neuralnetwork.html">Neural network</a></span></div><h3>Links</h3>
 Repository: <a href="https://github.com/verivital/nnv"><code>https://github.com/verivital/nnv</code></a>
 <h3>Last commit date</h3>
 20 July 2021

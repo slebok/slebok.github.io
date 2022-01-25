@@ -61,7 +61,7 @@
 		</div>
 		<div class="main">
 		<div class="tabber">
-			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> BoSyHyper</h1><h3>Application domain/field</h3>
+			<div class="tabbertab"><h2>Tool</h2><div><span class="tag"><a href="hyperltl.html">HyperLTL</a></span></div><h1 class="fbs"><span class="pv"><a href="pv3.html">PV3</a> ⊧</span> BoSyHyper<span class="subtitle">proves realisability of a given hyperproperty</span></h1><h3>Application domain/field</h3>
 <ul><li>Reactive synthesis</li>
 <li>LTL synthesis</li>
 <li>Bounded synthesis</li></ul>
@@ -77,15 +77,17 @@ JSON based format
 Whether a specification is realizable. If realizable, then a solution can be given.
 
 <h3>Internals</h3>
-Implementation based on <a href="bosy.html">BoSy</a> LTL synthesis tool.
-Uses <a href="z3.html">Z3</a>
+<ul>
+<li>Implementation based on <a href="bosy.html">BoSy</a> LTL synthesis tool.</li>
+<li>Uses <a href="z3.html">Z3</a></li>
+</ul>
 
 <h3>Comments</h3>
-Synthesis tool for universal HyperLTL based on a bounded synthesis algorithm
-I.e.: Given a specification in HyperLTL, it synthesizes a reactive system.
-
-HyperLTL is an extension of LTL with trace variables and explicit trace quantification. Hyperlogics (like HyperLTL) can be used to express things that relate multiple traces, e.g. absence of information leaks.
-</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>Links</h3>
+<ul>
+<li>Synthesis tool for universal HyperLTL based on a bounded synthesis algorithm (i.e.: Given a specification in HyperLTL, it synthesizes a reactive system).</li>
+<li>HyperLTL is an extension of LTL with trace variables and explicit trace quantification. Hyperlogics (like HyperLTL) can be used to express things that relate multiple traces, e.g. absence of information leaks.</li>
+</ul>
+</div><div class="tabbertab"><h2>Meta</h2><div><span class="tag"><a href="hyperltl.html">HyperLTL</a></span></div><h3>Links</h3>
 <ul><li><a href="https://www.react.uni-saarland.de/tools/bosy/"><code>https://www.react.uni-saarland.de/tools/bosy/</code></a></li>
 <li><a href="https://github.com/reactive-systems/bosy"><code>https://github.com/reactive-systems/bosy</code></a></li></ul>
 <h3>Last commit date</h3>

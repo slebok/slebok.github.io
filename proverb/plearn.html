@@ -72,14 +72,11 @@
 <ul>
 <li>Synthesis tool</li>
 <li>SyGuS problem</li>
-<li>Subgrammars 
-		<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>\mathcal{E}<em>1..p</mi></mrow></math>
-		 such that 
-		<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>\mathcal{E}</em>i \subseteq \mathcal{E}</mi></mrow></math></li>
+<li>Subgrammars <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>&#x02130;</mi><mn>1</mn></msub><mo>&#x0002E;</mo><mo>&#x0002E;</mo><mi>p</mi></mrow></math> such that <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>&#x02130;</mi><mi>i</mi></msub><mo>&#x02286;</mo><mi>&#x02130;</mi></mrow></math></li>
 </ul>
 
 <h3>Expected output</h3>
-First solution that was found or <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>\bot</mi></mrow></math> if no solution could be found.
+First solution that was found or <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mo>&#x022A5;</mo></mrow></math> if no solution could be found.
 
 <h3>Internals</h3>
 The idea behind the tool is that SyGuS tools are sensitive to the choice of grammar. Sometimes increasing the grammar expressiveness allows the tool to solve some problems that are unsolvable with less expressive grammars. However, it is possible that the tool can no longer solve some problems that could be solved with less expressive grammars.

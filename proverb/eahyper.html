@@ -61,7 +61,7 @@
 		</div>
 		<div class="main">
 		<div class="tabber">
-			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> EAHyper</h1>Tool for the automatic checking of satisfiability, implication and equivalence of hyperproperties.
+			<div class="tabbertab"><h2>Tool</h2><div><span class="tag"><a href="hyperltl.html">HyperLTL</a></span></div><h1 class="fbs"><span class="pv"><a href="pv4.html">PV4</a> ⊧</span> EAHyper<span class="subtitle">checks satisfiability, implication and equivalence of hyperproperties</span></h1>Tool for the automatic checking of satisfiability, implication and equivalence of hyperproperties.
 
 <h3>Application domain/field</h3>
 <ul><li>Hyperproperties</li>
@@ -70,29 +70,31 @@
 <h3>Type of tool</h3>
 Satisfiability solver
 <h3>Expected input</h3>
-HyperLTL formula in the <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>\exists^<em>\forall^</em></mi></mrow></math> fragment, or an implication between two alternation-free formulas.
+HyperLTL formula in the <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msup><mo>&#x02203;</mo><mo>&#x0002A;</mo></msup><msup><mo>&#x02200;</mo><mo>&#x0002A;</mo></msup></mrow></math> fragment, or an implication between two alternation-free formulas.
 
 <h3>Expected output</h3>
 <ul>
-<li>If given a formula in the <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>\exists^<em>\forall^</em></mi></mrow></math> fragment, then it reports satisfiability</li>
+<li>If given a formula in the <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msup><mo>&#x02203;</mo><mo>&#x0002A;</mo></msup><msup><mo>&#x02200;</mo><mo>&#x0002A;</mo></msup></mrow></math> fragment, then it reports satisfiability</li>
 <li>If given an implication between two alternation-free formulas, then it reports validity.</li>
 </ul>
 
 <h3>Internals</h3>
-EAHyper is a tool for automatically checking satisfiability, implication and equivalence of hyperproperties. EAHyper analyzes hyperproperties that are specified in HyperLTL.
-EAHyper can therefore be used to detect specifications that inconsistent, vacuously true, or to check implication and equivalence between multiple formalizations of the same requirement.
-EAHyper supports the <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>\exists^<em>\forall^</em></mi></mrow></math> fragment of HyperLTL, which is the largest decidable fragment of HyperLTL.
-This fragment consists of all formulas with at most one quantifier alternation, where no existential quantifier is in the scope of a universal quantifier.
+<ul>
+<li>EAHyper is a tool for automatically checking satisfiability, implication and equivalence of hyperproperties. EAHyper analyzes hyperproperties that are specified in HyperLTL.</li>
+<li>EAHyper can therefore be used to detect specifications that inconsistent, vacuously true, or to check implication and equivalence between multiple formalizations of the same requirement.</li>
+<li>EAHyper supports the <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msup><mo>&#x02203;</mo><mo>&#x0002A;</mo></msup><msup><mo>&#x02200;</mo><mo>&#x0002A;</mo></msup></mrow></math> fragment of HyperLTL, which is the largest decidable fragment of HyperLTL.</li>
+<li>This fragment consists of all formulas with at most one quantifier alternation, where no existential quantifier is in the scope of a universal quantifier.</li>
+<li>EAHyper reduces a HyperLTL formula to the satisfiability of an LTL formula. It then uses an external tool (<a href="pltl.html">pltl</a> or <a href="aalta.html">aalta</a>) to decide the satisfiability of the LTL formula.</li>
+</ul>
 
-EAHyper reduces a HyperLTL formula to the satisfiability of an LTL formula. It then uses an external tool (<a href="pltl.html">pltl</a> or <a href="aalta.html">aalta</a>) to decide the satisfiability of the LTL formula.
-
-<strong>Hyperproperties</strong>: system properties that relate multiple computation traces.
-
-<strong>HyperLTL</strong>: Extension of LTL. It uses trace variables and trace quantifiers to refer to multiple execution traces simultaneously.
+<ul>
+<li><strong>Hyperproperties</strong>: system properties that relate multiple computation traces.</li>
+<li><strong>HyperLTL</strong>: Extension of LTL. It uses trace variables and trace quantifiers to refer to multiple execution traces simultaneously.</li>
+</ul>
 
 <h3>Comments</h3>
 License: ISC License
-</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>Links</h3>
+</div><div class="tabbertab"><h2>Meta</h2><div><span class="tag"><a href="hyperltl.html">HyperLTL</a></span></div><h3>Links</h3>
 <ul><li>Project page: <a href="https://react.uni-saarland.de/tools/eahyper/"><code>https://react.uni-saarland.de/tools/eahyper/</code></a></li>
 <li>Repository: <a href="https://github.com/reactive-systems/eahyper"><code>https://github.com/reactive-systems/eahyper</code></a></li>
 <li>Try EAHyper online: <a href="https://www.react.uni-saarland.de/tools/online/EAHyper/"><code>https://www.react.uni-saarland.de/tools/online/EAHyper/</code></a></li></ul>

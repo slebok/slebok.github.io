@@ -72,14 +72,11 @@
 <h3>Expected input</h3>
 <ul>
 <li>BMI problem</li>
-<li>Initial values 
-		<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>u^0, v^0, Z^0</mi></mrow></math>
-		 and 
-		<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>U^0</mi></mrow></math></li>
+<li>Initial values <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msup><mi>u</mi><mn>0</mn></msup><mo>&#x0002C;</mo><msup><mi>v</mi><mn>0</mn></msup><mo>&#x0002C;</mo><msup><mi>Z</mi><mn>0</mn></msup></mrow></math> and <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msup><mi>U</mi><mn>0</mn></msup></mrow></math></li>
 </ul>
 
 <h3>Expected output</h3>
-Feasible solution <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>(u^<em>,v^</em>)</mi></mrow></math> for the BMI problem
+Feasible solution <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mo stretchy="false">&#x00028;</mo><msup><mi>u</mi><mo>&#x0002A;</mo></msup><mo>&#x0002C;</mo><msup><mi>v</mi><mo>&#x0002A;</mo></msup><mo stretchy="false">&#x00029;</mo></mrow></math> for the BMI problem
 
 <h3>Internals</h3>
 A <strong>barrier certificate</strong> is a function where the zero level set separates the unsafe region from all reachable states of a system. The existence of a barrier certificate implies that the unsafe region is not reachable, therefore safety verification can be transformed into the problem of <strong>barrier certificate generation</strong>.

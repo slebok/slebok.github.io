@@ -61,7 +61,7 @@
 		</div>
 		<div class="main">
 		<div class="tabber">
-			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> NOPE</h1>Tool to determine whether a syntax-guided synthesis problem is unrealizable (i.e. has no solution).
+			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv1.html">PV1</a> ⊧</span> NOPE<span class="subtitle">given a syntax-guided synthesis problem, checks whether it is realisable</span></h1>Tool to determine whether a syntax-guided synthesis problem is unrealizable (i.e. has no solution).
 
 <h3>Application domain/field</h3>
 <ul><li>Program synthesis</li>
@@ -78,7 +78,7 @@ It is also possible that a time out occurs.
 <h3>Internals</h3>
 <strong>Unrealizability problem</strong>: Given syntax-guided synthesis (SyGuS), establish whether the problem is <em>unrealizable</em> (i.e. has no solution)
 
-Given an unrealizability problem of the form <code>sy = (ψ, G)</code>, it returns <strong>unrealizable</strong> if no expression-tree in L(G) satisfies ψ. If it returns <strong>realizable</strong>, some e ∈ L(G) satisfies ψ.
+Given an unrealizability problem of the form <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>s</mi><mi>y</mi><mo>&#x0003D;</mo><mo stretchy="false">&#x00028;</mo><mi>&#x003C8;</mi><mo>&#x0002C;</mo><mi>G</mi><mo stretchy="false">&#x00029;</mo></mrow></math>, it returns <strong>unrealizable</strong> if no expression-tree in <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>L</mi><mo stretchy="false">&#x00028;</mo><mi>G</mi><mo stretchy="false">&#x00029;</mo></mrow></math> satisfies <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x003C8;</mi></mrow></math>. If it returns <strong>realizable</strong>, some <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>e</mi><mo>&#x02208;</mo><mi>L</mi><mo stretchy="false">&#x00028;</mo><mi>G</mi><mo stretchy="false">&#x00029;</mo></mrow></math> satisfies <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x003C8;</mi></mrow></math>.
 
 Uses <a href="seahorn.html">SeaHorn</a>, <a href="esolver.html">ESolver</a>, <a href="z3.html">Z3</a>.
 
