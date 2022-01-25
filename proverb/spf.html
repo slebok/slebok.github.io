@@ -61,9 +61,42 @@
 		</div>
 		<div class="main">
 		<div class="tabber">
-			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> SPF</h1>Symbolic Pathfinder (SPF) is a program analysis tool for Java bytecode; the tool is based on symbolic execution
+			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> SPF: Symbolic PathFinder</h1>Symbolic Pathfinder (SPF) is a program analysis tool for Java bytecode; the tool is based on symbolic execution
 
-originally from the ASE journal in 2013, actively expanded</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/SPF.md">View/edit source</a> (Markdown)</li></ul></div>
+<h3>Application domain/field</h3>
+<ul><li>Symbolic execution</li>
+<li>Model checking</li>
+<li>Automated test case generation</li></ul>
+<h3>Type of tool</h3>
+Symbolic executor
+<h3>Expected input</h3>
+<ul>
+<li>Java bytecode program</li>
+<li>Configuration file specifying, e.g. which methods should be executed symbolically</li>
+</ul>
+
+<p>Format:</p>
+<ul>
+<li><em>Java bytecode program</em>: <code>.class</code></li>
+<li><em>Configuration file</em>: <code>.jpf</code></li>
+</ul>
+
+<h3>Expected output</h3>
+Test suite (test inputs or test sequences) and/or counterexamples for the failed properties
+
+<h3>Comments</h3>
+License: Apache License v2.0
+</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>Links</h3>
+Repository: <a href="https://github.com/SymbolicPathFinder/jpf-symbc"><code>https://github.com/SymbolicPathFinder/jpf-symbc</code></a>
+<h3>Last commit date</h3>
+4 August 2021
+<h3>Last publication date</h3>
+4 April 2019
+<h3>List of related papers</h3>
+<ul><li><a href="https://doi.org/10.1007/978-3-030-17502-3_21"><code>https://doi.org/10.1007/978-3-030-17502-3_21</code></a> (TACAS '19)</li>
+<li><a href="https://doi.org/10.1007/s10515-013-0122-2"><code>https://doi.org/10.1007/s10515-013-0122-2</code></a> (ASE '13)</li>
+<li><a href="https://doi.org/10.1145/1858996.1859035"><code>https://doi.org/10.1145/1858996.1859035</code></a> (ASE '10)</li></ul>
+<h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/SPF.md">View/edit source</a> (Markdown)</li></ul></div>
 		</div>
 		<br/><hr/>
 		<div class="f">
