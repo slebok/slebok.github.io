@@ -60,15 +60,15 @@
 		</div>
 		<div class="main">
 		<div class="tabber">
-			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> AMUSIC: Approximate Minimal Unsatisfiable Subsets Implicit Counter</h1><h3>Application domain/field</h3>
+			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv4.html">PV4</a> ⊧</span> AMUSIC: Approximate Minimal Unsatisfiable Subsets Implicit Counter<span class="subtitle">counts minimal unsatisfiable subsets of a given formula in CNF</span></h1><h3>Application domain/field</h3>
 Minimal unsatisfiable sets (MUSes)
 <h3>Type of tool</h3>
 Counting tool?
 <h3>Expected input</h3>
 <ul>
 <li>Boolean formula in CNF</li>
-<li>Tolerance parameter ε > 0</li>
-<li>Confidence parameter δ ∈(0,1]</li>
+<li>Tolerance parameter <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x003B5;</mi><mo>&#x0003E;</mo><mn>0</mn></mrow></math></li>
+<li>Confidence parameter <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x003B4;</mi><mo>&#x02208;</mo><mo stretchy="false">&#x00028;</mo><mn>0</mn><mo>&#x0002C;</mo><mn>1</mn><mo stretchy="false">]</mo></mrow></math></li>
 </ul>
 
 <p>Format:</p>
@@ -76,7 +76,7 @@ A .gcnf or .cnf file for the boolean formula.
 The tolerance and confidence parameter can be set with arguments given to the script.
 
 <h3>Expected output</h3>
-Estimate of the amount of MUSes guaranteed to be within (1+ε)-multiplicative factor of the exact count with confidence at least 1-δ
+Estimate of the amount of MUSes guaranteed to be within <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mo stretchy="false">&#x00028;</mo><mn>1</mn><mo>&#x0002B;</mo><mi>&#x003B5;</mi><mo stretchy="false">&#x00029;</mo></mrow></math>-multiplicative factor of the exact count with confidence at least <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mn>1</mn><mo>&#x02212;</mo><mi>&#x003B4;</mi></mrow></math>
 
 <h3>Internals</h3>
 Uses <a href="caqe.html">CAQE</a>, <a href="cadet.html">CADET</a>, <a href="qratpreplus.html">QRATPre+</a>, <a href="muser2.html">muser2</a>, <a href="uwrmaxsat.html">UWrMaxSat</a>, <a href="pysat.html">pysat</a>

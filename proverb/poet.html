@@ -60,7 +60,9 @@
 		</div>
 		<div class="main">
 		<div class="tabber">
-			<div class="tabbertab"><h2>Tool</h2><div><span class="tag"><a href="c.html">C</a></span></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> POET: Partial Order Exploration Tools</h1>Explicit-state model checker
+			<div class="tabbertab"><h2>Tool</h2><div><span class="tag"><a href="c.html">C</a></span>
+<span class="tag"><a href="concurrency.html">Concurrency</a></span>
+<span class="tag"><a href="haskell.html">Haskell</a></span></div><h1 class="fbs"><span class="pv"><a href="pv1.html">PV1</a> ⊧</span> POET: Partial Order Exploration Tool<span class="subtitle">analyses a multi-threaded program to see if it conforms to expectations of the tool</span></h1>Explicit-state model checker
 
 <h3>Application domain/field</h3>
 <ul><li>Partial order reduction</li>
@@ -78,7 +80,17 @@ Multi-threaded C program
 <li>Can use <code>__poet_fail()</code> to indicate an assert false</li>
 <li>Supports POSIX threads</li>
 </ul>
-</div><div class="tabbertab"><h2>Meta</h2><div><span class="tag"><a href="c.html">C</a></span></div><h3>Links</h3>
+
+<h3>Expected output</h3>
+It can:
+<ul>
+<li>"print the result of the front-end" (???)</li>
+<li>execute the system with a non-deterministic schedule</li>
+<li>perform explicit-state model checking</li>
+</ul>
+</div><div class="tabbertab"><h2>Meta</h2><div><span class="tag"><a href="c.html">C</a></span>
+<span class="tag"><a href="concurrency.html">Concurrency</a></span>
+<span class="tag"><a href="haskell.html">Haskell</a></span></div><h3>Links</h3>
 <ul><li>Repository: <a href="https://github.com/marcelosousa/poet"><code>https://github.com/marcelosousa/poet</code></a></li>
 <li>Web page for CONCUR '15 paper: <a href="https://www.cs.ox.ac.uk/people/marcelo.sousa/poet/"><code>https://www.cs.ox.ac.uk/people/marcelo.sousa/poet/</code></a></li></ul>
 <h3>Last commit date</h3>
@@ -86,7 +98,7 @@ Multi-threaded C program
 <h3>Last publication date</h3>
 26 August 2015
 <h3>List of related papers</h3>
-<a href="https://doi.org/10.4230/LIPIcs.CONCUR.2015.456(CONCUR"><code>https://doi.org/10.4230/LIPIcs.CONCUR.2015.456(CONCUR</code></a> ('15))
+<a href="https://doi.org/10.4230/LIPIcs.CONCUR.2015.456"><code>https://doi.org/10.4230/LIPIcs.CONCUR.2015.456</code></a> (CONCUR '15)
 <h3>Related tools</h3>
 <ul><li>Second version of POET is called <a href="apoet.html">APOET</a>.</li>
 <li>Compared to: <a href="nidhugg.html">Nidhugg</a></li></ul>
