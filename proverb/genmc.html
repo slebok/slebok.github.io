@@ -60,7 +60,9 @@
 		</div>
 		<div class="main">
 		<div class="tabber">
-			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> GenMC</h1>LLVM-based stateless model checker (SMC) for concurrent C/C++ programs
+			<div class="tabbertab"><h2>Tool</h2><div><span class="tag"><a href="c.html">C</a></span>
+<span class="tag"><a href="cplusplus.html">C++</a></span>
+<span class="tag"><a href="llvm.html">LLVM</a></span></div><h1 class="fbs"><span class="pv"><a href="pv4.html">PV4</a> ⊧</span> GenMC<span class="subtitle">given a C program with assertions and a memory model spec, reports safety errors</span></h1>LLVM-based stateless model checker (SMC) for concurrent C/C++ programs
 
 <h3>Application domain/field</h3>
 <ul><li>Model checking</li>
@@ -93,8 +95,13 @@ Given a C/C++ program as inputs (that uses C/C++11 atomics and/or concurrency pr
 The verification can be performed with respect to the RC11 memory model (default), or other models such as IMM and LKMM.
 
 <h3>Comments</h3>
-License: GPL-3.0 License
-</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>Links</h3>
+<ul>
+<li>License: GPL-3.0 License</li>
+<li>GenMC has PV2 features (checks assertions), PV3 features (infers provable properties from goals like data race), and PV4 features (when used with a non-RC11 memory model).</li>
+</ul>
+</div><div class="tabbertab"><h2>Meta</h2><div><span class="tag"><a href="c.html">C</a></span>
+<span class="tag"><a href="cplusplus.html">C++</a></span>
+<span class="tag"><a href="llvm.html">LLVM</a></span></div><h3>Links</h3>
 <ul><li>Project page: <a href="https://plv.mpi-sws.org/genmc/"><code>https://plv.mpi-sws.org/genmc/</code></a></li>
 <li>Repository: <a href="https://github.com/mpi-sws/genmc/"><code>https://github.com/mpi-sws/genmc/</code></a></li></ul>
 <h3>Last commit date</h3>

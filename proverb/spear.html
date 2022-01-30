@@ -9,7 +9,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="initial-scale=1.0"/>
-		<title>APRON — ProVerB — SLEBoK</title>
+		<title>SPEAR — ProVerB — SLEBoK</title>
 		<link href="main.css" rel="stylesheet" type="text/css" />
 		<link href="tabber.css" rel="stylesheet" type="text/css" media="screen" />
 		<script type="text/javascript" src="tabber.js" />
@@ -60,44 +60,29 @@
 		</div>
 		<div class="main">
 		<div class="tabber">
-			<div class="tabbertab"><h2>Tool</h2><div><span class="tag"><a href="c.html">C</a></span>
-<span class="tag"><a href="cplusplus.html">C++</a></span>
-<span class="tag"><a href="java.html">Java</a></span>
-<span class="tag"><a href="ocaml.html">OCaml</a></span></div><h1 class="fbs"><span class="pv"><a href="pv3.html">PV3</a> ⊧</span> APRON or Apron<span class="subtitle">infers numerical properties of a program, proves the absence of errors of some classes</span></h1>"Library dedicated to the static analysis of the numerical variables of programs by abstract interpretation"
+			<div class="tabbertab"><h2>Tool</h2><div><span class="tag"><a href="sat.html">SAT</a></span></div><h1 class="fbs"><span class="pv"><a href="pv3.html">PV3</a> ⊧</span> SPEAR<span class="subtitle">proves a theorem about software verification conditions, formulated in bit-vectors</span></h1>SPEAR is a bit-vector arithmetic theorem prover designed for proving software verification conditions
 
 <h3>Application domain/field</h3>
-<ul><li>Numeric analysis</li>
-<li>Static analysis</li>
-<li>Abstract interperation</li></ul>
+<ul><li>Theorem proving</li>
+<li>Arithmetic</li>
+<li>SAT solving</li></ul>
 <h3>Type of tool</h3>
-Semantic equations solver
+Modular theorem prover
 <h3>Expected input</h3>
-program
+<p>Format:</p>
+<a href="spearmaf.html">SPEAR MAF</a>
 
 <h3>Internals</h3>
 <ul>
-<li>abstract interperation</li>
-<li>static approximation (using a simpler domain with sound abstract generalisations of semantics)</li>
-<li>dynamic approximation (widening to ensure termination)</li>
+<li>the core is a fast and simple SAT solver</li>
+<li>involves aggressive constant propagation</li>
 </ul>
-
-<h3>Comments</h3>
-APRON is a free software under LGPL license, except the wrappers related to the PPL library, which follows the GPL license of the PPL library.
-</div><div class="tabbertab"><h2>Meta</h2><div><span class="tag"><a href="c.html">C</a></span>
-<span class="tag"><a href="cplusplus.html">C++</a></span>
-<span class="tag"><a href="java.html">Java</a></span>
-<span class="tag"><a href="ocaml.html">OCaml</a></span></div><h3>Links</h3>
-<ul><li><a href="https://antoinemine.github.io/Apron/doc/"><code>https://antoinemine.github.io/Apron/doc/</code></a></li>
-<li><a href="http://apron.cri.ensmp.fr/library/"><code>http://apron.cri.ensmp.fr/library/</code></a></li>
-<li><a href="https://github.com/antoinemine/apron"><code>https://github.com/antoinemine/apron</code></a></li></ul>
-<h3>Last commit date</h3>
-1 September 2021
-<h3>Last publication date</h3>
-2009
+</div><div class="tabbertab"><h2>Meta</h2><div><span class="tag"><a href="sat.html">SAT</a></span></div><h3>Last publication date</h3>
+2008
 <h3>List of related papers</h3>
-<ul><li><a href="http://apron.cri.ensmp.fr/library/flyer.pdf"><code>http://apron.cri.ensmp.fr/library/flyer.pdf</code></a> (SAS 2007 poster)</li>
-<li><a href="https://doi.org/10.1007/978-3-642-02658-4_52"><code>https://doi.org/10.1007/978-3-642-02658-4_52</code></a> (CAV 2009)</li></ul>
-<h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/Libraries/APRON.md">View/edit source</a> (Markdown)</li></ul></div>
+<ul><li><a href="https://doi.org/10.1007/978-3-540-73368-3_41"><code>https://doi.org/10.1007/978-3-540-73368-3_41</code></a> (CAV 2007)</li>
+<li><a href="http://www.domagoj-babic.com/index.php/Pubs/SAT08"><code>http://www.domagoj-babic.com/index.php/Pubs/SAT08</code></a> (SAT 2008 Race)</li></ul>
+<h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/Provers/SPEAR.md">View/edit source</a> (Markdown)</li></ul></div>
 		</div>
 		<br/><hr/>
 		<div class="f">
