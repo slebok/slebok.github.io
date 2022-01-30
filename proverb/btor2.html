@@ -9,7 +9,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="initial-scale=1.0"/>
-		<title>Index — ProVerB — SLEBoK</title>
+		<title>Btor2 — ProVerB — SLEBoK</title>
 		<link href="main.css" rel="stylesheet" type="text/css" />
 		<link href="tabber.css" rel="stylesheet" type="text/css" media="screen" />
 		<script type="text/javascript" src="tabber.js" />
@@ -60,27 +60,38 @@
 		</div>
 		<div class="main">
 		<div class="tabber">
-			<div class="tabbertab"><h2>Index</h2><h1 class="fbs">Language in ProVerB</h1><ul><li><a href="acsl.html">ACSL</a></li>
-<li><a href="aiger.html">AIGER</a></li>
-<li><a href="blog.html">BLOG</a></li>
-<li><a href="btor.html">Btor</a></li>
-<li><a href="btor2.html">Btor2</a></li>
-<li><a href="dimacs.html">DIMACS</a></li>
-<li><a href="eranlanguage.html">ERAN language</a></li>
-<li><a href="gospel.html">GOSPEL</a></li>
-<li><a href="hoa.html">HOA</a></li>
-<li><a href="jani.html">JANI</a></li>
-<li><a href="jml.html">JML</a></li>
-<li><a href="onnx.html">ONNX</a></li>
-<li><a href="prismlanguage.html">PRISM language</a></li>
-<li><a href="promela.html">PROMELA</a></li>
-<li><a href="qaiger.html">QAIGER</a></li>
-<li><a href="qdimacs.html">QDIMACS</a></li>
-<li><a href="rtlola.html">RTLola</a></li>
-<li><a href="smtlib.html">SMT-LIB</a></li>
-<li><a href="sygus.html">SyGuS</a></li>
-<li><a href="verilog.html">Verilog</a></li></ul>
-<p>20 items on this list.</p></div>
+			<div class="tabbertab"><h2>Tool</h2><div><span class="tag"><a href="language.html">Language</a></span></div><h1 class="fbs">Btor2</h1>word-level model checking format for capturing models of hardware and potentially software in a bit-precise manner; a non-backward-compatible extension of <a href="btor.html">Btor</a>, which was tailored towards bit-vectors and one-dimensional bit-vector arrays, Btor2 has explicit sort declarations and register/memory initialisations; inpired by a new <a href="aiger.html">AIGER</a> format
+
+<pre>
+&lt;num&gt;     ::= positive unsigned integer (greater than zero)
+&lt;uint&gt;    ::= unsigned integer (including zero)
+&lt;string&gt;  ::= sequence of whitespace and printable characters without '\n'
+&lt;symbol&gt;  ::= sequence of printable characters without '\n'
+&lt;comment&gt; ::= ';' &lt;string&gt;
+&lt;nid&gt;     ::= &lt;num&gt;
+&lt;sid&gt;     ::= &lt;num&gt;
+&lt;const&gt;   ::= 'const' &lt;sid&gt; [0-1]+
+&lt;constd&gt;  ::= 'constd' &lt;sid&gt; ['-']&lt;uint&gt;
+&lt;consth&gt;  ::= 'consth' &lt;sid&gt; [0-9a-fA-F]+
+&lt;input&gt;   ::= ( 'input' | 'one' | 'ones' | 'zero' ) &lt;sid&gt; | &lt;const&gt; | &lt;constd&gt; | &lt;consth&gt;
+&lt;state&gt;   ::= 'state' &lt;sid&gt;
+&lt;bitvec&gt;  ::= 'bitvec' &lt;num&gt;
+&lt;array&gt;   ::= 'array' &lt;sid&gt; &lt;sid&gt;
+&lt;node&gt;    ::= &lt;sid&gt; 'sort' ( &lt;array&gt; | &lt;bitvec&gt; )
+            | &lt;nid&gt; ( &lt;input&gt; | &lt;state&gt; )
+            | &lt;nid&gt; &lt;opidx&gt; &lt;sid&gt; &lt;nid&gt; &lt;uint&gt; [&lt;uint&gt;]
+            | &lt;nid&gt; &lt;op&gt; &lt;sid&gt; &lt;nid&gt; [&lt;nid&gt; [&lt;nid&gt;]]
+            | &lt;nid&gt; ( 'init' | 'next' ) &lt;sid&gt; &lt;nid&gt; &lt;nid&gt;
+            | &lt;nid&gt; ( 'bad' | 'constraint' | 'fair' | 'output' ) &lt;nid&gt;
+            | &lt;nid&gt; 'justice' &lt;num&gt; ( &lt;nid&gt; )+
+&lt;line&gt;    ::= &lt;comment&gt; | &lt;node&gt; [&lt;symbol&gt;] [&lt;comment&gt;]
+&lt;btor&gt;    ::= ( &lt;line&gt; '\n' )+
+</pre>
+</div><div class="tabbertab"><h2>Meta</h2><div><span class="tag"><a href="language.html">Language</a></span></div><h3>List of related papers</h3>
+<a href="https://doi.org/10.1007/978-3-319-96145-3_32"><code>https://doi.org/10.1007/978-3-319-96145-3_32</code></a>
+<h3>Related tools</h3>
+Used by <a href="boolector.html">Boolector</a>
+<h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Formats/Btor2.md">View/edit source</a> (Markdown)</li></ul></div>
 		</div>
 		<br/><hr/>
 		<div class="f">
