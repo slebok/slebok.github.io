@@ -61,7 +61,27 @@
 		<div class="main">
 		<div class="tabber">
 			<div class="tabbertab"><h2>Tool</h2><div><span class="tag"><a href="concurrency.html">Concurrency</a></span>
-<span class="tag"><a href="ltl.html">LTL</a></span></div><h1 class="fbs"><span class="pv"><a href="pv4.html">PV4</a> ⊧</span> SPIN<span class="subtitle">analyses models of multi-threaded applications with different message passing paradigms or shared memory communication</span></h1>Spin is a open-source software verification tool for formal verification of multi-threaded software applications. It can be used in four main modes:
+<span class="tag"><a href="ltl.html">LTL</a></span></div><h1 class="fbs"><span class="pv"><a href="pv4.html">PV4</a> ⊧</span> SPIN<span class="subtitle">analyses models of multi-threaded applications with different message passing paradigms or shared memory communication</span></h1><h3>Application domain/field</h3>
+<ul><li>Multi-threaded software</li>
+<li>Model checking</li>
+<li>Simulation</li>
+<li>Concurrency</li></ul>
+<h3>Type of tool</h3>
+Model checker + simulator
+<h3>Expected input</h3>
+<ul>
+<li>System description</li>
+<li>Properties: can be expressed as system or process invariants (using assertions), as linear temporal logic (LTL) requirements, as Büchi automata, or as omega-regular properties.</li>
+</ul>
+
+<p>Format:</p>
+<a href="promela.html">PROMELA</a>
+
+<h3>Expected output</h3>
+It reports on deadlocks, race conditions, different types of incompleteness, unwarranted assumptions about the relative speed of processes, and property violations.
+
+<h3>Internals</h3>
+Spin is a open-source software verification tool for formal verification of multi-threaded software applications. It can be used in four main modes:
 
 <ul>
 <li>as a <strong>simulator</strong>, allowing for rapid prototyping with a random, guided, or interactive simulations</li>
@@ -71,10 +91,23 @@
 </ul>
 
 (source: <a href="https://spinroot.com/spin/what.html)"><code>https://spinroot.com/spin/what.html)</code></a>
+
+<h3>Comments</h3>
+License: BSD 3-clause open source license
 </div><div class="tabbertab"><h2>Meta</h2><div><span class="tag"><a href="concurrency.html">Concurrency</a></span>
 <span class="tag"><a href="ltl.html">LTL</a></span></div><h3>Links</h3>
-<ul><li><a href="https://spinroot.com/"><code>https://spinroot.com/</code></a></li>
-<li><a href="https://spinroot.com/spin/whatispin.html"><code>https://spinroot.com/spin/whatispin.html</code></a></li></ul>
+<ul><li>Repository: <a href="https://github.com/nimble-code/Spin"><code>https://github.com/nimble-code/Spin</code></a></li>
+<li>Project page: <a href="https://spinroot.com/"><code>https://spinroot.com/</code></a></li></ul>
+<h3>Last commit date</h3>
+15 January 2022
+<h3>Last publication date</h3>
+2012
+<h3>List of related papers</h3>
+<ul><li><a href="https://doi.org/10.1007/978-3-642-31759-0_12"><code>https://doi.org/10.1007/978-3-642-31759-0_12</code></a> (SPIN '12)</li>
+<li><a href="https://doi.org/10.1007/s00165-010-0160-5"><code>https://doi.org/10.1007/s00165-010-0160-5</code></a> (Formal Aspects of Computing, 2011)</li>
+<li>Principles of the Spin Model Checker (ISBN: 978-1846287695, 2008)</li>
+<li>The Spin Model Checker: Primer and Reference Manual (ISBN: 978-0321228628, 2003)</li>
+<li><a href="https://doi.org/10.1109/32.588521"><code>https://doi.org/10.1109/32.588521</code></a> (IEEE Trans. on Software Engineering, 1997)</li></ul>
 <h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/SPIN.md">View/edit source</a> (Markdown)</li></ul></div>
 		</div>
 		<br/><hr/>

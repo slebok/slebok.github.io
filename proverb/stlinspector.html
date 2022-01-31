@@ -60,12 +60,43 @@
 		</div>
 		<div class="main">
 		<div class="tabber">
-			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> STLInspector</h1>Tool for the systematic validation of Signal Temporal Logic (STL) specifications against informal textual requirements. It tries to identify typical faults that occur in the process of formalizing requirements by mutating a candidate specification.
+			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> STLInspector</h1>Tool for the systematic validation of Signal Temporal Logic (STL) specifications against informal textual requirements.
 
+<h3>Application domain/field</h3>
+<ul><li>Signal Temporal Logic (STL)</li>
+<li>Requirements</li>
+<li>Mutation testing</li></ul>
+<h3>Type of tool</h3>
+Debug/testing tool for STL specifications
+<h3>Expected input</h3>
+STL formula
+
+<p>Format:</p>
+Own textual format
+
+<h3>Expected output</h3>
+User is presented with test signals for which needs to be decided whether or not the signal satisfies the informal requirement. If an error was found, the user can change the STL candidate and continue inspection.
+
+<h3>Internals</h3>
+STLInspector tries to identify typical faults that occur in the process of formalizing requirements by mutating a candidate STL specification.
+The requirements engineer is used as an oracle.
+
+Uses <a href="antlr.html">ANTLR</a>, <a href="z3.html">Z3</a>.
+
+<h3>Comments</h3>
 License: Apache License 2.0
-Repository: <a href="https://github.com/STLInspector/STLInspector"><code>https://github.com/STLInspector/STLInspector</code></a> (last commit: 30 September 2019)
-
-Uses <a href="antlr.html">ANTLR</a>, <a href="z3.html">Z3</a>.</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/STLInspector.md">View/edit source</a> (Markdown)</li></ul></div>
+</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>Links</h3>
+Repository: <a href="https://github.com/STLInspector/STLInspector"><code>https://github.com/STLInspector/STLInspector</code></a>
+<h3>Last commit date</h3>
+30 September 2019
+<h3>Last publication date</h3>
+13 July 2017
+<h3>List of related papers</h3>
+<a href="https://doi.org/10.1007/978-3-319-63387-9_11"><code>https://doi.org/10.1007/978-3-319-63387-9_11</code></a> (CAV '17)
+<h3>Related tools</h3>
+<ul><li>Tool to formalize specifications: <a href="vispec.html">Vispec</a></li>
+<li>Tool to debug specifications (subset of PSL): <a href="ratsy.html">RATSY</a></li></ul>
+<h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/STLInspector.md">View/edit source</a> (Markdown)</li></ul></div>
 		</div>
 		<br/><hr/>
 		<div class="f">
