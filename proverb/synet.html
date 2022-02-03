@@ -60,16 +60,52 @@
 		</div>
 		<div class="main">
 		<div class="tabber">
-			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> SyNET</h1>Network-wide configuration synthesis system
+			<div class="tabbertab"><h2>Tool</h2><div><span class="tag"><a href="computernetwork.html">Computer network</a></span></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> SyNET</h1>Synthesises network wide configurations given forwarding requirements.
 
-Project page: <a href="https://synet.ethz.ch/"><code>https://synet.ethz.ch/</code></a>
-Repository: <a href="https://github.com/nsg-ethz/synet"><code>https://github.com/nsg-ethz/synet</code></a> (last commit: 7 December 2017)
-</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/SyNET.md">View/edit source</a> (Markdown)</li></ul></div>
+<h3>Application domain/field</h3>
+<ul><li>Computer networks</li>
+<li>Network configuration</li></ul>
+<h3>Type of tool</h3>
+Synthesis tool for network configurations
+<h3>Expected input</h3>
+<ul>
+<li>Topology of the network</li>
+<li>Requirements</li>
+<li>Routing protocol</li>
+</ul>
+
+<p>Format:</p>
+<ul>
+<li><em>Network topology</em>: set of Datalog predicates, <code>.logic</code> file</li>
+<li><em>Requirements</em>: <code>.logic</code> file</li>
+<li><em>Routing protocol</em>: passed as an argument, the user can choose between <code>static</code>, <code>ospf</code> or <code>bgp</code>.</li>
+</ul>
+
+<h3>Expected output</h3>
+Datalog input that results in a forwarding state satisfying the requirements. From this Datalog input one can derive the configurations for routers.
+
+<h3>Internals</h3>
+Uses <a href="z3.html">Z3</a> to check whether the generated SMT constraints are satisfiable and to obtain a model.
+
+<h3>Comments</h3>
+License: Apache v2.0
+</div><div class="tabbertab"><h2>Meta</h2><div><span class="tag"><a href="computernetwork.html">Computer network</a></span></div><h3>Links</h3>
+<ul><li>Project page: <a href="https://synet.ethz.ch/"><code>https://synet.ethz.ch/</code></a></li>
+<li>Repository: <a href="https://github.com/nsg-ethz/synet"><code>https://github.com/nsg-ethz/synet</code></a></li></ul>
+<h3>Last commit date</h3>
+7 December 2017
+<h3>Last publication date</h3>
+13 July 2017
+<h3>List of related papers</h3>
+<a href="https://doi.org/10.1007/978-3-319-63390-9_14"><code>https://doi.org/10.1007/978-3-319-63390-9_14</code></a> (CAV '17)
+<h3>Related tools</h3>
+Tools that produce network-wide configurations from routing requirements: <a href="propane.html">Propane</a>, <a href="genesis.html">Genesis</a>, <a href="configassure.html">ConfigAssure</a>
+<h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/SyNET.md">View/edit source</a> (Markdown)</li></ul></div>
 		</div>
 		<br/><hr/>
 		<div class="f">
 			<a href="help.html">ProVerB</a> is a part of <a href="https://slebok.github.io/">SLEBoK</a>.
-			Last updated: <strong>January 2022</strong>.
+			Last updated: <strong>February 2022</strong>.
 		</div>
 	</div>
 	</body>

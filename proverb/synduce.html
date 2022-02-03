@@ -60,12 +60,55 @@
 		</div>
 		<div class="main">
 		<div class="tabber">
-			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> Synduce</h1></div><div class="tabbertab"><h2>Meta</h2><div></div><h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/Synduce.md">View/edit source</a> (Markdown)</li></ul></div>
+			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> Synduce</h1><h3>Application domain/field</h3>
+<ul><li>Program synthesis</li>
+<li>Recursive functions</li>
+<li>Recursive data types</li>
+<li>Bounded model checking</li></ul>
+<h3>Type of tool</h3>
+Synthesis tool
+<h3>Expected input</h3>
+<ul>
+<li>Input reference (recursive) function, this precisely describes the functionality</li>
+<li>Recursion skeleton, i.e. traversal plan over the new recursive data type</li>
+<li>Representation function, a mapping that converts an instance of the old data type to the new data type</li>
+</ul>
+
+<p>Format:</p>
+One of the following:
+<ul>
+<li>a syntax for pattern-matching recursion schemes (PRMS) (<code>.pmrs</code> file)</li>
+<li>OCaml (<code>.ml</code> file)</li>
+</ul>
+
+<h3>Expected output</h3>
+Recursive function equivalent to the input function whose recursion strategy is specified by the recursion skeleton.
+
+<h3>Internals</h3>
+The <em>context</em> that they consider is one where you have two data types A and B. You have implemented a recursive function for A, and now want to implement this for B.
+
+Synduce uses bounded model checking to check the validity of a synthesis solution.
+
+Uses <a href="z3.html">Z3</a> and <a href="cvc4.html">CVC4</a>.
+
+<h3>Comments</h3>
+License: MIT
+</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>Links</h3>
+Repository: <a href="https://github.com/synduce/Synduce"><code>https://github.com/synduce/Synduce</code></a>
+<h3>Last commit date</h3>
+16 December 2021
+<h3>Last publication date</h3>
+15 July 2021
+<h3>List of related papers</h3>
+<a href="https://doi.org/10.1007/978-3-030-81685-8_39"><code>https://doi.org/10.1007/978-3-030-81685-8_39</code></a> (CAV '21)
+<h3>Related tools</h3>
+Tools for synthesizing recursive functional programs: <a href="escher.html">Escher</a>, <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msup><mi>&#x003BB;</mi><mn>2</mn></msup></mrow></math>, <a href="myth.html">Myth</a>, <a href="myth2.html">Myth2</a>, <a href="synquid.html">SynQuid</a>, <a href="syntrec.html">SyntRec</a>, <a href="leon.html">Leon</a>.
+<h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/Synduce.md">View/edit source</a> (Markdown)</li></ul></div>
 		</div>
 		<br/><hr/>
 		<div class="f">
 			<a href="help.html">ProVerB</a> is a part of <a href="https://slebok.github.io/">SLEBoK</a>.
-			Last updated: <strong>January 2022</strong>.
+			Last updated: <strong>February 2022</strong>.
 		</div>
 	</div>
 	</body>

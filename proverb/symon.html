@@ -60,15 +60,50 @@
 		</div>
 		<div class="main">
 		<div class="tabber">
-			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> SyMon</h1>A tool for symbolic monitoring
-<a href="https://github.com/MasWag/symon"><code>https://github.com/MasWag/symon</code></a>
+			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> SyMon: SYmbolic MONitor</h1>A tool for symbolic monitoring of logs that supports both timing and data parameters.
 
-Uses <a href="ppl.html">Parma Polyhedra Library (PPL)</a>.md)</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/SyMon.md">View/edit source</a> (Markdown)</li></ul></div>
+<h3>Application domain/field</h3>
+<ul><li>Monitoring</li>
+<li>Offline monitoring</li>
+<li>Logs</li></ul>
+<h3>Type of tool</h3>
+Monitoring tool
+<h3>Expected input</h3>
+<ul>
+<li>Automaton</li>
+<li>Signature</li>
+<li><em>Optional</em>: Timed word</li>
+</ul>
+
+<p>Format:</p>
+-<em>Automaton</em>: <code>.dot</code> file
+<ul>
+<li><em>Signature</em>: <code>.sig</code> file, own format</li>
+<li><em>Optional timed word</em>: <code>.txt</code> file?</li>
+</ul>
+
+<h3>Internals</h3>
+Uses <a href="ppl.html">Parma Polyhedra Library (PPL)</a>.md)
+
+<h3>Comments</h3>
+License: GPL v3.0
+</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>Links</h3>
+<ul><li>Repository: <a href="https://github.com/MasWag/symon"><code>https://github.com/MasWag/symon</code></a></li>
+<li>Try online: <a href="https://colab.research.google.com/drive/17WNWuA3RxCA51xkDuVfOVeuUbRqHetDz"><code>https://colab.research.google.com/drive/17WNWuA3RxCA51xkDuVfOVeuUbRqHetDz</code></a></li></ul>
+<h3>Last commit date</h3>
+7 October 2019
+<h3>Last publication date</h3>
+12 July 2019
+<h3>List of related papers</h3>
+<a href="https://doi.org/10.1007/978-3-030-25540-4_30"><code>https://doi.org/10.1007/978-3-030-25540-4_30</code></a> (CAV '19)
+<h3>Related tools</h3>
+Monitoring tools that support reasoning about data: <a href="marq.html">MarQ</a>, <a href="monpoly.html">MonPoly</a>, <a href="dejavu.html">DejaVu</a>.
+<h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/SyMon.md">View/edit source</a> (Markdown)</li></ul></div>
 		</div>
 		<br/><hr/>
 		<div class="f">
 			<a href="help.html">ProVerB</a> is a part of <a href="https://slebok.github.io/">SLEBoK</a>.
-			Last updated: <strong>January 2022</strong>.
+			Last updated: <strong>February 2022</strong>.
 		</div>
 	</div>
 	</body>

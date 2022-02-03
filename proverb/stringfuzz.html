@@ -61,14 +61,57 @@
 		<div class="main">
 		<div class="tabber">
 			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> StringFuzz</h1>Problem instance generator and fuzzer for SMT string solvers
-<a href="http://stringfuzz.dmitryblotsky.com/"><code>http://stringfuzz.dmitryblotsky.com/</code></a>
 
-Uses <a href="smtlib.html">SMT-LIB</a>.</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/StringFuzz.md">View/edit source</a> (Markdown)</li></ul></div>
+<h3>Application domain/field</h3>
+<ul><li>String constraint solvers</li>
+<li>Problem generator</li>
+<li>Benchmark generator</li>
+<li>Fuzzing</li></ul>
+<h3>Type of tool</h3>
+Generator/transformer for string constraint problems
+<h3>Expected input</h3>
+Depends on which tool is used.
+
+<p>Format:</p>
+Most things are passed as an argument when calling the tool.
+
+<h3>Expected output</h3>
+Depends on the tool that is used.
+<code>stringfuzzg</code>, <code>stringfuzzx</code> and <code>stringmerge</code> will output an SMT-LIB instance.
+<code>stringstats</code> will output some properties of a given SMT-LIB instance.
+
+<h3>Internals</h3>
+Consists of the following tools:
+<ul>
+<li><code>stringfuzzg</code>: generates SMT-LIB instances</li>
+<li><code>stringfuzzx</code>: Transforms SMT-LIB instances</li>
+<li><code>stringstats</code>: Outputs properties of a given SMT-LIB instance such as the number of variables, the maximum syntactic depth of expressions, etc.</li>
+<li><code>stringmerge</code>: Merges several SMT-LIB instances into one.</li>
+</ul>
+
+Uses <a href="smtlib.html">SMT-LIB</a>.
+
+<h3>Comments</h3>
+License: MIT
+</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>Links</h3>
+<ul><li>Project page: <a href="http://stringfuzz.dmitryblotsky.com/"><code>http://stringfuzz.dmitryblotsky.com/</code></a></li>
+<li>Repository: <a href="https://github.com/dblotsky/stringfuzz"><code>https://github.com/dblotsky/stringfuzz</code></a></li></ul>
+<h3>Last commit date</h3>
+11 June 2018
+<h3>Last publication date</h3>
+18 July 2018
+<h3>List of related papers</h3>
+<a href="https://doi.org/10.1007/978-3-319-96142-2_6"><code>https://doi.org/10.1007/978-3-319-96142-2_6</code></a> (CAV '18)
+<h3>Related tools</h3>
+<ul><li>Test suites for solver testing and benchmarking: <a href="kaluza.html">Kaluza</a>, <a href="kausler.html">Kausler</a>.</li>
+<li><a href="fuzzsmt.html">FuzzSMT</a> generates SMT-LIB instances with bit-vectors and arrays (does not support strings or regexes).</li>
+<li><a href="smtpp.html">SMTpp</a> pre-processes and simplifies SMT-LIB instances.</li></ul>
+<h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/StringFuzz.md">View/edit source</a> (Markdown)</li></ul></div>
 		</div>
 		<br/><hr/>
 		<div class="f">
 			<a href="help.html">ProVerB</a> is a part of <a href="https://slebok.github.io/">SLEBoK</a>.
-			Last updated: <strong>January 2022</strong>.
+			Last updated: <strong>February 2022</strong>.
 		</div>
 	</div>
 	</body>

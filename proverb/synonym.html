@@ -61,14 +61,48 @@
 		<div class="main">
 		<div class="tabber">
 			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> Synonym</h1>Prototype for verifying k-safety properties on Java programs
-<em>k-safety properties</em> are relational verification problems over k identical Java programs
 
-Built on top of <a href="descartes.html">Descartes</a></div><div class="tabbertab"><h2>Meta</h2><div></div><h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/Synonym.md">View/edit source</a> (Markdown)</li></ul></div>
+<h3>Application domain/field</h3>
+<ul><li>Relational verification</li>
+<li>Relational specifications</li>
+<li>Safety verification</li></ul>
+<h3>Type of tool</h3>
+Relational verifier
+<h3>Expected input</h3>
+<ul>
+<li>Program</li>
+<li>Reference to property that should be verified</li>
+<li>Tool that should be used for verification</li>
+</ul>
+
+<p>Format:</p>
+<ul>
+<li><em>Program</em>: Java file</li>
+<li><em>Property to be verified</em>: a number that is passed as an argument. The number indicates which property from <code>Properties.hs</code> to check</li>
+<li><em>Tool for verification</em>: passed as an argument: <code>descartes</code>, <code>syn</code>, or <code>synonym</code></li>
+</ul>
+
+<h3>Internals</h3>
+<em>Relational specifications</em>: Specifications that can describe multiple runs of the same program or relate the behaviors of multiple programs.
+<em>k-safety properties</em> are relational verification problems over k identical Java programs.
+
+Built on top of <a href="descartes.html">Descartes</a>
+</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>Links</h3>
+Repository: <a href="https://github.com/lmpick/synonym"><code>https://github.com/lmpick/synonym</code></a>
+<h3>Last commit date</h3>
+15 December 2018
+<h3>Last publication date</h3>
+18 July 2018
+<h3>List of related papers</h3>
+<a href="https://doi.org/10.1007/978-3-319-96145-3_9"><code>https://doi.org/10.1007/978-3-319-96145-3_9</code></a> (CAV '18)
+<h3>Related tools</h3>
+Tools for relational verification: <a href="rosette/unbound.html">Rosette/Unbound</a>, <a href="verimaprel.html">VeriMapRel</a>, <a href="reve.html">Reve</a>, <a href="mochi.html">MoCHi</a>, <a href="symdiff.html">SymDiff</a>
+<h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/Synonym.md">View/edit source</a> (Markdown)</li></ul></div>
 		</div>
 		<br/><hr/>
 		<div class="f">
 			<a href="help.html">ProVerB</a> is a part of <a href="https://slebok.github.io/">SLEBoK</a>.
-			Last updated: <strong>January 2022</strong>.
+			Last updated: <strong>February 2022</strong>.
 		</div>
 	</div>
 	</body>

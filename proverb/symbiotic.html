@@ -60,12 +60,61 @@
 		</div>
 		<div class="main">
 		<div class="tabber">
-			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> Symbiotic</h1>Symbiotic implements an approach of combining instrumentation, slicing, and symbolic execution to detect errors in C programs</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/Symbiotic.md">View/edit source</a> (Markdown)</li></ul></div>
+			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> Symbiotic</h1>Symbiotic implements an approach of combining instrumentation, slicing, and symbolic execution to detect errors in (sequential) C programs
+
+<h3>Application domain/field</h3>
+<ul><li>Symbolic execution</li>
+<li>Bug detection</li>
+<li>Program slicing</li>
+<li>Safety verification</li>
+<li>Memory safety</li></ul>
+<h3>Type of tool</h3>
+Bug detector
+<h3>Expected input</h3>
+<ul>
+<li>Instrumented C program. It needs to be instrumented to e.g. assertions or <code>__VERIFIER_error()</code>.</li>
+<li><em>Optional</em>: This can be used to indicate that Symbiotic should look for certain errors aside from assertion violations, e.g. errors in memory manipulations.</li>
+</ul>
+
+<p>Format:</p>
+<ul>
+<li><em>Program</em>: <code>.c</code> file(s)</li>
+<li><em>Optional property</em>: passed as an argument while calling symbiotic</li>
+</ul>
+
+<h3>Expected output</h3>
+Symbiotic will report any assertion or property violations that it finds.
+It can also generate a violation witness if a property/assertion is violated.
+
+<h3>Internals</h3>
+Symbiotic can be used to check safety properties such as assertion violations, invalid pointer dereference, double free, memory leaks, etc.
+
+Uses <a href="klee.html">KLEE</a> for symbolic execution. Uses <a href="z3.html">Z3</a> for SMT solving.
+
+<h3>Comments</h3>
+Symbiotic has participated in SV-COMP (verification competition) in 2016-2021.
+</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>Links</h3>
+<ul><li>Repository: <a href="https://github.com/staticafi/symbiotic"><code>https://github.com/staticafi/symbiotic</code></a></li>
+<li>Project page: <a href="http://staticafi.github.io/symbiotic/"><code>http://staticafi.github.io/symbiotic/</code></a></li></ul>
+<h3>Last commit date</h3>
+8 December 2021
+<h3>Last publication date</h3>
+18 May 2020
+<h3>List of related papers</h3>
+<ul><li><a href="https://doi.org/10.1007/s10009-020-00573-0"><code>https://doi.org/10.1007/s10009-020-00573-0</code></a> (Journal on Software Tools for Technology Transfer 23, '20)</li>
+<li><a href="https://doi.org/10.1007/978-3-030-45237-7_31"><code>https://doi.org/10.1007/978-3-030-45237-7_31</code></a> (TACAS '20)</li>
+<li><a href="https://doi.org/10.1007/978-3-319-89963-3_29"><code>https://doi.org/10.1007/978-3-319-89963-3_29</code></a> (TACAS '18)</li>
+<li><a href="https://doi.org/10.1007/978-3-662-54580-5_28"><code>https://doi.org/10.1007/978-3-662-54580-5_28</code></a> (TACAS '17)</li>
+<li><a href="https://doi.org/10.1007/978-3-662-49674-9_67"><code>https://doi.org/10.1007/978-3-662-49674-9_67</code></a> (TACAS '16)</li></ul>
+<h3>Related tools</h3>
+<ul><li><a href="predatorhp.html">PredatorHP</a> also participated in SV-COMP in the MemSafety category.</li>
+<li>Other tools that participated in SV-COMP: <a href="cpachecker.html">CPAchecker</a>, <a href="pesco.html">PeSCo</a>, <a href="ultimateautomizer.html">Ultimate Automizer</a>, <a href="smack.html">SMACK</a>.</li></ul>
+<h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/Symbiotic.md">View/edit source</a> (Markdown)</li></ul></div>
 		</div>
 		<br/><hr/>
 		<div class="f">
 			<a href="help.html">ProVerB</a> is a part of <a href="https://slebok.github.io/">SLEBoK</a>.
-			Last updated: <strong>January 2022</strong>.
+			Last updated: <strong>February 2022</strong>.
 		</div>
 	</div>
 	</body>
