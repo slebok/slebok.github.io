@@ -60,7 +60,53 @@
 		</div>
 		<div class="main">
 		<div class="tabber">
-			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> T2</h1></div><div class="tabbertab"><h2>Meta</h2><div></div><h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/T2.md">View/edit source</a> (Markdown)</li></ul></div>
+			<div class="tabbertab"><h2>Tool</h2><div><span class="tag"><a href="ctl.html">CTL</a></span>
+<span class="tag"><a href="ltl.html">LTL</a></span>
+<span class="tag"><a href="termination.html">Termination</a></span></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> T2</h1>Verifier for temporal properties, (non)termination and safety of programs
+
+<h3>Application domain/field</h3>
+<ul><li>Temporal properties</li>
+<li>Computation tree logic (CTL)</li>
+<li>Linear temporal logic (LTL)</li>
+<li>Termination</li>
+<li>Safety verification</li></ul>
+<h3>Expected input</h3>
+<ul>
+<li>Program</li>
+<li>Indicate whether to check/verify a <em>temporal property</em>, <em>termination</em> or <em>safety</em>.</li>
+</ul>
+
+<p>Format:</p>
+<ul>
+<li><em>Program</em>: T2's own syntax, <code>.t2</code> file. This syntax can automatically be extracted from LLVM thereby providing support for several programming languages, e.g. C and C++.</li>
+<li><em>Temporal property</em>: If checking a temporal property, then the property is passed as a string argument when calling T2</li>
+<li><em>Termination/safety checking:</em> If checking for (non-)termination or safety, then the user should pass either <code>-termination</code> or <code>-safety <int></code> where <code><int></code> indicates the location.</li>
+</ul>
+
+<h3>Expected output</h3>
+Whether the proof (either safety, termination or temporal) succeeded.
+
+<h3>Internals</h3>
+Users can use T2 to (dis)prove LTL, CTL, Fair-CTL and CTL* specifications.
+
+Uses <a href="z3.html">Z3</a>.
+</div><div class="tabbertab"><h2>Meta</h2><div><span class="tag"><a href="ctl.html">CTL</a></span>
+<span class="tag"><a href="ltl.html">LTL</a></span>
+<span class="tag"><a href="termination.html">Termination</a></span></div><h3>Links</h3>
+Repository: <a href="https://github.com/mmjb/T2"><code>https://github.com/mmjb/T2</code></a>
+<h3>Last commit date</h3>
+12 February 2018
+<h3>Last publication date</h3>
+11 July 2017
+<h3>List of related papers</h3>
+<ul><li><a href="https://doi.org/10.1007/978-3-319-63046-5_28"><code>https://doi.org/10.1007/978-3-319-63046-5_28</code></a> (CADE '17)</li>
+<li><a href="https://doi.org/10.1007/978-3-662-49674-9_22"><code>https://doi.org/10.1007/978-3-662-49674-9_22</code></a> (TACAS '16)</li></ul>
+<h3>Related tools</h3>
+<ul><li><a href="kittel.html">KITTeL</a>: can prove termination and temporal properties</li>
+<li><a href="armc.html">ARMC</a> and <a href="cprover.html">CProver</a>: tools that support safety-proving</li>
+<li><a href="function.html">FuncTion</a>, <a href="uba.html">Ultimate Büchi Automizer</a>, <a href="aprove.html">AProVE</a>: termination provers</li>
+<li><a href="q'armc.html">Q'ARMC</a>: tool that can automatically prove CTL properties of infinite-state programs</li></ul>
+<h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/T2.md">View/edit source</a> (Markdown)</li></ul></div>
 		</div>
 		<br/><hr/>
 		<div class="f">
