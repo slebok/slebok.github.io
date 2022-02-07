@@ -60,15 +60,42 @@
 		</div>
 		<div class="main">
 		<div class="tabber">
-			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> TheSy</h1>TheSy (pronounced Tessy): Theory Synthesis
+			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> TheSy: Theory Synthesis, pronounced Tessy</h1><h3>Application domain/field</h3>
+<ul><li>Theorem generation</li>
+<li>Deductive inference</li>
+<li>Theory exploration</li>
+<li>Theory synthesis</li>
+<li>Lemma discovery</li></ul>
+<h3>Type of tool</h3>
+Meta-tool? Synthesis tool?
+<h3>Expected input</h3>
+Base set of inductive data types and recursive definitions
 
-The tool focuses on discovering lemmas.
+<p>Format:</p>
+Own format (<code>.th</code> files) or <a href="smtlib.html">SMT-LIB</a> v2.6, based on uninterpreted function theory, limited to universal quantifications
+
+<h3>Expected output</h3>
+Library of lemmas
+
+<h3>Internals</h3>
+TheSy focuses on discovering lemmas.
 Lemmas are often used in verification tools such as <a href="dafny.html">Dafny</a>, <a href="coq.html">Coq</a> and <a href="isabelle/hol.html">Isabelle/HOL</a> to state background knowledge.
 It's technique is based on syntax-guided enumerative synthesis.
 
-Accepts definitions in <a href="smtlib.html">SMT-LIB</a> v2.6
-
-Compared to: <a href="hipster.html">Hipster</a></div><div class="tabbertab"><h2>Meta</h2><div></div><h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/TheSy.md">View/edit source</a> (Markdown)</li></ul></div>
+<h3>Comments</h3>
+License: GPL v3.0
+</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>Links</h3>
+Repository: <a href="https://github.com/eytans/TheSy"><code>https://github.com/eytans/TheSy</code></a>
+<h3>Last commit date</h3>
+29 April 2021
+<h3>Last publication date</h3>
+15 July 2021
+<h3>List of related papers</h3>
+<a href="https://doi.org/10.1007/978-3-030-81688-9_6"><code>https://doi.org/10.1007/978-3-030-81688-9_6</code></a> (CAV '21)
+<h3>Related tools</h3>
+<ul><li>Compared to in CAV '21 paper: <a href="hipster.html">Hipster</a></li>
+<li>Tools for theory exploration: <a href="isacosy.html">IsaCoSy</a>, <a href="quickspec.html">QuickSpec</a></li></ul>
+<h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/TheSy.md">View/edit source</a> (Markdown)</li></ul></div>
 		</div>
 		<br/><hr/>
 		<div class="f">

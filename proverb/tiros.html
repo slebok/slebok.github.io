@@ -60,9 +60,39 @@
 		</div>
 		<div class="main">
 		<div class="tabber">
-			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> TIROS</h1>Network reachability reasoning tool
+			<div class="tabbertab"><h2>Tool</h2><div><span class="tag"><a href="computernetwork.html">Computer network</a></span>
+<span class="tag"><a href="security.html">Security</a></span></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> TIROS</h1>Reachability analysis for AWS-based networks
 
-Uses <a href="souffle.html">Soufflé</a>, <a href="monosat.html">MonoSAT</a> and <a href="vampire.html">Vampire</a>.</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/TIROS.md">View/edit source</a> (Markdown)</li></ul></div>
+<h3>Application domain/field</h3>
+<ul><li>Reachability analysis</li>
+<li>Cloud networks</li></ul>
+<h3>Type of tool</h3>
+Reachability checker
+<h3>Expected input</h3>
+<ul>
+<li>Model of the network, consisting of:</li>
+<li><em>Formal specification</em>: formalizes the semantics of the AWS networking components, e.g. in which order a firewall applies rules, and how load balancers route traffic</li>
+<li><em>Snapshot</em>: describes the topology and details of the network</li>
+<li>Query</li>
+</ul>
+
+<h3>Internals</h3>
+Uses <a href="souffle.html">Soufflé</a>, <a href="monosat.html">MonoSAT</a> and <a href="vampire.html">Vampire</a>.
+
+Should be able to answer queries such as "list all open paths from the Internet to any instance in the VPC (Virtual Private Cloud)"
+
+<h3>Comments</h3>
+Used by Amazon Web Services (AWS). It encodes the semantics of the entire AWS cloud network service stack. It has been made to scale well to networks of hundreds of thousands of instances, routers and firewall rules.
+</div><div class="tabbertab"><h2>Meta</h2><div><span class="tag"><a href="computernetwork.html">Computer network</a></span>
+<span class="tag"><a href="security.html">Security</a></span></div><h3>Last publication date</h3>
+12 July 2019
+<h3>List of related papers</h3>
+<a href="https://doi.org/10.1007/978-3-030-25543-5_14"><code>https://doi.org/10.1007/978-3-030-25543-5_14</code></a> (CAV '19)
+<h3>Related tools</h3>
+<ul><li>Tools that analyse software-defined-network (SDN) programs: <a href="vericon.html">VeriCon</a>, <a href="nice.html">NICE</a>, <a href="veriflow.html">VeriFlow</a>, <a href="secguru.html">SecGuru</a></li>
+<li>Tools based on model checking: <a href="anteater.html">Anteater</a>, <a href="configchecker.html">ConfigChecker</a></li>
+<li>Tools that analyse networks with a similar Datalog approach: <a href="batfish.html">Batfish</a>, <a href="synet.html">SyNET</a></li></ul>
+<h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/TIROS.md">View/edit source</a> (Markdown)</li></ul></div>
 		</div>
 		<br/><hr/>
 		<div class="f">
