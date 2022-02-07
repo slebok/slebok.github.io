@@ -60,7 +60,54 @@
 		</div>
 		<div class="main">
 		<div class="tabber">
-			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> TcT</h1></div><div class="tabbertab"><h2>Meta</h2><div></div><h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/TcT.md">View/edit source</a> (Markdown)</li></ul></div>
+			<div class="tabbertab"><h2>Tool</h2><div><span class="tag"><a href="complexity.html">Complexity</a></span></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> $T_CT$: Tyrolean Complexity Tool</h1><h3>Application domain/field</h3>
+<ul><li>Complexity analysis</li>
+<li>Term rewrite systems</li>
+<li>Integer transition system</li>
+<li>Amortized resource analysis</li></ul>
+<h3>Type of tool</h3>
+Complexity analyser
+<h3>Expected input</h3>
+Program/system
+
+<p>Format:</p>
+Depends on the instance that is used:
+<ul>
+<li><code>tct-its</code> expects a <code>.its</code> file (integer transition system)</li>
+<li><code>tct-trs</code> expects a <code>.trs</code> file (term rewrite system)</li>
+<li><code>tct-hoca</code> expects a <code>.fp</code> file. It translates a pure fragment of OCaml to a TRS.</li>
+<li><code>tct-jbc</code> expects a <code>.trs</code> file.</li>
+</ul>
+
+<h3>Expected output</h3>
+If successful, textual representation of the obtained complexity judgement, and corresponding proof tree.
+If not successful, it will print the uncompleted proof tree and the reason for failure.
+
+<h3>Internals</h3>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>T</mi><mi>C</mi></msub><mi>T</mi></mrow></math> has several instances which provide automated complexity analysis for different kinds of systems:
+<ul>
+<li><code>tct-its</code> for integer transition systems. Uses <a href="yices.html">Yices</a>.</li>
+<li><code>tct-trs</code> for term rewrite systems. Uses <a href="minismt.html">MiniSmt</a></li>
+<li><code>tct-hoca</code> for higher-order systems</li>
+<li><code>tct-jbc</code> for Jinja bytecode. Uses <a href="yices.html">Yices</a>, <a href="minismt.html">MiniSmt</a></li>
+</ul>
+
+<h3>Comments</h3>
+License: BSD3
+</div><div class="tabbertab"><h2>Meta</h2><div><span class="tag"><a href="complexity.html">Complexity</a></span></div><h3>Links</h3>
+<ul><li>Project page: <a href="https://tcs-informatik.uibk.ac.at/tools/tct/"><code>https://tcs-informatik.uibk.ac.at/tools/tct/</code></a></li>
+<li>Collection of repositories: <a href="https://github.com/ComputationWithBoundedResources"><code>https://github.com/ComputationWithBoundedResources</code></a></li>
+<li>Try online: <a href="http://colo6-c703.uibk.ac.at/tct/index.php"><code>http://colo6-c703.uibk.ac.at/tct/index.php</code></a></li></ul>
+<h3>Last commit date</h3>
+18 August 2020
+<h3>Last publication date</h3>
+9 April 2016
+<h3>List of related papers</h3>
+<ul><li><a href="https://doi.org/10.1016/j.scico.2019.102306"><code>https://doi.org/10.1016/j.scico.2019.102306</code></a> (Science of Computer Programming, Vol. 185, '20)</li>
+<li><a href="https://doi.org/10.1007/978-3-662-49674-9_24"><code>https://doi.org/10.1007/978-3-662-49674-9_24</code></a> (TACAS '16)</li></ul>
+<h3>Related tools</h3>
+<a href="aprove.html">AProVE</a>
+<h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/TcT.md">View/edit source</a> (Markdown)</li></ul></div>
 		</div>
 		<br/><hr/>
 		<div class="f">

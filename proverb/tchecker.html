@@ -60,8 +60,50 @@
 		</div>
 		<div class="main">
 		<div class="tabber">
-			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> TChecker</h1>Reachability algorithm for timed automata with diagonal constraints (and only resets as updates).
-</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/TChecker.md">View/edit source</a> (Markdown)</li></ul></div>
+			<div class="tabbertab"><h2>Tool</h2><div><span class="tag"><a href="automaton.html">Automaton</a></span></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> TChecker</h1>Checks reachability for timed automata with diagonal constraints (and only resets as updates).
+
+<h3>Application domain/field</h3>
+<ul><li>Reachability</li>
+<li>Timed automata</li>
+<li>Pushdown timed automata (PDTA)</li>
+<li>Model checking</li></ul>
+<h3>Type of tool</h3>
+Model checker
+<h3>Expected input</h3>
+Timed automaton,
+Optional flags available to e.g. choose a reachability algorithm, specify which state to compute reachability for, whether to use syntax check or to flatten the model, etc.
+
+<p>Format:</p>
+Own language
+
+<h3>Expected output</h3>
+Depends on the tool and flags that are used.
+<code>tck-reach</code> will compute the reachable states.
+<code>tck-syntax</code> will either (1) report syntax errors, or (2) computes a flattened model
+
+<h3>Internals</h3>
+TChecker consists of two tools:
+<ul>
+<li><code>tck-reach</code> for reachability analysis</li>
+<li><code>tck-syntax</code> for analyses such as model transformation and syntax checks</li>
+</ul>
+
+<h3>Comments</h3>
+License: MIT
+</div><div class="tabbertab"><h2>Meta</h2><div><span class="tag"><a href="automaton.html">Automaton</a></span></div><h3>Links</h3>
+Repository: <a href="https://github.com/ticktac-project/tchecker"><code>https://github.com/ticktac-project/tchecker</code></a>
+<h3>Last commit date</h3>
+21 December 2021
+<h3>Last publication date</h3>
+15 July 2021
+<h3>List of related papers</h3>
+<ul><li><a href="https://doi.org/10.1007/978-3-030-57628-8_4"><code>https://doi.org/10.1007/978-3-030-57628-8_4</code></a> (FORMATS '20)</li>
+<li><a href="https://doi.org/10.1145/3372310"><code>https://doi.org/10.1145/3372310</code></a> (ACM Trans. on Computational Logic, Vol. 21, Iss. 3, '20)</li>
+<li><a href="https://doi.org/10.1007/978-3-030-81685-8_30"><code>https://doi.org/10.1007/978-3-030-81685-8_30</code></a> (CAV '21, extends TChecker)</li>
+<li><a href="https://doi.org/10.1007/978-3-030-25540-4_3"><code>https://doi.org/10.1007/978-3-030-25540-4_3</code></a> (CAV '19, extends TChecker)</li></ul>
+<h3>Related tools</h3>
+<a href="uppaal.html">UPPAAL</a>
+<h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/TChecker.md">View/edit source</a> (Markdown)</li></ul></div>
 		</div>
 		<br/><hr/>
 		<div class="f">
