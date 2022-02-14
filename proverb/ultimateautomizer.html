@@ -60,7 +60,57 @@
 		</div>
 		<div class="main">
 		<div class="tabber">
-			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> Ultimate Automizer</h1>Ultimate Automizer is a software verifier that implements an automata-based approach for the verification of safety and liveness properties</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/Ultimate Automizer.md">View/edit source</a> (Markdown)</li></ul></div>
+			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> Ultimate Automizer</h1>Ultimate Automizer is a software verifier that implements an automata-based approach for the verification of safety and liveness properties
+
+<h3>Application domain/field</h3>
+<ul><li>Abstraction refinement</li>
+<li>Counterexample Guided Abstraction Refinement (CEGAR)</li>
+<li>Model checking</li>
+<li>Software model checking</li></ul>
+<h3>Type of tool</h3>
+Model checker
+<h3>Expected input</h3>
+<ul>
+<li>C program</li>
+<li>Specification file</li>
+<li>Architecture</li>
+<li><em>Optional</em>: Witness file for witness validation</li>
+</ul>
+
+<p>Format:</p>
+<ul>
+<li><em>Program</em>: <code>.c</code> file</li>
+<li><em>Specification file</em>: <code>.prp</code> file, SV-COMP format</li>
+<li><em>Architecture</em>: <code>32bit</code> or <code>64bit</code> passed as an argument</li>
+<li><em>Optional witness file:</em> <code>.graphml</code> file containing a violation or correctness witness</li>
+</ul>
+
+<h3>Expected output</h3>
+Whether the property holds or not.
+It may generate a violation or correctness witness to <code>witness.graphml</code>.
+
+<h3>Internals</h3>
+Ultimate Automizer can analyse the reachability of error functions, memory safety, absence of overflows and termination.
+
+Built on top of <a href="ultimate.html">Ultimate</a>, a program analysis framework. Uses <a href="z3.html">Z3</a>, <a href="cvc4.html">CVC4</a>, <a href="mathsat.html">MathSAT</a>
+
+<h3>Comments</h3>
+License information: <a href="https://github.com/ultimate-pa/ultimate/wiki/License"><code>https://github.com/ultimate-pa/ultimate/wiki/License</code></a>
+</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>Links</h3>
+<ul><li>Ultimate Automizer project page: <a href="https://monteverdi.informatik.uni-freiburg.de/tomcat/Website/?ui=tool&tool=automizer"><code>https://monteverdi.informatik.uni-freiburg.de/tomcat/Website/?ui=tool&tool=automizer</code></a></li>
+<li>Ultimate project page: <a href="https://monteverdi.informatik.uni-freiburg.de/tomcat/Website/"><code>https://monteverdi.informatik.uni-freiburg.de/tomcat/Website/</code></a></li>
+<li>Try online: <a href="https://monteverdi.informatik.uni-freiburg.de/tomcat/Website/?ui=int&tool=automizer"><code>https://monteverdi.informatik.uni-freiburg.de/tomcat/Website/?ui=int&tool=automizer</code></a></li>
+<li>Ultimate repository (Ultimate Automizer is a part of this): <a href="https://github.com/ultimate-pa/ultimate"><code>https://github.com/ultimate-pa/ultimate</code></a></li></ul>
+<h3>Last commit date</h3>
+7 February 2022
+<h3>Last publication date</h3>
+14 April 2018
+<h3>List of related papers</h3>
+<ul><li><a href="https://doi.org/10.1007/978-3-319-89963-3_30"><code>https://doi.org/10.1007/978-3-319-89963-3_30</code></a> (TACAS '18)</li>
+<li><a href="https://doi.org/10.1007/978-3-662-54580-5_30"><code>https://doi.org/10.1007/978-3-662-54580-5_30</code></a> (TACAS '17)</li>
+<li><a href="https://doi.org/10.1007/978-3-662-49674-9_68"><code>https://doi.org/10.1007/978-3-662-49674-9_68</code></a> (TACAS '16)</li>
+<li><a href="https://doi.org/10.1007/978-3-662-46681-0_43"><code>https://doi.org/10.1007/978-3-662-46681-0_43</code></a> (TACAS '15)</li></ul>
+<h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/Ultimate Automizer.md">View/edit source</a> (Markdown)</li></ul></div>
 		</div>
 		<br/><hr/>
 		<div class="f">

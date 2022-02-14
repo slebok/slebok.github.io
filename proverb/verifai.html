@@ -60,8 +60,41 @@
 		</div>
 		<div class="main">
 		<div class="tabber">
-			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> VerifAI</h1>Toolkit for formal design and analysis for systems with artificial intelligence.
-Offers the following analyses:
+			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> VerifAI</h1>Toolkit for formal design and analysis for systems that include artificial intelligence and machine learning components.
+
+<h3>Application domain/field</h3>
+<ul><li>Artificial intelligence</li>
+<li>Machine learning</li>
+<li>Simulation</li>
+<li>Synthesis</li></ul>
+<h3>Type of tool</h3>
+Framework?
+<h3>Expected input</h3>
+<ul>
+<li>Simulatable model of the system, including code for one or more controllers and perception components, and a dynamical model of the system being controlled</li>
+<li>Probabilistic model of the environment, specifying constraints on the workspace, locations of agents and objects, and the dynamical behavior of agents</li>
+<li>Property over the composition of the system and its environment</li>
+</ul>
+
+<p>Format:</p>
+<ul>
+<li><em>System model</em>: Any executable code, invoked by the simulator</li>
+<li><em>Environment model</em>: Typically a definition in the simulator of the different types of agents, plus a description of their initial conditions and other parameters using the <strong>Scenic</strong> probabilistic programming language.</li>
+<li><em>Property</em>: Metric Temporal Logic (MTL), objective functions or arbitrary code monitoring the property</li>
+</ul>
+
+<h3>Expected output</h3>
+Depends on what analysis is used.
+<ul>
+<li><em>Falsification</em> will return one or more counterexamples for simulation traces that violate the property</li>
+<li><em>Fuzz testing</em>: Traces samples from the distribution of behaviors induced by the environment model</li>
+<li><em>Data augmentation</em>: Generates additional data for training and testing an ML component</li>
+<li><em>Error table analysis</em>: Identifies features that are correlated with property failures</li>
+<li><em>Hyper-parameter or model parameter synthesis</em>: Generates a parameter evaluation that satisfies the specified property.</li>
+</ul>
+
+<h3>Internals</h3>
+VerifAI offers the following analyses:
 <ol>
 <li>temporal-logic falsification,</li>
 <li>model-based fuzz testing,</li>
@@ -71,8 +104,21 @@ Offers the following analyses:
 <li>model parameter synthesis</li>
 </ol>
 
+Uses <a href="pmtl.html">py-metric-temporal-logic</a>.
 
-Uses <a href="pmtl.html">py-metric-temporal-logic</a>.</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/VerifAI.md">View/edit source</a> (Markdown)</li></ul></div>
+<h3>Comments</h3>
+License: BSD-3-Clause
+</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>Links</h3>
+<ul><li>Repository: <a href="https://github.com/BerkeleyLearnVerify/VerifAI"><code>https://github.com/BerkeleyLearnVerify/VerifAI</code></a></li>
+<li>Documentation: <a href="https://verifai.readthedocs.io/en/latest/"><code>https://verifai.readthedocs.io/en/latest/</code></a></li></ul>
+<h3>Last commit date</h3>
+17 December 2021
+<h3>Last publication date</h3>
+12 July 2019
+<h3>List of related papers</h3>
+<ul><li><a href="https://doi.org/10.1007/978-3-030-25540-4_25"><code>https://doi.org/10.1007/978-3-030-25540-4_25</code></a> (CAV '19)</li>
+<li><a href="https://doi.org/10.1007/978-3-030-53288-8_6"><code>https://doi.org/10.1007/978-3-030-53288-8_6</code></a> (CAV '20, case study)</li></ul>
+<h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/VerifAI.md">View/edit source</a> (Markdown)</li></ul></div>
 		</div>
 		<br/><hr/>
 		<div class="f">
