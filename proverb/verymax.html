@@ -61,9 +61,32 @@
 		<div class="main">
 		<div class="tabber">
 			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> VeryMax</h1>Program analysis toolkit for (non-)termination analysis and safety checker
-<a href="https://www.cs.upc.edu/~albert/VeryMax.html"><code>https://www.cs.upc.edu/~albert/VeryMax.html</code></a>
 
-Uses <a href="barcelogic.html">Barcelogic</a>.</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/VeryMax.md">View/edit source</a> (Markdown)</li></ul></div>
+<h3>Application domain/field</h3>
+<ul><li>Termination</li>
+<li>Safety verification</li></ul>
+<h3>Expected input</h3>
+Program or integer transition system?
+
+<p>Format:</p>
+<em>Program</em>: Small fragment of C or C++
+<em>Integer transition system</em>: <a href="t2.html">T2</a> or Pushdown <a href="smtlib.html">SMT-LIB</a>2 specification format
+
+<h3>Internals</h3>
+VeryMax uses conditional termination arguments to segment the state space for the remainder of the analysis.
+
+Uses <a href="barcelogic.html">Barcelogic</a>.
+</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>Links</h3>
+Project page: <a href="https://www.cs.upc.edu/~albert/VeryMax.html"><code>https://www.cs.upc.edu/~albert/VeryMax.html</code></a>
+<h3>Last publication date</h3>
+31 March 2017
+<h3>List of related papers</h3>
+<ul><li><a href="https://doi.org/10.1007/978-3-662-54577-5_6"><code>https://doi.org/10.1007/978-3-662-54577-5_6</code></a> (TACAS '17)</li>
+<li><a href="https://doi.org/10.1007/978-3-319-40970-2_18"><code>https://doi.org/10.1007/978-3-319-40970-2_18</code></a> (SAT '16)</li>
+<li><a href="https://doi.org/10.1109/FMCAD.2015.7542250"><code>https://doi.org/10.1109/FMCAD.2015.7542250</code></a> (FMCAD '15)</li></ul>
+<h3>Related tools</h3>
+Other tools that participated in the termination category of SV-COMP 2016: <a href="aprove.html">AProVE</a>, <a href="ctrl.html">Ctrl</a>, <a href="hiptntplus.html">HipTNT+</a>, <a href="seahorn.html">SeaHorn</a>, <a href="ultimate.html">Ultimate</a>
+<h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/VeryMax.md">View/edit source</a> (Markdown)</li></ul></div>
 		</div>
 		<br/><hr/>
 		<div class="f">

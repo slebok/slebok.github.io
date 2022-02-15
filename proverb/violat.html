@@ -60,10 +60,44 @@
 		</div>
 		<div class="main">
 		<div class="tabber">
-			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> Violat</h1>Tool to generate tests that witness violations to atomicity or weaker consistency properties in concurrent objects.
-<a href="https://github.com/michael-emmi/violat"><code>https://github.com/michael-emmi/violat</code></a>
+			<div class="tabbertab"><h2>Tool</h2><div><span class="tag"><a href="concurrency.html">Concurrency</a></span></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> Violat</h1>Tool to generate tests that witness violations to atomicity or weaker consistency properties in concurrent objects.
 
-Uses <a href="jpf.html">JPF</a> and <a href="jcs.html">Java Concurrency Stress</a>.</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/Violat.md">View/edit source</a> (Markdown)</li></ul></div>
+<h3>Application domain/field</h3>
+<ul><li>Concurrency</li>
+<li>Thread interleavings</li>
+<li>Test generation</li>
+<li>Atomicity</li></ul>
+<h3>Type of tool</h3>
+Test generator
+<h3>Expected input</h3>
+Program
+
+<p>Format:</p>
+Name of a single Java class that is available on the classpath or in a user-provided JAR
+
+<h3>Expected output</h3>
+Reports test results, signalling any discovered consistency violations.
+
+<h3>Internals</h3>
+In principle Violat outputs a sequence of Java classes which can be tested with off-the-shelf back-end analysis engines.
+It integrates with <a href="jpf.html">JPF</a> and <a href="jcs.html">Java Concurrency Stress</a>, thus it is able to provide results directly.
+
+<h3>Comments</h3>
+License: MIT
+</div><div class="tabbertab"><h2>Meta</h2><div><span class="tag"><a href="concurrency.html">Concurrency</a></span></div><h3>Links</h3>
+Repository: <a href="https://github.com/michael-emmi/violat"><code>https://github.com/michael-emmi/violat</code></a>
+<h3>Last commit date</h3>
+1 February 2022
+<h3>Last publication date</h3>
+12 July 2019
+<h3>List of related papers</h3>
+<ul><li><a href="https://doi.org/10.1007/978-3-030-25543-5_30"><code>https://doi.org/10.1007/978-3-030-25543-5_30</code></a> (CAV '19)</li>
+<li><a href="https://doi.org/10.1145/3290373"><code>https://doi.org/10.1145/3290373</code></a> (POPL '19)</li>
+<li><a href="https://doi.org/10.1007/978-3-319-96145-3_26"><code>https://doi.org/10.1007/978-3-319-96145-3_26</code></a> (CAV '18)</li></ul>
+<h3>Related tools</h3>
+<ul><li>Test generation for concurrent objects: <a href="ballerina.html">Ballerina</a>, <a href="contege.html">ConTeGe</a>, <a href="consuite.html">ConSuite</a>, <a href="autocontest.html">AutoConTest</a>, <a href="covcon.html">CovCon</a>, <a href="omen.html">Omen</a>, <a href="narada.html">Narada</a>, <a href="intruder.html">Intruder</a>, <a href="minion.html">Minion</a></li>
+<li>Test generation for memory consistency: <a href="tsotool.html">TSOtool</a>, <a href="lcheck.html">LCHECK</a>, <a href="cppmem.html">CppMem</a>, <a href="herd.html">Herd</a>, <a href="mcversi.html">McVerSi</a>,</li></ul>
+<h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/Violat.md">View/edit source</a> (Markdown)</li></ul></div>
 		</div>
 		<br/><hr/>
 		<div class="f">

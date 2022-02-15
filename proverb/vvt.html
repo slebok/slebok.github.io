@@ -60,7 +60,40 @@
 		</div>
 		<div class="main">
 		<div class="tabber">
-			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> VVT</h1></div><div class="tabbertab"><h2>Meta</h2><div></div><h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/VVT.md">View/edit source</a> (Markdown)</li></ul></div>
+			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> VVT: Vienna Verification Tool</h1><h3>Application domain/field</h3>
+<ul><li>Infinite-state systems</li>
+<li>Counterexample-guided abstraction refinement (CEGAR)</li>
+<li>Predicate abstraction</li>
+<li>Model checking</li>
+<li>Bounded model checking</li></ul>
+<h3>Expected input</h3>
+Program
+
+<p>Format:</p>
+C/C++ file
+
+<h3>Internals</h3>
+VVT primarily targets the verification of infinite parallel programs.
+
+VVT consists of several tools
+<ul>
+<li><code>vvt-enc</code> to translate instrumented bitcode into an SMTLIB-based format</li>
+<li><code>vvt-opt</code> to deploy several optimization techniques</li>
+<li><code>vvt-verify</code> to verify the program</li>
+<li><code>vvt-bmc</code> to rapidly find counterexamples</li>
+</ul>
+
+Uses <a href="z3.html">Z3</a> and <a href="mathsat.html">MathSAT</a>.
+</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>Links</h3>
+<ul><li>Project page: <a href="https://vvt.forsyte.at/"><code>https://vvt.forsyte.at/</code></a></li>
+<li>Repository: <a href="https://github.com/hgoes/vvt"><code>https://github.com/hgoes/vvt</code></a></li></ul>
+<h3>Last commit date</h3>
+9 February 2018
+<h3>Last publication date</h3>
+9 April 2016
+<h3>List of related papers</h3>
+<a href="https://doi.org/10.1007/978-3-662-49674-9_6"><code>https://doi.org/10.1007/978-3-662-49674-9_6</code></a> (TACAS '16)
+<h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/VVT.md">View/edit source</a> (Markdown)</li></ul></div>
 		</div>
 		<br/><hr/>
 		<div class="f">
