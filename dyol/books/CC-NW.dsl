@@ -16,7 +16,7 @@
 	author    = "Niklaus Wirth",
 	publisher = "Addison-Wesley",
 	isbn      = "978-0201403534",
-	url       = "http://www.ethoberon.ethz.ch/WirthPubl/CBEAll.pdf",
+	url       = "https://people.inf.ethz.ch/wirth/CompilerConstruction/CompilerConstruction1.pdf",
 	year      = 2005,
 }
 		</pre>
