@@ -60,7 +60,37 @@
 		</div>
 		<div class="main">
 		<div class="tabber">
-			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> Zelkova</h1>Tool that encodes access policies as logical formulas and uses SMT solvers to answer questions about these policies.</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/Zelkova.md">View/edit source</a> (Markdown)</li></ul></div>
+			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> Zelkova</h1>A policy analysis tool to reason about the semantics of AWS access control policies.
+
+<h3>Application domain/field</h3>
+<ul><li>Cloud computing</li>
+<li>Access control policies</li>
+<li>Security</li></ul>
+<h3>Expected input</h3>
+Two AWS policies to compare <strong>or</strong> one AWS policy and the name of a built-in Zelkova check.
+
+<p>Format:</p>
+<ul>
+<li><em>AWS policy/policies</em>: AWS policy language, in JSON structure</li>
+<li><em>Name of Zelkova check</em>: passed as an argument</li>
+</ul>
+
+<h3>Expected output</h3>
+<em>When comparing policies</em>: it returns whether the first policy in the payload is less permissive, more permissive, equivalent or incomparable with respect to the second policy
+
+<em>For built-in Zelkova check</em>: returns <code>true</code> or <code>false</code> based on whether the check is satisfied. It can also return <code>unknown</code> if it could not handle a construct in the policy or the solver times out.
+
+<h3>Internals</h3>
+Tool that encodes access policies as logical formulas and uses SMT solvers to answer questions about these policies.
+
+Uses <a href="z3.html">Z3</a>, <a href="cvc4.html">CVC4</a> and <a href="z3automata.html">Z3Automata</a> (in-house extension of Z3 to deal with regex).
+</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>Last publication date</h3>
+2018
+<h3>List of related papers</h3>
+<a href="https://doi.org/10.23919/FMCAD.2018.8602994"><code>https://doi.org/10.23919/FMCAD.2018.8602994</code></a> (FMCAD '18)
+<h3>Related tools</h3>
+<a href="secguru.html">SecGuru</a>, <a href="iamaccessanalyzer.html">IAM Access Analyzer</a>
+<h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/Zelkova.md">View/edit source</a> (Markdown)</li></ul></div>
 		</div>
 		<br/><hr/>
 		<div class="f">

@@ -60,11 +60,54 @@
 		</div>
 		<div class="main">
 		<div class="tabber">
-			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> τ-DIGITS</h1>Improved version of <a href="digits.html">DIGITS</a> (distribution-guided inductive synthesis)
+			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> 𝜏-DIGITS</h1><h3>Application domain/field</h3>
+<ul><li>Program synthesis</li>
+<li>Probabilistic synthesis</li>
+<li>Distribution-guided inductive synthesis (DIGITS)</li>
+<li>Sketch-based synthesis</li></ul>
+<h3>Type of tool</h3>
+Synthesis tool
+<h3>Expected input</h3>
+Program sketch consisting of:
+<ul>
+<li>a program written in a loop-free language with "holes". These "holes" represent some constant terminals in expressions.</li>
+<li>Precondition?</li>
+<li>Postcondition: Boolean probabilistic correctness property</li>
+</ul>
 
-Uses <a href="z3.html">Z3</a>.
+<p>Format:</p>
+<ul>
+<li><em>Program sketch</em>: <code>.fr</code> file where the program is defined in a method <code>D(args)</code>. Holes can be indicated with <code>Hole(...)</code></li>
+<li><em>Postcondition</em>: in a method <code>post(Pr)</code> in the same <code>.fr</code> file</li>
+<li><em>Precondition</em>: in a method <code>pre()</code> in the same <code>.fr</code> file</li>
+</ul>
 
-Repo?: <a href="https://github.com/sedrews/digits"><code>https://github.com/sedrews/digits</code></a></div><div class="tabbertab"><h2>Meta</h2><div></div><h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/τ-DIGITS.md">View/edit source</a> (Markdown)</li></ul></div>
+<h3>Expected output</h3>
+Instantiations for the holes in the program.
+
+<h3>Internals</h3>
+The algorithm roughly follows the following steps to reduce the problem of probabilistic synthesis to non-probabilistic synthesis:
+<ol>
+<li>Approximate the input probability distribution with a finite sample set</li>
+<li>Synthesize a program for various possible output assignments of the finite sample set</li>
+<li>Invoke a probabilistic verifier to check if one of the synthesized programs adheres to the given specification.</li>
+</ol>
+
+As a back-end, you can use <a href="z3.html">Z3</a> and <a href="cvc4.html">CVC4</a>.
+
+𝜏-DIGITS is an improved version of <a href="digits.html">DIGITS</a>. It reduces the number of synthesis queries performed by the algorithm.
+
+<h3>Comments</h3>
+License: MIT
+</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>Links</h3>
+Repository: <a href="https://github.com/sedrews/digits"><code>https://github.com/sedrews/digits</code></a>
+<h3>Last commit date</h3>
+14 October 2019
+<h3>Last publication date</h3>
+12 July 2019
+<h3>List of related papers</h3>
+<a href="https://doi.org/10.1007/978-3-030-25540-4_15"><code>https://doi.org/10.1007/978-3-030-25540-4_15</code></a> (CAV '19)
+<h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/τ-DIGITS.md">View/edit source</a> (Markdown)</li></ul></div>
 		</div>
 		<br/><hr/>
 		<div class="f">

@@ -60,7 +60,53 @@
 		</div>
 		<div class="main">
 		<div class="tabber">
-			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> xSAP</h1></div><div class="tabbertab"><h2>Meta</h2><div></div><h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/xSAP.md">View/edit source</a> (Markdown)</li></ul></div>
+			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> xSAP: eXtended Safety Assessment Platform</h1><h3>Application domain/field</h3>
+<ul><li>Synchronous transition systems</li>
+<li>Model-based safety assessment (MBSA)</li>
+<li>Fault tree analysis</li>
+<li>Model checking</li></ul>
+<h3>Expected input</h3>
+<ul>
+<li>Nominal model</li>
+<li>Fault Extension Instructions (FEI)</li>
+</ul>
+
+<p>Format:</p>
+<ul>
+<li><em>Nominal model</em>: SMV language</li>
+<li><em>Fault Extension Instructions</em>: dedicated FEI language</li>
+</ul>
+
+<h3>Expected output</h3>
+Depends on the analysis that was chosen.
+
+<h3>Internals</h3>
+Uses <a href="nuxmv.html">nuXmv</a> model checker.
+Some parts of xSAP are used as a back-end for <a href="compass.html">COMPASS</a>.
+
+It implements several types of model analyses, including:
+<ul>
+<li>Fault Tree Analysis (FTA)</li>
+<li>Failure Mode and Effects Analysis (FMEA)</li>
+<li>Failure propagation analysis using Timed Failure Propagation Graphs (TFPGs)</li>
+<li>Common Cause Analysis (CCA)</li>
+</ul>
+
+<h3>Comments</h3>
+xSAP is a re-implementation of FSAP.
+</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>Links</h3>
+Project page: <a href="https://xsap.fbk.eu/"><code>https://xsap.fbk.eu/</code></a>
+<h3>Last commit date</h3>
+28 June 2021 (last release date)
+<h3>Last publication date</h3>
+March 2021
+<h3>List of related papers</h3>
+<ul><li><a href="https://doi.org/10.1007/s00165-021-00532-9"><code>https://doi.org/10.1007/s00165-021-00532-9</code></a> ('21, Formal Aspects of Computing, Vol. 33 Iss. 2, case study)</li>
+<li><a href="https://doi.org/10.1007/978-3-030-54549-9_7"><code>https://doi.org/10.1007/978-3-030-54549-9_7</code></a> (SAFECOMP '20)</li>
+<li><a href="https://doi.org/10.1007/978-3-662-49674-9_31"><code>https://doi.org/10.1007/978-3-662-49674-9_31</code></a> (TACAS '16)</li></ul>
+<h3>Related tools</h3>
+Other platforms for model-based safety assessment: <a href="altarica/ocas.html">Altarica/OCAS</a>, <a href="scade.html">Scade</a>, <a href="statemate.html">Statemate</a>
+<h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/xSAP.md">View/edit source</a> (Markdown)</li></ul></div>
 		</div>
 		<br/><hr/>
 		<div class="f">

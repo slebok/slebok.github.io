@@ -60,8 +60,44 @@
 		</div>
 		<div class="main">
 		<div class="tabber">
-			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> Weaver</h1>Given a program (in a simple imperative language), where a hyperproperty is encoded using an <em>assume</em> statement, it attempts to prove the program direct.
-</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/Weaver.md">View/edit source</a> (Markdown)</li></ul></div>
+			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> Weaver</h1>Given a program (in a simple imperative language), where a hyperproperty is encoded using an <em>assume</em> statement, it attempts to prove the property.
+
+<h3>Application domain/field</h3>
+<ul><li>Hypersafety properties</li>
+<li>Reduction</li>
+<li>Counterexample-guided abstraction refinement (CEGAR)</li></ul>
+<h3>Expected input</h3>
+<ul>
+<li>Program</li>
+<li>Hyperproperty</li>
+</ul>
+
+<p>Format:</p>
+<ul>
+<li><em>Program</em>: simple imperative language</li>
+<li><em>Hyperproperty</em>: encoded in the program with <em>assume</em> statements</li>
+</ul>
+
+<h3>Expected output</h3>
+<code>SUCCESS</code> or <code>FAILURE</code>. In case of <code>FAILURE</code> it will also provide a counterexample.
+
+<h3>Internals</h3>
+<em>Hypersafety property</em>: A property that describes the set of valid interrelations between multiple finite runs of a program.
+<em>k-safety property</em>: safety property whose violation is witnessed by at least k finite runs of a program.
+
+Weaver reduces verification of k-safety properties to verification of 1-safety properties. As a result, it is then possible to use existing safety verification techniques.
+
+Uses <a href="z3.html">Z3</a>,  <a href="mathsat.html">MathSAT</a>, <a href="yices.html">Yices</a>, <a href="cvc4.html">CVC4</a>.
+</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>Links</h3>
+Repository: <a href="https://github.com/weaver-verifier/weaver"><code>https://github.com/weaver-verifier/weaver</code></a>
+<h3>Last commit date</h3>
+25 February 2021
+<h3>Last publication date</h3>
+12 July 2019
+<h3>List of related papers</h3>
+<ul><li><a href="https://doi.org/10.1145/3371081"><code>https://doi.org/10.1145/3371081</code></a> (POPL '20)</li>
+<li><a href="https://doi.org/10.1007/978-3-030-25540-4_11"><code>https://doi.org/10.1007/978-3-030-25540-4_11</code></a> (CAV '19)</li></ul>
+<h3>ProVerB specific</h3><ul><li><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/Weaver.md">View/edit source</a> (Markdown)</li></ul></div>
 		</div>
 		<br/><hr/>
 		<div class="f">
