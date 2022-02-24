@@ -22,13 +22,18 @@
     height: 100%;
     position: fixed;
     top: 0;
-    background: #b6bce2;
-    padding-right:5px;
-    padding-left: 5px;
+    background: #fff;
+    padding-left: 20px;
+    box-shadow: 1px 0px 1px 0px hsl(210,0%,75%);
+    width:200px;
 }
 
 .left h2, .left p {margin-top: 0; margin-left: 6px;}
 .left h1 {margin: 0; text-align: center; }
+.left h3 {padding-left: 15px;}
+
+.logo {display:flex; align-items: center; padding-bottom:25px;}
+.logo img {width: 50px;}
 
 .top {
     background: #f5f5f5;
@@ -45,9 +50,10 @@
 }
 
 .main {
-	margin-top: 80px;
-    margin-left: 170px;
+    margin-top: 80px;
+    margin-left: 250px;
     margin-right: 10px;
+    width: 60%;
 }
 
 body {
