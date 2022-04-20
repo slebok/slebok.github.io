@@ -69,7 +69,7 @@
 		</div>
 		<div class="main">
 		<div class="tabber">
-			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv3.html">PV3</a> ⊧</span> Vampire<span class="subtitle">proves a theorem in first order logic</span></h1>First-order theorem prover
+			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv5.html">PV5</a> ⊧</span> Vampire<span class="subtitle">can produce proofs for theorems in first order logic</span></h1>First-order theorem prover
 
 <h3>Application domain/field</h3>
 <ul><li>Theorem proving</li>
@@ -93,6 +93,8 @@ Reason for termination (refutation was found, time/memory limit was reached, sat
 It also prints some statistics about the proof attempt.
 
 <h3>Internals</h3>
+Vampire uses proof by refutation to try and determine whether a conjecture is correct. If Vampire finds a refutation, then it will show the  inference steps that were taken, i.e. it'll show a proof.
+
 Uses <a href="minisat.html">MiniSat</a>, <a href="z3.html">Z3</a>.
 
 <h3>Comments</h3>
