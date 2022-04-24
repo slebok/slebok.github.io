@@ -43,17 +43,19 @@
           <ul>
             
           <li>
-              <a href="pv0.html" title="unprocessed">PV0</a>
+              <a href="pv0.html" title="unprocessed/nonverifying">PV0</a>
             </li><li>
               <a href="pv1.html" title="solvers/linters">PV1</a>
             </li><li>
-              <a href="pv2.html" title="property checkers">PV2</a>
+              <a href="pv2.html" title="synthesisers">PV2</a>
             </li><li>
-              <a href="pv3.html" title="monoverifiers">PV3</a>
+              <a href="pv3.html" title="property checkers">PV3</a>
             </li><li>
-              <a href="pv4.html" title="spec compilers">PV4</a>
+              <a href="pv4.html" title="monoverifiers">PV4</a>
             </li><li>
-              <a href="pv5.html" title="proof assistants">PV5</a>
+              <a href="pv5.html" title="spec compilers">PV5</a>
+            </li><li>
+              <a href="pv6.html" title="proof assistants">PV6</a>
             </li><li>
               <a href="framework.html">Frameworks</a>
             </li></ul>
@@ -71,7 +73,7 @@
 		<div class="tabber">
 			<div class="tabbertab"><h2>Tool</h2><div><span class="tag"><a href="automaton.html">Automaton</a></span>
 <span class="tag"><a href="ltl.html">LTL</a></span>
-<span class="tag"><a href="synthesis.html">Synthesis</a></span></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> PARTY</h1>Bounded synthesis tool that supports CTL* synthesis
+<span class="tag"><a href="synthesis.html">Synthesis</a></span></div><h1 class="fbs"><span class="pv"><a href="pv2.html">PV2</a> ⊧</span> PARTY<span class="subtitle">generates an automaton from source code or spec</span></h1>Bounded synthesis tool that supports CTL* synthesis
 
 <h3>Application domain/field</h3>
 <ul><li>SMT-based synthesis</li>
@@ -85,26 +87,25 @@ Synthesis tool
 Specification file
 
 <p>Format:</p>
-##### elli.py
-Acacia+ or TLSF format
-
-##### star.py
-Python
+<ul>
+<li><code>elli.py</code>: Acacia+ or TLSF format</li>
+<li><code>star.py</code>: Python</li>
+</ul>
 
 <h3>Expected output</h3>
-##### elli.py
-If realizable, PARTY outputs a Mealy or Moore machine in dot or NuSMV format.
-
-##### star.py
-<code>unknown</code> or <code>realizable</code>?
-If realizable, then an automaton in dot or <a href="aiger.html">AIGER</a> format.
+<ul>
+<li><code>elli.py</code>: If realisable, PARTY outputs a Mealy or Moore machine in dot or NuSMV format.</li>
+<li><code>star.py</code>: returns <code>unknown</code> or <code>realizable</code></li>
+</ul>
+If realisable, then an automaton in dot or <a href="aiger.html">AIGER</a> format.
 
 <h3>Internals</h3>
-This tool uses <strong>bounded synthesis</strong>. In bounded synthesis an LTL property is translated to Büchi automata, and the verification of LTL properties can be reduced to deciding emptiness of the product of this automaton and a Kripke structure representing an implementation.
-
-This tool is actually a collection of several tools for bounded synthesis, the most notable being:
-The <code>elli.py</code> implements Bounded Synthesis, as explained in the CAV '13 paper.
-The <code>star.py</code> extends bounded synthesis to branching logics (CTL*), as explained in the CAV '17 paper.
+<ul>
+<li>This tool uses <strong>bounded synthesis</strong>. In bounded synthesis an LTL property is translated to Büchi automata, and the verification of LTL properties can be reduced to deciding emptiness of the product of this automaton and a Kripke structure representing an implementation.</li>
+<li>This tool is actually a collection of several tools for bounded synthesis, the most notable being:</li>
+<li>The <code>elli.py</code> implements Bounded Synthesis, as explained in the CAV '13 paper.</li>
+<li>The <code>star.py</code> extends bounded synthesis to branching logics (CTL*), as explained in the CAV '17 paper.</li>
+</ul>
 </div><div class="tabbertab"><h2>Meta</h2><div><span class="tag"><a href="automaton.html">Automaton</a></span>
 <span class="tag"><a href="ltl.html">LTL</a></span>
 <span class="tag"><a href="synthesis.html">Synthesis</a></span></div><h3>Links</h3>

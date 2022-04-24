@@ -43,17 +43,19 @@
           <ul>
             
           <li>
-              <a href="pv0.html" title="unprocessed">PV0</a>
+              <a href="pv0.html" title="unprocessed/nonverifying">PV0</a>
             </li><li>
               <a href="pv1.html" title="solvers/linters">PV1</a>
             </li><li>
-              <a href="pv2.html" title="property checkers">PV2</a>
+              <a href="pv2.html" title="synthesisers">PV2</a>
             </li><li>
-              <a href="pv3.html" title="monoverifiers">PV3</a>
+              <a href="pv3.html" title="property checkers">PV3</a>
             </li><li>
-              <a href="pv4.html" title="spec compilers">PV4</a>
+              <a href="pv4.html" title="monoverifiers">PV4</a>
             </li><li>
-              <a href="pv5.html" title="proof assistants">PV5</a>
+              <a href="pv5.html" title="spec compilers">PV5</a>
+            </li><li>
+              <a href="pv6.html" title="proof assistants">PV6</a>
             </li><li>
               <a href="framework.html">Frameworks</a>
             </li></ul>
@@ -69,18 +71,15 @@
 		</div>
 		<div class="main">
 		<div class="tabber">
-			<div class="tabbertab"><h2>Index</h2><h1 class="fbs">PV5 tools in ProVerB</h1>PV5 tools can handle different user-written specifications, encode a wide range of different formulae for properties, and are capable of producing proofs of such properties together with inferring the correctness of such proofs.<ul>
-<li><a href="acl2.html">ACL2</a> (a full-fledged language to write specs and prove their properties)</li>
-<li><a href="cameleer.html">Cameleer</a> (generates a proof of desired properties, can be used interactively)</li>
-<li><a href="coq.html">Coq</a> (interactive theorem prover)</li>
-<li><a href="hol.html">HOL</a> (interactive theorem prover)</li>
-<li><a href="isabellehol.html">Isabelle-HOL</a> (interactive theorem prover)</li>
-<li><a href="key.html">KeY</a> (generates a proof of desired properties, can proceed interactively if stuck otherwise)</li>
-<li><a href="lean.html">Lean</a> (interactive theorem prover)</li>
-<li><a href="vampire.html">Vampire</a> (can produce proofs for theorems in first order logic)</li>
-<li><a href="verit.html">veriT</a> (produces a proof for satisfiability of a formula)</li>
+			<div class="tabbertab"><h2>Index</h2><h1 class="fbs">PV5 tools in ProVerB</h1>PV5 tools allow the end user to write their own specifications and “compile” them together with desired properties to fully formal mathematical representations that can be combined with mathematical representations of programs themselves or their desired properties, and verified together. Such a tool can already help someone make claims and guarantees about correctness, complexity or predicted performance of a novel, previously non-existing, garbage collection algorithm.<ul>
+<li><a href="abc.html">ABC</a> (versatile verification and synthesis arsenal)</li>
+<li><a href="attestor.html">Attestor</a> (checks if a property holds for a program, generates additional properties, provides examples and analysis logs)</li>
+<li><a href="genmc.html">GenMC</a> (given a C program with assertions and a memory model spec, reports safety errors)</li>
+<li><a href="saw.html">Software Analysis Workbench</a> (extracts an algorithmic spec from source code and uses it on backend verifiers)</li>
+<li><a href="spin.html">SPIN</a> (analyses models of multi-threaded applications with different message passing paradigms or shared memory communication)</li>
+<li><a href="storm.html">Storm</a> (computes how a given property is related to a given specification)</li>
 </ul>
-<p>9 items on this list.</p></div>
+<p>6 items on this list.</p></div>
 		</div>
 		<br/><hr/>
 		<div class="f">

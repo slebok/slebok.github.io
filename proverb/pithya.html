@@ -43,17 +43,19 @@
           <ul>
             
           <li>
-              <a href="pv0.html" title="unprocessed">PV0</a>
+              <a href="pv0.html" title="unprocessed/nonverifying">PV0</a>
             </li><li>
               <a href="pv1.html" title="solvers/linters">PV1</a>
             </li><li>
-              <a href="pv2.html" title="property checkers">PV2</a>
+              <a href="pv2.html" title="synthesisers">PV2</a>
             </li><li>
-              <a href="pv3.html" title="monoverifiers">PV3</a>
+              <a href="pv3.html" title="property checkers">PV3</a>
             </li><li>
-              <a href="pv4.html" title="spec compilers">PV4</a>
+              <a href="pv4.html" title="monoverifiers">PV4</a>
             </li><li>
-              <a href="pv5.html" title="proof assistants">PV5</a>
+              <a href="pv5.html" title="spec compilers">PV5</a>
+            </li><li>
+              <a href="pv6.html" title="proof assistants">PV6</a>
             </li><li>
               <a href="framework.html">Frameworks</a>
             </li></ul>
@@ -69,7 +71,7 @@
 		</div>
 		<div class="main">
 		<div class="tabber">
-			<div class="tabbertab"><h2>Tool</h2><div></div><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> Pithya</h1>Tool for parameter synthesis of piecewise multi-affine dynamical systems from specifications expressed in a hybrid branching-time temporal logic.
+			<div class="tabbertab"><h2>Tool</h2><div><span class="tag"><a href="synthesis.html">Synthesis</a></span></div><h1 class="fbs"><span class="pv"><a href="pv2.html">PV2</a> ⊧</span> Pithya<span class="subtitle">provide a set of parameter valuations to satisfy the given formula on a given dynamical system</span></h1>Tool for parameter synthesis of piecewise multi-affine dynamical systems from specifications expressed in a hybrid branching-time temporal logic.
 
 <h3>Application domain/field</h3>
 <ul><li>Parameter synthesis</li>
@@ -96,12 +98,12 @@ Set of all parameter valuations under which the system satisfies the formula.
 
 <h3>Internals</h3>
 Pithya takes as input a parametrised model of a continuous-time dynamical system. This system is described by autonomous ordinary differential equations (ODEs) with sigmoidal functions.
-Pithya then approximates this model into a piecewise multi-affine model and discretises it into a paramtrised direction transition system (PDTS).
+Pithya then approximates this model into a piecewise multi-affine model and discretises it into a parametrised direction transition system (PDTS).
 Using the computed PDTS and the <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>H</mi><mi>U</mi><mi>C</mi><mi>T</mi><msub><mi>L</mi><mi>P</mi></msub></mrow></math> formula, it computes all parameter valuations under which the PDTS satisfies the formula.
 
 <h3>Comments</h3>
 License: GPL v3.0
-</div><div class="tabbertab"><h2>Meta</h2><div></div><h3>Links</h3>
+</div><div class="tabbertab"><h2>Meta</h2><div><span class="tag"><a href="synthesis.html">Synthesis</a></span></div><h3>Links</h3>
 <ul><li>Project page: <a href="http://biodivine.fi.muni.cz/pithya"><code>http://biodivine.fi.muni.cz/pithya</code></a></li>
 <li>Repository GUI: <a href="https://github.com/sybila/pithya-gui"><code>https://github.com/sybila/pithya-gui</code></a></li>
 <li>Repository: <a href="https://github.com/sybila/pithya-core"><code>https://github.com/sybila/pithya-core</code></a></li></ul>
