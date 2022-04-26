@@ -70,13 +70,18 @@
 			</nav>
 		</div>
 		<div class="main">
-			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> Daisy</h1><h3>Application domain/field</h3>
+			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv2.html">PV2</a> ⊧</span> Daisy<span class="subtitle">synthesises a Scala or C program where performance of floating-point operations are optimised</span></h1><h3>Application domain/field</h3>
 <ul><li>Program approximation</li>
-<li>Performance optimization</li></ul>
+<li>Performance optimization</li>
+<li>Synthesis</li></ul>
 <h3>Type of tool</h3>
 Performance optimizer
 <h3>Expected input</h3>
-Floating-point program with elementary function calls (e.g. <code>sin</code>, <code>exp</code>)
+<ul>
+<li>Floating-point program with elementary function calls (e.g. <code>sin</code>, `exp</li>
+<li>Domains of all inputs</li>
+<li>Target overall absolute error</li>
+</ul>
 
 <p>Format:</p>
 Input file (one single file) should follow the structure:
@@ -100,19 +105,23 @@ Input file (one single file) should follow the structure:
 The repository has some more details
 
 <h3>Expected output</h3>
-Optimized program in Scala or C.
+Optimized program in Scala or C with the guaranteed error below the specified target error
 
 <h3>Internals</h3>
 Framework for verifying and optimizing numerical programs.
 Given a program it provides an efficient implementation for floating-point programs with elementary function calls.
 Uses <a href="z3.html">Z3</a>, <a href="dreal.html">dReal</a>, <a href="mpfr.html">MPFR</a>, <a href="metalibm.html">Metalibm</a>
-</div><div class="meta-info"><div></div><h4>Links</h4>
+</div><div class="meta-info"><div><span class="tag"><a href="c.html">C</a></span>
+<span class="tag"><a href="floatingpoint.html">Floating point</a></span>
+<span class="tag"><a href="p.html">Performance optimization</a></span>
+<span class="tag"><a href="scala.html">Scala</a></span>
+<span class="tag"><a href="synthesis.html">Synthesis</a></span></div><h4>Links</h4>
 <ul><li>Repository: <a href="https://github.com/malyzajko/daisy"><code>https://github.com/malyzajko/daisy</code></a></li>
 <li>Documentation: <a href="https://github.com/malyzajko/daisy/blob/master/doc/documentation.md"><code>https://github.com/malyzajko/daisy/blob/master/doc/documentation.md</code></a></li></ul>
 <h4>Last commit date</h4>
 12 February 2021
 <h4>Related papers</h4>
-<a href="https://doi.org/10.1007/978-3-030-25543-5_11"><code>https://doi.org/10.1007/978-3-030-25543-5_11</code></a>
+<a href="https://doi.org/10.1007/978-3-030-25543-5_11"><code>https://doi.org/10.1007/978-3-030-25543-5_11</code></a> (CAV '19)
 <h4>Last publication date</h4>
 12 July 2019
 <h4>ProVerB specific</h4><p><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/Daisy.md">View/edit source</a> (Markdown)</p></div>

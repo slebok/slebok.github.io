@@ -70,7 +70,7 @@
 			</nav>
 		</div>
 		<div class="main">
-			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> CoSA: CoreIR Symbolic Analyzer</h1>SMT-based symbolic model checker for hardware design
+			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv3.html">PV3</a> ⊧</span> CoSA: CoreIR Symbolic Analyzer<span class="subtitle">checks user-specified properties for hardware designs</span></h1>SMT-based symbolic model checker for hardware design
 
 <h3>Application domain/field</h3>
 <ul><li>Model checking</li>
@@ -80,7 +80,11 @@
 <h3>Type of tool</h3>
 Model checker
 <h3>Expected input</h3>
-Circuit design?
+<ul>
+<li>Input files describing the hardware</li>
+<li>Verification problem (e.g. safety or LTL) or equivalence checking</li>
+<li><em>Depending on previous choice you may need to provide</em>: Property (invariant or LTL property)</li>
+</ul>
 
 <p>Format:</p>
 It supports many input formats including:
@@ -92,6 +96,8 @@ It supports many input formats including:
 <li>Symbolic Transition Systems (STS)</li>
 <li>Explicit states Transition Systems (ETS).</li>
 </ul>
+
+Properties can be defined as a parameter or in some of the input formats mentioned above.
 
 <h3>Expected output</h3>
 Depends on the type of analysis that you do with the tool.
@@ -113,7 +119,9 @@ Uses <a href="pysmt.html">PySMT</a>, <a href="pycoreir.html">PyCoreIR</a>
 
 <h3>Comments</h3>
 License: Modified BSD (3-clause BSD) license
-</div><div class="meta-info"><div><span class="tag"><a href="hardware.html">Hardware</a></span></div><h4>Links</h4>
+</div><div class="meta-info"><div><span class="tag"><a href="hardware.html">Hardware</a></span>
+<span class="tag"><a href="ltl.html">LTL</a></span>
+<span class="tag"><a href="modelchecking.html">Model checking</a></span></div><h4>Links</h4>
 Repository: <a href="https://github.com/cristian-mattarei/CoSA"><code>https://github.com/cristian-mattarei/CoSA</code></a>
 <h4>Last commit date</h4>
 27 October 2020

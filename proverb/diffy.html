@@ -70,17 +70,18 @@
 			</nav>
 		</div>
 		<div class="main">
-			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> Diffy</h1>Verification technique to prove properties of a class of array programs with a symbolic parameter N denoting the size of the arrays.
+			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv3.html">PV3</a> ⊧</span> Diffy<span class="subtitle">checks user-specified assertions in a C program</span></h1>Verification technique to prove properties of a class of array programs with a symbolic parameter N denoting the size of the arrays.
 
 <h3>Application domain/field</h3>
 <ul><li>Array programs</li>
 <li>Program verification</li>
 <li>Invariants</li></ul>
 <h3>Expected input</h3>
-C program, arrays need to be stack allocated instead of malloc'd.
+C program with assertions, arrays need to be stack allocated instead of malloc'd.
 
 <p>Format:</p>
-C program: similar format to what is used for SV-COMP
+C program: similar format to what is used for SV-COMP.
+Assertions are expressed as <code>__VERIFIER_assert(...)</code>
 
 <h3>Expected output</h3>
 <code>DIFFY_VERIFICATION_SUCCESSFUL</code> when the given post-condition is verified.
@@ -92,7 +93,7 @@ Uses <a href="z3.html">Z3</a>.
 
 <h3>Comments</h3>
 License: MIT
-</div><div class="meta-info"><div></div><h4>Links</h4>
+</div><div class="meta-info"><div><span class="tag"><a href="c.html">C</a></span></div><h4>Links</h4>
 <ul><li>Artifact for CAV '21: <a href="https://figshare.com/articles/software/Diffy_Inductive_Reasoning_of_Array_Programs_using_Difference_Invariants/14509467"><code>https://figshare.com/articles/software/Diffy_Inductive_Reasoning_of_Array_Programs_using_Difference_Invariants/14509467</code></a></li>
 <li>Artifact for CAV '21, repository: <a href="https://github.com/divyeshunadkat/diffy-artifact"><code>https://github.com/divyeshunadkat/diffy-artifact</code></a></li></ul>
 <h4>Last commit date</h4>
