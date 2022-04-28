@@ -70,7 +70,7 @@
 			</nav>
 		</div>
 		<div class="main">
-			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> Gobra</h1>Deductive program verifier for Go that proves memory safety, crash safety, data-race freedom, and user-provided specifications.
+			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv4.html">PV4</a> ⊧</span> Gobra<span class="subtitle">checks memory safety, crash safety, data-race freedom, and user-provided specifications for Go programs</span></h1>Deductive program verifier for Go that proves memory safety, crash safety, data-race freedom, and user-provided specifications.
 
 <h3>Application domain/field</h3>
 <ul><li>Deductive verification</li>
@@ -86,6 +86,9 @@ Go program with specifications
 <p>Format:</p>
 <code>.gobra</code> file
 Specifications should be written in the form of assertions (preconditions, postconditions, loop invariants, predicates) in the program code.
+
+<h3>Expected output</h3>
+If verification fails, then it will report on the level of the Go program, what assertions could not be proven.
 
 <h3>Internals</h3>
 Gobra takes an annotated Go program as input. It will then encode this annotated program into the intermediate verification language <a href="viper.html">Viper</a> and apply an existing SMT-based verifier.

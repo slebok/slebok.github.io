@@ -70,7 +70,7 @@
 			</nav>
 		</div>
 		<div class="main">
-			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> Endicheck</h1>Endicheck is a dynamic analysis tool for detecting endianness bugs, based on <a href="valgrind.html">Valgrind</a>
+			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv1.html">PV1</a> ⊧</span> Endicheck<span class="subtitle">Detects endianness bugs in annotated C/C++ programs</span></h1>Endicheck is a dynamic analysis tool for detecting endianness bugs, based on <a href="valgrind.html">Valgrind</a>
 
 <h3>Application domain/field</h3>
 <ul><li>Endianness bugs</li>
@@ -84,6 +84,9 @@ Program and some annotations to mark the byte-swapping and I/O functions.
 <p>Format:</p>
 C/C++ program.
 The annotations are written in the program source code using the annotations defined in the C header file endicheck.h
+
+<h3>Expected output</h3>
+Endicheck will report errors if it detects missing byte-swaps
 
 <h3>Internals</h3>
 <strong>Endianness</strong>: ordering of bytes used to represent numbers.
@@ -101,7 +104,7 @@ Repository: <a href="https://github.com/rkapl/endicheck"><code>https://github.co
 <h4>Last publication date</h4>
 17 April 2020
 <h4>Related tools</h4>
-<a href="sparse.html">Sparse</a>, <a href="valgrind.html">Valgrind</a>, <a href="memcheck.html">Memcheck</a>, <a href="hobbes.html">Hobbes</a>, <a href="dataflowsanitizer.html">DataFlowSanitizer</a>,
+<a href="sparse.html">Sparse</a>, <a href="valgrind.html">Valgrind</a>, <a href="memcheck.html">Memcheck</a>, <a href="hobbes.html">Hobbes</a>, <a href="dataflowsanitizer.html">DataFlowSanitizer</a>
 <h4>ProVerB specific</h4><p><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/Endicheck.md">View/edit source</a> (Markdown)</p></div>
 		</div>
 		<br/><hr/>
