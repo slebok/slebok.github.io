@@ -70,7 +70,7 @@
 			</nav>
 		</div>
 		<div class="main">
-			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> qtpi, sometimes stylized as Qtpi</h1>Quantum protocol programming language & simulator
+			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv1.html">PV1</a> ⊧</span> qtpi, sometimes stylized as Qtpi<span class="subtitle">checks that quantum programs obey real-world restrictions and simulates quantum programs</span></h1>Quantum protocol programming language & simulator
 
 <h3>Application domain/field</h3>
 <ul><li>Quantum cryptographic protocols</li>
@@ -81,15 +81,21 @@
 <ul><li>Framework?</li>
 <li>Programming language and simulator/interpreter</li></ul>
 <h3>Expected input</h3>
-Quantum protocol
+Quantum protocol and simulation settings (e.g. length of messages, length of hash key, minimum number of checkbits, number of sigmas, number of trials)
 
 <p>Format:</p>
 Own <code>.qtp</code> format
+
+<h3>Expected output</h3>
+Statistics about the simulation: number of qubits per trial, number of qubits that were interfered with, number of trials that succeeded.
+It is also possible to inspect a sample execution trace.
 
 <h3>Internals</h3>
 This tool was inspired by <a href="cqp.html">CQP</a>.
 
 qtpi takes a single execution path, making probabilistic choices between outcomes.
+
+The programs are statically checked to ensure that they obey real-world restrictions on the use of qubits (no cloning, no sharing).
 
 <h3>Comments</h3>
 License: GPL v2.0

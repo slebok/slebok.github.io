@@ -70,7 +70,7 @@
 			</nav>
 		</div>
 		<div class="main">
-			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> Peregrine</h1>Tool for the analysis and parameterized verification of population protocols
+			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv1.html">PV1</a> ⊧</span> Peregrine<span class="subtitle">verifies that a population protocol computes a user-specified predicate</span></h1>Tool for the analysis and parameterized verification of population protocols
 
 <h3>Application domain/field</h3>
 <ul><li>Population protocols</li>
@@ -97,6 +97,8 @@ Peregrine has several options for analysing a protocol, including:
 <li>Detection of incorrect executions through simulation</li>
 <li>Formal verification (only for silent protocols): This proves correctness for all of the infinitely many initial configurations. It verifies that a population protocol computes a given predicate. This predicate needs to be specified by the user in quantifier-free Presburger arithmetic</li>
 </ul>
+
+A protocol <em>computes a predicate</em> <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x003C6;</mi></mrow></math> if, for every initial configuration <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>C</mi></mrow></math>, all fair executions from <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>C</mi></mrow></math> lead to a lasting consensus <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x003C6;</mi><mo stretchy="false">&#x00028;</mo><mi>C</mi><mo stretchy="false">&#x00029;</mo><mo>&#x02208;</mo><mo stretchy="false">&#x0007B;</mo><mn>0</mn><mo>&#x0002C;</mo><mn>1</mn><mo stretchy="false">&#x0007D;</mo></mrow></math>.
 
 Uses <a href="z3.html">Z3</a> to check satisfiability of Presburger arithmetic formulas.
 
