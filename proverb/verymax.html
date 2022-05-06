@@ -70,23 +70,27 @@
 			</nav>
 		</div>
 		<div class="main">
-			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> VeryMax</h1>Program analysis toolkit for (non-)termination analysis and safety checker
+			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv3.html">PV3</a> ⊧</span> VeryMax<span class="subtitle">checks (non-)termination of integer transition systems or C programs, or checks assertions in a C program</span></h1>Program analysis toolkit for (non-)termination analysis and safety checker
 
 <h3>Application domain/field</h3>
 <ul><li>Termination</li>
 <li>Safety verification</li></ul>
 <h3>Expected input</h3>
-Program or integer transition system?
+Program or integer transition system
 
 <p>Format:</p>
-<em>Program</em>: Small fragment of C or C++
+<em>Program</em>: Small fragment of C or C++ with assertion(s)
 <em>Integer transition system</em>: <a href="t2.html">T2</a> or Pushdown <a href="smtlib.html">SMT-LIB</a>2 specification format
 
 <h3>Internals</h3>
 VeryMax uses conditional termination arguments to segment the state space for the remainder of the analysis.
+VeryMax can be used as a safety analyzer and a (non-)termination prover.
 
 Uses <a href="barcelogic.html">Barcelogic</a>.
-</div><div class="meta-info"><div></div><h4>Links</h4>
+
+<h3>Comments</h3>
+There are two versions available of VeryMax via the project page. The most recent version is the version that provides (non-)termination analysis. The older version provides a safety checker.
+</div><div class="meta-info"><div><span class="tag"><a href="termination.html">Termination</a></span></div><h4>Links</h4>
 Project page: <a href="https://www.cs.upc.edu/~albert/VeryMax.html"><code>https://www.cs.upc.edu/~albert/VeryMax.html</code></a>
 <h4>Related papers</h4>
 <ul><li><a href="https://doi.org/10.1007/978-3-662-54577-5_6"><code>https://doi.org/10.1007/978-3-662-54577-5_6</code></a> (TACAS '17)</li>

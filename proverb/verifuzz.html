@@ -70,7 +70,7 @@
 			</nav>
 		</div>
 		<div class="main">
-			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> VeriFuzz</h1>VeriFuzz is a coverage driven automated test-input generation tool based on grey-box fuzzing
+			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv3.html">PV3</a> ⊧</span> VeriFuzz<span class="subtitle">checks whether a user-specified error location in C code can be reached</span></h1>VeriFuzz is a coverage driven automated test-input generation tool based on grey-box fuzzing
 
 <h3>Application domain/field</h3>
 <ul><li>Test-input generation</li>
@@ -85,7 +85,7 @@ Fuzzer
 
 <p>Format:</p>
 <ul>
-<li><em>Program</em>: ?</li>
+<li><em>Program</em>: C program</li>
 <li><em>Safety property</em>: ?</li>
 </ul>
 
@@ -94,9 +94,10 @@ It runs until an error location was reached or until the max. time is over.
 If an error location was found, then it will generate a witness.
 
 <h3>Internals</h3>
-VeriFuzz observes behaviors exhibited during a test run. It then uses evolutionary algorithms to generate newer test-inputs from an initial population of test inputs.
+VeriFuzz generates new test inputs based on evolutionary algorithms. For each test it will consider whether to add it to the set of test inputs based on the code coverage. This is repeated until a crashing test-input is found that causes the program to reach the error location (indicated with <code>__VERIFIER_error()</code>) or when the time budget has elapsed.
 
 It uses <a href="cbmc.html">CBMC</a> for the initial input generation.
+Built on top of <a href="aflfuzz.html">afl-fuzz</a>.
 </div><div class="meta-info"><div></div><h4>Related papers</h4>
 <a href="https://doi.org/10.1007/978-3-030-17502-3_22"><code>https://doi.org/10.1007/978-3-030-17502-3_22</code></a> (TACAS '19)
 <h4>Last publication date</h4>
