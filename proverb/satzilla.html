@@ -70,11 +70,12 @@
 			</nav>
 		</div>
 		<div class="main">
-			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> SATzilla</h1>An automatic algorithm portfolio for SAT
+			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv2.html">PV2</a> ⊧</span> SATzilla<span class="subtitle">decides which solver to call per instance based on predictors</span></h1>An automatic algorithm portfolio for SAT based on empirical hardness models
 
 <h3>Application domain/field</h3>
 <ul><li>SAT solving</li>
-<li>Algorithm selection/solver selection</li></ul>
+<li>Algorithm selection</li>
+<li>Solver selection</li></ul>
 <h3>Type of tool</h3>
 Solver selector for SAT problems
 <h3>Expected input</h3>
@@ -84,7 +85,11 @@ SAT problem
 SATzilla runs the algorithm with the best predicated runtime until the instance is solved or the allotted time is used up.
 
 <h3>Internals</h3>
-Candidate SAT solvers that are included: <a href="marchdl04.html">March_dl04</a>, <a href="marchpl.html">March_pl</a>, <a href="minisat.html">MiniSat</a>, <a href="vallst.html">Vallst</a>, <a href="zchaff.html">zChaff</a>, <a href="kcnfs04.html">Kcnfs04</a>, <a href="tts.html">TTS</a>, <a href="picosat.html">PicoSAT</a>, <a href="mxc08.html">MXC08</a>, <a href="rsat.html">Rsat</a>.
+<ul>
+<li>SAT solvers in <code>SATzilla07</code>: <a href="eureka.html">Eureka</a>, <a href="kcnfs.html">Kcnfs06</a>, <a href="marchdl.html">March_dl04</a>, <a href="minisat.html">MiniSat</a> 2.0, <a href="rsat.html">Rsat</a> 1.03, <a href="vallst.html">Vallst</a>, <a href="zchaff.html">Zchaff_Rand</a>.</li>
+<li>Candidate SAT solvers in <code>SATzilla09</code>: March_dl04 (<a href="marchdl.html">march_dl</a>?), March_pl (<a href="marcheq.html">march_eq</a>?), <a href="minisat.html">MiniSat</a> 2.0, <a href="vallst.html">Vallst</a>, <a href="zchaff.html">Zchaff_Rand</a>, <a href="kcnfs.html">Kcnfs04</a>, <a href="tts.html">TTS</a> 4.0, <a href="picosat.html">PicoSAT</a> 8.46, <a href="mxc.html">MXC</a> 08, <a href="minisat.html">MiniSat</a> 2007, <a href="rsat.html">Rsat</a> 2.0.</li>
+<li>Local search solvers in <code>SATzilla09</code>: gnovelty+, Ranov (both are variants of <a href="gnovelty.html">gNovelty</a>), Ag2wsat0, Ag2wsat+ (both are variants of <a href="adaptg2wsat.html">adaptG2WSAT</a>), <a href="satenstein.html">SATenstein</a>.</li>
+</ul>
 </div><div class="meta-info"><div></div><h4>Links</h4>
 Project page: <a href="http://www.cs.ubc.ca/labs/beta/Projects/SATzilla"><code>http://www.cs.ubc.ca/labs/beta/Projects/SATzilla</code></a>
 <h4>Related papers</h4>
@@ -94,7 +99,7 @@ Project page: <a href="http://www.cs.ubc.ca/labs/beta/Projects/SATzilla"><code>h
 <h4>Last publication date</h4>
 2009
 <h4>Related tools</h4>
-<a href="starzilla.html">*zilla</a>: newest version of SATzilla.
+<code>*zilla</code>: newest version of SATzilla.
 <h4>ProVerB specific</h4><p><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/Metatools/SATzilla.md">View/edit source</a> (Markdown)</p></div>
 		</div>
 		<br/><hr/>

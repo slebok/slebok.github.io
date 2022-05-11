@@ -72,18 +72,23 @@
 		<div class="main">
 			<div class="tabbertab"><h1 class="fbs">PV4 tools in ProVerB</h1>PV4 tools operate within a particular paradigm and derive their actions, conclusions and even properties that they need to check, from a built-in formal specification. For example, such a tool can guarantee freedom of deadlocks in a multi-threaded application, or data consistency in a database management system. Generated property set cannot be explicitly adjusted for tools of this level.<ul>
 <li><a href="2ls.html">2LS</a> (can generate properties within certain conditions)</li>
+<li><a href="adaptg2wsat.html">adaptG2WSAT</a> (produces a satisfiability result for a formula with lookahead and adaptive noise)</li>
 <li><a href="altergo.html">Alt-Ergo</a> (produces a satisfiability result for a formula)</li>
 <li><a href="apron.html">APRON</a> (infers numerical properties of a program, proves the absence of errors of some classes)</li>
 <li><a href="barcelogic.html">Barcelogic</a> (produces a satisfiability result for a formula)</li>
+<li><a href="binsecrse.html">BINSEC-RSE</a> (a symbolic verifier of binary code dedicated to robust reachability)</li>
+<li><a href="bitwuzla.html">Bitwuzla</a> (produces a satisfiability result for a formula)</li>
 <li><a href="boogie.html">Boogie</a> (infers invariants and generates verification conditions to pass to Z3)</li>
 <li><a href="boolector.html">Boolector</a> (produces a satisfiability result for a formula)</li>
 <li><a href="bosy.html">BoSy</a> (proves realisability of a given property)</li>
 <li><a href="bosyhyper.html">BoSyHyper</a> (proves realizability of a given hyperproperty)</li>
+<li><a href="breach.html">Breach</a> (aids property investigation in deterministic models of hybrid dynamical systems)</li>
 <li><a href="btormc.html">BtorMC</a> (checks safety properties of models with registers and memories)</li>
 <li><a href="cadet.html">CADET</a> (produces a satisfiability result for a 2QBF)</li>
 <li><a href="cakelpr.html">cake_lpr</a> (takes a proof and checks whether it satisfies linear propagation redundancy expectations)</li>
 <li><a href="caqe.html">CAQE</a> (produces a satisfiability result for a quantified boolean formula)</li>
 <li><a href="cloudformal.html">CloudFORMAL</a> (checks common security best-practices and user-specified queries of a cloud configuration)</li>
+<li><a href="colibri.html">Colibri</a> (produces a satisfiability result for a formula)</li>
 <li><a href="consensusverifier.html">Consensus Verifier</a> (translates a consensus algorithm into a PROMELA model and LTL properties)</li>
 <li><a href="cryptominisat.html">CryptoMiniSat</a> (produces a satisfiability result for a formula in CNF)</li>
 <li><a href="cvc4.html">CVC4</a> (produces a satisfiability result for a formula)</li>
@@ -95,23 +100,29 @@
 <li><a href="dreal.html">dReal</a> (produces a satisfiability result for a formula)</li>
 <li><a href="eahyper.html">EAHyper</a> (checks satisfiability, implication and equivalence of hyperproperties)</li>
 <li><a href="esbmc.html">ESBMC</a> (checks safety properties in C programs, can generate invariants)</li>
+<li><a href="eureka.html">Eureka</a> (produces a satisfiability result for a formula with a backtrack search)</li>
 <li><a href="fact.html">FACT</a> (computes confidence intervals for given properties of timed automata)</li>
 <li><a href="glucose.html">Glucose</a> (produces a satisfiability result for a formula in CNF)</li>
+<li><a href="gnovelty.html">gNovelty</a> (produces a satisfiability result for a CNF formula)</li>
 <li><a href="gobra.html">Gobra</a> (checks memory safety, crash safety, data-race freedom, and user-provided specifications for Go programs)</li>
 <li><a href="grasshopper.html">GRASShopper</a> (checks user-specified contracts and memory safety of programs in its own language)</li>
 <li><a href="jayhorn.html">JayHorn</a> (checks user-specified assertions and infers some annotations for Java programs)</li>
 <li><a href="jkind.html">JKind</a> (infers invariants and checks user-specified properties for a Lustre system)</li>
+<li><a href="kcnfs.html">kcnfs</a> (produces a satisfiability result for a formula based on its backbone)</li>
 <li><a href="kissat.html">Kissat</a> (produces a satisfiability result for a formula)</li>
 <li><a href="lingeling.html">Lingeling</a> (produces a satisfiability result for a formula)</li>
 <li><a href="map2check.html">Map2Check</a> (checks user-specified properties, overflows and memory-safety of C programs)</li>
+<li><a href="marchdl.html">march_dl</a> (produces a satisfiability result with equivalence reasoning and double lookahead heuristics)</li>
 <li><a href="marcheq.html">march_eq</a> (produces a satisfiability result with equivalence reasoning and lookahead heuristics)</li>
 <li><a href="mathsat.html">MathSAT</a> (produces a satisfiability result for a formula)</li>
 <li><a href="mchyper.html">MCHyper</a> (proves given properties on a given circuit)</li>
 <li><a href="minisat.html">MiniSat</a> (produces a satisfiability result for a formula)</li>
 <li><a href="minisatplus.html">MiniSat+</a> (produces a satisfiability result for a formula)</li>
 <li><a href="monosat.html">MonoSAT</a> (produces a satisfiability result for a formula)</li>
+<li><a href="mxc.html">MXC</a> (produces a satisfiability result for a formula)</li>
 <li><a href="nagini.html">Nagini</a> (verifies general properties like termination and deadlock freedom of Python programs)</li>
 <li><a href="nnv.html">NNV</a> (checks whether the given network is safe)</li>
+<li><a href="nuxmv.html">nuXmv</a> (checks user-specified properties of a transition system, computes)</li>
 <li><a href="paf.html">PAF</a> (computers sound but tight probabilistic bounds to roundoff errors in arithmetic expressions)</li>
 <li><a href="parafrost.html">ParaFROST</a> (produces a satisfiability result for a formula)</li>
 <li><a href="picosat.html">PicoSAT</a> (produces a satisfiability result for a formula)</li>
@@ -121,17 +132,22 @@
 <li><a href="q3b.html">Q3B</a> (produces a satisfiability result for a formula)</li>
 <li><a href="quabs.html">QuAbS</a> (produces a satisfiability result for a quantified boolean formula)</li>
 <li><a href="reluplex.html">Reluplex</a> (produces a satisfiability result for a formula)</li>
+<li><a href="rsat.html">RSat</a> (produces a satisfiability result for a formula)</li>
 <li><a href="rtdfinder.html">RTD-Finder</a> (can check deadlock-freedom and user-specified safety properties of RT-BIP models)</li>
 <li><a href="sat4j.html">Sat4j</a> (produces a satisfiability result for a formula)</li>
+<li><a href="satenstein.html">SATenstein</a> (produces a satisfiability result with a custom built solver)</li>
 <li><a href="scamv.html">Scam-V</a> (randomly generates observationally equivalent inputs and checks their equivalence)</li>
 <li><a href="sla.html">Symbolic Liveness Analysis</a> (detects liveness violations)</li>
 <li><a href="smtinterpol.html">SMTInterpol</a> (produces a satisfiability result for a formula)</li>
 <li><a href="spark.html">SPARK</a> (checks user-specified specifications and absence of runtime errors for Ada programs)</li>
+<li><a href="spasssatt.html">SPASS-SATT</a> (produces a satisfiability result for a formula)</li>
 <li><a href="spear.html">SPEAR</a> (proves a theorem about software verification conditions, formulated in bit-vectors)</li>
 <li><a href="symbiotic.html">Symbiotic</a> (can detect assertion violations and memory-related bugs in C programs)</li>
+<li><a href="tts.html">TTS</a> (produces a satisfiability result for a proposition)</li>
 <li><a href="ultimateautomizer.html">Ultimate Automizer</a> (checks user-specified properties and some built-in properties, e.g. memory safety, of a C program for a specified architecture)</li>
 <li><a href="ultimatetaipan.html">Ultimate Taipan</a> (checks properties of a C program for a specified architecture and memory model)</li>
 <li><a href="unique.html">Unique</a> (generates interpolant graphs from CNF formulae)</li>
+<li><a href="vallst.html">Vallst</a> (produces a satisfiability result for a Boolean formula)</li>
 <li><a href="verifast.html">Verifast</a> (checks for illegal memory accesses, data races and user-written specifications in C/Java code)</li>
 <li><a href="yices.html">Yices</a> (produces a satisfiability result for a formula)</li>
 <li><a href="yogarcbmc.html">Yogar-CBMC</a> (converts a multi-threaded program into an event order graph and verifies its sequential consistency)</li>
@@ -139,7 +155,7 @@
 <li><a href="z3str3re.html">Z3str3RE</a> (part of Z3, produces a satisfiability result for a set of constrains)</li>
 <li><a href="zchaff.html">zChaff</a> (produces a satisfiability result for a formula in CNF)</li>
 </ul>
-<p>67 items on this list.</p></div>
+<p>83 items on this list.</p></div>
 		</div>
 		<br/><hr/>
 		<div class="f">
