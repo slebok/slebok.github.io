@@ -70,14 +70,33 @@
 			</nav>
 		</div>
 		<div class="main">
-			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> Unique</h1><h3>Application domain/field</h3>
+			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv4.html">PV4</a> ⊧</span> Unique<span class="subtitle">generates interpolant graphs from CNF formulae</span></h1><h3>Application domain/field</h3>
 <ul><li>Gate extraction</li>
 <li>Quantified Boolean Formulas (QBFs)</li></ul>
-<h3>Internals</h3>
-<em>Gate detection</em>:
-<em>Gate extraction</em>:
+<h3>Expected input</h3>
+<ul>
+<li>PCNF formula (QDIMACS)</li>
+<li>prenex non-CNF QBF (QCIR)</li>
+<li>DQBF with CNF matrices (DQDIMACS)</li>
+</ul>
 
-</div><div class="meta-info"><div></div><h4>Related papers</h4>
+<h3>Expected output</h3>
+<ul>
+<li>interpolants represented as AIG (And-Inverter Graphs)</li>
+</ul>
+
+<h3>Internals</h3>
+<ul>
+<li><em>Gate detection</em></li>
+<li><em>Gate extraction</em></li>
+</ul>
+
+Uses <a href="itpminisat.html">ItpMiniSat</a>, a modified version of <a href="minisat.html">MiniSat</a>, bundled with the <a href="extavy.html">ExtAvy</a> model checker
+</div><div class="meta-info"><div></div><h4>Links</h4>
+<a href="https://github.com/fslivovsky/unique"><code>https://github.com/fslivovsky/unique</code></a>
+<h4>Last commit date</h4>
+23 April 2022
+<h4>Related papers</h4>
 <a href="https://doi.org/10.1007/978-3-030-53288-8_24"><code>https://doi.org/10.1007/978-3-030-53288-8_24</code></a> (CAV '20)
 <h4>Last publication date</h4>
 14 July 2020

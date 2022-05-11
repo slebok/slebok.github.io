@@ -9,7 +9,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="initial-scale=1.0"/>
-		<title>KLEE — ProVerB — SLEBoK</title>
+		<title>march_eq — ProVerB — SLEBoK</title>
 		<link href="main.css" rel="stylesheet" type="text/css" />
 		<link href="tabber.css" rel="stylesheet" type="text/css" media="screen" />
 		<script type="text/javascript" src="tabber.js" />
@@ -70,45 +70,26 @@
 			</nav>
 		</div>
 		<div class="main">
-			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv3.html">PV3</a> ⊧</span> KLEE<span class="subtitle">checks properties by symbolic execution</span></h1><h3>Application domain/field</h3>
-<ul><li>Symbolic execution</li>
-<li>Dynamic symbolic execution</li>
-<li>Bug finding</li>
-<li>Test generation</li></ul>
+			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv4.html">PV4</a> ⊧</span> march_eq<span class="subtitle">produces a satisfiability result with equivalence reasoning and lookahead heuristics</span></h1>a lookahead SAT solver
+
+<h3>Application domain/field</h3>
+SAT solving
 <h3>Type of tool</h3>
-Symbolic execution engine
-<h3>Expected input</h3>
-<ul>
-<li>Program</li>
-<li>Optionally KLEE and/or program options, e.g. whether to check for integer overflows.</li>
-</ul>
-
-<p>Format:</p>
-<ul>
-<li>Program: LLVM bitcode file (.bc)</li>
-<li>Optional: options passed as arguments when calling KLEE</li>
-</ul>
-
-<h3>Expected output</h3>
-KLEE generates some statistics (e.g. how many generated tests, running time, number of explored paths, etc.), warnings emitted by KLEE, and other messages emitted by KLEE.
-
-The output can be found in the terminal or in a text file. Moreover, it also generates a human readable version of the bitcode executed by KLEE, a SQLite file with statistics and an istats file with statistics.
-
-<h3>Internals</h3>
-Symbolic execution can be used for several purposes including test generation, bug finding,
-</div><div class="meta-info"><div></div><h4>Links</h4>
-<ul><li>Repository: <a href="https://github.com/klee/klee/"><code>https://github.com/klee/klee/</code></a></li>
-<li>Project page: <a href="https://klee.github.io/"><code>https://klee.github.io/</code></a></li></ul>
+SAT solver
+<h3>Comments</h3>
+an older version was called <code>march_eq_100</code>, apparently a newer one was referred to as <code>march_dl04</code>
+</div><div class="meta-info"><div><span class="tag"><a href="sat.html">SAT</a></span></div><h4>Links</h4>
+<ul><li><a href="https://www.swmath.org/software/548"><code>https://www.swmath.org/software/548</code></a></li>
+<li><a href="http://web.archive.org/web/20171026104656/http://www.isa.ewi.tudelft.nl/sat/march_eq.htm"><code>http://web.archive.org/web/20171026104656/http://www.isa.ewi.tudelft.nl/sat/march_eq.htm</code></a> (original page inaccessible)</li></ul>
 <h4>Last commit date</h4>
-19 June 2021
+7 October 2021
 <h4>Related papers</h4>
-<ul><li><a href="https://doi.org/10.1007/s10009-020-00570-3"><code>https://doi.org/10.1007/s10009-020-00570-3</code></a></li>
-<li><a href="https://doi.org/10.1007/978-3-642-34129-8_23"><code>https://doi.org/10.1007/978-3-642-34129-8_23</code></a></li>
-<li><a href="https://doi.org/10.1109/Trustcom.2015.608"><code>https://doi.org/10.1109/Trustcom.2015.608</code></a></li>
-<li><a href="https://llvm.org/pubs/2008-12-OSDI-KLEE.html"><code>https://llvm.org/pubs/2008-12-OSDI-KLEE.html</code></a></li></ul>
+<a href="https://doi.org/10.1007/11527695_26"><code>https://doi.org/10.1007/11527695_26</code></a> (SAT'04)
 <h4>Last publication date</h4>
-2 June 2020
-<h4>ProVerB specific</h4><p><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/KLEE.md">View/edit source</a> (Markdown)</p></div>
+2009
+<h4>Related tools</h4>
+<a href="oksolver.html">OKsolver</a>
+<h4>ProVerB specific</h4><p><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/Solvers/SAT/march_eq.md">View/edit source</a> (Markdown)</p></div>
 		</div>
 		<br/><hr/>
 		<div class="f">
