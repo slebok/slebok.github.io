@@ -70,7 +70,7 @@
 			</nav>
 		</div>
 		<div class="main">
-			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> Nidhugg</h1>Stateless model checker (SMC) for C/C++ programs
+			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv5.html">PV5</a> ⊧</span> Nidhugg<span class="subtitle">given a program and a memory model, reports assertion violations</span></h1>Stateless model checker (SMC) for C/C++ programs
 
 <h3>Application domain/field</h3>
 <ul><li>Model checking</li>
@@ -99,9 +99,10 @@ It will indicate an error or state that no errors were found.
 The errors can be either assertion violations or robustness violations (e.g. segmentation faults).
 
 <h3>Internals</h3>
-It supports the following memory models: SC, TSO, PSO, POWER and ARM.
-
-Nidhugg explores the possible executions to find bugs. It does this such that it will not explore executions that are equivalent to each other.
+<ul>
+<li>It supports the following memory models: SC, TSO, PSO, POWER and ARM.</li>
+<li>Nidhugg explores the possible executions to find bugs. It does this such that it will not explore executions that are equivalent to each other.</li>
+</ul>
 
 <h3>Comments</h3>
 License: GPL v3.0
