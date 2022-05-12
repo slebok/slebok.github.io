@@ -100,6 +100,7 @@ body {
 blockquote {border: 1px solid #004D40; padding: 10px}
 .red, .red a, .red a:visited, .cool a, .cool a:visited {color:#fb3640}
 a, a:visited, a.blue, a.blue:visited {color:#1a237e}
+a.broken, a.broken:visited {color: #da237e}
 .red a:hover {font-weight:bold}
 .c {text-align:center; font-weight:bold}
 .c h1, .c h2 {margin: 0px}
