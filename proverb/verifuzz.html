@@ -11,8 +11,6 @@
 		<meta name="viewport" content="initial-scale=1.0"/>
 		<title>VeriFuzz — ProVerB — SLEBoK</title>
 		<link href="main.css" rel="stylesheet" type="text/css" />
-		<link href="tabber.css" rel="stylesheet" type="text/css" media="screen" />
-		<script type="text/javascript" src="tabber.js" />
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
 			_gaq.push(['_setAccount', 'UA-3743366-7']);
@@ -97,7 +95,7 @@ If an error location was found, then it will generate a witness.
 VeriFuzz generates new test inputs based on evolutionary algorithms. For each test it will consider whether to add it to the set of test inputs based on the code coverage. This is repeated until a crashing test-input is found that causes the program to reach the error location (indicated with <code>__VERIFIER_error()</code>) or when the time budget has elapsed.
 
 It uses <a href="cbmc.html">CBMC</a> for the initial input generation.
-Built on top of <a href="aflfuzz.html">afl-fuzz</a>.
+Built on top of <a href="aflfuzz.html" class="broken">afl-fuzz</a>.
 </div><div class="meta-info"><div></div><h4>Related papers</h4>
 <a href="https://doi.org/10.1007/978-3-030-17502-3_22"><code>https://doi.org/10.1007/978-3-030-17502-3_22</code></a> (TACAS '19)
 <h4>Last publication date</h4>

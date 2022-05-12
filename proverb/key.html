@@ -11,8 +11,6 @@
 		<meta name="viewport" content="initial-scale=1.0"/>
 		<title>KeY — ProVerB — SLEBoK</title>
 		<link href="main.css" rel="stylesheet" type="text/css" />
-		<link href="tabber.css" rel="stylesheet" type="text/css" media="screen" />
-		<script type="text/javascript" src="tabber.js" />
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
 			_gaq.push(['_setAccount', 'UA-3743366-7']);
@@ -84,13 +82,13 @@ Semi-interactive verifier
 Annotated source code
 
 <p>Format:</p>
-(Sequential) Java or Java Card 2.2.X program annotated with properties specified in <a href="jml.html">JML</a> or Java Dynamic Logic (<a href="javadl.html">JavaDL</a>).
+(Sequential) Java or Java Card 2.2.X program annotated with properties specified in <a href="jml.html">JML</a> or Java Dynamic Logic (<a href="javadl.html" class="broken">JavaDL</a>).
 
 <h3>Expected output</h3>
 Whether the specified properties can be proven  correct.
 
 <h3>Internals</h3>
-translates source code to <a href="javadl.html">JavaDL</a>.
+translates source code to <a href="javadl.html" class="broken">JavaDL</a>.
 can translate to the <a href="smtlib.html">SMT-LIB</a> format and call an external SMT solver.
 
 The user can choose to use the tool in an automatic or interactive fashion. Typically the user would first try to let the prover find a proof automatically, if it then does not succeed, the user can get involved in the proving process.

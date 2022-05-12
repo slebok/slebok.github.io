@@ -11,8 +11,6 @@
 		<meta name="viewport" content="initial-scale=1.0"/>
 		<title>Storm — ProVerB — SLEBoK</title>
 		<link href="main.css" rel="stylesheet" type="text/css" />
-		<link href="tabber.css" rel="stylesheet" type="text/css" media="screen" />
-		<script type="text/javascript" src="tabber.js" />
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
 			_gaq.push(['_setAccount', 'UA-3743366-7']);
@@ -100,9 +98,9 @@ Storm supports many different input formats:
 <li><em>Input model</em>:</li>
 <li><a href="prism.html">PRISM</a> for DTMCs, CTMCs and MDPs</li>
 <li><a href="jani.html">JANI</a> for DTMCs, CTMCs and MDPs</li>
-<li><a href="pnml.html">PNML</a> or <a href="greatspn.html">GreatSPN</a> for GSPNs</li>
-<li><a href="galileo.html">Galileo</a> format for DFTs</li>
-<li><a href="cpgcl.html">cpGCL</a></li>
+<li><a href="pnml.html" class="broken">PNML</a> or <a href="greatspn.html" class="broken">GreatSPN</a> for GSPNs</li>
+<li><a href="galileo.html" class="broken">Galileo</a> format for DFTs</li>
+<li><a href="cpgcl.html" class="broken">cpGCL</a></li>
 <li>Explicit format</li>
 <li><em>Specification</em>:</li>
 <li>"Extended subset" of the <a href="prism.html">PRISM</a> property language</li>
@@ -114,7 +112,7 @@ Depends on the property. It can give the probability of a certain outcome, but a
 It will also give information about the model such as the number of states and transitions.
 
 <h3>Internals</h3>
-It uses the following solvers: <a href="eigen.html">Eigen</a>, <a href="gmmplusplus.html">gmm++</a>, <a href="cudd.html">CUDD</a>, <a href="sylvan.html">Sylvan</a>, <a href="gurobi.html">Gurobi</a>, <a href="glpk.html">GLPK</a>, <a href="z3.html">Z3</a>, <a href="mathsat.html">MathSAT</a>, <a href="smtlib.html">SMT-LIB</a>
+It uses the following solvers: <a href="eigen.html" class="broken">Eigen</a>, <a href="gmmplusplus.html" class="broken">gmm++</a>, <a href="cudd.html">CUDD</a>, <a href="sylvan.html">Sylvan</a>, <a href="gurobi.html">Gurobi</a>, <a href="glpk.html">GLPK</a>, <a href="z3.html">Z3</a>, <a href="mathsat.html">MathSAT</a>, <a href="smtlib.html">SMT-LIB</a>
 
 <h3>Comments</h3>
 There is also a fuzzer that is called <a href="https://practical-formal-methods.github.io/storm/">STORM</a>.

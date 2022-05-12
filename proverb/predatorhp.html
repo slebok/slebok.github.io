@@ -11,8 +11,6 @@
 		<meta name="viewport" content="initial-scale=1.0"/>
 		<title>PredatorHP — ProVerB — SLEBoK</title>
 		<link href="main.css" rel="stylesheet" type="text/css" />
-		<link href="tabber.css" rel="stylesheet" type="text/css" media="screen" />
-		<script type="text/javascript" src="tabber.js" />
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
 			_gaq.push(['_setAccount', 'UA-3743366-7']);
@@ -98,7 +96,7 @@
 <code>UNKNOWN</code> if the tool could not determine whether the specification is satisfied or not.
 
 <h3>Internals</h3>
-PredatorHP is built on the <a href="predator.html">Predator</a> shape analyzer.
+PredatorHP is built on the <a href="predator.html" class="broken">Predator</a> shape analyzer.
 PredatorHP looks for memory-related errors such as invalid pointer dereferences, double free operations and memory leaks. It also checks the validity of assertions in the code.
 
 PredatorHP runs multiple tools in parallel. The first tool is the Predator verifier, which can claim that a program is correct. The other tools are called hunters, which typically report errors. These hunters are used to decrease the chances of producing false alarms.

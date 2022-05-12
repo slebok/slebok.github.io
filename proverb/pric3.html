@@ -11,8 +11,6 @@
 		<meta name="viewport" content="initial-scale=1.0"/>
 		<title>PrIC3 — ProVerB — SLEBoK</title>
 		<link href="main.css" rel="stylesheet" type="text/css" />
-		<link href="tabber.css" rel="stylesheet" type="text/css" media="screen" />
-		<script type="text/javascript" src="tabber.js" />
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
 			_gaq.push(['_setAccount', 'UA-3743366-7']);
@@ -98,7 +96,7 @@ Probabilistic model checker
 If the tool returns <code>false</code>, it will provide a <em>possible</em> counterexample. This can be caused by two reasons: either the MDP is indeed unsafe, or the heuristic was inappropriate. The counterexample consists of a subsystem of states of the MDP witnessing <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>P</mi><msup><mi>r</mi><mrow><mi>m</mi><mi>a</mi><mi>x</mi></mrow></msup><mo stretchy="false">&#x00028;</mo><msub><mi>s</mi><mi>I</mi></msub><mo>&#x022A7;</mo><mi>&#x025CA;</mi><mi>B</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003E;</mo><mi>&#x003BB;</mi></mrow></math>
 
 <h3>Internals</h3>
-Extension of <a href="ic3.html">IC3</a>, for quantitative reachability in MDPs.
+Extension of <a href="ic3.html" class="broken">IC3</a>, for quantitative reachability in MDPs.
 Uses efficient data structures from <a href="storm.html">Storm</a> and uses <a href="z3.html">Z3</a>.
 
 <h3>Comments</h3>
