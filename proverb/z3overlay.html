@@ -9,7 +9,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="initial-scale=1.0"/>
-		<title>VVT — ProVerB — SLEBoK</title>
+		<title>z3overlay — ProVerB — SLEBoK</title>
 		<link href="main.css" rel="stylesheet" type="text/css" />
 		<link href="tabber.css" rel="stylesheet" type="text/css" media="screen" />
 		<script type="text/javascript" src="tabber.js" />
@@ -70,41 +70,14 @@
 			</nav>
 		</div>
 		<div class="main">
-			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv3.html">PV3</a> ⊧</span> VVT: Vienna Verification Tool<span class="subtitle">encodes an LLVM program into a transition relation and checks properties on it</span></h1><h3>Application domain/field</h3>
-<ul><li>Infinite-state systems</li>
-<li>Counterexample-guided abstraction refinement (CEGAR)</li>
-<li>Predicate abstraction</li>
-<li>Model checking</li>
-<li>Bounded model checking</li></ul>
-<h3>Expected input</h3>
-Program
-
-<p>Format:</p>
-C/C++ and SMTLib2
-
-<h3>Internals</h3>
-VVT primarily targets the verification of infinite parallel programs.
-
-VVT consists of several tools
-<ul>
-<li><code>vvt-enc</code> to translate instrumented bitcode into an SMTLIB-based format</li>
-<li><code>vvt-opt</code> to deploy several optimization techniques</li>
-<li><code>vvt-verify</code> to verify the program</li>
-<li><code>vvt-bmc</code> to rapidly find counterexamples</li>
-</ul>
-
-Uses <a href="z3.html">Z3</a> and <a href="mathsat.html">MathSAT</a>.
-</div><div class="meta-info"><div><span class="tag"><a href="c.html">C</a></span>
-<span class="tag"><a href="cplusplus.html">C++</a></span></div><h4>Links</h4>
-<ul><li>Project page: <a href="https://vvt.forsyte.at/"><code>https://vvt.forsyte.at/</code></a></li>
-<li>Repository: <a href="https://github.com/hgoes/vvt"><code>https://github.com/hgoes/vvt</code></a></li></ul>
+			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv1.html">PV1</a> ⊧</span> z3overlay<span class="subtitle">enables type-safe creation of SMT formulae</span></h1><h3>Internals</h3>
+an overlay to official binding to <a href="z3.html">Z3</a>
+</div><div class="meta-info"><div><span class="tag"><a href="library.html">Library</a></span>
+<span class="tag"><a href="smt.html">SMT</a></span></div><h4>Links</h4>
+<a href="https://github.com/termite-analyser/z3overlay"><code>https://github.com/termite-analyser/z3overlay</code></a>
 <h4>Last commit date</h4>
-9 February 2018
-<h4>Related papers</h4>
-<a href="https://doi.org/10.1007/978-3-662-49674-9_69"><code>https://doi.org/10.1007/978-3-662-49674-9_69</code></a> (TACAS '16)
-<h4>Last publication date</h4>
-9 April 2016
-<h4>ProVerB specific</h4><p><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/VVT.md">View/edit source</a> (Markdown)</p></div>
+3 July 2021
+<h4>ProVerB specific</h4><p><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/z3overlay.md">View/edit source</a> (Markdown)</p></div>
 		</div>
 		<br/><hr/>
 		<div class="f">
