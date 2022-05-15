@@ -68,7 +68,7 @@
 			</nav>
 		</div>
 		<div class="main">
-			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> NNRepair, sometimes stylized as nnrepair</h1>Constraint-based technique to repair neural network classifiers.
+			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv3.html">PV3</a> ⊧</span> NNRepair<span class="subtitle">repairs neural network classifiers based on examples</span></h1>Constraint-based technique to repair neural network classifiers
 
 <h3>Application domain/field</h3>
 <ul><li>Neural networks</li>
@@ -98,7 +98,10 @@ Repaired neural network.
 NNRepair targets neural networks used for classification.
 First NNrepair uses fault localization to find potentially faulty parameters (weights on edges connecting neurons) in a neural network. Then it performs repair using constraint solving to apply small modifications to the parameters to remedy the defects.
 
-The tool is based on <a href="neurospf.html" class="broken">NeuroSPF</a>. It uses <a href="symbolicpathfinder.html" class="broken">Symbolic PathFinder</a> and <a href="z3.html">Z3</a>.
+The tool is based on <a href="neurospf.html" class="broken">NeuroSPF</a>. It uses <a href="spf.html">Symbolic PathFinder</a> and <a href="z3.html">Z3</a>.
+
+<h3>Comments</h3>
+A combination of finding a problem (PV1) and suggesting how it can be solved (PV2)
 </div><div class="meta-info"><div><span class="tag"><a href="neuralnetwork.html">Neural network</a></span>
 <span class="tag"><a href="programrepair.html">Program repair</a></span></div><h4>Links</h4>
 Repository (only contains dataset for experiments of the CAV '21 paper, not the tool itself): <a href="https://github.com/muhammadusman93/nnrepair"><code>https://github.com/muhammadusman93/nnrepair</code></a>
