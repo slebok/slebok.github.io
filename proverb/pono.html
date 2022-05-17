@@ -101,14 +101,18 @@ When the property does not hold, then Pono will give a witness trace (either in 
 
 <h3>Internals</h3>
 Designed with three use cases in mind:
-1) Push-button verification
-2) Expert verification
-3) Model checker development
+<ol>
+<li>Push-button verification</li>
+<li>Expert verification</li>
+<li>Model checker development</li>
+</ol>
 
 The user can ask the tool to attempt to prove the property with or without a bound. If the proof attempt failed then the user can ask for a counterexample trace.If the proof attempt succeeded then Pono can return an inductive invariant that implies the property.
-
-Uses <a href="smtswitch.html">smt-switch</a>
-Uses <a href="mathsat.html">MathSAT</a> 5 as an underlying SMT solver and interpolant producer. Also uses <a href="boolector.html">Boolector</a> for hardware model checking problems.
+<ul>
+<li>Uses <a href="smtswitch.html">smt-switch</a></li>
+<li>Uses <a href="mathsat.html">MathSAT</a> 5 as an underlying SMT solver and interpolant producer.</li>
+<li>Also uses <a href="boolector.html">Boolector</a> for hardware model checking problems.</li>
+</ul>
 
 <h3>Comments</h3>
 Pono was developed as the next generation of <a href="cosa.html">CoSA</a> and was originally named cosa2.
