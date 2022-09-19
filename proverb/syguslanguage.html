@@ -9,7 +9,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="initial-scale=1.0"/>
-		<title>Alloy Analyzer — ProVerB — SLEBoK</title>
+		<title>SyGuS language — ProVerB — SLEBoK</title>
 		<link href="main.css" rel="stylesheet" type="text/css" />
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
@@ -68,33 +68,12 @@
 			</nav>
 		</div>
 		<div class="main">
-			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv3.html">PV3</a> ⊧</span> Alloy Analyzer<span class="subtitle">checks user-specified assertions in Alloy models</span></h1><h3>Application domain/field</h3>
-State machines with complex structured state
-<h3>Type of tool</h3>
-Constraint solver
-<h3>Expected input</h3>
-Model (with assertions/properties)
+			<div class="tool-info"><h1 class="fbs">SyGuS language</h1>Language developed to specify syntax-guided synthesis (SyGuS) problems.
 
-<p>Format:</p>
-Alloy language
-
-<h3>Expected output</h3>
-Counterexample or "assertion may be valid"
-
-<h3>Internals</h3>
-The Alloy Analyzer translates the given problem into a boolean formula which is then handed to a SAT solver. When the SAT solver is done, the solution is translated back into the language of the original model. The user needs to specify a scope that bounds the size of the domains thereby making the problem finite and thus reducible to a boolean formula.
-Uses SAT solvers to refute a formula.
-
-It uses <a href="sat4j.html">Sat4j</a>, <a href="minisat.html">MiniSat</a>, <a href="plingeling.html">plingeling</a> and <a href="glucose.html">Glucose</a> for SAT solving.
-
-<h3>Comments</h3>
-Domains (in the model) are bound by the user, resulting in a finite problem.
-</div><div class="meta-info"><div></div><h4>Links</h4>
-<ul><li>Project page: <a href="https://alloytools.org/"><code>https://alloytools.org/</code></a></li>
-<li>Repository: <a href="https://github.com/AlloyTools/org.alloytools.alloy"><code>https://github.com/AlloyTools/org.alloytools.alloy</code></a></li></ul>
-<h4>Last commit date</h4>
-24 February 2021
-<h4>ProVerB specific</h4><p><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/Solvers/Alloy Analyzer.md">View/edit source</a> (Markdown)</p></div>
+Used by the SyGuS competition.
+<a href="https://sygus.org/language/"><code>https://sygus.org/language/</code></a>
+</div><div class="meta-info"><div><span class="tag"><a href="specificationformat.html">Specification format</a></span>
+<span class="tag"><a href="sygus.html" title="Syntax-Guided Synthesis">SyGuS</a></span></div><h4>ProVerB specific</h4><p><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Formats/SyGuS language.md">View/edit source</a> (Markdown)</p></div>
 		</div>
 		<br/><hr/>
 		<div class="f">
