@@ -1,3 +1,39 @@
+@media only screen and (max-width: 600px) {
+  .left, .tool-info, .meta-info {
+    width: 100%;
+  }
+  .left, .main, .meta-info {
+    border-top: 2px solid grey;
+  }
+}
+@media only screen and (min-width: 600px) {
+    .left {
+        height: 100%;
+        position: fixed;
+        width:200px;
+        box-shadow: 1px 0px 1px 0px hsl(210,0%,75%);
+    }
+    .main {
+        margin-left: 250px;
+        padding-bottom: 10px;
+        overflow: hidden;
+    }
+    .tool-info {
+      float: left;
+      width: 65%;
+    }
+
+    .meta-info {
+      float: right;
+      width: 25%;
+      min-width: 200px;
+      margin-top: 30px;
+      background-color: hsl(210,0%,95%);
+      border: solid 1px lightgray;
+      padding: 10px;
+      margin-right: 50px;
+    }
+}
 .subtitle {
 	font-style: italic;
 	font-size: small;
@@ -19,12 +55,8 @@
 }
 
 .left {
-    height: 100%;
-    position: fixed;
     top: 0;
     background: #fff;
-    box-shadow: 1px 0px 1px 0px hsl(210,0%,75%);
-    width:200px;
 }
 
 nav {color: rgb(36, 41, 47);}
@@ -64,28 +96,6 @@ nav li a {
     padding-right: 50px;
     background: #f5f5f5;
     text-align: right;
-}
-
-.main {
-    margin-left: 250px;
-    padding-bottom: 10px;
-    overflow: hidden;
-}
-
-.tool-info {
-  float: left;
-  width: 65%;
-}
-
-.meta-info {
-  float: right;
-  width: 25%;
-  min-width: 200px;
-  margin-top: 30px;
-  background-color: hsl(210,0%,95%);
-  border: solid 1px lightgray;
-  padding: 10px;
-  margin-right: 50px;
 }
 
 .meta-info p {
