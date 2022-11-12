@@ -101,7 +101,7 @@
 			<img>sebok.png</img>
 			<alt>Guide to the Systems Engineering Body of Knowledge</alt>
 			<name>SEBoK</name>
-			<text>the systems engineering body of knowledge (2010), v.1.9.1 (2018)</text>
+			<text>the systems engineering body of knowledge (2010), v.2.7 (2022)</text>
 		</pic>
 		<pic>
 			<a>https://technicspub.com/dmbok/</a>

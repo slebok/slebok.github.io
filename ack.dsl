@@ -2,7 +2,7 @@
 <html doctype>
 	<head title="SLEBOK — Attribution"/>
 	<body>
-		<div style="text-align:center;"><a href="http://slebok.github.io">Software Language Engineering Body of Knowledge</a></div><hr/>
+		<div style="text-align:center;"><a href="https://slebok.github.io">Software Language Engineering Body of Knowledge</a></div><hr/>
 		<h1>
 			SLEBOK Acknowledgements
 			<img src="www/slebok.200.png" alt="SLEBOK" title="SLEBoK logo by Vadim Zaytsev in collaboration with Pieter Bruegel the Elder" />
@@ -38,11 +38,12 @@
 			<li><a href="http://grammarware.net">Vadim Zaytsev</a> was a participant/speaker at all SLEBOK-related events, as well as the co-founder of the OOPSLE workshop and the founder of other related projects.
 				<ul>
 					<li><a href="http://grammarware.github.io">List of projects</a></li>
-					<li><a href="http://slebok.github.io/dyol">Design Your Own Language (DYOL)</a></li>
+					<li><a href="https://slebok.github.io/proverb/">Program Verification Book (ProVerB)</a></li>
+					<li><a href="https://slebok.github.io/dyol">Design Your Own Language (DYOL)</a></li>
 					<li><a href="http://oopsle.github.io">Open and Original Problems in Software Language Engineering (OOPSLE)</a></li>
 					<li><a href="http://bibtex.github.io">Bibliography of Software Language Engineering in Generated Hypertext (BibSLEIGH)</a></li>
-					<li><a href="http://slebok.github.io/zoo">Grammar Zoo</a></li>
-					<li><a href="http://slebok.github.io/sleg">SLE Glossary of Terms</a></li>
+					<li><a href="https://slebok.github.io/zoo">Grammar Zoo</a></li>
+					<li><a href="https://slebok.github.io/sleg">SLE Glossary of Terms</a></li>
 					<li><a href="http://grammarware.net/talks/index.html#Subatomic2012">Subatomic Scientific Knowledge Objects</a> (SL(E)BOK 2012 invited talk)</li>
 				</ul>
 			</li>
@@ -63,6 +64,11 @@
 				<ul>
 					<li><a href="http://www.scriptiesonline.uba.uva.nl/634574">Towards a Catalogue of Grammar Smells</a> (MSc thesis @ UvA)</li>
 					<li><a href="grass/">GraSs: A Taxonomy of Grammar Smells</a></li>
+				</ul>
+			</li>
+			<li><a href="https://wwwhome.ewi.utwente.nl/~lathouwerssam/">Sophie Lathouwers</a> was a PhD student with an interest in program verification.
+				<ul>
+					<li><a href="https://slebok.github.io/proverb/">Program Verification Book (ProVerB)</a></li>
 				</ul>
 			</li>
 			<li>Speakers of the SL(E)BOK Workshop at SLE 2012:
