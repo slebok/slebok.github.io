@@ -14,16 +14,44 @@
 		<picdir>../www</picdir>
 		<divclass>tile</divclass>
 		<pic>
-			<a>https://conf.researchr.org/home/sle-2020</a>
+			<a>https://conf.researchr.org/home/sle-2022</a>
 			<img>sle.200.png</img>
-			<title>International Conference on Software Language Engineering (conference)</title>
-			<name>SLE’20</name>
-			<text>a conference on software languages, to be held at SPLASH\n<em>virtually</em></text>
+			<title>15th International Conference on Software Language Engineering (conference)</title>
+			<name>SLE’22</name>
+			<text>a conference on software languages, to be held at SPLASH</text>
 		</pic>
 		<pic>
-			<a>https://mleworkshop.github.io/mle2020.html</a>
+			<a>https://mleworkshop.github.io/editions/mle2022/</a>
 			<img>mle.200.png</img>
-			<title>International Workshop on Modeling Language Engineering and Execution (workshop)</title>
+			<title>Fourth International Workshop on Modeling Language Engineering and Execution (workshop)</title>
+			<name>MLE’22</name>
+			<text>a workshop on SLE in software modelling, held at MoDELS</text>
+		</pic>
+		<pic>
+			<a>https://conf.researchr.org/home/sle-2021</a>
+			<img>sle.200.png</img>
+			<title>14th International Conference on Software Language Engineering (conference)</title>
+			<name>SLE’21</name>
+			<text>a conference on software languages, held at SPLASH\n<em>virtually</em></text>
+		</pic>
+		<pic>
+			<a>https://mleworkshop.github.io/editions/mle2021/</a>
+			<img>mle.200.png</img>
+			<title>Third International Workshop on Modeling Language Engineering and Execution (workshop)</title>
+			<name>MLE’21</name>
+			<text>a workshop on SLE in software modelling, to be held at MoDELS\n<em>virtually</em></text>
+		</pic>
+		<pic>
+			<a>https://conf.researchr.org/home/sle-2020</a>
+			<img>sle.200.png</img>
+			<title>13th International Conference on Software Language Engineering (conference)</title>
+			<name>SLE’20</name>
+			<text>a conference on software languages, held at SPLASH\n<em>virtually</em></text>
+		</pic>
+		<pic>
+			<a>https://mleworkshop.github.io/editions/mle2020/</a>
+			<img>mle.200.png</img>
+			<title>Second International Workshop on Modeling Language Engineering and Execution (workshop)</title>
 			<name>MLE’20</name>
 			<text>a workshop on SLE in software modelling, to be held at MoDELS\n<em>virtually</em></text>
 		</pic>
@@ -44,7 +72,7 @@
 		<pic>
 			<a>http://gemoc.org/events/mle2019.html</a>
 			<img>mle.200.png</img>
-			<title>International Workshop on Modeling Language Engineering and Execution (workshop)</title>
+			<title>First International Workshop on Modeling Language Engineering and Execution (workshop)</title>
 			<name>MLE’19</name>
 			<text>a workshop on SLE in software modelling, held at MoDELS</text>
 		</pic>
