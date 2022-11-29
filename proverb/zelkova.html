@@ -75,27 +75,29 @@
 <li>Access control policies</li>
 <li>Security</li></ul>
 <h3>Expected input</h3>
-Two AWS policies to compare <strong>or</strong> one AWS policy and the name of a built-in Zelkova check.
+AWS policy
 
 <p>Format:</p>
 <ul>
 <li><em>AWS policy/policies</em>: AWS policy language, in JSON structure</li>
-<li><em>Name of Zelkova check</em>: passed as an argument</li>
 </ul>
 
 <h3>Expected output</h3>
-<em>When comparing policies</em>: it returns whether the first policy in the payload is less permissive, more permissive, equivalent or incomparable with respect to the second policy
-
-<em>For built-in Zelkova check</em>: returns <code>true</code> or <code>false</code> based on whether the check is satisfied. It can also return <code>unknown</code> if it could not handle a construct in the policy or the solver times out.
+Set of declarative statements about what is true of the system.
+The user should check whether these findings are acceptable or not.
 
 <h3>Internals</h3>
 Tool that encodes access policies as logical formulas and uses SMT solvers to answer questions about these policies.
 
 Uses <a href="z3.html">Z3</a>, <a href="cvc4.html">CVC4</a> and <a href="z3automata.html" class="broken">Z3Automata</a> (in-house extension of Z3 to deal with regex).
+
+<h3>Comments</h3>
+The way this tool should be used has significantly changed since the CAV '22 paper. The tool now returns a detailed set of findings about the system instead of letting the user write specifications.
 </div><div class="meta-info"><div><span class="tag"><a href="security.html">Security</a></span></div><h4>Related papers</h4>
-<a href="https://doi.org/10.23919/FMCAD.2018.8602994">Semantic-based Automated Reasoning for AWS Access Policies using SMT</a> (FMCAD '18)
+<ul><li><a href="https://doi.org/10.1007/978-3-031-13185-1_1">A Billion SMT Queries a Day</a> (CAV 2022)</li>
+<li><a href="https://doi.org/10.23919/FMCAD.2018.8602994">Semantic-based Automated Reasoning for AWS Access Policies using SMT</a> (FMCAD '18)</li></ul>
 <h4>Last publication date</h4>
-2018
+2022
 <h4>Related tools</h4>
 <a href="secguru.html" class="broken">SecGuru</a>, <a href="iamaccessanalyzer.html">IAM Access Analyzer</a>
 <h4>ProVerB specific</h4><p><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/Zelkova.md">View/edit source</a> (Markdown)</p></div>

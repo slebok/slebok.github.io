@@ -9,7 +9,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="initial-scale=1.0"/>
-		<title>Index — ProVerB — SLEBoK</title>
+		<title>EXIST — ProVerB — SLEBoK</title>
 		<link href="main.css" rel="stylesheet" type="text/css" />
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
@@ -68,18 +68,47 @@
 			</nav>
 		</div>
 		<div class="main">
-			<div class="tabbertab"><h1 class="fbs">Smart contract in ProVerB</h1><ul>
-<li><a href="helmholtz.html">Helmholtz</a></li>
-<li><a href="moveprover.html">Move Prover</a></li>
-<li><a href="solcmc.html" class="broken">SolCMC</a></li>
-<li><a href="syrup.html">syrup</a></li>
+			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> EXIST</h1><h3>Application domain/field</h3>
+<ul><li>Probabilistic programs</li>
+<li>Invariant generation</li></ul>
+<h3>Type of tool</h3>
+Invariant inference tool
+<h3>Expected input</h3>
+<ul>
+<li>Number of runs</li>
+<li>Number of states</li>
+<li>Whether to learn a subinvariant or an exact invariant</li>
 </ul>
-<p>4 items on this list.</p></div>
+
+<p>Format:</p>
+Has to be passed as parameters to the Python program.
+If you want to run it on a different program/benchmark, then one should encode the program in their specific Python files.
+
+<h3>Expected output</h3>
+Invariants
+
+<h3>Internals</h3>
+Infers invariants for probabilistic programs.
+Exist will execute the program multiple times on a set of input states. It uses machine learning to learn models encoding possible invariants.
+</div><div class="meta-info"><div><span class="tag"><a href="p.html">Probabilistic programs</a></span>
+<span class="tag"><a href="synthesis.html">Synthesis</a></span></div><h4>Links</h4>
+- Repository: <a href="https://github.com/JialuJialu/Exist."><code>https://github.com/JialuJialu/Exist.</code></a>
+<h4>Last commit date</h4>
+12 June 2022
+<h4>Related papers</h4>
+<a href="https://doi.org/10.1007/978-3-031-13185-1_3">Data-Driven Invariant Learning for Probabilistic Programs</a> (CAV 2022)
+<h4>Last publication date</h4>
+2022
+<h4>Related tools</h4>
+<ul><li>Other tool for inferring invariants for probabilistic programs: <a href="prinsys.html" class="broken">PRINSYS</a></li>
+<li>Tool for computing expected values after probabilistic loops: <a href="mora.html" class="broken">MORA</a></li></ul>
+<h4>ProVerB specific</h4><p><a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/EXIST.md">View/edit source</a> (Markdown)</p></div>
 		</div>
 		<br/><hr/>
 		<div class="f">
 			<a href="help.html">ProVerB</a> is a part of <a href="https://slebok.github.io/">SLEBoK</a>.
 			Last updated: <strong>November 2022</strong>.
+<br/>Source of this entry: <a href="[CAV '22](https://doi.org/10.1007/978-3-031-13185-1)" class="broken"><code>[CAV '22](https://doi.org/10.1007/978-3-031-13185-1)</code></a>.
 		</div>
 	</body>
 </html>
