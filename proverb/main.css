@@ -112,7 +112,7 @@ blockquote {border: 1px solid #004D40; padding: 10px}
 .red, .red a, .red a:visited, .cool a, .cool a:visited {color:#fb3640}
 a, a:visited, a.blue, a.blue:visited {color:#1a237e}
 a.broken, a.broken:visited {color: #da237e}
-.red a:hover {font-weight:bold}
+.red a:hover, .sic {font-weight:bold}
 .c {text-align:center; font-weight:bold}
 .c h1, .c h2 {margin: 0px}
 .c a {text-decoration: none;}
@@ -123,8 +123,6 @@ td:last-child {font-style:italic}
 .f {width:100%; text-align:right; font-style:italic; font-size:smaller}
 hr {color: hsl(210,0%,95%);}
 .f img {float: left}
-.tabbertab a {font-weight: bold}
-.tabbertab a.nobold {font-weight: normal;}
 .kw {color: #8C61DF; font-weight: bold}
 
 div.rl {width: 24em; height: 220px; border: solid #00695C 2px; border-top: none; right: 0; left: 0; margin-left: auto;margin-right: auto}
