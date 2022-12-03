@@ -68,7 +68,7 @@
 			</nav>
 		</div>
 		<div class="main">
-			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv1.html">PV1</a> ⊧</span> MeMin<span class="subtitle">minimizes Mealy machines</span></h1>SAT-based minimizer for Mealy machines
+			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv1.html">PV1</a> ⊧</span> MeMin<span class="subtitle">minimises Mealy machines</span></h1>SAT-based minimizer for Mealy machines
 
 <h3>Application domain/field</h3>
 <ul><li>Mealy machines</li>
@@ -82,16 +82,13 @@ Mealy machine
 <a href="kiss2.html" class="broken">KISS2</a> format
 
 <h3>Expected output</h3>
-<code>result.kiss</code> file describing the minimized Mealy machine.
+<code>result.kiss</code> file describing the minimised Mealy machine.
 
 <h3>Internals</h3>
 This tool focuses on minimizing <em>incompletely specified</em> Mealy machines (where one or mote outputs or next states might not be specified).
-When it minimized a Mealy machine M, it looks for a machine M' with the minimal number of states with the same input/output behavior on all input sequences for which the behavior of M is defined. M' might be defined on additional input on which M is not defined.
+When it minimised a Mealy machine M, it looks for a machine M' with the minimal number of states with the same input/output behavior on all input sequences for which the behavior of M is defined. M' might be defined on additional input on which M is not defined.
 
 Uses <a href="minisat.html">MiniSat</a>.
-
-<h3>Comments</h3>
-<strong>Not published at CAV or TACAS but mentioned in a "Uses" clause of another tool.</strong>
 </div><div class="meta-info"><div><span class="tag"><a href="automaton.html">Automaton</a></span></div><h4 class="hasul">Links</h4>
 <ul><li>Project page: <a href="http://embedded.cs.uni-saarland.de/MeMin.php"><code>http://embedded.cs.uni-saarland.de/MeMin.php</code></a></li>
 <li>Repository: <a href="https://github.com/andreas-abel/MeMin"><code>https://github.com/andreas-abel/MeMin</code></a></li></ul>
@@ -103,6 +100,7 @@ Uses <a href="minisat.html">MiniSat</a>.
 <h4>Last publication date</h4>
 2015<h4 class="hasul">ProVerB specific</h4><ul>
 <li>Markdown description: <a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/MeMin.md">view/edit</a></li>
+<li>Reason for this entry: used by <a href="strix.html">Strix</a></li>
 <li>Contained in the ProVerB22 dataset (<a href="https://doi.org/10.1145/3550355.3552426">paper</a> + <a href="https://doi.org/10.4121/20347950.v1">artefact</a>)</li>
 </ul></div>
 		</div>
