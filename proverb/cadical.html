@@ -9,7 +9,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="initial-scale=1.0"/>
-		<title>UWrMaxSat — ProVerB — SLEBoK</title>
+		<title>CaDiCaL — ProVerB — SLEBoK</title>
 		<link href="main.css" rel="stylesheet" type="text/css" />
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
@@ -68,44 +68,30 @@
 			</nav>
 		</div>
 		<div class="main">
-			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv4.html">PV4</a> ⊧</span> UWrMaxSat<span class="subtitle">a complete solver for partial weighted MaxSAT instances</span></h1>Solver for MaxSAT and pseudo-Boolean problems
+			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv4.html">PV4</a> ⊧</span> CaDiCaL<span class="subtitle">produces a satisfiability result for a formula</span></h1>SAT solver uses Conflict Driven Clause Learning (CDCL) and inprocessing, built with the main aim being clean, understandable and modifiable.
 
 <h3>Application domain/field</h3>
-<ul><li>MaxSAT problems</li>
-<li>Pseudo-Boolean problems</li></ul>
+SAT solving
 <h3>Type of tool</h3>
-Solver
-<h3>Expected input</h3>
-MaxSAT or pseudo-Boolean problem
-
-<p>Format:</p>
-<code>.wcnf</code> (MaxSAT) input file format or old variant of the OPB file format (<code>.opb</code>).
-
-<h3>Expected output</h3>
-<code>s SATISFIABLE</code>, <code>c SATISFIABLE</code>, <code>s UNSATISFIABLE</code> , <code>s OPTIMUM FOUND</code> or <code>s UNKNOWN</code>
-
-There is an option to print (more verbose) output to a file.
-
+SAT solver
 <h3>Internals</h3>
-Uses <a href="cominisatps.html" class="broken">COMiniSatPS</a>, which can be replaced with <a href="cadical.html">CaDiCaL</a> or <a href="glucose.html">Glucose</a> or <a href="mergesat.html" class="broken">mergesat</a>.
-Integrates the MaxPre preprocessor.
+Local search, target phases (generalisation of phase saving), rephasing, lucky phase detection, bounded variable elimination, failed literal probing, clause subsumption/vivification, chronological backtracking, incremental solving, model based testing.
 
-<h3>Comments</h3>
-This was created as an extension of <a href="minisatplus.html">MiniSat+</a>. It was extended such that it could deal with MaxSAT instances.
-</div><div class="meta-info"><div></div><h4>Links</h4>
-Repository: <a href="https://github.com/marekpiotrow/UWrMaxSat"><code>https://github.com/marekpiotrow/UWrMaxSat</code></a>
-<h4 class="hasul">Last commit date</h4>
-<ul><li>28 Sep 2022 (default branch)</li>
-<li>28 Sep 2022 (last activity)</li></ul>
-<h4>Related papers</h4>
-<a href="https://doi.org/10.1109/ICTAI50040.2020.00031">UWrMaxSat: Efficient Solver for MaxSAT and Pseudo-Boolean Problems</a> (ICTAI 2020)
+License: MIT
+</div><div class="meta-info"><div><span class="tag"><a href="sat.html">SAT</a></span></div><h4 class="hasul">Links</h4>
+<ul><li>Project page: <a href="http://fmv.jku.at/cadical/"><code>http://fmv.jku.at/cadical/</code></a></li>
+<li>Repository: <a href="https://github.com/arminbiere/cadical"><code>https://github.com/arminbiere/cadical</code></a></li></ul>
+<h4>Last commit date</h4>
+17 Aug 2022
+<h4 class="hasul">Related papers</h4>
+<ul><li><a href="http://fmv.jku.at/papers/Biere-SAT-Race-2019-solvers.pdf">CaDiCaL at the SAT Race 2019</a></li>
+<li><a href="https://doi.org/10.1007/978-3-030-24258-9_18">Backing Backtracking</a></li></ul>
 <h4>Last publication date</h4>
-November 2020
+2019
 <h4>Related tools</h4>
-"Since the version 1.3 you can merge the power of this solver with the <a href="scip.html" class="broken">SCIP</a> solver, if you have a licence to use it"<h4 class="hasul">ProVerB specific</h4><ul>
-<li>Markdown description: <a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/Solvers/UWrMaxSat.md">view/edit</a></li>
-<li>Reason for this entry: extension of <a href="minisatplus.html">MiniSat+</a></li>
-<li>Contained in the ProVerB22 dataset (<a href="https://doi.org/10.1145/3550355.3552426">paper</a> + <a href="https://doi.org/10.4121/20347950.v1">artefact</a>)</li>
+<a href="parafrost.html">ParaFROST</a> (extension), <a href="mobical.html" class="broken">Mobical</a> (integrated model based tester), <a href="yalsat.html" class="broken">YalSAT</a> (earlier experiment with local search), <a href="lingeling.html">Lingeling</a> (earlier experiment with lucky phases)<h4 class="hasul">ProVerB specific</h4><ul>
+<li>Markdown description: <a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/Solvers/SAT/CaDiCaL.md">view/edit</a></li>
+<li>Reason for this entry: extended by <a href="parafrost.html">ParaFROST</a></li>
 </ul></div>
 		</div>
 		<br/><hr/>
