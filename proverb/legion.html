@@ -9,7 +9,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="initial-scale=1.0"/>
-		<title>Index — ProVerB — SLEBoK</title>
+		<title>LEGION — ProVerB — SLEBoK</title>
 		<link href="main.css" rel="stylesheet" type="text/css" />
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
@@ -68,29 +68,39 @@
 			</nav>
 		</div>
 		<div class="main">
-			<h1 class="fbs">PV0 tools in ProVerB<span class="subtitle">PV0</span></h1>PV0 tools manipulate given and produced software artefacts with some degree of rigour. Conceptually such artefacts then may correspond to mathematical and formal entities, but this correspondence is mostly a matter of expectations. This category should be reasonably unpopulated since we mostly avoid to include such tools listed on this website.<ul>
-<li><a href="antlr.html">ANTLR</a> (works with grammars which are relatively strictly structured)</li>
-<li><a href="apfloat.html">Apfloat</a> (operates on extreme-precision real numbers (with millions of digits))</li>
-<li><a href="automata.html">Automata</a> (a library to compose symbolic automata and prepare them for analysis)</li>
-<li><a href="ceramist.html">Ceramist</a> (Coq library for reasoning about Approximate Membership Query structures)</li>
-<li><a href="crab.html">Crab</a> (a library for building abstract interpretation-based analyses)</li>
-<li><a href="cudd.html">CUDD</a> (a C package for manipulating decision diagrams)</li>
-<li><a href="dg.html">DG</a> (a library that provides data structures and algorithms for program analysis and slicing)</li>
-<li><a href="emtst.html">EMTST</a> (proof assistant library for reasoning about session types)</li>
-<li><a href="exist.html">EXIST</a></li>
-<li><a href="javasmt.html">JavaSMT</a> (API for accessing SMT solvers in Java)</li>
-<li><a href="jconstraints.html">JConstraints</a> (a Java library for working with logic constraints)</li>
-<li><a href="learnlib.html">LearnLib</a> (a library for active automata learning)</li>
-<li><a href="legion.html">LEGION</a></li>
-<li><a href="levelup.html">LEVEL-UP</a></li>
-<li><a href="mpfr.html">MPFR</a> (C library for multiple-precision floating-point computations)</li>
-<li><a href="prosa.html">Prosa</a> (a repository of definitions and proofs for real-time schedulability analysis)</li>
-<li><a href="smtswitch.html">Smt-Switch</a> (a collection of abstract classes useful for SMT solving)</li>
-<li><a href="solcmc.html">SolCMC</a></li>
-<li><a href="srm.html">SRM</a> (quickly generates matches from regular expressions)</li>
-<li><a href="udbm.html">UDBM</a> (library to manipulate difference bounded matrices in UPPAAL)</li>
-</ul>
-<p>20 items on this list.</p>
+			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> LEGION</h1><h3>Application domain/field</h3>
+<ul><li>Model checking</li>
+<li>Bounded model checking</li>
+<li>Sequential programs</li>
+<li>Termination</li></ul>
+<h3>Type of tool</h3>
+Bounded model checker
+<h3>Expected input</h3>
+Program (with an entry-point procedure called <code>main</code>)
+Property? (unclear, possibly assertions in the program)
+
+<p>Format:</p>
+<a href="boogie.html">Boogie</a> program
+
+<h3>Expected output</h3>
+Whether the program is safe, unsafe (with counterexample trace) or undecided
+
+<h3>Internals</h3>
+The verification question that they focus on is whether there exists a terminating execution of P. In other words, whether there is any execution of <code>main</code> that reaches its return statement. If no such execution exists, then the program is considered safe.
+They require the program to not contain any loops or recursive procedure calls. Such calls must be unrolled to a pre-determined depth before starting verification.
+
+Uses <a href="z3.html">Z3</a> to solve SMT queries.
+</div><div class="meta-info"><div><span class="tag"><a href="modelchecking.html">Model checking</a></span></div><h4>Links</h4>
+- Repository: <a href="https://github.com/boogie-org/corral"><code>https://github.com/boogie-org/corral</code></a> ((branch:legion).)<ul><li>Last commit date: 6 May 2022 (branch: legion)</li></ul>
+<h4>Related papers</h4>
+<a href="https://doi.org/10.1007/978-3-031-13185-1_15">Proof-Guided Underapproximation Widening for Bounded Model Checking</a> (CAV 2022)
+<h4>Last publication date</h4>
+7 August 2022
+<h4>Related tools</h4>
+Compared to in CAV '22 paper: <a href="corral.html" class="broken">CORRAL</a><h4 class="hasul">ProVerB specific</h4><ul>
+<li>Markdown description: <a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/LEGION.md">view/edit</a></li>
+<li>Reason for this entry: <a class="sic" href="https://doi.org/10.1007/978-3-031-13185-1">CAV 2022</a></li>
+</ul></div>
 		</div>
 		<br/><hr/>
 		<div class="f">
