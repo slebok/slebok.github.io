@@ -9,7 +9,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="initial-scale=1.0"/>
-		<title>Index — ProVerB — SLEBoK</title>
+		<title>STLmc — ProVerB — SLEBoK</title>
 		<link href="main.css" rel="stylesheet" type="text/css" />
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
@@ -68,15 +68,41 @@
 			</nav>
 		</div>
 		<div class="main">
-			<h1 class="fbs">STL in ProVerB<span class="subtitle">Signal Temporal Logic</span></h1>
-<h4>Links</h4>
-<ul><li><a href="https://en.wikipedia.https://arxiv.org/abs/1808.03315"><code>https://en.wikipedia.https://arxiv.org/abs/1808.03315</code></a></li>
-<li><a href="https://people.eecs.berkeley.edu/~sseshia/fmee/lectures/EECS294-98_Spring2014_STL_Lecture.pdf"><code>https://people.eecs.berkeley.edu/~sseshia/fmee/lectures/EECS294-98_Spring2014_STL_Lecture.pdf</code></a></li></ul>
-<h3>Tools</h3><ul>
-<li><a href="stlinspector.html">STLInspector</a></li>
-<li><a href="stlmc.html">STLmc</a></li>
+			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv3.html">PV3</a> ⊧</span> STLmc<span class="subtitle">checks whether STL properties hold for a given hybrid system</span></h1><h3>Application domain/field</h3>
+<ul><li>Signal Temporal Logic (STL)</li>
+<li>Hybrid systems</li>
+<li>Bounded model checking</li></ul>
+<h3>Type of tool</h3>
+Model checker
+<h3>Expected input</h3>
+<ul>
+<li>Model of hybrid system, i.e. hybrid automaton</li>
+<li>STL properties</li>
 </ul>
-<p>2 items on this list.</p>
+
+<p>Format:</p>
+<ul>
+<li><em>Model</em>: <code>.model</code> file, STLmc modelling language</li>
+<li><em>STL property</em>: also specified in the model file, STLmc modelling language</li>
+</ul>
+
+<h3>Expected output</h3>
+Whether the properties hold or not.
+If not, a counterexample can be shown.
+
+<h3>Internals</h3>
+The tool can be used to verify that, up to given bounds, the robustness degree of an STL formula <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x003C6;</mi></mrow></math> is greater than a robustness threshold <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x003F5;</mi><mo>&#x0003E;</mo><mn>0</mn></mrow></math> for all possible behaviors of the ysstem.
+This is done by reducing the STL model checking problem to Boolean STL model checking using <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x003F5;</mi></mrow></math>-strengthening.
+
+It uses SMT solvers such as <a href="z3.html">Z3</a>, <a href="yices.html">Yices</a>2 and <a href="dreal.html">dReal</a>.
+</div><div class="meta-info"><div><span class="tag"><a href="modelchecking.html">Model checking</a></span>
+<span class="tag"><a href="stl.html" title="Signal Temporal Logic">STL</a></span></div><h4 class="hasul">Links</h4>
+<ul><li>Project page: <a href="https://stlmc.github.io"><code>https://stlmc.github.io</code></a></li>
+<li>Repository: <a href="https://github.com/stlmc/stlmc"><code>https://github.com/stlmc/stlmc</code></a><ul><li>Last commit date: 2 February 2023</li></ul></li></ul>
+<h4>Related papers</h4>
+<a href="https://doi.org/10.1007/978-3-031-13185-1_26">STLmc:  Robust Model Checking of Hybrid Systems Using SMT</a> (CAV 2022)
+<h4>Last publication date</h4>
+7 August 2022<h4>ProVerB specific</h4><p>Markdown description: <a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/Checkers/STLmc.md">view/edit</a></p></div>
 		</div>
 		<br/><hr/>
 		<div class="f">
