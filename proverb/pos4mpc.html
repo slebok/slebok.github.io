@@ -1,0 +1,109 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html version="-//W3C//DTD XHTML 1.1//EN"
+			xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.w3.org/1999/xhtml
+													http://www.w3.org/MarkUp/SCHEMA/xhtml11.xsd">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="initial-scale=1.0"/>
+		<title>PoS4MPC — ProVerB — SLEBoK</title>
+		<link href="main.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-3743366-7']);
+			_gaq.push(['_setDomainName', 'github.io']);
+			_gaq.push(['_setAllowLinker', true]);
+			_gaq.push(['_trackPageview']);
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		</script>
+	</head>
+	<body>
+		<div class="left">
+			<div class="logo">
+				<a href="index.html"><img src="proverb.png" alt="ProVerB"/></a>
+				<h3>Program<br/>Verification<br/>Book</h3>
+			</div>
+			<nav>
+				<ul style="margin: 0;padding: 0;">
+					<li>
+						<a href="index.html">Homepage</a>
+					</li>
+					<li>
+						<a href="all.html">All tools</a>
+					</li>
+					<ul>
+						
+					<li>
+							<a href="pv0.html" title="unprocessed/nonverifying">PV0</a>
+						</li><li>
+							<a href="pv1.html" title="solvers/linters">PV1</a>
+						</li><li>
+							<a href="pv2.html" title="synthesisers">PV2</a>
+						</li><li>
+							<a href="pv3.html" title="property checkers">PV3</a>
+						</li><li>
+							<a href="pv4.html" title="monoverifiers">PV4</a>
+						</li><li>
+							<a href="pv5.html" title="spec compilers">PV5</a>
+						</li><li>
+							<a href="pv6.html" title="proof assistants">PV6</a>
+						</li><li>
+							<a href="framework.html">Frameworks</a>
+						</li></ul>
+					<li>
+							<a href="tags.html">Tags</a>
+						</li><li>
+							<a href="specificationformat.html">Specification formats</a>
+						</li><li>
+						<a href="credits.html">About</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<div class="main">
+			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv2.html">PV2</a> ⊧</span> PoS4MPC: Policy Synthesis for MPC<span class="subtitle">synthesises security policy for secure multi-party computation</span></h1><h3>Application domain/field</h3>
+<ul><li>Synthesis</li>
+<li>Security policy</li>
+<li>Symbolic execution</li></ul>
+<h3>Type of tool</h3>
+Synthesis tool
+<h3>Expected input</h3>
+<ul>
+<li>MPC (multi-party computation) program</li>
+</ul>
+
+<p>Format:</p>
+C program
+
+<h3>Expected output</h3>
+Computes a security policy for the given program such that the number of secret variables that are declared is as low as possible.
+The program is transformed into Obliv-C such that it can be compiled into executable implementations.
+
+<h3>Internals</h3>
+Uses <a href="klee.html">KLEE</a> as symbolic execution engine.
+</div><div class="meta-info"><div><span class="tag"><a href="c.html">C</a></span>
+<span class="tag"><a href="security.html">Security</a></span>
+<span class="tag"><a href="synthesis.html">Synthesis</a></span></div><h4>Links</h4>
+- Repository: <a href="https://github.com/SPoS4/PoS4MPC"><code>https://github.com/SPoS4/PoS4MPC</code></a><ul><li>Last commit date: 20 January 2022</li></ul>
+<h4>Related papers</h4>
+<a href="https://doi.org/10.1007/978-3-031-13185-1"><code>https://doi.org/10.1007/978-3-031-13185-1</code></a> (CAV 2022)
+<h4>Last publication date</h4>
+7 August 2022<h4 class="hasul">ProVerB specific</h4><ul>
+<li>Markdown description: <a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/Synthesiser/PoS4MPC.md">view/edit</a></li>
+<li>Reason for this entry: <a class="sic" href="https://doi.org/10.1007/978-3-031-13185-1">CAV 2022</a></li>
+</ul></div>
+		</div>
+		<br/><hr/>
+		<div class="f">
+			<a href="index.html">ProVerB</a> is a part of <a href="https://slebok.github.io/">SLEBoK</a>.
+			Last updated: <strong>February 2023</strong>.
+		</div>
+	</body>
+</html>

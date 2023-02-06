@@ -1,0 +1,107 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html version="-//W3C//DTD XHTML 1.1//EN"
+			xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.w3.org/1999/xhtml
+													http://www.w3.org/MarkUp/SCHEMA/xhtml11.xsd">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="initial-scale=1.0"/>
+		<title>EntropyEstimation — ProVerB — SLEBoK</title>
+		<link href="main.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-3743366-7']);
+			_gaq.push(['_setDomainName', 'github.io']);
+			_gaq.push(['_setAllowLinker', true]);
+			_gaq.push(['_trackPageview']);
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		</script>
+	</head>
+	<body>
+		<div class="left">
+			<div class="logo">
+				<a href="index.html"><img src="proverb.png" alt="ProVerB"/></a>
+				<h3>Program<br/>Verification<br/>Book</h3>
+			</div>
+			<nav>
+				<ul style="margin: 0;padding: 0;">
+					<li>
+						<a href="index.html">Homepage</a>
+					</li>
+					<li>
+						<a href="all.html">All tools</a>
+					</li>
+					<ul>
+						
+					<li>
+							<a href="pv0.html" title="unprocessed/nonverifying">PV0</a>
+						</li><li>
+							<a href="pv1.html" title="solvers/linters">PV1</a>
+						</li><li>
+							<a href="pv2.html" title="synthesisers">PV2</a>
+						</li><li>
+							<a href="pv3.html" title="property checkers">PV3</a>
+						</li><li>
+							<a href="pv4.html" title="monoverifiers">PV4</a>
+						</li><li>
+							<a href="pv5.html" title="spec compilers">PV5</a>
+						</li><li>
+							<a href="pv6.html" title="proof assistants">PV6</a>
+						</li><li>
+							<a href="framework.html">Frameworks</a>
+						</li></ul>
+					<li>
+							<a href="tags.html">Tags</a>
+						</li><li>
+							<a href="specificationformat.html">Specification formats</a>
+						</li><li>
+						<a href="credits.html">About</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<div class="main">
+			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv1.html">PV1</a> ⊧</span> EntropyEstimation<span class="subtitle">computes the Shannon entropy for a given program</span></h1><h3>Application domain/field</h3>
+<ul><li>Quantified information flow</li>
+<li>Confidentiality measurements</li>
+<li>Information leakage</li></ul>
+<h3>Expected input</h3>
+Boolean formula
+
+<p>Format:</p>
+CNF file
+
+<h3>Expected output</h3>
+Shannon entropy estimation
+
+<h3>Internals</h3>
+Estimates the Shannon entropy of a formula <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x003C6;</mi></mrow></math> such that the computed estimate is guaranteed to lie with (<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mn>1</mn><mo>&#x0002B;</mo><mo>&#x02212;</mo><mi>&#x003F5;</mi></mrow></math>)-factor of the ground truth with confidence at least <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mn>1</mn><mo>&#x02212;</mo><mi>&#x003B4;</mi></mrow></math>.
+
+They focus on Boolean formulas that capture the relationship between input X and output Y of a given program. They estimate the Shannon entropy for this Boolean formula.
+
+Uses <a href="ganak.html" class="broken">GANAK</a> for model counting queries and <a href="spur.html" class="broken">SPUR</a> for sampling queries.
+</div><div class="meta-info"><div><span class="tag"><a href="security.html">Security</a></span></div><h4 class="hasul">Links</h4>
+<ul><li>Repository: <a href="https://github.com/meelgroup/entropyestimation"><code>https://github.com/meelgroup/entropyestimation</code></a><ul><li>Last commit date: 4 June 2022</li></ul></li>
+<li>Technical report with the complete analysis for all of the benchmarks: <a href="https://arxiv.org/pdf/2206.00921.pdf."><code>https://arxiv.org/pdf/2206.00921.pdf.</code></a></li></ul>
+<h4>Related papers</h4>
+<a href="https://doi.org/10.1007/978-3-031-13185-1_18"><code>https://doi.org/10.1007/978-3-031-13185-1_18</code></a> (CAV 2022)
+<h4>Last publication date</h4>
+7 August 2022<h4 class="hasul">ProVerB specific</h4><ul>
+<li>Markdown description: <a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/EntropyEstimation.md">view/edit</a></li>
+<li>Reason for this entry: <a class="sic" href="https://doi.org/10.1007/978-3-031-13185-1">CAV 2022</a></li>
+</ul></div>
+		</div>
+		<br/><hr/>
+		<div class="f">
+			<a href="index.html">ProVerB</a> is a part of <a href="https://slebok.github.io/">SLEBoK</a>.
+			Last updated: <strong>February 2023</strong>.
+		</div>
+	</body>
+</html>
