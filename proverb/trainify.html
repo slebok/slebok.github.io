@@ -9,7 +9,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="initial-scale=1.0"/>
-		<title>Index — ProVerB — SLEBoK</title>
+		<title>Trainify — ProVerB — SLEBoK</title>
 		<link href="main.css" rel="stylesheet" type="text/css" />
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
@@ -68,59 +68,36 @@
 			</nav>
 		</div>
 		<div class="main">
-			<h1 class="fbs">C in ProVerB</h1><ul>
-<li><a href="2ls.html">2LS</a></li>
-<li><a href="allrepair.html">AllRepair</a></li>
-<li><a href="apoet.html">APOET</a></li>
-<li><a href="apron.html">APRON</a></li>
-<li><a href="aprove.html">AProVE</a></li>
-<li><a href="athos.html">ATHOS</a></li>
-<li><a href="cbmc.html">CBMC</a></li>
-<li><a href="cerberusbmc.html">Cerberus-BMC</a></li>
-<li><a href="code2inv.html">Code2Inv</a></li>
-<li><a href="compact.html">ComPACT</a></li>
-<li><a href="cpachecker.html">CPAchecker</a></li>
-<li><a href="daisy.html">Daisy</a></li>
-<li><a href="dartagnan.html">Dartagnan</a></li>
-<li><a href="depthk.html">DepthK</a></li>
-<li><a href="diffy.html">Diffy</a></li>
-<li><a href="divine.html">DIVINE</a></li>
-<li><a href="dpu.html">DPU</a></li>
-<li><a href="esbmc.html">ESBMC</a></li>
-<li><a href="forester.html">Forester</a></li>
-<li><a href="genmc.html">GenMC</a></li>
-<li><a href="gillian.html">Gillian</a></li>
-<li><a href="ifcbmc.html">IFC-BMC</a></li>
-<li><a href="ifccegar.html">IFC-CEGAR</a></li>
-<li><a href="interpchecker.html">InterpChecker</a></li>
-<li><a href="lctd.html">LCTD</a></li>
-<li><a href="loopus.html">Loopus</a></li>
-<li><a href="map2check.html">Map2Check</a></li>
-<li><a href="movec.html">MOVEC</a></li>
-<li><a href="mpfr.html">MPFR</a></li>
-<li><a href="mucseq.html">MU-CSeq</a></li>
-<li><a href="muval.html">MuVal</a></li>
-<li><a href="nidhugg.html">Nidhugg</a></li>
-<li><a href="pinaka.html">Pinaka</a></li>
-<li><a href="poet.html">POET</a></li>
-<li><a href="polyrl.html">Poly-RL</a></li>
-<li><a href="pos4mpc.html">PoS4MPC</a></li>
-<li><a href="predatorhp.html">PredatorHP</a></li>
-<li><a href="rank.html">RanK</a></li>
-<li><a href="saw.html">Software Analysis Workbench</a></li>
-<li><a href="seahorn.html">SeaHorn</a></li>
-<li><a href="skink.html">Skink</a></li>
-<li><a href="symdivine.html">SymDIVINE</a></li>
-<li><a href="termite.html">Termite</a></li>
-<li><a href="ultimateautomizer.html">Ultimate Automizer</a></li>
-<li><a href="ultimatetaipan.html">Ultimate Taipan</a></li>
-<li><a href="veriabs.html">VeriAbs</a></li>
-<li><a href="viap.html">VIAP</a></li>
-<li><a href="vvt.html">VVT</a></li>
-<li><a href="why3.html">Why3</a></li>
-<li><a href="yogarcbmc.html">Yogar-CBMC</a></li>
+			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv3.html">PV3</a> ⊧</span> Trainify<span class="subtitle">checks properties of a deep reinforcement learning systems</span></h1><h3>Application domain/field</h3>
+<ul><li>Deep reinforcement learning</li>
+<li>Counterexample-guided abstraction refinement (CEGAR)</li>
+<li>Model checking</li></ul>
+<h3>Type of tool</h3>
+Framework for training & verification of deep reinforcement learning systems
+<h3>Expected input</h3>
+<ul>
+<li>Deep neural network</li>
+<li>Properties in ACTL (segment of CTL where only universal path quantifiers are allowed and negation can only be used on atomic propositions)</li>
 </ul>
-<p>50 items on this list.</p>
+
+<p>Format:</p>
+? (seems to all be hardcoded in Python)
+
+<h3>Expected output</h3>
+Whether the property holds or not.
+
+<h3>Internals</h3>
+The tool builds a finite abstract state space using the trained neural network.
+</div><div class="meta-info"><div><span class="tag"><a href="dnn.html">DNN</a></span>
+<span class="tag"><a href="modelchecking.html">Model checking</a></span></div><h4>Links</h4>
+- Repository: <a href="https://github.com/aptx4869tjx/RL_verification"><code>https://github.com/aptx4869tjx/RL_verification</code></a><ul><li>Last commit date: 16 June 2022</li></ul>
+<h4>Related papers</h4>
+<a href="https://doi.org/10.1007/978-3-031-13185-1_10">TRAINIFY: A CEGAR-Driven Training and Verification Framework for Safe Deep Reinforcement Learning</a> (CAV 2022)
+<h4>Last publication date</h4>
+7 August 2022<h4 class="hasul">ProVerB specific</h4><ul>
+<li>Markdown description: <a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/Trainify.md">view/edit</a></li>
+<li>Reason for this entry: <a class="sic" href="https://doi.org/10.1007/978-3-031-13185-1">CAV 2022</a></li>
+</ul></div>
 		</div>
 		<br/><hr/>
 		<div class="f">
