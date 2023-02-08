@@ -20,7 +20,7 @@
 			text.i {font-style:italic;}
 		</style>
 	</defs>
-<!-- [('size', '33:4:1'), ('begin',), ('skip',), ('term', 'ADD', 2), ('skip',), ('skip',), ('nt', 'Atomic', 3), ('skip',), ('uploop', 5), ('skip',), ('term', 'TO', 1), ('skip',), ('nt', 'Atomic', 3), ('skip',), ('save', '1'), ('skip', 12), ('end',), ('load', '1'), ('downbranch',), ('term', 'GIVING', 3), ('skip',), ('nt', 'Identifier', 5), ('backbranch',)] -->
+<!-- [('size', '33:4:1'), ('begin',), ('skip',), ('term', 'ADD', 2), ('skip',), ('skip',), ('nt', 'Atomic', 3), ('skip',), ('uploop', 1, 5), ('skip',), ('term', 'TO', 1), ('skip',), ('nt', 'Atomic', 3), ('skip',), ('save', '1'), ('skip', 12), ('end',), ('load', '1'), ('downbranch',), ('term', 'GIVING', 3), ('skip',), ('nt', 'Identifier', 5), ('backbranch',)] -->
 <polygon points="28 40 20 36 20 44"/><polygon points="36 40 28 36 28 44"/><path d="M 36 40 h 20"/><text x="56" y="44">&nbsp;ADD</text><path d="M 96 40 h 20"/><path d="M 116 40 h 20"/><text class="i" x="136" y="44">Atomic</text><path d="M 196 40 h 20"/><path d="M 216 40 v -20 h -100 v 20"/><polygon points="116 39 112 31 120 31"/><path d="M 216 40 h 20"/><text x="236" y="44">TO</text><path d="M 256 40 h 20"/><text class="i" x="276" y="44">Atomic</text><path d="M 336 40 h 20"/><path d="M 356 40 h 240"/><polygon points="604 40 596 36 596 44"/><polygon points="604 40 612 36 612 44"/><path d="M 356 40 v 20 h 20"/><text x="376" y="64">GIVING</text><path d="M 436 60 h 20"/><text class="i" x="456" y="64">Identifier</text><path d="M 556 60 h 20 v -20"/><polygon points="576 41 572 49 580 49"/>
 </svg>
 

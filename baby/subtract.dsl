@@ -20,7 +20,7 @@
 			text.i {font-style:italic;}
 		</style>
 	</defs>
-<!-- [('size', '34:4:1'), ('begin',), ('skip',), ('term', 'SUBTRACT', 4), ('skip', 2), ('nt', 'Atomic', 3), ('skip',), ('uploop', 5), ('skip',), ('term', 'FROM', 2), ('skip',), ('nt', 'Atomic', 3), ('skip',), ('save', '1'), ('skip', 12), ('end',), ('load', '1'), ('downbranch',), ('term', 'GIVING', 3), ('skip',), ('nt', 'Identifier', 5), ('backbranch',)] -->
+<!-- [('size', '34:4:1'), ('begin',), ('skip',), ('term', 'SUBTRACT', 4), ('skip', 2), ('nt', 'Atomic', 3), ('skip',), ('uploop', 1, 5), ('skip',), ('term', 'FROM', 2), ('skip',), ('nt', 'Atomic', 3), ('skip',), ('save', '1'), ('skip', 12), ('end',), ('load', '1'), ('downbranch',), ('term', 'GIVING', 3), ('skip',), ('nt', 'Identifier', 5), ('backbranch',)] -->
 <polygon points="28 40 20 36 20 44"/><polygon points="36 40 28 36 28 44"/><path d="M 36 40 h 20"/><text x="56" y="44">SUBTRACT</text><path d="M 136 40 h 40"/><text class="i" x="176" y="44">Atomic</text><path d="M 236 40 h 20"/><path d="M 256 40 v -20 h -100 v 20"/><polygon points="156 39 152 31 160 31"/><path d="M 256 40 h 20"/><text x="276" y="44">FROM</text><path d="M 316 40 h 20"/><text class="i" x="336" y="44">Atomic</text><path d="M 396 40 h 20"/><path d="M 416 40 h 240"/><polygon points="664 40 656 36 656 44"/><polygon points="664 40 672 36 672 44"/><path d="M 416 40 v 20 h 20"/><text x="436" y="64">GIVING</text><path d="M 496 60 h 20"/><text class="i" x="516" y="64">Identifier</text><path d="M 616 60 h 20 v -20"/><polygon points="636 41 632 49 640 49"/>
 </svg>
 
