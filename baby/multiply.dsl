@@ -25,7 +25,7 @@
 </svg>
 
 <h2>Remarks</h2>
-<ul><li>all three arguments obey the rules of sufficient qualification</li><li>either of the first two arguments can be a literal</li><li>if the second argument is a literal, the third argument is mandatory</li><li>any of the three arguments can be an identifier defined with a numeric picture clause (free from <code>A</code> and <code>X</code>)</li></ul>
+<ul><li>multiplies each of the second arguments by the first argument and overwrites the old value of each second argument</li><li>so, for example, <code>MULTIPLY 2 BY X Y Z</code> will double the values of <code>X</code>, <code>Y</code> and <code>Z</code></li><li>all three arguments obey the rules of sufficient qualification</li><li>the first argument can be a literal or a field name</li><li>if the second argument is a literal, the third argument is mandatory</li><li>any of the three arguments can be an identifier defined with a numeric picture clause (free from <code>A</code> and <code>X</code>)</li></ul>
 <h2>Origins</h2>
 <span class="ff lang"><a href="cobol.html">COBOL</a></span>&nbsp;&nbsp;&nbsp;<span class="ff used"><a href="cobol.html" title="multiply numeric values">MULTIPLY</a></span> <br/><span class="ff lang"><a href="rpg.html">RPG</a></span>&nbsp;&nbsp;&nbsp;<span class="ff used"><a href="rpg.html" title="multiply two numbers">MULT</a></span> <br/>
 		<hr/>
