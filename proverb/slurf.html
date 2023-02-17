@@ -9,7 +9,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="initial-scale=1.0"/>
-		<title>Index — ProVerB — SLEBoK</title>
+		<title>SLURF — ProVerB — SLEBoK</title>
 		<link href="main.css" rel="stylesheet" type="text/css" />
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
@@ -68,60 +68,35 @@
 			</nav>
 		</div>
 		<div class="main">
-			<h1 class="fbs">C in ProVerB</h1><ul>
-<li><a href="2ls.html">2LS</a></li>
-<li><a href="allrepair.html">AllRepair</a></li>
-<li><a href="apoet.html">APOET</a></li>
-<li><a href="apron.html">APRON</a></li>
-<li><a href="aprove.html">AProVE</a></li>
-<li><a href="athos.html">ATHOS</a></li>
-<li><a href="cbmc.html">CBMC</a></li>
-<li><a href="cerberusbmc.html">Cerberus-BMC</a></li>
-<li><a href="code2inv.html">Code2Inv</a></li>
-<li><a href="compact.html">ComPACT</a></li>
-<li><a href="cpachecker.html">CPAchecker</a></li>
-<li><a href="daisy.html">Daisy</a></li>
-<li><a href="dartagnan.html">Dartagnan</a></li>
-<li><a href="depthk.html">DepthK</a></li>
-<li><a href="diffy.html">Diffy</a></li>
-<li><a href="divine.html">DIVINE</a></li>
-<li><a href="dpu.html">DPU</a></li>
-<li><a href="esbmc.html">ESBMC</a></li>
-<li><a href="forester.html">Forester</a></li>
-<li><a href="genmc.html">GenMC</a></li>
-<li><a href="gillian.html">Gillian</a></li>
-<li><a href="ifcbmc.html">IFC-BMC</a></li>
-<li><a href="ifccegar.html">IFC-CEGAR</a></li>
-<li><a href="interpchecker.html">InterpChecker</a></li>
-<li><a href="lctd.html">LCTD</a></li>
-<li><a href="loopus.html">Loopus</a></li>
-<li><a href="map2check.html">Map2Check</a></li>
-<li><a href="movec.html">MOVEC</a></li>
-<li><a href="mpfr.html">MPFR</a></li>
-<li><a href="mucseq.html">MU-CSeq</a></li>
-<li><a href="muval.html">MuVal</a></li>
-<li><a href="nidhugg.html">Nidhugg</a></li>
-<li><a href="pinaka.html">Pinaka</a></li>
-<li><a href="poet.html">POET</a></li>
-<li><a href="polyrl.html">Poly-RL</a></li>
-<li><a href="pos4mpc.html">PoS4MPC</a></li>
-<li><a href="predatorhp.html">PredatorHP</a></li>
-<li><a href="rank.html">RanK</a></li>
-<li><a href="saw.html">Software Analysis Workbench</a></li>
-<li><a href="seahorn.html">SeaHorn</a></li>
-<li><a href="skink.html">Skink</a></li>
-<li><a href="symdivine.html">SymDIVINE</a></li>
-<li><a href="termite.html">Termite</a></li>
-<li><a href="ultimateautomizer.html">Ultimate Automizer</a></li>
-<li><a href="ultimatetaipan.html">Ultimate Taipan</a></li>
-<li><a href="vercors.html">VerCors</a></li>
-<li><a href="veriabs.html">VeriAbs</a></li>
-<li><a href="viap.html">VIAP</a></li>
-<li><a href="vvt.html">VVT</a></li>
-<li><a href="why3.html">Why3</a></li>
-<li><a href="yogarcbmc.html">Yogar-CBMC</a></li>
+			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv0.html">PV0</a> ⊧</span> SLURF</h1><h3>Application domain/field</h3>
+<ul><li>Continuous-time Markov chains (CTMCs)</li>
+<li>Probabilistic systems</li>
+<li>Model checking</li></ul>
+<h3>Expected input</h3>
+<ul>
+<li>CTMC (Continuous-time Markov Chain)</li>
+<li>Parameter probability distribution file that defines the probability distributions of the parameters</li>
+<li>Property definition file that defines the properties that are verified by Storm</li>
+<li>Number of samples</li>
+<li>Confidence level</li>
 </ul>
-<p>51 items on this list.</p>
+
+<p>Format:</p>
+<ul>
+<li><em>CTMC</em>: model file, they support the <a href="prismlanguage.html">PRISM language</a> for parametric CTMCs and the <a href="galileo.html" class="broken">Galileo</a> format for parametric fault trees.</li>
+<li><em>Parameter probability distribution file</em>: Excel or CSV (semi-colon separated) file</li>
+<li><em>Property definition file</em>: Excel or CSV (semi-colon separated) file</li>
+<li>Others are passed as parameters when executing the python script.</li>
+</ul>
+
+<h3>Internals</h3>
+Uses <a href="storm.html">Storm</a>
+</div><div class="meta-info"><div><span class="tag"><a href="p.html">Probabilistic programs</a></span></div><h4>Links</h4>
+- Artifact: <a href="https://doi.org/10.5281/zenodo.6523863."><code>https://doi.org/10.5281/zenodo.6523863.</code></a>
+<h4>Related papers</h4>
+<a href="https://doi.org/10.1007/978-3-031-13188-2_2">Sampling-Based Verification of CTMC with Uncertain Rates</a> (CAV 2022)
+<h4>Last publication date</h4>
+7 August 2022<h4>ProVerB specific</h4><p>Markdown description: <a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/SLURF.md">view/edit</a></p></div>
 		</div>
 		<br/><hr/>
 		<div class="f">

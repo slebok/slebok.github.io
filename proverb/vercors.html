@@ -1,0 +1,124 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html version="-//W3C//DTD XHTML 1.1//EN"
+			xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.w3.org/1999/xhtml
+													http://www.w3.org/MarkUp/SCHEMA/xhtml11.xsd">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="initial-scale=1.0"/>
+		<title>VerCors — ProVerB — SLEBoK</title>
+		<link href="main.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-3743366-7']);
+			_gaq.push(['_setDomainName', 'github.io']);
+			_gaq.push(['_setAllowLinker', true]);
+			_gaq.push(['_trackPageview']);
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		</script>
+	</head>
+	<body>
+		<div class="left">
+			<div class="logo">
+				<a href="index.html"><img src="proverb.png" alt="ProVerB"/></a>
+				<h3>Program<br/>Verification<br/>Book</h3>
+			</div>
+			<nav>
+				<ul style="margin: 0;padding: 0;">
+					<li>
+						<a href="index.html">Homepage</a>
+					</li>
+					<li>
+						<a href="all.html">All tools</a>
+					</li>
+					<ul>
+						
+					<li>
+							<a href="pv0.html" title="unprocessed/nonverifying">PV0</a>
+						</li><li>
+							<a href="pv1.html" title="solvers/linters">PV1</a>
+						</li><li>
+							<a href="pv2.html" title="synthesisers">PV2</a>
+						</li><li>
+							<a href="pv3.html" title="property checkers">PV3</a>
+						</li><li>
+							<a href="pv4.html" title="monoverifiers">PV4</a>
+						</li><li>
+							<a href="pv5.html" title="spec compilers">PV5</a>
+						</li><li>
+							<a href="pv6.html" title="proof assistants">PV6</a>
+						</li><li>
+							<a href="framework.html">Frameworks</a>
+						</li></ul>
+					<li>
+							<a href="tags.html">Tags</a>
+						</li><li>
+							<a href="specificationformat.html">Specification formats</a>
+						</li><li>
+						<a href="credits.html">About</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<div class="main">
+			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv4.html">PV4</a> ⊧</span> VerCors<span class="subtitle">verifies user-written properties and memory-safety for a program</span></h1><h3>Application domain/field</h3>
+<ul><li>Concurrency</li>
+<li>Deductive verification</li>
+<li>Auto-active verification</li></ul>
+<h3>Type of tool</h3>
+Deductive verifier
+<h3>Expected input</h3>
+Program annotated with specifications
+
+<p>Format:</p>
+<ul>
+<li>Program: C, Java, PVL (own language)</li>
+<li>Specifications: added as annotations (in comments) to the program, written in their own specification language that was inspired by <a href="jml.html">JML</a>.</li>
+</ul>
+
+<h3>Expected output</h3>
+Whether the program adheres to the specification or not.
+
+<h3>Internals</h3>
+VerCors can be used to verify both functional properties and memory-safety. VerCors aims to verify concurrent and parallel programs.
+
+Two extensions have been built on top of VerCors namely <a href="alpinist.html" class="broken">Alpinist</a> and <a href="veymont.html" class="broken">VeyMont</a>.
+
+Uses <a href="viper.html">Viper</a>.
+</div><div class="meta-info"><div><span class="tag"><a href="c.html">C</a></span>
+<span class="tag"><a href="concurrency.html">Concurrency</a></span>
+<span class="tag"><a href="java.html">Java</a></span></div><h4 class="hasul">Links</h4>
+<ul><li>Repository: <a href="https://github.com/utwente-fmt/vercors"><code>https://github.com/utwente-fmt/vercors</code></a><ul><li>Last commit date: 16 February 2023</li></ul></li>
+<li>Project page: <a href="https://vercors.ewi.utwente.nl/"><code>https://vercors.ewi.utwente.nl/</code></a></li></ul>
+<h4 class="hasul">Related papers</h4>
+<ul><li><a href="https://doi.org/10.1007/978-3-031-19849-6_29">On Deductive Verification of an Industrial Concurrent Software Component with VerCors</a> (ISoLA '22)</li>
+<li><a href="https://doi.org/10.1007/978-3-030-85248-1_5">Modular Transformation of Java Exceptions Modulo Errors</a> (FMICS '21)</li>
+<li><a href="https://doi.org/10.1007/978-3-030-39322-9_19">Practical Abstractions for Automated Verification of Shared-Memory Concurrency</a> (VMCAI '20)</li>
+<li><a href="https://doi.org/10.1145/3236454.3236479">An Exercise in Verifying Sequential Programs with VerCors</a> (ISSTA '18)</li>
+<li><a href="https://doi.org/10.1007/978-3-319-66845-1_7">The VerCors Tool Set: Verification of Parallel and Concurrent Software</a> (IFM '17)</li>
+<li><a href="https://doi.org/10.1109/PDP.2016.107">VerCors: A Layered Approach to Practical Verification of Concurrent Software</a> (PDP '16)</li>
+<li><a href="https://doi.org/10.1007/978-3-319-06410-9_9">The VerCors Tool for Verification of Concurrent Systems</a> (FM '14)</li>
+<li><a href="https://doi.org/10.1145/2103776.2103785">The VerCors project: setting up basecamp</a> (PLPV '12)</li></ul>
+<h4>Last publication date</h4>
+17 October 2022
+<h4 class="hasul">Related tools</h4>
+<ul><li>Other deductive verifiers for C/Java: <a href="verifast.html">Verifast</a>, <a href="openjml.html" class="broken">OpenJML</a>, <a href="key.html">KeY</a></li>
+<li>Other verifiers that use <a href="viper.html">Viper</a>: <a href="gobra.html">Gobra</a>, <a href="nagini.html">Nagini</a>, <a href="prusti.html" class="broken">Prusti</a>, <a href="2vyper.html" class="broken">2vyper</a></li></ul><h4 class="hasul">ProVerB specific</h4><ul>
+<li>Markdown description: <a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/VerCors.md">view/edit</a></li>
+<li>Reason for this entry: requested by the VerCors team</li>
+</ul></div>
+		</div>
+		<br/><hr/>
+		<div class="f">
+			<a href="index.html">ProVerB</a> is a part of <a href="https://slebok.github.io/">SLEBoK</a>.
+			Last updated: <strong>February 2023</strong>.
+		</div>
+	</body>
+</html>
