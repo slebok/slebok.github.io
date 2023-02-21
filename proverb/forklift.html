@@ -9,7 +9,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="initial-scale=1.0"/>
-		<title>Index — ProVerB — SLEBoK</title>
+		<title>FORKLIFT — ProVerB — SLEBoK</title>
 		<link href="main.css" rel="stylesheet" type="text/css" />
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
@@ -68,33 +68,37 @@
 			</nav>
 		</div>
 		<div class="main">
-			<h1 class="fbs">Framework in ProVerB</h1><ul>
-<li><a href="abc.html">ABC</a></li>
-<li><a href="adam.html">Adam</a></li>
-<li><a href="alloy.html">Alloy</a></li>
-<li><a href="binsec.html">BINSEC</a></li>
-<li><a href="boogie.html">Boogie</a></li>
-<li><a href="cadp.html">CADP</a></li>
-<li><a href="compass.html">COMPASS</a></li>
-<li><a href="cprover.html">CProver</a></li>
-<li><a href="framac.html">Frama-C</a></li>
-<li><a href="hemiola.html">Hemiola</a></li>
-<li><a href="holba.html">HolBA</a></li>
-<li><a href="ilang.html">ILAng</a></li>
-<li><a href="ivy.html">Ivy</a></li>
-<li><a href="maude.html">Maude</a></li>
-<li><a href="modest.html">Modest</a></li>
-<li><a href="spot.html">Spot</a></li>
-<li><a href="uclid5.html">UCLID5</a></li>
-<li><a href="uppaal.html">UPPAAL</a></li>
-<li><a href="valgrind.html">Valgrind</a></li>
-<li><a href="verifai.html">VerifAI</a></li>
-<li><a href="viper.html">Viper</a></li>
-<li><a href="why3.html">Why3</a></li>
-<li><a href="xsap.html">xSAP</a></li>
-<li><a href="yosys.html">Yosys</a></li>
-</ul>
-<p>24 items on this list.</p>
+			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv1.html">PV1</a> ⊧</span> FORKLIFT<span class="subtitle">checks language-inclusion for Büchi automata</span></h1><h3>Application domain/field</h3>
+<ul><li>Inclusion</li>
+<li>Automata</li>
+<li>Büchi automata</li></ul>
+<h3>Type of tool</h3>
+Inclusion checker for Büchi automata
+<h3>Expected input</h3>
+Two Büchi automata A & B
+
+<p>Format:</p>
+Two <code>.ba</code> files (see: <a href="http://languageinclusion.org/doku.php?id=tools#the_ba_format)"><code>http://languageinclusion.org/doku.php?id=tools#the_ba_format)</code></a>
+
+<h3>Expected output</h3>
+0 if the language of automata A is a subset of the language of automata B.
+1 if the language of automata A is not a subset of the language of automata B.
+127 if the inclusion was not computed.
+
+<h3>Internals</h3>
+FORKLIFT is an inclusion checker for Büchi automata.
+</div><div class="meta-info"><div><span class="tag"><a href="automaton.html">Automaton</a></span></div><h4 class="hasul">Links</h4>
+<ul><li>Artifact: <a href="https://doi.org/10.5281/zenodo.6552870"><code>https://doi.org/10.5281/zenodo.6552870</code></a></li>
+<li>Repository: <a href="https://github.com/Mazzocchi/FORKLIFT"><code>https://github.com/Mazzocchi/FORKLIFT</code></a><ul><li>Last commit date: 7 June 2022</li></ul></li></ul>
+<h4>Related papers</h4>
+<a href="https://doi.org/10.1007/978-3-031-13188-2_6">FORQ-Based Language Inclusion Formal Testing</a> (CAV 2022)
+<h4>Last publication date</h4>
+6 August 2022
+<h4>Related tools</h4>
+Other tools that can solve inclusion problems: <a href="spot.html">Spot</a>, <a href="goal.html" class="broken">GOAL</a>, <a href="rabit.html">RABIT</a>, <a href="roll.html">ROLL</a>, <a href="bait.html" class="broken">BAIT</a><h4 class="hasul">ProVerB specific</h4><ul>
+<li>Markdown description: <a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/FORKLIFT.md">view/edit</a></li>
+<li>Reason for this entry: https://doi.org/10.1007/978-3-031-13188-2</li>
+</ul></div>
 		</div>
 		<br/><hr/>
 		<div class="f">
