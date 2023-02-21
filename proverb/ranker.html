@@ -9,7 +9,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="initial-scale=1.0"/>
-		<title>Index — ProVerB — SLEBoK</title>
+		<title>Ranker — ProVerB — SLEBoK</title>
 		<link href="main.css" rel="stylesheet" type="text/css" />
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
@@ -68,35 +68,36 @@
 			</nav>
 		</div>
 		<div class="main">
-			<h1 class="fbs">Specification format in ProVerB</h1><ul>
-<li><a href="acsl.html">ACSL</a></li>
-<li><a href="aiger.html">AIGER</a></li>
-<li><a href="ba.html">ba</a></li>
-<li><a href="blog.html">BLOG</a></li>
-<li><a href="btor.html">BTOR</a></li>
-<li><a href="btor2.html">BTOR2</a></li>
-<li><a href="dimacs.html">DIMACS</a></li>
-<li><a href="eranlanguage.html">ERAN language</a></li>
-<li><a href="gospel.html">GOSPEL</a></li>
-<li><a href="hoa.html">HOA</a></li>
-<li><a href="jani.html">JANI</a></li>
-<li><a href="javadl.html">JavaDL</a></li>
-<li><a href="jml.html">JML</a></li>
-<li><a href="lnt.html">LNT</a></li>
-<li><a href="onnx.html">ONNX</a></li>
-<li><a href="prismlanguage.html">PRISM language</a></li>
-<li><a href="promela.html">PROMELA</a></li>
-<li><a href="qaiger.html">QAIGER</a></li>
-<li><a href="qdimacs.html">QDIMACS</a></li>
-<li><a href="rtlola.html">RTLola</a></li>
-<li><a href="smtlib.html">SMT-LIB</a></li>
-<li><a href="spearmaf.html">SPEAR MAF</a></li>
-<li><a href="syguslanguage.html">SyGuS language</a></li>
-<li><a href="tpdb.html">TPDB</a></li>
-<li><a href="verilog.html">Verilog</a></li>
-<li><a href="whyml.html">WhyML</a></li>
+			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv1.html">PV1</a> ⊧</span> Ranker<span class="subtitle">constructs the complement of a Büchi automaton</span></h1><h3>Application domain/field</h3>
+<ul><li>Büchi automata</li>
+<li>Automata theory</li>
+<li>Complementation</li></ul>
+<h3>Expected input</h3>
+Büchi automata
+
+<p>Format:</p>
+<a href="hoa.html">HOA</a> or <a href="../../formats/ba.html" class="broken">../../Formats/ba</a> format
+
+<h3>Expected output</h3>
+Complement of the Büchi automaton
+
+<h3>Internals</h3>
+Ranker supports several types of <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x003C9;</mi></mrow></math>-automata:
+<ul>
+<li>Büchi automata with mixed transition-based/state-based acceptance condition</li>
+<li>Generalized co-Büchi automata</li>
 </ul>
-<p>26 items on this list.</p>
+</div><div class="meta-info"><div><span class="tag"><a href="automaton.html">Automaton</a></span></div><h4>Links</h4>
+- Repository: <a href="https://github.com/vhavlena/ranker"><code>https://github.com/vhavlena/ranker</code></a><ul><li>Last commit date: 30 December 2022</li></ul>
+<h4>Related papers</h4>
+<a href="https://doi.org/10.1007/978-3-031-13188-2_10">Complementing Büchi Automata with Ranker</a> (CAV 2022)
+<h4>Last publication date</h4>
+6 August 2022
+<h4>Related tools</h4>
+Compared to in CAV '22 paper: <a href="roll.html">ROLL</a>, <a href="goal.html" class="broken">GOAL</a>, <a href="spot.html">Spot</a>, <a href="seminator.html">Seminator</a> 2, <a href="ltl2dstar.html" class="broken">LTL2DSTAR</a><h4 class="hasul">ProVerB specific</h4><ul>
+<li>Markdown description: <a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/Ranker.md">view/edit</a></li>
+<li>Reason for this entry: https://doi.org/10.1007/978-3-031-13188-2</li>
+</ul></div>
 		</div>
 		<br/><hr/>
 		<div class="f">

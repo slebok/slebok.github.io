@@ -9,7 +9,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="initial-scale=1.0"/>
-		<title>Index — ProVerB — SLEBoK</title>
+		<title>VeriQFair — ProVerB — SLEBoK</title>
 		<link href="main.css" rel="stylesheet" type="text/css" />
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
@@ -68,35 +68,39 @@
 			</nav>
 		</div>
 		<div class="main">
-			<h1 class="fbs">Specification format in ProVerB</h1><ul>
-<li><a href="acsl.html">ACSL</a></li>
-<li><a href="aiger.html">AIGER</a></li>
-<li><a href="ba.html">ba</a></li>
-<li><a href="blog.html">BLOG</a></li>
-<li><a href="btor.html">BTOR</a></li>
-<li><a href="btor2.html">BTOR2</a></li>
-<li><a href="dimacs.html">DIMACS</a></li>
-<li><a href="eranlanguage.html">ERAN language</a></li>
-<li><a href="gospel.html">GOSPEL</a></li>
-<li><a href="hoa.html">HOA</a></li>
-<li><a href="jani.html">JANI</a></li>
-<li><a href="javadl.html">JavaDL</a></li>
-<li><a href="jml.html">JML</a></li>
-<li><a href="lnt.html">LNT</a></li>
-<li><a href="onnx.html">ONNX</a></li>
-<li><a href="prismlanguage.html">PRISM language</a></li>
-<li><a href="promela.html">PROMELA</a></li>
-<li><a href="qaiger.html">QAIGER</a></li>
-<li><a href="qdimacs.html">QDIMACS</a></li>
-<li><a href="rtlola.html">RTLola</a></li>
-<li><a href="smtlib.html">SMT-LIB</a></li>
-<li><a href="spearmaf.html">SPEAR MAF</a></li>
-<li><a href="syguslanguage.html">SyGuS language</a></li>
-<li><a href="tpdb.html">TPDB</a></li>
-<li><a href="verilog.html">Verilog</a></li>
-<li><a href="whyml.html">WhyML</a></li>
+			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv1.html">PV1</a> ⊧</span> VeriQFair<span class="subtitle">computes the Lipschitz constant of a quantum decision model</span></h1><h3>Application domain/field</h3>
+<ul><li>Machine learning</li>
+<li>Quantum machine learning</li>
+<li>Fairness</li></ul>
+<h3>Expected input</h3>
+<ul>
+<li>Quantum decision model</li>
+<li>Qubits (all qubits used in the model)</li>
+<li>Measurement (single qubit measurement)</li>
 </ul>
-<p>26 items on this list.</p>
+
+<p>Format:</p>
+The 'tool' can be imported in Python. One should then pass the inputs as parameters to a library call.
+<ul>
+<li>Quantum decision model: defined using Cirq (library for representing quantum circuits)</li>
+<li>Qubits: defined using Cirq</li>
+<li>Measurement: numpy array</li>
+</ul>
+
+<h3>Expected output</h3>
+Lipschitz constant
+
+<h3>Internals</h3>
+This tool can be used to compute the Lipschitz constant of a quantum decision model. This constant can be used to determine fairness for a quantum decision model. Specifically, they focus on individual fairness, i.e. "treating similar individuals similarly".
+</div><div class="meta-info"><div></div><h4>Links</h4>
+- Repository: <a href="https://github.com/Veri-Q/Fairness"><code>https://github.com/Veri-Q/Fairness</code></a><ul><li>Last commit date: 4 June 2022</li></ul>
+<h4>Related papers</h4>
+<a href="https://doi.org/10.1007/978-3-031-13188-2_20">Verifying Fairness in Quantum Machine Learning</a> (CAV 2022)
+<h4>Last publication date</h4>
+6 August 2022<h4 class="hasul">ProVerB specific</h4><ul>
+<li>Markdown description: <a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/VeriQFair.md">view/edit</a></li>
+<li>Reason for this entry: https://doi.org/10.1007/978-3-031-13188-2</li>
+</ul></div>
 		</div>
 		<br/><hr/>
 		<div class="f">
