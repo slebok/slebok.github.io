@@ -1,0 +1,119 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html version="-//W3C//DTD XHTML 1.1//EN"
+			xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.w3.org/1999/xhtml
+													http://www.w3.org/MarkUp/SCHEMA/xhtml11.xsd">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="initial-scale=1.0"/>
+		<title>Murxla — ProVerB — SLEBoK</title>
+		<link href="main.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-3743366-7']);
+			_gaq.push(['_setDomainName', 'github.io']);
+			_gaq.push(['_setAllowLinker', true]);
+			_gaq.push(['_trackPageview']);
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		</script>
+	</head>
+	<body>
+		<div class="left">
+			<div class="logo">
+				<a href="index.html"><img src="proverb.png" alt="ProVerB"/></a>
+				<h3>Program<br/>Verification<br/>Book</h3>
+			</div>
+			<nav>
+				<ul style="margin: 0;padding: 0;">
+					<li>
+						<a href="index.html">Homepage</a>
+					</li>
+					<li>
+						<a href="all.html">All tools</a>
+					</li>
+					<ul>
+						
+					<li>
+							<a href="pv0.html" title="unprocessed/nonverifying">PV0</a>
+						</li><li>
+							<a href="pv1.html" title="solvers/linters">PV1</a>
+						</li><li>
+							<a href="pv2.html" title="synthesisers">PV2</a>
+						</li><li>
+							<a href="pv3.html" title="property checkers">PV3</a>
+						</li><li>
+							<a href="pv4.html" title="monoverifiers">PV4</a>
+						</li><li>
+							<a href="pv5.html" title="spec compilers">PV5</a>
+						</li><li>
+							<a href="pv6.html" title="proof assistants">PV6</a>
+						</li><li>
+							<a href="framework.html">Frameworks</a>
+						</li></ul>
+					<li>
+							<a href="tags.html">Tags</a>
+						</li><li>
+							<a href="specificationformat.html">Specification formats</a>
+						</li><li>
+						<a href="credits.html">About</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<div class="main">
+			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv1.html">PV1</a> ⊧</span> Murxla<span class="subtitle">fuzzer for SMT solvers</span></h1><h3>Application domain/field</h3>
+<ul><li>SMT solving</li>
+<li>Fuzzing</li>
+<li>API fuzzing</li></ul>
+<h3>Type of tool</h3>
+Fuzzer for SMT solvers
+<h3>Expected input</h3>
+<ul>
+<li>SMT solver</li>
+<li><em>Optional</em>: solver profile which defines what theories/operators are supported</li>
+</ul>
+
+<p>Format:</p>
+<ul>
+<li><em>SMT solver</em>: If it is natively integrated, one simply needs to pass an argument when calling Murxla. Otherwise, one needs to pass an argument that links to an executable script that calls the SMT solver.</li>
+<li><em>Solver profile</em>: <code>.json</code>file, see also: <a href="https://murxla.github.io/docs/solver_integration/solver_profile.html"><code>https://murxla.github.io/docs/solver_integration/solver_profile.html</code></a></li>
+</ul>
+
+<h3>Expected output</h3>
+API trace file if an issue is encountered.
+This trace file can be replayed (and minimized) to trigger the issue.
+
+<h3>Internals</h3>
+Murxla is a model-based API fuzzer for SMT solvers, i.e. it tries to find bugs in SMT solvers via fuzzing. It generates valid sequences of solver API calls. It provides support to record, minimize and replay such traces.
+
+Murxla currently supports the following SMT solvers: <a href="bitwuzla.html">Bitwuzla</a>, <a href="boolector.html">Boolector</a>, <a href="cvc5.html">cvc5</a>, <a href="yices.html">Yices</a>
+
+Murxla supports two modes: continuous and one-shot. Continuous can be used to continuously fuzz an SMT solver until (1) it is interrupted or (2) the specified maximum number of test runs were performed. This is typically used to find solver errors.
+In one-shot mode, Murxla performs a single test run. This can be done using either a specific seed or an API trace. This is typically used to inspect a specific test run in detail, i.e. debugging purposes.
+Murxla also provides options to replay and minimize traces.
+</div><div class="meta-info"><div><span class="tag"><a href="smt.html">SMT</a></span></div><h4 class="hasul">Links</h4>
+<ul><li>CAV '22 Artifact: <a href="https://zenodo.org/record/6494381."><code>https://zenodo.org/record/6494381.</code></a></li>
+<li>Project page: <a href="https://murxla.github.io/"><code>https://murxla.github.io/</code></a></li>
+<li>Documentation: <a href="https://murxla.github.io/docs/index.html"><code>https://murxla.github.io/docs/index.html</code></a></li>
+<li>Repository: <a href="https://github.com/murxla/murxla"><code>https://github.com/murxla/murxla</code></a><ul><li>Last commit date: 24 February 2023</li></ul></li></ul>
+<h4>Related papers</h4>
+<a href="https://doi.org/10.1007/978-3-031-13188-2_5">Murxla: A Modular and Highly Extensible API Fuzzer for SMT Solvers</a> (CAV 2022)
+<h4>Last publication date</h4>
+6 August 2022
+<h4>Related tools</h4>
+Other fuzzers for the <a href="smtlib.html">SMT-LIB</a> language: <a href="fuzzsmt.html" class="broken">FuzzSMT</a>, <a href="storm.html">Storm</a>, <a href="typefuzz.html" class="broken">TypeFuzz</a><h4>ProVerB specific</h4><p>Markdown description: <a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/Metatools/Murxla.md">view/edit</a></p></div>
+		</div>
+		<br/><hr/>
+		<div class="f">
+			<a href="index.html">ProVerB</a> is a part of <a href="https://slebok.github.io/">SLEBoK</a>.
+			Last updated: <strong>February 2023</strong>.
+		</div>
+	</body>
+</html>

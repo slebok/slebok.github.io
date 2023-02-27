@@ -9,7 +9,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="initial-scale=1.0"/>
-		<title>Index — ProVerB — SLEBoK</title>
+		<title>COLA — ProVerB — SLEBoK</title>
 		<link href="main.css" rel="stylesheet" type="text/css" />
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
@@ -68,40 +68,39 @@
 			</nav>
 		</div>
 		<div class="main">
-			<h1 class="fbs">SMT in ProVerB</h1><ul>
-<li><a href="allrepair.html">AllRepair</a></li>
-<li><a href="altergo.html">Alt-Ergo</a></li>
-<li><a href="barcelogic.html">Barcelogic</a></li>
-<li><a href="bitwuzla.html">Bitwuzla</a></li>
-<li><a href="boolector.html">Boolector</a></li>
-<li><a href="colibri.html">Colibri</a></li>
-<li><a href="coqqfbv.html">CoqQFBV</a></li>
-<li><a href="cvc3.html">CVC3</a></li>
-<li><a href="cvc4.html">CVC4</a></li>
-<li><a href="cvc5.html">cvc5</a></li>
-<li><a href="dreal.html">dReal</a></li>
-<li><a href="gspacer.html">GSpacer</a></li>
-<li><a href="javasmt.html">JavaSMT</a></li>
-<li><a href="llvm2smt.html">LLVM2SMT</a></li>
-<li><a href="mathsat.html">MathSAT</a></li>
-<li><a href="minisatplus.html">MiniSat+</a></li>
-<li><a href="monosat.html">MonoSAT</a></li>
-<li><a href="murxla.html">Murxla</a></li>
-<li><a href="optimathsat.html">OptiMathSAT</a></li>
-<li><a href="pysmt.html">PySMT</a></li>
-<li><a href="q3b.html">Q3B</a></li>
-<li><a href="reluplex.html">Reluplex</a></li>
-<li><a href="smtinterpol.html">SMTInterpol</a></li>
-<li><a href="smtswitch.html">Smt-Switch</a></li>
-<li><a href="spasssatt.html">SPASS-SATT</a></li>
-<li><a href="tfml.html">TFML</a></li>
-<li><a href="verit.html">veriT</a></li>
-<li><a href="yices.html">Yices</a></li>
-<li><a href="z3.html">Z3</a></li>
-<li><a href="z3overlay.html">z3overlay</a></li>
-<li><a href="z3str3re.html">Z3str3RE</a></li>
+			<div class="tool-info"><h1 class="fbs"><span class="pv"><a href="pv1.html">PV1</a> ⊧</span> COLA<span class="subtitle">computes complementation, determinization and containment for Büchi automaton</span></h1><h3>Application domain/field</h3>
+<ul><li>Büchi automata</li>
+<li>Determinization</li>
+<li>Complementation</li>
+<li>Nondeterministic Büchi automata (NBAs)</li></ul>
+<h3>Type of tool</h3>
+Library for determinization of Büchi automata
+<h3>Expected input</h3>
+Büchi automaton
+
+<p>Format:</p>
+<a href="hoa.html">HOA</a>
+
+<h3>Expected output</h3>
+By default, it converts a given Büchi automaton into a deterministic automaton
+
+<h3>Internals</h3>
+Built on top of [Spot](../../Tools/Frameworks/Spot.md
+
+COLA supports the following operations on Büchi automata:
+<ul>
+<li>Determinization (output can be a deterministic automaton, deterministic Parity automaton or deterministic Rabin automaton)</li>
+<li>Complementation (outputs complement Büchi automaton of the given automaton after determinization)</li>
 </ul>
-<p>31 items on this list.</p>
+</div><div class="meta-info"><div><span class="tag"><a href="automaton.html">Automaton</a></span></div><h4 class="hasul">Links</h4>
+<ul><li>Repository: <a href="https://github.com/liyong31/COLA"><code>https://github.com/liyong31/COLA</code></a><ul><li>Last commit date: 21 June 2022</li></ul></li>
+<li>CAV '22 Artifact: <a href="https://doi.org/10.5281/zenodo.6558928"><code>https://doi.org/10.5281/zenodo.6558928</code></a></li></ul>
+<h4>Related papers</h4>
+<a href="https://doi.org/10.1007/978-3-031-13188-2">Divide-and-Conquer Determinization of Büchi Automata Based on SCC Decomposition</a> (CAV 2022)
+<h4>Last publication date</h4>
+6 August 2022
+<h4>Related tools</h4>
+Compared to (in CAV '22 paper): <a href="spot.html">Spot</a>, <a href="owl.html">Owl</a><h4>ProVerB specific</h4><p>Markdown description: <a href="https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Tools/COLA.md">view/edit</a></p></div>
 		</div>
 		<br/><hr/>
 		<div class="f">
