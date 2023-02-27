@@ -83,16 +83,23 @@
 
 <p>Format:</p>
 <ul>
-<li><em>CTMC</em>: model file, they support the <a href="prismlanguage.html">PRISM language</a> for parametric CTMCs and the <a href="galileo.html" class="broken">Galileo</a> format for parametric fault trees.</li>
+<li><em>CTMC</em>: model file, in the <a href="prismlanguage.html">PRISM language</a> for parametric CTMCs and the <a href="galileo.html" class="broken">Galileo</a> format for parametric fault trees.</li>
 <li><em>Parameter probability distribution file</em>: Excel or CSV (semi-colon separated) file</li>
 <li><em>Property definition file</em>: Excel or CSV (semi-colon separated) file</li>
 <li>Others are passed as parameters when executing the python script.</li>
 </ul>
 
+<h3>Expected output</h3>
+Prediction region (as image(s))
+
 <h3>Internals</h3>
 Uses <a href="storm.html">Storm</a>
-</div><div class="meta-info"><div><span class="tag"><a href="p.html">Probabilistic programs</a></span></div><h4>Links</h4>
-- Artifact: <a href="https://doi.org/10.5281/zenodo.6523863."><code>https://doi.org/10.5281/zenodo.6523863.</code></a>
+
+SLURF computes prediction regions. This is useful since there are many cases where you are not sure what the exact transition rates or probabilities are.
+The prediction regions can depict how the uncertainty in the input influences the output. Intuitively this gives some feeling for the robustness of the output for some uncertain input.
+</div><div class="meta-info"><div><span class="tag"><a href="p.html">Probabilistic programs</a></span></div><h4 class="hasul">Links</h4>
+<ul><li>Artifact: <a href="https://doi.org/10.5281/zenodo.6523863."><code>https://doi.org/10.5281/zenodo.6523863.</code></a></li>
+<li>Repository: <a href="https://github.com/LAVA-LAB/slurf"><code>https://github.com/LAVA-LAB/slurf</code></a><ul><li>Last commit date: 22 September 2022</li></ul></li></ul>
 <h4>Related papers</h4>
 <a href="https://doi.org/10.1007/978-3-031-13188-2_2">Sampling-Based Verification of CTMC with Uncertain Rates</a> (CAV 2022)
 <h4>Last publication date</h4>
