@@ -14,11 +14,25 @@
 		<picdir>../www</picdir>
 		<divclass>tile</divclass>
 		<pic>
+			<a>https://2023.splashcon.org/home/sle-2023</a>
+			<img>sle.200.png</img>
+			<title>16th International Conference on Software Language Engineering (conference)</title>
+			<name>SLE’23</name>
+			<text>a conference on software languages, held at SPLASH</text>
+		</pic>
+		<pic>
+			<a>https://mleworkshop.github.io/editions/mle2023/</a>
+			<img>mle.200.png</img>
+			<title>Fifth International Workshop on Modeling Language Engineering and Execution (workshop)</title>
+			<name>MLE’23</name>
+			<text>a workshop on SLE in software modelling, held at MoDELS</text>
+		</pic>
+		<pic>
 			<a>https://conf.researchr.org/home/sle-2022</a>
 			<img>sle.200.png</img>
 			<title>15th International Conference on Software Language Engineering (conference)</title>
 			<name>SLE’22</name>
-			<text>a conference on software languages, to be held at SPLASH</text>
+			<text>a conference on software languages, held at SPLASH</text>
 		</pic>
 		<pic>
 			<a>https://mleworkshop.github.io/editions/mle2022/</a>
