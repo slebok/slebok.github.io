@@ -30,7 +30,7 @@ function enhanceLinks(where, handle, res)
 	if (h != '')
 		$('#'+where).append('<a href="http://bibtex.github.io/' + h + '.html">[BibSLEIGH]</a>&nbsp;&nbsp;');
 	if ('doi' in res)
-		$('#'+where).append('<a href="http://dx.doi.org/' + res.doi + '">[DOI]</a>&nbsp;&nbsp;');
+		$('#'+where).append('<a href="https://doi.org/' + res.doi + '">[DOI]</a>&nbsp;&nbsp;');
 	if ('ee' in res && !res.ee.includes('doi'))
 		$('#'+where).append('<a href="' + res.ee + '">[EE]</a>&nbsp;&nbsp;');
 	if ('url' in res && !res.url.includes('doi'))
