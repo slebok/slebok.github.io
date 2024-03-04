@@ -19,5 +19,10 @@ a:link, a:visited {color:#E75}
 	display: inline-block;
 }
 
+pre { background-color:#543;}
+pre > .com {color:#876;}
+pre > .lit {color:#F77;}
+pre > .key {color:#FF7; font-weight:bold;}
+
 .used { background-color: #E55; }
 .lang { background-color: #FED; color: #E55; }
