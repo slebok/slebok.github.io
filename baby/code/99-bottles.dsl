@@ -6,9 +6,9 @@
         <header/>
         <img src="../../www/babycobol.png" style="width:200px;height:200px;" class="flr" />
 		<h1><span class="ff lang"><a href="../index.html">BabyCobol</a></span>: <span class="ff used"><a href="https://rosettacode.org/wiki/99_bottles_of_beer">99 Bottles of Beer</a></span></h1>
-
-The solution can also be found on <a href="https://rosettacode.org/wiki/99_bottles_of_beer#BabyCobol">Rosetta Code</a>:
-
+        <p>
+            The task is to print the full lyrics of a popular song. The solution can also be found on <a href="https://rosettacode.org/wiki/99_bottles_of_beer#BabyCobol">Rosetta Code</a>.
+        </p>
 <baby>
 @1 We hold the first seven characters empty.
 @2 Some COBOL dialects refuse a PROGRAM-ID with a space but BabyCobol has insignificant whitespace.

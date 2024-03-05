@@ -30,8 +30,10 @@
 <li><a href="http://grammarware.net">Vadim Zaytsev</a>, <em>Blind Men and a Room Full of Elephants</em>, <a href="http://soft.vub.ac.be/benevol2019/#secondKeynote">BENEVOL 2019</a> keynote, Vrije Universiteit Brussel (VUB), 28 November 2019</li>
 </ul>
 <h2>Code pearls</h2>
-<ul><li><a href="code/perform-goto.html">Interplay between PERFORM THROUGH and GO TO</a></li>
+<ul><li><a href="code/fizzbuzz.html">FizzBuzz</a></li>
 <li><a href="code/99-bottles.html">99 Bottles of Beer</a></li>
+<li><a href="code/100-doors.html">100 Doors</a></li>
+<li><a href="code/perform-goto.html">Interplay between PERFORM THROUGH and GO TO</a></li>
 </ul>
 		<hr/>
 		<div class="last">

@@ -36,8 +36,8 @@
        01 STOP <span class="key">LIKE</span> DOOR<span class="dot">.</span>
 <span class="key">       PROCEDURE DIVISION<span class="dot">.</span>
 </span><span class="com">      * Initialise the data
-</span>           <span class="key">MOVE</span> <span class="key">HIGH-VALUES</span> <span class="key">TO</span> STOP
-           <span class="key">MOVE</span> <span class="key">SPACES</span> <span class="key">TO</span> DOOR<span class="dot">.</span>
+</span>           <span class="key">MOVE</span> <dfn title="Given the type of STOP, it will be a value of nine."><span class="key">HIGH-VALUES</span></dfn> <span class="key">TO</span> STOP
+           <span class="key">MOVE</span> <dfn title="For numeric fields, SPACES is the same as ZEROES would have been in COBOL."><span class="key">SPACES</span></dfn> <span class="key">TO</span> DOOR<span class="dot">.</span>
 <span class="com">      * Do the main algorithm
 </span>           <span class="key">LOOP</span> <span class="key">VARYING</span> I <span class="key">UNTIL</span> DOOR(I) = <span class="lit">9</span>
                <span class="key">LOOP</span> <span class="key">VARYING</span> J <span class="key">FROM</span> I <span class="key">TO</span> <span class="lit">100</span> <span class="key">BY</span> I
