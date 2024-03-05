@@ -1,19 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
 @font-face{
     font-family: 'JetBrains Mono';
-    src: url('https://github.com/JetBrains/JetBrainsMono/raw/master/fonts/webfonts/JetBrainsMono-Regular.eot') format('embedded-opentype'),
-         url('https://github.com/JetBrains/JetBrainsMono/raw/master/fonts/webfonts/JetBrainsMono-Regular.woff2') format('woff2'),
-         url('https://github.com/JetBrains/JetBrainsMono/raw/master/fonts/webfonts/JetBrainsMono-Regular.woff') format('woff'),
-         url('https://github.com/JetBrains/JetBrainsMono/raw/master/fonts/webfonts/JetBrainsMono-Regular.ttf') format('truetype');
+    src: url('JetBrainsMono-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 @font-face{
     font-family: 'JetBrains Mono';
-    src: url('https://github.com/JetBrains/JetBrainsMono/raw/master/fonts/webfonts/JetBrainsMono-Bold.eot') format('embedded-opentype'),
-         url('https://github.com/JetBrains/JetBrainsMono/raw/master/fonts/webfonts/JetBrainsMono-Bold.woff2') format('woff2'),
-         url('https://github.com/JetBrains/JetBrainsMono/raw/master/fonts/webfonts/JetBrainsMono-Bold.woff') format('woff'),
-         url('https://github.com/JetBrains/JetBrainsMono/raw/master/fonts/webfonts/JetBrainsMono-Bold.ttf') format('truetype');
+    src: url('JetBrainsMono-Bold.woff2') format('woff2');
     font-weight: bold;
     font-style: normal;
 }
