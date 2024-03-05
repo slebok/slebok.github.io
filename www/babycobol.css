@@ -19,11 +19,13 @@ a:link, a:visited {color:#E75}
 	display: inline-block;
 }
 
+dfn {font-style: normal; text-decoration: green underline wavy;}
+
 pre { background-color:#543;}
-pre > .com {color:#876;}
-pre > .lit {color:#F77;}
-pre > .aux {color:#77F;}
-pre > .key {color:#FF7; font-weight:bold;}
+pre .com {color:#876;}
+pre .lit {color:#F77;}
+pre .aux {color:#77F;}
+pre .key {color:#FF7; font-weight:bold;}
 
 .used { background-color: #E55; }
 .lang { background-color: #FED; color: #E55; }

@@ -5,7 +5,7 @@
     <body>
         <header/>
         <img src="../../www/babycobol.png" style="width:200px;height:200px;" class="flr" />
-		<h1><span class="ff lang"><a href="index.html">BabyCobol</a></span>: <span class="ff used"><a href="perform.html">PERFORM</a></span> + <span class="ff used"><a href="goto.html">GO TO</a></span></h1>
+		<h1><span class="ff lang"><a href="../index.html">BabyCobol</a></span>: <span class="ff used"><a href="perform.html">PERFORM</a></span> + <span class="ff used"><a href="goto.html">GO TO</a></span></h1>
 
 The following program should print "<code>ABBCDECDEF</code>" (replace <code>STOP</code> with <code>STOP RUN</code> and it will turn into a proper COBOL program which you can run to test this behaviour yourself):
 
