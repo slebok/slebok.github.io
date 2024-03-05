@@ -20,11 +20,11 @@ The solution can also be found on <a href="https://rosettacode.org/wiki/99_bottl
 @8 Unlike the previous one, this GO TO moves the computation outside the PERFORM THROUGH range, which terminates the entire PERFORM call, and thus also puts us outside the LOOP.
 @9 A keyword END is used as a paragraph name, which is legal because in BabyCobol keywords are not reserved words.
 {{       }}IDENTIFICATION DIVISION.
-           PROGRAM-ID. {{99 BOTTLES}}.
+       PROGRAM-ID. {{99 BOTTLES}}.
        DATA DIVISION.
        01 {{DATA}} PICTURE IS 999.
        PROCEDURE DIVISION.
-           {{LOOP}} VARYING DATA FROM 99 {{BY 0}}
+           {{LOOP}} VARYING DATA FROM 99 {{^ BY 0}}
                PERFORM COUNT-BOTTLES THROUGH ¡END
                DISPLAY DATA "bottles•of•beer"
                DISPLAY "Take•one•down,•pass•it•around"

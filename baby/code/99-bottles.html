@@ -25,12 +25,12 @@
 		<h1><span class="ff lang"><a href="../index.html">BabyCobol</a></span>: <span class="ff used"><a href="https://rosettacode.org/wiki/99_bottles_of_beer">99 Bottles of Beer</a></span></h1>
 The solution can also be found on <a href="https://rosettacode.org/wiki/99_bottles_of_beer#BabyCobol">Rosetta Code</a>:
 <pre>
-<span class="key"><dfn title="We hold the first seven characters empty.">       </dfn>IDENTIFICATION DIVISION.
-</span>           PROGRAM-ID. <dfn title="Some COBOL dialects refuse a PROGRAM-ID with a space but BabyCobol has insignificant whitespace.">99 BOTTLES</dfn>.
-<span class="key">       DATA DIVISION.
-</span>       <span class="aux">01</span> <dfn title="A keyword DATA is not a reserved word so we reuse it as a variable name.">DATA</dfn> <span class="key">PICTURE</span> <span class="key">IS</span> <span class="aux">999</span>.
-<span class="key">       PROCEDURE DIVISION.
-</span>           <dfn title="LOOP is called “in-line PERFORM” in COBOL"><span class="key">LOOP</span></dfn> <span class="key">VARYING</span> DATA <span class="key">FROM</span> <span class="lit">99</span> <dfn title="We want to do our own decreasing in the middle of the loop. This zero increment is illegal in some dialects of COBOL!">BY 0</dfn>
+<span class="key"><dfn title="We hold the first seven characters empty.">       </dfn>IDENTIFICATION DIVISION<span class="dot">.</span>
+</span><span class="key">       PROGRAM-ID</span><span class="dot">.</span>  <dfn title="Some COBOL dialects refuse a PROGRAM-ID with a space but BabyCobol has insignificant whitespace.">99 BOTTLES</dfn><span class="dot">.</span>
+<span class="key">       DATA DIVISION<span class="dot">.</span>
+</span>       01 <dfn title="A keyword DATA is not a reserved word so we reuse it as a variable name.">DATA</dfn> <span class="key">PICTURE</span> <span class="key">IS</span> 999<span class="dot">.</span>
+<span class="key">       PROCEDURE DIVISION<span class="dot">.</span>
+</span>           <dfn title="LOOP is called “in-line PERFORM” in COBOL"><span class="key">LOOP</span></dfn> <span class="key">VARYING</span> DATA <span class="key">FROM</span> <span class="lit">99</span> <dfn title="We want to do our own decreasing in the middle of the loop. This zero increment is illegal in some dialects of COBOL!"><span class="key">BY</span> 0</dfn>
                <span class="key">PERFORM</span> COUNT-BOTTLES <span class="key">THROUGH</span> END
                <span class="key">DISPLAY</span> DATA <span class="lit">"bottles of beer"</span>
                <span class="key">DISPLAY</span> <span class="lit">"Take one down, pass it around"</span>
@@ -40,22 +40,22 @@ The solution can also be found on <a href="https://rosettacode.org/wiki/99_bottl
                <span class="key">END</span>
                <span class="key">PERFORM</span> COUNT-BOTTLES <span class="key">THROUGH</span> END
                <span class="key">DISPLAY</span> <span class="lit">""</span>
-           <span class="key">END</span>.
-       <dfn title="Positioning this code right after the loop is a visualisation choice, since the loop will never be exited in a normal way.">NO-BOTTLES-LEFT</dfn>.
+           <span class="key">END</span><span class="dot">.</span>
+       <dfn title="Positioning this code right after the loop is a visualisation choice, since the loop will never be exited in a normal way.">NO-BOTTLES-LEFT</dfn><span class="dot">.</span>
            <span class="key">DISPLAY</span> <span class="lit">"No bottles of beer on the wall"</span>
            <span class="key">DISPLAY</span> <span class="lit">""</span>
            <span class="key">DISPLAY</span> <span class="lit">"Go to the store and buy some more"</span>
-           <span class="key">DISPLAY</span> <span class="lit">"99 bottles of beer on the wall"</span>.
-           <span class="key">STOP</span>.
-       COUNT-BOTTLES.
-           <span class="key">GO</span> <span class="key">TO</span> <dfn title="This is a “local” GO TO which moves the computation within the PERFORM THROUGH range, so it does not disturb the PERFORM itself nor its encompassing LOOP.">MANY-BOTTLES</dfn>.
-       SINGLE-BOTTLE.
-           <span class="key">DISPLAY</span> DATA <span class="lit">"bottle of beer on the wall"</span>.
-           <span class="key">GO</span> <span class="key">TO</span> <dfn title="Unlike the previous one, this GO TO moves the computation outside the PERFORM THROUGH range, which terminates the entire PERFORM call, and thus also puts us outside the LOOP.">NO-BOTTLES-LEFT</dfn>.
-       MANY-BOTTLES.
-           <span class="key">DISPLAY</span> DATA <span class="lit">"bottles of beer on the wall"</span>.
-       <dfn title="A keyword END is used as a paragraph name, which is legal because in BabyCobol keywords are not reserved words.">END</dfn>.
-           <span class="key">NEXT</span> <span class="key">SENTENCE</span>.
+           <span class="key">DISPLAY</span> <span class="lit">"99 bottles of beer on the wall"</span><span class="dot">.</span>
+           <span class="key">STOP</span><span class="dot">.</span>
+       COUNT-BOTTLES<span class="dot">.</span>
+           <span class="key">GO</span> <span class="key">TO</span> <dfn title="This is a “local” GO TO which moves the computation within the PERFORM THROUGH range, so it does not disturb the PERFORM itself nor its encompassing LOOP.">MANY-BOTTLES</dfn><span class="dot">.</span>
+       SINGLE-BOTTLE<span class="dot">.</span>
+           <span class="key">DISPLAY</span> DATA <span class="lit">"bottle of beer on the wall"</span><span class="dot">.</span>
+           <span class="key">GO</span> <span class="key">TO</span> <dfn title="Unlike the previous one, this GO TO moves the computation outside the PERFORM THROUGH range, which terminates the entire PERFORM call, and thus also puts us outside the LOOP.">NO-BOTTLES-LEFT</dfn><span class="dot">.</span>
+       MANY-BOTTLES<span class="dot">.</span>
+           <span class="key">DISPLAY</span> DATA <span class="lit">"bottles of beer on the wall"</span><span class="dot">.</span>
+       <dfn title="A keyword END is used as a paragraph name, which is legal because in BabyCobol keywords are not reserved words.">END</dfn><span class="dot">.</span>
+           <span class="key">NEXT</span> <span class="key">SENTENCE</span><span class="dot">.</span>
 </pre>
 		<hr/>
         <div class="last">

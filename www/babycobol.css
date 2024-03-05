@@ -1,10 +1,6 @@
-body
-{
-	color: #FED;
-	background-color:#765;
-}
+body {color: #FED; background-color: #765;}
 
-a:link, a:visited {color:#E75}
+a:link, a:visited {color: #E75;}
 .ff a:link, .ff a:visited {color: #FED; text-decoration: none;}
 .ff.lang a:link, .ff.lang a:visited {color: #E55; text-decoration: none;}
 .ff
@@ -19,13 +15,14 @@ a:link, a:visited {color:#E75}
 	display: inline-block;
 }
 
-dfn {font-style: normal; text-decoration: green underline wavy;}
+dfn {font-style: normal; text-decoration: #758FF9 underline wavy;}
 
-pre { background-color:#543;}
-pre .com {color:#876;}
-pre .lit {color:#F77;}
-pre .aux {color:#77F;}
-pre .key {color:#FF7; font-weight:bold;}
+pre {color: #00DD00; background-color: black;}
+pre .com {color: #00EAE8;}
+pre .lit {color: #8D8D8D;}
+pre .aux {color: #758FF9;}
+pre .dot {color: #E3C900;}
+pre .key {color: #FF2600; font-weight: bold;}
 
-.used { background-color: #E55; }
-.lang { background-color: #FED; color: #E55; }
+.used {background-color: #E55;}
+.lang {background-color: #FED; color: #E55;}

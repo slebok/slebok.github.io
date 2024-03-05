@@ -26,36 +26,36 @@
 The following program should print "<code>ABBCDECDEF</code>" (replace <code>STOP</code> with <code>STOP RUN</code> and it will turn into a proper COBOL program which you can run to test this behaviour yourself):
 <pre>
 <span class="com">      * PERFORM + GO TO interplay example
-</span><span class="key">       IDENTIFICATION DIVISION.
-</span>       PROGRAM-ID. PERFORM-GO-TO.
-<span class="key">       PROCEDURE DIVISION.
-</span>       A.
-           <span class="key">DISPLAY</span> <span class="lit">"A"</span> <span class="key">WITH</span> <span class="key">NO</span> <span class="key">ADVANCING</span>.
+</span><span class="key">       IDENTIFICATION DIVISION<span class="dot">.</span>
+</span><span class="key">       PROGRAM-ID</span><span class="dot">.</span>  PERFORM-GO-TO<span class="dot">.</span>
+<span class="key">       PROCEDURE DIVISION<span class="dot">.</span>
+</span>       A<span class="dot">.</span>
+           <span class="key">DISPLAY</span> <span class="lit">"A"</span> <span class="key">WITH</span> <span class="key">NO</span> <span class="key">ADVANCING</span><span class="dot">.</span>
 <span class="com">      *    print B and come back
-</span>           <span class="key">PERFORM</span> B.
+</span>           <span class="key">PERFORM</span> B<span class="dot">.</span>
 <span class="com">      *    print B and C and come back
-</span>           <span class="key">PERFORM</span> B <span class="key">THROUGH</span> C.
+</span>           <span class="key">PERFORM</span> B <span class="key">THROUGH</span> C<span class="dot">.</span>
 <span class="com">      *    print D and E and come back, D will go to E but the execution will continue
-</span>           <span class="key">PERFORM</span> D <span class="key">THROUGH</span> E.
+</span>           <span class="key">PERFORM</span> D <span class="key">THROUGH</span> E<span class="dot">.</span>
 <span class="com">      *    print C and D and then go to E which is outside the range
 </span><span class="com">      *    so the execution will go to F and stop
-</span>           <span class="key">PERFORM</span> C <span class="key">THROUGH</span> D.
+</span>           <span class="key">PERFORM</span> C <span class="key">THROUGH</span> D<span class="dot">.</span>
 <span class="com">      *    so we will never return here to execute the following statement
-</span>           <span class="key">DISPLAY</span> <span class="lit">"A"</span> <span class="key">WITH</span> <span class="key">NO</span> <span class="key">ADVANCING</span>.
-       B.
-           <span class="key">DISPLAY</span> <span class="lit">"B"</span> <span class="key">WITH</span> <span class="key">NO</span> <span class="key">ADVANCING</span>.
-       C.
-           <span class="key">DISPLAY</span> <span class="lit">"C"</span> <span class="key">WITH</span> <span class="key">NO</span> <span class="key">ADVANCING</span>.
-       D.
-           <span class="key">DISPLAY</span> <span class="lit">"D"</span> <span class="key">WITH</span> <span class="key">NO</span> <span class="key">ADVANCING</span>.
-           <span class="key">GO</span> <span class="key">TO</span> E.
+</span>           <span class="key">DISPLAY</span> <span class="lit">"A"</span> <span class="key">WITH</span> <span class="key">NO</span> <span class="key">ADVANCING</span><span class="dot">.</span>
+       B<span class="dot">.</span>
+           <span class="key">DISPLAY</span> <span class="lit">"B"</span> <span class="key">WITH</span> <span class="key">NO</span> <span class="key">ADVANCING</span><span class="dot">.</span>
+       C<span class="dot">.</span>
+           <span class="key">DISPLAY</span> <span class="lit">"C"</span> <span class="key">WITH</span> <span class="key">NO</span> <span class="key">ADVANCING</span><span class="dot">.</span>
+       D<span class="dot">.</span>
+           <span class="key">DISPLAY</span> <span class="lit">"D"</span> <span class="key">WITH</span> <span class="key">NO</span> <span class="key">ADVANCING</span><span class="dot">.</span>
+           <span class="key">GO</span> <span class="key">TO</span> E<span class="dot">.</span>
 <span class="com">      *    the following statement is always dead code
-</span>           <span class="key">DISPLAY</span> <span class="lit">"D"</span> <span class="key">WITH</span> <span class="key">NO</span> <span class="key">ADVANCING</span>.
-       E.
-           <span class="key">DISPLAY</span> <span class="lit">"E"</span> <span class="key">WITH</span> <span class="key">NO</span> <span class="key">ADVANCING</span>.
-       F.
-           <span class="key">DISPLAY</span> <span class="lit">"F"</span> <span class="key">WITH</span> <span class="key">NO</span> <span class="key">ADVANCING</span>.
-           <span class="key">STOP</span>.
+</span>           <span class="key">DISPLAY</span> <span class="lit">"D"</span> <span class="key">WITH</span> <span class="key">NO</span> <span class="key">ADVANCING</span><span class="dot">.</span>
+       E<span class="dot">.</span>
+           <span class="key">DISPLAY</span> <span class="lit">"E"</span> <span class="key">WITH</span> <span class="key">NO</span> <span class="key">ADVANCING</span><span class="dot">.</span>
+       F<span class="dot">.</span>
+           <span class="key">DISPLAY</span> <span class="lit">"F"</span> <span class="key">WITH</span> <span class="key">NO</span> <span class="key">ADVANCING</span><span class="dot">.</span>
+           <span class="key">STOP</span><span class="dot">.</span>
 </pre>
 		<hr/>
         <div class="last">
