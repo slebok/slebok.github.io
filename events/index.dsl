@@ -14,6 +14,41 @@
 		<picdir>../www</picdir>
 		<divclass>tile</divclass>
 		<pic>
+			<a>https://mleworkshop.github.io/editions/mle2025/</a>
+			<img>mle.200.png</img>
+			<title>Seventh International Workshop on Modeling Language Engineering and Execution (workshop)</title>
+			<name>MLE’25</name>
+			<text>a workshop on SLE in software modelling, held at MoDELS</text>
+		</pic>
+		<pic>
+			<a>https://conf.researchr.org/home/sle-2025</a>
+			<img>sle.200.png</img>
+			<title>18th International Conference on Software Language Engineering (conference)</title>
+			<name>SLE’25</name>
+			<text>a conference on software languages, held with STAF</text>
+		</pic>
+		<pic>
+			<a>http://oopsle.github.io/2025</a>
+			<img>oopsle.200.png</img>
+			<title>International Workshop on Open and Original Problems in Software Language Engineering (workshop)</title>
+			<name>OOPSLE’25</name>
+			<text>a workshop about open and original problems in SLE, held at STAF</text>
+		</pic>
+		<pic>
+			<a>https://2024.splashcon.org/home/sle-2024</a>
+			<img>sle.200.png</img>
+			<title>17th International Conference on Software Language Engineering (conference)</title>
+			<name>SLE’24</name>
+			<text>a conference on software languages, held at SPLASH</text>
+		</pic>
+		<pic>
+			<a>https://mleworkshop.github.io/editions/mle2024/</a>
+			<img>mle.200.png</img>
+			<title>Sixth International Workshop on Modeling Language Engineering and Execution (workshop)</title>
+			<name>MLE’24</name>
+			<text>a workshop on SLE in software modelling, held at MoDELS</text>
+		</pic>
+		<pic>
 			<a>https://2023.splashcon.org/home/sle-2023</a>
 			<img>sle.200.png</img>
 			<title>16th International Conference on Software Language Engineering (conference)</title>
@@ -70,6 +105,13 @@
 			<text>a workshop on SLE in software modelling, to be held at MoDELS\n<em>virtually</em></text>
 		</pic>
 		<pic>
+			<a>https://www.dagstuhl.de/20343</a>
+			<img>slebok.200.png</img>
+			<title>Software Language Engineering Body of Knowledge Recap (seminar)</title>
+			<name>Dagstuhl №20343</name>
+			<text>a SLEBoK recap seminar, held at Schloss Dagstuhl</text>
+		</pic>
+		<pic>
 			<a>http://oopsle.github.io/2020</a>
 			<img>oopsle.200.png</img>
 			<title>International Workshop on Open and Original Problems in Software Language Engineering (workshop)</title>
@@ -112,7 +154,7 @@
 			<text>a conference on software languages, held at SPLASH</text>
 		</pic>
 		<pic>
-			<a>https://www.dagstuhl.de/en/program/calendar/semhp/?semnr=17342</a>
+			<a>https://www.dagstuhl.de/17342</a>
 			<img>slebok.200.png</img>
 			<title>Software Language Engineering Body of Knowledge (seminar)</title>
 			<name>Dagstuhl №17342</name>
