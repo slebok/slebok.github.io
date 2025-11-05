@@ -18,7 +18,7 @@
 		<h2>People and their projects</h2>
 		<ul>
 
-			<li><a href="https://twitter.com/jeanmariefavre">Jean-Marie Favre</a> was the main ideologist of SLEBOK, who organised a series of semi-related sub-events leading to coining of the term.
+			<li><a href="https://twitter.com/jeanmariefavre">Jean-Marie Favre</a> was originally the main ideologist of SLEBOK, who organised a series of semi-related sub-events leading to coining of the term.
 				<ul>
 					<li><a href="http://gttse.wikidot.com/2009:research-2-0">Research 2.0 at GTTSE 2009</a></li>
 					<li><a href="https://github.com/SATToSE/SoTeSoLa2012/wiki/Research">Research 2.0 at SoTeSoLa 2012</a></li>
@@ -37,7 +37,7 @@
 			</li>
 			<li><a href="http://grammarware.net">Vadim Zaytsev</a> was a participant/speaker at all SLEBOK-related events, as well as the co-founder of the OOPSLE workshop and the founder of other related projects.
 				<ul>
-					<li><a href="http://grammarware.github.io">List of projects</a></li>
+					<li><a href="http://grammarware.github.io">List of projects and artefacts</a></li>
 					<li><a href="https://slebok.github.io/proverb/">Program Verification Book (ProVerB)</a></li>
 					<li><a href="https://slebok.github.io/dyol">Design Your Own Language (DYOL)</a></li>
 					<li><a href="http://oopsle.github.io">Open and Original Problems in Software Language Engineering (OOPSLE)</a></li>
@@ -66,9 +66,14 @@
 					<li><a href="grass/">GraSs: A Taxonomy of Grammar Smells</a></li>
 				</ul>
 			</li>
-			<li><a href="https://wwwhome.ewi.utwente.nl/~lathouwerssam/">Sophie Lathouwers</a> was a PhD student with an interest in program verification.
+			<li><a href="https://www.sophielathouwers.nl/">Sophie Lathouwers</a> was a PhD student with an interest in program verification.
 				<ul>
 					<li><a href="https://slebok.github.io/proverb/">Program Verification Book (ProVerB)</a></li>
+				</ul>
+			</li>
+			<li><a href="https://people.utwente.nl/n.bui">Nhat</a> is a PhD student with an interest in code completion.
+				<ul>
+					<li><a href="https://slebok.github.io/cococola/">Code Completion Control Language (CoCoCoLa)</a></li>
 				</ul>
 			</li>
 			<li>Speakers of the SL(E)BOK Workshop at SLE 2012:
@@ -83,7 +88,7 @@
 			</li>
 			<li>Participants of the SLEBoK Workshop+dinner at SPLASH 2018:
 				<ul>
-					<li>Arvid Butting, Fabien Coulon, Thomas Degueule, Görel Hedin, Manuel Leduc, Ralf Lämmel, Dimitri Racordon, Jeff Smits, Friedrich Steimann, Tijs van der Storm, Eric Van Wyk, Andreas Wortmann, Vadim Zaytsev</li>
+					<li>Arvid Butting, Fabien Coulon, Thomas Degueule, Görel Hedin, Manuel Leduc, Ralf Lämmel, Dimi Racordon, Jeff Smits, Friedrich Steimann, Tijs van der Storm, Eric Van Wyk, Andreas Wortmann, Vadim Zaytsev</li>
 				</ul>
 			</li>
 			<li><a href="https://github.com/slebok/slebok/graphs/contributors">Contributors</a> to the <a href="https://github.com/slebok/slebok">@slebok/slebok</a> repository</li>

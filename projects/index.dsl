@@ -14,6 +14,14 @@
 		</p>
 		<hr/>
 		<pic>
+			<a>../cococola</a>
+			<img>cococola.svg</img>
+			<alt>CoCoCoLa logo by Nhat Bui</alt>
+			<name>CoCoCoLa</name>
+			<title>CoCoCoLa: Code Completion Control Language</title>
+			<text><em>Code Completion Control Language</em> by Nhat and Zaytsev</text>
+		</pic>
+		<pic>
 			<a>../proverb</a>
 			<img>../proverb/proverb.png</img>
 			<alt>Modelling Program Verification Tools for Software Engineers: Program Verification Book of Knowledge</alt>
@@ -148,18 +156,19 @@
 			<text>a guide to the automation engineering body of knowledge (2006), 3 ed. (2018)</text>
 		</pic>
 		<pic>
-			<a>https://www.computer.org/web/swebok</a>
+			<a>https://www.computer.org/education/bodies-of-knowledge/software-engineering/v4</a>
 			<img>swebok.png</img>
-			<alt>Guide to the Software Engineering Body of Knowledge V3.0</alt>
+			<alt>Guide to the Software Engineering Body of Knowledge V4.0</alt>
 			<name>SWEBOK</name>
-			<text>a guide to the software engineering body of knowledge (2004), v.3 (2014)</text>
+			<text>a guide to the software engineering body of knowledge (2004), v.4 (2025)</text>
 		</pic>
 		<pic>
-			<a>http://web.imt-atlantique.fr/x-info/atlanmod/index.php?title=Zoos</a>
+			<!-- <a>http://web.imt-atlantique.fr/x-info/atlanmod/index.php?title=Zoos</a> -->
+			<a>https://github.com/atlanmod/zoo</a>
 			<img>atlanmod.png</img>
 			<alt>Atlantic Metamodel Zoo</alt>
 			<name>Atlantic Zoo</name>
-			<text>a repository of metamodels in various formats (2003)</text>
+			<text>a repository of metamodels in various formats (2003–2022)</text>
 		</pic>		
 		<div class="last">
 			<br/><hr/>
