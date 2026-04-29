@@ -1,0 +1,142 @@
+<html doctype>
+	<head title="Esther Guerra's profile at CfPBoK" />
+	<body>
+		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
+		<h1>Esther Guerra <a href="https://dblp.org/pid/75/4962.html"><img src="../logos/dblp.png" alt="DBLP"></a> <a href="https://openalex.org/A5040491852"><img src="../logos/openalex.png" alt="OpenAlex"></a> <a href="https://orcid.org/0000-0002-2818-2278"><img src="../logos/orcid.svg" alt="ORCID"></a> <a href="https://scholar.google.com/citations?user=7TpvePQAAAAJ"><img src="../logos/gs.png" alt="Google Scholar"></a> <a href="https://www.wikidata.org/wiki/Q58650933"><img src="../logos/wikidata.svg" alt="Wikidata"></a></h1>
+		<figure class="small">
+			<a href="../sle2008/index.html"><img src="../sle.png" alt="SLE 2008"></a>
+			<figcaption>
+				<a href="../sle2008/index.html">SLE 2008</a>
+				<br>
+				<a href="../sle2008/paper03.html" title="paper">⭐</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2012/index.html"><img src="../sle.png" alt="SLE 2012"></a>
+			<figcaption>
+				<a href="../sle2012/index.html">SLE 2012</a>
+				<br>
+				<a href="../sle2012/paper06.html" title="paper">⭐</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2015/index.html"><img src="../sle.png" alt="SLE 2015"></a>
+			<figcaption>
+				<a href="../sle2015/index.html">SLE 2015</a>
+				<br>
+				<a href="../sle2015/paper05.html" title="paper">⭐</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2016/index.html"><img src="../sle.png" alt="SLE 2016"></a>
+			<figcaption>
+				<a href="../sle2016/index.html">SLE 2016</a>
+				<br>
+				<a href="https://conf.researchr.org/committee/sle-2016/sle-2016-papers-program-committee" title="PC">🔍</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2017/index.html"><img src="../sle.png" alt="SLE 2017"></a>
+			<figcaption>
+				<a href="../sle2017/index.html">SLE 2017</a>
+				<br>
+				<a href="https://conf.researchr.org/committee/sle-2017/sle-2017-sle-2017-organizing-committee" title="PC">🔍</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2018/index.html"><img src="../sle.png" alt="SLE 2018"></a>
+			<figcaption>
+				<a href="../sle2018/index.html">SLE 2018</a>
+				<br>
+				<a href="../sle2018/paper15.html" title="paper">⭐</a>
+<a href="../sle2018/paper21.html" title="paper">⭐</a>
+<a href="https://conf.researchr.org/committee/sle-2018/sle-2018-papers-program-committee" title="PC">🔍</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2019/index.html"><img src="../sle.png" alt="SLE 2019"></a>
+			<figcaption>
+				<a href="../sle2019/index.html">SLE 2019</a>
+				<br>
+				<a href="../sle2019/paper11.html" title="paper">⭐</a>
+<a href="https://conf.researchr.org/committee/sle-2019/sle-2019-papers-program-committee" title="PC">🔍</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2021/index.html"><img src="../sle.png" alt="SLE 2021"></a>
+			<figcaption>
+				<a href="../sle2021/index.html">SLE 2021</a>
+				<br>
+				<a href="../sle2021/paper01.html" title="paper">⭐</a>
+<a href="../sle2021/paper08.html" title="paper">⭐</a>
+<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-program-committee" title="PC">🔍</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2023/index.html"><img src="../sle.png" alt="SLE 2023"></a>
+			<figcaption>
+				<a href="../sle2023/index.html">SLE 2023</a>
+				<br>
+				<a href="../sle2023/paper08.html" title="paper">⭐</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2024/index.html"><img src="../sle.png" alt="SLE 2024"></a>
+			<figcaption>
+				<a href="../sle2024/index.html">SLE 2024</a>
+				<br>
+				<a href="https://2024.splashcon.org/committee/sle-2024-program-committee" title="PC">🔍</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2026/index.html"><img src="../sle.png" alt="SLE 2026"></a>
+			<figcaption>
+				<a href="../sle2026/index.html">SLE 2026</a>
+				<br>
+				<a href="https://conf.researchr.org/committee/sle-2026/sle-2026-program-committee" title="PC">🔍</a>
+			</figcaption>
+		</figure>
+
+		<clear/>
+		<h2>Summary</h2>
+		<ul>
+
+		<li><span class="info">9</span> papers in <span class="info">7</span> bundles</li>
+				<li>Top 3 popular tags:
+			<ul>
+				<li><a href="../tag/t3c.html"><span class="tagM">T3C: DSLs</span></a> (<span class="info">5</span> times)</li>
+				<li><a href="../tag/t4a.html"><span class="tagM">T4A: Workbenches</span></a> (<span class="info">5</span> times)</li>
+				<li><a href="../tag/t5d.html"><span class="tagM">T5D: Formal Methods</span></a> (<span class="info">4</span> times)</li>
+			</ul>
+		</li>
+		<li>Top 3 coauthors:
+			<ul>
+				<li><a href="JuandeLara.html"><span class="info">Juan de Lara</span></a> (<span class="info">9</span> times)</li>
+				<li><a href="LissetteAlmonte.html"><span class="info">Lissette Almonte</span></a> (<span class="info">2</span> times)</li>
+				<li><a href="JoséEduardoRivera.html"><span class="info">José Eduardo Rivera</span></a> (<span class="info">1</span> times)</li>
+			</ul>
+		</li>
+<li>Made <span class="info">16</span> contributions (see below)</li></ul>
+		<clear/>
+		<h2>List of contributions</h2>
+		<ul>
+<li><span class="info">(<a href="../sle2008/index.html">SLE 2008</a>)</span> <em>Coauthored <a href="../sle2008/paper03.html">Analyzing Rule-Based Behavioral Semantics of Visual Modeling Languages with Maude</a></em> (<a href="../profile/JoséEduardoRivera.html">José Eduardo Rivera</a>, <a href="../profile/EstherGuerra.html"><span class="info">Esther Guerra</span></a>, <a href="../profile/JuandeLara.html">Juan de Lara</a>, <a href="../profile/AntonioVallecillo.html">Antonio Vallecillo</a>)</li>
+<li><span class="info">(<a href="../sle2012/index.html">SLE 2012</a>)</span> <em>Coauthored <a href="../sle2012/paper06.html">The Program Is the Model: Enabling Transformations@run.time</a></em> (<a href="../profile/JesúsSánchezCuadrado.html">Jesús Sánchez Cuadrado</a>, <a href="../profile/EstherGuerra.html"><span class="info">Esther Guerra</span></a>, <a href="../profile/JuandeLara.html">Juan de Lara</a>)</li>
+<li><span class="info">(<a href="../sle2015/index.html">SLE 2015</a>)</span> <em>Coauthored <a href="../sle2015/paper05.html">Example-based validation of domain-specific visual languages</a></em> (<a href="../profile/JesúsJLópezFernández.html">Jesús J. López-Fernández</a>, <a href="../profile/EstherGuerra.html"><span class="info">Esther Guerra</span></a>, <a href="../profile/JuandeLara.html">Juan de Lara</a>)</li>
+<li><span class="info">(<a href="../sle2016/index.html">SLE 2016</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2016/sle-2016-papers-program-committee">PC</a></li>
+<li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2017/sle-2017-sle-2017-organizing-committee">PC</a></li>
+<li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> <em>Coauthored <a href="../sle2018/paper15.html">Facet-oriented modelling: open objects for model-driven engineering</a></em> (<a href="../profile/JuandeLara.html">Juan de Lara</a>, <a href="../profile/EstherGuerra.html"><span class="info">Esther Guerra</span></a>, <a href="../profile/JörgKienzle.html">Jörg Kienzle</a>, <a href="../profile/YanisHattab.html">Yanis Hattab</a>)</li>
+<li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> <em>Coauthored <a href="../sle2018/paper21.html">Analysing meta-model product lines</a></em> (<a href="../profile/EstherGuerra.html"><span class="info">Esther Guerra</span></a>, <a href="../profile/JuandeLara.html">Juan de Lara</a>, <a href="../profile/MarshaChechik.html">Marsha Chechik</a>, <a href="../profile/RickSalay.html">Rick Salay</a>)</li>
+<li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2018/sle-2018-papers-program-committee">PC</a></li>
+<li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> <em>Coauthored <a href="../sle2019/paper11.html">Domain-specific model differencing in visual concrete syntax</a></em> (<a href="../profile/ManouchehrZadahmad.html">Manouchehr Zadahmad</a>, <a href="../profile/EugeneSyriani.html">Eugene Syriani</a>, <a href="../profile/OmarAlam.html">Omar Alam</a>, <a href="../profile/EstherGuerra.html"><span class="info">Esther Guerra</span></a>, <a href="../profile/JuandeLara.html">Juan de Lara</a>)</li>
+<li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2019/sle-2019-papers-program-committee">PC</a></li>
+<li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> <em>Coauthored <a href="../sle2021/paper01.html">New ideas: automated engineering of metamorphic testing environments for domain-specific languages</a></em> (<a href="../profile/PabloCCañizares.html">Pablo C. Cañizares</a>, <a href="../profile/PabloGómezAbajo.html">Pablo Gómez-Abajo</a>, <a href="../profile/AlbertoNúñez.html">Alberto Núñez</a>, <a href="../profile/EstherGuerra.html"><span class="info">Esther Guerra</span></a>, <a href="../profile/JuandeLara.html">Juan de Lara</a>)</li>
+<li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> <em>Coauthored <a href="../sle2021/paper08.html">Automating the synthesis of recommender systems for modelling languages</a></em> (<a href="../profile/LissetteAlmonte.html">Lissette Almonte</a>, <a href="../profile/SaraPérezSoler.html">Sara Pérez-Soler</a>, <a href="../profile/EstherGuerra.html"><span class="info">Esther Guerra</span></a>, <a href="../profile/IvánCantador.html">Iván Cantador</a>, <a href="../profile/JuandeLara.html">Juan de Lara</a>)</li>
+<li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-program-committee">PC</a></li>
+<li><span class="info">(<a href="../sle2023/index.html">SLE 2023</a>)</span> <em>Coauthored <a href="../sle2023/paper08.html">Reuse and Automated Integration of Recommenders for Modelling Languages</a></em> (<a href="../profile/LissetteAlmonte.html">Lissette Almonte</a>, <a href="../profile/AntonioGarmendía.html">Antonio Garmendía</a>, <a href="../profile/EstherGuerra.html"><span class="info">Esther Guerra</span></a>, <a href="../profile/JuandeLara.html">Juan de Lara</a>)</li>
+<li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> Served on <a href="https://2024.splashcon.org/committee/sle-2024-program-committee">PC</a></li>
+<li><span class="info">(<a href="../sle2026/index.html">SLE 2026</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2026/sle-2026-program-committee">PC</a></li></ul>
+		<clear/>
+		<footer/>
+	</body>
+</html>

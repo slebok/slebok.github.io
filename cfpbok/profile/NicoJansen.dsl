@@ -1,0 +1,64 @@
+<html doctype>
+	<head title="Nico Jansen's profile at CfPBoK" />
+	<body>
+		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
+		<h1>Nico Jansen <a href="https://dblp.org/pid/228/5015.html"><img src="../logos/dblp.png" alt="DBLP"></a> <a href="https://openalex.org/A5018979114"><img src="../logos/openalex.png" alt="OpenAlex"></a> <a href="https://orcid.org/0000-0001-5199-8323"><img src="../logos/orcid.svg" alt="ORCID"></a> <a href="https://scholar.google.com/citations?user=PiphFDMAAAAJ"><img src="../logos/gs.png" alt="Google Scholar"></a></h1>
+		<figure class="small">
+			<a href="../sle2018/index.html"><img src="../sle.png" alt="SLE 2018"></a>
+			<figcaption>
+				<a href="../sle2018/index.html">SLE 2018</a>
+				<br>
+				<a href="../sle2018/paper19.html" title="paper">⭐</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2023/index.html"><img src="../sle.png" alt="SLE 2023"></a>
+			<figcaption>
+				<a href="../sle2023/index.html">SLE 2023</a>
+				<br>
+				<a href="../sle2023/paper13.html" title="paper">⭐</a>
+<a href="../sle2023/paper16.html" title="paper">⭐</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2025/index.html"><img src="../sle.png" alt="SLE 2025"></a>
+			<figcaption>
+				<a href="../sle2025/index.html">SLE 2025</a>
+				<br>
+				<a href="../sle2025/paper05.html" title="paper">⭐</a>
+<a href="../sle2025/paper09.html" title="paper">⭐</a>
+			</figcaption>
+		</figure>
+
+		<clear/>
+		<h2>Summary</h2>
+		<ul>
+
+		<li><span class="info">5</span> papers in <span class="info">3</span> bundles</li>
+				<li>Top 3 popular tags:
+			<ul>
+				<li><a href="../tag/t1d.html"><span class="tagM">T1D: Composition</span></a> (<span class="info">4</span> times)</li>
+				<li><a href="../tag/t4a.html"><span class="tagM">T4A: Workbenches</span></a> (<span class="info">3</span> times)</li>
+				<li><a href="../tag/t4c.html"><span class="tagM">T4C: Vertical Transformation</span></a> (<span class="info">2</span> times)</li>
+			</ul>
+		</li>
+		<li>Top 3 coauthors:
+			<ul>
+				<li><a href="BernhardRumpe.html"><span class="info">Bernhard Rumpe</span></a> (<span class="info">5</span> times)</li>
+				<li><a href="JudithMichael.html"><span class="info">Judith Michael</span></a> (<span class="info">2</span> times)</li>
+				<li><a href="ArvidButting.html"><span class="info">Arvid Butting</span></a> (<span class="info">1</span> times)</li>
+			</ul>
+		</li>
+<li>Made <span class="info">5</span> contributions (see below)</li></ul>
+		<clear/>
+		<h2>List of contributions</h2>
+		<ul>
+<li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> <em>Coauthored <a href="../sle2018/paper19.html">Translating grammars to accurate metamodels</a></em> (<a href="../profile/ArvidButting.html">Arvid Butting</a>, <a href="../profile/NicoJansen.html"><span class="info">Nico Jansen</span></a>, <a href="../profile/BernhardRumpe.html">Bernhard Rumpe</a>, <a href="../profile/AndreasWortmann.html">Andreas Wortmann</a>)</li>
+<li><span class="info">(<a href="../sle2023/index.html">SLE 2023</a>)</span> <em>Coauthored <a href="../sle2023/paper13.html">Seamless Code Generator Synchronization in the Composition of Heterogeneous Modeling Languages</a></em> (<a href="../profile/NicoJansen.html"><span class="info">Nico Jansen</span></a>, <a href="../profile/BernhardRumpe.html">Bernhard Rumpe</a>)</li>
+<li><span class="info">(<a href="../sle2023/index.html">SLE 2023</a>)</span> <em>Coauthored <a href="../sle2023/paper16.html">Deriving Integrated Multi-Viewpoint Modeling Languages from Heterogeneous Modeling Languages: An Experience Report</a></em> (<a href="../profile/MalteHeithoff.html">Malte Heithoff</a>, <a href="../profile/NicoJansen.html"><span class="info">Nico Jansen</span></a>, <a href="../profile/JörgChristianKirchhof.html">Jörg Christian Kirchhof</a>, <a href="../profile/JudithMichael.html">Judith Michael</a>, <a href="../profile/FlorianRademacher.html">Florian Rademacher</a>, <a href="../profile/BernhardRumpe.html">Bernhard Rumpe</a>)</li>
+<li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> <em>Coauthored <a href="../sle2025/paper05.html">A Model-Driven Approach to Design, Generation, and Deployment of GUI Component Libraries</a></em> (<a href="../profile/ArkadiiGerasimov.html">Arkadii Gerasimov</a>, <a href="../profile/NicoJansen.html"><span class="info">Nico Jansen</span></a>, <a href="../profile/JudithMichael.html">Judith Michael</a>, <a href="../profile/BernhardRumpe.html">Bernhard Rumpe</a>, <a href="../profile/SebastianWill.html">Sebastian Will</a>)</li>
+<li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> <em>Coauthored <a href="../sle2025/paper09.html">Lessons Learned from Developing the MontiCore Language Workbench: Challenges of Modular Language Design</a></em> (<a href="../profile/NicoJansen.html"><span class="info">Nico Jansen</span></a>, <a href="../profile/AlexLüpges.html">Alex Lüpges</a>, <a href="../profile/BernhardRumpe.html">Bernhard Rumpe</a>)</li></ul>
+		<clear/>
+		<footer/>
+	</body>
+</html>

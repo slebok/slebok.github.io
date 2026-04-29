@@ -1,0 +1,51 @@
+<html doctype>
+	<head title="Sérgio Queiróz de Medeiros's profile at CfPBoK" />
+	<body>
+		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
+		<h1>Sérgio Queiróz de Medeiros <a href="https://dblp.org/pid/64/4850.html"><img src="../logos/dblp.png" alt="DBLP"></a> <a href="https://openalex.org/A5057209426"><img src="../logos/openalex.png" alt="OpenAlex"></a> <a href="https://orcid.org/0000-0002-0759-0926"><img src="../logos/orcid.svg" alt="ORCID"></a> <a href="https://www.wikidata.org/entity/Q97044358"><img src="../logos/wikidata.svg" alt="Wikidata"></a></h1>
+		<figure class="small">
+			<a href="../sle2020/index.html"><img src="../sle.png" alt="SLE 2020"></a>
+			<figcaption>
+				<a href="../sle2020/index.html">SLE 2020</a>
+				<br>
+				<a href="../sle2020/paper14.html" title="paper">⭐</a>
+<a href="https://conf.researchr.org/committee/sle-2020/sle-2020-papers-program-committee" title="PC">🔍</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2024/index.html"><img src="../sle.png" alt="SLE 2024"></a>
+			<figcaption>
+				<a href="../sle2024/index.html">SLE 2024</a>
+				<br>
+				<a href="https://2024.splashcon.org/committee/sle-2024-program-committee" title="PC">🔍</a>
+			</figcaption>
+		</figure>
+
+		<clear/>
+		<h2>Summary</h2>
+		<ul>
+
+		<li><span class="info">1</span> papers in <span class="info">1</span> bundles</li>
+				<li>Top 3 popular tags:
+			<ul>
+				<li><a href="../tag/t1c.html"><span class="tagM">T1C: Behavioural Semantics</span></a> (<span class="info">1</span> times)</li>
+				<li><a href="../tag/t4a.html"><span class="tagM">T4A: Workbenches</span></a> (<span class="info">1</span> times)</li>
+				<li><a href="../tag/t5d.html"><span class="tagM">T5D: Formal Methods</span></a> (<span class="info">1</span> times)</li>
+			</ul>
+		</li>
+		<li>Top coauthor:
+			<ul>
+				<li><a href="CarlosOlarte.html"><span class="info">Carlos Olarte</span></a> (<span class="info">1</span> times)</li>
+			</ul>
+		</li>
+<li>Made <span class="info">3</span> contributions (see below)</li></ul>
+		<clear/>
+		<h2>List of contributions</h2>
+		<ul>
+<li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> <em>Coauthored <a href="../sle2020/paper14.html">A Semantic Framework for PEGs</a></em> (<a href="../profile/SérgioQueirózdeMedeiros.html"><span class="info">Sérgio Queiróz de Medeiros</span></a>, <a href="../profile/CarlosOlarte.html">Carlos Olarte</a>)</li>
+<li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2020/sle-2020-papers-program-committee">PC</a></li>
+<li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> Served on <a href="https://2024.splashcon.org/committee/sle-2024-program-committee">PC</a></li></ul>
+		<clear/>
+		<footer/>
+	</body>
+</html>

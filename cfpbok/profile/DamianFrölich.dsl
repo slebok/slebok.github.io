@@ -1,0 +1,71 @@
+<html doctype>
+	<head title="Damian Frölich's profile at CfPBoK" />
+	<body>
+		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
+		<h1>Damian Frölich <a href="https://dblp.org/pid/300/2184.html"><img src="../logos/dblp.png" alt="DBLP"></a> <a href="https://openalex.org/A5027097839"><img src="../logos/openalex.png" alt="OpenAlex"></a> <a href="https://orcid.org/0000-0003-1016-5303"><img src="../logos/orcid.svg" alt="ORCID"></a> <a href="https://scholar.google.com/citations?user=Kr9HqXAAAAAJ"><img src="../logos/gs.png" alt="Google Scholar"></a></h1>
+		<figure class="small">
+			<a href="../sle2022/index.html"><img src="../sle.png" alt="SLE 2022"></a>
+			<figcaption>
+				<a href="../sle2022/index.html">SLE 2022</a>
+				<br>
+				<a href="../sle2022/paper15.html" title="paper">⭐</a>
+<a href="../sle2022/paper17.html" title="paper">⭐</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2023/index.html"><img src="../sle.png" alt="SLE 2023"></a>
+			<figcaption>
+				<a href="../sle2023/index.html">SLE 2023</a>
+				<br>
+				<a href="../sle2023/paper03.html" title="paper">⭐</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2024s/index.html"><img src="../sle.png" alt="SLE 2024 SI"></a>
+			<figcaption>
+				<a href="../sle2024s/index.html">SLE 2024 SI</a>
+				<br>
+				<a href="../sle2024s/paper04.html" title="paper">⭐</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2025/index.html"><img src="../sle.png" alt="SLE 2025"></a>
+			<figcaption>
+				<a href="../sle2025/index.html">SLE 2025</a>
+				<br>
+				<a href="../sle2025/paper11.html" title="paper">⭐</a>
+			</figcaption>
+		</figure>
+
+		<clear/>
+		<h2>Summary</h2>
+		<ul>
+
+		<li><span class="info">5</span> papers in <span class="info">4</span> bundles</li>
+				<li>Top 3 popular tags:
+			<ul>
+				<li><a href="../tag/t1d.html"><span class="tagM">T1D: Composition</span></a> (<span class="info">3</span> times)</li>
+				<li><a href="../tag/t4d.html"><span class="tagM">T4D: Interpretation</span></a> (<span class="info">3</span> times)</li>
+				<li><a href="../tag/t4a.html"><span class="tagM">T4A: Workbenches</span></a> (<span class="info">2</span> times)</li>
+			</ul>
+		</li>
+		<li>Top 3 coauthors:
+			<ul>
+				<li><a href="LThomasvanBinsbergen.html"><span class="info">L. Thomas van Binsbergen</span></a> (<span class="info">5</span> times)</li>
+				<li><a href="BenoîtCombemale.html"><span class="info">Benoît Combemale</span></a> (<span class="info">2</span> times)</li>
+				<li><a href="OlivierBarais.html"><span class="info">Olivier Barais</span></a> (<span class="info">2</span> times)</li>
+			</ul>
+		</li>
+<li>Made <span class="info">5</span> contributions (see below)</li></ul>
+		<clear/>
+		<h2>List of contributions</h2>
+		<ul>
+<li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em>Coauthored <a href="../sle2022/paper15.html">A Language-Parametric Approach to Exploratory Programming Environments</a></em> (<a href="../profile/LThomasvanBinsbergen.html">L. Thomas van Binsbergen</a>, <a href="../profile/DamianFrölich.html"><span class="info">Damian Frölich</span></a>, <a href="../profile/MauricioVeranoMerino.html">Mauricio Verano Merino</a>, <a href="../profile/JoeyLai.html">Joey Lai</a>, <a href="../profile/PierreJeanjean.html">Pierre Jeanjean</a>, <a href="../profile/TijsvanderStorm.html">Tijs van der Storm</a>, <a href="../profile/BenoîtCombemale.html">Benoît Combemale</a>, <a href="../profile/OlivierBarais.html">Olivier Barais</a>)</li>
+<li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em>Coauthored <a href="../sle2022/paper17.html">iCoLa: A Compositional Meta-language with Support for Incremental Language Development</a></em> (<a href="../profile/DamianFrölich.html"><span class="info">Damian Frölich</span></a>, <a href="../profile/LThomasvanBinsbergen.html">L. Thomas van Binsbergen</a>)</li>
+<li><span class="info">(<a href="../sle2023/index.html">SLE 2023</a>)</span> <em>Coauthored <a href="../sle2023/paper03.html">Adaptive Structural Operational Semantics</a></em> (<a href="../profile/GwendalJouneaux.html">Gwendal Jouneaux</a>, <a href="../profile/DamianFrölich.html"><span class="info">Damian Frölich</span></a>, <a href="../profile/OlivierBarais.html">Olivier Barais</a>, <a href="../profile/BenoîtCombemale.html">Benoît Combemale</a>, <a href="../profile/GurvanLeGuernic.html">Gurvan Le Guernic</a>, <a href="../profile/GunterMussbacher.html">Gunter Mussbacher</a>, <a href="../profile/LThomasvanBinsbergen.html">L. Thomas van Binsbergen</a>)</li>
+<li><span class="info">(<a href="../sle2024s/index.html">SLE 2024 SI</a>)</span> <em>Coauthored <a href="../sle2024s/paper04.html">iCoLa+: An extensible meta-language with support for exploratory language development</a></em> (<a href="../profile/DamianFrölich.html"><span class="info">Damian Frölich</span></a>, <a href="../profile/LThomasvanBinsbergen.html">L. Thomas van Binsbergen</a>)</li>
+<li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> <em>Coauthored <a href="../sle2025/paper11.html">Exploratory, Omniscient, and Multiverse Diagnostics in Debuggers for Non-Deterministic Languages</a></em> (<a href="../profile/DamianFrölich.html"><span class="info">Damian Frölich</span></a>, <a href="../profile/TommasoPacciani.html">Tommaso Pacciani</a>, <a href="../profile/LThomasvanBinsbergen.html">L. Thomas van Binsbergen</a>)</li></ul>
+		<clear/>
+		<footer/>
+	</body>
+</html>

@@ -1,0 +1,18 @@
+<html doctype>
+	<head title="CfPBoK paper entry" />
+	<body>
+		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
+		<div class="right"><a href="index.html"><img src="../sle.png" alt="SLE 2010"></a><br><code>sle2010/paper08</code></div>
+			<h1><span class="less"><a href="index.html">SLE 2010</a> paper:</span><br><i>Automated Co-evolution of GMF Editor Models</i></h1>
+			<h2><a href="../profile/DavideDiRuscio.html">Davide Di Ruscio</a>, <a href="../profile/RalfLämmel.html">Ralf Lämmel</a>, <a href="../profile/AlfonsoPierantonio.html">Alfonso Pierantonio</a></h2>
+<ul><li>DOI: <a href="https://doi.org/10.1007/978-3-642-19440-5_9">10.1007/978-3-642-19440-5_9</a></li>
+<li><a href="../tag/t2b.html"><span class="tagM">T2B: Evolution</span></a><ul><li> The main contribution is automated co-evolution of models when GMF-based editor/model artifacts change.
+</li></ul></li>
+<li><a href="../tag/t4b.html"><span class="tagL">T4B: Horizontal Transformation</span></a><ul><li> Co-evolution is realized via model-to-model transformations/migrations across versions.
+</li></ul></li>
+<li><a href="../tag/t4a.html"><span class="tagL">T4A: Workbenches</span></a><ul><li> The context and automation are tightly connected to the GMF/Eclipse tooling stack.
+</li></ul></li></ul>
+		<clear/>
+		<footer/>
+	</body>
+</html>

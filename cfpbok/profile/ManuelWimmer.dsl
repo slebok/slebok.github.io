@@ -1,0 +1,120 @@
+<html doctype>
+	<head title="Manuel Wimmer's profile at CfPBoK" />
+	<body>
+		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
+		<h1>Manuel Wimmer <a href="https://dblp.org/pid/20/4565.html"><img src="../logos/dblp.png" alt="DBLP"></a> <a href="https://openalex.org/A5023093639"><img src="../logos/openalex.png" alt="OpenAlex"></a> <a href="https://orcid.org/0000-0002-1124-7098"><img src="../logos/orcid.svg" alt="ORCID"></a> <a href="https://scholar.google.com/citations?user=YZDY1psAAAAJ"><img src="../logos/gs.png" alt="Google Scholar"></a> <a href="https://www.wikidata.org/entity/Q130855193"><img src="../logos/wikidata.svg" alt="Wikidata"></a></h1>
+		<figure class="small">
+			<a href="../sle2013/index.html"><img src="../sle.png" alt="SLE 2013"></a>
+			<figcaption>
+				<a href="../sle2013/index.html">SLE 2013</a>
+				<br>
+				<a href="../sle2013/paper03.html" title="paper">⭐</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2014/index.html"><img src="../sle.png" alt="SLE 2014"></a>
+			<figcaption>
+				<a href="../sle2014/index.html">SLE 2014</a>
+				<br>
+				<a href="../sle2014/paper01.html" title="paper">⭐</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2015/index.html"><img src="../sle.png" alt="SLE 2015"></a>
+			<figcaption>
+				<a href="../sle2015/index.html">SLE 2015</a>
+				<br>
+				<a href="../sle2015/paper16.html" title="paper">⭐</a>
+<a href="https://2015.splashcon.org/committee/sle2015-papers-program-committee" title="PC">🔍</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2016/index.html"><img src="../sle.png" alt="SLE 2016"></a>
+			<figcaption>
+				<a href="../sle2016/index.html">SLE 2016</a>
+				<br>
+				<a href="../sle2016/paper11.html" title="paper">⭐</a>
+<a href="https://conf.researchr.org/committee/sle-2016/sle-2016-papers-program-committee" title="PC">🔍</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2017/index.html"><img src="../sle.png" alt="SLE 2017"></a>
+			<figcaption>
+				<a href="../sle2017/index.html">SLE 2017</a>
+				<br>
+				<a href="../sle2017/paper23.html" title="paper">⭐</a>
+<a href="https://doi.org/10.1007/978-3-031-02549-5" title="Book “Model-Driven Software Engineering in Practice, Second Edition”">📘</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2022/index.html"><img src="../sle.png" alt="SLE 2022"></a>
+			<figcaption>
+				<a href="../sle2022/index.html">SLE 2022</a>
+				<br>
+				<a href="../sle2022/paper20.html" title="paper">⭐</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2023/index.html"><img src="../sle.png" alt="SLE 2023"></a>
+			<figcaption>
+				<a href="../sle2023/index.html">SLE 2023</a>
+				<br>
+				<a href="https://2023.splashcon.org/committee/sle-2023-program-committee" title="PC">🔍</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2024/index.html"><img src="../sle.png" alt="SLE 2024"></a>
+			<figcaption>
+				<a href="../sle2024/index.html">SLE 2024</a>
+				<br>
+				<a href="https://2024.splashcon.org/committee/sle-2024-program-committee" title="PC">🔍</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2024s/index.html"><img src="../sle.png" alt="SLE 2024 SI"></a>
+			<figcaption>
+				<a href="../sle2024s/index.html">SLE 2024 SI</a>
+				<br>
+				<a href="../sle2024s/paper05.html" title="paper">⭐</a>
+			</figcaption>
+		</figure>
+
+		<clear/>
+		<h2>Summary</h2>
+		<ul>
+
+		<li><span class="info">7</span> papers in <span class="info">7</span> bundles</li>
+				<li>Top 3 popular tags:
+			<ul>
+				<li><a href="../tag/t3c.html"><span class="tagM">T3C: DSLs</span></a> (<span class="info">5</span> times)</li>
+				<li><a href="../tag/t4a.html"><span class="tagM">T4A: Workbenches</span></a> (<span class="info">4</span> times)</li>
+				<li><a href="../tag/t4b.html"><span class="tagM">T4B: Horizontal Transformation</span></a> (<span class="info">2</span> times)</li>
+			</ul>
+		</li>
+		<li>Top 3 coauthors:
+			<ul>
+				<li><a href="TanjaMayerhofer.html"><span class="info">Tanja Mayerhofer</span></a> (<span class="info">3</span> times)</li>
+				<li><a href="PatrickNeubauer.html"><span class="info">Patrick Neubauer</span></a> (<span class="info">2</span> times)</li>
+				<li><a href="FaezehKhorram.html"><span class="info">Faezeh Khorram</span></a> (<span class="info">2</span> times)</li>
+			</ul>
+		</li>
+<li>Made <span class="info">12</span> contributions (see below)</li></ul>
+		<clear/>
+		<h2>List of contributions</h2>
+		<ul>
+<li><span class="info">(<a href="../sle2013/index.html">SLE 2013</a>)</span> <em>Coauthored <a href="../sle2013/paper03.html">xMOF: Executable DSMLs Based on fUML</a></em> (<a href="../profile/TanjaMayerhofer.html">Tanja Mayerhofer</a>, <a href="../profile/PhilipLanger.html">Philip Langer</a>, <a href="../profile/ManuelWimmer.html"><span class="info">Manuel Wimmer</span></a>, <a href="../profile/GertiKappel.html">Gerti Kappel</a>)</li>
+<li><span class="info">(<a href="../sle2014/index.html">SLE 2014</a>)</span> <em>Coauthored <a href="../sle2014/paper01.html">ProMoBox: A Framework for Generating Domain-Specific Property Languages</a></em> (<a href="../profile/BartMeyers.html">Bart Meyers</a>, <a href="../profile/RomualdDeshayes.html">Romuald Deshayes</a>, <a href="../profile/LucioLevi.html">Lucio Levi</a>, <a href="../profile/EugeneSyriani.html">Eugene Syriani</a>, <a href="../profile/HansVangheluwe.html">Hans Vangheluwe</a>, <a href="../profile/ManuelWimmer.html"><span class="info">Manuel Wimmer</span></a>)</li>
+<li><span class="info">(<a href="../sle2015/index.html">SLE 2015</a>)</span> <em>Coauthored <a href="../sle2015/paper16.html">XMLText: from XML schema to xtext</a></em> (<a href="../profile/PatrickNeubauer.html">Patrick Neubauer</a>, <a href="../profile/AlexanderBergmayr.html">Alexander Bergmayr</a>, <a href="../profile/TanjaMayerhofer.html">Tanja Mayerhofer</a>, <a href="../profile/JavierTroya.html">Javier Troya</a>, <a href="../profile/ManuelWimmer.html"><span class="info">Manuel Wimmer</span></a>)</li>
+<li><span class="info">(<a href="../sle2015/index.html">SLE 2015</a>)</span> Served on <a href="https://2015.splashcon.org/committee/sle2015-papers-program-committee">PC</a></li>
+<li><span class="info">(<a href="../sle2016/index.html">SLE 2016</a>)</span> <em>Coauthored <a href="../sle2016/paper11.html">Adding Uncertainty and Units to Quantity Types in Software Models</a></em> (<a href="../profile/TanjaMayerhofer.html">Tanja Mayerhofer</a>, <a href="../profile/ManuelWimmer.html"><span class="info">Manuel Wimmer</span></a>, <a href="../profile/AntonioVallecillo.html">Antonio Vallecillo</a>)</li>
+<li><span class="info">(<a href="../sle2016/index.html">SLE 2016</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2016/sle-2016-papers-program-committee">PC</a></li>
+<li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> <em>Coauthored <a href="../sle2017/paper23.html">Virtual textual model composition for supporting versioning and aspect-orientation</a></em> (<a href="../profile/RobertBill.html">Robert Bill</a>, <a href="../profile/PatrickNeubauer.html">Patrick Neubauer</a>, <a href="../profile/ManuelWimmer.html"><span class="info">Manuel Wimmer</span></a>)</li>
+<li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> Wrote a <a href="https://doi.org/10.1007/978-3-031-02549-5">Book</a></li>
+<li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em>Coauthored <a href="../sle2022/paper20.html">From Coverage Computation to Fault Localization: A Generic Framework for Domain-Specific Languages</a></em> (<a href="../profile/FaezehKhorram.html">Faezeh Khorram</a>, <a href="../profile/ErwanBousse.html">Erwan Bousse</a>, <a href="../profile/AntonioGarmendía.html">Antonio Garmendía</a>, <a href="../profile/JeanMarieMottu.html">Jean-Marie Mottu</a>, <a href="../profile/GersonSunyé.html">Gerson Sunyé</a>, <a href="../profile/ManuelWimmer.html"><span class="info">Manuel Wimmer</span></a>)</li>
+<li><span class="info">(<a href="../sle2023/index.html">SLE 2023</a>)</span> Served on <a href="https://2023.splashcon.org/committee/sle-2023-program-committee">PC</a></li>
+<li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> Served on <a href="https://2024.splashcon.org/committee/sle-2024-program-committee">PC</a></li>
+<li><span class="info">(<a href="../sle2024s/index.html">SLE 2024 SI</a>)</span> <em>Coauthored <a href="../sle2024s/paper05.html">A language-parametric test coverage framework for executable domain-specific languages</a></em> (<a href="../profile/FaezehKhorram.html">Faezeh Khorram</a>, <a href="../profile/ErwanBousse.html">Erwan Bousse</a>, <a href="../profile/AntonioGarmendía.html">Antonio Garmendía</a>, <a href="../profile/JeanMarieMottu.html">Jean-Marie Mottu</a>, <a href="../profile/GersonSunyé.html">Gerson Sunyé</a>, <a href="../profile/ManuelWimmer.html"><span class="info">Manuel Wimmer</span></a>)</li></ul>
+		<clear/>
+		<footer/>
+	</body>
+</html>

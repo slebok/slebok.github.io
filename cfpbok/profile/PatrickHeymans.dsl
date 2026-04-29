@@ -1,0 +1,53 @@
+<html doctype>
+	<head title="Patrick Heymans's profile at CfPBoK" />
+	<body>
+		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
+		<h1>Patrick Heymans <a href="https://openalex.org/A5112713583"><img src="../logos/openalex.png" alt="OpenAlex"></a></h1>
+		<figure class="small">
+			<a href="../atem2006s/index.html"><img src="../atem.png" alt="ATEM 2006 SI"></a>
+			<figcaption>
+				<a href="../atem2006s/index.html">ATEM 2006 SI</a>
+				<br>
+				<a href="../atem2006s/paper07.html" title="paper">⭐</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2010/index.html"><img src="../sle.png" alt="SLE 2010"></a>
+			<figcaption>
+				<a href="../sle2010/index.html">SLE 2010</a>
+				<br>
+				<a href="../sle2010/paper21.html" title="paper">⭐</a>
+<a href="../sle2010/paper23.html" title="paper">⭐</a>
+			</figcaption>
+		</figure>
+
+		<clear/>
+		<h2>Summary</h2>
+		<ul>
+
+		<li><span class="info">3</span> papers in <span class="info">2</span> bundles</li>
+				<li>Top 3 popular tags:
+			<ul>
+				<li><a href="../tag/t2c.html"><span class="tagM">T2C: Variability</span></a> (<span class="info">2</span> times)</li>
+				<li><a href="../tag/t1a.html"><span class="tagM">T1A: Design</span></a> (<span class="info">2</span> times)</li>
+				<li><a href="../tag/t5d.html"><span class="tagM">T5D: Formal Methods</span></a> (<span class="info">1</span> times)</li>
+			</ul>
+		</li>
+		<li>Top 3 coauthors:
+			<ul>
+				<li><a href="PierreYvesSchobbens.html"><span class="info">Pierre-Yves Schobbens</span></a> (<span class="info">1</span> times)</li>
+				<li><a href="JeanChristopheTrigaux.html"><span class="info">Jean-Christophe Trigaux</span></a> (<span class="info">1</span> times)</li>
+				<li><a href="YvesBontemps.html"><span class="info">Yves Bontemps</span></a> (<span class="info">1</span> times)</li>
+			</ul>
+		</li>
+<li>Made <span class="info">3</span> contributions (see below)</li></ul>
+		<clear/>
+		<h2>List of contributions</h2>
+		<ul>
+<li><span class="info">(<a href="../atem2006s/index.html">ATEM 2006 SI</a>)</span> <em>Coauthored <a href="../atem2006s/paper07.html">Evaluating Formal Properties of Feature Diagram Languages</a></em> (<a href="../profile/PatrickHeymans.html"><span class="info">Patrick Heymans</span></a>, <a href="../profile/PierreYvesSchobbens.html">Pierre-Yves Schobbens</a>, <a href="../profile/JeanChristopheTrigaux.html">Jean-Christophe Trigaux</a>, <a href="../profile/YvesBontemps.html">Yves Bontemps</a>, <a href="../profile/RaimundasMatulevičius.html">Raimundas Matulevičius</a>, <a href="../profile/AndreasClaßen.html">Andreas Claßen</a>)</li>
+<li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> <em>Coauthored <a href="../sle2010/paper21.html">Evaluating a Textual Feature Modelling Language: Four Industrial Case Studies</a></em> (<a href="../profile/ArnaudHubaux.html">Arnaud Hubaux</a>, <a href="../profile/QuentinBoucher.html">Quentin Boucher</a>, <a href="../profile/HermanHartmann.html">Herman Hartmann</a>, <a href="../profile/RaphaëlMichel.html">Raphaël Michel</a>, <a href="../profile/PatrickHeymans.html"><span class="info">Patrick Heymans</span></a>)</li>
+<li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> <em>Coauthored <a href="../sle2010/paper23.html">Analysing the Cognitive Effectiveness of the BPMN 2.0 Visual Notation</a></em> (<a href="../profile/NicolasGenon.html">Nicolas Genon</a>, <a href="../profile/PatrickHeymans.html"><span class="info">Patrick Heymans</span></a>, <a href="../profile/DanielAmyot.html">Daniel Amyot</a>)</li></ul>
+		<clear/>
+		<footer/>
+	</body>
+</html>

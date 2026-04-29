@@ -1,0 +1,98 @@
+<html doctype>
+	<head title="Krzysztof Czarnecki's profile at CfPBoK" />
+	<body>
+		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
+		<h1>Krzysztof Czarnecki <a href="https://dblp.org/pid/72/6806.html"><img src="../logos/dblp.png" alt="DBLP"></a> <a href="https://openalex.org/A5066916130"><img src="../logos/openalex.png" alt="OpenAlex"></a> <a href="https://orcid.org/0000-0003-1642-1101"><img src="../logos/orcid.svg" alt="ORCID"></a> <a href="https://scholar.google.com/citations?user=ZzCpumQAAAAJ"><img src="../logos/gs.png" alt="Google Scholar"></a></h1>
+		<figure class="small">
+			<a href="../sle2008s/index.html"><img src="../sle.png" alt="SLE 2008 SI"></a>
+			<figcaption>
+				<a href="../sle2008s/index.html">SLE 2008 SI</a>
+				<br>
+				<a href="../sle2008s/paper04.html" title="paper">⭐</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2009/index.html"><img src="../sle.png" alt="SLE 2009"></a>
+			<figcaption>
+				<a href="../sle2009/index.html">SLE 2009</a>
+				<br>
+				<a href="../sle2009/paper03.html" title="paper">⭐</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2010/index.html"><img src="../sle.png" alt="SLE 2010"></a>
+			<figcaption>
+				<a href="../sle2010/index.html">SLE 2010</a>
+				<br>
+				<a href="../sle2010/paper06.html" title="paper">⭐</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2011/index.html"><img src="../sle.png" alt="SLE 2011"></a>
+			<figcaption>
+				<a href="../sle2011/index.html">SLE 2011</a>
+				<br>
+				<a href="../sle2011/keynote2.html" title="keynote">🔥</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2012/index.html"><img src="../sle.png" alt="SLE 2012"></a>
+			<figcaption>
+				<a href="../sle2012/index.html">SLE 2012</a>
+				<br>
+				<a href="https://www.sleconf.org/2012/Committees.html" title="Programme Chair">🪑</a>
+<a href="https://www.sleconf.org/2012/Committees.html" title="PC">🔍</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2012s/index.html"><img src="../sle.png" alt="SLE 2012 SI"></a>
+			<figcaption>
+				<a href="../sle2012s/index.html">SLE 2012 SI</a>
+				<br>
+				<a href="https://doi.org/10.1016/j.scico.2014.09.004" title="Editor">📝</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2013/index.html"><img src="../sle.png" alt="SLE 2013"></a>
+			<figcaption>
+				<a href="../sle2013/index.html">SLE 2013</a>
+				<br>
+				<a href="../sle2013/paper18.html" title="paper">⭐</a>
+			</figcaption>
+		</figure>
+
+		<clear/>
+		<h2>Summary</h2>
+		<ul>
+
+		<li><span class="info">5</span> papers in <span class="info">5</span> bundles</li>
+				<li>Top 3 popular tags:
+			<ul>
+				<li><a href="../tag/t3c.html"><span class="tagM">T3C: DSLs</span></a> (<span class="info">3</span> times)</li>
+				<li><a href="../tag/t3f.html"><span class="tagM">T3F: API</span></a> (<span class="info">2</span> times)</li>
+				<li><a href="../tag/t2c.html"><span class="tagM">T2C: Variability</span></a> (<span class="info">2</span> times)</li>
+			</ul>
+		</li>
+		<li>Top 3 coauthors:
+			<ul>
+				<li><a href="MichałAntkiewicz.html"><span class="info">Michał Antkiewicz</span></a> (<span class="info">2</span> times)</li>
+				<li><a href="KacperBąk.html"><span class="info">Kacper Bąk</span></a> (<span class="info">2</span> times)</li>
+				<li><a href="AndrzejWąsowski.html"><span class="info">Andrzej Wąsowski</span></a> (<span class="info">2</span> times)</li>
+			</ul>
+		</li>
+<li>Made <span class="info">8</span> contributions (see below)</li></ul>
+		<clear/>
+		<h2>List of contributions</h2>
+		<ul>
+<li><span class="info">(<a href="../sle2008s/index.html">SLE 2008 SI</a>)</span> <em>Coauthored <a href="../sle2008s/paper04.html">Engineering of Framework-Specific Modeling Languages</a></em> (<a href="../profile/MichałAntkiewicz.html">Michał Antkiewicz</a>, <a href="../profile/KrzysztofCzarnecki.html"><span class="info">Krzysztof Czarnecki</span></a>, <a href="../profile/MatthewStephan.html">Matthew Stephan</a>)</li>
+<li><span class="info">(<a href="../sle2009/index.html">SLE 2009</a>)</span> <em>Coauthored <a href="../sle2009/paper03.html">Study of an API Migration for Two XML APIs</a></em> (<a href="../profile/ThiagoTonelliBartolomei.html">Thiago Tonelli Bartolomei</a>, <a href="../profile/KrzysztofCzarnecki.html"><span class="info">Krzysztof Czarnecki</span></a>, <a href="../profile/RalfLämmel.html">Ralf Lämmel</a>, <a href="../profile/TijsvanderStorm.html">Tijs van der Storm</a>)</li>
+<li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> <em>Coauthored <a href="../sle2010/paper06.html">Feature and Meta-Models in Clafer: Mixed, Specialized, and Coupled</a></em> (<a href="../profile/KacperBąk.html">Kacper Bąk</a>, <a href="../profile/KrzysztofCzarnecki.html"><span class="info">Krzysztof Czarnecki</span></a>, <a href="../profile/AndrzejWąsowski.html">Andrzej Wąsowski</a>)</li>
+<li><span class="info">(<a href="../sle2011/index.html">SLE 2011</a>)</span> <em>Authored <a href="../sle2011/keynote2.html">Designing Variability Modeling Languages</a></em> (<a href="../profile/KrzysztofCzarnecki.html"><span class="info">Krzysztof Czarnecki</span></a>)</li>
+<li><span class="info">(<a href="../sle2012/index.html">SLE 2012</a>)</span> Served as a <a href="https://www.sleconf.org/2012/Committees.html">Programme Chair</a></li>
+<li><span class="info">(<a href="../sle2012/index.html">SLE 2012</a>)</span> Served on <a href="https://www.sleconf.org/2012/Committees.html">PC</a></li>
+<li><span class="info">(<a href="../sle2012s/index.html">SLE 2012 SI</a>)</span> Served as an <a href="https://doi.org/10.1016/j.scico.2014.09.004">Editor</a></li>
+<li><span class="info">(<a href="../sle2013/index.html">SLE 2013</a>)</span> <em>Coauthored <a href="../sle2013/paper18.html">Partial Instances via Subclassing</a></em> (<a href="../profile/KacperBąk.html">Kacper Bąk</a>, <a href="../profile/ZinovyDiskin.html">Zinovy Diskin</a>, <a href="../profile/MichałAntkiewicz.html">Michał Antkiewicz</a>, <a href="../profile/KrzysztofCzarnecki.html"><span class="info">Krzysztof Czarnecki</span></a>, <a href="../profile/AndrzejWąsowski.html">Andrzej Wąsowski</a>)</li></ul>
+		<clear/>
+		<footer/>
+	</body>
+</html>

@@ -1,0 +1,89 @@
+<html doctype>
+	<head title="Andrzej Wąsowski's profile at CfPBoK" />
+	<body>
+		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
+		<h1>Andrzej Wąsowski <a href="https://dblp.org/pid/18/3339.html"><img src="../logos/dblp.png" alt="DBLP"></a> <a href="https://openalex.org/A5056755949"><img src="../logos/openalex.png" alt="OpenAlex"></a> <a href="https://orcid.org/0000-0003-0532-2685"><img src="../logos/orcid.svg" alt="ORCID"></a> <a href="https://scholar.google.com/citations?user=GgpJrwMAAAAJ"><img src="../logos/gs.png" alt="Google Scholar"></a> <a href="https://www.wikidata.org/entity/Q55407545"><img src="../logos/wikidata.svg" alt="Wikidata"></a></h1>
+		<figure class="small">
+			<a href="../sle2010/index.html"><img src="../sle.png" alt="SLE 2010"></a>
+			<figcaption>
+				<a href="../sle2010/index.html">SLE 2010</a>
+				<br>
+				<a href="../sle2010/paper06.html" title="paper">⭐</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2013/index.html"><img src="../sle.png" alt="SLE 2013"></a>
+			<figcaption>
+				<a href="../sle2013/index.html">SLE 2013</a>
+				<br>
+				<a href="../sle2013/paper18.html" title="paper">⭐</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2016/index.html"><img src="../sle.png" alt="SLE 2016"></a>
+			<figcaption>
+				<a href="../sle2016/index.html">SLE 2016</a>
+				<br>
+				<a href="../sle2016/paper19.html" title="paper">⭐</a>
+<a href="https://conf.researchr.org/committee/sle-2016/sle-2016-papers-program-committee" title="PC">🔍</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2020/index.html"><img src="../sle.png" alt="SLE 2020"></a>
+			<figcaption>
+				<a href="../sle2020/index.html">SLE 2020</a>
+				<br>
+				<a href="../sle2020/paper08.html" title="paper">⭐</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2023/index.html"><img src="../sle.png" alt="SLE 2023"></a>
+			<figcaption>
+				<a href="../sle2023/index.html">SLE 2023</a>
+				<br>
+				<a href="https://doi.org/10.1007/978-3-031-23669-3" title="Book “Domain-Specific Languages: Effective Modeling, Automation, and Reuse”">📘</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2024/index.html"><img src="../sle.png" alt="SLE 2024"></a>
+			<figcaption>
+				<a href="../sle2024/index.html">SLE 2024</a>
+				<br>
+				<a href="https://2024.splashcon.org/committee/sle-2024-program-committee" title="PC">🔍</a>
+			</figcaption>
+		</figure>
+
+		<clear/>
+		<h2>Summary</h2>
+		<ul>
+
+		<li><span class="info">4</span> papers in <span class="info">4</span> bundles</li>
+				<li>Top 3 popular tags:
+			<ul>
+				<li><a href="../tag/t1d.html"><span class="tagM">T1D: Composition</span></a> (<span class="info">2</span> times)</li>
+				<li><a href="../tag/t5d.html"><span class="tagM">T5D: Formal Methods</span></a> (<span class="info">2</span> times)</li>
+				<li><a href="../tag/t2c.html"><span class="tagM">T2C: Variability</span></a> (<span class="info">1</span> times)</li>
+			</ul>
+		</li>
+		<li>Top 3 coauthors:
+			<ul>
+				<li><a href="KacperBąk.html"><span class="info">Kacper Bąk</span></a> (<span class="info">2</span> times)</li>
+				<li><a href="KrzysztofCzarnecki.html"><span class="info">Krzysztof Czarnecki</span></a> (<span class="info">2</span> times)</li>
+				<li><a href="ZinovyDiskin.html"><span class="info">Zinovy Diskin</span></a> (<span class="info">1</span> times)</li>
+			</ul>
+		</li>
+<li>Made <span class="info">7</span> contributions (see below)</li></ul>
+		<clear/>
+		<h2>List of contributions</h2>
+		<ul>
+<li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> <em>Coauthored <a href="../sle2010/paper06.html">Feature and Meta-Models in Clafer: Mixed, Specialized, and Coupled</a></em> (<a href="../profile/KacperBąk.html">Kacper Bąk</a>, <a href="../profile/KrzysztofCzarnecki.html">Krzysztof Czarnecki</a>, <a href="../profile/AndrzejWąsowski.html"><span class="info">Andrzej Wąsowski</span></a>)</li>
+<li><span class="info">(<a href="../sle2013/index.html">SLE 2013</a>)</span> <em>Coauthored <a href="../sle2013/paper18.html">Partial Instances via Subclassing</a></em> (<a href="../profile/KacperBąk.html">Kacper Bąk</a>, <a href="../profile/ZinovyDiskin.html">Zinovy Diskin</a>, <a href="../profile/MichałAntkiewicz.html">Michał Antkiewicz</a>, <a href="../profile/KrzysztofCzarnecki.html">Krzysztof Czarnecki</a>, <a href="../profile/AndrzejWąsowski.html"><span class="info">Andrzej Wąsowski</span></a>)</li>
+<li><span class="info">(<a href="../sle2016/index.html">SLE 2016</a>)</span> <em>Coauthored <a href="../sle2016/paper19.html">Symbolic Execution of High-Level Transformations</a></em> (<a href="../profile/AhmadSalimAlSibahi.html">Ahmad Salim Al-Sibahi</a>, <a href="../profile/AleksandarSDimovski.html">Aleksandar S. Dimovski</a>, <a href="../profile/AndrzejWąsowski.html"><span class="info">Andrzej Wąsowski</span></a>)</li>
+<li><span class="info">(<a href="../sle2016/index.html">SLE 2016</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2016/sle-2016-papers-program-committee">PC</a></li>
+<li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> <em>Coauthored <a href="../sle2020/paper08.html">Behavior Trees in Action: A Study of Robotics Applications</a></em> (<a href="../profile/RazanGhzouli.html">Razan Ghzouli</a>, <a href="../profile/ThorstenBerger.html">Thorsten Berger</a>, <a href="../profile/EinarBrochJohnsen.html">Einar Broch Johnsen</a>, <a href="../profile/SwaibDragule.html">Swaib Dragule</a>, <a href="../profile/AndrzejWąsowski.html"><span class="info">Andrzej Wąsowski</span></a>)</li>
+<li><span class="info">(<a href="../sle2023/index.html">SLE 2023</a>)</span> Wrote a <a href="https://doi.org/10.1007/978-3-031-23669-3">Book</a></li>
+<li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> Served on <a href="https://2024.splashcon.org/committee/sle-2024-program-committee">PC</a></li></ul>
+		<clear/>
+		<footer/>
+	</body>
+</html>

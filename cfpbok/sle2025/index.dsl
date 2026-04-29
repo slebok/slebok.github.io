@@ -1,0 +1,212 @@
+<html doctype>
+	<head title="CfPBoK for SLE 2025" />
+	<body>
+		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
+		<div class="right"><img src="../sle.png" alt="SLE 2025 logo"></div>
+			<h1>SLE 2025</h1>
+			<ul>
+				<li><a href="#cfp">Call for Papers</a></li>
+				<li><a href="#lop">List of Papers</a></li>
+				<li><a href="#org">Organisers</a></li>
+				<li>Tags requested: <ul><li><a href="../tag/t1a.html"><span class="tagM" title="T1A: Design">T1A</span></a> <a href="../tag/t1b.html"><span class="tagM" title="T1B: Static Semantics">T1B</span></a> <a href="../tag/t1c.html"><span class="tagM" title="T1C: Behavioural Semantics">T1C</span></a> <a href="../tag/t1d.html"><span class="tagM" title="T1D: Composition">T1D</span></a> <a href="../tag/t1e.html"><span class="tagM" title="T1E: Reuse">T1E</span></a> <a href="../tag/t2b.html"><span class="tagM" title="T2B: Evolution">T2B</span></a> <a href="../tag/t2c.html"><span class="tagM" title="T2C: Variability">T2C</span></a> <a href="../tag/t2d.html"><span class="tagM" title="T2D: Deployment">T2D</span></a> <a href="../tag/t3a.html"><span class="tagM" title="T3A: Meta-languages">T3A</span></a> <a href="../tag/t3b.html"><span class="tagM" title="T3B: Transformation Languages">T3B</span></a> <a href="../tag/t3c.html"><span class="tagM" title="T3C: DSLs">T3C</span></a> <a href="../tag/t4a.html"><span class="tagM" title="T4A: Workbenches">T4A</span></a> <a href="../tag/t4b.html"><span class="tagM" title="T4B: Horizontal Transformation">T4B</span></a> <a href="../tag/t4c.html"><span class="tagM" title="T4C: Vertical Transformation">T4C</span></a> <a href="../tag/t4e.html"><span class="tagM" title="T4E: Simulation">T4E</span></a> <a href="../tag/t4g.html"><span class="tagM" title="T4G: AI-for-SLE">T4G</span></a> <a href="../tag/t5a.html"><span class="tagM" title="T5A: Requirements">T5A</span></a> <a href="../tag/t5c.html"><span class="tagM" title="T5C: Testing">T5C</span></a> <a href="../tag/t5d.html"><span class="tagM" title="T5D: Formal Methods">T5D</span></a> <a href="../tag/t5e.html"><span class="tagM" title="T5E: Empirical Evaluation">T5E</span></a> <a href="../tag/t5f.html"><span class="tagM" title="T5F: Performance">T5F</span></a> <a href="../tag/t5g.html"><span class="tagM" title="T5G: Traceability">T5G</span></a> <a href="../tag/t5h.html"><span class="tagM" title="T5H: Usability">T5H</span></a> <a href="../tag/t6a.html"><span class="tagM" title="T6A: Experience Reports">T6A</span></a> <a href="../tag/t6b.html"><span class="tagM" title="T6B: Industrial">T6B</span></a> <a href="../tag/t6c.html"><span class="tagM" title="T6C: SLE-for-AI">T6C</span></a> <a href="../tag/t6d.html"><span class="tagM" title="T6D: Synergies">T6D</span></a> <a href="../tag/t6e.html"><span class="tagM" title="T6E: Quantum">T6E</span></a> <a href="../tag/t6f.html"><span class="tagM" title="T6F: CPS/IoT/DT">T6F</span></a> <a href="../tag/t6g.html"><span class="tagM" title="T6G: Socio-technical">T6G</span></a> </li></ul></li>
+<li>Tags received: <ul><li><a href="../tag/t1a.html"><span class="tagM" title="T1A: Design">T1A</span></a> <a href="../tag/t1b.html"><span class="tagM" title="T1B: Static Semantics">T1B</span></a> <a href="../tag/t1c.html"><span class="tagL" title="T1C: Behavioural Semantics">T1C</span></a> <a href="../tag/t1d.html"><span class="tagL" title="T1D: Composition">T1D</span></a> <a href="../tag/t1e.html"><span class="tagM" title="T1E: Reuse">T1E</span></a> <a href="../tag/t2b.html"><span class="tagL" title="T2B: Evolution">T2B</span></a> <a href="../tag/t2c.html"><span class="tagM" title="T2C: Variability">T2C</span></a> <a href="../tag/t2d.html"><span class="tagL" title="T2D: Deployment">T2D</span></a> <a href="../tag/t2e.html"><span class="tagL" title="T2E: Documentation">T2E</span></a> <a href="../tag/t3a.html"><span class="tagL" title="T3A: Meta-languages">T3A</span></a> <a href="../tag/t3c.html"><span class="tagM" title="T3C: DSLs">T3C</span></a> <a href="../tag/t3d.html"><span class="tagM" title="T3D: GPLs">T3D</span></a> <a href="../tag/t4a.html"><span class="tagM" title="T4A: Workbenches">T4A</span></a> <a href="../tag/t4b.html"><span class="tagM" title="T4B: Horizontal Transformation">T4B</span></a> <a href="../tag/t4c.html"><span class="tagM" title="T4C: Vertical Transformation">T4C</span></a> <a href="../tag/t4d.html"><span class="tagM" title="T4D: Interpretation">T4D</span></a> <a href="../tag/t4e.html"><span class="tagL" title="T4E: Simulation">T4E</span></a> <a href="../tag/t5b.html"><span class="tagM" title="T5B: Language Description Analysis">T5B</span></a> <a href="../tag/t5c.html"><span class="tagM" title="T5C: Testing">T5C</span></a> <a href="../tag/t5d.html"><span class="tagM" title="T5D: Formal Methods">T5D</span></a> <a href="../tag/t5e.html"><span class="tagL" title="T5E: Empirical Evaluation">T5E</span></a> <a href="../tag/t5f.html"><span class="tagL" title="T5F: Performance">T5F</span></a> <a href="../tag/t6a.html"><span class="tagM" title="T6A: Experience Reports">T6A</span></a> </li></ul></li>
+			</ul>
+<h2 id="cfp">Call for Papers (<a href="http://www.sleconf.org/2025/CFP.html">source</a>)</h2>
+<p>
+</p>
+<h3>Topics of Interest</h3>
+<p>
+</p>
+<p>SLE covers software language engineering in general, rather than engineering a specific software language. Topics of interest include, but are not limited to:
+</p>
+<p>
+</p>
+<ul>
+<li>Software <span class="term">Language Design</span><span class="tag" title="T1A: Design"><a href="../tag/t1a.html">T1A</a></span> and Implementation</li>
+<ul>
+<li>Approaches to and methods for <span class="term">language design</span><span class="tag" title="T1A: Design"><a href="../tag/t1a.html">T1A</a></span></li>
+<li><span class="term">Static semantics</span><span class="tag" title="T1B: Static Semantics"><a href="../tag/t1b.html">T1B</a></span> (e.g., design rules, well-formedness constraints)</li>
+<li>Techniques for specifying <span class="term">behavioral/executable semantics</span><span class="tag" title="T1C: Behavioural Semantics"><a href="../tag/t1c.html">T1C</a></span></li>
+<li><span class="term">Generative approaches</span><span class="tag" title="T4C: Vertical Transformation"><a href="../tag/t4c.html">T4C</a></span> (incl. <span class="term">code synthesis</span><span class="tag" title="T4C: Vertical Transformation"><a href="../tag/t4c.html">T4C</a></span>, <span class="term">compilation</span><span class="tag" title="T4C: Vertical Transformation"><a href="../tag/t4c.html">T4C</a></span>)</li>
+<li><span class="term">Meta-languages</span><span class="tag" title="T3A: Meta-languages"><a href="../tag/t3a.html">T3A</a></span>, <span class="term">meta-tools</span><span class="tag" title="T4A: Workbenches"><a href="../tag/t4a.html">T4A</a></span>, <span class="term">language workbenches</span><span class="tag" title="T4A: Workbenches"><a href="../tag/t4a.html">T4A</a></span></li>
+<li><span class="term">AI-assisted</span><span class="tag" title="T4G: AI-for-SLE"><a href="../tag/t4g.html">T4G</a></span> <span class="term">language design</span><span class="tag" title="T1A: Design"><a href="../tag/t1a.html">T1A</a></span> and <span class="term">optimisation</span><span class="tag" title="T4C: Vertical Transformation"><a href="../tag/t4c.html">T4C</a></span></li>
+</ul>
+<li><span class="term">Software Language Validation</span><span class="tag" title="T5D: Formal Methods"><a href="../tag/t5d.html">T5D</a></span></li>
+<ul>
+<li><span class="term">Verification and formal methods for languages</span><span class="tag" title="T5D: Formal Methods"><a href="../tag/t5d.html">T5D</a></span></li>
+<li><span class="term">Testing techniques for languages</span><span class="tag" title="T5C: Testing"><a href="../tag/t5c.html">T5C</a></span></li>
+<li><span class="term">Simulation techniques for languages</span><span class="tag" title="T4E: Simulation"><a href="../tag/t4e.html">T4E</a></span></li>
+<li><span class="term">Model-based testing</span><span class="tag" title="T5C: Testing"><a href="../tag/t5c.html">T5C</a></span></li>
+<li><span class="term">AI-assisted</span><span class="tag" title="T4G: AI-for-SLE"><a href="../tag/t4g.html">T4G</a></span> <span class="term">validation</span><span class="tag" title="T5D: Formal Methods"><a href="../tag/t5d.html">T5D</a></span></li>
+</ul>
+<li><span class="term">Software Language Integration and Composition</span><span class="tag" title="T1D: Composition"><a href="../tag/t1d.html">T1D</a></span></li>
+<ul>
+<li><span class="term">Coordination of heterogeneous languages and tools</span><span class="tag" title="T1D: Composition"><a href="../tag/t1d.html">T1D</a></span></li>
+<li><span class="term">Mappings between languages</span><span class="tag" title="T4B: Horizontal Transformation"><a href="../tag/t4b.html">T4B</a></span> (incl. <span class="term">transformation languages</span><span class="tag" title="T3B: Transformation Languages"><a href="../tag/t3b.html">T3B</a></span>)</li>
+<li><span class="term">Traceability between languages</span><span class="tag" title="T5G: Traceability"><a href="../tag/t5g.html">T5G</a></span></li>
+<li><span class="term">Deployment of languages to different platforms</span><span class="tag" title="T2D: Deployment"><a href="../tag/t2d.html">T2D</a></span></li>
+<li><span class="term">AI-assisted</span><span class="tag" title="T4G: AI-for-SLE"><a href="../tag/t4g.html">T4G</a></span> <span class="term">refactoring</span><span class="tag" title="T4B: Horizontal Transformation"><a href="../tag/t4b.html">T4B</a></span></li>
+</ul>
+<li><span class="term">Software Language Maintenance</span><span class="tag" title="T2B: Evolution"><a href="../tag/t2b.html">T2B</a></span></li>
+<ul>
+<li><span class="term">Software language reuse</span><span class="tag" title="T1E: Reuse"><a href="../tag/t1e.html">T1E</a></span></li>
+<li><span class="term">Language evolution</span><span class="tag" title="T2B: Evolution"><a href="../tag/t2b.html">T2B</a></span></li>
+<li><span class="term">Language families and variability, language and software product lines</span><span class="tag" title="T2C: Variability"><a href="../tag/t2c.html">T2C</a></span></li>
+</ul>
+<li><span class="term">Domain-specific approaches</span><span class="tag" title="T3C: DSLs"><a href="../tag/t3c.html">T3C</a></span> for any aspects of SLE (<span class="term">design</span><span class="tag" title="T1A: Design"><a href="../tag/t1a.html">T1A</a></span>, implementation, <span class="term">validation</span><span class="tag" title="T5D: Formal Methods"><a href="../tag/t5d.html">T5D</a></span>, <span class="term">maintenance</span><span class="tag" title="T2B: Evolution"><a href="../tag/t2b.html">T2B</a></span>)</li>
+<li><span class="term">Empirical evaluation</span><span class="tag" title="T5E: Empirical Evaluation"><a href="../tag/t5e.html">T5E</a></span> and <span class="term">experience reports</span><span class="tag" title="T6A: Experience Reports"><a href="../tag/t6a.html">T6A</a></span> of language engineering tools</li>
+<ul>
+<li>User studies evaluating <span class="term">usability</span><span class="tag" title="T5H: Usability"><a href="../tag/t5h.html">T5H</a></span></li>
+<li><span class="term">Performance benchmarks</span><span class="tag" title="T5F: Performance"><a href="../tag/t5f.html">T5F</a></span></li>
+<li><span class="term">Industrial applications</span><span class="tag" title="T6B: Industrial"><a href="../tag/t6b.html">T6B</a></span></li>
+</ul>
+<li><span class="term">Synergies between Language Engineering and emerging/promising research areas</span><span class="tag" title="T6D: Synergies"><a href="../tag/t6d.html">T6D</a></span></li>
+<ul>
+<li><span class="term">Generative AI in language engineering</span><span class="tag" title="T4G: AI-for-SLE"><a href="../tag/t4g.html">T4G</a></span> (e.g., <span class="term">AI-based language modelling</span><span class="tag" title="T4G: AI-for-SLE"><a href="../tag/t4g.html">T4G</a></span>, <span class="term">AI-driven code generation tools</span><span class="tag" title="T4G: AI-for-SLE"><a href="../tag/t4g.html">T4G</a></span>)</li>
+<li><span class="term">AI and ML language engineering</span><span class="tag" title="T6C: SLE-for-AI"><a href="../tag/t6c.html">T6C</a></span> (e.g., <span class="term">ML compiler testing</span><span class="tag" title="T6C: SLE-for-AI"><a href="../tag/t6c.html">T6C</a></span>, <span class="term">code classification</span><span class="tag" title="T6C: SLE-for-AI"><a href="../tag/t6c.html">T6C</a></span>)</li>
+<li><span class="term">Quantum language engineering</span><span class="tag" title="T6E: Quantum"><a href="../tag/t6e.html">T6E</a></span> (e.g., <span class="term">language design</span><span class="tag" title="T1A: Design"><a href="../tag/t1a.html">T1A</a></span> for quantum machines)</li>
+<li><span class="term">Language engineering for physical systems (e.g., CPS, IoT, digital twins)</span><span class="tag" title="T6F: CPS/IoT/DT"><a href="../tag/t6f.html">T6F</a></span></li>
+<li><span class="term">Socio-technical systems and language engineering</span><span class="tag" title="T6G: Socio-technical"><a href="../tag/t6g.html">T6G</a></span> (e.g., <span class="term">language evolution</span><span class="tag" title="T2B: Evolution"><a href="../tag/t2b.html">T2B</a></span> to adapt to <span class="term">social requirements</span><span class="tag" title="T5A: Requirements"><a href="../tag/t5a.html">T5A</a></span>)</li>
+</ul>
+</ul>
+<p>
+</p>
+<h3>Types of Submissions</h3>
+<p>
+</p>
+<p>SLE accepts the following types of papers:
+</p>
+<p>
+</p>
+<ul>
+<li>Research papers: These are “traditional” papers detailing research contributions to SLE. Papers may range from 6 to 12 pages in length and may optionally include 2 further pages of bibliography/appendices. Papers will be reviewed with an understanding that some results do not need 12 full pages and may be fully described in fewer pages.</li>
+</ul>
+<p>
+</p>
+<ul>
+<li>New ideas/vision papers: These papers may describe new, unconventional software language engineering research positions or approaches that depart from standard practice. They can describe well-defined research ideas that are at an early stage of investigation. They could also provide new evidence to challenge common wisdom, present new unifying theories about existing SLE research that provides novel insight or that can lead to the development of new technologies or approaches, or apply SLE technology to radically new application areas. New ideas/vision papers must not exceed 5 pages and may optionally include 1 further page of bibliography/appendices.</li>
+</ul>
+<p>
+</p>
+<ul>
+<li>SLE Body of Knowledge: The SLE Body of Knowledge (SLEBoK) is a community-wide effort to provide a unique and comprehensive description of the concepts, best practices, tools, and methods developed by the SLE community. In this respect, the SLE conference will accept surveys, essays, open challenges, <span class="term">empirical observations</span><span class="tag" title="T5E: Empirical Evaluation"><a href="../tag/t5e.html">T5E</a></span>, and <span class="term">case study</span><span class="tag" title="T6A: Experience Reports"><a href="../tag/t6a.html">T6A</a></span> papers on the SLE topics. These can focus on, but are not limited to, methods, techniques, best practices, and teaching approaches. Papers in this category can have up to 20 pages, including bibliography/appendices.</li>
+</ul>
+<p>
+</p>
+<ul>
+<li>Tool papers: These papers focus on the tooling aspects often forgotten or neglected in research papers. A good tool paper focuses on practical insights that will <span class="term">likely be useful to other implementers or users in the future</span><span class="tag" title="T1E: Reuse"><a href="../tag/t1e.html">T1E</a></span>. Any of the SLE topics of interest are appropriate areas for tool demonstrations. Submissions must not exceed 5 pages and may optionally include 1 further page of bibliography/appendices. They may optionally include an appendix with a demo outline/screenshots and/or a short video/screencast illustrating the tool.</li>
+</ul><h2 id="lop">List of Papers (<a href="https://dblp.org/db/conf/sle/sle2025.html">source</a>)</h2>
+<ul class="lop">
+
+<li><span title="Keynote">🔥</span> <em><a href="keynote1.html">A New DSL Textbook in Town!</a></em> (<a href="../profile/ThorstenBerger.html">Thorsten Berger</a>)
+<ul><li>
+<a href="../tag/t3c.html"><span class="tagM" title="The keynote focuses on domain-specific languages (DSLs) and how they raise the level of abstraction for automation in software projects.">T3C: DSLs</span></a>
+<a href="../tag/t2e.html"><span class="tagL" title="It centers on a DSL textbook and teaching material, making documentation/knowledge transfer a core artifact.">T2E: Documentation</span></a>
+<a href="../tag/t6a.html"><span class="tagL" title="The talk reports practical experiences from a decade of teaching DSL engineering, in the style of an experience report.">T6A: Experience Reports</span></a>
+</li></ul></li>
+<li><span title="Keynote">🔥</span> <em><a href="keynote2.html">Can Programming Be Liberated from the Functional Style?</a></em> (<a href="../profile/FriedrichSteimann.html">Friedrich Steimann</a>)
+<ul><li>
+<a href="../tag/t3d.html"><span class="tagM" title="It discusses general-purpose programming paradigms (functional vs. relational/modelling styles) rather than a specific DSL.">T3D: GPLs</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title="The argument is about (re-)designing programming languages around different core abstractions and composition of results.">T1A: Design</span></a>
+<a href="../tag/t1c.html"><span class="tagL" title="It reasons about computation/meaning (what programs can produce) at the level of behavioural/executable semantics.">T1C: Behavioural Semantics</span></a>
+</li></ul></li>
+<li><em><a href="paper01.html">Handling Grammar Cycles in the 1997 SML Definition</a></em> (<a href="../profile/ElizabethScott.html">Elizabeth Scott</a>, <a href="../profile/AdrianJohnstone.html">Adrian Johnstone</a>)
+<ul><li>
+<a href="../tag/t4c.html"><span class="tagM" title="The paper contributes parsing technology (cycle handling in parse forests) as part of the compilation pipeline.">T4C: Vertical Transformation</span></a>
+<a href="../tag/t3a.html"><span class="tagL" title="Its techniques operate on grammar-based language definitions and their generated parse artefacts, i.e., meta-language infrastructure.">T3A: Meta-languages</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title="It targets language workbench/parser tooling by improving default ambiguity handling when grammars contain cycles.">T4A: Workbenches</span></a>
+</li></ul></li>
+<li><em><a href="paper02.html">Property-based Testing of Attribute Grammars</a></em> (<a href="../profile/JoséNunoMacedo.html">José Nuno Macedo</a>, <a href="../profile/MarcosViera.html">Marcos Viera</a>, <a href="../profile/JoãoSaraiva.html">João Saraiva</a>)
+<ul><li>
+<a href="../tag/t5c.html"><span class="tagM" title="The main contribution is a testing technique (property-based testing) applied to language definitions.">T5C: Testing</span></a>
+<a href="../tag/t3a.html"><span class="tagL" title="Attribute grammars are a classic meta-language for defining analyses/semantics, and the work extends how they are used.">T3A: Meta-languages</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title="It presents an implementation framework (strategies) to support running these tests in practice.">T4A: Workbenches</span></a>
+</li></ul></li>
+<li><em><a href="paper03.html">Scheduling the Construction and Interrogation of Scope Graphs Using Attribute Grammars</a></em> (<a href="../profile/LukeBessant.html">Luke Bessant</a>, <a href="../profile/EricVanWyk.html">Eric Van Wyk</a>)
+<ul><li>
+<a href="../tag/t1b.html"><span class="tagM" title="It addresses name binding/name resolution, a central part of static semantics, via scope graphs.">T1B: Static Semantics</span></a>
+<a href="../tag/t3a.html"><span class="tagL" title="The work translates annotated Statix specifications into reference attribute grammars, squarely in meta-language territory.">T3A: Meta-languages</span></a>
+<a href="../tag/t4c.html"><span class="tagL" title="The contribution is about scheduling/construction of static analysis structures, i.e., how semantic processing is executed/compiled from specs.">T4C: Vertical Transformation</span></a>
+</li></ul></li>
+<li><em><a href="paper04.html">Boosting Parallel Parsing through Cyclic Operator Precedence Grammars</a></em> (<a href="../profile/MicheleChiari.html">Michele Chiari</a>, <a href="../profile/MicheleGiornetta.html">Michele Giornetta</a>, <a href="../profile/DinoMandrioli.html">Dino Mandrioli</a>, <a href="../profile/MatteoPradella.html">Matteo Pradella</a>)
+<ul><li>
+<a href="../tag/t4c.html"><span class="tagM" title="It develops a (parallel) parser generator for operator-precedence grammars, a compilation front-end concern.">T4C: Vertical Transformation</span></a>
+<a href="../tag/t5f.html"><span class="tagL" title="Parallel parsing is motivated and evaluated primarily in terms of performance and scalability improvements.">T5F: Performance</span></a>
+<a href="../tag/t3a.html"><span class="tagL" title="The approach is grounded in formal grammar formalisms (OPL) used as meta-languages for syntax definition.">T3A: Meta-languages</span></a>
+</li></ul></li>
+<li><em><a href="paper05.html">A Model-Driven Approach to Design, Generation, and Deployment of GUI Component Libraries</a></em> (<a href="../profile/ArkadiiGerasimov.html">Arkadii Gerasimov</a>, <a href="../profile/NicoJansen.html">Nico Jansen</a>, <a href="../profile/JudithMichael.html">Judith Michael</a>, <a href="../profile/BernhardRumpe.html">Bernhard Rumpe</a>, <a href="../profile/SebastianWill.html">Sebastian Will</a>)
+<ul><li>
+<a href="../tag/t1e.html"><span class="tagM" title="The core aim is reusable GUI components at the model level, i.e., building and integrating component libraries.">T1E: Reuse</span></a>
+<a href="../tag/t4c.html"><span class="tagL" title="It relies on model-driven generation of component artifacts and libraries from higher-level specifications.">T4C: Vertical Transformation</span></a>
+<a href="../tag/t2d.html"><span class="tagL" title="Deployment is an explicit part of the contribution, covering how generated GUI libraries are packaged and delivered.">T2D: Deployment</span></a>
+</li></ul></li>
+<li><em><a href="paper06.html">TranspileJS, an Intelligent Framework for Transpiling JavaScript to WebAssembly</a></em> (<a href="../profile/JoséPedroFerreira.html">José Pedro Ferreira</a>, <a href="../profile/JoãoBispo.html">João Bispo</a>, <a href="../profile/SusanaMariadeSousaLima.html">Susana Maria de Sousa Lima</a>)
+<ul><li>
+<a href="../tag/t4c.html"><span class="tagM" title="The paper presents a transpilation pipeline (JavaScript→TypeScript→WebAssembly) akin to compilation/refinement.">T4C: Vertical Transformation</span></a>
+<a href="../tag/t2d.html"><span class="tagL" title="WebAssembly is a deployment/portability target, and the motivation includes hardening shipped code against tampering.">T2D: Deployment</span></a>
+<a href="../tag/t3d.html"><span class="tagL" title="It works with a general-purpose language (JavaScript) and its compilation to a low-level portable format.">T3D: GPLs</span></a>
+</li></ul></li>
+<li><em><a href="paper07.html">Optimal Language Design is Hard: A Case Study in ECMAScript (JavaScript) Standardization</a></em> (<a href="../profile/PhilippRiemer.html">Philipp Riemer</a>, <a href="../profile/YuryNikulin.html">Yury Nikulin</a>, <a href="../profile/AshleyClaymore.html">Ashley Claymore</a>, <a href="../profile/MikhailBarash.html">Mikhail Barash</a>)
+<ul><li>
+<a href="../tag/t1a.html"><span class="tagM" title="It studies and supports design choices in a widely used language (ECMAScript), focusing on the language design process itself.">T1A: Design</span></a>
+<a href="../tag/t2b.html"><span class="tagL" title="The work frames language standardization as an evolving, long-running maintenance process with accumulating issues/preferences.">T2B: Evolution</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title="It introduces tooling (and an ILP-backed workflow) to structure and optimize parts of the decision-making process.">T4A: Workbenches</span></a>
+</li></ul></li>
+<li><em><a href="paper08.html">AnyText: Incremental, left-recursive Parsing and Pretty-Printing from a single Grammar Definition with first-class LSP support</a></em> (<a href="../profile/GeorgHinkel.html">Georg Hinkel</a>, <a href="../profile/AlexanderHert.html">Alexander Hert</a>, <a href="../profile/NiklasHettler.html">Niklas Hettler</a>, <a href="../profile/KevinWeinert.html">Kevin Weinert</a>)
+<ul><li>
+<a href="../tag/t4a.html"><span class="tagM" title="AnyText is presented as a language workbench with first-class LSP support and integrated infrastructure.">T4A: Workbenches</span></a>
+<a href="../tag/t4c.html"><span class="tagL" title="Its key technical contribution is incremental parsing (including left recursion) and pretty-print generation from grammar definitions.">T4C: Vertical Transformation</span></a>
+<a href="../tag/t3a.html"><span class="tagL" title="The central artifact is an EBNF-like grammar and extensions, i.e., a meta-language used to derive parsers/printers.">T3A: Meta-languages</span></a>
+</li></ul></li>
+<li><em><a href="paper09.html">Lessons Learned from Developing the MontiCore Language Workbench: Challenges of Modular Language Design</a></em> (<a href="../profile/NicoJansen.html">Nico Jansen</a>, <a href="../profile/AlexLüpges.html">Alex Lüpges</a>, <a href="../profile/BernhardRumpe.html">Bernhard Rumpe</a>)
+<ul><li>
+<a href="../tag/t6a.html"><span class="tagM" title="It is explicitly framed as lessons learned from industrial-strength tool development, i.e., an experience report.">T6A: Experience Reports</span></a>
+<a href="../tag/t1d.html"><span class="tagL" title="The focus is modular/compositional language development and integration, analyzing challenges in language composition.">T1D: Composition</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title="MontiCore is a language workbench, and the paper’s findings are grounded in its tooling architecture.">T4A: Workbenches</span></a>
+</li></ul></li>
+<li><em><a href="paper10.html">Integrating Model Checking into a Live Modeling Environment</a></em> (<a href="../profile/JoeriExelmans.html">Joeri Exelmans</a>, <a href="../profile/CiprianTeodorov.html">Ciprian Teodorov</a>, <a href="../profile/HansVangheluwe.html">Hans Vangheluwe</a>)
+<ul><li>
+<a href="../tag/t5d.html"><span class="tagM" title="Model checking is a formal-methods technique, and integrating it is the paper’s primary contribution.">T5D: Formal Methods</span></a>
+<a href="../tag/t4d.html"><span class="tagL" title="The setting is live modeling where models execute under an interpreter and are edited at runtime.">T4D: Interpretation</span></a>
+<a href="../tag/t4e.html"><span class="tagL" title="Witness traces/counterexamples are produced as integrated execution scenarios, aligning with simulation-style exploration of behaviours.">T4E: Simulation</span></a>
+</li></ul></li>
+<li><em><a href="paper11.html">Exploratory, Omniscient, and Multiverse Diagnostics in Debuggers for Non-Deterministic Languages</a></em> (<a href="../profile/DamianFrölich.html">Damian Frölich</a>, <a href="../profile/TommasoPacciani.html">Tommaso Pacciani</a>, <a href="../profile/LThomasvanBinsbergen.html">L. Thomas van Binsbergen</a>)
+<ul><li>
+<a href="../tag/t4d.html"><span class="tagM" title="The contribution is debugging support for non-deterministic language runtimes via multiverse state-space exploration.">T4D: Interpretation</span></a>
+<a href="../tag/t5c.html"><span class="tagL" title="It generalizes breakpoint-like mechanisms and exploration logics that support systematic debugging/testing of behaviours.">T5C: Testing</span></a>
+<a href="../tag/t1c.html"><span class="tagL" title="Non-deterministic execution semantics are central, since the debugger explores alternative execution paths and resulting states.">T1C: Behavioural Semantics</span></a>
+</li></ul></li>
+<li><em><a href="paper12.html">Dynamic Dependency-Based Purity Checking</a></em> (<a href="../profile/AntonRisbergAlaküla.html">Anton Risberg Alaküla</a>, <a href="../profile/NiklasFors.html">Niklas Fors</a>, <a href="../profile/ChristophReichenbach.html">Christoph Reichenbach</a>)
+<ul><li>
+<a href="../tag/t5b.html"><span class="tagM" title="It analyses and checks semantic properties (purity/side effects) of embedded code fragments in language specifications.">T5B: Language Description Analysis</span></a>
+<a href="../tag/t3a.html"><span class="tagL" title="The target setting is reference attribute grammars in JastAdd, a meta-language ecosystem for language definitions.">T3A: Meta-languages</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title="Tragdor is delivered as a tool that instruments/runs specifications to detect property violations dynamically.">T4A: Workbenches</span></a>
+</li></ul></li>
+<li><em><a href="paper13.html">Optimize Effect Handling for Tail-resumption with Stack Unwinding</a></em> (<a href="../profile/YuzeFu.html">Yuze Fu</a>, <a href="../profile/ShigeruChiba.html">Shigeru Chiba</a>)
+<ul><li>
+<a href="../tag/t4d.html"><span class="tagM" title="Effect handlers are a runtime control-flow mechanism, and the paper proposes a concrete runtime implementation strategy.">T4D: Interpretation</span></a>
+<a href="../tag/t5f.html"><span class="tagL" title="The goal is to reduce overhead for tail-resumptive handlers, with performance as the main evaluation dimension.">T5F: Performance</span></a>
+<a href="../tag/t1c.html"><span class="tagL" title="The work is about executable semantics of algebraic effects/handlers and how they are realized operationally.">T1C: Behavioural Semantics</span></a>
+</li></ul></li>
+<li><em><a href="paper14.html">Variability Fault Localization by Abstract Interpretation and its Application to SPL Repair</a></em> (<a href="../profile/AleksandarSDimovski.html">Aleksandar S. Dimovski</a>)
+<ul><li>
+<a href="../tag/t2c.html"><span class="tagM" title="The paper targets software product lines and variability bugs, explicitly working over program families.">T2C: Variability</span></a>
+<a href="../tag/t5d.html"><span class="tagL" title="It uses abstract interpretation and lifted invariants, a formal-methods foundation for the fault localization algorithm.">T5D: Formal Methods</span></a>
+<a href="../tag/t2b.html"><span class="tagL" title="Fault localization and automated repair are maintenance activities aimed at evolving and fixing SPL code bases.">T2B: Evolution</span></a>
+</li></ul></li>
+<li><em><a href="paper15.html">(Semantic) Feature Model Differences with (Q)SAT</a></em> (<a href="../profile/SimoneHeisinger.html">Simone Heisinger</a>, <a href="../profile/MaximilianHeisinger.html">Maximilian Heisinger</a>, <a href="../profile/MartinaSeidl.html">Martina Seidl</a>)
+<ul><li>
+<a href="../tag/t2c.html"><span class="tagM" title="Feature models and their evolution are central artefacts in product line/variability engineering.">T2C: Variability</span></a>
+<a href="../tag/t5d.html"><span class="tagL" title="The approach encodes semantics into SAT/QSAT and reasons formally about differences between model versions.">T5D: Formal Methods</span></a>
+<a href="../tag/t2b.html"><span class="tagL" title="It is explicitly about tracking differences across iterations, i.e., evolution of feature models over time.">T2B: Evolution</span></a>
+</li></ul></li>
+<li><em><a href="paper16.html">Detecting Resource Leaks on Android with Alpakka</a></em> (<a href="../profile/GustavoSoaresSantos.html">Gustavo Soares Santos</a>, <a href="../profile/JoãoBispo.html">João Bispo</a>, <a href="../profile/AlexandraMendes.html">Alexandra Mendes</a>)
+<ul><li>
+<a href="../tag/t4b.html"><span class="tagM" title="Alpakka is a source-to-source compiler over Smali that transforms programs to detect and repair resource leaks.">T4B: Horizontal Transformation</span></a>
+<a href="../tag/t2b.html"><span class="tagL" title="Automatically localizing and fixing resource leaks supports maintenance and regression prevention in Android apps.">T2B: Evolution</span></a>
+<a href="../tag/t5e.html"><span class="tagL" title="It reports an empirical evaluation on a dataset of real APKs and quantifies findings such as false positive rates.">T5E: Empirical Evaluation</span></a>
+</li></ul></li></ul><h2 id="org">Organisers</h2><ul><li><a href="../profile/GörelHedin.html">Görel Hedin</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-oc">General Chair</a>)</li><li><a href="../profile/ReginaHebig.html">Regina Hebig</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-oc">Programme Chair</a>)</li><li><a href="../profile/VadimZaytsev.html">Vadim Zaytsev</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-oc">Programme Chair</a>)</li><li><a href="../profile/IdrissRiouak.html">Idriss Riouak</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-oc">Artefact Evaluation Chair</a>)</li><li><a href="../profile/JeffSmits.html">Jeff Smits</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-oc">Artefact Evaluation Chair</a>)</li><li><a href="../profile/SharifAhmed.html">Sharif Ahmed</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-papers-artifact-evaluation-committee">AEC</a>)</li><li><a href="../profile/GiacomoBoldini.html">Giacomo Boldini</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-papers-artifact-evaluation-committee">AEC</a>)</li><li><a href="../profile/FedericoBruzzone.html">Federico Bruzzone</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-papers-artifact-evaluation-committee">AEC</a>)</li><li><a href="../profile/LucaFavalli.html">Luca Favalli</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-papers-artifact-evaluation-committee">AEC</a>)</li><li><a href="../profile/EduardoFernandes.html">Eduardo Fernandes</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-papers-artifact-evaluation-committee">AEC</a>)</li><li><a href="../profile/BhanukiranGurijala.html">Bhanukiran Gurijala</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-papers-artifact-evaluation-committee">AEC</a>)</li><li><a href="../profile/PabloGómezAbajo.html">Pablo Gómez-Abajo</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-papers-artifact-evaluation-committee">AEC</a>)</li><li><a href="../profile/KevinHermann.html">Kevin Hermann</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-papers-artifact-evaluation-committee">AEC</a>)</li><li><a href="../profile/MarkHills.html">Mark Hills</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-papers-artifact-evaluation-committee">AEC</a>)</li><li><a href="../profile/ZunchenHuang.html">Zunchen Huang</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-papers-artifact-evaluation-committee">AEC</a>)</li><li><a href="../profile/ThéoLeCalvar.html">Théo Le Calvar</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-papers-artifact-evaluation-committee">AEC</a>)</li><li><a href="../profile/TeodorsLisovenko.html">Teodors Lisovenko</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-papers-artifact-evaluation-committee">AEC</a>)</li><li><a href="../profile/CyrusLiu.html">Cyrus Liu</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-papers-artifact-evaluation-committee">AEC</a>)</li><li><a href="../profile/MaxMorris.html">Max Morris</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-papers-artifact-evaluation-committee">AEC</a>)</li><li><a href="../profile/WaseemAkhtarMufti.html">Waseem Akhtar Mufti</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-papers-artifact-evaluation-committee">AEC</a>)</li><li><a href="../profile/KrishnaNarasimhan.html">Krishna Narasimhan</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-papers-artifact-evaluation-committee">AEC</a>)</li><li><a href="../profile/DaniloPianini.html">Danilo Pianini</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-papers-artifact-evaluation-committee">AEC</a>)</li><li><a href="../profile/AntonRisbergAlaküla.html">Anton Risberg Alaküla</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-papers-artifact-evaluation-committee">AEC</a>)</li><li><a href="../profile/FauziShukorSanimMohd.html">Fauzi Shukor Sanim Mohd</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-papers-artifact-evaluation-committee">AEC</a>)</li><li><a href="../profile/FlorianSihler.html">Florian Sihler</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-papers-artifact-evaluation-committee">AEC</a>)</li><li><a href="../profile/FabienSiron.html">Fabien Siron</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-papers-artifact-evaluation-committee">AEC</a>)</li><li><a href="../profile/Soaibuzzaman.html">Soaibuzzaman</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-papers-artifact-evaluation-committee">AEC</a>)</li><li><a href="../profile/ShenghanZheng.html">Shenghan Zheng</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-papers-artifact-evaluation-committee">AEC</a>)</li></ul>
+		<clear/>
+		<footer/>
+	</body>
+</html>

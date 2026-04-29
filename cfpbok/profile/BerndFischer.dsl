@@ -1,0 +1,144 @@
+<html doctype>
+	<head title="Bernd Fischer's profile at CfPBoK" />
+	<body>
+		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
+		<h1>Bernd Fischer <a href="https://dblp.org/pid/27/3809-2.html"><img src="../logos/dblp.png" alt="DBLP"></a> <a href="https://openalex.org/A5082741874"><img src="../logos/openalex.png" alt="OpenAlex"></a> <a href="https://orcid.org/0000-0002-1815-218X"><img src="../logos/orcid.svg" alt="ORCID"></a> <a href="https://www.wikidata.org/entity/Q57416941"><img src="../logos/wikidata.svg" alt="Wikidata"></a></h1>
+		<figure class="small">
+			<a href="../sle2011/index.html"><img src="../sle.png" alt="SLE 2011"></a>
+			<figcaption>
+				<a href="../sle2011/index.html">SLE 2011</a>
+				<br>
+				<a href="../sle2011/paper16.html" title="paper">⭐</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2016/index.html"><img src="../sle.png" alt="SLE 2016"></a>
+			<figcaption>
+				<a href="../sle2016/index.html">SLE 2016</a>
+				<br>
+				<a href="https://conf.researchr.org/committee/sle-2016/sle-2016-papers-program-committee" title="PC">🔍</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2017/index.html"><img src="../sle.png" alt="SLE 2017"></a>
+			<figcaption>
+				<a href="../sle2017/index.html">SLE 2017</a>
+				<br>
+				<a href="https://conf.researchr.org/committee/sle-2017/sle-2017-sle-2017-organizing-committee" title="PC">🔍</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2018/index.html"><img src="../sle.png" alt="SLE 2018"></a>
+			<figcaption>
+				<a href="../sle2018/index.html">SLE 2018</a>
+				<br>
+				<a href="https://conf.researchr.org/committee/sle-2018/sle-2018-papers-program-committee" title="PC">🔍</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2019/index.html"><img src="../sle.png" alt="SLE 2019"></a>
+			<figcaption>
+				<a href="../sle2019/index.html">SLE 2019</a>
+				<br>
+				<a href="../sle2019/paper02.html" title="paper">⭐</a>
+<a href="../sle2019/paper09.html" title="paper">⭐</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2020/index.html"><img src="../sle.png" alt="SLE 2020"></a>
+			<figcaption>
+				<a href="../sle2020/index.html">SLE 2020</a>
+				<br>
+				<a href="../sle2020/paper02.html" title="paper">⭐</a>
+<a href="../sle2020/paper04.html" title="paper">⭐</a>
+<a href="../sle2020/paper17.html" title="paper">⭐</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2021/index.html"><img src="../sle.png" alt="SLE 2021"></a>
+			<figcaption>
+				<a href="../sle2021/index.html">SLE 2021</a>
+				<br>
+				<a href="../sle2021/paper03.html" title="paper">⭐</a>
+<a href="../sle2021/paper14.html" title="paper">⭐</a>
+<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-program-committee" title="PC">🔍</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2022/index.html"><img src="../sle.png" alt="SLE 2022"></a>
+			<figcaption>
+				<a href="../sle2022/index.html">SLE 2022</a>
+				<br>
+				<a href="https://2022.splashcon.org/committee/sle-2022-organising-committee" title="General Chair">💺</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2023/index.html"><img src="../sle.png" alt="SLE 2023"></a>
+			<figcaption>
+				<a href="../sle2023/index.html">SLE 2023</a>
+				<br>
+				<a href="https://2023.splashcon.org/committee/sle-2023-program-committee" title="PC">🔍</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2024/index.html"><img src="../sle.png" alt="SLE 2024"></a>
+			<figcaption>
+				<a href="../sle2024/index.html">SLE 2024</a>
+				<br>
+				<a href="https://2024.splashcon.org/committee/sle-2024-program-committee" title="PC">🔍</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2024s/index.html"><img src="../sle.png" alt="SLE 2024 SI"></a>
+			<figcaption>
+				<a href="../sle2024s/index.html">SLE 2024 SI</a>
+				<br>
+				<a href="../sle2024s/paper08.html" title="paper">⭐</a>
+<a href="../sle2024s/paper10.html" title="paper">⭐</a>
+			</figcaption>
+		</figure>
+
+		<clear/>
+		<h2>Summary</h2>
+		<ul>
+
+		<li><span class="info">10</span> papers in <span class="info">5</span> bundles</li>
+				<li>Top 3 popular tags:
+			<ul>
+				<li><a href="../tag/t1a.html"><span class="tagM">T1A: Design</span></a> (<span class="info">6</span> times)</li>
+				<li><a href="../tag/t4c.html"><span class="tagM">T4C: Vertical Transformation</span></a> (<span class="info">5</span> times)</li>
+				<li><a href="../tag/t4a.html"><span class="tagM">T4A: Workbenches</span></a> (<span class="info">5</span> times)</li>
+			</ul>
+		</li>
+		<li>Top 3 coauthors:
+			<ul>
+				<li><a href="MoeketsiRaselimo.html"><span class="info">Moeketsi Raselimo</span></a> (<span class="info">6</span> times)</li>
+				<li><a href="ChristoffRossouw.html"><span class="info">Christoff Rossouw</span></a> (<span class="info">3</span> times)</li>
+				<li><a href="RalfLämmel.html"><span class="info">Ralf Lämmel</span></a> (<span class="info">1</span> times)</li>
+			</ul>
+		</li>
+<li>Made <span class="info">17</span> contributions (see below)</li></ul>
+		<clear/>
+		<h2>List of contributions</h2>
+		<ul>
+<li><span class="info">(<a href="../sle2011/index.html">SLE 2011</a>)</span> <em>Coauthored <a href="../sle2011/paper16.html">Comparison of Context-Free Grammars Based on Parsing Generated Test Data</a></em> (<a href="../profile/BerndFischer.html"><span class="info">Bernd Fischer</span></a>, <a href="../profile/RalfLämmel.html">Ralf Lämmel</a>, <a href="../profile/VadimZaytsev.html">Vadim Zaytsev</a>)</li>
+<li><span class="info">(<a href="../sle2016/index.html">SLE 2016</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2016/sle-2016-papers-program-committee">PC</a></li>
+<li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2017/sle-2017-sle-2017-organizing-committee">PC</a></li>
+<li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2018/sle-2018-papers-program-committee">PC</a></li>
+<li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> <em>Coauthored <a href="../sle2019/paper02.html">Spectrum-based fault localization for context-free grammars</a></em> (<a href="../profile/MoeketsiRaselimo.html">Moeketsi Raselimo</a>, <a href="../profile/BerndFischer.html"><span class="info">Bernd Fischer</span></a>)</li>
+<li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> <em>Coauthored <a href="../sle2019/paper09.html">Breaking parsers: mutation-based generation of programs with guaranteed syntax errors</a></em> (<a href="../profile/MoeketsiRaselimo.html">Moeketsi Raselimo</a>, <a href="../profile/JanTaljaard.html">Jan Taljaard</a>, <a href="../profile/BerndFischer.html"><span class="info">Bernd Fischer</span></a>)</li>
+<li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> <em>Coauthored <a href="../sle2020/paper02.html">An Interactive Feedback System for Grammar Development (tool paper)</a></em> (<a href="../profile/ChelseaBarraball.html">Chelsea Barraball</a>, <a href="../profile/MoeketsiRaselimo.html">Moeketsi Raselimo</a>, <a href="../profile/BerndFischer.html"><span class="info">Bernd Fischer</span></a>)</li>
+<li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> <em>Coauthored <a href="../sle2020/paper04.html">Test Case Generation from Context-Free Grammars using Generalized Traversal of LR-automata</a></em> (<a href="../profile/ChristoffRossouw.html">Christoff Rossouw</a>, <a href="../profile/BerndFischer.html"><span class="info">Bernd Fischer</span></a>)</li>
+<li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> <em>Coauthored <a href="../sle2020/paper17.html">Grammar-Based Testing for Little Languages: An Experience Report with Student Compilers</a></em> (<a href="../profile/PhillipvanHeerden.html">Phillip van Heerden</a>, <a href="../profile/MoeketsiRaselimo.html">Moeketsi Raselimo</a>, <a href="../profile/KonstantinosSagonas.html">Konstantinos Sagonas</a>, <a href="../profile/BerndFischer.html"><span class="info">Bernd Fischer</span></a>)</li>
+<li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> <em>Coauthored <a href="../sle2021/paper03.html">Vision: bias in systematic grammar-based test suite construction algorithms</a></em> (<a href="../profile/ChristoffRossouw.html">Christoff Rossouw</a>, <a href="../profile/BerndFischer.html"><span class="info">Bernd Fischer</span></a>)</li>
+<li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> <em>Coauthored <a href="../sle2021/paper14.html">Automatic grammar repair</a></em> (<a href="../profile/MoeketsiRaselimo.html">Moeketsi Raselimo</a>, <a href="../profile/BerndFischer.html"><span class="info">Bernd Fischer</span></a>)</li>
+<li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-program-committee">PC</a></li>
+<li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> Served as a <a href="https://2022.splashcon.org/committee/sle-2022-organising-committee">General Chair</a></li>
+<li><span class="info">(<a href="../sle2023/index.html">SLE 2023</a>)</span> Served on <a href="https://2023.splashcon.org/committee/sle-2023-program-committee">PC</a></li>
+<li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> Served on <a href="https://2024.splashcon.org/committee/sle-2024-program-committee">PC</a></li>
+<li><span class="info">(<a href="../sle2024s/index.html">SLE 2024 SI</a>)</span> <em>Coauthored <a href="../sle2024s/paper08.html">Spectrum-based rule- and item-level localization of faults in context-free grammars</a></em> (<a href="../profile/MoeketsiRaselimo.html">Moeketsi Raselimo</a>, <a href="../profile/BerndFischer.html"><span class="info">Bernd Fischer</span></a>)</li>
+<li><span class="info">(<a href="../sle2024s/index.html">SLE 2024 SI</a>)</span> <em>Coauthored <a href="../sle2024s/paper10.html">Grammar-based test suite construction using coverage-directed algorithms over LR-graphs</a></em> (<a href="../profile/ChristoffRossouw.html">Christoff Rossouw</a>, <a href="../profile/BerndFischer.html"><span class="info">Bernd Fischer</span></a>)</li></ul>
+		<clear/>
+		<footer/>
+	</body>
+</html>

@@ -1,0 +1,183 @@
+<html doctype>
+	<head title="CfPBoK for SLE 2021" />
+	<body>
+		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
+		<div class="right"><img src="../sle.png" alt="SLE 2021 logo"></div>
+			<h1>SLE 2021</h1>
+			<ul>
+				<li><a href="#cfp">Call for Papers</a></li>
+				<li><a href="#lop">List of Papers</a></li>
+				<li><a href="#org">Organisers</a></li>
+				<li>Tags requested: <ul><li><a href="../tag/t1a.html"><span class="tagM" title="T1A: Design">T1A</span></a> <a href="../tag/t1b.html"><span class="tagM" title="T1B: Static Semantics">T1B</span></a> <a href="../tag/t1c.html"><span class="tagM" title="T1C: Behavioural Semantics">T1C</span></a> <a href="../tag/t1d.html"><span class="tagM" title="T1D: Composition">T1D</span></a> <a href="../tag/t1e.html"><span class="tagM" title="T1E: Reuse">T1E</span></a> <a href="../tag/t2b.html"><span class="tagM" title="T2B: Evolution">T2B</span></a> <a href="../tag/t2c.html"><span class="tagM" title="T2C: Variability">T2C</span></a> <a href="../tag/t2d.html"><span class="tagM" title="T2D: Deployment">T2D</span></a> <a href="../tag/t3a.html"><span class="tagM" title="T3A: Meta-languages">T3A</span></a> <a href="../tag/t3b.html"><span class="tagM" title="T3B: Transformation Languages">T3B</span></a> <a href="../tag/t3c.html"><span class="tagM" title="T3C: DSLs">T3C</span></a> <a href="../tag/t4a.html"><span class="tagM" title="T4A: Workbenches">T4A</span></a> <a href="../tag/t4b.html"><span class="tagM" title="T4B: Horizontal Transformation">T4B</span></a> <a href="../tag/t4c.html"><span class="tagM" title="T4C: Vertical Transformation">T4C</span></a> <a href="../tag/t4e.html"><span class="tagM" title="T4E: Simulation">T4E</span></a> <a href="../tag/t5c.html"><span class="tagM" title="T5C: Testing">T5C</span></a> <a href="../tag/t5d.html"><span class="tagM" title="T5D: Formal Methods">T5D</span></a> <a href="../tag/t5e.html"><span class="tagM" title="T5E: Empirical Evaluation">T5E</span></a> <a href="../tag/t5f.html"><span class="tagM" title="T5F: Performance">T5F</span></a> <a href="../tag/t5g.html"><span class="tagM" title="T5G: Traceability">T5G</span></a> <a href="../tag/t5h.html"><span class="tagM" title="T5H: Usability">T5H</span></a> <a href="../tag/t6a.html"><span class="tagM" title="T6A: Experience Reports">T6A</span></a> <a href="../tag/t6b.html"><span class="tagM" title="T6B: Industrial">T6B</span></a> </li></ul></li>
+<li>Tags received: <ul><li><a href="../tag/t1a.html"><span class="tagM" title="T1A: Design">T1A</span></a> <a href="../tag/t1c.html"><span class="tagM" title="T1C: Behavioural Semantics">T1C</span></a> <a href="../tag/t1d.html"><span class="tagL" title="T1D: Composition">T1D</span></a> <a href="../tag/t2b.html"><span class="tagL" title="T2B: Evolution">T2B</span></a> <a href="../tag/t2c.html"><span class="tagL" title="T2C: Variability">T2C</span></a> <a href="../tag/t3b.html"><span class="tagM" title="T3B: Transformation Languages">T3B</span></a> <a href="../tag/t3c.html"><span class="tagM" title="T3C: DSLs">T3C</span></a> <a href="../tag/t3d.html"><span class="tagL" title="T3D: GPLs">T3D</span></a> <a href="../tag/t4a.html"><span class="tagM" title="T4A: Workbenches">T4A</span></a> <a href="../tag/t4b.html"><span class="tagL" title="T4B: Horizontal Transformation">T4B</span></a> <a href="../tag/t4c.html"><span class="tagL" title="T4C: Vertical Transformation">T4C</span></a> <a href="../tag/t4d.html"><span class="tagL" title="T4D: Interpretation">T4D</span></a> <a href="../tag/t4g.html"><span class="tagL" title="T4G: AI-for-SLE">T4G</span></a> <a href="../tag/t5d.html"><span class="tagL" title="T5D: Formal Methods">T5D</span></a> <a href="../tag/t5e.html"><span class="tagL" title="T5E: Empirical Evaluation">T5E</span></a> <a href="../tag/t5h.html"><span class="tagL" title="T5H: Usability">T5H</span></a> <a href="../tag/t6b.html"><span class="tagL" title="T6B: Industrial">T6B</span></a> <a href="../tag/t6d.html"><span class="tagM" title="T6D: Synergies">T6D</span></a> </li></ul></li>
+			</ul>
+<h2 id="cfp">Call for Papers (<a href="https://conf.researchr.org/home/sle-2021#Call-for-Papers">source</a>)</h2>
+<p>
+</p>
+<h3>Types of Submissions</h3>
+<p>
+</p>
+<p>SLE accepts three types of papers:
+</p>
+<p>
+</p>
+<ul>
+<li>Research papers: These are “traditional” papers detailing research contributions to SLE. These papers have a limit of 12 pages, and may optionally include 8 further pages of bibliography/appendices</li>
+<li>Tool papers: These are papers which focus on the tooling aspects which are often forgotten or neglected in research papers. A good tool paper focuses on practical insights that are <span class="term">likely to be useful to other implementers or users in the future</span><span class="tag" title="T1E: Reuse"><a href="../tag/t1e.html">T1E</a></span>. Any of the SLE topics of interest are appropriate areas for tool demonstrations. Submissions must not exceed 5 pages and may optionally include 1 further page of bibliography / appendices. They may optionally come with an appendix with a demo outline / screenshots and/or a short video/screencast illustrating the tool. The title of a Tool paper must start with “Tool Demo:”.</li>
+<li>New ideas / vision papers: These are papers that may describe new, unconventional software language engineering research positions or approaches that depart from standard practice. They can describe well-defined research ideas that are at an early stage of investigation. They could also provide new evidence to challenge common wisdom, present new unifying theories about existing SLE research that provides novel insight or that can lead to the development of new technologies or approaches, or apply SLE technology to radically new application areas. New ideas / vision papers must not exceed 5 pages, and may optionally include 1 further page of bibliography / appendices. The title of a new ideas / vision papers must start with “New Ideas:” or “Vision:”.</li>
+</ul>
+<p>
+</p>
+<h3>Topics of Interest</h3>
+<p>
+</p>
+<p>Broadly speaking, SLE covers software language engineering rather than engineering a specific software language. Topics of interest include, but are not limited to:
+</p>
+<p>
+</p>
+<ul>
+<li>Software <span class="term">Language Design</span><span class="tag" title="T1A: Design"><a href="../tag/t1a.html">T1A</a></span> and Implementation</li>
+<ul>
+<li>Approaches to and methods for <span class="term">language design</span><span class="tag" title="T1A: Design"><a href="../tag/t1a.html">T1A</a></span></li>
+<li><span class="term">Static semantics</span><span class="tag" title="T1B: Static Semantics"><a href="../tag/t1b.html">T1B</a></span> (e.g. design rules, well-formedness constraints)</li>
+<li>Techniques for specifying <span class="term">behavioral / executable semantics</span><span class="tag" title="T1C: Behavioural Semantics"><a href="../tag/t1c.html">T1C</a></span></li>
+<li><span class="term">Generative approaches</span><span class="tag" title="T4C: Vertical Transformation"><a href="../tag/t4c.html">T4C</a></span> (incl. <span class="term">code synthesis</span><span class="tag" title="T4C: Vertical Transformation"><a href="../tag/t4c.html">T4C</a></span>, <span class="term">compilation</span><span class="tag" title="T4C: Vertical Transformation"><a href="../tag/t4c.html">T4C</a></span>)</li>
+<li><span class="term">Meta-languages</span><span class="tag" title="T3A: Meta-languages"><a href="../tag/t3a.html">T3A</a></span>, <span class="term">meta-tools</span><span class="tag" title="T4A: Workbenches"><a href="../tag/t4a.html">T4A</a></span>, <span class="term">language workbenches</span><span class="tag" title="T4A: Workbenches"><a href="../tag/t4a.html">T4A</a></span></li>
+</ul>
+<li><span class="term">Software Language Validation</span><span class="tag" title="T5D: Formal Methods"><a href="../tag/t5d.html">T5D</a></span></li>
+<ul>
+<li><span class="term">Verification and formal methods for languages</span><span class="tag" title="T5D: Formal Methods"><a href="../tag/t5d.html">T5D</a></span></li>
+<li><span class="term">Testing techniques for languages</span><span class="tag" title="T5C: Testing"><a href="../tag/t5c.html">T5C</a></span></li>
+<li><span class="term">Simulation techniques for languages</span><span class="tag" title="T4E: Simulation"><a href="../tag/t4e.html">T4E</a></span></li>
+</ul>
+<li><span class="term">Software Language Integration and Composition</span><span class="tag" title="T1D: Composition"><a href="../tag/t1d.html">T1D</a></span></li>
+<ul>
+<li><span class="term">Coordination of heterogeneous languages and tools</span><span class="tag" title="T1D: Composition"><a href="../tag/t1d.html">T1D</a></span></li>
+<li><span class="term">Mappings between languages</span><span class="tag" title="T4B: Horizontal Transformation"><a href="../tag/t4b.html">T4B</a></span> (incl. <span class="term">transformation languages</span><span class="tag" title="T3B: Transformation Languages"><a href="../tag/t3b.html">T3B</a></span>)</li>
+<li><span class="term">Traceability between languages</span><span class="tag" title="T5G: Traceability"><a href="../tag/t5g.html">T5G</a></span></li>
+<li><span class="term">Deployment of languages to different platforms</span><span class="tag" title="T2D: Deployment"><a href="../tag/t2d.html">T2D</a></span></li>
+</ul>
+<li><span class="term">Software Language Maintenance</span><span class="tag" title="T2B: Evolution"><a href="../tag/t2b.html">T2B</a></span></li>
+<ul>
+<li><span class="term">Software language reuse</span><span class="tag" title="T1E: Reuse"><a href="../tag/t1e.html">T1E</a></span></li>
+<li><span class="term">Language evolution</span><span class="tag" title="T2B: Evolution"><a href="../tag/t2b.html">T2B</a></span></li>
+<li><span class="term">Language families and variability</span><span class="tag" title="T2C: Variability"><a href="../tag/t2c.html">T2C</a></span></li>
+</ul>
+<li><span class="term">Domain-specific approaches</span><span class="tag" title="T3C: DSLs"><a href="../tag/t3c.html">T3C</a></span> for any aspects of SLE (<span class="term">design</span><span class="tag" title="T1A: Design"><a href="../tag/t1a.html">T1A</a></span>, implementation, <span class="term">validation</span><span class="tag" title="T5D: Formal Methods"><a href="../tag/t5d.html">T5D</a></span>, <span class="term">maintenance</span><span class="tag" title="T2B: Evolution"><a href="../tag/t2b.html">T2B</a></span>)</li>
+<li><span class="term">Empirical evaluation</span><span class="tag" title="T5E: Empirical Evaluation"><a href="../tag/t5e.html">T5E</a></span> and <span class="term">experience reports</span><span class="tag" title="T6A: Experience Reports"><a href="../tag/t6a.html">T6A</a></span> of language engineering tools</li>
+<ul>
+<li>User studies evaluating <span class="term">usability</span><span class="tag" title="T5H: Usability"><a href="../tag/t5h.html">T5H</a></span></li>
+<li><span class="term">Performance benchmarks</span><span class="tag" title="T5F: Performance"><a href="../tag/t5f.html">T5F</a></span></li>
+<li><span class="term">Industrial applications</span><span class="tag" title="T6B: Industrial"><a href="../tag/t6b.html">T6B</a></span></li>
+</ul>
+</ul><h2 id="lop">List of Papers (<a href="https://dblp.org/db/conf/sle/sle2021.html">source</a>)</h2>
+<ul class="lop">
+
+<li><span title="Keynote">🔥</span> <em><a href="keynote1.html">Integrating usability into programming language design</a></em> (<a href="../profile/JonathanAldrich.html">Jonathan Aldrich</a>)
+<ul><li>
+<a href="../tag/t6d.html"><span class="tagM" title="As a keynote, it provides a cross-cutting perspective and agenda-setting discussion for the field.">T6D: Synergies</span></a>
+<a href="../tag/t5h.html"><span class="tagL" title="It targets usability (developer interaction, comprehension, editing experience).">T5H: Usability</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title="It includes substantial tool support or infrastructure relevant for engineering/using languages.">T4A: Workbenches</span></a>
+<a href="../tag/t1d.html"><span class="tagL" title="It emphasizes modularity/composition/integration (embedding or coordinating language components).">T1D: Composition</span></a>
+</li></ul></li>
+<li><em><a href="paper01.html">New ideas: automated engineering of metamorphic testing environments for domain-specific languages</a></em> (<a href="../profile/PabloCCañizares.html">Pablo C. Cañizares</a>, <a href="../profile/PabloGómezAbajo.html">Pablo Gómez-Abajo</a>, <a href="../profile/AlbertoNúñez.html">Alberto Núñez</a>, <a href="../profile/EstherGuerra.html">Esther Guerra</a>, <a href="../profile/JuandeLara.html">Juan de Lara</a>)
+<ul><li>
+<a href="../tag/t3c.html"><span class="tagM" title="The paper mainly targets domain-specific languages or modeling languages, including their design or use.">T3C: DSLs</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title="It includes substantial tool support or infrastructure relevant for engineering/using languages.">T4A: Workbenches</span></a>
+<a href="../tag/t5d.html"><span class="tagL" title="It relies on formal methods (definitions/proofs/semantic properties) beyond informal description.">T5D: Formal Methods</span></a>
+<a href="../tag/t5h.html"><span class="tagL" title="It targets usability (developer interaction, comprehension, editing experience).">T5H: Usability</span></a>
+</li></ul></li>
+<li><em><a href="paper02.html">Vision: the next 700 language workbenches</a></em> (<a href="../profile/MikhailBarash.html">Mikhail Barash</a>)
+<ul><li>
+<a href="../tag/t4a.html"><span class="tagM" title="The paper’s core contribution is tooling/infrastructure for language engineering (e.g., IDE/editor support).">T4A: Workbenches</span></a>
+<a href="../tag/t1d.html"><span class="tagL" title="It emphasizes modularity/composition/integration (embedding or coordinating language components).">T1D: Composition</span></a>
+<a href="../tag/t2c.html"><span class="tagL" title="It targets product lines/variability (feature models, variability, configuration).">T2C: Variability</span></a>
+</li></ul></li>
+<li><span title="Keynote">🔥</span> <em><a href="keynote2.html">Live Programming and Programming by Example: Better Together</a></em> (<a href="../profile/SorinLerner.html">Sorin Lerner</a>)
+<ul><li>
+<a href="../tag/t4a.html"><span class="tagM" title="The keynote is about interactive environments that provide continual execution feedback and synthesize code from examples, i.e., advanced programming support tooling.">T4A: Workbenches</span></a>
+<a href="../tag/t4g.html"><span class="tagL" title="Programming-by-example in this context is fundamentally synthesis/AI-style automation driven by examples, so AI techniques are central to the contribution.">T4G: AI-for-SLE</span></a>
+<a href="../tag/t5h.html"><span class="tagL" title="The core motivation is improving the programmer experience via continual feedback and higher-level interaction (examples instead of manual coding).">T5H: Usability</span></a>
+<a href="../tag/t4d.html"><span class="tagL" title="Live programming hinges on runtime execution and continuous observation of values during program execution.">T4D: Interpretation</span></a>
+</li></ul></li>
+<li><em><a href="paper03.html">Vision: bias in systematic grammar-based test suite construction algorithms</a></em> (<a href="../profile/ChristoffRossouw.html">Christoff Rossouw</a>, <a href="../profile/BerndFischer.html">Bernd Fischer</a>)
+<ul><li>
+<a href="../tag/t1a.html"><span class="tagM" title="The paper primarily contributes techniques for language definition (often syntax-related) as part of language design.">T1A: Design</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title="It includes substantial tool support or infrastructure relevant for engineering/using languages.">T4A: Workbenches</span></a>
+<a href="../tag/t4c.html"><span class="tagL" title="It uses compilation/generation/refinement to derive executable artifacts (vertical transformations).">T4C: Vertical Transformation</span></a>
+<a href="../tag/t4d.html"><span class="tagL" title="It concerns runtime interpretation/execution (interpreters, debuggers, runtime services).">T4D: Interpretation</span></a>
+</li></ul></li>
+<li><em><a href="paper04.html">A concurrency model for JavaScript with cooperative cancellation</a></em> (<a href="../profile/TianZhao.html">Tian Zhao</a>, <a href="../profile/YonglunLi.html">Yonglun Li</a>)
+<ul><li>
+<a href="../tag/t1a.html"><span class="tagM" title="The paper primarily contributes language design techniques or decisions.">T1A: Design</span></a>
+</li></ul></li>
+<li><em><a href="paper05.html">Executing certified model transformations on Apache Spark</a></em> (<a href="../profile/JolanPhilippe.html">Jolan Philippe</a>, <a href="../profile/MassimoTisi.html">Massimo Tisi</a>, <a href="../profile/HélèneCoullon.html">Hélène Coullon</a>, <a href="../profile/GersonSunyé.html">Gerson Sunyé</a>)
+<ul><li>
+<a href="../tag/t3b.html"><span class="tagM" title="The paper’s central topic is specifying or applying transformations (rewriting/mapping/synchronization).">T3B: Transformation Languages</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title="It includes substantial tool support or infrastructure relevant for engineering/using languages.">T4A: Workbenches</span></a>
+<a href="../tag/t5d.html"><span class="tagL" title="It relies on formal methods (definitions/proofs/semantic properties) beyond informal description.">T5D: Formal Methods</span></a>
+<a href="../tag/t5e.html"><span class="tagL" title="It reports an empirical evaluation (experiments, study, benchmarks, or measurements).">T5E: Empirical Evaluation</span></a>
+</li></ul></li>
+<li><em><a href="paper06.html">Faster reachability analysis for LR(1) parsers</a></em> (<a href="../profile/FrédéricBour.html">Frédéric Bour</a>, <a href="../profile/FrançoisPottier.html">François Pottier</a>)
+<ul><li>
+<a href="../tag/t3b.html"><span class="tagM" title="The paper’s central topic is specifying or applying transformations (rewriting/mapping/synchronization).">T3B: Transformation Languages</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title="It performs mapping/conversion/synchronization between representations (horizontal transformations).">T4B: Horizontal Transformation</span></a>
+<a href="../tag/t6b.html"><span class="tagL" title="It is motivated by or evaluated in an industrial/practical context.">T6B: Industrial</span></a>
+</li></ul></li>
+<li><em><a href="paper07.html">FIDDLR: streamlining reuse with concern-specific modelling languages</a></em> (<a href="../profile/MaximilianSchiedermeier.html">Maximilian Schiedermeier</a>, <a href="../profile/JörgKienzle.html">Jörg Kienzle</a>, <a href="../profile/BettinaKemme.html">Bettina Kemme</a>)
+<ul><li>
+<a href="../tag/t3c.html"><span class="tagM" title="The paper mainly targets domain-specific languages or modeling languages, including their design or use.">T3C: DSLs</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title="It includes substantial tool support or infrastructure relevant for engineering/using languages.">T4A: Workbenches</span></a>
+<a href="../tag/t5e.html"><span class="tagL" title="It reports an empirical evaluation (experiments, study, benchmarks, or measurements).">T5E: Empirical Evaluation</span></a>
+<a href="../tag/t1d.html"><span class="tagL" title="It emphasizes modularity/composition/integration (embedding or coordinating language components).">T1D: Composition</span></a>
+</li></ul></li>
+<li><em><a href="paper08.html">Automating the synthesis of recommender systems for modelling languages</a></em> (<a href="../profile/LissetteAlmonte.html">Lissette Almonte</a>, <a href="../profile/SaraPérezSoler.html">Sara Pérez-Soler</a>, <a href="../profile/EstherGuerra.html">Esther Guerra</a>, <a href="../profile/IvánCantador.html">Iván Cantador</a>, <a href="../profile/JuandeLara.html">Juan de Lara</a>)
+<ul><li>
+<a href="../tag/t3c.html"><span class="tagM" title="The paper mainly targets domain-specific languages or modeling languages, including their design or use.">T3C: DSLs</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title="It includes substantial tool support or infrastructure relevant for engineering/using languages.">T4A: Workbenches</span></a>
+<a href="../tag/t5d.html"><span class="tagL" title="It relies on formal methods (definitions/proofs/semantic properties) beyond informal description.">T5D: Formal Methods</span></a>
+<a href="../tag/t5e.html"><span class="tagL" title="It reports an empirical evaluation (experiments, study, benchmarks, or measurements).">T5E: Empirical Evaluation</span></a>
+</li></ul></li>
+<li><em><a href="paper09.html">Fast incremental PEG parsing</a></em> (<a href="../profile/ZacharyYedidia.html">Zachary Yedidia</a>, <a href="../profile/StephenChong.html">Stephen Chong</a>)
+<ul><li>
+<a href="../tag/t1a.html"><span class="tagM" title="The paper primarily contributes techniques for language definition (often syntax-related) as part of language design.">T1A: Design</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title="It includes substantial tool support or infrastructure relevant for engineering/using languages.">T4A: Workbenches</span></a>
+<a href="../tag/t5e.html"><span class="tagL" title="It reports an empirical evaluation (experiments, study, benchmarks, or measurements).">T5E: Empirical Evaluation</span></a>
+<a href="../tag/t1d.html"><span class="tagL" title="It emphasizes modularity/composition/integration (embedding or coordinating language components).">T1D: Composition</span></a>
+</li></ul></li>
+<li><em><a href="paper10.html">Monilogging for executable domain-specific languages</a></em> (<a href="../profile/DorianLeroy.html">Dorian Leroy</a>, <a href="../profile/BenoîtLelandais.html">Benoît Lelandais</a>, <a href="../profile/MariePierreOudot.html">Marie-Pierre Oudot</a>, <a href="../profile/BenoîtCombemale.html">Benoît Combemale</a>)
+<ul><li>
+<a href="../tag/t3c.html"><span class="tagM" title="The paper mainly targets domain-specific languages or modeling languages, including their design or use.">T3C: DSLs</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title="It includes substantial tool support or infrastructure relevant for engineering/using languages.">T4A: Workbenches</span></a>
+<a href="../tag/t4d.html"><span class="tagL" title="It concerns runtime interpretation/execution (interpreters, debuggers, runtime services).">T4D: Interpretation</span></a>
+<a href="../tag/t5h.html"><span class="tagL" title="It targets usability (developer interaction, comprehension, editing experience).">T5H: Usability</span></a>
+</li></ul></li>
+<li><em><a href="paper11.html">SEALS: a framework for building self-adaptive virtual machines</a></em> (<a href="../profile/GwendalJouneaux.html">Gwendal Jouneaux</a>, <a href="../profile/OlivierBarais.html">Olivier Barais</a>, <a href="../profile/BenoîtCombemale.html">Benoît Combemale</a>, <a href="../profile/GunterMussbacher.html">Gunter Mussbacher</a>)
+<ul><li>
+<a href="../tag/t1c.html"><span class="tagM" title="The paper primarily develops behavioural/executable semantics or ways to execute semantic definitions.">T1C: Behavioural Semantics</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title="It includes substantial tool support or infrastructure relevant for engineering/using languages.">T4A: Workbenches</span></a>
+</li></ul></li>
+<li><em><a href="paper12.html">There is More Than One Way to Zen Your Python</a></em> (<a href="../profile/AamirFarooq.html">Aamir Farooq</a>, <a href="../profile/VadimZaytsev.html">Vadim Zaytsev</a>)
+<ul><li>
+<a href="../tag/t1a.html"><span class="tagM" title="The paper primarily concerns itself with language design techniques and decisions.">T1A: Design</span></a>
+<a href="../tag/t3d.html"><span class="tagL" title="The paper is about Python, which is a general purpose language.">T3D: GPLs</span></a>
+<a href="../tag/t2b.html"><span class="tagL" title="The main focus of the paper is the evolution of how people use Python.">T2B: Evolution</span></a>
+</li></ul></li>
+<li><em><a href="paper13.html">Getting grammars into shape for block-based editors</a></em> (<a href="../profile/MauricioVeranoMerino.html">Mauricio Verano Merino</a>, <a href="../profile/TomBeckmann.html">Tom Beckmann</a>, <a href="../profile/TijsvanderStorm.html">Tijs van der Storm</a>, <a href="../profile/RobertHirschfeld.html">Robert Hirschfeld</a>, <a href="../profile/JurgenVinju.html">Jurgen Vinju</a>)
+<ul><li>
+<a href="../tag/t3b.html"><span class="tagM" title="The paper’s central topic is specifying or applying transformations (rewriting/mapping/synchronization).">T3B: Transformation Languages</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title="It includes substantial tool support or infrastructure relevant for engineering/using languages.">T4A: Workbenches</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title="It performs mapping/conversion/synchronization between representations (horizontal transformations).">T4B: Horizontal Transformation</span></a>
+<a href="../tag/t4c.html"><span class="tagL" title="It uses compilation/generation/refinement to derive executable artifacts (vertical transformations).">T4C: Vertical Transformation</span></a>
+</li></ul></li>
+<li><em><a href="paper14.html">Automatic grammar repair</a></em> (<a href="../profile/MoeketsiRaselimo.html">Moeketsi Raselimo</a>, <a href="../profile/BerndFischer.html">Bernd Fischer</a>)
+<ul><li>
+<a href="../tag/t1a.html"><span class="tagM" title="The paper primarily contributes techniques for language definition (often syntax-related) as part of language design.">T1A: Design</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title="It includes substantial tool support or infrastructure relevant for engineering/using languages.">T4A: Workbenches</span></a>
+<a href="../tag/t4c.html"><span class="tagL" title="It uses compilation/generation/refinement to derive executable artifacts (vertical transformations).">T4C: Vertical Transformation</span></a>
+<a href="../tag/t4d.html"><span class="tagL" title="It concerns runtime interpretation/execution (interpreters, debuggers, runtime services).">T4D: Interpretation</span></a>
+</li></ul></li></ul><h2 id="org">Organisers</h2><ul><li><a href="../profile/EelcoVisser.html">Eelco Visser</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-organizing-committee">General Chair</a>)</li><li><a href="../profile/DimitriosSKolovos.html">Dimitrios S. Kolovos</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-organizing-committee">Programme Chair</a>)</li><li><a href="../profile/EmmaSöderberg.html">Emma Söderberg</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-organizing-committee">Programme Chair</a>)</li><li><a href="../profile/VincentAranega.html">Vincent Aranega</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-program-committee">PC</a>)</li><li><a href="../profile/MikhailBarash.html">Mikhail Barash</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-program-committee">PC</a>)</li><li><a href="../profile/MelanieBats.html">Melanie Bats</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-program-committee">PC</a>)</li><li><a href="../profile/DavidBroman.html">David Broman</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-program-committee">PC</a>)</li><li><a href="../profile/ShigeruChiba.html">Shigeru Chiba</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-program-committee">PC</a>)</li><li><a href="../profile/AlfonsodelaVega.html">Alfonso de la Vega</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-program-committee">PC</a>)</li><li><a href="../profile/JuandeLara.html">Juan de Lara</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-program-committee">PC</a>)</li><li><a href="../profile/DavideDiRuscio.html">Davide Di Ruscio</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-program-committee">PC</a>)</li><li><a href="../profile/MarcosDidonetDelFabro.html">Marcos Didonet Del Fabro</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-program-committee">PC</a>)</li><li><a href="../profile/JürgenDingel.html">Jürgen Dingel</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-program-committee">PC</a>)</li><li><a href="../profile/MichalisFamelis.html">Michalis Famelis</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-program-committee">PC</a>)</li><li><a href="../profile/BerndFischer.html">Bernd Fischer</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-program-committee">PC</a>)</li><li><a href="../profile/NiklasFors.html">Niklas Fors</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-program-committee">PC</a>)</li><li><a href="../profile/AntonioGarciaDominguez.html">Antonio Garcia-Dominguez</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-program-committee">PC</a>)</li><li><a href="../profile/EstherGuerra.html">Esther Guerra</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-program-committee">PC</a>)</li><li><a href="../profile/GörelHedin.html">Görel Hedin</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-program-committee">PC</a>)</li><li><a href="../profile/StuartHutchesson.html">Stuart Hutchesson</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-program-committee">PC</a>)</li><li><a href="../profile/AdrianJohnstone.html">Adrian Johnstone</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-program-committee">PC</a>)</li><li><a href="../profile/PaddyKrishnan.html">Paddy Krishnan</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-program-committee">PC</a>)</li><li><a href="../profile/JamesNoble.html">James Noble</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-program-committee">PC</a>)</li><li><a href="../profile/CarlosOlarte.html">Carlos Olarte</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-program-committee">PC</a>)</li><li><a href="../profile/JoãoSaraiva.html">João Saraiva</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-program-committee">PC</a>)</li><li><a href="../profile/AnthonyMSloane.html">Anthony M. Sloane</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-program-committee">PC</a>)</li><li><a href="../profile/DanielStrüber.html">Daniel Strüber</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-program-committee">PC</a>)</li><li><a href="../profile/UlyanaTikhonova.html">Ulyana Tikhonova</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-program-committee">PC</a>)</li><li><a href="../profile/MarkvandenBrand.html">Mark van den Brand</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-program-committee">PC</a>)</li><li><a href="../profile/JuanManuelVara.html">Juan Manuel Vara</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-program-committee">PC</a>)</li><li><a href="../profile/RanWei.html">Ran Wei</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-program-committee">PC</a>)</li><li><a href="../profile/BahmanZamani.html">Bahman Zamani</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-program-committee">PC</a>)</li><li><a href="../profile/BernhardRumpe.html">Bernhard Rumpe</a> (<a href="http://www.monticore.de/handbook.pdf">Book</a>)</li><li><a href="../profile/AntonioBucchiarone.html">Antonio Bucchiarone</a> (<a href="https://doi.org/10.1007/978-3-030-73758-0">Book</a>)</li><li><a href="../profile/AntonioCicchetti.html">Antonio Cicchetti</a> (<a href="https://doi.org/10.1007/978-3-030-73758-0">Book</a>)</li><li><a href="../profile/FedericoCiccozzi.html">Federico Ciccozzi</a> (<a href="https://doi.org/10.1007/978-3-030-73758-0">Book</a>)</li><li><a href="../profile/AlfonsoPierantonio.html">Alfonso Pierantonio</a> (<a href="https://doi.org/10.1007/978-3-030-73758-0">Book</a>)</li><li><a href="../profile/StéphanieChallita.html">Stéphanie Challita</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-artifact-evaluation-committee">AEC</a>)</li><li><a href="../profile/HugoBrunelière.html">Hugo Brunelière</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-artifact-evaluation-committee">AEC</a>)</li><li><a href="../profile/JuriDiRocco.html">Juri Di Rocco</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-artifact-evaluation-committee">AEC</a>)</li><li><a href="../profile/FolaDamiEyitemi.html">Fola-Dami Eyitemi</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-artifact-evaluation-committee">AEC</a>)</li><li><a href="../profile/AbdulhakeemIbrahim.html">Abdulhakeem Ibrahim</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-artifact-evaluation-committee">AEC</a>)</li><li><a href="../profile/MauricioVeranoMerino.html">Mauricio Verano Merino</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-artifact-evaluation-committee">AEC</a>)</li><li><a href="../profile/RuiPereira.html">Rui Pereira</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-artifact-evaluation-committee">AEC</a>)</li><li><a href="../profile/NoricCouderc.html">Noric Couderc</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-artifact-evaluation-committee">AEC</a>)</li><li><a href="../profile/IdrissRiouak.html">Idriss Riouak</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-artifact-evaluation-committee">AEC</a>)</li><li><a href="../profile/CarlosDiegoNascimentoDamasceno.html">Carlos Diego Nascimento Damasceno</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-artifact-evaluation-committee">AEC</a>)</li><li><a href="../profile/PabloCCañizares.html">Pablo C. Cañizares</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-artifact-evaluation-committee">AEC</a>)</li><li><a href="../profile/PabloGómezAbajo.html">Pablo Gómez-Abajo</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-artifact-evaluation-committee">AEC</a>)</li><li><a href="../profile/MoeketsiRaselimo.html">Moeketsi Raselimo</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-artifact-evaluation-committee">AEC</a>)</li><li><a href="../profile/JohannesMey.html">Johannes Mey</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-artifact-evaluation-committee">AEC</a>)</li><li><a href="../profile/MicheleTucci.html">Michele Tucci</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-artifact-evaluation-committee">AEC</a>)</li><li><a href="../profile/EliasCastegren.html">Elias Castegren</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-artifact-evaluation-committee">Artefact Evaluation Chair</a>)</li><li><a href="../profile/AndreasWortmann.html">Andreas Wortmann</a> (<a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-artifact-evaluation-committee">Artefact Evaluation Chair</a>)</li></ul>
+		<clear/>
+		<footer/>
+	</body>
+</html>
