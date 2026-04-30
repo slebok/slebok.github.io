@@ -2,7 +2,10 @@
 	<head title="Kimio Kuramitsu's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Kimio Kuramitsu <a href="https://openalex.org/A5001306335"><img src="../logos/openalex.png" alt="OpenAlex"></a> <a href="https://orcid.org/0000-0002-5079-1483"><img src="../logos/orcid.svg" alt="ORCID"></a></h1>
+		<h1>Kimio Kuramitsu
+<a href="https://openalex.org/A5001306335" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://orcid.org/0000-0002-5079-1483" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
+<a href="https://dblp.org/search?q=Kimio Kuramitsu" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2017/index.html"><img src="../sle.png" alt="SLE 2017"></a>
 			<figcaption>
@@ -17,7 +20,7 @@
 		<ul>
 
 		<li><span class="info">1</span> papers in <span class="info">1</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t4d.html"><span class="tagM">T4D: Interpretation</span></a> (<span class="info">1</span> times)</li>
 				<li><a href="../tag/t3a.html"><span class="tagM">T3A: Meta-languages</span></a> (<span class="info">1</span> times)</li>
@@ -33,7 +36,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> <em>Authored <a href="../sle2017/paper08.html">A symbol-based extension of parsing expression grammars and context- sensitive packrat parsing</a></em> (<a href="../profile/KimioKuramitsu.html"><span class="info">Kimio Kuramitsu</span></a>)</li></ul>
+<li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> <em>Authored <a href="../sle2017/paper08.html">A symbol-based extension of parsing expression grammars and context- sensitive packrat parsing</a></em> (<a href="../profile/KimioKuramitsu.html"><span class="info">Kimio Kuramitsu</span></a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

@@ -2,7 +2,10 @@
 	<head title="Zinovy Diskin's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Zinovy Diskin <a href="https://openalex.org/A5054115813"><img src="../logos/openalex.png" alt="OpenAlex"></a> <a href="https://orcid.org/0000-0001-8025-4630"><img src="../logos/orcid.svg" alt="ORCID"></a></h1>
+		<h1>Zinovy Diskin
+<a href="https://openalex.org/A5054115813" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://orcid.org/0000-0001-8025-4630" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
+<a href="https://dblp.org/search?q=Zinovy Diskin" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2013/index.html"><img src="../sle.png" alt="SLE 2013"></a>
 			<figcaption>
@@ -34,7 +37,7 @@
 		<ul>
 
 		<li><span class="info">2</span> papers in <span class="info">1</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t3a.html"><span class="tagM">T3A: Meta-languages</span></a> (<span class="info">2</span> times)</li>
 				<li><a href="../tag/t5d.html"><span class="tagM">T5D: Formal Methods</span></a> (<span class="info">2</span> times)</li>
@@ -52,8 +55,8 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2013/index.html">SLE 2013</a>)</span> <em>Coauthored <a href="../sle2013/paper17.html">Mapping-Aware Megamodeling: Design Patterns and Laws</a></em> (<a href="../profile/ZinovyDiskin.html"><span class="info">Zinovy Diskin</span></a>, <a href="../profile/SaharKokaly.html">Sahar Kokaly</a>, <a href="../profile/TomMaibaum.html">Tom Maibaum</a>)</li>
-<li><span class="info">(<a href="../sle2013/index.html">SLE 2013</a>)</span> <em>Coauthored <a href="../sle2013/paper18.html">Partial Instances via Subclassing</a></em> (<a href="../profile/KacperBąk.html">Kacper Bąk</a>, <a href="../profile/ZinovyDiskin.html"><span class="info">Zinovy Diskin</span></a>, <a href="../profile/MichałAntkiewicz.html">Michał Antkiewicz</a>, <a href="../profile/KrzysztofCzarnecki.html">Krzysztof Czarnecki</a>, <a href="../profile/AndrzejWąsowski.html">Andrzej Wąsowski</a>)</li>
+<li><span class="info">(<a href="../sle2013/index.html">SLE 2013</a>)</span> <em>Coauthored <a href="../sle2013/paper17.html">Mapping-Aware Megamodeling: Design Patterns and Laws</a></em> (<a href="../profile/ZinovyDiskin.html"><span class="info">Zinovy Diskin</span></a>, <a href="../profile/SaharKokaly.html">Sahar Kokaly</a>, <a href="../profile/TomMaibaum.html">Tom Maibaum</a>) </li>
+<li><span class="info">(<a href="../sle2013/index.html">SLE 2013</a>)</span> <em>Coauthored <a href="../sle2013/paper18.html">Partial Instances via Subclassing</a></em> (<a href="../profile/KacperBąk.html">Kacper Bąk</a>, <a href="../profile/ZinovyDiskin.html"><span class="info">Zinovy Diskin</span></a>, <a href="../profile/MichałAntkiewicz.html">Michał Antkiewicz</a>, <a href="../profile/KrzysztofCzarnecki.html">Krzysztof Czarnecki</a>, <a href="../profile/AndrzejWąsowski.html">Andrzej Wąsowski</a>) </li>
 <li><span class="info">(<a href="../sle2014/index.html">SLE 2014</a>)</span> Served on <a href="https://www.sleconf.org/2014/Committees.html">PC</a></li>
 <li><span class="info">(<a href="../sle2015/index.html">SLE 2015</a>)</span> Served on <a href="https://2015.splashcon.org/committee/sle2015-papers-program-committee">PC</a></li></ul>
 		<clear/>

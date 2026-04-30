@@ -2,7 +2,7 @@
 	<head title="Paolo G. Giarrusso's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Paolo G. Giarrusso</h1>
+		<h1>Paolo G. Giarrusso<a href="https://dblp.org/search?q=Paolo G. Giarrusso" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2019/index.html"><img src="../sle.png" alt="SLE 2019"></a>
 			<figcaption>

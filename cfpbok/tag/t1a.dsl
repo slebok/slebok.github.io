@@ -1,8 +1,8 @@
 <html doctype>
-	<head title="CfPBoK tag T1A" />
+	<head title="CfPBoK topic T1A" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Tag <code>T1A</code>: Design</h1>
+		<h1>Topic <code>T1A</code>: Design</h1>
 		Language Design Challenges/Approaches/Methodologies. Work whose primary contribution concerns how to design a software language: design principles, processes, challenges, trade-offs, notational choices, and domain modelling decisions that drive syntax and semantics. This includes design rationales, methods, and systematic approaches for constructing and bundling software language concepts. If the core novelty is a specific static or dynamic semantics technique, we use <a href="t1b.html">T1B</a>/<a href="t1c.html">T1C</a> and treat design as secondary.
 <clear/>
 		<figure class="small">
@@ -171,16 +171,18 @@
 		<h2>Summary</h2>
 		<ul>
 			<li>Requested in <span class="info">22</span>/<span class="info">26</span> calls</li>
-			<li>Requested in <span class="info">19</span>/<span class="info">19</span> pure calls</li>
+			<li>Requested in <span class="info">19</span>/<span class="info">19</span> pure calls (<a href="../sle2008/index.html#cfp">2008</a>–<a href="../sle2026/index.html#cfp">2026</a> with the longest streak of <span class="info">19</span> years)</li>
+
 			<li>Primary tagged in <span class="info">15</span>/<span class="info">26</span> paper bundles</li>
-			<li>Primary tagged in <span class="info">13</span>/<span class="info">19</span> pure proceedings</li>
+			<li>Primary tagged in <span class="info">13</span>/<span class="info">19</span> pure proceedings (<a href="../sle2010/index.html#lop">2010</a>–<a href="../sle2025/index.html#lop">2025</a> with the longest streak of <span class="info">6</span> years)</li>
+
 			<li>Secondary tagged in <span class="info">17</span>/<span class="info">26</span> paper bundles</li>
-			<li>Secondary tagged in <span class="info">13</span>/<span class="info">19</span> pure proceedings</li>
-			<li>Top 3 co-occurring tags:
+			<li>Secondary tagged in <span class="info">13</span>/<span class="info">19</span> pure proceedings (<a href="../sle2008/index.html#lop">2008</a>–<a href="../sle2025/index.html#lop">2025</a> with the longest streak of <span class="info">10</span> years)</li>
+			<li>Top 3 co-occurring topics:
 				<ul>
-					<li><a href="t3c.html"><span class="tagL">T3C: DSLs</span></a> (<span class="info">58</span> times)</li>
-					<li><a href="t4a.html"><span class="tagL">T4A: Workbenches</span></a> (<span class="info">54</span> times)</li>
-					<li><a href="t5d.html"><span class="tagL">T5D: Formal Methods</span></a> (<span class="info">43</span> times)</li>
+					<li><a href="t4a.html"><span class="tagL">T4A: Workbenches</span></a> (<span class="info">19</span> times)</li>
+					<li><a href="t3c.html"><span class="tagL">T3C: DSLs</span></a> (<span class="info">16</span> times)</li>
+					<li><a href="t5d.html"><span class="tagL">T5D: Formal Methods</span></a> (<span class="info">13</span> times)</li>
 				</ul>
 <li>Top 3 contributors:
 				<ul>
@@ -191,6 +193,466 @@
 
 		</ul>
 
+<h2>List of papers (68)</h2>
+<ul>
+<li><span class="info">(<a href="../atem2006s/index.html">ATEM 2006 SI</a>)</span> <em><a href="../atem2006s/paper07.html">Evaluating Formal Properties of Feature Diagram Languages</a></em> (<a href="../profile/PatrickHeymans.html">Patrick Heymans</a>, <a href="../profile/PierreYvesSchobbens.html">Pierre-Yves Schobbens</a>, <a href="../profile/JeanChristopheTrigaux.html">Jean-Christophe Trigaux</a>, <a href="../profile/YvesBontemps.html">Yves Bontemps</a>, <a href="../profile/RaimundasMatulevičius.html">Raimundas Matulevičius</a>, <a href="../profile/AndreasClaßen.html">Andreas Claßen</a>) 
+<a href="../tag/t2c.html"><span class="tagM" title=" Feature diagrams are treated as variability modelling languages for software product lines, and the paper’s main focus is comparing their variability semantics.
+">T2C</span></a>
+<a href="../tag/t5d.html"><span class="tagL" title=" It grounds comparison in formal syntax/semantics (comparative semantics) and uses formal criteria to assess language properties.
+">T5D</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" A substantial part is about (re-)engineering modelling languages by clarifying constructs/semantics and identifying ambiguities and expressiveness trade-offs.
+">T1A</span></a>
+<a href="../tag/t5b.html"><span class="tagL" title=" The method analyses and compares language definitions (FD notations) to discriminate between competing language designs.
+">T5B</span></a></li><li><span class="info">(<a href="../sle2008/index.html">SLE 2008</a>)</span> <em><a href="../sle2008/keynote1.html">The Field of Software Language Engineering</a></em> (<a href="../profile/AnnekeKleppe.html">Anneke Kleppe</a>) 
+<a href="../tag/t6d.html"><span class="tagM" title=" This keynote frames SLE as an intersection of software engineering, programming languages, and modeling, emphasizing cross-community transfer of techniques.
+">T6D</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" It discusses core concerns in designing software languages, including choices around notations and abstractions.
+">T1A</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" It highlights the role of language workbenches and tool support as a defining part of the SLE field.
+">T4A</span></a></li><li><span class="info">(<a href="../sle2008/index.html">SLE 2008</a>)</span> <em><a href="../sle2008/paper11.html">Engineering Languages for Specifying Product-Derivation Processes in Software Product Lines</a></em> (<a href="../profile/PabloSánchez.html">Pablo Sánchez</a>, <a href="../profile/NeilLoughran.html">Neil Loughran</a>, <a href="../profile/LidiaFuentes.html">Lidia Fuentes</a>, <a href="../profile/AlessandroFabricioGarcia.html">Alessandro Fabricio Garcia</a>) 
+<a href="../tag/t2c.html"><span class="tagM" title=" It designs languages to specify product-derivation processes, directly addressing variability in software product lines.
+">T2C</span></a>
+<a href="../tag/t3c.html"><span class="tagL" title=" The derivation-process specification is realized as a DSL tailored to SPL derivation concerns.
+">T3C</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" It involves language design decisions for capturing derivation-process concepts and constraints.
+">T1A</span></a></li><li><span class="info">(<a href="../sle2008s/index.html">SLE 2008 SI</a>)</span> <em><a href="../sle2008s/paper02.html">The “Physics” of Notations: Toward a Scientific Basis for Constructing Visual Notations in Software Engineering</a></em> (<a href="../profile/DanielLaurenceMoody.html">Daniel Laurence Moody</a>) 
+<a href="../tag/t1a.html"><span class="tagM" title=" The paper develops a principled design theory (principles and rationale) for constructing visual modelling notations, i.e., language design for visual syntax.
+">T1A</span></a>
+<a href="../tag/t5h.html"><span class="tagL" title=" The proposed principles aim at cognitively effective notations and improved human comprehensibility, making usability a central evaluation dimension.
+">T5H</span></a>
+<a href="../tag/t4f.html"><span class="tagL" title=" It focuses on the visual (diagrammatic) representation of language constructs and how they should be visualised for effective communication.
+">T4F</span></a></li><li><span class="info">(<a href="../sle2008s/index.html">SLE 2008 SI</a>)</span> <em><a href="../sle2008s/paper06.html">FAML: A Generic Metamodel for MAS Development</a></em> (<a href="../profile/GhassanBeydoun.html">Ghassan Beydoun</a>, <a href="../profile/GrahamLow.html">Graham Low</a>, <a href="../profile/BrianHendersonSellers.html">Brian Henderson-Sellers</a>, <a href="../profile/HaralambosMouratidis.html">Haralambos Mouratidis</a>, <a href="../profile/JorgeJGómezSanz.html">Jorge J. Gómez-Sanz</a>, <a href="../profile/JuánPavón.html">Juán Pavón</a>, <a href="../profile/CésarGonzálezPérez.html">César González-Pérez</a>) 
+<a href="../tag/t3a.html"><span class="tagM" title=" The paper defines a generic metamodel intended to unify and support the development of multiple agent-oriented modelling languages.
+">T3A</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" It performs language engineering at the conceptual level by designing and refining a common language core through systematic comparisons/mappings.
+">T1A</span></a>
+<a href="../tag/t3c.html"><span class="tagL" title=" The metamodel is positioned as a basis for building an agent modelling language (a domain-specific modelling language for MAS development).
+">T3C</span></a></li><li><span class="info">(<a href="../sle2009/index.html">SLE 2009</a>)</span> <em><a href="../sle2009/paper05.html">VML* – A Family of Languages for Variability Management in Software Product Lines</a></em> (<a href="../profile/SteffenZschaler.html">Steffen Zschaler</a>, <a href="../profile/PabloSánchez.html">Pablo Sánchez</a>, <a href="../profile/JõaoSantos.html">Jõao Santos</a>, <a href="../profile/MauricioAlférez.html">Mauricio Alférez</a>, <a href="../profile/AwaisRashid.html">Awais Rashid</a>, <a href="../profile/LidiaFuentes.html">Lidia Fuentes</a>, <a href="../profile/AnaMoreira.html">Ana Moreira</a>, <a href="../profile/JoãoAraújo.html">João Araújo</a>, <a href="../profile/UiráKulesza.html">Uirá Kulesza</a>) 
+<a href="../tag/t2c.html"><span class="tagM" title=" The paper proposes a family of languages dedicated to variability management in product lines.
+">T2C</span></a>
+<a href="../tag/t3c.html"><span class="tagL" title=" It introduces DSLs (a family thereof) for expressing variability concepts.
+">T3C</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" It is about designing the constructs and structure of the VML* language family.
+">T1A</span></a></li><li><span class="info">(<a href="../sle2009/index.html">SLE 2009</a>)</span> <em><a href="../sle2009/paper07.html">Yet Another Language Extension Scheme</a></em> (<a href="../profile/AnyaHeleneBagge.html">Anya Helene Bagge</a>) 
+<a href="../tag/t1d.html"><span class="tagM" title=" The paper proposes a scheme for extending languages, i.e., modular changes and integration with a host language.
+">T1D</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" Language extension is fundamentally a language-design choice about new constructs and their interactions.
+">T1A</span></a>
+<a href="../tag/t1e.html"><span class="tagL" title=" An extension scheme is also about reusing and re-combining existing language definitions.
+">T1E</span></a></li><li><span class="info">(<a href="../sle2009/index.html">SLE 2009</a>)</span> <em><a href="../sle2009/paper20.html">An Automated Process for Implementing Multilevel Domain Models</a></em> (<a href="../profile/FrédéricMallet.html">Frédéric Mallet</a>, <a href="../profile/FrançoisLagarde.html">François Lagarde</a>, <a href="../profile/CharlesAndré.html">Charles André</a>, <a href="../profile/SébastienGérard.html">Sébastien Gérard</a>, <a href="../profile/FrançoisTerrier.html">François Terrier</a>) 
+<a href="../tag/t3a.html"><span class="tagM" title=" Multilevel modeling is fundamentally about meta-level language structure and metametamodel concerns.
+">T3A</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" The contribution is an automated process, i.e., tooling support for implementing such models.
+">T4A</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" It affects language design choices for multilevel domain modeling constructs and their instantiation rules.
+">T1A</span></a></li><li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> <em><a href="../sle2010/paper13.html">Subjective-C: Bringing Context to Mobile Platform Programming</a></em> (<a href="../profile/SebastiánGonzález.html">Sebastián González</a>, <a href="../profile/NicolásCardozo.html">Nicolás Cardozo</a>, <a href="../profile/KimMens.html">Kim Mens</a>, <a href="../profile/AlfredoCádiz.html">Alfredo Cádiz</a>, <a href="../profile/JeanChristopheLibbrecht.html">Jean-Christophe Libbrecht</a>, <a href="../profile/JulienGoffaux.html">Julien Goffaux</a>) 
+<a href="../tag/t1a.html"><span class="tagM" title=" It introduces a language/design extension (Subjective-C) to incorporate context into mobile programming.
+">T1A</span></a>
+<a href="../tag/t3c.html"><span class="tagL" title=" The extension is tailored to the domain of context-aware mobile applications, making it DSL-like in intent.
+">T3C</span></a>
+<a href="../tag/t1d.html"><span class="tagL" title=" A key issue is integrating the language constructs with an existing mobile platform and its APIs.
+">T1D</span></a></li><li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> <em><a href="../sle2010/paper14.html">The Level-Agnostic Modeling Language</a></em> (<a href="../profile/ColinAtkinson.html">Colin Atkinson</a>, <a href="../profile/BastianKennel.html">Bastian Kennel</a>, <a href="../profile/BjörnGoß.html">Björn Goß</a>) 
+<a href="../tag/t1a.html"><span class="tagM" title=" The paper proposes a modeling language designed to abstract over (be agnostic to) specific modeling levels.
+">T1A</span></a>
+<a href="../tag/t3c.html"><span class="tagL" title=" It is a specialized modeling language proposal, aimed at particular modeling practices rather than a general-purpose PL.
+">T3C</span></a>
+<a href="../tag/t1d.html"><span class="tagL" title=" It emphasizes bridging/connecting modeling across levels and viewpoints within a unified notation.
+">T1D</span></a></li><li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> <em><a href="../sle2010/paper20.html">Interactive Disambiguation of Meta Programs with Concrete Object Syntax</a></em> (<a href="../profile/LennartCLKats.html">Lennart C. L. Kats</a>, <a href="../profile/KarlTrygveKalleberg.html">Karl Trygve Kalleberg</a>, <a href="../profile/EelcoVisser.html">Eelco Visser</a>) 
+<a href="../tag/t3a.html"><span class="tagM" title=" The paper concerns meta-programming over object languages with concrete syntax, i.e., metalanguage design/use.
+">T3A</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" Interactive disambiguation is a tooling problem addressing how meta-programs are edited and resolved in practice.
+">T4A</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" It touches language-design choices around integrating concrete syntax into meta-programming.
+">T1A</span></a></li><li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> <em><a href="../sle2010/paper23.html">Analysing the Cognitive Effectiveness of the BPMN 2.0 Visual Notation</a></em> (<a href="../profile/NicolasGenon.html">Nicolas Genon</a>, <a href="../profile/PatrickHeymans.html">Patrick Heymans</a>, <a href="../profile/DanielAmyot.html">Daniel Amyot</a>) 
+<a href="../tag/t5h.html"><span class="tagM" title=" The paper analyzes the cognitive effectiveness/usability of a visual notation used by BPMN 2.0.
+">T5H</span></a>
+<a href="../tag/t4f.html"><span class="tagL" title=" It is directly about visualization/visual notation quality, applying principles for effective visual communication.
+">T4F</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" The analysis has implications for (re-)designing the language/notation to improve comprehensibility.
+">T1A</span></a></li><li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> <em><a href="../sle2010/paper24.html">Featherweight TEX and Parser Correctness</a></em> (<a href="../profile/SebastianErdweg.html">Sebastian Erdweg</a>, <a href="../profile/KlausOstermann.html">Klaus Ostermann</a>) 
+<a href="../tag/t5d.html"><span class="tagM" title=" The paper focuses on formal reasoning about parser correctness via a formalized “featherweight” core of TeX.
+">T5D</span></a>
+<a href="../tag/t4c.html"><span class="tagL" title=" Parsing/translator construction is central, with correctness arguments tied to parsing behavior.
+">T4C</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" It defines a deliberately simplified core language (a “featherweight” TeX) to make formal treatment tractable.
+">T1A</span></a></li><li><span class="info">(<a href="../sle2011/index.html">SLE 2011</a>)</span> <em><a href="../sle2011/paper07.html">Reusing Pattern Solutions in Modeling: A Generic Approach Based on a Role Language</a></em> (<a href="../profile/ChristopheTombelle.html">Christophe Tombelle</a>, <a href="../profile/GillesVanwormhoudt.html">Gilles Vanwormhoudt</a>, <a href="../profile/EmmanuelRenaux.html">Emmanuel Renaux</a>) 
+<a href="../tag/t1e.html"><span class="tagM" title=" The paper explicitly targets reuse by capturing design pattern solutions in a generic role-based form.
+">T1E</span></a>
+<a href="../tag/t3c.html"><span class="tagL" title=" The ‘role language’ is a domain-specific notation for expressing reusable pattern structures.
+">T3C</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" Defining a role language entails language design choices to represent patterns uniformly.
+">T1A</span></a></li><li><span class="info">(<a href="../sle2011/index.html">SLE 2011</a>)</span> <em><a href="../sle2011/keynote2.html">Designing Variability Modeling Languages</a></em> (<a href="../profile/KrzysztofCzarnecki.html">Krzysztof Czarnecki</a>) 
+<a href="../tag/t2c.html"><span class="tagM" title=" The work targets variability modeling and product line engineering as the primary concern.
+">T2C</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" It discusses how to design a variability modeling language and its constructs.
+">T1A</span></a>
+<a href="../tag/t3c.html"><span class="tagL" title=" A variability modeling language is treated as a DSL for expressing variation points and constraints.
+">T3C</span></a></li><li><span class="info">(<a href="../sle2011/index.html">SLE 2011</a>)</span> <em><a href="../sle2011/paper12.html">Semantics First! Rethinking the Language Design Process</a></em> (<a href="../profile/MartinErwig.html">Martin Erwig</a>, <a href="../profile/EricWalkingshaw.html">Eric Walkingshaw</a>) 
+<a href="../tag/t1a.html"><span class="tagM" title=" It proposes a language design methodology that starts from semantics and derives other aspects.
+">T1A</span></a>
+<a href="../tag/t1c.html"><span class="tagL" title=" The ‘semantics first’ stance makes behavioral/executable semantics a primary design driver.
+">T1C</span></a>
+<a href="../tag/t5d.html"><span class="tagL" title=" The approach relies on formal semantic reasoning to guide language design decisions.
+">T5D</span></a></li><li><span class="info">(<a href="../sle2011/index.html">SLE 2011</a>)</span> <em><a href="../sle2011/paper20.html">Typed First-Class Communication Channels and Mobility for Concurrent Scripting Languages</a></em> (<a href="../profile/PawełTWojciechowski.html">Paweł T. Wojciechowski</a>) 
+<a href="../tag/t1b.html"><span class="tagM" title=" The main novelty is a typing discipline for first-class communication channels in a concurrent language.
+">T1B</span></a>
+<a href="../tag/t1c.html"><span class="tagL" title=" Concurrency, communication, and mobility define the executable semantics the type system constrains.
+">T1C</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" Introducing typed channels/mobility requires language design decisions for the scripting language.
+">T1A</span></a></li><li><span class="info">(<a href="../sle2012/index.html">SLE 2012</a>)</span> <em><a href="../sle2012/paper16.html">A Common Foundational Theory for Bridging Two Levels in Ontology-Driven Conceptual Modeling</a></em> (<a href="../profile/GiancarloGuizzardi.html">Giancarlo Guizzardi</a>, <a href="../profile/VeruskaZamborlini.html">Veruska Zamborlini</a>) 
+<a href="../tag/t3e.html"><span class="tagM" title=" The paper is centered on foundational ontologies and ontology-driven conceptual modeling (e.g., OntoUML, OWL).
+">T3E</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" It (re)designs a set of modeling primitives/guidelines grounded in an ontological theory, which is essentially language design work.
+">T1A</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" A key part is mapping conceptual models to computational codification languages (e.g., OWL), i.e., cross-language conversion.
+">T4B</span></a></li><li><span class="info">(<a href="../sle2012s/index.html">SLE 2012 SI</a>)</span> <em><a href="../sle2012s/paper01.html">A tutorial on metamodelling for grammar researchers</a></em> (<a href="../profile/RichardFPaige.html">Richard F. Paige</a>, <a href="../profile/DimitriosSKolovos.html">Dimitrios S. Kolovos</a>, <a href="../profile/FionaPolack.html">Fiona Polack</a>) 
+<a href="../tag/t3a.html"><span class="tagM" title=" The central goal is to explain metamodels as a language-definition formalism (abstract syntax) and relate them to grammar-based definitions.
+">T3A</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" The tutorial emphasises metamodelling infrastructures and tooling (e.g., modelware ecosystems) as the practical basis for language engineering tasks.
+">T4A</span></a>
+<a href="../tag/t6d.html"><span class="tagL" title=" A core theme is bridging “grammarware” and “modelware”, highlighting how the two approaches can be used together rather than competitively.
+">T6D</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" It discusses language-definition choices (metamodels vs grammars) and their implications for designing and implementing languages.
+">T1A</span></a></li><li><span class="info">(<a href="../sle2013/index.html">SLE 2013</a>)</span> <em><a href="../sle2013/keynote1.html">Dark Knowledge and Graph Grammars in Automated Software Design</a></em> (<a href="../profile/DonSBatory.html">Don S. Batory</a>, <a href="../profile/RuiCarlosGonçalves.html">Rui Carlos Gonçalves</a>, <a href="../profile/BryanMarker.html">Bryan Marker</a>, <a href="../profile/JanetSiegmund.html">Janet Siegmund</a>) 
+<a href="../tag/t4c.html"><span class="tagM" title=" The keynote frames automated software design as stepwise program derivation using (graph-grammar) transformation chains, i.e., refinement/generative engineering.
+">T4C</span></a>
+<a href="../tag/t3b.html"><span class="tagL" title=" Graph-grammar rewrite rules are used as the main transformation formalism for deriving implementations from designs.
+">T3B</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" It explicitly links the approach to language design/engineering, treating “design spaces” as languages with structured sentences.
+">T1A</span></a></li><li><span class="info">(<a href="../sle2013/index.html">SLE 2013</a>)</span> <em><a href="../sle2013/paper07.html">Safe Specification of Operator Precedence Rules</a></em> (<a href="../profile/AliAfroozeh.html">Ali Afroozeh</a>, <a href="../profile/MarkvandenBrand.html">Mark van den Brand</a>, <a href="../profile/AdrianJohnstone.html">Adrian Johnstone</a>, <a href="../profile/ElizabethScott.html">Elizabeth Scott</a>, <a href="../profile/JurgenVinju.html">Jurgen Vinju</a>) 
+<a href="../tag/t1a.html"><span class="tagM" title=" The central goal is improving concrete-syntax design by specifying operator precedence declaratively and safely.
+">T1A</span></a>
+<a href="../tag/t3a.html"><span class="tagL" title=" The work is about constructs for grammar specification and disambiguation—i.e., a meta-language for defining syntax and precedence.
+">T3A</span></a>
+<a href="../tag/t3b.html"><span class="tagL" title=" The implementation relies on systematic grammar rewriting, i.e., transforming specifications to obtain a correct parser.
+">T3B</span></a></li><li><span class="info">(<a href="../sle2013/index.html">SLE 2013</a>)</span> <em><a href="../sle2013/paper12.html">Whiley: A Platform for Research in Software Verification</a></em> (<a href="../profile/DavidJPearce.html">David J. Pearce</a>, <a href="../profile/LindsayGroves.html">Lindsay Groves</a>) 
+<a href="../tag/t5d.html"><span class="tagM" title=" The paper introduces a language/platform explicitly designed to support program verification and elimination of runtime errors (formal methods focus).
+">T5D</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" Whiley is a purpose-built programming language whose design is shaped by verification goals and specification support.
+">T1A</span></a>
+<a href="../tag/t1b.html"><span class="tagL" title=" Verification-oriented languages typically rely on rich static semantics (e.g., checked properties, contracts, or type-like reasoning) to enable automated checking.
+">T1B</span></a></li><li><span class="info">(<a href="../sle2013/index.html">SLE 2013</a>)</span> <em><a href="../sle2013/paper18.html">Partial Instances via Subclassing</a></em> (<a href="../profile/KacperBąk.html">Kacper Bąk</a>, <a href="../profile/ZinovyDiskin.html">Zinovy Diskin</a>, <a href="../profile/MichałAntkiewicz.html">Michał Antkiewicz</a>, <a href="../profile/KrzysztofCzarnecki.html">Krzysztof Czarnecki</a>, <a href="../profile/AndrzejWąsowski.html">Andrzej Wąsowski</a>) 
+<a href="../tag/t1a.html"><span class="tagM" title=" The main contribution is a language-design extension to object-oriented modeling instantiation, introducing partial/uncertain instances via subclassing.
+">T1A</span></a>
+<a href="../tag/t5d.html"><span class="tagL" title=" It provides a formal account of partial instantiation (e.g., completions, open-world assumptions) to ensure the notion is well-defined.
+">T5D</span></a>
+<a href="../tag/t3a.html"><span class="tagL" title=" The work operates at the metamodeling/meta-level of class-diagram instance semantics, i.e., reasoning about a modeling formalism itself.
+">T3A</span></a></li><li><span class="info">(<a href="../sle2014/index.html">SLE 2014</a>)</span> <em><a href="../sle2014/paper08.html">A Metamodel Family for Role-Based Modeling and Programming Languages</a></em> (<a href="../profile/ThomasKühn.html">Thomas Kühn</a>, <a href="../profile/MaxLeuthäuser.html">Max Leuthäuser</a>, <a href="../profile/SebastianGötz.html">Sebastian Götz</a>, <a href="../profile/ChristophSeidl.html">Christoph Seidl</a>, <a href="../profile/UweAßmann.html">Uwe Aßmann</a>) 
+<a href="../tag/t1a.html"><span class="tagM" title=" It designs a family of language metamodels capturing role-based modeling/programming concepts.
+">T1A</span></a>
+<a href="../tag/t3a.html"><span class="tagL" title=" The work is grounded in metamodeling as a metalanguage for specifying families of related languages.
+">T3A</span></a>
+<a href="../tag/t1d.html"><span class="tagL" title=" It relates modeling and programming perspectives, supporting integration across technical spaces.
+">T1D</span></a>
+<a href="../tag/t1b.html"><span class="tagL" title=" It characterizes constraints/properties of roles (e.g., well-formedness) that amount to static semantics.
+">T1B</span></a></li><li><span class="info">(<a href="../sle2014/index.html">SLE 2014</a>)</span> <em><a href="../sle2014/paper13.html">Model Checking of CTL-Extended OCL Specifications</a></em> (<a href="../profile/RobertBill.html">Robert Bill</a>, <a href="../profile/SebastianGabmeyer.html">Sebastian Gabmeyer</a>, <a href="../profile/PetraRadeljakKaufmann.html">Petra Radeljak Kaufmann</a>, <a href="../profile/MartinaSeidl.html">Martina Seidl</a>) 
+<a href="../tag/t5d.html"><span class="tagM" title=" It extends OCL with temporal operators and performs model checking of the resulting specifications.
+">T5D</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" A key contribution is the design of a CTL-extended constraint language integrated with modeling.
+">T1A</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" It provides tool support to translate/check such specifications against models.
+">T4A</span></a></li><li><span class="info">(<a href="../sle2014/index.html">SLE 2014</a>)</span> <em><a href="../sle2014/paper14.html">Unifying and Generalizing Relations in Role-Based Data Modeling and Navigation</a></em> (<a href="../profile/DacoCHarkes.html">Daco C. Harkes</a>, <a href="../profile/EelcoVisser.html">Eelco Visser</a>) 
+<a href="../tag/t1a.html"><span class="tagM" title=" It proposes a language design for data modeling with first-class, n-ary, and bidirectional relations.
+">T1A</span></a>
+<a href="../tag/t3c.html"><span class="tagL" title=" The contribution is presented as a domain-specific data modeling language with concise navigation.
+">T3C</span></a>
+<a href="../tag/t1d.html"><span class="tagL" title=" It explicitly bridges object-oriented navigation and relational querying by unifying their features.
+">T1D</span></a></li><li><span class="info">(<a href="../sle2015/index.html">SLE 2015</a>)</span> <em><a href="../sle2015/paper03.html">An empirical study on simplification of business process modeling languages</a></em> (<a href="../profile/EricUmuhoza.html">Eric Umuhoza</a>, <a href="../profile/MarcoBrambilla.html">Marco Brambilla</a>, <a href="../profile/DavideRipamonti.html">Davide Ripamonti</a>, <a href="../profile/JordiCabot.html">Jordi Cabot</a>) 
+<a href="../tag/t5e.html"><span class="tagM" title=" The paper’s primary contribution is an empirical study evaluating language simplification effects.
+">T5E</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" It concerns redesign/simplification choices in the design of a modeling language.
+">T1A</span></a>
+<a href="../tag/t2b.html"><span class="tagL" title=" Simplification is framed as adapting and maintaining a language for practical use over time.
+">T2B</span></a>
+<a href="../tag/t3c.html"><span class="tagL" title=" Business process modeling languages function as domain-specific languages for process modeling.
+">T3C</span></a></li><li><span class="info">(<a href="../sle2015/index.html">SLE 2015</a>)</span> <em><a href="../sle2015/paper04.html">A combined formal model for relational context-dependent roles</a></em> (<a href="../profile/ThomasKühn.html">Thomas Kühn</a>, <a href="../profile/StephanBöhme.html">Stephan Böhme</a>, <a href="../profile/SebastianGötz.html">Sebastian Götz</a>, <a href="../profile/UweAßmann.html">Uwe Aßmann</a>) 
+<a href="../tag/t1a.html"><span class="tagM" title=" The paper proposes a coherent role-based modeling language that combines relational and context-dependent roles.
+">T1A</span></a>
+<a href="../tag/t5d.html"><span class="tagL" title=" It develops a formal model with constraints/definitions to precisely characterize the language.
+">T5D</span></a>
+<a href="../tag/t1b.html"><span class="tagL" title=" The language includes well-defined constraints that act as static semantic checks over role models.
+">T1B</span></a>
+<a href="../tag/t3c.html"><span class="tagL" title=" Role-based modeling is treated as a domain-specific modeling language for complex systems.
+">T3C</span></a></li><li><span class="info">(<a href="../sle2015/index.html">SLE 2015</a>)</span> <em><a href="../sle2015/paper14.html">Parsing expression grammars made practical</a></em> (<a href="../profile/NicolasLaurent.html">Nicolas Laurent</a>, <a href="../profile/KimMens.html">Kim Mens</a>) 
+<a href="../tag/t3a.html"><span class="tagM" title=" The paper advances PEGs as a grammar formalism (a meta-language) and focuses on making PEG-based parsing practical.
+">T3A</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" It discusses language-definition choices (syntax and disambiguation) enabled by PEGs.
+">T1A</span></a>
+<a href="../tag/t1d.html"><span class="tagL" title=" PEG properties such as closure under composition connect directly to modular composition of syntactic fragments.
+">T1D</span></a>
+<a href="../tag/t4d.html"><span class="tagL" title=" Because PEGs define recursive-descent parsers, the work is tied to runtime parsing/interpretation techniques.
+">T4D</span></a></li><li><span class="info">(<a href="../sle2015/index.html">SLE 2015</a>)</span> <em><a href="../sle2015/paper17.html">Designing languages using lightning</a></em> (<a href="../profile/LoïcGammaitoni.html">Loïc Gammaitoni</a>, <a href="../profile/PierreKelsen.html">Pierre Kelsen</a>, <a href="../profile/ChristianGlodt.html">Christian Glodt</a>) 
+<a href="../tag/t4a.html"><span class="tagM" title=" The contribution centers on the Lightning tool for defining abstract syntax, concrete syntax, and semantics.
+">T4A</span></a>
+<a href="../tag/t5d.html"><span class="tagL" title=" It bases language component definitions on Alloy, a lightweight formal method for specifying/analysing models.
+">T5D</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" It supports systematic design of language components (syntax + semantics) as the primary activity.
+">T1A</span></a>
+<a href="../tag/t1c.html"><span class="tagL" title=" Because it defines semantics and supports analysis via Alloy, it contributes to executable/behavioural semantic modeling.
+">T1C</span></a></li><li><span class="info">(<a href="../sle2016/index.html">SLE 2016</a>)</span> <em><a href="../sle2016/paper02.html">Taming Context-Sensitive Languages with Principled Stateful Parsing</a></em> (<a href="../profile/NicolasLaurent.html">Nicolas Laurent</a>, <a href="../profile/KimMens.html">Kim Mens</a>) 
+<a href="../tag/t4d.html"><span class="tagM" title=" The paper proposes a principled runtime parsing technique (stateful parsing) to handle context-sensitive features.
+">T4D</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" It targets language design realities where mainstream languages embed context-sensitive constructs.
+">T1A</span></a>
+<a href="../tag/t5b.html"><span class="tagL" title=" It formalizes how context-sensitive parsing concerns can be captured in the language description/grammar.
+">T5B</span></a></li><li><span class="info">(<a href="../sle2016/index.html">SLE 2016</a>)</span> <em><a href="../sle2016/paper11.html">Adding Uncertainty and Units to Quantity Types in Software Models</a></em> (<a href="../profile/TanjaMayerhofer.html">Tanja Mayerhofer</a>, <a href="../profile/ManuelWimmer.html">Manuel Wimmer</a>, <a href="../profile/AntonioVallecillo.html">Antonio Vallecillo</a>) 
+<a href="../tag/t1b.html"><span class="tagM" title=" It extends type systems with units and uncertainty to improve static semantics of quantity types.
+">T1B</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" The paper proposes language/type design extensions to modeling languages for physical quantities.
+">T1A</span></a>
+<a href="../tag/t6f.html"><span class="tagL" title=" Units and measurement uncertainty are central in CPS/engineering domains where physical quantities matter.
+">T6F</span></a></li><li><span class="info">(<a href="../sle2016/index.html">SLE 2016</a>)</span> <em><a href="../sle2016/paper15.html">Principled Syntactic Code Completion using Placeholders</a></em> (<a href="../profile/LuísEduardodeSouzaAmorim.html">Luís Eduardo de Souza Amorim</a>, <a href="../profile/SebastianErdweg.html">Sebastian Erdweg</a>, <a href="../profile/GuidoWachsmuth.html">Guido Wachsmuth</a>, <a href="../profile/EelcoVisser.html">Eelco Visser</a>) 
+<a href="../tag/t4a.html"><span class="tagM" title=" It proposes IDE/editor support for principled syntactic code completion as a language tool feature.
+">T4A</span></a>
+<a href="../tag/t5h.html"><span class="tagL" title=" The aim is to improve developer efficiency and interaction quality during editing (usability).
+">T5H</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" It discusses language-aware completion that respects the language’s syntactic design constraints.
+">T1A</span></a></li><li><span class="info">(<a href="../sle2016/index.html">SLE 2016</a>)</span> <em><a href="../sle2016/paper23.html">Xdiagram: A Declarative Textual DSL for Describing Diagram Editors (Tool Demo)</a></em> (<a href="../profile/AndreLuísdeMedeirosSantos.html">Andre Luís de Medeiros Santos</a>, <a href="../profile/EduardoGomes.html">Eduardo Gomes</a>) 
+<a href="../tag/t3c.html"><span class="tagM" title=" Xdiagram is a DSL for specifying diagram editors for DSMLs.
+">T3C</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" It is meant to generate/support tooling (diagram editors), i.e., meta-tooling for language workbenches.
+">T4A</span></a>
+<a href="../tag/t4f.html"><span class="tagL" title=" Its purpose is to define and realize graphical syntax/editors, directly tied to visualization.
+">T4F</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" It supports language design by enabling definition of concrete (diagrammatic) notations.
+">T1A</span></a></li><li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> <em><a href="../sle2017/paper02.html">Red Shift: procedural shift-reduce parsing (vision paper)</a></em> (<a href="../profile/NicolasLaurent.html">Nicolas Laurent</a>) 
+<a href="../tag/t4d.html"><span class="tagM" title=" Its core contribution is a new parsing design pattern (procedural shift-reduce parsing), i.e., runtime parsing technology.
+">T4D</span></a>
+<a href="../tag/t3a.html"><span class="tagL" title=" It connects and extends established grammar/parsing formalisms (shift-reduce and PEG-style parsing).
+">T3A</span></a>
+<a href="../tag/t5f.html"><span class="tagL" title=" The vision explicitly targets practical parser implementation concerns such as determinism and efficiency.
+">T5F</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" It proposes language-implementation design choices for how syntactic ambiguity is resolved in practice.
+">T1A</span></a></li><li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> <em><a href="../sle2017/paper04.html">Better call the crowd: using crowdsourcing to shape the notation of domain-specific languages</a></em> (<a href="../profile/MarcoBrambilla.html">Marco Brambilla</a>, <a href="../profile/JordiCabot.html">Jordi Cabot</a>, <a href="../profile/JavierLuisCánovasIzquierdo.html">Javier Luis Cánovas Izquierdo</a>, <a href="../profile/AndreaMauri.html">Andrea Mauri</a>) 
+<a href="../tag/t5h.html"><span class="tagM" title=" The paper’s main aim is improving usability/acceptance of DSML notations by involving end-users via crowdsourcing.
+">T5H</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" It directly concerns the design of a language’s notation (concrete syntax) informed by user feedback.
+">T1A</span></a>
+<a href="../tag/t5e.html"><span class="tagL" title=" Crowdsourcing implies empirical collection and analysis of user preferences over notational alternatives.
+">T5E</span></a>
+<a href="../tag/t3c.html"><span class="tagL" title=" The setting is domain-specific modeling languages whose notations are being designed.
+">T3C</span></a></li><li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> <em><a href="../sle2017/paper09.html">Concrete syntax: a multi-paradigm modelling approach</a></em> (<a href="../profile/YentlVanTendeloo.html">Yentl Van Tendeloo</a>, <a href="../profile/SimonVanMierlo.html">Simon Van Mierlo</a>, <a href="../profile/BartMeyers.html">Bart Meyers</a>, <a href="../profile/HansVangheluwe.html">Hans Vangheluwe</a>) 
+<a href="../tag/t1a.html"><span class="tagM" title=" It proposes a multi-paradigm approach to defining concrete syntax, i.e., language design of notations.
+">T1A</span></a>
+<a href="../tag/t3c.html"><span class="tagL" title=" The work is motivated by domain-specific modeling languages and how their syntax is defined.
+">T3C</span></a>
+<a href="../tag/t4f.html"><span class="tagL" title=" Concrete syntax work typically spans visual/textual notations, and the paper explicitly targets multi-paradigm (incl. visual) syntax.
+">T4F</span></a>
+<a href="../tag/t1d.html"><span class="tagL" title=" It emphasizes coordinating multiple syntactic paradigms for the same language, requiring integration between notation forms.
+">T1D</span></a></li><li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> <em><a href="../sle2017/paper19.html">Robust programs with filtered iterators</a></em> (<a href="../profile/JiasiShen.html">Jiasi Shen</a>, <a href="../profile/MartinCRinard.html">Martin C. Rinard</a>) 
+<a href="../tag/t1a.html"><span class="tagM" title=" It introduces a new language construct (filtered iterators) for robust input processing.
+">T1A</span></a>
+<a href="../tag/t4d.html"><span class="tagL" title=" Robust input processing is realized through runtime iteration/filtering behavior during execution.
+">T4D</span></a>
+<a href="../tag/t5h.html"><span class="tagL" title=" The construct is motivated by reducing common programmer errors and improving comprehensibility of input-handling code.
+">T5H</span></a>
+<a href="../tag/t3d.html"><span class="tagL" title=" The contribution is framed as a construct for general-purpose programming languages rather than a narrow DSL.
+">T3D</span></a></li><li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> <em><a href="../sle2018/paper18.html">Morbig: a static parser for POSIX shell</a></em> (<a href="../profile/YannRégisGianas.html">Yann Régis-Gianas</a>, <a href="../profile/NicolasJeannerod.html">Nicolas Jeannerod</a>, <a href="../profile/RalfTreinen.html">Ralf Treinen</a>) 
+<a href="../tag/t1a.html"><span class="tagM" title=" The paper primarily contributes techniques for language definition (often syntax-related) as part of language design.
+">T1A</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" It includes substantial tool support or infrastructure relevant for engineering/using languages.
+">T4A</span></a>
+<a href="../tag/t5d.html"><span class="tagL" title=" It relies on formal methods (definitions/proofs/semantic properties) beyond informal description.
+">T5D</span></a>
+<a href="../tag/t5e.html"><span class="tagL" title=" It reports an empirical evaluation (experiments, study, benchmarks, or measurements).
+">T5E</span></a></li><li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> <em><a href="../sle2018/paper21.html">Analysing meta-model product lines</a></em> (<a href="../profile/EstherGuerra.html">Esther Guerra</a>, <a href="../profile/JuandeLara.html">Juan de Lara</a>, <a href="../profile/MarshaChechik.html">Marsha Chechik</a>, <a href="../profile/RickSalay.html">Rick Salay</a>) 
+<a href="../tag/t1a.html"><span class="tagM" title=" The paper primarily contributes techniques for language definition (often syntax-related) as part of language design.
+">T1A</span></a>
+<a href="../tag/t5d.html"><span class="tagL" title=" It relies on formal methods (definitions/proofs/semantic properties) beyond informal description.
+">T5D</span></a>
+<a href="../tag/t2c.html"><span class="tagL" title=" It targets product lines/variability (feature models, variability, configuration).
+">T2C</span></a></li><li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> <em><a href="../sle2019/paper02.html">Spectrum-based fault localization for context-free grammars</a></em> (<a href="../profile/MoeketsiRaselimo.html">Moeketsi Raselimo</a>, <a href="../profile/BerndFischer.html">Bernd Fischer</a>) 
+<a href="../tag/t1a.html"><span class="tagM" title=" The paper primarily contributes techniques for language definition (often syntax-related) as part of language design.
+">T1A</span></a>
+<a href="../tag/t4c.html"><span class="tagL" title=" It uses compilation/generation/refinement to derive executable artifacts (vertical transformations).
+">T4C</span></a>
+<a href="../tag/t6b.html"><span class="tagL" title=" It is motivated by or evaluated in an industrial/practical context.
+">T6B</span></a></li><li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> <em><a href="../sle2019/paper08.html">Multiple lexicalisation (a Java based study)</a></em> (<a href="../profile/ElizabethScott.html">Elizabeth Scott</a>, <a href="../profile/AdrianJohnstone.html">Adrian Johnstone</a>) 
+<a href="../tag/t1a.html"><span class="tagM" title=" The paper primarily contributes techniques for language definition (often syntax-related) as part of language design.
+">T1A</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" It includes substantial tool support or infrastructure relevant for engineering/using languages.
+">T4A</span></a>
+<a href="../tag/t5e.html"><span class="tagL" title=" It reports an empirical evaluation (experiments, study, benchmarks, or measurements).
+">T5E</span></a></li><li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> <em><a href="../sle2019/paper09.html">Breaking parsers: mutation-based generation of programs with guaranteed syntax errors</a></em> (<a href="../profile/MoeketsiRaselimo.html">Moeketsi Raselimo</a>, <a href="../profile/JanTaljaard.html">Jan Taljaard</a>, <a href="../profile/BerndFischer.html">Bernd Fischer</a>) 
+<a href="../tag/t1a.html"><span class="tagM" title=" The paper primarily contributes techniques for language definition (often syntax-related) as part of language design.
+">T1A</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" It includes substantial tool support or infrastructure relevant for engineering/using languages.
+">T4A</span></a>
+<a href="../tag/t6b.html"><span class="tagL" title=" It is motivated by or evaluated in an industrial/practical context.
+">T6B</span></a></li><li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> <em><a href="../sle2019/paper10.html">Default disambiguation for online parsers</a></em> (<a href="../profile/LukasDiekmann.html">Lukas Diekmann</a>, <a href="../profile/LaurenceTratt.html">Laurence Tratt</a>) 
+<a href="../tag/t1a.html"><span class="tagM" title=" The paper primarily contributes techniques for language definition (often syntax-related) as part of language design.
+">T1A</span></a>
+<a href="../tag/t5e.html"><span class="tagL" title=" It reports an empirical evaluation (experiments, study, benchmarks, or measurements).
+">T5E</span></a>
+<a href="../tag/t1d.html"><span class="tagL" title=" It emphasizes modularity/composition/integration (embedding or coordinating language components).
+">T1D</span></a>
+<a href="../tag/t5h.html"><span class="tagL" title=" It targets usability (developer interaction, comprehension, editing experience).
+">T5H</span></a></li><li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> <em><a href="../sle2019/paper15.html">Empirical study on the usage of graph query languages in open source Java projects</a></em> (<a href="../profile/PhilippSeifer.html">Philipp Seifer</a>, <a href="../profile/JohannesHärtel.html">Johannes Härtel</a>, <a href="../profile/MartinLeinberger.html">Martin Leinberger</a>, <a href="../profile/RalfLämmel.html">Ralf Lämmel</a>, <a href="../profile/SteffenStaab.html">Steffen Staab</a>) 
+<a href="../tag/t1a.html"><span class="tagM" title=" The paper primarily contributes language design techniques or decisions.
+">T1A</span></a>
+<a href="../tag/t5d.html"><span class="tagL" title=" It relies on formal methods (definitions/proofs/semantic properties) beyond informal description.
+">T5D</span></a>
+<a href="../tag/t5e.html"><span class="tagL" title=" It reports an empirical evaluation (experiments, study, benchmarks, or measurements).
+">T5E</span></a></li><li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> <em><a href="../sle2019/paper18.html">Developing a monadic type checker for an object-oriented language: an experience report</a></em> (<a href="../profile/EliasCastegren.html">Elias Castegren</a>, <a href="../profile/KikoFernandezReyes.html">Kiko Fernandez-Reyes</a>) 
+<a href="../tag/t1a.html"><span class="tagM" title=" The paper primarily contributes language design techniques or decisions.
+">T1A</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" It includes substantial tool support or infrastructure relevant for engineering/using languages.
+">T4A</span></a>
+<a href="../tag/t4c.html"><span class="tagL" title=" It uses compilation/generation/refinement to derive executable artifacts (vertical transformations).
+">T4C</span></a>
+<a href="../tag/t5h.html"><span class="tagL" title=" It targets usability (developer interaction, comprehension, editing experience).
+">T5H</span></a></li><li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> <em><a href="../sle2020/paper02.html">An Interactive Feedback System for Grammar Development (tool paper)</a></em> (<a href="../profile/ChelseaBarraball.html">Chelsea Barraball</a>, <a href="../profile/MoeketsiRaselimo.html">Moeketsi Raselimo</a>, <a href="../profile/BerndFischer.html">Bernd Fischer</a>) 
+<a href="../tag/t1a.html"><span class="tagM" title=" The paper primarily contributes techniques for language definition (often syntax-related) as part of language design.
+">T1A</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" It includes substantial tool support or infrastructure relevant for engineering/using languages.
+">T4A</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" It performs mapping/conversion/synchronization between representations (horizontal transformations).
+">T4B</span></a>
+<a href="../tag/t5h.html"><span class="tagL" title=" It targets usability (developer interaction, comprehension, editing experience).
+">T5H</span></a></li><li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> <em><a href="../sle2020/paper04.html">Test Case Generation from Context-Free Grammars using Generalized Traversal of LR-automata</a></em> (<a href="../profile/ChristoffRossouw.html">Christoff Rossouw</a>, <a href="../profile/BerndFischer.html">Bernd Fischer</a>) 
+<a href="../tag/t1a.html"><span class="tagM" title=" The paper primarily contributes techniques for language definition (often syntax-related) as part of language design.
+">T1A</span></a>
+<a href="../tag/t4c.html"><span class="tagL" title=" It uses compilation/generation/refinement to derive executable artifacts (vertical transformations).
+">T4C</span></a>
+<a href="../tag/t4d.html"><span class="tagL" title=" It concerns runtime interpretation/execution (interpreters, debuggers, runtime services).
+">T4D</span></a>
+<a href="../tag/t6b.html"><span class="tagL" title=" It is motivated by or evaluated in an industrial/practical context.
+">T6B</span></a></li><li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> <em><a href="../sle2020/paper09.html">Software Language Engineers’ Worst Nightmare</a></em> (<a href="../profile/VadimZaytsev.html">Vadim Zaytsev</a>) 
+<a href="../tag/t1a.html"><span class="tagM" title=" The main contribution of the paper is to design a language called BabyCobol.
+">T1A</span></a>
+<a href="../tag/t3c.html"><span class="tagL" title=" BabyCobol is a domain-specific language.
+">T3C</span></a>
+<a href="../tag/t2a.html"><span class="tagL" title=" The domain for this language design experience is legacy software.
+">T2A</span></a></li><li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> <em><a href="../sle2020/paper20.html">Untangling Mechanized Proofs</a></em> (<a href="../profile/ClémentPitClaudel.html">Clément Pit-Claudel</a>) 
+<a href="../tag/t1a.html"><span class="tagM" title=" The paper primarily contributes language design techniques or decisions.
+">T1A</span></a>
+<a href="../tag/t5d.html"><span class="tagL" title=" It relies on formal methods (definitions/proofs/semantic properties) beyond informal description.
+">T5D</span></a>
+<a href="../tag/t4c.html"><span class="tagL" title=" It uses compilation/generation/refinement to derive executable artifacts (vertical transformations).
+">T4C</span></a>
+<a href="../tag/t4d.html"><span class="tagL" title=" It concerns runtime interpretation/execution (interpreters, debuggers, runtime services).
+">T4D</span></a></li><li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> <em><a href="../sle2021/paper03.html">Vision: bias in systematic grammar-based test suite construction algorithms</a></em> (<a href="../profile/ChristoffRossouw.html">Christoff Rossouw</a>, <a href="../profile/BerndFischer.html">Bernd Fischer</a>) 
+<a href="../tag/t1a.html"><span class="tagM" title=" The paper primarily contributes techniques for language definition (often syntax-related) as part of language design.
+">T1A</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" It includes substantial tool support or infrastructure relevant for engineering/using languages.
+">T4A</span></a>
+<a href="../tag/t4c.html"><span class="tagL" title=" It uses compilation/generation/refinement to derive executable artifacts (vertical transformations).
+">T4C</span></a>
+<a href="../tag/t4d.html"><span class="tagL" title=" It concerns runtime interpretation/execution (interpreters, debuggers, runtime services).
+">T4D</span></a></li><li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> <em><a href="../sle2021/paper04.html">A concurrency model for JavaScript with cooperative cancellation</a></em> (<a href="../profile/TianZhao.html">Tian Zhao</a>, <a href="../profile/YonglunLi.html">Yonglun Li</a>) 
+<a href="../tag/t1a.html"><span class="tagM" title=" The paper primarily contributes language design techniques or decisions.
+">T1A</span></a>
+</li><li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> <em><a href="../sle2021/paper09.html">Fast incremental PEG parsing</a></em> (<a href="../profile/ZacharyYedidia.html">Zachary Yedidia</a>, <a href="../profile/StephenChong.html">Stephen Chong</a>) 
+<a href="../tag/t1a.html"><span class="tagM" title=" The paper primarily contributes techniques for language definition (often syntax-related) as part of language design.
+">T1A</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" It includes substantial tool support or infrastructure relevant for engineering/using languages.
+">T4A</span></a>
+<a href="../tag/t5e.html"><span class="tagL" title=" It reports an empirical evaluation (experiments, study, benchmarks, or measurements).
+">T5E</span></a>
+<a href="../tag/t1d.html"><span class="tagL" title=" It emphasizes modularity/composition/integration (embedding or coordinating language components).
+">T1D</span></a></li><li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> <em><a href="../sle2021/paper12.html">There is More Than One Way to Zen Your Python</a></em> (<a href="../profile/AamirFarooq.html">Aamir Farooq</a>, <a href="../profile/VadimZaytsev.html">Vadim Zaytsev</a>) 
+<a href="../tag/t1a.html"><span class="tagM" title=" The paper primarily concerns itself with language design techniques and decisions.
+">T1A</span></a>
+<a href="../tag/t3d.html"><span class="tagL" title=" The paper is about Python, which is a general purpose language.
+">T3D</span></a>
+<a href="../tag/t2b.html"><span class="tagL" title=" The main focus of the paper is the evolution of how people use Python.
+">T2B</span></a></li><li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> <em><a href="../sle2021/paper14.html">Automatic grammar repair</a></em> (<a href="../profile/MoeketsiRaselimo.html">Moeketsi Raselimo</a>, <a href="../profile/BerndFischer.html">Bernd Fischer</a>) 
+<a href="../tag/t1a.html"><span class="tagM" title=" The paper primarily contributes techniques for language definition (often syntax-related) as part of language design.
+">T1A</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" It includes substantial tool support or infrastructure relevant for engineering/using languages.
+">T4A</span></a>
+<a href="../tag/t4c.html"><span class="tagL" title=" It uses compilation/generation/refinement to derive executable artifacts (vertical transformations).
+">T4C</span></a>
+<a href="../tag/t4d.html"><span class="tagL" title=" It concerns runtime interpretation/execution (interpreters, debuggers, runtime services).
+">T4D</span></a></li><li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em><a href="../sle2022/paper04.html">The Semantics of Plurals</a></em> (<a href="../profile/FriedrichSteimann.html">Friedrich Steimann</a>, <a href="../profile/MariusFreitag.html">Marius Freitag</a>) 
+<a href="../tag/t1c.html"><span class="tagM" title=" It develops the meaning of plural (bunch) expressions and their evaluation semantics.
+">T1C</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" The paper effectively proposes a language design extension for plural/relational expressions.
+">T1A</span></a>
+<a href="../tag/t5d.html"><span class="tagL" title=" It relies on formal semantic reasoning (bunch theory and relational interpretation).
+">T5D</span></a></li><li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em><a href="../sle2022/paper10.html">Partial Parsing for Structured Editors</a></em> (<a href="../profile/TomBeckmann.html">Tom Beckmann</a>, <a href="../profile/PatrickRein.html">Patrick Rein</a>, <a href="../profile/ToniMattis.html">Toni Mattis</a>, <a href="../profile/RobertHirschfeld.html">Robert Hirschfeld</a>) 
+<a href="../tag/t4a.html"><span class="tagM" title=" It contributes parsing and infrastructure techniques for building structured editors.
+">T4A</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" The work is about handling and maintaining syntactic structure during editing.
+">T1A</span></a>
+<a href="../tag/t5f.html"><span class="tagL" title=" Partial parsing is designed to improve responsiveness and efficiency in editors.
+">T5F</span></a></li><li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em><a href="../sle2022/paper12.html">Gradual Grammars: Syntax in Levels and Locales</a></em> (<a href="../profile/TijsvanderStorm.html">Tijs van der Storm</a>, <a href="../profile/FelienneHermans.html">Felienne Hermans</a>) 
+<a href="../tag/t1a.html"><span class="tagM" title=" It proposes a language-design approach for grammars that vary across levels/locales.
+">T1A</span></a>
+<a href="../tag/t5h.html"><span class="tagL" title=" The motivation is user-centered syntax design and accessibility across user groups.
+">T5H</span></a>
+<a href="../tag/t1d.html"><span class="tagL" title=" It enables integrating multiple syntactic variants within one language definition.
+">T1D</span></a></li><li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em><a href="../sle2022/paper16.html">Collection Skeletons: Declarative Abstractions for Data Collections</a></em> (<a href="../profile/BjörnFranke.html">Björn Franke</a>, <a href="../profile/ZhiboLi.html">Zhibo Li</a>, <a href="../profile/JohnMagnusMorton.html">John Magnus Morton</a>, <a href="../profile/MichelSteuwer.html">Michel Steuwer</a>) 
+<a href="../tag/t1a.html"><span class="tagM" title=" It introduces a new declarative abstraction for expressing computations over data collections.
+">T1A</span></a>
+<a href="../tag/t1e.html"><span class="tagL" title=" Collection skeletons are reusable building blocks intended to be reused across programs.
+">T1E</span></a>
+<a href="../tag/t3d.html"><span class="tagL" title=" The contribution is framed as a general-purpose programming abstraction usable in host languages.
+">T3D</span></a></li><li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em><a href="../sle2022/paper19.html">BatakJava: An Object-Oriented Programming Language with Versions</a></em> (<a href="../profile/LuthfanAnsharLubis.html">Luthfan Anshar Lubis</a>, <a href="../profile/YudaiTanabe.html">Yudai Tanabe</a>, <a href="../profile/TomoyukiAotani.html">Tomoyuki Aotani</a>, <a href="../profile/HidehikoMasuhara.html">Hidehiko Masuhara</a>) 
+<a href="../tag/t2b.html"><span class="tagM" title=" It adds first-class language support for managing multiple versions, directly addressing evolution/maintenance.
+">T2B</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" The paper proposes and studies a new programming language design for versioned programming.
+">T1A</span></a>
+<a href="../tag/t3d.html"><span class="tagL" title=" BatakJava is a general-purpose object-oriented programming language.
+">T3D</span></a></li><li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> <em><a href="../sle2024/paper01.html">Cooperative Specification via Composition Control</a></em> (<a href="../profile/ChristopherAEsterhuyse.html">Christopher A. Esterhuyse</a>, <a href="../profile/LThomasvanBinsbergen.html">L. Thomas van Binsbergen</a>) 
+<a href="../tag/t1d.html"><span class="tagM" title=" The core contribution is language support for controlling how independently authored specification fragments are composed.
+">T1D</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" It introduces and motivates concrete language extensions for composition control in multiple specification languages.
+">T1A</span></a>
+<a href="../tag/t3c.html"><span class="tagL" title=" The work is demonstrated on declarative specification languages used as DSLs for expressing domain constraints.
+">T3C</span></a>
+<a href="../tag/t5a.html"><span class="tagL" title=" Cooperative fragments are framed as capturing requirements from different stakeholders that must be reconciled.
+">T5A</span></a></li><li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> <em><a href="../sle2024/paper08.html">Design of Software Representation Languages: A Historical Perspective</a></em> (<a href="../profile/AnthonyIraWasserman.html">Anthony Ira Wasserman</a>) 
+<a href="../tag/t1a.html"><span class="tagM" title=" It discusses design choices and guidelines for notations and representation languages used to develop software.
+">T1A</span></a>
+<a href="../tag/t2b.html"><span class="tagL" title=" The historical narrative connects language proliferation to long-term maintenance and legacy-system pressures.
+">T2B</span></a>
+<a href="../tag/t2e.html"><span class="tagL" title=" Representation notations are treated as artifacts that document programs and enable communication about software.
+">T2E</span></a>
+<a href="../tag/t6d.html"><span class="tagL" title=" As an SLEBoK-style essay, it synthesizes perspectives across communities and time periods.
+">T6D</span></a></li><li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> <em><a href="../sle2024/paper09.html">The Linguistic Theory behind Blockly Languages</a></em> (<a href="../profile/FriedrichSteimann.html">Friedrich Steimann</a>, <a href="../profile/RobinStunic.html">Robin Stunic</a>) 
+<a href="../tag/t1a.html"><span class="tagM" title=" It develops a principled account of how Blockly-style block languages are designed and structured.
+">T1A</span></a>
+<a href="../tag/t4f.html"><span class="tagL" title=" Blockly’s block-based notation is a visual syntax whose structure and affordances are a primary focus.
+">T4F</span></a>
+<a href="../tag/t5h.html"><span class="tagL" title=" The motivation is grounded in learnability/usability for novices and end-user programmers.
+">T5H</span></a>
+<a href="../tag/t3c.html"><span class="tagL" title=" Blockly configurations are effectively DSLs whose syntax is instantiated from a language definition.
+">T3C</span></a></li><li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> <em><a href="../sle2024/paper15.html">Method Bundles</a></em> (<a href="../profile/DimiRacordon.html">Dimi Racordon</a>, <a href="../profile/DaveAbrahams.html">Dave Abrahams</a>) 
+<a href="../tag/t1a.html"><span class="tagM" title=" It proposes a new language construct that bundles semantically related method variants under one name.
+">T1A</span></a>
+<a href="../tag/t3f.html"><span class="tagL" title=" The motivation is to improve API ergonomics by consolidating variant-heavy interfaces into coherent bundles.
+">T3F</span></a>
+<a href="../tag/t5f.html"><span class="tagL" title=" Bundling unlocks compiler optimizations by making relationships between variants explicit.
+">T5F</span></a></li><li><span class="info">(<a href="../sle2024s/index.html">SLE 2024 SI</a>)</span> <em><a href="../sle2024s/paper01.html">The eXchange Calculus (XC): A functional programming language design for distributed collective systems</a></em> (<a href="../profile/GiorgioAudrito.html">Giorgio Audrito</a>, <a href="../profile/RobertoCasadei.html">Roberto Casadei</a>, <a href="../profile/FerruccioDamiani.html">Ferruccio Damiani</a>, <a href="../profile/GuidoSalvaneschi.html">Guido Salvaneschi</a>, <a href="../profile/MirkoViroli.html">Mirko Viroli</a>) 
+<a href="../tag/t1a.html"><span class="tagM" title=" The paper proposes a new language/core calculus (XC) tailored to distributed collective systems and their programming model.
+">T1A</span></a>
+<a href="../tag/t1b.html"><span class="tagL" title=" It develops a type system and proves type soundness properties as part of the formal development.
+">T1B</span></a>
+<a href="../tag/t1c.html"><span class="tagL" title=" It provides operational semantics (device-/network-level) and uses them for formal properties (e.g., determinism/self-organisation-related results).
+">T1C</span></a>
+<a href="../tag/t6f.html"><span class="tagL" title=" The motivating domain and applicability are explicitly in IoT/CPS-style settings (sensor networks, swarms, wearables, smart-city scenarios).
+">T6F</span></a></li><li><span class="info">(<a href="../sle2024s/index.html">SLE 2024 SI</a>)</span> <em><a href="../sle2024s/paper04.html">iCoLa+: An extensible meta-language with support for exploratory language development</a></em> (<a href="../profile/DamianFrölich.html">Damian Frölich</a>, <a href="../profile/LThomasvanBinsbergen.html">L. Thomas van Binsbergen</a>) 
+<a href="../tag/t3a.html"><span class="tagM" title=" iCoLa+ is explicitly a meta-language for defining languages via reusable components and semantic domains.
+">T3A</span></a>
+<a href="../tag/t1d.html"><span class="tagL" title=" A central theme is modular composition/restriction/unification of language fragments to assemble full languages.
+">T1D</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" The work provides an implemented system/DSL and supports exploratory (incremental/REPL-like) workflows for rapid prototyping.
+">T4A</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" It directly supports language design exploration by enabling rapid iteration over syntax/semantics choices in constructed languages.
+">T1A</span></a></li><li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> <em><a href="../sle2025/keynote2.html">Can Programming Be Liberated from the Functional Style?</a></em> (<a href="../profile/FriedrichSteimann.html">Friedrich Steimann</a>) 
+<a href="../tag/t3d.html"><span class="tagM" title=" It discusses general-purpose programming paradigms (functional vs. relational/modelling styles) rather than a specific DSL.
+">T3D</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" The argument is about (re-)designing programming languages around different core abstractions and composition of results.
+">T1A</span></a>
+<a href="../tag/t1c.html"><span class="tagL" title=" It reasons about computation/meaning (what programs can produce) at the level of behavioural/executable semantics.
+">T1C</span></a></li><li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> <em><a href="../sle2025/paper07.html">Optimal Language Design is Hard: A Case Study in ECMAScript (JavaScript) Standardization</a></em> (<a href="../profile/PhilippRiemer.html">Philipp Riemer</a>, <a href="../profile/YuryNikulin.html">Yury Nikulin</a>, <a href="../profile/AshleyClaymore.html">Ashley Claymore</a>, <a href="../profile/MikhailBarash.html">Mikhail Barash</a>) 
+<a href="../tag/t1a.html"><span class="tagM" title=" It studies and supports design choices in a widely used language (ECMAScript), focusing on the language design process itself.
+">T1A</span></a>
+<a href="../tag/t2b.html"><span class="tagL" title=" The work frames language standardization as an evolving, long-running maintenance process with accumulating issues/preferences.
+">T2B</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" It introduces tooling (and an ILP-backed workflow) to structure and optimize parts of the decision-making process.
+">T4A</span></a></li></ul>
 		<clear/>
 		<footer/>
 	</body>

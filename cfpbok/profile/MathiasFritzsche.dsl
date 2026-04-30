@@ -2,7 +2,9 @@
 	<head title="Mathias Fritzsche's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Mathias Fritzsche <a href="https://openalex.org/A5074693712"><img src="../logos/openalex.png" alt="OpenAlex"></a></h1>
+		<h1>Mathias Fritzsche
+<a href="https://openalex.org/A5074693712" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://dblp.org/search?q=Mathias Fritzsche" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2008/index.html"><img src="../sle.png" alt="SLE 2008"></a>
 			<figcaption>
@@ -17,7 +19,7 @@
 		<ul>
 
 		<li><span class="info">1</span> papers in <span class="info">1</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t1d.html"><span class="tagM">T1D: Composition</span></a> (<span class="info">1</span> times)</li>
 				<li><a href="../tag/t4b.html"><span class="tagM">T4B: Horizontal Transformation</span></a> (<span class="info">1</span> times)</li>
@@ -35,7 +37,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2008/index.html">SLE 2008</a>)</span> <em>Coauthored <a href="../sle2008/paper07.html">Systematic Usage of Embedded Modelling Languages in Automated Model Transformation Chains</a></em> (<a href="../profile/MathiasFritzsche.html"><span class="info">Mathias Fritzsche</span></a>, <a href="../profile/JendrikJohannes.html">Jendrik Johannes</a>, <a href="../profile/UweAßmann.html">Uwe Aßmann</a>, <a href="../profile/SimonMitschke.html">Simon Mitschke</a>, <a href="../profile/WasifGilani.html">Wasif Gilani</a>, <a href="../profile/IvorSpence.html">Ivor Spence</a>, <a href="../profile/JohnBrown.html">John Brown</a>, <a href="../profile/PeterKilpatrick.html">Peter Kilpatrick</a>)</li></ul>
+<li><span class="info">(<a href="../sle2008/index.html">SLE 2008</a>)</span> <em>Coauthored <a href="../sle2008/paper07.html">Systematic Usage of Embedded Modelling Languages in Automated Model Transformation Chains</a></em> (<a href="../profile/MathiasFritzsche.html"><span class="info">Mathias Fritzsche</span></a>, <a href="../profile/JendrikJohannes.html">Jendrik Johannes</a>, <a href="../profile/UweAßmann.html">Uwe Aßmann</a>, <a href="../profile/SimonMitschke.html">Simon Mitschke</a>, <a href="../profile/WasifGilani.html">Wasif Gilani</a>, <a href="../profile/IvorSpence.html">Ivor Spence</a>, <a href="../profile/JohnBrown.html">John Brown</a>, <a href="../profile/PeterKilpatrick.html">Peter Kilpatrick</a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

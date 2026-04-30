@@ -2,7 +2,7 @@
 	<head title="Alexandre Sawczuk da Silva's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Alexandre Sawczuk da Silva</h1>
+		<h1>Alexandre Sawczuk da Silva<a href="https://dblp.org/search?q=Alexandre Sawczuk da Silva" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2016/index.html"><img src="../sle.png" alt="SLE 2016"></a>
 			<figcaption>

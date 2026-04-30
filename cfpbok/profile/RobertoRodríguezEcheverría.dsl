@@ -2,7 +2,10 @@
 	<head title="Roberto Rodríguez-Echeverría's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Roberto Rodríguez-Echeverría <a href="https://openalex.org/A5000819463"><img src="../logos/openalex.png" alt="OpenAlex"></a> <a href="https://orcid.org/0000-0002-6545-0913"><img src="../logos/orcid.svg" alt="ORCID"></a></h1>
+		<h1>Roberto Rodríguez-Echeverría
+<a href="https://openalex.org/A5000819463" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://orcid.org/0000-0002-6545-0913" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
+<a href="https://dblp.org/search?q=Roberto Rodríguez-Echeverría" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2020/index.html"><img src="../sle.png" alt="SLE 2020"></a>
 			<figcaption>
@@ -17,7 +20,7 @@
 		<ul>
 
 		<li><span class="info">1</span> papers in <span class="info">1</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t3c.html"><span class="tagM">T3C: DSLs</span></a> (<span class="info">1</span> times)</li>
 				<li><a href="../tag/t4a.html"><span class="tagM">T4A: Workbenches</span></a> (<span class="info">1</span> times)</li>
@@ -35,7 +38,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> <em>Coauthored <a href="../sle2020/paper05.html">Towards the Optical Character Recognition of DSLs</a></em> (<a href="../profile/JorgePerianezPascual.html">Jorge Perianez-Pascual</a>, <a href="../profile/RobertoRodríguezEcheverría.html"><span class="info">Roberto Rodríguez-Echeverría</span></a>, <a href="../profile/LoliBurgueño.html">Loli Burgueño</a>, <a href="../profile/JordiCabot.html">Jordi Cabot</a>)</li></ul>
+<li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> <em>Coauthored <a href="../sle2020/paper05.html">Towards the Optical Character Recognition of DSLs</a></em> (<a href="../profile/JorgePerianezPascual.html">Jorge Perianez-Pascual</a>, <a href="../profile/RobertoRodríguezEcheverría.html"><span class="info">Roberto Rodríguez-Echeverría</span></a>, <a href="../profile/LoliBurgueño.html">Loli Burgueño</a>, <a href="../profile/JordiCabot.html">Jordi Cabot</a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

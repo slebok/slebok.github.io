@@ -2,7 +2,7 @@
 	<head title="Chiara Ghidini's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Chiara Ghidini</h1>
+		<h1>Chiara Ghidini<a href="https://dblp.org/search?q=Chiara Ghidini" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2010/index.html"><img src="../sle.png" alt="SLE 2010"></a>
 			<figcaption>

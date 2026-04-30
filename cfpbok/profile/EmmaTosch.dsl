@@ -2,7 +2,7 @@
 	<head title="Emma Tosch's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Emma Tosch</h1>
+		<h1>Emma Tosch<a href="https://dblp.org/search?q=Emma Tosch" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2019/index.html"><img src="../sle.png" alt="SLE 2019"></a>
 			<figcaption>

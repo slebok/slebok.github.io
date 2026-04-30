@@ -2,7 +2,11 @@
 	<head title="Nigel Horspool's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Nigel Horspool</h1>
+		<h1>Nigel Horspool
+<a href="https://dblp.org/pid/h/RNigelHorspool.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
+<a href="https://en.wikipedia.org/wiki/Nigel_Horspool" title="Wikipedia"><img src="../logos/wikipedia.png" alt="Wikipedia"></a>
+<a href="https://scholar.google.com/citations?user=8ruq-h4AAAAJ" title="Google Scholar"><img src="../logos/gs.png" alt="Google Scholar"></a>
+<a href="https://www.wikidata.org/entity/Q13607699" title="Wikidata"><img src="../logos/wikidata.svg" alt="Wikidata"></a></h1>
 		<figure class="small">
 			<a href="../sle2008/index.html"><img src="../sle.png" alt="SLE 2008"></a>
 			<figcaption>

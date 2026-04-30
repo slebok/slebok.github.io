@@ -2,7 +2,10 @@
 	<head title="Tom Beckmann's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Tom Beckmann <a href="https://openalex.org/A5063189656"><img src="../logos/openalex.png" alt="OpenAlex"></a> <a href="https://orcid.org/0000-0003-0015-1717"><img src="../logos/orcid.svg" alt="ORCID"></a></h1>
+		<h1>Tom Beckmann
+<a href="https://openalex.org/A5063189656" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://orcid.org/0000-0003-0015-1717" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
+<a href="https://dblp.org/search?q=Tom Beckmann" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2021/index.html"><img src="../sle.png" alt="SLE 2021"></a>
 			<figcaption>
@@ -25,7 +28,7 @@
 		<ul>
 
 		<li><span class="info">2</span> papers in <span class="info">2</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t4a.html"><span class="tagM">T4A: Workbenches</span></a> (<span class="info">2</span> times)</li>
 				<li><a href="../tag/t3b.html"><span class="tagM">T3B: Transformation Languages</span></a> (<span class="info">1</span> times)</li>
@@ -43,8 +46,8 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> <em>Coauthored <a href="../sle2021/paper13.html">Getting grammars into shape for block-based editors</a></em> (<a href="../profile/MauricioVeranoMerino.html">Mauricio Verano Merino</a>, <a href="../profile/TomBeckmann.html"><span class="info">Tom Beckmann</span></a>, <a href="../profile/TijsvanderStorm.html">Tijs van der Storm</a>, <a href="../profile/RobertHirschfeld.html">Robert Hirschfeld</a>, <a href="../profile/JurgenVinju.html">Jurgen Vinju</a>)</li>
-<li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em>Coauthored <a href="../sle2022/paper10.html">Partial Parsing for Structured Editors</a></em> (<a href="../profile/TomBeckmann.html"><span class="info">Tom Beckmann</span></a>, <a href="../profile/PatrickRein.html">Patrick Rein</a>, <a href="../profile/ToniMattis.html">Toni Mattis</a>, <a href="../profile/RobertHirschfeld.html">Robert Hirschfeld</a>)</li></ul>
+<li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> <em>Coauthored <a href="../sle2021/paper13.html">Getting grammars into shape for block-based editors</a></em> (<a href="../profile/MauricioVeranoMerino.html">Mauricio Verano Merino</a>, <a href="../profile/TomBeckmann.html"><span class="info">Tom Beckmann</span></a>, <a href="../profile/TijsvanderStorm.html">Tijs van der Storm</a>, <a href="../profile/RobertHirschfeld.html">Robert Hirschfeld</a>, <a href="../profile/JurgenVinju.html">Jurgen Vinju</a>) </li>
+<li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em>Coauthored <a href="../sle2022/paper10.html">Partial Parsing for Structured Editors</a></em> (<a href="../profile/TomBeckmann.html"><span class="info">Tom Beckmann</span></a>, <a href="../profile/PatrickRein.html">Patrick Rein</a>, <a href="../profile/ToniMattis.html">Toni Mattis</a>, <a href="../profile/RobertHirschfeld.html">Robert Hirschfeld</a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

@@ -2,7 +2,7 @@
 	<head title="Alicia J. W. Takaoka's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Alicia J. W. Takaoka</h1>
+		<h1>Alicia J. W. Takaoka<a href="https://dblp.org/search?q=Alicia J. W. Takaoka" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2024/index.html"><img src="../sle.png" alt="SLE 2024"></a>
 			<figcaption>

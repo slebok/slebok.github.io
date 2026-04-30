@@ -1,8 +1,8 @@
 <html doctype>
-	<head title="CfPBoK tag T5A" />
+	<head title="CfPBoK topic T5A" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Tag <code>T5A</code>: Requirements</h1>
+		<h1>Topic <code>T5A</code>: Requirements</h1>
 		Work that focuses on eliciting, capturing, analysing, or operationalising requirements relevant to software languages and software language-based systems: behavioural requirements, social or non-functional requirements, and systematic approaches linking requirements to software language constructs or other elements of software language design.
 <clear/>
 		<figure class="small sem">
@@ -115,16 +115,18 @@
 		<h2>Summary</h2>
 		<ul>
 			<li>Requested in <span class="info">11</span>/<span class="info">26</span> calls</li>
-			<li>Requested in <span class="info">11</span>/<span class="info">19</span> pure calls</li>
+			<li>Requested in <span class="info">11</span>/<span class="info">19</span> pure calls (<a href="../sle2008/index.html#cfp">2008</a>–<a href="../sle2026/index.html#cfp">2026</a> with the longest streak of <span class="info">6</span> years)</li>
+
 			<li>Primary tagged in <span class="info">2</span>/<span class="info">26</span> paper bundles</li>
-			<li>Primary tagged in <span class="info">2</span>/<span class="info">19</span> pure proceedings</li>
+			<li>Primary tagged in <span class="info">2</span>/<span class="info">19</span> pure proceedings (<a href="../sle2009/index.html#lop">2009</a>–<a href="../sle2017/index.html#lop">2017</a> with the longest streak of <span class="info">1</span> years)</li>
+
 			<li>Secondary tagged in <span class="info">6</span>/<span class="info">26</span> paper bundles</li>
-			<li>Secondary tagged in <span class="info">4</span>/<span class="info">19</span> pure proceedings</li>
-			<li>Top 3 co-occurring tags:
+			<li>Secondary tagged in <span class="info">4</span>/<span class="info">19</span> pure proceedings (<a href="../sle2016/index.html#lop">2016</a>–<a href="../sle2024/index.html#lop">2024</a> with the longest streak of <span class="info">2</span> years)</li>
+			<li>Top 3 co-occurring topics:
 				<ul>
-					<li><a href="t3c.html"><span class="tagL">T3C: DSLs</span></a> (<span class="info">17</span> times)</li>
-					<li><a href="t1d.html"><span class="tagL">T1D: Composition</span></a> (<span class="info">13</span> times)</li>
-					<li><a href="t4g.html"><span class="tagL">T4G: AI-for-SLE</span></a> (<span class="info">9</span> times)</li>
+					<li><a href="t3c.html"><span class="tagL">T3C: DSLs</span></a> (<span class="info">4</span> times)</li>
+					<li><a href="t1d.html"><span class="tagL">T1D: Composition</span></a> (<span class="info">3</span> times)</li>
+					<li><a href="t4b.html"><span class="tagL">T4B: Horizontal Transformation</span></a> (<span class="info">2</span> times)</li>
 				</ul>
 <li>Top 3 contributors:
 				<ul>
@@ -135,6 +137,69 @@
 
 		</ul>
 
+<h2>List of papers (8)</h2>
+<ul>
+<li><span class="info">(<a href="../atem2006s/index.html">ATEM 2006 SI</a>)</span> <em><a href="../atem2006s/paper06.html">Integration of Safety Analysis in Model-Driven Software Development</a></em> (<a href="../profile/MiguelAdeMiguel.html">Miguel A. de Miguel</a>, <a href="../profile/JavierFernándezBriones.html">Javier Fernández Briones</a>, <a href="../profile/JuanPedroSilva.html">Juan Pedro Silva</a>, <a href="../profile/AlejandroAlonso.html">Alejandro Alonso</a>) 
+<a href="../tag/t1d.html"><span class="tagM" title=" The contribution is about coupling/integrating safety-analysis languages (FTA/FMECA) with software modelling languages (e.g., UML) in an MDD toolchain.
+">T1D</span></a>
+<a href="../tag/t5a.html"><span class="tagL" title=" Safety objectives and safety requirements are first-class modelling concepts and the approach aims to verify architectures against them.
+">T5A</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" The integration relies on language mappings/model transformations between architecture models and safety-analysis models.
+">T4B</span></a>
+<a href="../tag/t3a.html"><span class="tagL" title=" It introduces/uses metamodels, profiles and a platform-independent safety language as meta-language artefacts to bridge domains.
+">T3A</span></a></li><li><span class="info">(<a href="../sle2009/index.html">SLE 2009</a>)</span> <em><a href="../sle2009/paper06.html">Multi-view Composition Language for Software Product Line Requirements</a></em> (<a href="../profile/MauricioAlférez.html">Mauricio Alférez</a>, <a href="../profile/JõaoSantos.html">Jõao Santos</a>, <a href="../profile/AnaMoreira.html">Ana Moreira</a>, <a href="../profile/AlessandroFabricioGarcia.html">Alessandro Fabricio Garcia</a>, <a href="../profile/UiráKulesza.html">Uirá Kulesza</a>, <a href="../profile/JoãoAraújo.html">João Araújo</a>, <a href="../profile/VascoAmaral.html">Vasco Amaral</a>) 
+<a href="../tag/t5a.html"><span class="tagM" title=" Primary focus is a language for composing and managing software product line requirements across multiple views.
+">T5A</span></a>
+<a href="../tag/t2c.html"><span class="tagL" title=" The setting is product lines/variability, which is a secondary but central context.
+">T2C</span></a>
+<a href="../tag/t1d.html"><span class="tagL" title=" It emphasizes composition across views, i.e., integrating multiple requirement representations.
+">T1D</span></a></li><li><span class="info">(<a href="../sle2016/index.html">SLE 2016</a>)</span> <em><a href="../sle2016/paper06.html">Runtime Support for Rule-Based Access-Control Evaluation through Model-Transformation</a></em> (<a href="../profile/SalvadorMartínez.html">Salvador Martínez</a>, <a href="../profile/JokinGarcía.html">Jokin García</a>, <a href="../profile/JordiCabot.html">Jordi Cabot</a>) 
+<a href="../tag/t4d.html"><span class="tagM" title=" The focus is runtime evaluation of access-control policies using model-based techniques.
+">T4D</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" Model transformation is used as the operational mechanism for evaluating and updating policy decisions.
+">T4B</span></a>
+<a href="../tag/t5a.html"><span class="tagL" title=" Access-control policies are framed as enforcing security requirements (confidentiality/integrity).
+">T5A</span></a></li><li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> <em><a href="../sle2017/paper03.html">A domain-specific controlled English language for automated regulatory compliance (industrial paper)</a></em> (<a href="../profile/SumanRoychoudhury.html">Suman Roychoudhury</a>, <a href="../profile/SagarSunkle.html">Sagar Sunkle</a>, <a href="../profile/DeepaliKholkar.html">Deepali Kholkar</a>, <a href="../profile/VinayKulkarni.html">Vinay Kulkarni</a>) 
+<a href="../tag/t3c.html"><span class="tagM" title=" The contribution is a controlled-English DSL for expressing regulations and compliance checks.
+">T3C</span></a>
+<a href="../tag/t5a.html"><span class="tagL" title=" The goal is capturing regulatory compliance requirements precisely enough for automated checking.
+">T5A</span></a>
+<a href="../tag/t6b.html"><span class="tagL" title=" It is positioned as an industrial paper driven by enterprise compliance needs.
+">T6B</span></a>
+<a href="../tag/t3e.html"><span class="tagL" title=" The approach aligns with knowledge/meaning modeling for regulations, bordering on ontology-style representations.
+">T3E</span></a></li><li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> <em><a href="../sle2017/paper24.html">A requirements engineering approach for usability-driven DSL development ANKICA BARIŠIĆ, NOVA University of Lisbon, Lisbon, Lisboa, Portugal</a></em> (<a href="../profile/AnkicaBarišić.html">Ankica Barišić</a>, <a href="../profile/DominiqueBlouin.html">Dominique Blouin</a>, <a href="../profile/VascoAmaral.html">Vasco Amaral</a>, <a href="../profile/MiguelGoulão.html">Miguel Goulão</a>) 
+<a href="../tag/t5a.html"><span class="tagM" title=" It proposes a requirements engineering approach specifically for developing DSLs.
+">T5A</span></a>
+<a href="../tag/t5h.html"><span class="tagL" title=" Usability is an explicit driver for eliciting and prioritizing DSL requirements.
+">T5H</span></a>
+<a href="../tag/t3c.html"><span class="tagL" title=" The approach is tailored to domain-specific languages and their development process.
+">T3C</span></a>
+<a href="../tag/t2b.html"><span class="tagL" title=" It frames DSL development as an evolving lifecycle activity where requirements drive iterative refinement.
+">T2B</span></a></li><li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em><a href="../sle2022/paper22.html">Neural Language Models and Few Shot Learning for Systematic Requirements Processing in MDSE</a></em> (<a href="../profile/VincentBertram.html">Vincent Bertram</a>, <a href="../profile/MiriamBoß.html">Miriam Boß</a>, <a href="../profile/EvgenyKusmenko.html">Evgeny Kusmenko</a>, <a href="../profile/ImkeHeleneNachmann.html">Imke Helene Nachmann</a>, <a href="../profile/BernhardRumpe.html">Bernhard Rumpe</a>, <a href="../profile/DaniloTrotta.html">Danilo Trotta</a>, <a href="../profile/LouisWachtmeister.html">Louis Wachtmeister</a>) 
+<a href="../tag/t4g.html"><span class="tagM" title=" The paper applies large language models and few-shot learning to SLE problems (requirements to DSL).
+">T4G</span></a>
+<a href="../tag/t5a.html"><span class="tagL" title=" Its concrete task is processing and structuring natural-language requirements.
+">T5A</span></a>
+<a href="../tag/t3c.html"><span class="tagL" title=" It translates requirements into a structured DSL form and studies DSL-based formulations.
+">T3C</span></a>
+<a href="../tag/t5e.html"><span class="tagL" title=" It reports an experimental evaluation of translation quality under different few-shot settings.
+">T5E</span></a></li><li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> <em><a href="../sle2024/paper01.html">Cooperative Specification via Composition Control</a></em> (<a href="../profile/ChristopherAEsterhuyse.html">Christopher A. Esterhuyse</a>, <a href="../profile/LThomasvanBinsbergen.html">L. Thomas van Binsbergen</a>) 
+<a href="../tag/t1d.html"><span class="tagM" title=" The core contribution is language support for controlling how independently authored specification fragments are composed.
+">T1D</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" It introduces and motivates concrete language extensions for composition control in multiple specification languages.
+">T1A</span></a>
+<a href="../tag/t3c.html"><span class="tagL" title=" The work is demonstrated on declarative specification languages used as DSLs for expressing domain constraints.
+">T3C</span></a>
+<a href="../tag/t5a.html"><span class="tagL" title=" Cooperative fragments are framed as capturing requirements from different stakeholders that must be reconciled.
+">T5A</span></a></li><li><span class="info">(<a href="../sle2024s/index.html">SLE 2024 SI</a>)</span> <em><a href="../sle2024s/paper06.html">Translating meaning representations to behavioural interface specifications</a></em> (<a href="../profile/IatTouLeong.html">Iat Tou Leong</a>, <a href="../profile/RaulBarbosa.html">Raul Barbosa</a>) 
+<a href="../tag/t5d.html"><span class="tagM" title=" The output artifacts are formal behavioural interface specifications (JML contracts) and they are checked with verification tooling/theorem proving.
+">T5D</span></a>
+<a href="../tag/t4g.html"><span class="tagL" title=" The pipeline leverages NLP meaning representations and resolves ambiguities to translate natural language semantics into formal specs.
+">T4G</span></a>
+<a href="../tag/t2e.html"><span class="tagL" title=" The source of specifications is developer documentation (method-level comments), turning documentation into machine-checkable contracts.
+">T2E</span></a>
+<a href="../tag/t5a.html"><span class="tagL" title=" It operationalizes (textual) requirements/intended behaviour stated in natural language into precise formal pre/postconditions.
+">T5A</span></a></li></ul>
 		<clear/>
 		<footer/>
 	</body>

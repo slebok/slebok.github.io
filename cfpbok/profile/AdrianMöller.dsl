@@ -2,7 +2,8 @@
 	<head title="Adrian Möller's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Adrian Möller <a href="https://dblp.org/pid/278/3261.html"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
+		<h1>Adrian Möller
+<a href="https://dblp.org/pid/278/3261.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2020/index.html"><img src="../sle.png" alt="SLE 2020"></a>
 			<figcaption>
@@ -17,7 +18,7 @@
 		<ul>
 
 		<li><span class="info">1</span> papers in <span class="info">1</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t3b.html"><span class="tagM">T3B: Transformation Languages</span></a> (<span class="info">1</span> times)</li>
 				<li><a href="../tag/t4a.html"><span class="tagM">T4A: Workbenches</span></a> (<span class="info">1</span> times)</li>
@@ -35,7 +36,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> <em>Coauthored <a href="../sle2020/paper15.html">A Precedence-Driven Approach for Concurrent Model Synchronization Scenarios using Triple Graph Grammars</a></em> (<a href="../profile/LarsFritsche.html">Lars Fritsche</a>, <a href="../profile/JensKosiol.html">Jens Kosiol</a>, <a href="../profile/AdrianMöller.html"><span class="info">Adrian Möller</span></a>, <a href="../profile/AndySchürr.html">Andy Schürr</a>, <a href="../profile/GabrieleTaentzer.html">Gabriele Taentzer</a>)</li></ul>
+<li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> <em>Coauthored <a href="../sle2020/paper15.html">A Precedence-Driven Approach for Concurrent Model Synchronization Scenarios using Triple Graph Grammars</a></em> (<a href="../profile/LarsFritsche.html">Lars Fritsche</a>, <a href="../profile/JensKosiol.html">Jens Kosiol</a>, <a href="../profile/AdrianMöller.html"><span class="info">Adrian Möller</span></a>, <a href="../profile/AndySchürr.html">Andy Schürr</a>, <a href="../profile/GabrieleTaentzer.html">Gabriele Taentzer</a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

@@ -2,7 +2,13 @@
 	<head title="Jeffrey G. Gray's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Jeffrey G. Gray <a href="https://dblp.org/pid/g/JeffreyGGray.html"><img src="../logos/dblp.png" alt="DBLP"></a> <a href="https://dblp.org/pid/g/JeffreyGGray.html"><img src="../logos/dblp.png" alt="DBLP"></a> <a href="https://openalex.org/A5014568612"><img src="../logos/openalex.png" alt="OpenAlex"></a> <a href="https://orcid.org/0000-0002-9687-951X"><img src="../logos/orcid.svg" alt="ORCID"></a> <a href="https://orcid.org/0000-0003-0082-6753"><img src="../logos/orcid.svg" alt="ORCID"></a> <a href="https://www.wikidata.org/entity/Q130828005"><img src="../logos/wikidata.svg" alt="Wikidata"></a></h1>
+		<h1>Jeffrey G. Gray
+<a href="https://dblp.org/pid/g/JeffreyGGray.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
+<a href="https://dblp.org/pid/g/JeffreyGGray.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
+<a href="https://openalex.org/A5014568612" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://orcid.org/0000-0002-9687-951X" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
+<a href="https://orcid.org/0000-0003-0082-6753" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
+<a href="https://www.wikidata.org/entity/Q130828005" title="Wikidata"><img src="../logos/wikidata.svg" alt="Wikidata"></a></h1>
 		<figure class="small">
 			<a href="../sle2008/index.html"><img src="../sle.png" alt="SLE 2008"></a>
 			<figcaption>
@@ -99,7 +105,7 @@
 		<ul>
 
 		<li><span class="info">2</span> papers in <span class="info">2</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t4a.html"><span class="tagM">T4A: Workbenches</span></a> (<span class="info">2</span> times)</li>
 				<li><a href="../tag/t4b.html"><span class="tagM">T4B: Horizontal Transformation</span></a> (<span class="info">1</span> times)</li>
@@ -117,14 +123,14 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2008/index.html">SLE 2008</a>)</span> <em>Coauthored <a href="../sle2008/paper10.html">A Model Engineering Approach to Tool Interoperability</a></em> (<a href="../profile/YuSun.html">Yu Sun</a>, <a href="../profile/ZekaiDemirezen.html">Zekai Demirezen</a>, <a href="../profile/FrédéricJouault.html">Frédéric Jouault</a>, <a href="../profile/RobertTairas.html">Robert Tairas</a>, <a href="../profile/JeffreyGGray.html"><span class="info">Jeffrey G. Gray</span></a>)</li>
+<li><span class="info">(<a href="../sle2008/index.html">SLE 2008</a>)</span> <em>Coauthored <a href="../sle2008/paper10.html">A Model Engineering Approach to Tool Interoperability</a></em> (<a href="../profile/YuSun.html">Yu Sun</a>, <a href="../profile/ZekaiDemirezen.html">Zekai Demirezen</a>, <a href="../profile/FrédéricJouault.html">Frédéric Jouault</a>, <a href="../profile/RobertTairas.html">Robert Tairas</a>, <a href="../profile/JeffreyGGray.html"><span class="info">Jeffrey G. Gray</span></a>) </li>
 <li><span class="info">(<a href="../sle2008/index.html">SLE 2008</a>)</span> Served on <a href="https://www.sleconf.org/2008/Committees.html">PC</a></li>
 <li><span class="info">(<a href="../sle2009/index.html">SLE 2009</a>)</span> Served as a <a href="https://www.sleconf.org/2009/Committees.html">Programme Chair</a></li>
 <li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> Served on <a href="https://www.sleconf.org/2010/Committees.html">PC</a></li>
 <li><span class="info">(<a href="../sle2011/index.html">SLE 2011</a>)</span> Served on <a href="https://www.sleconf.org/2011/Committees.html">PC</a></li>
 <li><span class="info">(<a href="../sle2012/index.html">SLE 2012</a>)</span> Served on <a href="https://www.sleconf.org/2012/Committees.html">PC</a></li>
 <li><span class="info">(<a href="../sle2013/index.html">SLE 2013</a>)</span> Served on <a href="https://www.sleconf.org/2013/Committees.html">PC</a></li>
-<li><span class="info">(<a href="../sle2015/index.html">SLE 2015</a>)</span> <em>Coauthored <a href="../sle2015/paper11.html">Supporting efficient and advanced omniscient debugging for xDSMLs</a></em> (<a href="../profile/ErwanBousse.html">Erwan Bousse</a>, <a href="../profile/JonathanCorley.html">Jonathan Corley</a>, <a href="../profile/BenoîtCombemale.html">Benoît Combemale</a>, <a href="../profile/JeffreyGGray.html"><span class="info">Jeffrey G. Gray</span></a>, <a href="../profile/BenoîtBaudry.html">Benoît Baudry</a>)</li>
+<li><span class="info">(<a href="../sle2015/index.html">SLE 2015</a>)</span> <em>Coauthored <a href="../sle2015/paper11.html">Supporting efficient and advanced omniscient debugging for xDSMLs</a></em> (<a href="../profile/ErwanBousse.html">Erwan Bousse</a>, <a href="../profile/JonathanCorley.html">Jonathan Corley</a>, <a href="../profile/BenoîtCombemale.html">Benoît Combemale</a>, <a href="../profile/JeffreyGGray.html"><span class="info">Jeffrey G. Gray</span></a>, <a href="../profile/BenoîtBaudry.html">Benoît Baudry</a>) </li>
 <li><span class="info">(<a href="../sle2015/index.html">SLE 2015</a>)</span> Served on <a href="https://2015.splashcon.org/committee/sle2015-papers-program-committee">PC</a></li>
 <li><span class="info">(<a href="../sle2016/index.html">SLE 2016</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2016/sle-2016-papers-program-committee">PC</a></li>
 <li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2017/sle-2017-sle-2017-organizing-committee">PC</a></li>

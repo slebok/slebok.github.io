@@ -160,7 +160,7 @@
 		</figure>
 
 		<clear/>
-		<h2>Tags</h2>
+		<h2>Topics</h2>
 		<dl>
 			<dt><a href="tag/t1a.html">T1A</a></dt><dd>Design</dd>
 <dt><a href="tag/t1b.html">T1B</a></dt><dd>Static Semantics</dd>
@@ -206,6 +206,11 @@
 		<ul>
 			<li><a href="profile/index.html">Alphabetically</a></li>
 			<li><a href="scoreboard.html">Scoreboard</a></li>
+		</ul>
+		<h2>Miscellaneous</h2>
+		<ul>
+			<li><a href="evidence.html">Computed evidence (CfPBoK as an artefact)</a></li>
+			<li><a href="books.html">SLE books</a> (<a href="mailto:vadim@grammarware.net">get in touch</a> to add one!)</a></li>
 		</ul>
 		<clear/>
 		<footer/>

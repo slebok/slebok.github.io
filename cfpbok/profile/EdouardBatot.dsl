@@ -2,7 +2,7 @@
 	<head title="Edouard Batot's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Edouard Batot</h1>
+		<h1>Edouard Batot<a href="https://dblp.org/search?q=Edouard Batot" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2017/index.html"><img src="../sle.png" alt="SLE 2017"></a>
 			<figcaption>

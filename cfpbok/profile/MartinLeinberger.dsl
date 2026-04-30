@@ -2,7 +2,10 @@
 	<head title="Martin Leinberger's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Martin Leinberger <a href="https://openalex.org/A5004665238"><img src="../logos/openalex.png" alt="OpenAlex"></a> <a href="https://orcid.org/0000-0001-6437-3429"><img src="../logos/orcid.svg" alt="ORCID"></a></h1>
+		<h1>Martin Leinberger
+<a href="https://openalex.org/A5004665238" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://orcid.org/0000-0001-6437-3429" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
+<a href="https://dblp.org/search?q=Martin Leinberger" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2019/index.html"><img src="../sle.png" alt="SLE 2019"></a>
 			<figcaption>
@@ -17,7 +20,7 @@
 		<ul>
 
 		<li><span class="info">1</span> papers in <span class="info">1</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t1a.html"><span class="tagM">T1A: Design</span></a> (<span class="info">1</span> times)</li>
 				<li><a href="../tag/t5d.html"><span class="tagM">T5D: Formal Methods</span></a> (<span class="info">1</span> times)</li>
@@ -35,7 +38,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> <em>Coauthored <a href="../sle2019/paper15.html">Empirical study on the usage of graph query languages in open source Java projects</a></em> (<a href="../profile/PhilippSeifer.html">Philipp Seifer</a>, <a href="../profile/JohannesHärtel.html">Johannes Härtel</a>, <a href="../profile/MartinLeinberger.html"><span class="info">Martin Leinberger</span></a>, <a href="../profile/RalfLämmel.html">Ralf Lämmel</a>, <a href="../profile/SteffenStaab.html">Steffen Staab</a>)</li></ul>
+<li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> <em>Coauthored <a href="../sle2019/paper15.html">Empirical study on the usage of graph query languages in open source Java projects</a></em> (<a href="../profile/PhilippSeifer.html">Philipp Seifer</a>, <a href="../profile/JohannesHärtel.html">Johannes Härtel</a>, <a href="../profile/MartinLeinberger.html"><span class="info">Martin Leinberger</span></a>, <a href="../profile/RalfLämmel.html">Ralf Lämmel</a>, <a href="../profile/SteffenStaab.html">Steffen Staab</a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

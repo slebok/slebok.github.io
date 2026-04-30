@@ -2,7 +2,7 @@
 	<head title="Jun Suzuki's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Jun Suzuki</h1>
+		<h1>Jun Suzuki<a href="https://dblp.org/search?q=Jun Suzuki" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2009/index.html"><img src="../sle.png" alt="SLE 2009"></a>
 			<figcaption>

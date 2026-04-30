@@ -2,7 +2,10 @@
 	<head title="Pierre Donat-Bouillud's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Pierre Donat-Bouillud <a href="https://openalex.org/A5022306811"><img src="../logos/openalex.png" alt="OpenAlex"></a> <a href="https://orcid.org/0000-0003-4455-1130"><img src="../logos/orcid.svg" alt="ORCID"></a></h1>
+		<h1>Pierre Donat-Bouillud
+<a href="https://openalex.org/A5022306811" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://orcid.org/0000-0003-4455-1130" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
+<a href="https://dblp.org/search?q=Pierre Donat-Bouillud" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2022/index.html"><img src="../sle.png" alt="SLE 2022"></a>
 			<figcaption>
@@ -17,7 +20,7 @@
 		<ul>
 
 		<li><span class="info">1</span> papers in <span class="info">1</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t5c.html"><span class="tagM">T5C: Testing</span></a> (<span class="info">1</span> times)</li>
 				<li><a href="../tag/t3d.html"><span class="tagM">T3D: GPLs</span></a> (<span class="info">1</span> times)</li>
@@ -35,7 +38,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em>Coauthored <a href="../sle2022/paper18.html">signatr: A Data-Driven Fuzzing Tool for R</a></em> (<a href="../profile/AlexiTurcotte.html">Alexi Turcotte</a>, <a href="../profile/PierreDonatBouillud.html"><span class="info">Pierre Donat-Bouillud</span></a>, <a href="../profile/FilipKřikava.html">Filip Křikava</a>, <a href="../profile/JanVítek.html">Jan Vítek</a>)</li></ul>
+<li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em>Coauthored <a href="../sle2022/paper18.html">signatr: A Data-Driven Fuzzing Tool for R</a></em> (<a href="../profile/AlexiTurcotte.html">Alexi Turcotte</a>, <a href="../profile/PierreDonatBouillud.html"><span class="info">Pierre Donat-Bouillud</span></a>, <a href="../profile/FilipKřikava.html">Filip Křikava</a>, <a href="../profile/JanVítek.html">Jan Vítek</a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

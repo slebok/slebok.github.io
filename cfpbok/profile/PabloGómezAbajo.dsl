@@ -2,7 +2,10 @@
 	<head title="Pablo Gómez-Abajo's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Pablo Gómez-Abajo <a href="https://dblp.org/pid/180/8286.html"><img src="../logos/dblp.png" alt="DBLP"></a> <a href="https://dblp.org/pid/180/8286.html"><img src="../logos/dblp.png" alt="DBLP"></a> <a href="https://scholar.google.com/citations?user=h7VMrcIAAAAJ"><img src="../logos/gs.png" alt="Google Scholar"></a></h1>
+		<h1>Pablo Gómez-Abajo
+<a href="https://dblp.org/pid/180/8286.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
+<a href="https://dblp.org/pid/180/8286.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
+<a href="https://scholar.google.com/citations?user=h7VMrcIAAAAJ" title="Google Scholar"><img src="../logos/gs.png" alt="Google Scholar"></a></h1>
 		<figure class="small">
 			<a href="../sle2021/index.html"><img src="../sle.png" alt="SLE 2021"></a>
 			<figcaption>
@@ -50,7 +53,7 @@
 		<ul>
 
 		<li><span class="info">1</span> papers in <span class="info">1</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t3c.html"><span class="tagM">T3C: DSLs</span></a> (<span class="info">1</span> times)</li>
 				<li><a href="../tag/t4a.html"><span class="tagM">T4A: Workbenches</span></a> (<span class="info">1</span> times)</li>
@@ -68,7 +71,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> <em>Coauthored <a href="../sle2021/paper01.html">New ideas: automated engineering of metamorphic testing environments for domain-specific languages</a></em> (<a href="../profile/PabloCCañizares.html">Pablo C. Cañizares</a>, <a href="../profile/PabloGómezAbajo.html"><span class="info">Pablo Gómez-Abajo</span></a>, <a href="../profile/AlbertoNúñez.html">Alberto Núñez</a>, <a href="../profile/EstherGuerra.html">Esther Guerra</a>, <a href="../profile/JuandeLara.html">Juan de Lara</a>)</li>
+<li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> <em>Coauthored <a href="../sle2021/paper01.html">New ideas: automated engineering of metamorphic testing environments for domain-specific languages</a></em> (<a href="../profile/PabloCCañizares.html">Pablo C. Cañizares</a>, <a href="../profile/PabloGómezAbajo.html"><span class="info">Pablo Gómez-Abajo</span></a>, <a href="../profile/AlbertoNúñez.html">Alberto Núñez</a>, <a href="../profile/EstherGuerra.html">Esther Guerra</a>, <a href="../profile/JuandeLara.html">Juan de Lara</a>) </li>
 <li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-artifact-evaluation-committee">AEC</a></li>
 <li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> Served on <a href="https://2022.splashcon.org/committee/sle-2022-artifact-evaluation-committee">AEC</a></li>
 <li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> Served on <a href="https://2024.splashcon.org/committee/sle-2024-artifact-evaluation-committee">AEC</a></li>

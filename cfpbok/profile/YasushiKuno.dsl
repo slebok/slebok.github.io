@@ -2,7 +2,9 @@
 	<head title="Yasushi Kuno's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Yasushi Kuno <a href="https://openalex.org/A5100905185"><img src="../logos/openalex.png" alt="OpenAlex"></a></h1>
+		<h1>Yasushi Kuno
+<a href="https://openalex.org/A5100905185" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://dblp.org/search?q=Yasushi Kuno" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2011/index.html"><img src="../sle.png" alt="SLE 2011"></a>
 			<figcaption>
@@ -17,7 +19,7 @@
 		<ul>
 
 		<li><span class="info">1</span> papers in <span class="info">1</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t1d.html"><span class="tagM">T1D: Composition</span></a> (<span class="info">1</span> times)</li>
 				<li><a href="../tag/t4d.html"><span class="tagM">T4D: Interpretation</span></a> (<span class="info">1</span> times)</li>
@@ -33,7 +35,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2011/index.html">SLE 2011</a>)</span> <em>Coauthored <a href="../sle2011/paper06.html">Join Token-Based Event Handling: A Comprehensive Framework for Game Programming</a></em> (<a href="../profile/TaketoshiNishimori.html">Taketoshi Nishimori</a>, <a href="../profile/YasushiKuno.html"><span class="info">Yasushi Kuno</span></a>)</li></ul>
+<li><span class="info">(<a href="../sle2011/index.html">SLE 2011</a>)</span> <em>Coauthored <a href="../sle2011/paper06.html">Join Token-Based Event Handling: A Comprehensive Framework for Game Programming</a></em> (<a href="../profile/TaketoshiNishimori.html">Taketoshi Nishimori</a>, <a href="../profile/YasushiKuno.html"><span class="info">Yasushi Kuno</span></a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

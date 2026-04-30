@@ -2,7 +2,7 @@
 	<head title="Giacomo Boldini's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Giacomo Boldini</h1>
+		<h1>Giacomo Boldini<a href="https://dblp.org/search?q=Giacomo Boldini" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2025/index.html"><img src="../sle.png" alt="SLE 2025"></a>
 			<figcaption>

@@ -2,7 +2,10 @@
 	<head title="Jõao Santos's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Jõao Santos <a href="https://openalex.org/A5101711773"><img src="../logos/openalex.png" alt="OpenAlex"></a> <a href="https://orcid.org/0000-0002-8258-7807"><img src="../logos/orcid.svg" alt="ORCID"></a></h1>
+		<h1>Jõao Santos
+<a href="https://openalex.org/A5101711773" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://orcid.org/0000-0002-8258-7807" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
+<a href="https://dblp.org/search?q=Jõao Santos" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2009/index.html"><img src="../sle.png" alt="SLE 2009"></a>
 			<figcaption>
@@ -18,7 +21,7 @@
 		<ul>
 
 		<li><span class="info">2</span> papers in <span class="info">1</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t2c.html"><span class="tagM">T2C: Variability</span></a> (<span class="info">2</span> times)</li>
 				<li><a href="../tag/t3c.html"><span class="tagM">T3C: DSLs</span></a> (<span class="info">1</span> times)</li>
@@ -36,8 +39,8 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2009/index.html">SLE 2009</a>)</span> <em>Coauthored <a href="../sle2009/paper05.html">VML* – A Family of Languages for Variability Management in Software Product Lines</a></em> (<a href="../profile/SteffenZschaler.html">Steffen Zschaler</a>, <a href="../profile/PabloSánchez.html">Pablo Sánchez</a>, <a href="../profile/JõaoSantos.html"><span class="info">Jõao Santos</span></a>, <a href="../profile/MauricioAlférez.html">Mauricio Alférez</a>, <a href="../profile/AwaisRashid.html">Awais Rashid</a>, <a href="../profile/LidiaFuentes.html">Lidia Fuentes</a>, <a href="../profile/AnaMoreira.html">Ana Moreira</a>, <a href="../profile/JoãoAraújo.html">João Araújo</a>, <a href="../profile/UiráKulesza.html">Uirá Kulesza</a>)</li>
-<li><span class="info">(<a href="../sle2009/index.html">SLE 2009</a>)</span> <em>Coauthored <a href="../sle2009/paper06.html">Multi-view Composition Language for Software Product Line Requirements</a></em> (<a href="../profile/MauricioAlférez.html">Mauricio Alférez</a>, <a href="../profile/JõaoSantos.html"><span class="info">Jõao Santos</span></a>, <a href="../profile/AnaMoreira.html">Ana Moreira</a>, <a href="../profile/AlessandroFabricioGarcia.html">Alessandro Fabricio Garcia</a>, <a href="../profile/UiráKulesza.html">Uirá Kulesza</a>, <a href="../profile/JoãoAraújo.html">João Araújo</a>, <a href="../profile/VascoAmaral.html">Vasco Amaral</a>)</li></ul>
+<li><span class="info">(<a href="../sle2009/index.html">SLE 2009</a>)</span> <em>Coauthored <a href="../sle2009/paper05.html">VML* – A Family of Languages for Variability Management in Software Product Lines</a></em> (<a href="../profile/SteffenZschaler.html">Steffen Zschaler</a>, <a href="../profile/PabloSánchez.html">Pablo Sánchez</a>, <a href="../profile/JõaoSantos.html"><span class="info">Jõao Santos</span></a>, <a href="../profile/MauricioAlférez.html">Mauricio Alférez</a>, <a href="../profile/AwaisRashid.html">Awais Rashid</a>, <a href="../profile/LidiaFuentes.html">Lidia Fuentes</a>, <a href="../profile/AnaMoreira.html">Ana Moreira</a>, <a href="../profile/JoãoAraújo.html">João Araújo</a>, <a href="../profile/UiráKulesza.html">Uirá Kulesza</a>) </li>
+<li><span class="info">(<a href="../sle2009/index.html">SLE 2009</a>)</span> <em>Coauthored <a href="../sle2009/paper06.html">Multi-view Composition Language for Software Product Line Requirements</a></em> (<a href="../profile/MauricioAlférez.html">Mauricio Alférez</a>, <a href="../profile/JõaoSantos.html"><span class="info">Jõao Santos</span></a>, <a href="../profile/AnaMoreira.html">Ana Moreira</a>, <a href="../profile/AlessandroFabricioGarcia.html">Alessandro Fabricio Garcia</a>, <a href="../profile/UiráKulesza.html">Uirá Kulesza</a>, <a href="../profile/JoãoAraújo.html">João Araújo</a>, <a href="../profile/VascoAmaral.html">Vasco Amaral</a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

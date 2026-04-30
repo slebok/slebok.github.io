@@ -2,7 +2,10 @@
 	<head title="João Bispo's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>João Bispo <a href="https://openalex.org/A5028954771"><img src="../logos/openalex.png" alt="OpenAlex"></a> <a href="https://orcid.org/0000-0002-3017-9449"><img src="../logos/orcid.svg" alt="ORCID"></a></h1>
+		<h1>João Bispo
+<a href="https://openalex.org/A5028954771" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://orcid.org/0000-0002-3017-9449" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
+<a href="https://dblp.org/search?q=João Bispo" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2025/index.html"><img src="../sle.png" alt="SLE 2025"></a>
 			<figcaption>
@@ -18,7 +21,7 @@
 		<ul>
 
 		<li><span class="info">2</span> papers in <span class="info">1</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t4c.html"><span class="tagM">T4C: Vertical Transformation</span></a> (<span class="info">1</span> times)</li>
 				<li><a href="../tag/t2d.html"><span class="tagM">T2D: Deployment</span></a> (<span class="info">1</span> times)</li>
@@ -36,8 +39,8 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> <em>Coauthored <a href="../sle2025/paper06.html">TranspileJS, an Intelligent Framework for Transpiling JavaScript to WebAssembly</a></em> (<a href="../profile/JoséPedroFerreira.html">José Pedro Ferreira</a>, <a href="../profile/JoãoBispo.html"><span class="info">João Bispo</span></a>, <a href="../profile/SusanaMariadeSousaLima.html">Susana Maria de Sousa Lima</a>)</li>
-<li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> <em>Coauthored <a href="../sle2025/paper16.html">Detecting Resource Leaks on Android with Alpakka</a></em> (<a href="../profile/GustavoSoaresSantos.html">Gustavo Soares Santos</a>, <a href="../profile/JoãoBispo.html"><span class="info">João Bispo</span></a>, <a href="../profile/AlexandraMendes.html">Alexandra Mendes</a>)</li></ul>
+<li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> <em>Coauthored <a href="../sle2025/paper06.html">TranspileJS, an Intelligent Framework for Transpiling JavaScript to WebAssembly</a></em> (<a href="../profile/JoséPedroFerreira.html">José Pedro Ferreira</a>, <a href="../profile/JoãoBispo.html"><span class="info">João Bispo</span></a>, <a href="../profile/SusanaMariadeSousaLima.html">Susana Maria de Sousa Lima</a>) </li>
+<li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> <em>Coauthored <a href="../sle2025/paper16.html">Detecting Resource Leaks on Android with Alpakka</a></em> (<a href="../profile/GustavoSoaresSantos.html">Gustavo Soares Santos</a>, <a href="../profile/JoãoBispo.html"><span class="info">João Bispo</span></a>, <a href="../profile/AlexandraMendes.html">Alexandra Mendes</a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

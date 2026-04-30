@@ -2,7 +2,9 @@
 	<head title="Gerrit Leonhardt's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Gerrit Leonhardt <a href="">(link)</a></h1>
+		<h1>Gerrit Leonhardt
+
+<a href="https://dblp.org/search?q=Gerrit Leonhardt" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2018/index.html"><img src="../sle.png" alt="SLE 2018"></a>
 			<figcaption>
@@ -17,7 +19,7 @@
 		<ul>
 
 		<li><span class="info">1</span> papers in <span class="info">1</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t3c.html"><span class="tagM">T3C: DSLs</span></a> (<span class="info">1</span> times)</li>
 				<li><a href="../tag/t4a.html"><span class="tagM">T4A: Workbenches</span></a> (<span class="info">1</span> times)</li>
@@ -35,7 +37,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> <em>Coauthored <a href="../sle2018/paper14.html">Deriving fluent internal domain-specific languages from grammars</a></em> (<a href="../profile/ArvidButting.html">Arvid Butting</a>, <a href="../profile/ManuelaDalibor.html">Manuela Dalibor</a>, <a href="../profile/GerritLeonhardt.html"><span class="info">Gerrit Leonhardt</span></a>, <a href="../profile/BernhardRumpe.html">Bernhard Rumpe</a>, <a href="../profile/AndreasWortmann.html">Andreas Wortmann</a>)</li></ul>
+<li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> <em>Coauthored <a href="../sle2018/paper14.html">Deriving fluent internal domain-specific languages from grammars</a></em> (<a href="../profile/ArvidButting.html">Arvid Butting</a>, <a href="../profile/ManuelaDalibor.html">Manuela Dalibor</a>, <a href="../profile/GerritLeonhardt.html"><span class="info">Gerrit Leonhardt</span></a>, <a href="../profile/BernhardRumpe.html">Bernhard Rumpe</a>, <a href="../profile/AndreasWortmann.html">Andreas Wortmann</a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

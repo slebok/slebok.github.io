@@ -2,7 +2,7 @@
 	<head title="Heather Miller's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Heather Miller</h1>
+		<h1>Heather Miller<a href="https://dblp.org/search?q=Heather Miller" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2016/index.html"><img src="../sle.png" alt="SLE 2016"></a>
 			<figcaption>

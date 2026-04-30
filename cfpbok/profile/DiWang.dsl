@@ -2,7 +2,7 @@
 	<head title="Di Wang's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Di Wang</h1>
+		<h1>Di Wang<a href="https://dblp.org/search?q=Di Wang" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2024/index.html"><img src="../sle.png" alt="SLE 2024"></a>
 			<figcaption>

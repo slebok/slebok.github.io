@@ -2,7 +2,9 @@
 	<head title="Maarten Manders's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Maarten Manders <a href="https://openalex.org/A5091814691"><img src="../logos/openalex.png" alt="OpenAlex"></a></h1>
+		<h1>Maarten Manders
+<a href="https://openalex.org/A5091814691" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://dblp.org/search?q=Maarten Manders" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2012/index.html"><img src="../sle.png" alt="SLE 2012"></a>
 			<figcaption>
@@ -17,7 +19,7 @@
 		<ul>
 
 		<li><span class="info">1</span> papers in <span class="info">1</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t4a.html"><span class="tagM">T4A: Workbenches</span></a> (<span class="info">1</span> times)</li>
 				<li><a href="../tag/t1d.html"><span class="tagM">T1D: Composition</span></a> (<span class="info">1</span> times)</li>
@@ -35,7 +37,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2012/index.html">SLE 2012</a>)</span> <em>Coauthored <a href="../sle2012/paper12.html">Island Grammar-Based Parsing Using GLL and Tom</a></em> (<a href="../profile/AliAfroozeh.html">Ali Afroozeh</a>, <a href="../profile/JeanChristopheBach.html">Jean-Christophe Bach</a>, <a href="../profile/MarkvandenBrand.html">Mark van den Brand</a>, <a href="../profile/AdrianJohnstone.html">Adrian Johnstone</a>, <a href="../profile/MaartenManders.html"><span class="info">Maarten Manders</span></a>, <a href="../profile/PierreEtienneMoreau.html">Pierre-Etienne Moreau</a>, <a href="../profile/ElizabethScott.html">Elizabeth Scott</a>)</li></ul>
+<li><span class="info">(<a href="../sle2012/index.html">SLE 2012</a>)</span> <em>Coauthored <a href="../sle2012/paper12.html">Island Grammar-Based Parsing Using GLL and Tom</a></em> (<a href="../profile/AliAfroozeh.html">Ali Afroozeh</a>, <a href="../profile/JeanChristopheBach.html">Jean-Christophe Bach</a>, <a href="../profile/MarkvandenBrand.html">Mark van den Brand</a>, <a href="../profile/AdrianJohnstone.html">Adrian Johnstone</a>, <a href="../profile/MaartenManders.html"><span class="info">Maarten Manders</span></a>, <a href="../profile/PierreEtienneMoreau.html">Pierre-Etienne Moreau</a>, <a href="../profile/ElizabethScott.html">Elizabeth Scott</a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

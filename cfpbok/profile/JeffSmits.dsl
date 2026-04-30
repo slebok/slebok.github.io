@@ -2,7 +2,11 @@
 	<head title="Jeff Smits's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Jeff Smits <a href="https://dblp.org/pid/117/1776.html"><img src="../logos/dblp.png" alt="DBLP"></a> <a href="https://openalex.org/A5068714014"><img src="../logos/openalex.png" alt="OpenAlex"></a> <a href="https://orcid.org/0000-0002-8053-8868"><img src="../logos/orcid.svg" alt="ORCID"></a> <a href="https://scholar.google.com/citations?user=DP4Tow4AAAAJ"><img src="../logos/gs.png" alt="Google Scholar"></a></h1>
+		<h1>Jeff Smits
+<a href="https://dblp.org/pid/117/1776.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
+<a href="https://openalex.org/A5068714014" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://orcid.org/0000-0002-8053-8868" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
+<a href="https://scholar.google.com/citations?user=DP4Tow4AAAAJ" title="Google Scholar"><img src="../logos/gs.png" alt="Google Scholar"></a></h1>
 		<figure class="small">
 			<a href="../sle2017/index.html"><img src="../sle.png" alt="SLE 2017"></a>
 			<figcaption>
@@ -49,7 +53,7 @@
 		<ul>
 
 		<li><span class="info">4</span> papers in <span class="info">4</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t1b.html"><span class="tagM">T1B: Static Semantics</span></a> (<span class="info">4</span> times)</li>
 				<li><a href="../tag/t4a.html"><span class="tagM">T4A: Workbenches</span></a> (<span class="info">3</span> times)</li>
@@ -67,10 +71,10 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> <em>Coauthored <a href="../sle2017/paper06.html">FlowSpec: declarative dataflow analysis specification</a></em> (<a href="../profile/JeffSmits.html"><span class="info">Jeff Smits</span></a>, <a href="../profile/EelcoVisser.html">Eelco Visser</a>)</li>
-<li><span class="info">(<a href="../sle2017s/index.html">SLE 2017 SI</a>)</span> <em>Coauthored <a href="../sle2017s/paper02.html">FlowSpec: A declarative specification language for intra-procedural flow-Sensitive data-flow analysis</a></em> (<a href="../profile/JeffSmits.html"><span class="info">Jeff Smits</span></a>, <a href="../profile/GuidoWachsmuth.html">Guido Wachsmuth</a>, <a href="../profile/EelcoVisser.html">Eelco Visser</a>)</li>
-<li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> <em>Coauthored <a href="../sle2020/paper11.html">Gradually Typing Strategies</a></em> (<a href="../profile/JeffSmits.html"><span class="info">Jeff Smits</span></a>, <a href="../profile/EelcoVisser.html">Eelco Visser</a>)</li>
-<li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em>Coauthored <a href="../sle2022/paper07.html">Optimising First-Class Pattern Matching</a></em> (<a href="../profile/JeffSmits.html"><span class="info">Jeff Smits</span></a>, <a href="../profile/ToineHartman.html">Toine Hartman</a>, <a href="../profile/JesperCockx.html">Jesper Cockx</a>)</li>
+<li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> <em>Coauthored <a href="../sle2017/paper06.html">FlowSpec: declarative dataflow analysis specification</a></em> (<a href="../profile/JeffSmits.html"><span class="info">Jeff Smits</span></a>, <a href="../profile/EelcoVisser.html">Eelco Visser</a>) </li>
+<li><span class="info">(<a href="../sle2017s/index.html">SLE 2017 SI</a>)</span> <em>Coauthored <a href="../sle2017s/paper02.html">FlowSpec: A declarative specification language for intra-procedural flow-Sensitive data-flow analysis</a></em> (<a href="../profile/JeffSmits.html"><span class="info">Jeff Smits</span></a>, <a href="../profile/GuidoWachsmuth.html">Guido Wachsmuth</a>, <a href="../profile/EelcoVisser.html">Eelco Visser</a>) </li>
+<li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> <em>Coauthored <a href="../sle2020/paper11.html">Gradually Typing Strategies</a></em> (<a href="../profile/JeffSmits.html"><span class="info">Jeff Smits</span></a>, <a href="../profile/EelcoVisser.html">Eelco Visser</a>) </li>
+<li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em>Coauthored <a href="../sle2022/paper07.html">Optimising First-Class Pattern Matching</a></em> (<a href="../profile/JeffSmits.html"><span class="info">Jeff Smits</span></a>, <a href="../profile/ToineHartman.html">Toine Hartman</a>, <a href="../profile/JesperCockx.html">Jesper Cockx</a>) </li>
 <li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> Served as an <a href="https://conf.researchr.org/committee/sle-2025/sle-2025-oc">Artefact Evaluation Chair</a></li></ul>
 		<clear/>
 		<footer/>

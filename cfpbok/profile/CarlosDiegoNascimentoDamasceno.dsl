@@ -2,7 +2,7 @@
 	<head title="Carlos Diego Nascimento Damasceno's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Carlos Diego Nascimento Damasceno</h1>
+		<h1>Carlos Diego Nascimento Damasceno<a href="https://dblp.org/search?q=Carlos Diego Nascimento Damasceno" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2021/index.html"><img src="../sle.png" alt="SLE 2021"></a>
 			<figcaption>

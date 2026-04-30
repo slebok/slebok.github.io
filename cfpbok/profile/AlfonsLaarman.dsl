@@ -2,7 +2,11 @@
 	<head title="Alfons Laarman's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Alfons Laarman <a href="https://dblp.org/pid/05/7913.html"><img src="../logos/dblp.png" alt="DBLP"></a> <a href="https://openalex.org/A5018667026"><img src="../logos/openalex.png" alt="OpenAlex"></a> <a href="https://orcid.org/0000-0002-2433-4174"><img src="../logos/orcid.svg" alt="ORCID"></a> <a href="https://scholar.google.com/citations?user=InHyqKgAAAAJ"><img src="../logos/gs.png" alt="Google Scholar"></a></h1>
+		<h1>Alfons Laarman
+<a href="https://dblp.org/pid/05/7913.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
+<a href="https://openalex.org/A5018667026" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://orcid.org/0000-0002-2433-4174" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
+<a href="https://scholar.google.com/citations?user=InHyqKgAAAAJ" title="Google Scholar"><img src="../logos/gs.png" alt="Google Scholar"></a></h1>
 		<figure class="small">
 			<a href="../sle2009/index.html"><img src="../sle.png" alt="SLE 2009"></a>
 			<figcaption>
@@ -17,7 +21,7 @@
 		<ul>
 
 		<li><span class="info">1</span> papers in <span class="info">1</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t3e.html"><span class="tagM">T3E: Ontologies</span></a> (<span class="info">1</span> times)</li>
 				<li><a href="../tag/t3a.html"><span class="tagM">T3A: Meta-languages</span></a> (<span class="info">1</span> times)</li>
@@ -33,7 +37,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2009/index.html">SLE 2009</a>)</span> <em>Coauthored <a href="../sle2009/paper12.html">Ontological Metamodeling with Explicit Instantiation</a></em> (<a href="../profile/AlfonsLaarman.html"><span class="info">Alfons Laarman</span></a>, <a href="../profile/IvanKurtev.html">Ivan Kurtev</a>)</li></ul>
+<li><span class="info">(<a href="../sle2009/index.html">SLE 2009</a>)</span> <em>Coauthored <a href="../sle2009/paper12.html">Ontological Metamodeling with Explicit Instantiation</a></em> (<a href="../profile/AlfonsLaarman.html"><span class="info">Alfons Laarman</span></a>, <a href="../profile/IvanKurtev.html">Ivan Kurtev</a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

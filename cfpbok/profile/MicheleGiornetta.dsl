@@ -2,7 +2,9 @@
 	<head title="Michele Giornetta's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Michele Giornetta <a href="https://openalex.org/A5118272677"><img src="../logos/openalex.png" alt="OpenAlex"></a></h1>
+		<h1>Michele Giornetta
+<a href="https://openalex.org/A5118272677" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://dblp.org/search?q=Michele Giornetta" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2025/index.html"><img src="../sle.png" alt="SLE 2025"></a>
 			<figcaption>
@@ -17,7 +19,7 @@
 		<ul>
 
 		<li><span class="info">1</span> papers in <span class="info">1</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t4c.html"><span class="tagM">T4C: Vertical Transformation</span></a> (<span class="info">1</span> times)</li>
 				<li><a href="../tag/t5f.html"><span class="tagM">T5F: Performance</span></a> (<span class="info">1</span> times)</li>
@@ -35,7 +37,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> <em>Coauthored <a href="../sle2025/paper04.html">Boosting Parallel Parsing through Cyclic Operator Precedence Grammars</a></em> (<a href="../profile/MicheleChiari.html">Michele Chiari</a>, <a href="../profile/MicheleGiornetta.html"><span class="info">Michele Giornetta</span></a>, <a href="../profile/DinoMandrioli.html">Dino Mandrioli</a>, <a href="../profile/MatteoPradella.html">Matteo Pradella</a>)</li></ul>
+<li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> <em>Coauthored <a href="../sle2025/paper04.html">Boosting Parallel Parsing through Cyclic Operator Precedence Grammars</a></em> (<a href="../profile/MicheleChiari.html">Michele Chiari</a>, <a href="../profile/MicheleGiornetta.html"><span class="info">Michele Giornetta</span></a>, <a href="../profile/DinoMandrioli.html">Dino Mandrioli</a>, <a href="../profile/MatteoPradella.html">Matteo Pradella</a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

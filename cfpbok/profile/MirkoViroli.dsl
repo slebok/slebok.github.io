@@ -2,7 +2,10 @@
 	<head title="Mirko Viroli's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Mirko Viroli <a href="https://openalex.org/A5014225579"><img src="../logos/openalex.png" alt="OpenAlex"></a> <a href="https://orcid.org/0000-0003-2702-5702"><img src="../logos/orcid.svg" alt="ORCID"></a></h1>
+		<h1>Mirko Viroli
+<a href="https://openalex.org/A5014225579" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://orcid.org/0000-0003-2702-5702" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
+<a href="https://dblp.org/search?q=Mirko Viroli" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2024s/index.html"><img src="../sle.png" alt="SLE 2024 SI"></a>
 			<figcaption>
@@ -17,7 +20,7 @@
 		<ul>
 
 		<li><span class="info">1</span> papers in <span class="info">1</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t1a.html"><span class="tagM">T1A: Design</span></a> (<span class="info">1</span> times)</li>
 				<li><a href="../tag/t1b.html"><span class="tagM">T1B: Static Semantics</span></a> (<span class="info">1</span> times)</li>
@@ -35,7 +38,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2024s/index.html">SLE 2024 SI</a>)</span> <em>Coauthored <a href="../sle2024s/paper01.html">The eXchange Calculus (XC): A functional programming language design for distributed collective systems</a></em> (<a href="../profile/GiorgioAudrito.html">Giorgio Audrito</a>, <a href="../profile/RobertoCasadei.html">Roberto Casadei</a>, <a href="../profile/FerruccioDamiani.html">Ferruccio Damiani</a>, <a href="../profile/GuidoSalvaneschi.html">Guido Salvaneschi</a>, <a href="../profile/MirkoViroli.html"><span class="info">Mirko Viroli</span></a>)</li></ul>
+<li><span class="info">(<a href="../sle2024s/index.html">SLE 2024 SI</a>)</span> <em>Coauthored <a href="../sle2024s/paper01.html">The eXchange Calculus (XC): A functional programming language design for distributed collective systems</a></em> (<a href="../profile/GiorgioAudrito.html">Giorgio Audrito</a>, <a href="../profile/RobertoCasadei.html">Roberto Casadei</a>, <a href="../profile/FerruccioDamiani.html">Ferruccio Damiani</a>, <a href="../profile/GuidoSalvaneschi.html">Guido Salvaneschi</a>, <a href="../profile/MirkoViroli.html"><span class="info">Mirko Viroli</span></a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

@@ -2,7 +2,9 @@
 	<head title="Patrick Neubauer's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Patrick Neubauer <a href="https://openalex.org/A5029486617"><img src="../logos/openalex.png" alt="OpenAlex"></a></h1>
+		<h1>Patrick Neubauer
+<a href="https://openalex.org/A5029486617" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://dblp.org/search?q=Patrick Neubauer" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2015/index.html"><img src="../sle.png" alt="SLE 2015"></a>
 			<figcaption>
@@ -25,7 +27,7 @@
 		<ul>
 
 		<li><span class="info">2</span> papers in <span class="info">2</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t4c.html"><span class="tagM">T4C: Vertical Transformation</span></a> (<span class="info">1</span> times)</li>
 				<li><a href="../tag/t3c.html"><span class="tagM">T3C: DSLs</span></a> (<span class="info">1</span> times)</li>
@@ -43,8 +45,8 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2015/index.html">SLE 2015</a>)</span> <em>Coauthored <a href="../sle2015/paper16.html">XMLText: from XML schema to xtext</a></em> (<a href="../profile/PatrickNeubauer.html"><span class="info">Patrick Neubauer</span></a>, <a href="../profile/AlexanderBergmayr.html">Alexander Bergmayr</a>, <a href="../profile/TanjaMayerhofer.html">Tanja Mayerhofer</a>, <a href="../profile/JavierTroya.html">Javier Troya</a>, <a href="../profile/ManuelWimmer.html">Manuel Wimmer</a>)</li>
-<li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> <em>Coauthored <a href="../sle2017/paper23.html">Virtual textual model composition for supporting versioning and aspect-orientation</a></em> (<a href="../profile/RobertBill.html">Robert Bill</a>, <a href="../profile/PatrickNeubauer.html"><span class="info">Patrick Neubauer</span></a>, <a href="../profile/ManuelWimmer.html">Manuel Wimmer</a>)</li></ul>
+<li><span class="info">(<a href="../sle2015/index.html">SLE 2015</a>)</span> <em>Coauthored <a href="../sle2015/paper16.html">XMLText: from XML schema to xtext</a></em> (<a href="../profile/PatrickNeubauer.html"><span class="info">Patrick Neubauer</span></a>, <a href="../profile/AlexanderBergmayr.html">Alexander Bergmayr</a>, <a href="../profile/TanjaMayerhofer.html">Tanja Mayerhofer</a>, <a href="../profile/JavierTroya.html">Javier Troya</a>, <a href="../profile/ManuelWimmer.html">Manuel Wimmer</a>) </li>
+<li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> <em>Coauthored <a href="../sle2017/paper23.html">Virtual textual model composition for supporting versioning and aspect-orientation</a></em> (<a href="../profile/RobertBill.html">Robert Bill</a>, <a href="../profile/PatrickNeubauer.html"><span class="info">Patrick Neubauer</span></a>, <a href="../profile/ManuelWimmer.html">Manuel Wimmer</a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

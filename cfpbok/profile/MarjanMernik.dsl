@@ -2,7 +2,10 @@
 	<head title="Marjan Mernik's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Marjan Mernik <a href="https://dblp.org/pid/76/5882.html"><img src="../logos/dblp.png" alt="DBLP"></a> <a href="https://orcid.org/0000-0002-2775-0667"><img src="../logos/orcid.svg" alt="ORCID"></a> <a href="https://scholar.google.com/citations?user=oq1syvMAAAAJ"><img src="../logos/gs.png" alt="Google Scholar"></a></h1>
+		<h1>Marjan Mernik
+<a href="https://dblp.org/pid/76/5882.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
+<a href="https://orcid.org/0000-0002-2775-0667" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
+<a href="https://scholar.google.com/citations?user=oq1syvMAAAAJ" title="Google Scholar"><img src="../logos/gs.png" alt="Google Scholar"></a></h1>
 		<figure class="small">
 			<a href="../sle2009/index.html"><img src="../sle.png" alt="SLE 2009"></a>
 			<figcaption>

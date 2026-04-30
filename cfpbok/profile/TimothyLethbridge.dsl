@@ -2,7 +2,7 @@
 	<head title="Timothy Lethbridge's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Timothy Lethbridge</h1>
+		<h1>Timothy Lethbridge<a href="https://dblp.org/search?q=Timothy Lethbridge" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2009/index.html"><img src="../sle.png" alt="SLE 2009"></a>
 			<figcaption>

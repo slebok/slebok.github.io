@@ -2,7 +2,11 @@
 	<head title="Anton Risberg Alaküla's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Anton Risberg Alaküla <a href="https://dblp.org/pid/334/7920.html"><img src="../logos/dblp.png" alt="DBLP"></a> <a href="https://openalex.org/A5063346042"><img src="../logos/openalex.png" alt="OpenAlex"></a> <a href="https://orcid.org/0000-0003-0814-3367"><img src="../logos/orcid.svg" alt="ORCID"></a> <a href="https://scholar.google.com/citations?user=0yjguPQAAAAJ"><img src="../logos/gs.png" alt="Google Scholar"></a></h1>
+		<h1>Anton Risberg Alaküla
+<a href="https://dblp.org/pid/334/7920.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
+<a href="https://openalex.org/A5063346042" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://orcid.org/0000-0003-0814-3367" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
+<a href="https://scholar.google.com/citations?user=0yjguPQAAAAJ" title="Google Scholar"><img src="../logos/gs.png" alt="Google Scholar"></a></h1>
 		<figure class="small">
 			<a href="../sle2022/index.html"><img src="../sle.png" alt="SLE 2022"></a>
 			<figcaption>
@@ -34,7 +38,7 @@
 		<ul>
 
 		<li><span class="info">3</span> papers in <span class="info">3</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t4a.html"><span class="tagM">T4A: Workbenches</span></a> (<span class="info">3</span> times)</li>
 				<li><a href="../tag/t5h.html"><span class="tagM">T5H: Usability</span></a> (<span class="info">2</span> times)</li>
@@ -52,9 +56,9 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em>Coauthored <a href="../sle2022/paper13.html">Property Probes: Source Code Based Exploration of Program Analysis Results</a></em> (<a href="../profile/AntonRisbergAlaküla.html"><span class="info">Anton Risberg Alaküla</span></a>, <a href="../profile/GörelHedin.html">Görel Hedin</a>, <a href="../profile/NiklasFors.html">Niklas Fors</a>, <a href="../profile/AdrianPop.html">Adrian Pop</a>)</li>
-<li><span class="info">(<a href="../sle2024s/index.html">SLE 2024 SI</a>)</span> <em>Coauthored <a href="../sle2024s/paper09.html">Property probes: Live exploration of program analysis results</a></em> (<a href="../profile/AntonRisbergAlaküla.html"><span class="info">Anton Risberg Alaküla</span></a>, <a href="../profile/GörelHedin.html">Görel Hedin</a>, <a href="../profile/NiklasFors.html">Niklas Fors</a>, <a href="../profile/AdrianPop.html">Adrian Pop</a>)</li>
-<li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> <em>Coauthored <a href="../sle2025/paper12.html">Dynamic Dependency-Based Purity Checking</a></em> (<a href="../profile/AntonRisbergAlaküla.html"><span class="info">Anton Risberg Alaküla</span></a>, <a href="../profile/NiklasFors.html">Niklas Fors</a>, <a href="../profile/ChristophReichenbach.html">Christoph Reichenbach</a>)</li>
+<li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em>Coauthored <a href="../sle2022/paper13.html">Property Probes: Source Code Based Exploration of Program Analysis Results</a></em> (<a href="../profile/AntonRisbergAlaküla.html"><span class="info">Anton Risberg Alaküla</span></a>, <a href="../profile/GörelHedin.html">Görel Hedin</a>, <a href="../profile/NiklasFors.html">Niklas Fors</a>, <a href="../profile/AdrianPop.html">Adrian Pop</a>) </li>
+<li><span class="info">(<a href="../sle2024s/index.html">SLE 2024 SI</a>)</span> <em>Coauthored <a href="../sle2024s/paper09.html">Property probes: Live exploration of program analysis results</a></em> (<a href="../profile/AntonRisbergAlaküla.html"><span class="info">Anton Risberg Alaküla</span></a>, <a href="../profile/GörelHedin.html">Görel Hedin</a>, <a href="../profile/NiklasFors.html">Niklas Fors</a>, <a href="../profile/AdrianPop.html">Adrian Pop</a>) </li>
+<li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> <em>Coauthored <a href="../sle2025/paper12.html">Dynamic Dependency-Based Purity Checking</a></em> (<a href="../profile/AntonRisbergAlaküla.html"><span class="info">Anton Risberg Alaküla</span></a>, <a href="../profile/NiklasFors.html">Niklas Fors</a>, <a href="../profile/ChristophReichenbach.html">Christoph Reichenbach</a>) </li>
 <li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2025/sle-2025-papers-artifact-evaluation-committee">AEC</a></li></ul>
 		<clear/>
 		<footer/>

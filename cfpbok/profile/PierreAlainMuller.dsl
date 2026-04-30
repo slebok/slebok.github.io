@@ -2,7 +2,7 @@
 	<head title="Pierre-Alain Muller's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Pierre-Alain Muller</h1>
+		<h1>Pierre-Alain Muller<a href="https://dblp.org/search?q=Pierre-Alain Muller" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2008/index.html"><img src="../sle.png" alt="SLE 2008"></a>
 			<figcaption>

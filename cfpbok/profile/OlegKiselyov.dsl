@@ -2,7 +2,9 @@
 	<head title="Oleg Kiselyov's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Oleg Kiselyov <a href="https://dblp.org/pid/78/3192.html"><img src="../logos/dblp.png" alt="DBLP"></a> <a href="https://orcid.org/0000-0002-2570-2186"><img src="../logos/orcid.svg" alt="ORCID"></a></h1>
+		<h1>Oleg Kiselyov
+<a href="https://dblp.org/pid/78/3192.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
+<a href="https://orcid.org/0000-0002-2570-2186" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a></h1>
 		<figure class="small">
 			<a href="../sle2013/index.html"><img src="../sle.png" alt="SLE 2013"></a>
 			<figcaption>

@@ -2,7 +2,7 @@
 	<head title="Quentin Le Dilavrec's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Quentin Le Dilavrec</h1>
+		<h1>Quentin Le Dilavrec<a href="https://dblp.org/search?q=Quentin Le Dilavrec" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2026/index.html"><img src="../sle.png" alt="SLE 2026"></a>
 			<figcaption>

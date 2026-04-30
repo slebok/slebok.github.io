@@ -1,8 +1,8 @@
 <html doctype>
-	<head title="CfPBoK tag T4E" />
+	<head title="CfPBoK topic T4E" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Tag <code>T4E</code>: Simulation</h1>
+		<h1>Topic <code>T4E</code>: Simulation</h1>
 		Work where simulation is the primary lens: simulators for modelling languages, discrete-event or continuous simulations tied to language semantics, and simulation-driven analysis workflows. Mentions of simulation languages like Simulink in early CfPs are also tagged with <a href="t4e.html">T4E</a>.
 <clear/>
 		<figure class="small dim">
@@ -129,16 +129,18 @@
 		<h2>Summary</h2>
 		<ul>
 			<li>Requested in <span class="info">17</span>/<span class="info">26</span> calls</li>
-			<li>Requested in <span class="info">15</span>/<span class="info">19</span> pure calls</li>
+			<li>Requested in <span class="info">15</span>/<span class="info">19</span> pure calls (<a href="../sle2012/index.html#cfp">2012</a>–<a href="../sle2026/index.html#cfp">2026</a> with the longest streak of <span class="info">15</span> years)</li>
+
 			<li>Primary tagged in <span class="info">0</span>/<span class="info">26</span> paper bundles</li>
 			<li>Primary tagged in <span class="info">0</span>/<span class="info">19</span> pure proceedings</li>
+
 			<li>Secondary tagged in <span class="info">3</span>/<span class="info">26</span> paper bundles</li>
-			<li>Secondary tagged in <span class="info">3</span>/<span class="info">19</span> pure proceedings</li>
-			<li>Top 3 co-occurring tags:
+			<li>Secondary tagged in <span class="info">3</span>/<span class="info">19</span> pure proceedings (<a href="../sle2013/index.html#lop">2013</a>–<a href="../sle2025/index.html#lop">2025</a> with the longest streak of <span class="info">1</span> years)</li>
+			<li>Top 3 co-occurring topics:
 				<ul>
-					<li><a href="t4d.html"><span class="tagL">T4D: Interpretation</span></a> (<span class="info">9</span> times)</li>
-					<li><a href="t4a.html"><span class="tagL">T4A: Workbenches</span></a> (<span class="info">6</span> times)</li>
-					<li><a href="t4f.html"><span class="tagL">T4F: Visualisation</span></a> (<span class="info">6</span> times)</li>
+					<li><a href="t4d.html"><span class="tagL">T4D: Interpretation</span></a> (<span class="info">2</span> times)</li>
+					<li><a href="t3c.html"><span class="tagL">T3C: DSLs</span></a> (<span class="info">1</span> times)</li>
+					<li><a href="t5h.html"><span class="tagL">T5H: Usability</span></a> (<span class="info">1</span> times)</li>
 				</ul>
 <li>Top 3 contributors:
 				<ul>
@@ -149,6 +151,29 @@
 
 		</ul>
 
+<h2>List of papers (3)</h2>
+<ul>
+<li><span class="info">(<a href="../sle2013/index.html">SLE 2013</a>)</span> <em><a href="../sle2013/paper02.html">Micro-Machinations: A DSL for Game Economies</a></em> (<a href="../profile/PaulKlint.html">Paul Klint</a>, <a href="../profile/RiemervanRozen.html">Riemer van Rozen</a>) 
+<a href="../tag/t3c.html"><span class="tagM" title=" The paper proposes a dedicated DSL to let game designers specify and communicate game-economy mechanics.
+">T3C</span></a>
+<a href="../tag/t4e.html"><span class="tagL" title=" The DSL targets the modeling and (typically) simulation/analysis of game economies to understand emergent behavior.
+">T4E</span></a>
+<a href="../tag/t5h.html"><span class="tagL" title=" A stated goal is improving designer productivity and designer–engineer communication, i.e., human-centered usability concerns.
+">T5H</span></a></li><li><span class="info">(<a href="../sle2016/index.html">SLE 2016</a>)</span> <em><a href="../sle2016/paper08.html">Execution Framework of the GEMOC Studio (Tool Demo)</a></em> (<a href="../profile/ErwanBousse.html">Erwan Bousse</a>, <a href="../profile/ThomasDegueule.html">Thomas Degueule</a>, <a href="../profile/DidierVojtisek.html">Didier Vojtisek</a>, <a href="../profile/TanjaMayerhofer.html">Tanja Mayerhofer</a>, <a href="../profile/JulienDeAntoni.html">Julien DeAntoni</a>, <a href="../profile/BenoîtCombemale.html">Benoît Combemale</a>) 
+<a href="../tag/t4a.html"><span class="tagM" title=" It demonstrates the GEMOC Studio’s execution framework as a meta-tool for engineering executable DSMLs.
+">T4A</span></a>
+<a href="../tag/t4d.html"><span class="tagL" title=" It provides runtime services for executing DSML semantics (e.g., debugging).
+">T4D</span></a>
+<a href="../tag/t4e.html"><span class="tagL" title=" The framework supports execution-related services such as simulation/animation of DSML models.
+">T4E</span></a>
+<a href="../tag/t4f.html"><span class="tagL" title=" It includes graphical animation/visual feedback as part of the execution tooling.
+">T4F</span></a></li><li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> <em><a href="../sle2025/paper10.html">Integrating Model Checking into a Live Modeling Environment</a></em> (<a href="../profile/JoeriExelmans.html">Joeri Exelmans</a>, <a href="../profile/CiprianTeodorov.html">Ciprian Teodorov</a>, <a href="../profile/HansVangheluwe.html">Hans Vangheluwe</a>) 
+<a href="../tag/t5d.html"><span class="tagM" title=" Model checking is a formal-methods technique, and integrating it is the paper’s primary contribution.
+">T5D</span></a>
+<a href="../tag/t4d.html"><span class="tagL" title=" The setting is live modeling where models execute under an interpreter and are edited at runtime.
+">T4D</span></a>
+<a href="../tag/t4e.html"><span class="tagL" title=" Witness traces/counterexamples are produced as integrated execution scenarios, aligning with simulation-style exploration of behaviours.
+">T4E</span></a></li></ul>
 		<clear/>
 		<footer/>
 	</body>

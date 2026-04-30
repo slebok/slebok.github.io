@@ -2,7 +2,7 @@
 	<head title="Karin K. Breitman's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Karin K. Breitman</h1>
+		<h1>Karin K. Breitman<a href="https://dblp.org/search?q=Karin K. Breitman" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2012/index.html"><img src="../sle.png" alt="SLE 2012"></a>
 			<figcaption>

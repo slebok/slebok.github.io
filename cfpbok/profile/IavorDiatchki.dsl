@@ -2,7 +2,7 @@
 	<head title="Iavor Diatchki's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Iavor Diatchki</h1>
+		<h1>Iavor Diatchki<a href="https://dblp.org/search?q=Iavor Diatchki" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2013/index.html"><img src="../sle.png" alt="SLE 2013"></a>
 			<figcaption>

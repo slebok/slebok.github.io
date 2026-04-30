@@ -2,7 +2,10 @@
 	<head title="Ziyi Yang's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Ziyi Yang <a href="https://openalex.org/A5101256306"><img src="../logos/openalex.png" alt="OpenAlex"></a> <a href="https://orcid.org/0000-0002-8015-7846"><img src="../logos/orcid.svg" alt="ORCID"></a></h1>
+		<h1>Ziyi Yang
+<a href="https://openalex.org/A5101256306" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://orcid.org/0000-0002-8015-7846" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
+<a href="https://dblp.org/search?q=Ziyi Yang" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2024/index.html"><img src="../sle.png" alt="SLE 2024"></a>
 			<figcaption>
@@ -17,7 +20,7 @@
 		<ul>
 
 		<li><span class="info">1</span> papers in <span class="info">1</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t3c.html"><span class="tagM">T3C: DSLs</span></a> (<span class="info">1</span> times)</li>
 				<li><a href="../tag/t6a.html"><span class="tagM">T6A: Experience Reports</span></a> (<span class="info">1</span> times)</li>
@@ -35,7 +38,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> <em>Coauthored <a href="../sle2024/paper07.html">DSLs in Racket: You Want It How, Now?</a></em> (<a href="../profile/YongSeukLee.html">Yong-Seuk Lee</a>, <a href="../profile/KiranGopinathan.html">Kiran Gopinathan</a>, <a href="../profile/ZiyiYang.html"><span class="info">Ziyi Yang</span></a>, <a href="../profile/MatthewFlatt.html">Matthew Flatt</a>, <a href="../profile/IlyaSergey.html">Ilya Sergey</a>)</li></ul>
+<li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> <em>Coauthored <a href="../sle2024/paper07.html">DSLs in Racket: You Want It How, Now?</a></em> (<a href="../profile/YongSeukLee.html">Yong-Seuk Lee</a>, <a href="../profile/KiranGopinathan.html">Kiran Gopinathan</a>, <a href="../profile/ZiyiYang.html"><span class="info">Ziyi Yang</span></a>, <a href="../profile/MatthewFlatt.html">Matthew Flatt</a>, <a href="../profile/IlyaSergey.html">Ilya Sergey</a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

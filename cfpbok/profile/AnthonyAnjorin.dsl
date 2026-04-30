@@ -2,7 +2,11 @@
 	<head title="Anthony Anjorin's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Anthony Anjorin <a href="https://anthonyanjorin.github.io"><img src="../logos/github.png" alt="GitHub"></a> <a href="https://openalex.org/A5013008708"><img src="../logos/openalex.png" alt="OpenAlex"></a> <a href="https://orcid.org/0000-0001-6213-6243"><img src="../logos/orcid.svg" alt="ORCID"></a> <a href="https://scholar.google.com/citations?user=jTNl4QYAAAAJ"><img src="../logos/gs.png" alt="Google Scholar"></a></h1>
+		<h1>Anthony Anjorin
+<a href="https://anthonyanjorin.github.io" title="GitHub"><img src="../logos/github.png" alt="GitHub"></a>
+<a href="https://openalex.org/A5013008708" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://orcid.org/0000-0001-6213-6243" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
+<a href="https://scholar.google.com/citations?user=jTNl4QYAAAAJ" title="Google Scholar"><img src="../logos/gs.png" alt="Google Scholar"></a></h1>
 		<figure class="small">
 			<a href="../sle2012/index.html"><img src="../sle.png" alt="SLE 2012"></a>
 			<figcaption>
@@ -57,7 +61,7 @@
 		<ul>
 
 		<li><span class="info">4</span> papers in <span class="info">4</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t3b.html"><span class="tagM">T3B: Transformation Languages</span></a> (<span class="info">3</span> times)</li>
 				<li><a href="../tag/t4b.html"><span class="tagM">T4B: Horizontal Transformation</span></a> (<span class="info">2</span> times)</li>
@@ -75,11 +79,11 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2012/index.html">SLE 2012</a>)</span> <em>Coauthored <a href="../sle2012/paper07.html">A Framework for Bidirectional Model-to-Platform Transformations</a></em> (<a href="../profile/AnthonyAnjorin.html"><span class="info">Anthony Anjorin</span></a>, <a href="../profile/KarstenSaller.html">Karsten Saller</a>, <a href="../profile/SebastianRose.html">Sebastian Rose</a>, <a href="../profile/AndySchürr.html">Andy Schürr</a>)</li>
-<li><span class="info">(<a href="../sle2015/index.html">SLE 2015</a>)</span> <em>Coauthored <a href="../sle2015/paper02.html">On integrating graphical and textual editors for a UML profile based domain specific language: an industrial experience</a></em> (<a href="../profile/SalomeMaro.html">Salome Maro</a>, <a href="../profile/JanPhilippSteghöfer.html">Jan-Philipp Steghöfer</a>, <a href="../profile/AnthonyAnjorin.html"><span class="info">Anthony Anjorin</span></a>, <a href="../profile/MatthiasTichy.html">Matthias Tichy</a>, <a href="../profile/LarsGelin.html">Lars Gelin</a>)</li>
+<li><span class="info">(<a href="../sle2012/index.html">SLE 2012</a>)</span> <em>Coauthored <a href="../sle2012/paper07.html">A Framework for Bidirectional Model-to-Platform Transformations</a></em> (<a href="../profile/AnthonyAnjorin.html"><span class="info">Anthony Anjorin</span></a>, <a href="../profile/KarstenSaller.html">Karsten Saller</a>, <a href="../profile/SebastianRose.html">Sebastian Rose</a>, <a href="../profile/AndySchürr.html">Andy Schürr</a>) </li>
+<li><span class="info">(<a href="../sle2015/index.html">SLE 2015</a>)</span> <em>Coauthored <a href="../sle2015/paper02.html">On integrating graphical and textual editors for a UML profile based domain specific language: an industrial experience</a></em> (<a href="../profile/SalomeMaro.html">Salome Maro</a>, <a href="../profile/JanPhilippSteghöfer.html">Jan-Philipp Steghöfer</a>, <a href="../profile/AnthonyAnjorin.html"><span class="info">Anthony Anjorin</span></a>, <a href="../profile/MatthiasTichy.html">Matthias Tichy</a>, <a href="../profile/LarsGelin.html">Lars Gelin</a>) </li>
 <li><span class="info">(<a href="../sle2016/index.html">SLE 2016</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2016/sle-2016-papers-artifact-evaluation-committee">AEC</a></li>
-<li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> <em>Coauthored <a href="../sle2019/paper03.html">Consistency management via a combination of triple graph grammars and linear programming</a></em> (<a href="../profile/NilsBWeidmann.html">Nils B. Weidmann</a>, <a href="../profile/AnthonyAnjorin.html"><span class="info">Anthony Anjorin</span></a>, <a href="../profile/ErhanLeblebici.html">Erhan Leblebici</a>, <a href="../profile/AndySchürr.html">Andy Schürr</a>)</li>
-<li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> <em>Coauthored <a href="../sle2020/paper13.html">A Search-Based and Fault-Tolerant Approach to Concurrent Model Synchronisation</a></em> (<a href="../profile/NilsBWeidmann.html">Nils B. Weidmann</a>, <a href="../profile/LarsFritsche.html">Lars Fritsche</a>, <a href="../profile/AnthonyAnjorin.html"><span class="info">Anthony Anjorin</span></a>)</li>
+<li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> <em>Coauthored <a href="../sle2019/paper03.html">Consistency management via a combination of triple graph grammars and linear programming</a></em> (<a href="../profile/NilsBWeidmann.html">Nils B. Weidmann</a>, <a href="../profile/AnthonyAnjorin.html"><span class="info">Anthony Anjorin</span></a>, <a href="../profile/ErhanLeblebici.html">Erhan Leblebici</a>, <a href="../profile/AndySchürr.html">Andy Schürr</a>) </li>
+<li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> <em>Coauthored <a href="../sle2020/paper13.html">A Search-Based and Fault-Tolerant Approach to Concurrent Model Synchronisation</a></em> (<a href="../profile/NilsBWeidmann.html">Nils B. Weidmann</a>, <a href="../profile/LarsFritsche.html">Lars Fritsche</a>, <a href="../profile/AnthonyAnjorin.html"><span class="info">Anthony Anjorin</span></a>) </li>
 <li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> Served on <a href="https://2024.splashcon.org/committee/sle-2024-program-committee">PC</a></li></ul>
 		<clear/>
 		<footer/>

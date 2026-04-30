@@ -2,7 +2,9 @@
 	<head title="Emilie Balland's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Emilie Balland <a href="https://dblp.org/pid/97/3488.html"><img src="../logos/dblp.png" alt="DBLP"></a> <a href="https://scholar.google.com/citations?user=TtBl47AAAAAJ"><img src="../logos/gs.png" alt="Google Scholar"></a></h1>
+		<h1>Emilie Balland
+<a href="https://dblp.org/pid/97/3488.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
+<a href="https://scholar.google.com/citations?user=TtBl47AAAAAJ" title="Google Scholar"><img src="../logos/gs.png" alt="Google Scholar"></a></h1>
 		<figure class="small">
 			<a href="../sle2012/index.html"><img src="../sle.png" alt="SLE 2012"></a>
 			<figcaption>

@@ -2,7 +2,7 @@
 	<head title="Olaf Chitil's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Olaf Chitil</h1>
+		<h1>Olaf Chitil<a href="https://dblp.org/search?q=Olaf Chitil" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2013/index.html"><img src="../sle.png" alt="SLE 2013"></a>
 			<figcaption>

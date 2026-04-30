@@ -2,7 +2,12 @@
 	<head title="Friedrich Steimann's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Friedrich Steimann <a href="https://dblp.org/pid/s/FriedrichSteimann.html"><img src="../logos/dblp.png" alt="DBLP"></a> <a href="https://openalex.org/A5004979548"><img src="../logos/openalex.png" alt="OpenAlex"></a> <a href="https://orcid.org/0000-0002-8887-134X"><img src="../logos/orcid.svg" alt="ORCID"></a> <a href="https://scholar.google.com/citations?user=EfbKBJsAAAAJ"><img src="../logos/gs.png" alt="Google Scholar"></a> <a href="https://www.wikidata.org/entity/Q58050462"><img src="../logos/wikidata.svg" alt="Wikidata"></a></h1>
+		<h1>Friedrich Steimann
+<a href="https://dblp.org/pid/s/FriedrichSteimann.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
+<a href="https://openalex.org/A5004979548" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://orcid.org/0000-0002-8887-134X" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
+<a href="https://scholar.google.com/citations?user=EfbKBJsAAAAJ" title="Google Scholar"><img src="../logos/gs.png" alt="Google Scholar"></a>
+<a href="https://www.wikidata.org/entity/Q58050462" title="Wikidata"><img src="../logos/wikidata.svg" alt="Wikidata"></a></h1>
 		<figure class="small">
 			<a href="../sle2011/index.html"><img src="../sle.png" alt="SLE 2011"></a>
 			<figcaption>
@@ -89,7 +94,7 @@
 		<ul>
 
 		<li><span class="info">5</span> papers in <span class="info">5</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t1a.html"><span class="tagM">T1A: Design</span></a> (<span class="info">3</span> times)</li>
 				<li><a href="../tag/t5h.html"><span class="tagM">T5H: Usability</span></a> (<span class="info">2</span> times)</li>
@@ -110,13 +115,13 @@
 <li><span class="info">(<a href="../sle2011/index.html">SLE 2011</a>)</span> Served on <a href="https://www.sleconf.org/2011/Committees.html">PC</a></li>
 <li><span class="info">(<a href="../sle2012/index.html">SLE 2012</a>)</span> Served on <a href="https://www.sleconf.org/2012/Committees.html">PC</a></li>
 <li><span class="info">(<a href="../sle2013/index.html">SLE 2013</a>)</span> Served on <a href="https://www.sleconf.org/2013/Committees.html">PC</a></li>
-<li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> <em>Coauthored <a href="../sle2017/paper20.html">Robust projectional editing</a></em> (<a href="../profile/FriedrichSteimann.html"><span class="info">Friedrich Steimann</span></a>, <a href="../profile/MarcusFrenkel.html">Marcus Frenkel</a>, <a href="../profile/MarkusVölter.html">Markus Völter</a>)</li>
+<li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> <em>Coauthored <a href="../sle2017/paper20.html">Robust projectional editing</a></em> (<a href="../profile/FriedrichSteimann.html"><span class="info">Friedrich Steimann</span></a>, <a href="../profile/MarcusFrenkel.html">Marcus Frenkel</a>, <a href="../profile/MarkusVölter.html">Markus Völter</a>) </li>
 <li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> Served as a <a href="https://conf.researchr.org/committee/sle-2018/sle-2018-papers-organizing-committee">Programme Chair</a></li>
-<li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> <em>Coauthored <a href="../sle2019/paper20.html">Transactional editing: giving ACID to programmers</a></em> (<a href="../profile/FriedrichSteimann.html"><span class="info">Friedrich Steimann</span></a>, <a href="../profile/NilsKurowsky.html">Nils Kurowsky</a>)</li>
+<li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> <em>Coauthored <a href="../sle2019/paper20.html">Transactional editing: giving ACID to programmers</a></em> (<a href="../profile/FriedrichSteimann.html"><span class="info">Friedrich Steimann</span></a>, <a href="../profile/NilsKurowsky.html">Nils Kurowsky</a>) </li>
 <li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2020/sle-2020-papers-program-committee">PC</a></li>
-<li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em>Coauthored <a href="../sle2022/paper04.html">The Semantics of Plurals</a></em> (<a href="../profile/FriedrichSteimann.html"><span class="info">Friedrich Steimann</span></a>, <a href="../profile/MariusFreitag.html">Marius Freitag</a>)</li>
-<li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> <em>Coauthored <a href="../sle2024/paper09.html">The Linguistic Theory behind Blockly Languages</a></em> (<a href="../profile/FriedrichSteimann.html"><span class="info">Friedrich Steimann</span></a>, <a href="../profile/RobinStunic.html">Robin Stunic</a>)</li>
-<li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> <em>Authored <a href="../sle2025/keynote2.html">Can Programming Be Liberated from the Functional Style?</a></em> (<a href="../profile/FriedrichSteimann.html"><span class="info">Friedrich Steimann</span></a>)</li></ul>
+<li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em>Coauthored <a href="../sle2022/paper04.html">The Semantics of Plurals</a></em> (<a href="../profile/FriedrichSteimann.html"><span class="info">Friedrich Steimann</span></a>, <a href="../profile/MariusFreitag.html">Marius Freitag</a>) </li>
+<li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> <em>Coauthored <a href="../sle2024/paper09.html">The Linguistic Theory behind Blockly Languages</a></em> (<a href="../profile/FriedrichSteimann.html"><span class="info">Friedrich Steimann</span></a>, <a href="../profile/RobinStunic.html">Robin Stunic</a>) </li>
+<li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> <em>Authored <a href="../sle2025/keynote2.html">Can Programming Be Liberated from the Functional Style?</a></em> (<a href="../profile/FriedrichSteimann.html"><span class="info">Friedrich Steimann</span></a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

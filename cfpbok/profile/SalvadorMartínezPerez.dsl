@@ -2,7 +2,7 @@
 	<head title="Salvador Martínez Perez's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Salvador Martínez Perez</h1>
+		<h1>Salvador Martínez Perez<a href="https://dblp.org/search?q=Salvador Martínez Perez" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2024/index.html"><img src="../sle.png" alt="SLE 2024"></a>
 			<figcaption>

@@ -2,7 +2,7 @@
 	<head title="Xuan Bi's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Xuan Bi</h1>
+		<h1>Xuan Bi<a href="https://dblp.org/search?q=Xuan Bi" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2019/index.html"><img src="../sle.png" alt="SLE 2019"></a>
 			<figcaption>

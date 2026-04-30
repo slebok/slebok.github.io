@@ -2,7 +2,9 @@
 	<head title="Marcus Frenkel's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Marcus Frenkel <a href="https://openalex.org/A5039095210"><img src="../logos/openalex.png" alt="OpenAlex"></a></h1>
+		<h1>Marcus Frenkel
+<a href="https://openalex.org/A5039095210" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://dblp.org/search?q=Marcus Frenkel" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2017/index.html"><img src="../sle.png" alt="SLE 2017"></a>
 			<figcaption>
@@ -17,7 +19,7 @@
 		<ul>
 
 		<li><span class="info">1</span> papers in <span class="info">1</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t4a.html"><span class="tagM">T4A: Workbenches</span></a> (<span class="info">1</span> times)</li>
 				<li><a href="../tag/t1b.html"><span class="tagM">T1B: Static Semantics</span></a> (<span class="info">1</span> times)</li>
@@ -34,7 +36,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> <em>Coauthored <a href="../sle2017/paper20.html">Robust projectional editing</a></em> (<a href="../profile/FriedrichSteimann.html">Friedrich Steimann</a>, <a href="../profile/MarcusFrenkel.html"><span class="info">Marcus Frenkel</span></a>, <a href="../profile/MarkusVölter.html">Markus Völter</a>)</li></ul>
+<li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> <em>Coauthored <a href="../sle2017/paper20.html">Robust projectional editing</a></em> (<a href="../profile/FriedrichSteimann.html">Friedrich Steimann</a>, <a href="../profile/MarcusFrenkel.html"><span class="info">Marcus Frenkel</span></a>, <a href="../profile/MarkusVölter.html">Markus Völter</a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

@@ -2,7 +2,9 @@
 	<head title="Rui Abreu's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Rui Abreu <a href="">(link)</a></h1>
+		<h1>Rui Abreu
+
+<a href="https://dblp.org/search?q=Rui Abreu" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2023/index.html"><img src="../sle.png" alt="SLE 2023"></a>
 			<figcaption>
@@ -17,7 +19,7 @@
 		<ul>
 
 		<li><span class="info">1</span> papers in <span class="info">1</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t4g.html"><span class="tagM">T4G: AI-for-SLE</span></a> (<span class="info">1</span> times)</li>
 				<li><a href="../tag/t1b.html"><span class="tagM">T1B: Static Semantics</span></a> (<span class="info">1</span> times)</li>
@@ -35,7 +37,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2023/index.html">SLE 2023</a>)</span> <em>Coauthored <a href="../sle2023/paper09.html">GPT-3-Powered Type Error Debugging: Investigating the Use of Large Language Models for Code Repair</a></em> (<a href="../profile/FranciscoRibeiro.html">Francisco Ribeiro</a>, <a href="../profile/JoséNunoMacedo.html">José Nuno Macedo</a>, <a href="../profile/KanaeTsushima.html">Kanae Tsushima</a>, <a href="../profile/RuiAbreu.html"><span class="info">Rui Abreu</span></a>, <a href="../profile/JoãoSaraiva.html">João Saraiva</a>)</li></ul>
+<li><span class="info">(<a href="../sle2023/index.html">SLE 2023</a>)</span> <em>Coauthored <a href="../sle2023/paper09.html">GPT-3-Powered Type Error Debugging: Investigating the Use of Large Language Models for Code Repair</a></em> (<a href="../profile/FranciscoRibeiro.html">Francisco Ribeiro</a>, <a href="../profile/JoséNunoMacedo.html">José Nuno Macedo</a>, <a href="../profile/KanaeTsushima.html">Kanae Tsushima</a>, <a href="../profile/RuiAbreu.html"><span class="info">Rui Abreu</span></a>, <a href="../profile/JoãoSaraiva.html">João Saraiva</a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

@@ -2,7 +2,10 @@
 	<head title="Bran Selić's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Bran Selić <a href="https://dblp.org/pid/74/3493.html"><img src="../logos/dblp.png" alt="DBLP"></a> <a href="https://orcid.org/0000-0002-3703-8593"><img src="../logos/orcid.svg" alt="ORCID"></a> <a href="https://scholar.google.com/citations?user=bzxh-TsAAAAJ"><img src="../logos/gs.png" alt="Google Scholar"></a></h1>
+		<h1>Bran Selić
+<a href="https://dblp.org/pid/74/3493.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
+<a href="https://orcid.org/0000-0002-3703-8593" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
+<a href="https://scholar.google.com/citations?user=bzxh-TsAAAAJ" title="Google Scholar"><img src="../logos/gs.png" alt="Google Scholar"></a></h1>
 		<figure class="small">
 			<a href="../sle2014/index.html"><img src="../sle.png" alt="SLE 2014"></a>
 			<figcaption>

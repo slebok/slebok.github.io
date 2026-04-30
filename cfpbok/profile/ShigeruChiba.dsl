@@ -2,7 +2,13 @@
 	<head title="Shigeru Chiba's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Shigeru Chiba <a href="https://dblp.org/pid/c/ShigeruChiba.html"><img src="../logos/dblp.png" alt="DBLP"></a> <a href="https://dblp.org/pid/c/ShigeruChiba.html"><img src="../logos/dblp.png" alt="DBLP"></a> <a href="https://openalex.org/A5026542200"><img src="../logos/openalex.png" alt="OpenAlex"></a> <a href="https://orcid.org/0000-0001-9458-5713"><img src="../logos/orcid.svg" alt="ORCID"></a> <a href="https://scholar.google.com/citations?user=InqrIAUAAAAJ"><img src="../logos/gs.png" alt="Google Scholar"></a> <a href="https://www.wikidata.org/entity/Q130803966"><img src="../logos/wikidata.svg" alt="Wikidata"></a></h1>
+		<h1>Shigeru Chiba
+<a href="https://dblp.org/pid/c/ShigeruChiba.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
+<a href="https://dblp.org/pid/c/ShigeruChiba.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
+<a href="https://openalex.org/A5026542200" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://orcid.org/0000-0001-9458-5713" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
+<a href="https://scholar.google.com/citations?user=InqrIAUAAAAJ" title="Google Scholar"><img src="../logos/gs.png" alt="Google Scholar"></a>
+<a href="https://www.wikidata.org/entity/Q130803966" title="Wikidata"><img src="../logos/wikidata.svg" alt="Wikidata"></a></h1>
 		<figure class="small">
 			<a href="../sle2009/index.html"><img src="../sle.png" alt="SLE 2009"></a>
 			<figcaption>
@@ -61,7 +67,7 @@
 		<ul>
 
 		<li><span class="info">5</span> papers in <span class="info">3</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t5f.html"><span class="tagM">T5F: Performance</span></a> (<span class="info">2</span> times)</li>
 				<li><a href="../tag/t4d.html"><span class="tagM">T4D: Interpretation</span></a> (<span class="info">2</span> times)</li>
@@ -81,13 +87,13 @@
 		<ul>
 <li><span class="info">(<a href="../sle2009/index.html">SLE 2009</a>)</span> Served on <a href="https://www.sleconf.org/2009/Committees.html">PC</a></li>
 <li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-program-committee">PC</a></li>
-<li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em>Authored <a href="../sle2022/keynote1.html">People Do Not Want to Learn a New Language But a New Library</a></em> (<a href="../profile/ShigeruChiba.html"><span class="info">Shigeru Chiba</span></a>)</li>
-<li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em>Coauthored <a href="../sle2022/paper21.html">Yet Another Generating Method of Fluent Interfaces Supporting Flat- and Sub-chaining Styles</a></em> (<a href="../profile/TetsuroYamazaki.html">Tetsuro Yamazaki</a>, <a href="../profile/TomokiNakamaru.html">Tomoki Nakamaru</a>, <a href="../profile/ShigeruChiba.html"><span class="info">Shigeru Chiba</span></a>)</li>
+<li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em>Authored <a href="../sle2022/keynote1.html">People Do Not Want to Learn a New Language But a New Library</a></em> (<a href="../profile/ShigeruChiba.html"><span class="info">Shigeru Chiba</span></a>) </li>
+<li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em>Coauthored <a href="../sle2022/paper21.html">Yet Another Generating Method of Fluent Interfaces Supporting Flat- and Sub-chaining Styles</a></em> (<a href="../profile/TetsuroYamazaki.html">Tetsuro Yamazaki</a>, <a href="../profile/TomokiNakamaru.html">Tomoki Nakamaru</a>, <a href="../profile/ShigeruChiba.html"><span class="info">Shigeru Chiba</span></a>) </li>
 <li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> Served on <a href="https://2022.splashcon.org/committee/sle-2022-program-committee">PC</a></li>
-<li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> <em>Coauthored <a href="../sle2024/paper17.html">Reducing Write Barrier Overheads for Orthogonal Persistence</a></em> (<a href="../profile/YuanzeZhang.html">Yuanze Zhang</a>, <a href="../profile/OmkarDilipDhawal.html">Omkar Dilip Dhawal</a>, <a href="../profile/VKrishnaNandivada.html">V. Krishna Nandivada</a>, <a href="../profile/ShigeruChiba.html"><span class="info">Shigeru Chiba</span></a>, <a href="../profile/TomoharuUgawa.html">Tomoharu Ugawa</a>)</li>
-<li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> <em>Coauthored <a href="../sle2024/paper18.html">Bugfox: A Trace-Based Analyzer for Localizing the Cause of Software Regression in JavaScript</a></em> (<a href="../profile/YuefengHu.html">Yuefeng Hu</a>, <a href="../profile/HiromuIshibe.html">Hiromu Ishibe</a>, <a href="../profile/FengDai.html">Feng Dai</a>, <a href="../profile/TetsuroYamazaki.html">Tetsuro Yamazaki</a>, <a href="../profile/ShigeruChiba.html"><span class="info">Shigeru Chiba</span></a>)</li>
+<li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> <em>Coauthored <a href="../sle2024/paper17.html">Reducing Write Barrier Overheads for Orthogonal Persistence</a></em> (<a href="../profile/YuanzeZhang.html">Yuanze Zhang</a>, <a href="../profile/OmkarDilipDhawal.html">Omkar Dilip Dhawal</a>, <a href="../profile/VKrishnaNandivada.html">V. Krishna Nandivada</a>, <a href="../profile/ShigeruChiba.html"><span class="info">Shigeru Chiba</span></a>, <a href="../profile/TomoharuUgawa.html">Tomoharu Ugawa</a>) </li>
+<li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> <em>Coauthored <a href="../sle2024/paper18.html">Bugfox: A Trace-Based Analyzer for Localizing the Cause of Software Regression in JavaScript</a></em> (<a href="../profile/YuefengHu.html">Yuefeng Hu</a>, <a href="../profile/HiromuIshibe.html">Hiromu Ishibe</a>, <a href="../profile/FengDai.html">Feng Dai</a>, <a href="../profile/TetsuroYamazaki.html">Tetsuro Yamazaki</a>, <a href="../profile/ShigeruChiba.html"><span class="info">Shigeru Chiba</span></a>) </li>
 <li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> Served on <a href="https://2024.splashcon.org/committee/sle-2024-program-committee">PC</a></li>
-<li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> <em>Coauthored <a href="../sle2025/paper13.html">Optimize Effect Handling for Tail-resumption with Stack Unwinding</a></em> (<a href="../profile/YuzeFu.html">Yuze Fu</a>, <a href="../profile/ShigeruChiba.html"><span class="info">Shigeru Chiba</span></a>)</li>
+<li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> <em>Coauthored <a href="../sle2025/paper13.html">Optimize Effect Handling for Tail-resumption with Stack Unwinding</a></em> (<a href="../profile/YuzeFu.html">Yuze Fu</a>, <a href="../profile/ShigeruChiba.html"><span class="info">Shigeru Chiba</span></a>) </li>
 <li><span class="info">(<a href="../sle2026/index.html">SLE 2026</a>)</span> Served as a <a href="https://www.sleconf.org/2026/Committees.html">Programme Chair</a></li></ul>
 		<clear/>
 		<footer/>

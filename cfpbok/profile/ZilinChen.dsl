@@ -2,7 +2,10 @@
 	<head title="Zilin Chen's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Zilin Chen <a href="https://openalex.org/A5101640934"><img src="../logos/openalex.png" alt="OpenAlex"></a> <a href="https://orcid.org/0000-0003-0854-2464"><img src="../logos/orcid.svg" alt="ORCID"></a></h1>
+		<h1>Zilin Chen
+<a href="https://openalex.org/A5101640934" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://orcid.org/0000-0003-0854-2464" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
+<a href="https://dblp.org/search?q=Zilin Chen" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2022/index.html"><img src="../sle.png" alt="SLE 2022"></a>
 			<figcaption>
@@ -17,7 +20,7 @@
 		<ul>
 
 		<li><span class="info">1</span> papers in <span class="info">1</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t5c.html"><span class="tagM">T5C: Testing</span></a> (<span class="info">1</span> times)</li>
 				<li><a href="../tag/t5d.html"><span class="tagM">T5D: Formal Methods</span></a> (<span class="info">1</span> times)</li>
@@ -35,7 +38,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em>Coauthored <a href="../sle2022/paper08.html">Property-Based Testing: Climbing the Stairway to Verification</a></em> (<a href="../profile/ZilinChen.html"><span class="info">Zilin Chen</span></a>, <a href="../profile/ChristineRizkallah.html">Christine Rizkallah</a>, <a href="../profile/LiamOConnor.html">Liam O’Connor</a>, <a href="../profile/ParthaSusarla.html">Partha Susarla</a>, <a href="../profile/GerwinKlein.html">Gerwin Klein</a>, <a href="../profile/GernotHeiser.html">Gernot Heiser</a>, <a href="../profile/GabrieleKeller.html">Gabriele Keller</a>)</li></ul>
+<li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em>Coauthored <a href="../sle2022/paper08.html">Property-Based Testing: Climbing the Stairway to Verification</a></em> (<a href="../profile/ZilinChen.html"><span class="info">Zilin Chen</span></a>, <a href="../profile/ChristineRizkallah.html">Christine Rizkallah</a>, <a href="../profile/LiamOConnor.html">Liam O’Connor</a>, <a href="../profile/ParthaSusarla.html">Partha Susarla</a>, <a href="../profile/GerwinKlein.html">Gerwin Klein</a>, <a href="../profile/GernotHeiser.html">Gernot Heiser</a>, <a href="../profile/GabrieleKeller.html">Gabriele Keller</a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

@@ -2,7 +2,9 @@
 	<head title="Nils Kurowsky's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Nils Kurowsky <a href="https://openalex.org/A5053327489"><img src="../logos/openalex.png" alt="OpenAlex"></a></h1>
+		<h1>Nils Kurowsky
+<a href="https://openalex.org/A5053327489" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://dblp.org/search?q=Nils Kurowsky" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2019/index.html"><img src="../sle.png" alt="SLE 2019"></a>
 			<figcaption>
@@ -31,7 +33,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> <em>Coauthored <a href="../sle2019/paper20.html">Transactional editing: giving ACID to programmers</a></em> (<a href="../profile/FriedrichSteimann.html">Friedrich Steimann</a>, <a href="../profile/NilsKurowsky.html"><span class="info">Nils Kurowsky</span></a>)</li></ul>
+<li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> <em>Coauthored <a href="../sle2019/paper20.html">Transactional editing: giving ACID to programmers</a></em> (<a href="../profile/FriedrichSteimann.html">Friedrich Steimann</a>, <a href="../profile/NilsKurowsky.html"><span class="info">Nils Kurowsky</span></a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

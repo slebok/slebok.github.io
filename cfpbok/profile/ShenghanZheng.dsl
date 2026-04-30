@@ -2,7 +2,7 @@
 	<head title="Shenghan Zheng's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Shenghan Zheng</h1>
+		<h1>Shenghan Zheng<a href="https://dblp.org/search?q=Shenghan Zheng" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2025/index.html"><img src="../sle.png" alt="SLE 2025"></a>
 			<figcaption>

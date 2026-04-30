@@ -2,7 +2,9 @@
 	<head title="Dennis Wagelaar's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Dennis Wagelaar <a href="https://openalex.org/A5048372024"><img src="../logos/openalex.png" alt="OpenAlex"></a></h1>
+		<h1>Dennis Wagelaar
+<a href="https://openalex.org/A5048372024" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://dblp.org/search?q=Dennis Wagelaar" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2011/index.html"><img src="../sle.png" alt="SLE 2011"></a>
 			<figcaption>
@@ -17,7 +19,7 @@
 		<ul>
 
 		<li><span class="info">1</span> papers in <span class="info">1</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t3c.html"><span class="tagM">T3C: DSLs</span></a> (<span class="info">1</span> times)</li>
 				<li><a href="../tag/t3f.html"><span class="tagM">T3F: API</span></a> (<span class="info">1</span> times)</li>
@@ -35,7 +37,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2011/index.html">SLE 2011</a>)</span> <em>Coauthored <a href="../sle2011/paper09.html">MoScript: A DSL for Querying and Manipulating Model Repositories</a></em> (<a href="../profile/WolfgangKling.html">Wolfgang Kling</a>, <a href="../profile/FrédéricJouault.html">Frédéric Jouault</a>, <a href="../profile/DennisWagelaar.html"><span class="info">Dennis Wagelaar</span></a>, <a href="../profile/MarcoBrambilla.html">Marco Brambilla</a>, <a href="../profile/JordiCabot.html">Jordi Cabot</a>)</li></ul>
+<li><span class="info">(<a href="../sle2011/index.html">SLE 2011</a>)</span> <em>Coauthored <a href="../sle2011/paper09.html">MoScript: A DSL for Querying and Manipulating Model Repositories</a></em> (<a href="../profile/WolfgangKling.html">Wolfgang Kling</a>, <a href="../profile/FrédéricJouault.html">Frédéric Jouault</a>, <a href="../profile/DennisWagelaar.html"><span class="info">Dennis Wagelaar</span></a>, <a href="../profile/MarcoBrambilla.html">Marco Brambilla</a>, <a href="../profile/JordiCabot.html">Jordi Cabot</a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

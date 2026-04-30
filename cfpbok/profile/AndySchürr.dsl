@@ -2,7 +2,12 @@
 	<head title="Andy Schürr's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Andy Schürr <a href="https://dblp.org/pid/s/AndySchurr.html"><img src="../logos/dblp.png" alt="DBLP"></a> <a href="https://openalex.org/A5013053241"><img src="../logos/openalex.png" alt="OpenAlex"></a> <a href="https://orcid.org/0000-0001-8100-1109"><img src="../logos/orcid.svg" alt="ORCID"></a> <a href="https://scholar.google.com/citations?user=pV1YHFoAAAAJ"><img src="../logos/gs.png" alt="Google Scholar"></a> <a href="https://www.wikidata.org/entity/Q131116055"><img src="../logos/wikidata.svg" alt="Wikidata"></a></h1>
+		<h1>Andy Schürr
+<a href="https://dblp.org/pid/s/AndySchurr.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
+<a href="https://openalex.org/A5013053241" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://orcid.org/0000-0001-8100-1109" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
+<a href="https://scholar.google.com/citations?user=pV1YHFoAAAAJ" title="Google Scholar"><img src="../logos/gs.png" alt="Google Scholar"></a>
+<a href="https://www.wikidata.org/entity/Q131116055" title="Wikidata"><img src="../logos/wikidata.svg" alt="Wikidata"></a></h1>
 		<figure class="small">
 			<a href="../atem2006s/index.html"><img src="../atem.png" alt="ATEM 2006 SI"></a>
 			<figcaption>
@@ -41,7 +46,7 @@
 		<ul>
 
 		<li><span class="info">4</span> papers in <span class="info">4</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t3b.html"><span class="tagM">T3B: Transformation Languages</span></a> (<span class="info">4</span> times)</li>
 				<li><a href="../tag/t4a.html"><span class="tagM">T4A: Workbenches</span></a> (<span class="info">3</span> times)</li>
@@ -59,10 +64,10 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../atem2006s/index.html">ATEM 2006 SI</a>)</span> <em>Coauthored <a href="../atem2006s/paper03.html">Formalising Model Transformation Rules for UML/MOF 2</a></em> (<a href="../profile/CarstenAmelunxen.html">Carsten Amelunxen</a>, <a href="../profile/AndySchürr.html"><span class="info">Andy Schürr</span></a>)</li>
-<li><span class="info">(<a href="../sle2012/index.html">SLE 2012</a>)</span> <em>Coauthored <a href="../sle2012/paper07.html">A Framework for Bidirectional Model-to-Platform Transformations</a></em> (<a href="../profile/AnthonyAnjorin.html">Anthony Anjorin</a>, <a href="../profile/KarstenSaller.html">Karsten Saller</a>, <a href="../profile/SebastianRose.html">Sebastian Rose</a>, <a href="../profile/AndySchürr.html"><span class="info">Andy Schürr</span></a>)</li>
-<li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> <em>Coauthored <a href="../sle2019/paper03.html">Consistency management via a combination of triple graph grammars and linear programming</a></em> (<a href="../profile/NilsBWeidmann.html">Nils B. Weidmann</a>, <a href="../profile/AnthonyAnjorin.html">Anthony Anjorin</a>, <a href="../profile/ErhanLeblebici.html">Erhan Leblebici</a>, <a href="../profile/AndySchürr.html"><span class="info">Andy Schürr</span></a>)</li>
-<li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> <em>Coauthored <a href="../sle2020/paper15.html">A Precedence-Driven Approach for Concurrent Model Synchronization Scenarios using Triple Graph Grammars</a></em> (<a href="../profile/LarsFritsche.html">Lars Fritsche</a>, <a href="../profile/JensKosiol.html">Jens Kosiol</a>, <a href="../profile/AdrianMöller.html">Adrian Möller</a>, <a href="../profile/AndySchürr.html"><span class="info">Andy Schürr</span></a>, <a href="../profile/GabrieleTaentzer.html">Gabriele Taentzer</a>)</li></ul>
+<li><span class="info">(<a href="../atem2006s/index.html">ATEM 2006 SI</a>)</span> <em>Coauthored <a href="../atem2006s/paper03.html">Formalising Model Transformation Rules for UML/MOF 2</a></em> (<a href="../profile/CarstenAmelunxen.html">Carsten Amelunxen</a>, <a href="../profile/AndySchürr.html"><span class="info">Andy Schürr</span></a>) </li>
+<li><span class="info">(<a href="../sle2012/index.html">SLE 2012</a>)</span> <em>Coauthored <a href="../sle2012/paper07.html">A Framework for Bidirectional Model-to-Platform Transformations</a></em> (<a href="../profile/AnthonyAnjorin.html">Anthony Anjorin</a>, <a href="../profile/KarstenSaller.html">Karsten Saller</a>, <a href="../profile/SebastianRose.html">Sebastian Rose</a>, <a href="../profile/AndySchürr.html"><span class="info">Andy Schürr</span></a>) </li>
+<li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> <em>Coauthored <a href="../sle2019/paper03.html">Consistency management via a combination of triple graph grammars and linear programming</a></em> (<a href="../profile/NilsBWeidmann.html">Nils B. Weidmann</a>, <a href="../profile/AnthonyAnjorin.html">Anthony Anjorin</a>, <a href="../profile/ErhanLeblebici.html">Erhan Leblebici</a>, <a href="../profile/AndySchürr.html"><span class="info">Andy Schürr</span></a>) </li>
+<li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> <em>Coauthored <a href="../sle2020/paper15.html">A Precedence-Driven Approach for Concurrent Model Synchronization Scenarios using Triple Graph Grammars</a></em> (<a href="../profile/LarsFritsche.html">Lars Fritsche</a>, <a href="../profile/JensKosiol.html">Jens Kosiol</a>, <a href="../profile/AdrianMöller.html">Adrian Möller</a>, <a href="../profile/AndySchürr.html"><span class="info">Andy Schürr</span></a>, <a href="../profile/GabrieleTaentzer.html">Gabriele Taentzer</a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

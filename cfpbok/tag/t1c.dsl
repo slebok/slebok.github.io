@@ -1,8 +1,8 @@
 <html doctype>
-	<head title="CfPBoK tag T1C" />
+	<head title="CfPBoK topic T1C" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Tag <code>T1C</code>: Behavioural Semantics</h1>
+		<h1>Topic <code>T1C</code>: Behavioural Semantics</h1>
 		Behavioural/Executable Semantics &amp; Techniques. Work whose centre is runtime meaning: operational or denotational semantics, executable semantics, interpretable models, behavioural equivalence, semantic frameworks for execution, and techniques to define and compute behaviour. If the contribution is a concrete interpreter or a virtual machine rather than semantic definition techniques, we consider <a href="t4d.html">T4D</a>.
 <clear/>
 		<figure class="small dim">
@@ -171,16 +171,18 @@
 		<h2>Summary</h2>
 		<ul>
 			<li>Requested in <span class="info">14</span>/<span class="info">26</span> calls</li>
-			<li>Requested in <span class="info">11</span>/<span class="info">19</span> pure calls</li>
+			<li>Requested in <span class="info">11</span>/<span class="info">19</span> pure calls (<a href="../sle2016/index.html#cfp">2016</a>–<a href="../sle2026/index.html#cfp">2026</a> with the longest streak of <span class="info">11</span> years)</li>
+
 			<li>Primary tagged in <span class="info">11</span>/<span class="info">26</span> paper bundles</li>
-			<li>Primary tagged in <span class="info">11</span>/<span class="info">19</span> pure proceedings</li>
+			<li>Primary tagged in <span class="info">11</span>/<span class="info">19</span> pure proceedings (<a href="../sle2008/index.html#lop">2008</a>–<a href="../sle2023/index.html#lop">2023</a> with the longest streak of <span class="info">5</span> years)</li>
+
 			<li>Secondary tagged in <span class="info">13</span>/<span class="info">26</span> paper bundles</li>
-			<li>Secondary tagged in <span class="info">9</span>/<span class="info">19</span> pure proceedings</li>
-			<li>Top 3 co-occurring tags:
+			<li>Secondary tagged in <span class="info">9</span>/<span class="info">19</span> pure proceedings (<a href="../sle2010/index.html#lop">2010</a>–<a href="../sle2025/index.html#lop">2025</a> with the longest streak of <span class="info">5</span> years)</li>
+			<li>Top 3 co-occurring topics:
 				<ul>
-					<li><a href="t5d.html"><span class="tagL">T5D: Formal Methods</span></a> (<span class="info">36</span> times)</li>
-					<li><a href="t3c.html"><span class="tagL">T3C: DSLs</span></a> (<span class="info">36</span> times)</li>
-					<li><a href="t4d.html"><span class="tagL">T4D: Interpretation</span></a> (<span class="info">33</span> times)</li>
+					<li><a href="t5d.html"><span class="tagL">T5D: Formal Methods</span></a> (<span class="info">13</span> times)</li>
+					<li><a href="t4a.html"><span class="tagL">T4A: Workbenches</span></a> (<span class="info">11</span> times)</li>
+					<li><a href="t4d.html"><span class="tagL">T4D: Interpretation</span></a> (<span class="info">8</span> times)</li>
 				</ul>
 <li>Top 3 contributors:
 				<ul>
@@ -191,6 +193,263 @@
 
 		</ul>
 
+<h2>List of papers (37)</h2>
+<ul>
+<li><span class="info">(<a href="../sle2008/index.html">SLE 2008</a>)</span> <em><a href="../sle2008/paper03.html">Analyzing Rule-Based Behavioral Semantics of Visual Modeling Languages with Maude</a></em> (<a href="../profile/JoséEduardoRivera.html">José Eduardo Rivera</a>, <a href="../profile/EstherGuerra.html">Esther Guerra</a>, <a href="../profile/JuandeLara.html">Juan de Lara</a>, <a href="../profile/AntonioVallecillo.html">Antonio Vallecillo</a>) 
+<a href="../tag/t1c.html"><span class="tagM" title=" It focuses on defining and analyzing executable/behavioral semantics of visual modeling languages using rewriting logic.
+">T1C</span></a>
+<a href="../tag/t5d.html"><span class="tagL" title=" It uses a formal-methods setting (Maude/rewrite rules) to enable rigorous semantic analysis.
+">T5D</span></a>
+<a href="../tag/t4d.html"><span class="tagL" title=" It relies on executing/interpreting the semantic rules to explore and analyze modeled behavior.
+">T4D</span></a></li><li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> <em><a href="../sle2010/keynote1.html">A Language for Software Variation Research</a></em> (<a href="../profile/MartinErwig.html">Martin Erwig</a>) 
+<a href="../tag/t2c.html"><span class="tagM" title=" The talk proposes a calculus for representing and reasoning about software variation (features, configurations, versions) as a unifying variability model.
+">T2C</span></a>
+<a href="../tag/t1c.html"><span class="tagL" title=" It sketches the semantics of the choice calculus and how variation is eliminated via dimension/tag selection.
+">T1C</span></a>
+<a href="../tag/t3c.html"><span class="tagL" title=" The choice calculus is presented as a domain-focused language for variation research and applications such as feature modeling.
+">T3C</span></a></li><li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> <em><a href="../sle2010/paper02.html">Reference Attribute Grammars for Metamodel Semantics</a></em> (<a href="../profile/ChristoffBürger.html">Christoff Bürger</a>, <a href="../profile/SvenKarol.html">Sven Karol</a>, <a href="../profile/ChristianWende.html">Christian Wende</a>, <a href="../profile/UweAßmann.html">Uwe Aßmann</a>) 
+<a href="../tag/t1c.html"><span class="tagM" title=" The paper focuses on specifying (and evaluating) model semantics for EMF metamodels using reference attribute grammars.
+">T1C</span></a>
+<a href="../tag/t3a.html"><span class="tagL" title=" It leverages RAGs as the formalism/metalanguage for semantics specification.
+">T3A</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" It introduces JastEMF as tool support integrating EMF with the JastAdd RAG system.
+">T4A</span></a></li><li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> <em><a href="../sle2010/paper22.html">Extending DMM Behavior Specifications for Visual Execution and Debugging</a></em> (<a href="../profile/NilsBandener.html">Nils Bandener</a>, <a href="../profile/ChristianSoltenborn.html">Christian Soltenborn</a>, <a href="../profile/GregorEngels.html">Gregor Engels</a>) 
+<a href="../tag/t4f.html"><span class="tagM" title=" The work emphasizes visual execution and debugging, i.e., visualization of runtime behavior and debugging feedback.
+">T4F</span></a>
+<a href="../tag/t1c.html"><span class="tagL" title=" It builds on behavioral/executable specifications of DMM models to enable execution and debugging.
+">T1C</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" The contribution includes tool support to execute and debug models in a visual manner.
+">T4A</span></a></li><li><span class="info">(<a href="../sle2011/index.html">SLE 2011</a>)</span> <em><a href="../sle2011/paper11.html">Formalizing a Domain Specific Language Using SOS: An Industrial Case Study</a></em> (<a href="../profile/FrankPMStappers.html">Frank P. M. Stappers</a>, <a href="../profile/SvenWeber.html">Sven Weber</a>, <a href="../profile/MichelReniers.html">Michel Reniers</a>, <a href="../profile/SuzanaAndova.html">Suzana Andova</a>, <a href="../profile/IstvánNagy.html">István Nagy</a>) 
+<a href="../tag/t1c.html"><span class="tagM" title=" The main result is an executable/behavioral semantics for a DSL defined using Structural Operational Semantics.
+">T1C</span></a>
+<a href="../tag/t5d.html"><span class="tagL" title=" Using SOS to formalize the DSL is a formal-methods approach to language definition and analysis.
+">T5D</span></a>
+<a href="../tag/t6b.html"><span class="tagL" title=" The work is grounded in an industrial case study.
+">T6B</span></a></li><li><span class="info">(<a href="../sle2011/index.html">SLE 2011</a>)</span> <em><a href="../sle2011/paper12.html">Semantics First! Rethinking the Language Design Process</a></em> (<a href="../profile/MartinErwig.html">Martin Erwig</a>, <a href="../profile/EricWalkingshaw.html">Eric Walkingshaw</a>) 
+<a href="../tag/t1a.html"><span class="tagM" title=" It proposes a language design methodology that starts from semantics and derives other aspects.
+">T1A</span></a>
+<a href="../tag/t1c.html"><span class="tagL" title=" The ‘semantics first’ stance makes behavioral/executable semantics a primary design driver.
+">T1C</span></a>
+<a href="../tag/t5d.html"><span class="tagL" title=" The approach relies on formal semantic reasoning to guide language design decisions.
+">T5D</span></a></li><li><span class="info">(<a href="../sle2011/index.html">SLE 2011</a>)</span> <em><a href="../sle2011/paper20.html">Typed First-Class Communication Channels and Mobility for Concurrent Scripting Languages</a></em> (<a href="../profile/PawełTWojciechowski.html">Paweł T. Wojciechowski</a>) 
+<a href="../tag/t1b.html"><span class="tagM" title=" The main novelty is a typing discipline for first-class communication channels in a concurrent language.
+">T1B</span></a>
+<a href="../tag/t1c.html"><span class="tagL" title=" Concurrency, communication, and mobility define the executable semantics the type system constrains.
+">T1C</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" Introducing typed channels/mobility requires language design decisions for the scripting language.
+">T1A</span></a></li><li><span class="info">(<a href="../sle2012/index.html">SLE 2012</a>)</span> <em><a href="../sle2012/paper10.html">Bridging the Chasm between Executable Metamodeling and Models of Computation</a></em> (<a href="../profile/BenoîtCombemale.html">Benoît Combemale</a>, <a href="../profile/CécileHardebolle.html">Cécile Hardebolle</a>, <a href="../profile/ChristopheJacquet.html">Christophe Jacquet</a>, <a href="../profile/FrédéricBoulanger.html">Frédéric Boulanger</a>, <a href="../profile/BenoîtBaudry.html">Benoît Baudry</a>) 
+<a href="../tag/t1c.html"><span class="tagM" title=" It targets executable semantics of DSLs by combining domain actions (in metamodels) with scheduling semantics (MoCs).
+">T1C</span></a>
+<a href="../tag/t1d.html"><span class="tagL" title=" The contribution is explicitly about modularly composing two semantic facets (metamodel + MoC) into one executable definition.
+">T1D</span></a>
+<a href="../tag/t2c.html"><span class="tagL" title=" The framework supports semantic variability by allowing different MoCs for the same metamodel and reuse of MoCs across DSLs.
+">T2C</span></a>
+<a href="../tag/t3c.html"><span class="tagL" title=" The work is motivated by (and framed around) domain-specific languages and their executable definitions.
+">T3C</span></a></li><li><span class="info">(<a href="../sle2012s/index.html">SLE 2012 SI</a>)</span> <em><a href="../sle2012s/paper07.html">Specification of temporal properties with OCL</a></em> (<a href="../profile/BilalKanso.html">Bilal Kanso</a>, <a href="../profile/SafouanTaha.html">Safouan Taha</a>) 
+<a href="../tag/t5d.html"><span class="tagM" title=" The main contribution is a formal property-specification framework (temporal extension of OCL) with formal semantics and translation to automata.
+">T5D</span></a>
+<a href="../tag/t1c.html"><span class="tagL" title=" The paper adds behavioural/temporal semantics (scenario-based) on top of OCL’s traditionally static constraint focus.
+">T1C</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" Tooling is central: the approach is integrated into the Eclipse OCL plug-in and supported by an implementation pipeline.
+">T4A</span></a>
+<a href="../tag/t5c.html"><span class="tagL" title=" The framework is connected to automatic test generators via the automata translation, tying the contribution to testing practice.
+">T5C</span></a></li><li><span class="info">(<a href="../sle2013/index.html">SLE 2013</a>)</span> <em><a href="../sle2013/paper03.html">xMOF: Executable DSMLs Based on fUML</a></em> (<a href="../profile/TanjaMayerhofer.html">Tanja Mayerhofer</a>, <a href="../profile/PhilipLanger.html">Philip Langer</a>, <a href="../profile/ManuelWimmer.html">Manuel Wimmer</a>, <a href="../profile/GertiKappel.html">Gerti Kappel</a>) 
+<a href="../tag/t1c.html"><span class="tagM" title=" The main focus is defining and supporting behavioral/executable semantics for DSMLs by building on fUML.
+">T1C</span></a>
+<a href="../tag/t4d.html"><span class="tagL" title=" It aims at executing models (incl. debugging/simulation support), i.e., interpretation/runtime facilities for DSMLs.
+">T4D</span></a>
+<a href="../tag/t3c.html"><span class="tagL" title=" The contribution targets domain-specific modeling languages and how to make them executable.
+">T3C</span></a></li><li><span class="info">(<a href="../sle2013/index.html">SLE 2013</a>)</span> <em><a href="../sle2013/paper15.html">A Generic Framework for Symbolic Execution</a></em> (<a href="../profile/AndreiArusoaie.html">Andrei Arusoaie</a>, <a href="../profile/DorelLucanu.html">Dorel Lucanu</a>, <a href="../profile/VladRusu.html">Vlad Rusu</a>) 
+<a href="../tag/t5d.html"><span class="tagM" title=" Symbolic execution is a formal-methods technique, and the paper presents a generic, semantics-based symbolic execution framework.
+">T5D</span></a>
+<a href="../tag/t1c.html"><span class="tagL" title=" The framework assumes a formal operational semantics (term rewriting) and systematically extends it to enable symbolic execution.
+">T1C</span></a>
+<a href="../tag/t4c.html"><span class="tagL" title=" It automatically generates a derived (symbolic) language definition from an original semantics, i.e., a generative refinement of semantics artifacts.
+">T4C</span></a></li><li><span class="info">(<a href="../sle2013/index.html">SLE 2013</a>)</span> <em><a href="../sle2013/paper19.html">Reifying Concurrency for Executable Metamodeling</a></em> (<a href="../profile/BenoîtCombemale.html">Benoît Combemale</a>, <a href="../profile/JulienDeAntoni.html">Julien De Antoni</a>, <a href="../profile/MatiasVaraLarsen.html">Matias Vara Larsen</a>, <a href="../profile/FrédéricMallet.html">Frédéric Mallet</a>, <a href="../profile/OlivierBarais.html">Olivier Barais</a>, <a href="../profile/BenoîtBaudry.html">Benoît Baudry</a>, <a href="../profile/RobertBFrance.html">Robert B. France</a>) 
+<a href="../tag/t1c.html"><span class="tagM" title=" The central focus is making concurrency semantics explicit in executable metamodeling for DSMLs (behavioral semantics of concurrent behavior).
+">T1C</span></a>
+<a href="../tag/t4d.html"><span class="tagL" title=" It addresses how executable metamodels run in an execution environment, emphasizing runtime/interpretation concerns for concurrent DSMLs.
+">T4D</span></a>
+<a href="../tag/t3c.html"><span class="tagL" title=" The contribution targets DSML engineering, especially for DSMLs whose semantics depend on concurrency models.
+">T3C</span></a></li><li><span class="info">(<a href="../sle2014/index.html">SLE 2014</a>)</span> <em><a href="../sle2014/paper02.html">A SAT-Based Debugging Tool for State Machines and Sequence Diagrams</a></em> (<a href="../profile/PetraRadeljakKaufmann.html">Petra Radeljak Kaufmann</a>, <a href="../profile/MartinKronegger.html">Martin Kronegger</a>, <a href="../profile/AndreasPfandler.html">Andreas Pfandler</a>, <a href="../profile/MartinaSeidl.html">Martina Seidl</a>, <a href="../profile/MagdalenaWidl.html">Magdalena Widl</a>) 
+<a href="../tag/t5d.html"><span class="tagM" title=" It encodes consistency/debugging of behavioral models as a SAT problem to find witnesses/counterexamples.
+">T5D</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" The contribution includes an implemented debugging tool integrated with EMF-based modeling.
+">T4A</span></a>
+<a href="../tag/t1c.html"><span class="tagL" title=" It reasons about the executable behavior of state machines and their interaction scenarios.
+">T1C</span></a>
+<a href="../tag/t5c.html"><span class="tagL" title=" It employs grammar-based whitebox fuzzing as part of the evaluation/testing of the approach.
+">T5C</span></a></li><li><span class="info">(<a href="../sle2014/index.html">SLE 2014</a>)</span> <em><a href="../sle2014/paper09.html">AIOCJ: A Choreographic Framework for Safe Adaptive Distributed Applications</a></em> (<a href="../profile/MilaDallaPreda.html">Mila Dalla Preda</a>, <a href="../profile/SaverioGiallorenzo.html">Saverio Giallorenzo</a>, <a href="../profile/IvanLanese.html">Ivan Lanese</a>, <a href="../profile/JacopoMauro.html">Jacopo Mauro</a>, <a href="../profile/MaurizioGabbrielli.html">Maurizio Gabbrielli</a>) 
+<a href="../tag/t3c.html"><span class="tagM" title=" It introduces a domain-specific choreographic language for specifying distributed interaction patterns.
+">T3C</span></a>
+<a href="../tag/t4d.html"><span class="tagL" title=" Adaptation is performed at runtime via rules that update executing distributed applications.
+">T4D</span></a>
+<a href="../tag/t1c.html"><span class="tagL" title=" The framework emphasizes safe executable behavior of distributed choreographies under adaptation.
+">T1C</span></a>
+<a href="../tag/t4c.html"><span class="tagL" title=" It includes compilation/generation aspects from global choreographies to executable distributed code.
+">T4C</span></a></li><li><span class="info">(<a href="../sle2014/index.html">SLE 2014</a>)</span> <em><a href="../sle2014/paper11.html">Respect Your Parents: How Attribution and Rewriting Can Get Along</a></em> (<a href="../profile/AnthonyMSloane.html">Anthony M. Sloane</a>, <a href="../profile/MatthewRoberts.html">Matthew Roberts</a>, <a href="../profile/LenHamey.html">Len Hamey</a>) 
+<a href="../tag/t3a.html"><span class="tagM" title=" It studies attribute grammars as a metalanguage for defining context-dependent computations on trees.
+">T3A</span></a>
+<a href="../tag/t3b.html"><span class="tagL" title=" It addresses interactions between attribution and rewriting, i.e., tree transformation mechanisms.
+">T3B</span></a>
+<a href="../tag/t1c.html"><span class="tagL" title=" It formalizes semantic issues around context dependence when trees are rewritten during evaluation.
+">T1C</span></a></li><li><span class="info">(<a href="../sle2014/index.html">SLE 2014</a>)</span> <em><a href="../sle2014/paper16.html">Origin Tracking in Attribute Grammars</a></em> (<a href="../profile/KevinWilliams.html">Kevin Williams</a>, <a href="../profile/EricVanWyk.html">Eric Van Wyk</a>) 
+<a href="../tag/t3a.html"><span class="tagM" title=" It extends higher-order attribute grammars with origin tracking as part of the metalanguage machinery.
+">T3A</span></a>
+<a href="../tag/t5g.html"><span class="tagL" title=" Origin tracking provides traceability links from transformation outputs back to their inputs.
+">T5G</span></a>
+<a href="../tag/t3b.html"><span class="tagL" title=" It relates to tree transformation/rewriting by tracking how constructed trees correspond to source trees.
+">T3B</span></a>
+<a href="../tag/t1c.html"><span class="tagL" title=" It concerns the semantics of attribute evaluation that constructs new syntax trees.
+">T1C</span></a></li><li><span class="info">(<a href="../sle2014s/index.html">SLE 2014 SI</a>)</span> <em><a href="../sle2014s/paper01.html">Declarative rewriting through circular nonterminal attributes</a></em> (<a href="../profile/EmmaSöderberg.html">Emma Söderberg</a>, <a href="../profile/GörelHedin.html">Görel Hedin</a>) 
+<a href="../tag/t3a.html"><span class="tagM" title=" The paper advances the meta-language of reference attribute grammars (RAGs), introducing circular nonterminal attributes and an evaluation algorithm.
+">T3A</span></a>
+<a href="../tag/t3b.html"><span class="tagL" title=" Rewriting/AST transformation is a first-class concern, and the paper shows equivalence/mappings between rewrites and circular NTAs.
+">T3B</span></a>
+<a href="../tag/t1c.html"><span class="tagL" title=" The contribution is centered on executable semantics mechanisms (demand-driven evaluation, fixed-point iteration) for language definitions.
+">T1C</span></a>
+<a href="../tag/t5e.html"><span class="tagL" title=" It includes an experimental evaluation comparing algorithms on implemented example languages.
+">T5E</span></a></li><li><span class="info">(<a href="../sle2014s/index.html">SLE 2014 SI</a>)</span> <em><a href="../sle2014s/paper03.html">Symbolic execution based on language transformation</a></em> (<a href="../profile/AndreiArusoaie.html">Andrei Arusoaie</a>, <a href="../profile/DorelLucanu.html">Dorel Lucanu</a>, <a href="../profile/VladRusu.html">Vlad Rusu</a>) 
+<a href="../tag/t4c.html"><span class="tagM" title=" Starting from a formal operational semantics, the paper automatically generates a transformed “symbolic” language definition enabling symbolic execution.
+">T4C</span></a>
+<a href="../tag/t1c.html"><span class="tagL" title=" The technique is semantics-driven: it relies on executable operational semantics (term rewriting) as the basis for execution/analysis.
+">T1C</span></a>
+<a href="../tag/t5d.html"><span class="tagL" title=" Symbolic execution, reachability analysis, and model checking are core formal-methods goals and evaluation targets.
+">T5D</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" A prototype is implemented inside the K framework’s compilation pipeline, i.e., as language-engineering tooling.
+">T4A</span></a></li><li><span class="info">(<a href="../sle2015/index.html">SLE 2015</a>)</span> <em><a href="../sle2015/paper10.html">Weaving concurrency in executable domain-specific modeling languages</a></em> (<a href="../profile/FlorentLatombe.html">Florent Latombe</a>, <a href="../profile/XavierCrégut.html">Xavier Crégut</a>, <a href="../profile/BenoîtCombemale.html">Benoît Combemale</a>, <a href="../profile/JulienDeAntoni.html">Julien DeAntoni</a>, <a href="../profile/MarcPantel.html">Marc Pantel</a>) 
+<a href="../tag/t1c.html"><span class="tagM" title=" The main contribution is weaving concurrency into the executable semantics of DSMLs.
+">T1C</span></a>
+<a href="../tag/t3c.html"><span class="tagL" title=" It targets executable domain-specific modeling languages (xDSMLs).
+">T3C</span></a>
+<a href="../tag/t1d.html"><span class="tagL" title=" Concurrency is integrated as a separate concern that is composed with existing language semantics.
+">T1D</span></a>
+<a href="../tag/t6f.html"><span class="tagL" title=" The motivation explicitly includes concurrent CPS/IoT-style systems and highly-parallel platforms.
+">T6F</span></a></li><li><span class="info">(<a href="../sle2015/index.html">SLE 2015</a>)</span> <em><a href="../sle2015/paper17.html">Designing languages using lightning</a></em> (<a href="../profile/LoïcGammaitoni.html">Loïc Gammaitoni</a>, <a href="../profile/PierreKelsen.html">Pierre Kelsen</a>, <a href="../profile/ChristianGlodt.html">Christian Glodt</a>) 
+<a href="../tag/t4a.html"><span class="tagM" title=" The contribution centers on the Lightning tool for defining abstract syntax, concrete syntax, and semantics.
+">T4A</span></a>
+<a href="../tag/t5d.html"><span class="tagL" title=" It bases language component definitions on Alloy, a lightweight formal method for specifying/analysing models.
+">T5D</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" It supports systematic design of language components (syntax + semantics) as the primary activity.
+">T1A</span></a>
+<a href="../tag/t1c.html"><span class="tagL" title=" Because it defines semantics and supports analysis via Alloy, it contributes to executable/behavioural semantic modeling.
+">T1C</span></a></li><li><span class="info">(<a href="../sle2016/index.html">SLE 2016</a>)</span> <em><a href="../sle2016/keynote1.html">Redex: A Language for Lightweight Semantics Engineering</a></em> (<a href="../profile/RobertBruceFindler.html">Robert Bruce Findler</a>) 
+<a href="../tag/t3a.html"><span class="tagM" title=" Redex is a dedicated metalanguage for specifying grammars, type systems, and operational semantics.
+">T3A</span></a>
+<a href="../tag/t1c.html"><span class="tagL" title=" It supports operational semantics engineering by executing and exploring semantic models.
+">T1C</span></a>
+<a href="../tag/t1b.html"><span class="tagL" title=" It includes support for specifying and checking type systems as part of the language models.
+">T1B</span></a>
+<a href="../tag/t5c.html"><span class="tagL" title=" It uses random generation/testing to falsify semantic claims about models.
+">T5C</span></a></li><li><span class="info">(<a href="../sle2016/index.html">SLE 2016</a>)</span> <em><a href="../sle2016/paper10.html">BSML-mbeddr: Integrating Semantically Configurable State-Machine Models in a C Programming Environment</a></em> (<a href="../profile/ZhaoyiLuo.html">Zhaoyi Luo</a>, <a href="../profile/JoanneMAtlee.html">Joanne M. Atlee</a>) 
+<a href="../tag/t1d.html"><span class="tagM" title=" It integrates state-machine DSMLs into a C programming environment (mbeddr), focusing on embedding/composition.
+">T1D</span></a>
+<a href="../tag/t3c.html"><span class="tagL" title=" BSML is a family of domain-specific modeling languages for executable state machines.
+">T3C</span></a>
+<a href="../tag/t1c.html"><span class="tagL" title=" The work concerns executable semantics for state-machine models.
+">T1C</span></a>
+<a href="../tag/t4c.html"><span class="tagL" title=" It connects high-level models to executable C-level artifacts via generation/compilation in the environment.
+">T4C</span></a></li><li><span class="info">(<a href="../sle2016/index.html">SLE 2016</a>)</span> <em><a href="../sle2016/paper18.html">Side Effects Take the Blame</a></em> (<a href="../profile/FelipeBañadosSchwerter.html">Felipe Bañados Schwerter</a>) 
+<a href="../tag/t1b.html"><span class="tagM" title=" It develops gradual effect systems, i.e., static semantics for tracking side effects with gradual guarantees.
+">T1B</span></a>
+<a href="../tag/t1c.html"><span class="tagL" title=" Blame strategies are defined at the semantic level for when runtime checks fail.
+">T1C</span></a>
+<a href="../tag/t4d.html"><span class="tagL" title=" The framework combines static and dynamic checking, involving runtime enforcement mechanisms.
+">T4D</span></a>
+<a href="../tag/t5d.html"><span class="tagL" title=" It formalizes properties/strategies for blame in gradual effect systems, aligning with formal-methods-style reasoning.
+">T5D</span></a></li><li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> <em><a href="../sle2017/keynote1.html">Engineering meta-languages for specifying software languages</a></em> (<a href="../profile/PeterDMosses.html">Peter D. Mosses</a>) 
+<a href="../tag/t3a.html"><span class="tagM" title=" The keynote is centrally about engineering and using meta-languages to specify the components of software languages.
+">T3A</span></a>
+<a href="../tag/t1c.html"><span class="tagL" title=" It stresses formal/executable semantic specifications as a key missing piece of language definitions.
+">T1C</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" A major theme is how meta-language choices enable or constrain tool support for languages.
+">T4A</span></a>
+<a href="../tag/t5d.html"><span class="tagL" title=" It discusses formal specification and reasoning about language definitions as a methodological foundation.
+">T5D</span></a></li><li><span class="info">(<a href="../sle2017s/index.html">SLE 2017 SI</a>)</span> <em><a href="../sle2017s/paper01.html">Software meta-language engineering and CBS</a></em> (<a href="../profile/PeterDMosses.html">Peter D. Mosses</a>) 
+<a href="../tag/t3a.html"><span class="tagM" title=" The paper is explicitly about engineering semantic meta-languages (culminating in CBS) for specifying software languages.
+">T3A</span></a>
+<a href="../tag/t1c.html"><span class="tagL" title=" It focuses on behavioural/executable semantics via component-based semantics (funcons) and operational specification styles (e.g., MSOS/I-MSOS lineage).
+">T1C</span></a>
+<a href="../tag/t1e.html"><span class="tagL" title=" A core objective is reuse of semantic components (funcons) across languages to reduce duplication in specifications.
+">T1E</span></a>
+<a href="../tag/t2b.html"><span class="tagL" title=" It emphasises co-evolution between a language and its formal specification, treating semantics engineering as an ongoing evolution/maintenance problem.
+">T2B</span></a></li><li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> <em><a href="../sle2019/paper04.html">Operationalizing the integration of user interaction specifications in the synthesis of modeling editors</a></em> (<a href="../profile/VascoSousa.html">Vasco Sousa</a>, <a href="../profile/EugeneSyriani.html">Eugene Syriani</a>, <a href="../profile/KhadyFall.html">Khady Fall</a>) 
+<a href="../tag/t1c.html"><span class="tagM" title=" The paper primarily develops behavioural/executable semantics or ways to execute semantic definitions.
+">T1C</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" It includes substantial tool support or infrastructure relevant for engineering/using languages.
+">T4A</span></a>
+<a href="../tag/t1d.html"><span class="tagL" title=" It emphasizes modularity/composition/integration (embedding or coordinating language components).
+">T1D</span></a>
+<a href="../tag/t5h.html"><span class="tagL" title=" It targets usability (developer interaction, comprehension, editing experience).
+">T5H</span></a></li><li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> <em><a href="../sle2019/paper14.html">Efficient late binding of dynamic function compositions</a></em> (<a href="../profile/LarsSchütze.html">Lars Schütze</a>, <a href="../profile/JerónimoCastrillón.html">Jerónimo Castrillón</a>) 
+<a href="../tag/t1c.html"><span class="tagM" title=" The paper primarily develops behavioural/executable semantics or ways to execute semantic definitions.
+">T1C</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" It includes substantial tool support or infrastructure relevant for engineering/using languages.
+">T4A</span></a>
+<a href="../tag/t5e.html"><span class="tagL" title=" It reports an empirical evaluation (experiments, study, benchmarks, or measurements).
+">T5E</span></a>
+<a href="../tag/t1d.html"><span class="tagL" title=" It emphasizes modularity/composition/integration (embedding or coordinating language components).
+">T1D</span></a></li><li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> <em><a href="../sle2020/paper14.html">A Semantic Framework for PEGs</a></em> (<a href="../profile/SérgioQueirózdeMedeiros.html">Sérgio Queiróz de Medeiros</a>, <a href="../profile/CarlosOlarte.html">Carlos Olarte</a>) 
+<a href="../tag/t1c.html"><span class="tagM" title=" The paper primarily develops behavioural/executable semantics or ways to execute semantic definitions.
+">T1C</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" It includes substantial tool support or infrastructure relevant for engineering/using languages.
+">T4A</span></a>
+<a href="../tag/t5d.html"><span class="tagL" title=" It relies on formal methods (definitions/proofs/semantic properties) beyond informal description.
+">T5D</span></a></li><li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> <em><a href="../sle2021/paper11.html">SEALS: a framework for building self-adaptive virtual machines</a></em> (<a href="../profile/GwendalJouneaux.html">Gwendal Jouneaux</a>, <a href="../profile/OlivierBarais.html">Olivier Barais</a>, <a href="../profile/BenoîtCombemale.html">Benoît Combemale</a>, <a href="../profile/GunterMussbacher.html">Gunter Mussbacher</a>) 
+<a href="../tag/t1c.html"><span class="tagM" title=" The paper primarily develops behavioural/executable semantics or ways to execute semantic definitions.
+">T1C</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" It includes substantial tool support or infrastructure relevant for engineering/using languages.
+">T4A</span></a></li><li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em><a href="../sle2022/paper04.html">The Semantics of Plurals</a></em> (<a href="../profile/FriedrichSteimann.html">Friedrich Steimann</a>, <a href="../profile/MariusFreitag.html">Marius Freitag</a>) 
+<a href="../tag/t1c.html"><span class="tagM" title=" It develops the meaning of plural (bunch) expressions and their evaluation semantics.
+">T1C</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" The paper effectively proposes a language design extension for plural/relational expressions.
+">T1A</span></a>
+<a href="../tag/t5d.html"><span class="tagL" title=" It relies on formal semantic reasoning (bunch theory and relational interpretation).
+">T5D</span></a></li><li><span class="info">(<a href="../sle2023/index.html">SLE 2023</a>)</span> <em><a href="../sle2023/paper01.html">Exceptions all Over the Shop: Modular, Customizable, Language-Independent Exception Handling Layer</a></em> (<a href="../profile/WalterCazzola.html">Walter Cazzola</a>, <a href="../profile/LucaFavalli.html">Luca Favalli</a>) 
+<a href="../tag/t1d.html"><span class="tagM" title=" The paper proposes a modular, language-independent exception-handling layer that can be plugged into different language implementations.
+">T1D</span></a>
+<a href="../tag/t1c.html"><span class="tagL" title=" Exception handling is defined as a reusable semantic layer that affects program execution behavior at runtime.
+">T1C</span></a>
+<a href="../tag/t2b.html"><span class="tagL" title=" The contribution is motivated and validated through a language evolution scenario extending existing languages with new exception features.
+">T2B</span></a></li><li><span class="info">(<a href="../sle2023/index.html">SLE 2023</a>)</span> <em><a href="../sle2023/paper02.html">An Executable Semantics for Faster Development of Optimizing Python Compilers</a></em> (<a href="../profile/OlivierMelançon.html">Olivier Melançon</a>, <a href="../profile/MarcFeeley.html">Marc Feeley</a>, <a href="../profile/ManuelSerrano.html">Manuel Serrano</a>) 
+<a href="../tag/t1c.html"><span class="tagM" title=" The main contribution is an executable (formal) semantics for Python that serves as a reference for understanding and implementing the language.
+">T1C</span></a>
+<a href="../tag/t4c.html"><span class="tagL" title=" The semantics is used to speed up development of optimizing compilers, i.e., downstream compilation and refinement pipelines.
+">T4C</span></a>
+<a href="../tag/t5d.html"><span class="tagL" title=" The work is grounded in semantic specification/validation techniques typical of formal methods for programming languages.
+">T5D</span></a></li><li><span class="info">(<a href="../sle2023/index.html">SLE 2023</a>)</span> <em><a href="../sle2023/paper03.html">Adaptive Structural Operational Semantics</a></em> (<a href="../profile/GwendalJouneaux.html">Gwendal Jouneaux</a>, <a href="../profile/DamianFrölich.html">Damian Frölich</a>, <a href="../profile/OlivierBarais.html">Olivier Barais</a>, <a href="../profile/BenoîtCombemale.html">Benoît Combemale</a>, <a href="../profile/GurvanLeGuernic.html">Gurvan Le Guernic</a>, <a href="../profile/GunterMussbacher.html">Gunter Mussbacher</a>, <a href="../profile/LThomasvanBinsbergen.html">L. Thomas van Binsbergen</a>) 
+<a href="../tag/t1c.html"><span class="tagM" title=" The paper introduces a variant of structural operational semantics aimed at specifying adaptive program behavior.
+">T1C</span></a>
+<a href="../tag/t4d.html"><span class="tagL" title=" The semantics explicitly targets runtime adaptation mechanisms that influence execution during operation.
+">T4D</span></a>
+<a href="../tag/t3c.html"><span class="tagL" title=" The motivation is to make self-adaptation easier to add in domain-specific settings where adaptation is a secondary concern.
+">T3C</span></a></li><li><span class="info">(<a href="../sle2024s/index.html">SLE 2024 SI</a>)</span> <em><a href="../sle2024s/paper01.html">The eXchange Calculus (XC): A functional programming language design for distributed collective systems</a></em> (<a href="../profile/GiorgioAudrito.html">Giorgio Audrito</a>, <a href="../profile/RobertoCasadei.html">Roberto Casadei</a>, <a href="../profile/FerruccioDamiani.html">Ferruccio Damiani</a>, <a href="../profile/GuidoSalvaneschi.html">Guido Salvaneschi</a>, <a href="../profile/MirkoViroli.html">Mirko Viroli</a>) 
+<a href="../tag/t1a.html"><span class="tagM" title=" The paper proposes a new language/core calculus (XC) tailored to distributed collective systems and their programming model.
+">T1A</span></a>
+<a href="../tag/t1b.html"><span class="tagL" title=" It develops a type system and proves type soundness properties as part of the formal development.
+">T1B</span></a>
+<a href="../tag/t1c.html"><span class="tagL" title=" It provides operational semantics (device-/network-level) and uses them for formal properties (e.g., determinism/self-organisation-related results).
+">T1C</span></a>
+<a href="../tag/t6f.html"><span class="tagL" title=" The motivating domain and applicability are explicitly in IoT/CPS-style settings (sensor networks, swarms, wearables, smart-city scenarios).
+">T6F</span></a></li><li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> <em><a href="../sle2025/keynote2.html">Can Programming Be Liberated from the Functional Style?</a></em> (<a href="../profile/FriedrichSteimann.html">Friedrich Steimann</a>) 
+<a href="../tag/t3d.html"><span class="tagM" title=" It discusses general-purpose programming paradigms (functional vs. relational/modelling styles) rather than a specific DSL.
+">T3D</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" The argument is about (re-)designing programming languages around different core abstractions and composition of results.
+">T1A</span></a>
+<a href="../tag/t1c.html"><span class="tagL" title=" It reasons about computation/meaning (what programs can produce) at the level of behavioural/executable semantics.
+">T1C</span></a></li><li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> <em><a href="../sle2025/paper11.html">Exploratory, Omniscient, and Multiverse Diagnostics in Debuggers for Non-Deterministic Languages</a></em> (<a href="../profile/DamianFrölich.html">Damian Frölich</a>, <a href="../profile/TommasoPacciani.html">Tommaso Pacciani</a>, <a href="../profile/LThomasvanBinsbergen.html">L. Thomas van Binsbergen</a>) 
+<a href="../tag/t4d.html"><span class="tagM" title=" The contribution is debugging support for non-deterministic language runtimes via multiverse state-space exploration.
+">T4D</span></a>
+<a href="../tag/t5c.html"><span class="tagL" title=" It generalizes breakpoint-like mechanisms and exploration logics that support systematic debugging/testing of behaviours.
+">T5C</span></a>
+<a href="../tag/t1c.html"><span class="tagL" title=" Non-deterministic execution semantics are central, since the debugger explores alternative execution paths and resulting states.
+">T1C</span></a></li><li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> <em><a href="../sle2025/paper13.html">Optimize Effect Handling for Tail-resumption with Stack Unwinding</a></em> (<a href="../profile/YuzeFu.html">Yuze Fu</a>, <a href="../profile/ShigeruChiba.html">Shigeru Chiba</a>) 
+<a href="../tag/t4d.html"><span class="tagM" title=" Effect handlers are a runtime control-flow mechanism, and the paper proposes a concrete runtime implementation strategy.
+">T4D</span></a>
+<a href="../tag/t5f.html"><span class="tagL" title=" The goal is to reduce overhead for tail-resumptive handlers, with performance as the main evaluation dimension.
+">T5F</span></a>
+<a href="../tag/t1c.html"><span class="tagL" title=" The work is about executable semantics of algebraic effects/handlers and how they are realized operationally.
+">T1C</span></a></li></ul>
 		<clear/>
 		<footer/>
 	</body>

@@ -2,7 +2,10 @@
 	<head title="Tomoharu Ugawa's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Tomoharu Ugawa <a href="https://openalex.org/A5055482058"><img src="../logos/openalex.png" alt="OpenAlex"></a> <a href="https://orcid.org/0000-0002-3849-8639"><img src="../logos/orcid.svg" alt="ORCID"></a></h1>
+		<h1>Tomoharu Ugawa
+<a href="https://openalex.org/A5055482058" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://orcid.org/0000-0002-3849-8639" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
+<a href="https://dblp.org/search?q=Tomoharu Ugawa" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2024/index.html"><img src="../sle.png" alt="SLE 2024"></a>
 			<figcaption>
@@ -25,7 +28,7 @@
 		<ul>
 
 		<li><span class="info">1</span> papers in <span class="info">1</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t5f.html"><span class="tagM">T5F: Performance</span></a> (<span class="info">1</span> times)</li>
 				<li><a href="../tag/t4d.html"><span class="tagM">T4D: Interpretation</span></a> (<span class="info">1</span> times)</li>
@@ -43,7 +46,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> <em>Coauthored <a href="../sle2024/paper17.html">Reducing Write Barrier Overheads for Orthogonal Persistence</a></em> (<a href="../profile/YuanzeZhang.html">Yuanze Zhang</a>, <a href="../profile/OmkarDilipDhawal.html">Omkar Dilip Dhawal</a>, <a href="../profile/VKrishnaNandivada.html">V. Krishna Nandivada</a>, <a href="../profile/ShigeruChiba.html">Shigeru Chiba</a>, <a href="../profile/TomoharuUgawa.html"><span class="info">Tomoharu Ugawa</span></a>)</li>
+<li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> <em>Coauthored <a href="../sle2024/paper17.html">Reducing Write Barrier Overheads for Orthogonal Persistence</a></em> (<a href="../profile/YuanzeZhang.html">Yuanze Zhang</a>, <a href="../profile/OmkarDilipDhawal.html">Omkar Dilip Dhawal</a>, <a href="../profile/VKrishnaNandivada.html">V. Krishna Nandivada</a>, <a href="../profile/ShigeruChiba.html">Shigeru Chiba</a>, <a href="../profile/TomoharuUgawa.html"><span class="info">Tomoharu Ugawa</span></a>) </li>
 <li><span class="info">(<a href="../sle2026/index.html">SLE 2026</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2026/sle-2026-program-committee">PC</a></li></ul>
 		<clear/>
 		<footer/>

@@ -1,8 +1,8 @@
 <html doctype>
-	<head title="CfPBoK tag T6D" />
+	<head title="CfPBoK topic T6D" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Tag <code>T6D</code>: Synergies</h1>
+		<h1>Topic <code>T6D</code>: Synergies</h1>
 		Work explicitly about cross-fertilisation between SLE and other (emerging) areas: conceptual bridges, shared methods, and agenda-setting pieces that position SLE relative to neighbouring communities. Papers specifically aiming to bridge different sides of SLE, can also be tagged with this.
 <clear/>
 		<figure class="small dim">
@@ -171,16 +171,18 @@
 		<h2>Summary</h2>
 		<ul>
 			<li>Requested in <span class="info">16</span>/<span class="info">26</span> calls</li>
-			<li>Requested in <span class="info">12</span>/<span class="info">19</span> pure calls</li>
+			<li>Requested in <span class="info">12</span>/<span class="info">19</span> pure calls (<a href="../sle2010/index.html#cfp">2010</a>–<a href="../sle2026/index.html#cfp">2026</a> with the longest streak of <span class="info">6</span> years)</li>
+
 			<li>Primary tagged in <span class="info">8</span>/<span class="info">26</span> paper bundles</li>
-			<li>Primary tagged in <span class="info">8</span>/<span class="info">19</span> pure proceedings</li>
+			<li>Primary tagged in <span class="info">8</span>/<span class="info">19</span> pure proceedings (<a href="../sle2008/index.html#lop">2008</a>–<a href="../sle2024/index.html#lop">2024</a> with the longest streak of <span class="info">2</span> years)</li>
+
 			<li>Secondary tagged in <span class="info">11</span>/<span class="info">26</span> paper bundles</li>
-			<li>Secondary tagged in <span class="info">9</span>/<span class="info">19</span> pure proceedings</li>
-			<li>Top 3 co-occurring tags:
+			<li>Secondary tagged in <span class="info">9</span>/<span class="info">19</span> pure proceedings (<a href="../sle2008/index.html#lop">2008</a>–<a href="../sle2024/index.html#lop">2024</a> with the longest streak of <span class="info">3</span> years)</li>
+			<li>Top 3 co-occurring topics:
 				<ul>
-					<li><a href="t4a.html"><span class="tagL">T4A: Workbenches</span></a> (<span class="info">63</span> times)</li>
-					<li><a href="t5e.html"><span class="tagL">T5E: Empirical Evaluation</span></a> (<span class="info">55</span> times)</li>
-					<li><a href="t3c.html"><span class="tagL">T3C: DSLs</span></a> (<span class="info">23</span> times)</li>
+					<li><a href="t4a.html"><span class="tagL">T4A: Workbenches</span></a> (<span class="info">10</span> times)</li>
+					<li><a href="t5e.html"><span class="tagL">T5E: Empirical Evaluation</span></a> (<span class="info">4</span> times)</li>
+					<li><a href="t4b.html"><span class="tagL">T4B: Horizontal Transformation</span></a> (<span class="info">4</span> times)</li>
 				</ul>
 <li>Top 3 contributors:
 				<ul>
@@ -191,6 +193,158 @@
 
 		</ul>
 
+<h2>List of papers (23)</h2>
+<ul>
+<li><span class="info">(<a href="../sle2008/index.html">SLE 2008</a>)</span> <em><a href="../sle2008/keynote1.html">The Field of Software Language Engineering</a></em> (<a href="../profile/AnnekeKleppe.html">Anneke Kleppe</a>) 
+<a href="../tag/t6d.html"><span class="tagM" title=" This keynote frames SLE as an intersection of software engineering, programming languages, and modeling, emphasizing cross-community transfer of techniques.
+">T6D</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" It discusses core concerns in designing software languages, including choices around notations and abstractions.
+">T1A</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" It highlights the role of language workbenches and tool support as a defining part of the SLE field.
+">T4A</span></a></li><li><span class="info">(<a href="../sle2008/index.html">SLE 2008</a>)</span> <em><a href="../sle2008/keynote2.html">Model-Driven Engineering Meets Generic Language Technology</a></em> (<a href="../profile/MarkvandenBrand.html">Mark van den Brand</a>) 
+<a href="../tag/t6d.html"><span class="tagM" title=" It explicitly connects model-driven engineering with generic language technology, arguing for cross-pollination of concepts and tooling.
+">T6D</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" It surveys and leverages generic language tools (e.g., parsing, analysis frameworks) as infrastructure for MDE.
+">T4A</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" It discusses using language-technology-based mappings/transformations to support MDE scenarios.
+">T4B</span></a></li><li><span class="info">(<a href="../sle2008/index.html">SLE 2008</a>)</span> <em><a href="../sle2008/paper10.html">A Model Engineering Approach to Tool Interoperability</a></em> (<a href="../profile/YuSun.html">Yu Sun</a>, <a href="../profile/ZekaiDemirezen.html">Zekai Demirezen</a>, <a href="../profile/FrédéricJouault.html">Frédéric Jouault</a>, <a href="../profile/RobertTairas.html">Robert Tairas</a>, <a href="../profile/JeffreyGGray.html">Jeffrey G. Gray</a>) 
+<a href="../tag/t4b.html"><span class="tagM" title=" It approaches tool interoperability via model-based mappings/transformations between heterogeneous tool representations.
+">T4B</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" The method is grounded in a model-engineering tooling stack for enabling interoperability.
+">T4A</span></a>
+<a href="../tag/t6d.html"><span class="tagL" title=" It explicitly bridges tools/communities by applying model engineering techniques to interoperate across ecosystems.
+">T6D</span></a></li><li><span class="info">(<a href="../sle2009/index.html">SLE 2009</a>)</span> <em><a href="../sle2009/keynote2.html">If MDE Is the Solution, Then What Is the Problem?</a></em> (<a href="../profile/JeanBézivín.html">Jean Bézivín</a>) 
+<a href="../tag/t6d.html"><span class="tagM" title=" Keynote positions model-driven engineering within a broader software-language-engineering context and critiques mismatches between problems and proposed MDE solutions.
+">T6D</span></a>
+<a href="../tag/t3a.html"><span class="tagL" title=" It reflects on the role of meta-level descriptions (models/metamodels) in MDE as a foundational concern.
+">T3A</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" It touches on how MDE tooling ecosystems shape what problems can practically be addressed.
+">T4A</span></a></li><li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> <em><a href="../sle2010/keynote2.html">Software Engineering and the Semantic Web: A Match Made in Heaven or in Hell?</a></em> (<a href="../profile/AbrahamBernstein.html">Abraham Bernstein</a>) 
+<a href="../tag/t3e.html"><span class="tagM" title=" The keynote centers on semantic-web technologies (e.g., ontologies/linked data) and their relationship to software engineering.
+">T3E</span></a>
+<a href="../tag/t6d.html"><span class="tagL" title=" It is explicitly about cross-community synergies (and tensions) between software engineering and the semantic web.
+">T6D</span></a></li><li><span class="info">(<a href="../sle2012/index.html">SLE 2012</a>)</span> <em><a href="../sle2012/paper04.html">Metamodelling for Grammarware Researchers</a></em> (<a href="../profile/RichardFPaige.html">Richard F. Paige</a>, <a href="../profile/DimitriosSKolovos.html">Dimitrios S. Kolovos</a>, <a href="../profile/FionaPolack.html">Fiona Polack</a>) 
+<a href="../tag/t6d.html"><span class="tagM" title=" The paper’s explicit goal is to bridge “grammarware” and “modelware” communities by aligning concepts and practices.
+">T6D</span></a>
+<a href="../tag/t3a.html"><span class="tagL" title=" It reframes grammar-based language engineering artifacts in terms of meta-modeling concepts and notations.
+">T3A</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" It discusses tool-supported workflows (e.g., with EMF-style meta-models) that grammarware researchers can adopt.
+">T4A</span></a></li><li><span class="info">(<a href="../sle2012s/index.html">SLE 2012 SI</a>)</span> <em><a href="../sle2012s/paper01.html">A tutorial on metamodelling for grammar researchers</a></em> (<a href="../profile/RichardFPaige.html">Richard F. Paige</a>, <a href="../profile/DimitriosSKolovos.html">Dimitrios S. Kolovos</a>, <a href="../profile/FionaPolack.html">Fiona Polack</a>) 
+<a href="../tag/t3a.html"><span class="tagM" title=" The central goal is to explain metamodels as a language-definition formalism (abstract syntax) and relate them to grammar-based definitions.
+">T3A</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" The tutorial emphasises metamodelling infrastructures and tooling (e.g., modelware ecosystems) as the practical basis for language engineering tasks.
+">T4A</span></a>
+<a href="../tag/t6d.html"><span class="tagL" title=" A core theme is bridging “grammarware” and “modelware”, highlighting how the two approaches can be used together rather than competitively.
+">T6D</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" It discusses language-definition choices (metamodels vs grammars) and their implications for designing and implementing languages.
+">T1A</span></a></li><li><span class="info">(<a href="../sle2013/index.html">SLE 2013</a>)</span> <em><a href="../sle2013/paper10.html">The State of the Art in Language Workbenches: Conclusions from the Language Workbench Challenge</a></em> (<a href="../profile/SebastianErdweg.html">Sebastian Erdweg</a>, <a href="../profile/TijsvanderStorm.html">Tijs van der Storm</a>, <a href="../profile/MarkusVölter.html">Markus Völter</a>, <a href="../profile/MeinteBoersma.html">Meinte Boersma</a>, <a href="../profile/RemiBosman.html">Remi Bosman</a>, <a href="../profile/WilliamRCook.html">William R. Cook</a>, <a href="../profile/AlbertGerritsen.html">Albert Gerritsen</a>, <a href="../profile/AngeloHulshout.html">Angelo Hulshout</a>, <a href="../profile/StevenKelly.html">Steven Kelly</a>, <a href="../profile/AlexLoh.html">Alex Loh</a>, <a href="../profile/GabriëlKonat.html">Gabriël Konat</a>, <a href="../profile/PedroJMolina.html">Pedro J. Molina</a>, <a href="../profile/MartinPalatnik.html">Martin Palatnik</a>, <a href="../profile/RistoPohjonen.html">Risto Pohjonen</a>, <a href="../profile/EugenSchindler.html">Eugen Schindler</a>, <a href="../profile/KlemensSchindler.html">Klemens Schindler</a>, <a href="../profile/RiccardoSolmi.html">Riccardo Solmi</a>, <a href="../profile/VladVergu.html">Vlad Vergu</a>, <a href="../profile/EelcoVisser.html">Eelco Visser</a>, <a href="../profile/KevinvanderVlist.html">Kevin van der Vlist</a>, <a href="../profile/GuidoWachsmuth.html">Guido Wachsmuth</a>, <a href="../profile/JimivanderWoning.html">Jimi van der Woning</a>) 
+<a href="../tag/t4a.html"><span class="tagM" title=" The paper’s primary focus is language workbenches—their capabilities, trade-offs, and tool support for implementing languages.
+">T4A</span></a>
+<a href="../tag/t5e.html"><span class="tagL" title=" It synthesizes evidence from repeated challenge tasks used to compare workbenches, providing an empirical/comparative perspective.
+">T5E</span></a>
+<a href="../tag/t6d.html"><span class="tagL" title=" The Language Workbench Challenge explicitly creates a cross-tool community forum, emphasizing synergies and shared evaluation criteria.
+">T6D</span></a></li><li><span class="info">(<a href="../sle2014s/index.html">SLE 2014 SI</a>)</span> <em><a href="../sle2014s/paper02.html">Evaluating and comparing language workbenches: Existing results and benchmarks for the future</a></em> (<a href="../profile/SebastianErdweg.html">Sebastian Erdweg</a>, <a href="../profile/TijsvanderStorm.html">Tijs van der Storm</a>, <a href="../profile/MarkusVölter.html">Markus Völter</a>, <a href="../profile/LaurenceTratt.html">Laurence Tratt</a>, <a href="../profile/RemiBosman.html">Remi Bosman</a>, <a href="../profile/WilliamRCook.html">William R. Cook</a>, <a href="../profile/AlbertGerritsen.html">Albert Gerritsen</a>, <a href="../profile/AngeloHulshout.html">Angelo Hulshout</a>, <a href="../profile/StevenKelly.html">Steven Kelly</a>, <a href="../profile/AlexLoh.html">Alex Loh</a>, <a href="../profile/GabriëlKonat.html">Gabriël Konat</a>, <a href="../profile/PedroJMolina.html">Pedro J. Molina</a>, <a href="../profile/MartinPalatnik.html">Martin Palatnik</a>, <a href="../profile/RistoPohjonen.html">Risto Pohjonen</a>, <a href="../profile/EugenSchindler.html">Eugen Schindler</a>, <a href="../profile/KlemensSchindler.html">Klemens Schindler</a>, <a href="../profile/RiccardoSolmi.html">Riccardo Solmi</a>, <a href="../profile/VladVergu.html">Vlad Vergu</a>, <a href="../profile/EelcoVisser.html">Eelco Visser</a>, <a href="../profile/KevinvanderVlist.html">Kevin van der Vlist</a>, <a href="../profile/GuidoWachsmuth.html">Guido Wachsmuth</a>, <a href="../profile/JimivanderWoning.html">Jimi van der Woning</a>) 
+<a href="../tag/t4a.html"><span class="tagM" title=" The paper’s main subject is language workbenches and their associated tooling ecosystems.
+">T4A</span></a>
+<a href="../tag/t5e.html"><span class="tagL" title=" It reports comparative/empirical evidence (Language Workbench Challenge results) and distills benchmark data and observations.
+">T5E</span></a>
+<a href="../tag/t3c.html"><span class="tagL" title=" Workbenches are evaluated specifically as platforms for building and using DSLs.
+">T3C</span></a>
+<a href="../tag/t6d.html"><span class="tagL" title=" It aligns perspectives across multiple tools/communities by proposing shared benchmarks and a common feature model.
+">T6D</span></a></li><li><span class="info">(<a href="../sle2015/index.html">SLE 2015</a>)</span> <em><a href="../sle2015/paper07.html">Distributed model-to-model transformation with ATL on MapReduce</a></em> (<a href="../profile/AmineBenelallam.html">Amine Benelallam</a>, <a href="../profile/AbelGómez.html">Abel Gómez</a>, <a href="../profile/MassimoTisi.html">Massimo Tisi</a>, <a href="../profile/JordiCabot.html">Jordi Cabot</a>) 
+<a href="../tag/t4b.html"><span class="tagM" title=" It scales horizontal model-to-model transformations by executing them in a distributed MapReduce setting.
+">T4B</span></a>
+<a href="../tag/t5f.html"><span class="tagL" title=" A key contribution is performance/scalability for very large models and transformations.
+">T5F</span></a>
+<a href="../tag/t6d.html"><span class="tagL" title=" It combines model transformation technology with distributed systems/MapReduce (a cross-area synergy).
+">T6D</span></a>
+<a href="../tag/t3b.html"><span class="tagL" title=" ATL is a transformation language, and the work adapts its execution model to the distributed setting.
+">T3B</span></a></li><li><span class="info">(<a href="../sle2016/index.html">SLE 2016</a>)</span> <em><a href="../sle2016/paper21.html">Efficient Model Partitioning for Distributed Model Transformations</a></em> (<a href="../profile/AmineBenelallam.html">Amine Benelallam</a>, <a href="../profile/MassimoTisi.html">Massimo Tisi</a>, <a href="../profile/JesúsSánchezCuadrado.html">Jesús Sánchez Cuadrado</a>, <a href="../profile/JuandeLara.html">Juan de Lara</a>, <a href="../profile/JordiCabot.html">Jordi Cabot</a>) 
+<a href="../tag/t4b.html"><span class="tagM" title=" It optimizes (horizontal) model transformations by partitioning models for distributed execution.
+">T4B</span></a>
+<a href="../tag/t5f.html"><span class="tagL" title=" A core contribution is performance/scalability improvements for large-scale transformations.
+">T5F</span></a>
+<a href="../tag/t6d.html"><span class="tagL" title=" It combines model transformation with distributed systems techniques to scale execution (cross-area synergy).
+">T6D</span></a></li><li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> <em><a href="../sle2017/paper10.html">Energy efficiency across programming languages: how do energy, time, and memory relate?</a></em> (<a href="../profile/RuiPereira.html">Rui Pereira</a>, <a href="../profile/MarcoCouto.html">Marco Couto</a>, <a href="../profile/FranciscoRibeiro.html">Francisco Ribeiro</a>, <a href="../profile/RuiRua.html">Rui Rua</a>, <a href="../profile/JácomeCunha.html">Jácome Cunha</a>, <a href="../profile/JoãoPauloFernandes.html">João Paulo Fernandes</a>, <a href="../profile/JoãoSaraiva.html">João Saraiva</a>) 
+<a href="../tag/t5e.html"><span class="tagM" title=" This is an empirical study measuring energy, time, and memory across many programming languages.
+">T5E</span></a>
+<a href="../tag/t3d.html"><span class="tagL" title=" The comparison spans general-purpose programming languages as the primary objects of study.
+">T3D</span></a>
+<a href="../tag/t5f.html"><span class="tagL" title=" It analyzes performance-related dimensions (runtime and memory) alongside energy consumption.
+">T5F</span></a>
+<a href="../tag/t6d.html"><span class="tagL" title=" It bridges programming languages with energy/performance measurement methodology, a cross-area synergy.
+">T6D</span></a></li><li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> <em><a href="../sle2018/paper03.html">Input-driven regular expressions (vision paper)</a></em> (<a href="../profile/AlexanderSakharov.html">Alexander Sakharov</a>) 
+<a href="../tag/t6d.html"><span class="tagM" title=" The paper is explicitly a vision/position piece emphasizing cross-cutting synergies and future directions.
+">T6D</span></a>
+</li><li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> <em><a href="../sle2018/paper04.html">Languages as first-class citizens (vision paper)</a></em> (<a href="../profile/MatteoCimini.html">Matteo Cimini</a>) 
+<a href="../tag/t6d.html"><span class="tagM" title=" The paper is explicitly a vision/position piece emphasizing cross-cutting synergies and future directions.
+">T6D</span></a>
+<a href="../tag/t5d.html"><span class="tagL" title=" It relies on formal methods (definitions/proofs/semantic properties) beyond informal description.
+">T5D</span></a>
+<a href="../tag/t4d.html"><span class="tagL" title=" It concerns runtime interpretation/execution (interpreters, debuggers, runtime services).
+">T4D</span></a></li><li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> <em><a href="../sle2018/paper07.html">Shape-diverse DSLs: languages without borders (vision paper)</a></em> (<a href="../profile/FabienCoulon.html">Fabien Coulon</a>, <a href="../profile/ThomasDegueule.html">Thomas Degueule</a>, <a href="../profile/TijsvanderStorm.html">Tijs van der Storm</a>, <a href="../profile/BenoîtCombemale.html">Benoît Combemale</a>) 
+<a href="../tag/t6d.html"><span class="tagM" title=" The paper is explicitly a vision/position piece emphasizing cross-cutting synergies and future directions.
+">T6D</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" It includes substantial tool support or infrastructure relevant for engineering/using languages.
+">T4A</span></a>
+<a href="../tag/t5e.html"><span class="tagL" title=" It reports an empirical evaluation (experiments, study, benchmarks, or measurements).
+">T5E</span></a>
+<a href="../tag/t5h.html"><span class="tagL" title=" It targets usability (developer interaction, comprehension, editing experience).
+">T5H</span></a></li><li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> <em><a href="../sle2019/keynote1.html">Software Language Engineering – 42 Frequently Asked Questions</a></em> (<a href="../profile/RalfLämmel.html">Ralf Lämmel</a>) 
+<a href="../tag/t6d.html"><span class="tagM" title=" The keynote is an explicit cross-cutting positioning exercise (definitions, relations to CC/MDE/PLT, practice, education, “technological space”), i.e., synergy/agenda-setting.
+">T6D</span></a>
+<a href="../tag/t2a.html"><span class="tagL" title=" Multiple FAQ clusters directly address lifecycle questions (what’s the lifecycle of a software language; mission completion; long-term evolution of the field).
+">T2A</span></a>
+<a href="../tag/t6b.html"><span class="tagL" title=" A significant slice is about SLE “in practice” (Big Tech needs, career profiles, organizational reality), grounded in an industrial vantage point.
+">T6B</span></a></li><li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> <em><a href="../sle2021/keynote1.html">Integrating usability into programming language design</a></em> (<a href="../profile/JonathanAldrich.html">Jonathan Aldrich</a>) 
+<a href="../tag/t6d.html"><span class="tagM" title=" As a keynote, it provides a cross-cutting perspective and agenda-setting discussion for the field.
+">T6D</span></a>
+<a href="../tag/t5h.html"><span class="tagL" title=" It targets usability (developer interaction, comprehension, editing experience).
+">T5H</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" It includes substantial tool support or infrastructure relevant for engineering/using languages.
+">T4A</span></a>
+<a href="../tag/t1d.html"><span class="tagL" title=" It emphasizes modularity/composition/integration (embedding or coordinating language components).
+">T1D</span></a></li><li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em><a href="../sle2022/keynote1.html">People Do Not Want to Learn a New Language But a New Library</a></em> (<a href="../profile/ShigeruChiba.html">Shigeru Chiba</a>) 
+<a href="../tag/t6d.html"><span class="tagM" title=" Keynote that frames a broader agenda about language-like libraries and embedded DSLs.
+">T6D</span></a>
+<a href="../tag/t3c.html"><span class="tagL" title=" It discusses embedded domain-specific languages as a practical alternative to standalone languages.
+">T3C</span></a>
+<a href="../tag/t1d.html"><span class="tagL" title=" It emphasizes embedding/composition of language concepts inside host languages and libraries.
+">T1D</span></a></li><li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em><a href="../sle2022/paper08.html">Property-Based Testing: Climbing the Stairway to Verification</a></em> (<a href="../profile/ZilinChen.html">Zilin Chen</a>, <a href="../profile/ChristineRizkallah.html">Christine Rizkallah</a>, <a href="../profile/LiamOConnor.html">Liam O’Connor</a>, <a href="../profile/ParthaSusarla.html">Partha Susarla</a>, <a href="../profile/GerwinKlein.html">Gerwin Klein</a>, <a href="../profile/GernotHeiser.html">Gernot Heiser</a>, <a href="../profile/GabrieleKeller.html">Gabriele Keller</a>) 
+<a href="../tag/t5c.html"><span class="tagM" title=" It advances property-based testing techniques and their role in verification workflows.
+">T5C</span></a>
+<a href="../tag/t5d.html"><span class="tagL" title=" It connects testing results to stronger formal verification goals (proof/verification support).
+">T5D</span></a>
+<a href="../tag/t6d.html"><span class="tagL" title=" It bridges methods from testing and verification, highlighting their synergy.
+">T6D</span></a></li><li><span class="info">(<a href="../sle2023/index.html">SLE 2023</a>)</span> <em><a href="../sle2023/keynote2.html">Artificial Languages are Dead. Long Live Artificial Languages!</a></em> (<a href="../profile/CristinaVideiraLopes.html">Cristina Videira Lopes</a>) 
+<a href="../tag/t6c.html"><span class="tagM" title=" The keynote is explicitly about how AI/LLMs change the relationship between programming and AI—i.e., language engineering for an AI-shaped software development world (including education implications).
+">T6C</span></a>
+<a href="../tag/t4g.html"><span class="tagL" title=" LLMs doing translation from natural language/specifications to code is AI-driven automation directly affecting language use and tooling.
+">T4G</span></a>
+<a href="../tag/t6d.html"><span class="tagL" title=" The framing is broadly cross-cutting (practice + fundamental notions of programming + CS education), i.e., a field-level synthesis/agenda piece.
+">T6D</span></a></li><li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> <em><a href="../sle2024/keynote1.html">There Is Only One Time in Software (Language) Engineering!</a></em> (<a href="../profile/BenoîtCombemale.html">Benoît Combemale</a>) 
+<a href="../tag/t6d.html"><span class="tagM" title=" The keynote argues for a continuous, cross-phase view of SLE that connects language design, tooling, and operation-time feedback.
+">T6D</span></a>
+<a href="../tag/t2b.html"><span class="tagL" title=" It emphasizes hyper-agility and continuous evolution as central challenges for future language engineering.
+">T2B</span></a>
+<a href="../tag/t2c.html"><span class="tagL" title=" Variability management is highlighted as a key lever for adaptable/self-adaptable languages.
+">T2C</span></a>
+<a href="../tag/t6f.html"><span class="tagL" title=" Digital twins and cyber-physical ecosystems are used as motivating application contexts for the proposed agenda.
+">T6F</span></a></li><li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> <em><a href="../sle2024/paper08.html">Design of Software Representation Languages: A Historical Perspective</a></em> (<a href="../profile/AnthonyIraWasserman.html">Anthony Ira Wasserman</a>) 
+<a href="../tag/t1a.html"><span class="tagM" title=" It discusses design choices and guidelines for notations and representation languages used to develop software.
+">T1A</span></a>
+<a href="../tag/t2b.html"><span class="tagL" title=" The historical narrative connects language proliferation to long-term maintenance and legacy-system pressures.
+">T2B</span></a>
+<a href="../tag/t2e.html"><span class="tagL" title=" Representation notations are treated as artifacts that document programs and enable communication about software.
+">T2E</span></a>
+<a href="../tag/t6d.html"><span class="tagL" title=" As an SLEBoK-style essay, it synthesizes perspectives across communities and time periods.
+">T6D</span></a></li><li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> <em><a href="../sle2024/paper19.html">AI Effects on Research and Education: A Programming and Software Language Perspective (Panel)</a></em> (<a href="../profile/RalfLämmel.html">Ralf Lämmel</a>) 
+<a href="../tag/t6g.html"><span class="tagM" title=" The panel centers on socio-technical impacts of LLMs on research, education, and programming practice.
+">T6G</span></a>
+<a href="../tag/t4g.html"><span class="tagL" title=" It explicitly discusses large language models as a disruptive technology relevant to AI-for-SLE and tooling.
+">T4G</span></a>
+<a href="../tag/t6d.html"><span class="tagL" title=" The discussion connects perspectives across communities (PL, compilers, education) to identify shared challenges.
+">T6D</span></a></li></ul>
 		<clear/>
 		<footer/>
 	</body>

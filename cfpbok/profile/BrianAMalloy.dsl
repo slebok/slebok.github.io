@@ -2,7 +2,9 @@
 	<head title="Brian A. Malloy's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Brian A. Malloy <a href="https://dblp.org/pid/m/BrianAMalloy.html"><img src="../logos/dblp.png" alt="DBLP"></a> <a href="https://openalex.org/A5071872208"><img src="../logos/openalex.png" alt="OpenAlex"></a></h1>
+		<h1>Brian A. Malloy
+<a href="https://dblp.org/pid/m/BrianAMalloy.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
+<a href="https://openalex.org/A5071872208" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a></h1>
 		<figure class="small">
 			<a href="../sle2008s/index.html"><img src="../sle.png" alt="SLE 2008 SI"></a>
 			<figcaption>
@@ -42,7 +44,7 @@
 		<ul>
 
 		<li><span class="info">1</span> papers in <span class="info">1</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t5b.html"><span class="tagM">T5B: Language Description Analysis</span></a> (<span class="info">1</span> times)</li>
 				<li><a href="../tag/t4c.html"><span class="tagM">T4C: Vertical Transformation</span></a> (<span class="info">1</span> times)</li>
@@ -59,7 +61,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2008s/index.html">SLE 2008 SI</a>)</span> <em>Coauthored <a href="../sle2008s/paper03.html">Grammar Recovery from Parse Trees and Metrics-Guided Grammar Refactoring</a></em> (<a href="../profile/NicholasAKraft.html">Nicholas A. Kraft</a>, <a href="../profile/EdwardDuffy.html">Edward Duffy</a>, <a href="../profile/BrianAMalloy.html"><span class="info">Brian A. Malloy</span></a>)</li>
+<li><span class="info">(<a href="../sle2008s/index.html">SLE 2008 SI</a>)</span> <em>Coauthored <a href="../sle2008s/paper03.html">Grammar Recovery from Parse Trees and Metrics-Guided Grammar Refactoring</a></em> (<a href="../profile/NicholasAKraft.html">Nicholas A. Kraft</a>, <a href="../profile/EdwardDuffy.html">Edward Duffy</a>, <a href="../profile/BrianAMalloy.html"><span class="info">Brian A. Malloy</span></a>) </li>
 <li><span class="info">(<a href="../sle2009/index.html">SLE 2009</a>)</span> Served on <a href="https://www.sleconf.org/2009/Committees.html">PC</a></li>
 <li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> Served as a <a href="https://www.sleconf.org/2010/Committees.html">Programme Chair</a></li>
 <li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> Served on <a href="https://www.sleconf.org/2010/Committees.html">PC</a></li>

@@ -2,7 +2,11 @@
 	<head title="Adrian Johnstone's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Adrian Johnstone <a href="https://dblp.org/pid/18/6775.html"><img src="../logos/dblp.png" alt="DBLP"></a> <a href="https://openalex.org/A5008283753"><img src="../logos/openalex.png" alt="OpenAlex"></a> <a href="https://orcid.org/0000-0002-9446-9701"><img src="../logos/orcid.svg" alt="ORCID"></a> <a href="https://www.wikidata.org/wiki/Q102397889"><img src="../logos/wikidata.svg" alt="Wikidata"></a></h1>
+		<h1>Adrian Johnstone
+<a href="https://dblp.org/pid/18/6775.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
+<a href="https://openalex.org/A5008283753" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://orcid.org/0000-0002-9446-9701" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
+<a href="https://www.wikidata.org/wiki/Q102397889" title="Wikidata"><img src="../logos/wikidata.svg" alt="Wikidata"></a></h1>
 		<figure class="small">
 			<a href="../sle2010/index.html"><img src="../sle.png" alt="SLE 2010"></a>
 			<figcaption>
@@ -100,7 +104,7 @@
 		<ul>
 
 		<li><span class="info">9</span> papers in <span class="info">8</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t4a.html"><span class="tagM">T4A: Workbenches</span></a> (<span class="info">6</span> times)</li>
 				<li><a href="../tag/t3a.html"><span class="tagM">T3A: Meta-languages</span></a> (<span class="info">5</span> times)</li>
@@ -118,20 +122,20 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> <em>Coauthored <a href="../sle2010/paper03.html">Modelling GLL Parser Implementations</a></em> (<a href="../profile/AdrianJohnstone.html"><span class="info">Adrian Johnstone</span></a>, <a href="../profile/ElizabethScott.html">Elizabeth Scott</a>)</li>
-<li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> <em>Coauthored <a href="../sle2010/paper18.html">Translator Generation Using ART (Tools Paper)</a></em> (<a href="../profile/AdrianJohnstone.html"><span class="info">Adrian Johnstone</span></a>, <a href="../profile/ElizabethScott.html">Elizabeth Scott</a>)</li>
+<li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> <em>Coauthored <a href="../sle2010/paper03.html">Modelling GLL Parser Implementations</a></em> (<a href="../profile/AdrianJohnstone.html"><span class="info">Adrian Johnstone</span></a>, <a href="../profile/ElizabethScott.html">Elizabeth Scott</a>) </li>
+<li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> <em>Coauthored <a href="../sle2010/paper18.html">Translator Generation Using ART (Tools Paper)</a></em> (<a href="../profile/AdrianJohnstone.html"><span class="info">Adrian Johnstone</span></a>, <a href="../profile/ElizabethScott.html">Elizabeth Scott</a>) </li>
 <li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> Served on <a href="https://www.sleconf.org/2010/Committees.html">PC</a></li>
 <li><span class="info">(<a href="../sle2011/index.html">SLE 2011</a>)</span> Served on <a href="https://www.sleconf.org/2011/Committees.html">PC</a></li>
-<li><span class="info">(<a href="../sle2012/index.html">SLE 2012</a>)</span> <em>Coauthored <a href="../sle2012/paper12.html">Island Grammar-Based Parsing Using GLL and Tom</a></em> (<a href="../profile/AliAfroozeh.html">Ali Afroozeh</a>, <a href="../profile/JeanChristopheBach.html">Jean-Christophe Bach</a>, <a href="../profile/MarkvandenBrand.html">Mark van den Brand</a>, <a href="../profile/AdrianJohnstone.html"><span class="info">Adrian Johnstone</span></a>, <a href="../profile/MaartenManders.html">Maarten Manders</a>, <a href="../profile/PierreEtienneMoreau.html">Pierre-Etienne Moreau</a>, <a href="../profile/ElizabethScott.html">Elizabeth Scott</a>)</li>
-<li><span class="info">(<a href="../sle2013/index.html">SLE 2013</a>)</span> <em>Coauthored <a href="../sle2013/paper07.html">Safe Specification of Operator Precedence Rules</a></em> (<a href="../profile/AliAfroozeh.html">Ali Afroozeh</a>, <a href="../profile/MarkvandenBrand.html">Mark van den Brand</a>, <a href="../profile/AdrianJohnstone.html"><span class="info">Adrian Johnstone</span></a>, <a href="../profile/ElizabethScott.html">Elizabeth Scott</a>, <a href="../profile/JurgenVinju.html">Jurgen Vinju</a>)</li>
+<li><span class="info">(<a href="../sle2012/index.html">SLE 2012</a>)</span> <em>Coauthored <a href="../sle2012/paper12.html">Island Grammar-Based Parsing Using GLL and Tom</a></em> (<a href="../profile/AliAfroozeh.html">Ali Afroozeh</a>, <a href="../profile/JeanChristopheBach.html">Jean-Christophe Bach</a>, <a href="../profile/MarkvandenBrand.html">Mark van den Brand</a>, <a href="../profile/AdrianJohnstone.html"><span class="info">Adrian Johnstone</span></a>, <a href="../profile/MaartenManders.html">Maarten Manders</a>, <a href="../profile/PierreEtienneMoreau.html">Pierre-Etienne Moreau</a>, <a href="../profile/ElizabethScott.html">Elizabeth Scott</a>) </li>
+<li><span class="info">(<a href="../sle2013/index.html">SLE 2013</a>)</span> <em>Coauthored <a href="../sle2013/paper07.html">Safe Specification of Operator Precedence Rules</a></em> (<a href="../profile/AliAfroozeh.html">Ali Afroozeh</a>, <a href="../profile/MarkvandenBrand.html">Mark van den Brand</a>, <a href="../profile/AdrianJohnstone.html"><span class="info">Adrian Johnstone</span></a>, <a href="../profile/ElizabethScott.html">Elizabeth Scott</a>, <a href="../profile/JurgenVinju.html">Jurgen Vinju</a>) </li>
 <li><span class="info">(<a href="../sle2015/index.html">SLE 2015</a>)</span> Served on <a href="https://2015.splashcon.org/committee/sle2015-papers-program-committee">PC</a></li>
-<li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> <em>Coauthored <a href="../sle2018/paper16.html">GLL parsing with flexible combinators</a></em> (<a href="../profile/LThomasvanBinsbergen.html">L. Thomas van Binsbergen</a>, <a href="../profile/ElizabethScott.html">Elizabeth Scott</a>, <a href="../profile/AdrianJohnstone.html"><span class="info">Adrian Johnstone</span></a>)</li>
-<li><span class="info">(<a href="../sle2018s/index.html">SLE 2018 SI</a>)</span> <em>Coauthored <a href="../sle2018s/paper03.html">Purely functional GLL parsing</a></em> (<a href="../profile/LThomasvanBinsbergen.html">L. Thomas van Binsbergen</a>, <a href="../profile/ElizabethScott.html">Elizabeth Scott</a>, <a href="../profile/AdrianJohnstone.html"><span class="info">Adrian Johnstone</span></a>)</li>
-<li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> <em>Coauthored <a href="../sle2019/paper08.html">Multiple lexicalisation (a Java based study)</a></em> (<a href="../profile/ElizabethScott.html">Elizabeth Scott</a>, <a href="../profile/AdrianJohnstone.html"><span class="info">Adrian Johnstone</span></a>)</li>
+<li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> <em>Coauthored <a href="../sle2018/paper16.html">GLL parsing with flexible combinators</a></em> (<a href="../profile/LThomasvanBinsbergen.html">L. Thomas van Binsbergen</a>, <a href="../profile/ElizabethScott.html">Elizabeth Scott</a>, <a href="../profile/AdrianJohnstone.html"><span class="info">Adrian Johnstone</span></a>) </li>
+<li><span class="info">(<a href="../sle2018s/index.html">SLE 2018 SI</a>)</span> <em>Coauthored <a href="../sle2018s/paper03.html">Purely functional GLL parsing</a></em> (<a href="../profile/LThomasvanBinsbergen.html">L. Thomas van Binsbergen</a>, <a href="../profile/ElizabethScott.html">Elizabeth Scott</a>, <a href="../profile/AdrianJohnstone.html"><span class="info">Adrian Johnstone</span></a>) </li>
+<li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> <em>Coauthored <a href="../sle2019/paper08.html">Multiple lexicalisation (a Java based study)</a></em> (<a href="../profile/ElizabethScott.html">Elizabeth Scott</a>, <a href="../profile/AdrianJohnstone.html"><span class="info">Adrian Johnstone</span></a>) </li>
 <li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-program-committee">PC</a></li>
-<li><span class="info">(<a href="../sle2023/index.html">SLE 2023</a>)</span> <em>Authored <a href="../sle2023/paper04.html">A Reference GLL Implementation</a></em> (<a href="../profile/AdrianJohnstone.html"><span class="info">Adrian Johnstone</span></a>)</li>
+<li><span class="info">(<a href="../sle2023/index.html">SLE 2023</a>)</span> <em>Authored <a href="../sle2023/paper04.html">A Reference GLL Implementation</a></em> (<a href="../profile/AdrianJohnstone.html"><span class="info">Adrian Johnstone</span></a>) </li>
 <li><span class="info">(<a href="../sle2023/index.html">SLE 2023</a>)</span> Served on <a href="https://2023.splashcon.org/committee/sle-2023-program-committee">PC</a></li>
-<li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> <em>Coauthored <a href="../sle2025/paper01.html">Handling Grammar Cycles in the 1997 SML Definition</a></em> (<a href="../profile/ElizabethScott.html">Elizabeth Scott</a>, <a href="../profile/AdrianJohnstone.html"><span class="info">Adrian Johnstone</span></a>)</li></ul>
+<li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> <em>Coauthored <a href="../sle2025/paper01.html">Handling Grammar Cycles in the 1997 SML Definition</a></em> (<a href="../profile/ElizabethScott.html">Elizabeth Scott</a>, <a href="../profile/AdrianJohnstone.html"><span class="info">Adrian Johnstone</span></a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

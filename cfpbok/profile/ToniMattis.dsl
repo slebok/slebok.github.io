@@ -2,7 +2,10 @@
 	<head title="Toni Mattis's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Toni Mattis <a href="https://openalex.org/A5026483529"><img src="../logos/openalex.png" alt="OpenAlex"></a> <a href="https://orcid.org/0000-0001-7024-9838"><img src="../logos/orcid.svg" alt="ORCID"></a></h1>
+		<h1>Toni Mattis
+<a href="https://openalex.org/A5026483529" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://orcid.org/0000-0001-7024-9838" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
+<a href="https://dblp.org/search?q=Toni Mattis" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2022/index.html"><img src="../sle.png" alt="SLE 2022"></a>
 			<figcaption>
@@ -17,7 +20,7 @@
 		<ul>
 
 		<li><span class="info">1</span> papers in <span class="info">1</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t4a.html"><span class="tagM">T4A: Workbenches</span></a> (<span class="info">1</span> times)</li>
 				<li><a href="../tag/t1a.html"><span class="tagM">T1A: Design</span></a> (<span class="info">1</span> times)</li>
@@ -35,7 +38,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em>Coauthored <a href="../sle2022/paper10.html">Partial Parsing for Structured Editors</a></em> (<a href="../profile/TomBeckmann.html">Tom Beckmann</a>, <a href="../profile/PatrickRein.html">Patrick Rein</a>, <a href="../profile/ToniMattis.html"><span class="info">Toni Mattis</span></a>, <a href="../profile/RobertHirschfeld.html">Robert Hirschfeld</a>)</li></ul>
+<li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em>Coauthored <a href="../sle2022/paper10.html">Partial Parsing for Structured Editors</a></em> (<a href="../profile/TomBeckmann.html">Tom Beckmann</a>, <a href="../profile/PatrickRein.html">Patrick Rein</a>, <a href="../profile/ToniMattis.html"><span class="info">Toni Mattis</span></a>, <a href="../profile/RobertHirschfeld.html">Robert Hirschfeld</a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

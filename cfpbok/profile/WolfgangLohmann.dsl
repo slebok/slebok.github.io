@@ -2,7 +2,10 @@
 	<head title="Wolfgang Lohmann's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Wolfgang Lohmann <a href="https://openalex.org/A5007898443"><img src="../logos/openalex.png" alt="OpenAlex"></a> <a href="https://orcid.org/0000-0003-2552-9552"><img src="../logos/orcid.svg" alt="ORCID"></a></h1>
+		<h1>Wolfgang Lohmann
+<a href="https://openalex.org/A5007898443" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://orcid.org/0000-0003-2552-9552" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
+<a href="https://dblp.org/search?q=Wolfgang Lohmann" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../atem2006s/index.html"><img src="../atem.png" alt="ATEM 2006 SI"></a>
 			<figcaption>
@@ -17,7 +20,7 @@
 		<ul>
 
 		<li><span class="info">1</span> papers in <span class="info">1</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t1d.html"><span class="tagM">T1D: Composition</span></a> (<span class="info">1</span> times)</li>
 				<li><a href="../tag/t3c.html"><span class="tagM">T3C: DSLs</span></a> (<span class="info">1</span> times)</li>
@@ -34,7 +37,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../atem2006s/index.html">ATEM 2006 SI</a>)</span> <em>Coauthored <a href="../atem2006s/paper05.html">Aspect-Oriented Prolog in a Language Processing Context</a></em> (<a href="../profile/WolfgangLohmann.html"><span class="info">Wolfgang Lohmann</span></a>, <a href="../profile/GünterRiedewald.html">Günter Riedewald</a>, <a href="../profile/GuidoWachsmuth.html">Guido Wachsmuth</a>)</li></ul>
+<li><span class="info">(<a href="../atem2006s/index.html">ATEM 2006 SI</a>)</span> <em>Coauthored <a href="../atem2006s/paper05.html">Aspect-Oriented Prolog in a Language Processing Context</a></em> (<a href="../profile/WolfgangLohmann.html"><span class="info">Wolfgang Lohmann</span></a>, <a href="../profile/GünterRiedewald.html">Günter Riedewald</a>, <a href="../profile/GuidoWachsmuth.html">Guido Wachsmuth</a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

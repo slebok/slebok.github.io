@@ -2,7 +2,9 @@
 	<head title="Anneke Kleppe's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Anneke Kleppe <a href="https://dblp.org/pid/06/99.html"><img src="../logos/dblp.png" alt="DBLP"></a> <a href="https://openalex.org/A5033694926"><img src="../logos/openalex.png" alt="OpenAlex"></a></h1>
+		<h1>Anneke Kleppe
+<a href="https://dblp.org/pid/06/99.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
+<a href="https://openalex.org/A5033694926" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a></h1>
 		<figure class="small">
 			<a href="../sle2008/index.html"><img src="../sle.png" alt="SLE 2008"></a>
 			<figcaption>
@@ -26,7 +28,7 @@
 		<ul>
 
 		<li><span class="info">2</span> papers in <span class="info">2</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t4a.html"><span class="tagM">T4A: Workbenches</span></a> (<span class="info">2</span> times)</li>
 				<li><a href="../tag/t6d.html"><span class="tagM">T6D: Synergies</span></a> (<span class="info">1</span> times)</li>
@@ -43,9 +45,9 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2008/index.html">SLE 2008</a>)</span> <em>Authored <a href="../sle2008/keynote1.html">The Field of Software Language Engineering</a></em> (<a href="../profile/AnnekeKleppe.html"><span class="info">Anneke Kleppe</span></a>)</li>
+<li><span class="info">(<a href="../sle2008/index.html">SLE 2008</a>)</span> <em>Authored <a href="../sle2008/keynote1.html">The Field of Software Language Engineering</a></em> (<a href="../profile/AnnekeKleppe.html"><span class="info">Anneke Kleppe</span></a>) </li>
 <li><span class="info">(<a href="../sle2008/index.html">SLE 2008</a>)</span> Wrote a <a href="https://amzn.to/45TQVRP">Book</a></li>
-<li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em>Coauthored <a href="../sle2022/paper03.html">Freon: An Open Web Native Language Workbench</a></em> (<a href="../profile/JosWarmer.html">Jos Warmer</a>, <a href="../profile/AnnekeKleppe.html"><span class="info">Anneke Kleppe</span></a>)</li></ul>
+<li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em>Coauthored <a href="../sle2022/paper03.html">Freon: An Open Web Native Language Workbench</a></em> (<a href="../profile/JosWarmer.html">Jos Warmer</a>, <a href="../profile/AnnekeKleppe.html"><span class="info">Anneke Kleppe</span></a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

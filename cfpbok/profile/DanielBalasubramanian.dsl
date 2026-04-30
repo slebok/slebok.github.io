@@ -2,7 +2,10 @@
 	<head title="Daniel Balasubramanian's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Daniel Balasubramanian <a href="https://openalex.org/A5072480199"><img src="../logos/openalex.png" alt="OpenAlex"></a> <a href="https://orcid.org/0000-0002-7531-0594"><img src="../logos/orcid.svg" alt="ORCID"></a></h1>
+		<h1>Daniel Balasubramanian
+<a href="https://openalex.org/A5072480199" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://orcid.org/0000-0002-7531-0594" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
+<a href="https://dblp.org/search?q=Daniel Balasubramanian" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2009/index.html"><img src="../sle.png" alt="SLE 2009"></a>
 			<figcaption>
@@ -17,7 +20,7 @@
 		<ul>
 
 		<li><span class="info">1</span> papers in <span class="info">1</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t2b.html"><span class="tagM">T2B: Evolution</span></a> (<span class="info">1</span> times)</li>
 				<li><a href="../tag/t3b.html"><span class="tagM">T3B: Transformation Languages</span></a> (<span class="info">1</span> times)</li>
@@ -35,7 +38,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2009/index.html">SLE 2009</a>)</span> <em>Coauthored <a href="../sle2009/paper02.html">A Novel Approach to Semi-automated Evolution of DSML Model Transformation</a></em> (<a href="../profile/TihamérLevendovszky.html">Tihamér Levendovszky</a>, <a href="../profile/DanielBalasubramanian.html"><span class="info">Daniel Balasubramanian</span></a>, <a href="../profile/AnanthaNarayanan.html">Anantha Narayanan</a>, <a href="../profile/GáborKarsai.html">Gábor Karsai</a>)</li></ul>
+<li><span class="info">(<a href="../sle2009/index.html">SLE 2009</a>)</span> <em>Coauthored <a href="../sle2009/paper02.html">A Novel Approach to Semi-automated Evolution of DSML Model Transformation</a></em> (<a href="../profile/TihamérLevendovszky.html">Tihamér Levendovszky</a>, <a href="../profile/DanielBalasubramanian.html"><span class="info">Daniel Balasubramanian</span></a>, <a href="../profile/AnanthaNarayanan.html">Anantha Narayanan</a>, <a href="../profile/GáborKarsai.html">Gábor Karsai</a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

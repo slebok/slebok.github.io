@@ -2,7 +2,9 @@
 	<head title="Yonglun Li's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Yonglun Li <a href="https://openalex.org/A5044207598"><img src="../logos/openalex.png" alt="OpenAlex"></a></h1>
+		<h1>Yonglun Li
+<a href="https://openalex.org/A5044207598" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://dblp.org/search?q=Yonglun Li" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2021/index.html"><img src="../sle.png" alt="SLE 2021"></a>
 			<figcaption>
@@ -31,7 +33,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> <em>Coauthored <a href="../sle2021/paper04.html">A concurrency model for JavaScript with cooperative cancellation</a></em> (<a href="../profile/TianZhao.html">Tian Zhao</a>, <a href="../profile/YonglunLi.html"><span class="info">Yonglun Li</span></a>)</li></ul>
+<li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> <em>Coauthored <a href="../sle2021/paper04.html">A concurrency model for JavaScript with cooperative cancellation</a></em> (<a href="../profile/TianZhao.html">Tian Zhao</a>, <a href="../profile/YonglunLi.html"><span class="info">Yonglun Li</span></a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

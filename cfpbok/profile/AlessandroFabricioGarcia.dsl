@@ -2,7 +2,10 @@
 	<head title="Alessandro Fabricio Garcia's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Alessandro Fabricio Garcia <a href="https://dblp.org/pid/g/AlessandroFGarcia.html"><img src="../logos/dblp.png" alt="DBLP"></a> <a href="https://openalex.org/A5110611206"><img src="../logos/openalex.png" alt="OpenAlex"></a> <a href="https://scholar.google.com/citations?user=rP1LYboAAAAJ"><img src="../logos/gs.png" alt="Google Scholar"></a></h1>
+		<h1>Alessandro Fabricio Garcia
+<a href="https://dblp.org/pid/g/AlessandroFGarcia.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
+<a href="https://openalex.org/A5110611206" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://scholar.google.com/citations?user=rP1LYboAAAAJ" title="Google Scholar"><img src="../logos/gs.png" alt="Google Scholar"></a></h1>
 		<figure class="small">
 			<a href="../sle2008/index.html"><img src="../sle.png" alt="SLE 2008"></a>
 			<figcaption>
@@ -25,7 +28,7 @@
 		<ul>
 
 		<li><span class="info">2</span> papers in <span class="info">2</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t2c.html"><span class="tagM">T2C: Variability</span></a> (<span class="info">2</span> times)</li>
 				<li><a href="../tag/t3c.html"><span class="tagM">T3C: DSLs</span></a> (<span class="info">1</span> times)</li>
@@ -43,8 +46,8 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2008/index.html">SLE 2008</a>)</span> <em>Coauthored <a href="../sle2008/paper11.html">Engineering Languages for Specifying Product-Derivation Processes in Software Product Lines</a></em> (<a href="../profile/PabloSánchez.html">Pablo Sánchez</a>, <a href="../profile/NeilLoughran.html">Neil Loughran</a>, <a href="../profile/LidiaFuentes.html">Lidia Fuentes</a>, <a href="../profile/AlessandroFabricioGarcia.html"><span class="info">Alessandro Fabricio Garcia</span></a>)</li>
-<li><span class="info">(<a href="../sle2009/index.html">SLE 2009</a>)</span> <em>Coauthored <a href="../sle2009/paper06.html">Multi-view Composition Language for Software Product Line Requirements</a></em> (<a href="../profile/MauricioAlférez.html">Mauricio Alférez</a>, <a href="../profile/JõaoSantos.html">Jõao Santos</a>, <a href="../profile/AnaMoreira.html">Ana Moreira</a>, <a href="../profile/AlessandroFabricioGarcia.html"><span class="info">Alessandro Fabricio Garcia</span></a>, <a href="../profile/UiráKulesza.html">Uirá Kulesza</a>, <a href="../profile/JoãoAraújo.html">João Araújo</a>, <a href="../profile/VascoAmaral.html">Vasco Amaral</a>)</li></ul>
+<li><span class="info">(<a href="../sle2008/index.html">SLE 2008</a>)</span> <em>Coauthored <a href="../sle2008/paper11.html">Engineering Languages for Specifying Product-Derivation Processes in Software Product Lines</a></em> (<a href="../profile/PabloSánchez.html">Pablo Sánchez</a>, <a href="../profile/NeilLoughran.html">Neil Loughran</a>, <a href="../profile/LidiaFuentes.html">Lidia Fuentes</a>, <a href="../profile/AlessandroFabricioGarcia.html"><span class="info">Alessandro Fabricio Garcia</span></a>) </li>
+<li><span class="info">(<a href="../sle2009/index.html">SLE 2009</a>)</span> <em>Coauthored <a href="../sle2009/paper06.html">Multi-view Composition Language for Software Product Line Requirements</a></em> (<a href="../profile/MauricioAlférez.html">Mauricio Alférez</a>, <a href="../profile/JõaoSantos.html">Jõao Santos</a>, <a href="../profile/AnaMoreira.html">Ana Moreira</a>, <a href="../profile/AlessandroFabricioGarcia.html"><span class="info">Alessandro Fabricio Garcia</span></a>, <a href="../profile/UiráKulesza.html">Uirá Kulesza</a>, <a href="../profile/JoãoAraújo.html">João Araújo</a>, <a href="../profile/VascoAmaral.html">Vasco Amaral</a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

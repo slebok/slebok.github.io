@@ -2,7 +2,7 @@
 	<head title="CfPBoK for SLE 2020" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<div class="right"><img src="../sle.png" alt="SLE 2020 logo"></div>
+		<div class="right"><a href="../index.html"><img src="../sle.png" alt="SLE 2020 logo"></a></div>
 			<h1>SLE 2020</h1>
 			<ul>
 				<li><a href="#cfp">Call for Papers</a></li>
@@ -11,7 +11,7 @@
 				<li>Tags requested: <ul><li><a href="../tag/t1a.html"><span class="tagM" title="T1A: Design">T1A</span></a> <a href="../tag/t1b.html"><span class="tagM" title="T1B: Static Semantics">T1B</span></a> <a href="../tag/t1c.html"><span class="tagM" title="T1C: Behavioural Semantics">T1C</span></a> <a href="../tag/t1d.html"><span class="tagM" title="T1D: Composition">T1D</span></a> <a href="../tag/t1e.html"><span class="tagM" title="T1E: Reuse">T1E</span></a> <a href="../tag/t2b.html"><span class="tagM" title="T2B: Evolution">T2B</span></a> <a href="../tag/t2c.html"><span class="tagM" title="T2C: Variability">T2C</span></a> <a href="../tag/t2d.html"><span class="tagM" title="T2D: Deployment">T2D</span></a> <a href="../tag/t3a.html"><span class="tagM" title="T3A: Meta-languages">T3A</span></a> <a href="../tag/t3b.html"><span class="tagM" title="T3B: Transformation Languages">T3B</span></a> <a href="../tag/t3c.html"><span class="tagM" title="T3C: DSLs">T3C</span></a> <a href="../tag/t4a.html"><span class="tagM" title="T4A: Workbenches">T4A</span></a> <a href="../tag/t4b.html"><span class="tagM" title="T4B: Horizontal Transformation">T4B</span></a> <a href="../tag/t4c.html"><span class="tagM" title="T4C: Vertical Transformation">T4C</span></a> <a href="../tag/t4e.html"><span class="tagM" title="T4E: Simulation">T4E</span></a> <a href="../tag/t5c.html"><span class="tagM" title="T5C: Testing">T5C</span></a> <a href="../tag/t5d.html"><span class="tagM" title="T5D: Formal Methods">T5D</span></a> <a href="../tag/t5e.html"><span class="tagM" title="T5E: Empirical Evaluation">T5E</span></a> <a href="../tag/t5f.html"><span class="tagM" title="T5F: Performance">T5F</span></a> <a href="../tag/t5g.html"><span class="tagM" title="T5G: Traceability">T5G</span></a> <a href="../tag/t5h.html"><span class="tagM" title="T5H: Usability">T5H</span></a> <a href="../tag/t6a.html"><span class="tagM" title="T6A: Experience Reports">T6A</span></a> <a href="../tag/t6b.html"><span class="tagM" title="T6B: Industrial">T6B</span></a> <a href="../tag/t6d.html"><span class="tagM" title="T6D: Synergies">T6D</span></a> </li></ul></li>
 <li>Tags received: <ul><li><a href="../tag/t1a.html"><span class="tagM" title="T1A: Design">T1A</span></a> <a href="../tag/t1b.html"><span class="tagM" title="T1B: Static Semantics">T1B</span></a> <a href="../tag/t1c.html"><span class="tagM" title="T1C: Behavioural Semantics">T1C</span></a> <a href="../tag/t1d.html"><span class="tagL" title="T1D: Composition">T1D</span></a> <a href="../tag/t2a.html"><span class="tagL" title="T2A: Lifecycle">T2A</span></a> <a href="../tag/t3a.html"><span class="tagM" title="T3A: Meta-languages">T3A</span></a> <a href="../tag/t3b.html"><span class="tagM" title="T3B: Transformation Languages">T3B</span></a> <a href="../tag/t3c.html"><span class="tagM" title="T3C: DSLs">T3C</span></a> <a href="../tag/t4a.html"><span class="tagM" title="T4A: Workbenches">T4A</span></a> <a href="../tag/t4b.html"><span class="tagL" title="T4B: Horizontal Transformation">T4B</span></a> <a href="../tag/t4c.html"><span class="tagL" title="T4C: Vertical Transformation">T4C</span></a> <a href="../tag/t4d.html"><span class="tagL" title="T4D: Interpretation">T4D</span></a> <a href="../tag/t5d.html"><span class="tagL" title="T5D: Formal Methods">T5D</span></a> <a href="../tag/t5e.html"><span class="tagL" title="T5E: Empirical Evaluation">T5E</span></a> <a href="../tag/t5h.html"><span class="tagL" title="T5H: Usability">T5H</span></a> <a href="../tag/t6b.html"><span class="tagL" title="T6B: Industrial">T6B</span></a> </li></ul></li>
 			</ul>
-<h2 id="cfp">Call for Papers (<a href="http://www.sleconf.org/2020/CFP.html">source</a>)</h2>
+<h2 id="cfp">Call for Papers (<a href="http://www.sleconf.org/2020/CFP.html">source</a>, 35 taggings)</h2>
 <p>
 </p>
 <h3>Types of Submissions</h3>
@@ -70,143 +70,143 @@
 <li><span class="term">Performance benchmarks</span><span class="tag" title="T5F: Performance"><a href="../tag/t5f.html">T5F</a></span></li>
 <li><span class="term">Industrial applications</span><span class="tag" title="T6B: Industrial"><a href="../tag/t6b.html">T6B</a></span></li>
 </ul>
-</ul><h2 id="lop">List of Papers (<a href="https://dblp.org/db/conf/sle/sle2020.html">source</a>)</h2>
+</ul><h2 id="lop">List of Papers (21, <a href="https://dblp.org/db/conf/sle/sle2020.html">source</a>)</h2>
 <ul class="lop">
 
-<li><em><a href="paper01.html">A Family of Languages for Trustworthy Agent-Based Simulation</a></em> (<a href="../profile/SteffenZschaler.html">Steffen Zschaler</a>, <a href="../profile/FionaPolack.html">Fiona Polack</a>)
+<li><em><a href="paper01.html">A Family of Languages for Trustworthy Agent-Based Simulation</a></em> (<a href="../profile/SteffenZschaler.html">Steffen Zschaler</a>, <a href="../profile/FionaPolack.html">Fiona Polack</a>) 
 <ul><li>
 <a href="../tag/t3c.html"><span class="tagM" title="The paper mainly targets domain-specific languages or modeling languages, including their design or use.">T3C: DSLs</span></a>
 <a href="../tag/t4a.html"><span class="tagL" title="It includes substantial tool support or infrastructure relevant for engineering/using languages.">T4A: Workbenches</span></a>
 <a href="../tag/t5e.html"><span class="tagL" title="It reports an empirical evaluation (experiments, study, benchmarks, or measurements).">T5E: Empirical Evaluation</span></a>
 </li></ul></li>
-<li><em><a href="paper02.html">An Interactive Feedback System for Grammar Development (tool paper)</a></em> (<a href="../profile/ChelseaBarraball.html">Chelsea Barraball</a>, <a href="../profile/MoeketsiRaselimo.html">Moeketsi Raselimo</a>, <a href="../profile/BerndFischer.html">Bernd Fischer</a>)
+<li><em><a href="paper02.html">An Interactive Feedback System for Grammar Development (tool paper)</a></em> (<a href="../profile/ChelseaBarraball.html">Chelsea Barraball</a>, <a href="../profile/MoeketsiRaselimo.html">Moeketsi Raselimo</a>, <a href="../profile/BerndFischer.html">Bernd Fischer</a>) 
 <ul><li>
 <a href="../tag/t1a.html"><span class="tagM" title="The paper primarily contributes techniques for language definition (often syntax-related) as part of language design.">T1A: Design</span></a>
 <a href="../tag/t4a.html"><span class="tagL" title="It includes substantial tool support or infrastructure relevant for engineering/using languages.">T4A: Workbenches</span></a>
 <a href="../tag/t4b.html"><span class="tagL" title="It performs mapping/conversion/synchronization between representations (horizontal transformations).">T4B: Horizontal Transformation</span></a>
 <a href="../tag/t5h.html"><span class="tagL" title="It targets usability (developer interaction, comprehension, editing experience).">T5H: Usability</span></a>
 </li></ul></li>
-<li><em><a href="paper03.html">Example-Driven Software Language Engineering</a></em> (<a href="../profile/MikhailBarash.html">Mikhail Barash</a>)
+<li><em><a href="paper03.html">Example-Driven Software Language Engineering</a></em> (<a href="../profile/MikhailBarash.html">Mikhail Barash</a>) 
 <ul><li>
 <a href="../tag/t1b.html"><span class="tagM" title="The paper’s main contribution concerns static semantics, especially typing or constraint checking.">T1B: Static Semantics</span></a>
 <a href="../tag/t4a.html"><span class="tagL" title="It includes substantial tool support or infrastructure relevant for engineering/using languages.">T4A: Workbenches</span></a>
 <a href="../tag/t4b.html"><span class="tagL" title="It performs mapping/conversion/synchronization between representations (horizontal transformations).">T4B: Horizontal Transformation</span></a>
 <a href="../tag/t5h.html"><span class="tagL" title="It targets usability (developer interaction, comprehension, editing experience).">T5H: Usability</span></a>
 </li></ul></li>
-<li><em><a href="paper04.html">Test Case Generation from Context-Free Grammars using Generalized Traversal of LR-automata</a></em> (<a href="../profile/ChristoffRossouw.html">Christoff Rossouw</a>, <a href="../profile/BerndFischer.html">Bernd Fischer</a>)
+<li><em><a href="paper04.html">Test Case Generation from Context-Free Grammars using Generalized Traversal of LR-automata</a></em> (<a href="../profile/ChristoffRossouw.html">Christoff Rossouw</a>, <a href="../profile/BerndFischer.html">Bernd Fischer</a>) 
 <ul><li>
 <a href="../tag/t1a.html"><span class="tagM" title="The paper primarily contributes techniques for language definition (often syntax-related) as part of language design.">T1A: Design</span></a>
 <a href="../tag/t4c.html"><span class="tagL" title="It uses compilation/generation/refinement to derive executable artifacts (vertical transformations).">T4C: Vertical Transformation</span></a>
 <a href="../tag/t4d.html"><span class="tagL" title="It concerns runtime interpretation/execution (interpreters, debuggers, runtime services).">T4D: Interpretation</span></a>
 <a href="../tag/t6b.html"><span class="tagL" title="It is motivated by or evaluated in an industrial/practical context.">T6B: Industrial</span></a>
 </li></ul></li>
-<li><em><a href="paper05.html">Towards the Optical Character Recognition of DSLs</a></em> (<a href="../profile/JorgePerianezPascual.html">Jorge Perianez-Pascual</a>, <a href="../profile/RobertoRodríguezEcheverría.html">Roberto Rodríguez-Echeverría</a>, <a href="../profile/LoliBurgueño.html">Loli Burgueño</a>, <a href="../profile/JordiCabot.html">Jordi Cabot</a>)
+<li><em><a href="paper05.html">Towards the Optical Character Recognition of DSLs</a></em> (<a href="../profile/JorgePerianezPascual.html">Jorge Perianez-Pascual</a>, <a href="../profile/RobertoRodríguezEcheverría.html">Roberto Rodríguez-Echeverría</a>, <a href="../profile/LoliBurgueño.html">Loli Burgueño</a>, <a href="../profile/JordiCabot.html">Jordi Cabot</a>) 
 <ul><li>
 <a href="../tag/t3c.html"><span class="tagM" title="The paper mainly targets domain-specific languages or modeling languages, including their design or use.">T3C: DSLs</span></a>
 <a href="../tag/t4a.html"><span class="tagL" title="It includes substantial tool support or infrastructure relevant for engineering/using languages.">T4A: Workbenches</span></a>
 <a href="../tag/t5e.html"><span class="tagL" title="It reports an empirical evaluation (experiments, study, benchmarks, or measurements).">T5E: Empirical Evaluation</span></a>
 </li></ul></li>
-<li><em><a href="paper06.html">Block-Based Syntax from Context-Free Grammars</a></em> (<a href="../profile/MauricioVeranoMerino.html">Mauricio Verano Merino</a>, <a href="../profile/TijsvanderStorm.html">Tijs van der Storm</a>)
+<li><em><a href="paper06.html">Block-Based Syntax from Context-Free Grammars</a></em> (<a href="../profile/MauricioVeranoMerino.html">Mauricio Verano Merino</a>, <a href="../profile/TijsvanderStorm.html">Tijs van der Storm</a>) 
 <ul><li>
 <a href="../tag/t3c.html"><span class="tagM" title="The paper mainly targets domain-specific languages or modeling languages, including their design or use.">T3C: DSLs</span></a>
 <a href="../tag/t4a.html"><span class="tagL" title="It includes substantial tool support or infrastructure relevant for engineering/using languages.">T4A: Workbenches</span></a>
 <a href="../tag/t4c.html"><span class="tagL" title="It uses compilation/generation/refinement to derive executable artifacts (vertical transformations).">T4C: Vertical Transformation</span></a>
 <a href="../tag/t5h.html"><span class="tagL" title="It targets usability (developer interaction, comprehension, editing experience).">T5H: Usability</span></a>
 </li></ul></li>
-<li><em><a href="paper07.html">Modular and Distributed IDE</a></em> (<a href="../profile/FabienCoulon.html">Fabien Coulon</a>, <a href="../profile/AlexAuvolat.html">Alex Auvolat</a>, <a href="../profile/BenoîtCombemale.html">Benoît Combemale</a>, <a href="../profile/YéromDavidBromberg.html">Yérom-David Bromberg</a>, <a href="../profile/FrançoisTaïani.html">François Taïani</a>, <a href="../profile/OlivierBarais.html">Olivier Barais</a>, <a href="../profile/NoëlPlouzeau.html">Noël Plouzeau</a>)
+<li><em><a href="paper07.html">Modular and Distributed IDE</a></em> (<a href="../profile/FabienCoulon.html">Fabien Coulon</a>, <a href="../profile/AlexAuvolat.html">Alex Auvolat</a>, <a href="../profile/BenoîtCombemale.html">Benoît Combemale</a>, <a href="../profile/YéromDavidBromberg.html">Yérom-David Bromberg</a>, <a href="../profile/FrançoisTaïani.html">François Taïani</a>, <a href="../profile/OlivierBarais.html">Olivier Barais</a>, <a href="../profile/NoëlPlouzeau.html">Noël Plouzeau</a>) 
 <ul><li>
 <a href="../tag/t4a.html"><span class="tagM" title="The paper’s core contribution is tooling/infrastructure for language engineering (e.g., IDE/editor support).">T4A: Workbenches</span></a>
 <a href="../tag/t1d.html"><span class="tagL" title="It emphasizes modularity/composition/integration (embedding or coordinating language components).">T1D: Composition</span></a>
 <a href="../tag/t4c.html"><span class="tagL" title="It uses compilation/generation/refinement to derive executable artifacts (vertical transformations).">T4C: Vertical Transformation</span></a>
 <a href="../tag/t4d.html"><span class="tagL" title="It concerns runtime interpretation/execution (interpreters, debuggers, runtime services).">T4D: Interpretation</span></a>
 </li></ul></li>
-<li><em><a href="paper08.html">Behavior Trees in Action: A Study of Robotics Applications</a></em> (<a href="../profile/RazanGhzouli.html">Razan Ghzouli</a>, <a href="../profile/ThorstenBerger.html">Thorsten Berger</a>, <a href="../profile/EinarBrochJohnsen.html">Einar Broch Johnsen</a>, <a href="../profile/SwaibDragule.html">Swaib Dragule</a>, <a href="../profile/AndrzejWąsowski.html">Andrzej Wąsowski</a>)
+<li><em><a href="paper08.html">Behavior Trees in Action: A Study of Robotics Applications</a></em> (<a href="../profile/RazanGhzouli.html">Razan Ghzouli</a>, <a href="../profile/ThorstenBerger.html">Thorsten Berger</a>, <a href="../profile/EinarBrochJohnsen.html">Einar Broch Johnsen</a>, <a href="../profile/SwaibDragule.html">Swaib Dragule</a>, <a href="../profile/AndrzejWąsowski.html">Andrzej Wąsowski</a>) 
 <ul><li>
 <a href="../tag/t4a.html"><span class="tagM" title="The paper’s core contribution is tooling/infrastructure for language engineering (e.g., IDE/editor support).">T4A: Workbenches</span></a>
 <a href="../tag/t5e.html"><span class="tagL" title="It reports an empirical evaluation (experiments, study, benchmarks, or measurements).">T5E: Empirical Evaluation</span></a>
 <a href="../tag/t1d.html"><span class="tagL" title="It emphasizes modularity/composition/integration (embedding or coordinating language components).">T1D: Composition</span></a>
 <a href="../tag/t6b.html"><span class="tagL" title="It is motivated by or evaluated in an industrial/practical context.">T6B: Industrial</span></a>
 </li></ul></li>
-<li><em><a href="paper09.html">Software Language Engineers’ Worst Nightmare</a></em> (<a href="../profile/VadimZaytsev.html">Vadim Zaytsev</a>)
+<li><em><a href="paper09.html">Software Language Engineers’ Worst Nightmare</a></em> (<a href="../profile/VadimZaytsev.html">Vadim Zaytsev</a>) 
 <ul><li>
 <a href="../tag/t1a.html"><span class="tagM" title="The main contribution of the paper is to design a language called BabyCobol.">T1A: Design</span></a>
 <a href="../tag/t3c.html"><span class="tagL" title="BabyCobol is a domain-specific language.">T3C: DSLs</span></a>
 <a href="../tag/t2a.html"><span class="tagL" title="The domain for this language design experience is legacy software.">T2A: Lifecycle</span></a>
 </li></ul></li>
-<li><em><a href="paper10.html">Featherweight Swift: A Core Calculus for Swift’s Type System</a></em> (<a href="../profile/DimiRacordon.html">Dimi Racordon</a>, <a href="../profile/DidierBuchs.html">Didier Buchs</a>)
+<li><em><a href="paper10.html">Featherweight Swift: A Core Calculus for Swift’s Type System</a></em> (<a href="../profile/DimiRacordon.html">Dimi Racordon</a>, <a href="../profile/DidierBuchs.html">Didier Buchs</a>) 
 <ul><li>
 <a href="../tag/t1b.html"><span class="tagM" title="The paper’s main contribution concerns static semantics, especially typing or constraint checking.">T1B: Static Semantics</span></a>
 <a href="../tag/t4a.html"><span class="tagL" title="It includes substantial tool support or infrastructure relevant for engineering/using languages.">T4A: Workbenches</span></a>
 <a href="../tag/t5d.html"><span class="tagL" title="It relies on formal methods (definitions/proofs/semantic properties) beyond informal description.">T5D: Formal Methods</span></a>
 <a href="../tag/t5h.html"><span class="tagL" title="It targets usability (developer interaction, comprehension, editing experience).">T5H: Usability</span></a>
 </li></ul></li>
-<li><em><a href="paper11.html">Gradually Typing Strategies</a></em> (<a href="../profile/JeffSmits.html">Jeff Smits</a>, <a href="../profile/EelcoVisser.html">Eelco Visser</a>)
+<li><em><a href="paper11.html">Gradually Typing Strategies</a></em> (<a href="../profile/JeffSmits.html">Jeff Smits</a>, <a href="../profile/EelcoVisser.html">Eelco Visser</a>) 
 <ul><li>
 <a href="../tag/t1b.html"><span class="tagM" title="The paper’s main contribution concerns static semantics, especially typing or constraint checking.">T1B: Static Semantics</span></a>
 <a href="../tag/t4a.html"><span class="tagL" title="It includes substantial tool support or infrastructure relevant for engineering/using languages.">T4A: Workbenches</span></a>
 <a href="../tag/t5d.html"><span class="tagL" title="It relies on formal methods (definitions/proofs/semantic properties) beyond informal description.">T5D: Formal Methods</span></a>
 <a href="../tag/t4b.html"><span class="tagL" title="It performs mapping/conversion/synchronization between representations (horizontal transformations).">T4B: Horizontal Transformation</span></a>
 </li></ul></li>
-<li><em><a href="paper12.html">Principles and Patterns of JastAdd-style Reference Attribute Grammars</a></em> (<a href="../profile/NiklasFors.html">Niklas Fors</a>, <a href="../profile/EmmaSöderberg.html">Emma Söderberg</a>, <a href="../profile/GörelHedin.html">Görel Hedin</a>)
+<li><em><a href="paper12.html">Principles and Patterns of JastAdd-style Reference Attribute Grammars</a></em> (<a href="../profile/NiklasFors.html">Niklas Fors</a>, <a href="../profile/EmmaSöderberg.html">Emma Söderberg</a>, <a href="../profile/GörelHedin.html">Görel Hedin</a>) 
 <ul><li>
 <a href="../tag/t3a.html"><span class="tagM" title="The paper proposes or uses a meta-language/formalism for defining or analyzing language artifacts.">T3A: Meta-languages</span></a>
 <a href="../tag/t4a.html"><span class="tagL" title="It includes substantial tool support or infrastructure relevant for engineering/using languages.">T4A: Workbenches</span></a>
 <a href="../tag/t5e.html"><span class="tagL" title="It reports an empirical evaluation (experiments, study, benchmarks, or measurements).">T5E: Empirical Evaluation</span></a>
 <a href="../tag/t5h.html"><span class="tagL" title="It targets usability (developer interaction, comprehension, editing experience).">T5H: Usability</span></a>
 </li></ul></li>
-<li><em><a href="paper13.html">A Search-Based and Fault-Tolerant Approach to Concurrent Model Synchronisation</a></em> (<a href="../profile/NilsBWeidmann.html">Nils B. Weidmann</a>, <a href="../profile/LarsFritsche.html">Lars Fritsche</a>, <a href="../profile/AnthonyAnjorin.html">Anthony Anjorin</a>)
+<li><em><a href="paper13.html">A Search-Based and Fault-Tolerant Approach to Concurrent Model Synchronisation</a></em> (<a href="../profile/NilsBWeidmann.html">Nils B. Weidmann</a>, <a href="../profile/LarsFritsche.html">Lars Fritsche</a>, <a href="../profile/AnthonyAnjorin.html">Anthony Anjorin</a>) 
 <ul><li>
 <a href="../tag/t3b.html"><span class="tagM" title="The paper’s central topic is specifying or applying transformations (rewriting/mapping/synchronization).">T3B: Transformation Languages</span></a>
 <a href="../tag/t4b.html"><span class="tagL" title="It performs mapping/conversion/synchronization between representations (horizontal transformations).">T4B: Horizontal Transformation</span></a>
 <a href="../tag/t5h.html"><span class="tagL" title="It targets usability (developer interaction, comprehension, editing experience).">T5H: Usability</span></a>
 </li></ul></li>
-<li><em><a href="paper14.html">A Semantic Framework for PEGs</a></em> (<a href="../profile/SérgioQueirózdeMedeiros.html">Sérgio Queiróz de Medeiros</a>, <a href="../profile/CarlosOlarte.html">Carlos Olarte</a>)
+<li><em><a href="paper14.html">A Semantic Framework for PEGs</a></em> (<a href="../profile/SérgioQueirózdeMedeiros.html">Sérgio Queiróz de Medeiros</a>, <a href="../profile/CarlosOlarte.html">Carlos Olarte</a>) 
 <ul><li>
 <a href="../tag/t1c.html"><span class="tagM" title="The paper primarily develops behavioural/executable semantics or ways to execute semantic definitions.">T1C: Behavioural Semantics</span></a>
 <a href="../tag/t4a.html"><span class="tagL" title="It includes substantial tool support or infrastructure relevant for engineering/using languages.">T4A: Workbenches</span></a>
 <a href="../tag/t5d.html"><span class="tagL" title="It relies on formal methods (definitions/proofs/semantic properties) beyond informal description.">T5D: Formal Methods</span></a>
 </li></ul></li>
-<li><em><a href="paper15.html">A Precedence-Driven Approach for Concurrent Model Synchronization Scenarios using Triple Graph Grammars</a></em> (<a href="../profile/LarsFritsche.html">Lars Fritsche</a>, <a href="../profile/JensKosiol.html">Jens Kosiol</a>, <a href="../profile/AdrianMöller.html">Adrian Möller</a>, <a href="../profile/AndySchürr.html">Andy Schürr</a>, <a href="../profile/GabrieleTaentzer.html">Gabriele Taentzer</a>)
+<li><em><a href="paper15.html">A Precedence-Driven Approach for Concurrent Model Synchronization Scenarios using Triple Graph Grammars</a></em> (<a href="../profile/LarsFritsche.html">Lars Fritsche</a>, <a href="../profile/JensKosiol.html">Jens Kosiol</a>, <a href="../profile/AdrianMöller.html">Adrian Möller</a>, <a href="../profile/AndySchürr.html">Andy Schürr</a>, <a href="../profile/GabrieleTaentzer.html">Gabriele Taentzer</a>) 
 <ul><li>
 <a href="../tag/t3b.html"><span class="tagM" title="The paper’s central topic is specifying or applying transformations (rewriting/mapping/synchronization).">T3B: Transformation Languages</span></a>
 <a href="../tag/t4a.html"><span class="tagL" title="It includes substantial tool support or infrastructure relevant for engineering/using languages.">T4A: Workbenches</span></a>
 <a href="../tag/t5d.html"><span class="tagL" title="It relies on formal methods (definitions/proofs/semantic properties) beyond informal description.">T5D: Formal Methods</span></a>
 <a href="../tag/t4b.html"><span class="tagL" title="It performs mapping/conversion/synchronization between representations (horizontal transformations).">T4B: Horizontal Transformation</span></a>
 </li></ul></li>
-<li><em><a href="paper16.html">Annotating Executable DSLs with Energy Estimation Formulas</a></em> (<a href="../profile/ThibaultBézierslaFosse.html">Thibault Béziers la Fosse</a>, <a href="../profile/MassimoTisi.html">Massimo Tisi</a>, <a href="../profile/JeanMarieMottu.html">Jean-Marie Mottu</a>, <a href="../profile/GersonSunyé.html">Gerson Sunyé</a>)
+<li><em><a href="paper16.html">Annotating Executable DSLs with Energy Estimation Formulas</a></em> (<a href="../profile/ThibaultBézierslaFosse.html">Thibault Béziers la Fosse</a>, <a href="../profile/MassimoTisi.html">Massimo Tisi</a>, <a href="../profile/JeanMarieMottu.html">Jean-Marie Mottu</a>, <a href="../profile/GersonSunyé.html">Gerson Sunyé</a>) 
 <ul><li>
 <a href="../tag/t3c.html"><span class="tagM" title="The paper mainly targets domain-specific languages or modeling languages, including their design or use.">T3C: DSLs</span></a>
 <a href="../tag/t4a.html"><span class="tagL" title="It includes substantial tool support or infrastructure relevant for engineering/using languages.">T4A: Workbenches</span></a>
 <a href="../tag/t1d.html"><span class="tagL" title="It emphasizes modularity/composition/integration (embedding or coordinating language components).">T1D: Composition</span></a>
 <a href="../tag/t4d.html"><span class="tagL" title="It concerns runtime interpretation/execution (interpreters, debuggers, runtime services).">T4D: Interpretation</span></a>
 </li></ul></li>
-<li><em><a href="paper17.html">Grammar-Based Testing for Little Languages: An Experience Report with Student Compilers</a></em> (<a href="../profile/PhillipvanHeerden.html">Phillip van Heerden</a>, <a href="../profile/MoeketsiRaselimo.html">Moeketsi Raselimo</a>, <a href="../profile/KonstantinosSagonas.html">Konstantinos Sagonas</a>, <a href="../profile/BerndFischer.html">Bernd Fischer</a>)
+<li><em><a href="paper17.html">Grammar-Based Testing for Little Languages: An Experience Report with Student Compilers</a></em> (<a href="../profile/PhillipvanHeerden.html">Phillip van Heerden</a>, <a href="../profile/MoeketsiRaselimo.html">Moeketsi Raselimo</a>, <a href="../profile/KonstantinosSagonas.html">Konstantinos Sagonas</a>, <a href="../profile/BerndFischer.html">Bernd Fischer</a>) 
 <ul><li>
 <a href="../tag/t1b.html"><span class="tagM" title="The paper’s main contribution concerns static semantics, especially typing or constraint checking.">T1B: Static Semantics</span></a>
 <a href="../tag/t4a.html"><span class="tagL" title="It includes substantial tool support or infrastructure relevant for engineering/using languages.">T4A: Workbenches</span></a>
 <a href="../tag/t4b.html"><span class="tagL" title="It performs mapping/conversion/synchronization between representations (horizontal transformations).">T4B: Horizontal Transformation</span></a>
 <a href="../tag/t4c.html"><span class="tagL" title="It uses compilation/generation/refinement to derive executable artifacts (vertical transformations).">T4C: Vertical Transformation</span></a>
 </li></ul></li>
-<li><em><a href="paper18.html">Extrinsically Typed Operational Semantics for Functional Languages</a></em> (<a href="../profile/MatteoCimini.html">Matteo Cimini</a>, <a href="../profile/DaleMiller.html">Dale Miller</a>, <a href="../profile/JeremyGSiek.html">Jeremy G. Siek</a>)
+<li><em><a href="paper18.html">Extrinsically Typed Operational Semantics for Functional Languages</a></em> (<a href="../profile/MatteoCimini.html">Matteo Cimini</a>, <a href="../profile/DaleMiller.html">Dale Miller</a>, <a href="../profile/JeremyGSiek.html">Jeremy G. Siek</a>) 
 <ul><li>
 <a href="../tag/t1b.html"><span class="tagM" title="The paper’s main contribution concerns static semantics, especially typing or constraint checking.">T1B: Static Semantics</span></a>
 <a href="../tag/t4a.html"><span class="tagL" title="It includes substantial tool support or infrastructure relevant for engineering/using languages.">T4A: Workbenches</span></a>
 <a href="../tag/t5d.html"><span class="tagL" title="It relies on formal methods (definitions/proofs/semantic properties) beyond informal description.">T5D: Formal Methods</span></a>
 <a href="../tag/t4c.html"><span class="tagL" title="It uses compilation/generation/refinement to derive executable artifacts (vertical transformations).">T4C: Vertical Transformation</span></a>
 </li></ul></li>
-<li><em><a href="paper19.html">Strategic Tree Rewriting in Attribute Grammars</a></em> (<a href="../profile/LucasKramer.html">Lucas Kramer</a>, <a href="../profile/EricVanWyk.html">Eric Van Wyk</a>)
+<li><em><a href="paper19.html">Strategic Tree Rewriting in Attribute Grammars</a></em> (<a href="../profile/LucasKramer.html">Lucas Kramer</a>, <a href="../profile/EricVanWyk.html">Eric Van Wyk</a>) 
 <ul><li>
 <a href="../tag/t3a.html"><span class="tagM" title="The paper proposes or uses a meta-language/formalism for defining or analyzing language artifacts.">T3A: Meta-languages</span></a>
 <a href="../tag/t4b.html"><span class="tagL" title="It performs mapping/conversion/synchronization between representations (horizontal transformations).">T4B: Horizontal Transformation</span></a>
 </li></ul></li>
-<li><em><a href="paper20.html">Untangling Mechanized Proofs</a></em> (<a href="../profile/ClémentPitClaudel.html">Clément Pit-Claudel</a>)
+<li><em><a href="paper20.html">Untangling Mechanized Proofs</a></em> (<a href="../profile/ClémentPitClaudel.html">Clément Pit-Claudel</a>) 
 <ul><li>
 <a href="../tag/t1a.html"><span class="tagM" title="The paper primarily contributes language design techniques or decisions.">T1A: Design</span></a>
 <a href="../tag/t5d.html"><span class="tagL" title="It relies on formal methods (definitions/proofs/semantic properties) beyond informal description.">T5D: Formal Methods</span></a>
 <a href="../tag/t4c.html"><span class="tagL" title="It uses compilation/generation/refinement to derive executable artifacts (vertical transformations).">T4C: Vertical Transformation</span></a>
 <a href="../tag/t4d.html"><span class="tagL" title="It concerns runtime interpretation/execution (interpreters, debuggers, runtime services).">T4D: Interpretation</span></a>
 </li></ul></li>
-<li><em><a href="paper21.html">Monadification of Attribute Grammars</a></em> (<a href="../profile/DawnMichaelson.html">Dawn Michaelson</a>, <a href="../profile/EricVanWyk.html">Eric Van Wyk</a>)
+<li><em><a href="paper21.html">Monadification of Attribute Grammars</a></em> (<a href="../profile/DawnMichaelson.html">Dawn Michaelson</a>, <a href="../profile/EricVanWyk.html">Eric Van Wyk</a>) 
 <ul><li>
 <a href="../tag/t1b.html"><span class="tagM" title="The paper’s main contribution concerns static semantics, especially typing or constraint checking.">T1B: Static Semantics</span></a>
 <a href="../tag/t4a.html"><span class="tagL" title="It includes substantial tool support or infrastructure relevant for engineering/using languages.">T4A: Workbenches</span></a>

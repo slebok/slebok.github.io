@@ -2,7 +2,7 @@
 	<head title="Andreas Winter's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Andreas Winter</h1>
+		<h1>Andreas Winter<a href="https://dblp.org/search?q=Andreas Winter" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../atem2006s/index.html"><img src="../atem.png" alt="ATEM 2006 SI"></a>
 			<figcaption>

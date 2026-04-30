@@ -2,7 +2,10 @@
 	<head title="Bruno Barroca's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Bruno Barroca <a href="https://openalex.org/A5081180341"><img src="../logos/openalex.png" alt="OpenAlex"></a> <a href="https://orcid.org/0000-0001-6653-0803"><img src="../logos/orcid.svg" alt="ORCID"></a></h1>
+		<h1>Bruno Barroca
+<a href="https://openalex.org/A5081180341" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://orcid.org/0000-0001-6653-0803" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
+<a href="https://dblp.org/search?q=Bruno Barroca" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2010/index.html"><img src="../sle.png" alt="SLE 2010"></a>
 			<figcaption>
@@ -17,7 +20,7 @@
 		<ul>
 
 		<li><span class="info">1</span> papers in <span class="info">1</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t3b.html"><span class="tagM">T3B: Transformation Languages</span></a> (<span class="info">1</span> times)</li>
 				<li><a href="../tag/t5d.html"><span class="tagM">T5D: Formal Methods</span></a> (<span class="info">1</span> times)</li>
@@ -35,7 +38,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> <em>Coauthored <a href="../sle2010/paper17.html">DSLTrans: A Turing Incomplete Transformation Language</a></em> (<a href="../profile/BrunoBarroca.html"><span class="info">Bruno Barroca</span></a>, <a href="../profile/LucioLevi.html">Lucio Levi</a>, <a href="../profile/VascoAmaral.html">Vasco Amaral</a>, <a href="../profile/RobertoFélix.html">Roberto Félix</a>, <a href="../profile/VascoSousa.html">Vasco Sousa</a>)</li></ul>
+<li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> <em>Coauthored <a href="../sle2010/paper17.html">DSLTrans: A Turing Incomplete Transformation Language</a></em> (<a href="../profile/BrunoBarroca.html"><span class="info">Bruno Barroca</span></a>, <a href="../profile/LucioLevi.html">Lucio Levi</a>, <a href="../profile/VascoAmaral.html">Vasco Amaral</a>, <a href="../profile/RobertoFélix.html">Roberto Félix</a>, <a href="../profile/VascoSousa.html">Vasco Sousa</a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

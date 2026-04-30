@@ -2,7 +2,7 @@
 	<head title="Kebaili Zohra Kaouter's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Kebaili Zohra Kaouter</h1>
+		<h1>Kebaili Zohra Kaouter<a href="https://dblp.org/search?q=Kebaili Zohra Kaouter" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2026/index.html"><img src="../sle.png" alt="SLE 2026"></a>
 			<figcaption>

@@ -1,8 +1,8 @@
 <html doctype>
-	<head title="CfPBoK tag T5G" />
+	<head title="CfPBoK topic T5G" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Tag <code>T5G</code>: Traceability</h1>
+		<h1>Topic <code>T5G</code>: Traceability</h1>
 		Work establishing and exploiting trace links among language artefacts: traceability across models, grammars, code, transformations, versions, requirements, and derived artefacts
 <clear/>
 		<figure class="small">
@@ -115,16 +115,18 @@
 		<h2>Summary</h2>
 		<ul>
 			<li>Requested in <span class="info">12</span>/<span class="info">26</span> calls</li>
-			<li>Requested in <span class="info">11</span>/<span class="info">19</span> pure calls</li>
+			<li>Requested in <span class="info">11</span>/<span class="info">19</span> pure calls (<a href="../sle2016/index.html#cfp">2016</a>–<a href="../sle2026/index.html#cfp">2026</a> with the longest streak of <span class="info">11</span> years)</li>
+
 			<li>Primary tagged in <span class="info">3</span>/<span class="info">26</span> paper bundles</li>
-			<li>Primary tagged in <span class="info">2</span>/<span class="info">19</span> pure proceedings</li>
+			<li>Primary tagged in <span class="info">2</span>/<span class="info">19</span> pure proceedings (<a href="../sle2008/index.html#lop">2008</a>–<a href="../sle2022/index.html#lop">2022</a> with the longest streak of <span class="info">1</span> years)</li>
+
 			<li>Secondary tagged in <span class="info">5</span>/<span class="info">26</span> paper bundles</li>
-			<li>Secondary tagged in <span class="info">5</span>/<span class="info">19</span> pure proceedings</li>
-			<li>Top 3 co-occurring tags:
+			<li>Secondary tagged in <span class="info">5</span>/<span class="info">19</span> pure proceedings (<a href="../sle2008/index.html#lop">2008</a>–<a href="../sle2023/index.html#lop">2023</a> with the longest streak of <span class="info">1</span> years)</li>
+			<li>Top 3 co-occurring topics:
 				<ul>
-					<li><a href="t1d.html"><span class="tagL">T1D: Composition</span></a> (<span class="info">17</span> times)</li>
-					<li><a href="t4d.html"><span class="tagL">T4D: Interpretation</span></a> (<span class="info">12</span> times)</li>
-					<li><a href="t4b.html"><span class="tagL">T4B: Horizontal Transformation</span></a> (<span class="info">11</span> times)</li>
+					<li><a href="t1d.html"><span class="tagL">T1D: Composition</span></a> (<span class="info">4</span> times)</li>
+					<li><a href="t3b.html"><span class="tagL">T3B: Transformation Languages</span></a> (<span class="info">4</span> times)</li>
+					<li><a href="t4d.html"><span class="tagL">T4D: Interpretation</span></a> (<span class="info">3</span> times)</li>
 				</ul>
 <li>Top 3 contributors:
 				<ul>
@@ -135,6 +137,79 @@
 
 		</ul>
 
+<h2>List of papers (10)</h2>
+<ul>
+<li><span class="info">(<a href="../atem2006s/index.html">ATEM 2006 SI</a>)</span> <em><a href="../atem2006s/paper02.html">Ontological Approach for the Semantic Recovery of Traceability Links between Software Artefacts</a></em> (<a href="../profile/YonggangZhang.html">Yonggang Zhang</a>, <a href="../profile/RenéWitte.html">René Witte</a>, <a href="../profile/JuergenRilling.html">Juergen Rilling</a>, <a href="../profile/VolkerHaarslev.html">Volker Haarslev</a>) 
+<a href="../tag/t5g.html"><span class="tagM" title=" The paper’s central goal is to recover (re-establish) traceability links between documentation and source code at fine granularity.
+">T5G</span></a>
+<a href="../tag/t3e.html"><span class="tagL" title=" It relies on formal ontological representations and ontology reasoning to infer explicit and implicit relations among artefacts.
+">T3E</span></a>
+<a href="../tag/t2b.html"><span class="tagL" title=" The motivation and application context are software comprehension and maintenance, where missing links hamper evolution activities.
+">T2B</span></a>
+<a href="../tag/t5e.html"><span class="tagL" title=" It reports on applying and evaluating the approach (including an application example) to assess the recovered links and reasoning benefits.
+">T5E</span></a></li><li><span class="info">(<a href="../sle2008/index.html">SLE 2008</a>)</span> <em><a href="../sle2008/paper07.html">Systematic Usage of Embedded Modelling Languages in Automated Model Transformation Chains</a></em> (<a href="../profile/MathiasFritzsche.html">Mathias Fritzsche</a>, <a href="../profile/JendrikJohannes.html">Jendrik Johannes</a>, <a href="../profile/UweAßmann.html">Uwe Aßmann</a>, <a href="../profile/SimonMitschke.html">Simon Mitschke</a>, <a href="../profile/WasifGilani.html">Wasif Gilani</a>, <a href="../profile/IvorSpence.html">Ivor Spence</a>, <a href="../profile/JohnBrown.html">John Brown</a>, <a href="../profile/PeterKilpatrick.html">Peter Kilpatrick</a>) 
+<a href="../tag/t1d.html"><span class="tagM" title=" It is about embedding/coordination of modeling languages and annotations within multi-step transformation chains.
+">T1D</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" The work is situated in chained model transformations, focusing on how to carry information across steps.
+">T4B</span></a>
+<a href="../tag/t5g.html"><span class="tagL" title=" It uses trace models/megamodeling to maintain and navigate relationships between artifacts across transformations.
+">T5G</span></a></li><li><span class="info">(<a href="../sle2008/index.html">SLE 2008</a>)</span> <em><a href="../sle2008/paper08.html">Engineering a DSL for Software Traceability</a></em> (<a href="../profile/NikolaosDrivalos.html">Nikolaos Drivalos</a>, <a href="../profile/DimitriosSKolovos.html">Dimitrios S. Kolovos</a>, <a href="../profile/RichardFPaige.html">Richard F. Paige</a>, <a href="../profile/KiranFernandes.html">Kiran Fernandes</a>) 
+<a href="../tag/t5g.html"><span class="tagM" title=" The paper’s primary contribution is a language dedicated to defining and managing software traceability links.
+">T5G</span></a>
+<a href="../tag/t3c.html"><span class="tagL" title=" TML is a domain-specific language tailored to the domain of traceability metamodel construction.
+">T3C</span></a>
+<a href="../tag/t3a.html"><span class="tagL" title=" Because TML is a metamodelling language (a language for defining traceability metamodels), it fits meta-language concerns.
+">T3A</span></a></li><li><span class="info">(<a href="../sle2011/index.html">SLE 2011</a>)</span> <em><a href="../sle2011/paper01.html">A Dedicated Language for Context Composition and Execution of True Black-Box Model Transformations</a></em> (<a href="../profile/AndreasSeibel.html">Andreas Seibel</a>, <a href="../profile/ReginaHebig.html">Regina Hebig</a>, <a href="../profile/StefanNeumann.html">Stefan Neumann</a>, <a href="../profile/HolgerGiese.html">Holger Giese</a>) 
+<a href="../tag/t1d.html"><span class="tagM" title=" The work introduces a composition framework for coordinating heterogeneous model transformations as black boxes.
+">T1D</span></a>
+<a href="../tag/t3b.html"><span class="tagL" title=" It targets composition across different model transformation languages and engines.
+">T3B</span></a>
+<a href="../tag/t5g.html"><span class="tagL" title=" Traceability is explicitly part of the problem setting and keywords, to relate composed transformations and results.
+">T5G</span></a>
+<a href="../tag/t6b.html"><span class="tagL" title=" The approach is illustrated on an industrial case study.
+">T6B</span></a></li><li><span class="info">(<a href="../sle2014/index.html">SLE 2014</a>)</span> <em><a href="../sle2014/paper16.html">Origin Tracking in Attribute Grammars</a></em> (<a href="../profile/KevinWilliams.html">Kevin Williams</a>, <a href="../profile/EricVanWyk.html">Eric Van Wyk</a>) 
+<a href="../tag/t3a.html"><span class="tagM" title=" It extends higher-order attribute grammars with origin tracking as part of the metalanguage machinery.
+">T3A</span></a>
+<a href="../tag/t5g.html"><span class="tagL" title=" Origin tracking provides traceability links from transformation outputs back to their inputs.
+">T5G</span></a>
+<a href="../tag/t3b.html"><span class="tagL" title=" It relates to tree transformation/rewriting by tracking how constructed trees correspond to source trees.
+">T3B</span></a>
+<a href="../tag/t1c.html"><span class="tagL" title=" It concerns the semantics of attribute evaluation that constructs new syntax trees.
+">T1C</span></a></li><li><span class="info">(<a href="../sle2016/index.html">SLE 2016</a>)</span> <em><a href="../sle2016/paper07.html">Object-Oriented Design Pattern for DSL Program Monitoring</a></em> (<a href="../profile/ZoéDrey.html">Zoé Drey</a>, <a href="../profile/CiprianTeodorov.html">Ciprian Teodorov</a>) 
+<a href="../tag/t4d.html"><span class="tagM" title=" It introduces runtime monitoring support for programs written in DSLs.
+">T4D</span></a>
+<a href="../tag/t3c.html"><span class="tagL" title=" The monitoring approach is positioned in the context of DSL development and execution.
+">T3C</span></a>
+<a href="../tag/t5g.html"><span class="tagL" title=" Monitoring relies on collecting/relating execution information, akin to traceability between DSL constructs and runtime events.
+">T5G</span></a></li><li><span class="info">(<a href="../sle2016/index.html">SLE 2016</a>)</span> <em><a href="../sle2016/paper22.html">Coupled Software Transformations — Revisited</a></em> (<a href="../profile/RalfLämmel.html">Ralf Lämmel</a>) 
+<a href="../tag/t2b.html"><span class="tagM" title=" Coupled transformations are motivated by co-evolution and maintenance of multiple related software artifacts.
+">T2B</span></a>
+<a href="../tag/t3b.html"><span class="tagL" title=" It treats coupled transformations as transformation mechanisms for keeping artifacts consistent.
+">T3B</span></a>
+<a href="../tag/t5g.html"><span class="tagL" title=" The core problem is maintaining consistency/relationships across artifacts, closely tied to traceability concerns.
+">T5G</span></a>
+<a href="../tag/t1d.html"><span class="tagL" title=" It addresses coordination across collections of heterogeneous artifacts that must evolve together.
+">T1D</span></a></li><li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em><a href="../sle2022/paper09.html">Selective Traceability for Rule-Based Model-to-Model Transformations</a></em> (<a href="../profile/QuratUlAinAli.html">Qurat Ul Ain Ali</a>, <a href="../profile/DimitriosSKolovos.html">Dimitrios S. Kolovos</a>, <a href="../profile/KonstantinosBarmpis.html">Konstantinos Barmpis</a>) 
+<a href="../tag/t5g.html"><span class="tagM" title=" The central topic is selective traceability for model-to-model transformations.
+">T5G</span></a>
+<a href="../tag/t3b.html"><span class="tagL" title=" It targets rule-based model transformation languages and their execution behavior.
+">T3B</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" Trace models act as mappings between source and target models in horizontal transformations.
+">T4B</span></a>
+<a href="../tag/t5f.html"><span class="tagL" title=" Selective traceability is motivated by scalability and performance of transformations.
+">T5F</span></a></li><li><span class="info">(<a href="../sle2023/index.html">SLE 2023</a>)</span> <em><a href="../sle2023/paper10.html">Temporal Breakpoints for Multiverse Debugging</a></em> (<a href="../profile/MatthiasPasquier.html">Matthias Pasquier</a>, <a href="../profile/CiprianTeodorov.html">Ciprian Teodorov</a>, <a href="../profile/FrédéricJouault.html">Frédéric Jouault</a>, <a href="../profile/MatthiasBrun.html">Matthias Brun</a>, <a href="../profile/LukaLeRoux.html">Luka Le Roux</a>, <a href="../profile/LoïcLagadec.html">Loïc Lagadec</a>) 
+<a href="../tag/t5c.html"><span class="tagM" title=" The paper extends multiverse debugging with temporal breakpoints, advancing debugging/testing support for exploring executions.
+">T5C</span></a>
+<a href="../tag/t4d.html"><span class="tagL" title=" Breakpoints are defined over runtime execution traces of nondeterministic/concurrent programs.
+">T4D</span></a>
+<a href="../tag/t5g.html"><span class="tagL" title=" Temporal breakpoints rely on richer temporal properties over execution histories, strengthening trace-based reasoning.
+">T5G</span></a></li><li><span class="info">(<a href="../sle2023/index.html">SLE 2023</a>)</span> <em><a href="../sle2023/paper20.html">Practical Runtime Instrumentation of Software Languages: The Case of SciHook</a></em> (<a href="../profile/DorianLeroy.html">Dorian Leroy</a>, <a href="../profile/BenoîtCombemale.html">Benoît Combemale</a>, <a href="../profile/BenoîtLelandais.html">Benoît Lelandais</a>, <a href="../profile/MariePierreOudot.html">Marie-Pierre Oudot</a>) 
+<a href="../tag/t4d.html"><span class="tagM" title=" The paper proposes practical runtime instrumentation to enable interoperability between software languages during execution.
+">T4D</span></a>
+<a href="../tag/t1d.html"><span class="tagL" title=" Interoperability across languages is treated as an integration problem, bridging otherwise siloed language runtimes.
+">T1D</span></a>
+<a href="../tag/t5g.html"><span class="tagL" title=" Defining a behavioral interface and instrumenting executions provides traceable runtime interactions between languages.
+">T5G</span></a></li></ul>
 		<clear/>
 		<footer/>
 	</body>

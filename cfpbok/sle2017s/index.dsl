@@ -2,7 +2,7 @@
 	<head title="CfPBoK for SLE 2017 SI" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<div class="right"><img src="../sle.png" alt="SLE 2017 SI logo"></div>
+		<div class="right"><a href="../index.html"><img src="../sle.png" alt="SLE 2017 SI logo"></a></div>
 			<h1><a href="../sle2017/index.html">SLE 2017</a> SI</h1>
 			<ul>
 				<li><a href="#cfp">Call for Papers</a></li>
@@ -11,7 +11,7 @@
 				<li>Tags requested: <ul><li></li></ul></li>
 <li>Tags received: <ul><li><a href="../tag/t1b.html"><span class="tagL" title="T1B: Static Semantics">T1B</span></a> <a href="../tag/t1c.html"><span class="tagL" title="T1C: Behavioural Semantics">T1C</span></a> <a href="../tag/t1e.html"><span class="tagL" title="T1E: Reuse">T1E</span></a> <a href="../tag/t2b.html"><span class="tagL" title="T2B: Evolution">T2B</span></a> <a href="../tag/t3a.html"><span class="tagM" title="T3A: Meta-languages">T3A</span></a> <a href="../tag/t3c.html"><span class="tagM" title="T3C: DSLs">T3C</span></a> <a href="../tag/t4a.html"><span class="tagL" title="T4A: Workbenches">T4A</span></a> </li></ul></li>
 			</ul>
-<h2 id="cfp">Call for Papers (<a href="">source</a>)</h2>
+<h2 id="cfp">Call for Papers (<a href="">source</a>, 0 taggings)</h2>
 <h3>Invitation to COMLAN - Special Issue from SLE 2017</h3>
 <p>
 </p>
@@ -49,17 +49,17 @@
 </p>
 <p>
 </p>
-<p>Special Issue Editors</p><h2 id="lop">List of Papers (<a href="https://dblp.org/db/journals/vlc/vlc50.html">source</a>)</h2>
+<p>Special Issue Editors</p><h2 id="lop">List of Papers (2, <a href="https://dblp.org/db/journals/vlc/vlc50.html">source</a>)</h2>
 <ul class="lop">
 
-<li><em><a href="paper01.html">Software meta-language engineering and CBS</a></em> (<a href="../profile/PeterDMosses.html">Peter D. Mosses</a>)
+<li><em><a href="paper01.html">Software meta-language engineering and CBS</a></em> (<a href="../profile/PeterDMosses.html">Peter D. Mosses</a>) 
 <ul><li>
 <a href="../tag/t3a.html"><span class="tagM" title="The paper is explicitly about engineering semantic meta-languages (culminating in CBS) for specifying software languages.">T3A: Meta-languages</span></a>
 <a href="../tag/t1c.html"><span class="tagL" title="It focuses on behavioural/executable semantics via component-based semantics (funcons) and operational specification styles (e.g., MSOS/I-MSOS lineage).">T1C: Behavioural Semantics</span></a>
 <a href="../tag/t1e.html"><span class="tagL" title="A core objective is reuse of semantic components (funcons) across languages to reduce duplication in specifications.">T1E: Reuse</span></a>
 <a href="../tag/t2b.html"><span class="tagL" title="It emphasises co-evolution between a language and its formal specification, treating semantics engineering as an ongoing evolution/maintenance problem.">T2B: Evolution</span></a>
 </li></ul></li>
-<li><em><a href="paper02.html">FlowSpec: A declarative specification language for intra-procedural flow-Sensitive data-flow analysis</a></em> (<a href="../profile/JeffSmits.html">Jeff Smits</a>, <a href="../profile/GuidoWachsmuth.html">Guido Wachsmuth</a>, <a href="../profile/EelcoVisser.html">Eelco Visser</a>)
+<li><em><a href="paper02.html">FlowSpec: A declarative specification language for intra-procedural flow-Sensitive data-flow analysis</a></em> (<a href="../profile/JeffSmits.html">Jeff Smits</a>, <a href="../profile/GuidoWachsmuth.html">Guido Wachsmuth</a>, <a href="../profile/EelcoVisser.html">Eelco Visser</a>) 
 <ul><li>
 <a href="../tag/t3c.html"><span class="tagM" title="FlowSpec is a DSL for specifying dataflow analyses over programming languages.">T3C: DSLs</span></a>
 <a href="../tag/t1b.html"><span class="tagL" title="Dataflow analyses are classic static-semantics analyses, and the DSL is for declaring such analyses.">T1B: Static Semantics</span></a>

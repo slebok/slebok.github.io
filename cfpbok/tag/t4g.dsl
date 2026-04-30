@@ -1,8 +1,8 @@
 <html doctype>
-	<head title="CfPBoK tag T4G" />
+	<head title="CfPBoK topic T4G" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Tag <code>T4G</code>: AI-for-SLE</h1>
+		<h1>Topic <code>T4G</code>: AI-for-SLE</h1>
 		Work using some form of artificial intelligence and/or machine learning to support software language engineering: learning-assisted parsing or analysis, ML-guided transformation, LLM-based language tool support, mining language artefacts with AI, language workbenches with AI assistants. See also <a href="t6c.html">T6C</a> for using SLE to engineer AI systems.
 <clear/>
 		<figure class="small sem">
@@ -80,16 +80,18 @@
 		<h2>Summary</h2>
 		<ul>
 			<li>Requested in <span class="info">2</span>/<span class="info">26</span> calls</li>
-			<li>Requested in <span class="info">2</span>/<span class="info">19</span> pure calls</li>
+			<li>Requested in <span class="info">2</span>/<span class="info">19</span> pure calls (<a href="../sle2025/index.html#cfp">2025</a>–<a href="../sle2026/index.html#cfp">2026</a> with the longest streak of <span class="info">2</span> years)</li>
+
 			<li>Primary tagged in <span class="info">5</span>/<span class="info">26</span> paper bundles</li>
-			<li>Primary tagged in <span class="info">5</span>/<span class="info">19</span> pure proceedings</li>
+			<li>Primary tagged in <span class="info">5</span>/<span class="info">19</span> pure proceedings (<a href="../sle2012/index.html#lop">2012</a>–<a href="../sle2024/index.html#lop">2024</a> with the longest streak of <span class="info">3</span> years)</li>
+
 			<li>Secondary tagged in <span class="info">5</span>/<span class="info">26</span> paper bundles</li>
-			<li>Secondary tagged in <span class="info">4</span>/<span class="info">19</span> pure proceedings</li>
-			<li>Top 3 co-occurring tags:
+			<li>Secondary tagged in <span class="info">4</span>/<span class="info">19</span> pure proceedings (<a href="../sle2014/index.html#lop">2014</a>–<a href="../sle2024/index.html#lop">2024</a> with the longest streak of <span class="info">2</span> years)</li>
+			<li>Top 3 co-occurring topics:
 				<ul>
-					<li><a href="t3c.html"><span class="tagL">T3C: DSLs</span></a> (<span class="info">11</span> times)</li>
-					<li><a href="t5e.html"><span class="tagL">T5E: Empirical Evaluation</span></a> (<span class="info">11</span> times)</li>
-					<li><a href="t5a.html"><span class="tagL">T5A: Requirements</span></a> (<span class="info">9</span> times)</li>
+					<li><a href="t5h.html"><span class="tagL">T5H: Usability</span></a> (<span class="info">3</span> times)</li>
+					<li><a href="t6d.html"><span class="tagL">T6D: Synergies</span></a> (<span class="info">2</span> times)</li>
+					<li><a href="t4d.html"><span class="tagL">T4D: Interpretation</span></a> (<span class="info">2</span> times)</li>
 				</ul>
 <li>Top 3 contributors:
 				<ul>
@@ -100,6 +102,81 @@
 
 		</ul>
 
+<h2>List of papers (10)</h2>
+<ul>
+<li><span class="info">(<a href="../sle2012/index.html">SLE 2012</a>)</span> <em><a href="../sle2012/paper11.html">Grammatical Inference in Software Engineering: An Overview of the State of the Art</a></em> (<a href="../profile/AndrewWStevenson.html">Andrew W. Stevenson</a>, <a href="../profile/JamesRCordy.html">James R. Cordy</a>) 
+<a href="../tag/t4g.html"><span class="tagM" title=" The paper surveys grammar inference (learning grammars from data), which is an AI/ML-style technique applied to SLE tasks.
+">T4G</span></a>
+<a href="../tag/t3a.html"><span class="tagL" title=" The inferred artifacts are grammars/language definitions, i.e., meta-language objects central to software language engineering.
+">T3A</span></a>
+<a href="../tag/t5b.html"><span class="tagL" title=" It is concerned with recovering/analyzing language descriptions (grammars) from programs, traces, or other artifacts.
+">T5B</span></a></li><li><span class="info">(<a href="../sle2014/index.html">SLE 2014</a>)</span> <em><a href="../sle2014/paper17.html">Dynamic Scope Discovery for Model Transformations</a></em> (<a href="../profile/MārisJukšs.html">Māris Jukšs</a>, <a href="../profile/ClarkVerbrugge.html">Clark Verbrugge</a>, <a href="../profile/DánielVarró.html">Dániel Varró</a>, <a href="../profile/HansVangheluwe.html">Hans Vangheluwe</a>) 
+<a href="../tag/t5f.html"><span class="tagM" title=" Its main aim is runtime performance optimization of graph pattern matching in model transformations.
+">T5F</span></a>
+<a href="../tag/t3b.html"><span class="tagL" title=" The technique is embedded in a model transformation engine and targets transformation execution.
+">T3B</span></a>
+<a href="../tag/t4d.html"><span class="tagL" title=" It operates at runtime by dynamically reducing the search space for rule application.
+">T4D</span></a>
+<a href="../tag/t4g.html"><span class="tagL" title=" It employs a Naive Bayes classifier and online learning to predict likely match candidates.
+">T4G</span></a></li><li><span class="info">(<a href="../sle2016/index.html">SLE 2016</a>)</span> <em><a href="../sle2016/paper13.html">Towards a Universal Code Formatter through Machine Learning</a></em> (<a href="../profile/TerenceParr.html">Terence Parr</a>, <a href="../profile/JurgenVinju.html">Jurgen Vinju</a>) 
+<a href="../tag/t4g.html"><span class="tagM" title=" The key technique is machine learning applied to infer formatting rules for languages.
+">T4G</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" Formatting is a source-to-source transformation that rewrites code while preserving meaning.
+">T4B</span></a>
+<a href="../tag/t5h.html"><span class="tagL" title=" A main motivation is improving readability and user-specific formatting preferences (usability).
+">T5H</span></a>
+<a href="../tag/t3d.html"><span class="tagL" title=" The formatter targets general-purpose programming languages and their concrete syntax.
+">T3D</span></a></li><li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> <em><a href="../sle2021/keynote2.html">Live Programming and Programming by Example: Better Together</a></em> (<a href="../profile/SorinLerner.html">Sorin Lerner</a>) 
+<a href="../tag/t4a.html"><span class="tagM" title=" The keynote is about interactive environments that provide continual execution feedback and synthesize code from examples, i.e., advanced programming support tooling.
+">T4A</span></a>
+<a href="../tag/t4g.html"><span class="tagL" title=" Programming-by-example in this context is fundamentally synthesis/AI-style automation driven by examples, so AI techniques are central to the contribution.
+">T4G</span></a>
+<a href="../tag/t5h.html"><span class="tagL" title=" The core motivation is improving the programmer experience via continual feedback and higher-level interaction (examples instead of manual coding).
+">T5H</span></a>
+<a href="../tag/t4d.html"><span class="tagL" title=" Live programming hinges on runtime execution and continuous observation of values during program execution.
+">T4D</span></a></li><li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em><a href="../sle2022/paper22.html">Neural Language Models and Few Shot Learning for Systematic Requirements Processing in MDSE</a></em> (<a href="../profile/VincentBertram.html">Vincent Bertram</a>, <a href="../profile/MiriamBoß.html">Miriam Boß</a>, <a href="../profile/EvgenyKusmenko.html">Evgeny Kusmenko</a>, <a href="../profile/ImkeHeleneNachmann.html">Imke Helene Nachmann</a>, <a href="../profile/BernhardRumpe.html">Bernhard Rumpe</a>, <a href="../profile/DaniloTrotta.html">Danilo Trotta</a>, <a href="../profile/LouisWachtmeister.html">Louis Wachtmeister</a>) 
+<a href="../tag/t4g.html"><span class="tagM" title=" The paper applies large language models and few-shot learning to SLE problems (requirements to DSL).
+">T4G</span></a>
+<a href="../tag/t5a.html"><span class="tagL" title=" Its concrete task is processing and structuring natural-language requirements.
+">T5A</span></a>
+<a href="../tag/t3c.html"><span class="tagL" title=" It translates requirements into a structured DSL form and studies DSL-based formulations.
+">T3C</span></a>
+<a href="../tag/t5e.html"><span class="tagL" title=" It reports an experimental evaluation of translation quality under different few-shot settings.
+">T5E</span></a></li><li><span class="info">(<a href="../sle2023/index.html">SLE 2023</a>)</span> <em><a href="../sle2023/paper09.html">GPT-3-Powered Type Error Debugging: Investigating the Use of Large Language Models for Code Repair</a></em> (<a href="../profile/FranciscoRibeiro.html">Francisco Ribeiro</a>, <a href="../profile/JoséNunoMacedo.html">José Nuno Macedo</a>, <a href="../profile/KanaeTsushima.html">Kanae Tsushima</a>, <a href="../profile/RuiAbreu.html">Rui Abreu</a>, <a href="../profile/JoãoSaraiva.html">João Saraiva</a>) 
+<a href="../tag/t4g.html"><span class="tagM" title=" The paper investigates using large language models (GPT-3) to assist with type-error debugging and code repair in language tooling.
+">T4G</span></a>
+<a href="../tag/t1b.html"><span class="tagL" title=" The target problems are type errors and their diagnosis, which are rooted in static semantics and type systems.
+">T1B</span></a>
+<a href="../tag/t5h.html"><span class="tagL" title=" The motivation is improving the usefulness of compiler feedback and reducing developer effort in debugging type errors.
+">T5H</span></a></li><li><span class="info">(<a href="../sle2023/index.html">SLE 2023</a>)</span> <em><a href="../sle2023/keynote2.html">Artificial Languages are Dead. Long Live Artificial Languages!</a></em> (<a href="../profile/CristinaVideiraLopes.html">Cristina Videira Lopes</a>) 
+<a href="../tag/t6c.html"><span class="tagM" title=" The keynote is explicitly about how AI/LLMs change the relationship between programming and AI—i.e., language engineering for an AI-shaped software development world (including education implications).
+">T6C</span></a>
+<a href="../tag/t4g.html"><span class="tagL" title=" LLMs doing translation from natural language/specifications to code is AI-driven automation directly affecting language use and tooling.
+">T4G</span></a>
+<a href="../tag/t6d.html"><span class="tagL" title=" The framing is broadly cross-cutting (practice + fundamental notions of programming + CS education), i.e., a field-level synthesis/agenda piece.
+">T6D</span></a></li><li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> <em><a href="../sle2024/paper03.html">Towards an In-Context LLM-Based Approach for Automating the Definition of Model Views</a></em> (<a href="../profile/JamesPontesMiranda.html">James Pontes Miranda</a>, <a href="../profile/HugoBrunelière.html">Hugo Brunelière</a>, <a href="../profile/MassimoTisi.html">Massimo Tisi</a>, <a href="../profile/GersonSunyé.html">Gerson Sunyé</a>) 
+<a href="../tag/t4g.html"><span class="tagM" title=" The paper uses LLM-based assistance to automatically derive model-view definitions from context and examples.
+">T4G</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" Model views are constructed by mapping/transforming elements across heterogeneous metamodels and models.
+">T4B</span></a>
+<a href="../tag/t3c.html"><span class="tagL" title=" The problem is formulated over modeling languages and their view-definition DSLs.
+">T3C</span></a>
+<a href="../tag/t5e.html"><span class="tagL" title=" The approach is validated by comparing generated view definitions against manually written ones.
+">T5E</span></a></li><li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> <em><a href="../sle2024/paper19.html">AI Effects on Research and Education: A Programming and Software Language Perspective (Panel)</a></em> (<a href="../profile/RalfLämmel.html">Ralf Lämmel</a>) 
+<a href="../tag/t6g.html"><span class="tagM" title=" The panel centers on socio-technical impacts of LLMs on research, education, and programming practice.
+">T6G</span></a>
+<a href="../tag/t4g.html"><span class="tagL" title=" It explicitly discusses large language models as a disruptive technology relevant to AI-for-SLE and tooling.
+">T4G</span></a>
+<a href="../tag/t6d.html"><span class="tagL" title=" The discussion connects perspectives across communities (PL, compilers, education) to identify shared challenges.
+">T6D</span></a></li><li><span class="info">(<a href="../sle2024s/index.html">SLE 2024 SI</a>)</span> <em><a href="../sle2024s/paper06.html">Translating meaning representations to behavioural interface specifications</a></em> (<a href="../profile/IatTouLeong.html">Iat Tou Leong</a>, <a href="../profile/RaulBarbosa.html">Raul Barbosa</a>) 
+<a href="../tag/t5d.html"><span class="tagM" title=" The output artifacts are formal behavioural interface specifications (JML contracts) and they are checked with verification tooling/theorem proving.
+">T5D</span></a>
+<a href="../tag/t4g.html"><span class="tagL" title=" The pipeline leverages NLP meaning representations and resolves ambiguities to translate natural language semantics into formal specs.
+">T4G</span></a>
+<a href="../tag/t2e.html"><span class="tagL" title=" The source of specifications is developer documentation (method-level comments), turning documentation into machine-checkable contracts.
+">T2E</span></a>
+<a href="../tag/t5a.html"><span class="tagL" title=" It operationalizes (textual) requirements/intended behaviour stated in natural language into precise formal pre/postconditions.
+">T5A</span></a></li></ul>
 		<clear/>
 		<footer/>
 	</body>

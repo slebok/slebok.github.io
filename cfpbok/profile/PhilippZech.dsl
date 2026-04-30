@@ -2,7 +2,7 @@
 	<head title="Philipp Zech's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Philipp Zech</h1>
+		<h1>Philipp Zech<a href="https://dblp.org/search?q=Philipp Zech" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2023/index.html"><img src="../sle.png" alt="SLE 2023"></a>
 			<figcaption>

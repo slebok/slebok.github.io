@@ -2,7 +2,12 @@
 	<head title="Agostino Cortesi's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Agostino Cortesi <a href="https://dblp.org/pid/c/ACortesi.html"><img src="../logos/dblp.png" alt="DBLP"></a> <a href="https://openalex.org/A5015116587"><img src="../logos/openalex.png" alt="OpenAlex"></a> <a href="https://orcid.org/0000-0002-0946-5440"><img src="../logos/orcid.svg" alt="ORCID"></a> <a href="https://scholar.google.com/citations?user=d5L8BLMAAAAJ"><img src="../logos/gs.png" alt="Google Scholar"></a> <a href="https://www.wikidata.org/entity/Q61030660"><img src="../logos/wikidata.svg" alt="Wikidata"></a></h1>
+		<h1>Agostino Cortesi
+<a href="https://dblp.org/pid/c/ACortesi.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
+<a href="https://openalex.org/A5015116587" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://orcid.org/0000-0002-0946-5440" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
+<a href="https://scholar.google.com/citations?user=d5L8BLMAAAAJ" title="Google Scholar"><img src="../logos/gs.png" alt="Google Scholar"></a>
+<a href="https://www.wikidata.org/entity/Q61030660" title="Wikidata"><img src="../logos/wikidata.svg" alt="Wikidata"></a></h1>
 		<figure class="small">
 			<a href="../sle2017/index.html"><img src="../sle.png" alt="SLE 2017"></a>
 			<figcaption>
@@ -17,7 +22,7 @@
 		<ul>
 
 		<li><span class="info">1</span> papers in <span class="info">1</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t4c.html"><span class="tagM">T4C: Vertical Transformation</span></a> (<span class="info">1</span> times)</li>
 				<li><a href="../tag/t3c.html"><span class="tagM">T3C: DSLs</span></a> (<span class="info">1</span> times)</li>
@@ -35,7 +40,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> <em>Coauthored <a href="../sle2017/paper12.html">Metacasanova: an optimized meta-compiler for domain-specific languages</a></em> (<a href="../profile/FrancescoDiGiacomo.html">Francesco Di Giacomo</a>, <a href="../profile/MohamedAbbadi.html">Mohamed Abbadi</a>, <a href="../profile/AgostinoCortesi.html"><span class="info">Agostino Cortesi</span></a>, <a href="../profile/PieterSpronck.html">Pieter Spronck</a>, <a href="../profile/GiuseppeMaggiore.html">Giuseppe Maggiore</a>)</li></ul>
+<li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> <em>Coauthored <a href="../sle2017/paper12.html">Metacasanova: an optimized meta-compiler for domain-specific languages</a></em> (<a href="../profile/FrancescoDiGiacomo.html">Francesco Di Giacomo</a>, <a href="../profile/MohamedAbbadi.html">Mohamed Abbadi</a>, <a href="../profile/AgostinoCortesi.html"><span class="info">Agostino Cortesi</span></a>, <a href="../profile/PieterSpronck.html">Pieter Spronck</a>, <a href="../profile/GiuseppeMaggiore.html">Giuseppe Maggiore</a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

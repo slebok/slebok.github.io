@@ -2,7 +2,12 @@
 	<head title="Andreas Wortmann's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Andreas Wortmann <a href="https://dblp.org/pid/02/6598-1.html"><img src="../logos/dblp.png" alt="DBLP"></a> <a href="https://openalex.org/A5052537841"><img src="../logos/openalex.png" alt="OpenAlex"></a> <a href="https://orcid.org/0000-0003-3534-253X"><img src="../logos/orcid.svg" alt="ORCID"></a> <a href="https://scholar.google.com/citations?user=6ImtercAAAAJ"><img src="../logos/gs.png" alt="Google Scholar"></a> <a href="https://www.wikidata.org/entity/Q130827931"><img src="../logos/wikidata.svg" alt="Wikidata"></a></h1>
+		<h1>Andreas Wortmann
+<a href="https://dblp.org/pid/02/6598-1.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
+<a href="https://openalex.org/A5052537841" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://orcid.org/0000-0003-3534-253X" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
+<a href="https://scholar.google.com/citations?user=6ImtercAAAAJ" title="Google Scholar"><img src="../logos/gs.png" alt="Google Scholar"></a>
+<a href="https://www.wikidata.org/entity/Q130827931" title="Wikidata"><img src="../logos/wikidata.svg" alt="Wikidata"></a></h1>
 		<figure class="small">
 			<a href="../sle2017/index.html"><img src="../sle.png" alt="SLE 2017"></a>
 			<figcaption>
@@ -52,7 +57,7 @@
 		<ul>
 
 		<li><span class="info">3</span> papers in <span class="info">2</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t4a.html"><span class="tagM">T4A: Workbenches</span></a> (<span class="info">3</span> times)</li>
 				<li><a href="../tag/t1d.html"><span class="tagM">T1D: Composition</span></a> (<span class="info">2</span> times)</li>
@@ -72,12 +77,12 @@
 		<ul>
 <li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2017/sle-2017-papers-artifact-evaluation-committee">AEC</a></li>
 <li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2017/sle-2017-sle-2017-organizing-committee">PC</a></li>
-<li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> <em>Coauthored <a href="../sle2018/paper14.html">Deriving fluent internal domain-specific languages from grammars</a></em> (<a href="../profile/ArvidButting.html">Arvid Butting</a>, <a href="../profile/ManuelaDalibor.html">Manuela Dalibor</a>, <a href="../profile/GerritLeonhardt.html">Gerrit Leonhardt</a>, <a href="../profile/BernhardRumpe.html">Bernhard Rumpe</a>, <a href="../profile/AndreasWortmann.html"><span class="info">Andreas Wortmann</span></a>)</li>
-<li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> <em>Coauthored <a href="../sle2018/paper19.html">Translating grammars to accurate metamodels</a></em> (<a href="../profile/ArvidButting.html">Arvid Butting</a>, <a href="../profile/NicoJansen.html">Nico Jansen</a>, <a href="../profile/BernhardRumpe.html">Bernhard Rumpe</a>, <a href="../profile/AndreasWortmann.html"><span class="info">Andreas Wortmann</span></a>)</li>
+<li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> <em>Coauthored <a href="../sle2018/paper14.html">Deriving fluent internal domain-specific languages from grammars</a></em> (<a href="../profile/ArvidButting.html">Arvid Butting</a>, <a href="../profile/ManuelaDalibor.html">Manuela Dalibor</a>, <a href="../profile/GerritLeonhardt.html">Gerrit Leonhardt</a>, <a href="../profile/BernhardRumpe.html">Bernhard Rumpe</a>, <a href="../profile/AndreasWortmann.html"><span class="info">Andreas Wortmann</span></a>) </li>
+<li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> <em>Coauthored <a href="../sle2018/paper19.html">Translating grammars to accurate metamodels</a></em> (<a href="../profile/ArvidButting.html">Arvid Butting</a>, <a href="../profile/NicoJansen.html">Nico Jansen</a>, <a href="../profile/BernhardRumpe.html">Bernhard Rumpe</a>, <a href="../profile/AndreasWortmann.html"><span class="info">Andreas Wortmann</span></a>) </li>
 <li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2018/sle-2018-papers-program-committee">PC</a></li>
 <li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> Served as an <a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-artifact-evaluation-committee">Artefact Evaluation Chair</a></li>
 <li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> Served on <a href="https://2022.splashcon.org/committee/sle-2022-program-committee">PC</a></li>
-<li><span class="info">(<a href="../sle2023/index.html">SLE 2023</a>)</span> <em>Coauthored <a href="../sle2023/paper17.html">A Low-Code Platform for Systematic Component-Oriented Language Composition</a></em> (<a href="../profile/JérômePfeiffer.html">Jérôme Pfeiffer</a>, <a href="../profile/AndreasWortmann.html"><span class="info">Andreas Wortmann</span></a>)</li></ul>
+<li><span class="info">(<a href="../sle2023/index.html">SLE 2023</a>)</span> <em>Coauthored <a href="../sle2023/paper17.html">A Low-Code Platform for Systematic Component-Oriented Language Composition</a></em> (<a href="../profile/JérômePfeiffer.html">Jérôme Pfeiffer</a>, <a href="../profile/AndreasWortmann.html"><span class="info">Andreas Wortmann</span></a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

@@ -2,7 +2,7 @@
 	<head title="Michael Collard's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Michael Collard</h1>
+		<h1>Michael Collard<a href="https://dblp.org/search?q=Michael Collard" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2010/index.html"><img src="../sle.png" alt="SLE 2010"></a>
 			<figcaption>

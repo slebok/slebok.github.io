@@ -1,8 +1,8 @@
 <html doctype>
-	<head title="CfPBoK tag T4B" />
+	<head title="CfPBoK topic T4B" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Tag <code>T4B</code>: Horizontal Transformation</h1>
+		<h1>Topic <code>T4B</code>: Horizontal Transformation</h1>
 		M2M/<a href="t2t.html">T2T</a> Transformation + Mapping + Conversion. Work where the central activity is translation or mapping at the same abstraction level: model-to-model, text-to-text, refactoring, migration, mappings, synchronisation, and conversions that preserve the level while changing representation.
 <clear/>
 		<figure class="small">
@@ -185,16 +185,18 @@
 		<h2>Summary</h2>
 		<ul>
 			<li>Requested in <span class="info">24</span>/<span class="info">26</span> calls</li>
-			<li>Requested in <span class="info">19</span>/<span class="info">19</span> pure calls</li>
+			<li>Requested in <span class="info">19</span>/<span class="info">19</span> pure calls (<a href="../sle2008/index.html#cfp">2008</a>–<a href="../sle2026/index.html#cfp">2026</a> with the longest streak of <span class="info">19</span> years)</li>
+
 			<li>Primary tagged in <span class="info">11</span>/<span class="info">26</span> paper bundles</li>
-			<li>Primary tagged in <span class="info">11</span>/<span class="info">19</span> pure proceedings</li>
+			<li>Primary tagged in <span class="info">11</span>/<span class="info">19</span> pure proceedings (<a href="../sle2008/index.html#lop">2008</a>–<a href="../sle2025/index.html#lop">2025</a> with the longest streak of <span class="info">6</span> years)</li>
+
 			<li>Secondary tagged in <span class="info">19</span>/<span class="info">26</span> paper bundles</li>
-			<li>Secondary tagged in <span class="info">17</span>/<span class="info">19</span> pure proceedings</li>
-			<li>Top 3 co-occurring tags:
+			<li>Secondary tagged in <span class="info">17</span>/<span class="info">19</span> pure proceedings (<a href="../sle2008/index.html#lop">2008</a>–<a href="../sle2024/index.html#lop">2024</a> with the longest streak of <span class="info">17</span> years)</li>
+			<li>Top 3 co-occurring topics:
 				<ul>
-					<li><a href="t3b.html"><span class="tagL">T3B: Transformation Languages</span></a> (<span class="info">80</span> times)</li>
-					<li><a href="t4a.html"><span class="tagL">T4A: Workbenches</span></a> (<span class="info">65</span> times)</li>
-					<li><a href="t2b.html"><span class="tagL">T2B: Evolution</span></a> (<span class="info">59</span> times)</li>
+					<li><a href="t3b.html"><span class="tagL">T3B: Transformation Languages</span></a> (<span class="info">24</span> times)</li>
+					<li><a href="t4a.html"><span class="tagL">T4A: Workbenches</span></a> (<span class="info">19</span> times)</li>
+					<li><a href="t2b.html"><span class="tagL">T2B: Evolution</span></a> (<span class="info">16</span> times)</li>
 				</ul>
 <li>Top 3 contributors:
 				<ul>
@@ -205,6 +207,467 @@
 
 		</ul>
 
+<h2>List of papers (68)</h2>
+<ul>
+<li><span class="info">(<a href="../atem2006s/index.html">ATEM 2006 SI</a>)</span> <em><a href="../atem2006s/paper06.html">Integration of Safety Analysis in Model-Driven Software Development</a></em> (<a href="../profile/MiguelAdeMiguel.html">Miguel A. de Miguel</a>, <a href="../profile/JavierFernándezBriones.html">Javier Fernández Briones</a>, <a href="../profile/JuanPedroSilva.html">Juan Pedro Silva</a>, <a href="../profile/AlejandroAlonso.html">Alejandro Alonso</a>) 
+<a href="../tag/t1d.html"><span class="tagM" title=" The contribution is about coupling/integrating safety-analysis languages (FTA/FMECA) with software modelling languages (e.g., UML) in an MDD toolchain.
+">T1D</span></a>
+<a href="../tag/t5a.html"><span class="tagL" title=" Safety objectives and safety requirements are first-class modelling concepts and the approach aims to verify architectures against them.
+">T5A</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" The integration relies on language mappings/model transformations between architecture models and safety-analysis models.
+">T4B</span></a>
+<a href="../tag/t3a.html"><span class="tagL" title=" It introduces/uses metamodels, profiles and a platform-independent safety language as meta-language artefacts to bridge domains.
+">T3A</span></a></li><li><span class="info">(<a href="../sle2008/index.html">SLE 2008</a>)</span> <em><a href="../sle2008/keynote2.html">Model-Driven Engineering Meets Generic Language Technology</a></em> (<a href="../profile/MarkvandenBrand.html">Mark van den Brand</a>) 
+<a href="../tag/t6d.html"><span class="tagM" title=" It explicitly connects model-driven engineering with generic language technology, arguing for cross-pollination of concepts and tooling.
+">T6D</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" It surveys and leverages generic language tools (e.g., parsing, analysis frameworks) as infrastructure for MDE.
+">T4A</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" It discusses using language-technology-based mappings/transformations to support MDE scenarios.
+">T4B</span></a></li><li><span class="info">(<a href="../sle2008/index.html">SLE 2008</a>)</span> <em><a href="../sle2008/paper06.html">Generating Rewritable Abstract Syntax Trees: A Foundation for the Rapid Development of Source Code Transformation Tools</a></em> (<a href="../profile/JeffreyOverbey.html">Jeffrey Overbey</a>, <a href="../profile/RalphEJohnson.html">Ralph E. Johnson</a>) 
+<a href="../tag/t4b.html"><span class="tagM" title=" It provides foundations for source-to-source transformation by generating ASTs that support rewriting.
+">T4B</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" The contribution is a transformation-tool construction technique/infrastructure aimed at rapid tool development.
+">T4A</span></a>
+<a href="../tag/t1e.html"><span class="tagL" title=" Automatically generating rewritable AST infrastructures promotes reuse across multiple transformation tools and languages.
+">T1E</span></a></li><li><span class="info">(<a href="../sle2008/index.html">SLE 2008</a>)</span> <em><a href="../sle2008/paper07.html">Systematic Usage of Embedded Modelling Languages in Automated Model Transformation Chains</a></em> (<a href="../profile/MathiasFritzsche.html">Mathias Fritzsche</a>, <a href="../profile/JendrikJohannes.html">Jendrik Johannes</a>, <a href="../profile/UweAßmann.html">Uwe Aßmann</a>, <a href="../profile/SimonMitschke.html">Simon Mitschke</a>, <a href="../profile/WasifGilani.html">Wasif Gilani</a>, <a href="../profile/IvorSpence.html">Ivor Spence</a>, <a href="../profile/JohnBrown.html">John Brown</a>, <a href="../profile/PeterKilpatrick.html">Peter Kilpatrick</a>) 
+<a href="../tag/t1d.html"><span class="tagM" title=" It is about embedding/coordination of modeling languages and annotations within multi-step transformation chains.
+">T1D</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" The work is situated in chained model transformations, focusing on how to carry information across steps.
+">T4B</span></a>
+<a href="../tag/t5g.html"><span class="tagL" title=" It uses trace models/megamodeling to maintain and navigate relationships between artifacts across transformations.
+">T5G</span></a></li><li><span class="info">(<a href="../sle2008/index.html">SLE 2008</a>)</span> <em><a href="../sle2008/paper10.html">A Model Engineering Approach to Tool Interoperability</a></em> (<a href="../profile/YuSun.html">Yu Sun</a>, <a href="../profile/ZekaiDemirezen.html">Zekai Demirezen</a>, <a href="../profile/FrédéricJouault.html">Frédéric Jouault</a>, <a href="../profile/RobertTairas.html">Robert Tairas</a>, <a href="../profile/JeffreyGGray.html">Jeffrey G. Gray</a>) 
+<a href="../tag/t4b.html"><span class="tagM" title=" It approaches tool interoperability via model-based mappings/transformations between heterogeneous tool representations.
+">T4B</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" The method is grounded in a model-engineering tooling stack for enabling interoperability.
+">T4A</span></a>
+<a href="../tag/t6d.html"><span class="tagL" title=" It explicitly bridges tools/communities by applying model engineering techniques to interoperate across ecosystems.
+">T6D</span></a></li><li><span class="info">(<a href="../sle2008/index.html">SLE 2008</a>)</span> <em><a href="../sle2008/paper12.html">Transformation Language Integration Based on Profiles and Higher Order Transformations</a></em> (<a href="../profile/PieterVanGorp.html">Pieter Van Gorp</a>, <a href="../profile/AnneKeller.html">Anne Keller</a>, <a href="../profile/DirkJanssens.html">Dirk Janssens</a>) 
+<a href="../tag/t1d.html"><span class="tagM" title=" Its core is integrating multiple transformation languages via profiles and higher-order transformations.
+">T1D</span></a>
+<a href="../tag/t3b.html"><span class="tagL" title=" It deals directly with transformation languages as first-class artifacts that must be composed/integrated.
+">T3B</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" Higher-order transformations and profiles are used as transformation mechanisms for integration.
+">T4B</span></a></li><li><span class="info">(<a href="../sle2008/index.html">SLE 2008</a>)</span> <em><a href="../sle2008/paper13.html">Formalization and Rule-Based Transformation of EMF Ecore-Based Models</a></em> (<a href="../profile/BernhardSchätz.html">Bernhard Schätz</a>) 
+<a href="../tag/t4b.html"><span class="tagM" title=" It formalizes and applies rule-based transformations over EMF Ecore-based models, i.e., model-to-model rewriting.
+">T4B</span></a>
+<a href="../tag/t5d.html"><span class="tagL" title=" The paper emphasizes a formalization of the transformation framework and rules for rigor.
+">T5D</span></a>
+<a href="../tag/t3b.html"><span class="tagL" title=" The rule-based transformation approach effectively defines a transformation language/notation for Ecore models.
+">T3B</span></a></li><li><span class="info">(<a href="../sle2008/index.html">SLE 2008</a>)</span> <em><a href="../sle2008/paper14.html">A Practical Evaluation of Using TXL for Model Transformation</a></em> (<a href="../profile/HongzhiLiang.html">Hongzhi Liang</a>, <a href="../profile/JürgenDingel.html">Jürgen Dingel</a>) 
+<a href="../tag/t5e.html"><span class="tagM" title=" It is explicitly an evaluation of using TXL for model transformation, focusing on practical evidence and assessment.
+">T5E</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" TXL is used for performing transformations, so model-to-model / source-to-source transformation is central.
+">T4B</span></a>
+<a href="../tag/t3b.html"><span class="tagL" title=" The work assesses a specific transformation-language technology (TXL) in the model-transformation setting.
+">T3B</span></a></li><li><span class="info">(<a href="../sle2009/index.html">SLE 2009</a>)</span> <em><a href="../sle2009/keynote1.html">Eating Our Own Dog Food: DSLs for Generative and Transformational Engineering</a></em> (<a href="../profile/JamesRCordy.html">James R. Cordy</a>) 
+<a href="../tag/t3c.html"><span class="tagM" title=" Keynote advocates designing domain-specific languages to make generative and transformational techniques more accessible and reusable.
+">T3C</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" It frames practical use of transformation systems and proposes DSLs tailored to specific transformation/analysis tasks.
+">T4B</span></a>
+<a href="../tag/t4c.html"><span class="tagL" title=" It discusses generative uses (code generation) as a major application domain for such DSLs.
+">T4C</span></a></li><li><span class="info">(<a href="../sle2009/index.html">SLE 2009</a>)</span> <em><a href="../sle2009/paper02.html">A Novel Approach to Semi-automated Evolution of DSML Model Transformation</a></em> (<a href="../profile/TihamérLevendovszky.html">Tihamér Levendovszky</a>, <a href="../profile/DanielBalasubramanian.html">Daniel Balasubramanian</a>, <a href="../profile/AnanthaNarayanan.html">Anantha Narayanan</a>, <a href="../profile/GáborKarsai.html">Gábor Karsai</a>) 
+<a href="../tag/t2b.html"><span class="tagM" title=" The core contribution is a method for evolving model transformations as DSMLs and their artifacts change.
+">T2B</span></a>
+<a href="../tag/t3b.html"><span class="tagL" title=" Model transformations are central artifacts, so the work sits in transformation-language practice.
+">T3B</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" Evolution is operationalized via mappings/conversions between versions of models and transformations.
+">T4B</span></a></li><li><span class="info">(<a href="../sle2009/index.html">SLE 2009</a>)</span> <em><a href="../sle2009/paper03.html">Study of an API Migration for Two XML APIs</a></em> (<a href="../profile/ThiagoTonelliBartolomei.html">Thiago Tonelli Bartolomei</a>, <a href="../profile/KrzysztofCzarnecki.html">Krzysztof Czarnecki</a>, <a href="../profile/RalfLämmel.html">Ralf Lämmel</a>, <a href="../profile/TijsvanderStorm.html">Tijs van der Storm</a>) 
+<a href="../tag/t3f.html"><span class="tagM" title=" The paper studies migration between two XML APIs, treating APIs as the primary language-like artifacts.
+">T3F</span></a>
+<a href="../tag/t2b.html"><span class="tagL" title=" API migration is a form of software/language evolution and maintenance driven by change over time.
+">T2B</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" Migration typically requires systematic mapping/conversion between old and new API usages.
+">T4B</span></a></li><li><span class="info">(<a href="../sle2009/index.html">SLE 2009</a>)</span> <em><a href="../sle2009/paper16.html">Graphical Template Language for Transformation Synthesis</a></em> (<a href="../profile/ElīnaKalniņa.html">Elīna Kalniņa</a>, <a href="../profile/AudrisKalniņš.html">Audris Kalniņš</a>, <a href="../profile/EdgarsCelms.html">Edgars Celms</a>, <a href="../profile/AgrisŠostaks.html">Agris Šostaks</a>) 
+<a href="../tag/t3b.html"><span class="tagM" title=" It proposes a template language aimed at synthesizing model transformations.
+">T3B</span></a>
+<a href="../tag/t4f.html"><span class="tagL" title=" The language is graphical, making visualization/graphical notation central to its approach.
+">T4F</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" Transformation synthesis ultimately produces mappings between source and target models.
+">T4B</span></a></li><li><span class="info">(<a href="../sle2009/index.html">SLE 2009</a>)</span> <em><a href="../sle2009/paper23.html">Closing the Gap between Modelling and Java</a></em> (<a href="../profile/FlorianHeidenreich.html">Florian Heidenreich</a>, <a href="../profile/JendrikJohannes.html">Jendrik Johannes</a>, <a href="../profile/MirkoSeifert.html">Mirko Seifert</a>, <a href="../profile/ChristianWende.html">Christian Wende</a>) 
+<a href="../tag/t4b.html"><span class="tagM" title=" It provides bidirectional conversion between Java text and model representations (parser/printer), i.e., mapping/conversion.
+">T4B</span></a>
+<a href="../tag/t3a.html"><span class="tagL" title=" It defines a full Java metamodel and related specifications, which is a meta-language/metamodeling contribution.
+">T3A</span></a>
+<a href="../tag/t1b.html"><span class="tagL" title=" It reflects Java’s static semantics via cross-references and resolution, emphasizing static-semantics handling.
+">T1B</span></a></li><li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> <em><a href="../sle2010/paper05.html">Domain-Specific Modelling Languages with Algebraic Graph Transformations on RDF</a></em> (<a href="../profile/BenjaminBraatz.html">Benjamin Braatz</a>, <a href="../profile/ChristophBrandt.html">Christoph Brandt</a>) 
+<a href="../tag/t3c.html"><span class="tagM" title=" The paper is about defining/using a domain-specific modeling language on top of RDF data.
+">T3C</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" Algebraic graph transformations are the key operational mechanism for processing/mapping RDF-based models.
+">T4B</span></a>
+<a href="../tag/t3e.html"><span class="tagL" title=" RDF grounding places the approach in the ontology/semantic-web ecosystem.
+">T3E</span></a></li><li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> <em><a href="../sle2010/paper08.html">Automated Co-evolution of GMF Editor Models</a></em> (<a href="../profile/DavideDiRuscio.html">Davide Di Ruscio</a>, <a href="../profile/RalfLämmel.html">Ralf Lämmel</a>, <a href="../profile/AlfonsoPierantonio.html">Alfonso Pierantonio</a>) 
+<a href="../tag/t2b.html"><span class="tagM" title=" The main contribution is automated co-evolution of models when GMF-based editor/model artifacts change.
+">T2B</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" Co-evolution is realized via model-to-model transformations/migrations across versions.
+">T4B</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" The context and automation are tightly connected to the GMF/Eclipse tooling stack.
+">T4A</span></a></li><li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> <em><a href="../sle2010/paper09.html">An Extensive Catalog of Operators for the Coupled Evolution of Metamodels and Models</a></em> (<a href="../profile/MarkusHerrmannsdörfer.html">Markus Herrmannsdörfer</a>, <a href="../profile/SanderDVermolen.html">Sander D. Vermolen</a>, <a href="../profile/GuidoWachsmuth.html">Guido Wachsmuth</a>) 
+<a href="../tag/t2b.html"><span class="tagM" title=" It provides a catalog of operators specifically for coupled evolution scenarios (metamodel + model co-adaptation).
+">T2B</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" The operators essentially define systematic transformation steps for migration/co-evolution.
+">T4B</span></a>
+<a href="../tag/t5b.html"><span class="tagL" title=" The catalog organizes and characterizes change operators as a basis for analyzing and managing evolution.
+">T5B</span></a></li><li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> <em><a href="../sle2010/paper10.html">JTL: A Bidirectional and Change Propagating Transformation Language</a></em> (<a href="../profile/AntonioCicchetti.html">Antonio Cicchetti</a>, <a href="../profile/DavideDiRuscio.html">Davide Di Ruscio</a>, <a href="../profile/RominaEramo.html">Romina Eramo</a>, <a href="../profile/AlfonsoPierantonio.html">Alfonso Pierantonio</a>) 
+<a href="../tag/t3b.html"><span class="tagM" title=" JTL is introduced as a dedicated transformation language for bidirectional, change-propagating model transformations.
+">T3B</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" The language targets model-to-model mapping/synchronization and supports change propagation between related models.
+">T4B</span></a>
+<a href="../tag/t2b.html"><span class="tagL" title=" Bidirectionality and change propagation are motivated by keeping evolving models consistent across edits.
+">T2B</span></a></li><li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> <em><a href="../sle2010/paper16.html">COPE – A Workbench for the Coupled Evolution of Metamodels and Models</a></em> (<a href="../profile/MarkusHerrmannsdörfer.html">Markus Herrmannsdörfer</a>) 
+<a href="../tag/t4a.html"><span class="tagM" title=" COPE is presented as a workbench/tool to support coupled evolution workflows.
+">T4A</span></a>
+<a href="../tag/t2b.html"><span class="tagL" title=" Its purpose is to manage evolution/maintenance by coordinating metamodel changes with model migrations.
+">T2B</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" The workbench operationalizes evolution via reusable migration operations/transformations.
+">T4B</span></a></li><li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> <em><a href="../sle2010/paper17.html">DSLTrans: A Turing Incomplete Transformation Language</a></em> (<a href="../profile/BrunoBarroca.html">Bruno Barroca</a>, <a href="../profile/LucioLevi.html">Lucio Levi</a>, <a href="../profile/VascoAmaral.html">Vasco Amaral</a>, <a href="../profile/RobertoFélix.html">Roberto Félix</a>, <a href="../profile/VascoSousa.html">Vasco Sousa</a>) 
+<a href="../tag/t3b.html"><span class="tagM" title=" DSLTrans is explicitly a transformation language, designed to express model transformations.
+">T3B</span></a>
+<a href="../tag/t5d.html"><span class="tagL" title=" Turing incompleteness is used to guarantee properties like termination and confluence, enabling verification by construction.
+">T5D</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" Its constructs target systematic horizontal model mappings with traceable links and layered rules.
+">T4B</span></a></li><li><span class="info">(<a href="../sle2011/index.html">SLE 2011</a>)</span> <em><a href="../sle2011/paper02.html">An Algorithm for Layout Preservation in Refactoring Transformations</a></em> (<a href="../profile/MaartjedeJonge.html">Maartje de Jonge</a>, <a href="../profile/EelcoVisser.html">Eelco Visser</a>) 
+<a href="../tag/t4b.html"><span class="tagM" title=" It proposes an algorithm for source-to-source refactoring while preserving concrete layout/formatting.
+">T4B</span></a>
+<a href="../tag/t3b.html"><span class="tagL" title=" Refactorings are framed as program transformations with specific correctness constraints.
+">T3B</span></a>
+<a href="../tag/t2b.html"><span class="tagL" title=" Refactoring is a maintenance activity aimed at improving existing code without changing behavior.
+">T2B</span></a></li><li><span class="info">(<a href="../sle2011/index.html">SLE 2011</a>)</span> <em><a href="../sle2011/paper04.html">Uniform Modularization of Workflow Concerns Using Unify</a></em> (<a href="../profile/NielsJoncheere.html">Niels Joncheere</a>, <a href="../profile/RagnhildVanDerStraeten.html">Ragnhild Van Der Straeten</a>) 
+<a href="../tag/t1d.html"><span class="tagM" title=" The main focus is modularization and composition of crosscutting workflow concerns.
+">T1D</span></a>
+<a href="../tag/t1e.html"><span class="tagL" title=" It aims to enable reuse of workflow concern modules across workflow models.
+">T1E</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" The approach targets applying concerns across different workflow notations/models, requiring model-to-model adaptation.
+">T4B</span></a></li><li><span class="info">(<a href="../sle2011/index.html">SLE 2011</a>)</span> <em><a href="../sle2011/paper08.html">An Architecture for Information Exchange Based on Reference Models</a></em> (<a href="../profile/HeikoPaulheim.html">Heiko Paulheim</a>, <a href="../profile/DanielOberle.html">Daniel Oberle</a>, <a href="../profile/RolandPlendl.html">Roland Plendl</a>, <a href="../profile/FlorianProbst.html">Florian Probst</a>) 
+<a href="../tag/t1d.html"><span class="tagM" title=" The core contribution is an integration architecture enabling information exchange across heterogeneous IT systems.
+">T1D</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" It relies on flexible bidirectional mappings between implementation models and a reference model.
+">T4B</span></a>
+<a href="../tag/t3e.html"><span class="tagL" title=" The reference model is an ontology (ISO 15926 in OWL/RDF), making ontological modeling central to the approach.
+">T3E</span></a>
+<a href="../tag/t6b.html"><span class="tagL" title=" The feasibility is demonstrated in an industrial case study (SAP Research / Oil & Gas domain).
+">T6B</span></a></li><li><span class="info">(<a href="../sle2011/index.html">SLE 2011</a>)</span> <em><a href="../sle2011/paper09.html">MoScript: A DSL for Querying and Manipulating Model Repositories</a></em> (<a href="../profile/WolfgangKling.html">Wolfgang Kling</a>, <a href="../profile/FrédéricJouault.html">Frédéric Jouault</a>, <a href="../profile/DennisWagelaar.html">Dennis Wagelaar</a>, <a href="../profile/MarcoBrambilla.html">Marco Brambilla</a>, <a href="../profile/JordiCabot.html">Jordi Cabot</a>) 
+<a href="../tag/t3c.html"><span class="tagM" title=" MoScript is introduced as a DSL tailored to querying and manipulating model repositories.
+">T3C</span></a>
+<a href="../tag/t3f.html"><span class="tagL" title=" It provides an interface layer for accessing repository functionality via scripting queries and updates.
+">T3F</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" Repository queries and updates operationalize transformations over stored models and their representations.
+">T4B</span></a></li><li><span class="info">(<a href="../sle2011/index.html">SLE 2011</a>)</span> <em><a href="../sle2011/paper10.html">Reconstructing Complex Metamodel Evolution</a></em> (<a href="../profile/SanderDVermolen.html">Sander D. Vermolen</a>, <a href="../profile/GuidoWachsmuth.html">Guido Wachsmuth</a>, <a href="../profile/EelcoVisser.html">Eelco Visser</a>) 
+<a href="../tag/t2b.html"><span class="tagM" title=" The paper addresses metamodel evolution, a central maintenance problem in model-driven engineering.
+">T2B</span></a>
+<a href="../tag/t2a.html"><span class="tagL" title=" It focuses on recovery/reconstruction of evolution histories from existing artifacts.
+">T2A</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" Reconstructing evolution implies deriving migration mappings/transformations between metamodel versions.
+">T4B</span></a></li><li><span class="info">(<a href="../sle2011/index.html">SLE 2011</a>)</span> <em><a href="../sle2011/paper19.html">Towards Combinators for Bidirectional Model Transformations in Scala</a></em> (<a href="../profile/ArifWider.html">Arif Wider</a>) 
+<a href="../tag/t3b.html"><span class="tagM" title=" The contribution is a transformation approach: combinators for bidirectional model transformations.
+">T3B</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" Bidirectional transformations are fundamentally model-to-model mappings/conversions in both directions.
+">T4B</span></a>
+<a href="../tag/t3f.html"><span class="tagL" title=" The approach is delivered as a Scala library of combinators (an API for building transformations).
+">T3F</span></a></li><li><span class="info">(<a href="../sle2012/index.html">SLE 2012</a>)</span> <em><a href="../sle2012/paper07.html">A Framework for Bidirectional Model-to-Platform Transformations</a></em> (<a href="../profile/AnthonyAnjorin.html">Anthony Anjorin</a>, <a href="../profile/KarstenSaller.html">Karsten Saller</a>, <a href="../profile/SebastianRose.html">Sebastian Rose</a>, <a href="../profile/AndySchürr.html">Andy Schürr</a>) 
+<a href="../tag/t4b.html"><span class="tagM" title=" The central contribution is bidirectional mapping between models and platform-level artifacts, i.e., conversion/mapping across representations.
+">T4B</span></a>
+<a href="../tag/t3b.html"><span class="tagL" title=" It is explicitly a model transformation framework, with bidirectionality and synchronization as key transformation concerns.
+">T3B</span></a>
+<a href="../tag/t4c.html"><span class="tagL" title=" The “model-to-platform” direction entails generative/compilational aspects, producing platform representations from models.
+">T4C</span></a></li><li><span class="info">(<a href="../sle2012/index.html">SLE 2012</a>)</span> <em><a href="../sle2012/paper09.html">Guided Merging of Sequence Diagrams</a></em> (<a href="../profile/MagdalenaWidl.html">Magdalena Widl</a>, <a href="../profile/ArminBiere.html">Armin Biere</a>, <a href="../profile/PetraBrosch.html">Petra Brosch</a>, <a href="../profile/UweEgly.html">Uwe Egly</a>, <a href="../profile/MarijnJHHeule.html">Marijn J. H. Heule</a>, <a href="../profile/GertiKappel.html">Gerti Kappel</a>, <a href="../profile/MartinaSeidl.html">Martina Seidl</a>, <a href="../profile/HansTompits.html">Hans Tompits</a>) 
+<a href="../tag/t2b.html"><span class="tagM" title=" The main setting is model versioning and merging during evolution/maintenance, focusing on reducing merge errors.
+">T2B</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" Merging independently edited models is treated as a model-to-model reconciliation/mapping problem.
+">T4B</span></a>
+<a href="../tag/t5d.html"><span class="tagL" title=" The merge problem is formalized and reduced to SAT, placing formal reasoning at the core of the proposed solution.
+">T5D</span></a></li><li><span class="info">(<a href="../sle2012/index.html">SLE 2012</a>)</span> <em><a href="../sle2012/paper16.html">A Common Foundational Theory for Bridging Two Levels in Ontology-Driven Conceptual Modeling</a></em> (<a href="../profile/GiancarloGuizzardi.html">Giancarlo Guizzardi</a>, <a href="../profile/VeruskaZamborlini.html">Veruska Zamborlini</a>) 
+<a href="../tag/t3e.html"><span class="tagM" title=" The paper is centered on foundational ontologies and ontology-driven conceptual modeling (e.g., OntoUML, OWL).
+">T3E</span></a>
+<a href="../tag/t1a.html"><span class="tagL" title=" It (re)designs a set of modeling primitives/guidelines grounded in an ontological theory, which is essentially language design work.
+">T1A</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" A key part is mapping conceptual models to computational codification languages (e.g., OWL), i.e., cross-language conversion.
+">T4B</span></a></li><li><span class="info">(<a href="../sle2012s/index.html">SLE 2012 SI</a>)</span> <em><a href="../sle2012s/paper02.html">Using a trope-based foundational ontology for bridging different areas of concern in ontology-driven conceptual modeling</a></em> (<a href="../profile/GiancarloGuizzardi.html">Giancarlo Guizzardi</a>, <a href="../profile/VeruskaZamborlini.html">Veruska Zamborlini</a>) 
+<a href="../tag/t3e.html"><span class="tagM" title=" The contribution is a foundational ontology (objects, tropes) used to ground conceptual modelling and interoperability.
+">T3E</span></a>
+<a href="../tag/t1d.html"><span class="tagL" title=" The paper explicitly aims to bridge distinct “areas of concern” and phases (conceptual modelling vs implementation concerns) through coordinated artefacts.
+">T1D</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" It provides mapping directives to connect OntoUML models with OWL/Semantic Web representations, i.e., horizontal mapping/conversion between formalisms.
+">T4B</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" It discusses computational/tool support for model building, transformation, and manipulation based on the proposed ontological foundations.
+">T4A</span></a></li><li><span class="info">(<a href="../sle2013/index.html">SLE 2013</a>)</span> <em><a href="../sle2013/paper01.html">Developing a Domain-Specific Language for Scheduling in the European Energy Sector</a></em> (<a href="../profile/StefanSobernig.html">Stefan Sobernig</a>, <a href="../profile/MarkStrembeck.html">Mark Strembeck</a>, <a href="../profile/AndreasJBeck.html">Andreas J. Beck</a>) 
+<a href="../tag/t3c.html"><span class="tagM" title=" The central contribution is the design and implementation of a domain-specific language for expressing electricity trading schedules.
+">T3C</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" A key motivation is to cope with multiple proprietary/standard schedule formats, which calls for mapping/conversion across representations.
+">T4B</span></a>
+<a href="../tag/t6b.html"><span class="tagL" title=" The work is grounded in an industrial domain (European energy trading) and reports on a real development project.
+">T6B</span></a></li><li><span class="info">(<a href="../sle2013/index.html">SLE 2013</a>)</span> <em><a href="../sle2013/paper09.html">A Pretty Good Formatting Pipeline</a></em> (<a href="../profile/AnyaHeleneBagge.html">Anya Helene Bagge</a>, <a href="../profile/TeroHasu.html">Tero Hasu</a>) 
+<a href="../tag/t4b.html"><span class="tagM" title=" The paper presents a pluggable pipeline for transforming internal program representations (e.g., ASTs) into formatted text.
+">T4B</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" The contribution is packaged as a reusable library/framework that can be integrated into transformation and generation tooling.
+">T4A</span></a>
+<a href="../tag/t5h.html"><span class="tagL" title=" It is motivated by human-facing code readability and comprehension, treating formatting as a usability concern for developers.
+">T5H</span></a></li><li><span class="info">(<a href="../sle2013/index.html">SLE 2013</a>)</span> <em><a href="../sle2013/paper11.html">A Model-Driven Approach to Enhance Tool Interoperability Using the Theory of Models of Computation</a></em> (<a href="../profile/PapaIssaDiallo.html">Papa Issa Diallo</a>, <a href="../profile/JoëlChampeau.html">Joël Champeau</a>, <a href="../profile/LoïcLagadec.html">Loïc Lagadec</a>) 
+<a href="../tag/t4b.html"><span class="tagM" title=" The core problem is interoperability across heterogeneous tools, addressed through explicit mappings/exchanges between executable models.
+">T4B</span></a>
+<a href="../tag/t5d.html"><span class="tagL" title=" It leverages formal “models of computation” to reason about and constrain executable model exchanges in a principled way.
+">T5D</span></a>
+<a href="../tag/t1d.html"><span class="tagL" title=" The paper is fundamentally about coordinating and integrating heterogeneous tool chains and execution models.
+">T1D</span></a></li><li><span class="info">(<a href="../sle2013/index.html">SLE 2013</a>)</span> <em><a href="../sle2013/paper17.html">Mapping-Aware Megamodeling: Design Patterns and Laws</a></em> (<a href="../profile/ZinovyDiskin.html">Zinovy Diskin</a>, <a href="../profile/SaharKokaly.html">Sahar Kokaly</a>, <a href="../profile/TomMaibaum.html">Tom Maibaum</a>) 
+<a href="../tag/t3a.html"><span class="tagM" title=" Megamodels act as meta-level descriptions of models and mappings; the paper proposes richer, mapping-aware megamodeling constructs and principles.
+">T3A</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" The work centers on explicit mappings between models (transformations/conversions) and how they are represented and reasoned about.
+">T4B</span></a>
+<a href="../tag/t5d.html"><span class="tagL" title=" It formulates “laws” and design patterns for megamodels, emphasizing principled (often formal) constraints on mapping structures and operations.
+">T5D</span></a></li><li><span class="info">(<a href="../sle2013/index.html">SLE 2013</a>)</span> <em><a href="../sle2013/poster1.html">Guided Grammar Convergence</a></em> (<a href="../profile/VadimZaytsev.html">Vadim Zaytsev</a>) 
+<a href="../tag/t5b.html"><span class="tagM" title=" The main contribution is analysis and reconciliation of language descriptions (grammars) via milestones of identity/equivalence and structural matching.
+">T5B</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" It aims to infer (bidirectional) transformation steps between different grammar representations, i.e., mappings/conversions across formalisms.
+">T4B</span></a>
+<a href="../tag/t3a.html"><span class="tagL" title=" The entire setting is about meta-languages for syntax/grammar specification (grammars “in a broad sense”), including normalization to a normal form.
+">T3A</span></a>
+<a href="../tag/t3b.html"><span class="tagL" title=" Conventional and guided convergence are explicitly framed as sequences of grammar transformation steps (including automatically inferred ones).
+">T3B</span></a></li><li><span class="info">(<a href="../sle2014/index.html">SLE 2014</a>)</span> <em><a href="../sle2014/paper01.html">ProMoBox: A Framework for Generating Domain-Specific Property Languages</a></em> (<a href="../profile/BartMeyers.html">Bart Meyers</a>, <a href="../profile/RomualdDeshayes.html">Romuald Deshayes</a>, <a href="../profile/LucioLevi.html">Lucio Levi</a>, <a href="../profile/EugeneSyriani.html">Eugene Syriani</a>, <a href="../profile/HansVangheluwe.html">Hans Vangheluwe</a>, <a href="../profile/ManuelWimmer.html">Manuel Wimmer</a>) 
+<a href="../tag/t5d.html"><span class="tagM" title=" The paper centers on model checking of domain models via domain-specific property specification and verification.
+">T5D</span></a>
+<a href="../tag/t3c.html"><span class="tagL" title=" It generates domain-specific property languages so domain experts can state temporal properties in familiar terms.
+">T3C</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" It provides a framework that integrates property modeling and result visualization into DSM environments.
+">T4A</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" It relies on automated translation to verification back-ends (e.g., mappings to existing model checkers).
+">T4B</span></a></li><li><span class="info">(<a href="../sle2014/index.html">SLE 2014</a>)</span> <em><a href="../sle2014/paper10.html">fUML as an Assembly Language for Model Transformation</a></em> (<a href="../profile/MassimoTisi.html">Massimo Tisi</a>, <a href="../profile/FrédéricJouault.html">Frédéric Jouault</a>, <a href="../profile/JérômeDelatour.html">Jérôme Delatour</a>, <a href="../profile/ZiedSaidi.html">Zied Saidi</a>, <a href="../profile/HasseneChoura.html">Hassene Choura</a>) 
+<a href="../tag/t4b.html"><span class="tagM" title=" It proposes an intermediate 'assembly' representation to map between different transformation engines/languages.
+">T4B</span></a>
+<a href="../tag/t3b.html"><span class="tagL" title=" The work is about executing and interoperating model transformation languages atop a common substrate.
+">T3B</span></a>
+<a href="../tag/t4d.html"><span class="tagL" title=" It positions fUML as a modeling virtual machine for running transformations.
+">T4D</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" It targets tooling interoperability within modeling platforms via a shared execution layer.
+">T4A</span></a></li><li><span class="info">(<a href="../sle2015/index.html">SLE 2015</a>)</span> <em><a href="../sle2015/paper06.html">Reference attribute grammar controlled graph rewriting: motivation and overview</a></em> (<a href="../profile/ChristoffBürger.html">Christoff Bürger</a>) 
+<a href="../tag/t1b.html"><span class="tagM" title=" It is centered on semantic analyses implemented via reference attribute grammars (a static-semantics technique).
+">T1B</span></a>
+<a href="../tag/t3a.html"><span class="tagL" title=" Reference attribute grammars act as a meta-language for specifying analyses over structured syntax trees/graphs.
+">T3A</span></a>
+<a href="../tag/t5b.html"><span class="tagL" title=" The paper discusses analysis of language descriptions/attributed specifications and how they control rewriting.
+">T5B</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" Graph rewriting is used as a transformation mechanism controlled by the attributed specification.
+">T4B</span></a></li><li><span class="info">(<a href="../sle2015/index.html">SLE 2015</a>)</span> <em><a href="../sle2015/paper07.html">Distributed model-to-model transformation with ATL on MapReduce</a></em> (<a href="../profile/AmineBenelallam.html">Amine Benelallam</a>, <a href="../profile/AbelGómez.html">Abel Gómez</a>, <a href="../profile/MassimoTisi.html">Massimo Tisi</a>, <a href="../profile/JordiCabot.html">Jordi Cabot</a>) 
+<a href="../tag/t4b.html"><span class="tagM" title=" It scales horizontal model-to-model transformations by executing them in a distributed MapReduce setting.
+">T4B</span></a>
+<a href="../tag/t5f.html"><span class="tagL" title=" A key contribution is performance/scalability for very large models and transformations.
+">T5F</span></a>
+<a href="../tag/t6d.html"><span class="tagL" title=" It combines model transformation technology with distributed systems/MapReduce (a cross-area synergy).
+">T6D</span></a>
+<a href="../tag/t3b.html"><span class="tagL" title=" ATL is a transformation language, and the work adapts its execution model to the distributed setting.
+">T3B</span></a></li><li><span class="info">(<a href="../sle2015/index.html">SLE 2015</a>)</span> <em><a href="../sle2015/paper08.html">Managing uncertainty in bidirectional model transformations</a></em> (<a href="../profile/RominaEramo.html">Romina Eramo</a>, <a href="../profile/AlfonsoPierantonio.html">Alfonso Pierantonio</a>, <a href="../profile/GianniRosa.html">Gianni Rosa</a>) 
+<a href="../tag/t4b.html"><span class="tagM" title=" The paper addresses bidirectional mappings between models, i.e., horizontal transformations/synchronization.
+">T4B</span></a>
+<a href="../tag/t5d.html"><span class="tagL" title=" It provides a principled treatment of uncertainty/non-determinism, which is typically formalized at the semantic level.
+">T5D</span></a>
+<a href="../tag/t2b.html"><span class="tagL" title=" Uncertainty handling is motivated by maintaining consistency between evolving related models.
+">T2B</span></a>
+<a href="../tag/t3b.html"><span class="tagL" title=" It builds on bidirectional transformation mechanisms that can be expressed as transformation specifications.
+">T3B</span></a></li><li><span class="info">(<a href="../sle2015/index.html">SLE 2015</a>)</span> <em><a href="../sle2015/paper12.html">Using decision rules for solving conflicts in extended feature models</a></em> (<a href="../profile/LinaOchoa.html">Lina Ochoa</a>, <a href="../profile/OscarGonzálezRojas.html">Oscar González-Rojas</a>, <a href="../profile/ThomasThüm.html">Thomas Thüm</a>) 
+<a href="../tag/t2c.html"><span class="tagM" title=" The paper addresses variability management and conflict resolution in feature models for product lines.
+">T2C</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" It uses model-based transformation/processing to analyze or resolve feature-model conflicts.
+">T4B</span></a>
+<a href="../tag/t5b.html"><span class="tagL" title=" Conflict detection/resolution is formulated as analysis over the feature-model language description.
+">T5B</span></a>
+<a href="../tag/t5e.html"><span class="tagL" title=" The work typically includes evaluation on feature models/scenarios to demonstrate effectiveness (as implied by decision-making scenarios).
+">T5E</span></a></li><li><span class="info">(<a href="../sle2016/index.html">SLE 2016</a>)</span> <em><a href="../sle2016/paper01.html">Parsing and Reflective Printing, Bidirectionally</a></em> (<a href="../profile/ZirunZhu.html">Zirun Zhu</a>, <a href="../profile/YongzheZhang.html">Yongzhe Zhang</a>, <a href="../profile/HsiangShangKo.html">Hsiang-Shang Ko</a>, <a href="../profile/PedroMartins.html">Pedro Martins</a>, <a href="../profile/JoãoSaraiva.html">João Saraiva</a>, <a href="../profile/ZhenjiangHu.html">Zhenjiang Hu</a>) 
+<a href="../tag/t3b.html"><span class="tagM" title=" BIYACC is a transformation-oriented DSL that unifies parsing and reflective printing via bidirectional transformations.
+">T3B</span></a>
+<a href="../tag/t3c.html"><span class="tagL" title=" The contribution is a dedicated DSL (BIYACC) for specifying parser/printer pairs.
+">T3C</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" The approach defines a bidirectional mapping between program text/CSTs and ASTs.
+">T4B</span></a>
+<a href="../tag/t2b.html"><span class="tagL" title=" The motivation is keeping parsers and printers consistent as languages evolve.
+">T2B</span></a></li><li><span class="info">(<a href="../sle2016/index.html">SLE 2016</a>)</span> <em><a href="../sle2016/paper06.html">Runtime Support for Rule-Based Access-Control Evaluation through Model-Transformation</a></em> (<a href="../profile/SalvadorMartínez.html">Salvador Martínez</a>, <a href="../profile/JokinGarcía.html">Jokin García</a>, <a href="../profile/JordiCabot.html">Jordi Cabot</a>) 
+<a href="../tag/t4d.html"><span class="tagM" title=" The focus is runtime evaluation of access-control policies using model-based techniques.
+">T4D</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" Model transformation is used as the operational mechanism for evaluating and updating policy decisions.
+">T4B</span></a>
+<a href="../tag/t5a.html"><span class="tagL" title=" Access-control policies are framed as enforcing security requirements (confidentiality/integrity).
+">T5A</span></a></li><li><span class="info">(<a href="../sle2016/index.html">SLE 2016</a>)</span> <em><a href="../sle2016/paper13.html">Towards a Universal Code Formatter through Machine Learning</a></em> (<a href="../profile/TerenceParr.html">Terence Parr</a>, <a href="../profile/JurgenVinju.html">Jurgen Vinju</a>) 
+<a href="../tag/t4g.html"><span class="tagM" title=" The key technique is machine learning applied to infer formatting rules for languages.
+">T4G</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" Formatting is a source-to-source transformation that rewrites code while preserving meaning.
+">T4B</span></a>
+<a href="../tag/t5h.html"><span class="tagL" title=" A main motivation is improving readability and user-specific formatting preferences (usability).
+">T5H</span></a>
+<a href="../tag/t3d.html"><span class="tagL" title=" The formatter targets general-purpose programming languages and their concrete syntax.
+">T3D</span></a></li><li><span class="info">(<a href="../sle2016/index.html">SLE 2016</a>)</span> <em><a href="../sle2016/paper21.html">Efficient Model Partitioning for Distributed Model Transformations</a></em> (<a href="../profile/AmineBenelallam.html">Amine Benelallam</a>, <a href="../profile/MassimoTisi.html">Massimo Tisi</a>, <a href="../profile/JesúsSánchezCuadrado.html">Jesús Sánchez Cuadrado</a>, <a href="../profile/JuandeLara.html">Juan de Lara</a>, <a href="../profile/JordiCabot.html">Jordi Cabot</a>) 
+<a href="../tag/t4b.html"><span class="tagM" title=" It optimizes (horizontal) model transformations by partitioning models for distributed execution.
+">T4B</span></a>
+<a href="../tag/t5f.html"><span class="tagL" title=" A core contribution is performance/scalability improvements for large-scale transformations.
+">T5F</span></a>
+<a href="../tag/t6d.html"><span class="tagL" title=" It combines model transformation with distributed systems techniques to scale execution (cross-area synergy).
+">T6D</span></a></li><li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> <em><a href="../sle2017/paper23.html">Virtual textual model composition for supporting versioning and aspect-orientation</a></em> (<a href="../profile/RobertBill.html">Robert Bill</a>, <a href="../profile/PatrickNeubauer.html">Patrick Neubauer</a>, <a href="../profile/ManuelWimmer.html">Manuel Wimmer</a>) 
+<a href="../tag/t1d.html"><span class="tagM" title=" The paper’s core topic is composing textual models virtually to support versioning and aspect-oriented separation.
+">T1D</span></a>
+<a href="../tag/t2b.html"><span class="tagL" title=" It is motivated by maintenance tasks and versioning scenarios where code/model redundancy and irrelevance hinder evolution.
+">T2B</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" Virtual composition entails mapping/synchronizing between base artifacts and composed virtual views.
+">T4B</span></a>
+<a href="../tag/t5h.html"><span class="tagL" title=" It targets improved developer cognition by hiding redundancy/irrelevance in composed views (usability for maintenance).
+">T5H</span></a></li><li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> <em><a href="../sle2018/paper12.html">Continuous model validation using reference attribute grammars</a></em> (<a href="../profile/JohannesMey.html">Johannes Mey</a>, <a href="../profile/RenéSchöne.html">René Schöne</a>, <a href="../profile/GörelHedin.html">Görel Hedin</a>, <a href="../profile/EmmaSöderberg.html">Emma Söderberg</a>, <a href="../profile/ThomasKühn.html">Thomas Kühn</a>, <a href="../profile/NiklasFors.html">Niklas Fors</a>, <a href="../profile/JesperÖqvist.html">Jesper Öqvist</a>, <a href="../profile/UweAßmann.html">Uwe Aßmann</a>) 
+<a href="../tag/t3a.html"><span class="tagM" title=" The paper proposes or uses a meta-language/formalism for defining or analyzing language artifacts.
+">T3A</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" It includes substantial tool support or infrastructure relevant for engineering/using languages.
+">T4A</span></a>
+<a href="../tag/t5e.html"><span class="tagL" title=" It reports an empirical evaluation (experiments, study, benchmarks, or measurements).
+">T5E</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" It performs mapping/conversion/synchronization between representations (horizontal transformations).
+">T4B</span></a></li><li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> <em><a href="../sle2018/paper13.html">Declarative specification of indentation rules: a tooling perspective on parsing and pretty-printing layout-sensitive languages</a></em> (<a href="../profile/LuísEduardodeSouzaAmorim.html">Luís Eduardo de Souza Amorim</a>, <a href="../profile/MichaelJSteindorfer.html">Michael J. Steindorfer</a>, <a href="../profile/SebastianErdweg.html">Sebastian Erdweg</a>, <a href="../profile/EelcoVisser.html">Eelco Visser</a>) 
+<a href="../tag/t1b.html"><span class="tagM" title=" The paper’s main contribution concerns static semantics, especially typing or constraint checking.
+">T1B</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" It includes substantial tool support or infrastructure relevant for engineering/using languages.
+">T4A</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" It performs mapping/conversion/synchronization between representations (horizontal transformations).
+">T4B</span></a>
+<a href="../tag/t4c.html"><span class="tagL" title=" It uses compilation/generation/refinement to derive executable artifacts (vertical transformations).
+">T4C</span></a></li><li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> <em><a href="../sle2018/paper15.html">Facet-oriented modelling: open objects for model-driven engineering</a></em> (<a href="../profile/JuandeLara.html">Juan de Lara</a>, <a href="../profile/EstherGuerra.html">Esther Guerra</a>, <a href="../profile/JörgKienzle.html">Jörg Kienzle</a>, <a href="../profile/YanisHattab.html">Yanis Hattab</a>) 
+<a href="../tag/t1b.html"><span class="tagM" title=" The paper’s main contribution concerns static semantics, especially typing or constraint checking.
+">T1B</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" It performs mapping/conversion/synchronization between representations (horizontal transformations).
+">T4B</span></a></li><li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> <em><a href="../sle2019/paper01.html">A feature-based classification of triple graph grammar variants</a></em> (<a href="../profile/NilsBWeidmann.html">Nils B. Weidmann</a>, <a href="../profile/RobinOppermann.html">Robin Oppermann</a>, <a href="../profile/PatrickRobrecht.html">Patrick Robrecht</a>) 
+<a href="../tag/t3b.html"><span class="tagM" title=" The paper’s central topic is specifying or applying transformations (rewriting/mapping/synchronization).
+">T3B</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" It includes substantial tool support or infrastructure relevant for engineering/using languages.
+">T4A</span></a>
+<a href="../tag/t5d.html"><span class="tagL" title=" It relies on formal methods (definitions/proofs/semantic properties) beyond informal description.
+">T5D</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" It performs mapping/conversion/synchronization between representations (horizontal transformations).
+">T4B</span></a></li><li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> <em><a href="../sle2019/paper19.html">Generating incremental type services</a></em> (<a href="../profile/AndréPacak.html">André Pacak</a>, <a href="../profile/SebastianErdweg.html">Sebastian Erdweg</a>) 
+<a href="../tag/t1b.html"><span class="tagM" title=" The paper’s main contribution concerns static semantics, especially typing or constraint checking.
+">T1B</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" It performs mapping/conversion/synchronization between representations (horizontal transformations).
+">T4B</span></a></li><li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> <em><a href="../sle2020/paper02.html">An Interactive Feedback System for Grammar Development (tool paper)</a></em> (<a href="../profile/ChelseaBarraball.html">Chelsea Barraball</a>, <a href="../profile/MoeketsiRaselimo.html">Moeketsi Raselimo</a>, <a href="../profile/BerndFischer.html">Bernd Fischer</a>) 
+<a href="../tag/t1a.html"><span class="tagM" title=" The paper primarily contributes techniques for language definition (often syntax-related) as part of language design.
+">T1A</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" It includes substantial tool support or infrastructure relevant for engineering/using languages.
+">T4A</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" It performs mapping/conversion/synchronization between representations (horizontal transformations).
+">T4B</span></a>
+<a href="../tag/t5h.html"><span class="tagL" title=" It targets usability (developer interaction, comprehension, editing experience).
+">T5H</span></a></li><li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> <em><a href="../sle2020/paper03.html">Example-Driven Software Language Engineering</a></em> (<a href="../profile/MikhailBarash.html">Mikhail Barash</a>) 
+<a href="../tag/t1b.html"><span class="tagM" title=" The paper’s main contribution concerns static semantics, especially typing or constraint checking.
+">T1B</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" It includes substantial tool support or infrastructure relevant for engineering/using languages.
+">T4A</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" It performs mapping/conversion/synchronization between representations (horizontal transformations).
+">T4B</span></a>
+<a href="../tag/t5h.html"><span class="tagL" title=" It targets usability (developer interaction, comprehension, editing experience).
+">T5H</span></a></li><li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> <em><a href="../sle2020/paper11.html">Gradually Typing Strategies</a></em> (<a href="../profile/JeffSmits.html">Jeff Smits</a>, <a href="../profile/EelcoVisser.html">Eelco Visser</a>) 
+<a href="../tag/t1b.html"><span class="tagM" title=" The paper’s main contribution concerns static semantics, especially typing or constraint checking.
+">T1B</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" It includes substantial tool support or infrastructure relevant for engineering/using languages.
+">T4A</span></a>
+<a href="../tag/t5d.html"><span class="tagL" title=" It relies on formal methods (definitions/proofs/semantic properties) beyond informal description.
+">T5D</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" It performs mapping/conversion/synchronization between representations (horizontal transformations).
+">T4B</span></a></li><li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> <em><a href="../sle2020/paper13.html">A Search-Based and Fault-Tolerant Approach to Concurrent Model Synchronisation</a></em> (<a href="../profile/NilsBWeidmann.html">Nils B. Weidmann</a>, <a href="../profile/LarsFritsche.html">Lars Fritsche</a>, <a href="../profile/AnthonyAnjorin.html">Anthony Anjorin</a>) 
+<a href="../tag/t3b.html"><span class="tagM" title=" The paper’s central topic is specifying or applying transformations (rewriting/mapping/synchronization).
+">T3B</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" It performs mapping/conversion/synchronization between representations (horizontal transformations).
+">T4B</span></a>
+<a href="../tag/t5h.html"><span class="tagL" title=" It targets usability (developer interaction, comprehension, editing experience).
+">T5H</span></a></li><li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> <em><a href="../sle2020/paper15.html">A Precedence-Driven Approach for Concurrent Model Synchronization Scenarios using Triple Graph Grammars</a></em> (<a href="../profile/LarsFritsche.html">Lars Fritsche</a>, <a href="../profile/JensKosiol.html">Jens Kosiol</a>, <a href="../profile/AdrianMöller.html">Adrian Möller</a>, <a href="../profile/AndySchürr.html">Andy Schürr</a>, <a href="../profile/GabrieleTaentzer.html">Gabriele Taentzer</a>) 
+<a href="../tag/t3b.html"><span class="tagM" title=" The paper’s central topic is specifying or applying transformations (rewriting/mapping/synchronization).
+">T3B</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" It includes substantial tool support or infrastructure relevant for engineering/using languages.
+">T4A</span></a>
+<a href="../tag/t5d.html"><span class="tagL" title=" It relies on formal methods (definitions/proofs/semantic properties) beyond informal description.
+">T5D</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" It performs mapping/conversion/synchronization between representations (horizontal transformations).
+">T4B</span></a></li><li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> <em><a href="../sle2020/paper17.html">Grammar-Based Testing for Little Languages: An Experience Report with Student Compilers</a></em> (<a href="../profile/PhillipvanHeerden.html">Phillip van Heerden</a>, <a href="../profile/MoeketsiRaselimo.html">Moeketsi Raselimo</a>, <a href="../profile/KonstantinosSagonas.html">Konstantinos Sagonas</a>, <a href="../profile/BerndFischer.html">Bernd Fischer</a>) 
+<a href="../tag/t1b.html"><span class="tagM" title=" The paper’s main contribution concerns static semantics, especially typing or constraint checking.
+">T1B</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" It includes substantial tool support or infrastructure relevant for engineering/using languages.
+">T4A</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" It performs mapping/conversion/synchronization between representations (horizontal transformations).
+">T4B</span></a>
+<a href="../tag/t4c.html"><span class="tagL" title=" It uses compilation/generation/refinement to derive executable artifacts (vertical transformations).
+">T4C</span></a></li><li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> <em><a href="../sle2020/paper19.html">Strategic Tree Rewriting in Attribute Grammars</a></em> (<a href="../profile/LucasKramer.html">Lucas Kramer</a>, <a href="../profile/EricVanWyk.html">Eric Van Wyk</a>) 
+<a href="../tag/t3a.html"><span class="tagM" title=" The paper proposes or uses a meta-language/formalism for defining or analyzing language artifacts.
+">T3A</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" It performs mapping/conversion/synchronization between representations (horizontal transformations).
+">T4B</span></a></li><li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> <em><a href="../sle2021/paper06.html">Faster reachability analysis for LR(1) parsers</a></em> (<a href="../profile/FrédéricBour.html">Frédéric Bour</a>, <a href="../profile/FrançoisPottier.html">François Pottier</a>) 
+<a href="../tag/t3b.html"><span class="tagM" title=" The paper’s central topic is specifying or applying transformations (rewriting/mapping/synchronization).
+">T3B</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" It performs mapping/conversion/synchronization between representations (horizontal transformations).
+">T4B</span></a>
+<a href="../tag/t6b.html"><span class="tagL" title=" It is motivated by or evaluated in an industrial/practical context.
+">T6B</span></a></li><li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> <em><a href="../sle2021/paper13.html">Getting grammars into shape for block-based editors</a></em> (<a href="../profile/MauricioVeranoMerino.html">Mauricio Verano Merino</a>, <a href="../profile/TomBeckmann.html">Tom Beckmann</a>, <a href="../profile/TijsvanderStorm.html">Tijs van der Storm</a>, <a href="../profile/RobertHirschfeld.html">Robert Hirschfeld</a>, <a href="../profile/JurgenVinju.html">Jurgen Vinju</a>) 
+<a href="../tag/t3b.html"><span class="tagM" title=" The paper’s central topic is specifying or applying transformations (rewriting/mapping/synchronization).
+">T3B</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" It includes substantial tool support or infrastructure relevant for engineering/using languages.
+">T4A</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" It performs mapping/conversion/synchronization between representations (horizontal transformations).
+">T4B</span></a>
+<a href="../tag/t4c.html"><span class="tagL" title=" It uses compilation/generation/refinement to derive executable artifacts (vertical transformations).
+">T4C</span></a></li><li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em><a href="../sle2022/paper09.html">Selective Traceability for Rule-Based Model-to-Model Transformations</a></em> (<a href="../profile/QuratUlAinAli.html">Qurat Ul Ain Ali</a>, <a href="../profile/DimitriosSKolovos.html">Dimitrios S. Kolovos</a>, <a href="../profile/KonstantinosBarmpis.html">Konstantinos Barmpis</a>) 
+<a href="../tag/t5g.html"><span class="tagM" title=" The central topic is selective traceability for model-to-model transformations.
+">T5G</span></a>
+<a href="../tag/t3b.html"><span class="tagL" title=" It targets rule-based model transformation languages and their execution behavior.
+">T3B</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" Trace models act as mappings between source and target models in horizontal transformations.
+">T4B</span></a>
+<a href="../tag/t5f.html"><span class="tagL" title=" Selective traceability is motivated by scalability and performance of transformations.
+">T5F</span></a></li><li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em><a href="../sle2022/paper23.html">Partial Loading of Repository-Based Models through Static Analysis</a></em> (<a href="../profile/SorourJahanbin.html">Sorour Jahanbin</a>, <a href="../profile/DimitriosSKolovos.html">Dimitrios S. Kolovos</a>, <a href="../profile/SimosGerasimou.html">Simos Gerasimou</a>, <a href="../profile/GersonSunyé.html">Gerson Sunyé</a>) 
+<a href="../tag/t5f.html"><span class="tagM" title=" The main goal is improving scalability (time/memory) of model management via partial loading.
+">T5F</span></a>
+<a href="../tag/t5b.html"><span class="tagL" title=" It uses static analysis of model management programs to determine what to load.
+">T5B</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" It generates graph-database (Cypher) queries that map model-management needs to repository retrieval.
+">T4B</span></a>
+<a href="../tag/t3b.html"><span class="tagL" title=" The work targets model management/transformation/validation languages and their execution engines.
+">T3B</span></a></li><li><span class="info">(<a href="../sle2023/index.html">SLE 2023</a>)</span> <em><a href="../sle2023/paper07.html">Automated Extraction of Grammar Optimization Rule Configurations for Metamodel-Grammar Co-evolution</a></em> (<a href="../profile/WeixingZhang.html">Weixing Zhang</a>, <a href="../profile/ReginaHebig.html">Regina Hebig</a>, <a href="../profile/DanielStrüber.html">Daniel Strüber</a>, <a href="../profile/JanPhilippSteghöfer.html">Jan-Philipp Steghöfer</a>) 
+<a href="../tag/t2b.html"><span class="tagM" title=" The focus is on supporting co-evolution of metamodels and grammars by automatically extracting and updating grammar optimization configurations.
+">T2B</span></a>
+<a href="../tag/t5b.html"><span class="tagL" title=" The technique analyses and manipulates grammar specifications to recover optimization-rule configurations.
+">T5B</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" Grammar migration after metamodel changes is framed as a systematic transformation/mapping problem between artefacts.
+">T4B</span></a></li><li><span class="info">(<a href="../sle2023/index.html">SLE 2023</a>)</span> <em><a href="../sle2023/paper12.html">Cascade: A Meta-language for Change, Cause and Effect</a></em> (<a href="../profile/RiemervanRozen.html">Riemer van Rozen</a>) 
+<a href="../tag/t3a.html"><span class="tagM" title=" Cascade is presented as a meta-language for expressing change, cause-and-effect, and interpreter behavior for DSLs.
+">T3A</span></a>
+<a href="../tag/t3c.html"><span class="tagL" title=" The meta-language is explicitly aimed at creating and retrofitting domain-specific languages with live-programming features.
+">T3C</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" The approach relies on (bi-directional) model transformations and migrations to represent and propagate change.
+">T4B</span></a>
+<a href="../tag/t4d.html"><span class="tagL" title=" The accompanying runtime (Delta) executes transformations and maintains histories during program execution.
+">T4D</span></a></li><li><span class="info">(<a href="../sle2023/index.html">SLE 2023</a>)</span> <em><a href="../sle2023/paper15.html">Towards Efficient Model Comparison using Automated Program Rewriting</a></em> (<a href="../profile/QuratUlAinAli.html">Qurat Ul Ain Ali</a>, <a href="../profile/DimitriosSKolovos.html">Dimitrios S. Kolovos</a>, <a href="../profile/KonstantinosBarmpis.html">Konstantinos Barmpis</a>) 
+<a href="../tag/t4b.html"><span class="tagM" title=" The paper proposes a model comparison approach, which is a horizontal mapping/differencing operation between models.
+">T4B</span></a>
+<a href="../tag/t3b.html"><span class="tagL" title=" The comparison is encoded in a rule-based language and optimized via automated program rewriting of those rules.
+">T3B</span></a>
+<a href="../tag/t5f.html"><span class="tagL" title=" The main driver is improving efficiency of comparison for large models, making performance a key evaluation axis.
+">T5F</span></a></li><li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> <em><a href="../sle2024/paper03.html">Towards an In-Context LLM-Based Approach for Automating the Definition of Model Views</a></em> (<a href="../profile/JamesPontesMiranda.html">James Pontes Miranda</a>, <a href="../profile/HugoBrunelière.html">Hugo Brunelière</a>, <a href="../profile/MassimoTisi.html">Massimo Tisi</a>, <a href="../profile/GersonSunyé.html">Gerson Sunyé</a>) 
+<a href="../tag/t4g.html"><span class="tagM" title=" The paper uses LLM-based assistance to automatically derive model-view definitions from context and examples.
+">T4G</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" Model views are constructed by mapping/transforming elements across heterogeneous metamodels and models.
+">T4B</span></a>
+<a href="../tag/t3c.html"><span class="tagL" title=" The problem is formulated over modeling languages and their view-definition DSLs.
+">T3C</span></a>
+<a href="../tag/t5e.html"><span class="tagL" title=" The approach is validated by comparing generated view definitions against manually written ones.
+">T5E</span></a></li><li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> <em><a href="../sle2024/paper04.html">Concrete Syntax Metapatterns</a></em> (<a href="../profile/LukaMiljak.html">Luka Miljak</a>, <a href="../profile/CasperBachPoulsen.html">Casper Bach Poulsen</a>, <a href="../profile/RosildeCorvino.html">Rosilde Corvino</a>) 
+<a href="../tag/t4b.html"><span class="tagM" title=" It advances code transformation by extending AST pattern matching with more expressive metapatterns for refactorings.
+">T4B</span></a>
+<a href="../tag/t3b.html"><span class="tagL" title=" Metapatterns act as a transformation/pattern language for matching and rewriting program structures.
+">T3B</span></a>
+<a href="../tag/t2b.html"><span class="tagL" title=" The motivating use case is large-scale refactoring to support maintenance of evolving code bases.
+">T2B</span></a>
+<a href="../tag/t4a.html"><span class="tagL" title=" The contribution targets transformation tooling that developers use to build and apply restructurings.
+">T4A</span></a></li><li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> <em><a href="../sle2024/paper18.html">Bugfox: A Trace-Based Analyzer for Localizing the Cause of Software Regression in JavaScript</a></em> (<a href="../profile/YuefengHu.html">Yuefeng Hu</a>, <a href="../profile/HiromuIshibe.html">Hiromu Ishibe</a>, <a href="../profile/FengDai.html">Feng Dai</a>, <a href="../profile/TetsuroYamazaki.html">Tetsuro Yamazaki</a>, <a href="../profile/ShigeruChiba.html">Shigeru Chiba</a>) 
+<a href="../tag/t5c.html"><span class="tagM" title=" Bugfox targets regression debugging/testing by localizing the root cause of regressions from execution traces.
+">T5C</span></a>
+<a href="../tag/t2b.html"><span class="tagL" title=" Regression localization is motivated by maintenance tasks when software evolves between versions.
+">T2B</span></a>
+<a href="../tag/t4b.html"><span class="tagL" title=" The approach instruments and transforms code to collect traces and compute differences between executions.
+">T4B</span></a>
+<a href="../tag/t5e.html"><span class="tagL" title=" Its effectiveness is supported by an empirical evaluation on real regression scenarios.
+">T5E</span></a></li><li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> <em><a href="../sle2025/paper16.html">Detecting Resource Leaks on Android with Alpakka</a></em> (<a href="../profile/GustavoSoaresSantos.html">Gustavo Soares Santos</a>, <a href="../profile/JoãoBispo.html">João Bispo</a>, <a href="../profile/AlexandraMendes.html">Alexandra Mendes</a>) 
+<a href="../tag/t4b.html"><span class="tagM" title=" Alpakka is a source-to-source compiler over Smali that transforms programs to detect and repair resource leaks.
+">T4B</span></a>
+<a href="../tag/t2b.html"><span class="tagL" title=" Automatically localizing and fixing resource leaks supports maintenance and regression prevention in Android apps.
+">T2B</span></a>
+<a href="../tag/t5e.html"><span class="tagL" title=" It reports an empirical evaluation on a dataset of real APKs and quantifies findings such as false positive rates.
+">T5E</span></a></li></ul>
 		<clear/>
 		<footer/>
 	</body>

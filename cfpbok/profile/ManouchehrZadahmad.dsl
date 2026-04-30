@@ -2,7 +2,10 @@
 	<head title="Manouchehr Zadahmad's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Manouchehr Zadahmad <a href="https://openalex.org/A5021251591"><img src="../logos/openalex.png" alt="OpenAlex"></a> <a href="https://orcid.org/0000-0003-3052-553X"><img src="../logos/orcid.svg" alt="ORCID"></a></h1>
+		<h1>Manouchehr Zadahmad
+<a href="https://openalex.org/A5021251591" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://orcid.org/0000-0003-3052-553X" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
+<a href="https://dblp.org/search?q=Manouchehr Zadahmad" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2019/index.html"><img src="../sle.png" alt="SLE 2019"></a>
 			<figcaption>
@@ -17,7 +20,7 @@
 		<ul>
 
 		<li><span class="info">1</span> papers in <span class="info">1</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t3c.html"><span class="tagM">T3C: DSLs</span></a> (<span class="info">1</span> times)</li>
 				<li><a href="../tag/t4a.html"><span class="tagM">T4A: Workbenches</span></a> (<span class="info">1</span> times)</li>
@@ -35,7 +38,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> <em>Coauthored <a href="../sle2019/paper11.html">Domain-specific model differencing in visual concrete syntax</a></em> (<a href="../profile/ManouchehrZadahmad.html"><span class="info">Manouchehr Zadahmad</span></a>, <a href="../profile/EugeneSyriani.html">Eugene Syriani</a>, <a href="../profile/OmarAlam.html">Omar Alam</a>, <a href="../profile/EstherGuerra.html">Esther Guerra</a>, <a href="../profile/JuandeLara.html">Juan de Lara</a>)</li></ul>
+<li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> <em>Coauthored <a href="../sle2019/paper11.html">Domain-specific model differencing in visual concrete syntax</a></em> (<a href="../profile/ManouchehrZadahmad.html"><span class="info">Manouchehr Zadahmad</span></a>, <a href="../profile/EugeneSyriani.html">Eugene Syriani</a>, <a href="../profile/OmarAlam.html">Omar Alam</a>, <a href="../profile/EstherGuerra.html">Esther Guerra</a>, <a href="../profile/JuandeLara.html">Juan de Lara</a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

@@ -2,7 +2,7 @@
 	<head title="Sibylle Schupp's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Sibylle Schupp</h1>
+		<h1>Sibylle Schupp<a href="https://dblp.org/search?q=Sibylle Schupp" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2016/index.html"><img src="../sle.png" alt="SLE 2016"></a>
 			<figcaption>

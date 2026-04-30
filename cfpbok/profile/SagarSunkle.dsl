@@ -2,7 +2,9 @@
 	<head title="Sagar Sunkle's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Sagar Sunkle <a href="https://openalex.org/A5068346244"><img src="../logos/openalex.png" alt="OpenAlex"></a></h1>
+		<h1>Sagar Sunkle
+<a href="https://openalex.org/A5068346244" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://dblp.org/search?q=Sagar Sunkle" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2017/index.html"><img src="../sle.png" alt="SLE 2017"></a>
 			<figcaption>
@@ -17,7 +19,7 @@
 		<ul>
 
 		<li><span class="info">1</span> papers in <span class="info">1</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t3c.html"><span class="tagM">T3C: DSLs</span></a> (<span class="info">1</span> times)</li>
 				<li><a href="../tag/t5a.html"><span class="tagM">T5A: Requirements</span></a> (<span class="info">1</span> times)</li>
@@ -35,7 +37,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> <em>Coauthored <a href="../sle2017/paper03.html">A domain-specific controlled English language for automated regulatory compliance (industrial paper)</a></em> (<a href="../profile/SumanRoychoudhury.html">Suman Roychoudhury</a>, <a href="../profile/SagarSunkle.html"><span class="info">Sagar Sunkle</span></a>, <a href="../profile/DeepaliKholkar.html">Deepali Kholkar</a>, <a href="../profile/VinayKulkarni.html">Vinay Kulkarni</a>)</li></ul>
+<li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> <em>Coauthored <a href="../sle2017/paper03.html">A domain-specific controlled English language for automated regulatory compliance (industrial paper)</a></em> (<a href="../profile/SumanRoychoudhury.html">Suman Roychoudhury</a>, <a href="../profile/SagarSunkle.html"><span class="info">Sagar Sunkle</span></a>, <a href="../profile/DeepaliKholkar.html">Deepali Kholkar</a>, <a href="../profile/VinayKulkarni.html">Vinay Kulkarni</a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

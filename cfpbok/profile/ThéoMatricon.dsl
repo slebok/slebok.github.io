@@ -2,7 +2,7 @@
 	<head title="Théo Matricon's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Théo Matricon</h1>
+		<h1>Théo Matricon<a href="https://dblp.org/search?q=Théo Matricon" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2026/index.html"><img src="../sle.png" alt="SLE 2026"></a>
 			<figcaption>

@@ -2,7 +2,7 @@
 	<head title="Antonio Garcia-Dominguez's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Antonio Garcia-Dominguez</h1>
+		<h1>Antonio Garcia-Dominguez<a href="https://dblp.org/search?q=Antonio Garcia-Dominguez" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2019/index.html"><img src="../sle.png" alt="SLE 2019"></a>
 			<figcaption>

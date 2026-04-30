@@ -2,7 +2,10 @@
 	<head title="Alexander Sakharov's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Alexander Sakharov <a href="https://dblp.org/pid/62/4876.html"><img src="../logos/dblp.png" alt="DBLP"></a> <a href="https://openalex.org/A5091520054"><img src="../logos/openalex.png" alt="OpenAlex"></a> <a href="https://orcid.org/0000-0001-6622-2923"><img src="../logos/orcid.svg" alt="ORCID"></a></h1>
+		<h1>Alexander Sakharov
+<a href="https://dblp.org/pid/62/4876.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
+<a href="https://openalex.org/A5091520054" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://orcid.org/0000-0001-6622-2923" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a></h1>
 		<figure class="small">
 			<a href="../sle2018/index.html"><img src="../sle.png" alt="SLE 2018"></a>
 			<figcaption>
@@ -31,7 +34,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> <em>Authored <a href="../sle2018/paper03.html">Input-driven regular expressions (vision paper)</a></em> (<a href="../profile/AlexanderSakharov.html"><span class="info">Alexander Sakharov</span></a>)</li></ul>
+<li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> <em>Authored <a href="../sle2018/paper03.html">Input-driven regular expressions (vision paper)</a></em> (<a href="../profile/AlexanderSakharov.html"><span class="info">Alexander Sakharov</span></a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

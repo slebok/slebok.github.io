@@ -2,7 +2,10 @@
 	<head title="Roland Kretschmer's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Roland Kretschmer <a href="https://openalex.org/A5016832700"><img src="../logos/openalex.png" alt="OpenAlex"></a> <a href="https://orcid.org/0000-0002-5710-5554"><img src="../logos/orcid.svg" alt="ORCID"></a></h1>
+		<h1>Roland Kretschmer
+<a href="https://openalex.org/A5016832700" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://orcid.org/0000-0002-5710-5554" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
+<a href="https://dblp.org/search?q=Roland Kretschmer" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2019/index.html"><img src="../sle.png" alt="SLE 2019"></a>
 			<figcaption>
@@ -32,7 +35,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> <em>Coauthored <a href="../sle2019/paper12.html">Detecting and exploring side effects when repairing model inconsistencies</a></em> (<a href="../profile/DjamelEddineKhelladi.html">Djamel Eddine Khelladi</a>, <a href="../profile/RolandKretschmer.html"><span class="info">Roland Kretschmer</span></a>, <a href="../profile/AlexanderEgyed.html">Alexander Egyed</a>)</li></ul>
+<li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> <em>Coauthored <a href="../sle2019/paper12.html">Detecting and exploring side effects when repairing model inconsistencies</a></em> (<a href="../profile/DjamelEddineKhelladi.html">Djamel Eddine Khelladi</a>, <a href="../profile/RolandKretschmer.html"><span class="info">Roland Kretschmer</span></a>, <a href="../profile/AlexanderEgyed.html">Alexander Egyed</a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

@@ -2,7 +2,10 @@
 	<head title="Iat Tou Leong's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Iat Tou Leong <a href="https://openalex.org/A5023177840"><img src="../logos/openalex.png" alt="OpenAlex"></a> <a href="https://orcid.org/0000-0002-8019-0603"><img src="../logos/orcid.svg" alt="ORCID"></a></h1>
+		<h1>Iat Tou Leong
+<a href="https://openalex.org/A5023177840" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
+<a href="https://orcid.org/0000-0002-8019-0603" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
+<a href="https://dblp.org/search?q=Iat Tou Leong" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2024s/index.html"><img src="../sle.png" alt="SLE 2024 SI"></a>
 			<figcaption>
@@ -17,7 +20,7 @@
 		<ul>
 
 		<li><span class="info">1</span> papers in <span class="info">1</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t5d.html"><span class="tagM">T5D: Formal Methods</span></a> (<span class="info">1</span> times)</li>
 				<li><a href="../tag/t4g.html"><span class="tagM">T4G: AI-for-SLE</span></a> (<span class="info">1</span> times)</li>
@@ -33,7 +36,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2024s/index.html">SLE 2024 SI</a>)</span> <em>Coauthored <a href="../sle2024s/paper06.html">Translating meaning representations to behavioural interface specifications</a></em> (<a href="../profile/IatTouLeong.html"><span class="info">Iat Tou Leong</span></a>, <a href="../profile/RaulBarbosa.html">Raul Barbosa</a>)</li></ul>
+<li><span class="info">(<a href="../sle2024s/index.html">SLE 2024 SI</a>)</span> <em>Coauthored <a href="../sle2024s/paper06.html">Translating meaning representations to behavioural interface specifications</a></em> (<a href="../profile/IatTouLeong.html"><span class="info">Iat Tou Leong</span></a>, <a href="../profile/RaulBarbosa.html">Raul Barbosa</a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

@@ -2,7 +2,9 @@
 	<head title="Jean-Marie Mottu's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Jean-Marie Mottu <a href="">(link)</a></h1>
+		<h1>Jean-Marie Mottu
+
+<a href="https://dblp.org/search?q=Jean-Marie Mottu" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2020/index.html"><img src="../sle.png" alt="SLE 2020"></a>
 			<figcaption>
@@ -33,7 +35,7 @@
 		<ul>
 
 		<li><span class="info">3</span> papers in <span class="info">3</span> bundles</li>
-				<li>Top 3 popular tags:
+				<li>Top 3 popular topics:
 			<ul>
 				<li><a href="../tag/t3c.html"><span class="tagM">T3C: DSLs</span></a> (<span class="info">3</span> times)</li>
 				<li><a href="../tag/t4a.html"><span class="tagM">T4A: Workbenches</span></a> (<span class="info">3</span> times)</li>
@@ -51,9 +53,9 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> <em>Coauthored <a href="../sle2020/paper16.html">Annotating Executable DSLs with Energy Estimation Formulas</a></em> (<a href="../profile/ThibaultBézierslaFosse.html">Thibault Béziers la Fosse</a>, <a href="../profile/MassimoTisi.html">Massimo Tisi</a>, <a href="../profile/JeanMarieMottu.html"><span class="info">Jean-Marie Mottu</span></a>, <a href="../profile/GersonSunyé.html">Gerson Sunyé</a>)</li>
-<li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em>Coauthored <a href="../sle2022/paper20.html">From Coverage Computation to Fault Localization: A Generic Framework for Domain-Specific Languages</a></em> (<a href="../profile/FaezehKhorram.html">Faezeh Khorram</a>, <a href="../profile/ErwanBousse.html">Erwan Bousse</a>, <a href="../profile/AntonioGarmendía.html">Antonio Garmendía</a>, <a href="../profile/JeanMarieMottu.html"><span class="info">Jean-Marie Mottu</span></a>, <a href="../profile/GersonSunyé.html">Gerson Sunyé</a>, <a href="../profile/ManuelWimmer.html">Manuel Wimmer</a>)</li>
-<li><span class="info">(<a href="../sle2024s/index.html">SLE 2024 SI</a>)</span> <em>Coauthored <a href="../sle2024s/paper05.html">A language-parametric test coverage framework for executable domain-specific languages</a></em> (<a href="../profile/FaezehKhorram.html">Faezeh Khorram</a>, <a href="../profile/ErwanBousse.html">Erwan Bousse</a>, <a href="../profile/AntonioGarmendía.html">Antonio Garmendía</a>, <a href="../profile/JeanMarieMottu.html"><span class="info">Jean-Marie Mottu</span></a>, <a href="../profile/GersonSunyé.html">Gerson Sunyé</a>, <a href="../profile/ManuelWimmer.html">Manuel Wimmer</a>)</li></ul>
+<li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> <em>Coauthored <a href="../sle2020/paper16.html">Annotating Executable DSLs with Energy Estimation Formulas</a></em> (<a href="../profile/ThibaultBézierslaFosse.html">Thibault Béziers la Fosse</a>, <a href="../profile/MassimoTisi.html">Massimo Tisi</a>, <a href="../profile/JeanMarieMottu.html"><span class="info">Jean-Marie Mottu</span></a>, <a href="../profile/GersonSunyé.html">Gerson Sunyé</a>) </li>
+<li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em>Coauthored <a href="../sle2022/paper20.html">From Coverage Computation to Fault Localization: A Generic Framework for Domain-Specific Languages</a></em> (<a href="../profile/FaezehKhorram.html">Faezeh Khorram</a>, <a href="../profile/ErwanBousse.html">Erwan Bousse</a>, <a href="../profile/AntonioGarmendía.html">Antonio Garmendía</a>, <a href="../profile/JeanMarieMottu.html"><span class="info">Jean-Marie Mottu</span></a>, <a href="../profile/GersonSunyé.html">Gerson Sunyé</a>, <a href="../profile/ManuelWimmer.html">Manuel Wimmer</a>) </li>
+<li><span class="info">(<a href="../sle2024s/index.html">SLE 2024 SI</a>)</span> <em>Coauthored <a href="../sle2024s/paper05.html">A language-parametric test coverage framework for executable domain-specific languages</a></em> (<a href="../profile/FaezehKhorram.html">Faezeh Khorram</a>, <a href="../profile/ErwanBousse.html">Erwan Bousse</a>, <a href="../profile/AntonioGarmendía.html">Antonio Garmendía</a>, <a href="../profile/JeanMarieMottu.html"><span class="info">Jean-Marie Mottu</span></a>, <a href="../profile/GersonSunyé.html">Gerson Sunyé</a>, <a href="../profile/ManuelWimmer.html">Manuel Wimmer</a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>
