@@ -1,0 +1,445 @@
+<html doctype>
+	<head title="SLE 2026 Artefact for CfPBoK" />
+	<body>
+		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
+		<h1>SLE 2026 Artefact</h1>
+		<h2>Snippets from the paper with concrete evidence</h2>
+<h3>§3.1 SLE Calls for Papers Corpus</h3>
+<p>The corpus consists of:</p>
+<ul>
+<li>18 texts of calls for papers for SLE 2008–2010 and SLE 2012–2026, collected from the respective conference web pages on <a href="https://sleconf.org">https://sleconf.org</a>, the “community website” migrated from original but lost domain <code>http://planet-sl.org</code>.
+	<ul>
+		<li><a href="sle2008/index.html#cfp">sle2008#cfp</a></li>
+		<li><a href="sle2009/index.html#cfp">sle2009#cfp</a></li>
+		<li><a href="sle2010/index.html#cfp">sle2010#cfp</a></li>
+		<li><a href="sle2012/index.html#cfp">sle2012#cfp</a></li>
+		<li><a href="sle2013/index.html#cfp">sle2013#cfp</a></li>
+		<li><a href="sle2014/index.html#cfp">sle2014#cfp</a></li>
+		<li><a href="sle2015/index.html#cfp">sle2015#cfp</a></li>
+		<li><a href="sle2016/index.html#cfp">sle2016#cfp</a></li>
+		<li><a href="sle2017/index.html#cfp">sle2017#cfp</a></li>
+		<li><a href="sle2018/index.html#cfp">sle2018#cfp</a></li>
+		<li><a href="sle2019/index.html#cfp">sle2019#cfp</a></li>
+		<li><a href="sle2020/index.html#cfp">sle2020#cfp</a></li>
+		<li><a href="sle2021/index.html#cfp">sle2021#cfp</a></li>
+		<li><a href="sle2022/index.html#cfp">sle2022#cfp</a></li>
+		<li><a href="sle2023/index.html#cfp">sle2023#cfp</a></li>
+		<li><a href="sle2024/index.html#cfp">sle2024#cfp</a></li>
+		<li><a href="sle2025/index.html#cfp">sle2025#cfp</a></li>
+		<li><a href="sle2026/index.html#cfp">sle2026#cfp</a></li>
+	</ul>
+</li>
+<li>1 call for papers for SLE 2011 which had to be extracted from the archive of the EAPLS mailing list. It is identical to the SLE 2011 call for papers preserved in other mailing lists and CfP aggregators.
+	<ul>
+		<li><a href="sle2011/index.html#cfp">sle2011#cfp</a></li>
+	</ul>
+</li>
+<li>1 call for papers for the special issue of SLE 2008, which was published as a separate item with a DOI.
+	<ul>
+		<li><a href="sle2008s/index.html#cfp">sle2008s#cfp</a></li>
+	</ul>
+</li>
+<li>1 call for papers for the special issue of SLE 2017, which was a targeted email.
+	<ul>
+		<li><a href="sle2017s/index.html#cfp">sle2017s#cfp</a></li>
+	</ul>
+</li>
+<li>5 editorials for special issues (see the next subsection explaining special issues in much more detail) as imperfect proxies of the editors’ expectations.
+	<ul>
+		<li><a href="atem2006s/index.html#cfp">atem2006s#cfp</a></li>
+		<li><a href="sle2012s/index.html#cfp">sle2012s#cfp</a></li>
+		<li><a href="sle2014s/index.html#cfp">sle2014s#cfp</a></li>
+		<li><a href="sle2018s/index.html#cfp">sle2018s#cfp</a></li>
+		<li><a href="sle2024s/index.html#cfp">sle2024s#cfp</a></li>
+	</ul>
+</li>
+</ul>
+<h3>§3.2 SLE Proceedings Corpus</h3>
+<ul>
+	<li>We started by including all items from DBLP lists directly attributed to the SLE conference at <a href="https://dblp.org/db/conf/sle/">https://dblp.org/db/conf/sle/</a>. The 18 editions yielded 15–26 papers per edition, or 381 papers in total.</li>
+	<li>At the previous step, we excluded the <a href="https://www.sleconf.org/2012/Doctoral_Symposium.html">SLE Doctoral Symposium</a> proceedings from 2012, ignoring 9 entries.
+		<ul>
+			<li><a href="https://dblp.org/db/conf/sle/sle2012d.html">https://dblp.org/db/conf/sle/sle2012d.html</a> (SLE DS 2012 at DBLP)</li>
+			<li><a href="https://ceur-ws.org/Vol-935/">https://ceur-ws.org/Vol-935/</a> (SLE DS 2012 at CEUR)</li>
+		</ul>
+	</li>
+	<li>We ensured that ITSLE — a track in the name only, having its own goals and proceedings volumes — is also excluded, which was already the case by the virtue of how DBLP archived it.
+		<ul>
+			<li><a href="https://dblp.org/db/conf/oopsla/itsle2016.html">https://dblp.org/db/conf/oopsla/itsle2016.html</a> (ITSLE 2016 at DBLP)</li>
+		</ul>
+	</li>
+	<li>We checked that all prefaces and other front matter and back matter entries were excluded, and DBLP has already removed them, resulting in 0 adjustments.</li>
+	<li>We made sure to include all keynotes. Some editions already included full papers of keynote speakers, others omitted them or gave them limited space, and on one occasion (SLE 2012) only one of two keynotes ended up with a written contribution. To guarantee fairness across the years, we tracked down all keynotes and included those for all years. This added 7 more entries (2012, 2014, 2015, 2019, 2021, 2×2023).
+		<ul>
+			<li>🔥 <a href="sle2008/keynote1.html">sle2008/keynote1</a> (already included; 7 page full paper)</li>
+			<li>🔥 <a href="sle2008/keynote2.html">sle2008/keynote2</a> (already included; 8 page full paper)</li>
+			<li>🔥 <a href="sle2009/keynote1.html">sle2009/keynote1</a> (already included; ½ page abstract)</li>
+			<li>🔥 <a href="sle2009/keynote2.html">sle2009/keynote2</a> (already included; 1 page abstract)</li>
+			<li>🔥 <a href="sle2010/keynote1.html">sle2010/keynote1</a> (already included; 1 page abstract)</li>
+			<li>🔥 <a href="sle2010/keynote2.html">sle2010/keynote2</a> (already included; 3 page extended abstract)</li>
+			<li>🔥 <a href="sle2011/keynote1.html">sle2011/keynote1</a> (already included; 18 page full paper co-authored by the keynote speaker)</li>
+			<li>🔥 <a href="sle2011/keynote2.html">sle2011/keynote2</a> (already included; ½ page abstract)</li>
+			<li>🔥 <a href="sle2012/keynote1.html">sle2012/keynote1</a> (<span class="info">added manually</span>; website abstract; joint SLE/GPCE)</li>
+			<li>🔥 <a href="sle2012/keynote2.html">sle2012/keynote2</a> (already included; 3 page extended abstract)</li>
+			<li>🔥 <a href="sle2013/keynote1.html">sle2013/keynote1</a> (already included; 18 page full paper co-authored by the keynote speaker)</li>
+			<li>🔥 <a href="sle2014/keynote1.html">sle2014/keynote1</a> (<span class="info">added manually</span>; website abstract)</li>
+			<li>(GPCE 2014 was collocated with SLE and had Nikolai Tillmann as a non-shared keynote so it is not included here)</li>
+			<li>🔥 <a href="sle2015/keynote1.html">sle2015/keynote1</a> (<span class="info">added manually</span>; website abstract)</li>
+			<li>🔥 <a href="sle2016/keynote1.html">sle2016/keynote1</a> (already included; ¼ page abstract)</li>
+			<li>🔥 <a href="sle2017/keynote1.html">sle2017/keynote1</a> (already included; ½ page abstract + 10 page follow-up as <a href="sle2017s/paper01.html">sle2017s/paper01</a>)</li>
+			<li>🔥 <a href="sle2018/keynote1.html">sle2018/keynote1</a> (already included; ¼ page abstract + 1 page bio)</li>
+			<li>🔥 <a href="sle2019/keynote1.html">sle2019/keynote1</a> (<span class="info">added manually</span>; website extended abstract)</li>
+			<li>(SLE 2020 had no keynote)</li>
+			<li>🔥 <a href="sle2021/keynote1.html">sle2021/keynote1</a> (already included; ¼ page abstract)</li>
+			<li>🔥 <a href="sle2021/keynote2.html">sle2021/keynote2</a> (<span class="info">added manually</span>; website abstract; join SLE/GPCE)</li>
+			<li>🔥 <a href="sle2022/keynote1.html">sle2022/keynote1</a> (already included; ¼ page abstract)</li>
+			<li>🔥 <a href="sle2023/keynote1.html">sle2023/keynote1</a> (<span class="info">added manually</span>; website abstract; join SLE/GPCE)</li>
+			<li>🔥 <a href="sle2023/keynote2.html">sle2023/keynote2</a> (<span class="info">added manually</span>; website abstract)</li>
+			<li>🔥 <a href="sle2024/keynote1.html">sle2024/keynote1</a> (already included; ½ page abstract)</li>
+			<li>🔥 <a href="sle2025/keynote1.html">sle2025/keynote1</a> (already included; 1 page abstract)</li>
+			<li>🔥 <a href="sle2025/keynote2.html">sle2025/keynote2</a> (already included; ½ page abstract)</li>
+		</ul>
+	</li>
+	<li>We included 2 poster papers. Initially, SLE 2013 had accepted two submissions as posters, and the Preface in its proceedings mentions a “complementary volume” with poster papers. After a long journey through JOT and CEUR, the poster papers were published at arXiv, clearly marked as belonging to “poster proceedings of SLE 2013” but mentioned neither anywhere at the SLE website nor at DBLP.
+		<ul>
+			<li><a href="https://link.springer.com/book/10.1007/978-3-319-02654-1">DOI 10.1007/978-3-319-02654-1</a> (Preface is on page 4 of the front matter)</li>
+			<li>🖼️ <a href="sle2023/poster1.html">sle2023/poster1</a> (<span class="info">added manually</span> as a poster paper)</li>
+			<li>🖼️ <a href="sle2023/poster2.html">sle2023/poster2</a> (<span class="info">added manually</span> as a poster paper)</li>
+		</ul>
+	</li>
+	<li>We tried to track down SLE special issues at various journals over the years to include their papers as well, and found 34 more:
+		<ul>
+			<li>6 papers for SLE 2008 at TSE volume 35 issue 6;
+				<ul>
+					<li><a href="sle2008s/index.html">sle2008s</a> (<span class="info">added manually</span>)</li>
+			</ul></li>
+			<li>7 papers for SLE 2012 at SCP volume 96 part 4;
+				<ul>
+					<li><a href="sle2012s/index.html">sle2012s</a> (<span class="info">added manually</span>)</li>
+			</ul></li>
+			<li>6 papers for SLE 2013–2014 at COMLAN volume 44 part A;
+				<ul>
+					<li><a href="sle2014s/index.html">sle2014s</a> (<span class="info">added manually</span>)</li>
+			</ul></li>
+			<li>2 papers for SLE 2017 at COLA volumes 50 and 57;
+				<ul>
+					<li><a href="sle2017s/index.html">sle2017s</a> (<span class="info">added manually</span> and manually combined into one "issue")</li>
+			</ul></li>
+			<li>3 papers for SLE 2018 at COLA across volumes 56–59;
+				<ul>
+					<li><a href="sle2018s/index.html">sle2018s</a> (<span class="info">added manually</span> and manually combined into one "issue")</li>
+			</ul></li>
+			<li>11 papers for SLE 2022–2024 at JSS across volumes 210–213 and 230.
+				<ul>
+					<li><a href="sle2024s/index.html">sle2024s</a> (<span class="info">added manually</span> and manually combined into one "issue")</li>
+			</ul></li>
+		</ul>
+	</li>
+	<li>We have also included the pre-SLE special issue of IET Software with its 7 papers — technically it is an open call special issue of ATEM 2006, but the editorial note explicitly talks about SLE and refers to it.
+		<ul>
+			<li><a href="atem2006s/index.html">atem2006s</a> (<span class="info">added manually</span>)</li>
+		</ul>
+	</li>
+</ul>
+<h3>Table 1</h3>
+<ul>
+	<li>CfPs analysed <span class="info">20</span>
+		<ul>
+			<li><a href="atem2006s/index.html#cfp">atem2006s#cfp</a></li>
+			<li><a href="sle2008/index.html#cfp">sle2008#cfp</a></li>
+			<li><a href="sle2009/index.html#cfp">sle2009#cfp</a></li>
+			<li><a href="sle2010/index.html#cfp">sle2010#cfp</a></li>
+			<li><a href="sle2011/index.html#cfp">sle2011#cfp</a></li>
+			<li><a href="sle2012/index.html#cfp">sle2012#cfp</a></li>
+			<li><a href="sle2013/index.html#cfp">sle2013#cfp</a></li>
+			<li><a href="sle2014/index.html#cfp">sle2014#cfp</a></li>
+			<li><a href="sle2015/index.html#cfp">sle2015#cfp</a></li>
+			<li><a href="sle2016/index.html#cfp">sle2016#cfp</a></li>
+			<li><a href="sle2017/index.html#cfp">sle2017#cfp</a></li>
+			<li><a href="sle2018/index.html#cfp">sle2018#cfp</a></li>
+			<li><a href="sle2019/index.html#cfp">sle2019#cfp</a></li>
+			<li><a href="sle2020/index.html#cfp">sle2020#cfp</a></li>
+			<li><a href="sle2021/index.html#cfp">sle2021#cfp</a></li>
+			<li><a href="sle2022/index.html#cfp">sle2022#cfp</a></li>
+			<li><a href="sle2023/index.html#cfp">sle2023#cfp</a></li>
+			<li><a href="sle2024/index.html#cfp">sle2024#cfp</a></li>
+			<li><a href="sle2025/index.html#cfp">sle2025#cfp</a></li>
+			<li><a href="sle2026/index.html#cfp">sle2026#cfp</a></li>
+		</ul></li>
+	<li>Editorials analysed <span class="info">5</span>
+		<ul>
+			<li><a href="sle2008s/index.html#cfp">sle2008s#cfp</a></li>
+			<li><a href="sle2012s/index.html#cfp">sle2012s#cfp</a></li>
+			<li><a href="sle2014s/index.html#cfp">sle2014s#cfp</a></li>
+			<li><a href="sle2018s/index.html#cfp">sle2018s#cfp</a></li>
+			<li><a href="sle2024s/index.html#cfp">sle2024s#cfp</a></li>
+		</ul></li>
+
+	<li>Total CfP taggings <span class="info">1039</span>
+		<ul>
+<li><a href="atem2006s/index.html#cfp">atem2006s</a>: <span class="info">35</span></li>
+<li><a href="sle2008/index.html#cfp">sle2008</a>: <span class="info">40</span></li>
+<li><a href="sle2008s/index.html#cfp">sle2008s</a>: <span class="info">29</span></li>
+<li><a href="sle2009/index.html#cfp">sle2009</a>: <span class="info">92</span></li>
+<li><a href="sle2010/index.html#cfp">sle2010</a>: <span class="info">27</span></li>
+<li><a href="sle2011/index.html#cfp">sle2011</a>: <span class="info">28</span></li>
+<li><a href="sle2012/index.html#cfp">sle2012</a>: <span class="info">103</span></li>
+<li><a href="sle2012s/index.html#cfp">sle2012s</a>: <span class="info">7</span></li>
+<li><a href="sle2013/index.html#cfp">sle2013</a>: <span class="info">88</span></li>
+<li><a href="sle2014/index.html#cfp">sle2014</a>: <span class="info">32</span></li>
+<li><a href="sle2014s/index.html#cfp">sle2014s</a>: <span class="info">26</span></li>
+<li><a href="sle2015/index.html#cfp">sle2015</a>: <span class="info">34</span></li>
+<li><a href="sle2016/index.html#cfp">sle2016</a>: <span class="info">33</span></li>
+<li><a href="sle2017/index.html#cfp">sle2017</a>: <span class="info">35</span></li>
+<li><a href="sle2017s/index.html#cfp">sle2017s</a>: <span class="info">0</span></li>
+<li><a href="sle2018/index.html#cfp">sle2018</a>: <span class="info">33</span></li>
+<li><a href="sle2018s/index.html#cfp">sle2018s</a>: <span class="info">13</span></li>
+<li><a href="sle2019/index.html#cfp">sle2019</a>: <span class="info">33</span></li>
+<li><a href="sle2020/index.html#cfp">sle2020</a>: <span class="info">35</span></li>
+<li><a href="sle2021/index.html#cfp">sle2021</a>: <span class="info">34</span></li>
+<li><a href="sle2022/index.html#cfp">sle2022</a>: <span class="info">46</span></li>
+<li><a href="sle2023/index.html#cfp">sle2023</a>: <span class="info">46</span></li>
+<li><a href="sle2024/index.html#cfp">sle2024</a>: <span class="info">45</span></li>
+<li><a href="sle2024s/index.html#cfp">sle2024s</a>: <span class="info">31</span></li>
+<li><a href="sle2025/index.html#cfp">sle2025</a>: <span class="info">57</span></li>
+<li><a href="sle2026/index.html#cfp">sle2026</a>: <span class="info">57</span></li>
+		</ul></li>
+	<li>Average taggings per CfP/editorial <span class="info">41.56</span>
+		<ul>
+			<li>(excluding those with no taggings)</li>
+		</ul></li>
+
+	<li>Proceedings analysed <span class="info">25</span>
+		<ul>
+			<li><a href="atem2006s/index.html#lop">atem2006s#lop</a></li>
+			<li><a href="sle2008/index.html#lop">sle2008#lop</a></li>
+			<li><a href="sle2008s/index.html#lop">sle2008s#lop</a></li>
+			<li><a href="sle2009/index.html#lop">sle2009#lop</a></li>
+			<li><a href="sle2010/index.html#lop">sle2010#lop</a></li>
+			<li><a href="sle2011/index.html#lop">sle2011#lop</a></li>
+			<li><a href="sle2012/index.html#lop">sle2012#lop</a></li>
+			<li><a href="sle2012s/index.html#lop">sle2012s#lop</a></li>
+			<li><a href="sle2013/index.html#lop">sle2013#lop</a></li>
+			<li><a href="sle2014/index.html#lop">sle2014#lop</a></li>
+			<li><a href="sle2014s/index.html#lop">sle2014s#lop</a></li>
+			<li><a href="sle2015/index.html#lop">sle2015#lop</a></li>
+			<li><a href="sle2016/index.html#lop">sle2016#lop</a></li>
+			<li><a href="sle2017/index.html#lop">sle2017#lop</a></li>
+			<li><a href="sle2017s/index.html#lop">sle2017s#lop</a></li>
+			<li><a href="sle2018/index.html#lop">sle2018#lop</a></li>
+			<li><a href="sle2018s/index.html#lop">sle2018s#lop</a></li>
+			<li><a href="sle2019/index.html#lop">sle2019#lop</a></li>
+			<li><a href="sle2020/index.html#lop">sle2020#lop</a></li>
+			<li><a href="sle2021/index.html#lop">sle2021#lop</a></li>
+			<li><a href="sle2022/index.html#lop">sle2022#lop</a></li>
+			<li><a href="sle2023/index.html#lop">sle2023#lop</a></li>
+			<li><a href="sle2024/index.html#lop">sle2024#lop</a></li>
+			<li><a href="sle2024s/index.html#lop">sle2024s#lop</a></li>
+			<li><a href="sle2025/index.html#lop">sle2025#lop</a></li>
+		</ul></li>
+	<li>Proceedings papers tagged <span class="info">432</span>
+		<ul>
+<li><a href="atem2006s/index.html#lop">atem2006s</a>: <span class="info">7</span></li>
+<li><a href="sle2008/index.html#lop">sle2008</a>: <span class="info">20</span></li>
+<li><a href="sle2008s/index.html#lop">sle2008s</a>: <span class="info">6</span></li>
+<li><a href="sle2009/index.html#lop">sle2009</a>: <span class="info">25</span></li>
+<li><a href="sle2010/index.html#lop">sle2010</a>: <span class="info">26</span></li>
+<li><a href="sle2011/index.html#lop">sle2011</a>: <span class="info">22</span></li>
+<li><a href="sle2012/index.html#lop">sle2012</a>: <span class="info">23</span></li>
+<li><a href="sle2012s/index.html#lop">sle2012s</a>: <span class="info">7</span></li>
+<li><a href="sle2013/index.html#lop">sle2013</a>: <span class="info">22</span></li>
+<li><a href="sle2014/index.html#lop">sle2014</a>: <span class="info">20</span></li>
+<li><a href="sle2014s/index.html#lop">sle2014s</a>: <span class="info">6</span></li>
+<li><a href="sle2015/index.html#lop">sle2015</a>: <span class="info">18</span></li>
+<li><a href="sle2016/index.html#lop">sle2016</a>: <span class="info">24</span></li>
+<li><a href="sle2017/index.html#lop">sle2017</a>: <span class="info">25</span></li>
+<li><a href="sle2017s/index.html#lop">sle2017s</a>: <span class="info">2</span></li>
+<li><a href="sle2018/index.html#lop">sle2018</a>: <span class="info">23</span></li>
+<li><a href="sle2018s/index.html#lop">sle2018s</a>: <span class="info">3</span></li>
+<li><a href="sle2019/index.html#lop">sle2019</a>: <span class="info">21</span></li>
+<li><a href="sle2020/index.html#lop">sle2020</a>: <span class="info">21</span></li>
+<li><a href="sle2021/index.html#lop">sle2021</a>: <span class="info">16</span></li>
+<li><a href="sle2022/index.html#lop">sle2022</a>: <span class="info">24</span></li>
+<li><a href="sle2023/index.html#lop">sle2023</a>: <span class="info">22</span></li>
+<li><a href="sle2024/index.html#lop">sle2024</a>: <span class="info">20</span></li>
+<li><a href="sle2024s/index.html#lop">sle2024s</a>: <span class="info">11</span></li>
+<li><a href="sle2025/index.html#lop">sle2025</a>: <span class="info">18</span></li>
+		</ul></li>
+
+	<li>Total paper taggings <span class="info">1456</span>
+		<ul>
+<li><a href="atem2006s/index.html#lop">atem2006s</a>: <span class="info">28</span></li>
+<li><a href="sle2008/index.html#lop">sle2008</a>: <span class="info">60</span></li>
+<li><a href="sle2008s/index.html#lop">sle2008s</a>: <span class="info">19</span></li>
+<li><a href="sle2009/index.html#lop">sle2009</a>: <span class="info">75</span></li>
+<li><a href="sle2010/index.html#lop">sle2010</a>: <span class="info">76</span></li>
+<li><a href="sle2011/index.html#lop">sle2011</a>: <span class="info">69</span></li>
+<li><a href="sle2012/index.html#lop">sle2012</a>: <span class="info">73</span></li>
+<li><a href="sle2012s/index.html#lop">sle2012s</a>: <span class="info">28</span></li>
+<li><a href="sle2013/index.html#lop">sle2013</a>: <span class="info">69</span></li>
+<li><a href="sle2014/index.html#lop">sle2014</a>: <span class="info">74</span></li>
+<li><a href="sle2014s/index.html#lop">sle2014s</a>: <span class="info">23</span></li>
+<li><a href="sle2015/index.html#lop">sle2015</a>: <span class="info">72</span></li>
+<li><a href="sle2016/index.html#lop">sle2016</a>: <span class="info">81</span></li>
+<li><a href="sle2017/index.html#lop">sle2017</a>: <span class="info">100</span></li>
+<li><a href="sle2017s/index.html#lop">sle2017s</a>: <span class="info">8</span></li>
+<li><a href="sle2018/index.html#lop">sle2018</a>: <span class="info">76</span></li>
+<li><a href="sle2018s/index.html#lop">sle2018s</a>: <span class="info">10</span></li>
+<li><a href="sle2019/index.html#lop">sle2019</a>: <span class="info">67</span></li>
+<li><a href="sle2020/index.html#lop">sle2020</a>: <span class="info">77</span></li>
+<li><a href="sle2021/index.html#lop">sle2021</a>: <span class="info">56</span></li>
+<li><a href="sle2022/index.html#lop">sle2022</a>: <span class="info">77</span></li>
+<li><a href="sle2023/index.html#lop">sle2023</a>: <span class="info">69</span></li>
+<li><a href="sle2024/index.html#lop">sle2024</a>: <span class="info">73</span></li>
+<li><a href="sle2024s/index.html#lop">sle2024s</a>: <span class="info">42</span></li>
+<li><a href="sle2025/index.html#lop">sle2025</a>: <span class="info">54</span></li>
+		</ul></li>
+	<li>Average lax taggings per paper <span class="info">3.37</span>
+		<ul>
+			<li>(excluding those with no taggings)</li>
+		</ul></li>
+
+	<li>Topic tagset size <span class="info">38</span>
+		<ul>
+			<li><a href="tag/t1a.html">tag/t1a</a></li>
+			<li><a href="tag/t1b.html">tag/t1b</a></li>
+			<li><a href="tag/t1c.html">tag/t1c</a></li>
+			<li><a href="tag/t1d.html">tag/t1d</a></li>
+			<li><a href="tag/t1e.html">tag/t1e</a></li>
+			<li><a href="tag/t2a.html">tag/t2a</a></li>
+			<li><a href="tag/t2b.html">tag/t2b</a></li>
+			<li><a href="tag/t2c.html">tag/t2c</a></li>
+			<li><a href="tag/t2d.html">tag/t2d</a></li>
+			<li><a href="tag/t2e.html">tag/t2e</a></li>
+			<li><a href="tag/t3a.html">tag/t3a</a></li>
+			<li><a href="tag/t3b.html">tag/t3b</a></li>
+			<li><a href="tag/t3c.html">tag/t3c</a></li>
+			<li><a href="tag/t3d.html">tag/t3d</a></li>
+			<li><a href="tag/t3e.html">tag/t3e</a></li>
+			<li><a href="tag/t3f.html">tag/t3f</a></li>
+			<li><a href="tag/t4a.html">tag/t4a</a></li>
+			<li><a href="tag/t4b.html">tag/t4b</a></li>
+			<li><a href="tag/t4c.html">tag/t4c</a></li>
+			<li><a href="tag/t4d.html">tag/t4d</a></li>
+			<li><a href="tag/t4e.html">tag/t4e</a></li>
+			<li><a href="tag/t4f.html">tag/t4f</a></li>
+			<li><a href="tag/t4g.html">tag/t4g</a></li>
+			<li><a href="tag/t5a.html">tag/t5a</a></li>
+			<li><a href="tag/t5b.html">tag/t5b</a></li>
+			<li><a href="tag/t5c.html">tag/t5c</a></li>
+			<li><a href="tag/t5d.html">tag/t5d</a></li>
+			<li><a href="tag/t5e.html">tag/t5e</a></li>
+			<li><a href="tag/t5f.html">tag/t5f</a></li>
+			<li><a href="tag/t5g.html">tag/t5g</a></li>
+			<li><a href="tag/t5h.html">tag/t5h</a></li>
+			<li><a href="tag/t6a.html">tag/t6a</a></li>
+			<li><a href="tag/t6b.html">tag/t6b</a></li>
+			<li><a href="tag/t6c.html">tag/t6c</a></li>
+			<li><a href="tag/t6d.html">tag/t6d</a></li>
+			<li><a href="tag/t6e.html">tag/t6e</a></li>
+			<li><a href="tag/t6f.html">tag/t6f</a></li>
+			<li><a href="tag/t6g.html">tag/t6g</a></li>
+		</ul></li>
+</ul>
+<h3>§4.1 T1: Defining a Software Language</h3>
+<p>The text is near-identical to the following topic descriptions:</p>
+<dl>
+	<dt><a href="tag/t1a.html">T1A</a></dt><dd>Design</dd>
+	<dt><a href="tag/t1b.html">T1B</a></dt><dd>Static Semantics</dd>
+	<dt><a href="tag/t1c.html">T1C</a></dt><dd>Behavioural Semantics</dd>
+	<dt><a href="tag/t1d.html">T1D</a></dt><dd>Composition</dd>
+	<dt><a href="tag/t1e.html">T1E</a></dt><dd>Reuse</dd>
+</dl>
+<h3>§4.2 T2: Software Languages over Time</h3>
+<p>The text is near-identical to the following topic descriptions:</p>
+<dl>
+	<dt><a href="tag/t2a.html">T2A</a></dt><dd>Lifecycle</dd>
+	<dt><a href="tag/t2b.html">T2B</a></dt><dd>Evolution</dd>
+	<dt><a href="tag/t2c.html">T2C</a></dt><dd>Variability</dd>
+	<dt><a href="tag/t2d.html">T2D</a></dt><dd>Deployment</dd>
+	<dt><a href="tag/t2e.html">T2E</a></dt><dd>Documentation</dd>
+</dl>
+<h3>§4.3 T3: Software Language Kinds</h3>
+<p>The text is near-identical to the following topic descriptions:</p>
+<dl>
+	<dt><a href="tag/t3a.html">T3A</a></dt><dd>Meta-languages</dd>
+	<dt><a href="tag/t3b.html">T3B</a></dt><dd>Transformation Languages</dd>
+	<dt><a href="tag/t3c.html">T3C</a></dt><dd>DSLs</dd>
+	<dt><a href="tag/t3d.html">T3D</a></dt><dd>GPLs</dd>
+	<dt><a href="tag/t3e.html">T3E</a></dt><dd>Ontologies</dd>
+	<dt><a href="tag/t3f.html">T3F</a></dt><dd>API</dd>
+</dl>
+<h3>§4.4 T4: Software Language Tooling</h3>
+<p>The text is near-identical to the following topic descriptions:</p>
+<dl>
+	<dt><a href="tag/t4a.html">T4A</a></dt><dd>Workbenches</dd>
+	<dt><a href="tag/t4b.html">T4B</a></dt><dd>Horizontal Transformation</dd>
+	<dt><a href="tag/t4c.html">T4C</a></dt><dd>Vertical Transformation</dd>
+	<dt><a href="tag/t4d.html">T4D</a></dt><dd>Interpretation</dd>
+	<dt><a href="tag/t4e.html">T4E</a></dt><dd>Simulation</dd>
+	<dt><a href="tag/t4f.html">T4F</a></dt><dd>Visualisation</dd>
+	<dt><a href="tag/t4g.html">T4G</a></dt><dd>AI-for-SLE</dd>
+</dl>
+<h3>§4.5 T5: Quality Assurance</h3>
+<p>The text is near-identical to the following topic descriptions:</p>
+<dl>
+	<dt><a href="tag/t5a.html">T5A</a></dt><dd>Requirements</dd>
+	<dt><a href="tag/t5b.html">T5B</a></dt><dd>Language Description Analysis</dd>
+	<dt><a href="tag/t5c.html">T5C</a></dt><dd>Testing</dd>
+	<dt><a href="tag/t5d.html">T5D</a></dt><dd>Formal Methods</dd>
+	<dt><a href="tag/t5e.html">T5E</a></dt><dd>Empirical Evaluation</dd>
+	<dt><a href="tag/t5f.html">T5F</a></dt><dd>Performance</dd>
+	<dt><a href="tag/t5g.html">T5G</a></dt><dd>Traceability</dd>
+	<dt><a href="tag/t5h.html">T5H</a></dt><dd>Usability</dd>
+</dl>
+<h3>§4.6 T6: Software Language Context</h3>
+<p>The text is near-identical to the following topic descriptions:</p>
+<dl>
+	<dt><a href="tag/t6a.html">T6A</a></dt><dd>Experience Reports</dd>
+	<dt><a href="tag/t6b.html">T6B</a></dt><dd>Industrial</dd>
+	<dt><a href="tag/t6c.html">T6C</a></dt><dd>SLE-for-AI</dd>
+	<dt><a href="tag/t6d.html">T6D</a></dt><dd>Synergies</dd>
+	<dt><a href="tag/t6e.html">T6E</a></dt><dd>Quantum</dd>
+	<dt><a href="tag/t6f.html">T6F</a></dt><dd>CPS/IoT/DT</dd>
+	<dt><a href="tag/t6g.html">T6G</a></dt><dd>Socio-technical</dd>
+</dl>
+<h3>Table 3</h3>
+<ul>
+	<li>Each column in the table corresponds to a visualisation on top of each tag/topic’s page. A dot in the table means the topic is tagged in the CfP, so it corresponds to a logo which is either normal or dimmed.</li>
+	<li>Each row in the table corresponds to a “tags requested” list on top of each proceedings page.</li>
+	<li>Two bottom rows are computed from the data in each column.</li>
+</ul>
+<h3>Table 4</h3>
+<ul>
+	<li>Each column in the table corresponds to a visualisation on top of each tag/topic’s page. A green number in the table means the topic is tagged both in the CfP and in one of the papers, so it corresponds to a logo which is displayed normally. A yellow number in the table means the topic is not tagged in the CfP but is tagged in one of the papers, so it corresponds to a logo which is displayed with higher brightness. A red zero in the table means the topic is tagged in the CfP but is not tagged in any of the papers, so it corresponds to a dimmed logo.</li>
+	<li>Each row in the table without zeroes and empty cells corresponds to a “tags received” list on top of each proceedings page.</li>
+	<li>Two bottom rows are computed from the data in each column.</li>
+</ul>
+<h3>Uncaptioned plot on page 10</h3>
+<p>It contains the number of distinct topics tagged per CfP. Computed input data for it follows:</p>
+<ul>
+<li><a href="sle2008/index.html">sle2008</a>: <span class="info">18</span></li><li><a href="sle2009/index.html">sle2009</a>: <span class="info">20</span></li><li><a href="sle2010/index.html">sle2010</a>: <span class="info">19</span></li><li><a href="sle2011/index.html">sle2011</a>: <span class="info">19</span></li><li><a href="sle2012/index.html">sle2012</a>: <span class="info">27</span></li><li><a href="sle2013/index.html">sle2013</a>: <span class="info">27</span></li><li><a href="sle2014/index.html">sle2014</a>: <span class="info">20</span></li><li><a href="sle2015/index.html">sle2015</a>: <span class="info">20</span></li><li><a href="sle2016/index.html">sle2016</a>: <span class="info">22</span></li><li><a href="sle2017/index.html">sle2017</a>: <span class="info">22</span></li><li><a href="sle2018/index.html">sle2018</a>: <span class="info">23</span></li><li><a href="sle2019/index.html">sle2019</a>: <span class="info">23</span></li><li><a href="sle2020/index.html">sle2020</a>: <span class="info">24</span></li><li><a href="sle2021/index.html">sle2021</a>: <span class="info">23</span></li><li><a href="sle2022/index.html">sle2022</a>: <span class="info">29</span></li><li><a href="sle2023/index.html">sle2023</a>: <span class="info">29</span></li><li><a href="sle2024/index.html">sle2024</a>: <span class="info">30</span></li><li><a href="sle2025/index.html">sle2025</a>: <span class="info">30</span></li><li><a href="sle2026/index.html">sle2026</a>: <span class="info">30</span></li>
+</ul>
+<h3>Table 6</h3>
+<ul>
+	<li>Each row in the table contains a small subset of the information included in the “summary” section for each corresponding topic. “Lax coding” in the paper means either promary or secondary tagging of a paper.</li>
+</ul>
+<h3>Table 7</h3>
+<ul>
+	<li>The information in the table is an extremely condensed version of what we display here in the topic’s summary.</li>
+	<li>Each row in the table can be verified by going to one of the topics in question and ispecting the “top co-occurring topics” list (which in turn can be verified by counting how many times the tags involved co-occur in the list of papers tagged with that topic).</li>
+</ul>
+<h3>Figure 4</h3>
+<ul>
+	<li>This is another re-visualisation of the same things we have already seen before.</li>
+	<li>For each line, the width of the red block is the number of dimmed icons on the top of the topic’s page; the width of the green block is the number of normally displayed icons; and the width of the golden block is the number of icons with increased brightness.</li>
+</ul>
+<h3>Table 8</h3>
+<ul>
+	<li>Each row can be verified by going to the corresponding topic’s page.</li>
+</ul>
+
+		<clear/>
+		<footer/>
+	</body>
+</html>
