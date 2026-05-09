@@ -5,6 +5,7 @@
 		<div class="right"><a href="../index.html"><img src="../sle.png" alt="SLE 2012 SI logo"></a></div>
 			<h1><a href="../sle2012/index.html">SLE 2012</a> SI</h1>
 			<ul>
+
 				<li><a href="#cfp">Call for Papers</a></li>
 				<li><a href="#lop">List of Papers</a></li>
 				<li><a href="#org">Organisers</a></li>

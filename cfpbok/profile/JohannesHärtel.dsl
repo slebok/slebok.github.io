@@ -3,9 +3,10 @@
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
 		<h1>Johannes Härtel
+<a href="https://dblp.org/pid/150/3820.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
 <a href="https://openalex.org/A5087770738" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
 <a href="https://orcid.org/0000-0002-7461-2320" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
-<a href="https://dblp.org/search?q=Johannes Härtel" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
+<a href="https://scholar.google.com/citations?user=YM8L8I4AAAAJ" title="Google Scholar"><img src="../logos/gs.png" alt="Google Scholar"></a></h1>
 		<figure class="small">
 			<a href="../sle2014/index.html"><img src="../sle.png" alt="SLE 2014"></a>
 			<figcaption>

@@ -5,6 +5,9 @@
 		<div class="right"><a href="../index.html"><img src="../sle.png" alt="SLE 2016 logo"></a></div>
 			<h1>SLE 2016</h1>
 			<ul>
+              <li>Co-located with SPLASH (GPCE et al)</li>
+              <li><a href="https://www.sleconf.org/2016/">Community website</a></li>
+              <li><a href="https://conf.researchr.org/track/sle-2016/sle-2016-papers">Conference website</a></li>
 				<li><a href="#cfp">Call for Papers</a></li>
 				<li><a href="#lop">List of Papers</a></li>
 				<li><a href="#org">Organisers</a></li>

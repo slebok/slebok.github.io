@@ -83,7 +83,7 @@
 		<clear/>
 		<h2>Summary</h2>
 		<ul>
-<li>Made <span class="info">10</span> contributions (see below)</li></ul>
+<li>Editor-in-Chief of <a href="https://www.sciencedirect.com/journal/journal-of-computer-languages">COLA</a>, an SLE-friendly Elsevier journal</li><li>Made <span class="info">10</span> contributions (see below)</li></ul>
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>

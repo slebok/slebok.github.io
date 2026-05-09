@@ -5,6 +5,8 @@
 		<div class="right"><a href="../index.html"><img src="../sle.png" alt="SLE 2009 logo"></a></div>
 			<h1>SLE 2009</h1>
 			<ul>
+              <li>Co-located with MoDELS and GPCE</li>
+              <li><a href="https://www.sleconf.org/2009/">Recovered conference website</a></li>
 				<li><a href="#cfp">Call for Papers</a></li>
 				<li><a href="#lop">List of Papers</a></li>
 				<li><a href="#org">Organisers</a></li>

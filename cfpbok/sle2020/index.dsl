@@ -5,6 +5,9 @@
 		<div class="right"><a href="../index.html"><img src="../sle.png" alt="SLE 2020 logo"></a></div>
 			<h1>SLE 2020</h1>
 			<ul>
+              <li><a href="https://www.sleconf.org/2020/">Community website</a></li>
+              <li><a href="https://conf.researchr.org/home/sle-2020">Conference website</a></li>
+              <li>Virtually co-located with SPLASH (GPCE, SAS et al)</li>
 				<li><a href="#cfp">Call for Papers</a></li>
 				<li><a href="#lop">List of Papers</a></li>
 				<li><a href="#org">Organisers</a></li>

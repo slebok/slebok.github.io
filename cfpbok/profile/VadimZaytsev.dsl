@@ -122,7 +122,7 @@
 		<clear/>
 		<h2>Summary</h2>
 		<ul>
-
+<li>Editor-in-Chief of <a href="https://slebok.github.io/">SLEBoK</a></li>
 		<li><span class="info">10</span> papers in <span class="info">8</span> bundles</li>
 				<li>Top 3 popular topics:
 			<ul>

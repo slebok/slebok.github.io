@@ -5,6 +5,9 @@
 		<div class="right"><a href="../index.html"><img src="../sle.png" alt="SLE 2025 logo"></a></div>
 			<h1>SLE 2025</h1>
 			<ul>
+              <li>Co-located with STAF (EMCFA, ICGT, OOPSLE et al)</li>
+              <li><a href="https://www.sleconf.org/2025/">Community website</a></li>
+              <li><a href="https://conf.researchr.org/home/sle-2025">Conference website</a></li>
 				<li><a href="#cfp">Call for Papers</a></li>
 				<li><a href="#lop">List of Papers</a></li>
 				<li><a href="#org">Organisers</a></li>

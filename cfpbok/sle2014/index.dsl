@@ -5,6 +5,8 @@
 		<div class="right"><a href="../index.html"><img src="../sle.png" alt="SLE 2014 logo"></a></div>
 			<h1>SLE 2014</h1>
 			<ul>
+              <li>Co-located with ASE and GPCE</li>
+              <li><a href="https://www.sleconf.org/2014/">Conference website</a></li>
 				<li><a href="#cfp">Call for Papers</a></li>
 				<li><a href="#lop">List of Papers</a></li>
 				<li><a href="#org">Organisers</a></li>

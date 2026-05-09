@@ -5,6 +5,9 @@
 		<div class="right"><a href="../index.html"><img src="../sle.png" alt="SLE 2012 logo"></a></div>
 			<h1>SLE 2012</h1>
 			<ul>
+              <li>Co-located with GPCE</li>
+              <li>Hosted a “<a href="https://www.sleconf.org/2012/SLEBOK_SLE2012.html">SL(E)BOK 2.0</a>” workshop</li>
+              <li><a href="https://www.sleconf.org/2012/">Recovered conference website</a></li>
 				<li><a href="#cfp">Call for Papers</a></li>
 				<li><a href="#lop">List of Papers</a></li>
 				<li><a href="#org">Organisers</a></li>

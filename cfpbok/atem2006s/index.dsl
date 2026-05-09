@@ -5,6 +5,7 @@
 		<div class="right"><a href="../index.html"><img src="../atem.png" alt="ATEM 2006 SI logo"></a></div>
 			<h1>ATEM 2006 SI</h1>
 			<ul>
+
 				<li><a href="#cfp">Call for Papers</a></li>
 				<li><a href="#lop">List of Papers</a></li>
 				<li><a href="#org">Organisers</a></li>

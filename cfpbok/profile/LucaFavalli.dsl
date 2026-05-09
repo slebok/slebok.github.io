@@ -27,7 +27,7 @@
 		<clear/>
 		<h2>Summary</h2>
 		<ul>
-
+<li>Listed as “Luca Favali” on <a href="../sle2025/index.html">SLE 2025</a>’s AEC page</li>
 		<li><span class="info">1</span> papers in <span class="info">1</span> bundles</li>
 				<li>Top 3 popular topics:
 			<ul>
