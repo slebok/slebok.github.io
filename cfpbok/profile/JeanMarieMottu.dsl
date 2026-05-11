@@ -3,8 +3,9 @@
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
 		<h1>Jean-Marie Mottu
-
-<a href="https://dblp.org/search?q=Jean-Marie Mottu" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
+<a href="https://dblp.org/pid/52/5509.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
+<a href="https://orcid.org/0000-0002-5245-4261" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
+<a href="https://scholar.google.com/citations?user=YfDzx0QAAAAJ" title="Google Scholar"><img src="../logos/gs.png" alt="Google Scholar"></a></h1>
 		<figure class="small">
 			<a href="../sle2020/index.html"><img src="../sle.png" alt="SLE 2020"></a>
 			<figcaption>

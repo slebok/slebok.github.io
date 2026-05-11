@@ -61,7 +61,8 @@
 <a href="../tag/t4c.html"><span class="tagM" title="The paper develops a generalised parsing procedure (FUN-GLL) and derives parser combinators, i.e., core front-end technology in the compilation pipeline.">T4C: Vertical Transformation</span></a>
 <a href="../tag/t3a.html"><span class="tagL" title="It provides an embedded “BNF combinator library” that effectively acts as a meta-language for writing executable syntax specifications with semantic actions.">T3A: Meta-languages</span></a>
 <a href="../tag/t5f.html"><span class="tagL" title="It includes quantitative comparisons of alternative implementations, focusing on practical parsing overheads and efficiency trade-offs.">T5F: Performance</span></a>
-</li></ul></li></ul><h2 id="org">Organisers</h2><ul></ul>
+</li></ul></li></ul><h2 id="org">Organisers</h2><ul>
+</ul>
 		<clear/>
 		<footer/>
 	</body>

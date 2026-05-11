@@ -3,8 +3,7 @@
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
 		<h1>Juan Pedro Silva
-
-<a href="https://dblp.org/search?q=Juan Pedro Silva" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
+<a href="https://dblp.org/pid/27/2834.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../atem2006s/index.html"><img src="../atem.png" alt="ATEM 2006 SI"></a>
 			<figcaption>

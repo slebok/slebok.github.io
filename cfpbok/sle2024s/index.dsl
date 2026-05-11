@@ -103,7 +103,7 @@
 <a href="../tag/t2e.html"><span class="tagL" title="The source of specifications is developer documentation (method-level comments), turning documentation into machine-checkable contracts.">T2E: Documentation</span></a>
 <a href="../tag/t5a.html"><span class="tagL" title="It operationalizes (textual) requirements/intended behaviour stated in natural language into precise formal pre/postconditions.">T5A: Requirements</span></a>
 </li></ul></li>
-<li><em><a href="paper07.html">Zipper-based embedding of strategic attribute grammars</a></em> (<a href="../profile/JoséNunoMacedo.html">José Nuno Macedo</a>, <a href="../profile/EmanuelBRodrigues.html">Emanuel B. Rodrigues</a>, <a href="../profile/MarcosViera.html">Marcos Viera</a>, <a href="../profile/JoãoSaraiva.html">João Saraiva</a>) 
+<li><em><a href="paper07.html">Zipper-based embedding of strategic attribute grammars</a></em> (<a href="../profile/JoséNunoMacedo.html">José Nuno Macedo</a>, <a href="../profile/EmanuelRodrigues.html">Emanuel Rodrigues</a>, <a href="../profile/MarcosViera.html">Marcos Viera</a>, <a href="../profile/JoãoSaraiva.html">João Saraiva</a>) 
 <ul><li>
 <a href="../tag/t3b.html"><span class="tagM" title="The work centers on strategic term rewriting (strategy combinators over tree traversals) as the primary programmable transformation mechanism.">T3B: Transformation Languages</span></a>
 <a href="../tag/t3a.html"><span class="tagL" title="Attribute grammars are a core formalism being embedded/combined, providing context-dependent computations over syntax trees.">T3A: Meta-languages</span></a>
@@ -135,7 +135,11 @@
 <a href="../tag/t3c.html"><span class="tagL" title="It targets the engineering of textual domain-specific languages defined by a meta-model plus a concrete-syntax grammar.">T3C: DSLs</span></a>
 <a href="../tag/t3b.html"><span class="tagL" title="The core contribution is a catalog of (configurable, re-applicable) grammar transformation rules that systematically rewrite generated grammars.">T3B: Transformation Languages</span></a>
 <a href="../tag/t4a.html"><span class="tagL" title="The approach is positioned as tool support in/around a language workbench context (e.g., Xtext) to automate grammar co-evolution work.">T4A: Workbenches</span></a>
-</li></ul></li></ul><h2 id="org">Organisers</h2><ul><li><a href="../profile/LoliBurgueño.html">Loli Burgueño</a> (<a href="https://doi.org/10.1016/j.jss.2025.112498">Editor</a>)</li><li><a href="../profile/WalterCazzola.html">Walter Cazzola</a> (<a href="https://doi.org/10.1016/j.jss.2025.112498">Editor</a>)</li><li><a href="../profile/DimitriosSKolovos.html">Dimitrios S. Kolovos</a> (<a href="https://doi.org/10.1016/j.jss.2025.112498">Editor</a>)</li></ul>
+</li></ul></li></ul><h2 id="org">Organisers</h2><ul>
+<li><a href="../profile/LoliBurgueño.html">Loli Burgueño</a> (<a href="https://doi.org/10.1016/j.jss.2025.112498">Editor</a>)</li>
+<li><a href="../profile/WalterCazzola.html">Walter Cazzola</a> (<a href="https://doi.org/10.1016/j.jss.2025.112498">Editor</a>)</li>
+<li><a href="../profile/DimitriosSKolovos.html">Dimitrios S. Kolovos</a> (<a href="https://doi.org/10.1016/j.jss.2025.112498">Editor</a>)</li>
+</ul>
 		<clear/>
 		<footer/>
 	</body>

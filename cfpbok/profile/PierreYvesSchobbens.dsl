@@ -3,8 +3,9 @@
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
 		<h1>Pierre-Yves Schobbens
-
-<a href="https://dblp.org/search?q=Pierre-Yves Schobbens" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
+<a href="https://dblp.org/pid/27/3416.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
+<a href="https://orcid.org/0000-0001-8677-4485" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
+<a href="https://orcid.org/0000-0001-8677-4485" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a></h1>
 		<figure class="small">
 			<a href="../atem2006s/index.html"><img src="../atem.png" alt="ATEM 2006 SI"></a>
 			<figcaption>

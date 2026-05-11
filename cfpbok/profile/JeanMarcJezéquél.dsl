@@ -3,8 +3,11 @@
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
 		<h1>Jean-Marc Jezéquél
-
-<a href="https://dblp.org/search?q=Jean-Marc Jezéquél" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
+<a href="https://dblp.org/pid/j/JeanMarcJezequel.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
+<a href="https://en.wikipedia.org/wiki/Jean-Marc_J%C3%A9z%C3%A9quel" title="Wikipedia"><img src="../logos/wikipedia.png" alt="Wikipedia"></a>
+<a href="https://orcid.org/0000-0002-0582-9745" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
+<a href="https://scholar.google.com/citations?user=DZ5_Gw4AAAAJ" title="Google Scholar"><img src="../logos/gs.png" alt="Google Scholar"></a>
+<a href="https://www.wikidata.org/entity/Q6169542" title="Wikidata"><img src="../logos/wikidata.svg" alt="Wikidata"></a></h1>
 		<figure class="small">
 			<a href="../sle2015/index.html"><img src="../sle.png" alt="SLE 2015"></a>
 			<figcaption>

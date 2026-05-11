@@ -3,8 +3,8 @@
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
 		<h1>Swaib Dragule
-
-<a href="https://dblp.org/search?q=Swaib Dragule" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
+<a href="https://dblp.org/pid/204/5572.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
+<a href="https://dblp.org/pid/204/5572.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2020/index.html"><img src="../sle.png" alt="SLE 2020"></a>
 			<figcaption>

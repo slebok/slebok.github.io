@@ -5,7 +5,7 @@
 	<body>
 		<header/>
 		<img src="../www/babycobol.png" style="width:200px;height:200px;" class="flr" />
-		<h1><span class="ff lang"><a href="https://circus.github.io/babycobol/">BabyCobol</a></span>: The Language Reference — Features per Level</h1>
+		<h1><span class="ff lang"><a href="index.html">BabyCobol</a></span>: The Language Reference — Features per Level</h1>
 		<p>
 			If you’re following <em>Software Evolution</em> at UTwente, you are implementing BabyCobol in phases called “levels”. This page sorts features of BabyCobol into those levels.
 		</p>

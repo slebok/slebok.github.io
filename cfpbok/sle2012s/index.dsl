@@ -87,7 +87,10 @@
 <a href="../tag/t1c.html"><span class="tagL" title="The paper adds behavioural/temporal semantics (scenario-based) on top of OCL’s traditionally static constraint focus.">T1C: Behavioural Semantics</span></a>
 <a href="../tag/t4a.html"><span class="tagL" title="Tooling is central: the approach is integrated into the Eclipse OCL plug-in and supported by an implementation pipeline.">T4A: Workbenches</span></a>
 <a href="../tag/t5c.html"><span class="tagL" title="The framework is connected to automatic test generators via the automata translation, tying the contribution to testing practice.">T5C: Testing</span></a>
-</li></ul></li></ul><h2 id="org">Organisers</h2><ul><li><a href="../profile/KrzysztofCzarnecki.html">Krzysztof Czarnecki</a> (<a href="https://doi.org/10.1016/j.scico.2014.09.004">Editor</a>)</li><li><a href="../profile/GörelHedin.html">Görel Hedin</a> (<a href="https://doi.org/10.1016/j.scico.2014.09.004">Editor</a>)</li></ul>
+</li></ul></li></ul><h2 id="org">Organisers</h2><ul>
+<li><a href="../profile/KrzysztofCzarnecki.html">Krzysztof Czarnecki</a> (<a href="https://doi.org/10.1016/j.scico.2014.09.004">Editor</a>)</li>
+<li><a href="../profile/GörelHedin.html">Görel Hedin</a> (<a href="https://doi.org/10.1016/j.scico.2014.09.004">Editor</a>)</li>
+</ul>
 		<clear/>
 		<footer/>
 	</body>

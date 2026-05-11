@@ -1,10 +1,10 @@
 <html doctype>
-	<head title="Yuanze Zhang's profile at CfPBoK" />
+	<head title="Yilin Zhang's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Yuanze Zhang
-
-<a href="https://dblp.org/search?q=Yuanze Zhang" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
+		<h1>Yilin Zhang
+<a href="https://orcid.org/0009-0006-7292-5944" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
+<a href="https://dblp.org/search?q=Yilin Zhang" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2024/index.html"><img src="../sle.png" alt="SLE 2024"></a>
 			<figcaption>
@@ -37,7 +37,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> <em>Coauthored <a href="../sle2024/paper17.html">Reducing Write Barrier Overheads for Orthogonal Persistence</a></em> (<a href="../profile/YuanzeZhang.html"><span class="info">Yuanze Zhang</span></a>, <a href="../profile/OmkarDilipDhawal.html">Omkar Dilip Dhawal</a>, <a href="../profile/VKrishnaNandivada.html">V. Krishna Nandivada</a>, <a href="../profile/ShigeruChiba.html">Shigeru Chiba</a>, <a href="../profile/TomoharuUgawa.html">Tomoharu Ugawa</a>) </li></ul>
+<li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> <em>Coauthored <a href="../sle2024/paper17.html">Reducing Write Barrier Overheads for Orthogonal Persistence</a></em> (<a href="../profile/YilinZhang.html"><span class="info">Yilin Zhang</span></a>, <a href="../profile/OmkarDilipDhawal.html">Omkar Dilip Dhawal</a>, <a href="../profile/VKrishnaNandivada.html">V. Krishna Nandivada</a>, <a href="../profile/ShigeruChiba.html">Shigeru Chiba</a>, <a href="../profile/TomoharuUgawa.html">Tomoharu Ugawa</a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

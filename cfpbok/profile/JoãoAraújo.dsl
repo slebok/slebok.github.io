@@ -3,8 +3,8 @@
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
 		<h1>João Araújo
-
-<a href="https://dblp.org/search?q=João Araújo" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
+<a href="https://dblp.org/pid/72/1322-1.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
+<a href="https://scholar.google.com/citations?user=B8qwsT8AAAAJ" title="Google Scholar"><img src="../logos/gs.png" alt="Google Scholar"></a></h1>
 		<figure class="small">
 			<a href="../sle2009/index.html"><img src="../sle.png" alt="SLE 2009"></a>
 			<figcaption>

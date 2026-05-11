@@ -3,8 +3,7 @@
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
 		<h1>Gerrit Leonhardt
-
-<a href="https://dblp.org/search?q=Gerrit Leonhardt" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
+<a href="https://dblp.org/pid/228/4941.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
 		<figure class="small">
 			<a href="../sle2018/index.html"><img src="../sle.png" alt="SLE 2018"></a>
 			<figcaption>

@@ -3,8 +3,9 @@
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
 		<h1>Brian Henderson-Sellers
-
-<a href="https://dblp.org/search?q=Brian Henderson-Sellers" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
+<a href="https://dblp.org/pid/45/5440.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
+<a href="https://dblp.org/pid/45/5440.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
+<a href="https://www.wikidata.org/entity/Q4964017" title="Wikidata"><img src="../logos/wikidata.svg" alt="Wikidata"></a></h1>
 		<figure class="small">
 			<a href="../sle2008s/index.html"><img src="../sle.png" alt="SLE 2008 SI"></a>
 			<figcaption>

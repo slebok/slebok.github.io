@@ -283,7 +283,7 @@
 <a href="../tag/t5e.html"><span class="tagL" title=" It is driven by empirical benchmarking over multiple language-specific benchmark suites.
 ">T5E</span></a>
 <a href="../tag/t3d.html"><span class="tagL" title=" The study spans multiple general-purpose programming languages to compare energy/runtime behavior.
-">T3D</span></a></li><li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> <em><a href="../sle2024/paper17.html">Reducing Write Barrier Overheads for Orthogonal Persistence</a></em> (<a href="../profile/YuanzeZhang.html">Yuanze Zhang</a>, <a href="../profile/OmkarDilipDhawal.html">Omkar Dilip Dhawal</a>, <a href="../profile/VKrishnaNandivada.html">V. Krishna Nandivada</a>, <a href="../profile/ShigeruChiba.html">Shigeru Chiba</a>, <a href="../profile/TomoharuUgawa.html">Tomoharu Ugawa</a>) 
+">T3D</span></a></li><li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> <em><a href="../sle2024/paper17.html">Reducing Write Barrier Overheads for Orthogonal Persistence</a></em> (<a href="../profile/YilinZhang.html">Yilin Zhang</a>, <a href="../profile/OmkarDilipDhawal.html">Omkar Dilip Dhawal</a>, <a href="../profile/VKrishnaNandivada.html">V. Krishna Nandivada</a>, <a href="../profile/ShigeruChiba.html">Shigeru Chiba</a>, <a href="../profile/TomoharuUgawa.html">Tomoharu Ugawa</a>) 
 <a href="../tag/t5f.html"><span class="tagM" title=" The paper focuses on reducing runtime overheads (write barriers) to improve performance of orthogonal persistence.
 ">T5F</span></a>
 <a href="../tag/t4d.html"><span class="tagL" title=" Write barriers are a runtime mechanism, so the contribution targets the language runtime/VM execution behavior.

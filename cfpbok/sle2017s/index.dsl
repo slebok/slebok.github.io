@@ -66,7 +66,10 @@
 <a href="../tag/t1b.html"><span class="tagL" title="Dataflow analyses are classic static-semantics analyses, and the DSL is for declaring such analyses.">T1B: Static Semantics</span></a>
 <a href="../tag/t3a.html"><span class="tagL" title="It plays the role of a meta-language for describing analyses over language control-flow graphs.">T3A: Meta-languages</span></a>
 <a href="../tag/t4a.html"><span class="tagL" title="The work includes language-engineering infrastructure for defining CFGs and running the specified analyses.">T4A: Workbenches</span></a>
-</li></ul></li></ul><h2 id="org">Organisers</h2><ul><li><a href="../profile/BenoîtCombemale.html">Benoît Combemale</a> (<a href="sle2017s/index.html">Editor</a>)</li><li><a href="../profile/BernhardRumpe.html">Bernhard Rumpe</a> (<a href="sle2017s/index.html">Editor</a>)</li></ul>
+</li></ul></li></ul><h2 id="org">Organisers</h2><ul>
+<li><a href="../profile/BenoîtCombemale.html">Benoît Combemale</a> (<a href="sle2017s/index.html">Editor</a>)</li>
+<li><a href="../profile/BernhardRumpe.html">Bernhard Rumpe</a> (<a href="sle2017s/index.html">Editor</a>)</li>
+</ul>
 		<clear/>
 		<footer/>
 	</body>

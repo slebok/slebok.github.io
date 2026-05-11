@@ -3,8 +3,8 @@
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
 		<h1>Rui Abreu
-
-<a href="https://dblp.org/search?q=Rui Abreu" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
+<a href="https://dblp.org/pid/00/6243.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
+<a href="https://scholar.google.com/citations?user=x25BFgEAAAAJ" title="Google Scholar"><img src="../logos/gs.png" alt="Google Scholar"></a></h1>
 		<figure class="small">
 			<a href="../sle2023/index.html"><img src="../sle.png" alt="SLE 2023"></a>
 			<figcaption>

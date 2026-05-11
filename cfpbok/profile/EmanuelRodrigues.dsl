@@ -1,10 +1,10 @@
 <html doctype>
-	<head title="Emanuel B. Rodrigues's profile at CfPBoK" />
+	<head title="Emanuel Rodrigues's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Emanuel B. Rodrigues
-
-<a href="https://dblp.org/search?q=Emanuel B. Rodrigues" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
+		<h1>Emanuel Rodrigues
+<a href="https://dblp.org/pid/337/5508.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
+<a href="https://orcid.org/0000-0003-4317-1144" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a></h1>
 		<figure class="small">
 			<a href="../sle2024s/index.html"><img src="../sle.png" alt="SLE 2024 SI"></a>
 			<figcaption>
@@ -37,7 +37,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2024s/index.html">SLE 2024 SI</a>)</span> <em>Coauthored <a href="../sle2024s/paper07.html">Zipper-based embedding of strategic attribute grammars</a></em> (<a href="../profile/JoséNunoMacedo.html">José Nuno Macedo</a>, <a href="../profile/EmanuelBRodrigues.html"><span class="info">Emanuel B. Rodrigues</span></a>, <a href="../profile/MarcosViera.html">Marcos Viera</a>, <a href="../profile/JoãoSaraiva.html">João Saraiva</a>) </li></ul>
+<li><span class="info">(<a href="../sle2024s/index.html">SLE 2024 SI</a>)</span> <em>Coauthored <a href="../sle2024s/paper07.html">Zipper-based embedding of strategic attribute grammars</a></em> (<a href="../profile/JoséNunoMacedo.html">José Nuno Macedo</a>, <a href="../profile/EmanuelRodrigues.html"><span class="info">Emanuel Rodrigues</span></a>, <a href="../profile/MarcosViera.html">Marcos Viera</a>, <a href="../profile/JoãoSaraiva.html">João Saraiva</a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

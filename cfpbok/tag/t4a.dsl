@@ -1494,7 +1494,7 @@
 <a href="../tag/t4a.html"><span class="tagL" title=" It is implemented in/for a language & modeling workbench setting (Eclipse GEMOC Studio) with a dedicated coverage rule language.
 ">T4A</span></a>
 <a href="../tag/t5e.html"><span class="tagL" title=" The paper evaluates the framework across multiple xDSLs, models, test suites, and fault-localization scenarios.
-">T5E</span></a></li><li><span class="info">(<a href="../sle2024s/index.html">SLE 2024 SI</a>)</span> <em><a href="../sle2024s/paper07.html">Zipper-based embedding of strategic attribute grammars</a></em> (<a href="../profile/JoséNunoMacedo.html">José Nuno Macedo</a>, <a href="../profile/EmanuelBRodrigues.html">Emanuel B. Rodrigues</a>, <a href="../profile/MarcosViera.html">Marcos Viera</a>, <a href="../profile/JoãoSaraiva.html">João Saraiva</a>) 
+">T5E</span></a></li><li><span class="info">(<a href="../sle2024s/index.html">SLE 2024 SI</a>)</span> <em><a href="../sle2024s/paper07.html">Zipper-based embedding of strategic attribute grammars</a></em> (<a href="../profile/JoséNunoMacedo.html">José Nuno Macedo</a>, <a href="../profile/EmanuelRodrigues.html">Emanuel Rodrigues</a>, <a href="../profile/MarcosViera.html">Marcos Viera</a>, <a href="../profile/JoãoSaraiva.html">João Saraiva</a>) 
 <a href="../tag/t3b.html"><span class="tagM" title=" The work centers on strategic term rewriting (strategy combinators over tree traversals) as the primary programmable transformation mechanism.
 ">T3B</span></a>
 <a href="../tag/t3a.html"><span class="tagL" title=" Attribute grammars are a core formalism being embedded/combined, providing context-dependent computations over syntax trees.
