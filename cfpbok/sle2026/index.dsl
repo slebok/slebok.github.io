@@ -12,6 +12,7 @@
 				<li><a href="#lop">List of Papers</a></li>
 				<li><a href="#org">Organisers</a></li>
 				<li>Tags requested: <ul><li><a href="../tag/t1a.html"><span class="tagM" title="T1A: Design">T1A</span></a> <a href="../tag/t1b.html"><span class="tagM" title="T1B: Static Semantics">T1B</span></a> <a href="../tag/t1c.html"><span class="tagM" title="T1C: Behavioural Semantics">T1C</span></a> <a href="../tag/t1d.html"><span class="tagM" title="T1D: Composition">T1D</span></a> <a href="../tag/t1e.html"><span class="tagM" title="T1E: Reuse">T1E</span></a> <a href="../tag/t2b.html"><span class="tagM" title="T2B: Evolution">T2B</span></a> <a href="../tag/t2c.html"><span class="tagM" title="T2C: Variability">T2C</span></a> <a href="../tag/t2d.html"><span class="tagM" title="T2D: Deployment">T2D</span></a> <a href="../tag/t3a.html"><span class="tagM" title="T3A: Meta-languages">T3A</span></a> <a href="../tag/t3b.html"><span class="tagM" title="T3B: Transformation Languages">T3B</span></a> <a href="../tag/t3c.html"><span class="tagM" title="T3C: DSLs">T3C</span></a> <a href="../tag/t4a.html"><span class="tagM" title="T4A: Workbenches">T4A</span></a> <a href="../tag/t4b.html"><span class="tagM" title="T4B: Horizontal Transformation">T4B</span></a> <a href="../tag/t4c.html"><span class="tagM" title="T4C: Vertical Transformation">T4C</span></a> <a href="../tag/t4e.html"><span class="tagM" title="T4E: Simulation">T4E</span></a> <a href="../tag/t4g.html"><span class="tagM" title="T4G: AI-for-SLE">T4G</span></a> <a href="../tag/t5a.html"><span class="tagM" title="T5A: Requirements">T5A</span></a> <a href="../tag/t5c.html"><span class="tagM" title="T5C: Testing">T5C</span></a> <a href="../tag/t5d.html"><span class="tagM" title="T5D: Formal Methods">T5D</span></a> <a href="../tag/t5e.html"><span class="tagM" title="T5E: Empirical Evaluation">T5E</span></a> <a href="../tag/t5f.html"><span class="tagM" title="T5F: Performance">T5F</span></a> <a href="../tag/t5g.html"><span class="tagM" title="T5G: Traceability">T5G</span></a> <a href="../tag/t5h.html"><span class="tagM" title="T5H: Usability">T5H</span></a> <a href="../tag/t6a.html"><span class="tagM" title="T6A: Experience Reports">T6A</span></a> <a href="../tag/t6b.html"><span class="tagM" title="T6B: Industrial">T6B</span></a> <a href="../tag/t6c.html"><span class="tagM" title="T6C: SLE-for-AI">T6C</span></a> <a href="../tag/t6d.html"><span class="tagM" title="T6D: Synergies">T6D</span></a> <a href="../tag/t6e.html"><span class="tagM" title="T6E: Quantum">T6E</span></a> <a href="../tag/t6f.html"><span class="tagM" title="T6F: CPS/IoT/DT">T6F</span></a> <a href="../tag/t6g.html"><span class="tagM" title="T6G: Socio-technical">T6G</span></a> </li></ul></li>
+<li>Tags received: <ul><li><a href="../tag/t6a.html"><span class="tagL" title="T6A: Experience Reports">T6A</span></a> <a href="../tag/t6b.html"><span class="tagM" title="T6B: Industrial">T6B</span></a> </li></ul></li>
 			</ul>
 <h2 id="cfp">Call for Papers (<a href="http://www.sleconf.org/2025/CFP.html">source</a>, 57 taggings)</h2>
 <p>
@@ -97,7 +98,14 @@
 </p>
 <ul>
 <li>Tool papers: These papers focus on the tooling aspects often forgotten or neglected in research papers. A good tool paper focuses on practical insights that will <span class="term">likely be useful to other implementers or users in the future</span><span class="tag" title="T1E: Reuse"><a href="../tag/t1e.html">T1E</a></span>. Any of the SLE topics of interest are appropriate areas for tool demonstrations. Submissions must not exceed 5 pages and may optionally include 1 further page of bibliography/appendices. They may optionally include an appendix with a demo outline/screenshots and/or a short video/screencast illustrating the tool.</li>
-</ul><h2 id="lop">List of Papers (missing)</h2><h2 id="org">Organisers</h2><ul>
+</ul><h2 id="lop">List of Papers (1+0, <a href="https://www.sleconf.org/2026/">source</a>)</h2>
+<ul class="lop">
+
+<li><span title="Keynote">🔥</span> <em><a href="keynote1.html">We Built the Languages. That was the Easy Part</a></em> (<a href="../profile/CédricBrun.html">Cédric Brun</a>) 
+<ul><li>
+<a href="../tag/t6b.html"><span class="tagM" title="The keynote speaker is invited as a CEO of a successful company to talk about his experiences">T6B: Industrial</span></a>
+<a href="../tag/t6a.html"><span class="tagL" title="This keynote reflects on two decades of building and deploying modelling languages in the real world.">T6A: Experience Reports</span></a>
+</li></ul></li></ul><h2 id="org">Organisers</h2><ul>
 <li><a href="../profile/ShigeruChiba.html">Shigeru Chiba</a> (<a href="https://www.sleconf.org/2026/Committees.html">Programme Chair</a>)</li>
 <li><a href="../profile/JordiCabot.html">Jordi Cabot</a> (<a href="https://www.sleconf.org/2026/Committees.html">Programme Chair</a>)</li>
 <li><a href="../profile/ArnaudBlouin.html">Arnaud Blouin</a> (<a href="https://www.sleconf.org/2026/Committees.html">General Chair</a>)</li>
@@ -147,7 +155,6 @@
 <li><a href="../profile/RomainLefeuvre.html">Romain Lefeuvre</a> (<a href="https://sle26ae.hotcrp.com/users/pc">AEC</a>)</li>
 <li><a href="../profile/ValentinBourcier.html">Valentin Bourcier</a> (<a href="https://sle26ae.hotcrp.com/users/pc">AEC</a>)</li>
 <li><a href="../profile/ZunchenHuang.html">Zunchen Huang</a> (<a href="https://sle26ae.hotcrp.com/users/pc">AEC</a>)</li>
-<li><a href="../profile/CédricBrun.html">Cédric Brun</a> (<a href="https://conf.researchr.org/home/sle-2026#Keynote">Keynote</a>)</li>
 </ul>
 		<clear/>
 		<footer/>

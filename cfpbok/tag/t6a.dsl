@@ -131,7 +131,7 @@
 			</figcaption>
 		</figure>
 
-		<figure class="small dim">
+		<figure class="small">
 			<a href="../sle2026/index.html"><img src="../sle.png" alt="SLE 2026"></a>
 			<figcaption>
 				<a href="../sle2026/index.html">SLE 2026</a>
@@ -148,8 +148,8 @@
 			<li>Primary tagged in <span class="info">3</span>/<span class="info">26</span> paper bundles</li>
 			<li>Primary tagged in <span class="info">3</span>/<span class="info">19</span> pure proceedings (<a href="../sle2008/index.html#lop">2008</a>–<a href="../sle2025/index.html#lop">2025</a> with the longest streak of <span class="info">1</span> years)</li>
 
-			<li>Secondary tagged in <span class="info">5</span>/<span class="info">26</span> paper bundles</li>
-			<li>Secondary tagged in <span class="info">5</span>/<span class="info">19</span> pure proceedings (<a href="../sle2014/index.html#lop">2014</a>–<a href="../sle2025/index.html#lop">2025</a> with the longest streak of <span class="info">2</span> years)</li>
+			<li>Secondary tagged in <span class="info">6</span>/<span class="info">26</span> paper bundles</li>
+			<li>Secondary tagged in <span class="info">6</span>/<span class="info">19</span> pure proceedings (<a href="../sle2014/index.html#lop">2014</a>–<a href="../sle2026/index.html#lop">2026</a> with the longest streak of <span class="info">3</span> years)</li>
 			<li>Top 3 co-occurring topics:
 				<ul>
 					<li><a href="t3c.html"><span class="tagL">T3C: DSLs</span></a> (<span class="info">4</span> times)</li>
@@ -165,7 +165,7 @@
 
 		</ul>
 
-<h2>List of papers (9)</h2>
+<h2>List of papers (10)</h2>
 <ul>
 <li><span class="info">(<a href="../sle2008/index.html">SLE 2008</a>)</span> <em><a href="../sle2008/paper16.html">A Case Study in Grammar Engineering</a></em> (<a href="../profile/TiagoLAlves.html">Tiago L. Alves</a>, <a href="../profile/JoostVisser.html">Joost Visser</a>) 
 <a href="../tag/t6a.html"><span class="tagM" title=" As a ‘pearls’ case study, it reports experience and lessons learned from real grammar-engineering work.
@@ -223,7 +223,11 @@
 <a href="../tag/t1d.html"><span class="tagL" title=" The focus is modular/compositional language development and integration, analyzing challenges in language composition.
 ">T1D</span></a>
 <a href="../tag/t4a.html"><span class="tagL" title=" MontiCore is a language workbench, and the paper’s findings are grounded in its tooling architecture.
-">T4A</span></a></li></ul>
+">T4A</span></a></li><li><span class="info">(<a href="../sle2026/index.html">SLE 2026</a>)</span> <em><a href="../sle2026/keynote1.html">We Built the Languages. That was the Easy Part</a></em> (<a href="../profile/CédricBrun.html">Cédric Brun</a>) 
+<a href="../tag/t6b.html"><span class="tagM" title=" The keynote speaker is invited as a CEO of a successful company to talk about his experiences
+">T6B</span></a>
+<a href="../tag/t6a.html"><span class="tagL" title=" This keynote reflects on two decades of building and deploying modelling languages in the real world.
+">T6A</span></a></li></ul>
 		<clear/>
 		<footer/>
 	</body>

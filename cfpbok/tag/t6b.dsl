@@ -117,7 +117,7 @@
 			</figcaption>
 		</figure>
 
-		<figure class="small dim">
+		<figure class="small">
 			<a href="../sle2026/index.html"><img src="../sle.png" alt="SLE 2026"></a>
 			<figcaption>
 				<a href="../sle2026/index.html">SLE 2026</a>
@@ -131,8 +131,8 @@
 			<li>Requested in <span class="info">14</span>/<span class="info">26</span> calls</li>
 			<li>Requested in <span class="info">14</span>/<span class="info">19</span> pure calls (<a href="../sle2012/index.html#cfp">2012</a>–<a href="../sle2026/index.html#cfp">2026</a> with the longest streak of <span class="info">11</span> years)</li>
 
-			<li>Primary tagged in <span class="info">1</span>/<span class="info">26</span> paper bundles</li>
-			<li>Primary tagged in <span class="info">1</span>/<span class="info">19</span> pure proceedings (<a href="../sle2016/index.html#lop">2016</a>–<a href="../sle2016/index.html#lop">2016</a> with the longest streak of <span class="info">1</span> years)</li>
+			<li>Primary tagged in <span class="info">2</span>/<span class="info">26</span> paper bundles</li>
+			<li>Primary tagged in <span class="info">2</span>/<span class="info">19</span> pure proceedings (<a href="../sle2016/index.html#lop">2016</a>–<a href="../sle2026/index.html#lop">2026</a> with the longest streak of <span class="info">1</span> years)</li>
 
 			<li>Secondary tagged in <span class="info">12</span>/<span class="info">26</span> paper bundles</li>
 			<li>Secondary tagged in <span class="info">12</span>/<span class="info">19</span> pure proceedings (<a href="../sle2010/index.html#lop">2010</a>–<a href="../sle2023/index.html#lop">2023</a> with the longest streak of <span class="info">7</span> years)</li>
@@ -151,7 +151,7 @@
 
 		</ul>
 
-<h2>List of papers (23)</h2>
+<h2>List of papers (24)</h2>
 <ul>
 <li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> <em><a href="../sle2010/paper21.html">Evaluating a Textual Feature Modelling Language: Four Industrial Case Studies</a></em> (<a href="../profile/ArnaudHubaux.html">Arnaud Hubaux</a>, <a href="../profile/QuentinBoucher.html">Quentin Boucher</a>, <a href="../profile/HermanHartmann.html">Herman Hartmann</a>, <a href="../profile/RaphaëlMichel.html">Raphaël Michel</a>, <a href="../profile/PatrickHeymans.html">Patrick Heymans</a>) 
 <a href="../tag/t5e.html"><span class="tagM" title=" The primary contribution is an evaluation via multiple industrial case studies of a textual feature-modeling language.
@@ -319,7 +319,11 @@
 <a href="../tag/t6b.html"><span class="tagL" title=" The talk is grounded in industrial-scale practice (real-world adoption and sustained use on a flagship system).
 ">T6B</span></a>
 <a href="../tag/t4a.html"><span class="tagL" title=" It discusses tool internals and design decisions enabling these transformations, making tooling/infrastructure a major aspect.
-">T4A</span></a></li></ul>
+">T4A</span></a></li><li><span class="info">(<a href="../sle2026/index.html">SLE 2026</a>)</span> <em><a href="../sle2026/keynote1.html">We Built the Languages. That was the Easy Part</a></em> (<a href="../profile/CédricBrun.html">Cédric Brun</a>) 
+<a href="../tag/t6b.html"><span class="tagM" title=" The keynote speaker is invited as a CEO of a successful company to talk about his experiences
+">T6B</span></a>
+<a href="../tag/t6a.html"><span class="tagL" title=" This keynote reflects on two decades of building and deploying modelling languages in the real world.
+">T6A</span></a></li></ul>
 		<clear/>
 		<footer/>
 	</body>
