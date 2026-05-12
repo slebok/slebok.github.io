@@ -83,7 +83,7 @@
 <a href="../tag/t2b.html"><span class="tagL" title="API migration is a form of software/language evolution and maintenance driven by change over time.">T2B: Evolution</span></a>
 <a href="../tag/t4b.html"><span class="tagL" title="Migration typically requires systematic mapping/conversion between old and new API usages.">T4B: Horizontal Transformation</span></a>
 </li></ul></li>
-<li><em><a href="paper04.html">Composing Feature Models</a></em> (<a href="../profile/MathieuAcher.html">Mathieu Acher</a>, <a href="../profile/PhilippeCollet.html">Philippe Collet</a>, <a href="../profile/PhilippeLahire.html">Philippe Lahire</a>, <a href="../profile/RobertBFrance.html">Robert B. France</a>) 
+<li><span title="Most Influencial Paper Award at SLE 2019">🏆</span> <em><a href="paper04.html">Composing Feature Models</a></em> (<a href="../profile/MathieuAcher.html">Mathieu Acher</a>, <a href="../profile/PhilippeCollet.html">Philippe Collet</a>, <a href="../profile/PhilippeLahire.html">Philippe Lahire</a>, <a href="../profile/RobertBFrance.html">Robert B. France</a>) 
 <ul><li>
 <a href="../tag/t2c.html"><span class="tagM" title="Feature models are a core variability artifact in software product lines, and the paper focuses on composing them.">T2C: Variability</span></a>
 <a href="../tag/t1d.html"><span class="tagL" title="Composition is the central operation studied, aligning with integration/composition concerns.">T1D: Composition</span></a>

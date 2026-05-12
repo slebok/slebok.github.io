@@ -138,7 +138,7 @@
 <a href="../tag/t4b.html"><span class="tagL" title="The operators essentially define systematic transformation steps for migration/co-evolution.">T4B: Horizontal Transformation</span></a>
 <a href="../tag/t5b.html"><span class="tagL" title="The catalog organizes and characterizes change operators as a basis for analyzing and managing evolution.">T5B: Language Description Analysis</span></a>
 </li></ul></li>
-<li><em><a href="paper10.html">JTL: A Bidirectional and Change Propagating Transformation Language</a></em> (<a href="../profile/AntonioCicchetti.html">Antonio Cicchetti</a>, <a href="../profile/DavideDiRuscio.html">Davide Di Ruscio</a>, <a href="../profile/RominaEramo.html">Romina Eramo</a>, <a href="../profile/AlfonsoPierantonio.html">Alfonso Pierantonio</a>) 
+<li><span title="Most Influencial Paper Award at SLE 2020">🏆</span> <em><a href="paper10.html">JTL: A Bidirectional and Change Propagating Transformation Language</a></em> (<a href="../profile/AntonioCicchetti.html">Antonio Cicchetti</a>, <a href="../profile/DavideDiRuscio.html">Davide Di Ruscio</a>, <a href="../profile/RominaEramo.html">Romina Eramo</a>, <a href="../profile/AlfonsoPierantonio.html">Alfonso Pierantonio</a>) 
 <ul><li>
 <a href="../tag/t3b.html"><span class="tagM" title="JTL is introduced as a dedicated transformation language for bidirectional, change-propagating model transformations.">T3B: Transformation Languages</span></a>
 <a href="../tag/t4b.html"><span class="tagL" title="The language targets model-to-model mapping/synchronization and supports change propagation between related models.">T4B: Horizontal Transformation</span></a>

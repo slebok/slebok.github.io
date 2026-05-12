@@ -75,7 +75,7 @@
 <a href="../tag/t5b.html"><span class="tagL" title="Its purpose is to support language-oriented analysis by extracting and aggregating usage information.">T5B: Language Description Analysis</span></a>
 <a href="../tag/t2b.html"><span class="tagL" title="The usage-analysis capability is motivated as feedback for evolving and maintaining languages and their ecosystems.">T2B: Evolution</span></a>
 </li></ul></li>
-<li><em><a href="paper03.html">Analyzing Rule-Based Behavioral Semantics of Visual Modeling Languages with Maude</a></em> (<a href="../profile/JoséEduardoRivera.html">José Eduardo Rivera</a>, <a href="../profile/EstherGuerra.html">Esther Guerra</a>, <a href="../profile/JuandeLara.html">Juan de Lara</a>, <a href="../profile/AntonioVallecillo.html">Antonio Vallecillo</a>) 
+<li><span title="Most Influencial Paper Award at SLE 2019">🏆</span> <em><a href="paper03.html">Analyzing Rule-Based Behavioral Semantics of Visual Modeling Languages with Maude</a></em> (<a href="../profile/JoséEduardoRivera.html">José Eduardo Rivera</a>, <a href="../profile/EstherGuerra.html">Esther Guerra</a>, <a href="../profile/JuandeLara.html">Juan de Lara</a>, <a href="../profile/AntonioVallecillo.html">Antonio Vallecillo</a>) 
 <ul><li>
 <a href="../tag/t1c.html"><span class="tagM" title="It focuses on defining and analyzing executable/behavioral semantics of visual modeling languages using rewriting logic.">T1C: Behavioural Semantics</span></a>
 <a href="../tag/t5d.html"><span class="tagL" title="It uses a formal-methods setting (Maude/rewrite rules) to enable rigorous semantic analysis.">T5D: Formal Methods</span></a>

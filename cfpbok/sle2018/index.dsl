@@ -114,7 +114,7 @@
 <a href="../tag/t1d.html"><span class="tagL" title="It emphasizes modularity/composition/integration (embedding or coordinating language components).">T1D: Composition</span></a>
 <a href="../tag/t6b.html"><span class="tagL" title="It is motivated by or evaluated in an industrial/practical context.">T6B: Industrial</span></a>
 </li></ul></li>
-<li><em><a href="paper07.html">Shape-diverse DSLs: languages without borders (vision paper)</a></em> (<a href="../profile/FabienCoulon.html">Fabien Coulon</a>, <a href="../profile/ThomasDegueule.html">Thomas Degueule</a>, <a href="../profile/TijsvanderStorm.html">Tijs van der Storm</a>, <a href="../profile/BenoîtCombemale.html">Benoît Combemale</a>) 
+<li><span title="Distinguished Vision Paper Award">🏆</span> <em><a href="paper07.html">Shape-diverse DSLs: languages without borders (vision paper)</a></em> (<a href="../profile/FabienCoulon.html">Fabien Coulon</a>, <a href="../profile/ThomasDegueule.html">Thomas Degueule</a>, <a href="../profile/TijsvanderStorm.html">Tijs van der Storm</a>, <a href="../profile/BenoîtCombemale.html">Benoît Combemale</a>) 
 <ul><li>
 <a href="../tag/t6d.html"><span class="tagM" title="The paper is explicitly a vision/position piece emphasizing cross-cutting synergies and future directions.">T6D: Synergies</span></a>
 <a href="../tag/t4a.html"><span class="tagL" title="It includes substantial tool support or infrastructure relevant for engineering/using languages.">T4A: Workbenches</span></a>
@@ -164,7 +164,7 @@
 <a href="../tag/t5d.html"><span class="tagL" title="It relies on formal methods (definitions/proofs/semantic properties) beyond informal description.">T5D: Formal Methods</span></a>
 <a href="../tag/t4c.html"><span class="tagL" title="It uses compilation/generation/refinement to derive executable artifacts (vertical transformations).">T4C: Vertical Transformation</span></a>
 </li></ul></li>
-<li><em><a href="paper15.html">Facet-oriented modelling: open objects for model-driven engineering</a></em> (<a href="../profile/JuandeLara.html">Juan de Lara</a>, <a href="../profile/EstherGuerra.html">Esther Guerra</a>, <a href="../profile/JörgKienzle.html">Jörg Kienzle</a>, <a href="../profile/YanisHattab.html">Yanis Hattab</a>) 
+<li><span title="Distinguished Research Paper Award">🏆</span> <em><a href="paper15.html">Facet-oriented modelling: open objects for model-driven engineering</a></em> (<a href="../profile/JuandeLara.html">Juan de Lara</a>, <a href="../profile/EstherGuerra.html">Esther Guerra</a>, <a href="../profile/JörgKienzle.html">Jörg Kienzle</a>, <a href="../profile/YanisHattab.html">Yanis Hattab</a>) 
 <ul><li>
 <a href="../tag/t1b.html"><span class="tagM" title="The paper’s main contribution concerns static semantics, especially typing or constraint checking.">T1B: Static Semantics</span></a>
 <a href="../tag/t4b.html"><span class="tagL" title="It performs mapping/conversion/synchronization between representations (horizontal transformations).">T4B: Horizontal Transformation</span></a>
@@ -222,7 +222,7 @@
 <li><a href="../profile/FriedrichSteimann.html">Friedrich Steimann</a> (<a href="https://conf.researchr.org/committee/sle-2018/sle-2018-papers-organizing-committee">Programme Chair</a>)</li>
 <li><a href="../profile/AnyaHeleneBagge.html">Anya Helene Bagge</a> (<a href="https://conf.researchr.org/committee/sle-2018/sle-2018-papers-program-committee">PC</a>)</li>
 <li><a href="../profile/AndrewBlack.html">Andrew Black</a> (<a href="https://conf.researchr.org/committee/sle-2018/sle-2018-papers-program-committee">PC</a>)</li>
-<li><a href="../profile/ErwanBousse.html">Erwan Bousse</a> (<a href="https://conf.researchr.org/committee/sle-2018/sle-2018-papers-program-committee">PC</a>)</li>
+<li><span title="Distinguished Reviewer Award at SLE 2018">🏆</span> <a href="../profile/ErwanBousse.html">Erwan Bousse</a> (<a href="https://conf.researchr.org/committee/sle-2018/sle-2018-papers-program-committee">PC</a>)</li>
 <li><a href="../profile/MarcoBrambilla.html">Marco Brambilla</a> (<a href="https://conf.researchr.org/committee/sle-2018/sle-2018-papers-program-committee">PC</a>)</li>
 <li><a href="../profile/RuthBreu.html">Ruth Breu</a> (<a href="https://conf.researchr.org/committee/sle-2018/sle-2018-papers-program-committee">PC</a>)</li>
 <li><a href="../profile/WalterCazzola.html">Walter Cazzola</a> (<a href="https://conf.researchr.org/committee/sle-2018/sle-2018-papers-program-committee">PC</a>)</li>

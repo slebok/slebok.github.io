@@ -130,7 +130,7 @@
 <a href="../tag/t4a.html"><span class="tagL" title="It includes substantial tool support or infrastructure relevant for engineering/using languages.">T4A: Workbenches</span></a>
 <a href="../tag/t5e.html"><span class="tagL" title="It reports an empirical evaluation (experiments, study, benchmarks, or measurements).">T5E: Empirical Evaluation</span></a>
 </li></ul></li>
-<li><em><a href="paper09.html">Breaking parsers: mutation-based generation of programs with guaranteed syntax errors</a></em> (<a href="../profile/MoeketsiRaselimo.html">Moeketsi Raselimo</a>, <a href="../profile/JanTaljaard.html">Jan Taljaard</a>, <a href="../profile/BerndFischer.html">Bernd Fischer</a>) 
+<li><span title="Distinguished Vision Paper Award">🏆</span> <em><a href="paper09.html">Breaking parsers: mutation-based generation of programs with guaranteed syntax errors</a></em> (<a href="../profile/MoeketsiRaselimo.html">Moeketsi Raselimo</a>, <a href="../profile/JanTaljaard.html">Jan Taljaard</a>, <a href="../profile/BerndFischer.html">Bernd Fischer</a>) 
 <ul><li>
 <a href="../tag/t1a.html"><span class="tagM" title="The paper primarily contributes techniques for language definition (often syntax-related) as part of language design.">T1A: Design</span></a>
 <a href="../tag/t4a.html"><span class="tagL" title="It includes substantial tool support or infrastructure relevant for engineering/using languages.">T4A: Workbenches</span></a>
@@ -143,7 +143,7 @@
 <a href="../tag/t1d.html"><span class="tagL" title="It emphasizes modularity/composition/integration (embedding or coordinating language components).">T1D: Composition</span></a>
 <a href="../tag/t5h.html"><span class="tagL" title="It targets usability (developer interaction, comprehension, editing experience).">T5H: Usability</span></a>
 </li></ul></li>
-<li><em><a href="paper11.html">Domain-specific model differencing in visual concrete syntax</a></em> (<a href="../profile/ManouchehrZadahmad.html">Manouchehr Zadahmad</a>, <a href="../profile/EugeneSyriani.html">Eugene Syriani</a>, <a href="../profile/OmarAlam.html">Omar Alam</a>, <a href="../profile/EstherGuerra.html">Esther Guerra</a>, <a href="../profile/JuandeLara.html">Juan de Lara</a>) 
+<li><span title="Distinguished Research Paper Award">🏆</span> <em><a href="paper11.html">Domain-specific model differencing in visual concrete syntax</a></em> (<a href="../profile/ManouchehrZadahmad.html">Manouchehr Zadahmad</a>, <a href="../profile/EugeneSyriani.html">Eugene Syriani</a>, <a href="../profile/OmarAlam.html">Omar Alam</a>, <a href="../profile/EstherGuerra.html">Esther Guerra</a>, <a href="../profile/JuandeLara.html">Juan de Lara</a>) 
 <ul><li>
 <a href="../tag/t3c.html"><span class="tagM" title="The paper mainly targets domain-specific languages or modeling languages, including their design or use.">T3C: DSLs</span></a>
 <a href="../tag/t4a.html"><span class="tagL" title="It includes substantial tool support or infrastructure relevant for engineering/using languages.">T4A: Workbenches</span></a>
@@ -225,7 +225,7 @@
 <li><a href="../profile/BernhardRumpe.html">Bernhard Rumpe</a> (<a href="https://conf.researchr.org/committee/sle-2019/sle-2019-papers-program-committee">PC</a>)</li>
 <li><a href="../profile/YannRégisGianas.html">Yann Régis-Gianas</a> (<a href="https://conf.researchr.org/committee/sle-2019/sle-2019-papers-program-committee">PC</a>)</li>
 <li><a href="../profile/MarkusSchordan.html">Markus Schordan</a> (<a href="https://conf.researchr.org/committee/sle-2019/sle-2019-papers-program-committee">PC</a>)</li>
-<li><a href="../profile/ElizabethScott.html">Elizabeth Scott</a> (<a href="https://conf.researchr.org/committee/sle-2019/sle-2019-papers-program-committee">PC</a>)</li>
+<li><span title="Distinguished Reviewer Award at SLE 2019">🏆</span> <a href="../profile/ElizabethScott.html">Elizabeth Scott</a> (<a href="https://conf.researchr.org/committee/sle-2019/sle-2019-papers-program-committee">PC</a>)</li>
 <li><a href="../profile/NeilSculthorpe.html">Neil Sculthorpe</a> (<a href="https://conf.researchr.org/committee/sle-2019/sle-2019-papers-program-committee">PC</a>)</li>
 <li><a href="../profile/MarcoServetto.html">Marco Servetto</a> (<a href="https://conf.researchr.org/committee/sle-2019/sle-2019-papers-program-committee">PC</a>)</li>
 <li><a href="../profile/EugeneSyriani.html">Eugene Syriani</a> (<a href="https://conf.researchr.org/committee/sle-2019/sle-2019-papers-program-committee">PC</a>)</li>

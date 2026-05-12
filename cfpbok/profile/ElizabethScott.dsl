@@ -109,7 +109,7 @@
 		<clear/>
 		<h2>Summary</h2>
 		<ul>
-
+<li><a href="https://www.sleconf.org/2019/Awards.html">Distinguished Reviewer Award at SLE 2019</a></li>
 		<li><span class="info">8</span> papers in <span class="info">7</span> bundles</li>
 				<li>Top 3 popular topics:
 			<ul>

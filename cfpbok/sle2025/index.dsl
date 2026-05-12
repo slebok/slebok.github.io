@@ -149,7 +149,7 @@
 <a href="../tag/t2d.html"><span class="tagL" title="WebAssembly is a deployment/portability target, and the motivation includes hardening shipped code against tampering.">T2D: Deployment</span></a>
 <a href="../tag/t3d.html"><span class="tagL" title="It works with a general-purpose language (JavaScript) and its compilation to a low-level portable format.">T3D: GPLs</span></a>
 </li></ul></li>
-<li><em><a href="paper07.html">Optimal Language Design is Hard: A Case Study in ECMAScript (JavaScript) Standardization</a></em> (<a href="../profile/PhilippRiemer.html">Philipp Riemer</a>, <a href="../profile/YuryNikulin.html">Yury Nikulin</a>, <a href="../profile/AshleyClaymore.html">Ashley Claymore</a>, <a href="../profile/MikhailBarash.html">Mikhail Barash</a>) 
+<li><span title="Distinguished Research Paper Award">🏆</span> <em><a href="paper07.html">Optimal Language Design is Hard: A Case Study in ECMAScript (JavaScript) Standardization</a></em> (<a href="../profile/PhilippRiemer.html">Philipp Riemer</a>, <a href="../profile/YuryNikulin.html">Yury Nikulin</a>, <a href="../profile/AshleyClaymore.html">Ashley Claymore</a>, <a href="../profile/MikhailBarash.html">Mikhail Barash</a>) 
 <ul><li>
 <a href="../tag/t1a.html"><span class="tagM" title="It studies and supports design choices in a widely used language (ECMAScript), focusing on the language design process itself.">T1A: Design</span></a>
 <a href="../tag/t2b.html"><span class="tagL" title="The work frames language standardization as an evolving, long-running maintenance process with accumulating issues/preferences.">T2B: Evolution</span></a>

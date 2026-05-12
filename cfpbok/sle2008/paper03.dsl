@@ -5,7 +5,8 @@
 		<div class="right"><a href="index.html"><img src="../sle.png" alt="SLE 2008"></a><br><code>sle2008/paper03</code></div>
 			<h1><span class="less"><a href="index.html">SLE 2008</a> paper:</span><br><i>Analyzing Rule-Based Behavioral Semantics of Visual Modeling Languages with Maude</i></h1>
 			<h2><a href="../profile/JoséEduardoRivera.html">José Eduardo Rivera</a>, <a href="../profile/EstherGuerra.html">Esther Guerra</a>, <a href="../profile/JuandeLara.html">Juan de Lara</a>, <a href="../profile/AntonioVallecillo.html">Antonio Vallecillo</a></h2>
-<ul><li>DOI: <a href="https://doi.org/10.1007/978-3-642-00434-6_5">10.1007/978-3-642-00434-6_5</a></li>
+<ul><li>🏆 <a href="https://www.sleconf.org/2019/Awards.html">Most Influencial Paper Award at SLE 2019</a></li>
+<li>DOI: <a href="https://doi.org/10.1007/978-3-642-00434-6_5">10.1007/978-3-642-00434-6_5</a></li>
 <li><a href="../tag/t1c.html"><span class="tagM">T1C: Behavioural Semantics</span></a><ul><li> It focuses on defining and analyzing executable/behavioral semantics of visual modeling languages using rewriting logic.
 </li></ul></li>
 <li><a href="../tag/t5d.html"><span class="tagL">T5D: Formal Methods</span></a><ul><li> It uses a formal-methods setting (Maude/rewrite rules) to enable rigorous semantic analysis.

@@ -76,7 +76,7 @@
 </ul><h2 id="lop">List of Papers (21, <a href="https://dblp.org/db/conf/sle/sle2020.html">source</a>)</h2>
 <ul class="lop">
 
-<li><em><a href="paper01.html">A Family of Languages for Trustworthy Agent-Based Simulation</a></em> (<a href="../profile/SteffenZschaler.html">Steffen Zschaler</a>, <a href="../profile/FionaPolack.html">Fiona Polack</a>) 
+<li><span title="Distinguished Short Paper Award">🏆</span> <em><a href="paper01.html">A Family of Languages for Trustworthy Agent-Based Simulation</a></em> (<a href="../profile/SteffenZschaler.html">Steffen Zschaler</a>, <a href="../profile/FionaPolack.html">Fiona Polack</a>) 
 <ul><li>
 <a href="../tag/t3c.html"><span class="tagM" title="The paper mainly targets domain-specific languages or modeling languages, including their design or use.">T3C: DSLs</span></a>
 <a href="../tag/t4a.html"><span class="tagL" title="It includes substantial tool support or infrastructure relevant for engineering/using languages.">T4A: Workbenches</span></a>
@@ -130,7 +130,7 @@
 <a href="../tag/t1d.html"><span class="tagL" title="It emphasizes modularity/composition/integration (embedding or coordinating language components).">T1D: Composition</span></a>
 <a href="../tag/t6b.html"><span class="tagL" title="It is motivated by or evaluated in an industrial/practical context.">T6B: Industrial</span></a>
 </li></ul></li>
-<li><em><a href="paper09.html">Software Language Engineers’ Worst Nightmare</a></em> (<a href="../profile/VadimZaytsev.html">Vadim Zaytsev</a>) 
+<li><span title="IFIP TC2 Manfred Paul Award">🏆</span> <em><a href="paper09.html">Software Language Engineers’ Worst Nightmare</a></em> (<a href="../profile/VadimZaytsev.html">Vadim Zaytsev</a>) 
 <ul><li>
 <a href="../tag/t1a.html"><span class="tagM" title="The main contribution of the paper is to design a language called BabyCobol.">T1A: Design</span></a>
 <a href="../tag/t3c.html"><span class="tagL" title="BabyCobol is a domain-specific language.">T3C: DSLs</span></a>
@@ -197,7 +197,7 @@
 <a href="../tag/t5d.html"><span class="tagL" title="It relies on formal methods (definitions/proofs/semantic properties) beyond informal description.">T5D: Formal Methods</span></a>
 <a href="../tag/t4c.html"><span class="tagL" title="It uses compilation/generation/refinement to derive executable artifacts (vertical transformations).">T4C: Vertical Transformation</span></a>
 </li></ul></li>
-<li><em><a href="paper19.html">Strategic Tree Rewriting in Attribute Grammars</a></em> (<a href="../profile/LucasKramer.html">Lucas Kramer</a>, <a href="../profile/EricVanWyk.html">Eric Van Wyk</a>) 
+<li><span title="Distinguished Paper Award">🏆</span> <em><a href="paper19.html">Strategic Tree Rewriting in Attribute Grammars</a></em> (<a href="../profile/LucasKramer.html">Lucas Kramer</a>, <a href="../profile/EricVanWyk.html">Eric Van Wyk</a>) 
 <ul><li>
 <a href="../tag/t3a.html"><span class="tagM" title="The paper proposes or uses a meta-language/formalism for defining or analyzing language artifacts.">T3A: Meta-languages</span></a>
 <a href="../tag/t4b.html"><span class="tagL" title="It performs mapping/conversion/synchronization between representations (horizontal transformations).">T4B: Horizontal Transformation</span></a>
@@ -244,7 +244,7 @@
 <li><a href="../profile/TijsvanderStorm.html">Tijs van der Storm</a> (<a href="https://conf.researchr.org/committee/sle-2020/sle-2020-papers-program-committee">PC</a>)</li>
 <li><a href="../profile/EugeneSyriani.html">Eugene Syriani</a> (<a href="https://conf.researchr.org/committee/sle-2020/sle-2020-papers-program-committee">PC</a>)</li>
 <li><a href="../profile/JesúsSánchezCuadrado.html">Jesús Sánchez Cuadrado</a> (<a href="https://conf.researchr.org/committee/sle-2020/sle-2020-papers-program-committee">PC</a>)</li>
-<li><a href="../profile/EricVanWyk.html">Eric Van Wyk</a> (<a href="https://conf.researchr.org/committee/sle-2020/sle-2020-papers-program-committee">PC</a>)</li>
+<li><span title="Distinguished Reviewer Award at SLE 2020">🏆</span> <a href="../profile/EricVanWyk.html">Eric Van Wyk</a> (<a href="https://conf.researchr.org/committee/sle-2020/sle-2020-papers-program-committee">PC</a>)</li>
 <li><a href="../profile/MarkusVölter.html">Markus Völter</a> (<a href="https://conf.researchr.org/committee/sle-2020/sle-2020-papers-program-committee">PC</a>)</li>
 <li><a href="../profile/VadimZaytsev.html">Vadim Zaytsev</a> (<a href="https://conf.researchr.org/committee/sle-2020/sle-2020-papers-program-committee">PC</a>)</li>
 <li><a href="../profile/UweZdun.html">Uwe Zdun</a> (<a href="https://conf.researchr.org/committee/sle-2020/sle-2020-papers-program-committee">PC</a>)</li>

@@ -138,7 +138,7 @@
 		<clear/>
 		<h2>Summary</h2>
 		<ul>
-
+<li><a href="https://www.sleconf.org/2020/Awards.html">Distinguished Reviewer Award at SLE 2020</a></li>
 		<li><span class="info">12</span> papers in <span class="info">9</span> bundles</li>
 				<li>Top 3 popular topics:
 			<ul>

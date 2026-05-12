@@ -71,7 +71,7 @@
 		<clear/>
 		<h2>Summary</h2>
 		<ul>
-
+<li><a href="https://www.sleconf.org/2016/Awards.html">Distinguished Reviewer Award at SLE 2016</a></li>
 		<li><span class="info">5</span> papers in <span class="info">4</span> bundles</li>
 				<li>Top 3 popular topics:
 			<ul>
