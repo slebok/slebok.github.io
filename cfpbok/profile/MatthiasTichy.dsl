@@ -3,15 +3,25 @@
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
 		<h1>Matthias Tichy
+<a href="https://dblp.org/pid/52/733.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
 <a href="https://openalex.org/A5043271427" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
 <a href="https://orcid.org/0000-0002-9067-3748" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
-<a href="https://dblp.org/search?q=Matthias Tichy" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
+<a href="https://scholar.google.com/citations?user=hnc9E2AAAAAJ" title="Google Scholar"><img src="../logos/gs.png" alt="Google Scholar"></a>
+<a href="https://www.wikidata.org/entity/Q57563323" title="Wikidata"><img src="../logos/wikidata.svg" alt="Wikidata"></a></h1>
 		<figure class="small">
 			<a href="../sle2015/index.html"><img src="../sle.png" alt="SLE 2015"></a>
 			<figcaption>
 				<a href="../sle2015/index.html">SLE 2015</a>
 				<br>
 				<a href="../sle2015/paper02.html" title="paper">⭐</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
+			<a href="../sle2025/index.html"><img src="../sle.png" alt="SLE 2025"></a>
+			<figcaption>
+				<a href="../sle2025/index.html">SLE 2025</a>
+				<br>
+				<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc" title="PC">🔍</a>
 			</figcaption>
 		</figure>
 
@@ -34,11 +44,12 @@
 				<li><a href="AnthonyAnjorin.html"><span class="info">Anthony Anjorin</span></a> (<span class="info">1</span> times)</li>
 			</ul>
 		</li>
-<li>Made <span class="info">1</span> contributions (see below)</li></ul>
+<li>Made <span class="info">2</span> contributions (see below)</li></ul>
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2015/index.html">SLE 2015</a>)</span> <em>Coauthored <a href="../sle2015/paper02.html">On integrating graphical and textual editors for a UML profile based domain specific language: an industrial experience</a></em> (<a href="../profile/SalomeMaro.html">Salome Maro</a>, <a href="../profile/JanPhilippSteghöfer.html">Jan-Philipp Steghöfer</a>, <a href="../profile/AnthonyAnjorin.html">Anthony Anjorin</a>, <a href="../profile/MatthiasTichy.html"><span class="info">Matthias Tichy</span></a>, <a href="../profile/LarsGelin.html">Lars Gelin</a>) </li></ul>
+<li><span class="info">(<a href="../sle2015/index.html">SLE 2015</a>)</span> <em>Coauthored <a href="../sle2015/paper02.html">On integrating graphical and textual editors for a UML profile based domain specific language: an industrial experience</a></em> (<a href="../profile/SalomeMaro.html">Salome Maro</a>, <a href="../profile/JanPhilippSteghöfer.html">Jan-Philipp Steghöfer</a>, <a href="../profile/AnthonyAnjorin.html">Anthony Anjorin</a>, <a href="../profile/MatthiasTichy.html"><span class="info">Matthias Tichy</span></a>, <a href="../profile/LarsGelin.html">Lars Gelin</a>) </li>
+<li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc">PC</a></li></ul>
 		<clear/>
 		<footer/>
 	</body>

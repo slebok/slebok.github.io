@@ -2,7 +2,7 @@
 	<head title="List of all profiles at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>963 Profiles</h1>
+		<h1>962 Profiles</h1>
 		<ul>
 </ul><h2>A</h2><ul><li><a href="MohamedAbbadi.html">Mohamed Abbadi</a></li>
 <li><a href="WisamAlAbed.html">Wisam Al Abed</a></li>
@@ -127,7 +127,6 @@
 <li><a href="JavierFernándezBriones.html">Javier Fernández Briones</a></li>
 <li><a href="DavidBroman.html">David Broman</a></li>
 <li><a href="YéromDavidBromberg.html">Yérom-David Bromberg</a></li>
-<li><a href="PetraBrosch.html">Petra Brosch</a></li>
 <li><a href="JohnBrown.html">John Brown</a></li>
 <li><a href="CédricBrun.html">Cédric Brun</a></li>
 <li><a href="HugoBrunelière.html">Hugo Brunelière</a></li>
@@ -442,6 +441,7 @@
 <li><a href="GáborKarsai.html">Gábor Karsai</a></li>
 <li><a href="ChristianKästner.html">Christian Kästner</a></li>
 <li><a href="LennartCLKats.html">Lennart C. L. Kats</a></li>
+<li><a href="PetraKaufmann.html">Petra Kaufmann</a></li>
 <li><a href="PetervanKeeken.html">Peter van Keeken</a></li>
 <li><a href="SvenKeidel.html">Sven Keidel</a></li>
 <li><a href="AnneKeller.html">Anne Keller</a></li>
@@ -523,7 +523,6 @@
 <li><a href="TimothyLethbridge.html">Timothy Lethbridge</a></li>
 <li><a href="MaxLeuthäuser.html">Max Leuthäuser</a></li>
 <li><a href="TihamérLevendovszky.html">Tihamér Levendovszky</a></li>
-<li><a href="LucioLevi.html">Lucio Levi</a></li>
 <li><a href="HongzhiLiang.html">Hongzhi Liang</a></li>
 <li><a href="JeanChristopheLibbrecht.html">Jean-Christophe Libbrecht</a></li>
 <li><a href="HuangLi.html">Huang Li</a></li>
@@ -545,6 +544,7 @@
 <li><a href="GrahamLow.html">Graham Low</a></li>
 <li><a href="LuthfanAnsharLubis.html">Luthfan Anshar Lubis</a></li>
 <li><a href="DorelLucanu.html">Dorel Lucanu</a></li>
+<li><a href="LeviLúcio.html">Levi Lúcio</a></li>
 <li><a href="LechanceuxLuhunu.html">Lechanceux Luhunu</a></li>
 <li><a href="DanielLundén.html">Daniel Lundén</a></li>
 <li><a href="MirceaLungu.html">Mircea Lungu</a></li>
@@ -699,7 +699,6 @@
 <li><a href="AndreasPrinz.html">Andreas Prinz</a></li>
 <li><a href="FlorianProbst.html">Florian Probst</a></li>
 </ul><h2>R</h2><ul><li><a href="DimiRacordon.html">Dimi Racordon</a></li>
-<li><a href="PetraRadeljakKaufmann.html">Petra Radeljak Kaufmann</a></li>
 <li><a href="FlorianRademacher.html">Florian Rademacher</a></li>
 <li><a href="GeorgesAaronRandrianaina.html">Georges Aaron Randrianaina</a></li>
 <li><a href="MoeketsiRaselimo.html">Moeketsi Raselimo</a></li>

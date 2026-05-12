@@ -29,7 +29,7 @@
 		</li>
 		<li>Top 3 coauthors:
 			<ul>
-				<li><a href="LucioLevi.html"><span class="info">Lucio Levi</span></a> (<span class="info">1</span> times)</li>
+				<li><a href="LeviLúcio.html"><span class="info">Levi Lúcio</span></a> (<span class="info">1</span> times)</li>
 				<li><a href="VascoAmaral.html"><span class="info">Vasco Amaral</span></a> (<span class="info">1</span> times)</li>
 				<li><a href="RobertoFélix.html"><span class="info">Roberto Félix</span></a> (<span class="info">1</span> times)</li>
 			</ul>
@@ -38,7 +38,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> <em>Coauthored <a href="../sle2010/paper17.html">DSLTrans: A Turing Incomplete Transformation Language</a></em> (<a href="../profile/BrunoBarroca.html"><span class="info">Bruno Barroca</span></a>, <a href="../profile/LucioLevi.html">Lucio Levi</a>, <a href="../profile/VascoAmaral.html">Vasco Amaral</a>, <a href="../profile/RobertoFélix.html">Roberto Félix</a>, <a href="../profile/VascoSousa.html">Vasco Sousa</a>) </li></ul>
+<li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> <em>Coauthored <a href="../sle2010/paper17.html">DSLTrans: A Turing Incomplete Transformation Language</a></em> (<a href="../profile/BrunoBarroca.html"><span class="info">Bruno Barroca</span></a>, <a href="../profile/LeviLúcio.html">Levi Lúcio</a>, <a href="../profile/VascoAmaral.html">Vasco Amaral</a>, <a href="../profile/RobertoFélix.html">Roberto Félix</a>, <a href="../profile/VascoSousa.html">Vasco Sousa</a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

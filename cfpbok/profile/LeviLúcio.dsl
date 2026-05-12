@@ -1,10 +1,11 @@
 <html doctype>
-	<head title="Lucio Levi's profile at CfPBoK" />
+	<head title="Levi Lúcio's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Lucio Levi
+		<h1>Levi Lúcio
+<a href="https://dblp.org/pid/21/6900.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
 <a href="https://openalex.org/A5113794124" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
-<a href="https://dblp.org/search?q=Lucio Levi" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
+<a href="https://scholar.google.com/citations?user=pIXHUbMAAAAJ" title="Google Scholar"><img src="../logos/gs.png" alt="Google Scholar"></a></h1>
 		<figure class="small">
 			<a href="../sle2010/index.html"><img src="../sle.png" alt="SLE 2010"></a>
 			<figcaption>
@@ -53,9 +54,9 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> <em>Coauthored <a href="../sle2010/paper17.html">DSLTrans: A Turing Incomplete Transformation Language</a></em> (<a href="../profile/BrunoBarroca.html">Bruno Barroca</a>, <a href="../profile/LucioLevi.html"><span class="info">Lucio Levi</span></a>, <a href="../profile/VascoAmaral.html">Vasco Amaral</a>, <a href="../profile/RobertoFélix.html">Roberto Félix</a>, <a href="../profile/VascoSousa.html">Vasco Sousa</a>) </li>
-<li><span class="info">(<a href="../sle2013/index.html">SLE 2013</a>)</span> <em>Coauthored <a href="../sle2013/poster2.html">Towards Controlling Refinements of Statecharts</a></em> (<a href="../profile/ConnerHansen.html">Conner Hansen</a>, <a href="../profile/EugeneSyriani.html">Eugene Syriani</a>, <a href="../profile/LucioLevi.html"><span class="info">Lucio Levi</span></a>) </li>
-<li><span class="info">(<a href="../sle2014/index.html">SLE 2014</a>)</span> <em>Coauthored <a href="../sle2014/paper01.html">ProMoBox: A Framework for Generating Domain-Specific Property Languages</a></em> (<a href="../profile/BartMeyers.html">Bart Meyers</a>, <a href="../profile/RomualdDeshayes.html">Romuald Deshayes</a>, <a href="../profile/LucioLevi.html"><span class="info">Lucio Levi</span></a>, <a href="../profile/EugeneSyriani.html">Eugene Syriani</a>, <a href="../profile/HansVangheluwe.html">Hans Vangheluwe</a>, <a href="../profile/ManuelWimmer.html">Manuel Wimmer</a>) </li></ul>
+<li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> <em>Coauthored <a href="../sle2010/paper17.html">DSLTrans: A Turing Incomplete Transformation Language</a></em> (<a href="../profile/BrunoBarroca.html">Bruno Barroca</a>, <a href="../profile/LeviLúcio.html"><span class="info">Levi Lúcio</span></a>, <a href="../profile/VascoAmaral.html">Vasco Amaral</a>, <a href="../profile/RobertoFélix.html">Roberto Félix</a>, <a href="../profile/VascoSousa.html">Vasco Sousa</a>) </li>
+<li><span class="info">(<a href="../sle2013/index.html">SLE 2013</a>)</span> <em>Coauthored <a href="../sle2013/poster2.html">Towards Controlling Refinements of Statecharts</a></em> (<a href="../profile/ConnerHansen.html">Conner Hansen</a>, <a href="../profile/EugeneSyriani.html">Eugene Syriani</a>, <a href="../profile/LeviLúcio.html"><span class="info">Levi Lúcio</span></a>) </li>
+<li><span class="info">(<a href="../sle2014/index.html">SLE 2014</a>)</span> <em>Coauthored <a href="../sle2014/paper01.html">ProMoBox: A Framework for Generating Domain-Specific Property Languages</a></em> (<a href="../profile/BartMeyers.html">Bart Meyers</a>, <a href="../profile/RomualdDeshayes.html">Romuald Deshayes</a>, <a href="../profile/LeviLúcio.html"><span class="info">Levi Lúcio</span></a>, <a href="../profile/EugeneSyriani.html">Eugene Syriani</a>, <a href="../profile/HansVangheluwe.html">Hans Vangheluwe</a>, <a href="../profile/ManuelWimmer.html">Manuel Wimmer</a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

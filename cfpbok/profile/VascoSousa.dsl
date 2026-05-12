@@ -54,7 +54,7 @@
 		<li>Top 3 coauthors:
 			<ul>
 				<li><a href="BrunoBarroca.html"><span class="info">Bruno Barroca</span></a> (<span class="info">1</span> times)</li>
-				<li><a href="LucioLevi.html"><span class="info">Lucio Levi</span></a> (<span class="info">1</span> times)</li>
+				<li><a href="LeviLúcio.html"><span class="info">Levi Lúcio</span></a> (<span class="info">1</span> times)</li>
 				<li><a href="VascoAmaral.html"><span class="info">Vasco Amaral</span></a> (<span class="info">1</span> times)</li>
 			</ul>
 		</li>
@@ -62,7 +62,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> <em>Coauthored <a href="../sle2010/paper17.html">DSLTrans: A Turing Incomplete Transformation Language</a></em> (<a href="../profile/BrunoBarroca.html">Bruno Barroca</a>, <a href="../profile/LucioLevi.html">Lucio Levi</a>, <a href="../profile/VascoAmaral.html">Vasco Amaral</a>, <a href="../profile/RobertoFélix.html">Roberto Félix</a>, <a href="../profile/VascoSousa.html"><span class="info">Vasco Sousa</span></a>) </li>
+<li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> <em>Coauthored <a href="../sle2010/paper17.html">DSLTrans: A Turing Incomplete Transformation Language</a></em> (<a href="../profile/BrunoBarroca.html">Bruno Barroca</a>, <a href="../profile/LeviLúcio.html">Levi Lúcio</a>, <a href="../profile/VascoAmaral.html">Vasco Amaral</a>, <a href="../profile/RobertoFélix.html">Roberto Félix</a>, <a href="../profile/VascoSousa.html"><span class="info">Vasco Sousa</span></a>) </li>
 <li><span class="info">(<a href="../sle2016/index.html">SLE 2016</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2016/sle-2016-papers-artifact-evaluation-committee">AEC</a></li>
 <li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2017/sle-2017-papers-artifact-evaluation-committee">AEC</a></li>
 <li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> <em>Coauthored <a href="../sle2019/paper04.html">Operationalizing the integration of user interaction specifications in the synthesis of modeling editors</a></em> (<a href="../profile/VascoSousa.html"><span class="info">Vasco Sousa</span></a>, <a href="../profile/EugeneSyriani.html">Eugene Syriani</a>, <a href="../profile/KhadyFall.html">Khady Fall</a>) </li></ul>

@@ -345,7 +345,7 @@
 <a href="../tag/t1d.html"><span class="tagL" title=" It relates modeling and programming perspectives, supporting integration across technical spaces.
 ">T1D</span></a>
 <a href="../tag/t1b.html"><span class="tagL" title=" It characterizes constraints/properties of roles (e.g., well-formedness) that amount to static semantics.
-">T1B</span></a></li><li><span class="info">(<a href="../sle2014/index.html">SLE 2014</a>)</span> <em><a href="../sle2014/paper13.html">Model Checking of CTL-Extended OCL Specifications</a></em> (<a href="../profile/RobertBill.html">Robert Bill</a>, <a href="../profile/SebastianGabmeyer.html">Sebastian Gabmeyer</a>, <a href="../profile/PetraRadeljakKaufmann.html">Petra Radeljak Kaufmann</a>, <a href="../profile/MartinaSeidl.html">Martina Seidl</a>) 
+">T1B</span></a></li><li><span class="info">(<a href="../sle2014/index.html">SLE 2014</a>)</span> <em><a href="../sle2014/paper13.html">Model Checking of CTL-Extended OCL Specifications</a></em> (<a href="../profile/RobertBill.html">Robert Bill</a>, <a href="../profile/SebastianGabmeyer.html">Sebastian Gabmeyer</a>, <a href="../profile/PetraKaufmann.html">Petra Kaufmann</a>, <a href="../profile/MartinaSeidl.html">Martina Seidl</a>) 
 <a href="../tag/t5d.html"><span class="tagM" title=" It extends OCL with temporal operators and performs model checking of the resulting specifications.
 ">T5D</span></a>
 <a href="../tag/t1a.html"><span class="tagL" title=" A key contribution is the design of a CTL-extended constraint language integrated with modeling.

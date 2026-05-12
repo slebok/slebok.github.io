@@ -43,6 +43,14 @@
 				<a href="../sle2024s/paper08.html" title="paper">⭐</a>
 			</figcaption>
 		</figure>
+		<figure class="small">
+			<a href="../sle2025/index.html"><img src="../sle.png" alt="SLE 2025"></a>
+			<figcaption>
+				<a href="../sle2025/index.html">SLE 2025</a>
+				<br>
+				<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc" title="PC">🔍</a>
+			</figcaption>
+		</figure>
 
 		<clear/>
 		<h2>Summary</h2>
@@ -63,7 +71,7 @@
 				<li><a href="ChelseaBarraball.html"><span class="info">Chelsea Barraball</span></a> (<span class="info">1</span> times)</li>
 			</ul>
 		</li>
-<li>Made <span class="info">7</span> contributions (see below)</li></ul>
+<li>Made <span class="info">8</span> contributions (see below)</li></ul>
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
@@ -73,7 +81,8 @@
 <li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> <em>Coauthored <a href="../sle2020/paper17.html">Grammar-Based Testing for Little Languages: An Experience Report with Student Compilers</a></em> (<a href="../profile/PhillipvanHeerden.html">Phillip van Heerden</a>, <a href="../profile/MoeketsiRaselimo.html"><span class="info">Moeketsi Raselimo</span></a>, <a href="../profile/KonstantinosSagonas.html">Konstantinos Sagonas</a>, <a href="../profile/BerndFischer.html">Bernd Fischer</a>) </li>
 <li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> <em>Coauthored <a href="../sle2021/paper14.html">Automatic grammar repair</a></em> (<a href="../profile/MoeketsiRaselimo.html"><span class="info">Moeketsi Raselimo</span></a>, <a href="../profile/BerndFischer.html">Bernd Fischer</a>) </li>
 <li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-artifact-evaluation-committee">AEC</a></li>
-<li><span class="info">(<a href="../sle2024s/index.html">SLE 2024 SI</a>)</span> <em>Coauthored <a href="../sle2024s/paper08.html">Spectrum-based rule- and item-level localization of faults in context-free grammars</a></em> (<a href="../profile/MoeketsiRaselimo.html"><span class="info">Moeketsi Raselimo</span></a>, <a href="../profile/BerndFischer.html">Bernd Fischer</a>) </li></ul>
+<li><span class="info">(<a href="../sle2024s/index.html">SLE 2024 SI</a>)</span> <em>Coauthored <a href="../sle2024s/paper08.html">Spectrum-based rule- and item-level localization of faults in context-free grammars</a></em> (<a href="../profile/MoeketsiRaselimo.html"><span class="info">Moeketsi Raselimo</span></a>, <a href="../profile/BerndFischer.html">Bernd Fischer</a>) </li>
+<li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc">PC</a></li></ul>
 		<clear/>
 		<footer/>
 	</body>

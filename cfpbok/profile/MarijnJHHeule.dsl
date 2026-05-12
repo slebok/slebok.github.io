@@ -31,14 +31,14 @@
 			<ul>
 				<li><a href="MagdalenaWidl.html"><span class="info">Magdalena Widl</span></a> (<span class="info">1</span> times)</li>
 				<li><a href="ArminBiere.html"><span class="info">Armin Biere</span></a> (<span class="info">1</span> times)</li>
-				<li><a href="PetraBrosch.html"><span class="info">Petra Brosch</span></a> (<span class="info">1</span> times)</li>
+				<li><a href="PetraKaufmann.html"><span class="info">Petra Kaufmann</span></a> (<span class="info">1</span> times)</li>
 			</ul>
 		</li>
 <li>Made <span class="info">1</span> contributions (see below)</li></ul>
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2012/index.html">SLE 2012</a>)</span> <em>Coauthored <a href="../sle2012/paper09.html">Guided Merging of Sequence Diagrams</a></em> (<a href="../profile/MagdalenaWidl.html">Magdalena Widl</a>, <a href="../profile/ArminBiere.html">Armin Biere</a>, <a href="../profile/PetraBrosch.html">Petra Brosch</a>, <a href="../profile/UweEgly.html">Uwe Egly</a>, <a href="../profile/MarijnJHHeule.html"><span class="info">Marijn J. H. Heule</span></a>, <a href="../profile/GertiKappel.html">Gerti Kappel</a>, <a href="../profile/MartinaSeidl.html">Martina Seidl</a>, <a href="../profile/HansTompits.html">Hans Tompits</a>) </li></ul>
+<li><span class="info">(<a href="../sle2012/index.html">SLE 2012</a>)</span> <em>Coauthored <a href="../sle2012/paper09.html">Guided Merging of Sequence Diagrams</a></em> (<a href="../profile/MagdalenaWidl.html">Magdalena Widl</a>, <a href="../profile/ArminBiere.html">Armin Biere</a>, <a href="../profile/PetraKaufmann.html">Petra Kaufmann</a>, <a href="../profile/UweEgly.html">Uwe Egly</a>, <a href="../profile/MarijnJHHeule.html"><span class="info">Marijn J. H. Heule</span></a>, <a href="../profile/GertiKappel.html">Gerti Kappel</a>, <a href="../profile/MartinaSeidl.html">Martina Seidl</a>, <a href="../profile/HansTompits.html">Hans Tompits</a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

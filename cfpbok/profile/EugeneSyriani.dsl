@@ -82,7 +82,7 @@
 		</li>
 		<li>Top 3 coauthors:
 			<ul>
-				<li><a href="LucioLevi.html"><span class="info">Lucio Levi</span></a> (<span class="info">2</span> times)</li>
+				<li><a href="LeviLúcio.html"><span class="info">Levi Lúcio</span></a> (<span class="info">2</span> times)</li>
 				<li><a href="ConnerHansen.html"><span class="info">Conner Hansen</span></a> (<span class="info">1</span> times)</li>
 				<li><a href="BartMeyers.html"><span class="info">Bart Meyers</span></a> (<span class="info">1</span> times)</li>
 			</ul>
@@ -91,8 +91,8 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2013/index.html">SLE 2013</a>)</span> <em>Coauthored <a href="../sle2013/poster2.html">Towards Controlling Refinements of Statecharts</a></em> (<a href="../profile/ConnerHansen.html">Conner Hansen</a>, <a href="../profile/EugeneSyriani.html"><span class="info">Eugene Syriani</span></a>, <a href="../profile/LucioLevi.html">Lucio Levi</a>) </li>
-<li><span class="info">(<a href="../sle2014/index.html">SLE 2014</a>)</span> <em>Coauthored <a href="../sle2014/paper01.html">ProMoBox: A Framework for Generating Domain-Specific Property Languages</a></em> (<a href="../profile/BartMeyers.html">Bart Meyers</a>, <a href="../profile/RomualdDeshayes.html">Romuald Deshayes</a>, <a href="../profile/LucioLevi.html">Lucio Levi</a>, <a href="../profile/EugeneSyriani.html"><span class="info">Eugene Syriani</span></a>, <a href="../profile/HansVangheluwe.html">Hans Vangheluwe</a>, <a href="../profile/ManuelWimmer.html">Manuel Wimmer</a>) </li>
+<li><span class="info">(<a href="../sle2013/index.html">SLE 2013</a>)</span> <em>Coauthored <a href="../sle2013/poster2.html">Towards Controlling Refinements of Statecharts</a></em> (<a href="../profile/ConnerHansen.html">Conner Hansen</a>, <a href="../profile/EugeneSyriani.html"><span class="info">Eugene Syriani</span></a>, <a href="../profile/LeviLúcio.html">Levi Lúcio</a>) </li>
+<li><span class="info">(<a href="../sle2014/index.html">SLE 2014</a>)</span> <em>Coauthored <a href="../sle2014/paper01.html">ProMoBox: A Framework for Generating Domain-Specific Property Languages</a></em> (<a href="../profile/BartMeyers.html">Bart Meyers</a>, <a href="../profile/RomualdDeshayes.html">Romuald Deshayes</a>, <a href="../profile/LeviLúcio.html">Levi Lúcio</a>, <a href="../profile/EugeneSyriani.html"><span class="info">Eugene Syriani</span></a>, <a href="../profile/HansVangheluwe.html">Hans Vangheluwe</a>, <a href="../profile/ManuelWimmer.html">Manuel Wimmer</a>) </li>
 <li><span class="info">(<a href="../sle2015/index.html">SLE 2015</a>)</span> Served on <a href="https://2015.splashcon.org/committee/sle2015-papers-program-committee">PC</a></li>
 <li><span class="info">(<a href="../sle2016/index.html">SLE 2016</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2016/sle-2016-papers-program-committee">PC</a></li>
 <li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> <em>Coauthored <a href="../sle2017/paper05.html">Comparison of the expressiveness and performance of template-based code generation tools</a></em> (<a href="../profile/LechanceuxLuhunu.html">Lechanceux Luhunu</a>, <a href="../profile/EugeneSyriani.html"><span class="info">Eugene Syriani</span></a>) </li>

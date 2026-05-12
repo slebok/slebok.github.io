@@ -280,7 +280,7 @@
 <a href="../tag/t1c.html"><span class="tagL" title=" The framework assumes a formal operational semantics (term rewriting) and systematically extends it to enable symbolic execution.
 ">T1C</span></a>
 <a href="../tag/t4c.html"><span class="tagL" title=" It automatically generates a derived (symbolic) language definition from an original semantics, i.e., a generative refinement of semantics artifacts.
-">T4C</span></a></li><li><span class="info">(<a href="../sle2013/index.html">SLE 2013</a>)</span> <em><a href="../sle2013/poster2.html">Towards Controlling Refinements of Statecharts</a></em> (<a href="../profile/ConnerHansen.html">Conner Hansen</a>, <a href="../profile/EugeneSyriani.html">Eugene Syriani</a>, <a href="../profile/LucioLevi.html">Lucio Levi</a>) 
+">T4C</span></a></li><li><span class="info">(<a href="../sle2013/index.html">SLE 2013</a>)</span> <em><a href="../sle2013/poster2.html">Towards Controlling Refinements of Statecharts</a></em> (<a href="../profile/ConnerHansen.html">Conner Hansen</a>, <a href="../profile/EugeneSyriani.html">Eugene Syriani</a>, <a href="../profile/LeviLúcio.html">Levi Lúcio</a>) 
 <a href="../tag/t2b.html"><span class="tagM" title=" The paper’s core problem is controlling incremental refinement across versions of a Statecharts model to support predictable evolution and maintenance.
 ">T2B</span></a>
 <a href="../tag/t5d.html"><span class="tagL" title=" It defines a formal refinement relation and constraints (e.g., inclusion conditions over events/guards/structure) to guarantee behaviour preservation.

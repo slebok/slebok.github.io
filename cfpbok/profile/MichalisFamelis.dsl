@@ -2,7 +2,11 @@
 	<head title="Michalis Famelis's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Michalis Famelis<a href="https://dblp.org/search?q=Michalis Famelis" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
+		<h1>Michalis Famelis
+<a href="https://dblp.org/pid/82/11109.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
+<a href="https://orcid.org/0000-0003-3545-0274" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
+<a href="https://scholar.google.com/citations?user=oqHf2lQAAAAJ" title="Google Scholar"><img src="../logos/gs.png" alt="Google Scholar"></a>
+<a href="https://scholar.google.com/citations?user=oqHf2lQAAAAJ" title="Google Scholar"><img src="../logos/gs.png" alt="Google Scholar"></a></h1>
 		<figure class="small">
 			<a href="../sle2021/index.html"><img src="../sle.png" alt="SLE 2021"></a>
 			<figcaption>

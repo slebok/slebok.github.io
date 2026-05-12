@@ -3,9 +3,11 @@
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
 		<h1>Pieter Van Gorp
+<a href="https://dblp.org/pid/38/2725.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
 <a href="https://openalex.org/A5073400477" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
 <a href="https://orcid.org/0000-0001-5197-3986" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
-<a href="https://dblp.org/search?q=Pieter Van Gorp" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
+<a href="https://scholar.google.com/citations?user=uMc_GTcAAAAJ" title="Google Scholar"><img src="../logos/gs.png" alt="Google Scholar"></a>
+<a href="https://www.wikidata.org/entity/Q87946174" title="Wikidata"><img src="../logos/wikidata.svg" alt="Wikidata"></a></h1>
 		<figure class="small">
 			<a href="../sle2008/index.html"><img src="../sle.png" alt="SLE 2008"></a>
 			<figcaption>

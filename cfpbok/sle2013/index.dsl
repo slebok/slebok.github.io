@@ -197,7 +197,7 @@
 <a href="../tag/t3a.html"><span class="tagL" title="The entire setting is about meta-languages for syntax/grammar specification (grammars “in a broad sense”), including normalization to a normal form.">T3A: Meta-languages</span></a>
 <a href="../tag/t3b.html"><span class="tagL" title="Conventional and guided convergence are explicitly framed as sequences of grammar transformation steps (including automatically inferred ones).">T3B: Transformation Languages</span></a>
 </li></ul></li>
-<li><span title="Poster">🖼️</span> <em><a href="poster2.html">Towards Controlling Refinements of Statecharts</a></em> (<a href="../profile/ConnerHansen.html">Conner Hansen</a>, <a href="../profile/EugeneSyriani.html">Eugene Syriani</a>, <a href="../profile/LucioLevi.html">Lucio Levi</a>) 
+<li><span title="Poster">🖼️</span> <em><a href="poster2.html">Towards Controlling Refinements of Statecharts</a></em> (<a href="../profile/ConnerHansen.html">Conner Hansen</a>, <a href="../profile/EugeneSyriani.html">Eugene Syriani</a>, <a href="../profile/LeviLúcio.html">Levi Lúcio</a>) 
 <ul><li>
 <a href="../tag/t2b.html"><span class="tagM" title="The paper’s core problem is controlling incremental refinement across versions of a Statecharts model to support predictable evolution and maintenance.">T2B: Evolution</span></a>
 <a href="../tag/t5d.html"><span class="tagL" title="It defines a formal refinement relation and constraints (e.g., inclusion conditions over events/guards/structure) to guarantee behaviour preservation.">T5D: Formal Methods</span></a>

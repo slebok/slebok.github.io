@@ -2,7 +2,11 @@
 	<head title="Stefan Marr's profile at CfPBoK" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
-		<h1>Stefan Marr<a href="https://dblp.org/search?q=Stefan Marr" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
+		<h1>Stefan Marr
+<a href="https://dblp.org/pid/33/7864.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
+<a href="https://orcid.org/0000-0001-9059-5180" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
+<a href="https://scholar.google.com/citations?user=h7WXkAoAAAAJ" title="Google Scholar"><img src="../logos/gs.png" alt="Google Scholar"></a>
+<a href="https://www.wikidata.org/entity/Q130837644" title="Wikidata"><img src="../logos/wikidata.svg" alt="Wikidata"></a></h1>
 		<figure class="small">
 			<a href="../sle2022/index.html"><img src="../sle.png" alt="SLE 2022"></a>
 			<figcaption>

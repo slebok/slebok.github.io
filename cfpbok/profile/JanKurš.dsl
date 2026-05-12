@@ -3,8 +3,9 @@
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
 		<h1>Jan Kurš
+<a href="https://dblp.org/pid/68/8877.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
 <a href="https://openalex.org/A5034509956" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
-<a href="https://dblp.org/search?q=Jan Kurš" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
+<a href="https://scholar.google.com/citations?user=LcjNNvkAAAAJ" title="Google Scholar"><img src="../logos/gs.png" alt="Google Scholar"></a></h1>
 		<figure class="small">
 			<a href="../sle2014/index.html"><img src="../sle.png" alt="SLE 2014"></a>
 			<figcaption>

@@ -237,6 +237,32 @@
 <li><a href="../profile/FabienSiron.html">Fabien Siron</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-papers-artifact-evaluation-committee">AEC</a>)</li>
 <li><a href="../profile/Soaibuzzaman.html">Soaibuzzaman</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-papers-artifact-evaluation-committee">AEC</a>)</li>
 <li><a href="../profile/ShenghanZheng.html">Shenghan Zheng</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-papers-artifact-evaluation-committee">AEC</a>)</li>
+<li><a href="../profile/VascoAmaral.html">Vasco Amaral</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc">PC</a>)</li>
+<li><a href="../profile/DominiqueBlouin.html">Dominique Blouin</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc">PC</a>)</li>
+<li><a href="../profile/EinarBrochJohnsen.html">Einar Broch Johnsen</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc">PC</a>)</li>
+<li><a href="../profile/FedericoCiccozzi.html">Federico Ciccozzi</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc">PC</a>)</li>
+<li><a href="../profile/MatteoCimini.html">Matteo Cimini</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc">PC</a>)</li>
+<li><a href="../profile/JavierLuisCánovasIzquierdo.html">Javier Luis Cánovas Izquierdo</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc">PC</a>)</li>
+<li><a href="../profile/JulienDeAntoni.html">Julien DeAntoni</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc">PC</a>)</li>
+<li><a href="../profile/JürgenDingel.html">Jürgen Dingel</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc">PC</a>)</li>
+<li><a href="../profile/MartinErwig.html">Martin Erwig</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc">PC</a>)</li>
+<li><a href="../profile/NiklasFors.html">Niklas Fors</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc">PC</a>)</li>
+<li><a href="../profile/JurriaanHage.html">Jurriaan Hage</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc">PC</a>)</li>
+<li><a href="../profile/MarkHills.html">Mark Hills</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc">PC</a>)</li>
+<li><a href="../profile/ThomasKühne.html">Thomas Kühne</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc">PC</a>)</li>
+<li><a href="../profile/VinayKulkarni.html">Vinay Kulkarni</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc">PC</a>)</li>
+<li><a href="../profile/JuliaLawall.html">Julia Lawall</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc">PC</a>)</li>
+<li><a href="../profile/DimiRacordon.html">Dimi Racordon</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc">PC</a>)</li>
+<li><a href="../profile/MoeketsiRaselimo.html">Moeketsi Raselimo</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc">PC</a>)</li>
+<li><a href="../profile/DanielRatiu.html">Daniel Ratiu</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc">PC</a>)</li>
+<li><a href="../profile/MartinaSeidl.html">Martina Seidl</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc">PC</a>)</li>
+<li><a href="../profile/JeffSmits.html">Jeff Smits</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc">PC</a>)</li>
+<li><a href="../profile/FriedrichSteimann.html">Friedrich Steimann</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc">PC</a>)</li>
+<li><a href="../profile/GersonSunyé.html">Gerson Sunyé</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc">PC</a>)</li>
+<li><a href="../profile/MatthiasTichy.html">Matthias Tichy</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc">PC</a>)</li>
+<li><a href="../profile/UlyanaTikhonova.html">Ulyana Tikhonova</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc">PC</a>)</li>
+<li><a href="../profile/MassimoTisi.html">Massimo Tisi</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc">PC</a>)</li>
+<li><a href="../profile/DánielVarró.html">Dániel Varró</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc">PC</a>)</li>
 </ul>
 		<clear/>
 		<footer/>

@@ -3,8 +3,8 @@
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
 		<h1>Vlad Vergu
-<a href="https://openalex.org/A5090066739" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
-<a href="https://dblp.org/search?q=Vlad Vergu" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
+<a href="https://dblp.org/pid/119/9994.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
+<a href="https://openalex.org/A5090066739" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a></h1>
 		<figure class="small">
 			<a href="../sle2013/index.html"><img src="../sle.png" alt="SLE 2013"></a>
 			<figcaption>

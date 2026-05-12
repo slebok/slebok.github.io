@@ -50,6 +50,14 @@
 				<a href="../sle2024s/paper05.html" title="paper">⭐</a>
 			</figcaption>
 		</figure>
+		<figure class="small">
+			<a href="../sle2025/index.html"><img src="../sle.png" alt="SLE 2025"></a>
+			<figcaption>
+				<a href="../sle2025/index.html">SLE 2025</a>
+				<br>
+				<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc" title="PC">🔍</a>
+			</figcaption>
+		</figure>
 
 		<clear/>
 		<h2>Summary</h2>
@@ -70,7 +78,7 @@
 				<li><a href="FaezehKhorram.html"><span class="info">Faezeh Khorram</span></a> (<span class="info">2</span> times)</li>
 			</ul>
 		</li>
-<li>Made <span class="info">7</span> contributions (see below)</li></ul>
+<li>Made <span class="info">8</span> contributions (see below)</li></ul>
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
@@ -80,7 +88,8 @@
 <li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em>Coauthored <a href="../sle2022/paper23.html">Partial Loading of Repository-Based Models through Static Analysis</a></em> (<a href="../profile/SorourJahanbin.html">Sorour Jahanbin</a>, <a href="../profile/DimitriosSKolovos.html">Dimitrios S. Kolovos</a>, <a href="../profile/SimosGerasimou.html">Simos Gerasimou</a>, <a href="../profile/GersonSunyé.html"><span class="info">Gerson Sunyé</span></a>) </li>
 <li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> <em>Coauthored <a href="../sle2024/paper03.html">Towards an In-Context LLM-Based Approach for Automating the Definition of Model Views</a></em> (<a href="../profile/JamesPontesMiranda.html">James Pontes Miranda</a>, <a href="../profile/HugoBrunelière.html">Hugo Brunelière</a>, <a href="../profile/MassimoTisi.html">Massimo Tisi</a>, <a href="../profile/GersonSunyé.html"><span class="info">Gerson Sunyé</span></a>) </li>
 <li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> Served on <a href="https://2024.splashcon.org/committee/sle-2024-artifact-evaluation-committee">AEC</a></li>
-<li><span class="info">(<a href="../sle2024s/index.html">SLE 2024 SI</a>)</span> <em>Coauthored <a href="../sle2024s/paper05.html">A language-parametric test coverage framework for executable domain-specific languages</a></em> (<a href="../profile/FaezehKhorram.html">Faezeh Khorram</a>, <a href="../profile/ErwanBousse.html">Erwan Bousse</a>, <a href="../profile/AntonioGarmendía.html">Antonio Garmendía</a>, <a href="../profile/JeanMarieMottu.html">Jean-Marie Mottu</a>, <a href="../profile/GersonSunyé.html"><span class="info">Gerson Sunyé</span></a>, <a href="../profile/ManuelWimmer.html">Manuel Wimmer</a>) </li></ul>
+<li><span class="info">(<a href="../sle2024s/index.html">SLE 2024 SI</a>)</span> <em>Coauthored <a href="../sle2024s/paper05.html">A language-parametric test coverage framework for executable domain-specific languages</a></em> (<a href="../profile/FaezehKhorram.html">Faezeh Khorram</a>, <a href="../profile/ErwanBousse.html">Erwan Bousse</a>, <a href="../profile/AntonioGarmendía.html">Antonio Garmendía</a>, <a href="../profile/JeanMarieMottu.html">Jean-Marie Mottu</a>, <a href="../profile/GersonSunyé.html"><span class="info">Gerson Sunyé</span></a>, <a href="../profile/ManuelWimmer.html">Manuel Wimmer</a>) </li>
+<li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc">PC</a></li></ul>
 		<clear/>
 		<footer/>
 	</body>

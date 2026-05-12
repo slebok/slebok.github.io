@@ -36,7 +36,7 @@
 		</li>
 		<li>Top 3 coauthors:
 			<ul>
-				<li><a href="PetraRadeljakKaufmann.html"><span class="info">Petra Radeljak Kaufmann</span></a> (<span class="info">2</span> times)</li>
+				<li><a href="PetraKaufmann.html"><span class="info">Petra Kaufmann</span></a> (<span class="info">2</span> times)</li>
 				<li><a href="AndreasPfandler.html"><span class="info">Andreas Pfandler</span></a> (<span class="info">2</span> times)</li>
 				<li><a href="MartinaSeidl.html"><span class="info">Martina Seidl</span></a> (<span class="info">2</span> times)</li>
 			</ul>
@@ -45,8 +45,8 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2014/index.html">SLE 2014</a>)</span> <em>Coauthored <a href="../sle2014/paper02.html">A SAT-Based Debugging Tool for State Machines and Sequence Diagrams</a></em> (<a href="../profile/PetraRadeljakKaufmann.html">Petra Radeljak Kaufmann</a>, <a href="../profile/MartinKronegger.html"><span class="info">Martin Kronegger</span></a>, <a href="../profile/AndreasPfandler.html">Andreas Pfandler</a>, <a href="../profile/MartinaSeidl.html">Martina Seidl</a>, <a href="../profile/MagdalenaWidl.html">Magdalena Widl</a>) </li>
-<li><span class="info">(<a href="../sle2014s/index.html">SLE 2014 SI</a>)</span> <em>Coauthored <a href="../sle2014s/paper04.html">Intra- and interdiagram consistency checking of behavioral multiview models</a></em> (<a href="../profile/PetraRadeljakKaufmann.html">Petra Radeljak Kaufmann</a>, <a href="../profile/MartinKronegger.html"><span class="info">Martin Kronegger</span></a>, <a href="../profile/AndreasPfandler.html">Andreas Pfandler</a>, <a href="../profile/MartinaSeidl.html">Martina Seidl</a>, <a href="../profile/MagdalenaWidl.html">Magdalena Widl</a>) </li></ul>
+<li><span class="info">(<a href="../sle2014/index.html">SLE 2014</a>)</span> <em>Coauthored <a href="../sle2014/paper02.html">A SAT-Based Debugging Tool for State Machines and Sequence Diagrams</a></em> (<a href="../profile/PetraKaufmann.html">Petra Kaufmann</a>, <a href="../profile/MartinKronegger.html"><span class="info">Martin Kronegger</span></a>, <a href="../profile/AndreasPfandler.html">Andreas Pfandler</a>, <a href="../profile/MartinaSeidl.html">Martina Seidl</a>, <a href="../profile/MagdalenaWidl.html">Magdalena Widl</a>) </li>
+<li><span class="info">(<a href="../sle2014s/index.html">SLE 2014 SI</a>)</span> <em>Coauthored <a href="../sle2014s/paper04.html">Intra- and interdiagram consistency checking of behavioral multiview models</a></em> (<a href="../profile/PetraKaufmann.html">Petra Kaufmann</a>, <a href="../profile/MartinKronegger.html"><span class="info">Martin Kronegger</span></a>, <a href="../profile/AndreasPfandler.html">Andreas Pfandler</a>, <a href="../profile/MartinaSeidl.html">Martina Seidl</a>, <a href="../profile/MagdalenaWidl.html">Magdalena Widl</a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

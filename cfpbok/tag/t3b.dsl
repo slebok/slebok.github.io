@@ -246,7 +246,7 @@
 <a href="../tag/t4b.html"><span class="tagL" title=" The language targets model-to-model mapping/synchronization and supports change propagation between related models.
 ">T4B</span></a>
 <a href="../tag/t2b.html"><span class="tagL" title=" Bidirectionality and change propagation are motivated by keeping evolving models consistent across edits.
-">T2B</span></a></li><li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> <em><a href="../sle2010/paper17.html">DSLTrans: A Turing Incomplete Transformation Language</a></em> (<a href="../profile/BrunoBarroca.html">Bruno Barroca</a>, <a href="../profile/LucioLevi.html">Lucio Levi</a>, <a href="../profile/VascoAmaral.html">Vasco Amaral</a>, <a href="../profile/RobertoFélix.html">Roberto Félix</a>, <a href="../profile/VascoSousa.html">Vasco Sousa</a>) 
+">T2B</span></a></li><li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> <em><a href="../sle2010/paper17.html">DSLTrans: A Turing Incomplete Transformation Language</a></em> (<a href="../profile/BrunoBarroca.html">Bruno Barroca</a>, <a href="../profile/LeviLúcio.html">Levi Lúcio</a>, <a href="../profile/VascoAmaral.html">Vasco Amaral</a>, <a href="../profile/RobertoFélix.html">Roberto Félix</a>, <a href="../profile/VascoSousa.html">Vasco Sousa</a>) 
 <a href="../tag/t3b.html"><span class="tagM" title=" DSLTrans is explicitly a transformation language, designed to express model transformations.
 ">T3B</span></a>
 <a href="../tag/t5d.html"><span class="tagL" title=" Turing incompleteness is used to guarantee properties like termination and confluence, enabling verification by construction.

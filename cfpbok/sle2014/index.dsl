@@ -62,14 +62,14 @@
 <a href="../tag/t4f.html"><span class="tagL" title="View-oriented engineering foregrounds presentation/visualization choices (what information is shown/elided and how it is rendered).">T4F: Visualisation</span></a>
 <a href="../tag/t1d.html"><span class="tagL" title="“Viewpoints” are defined as augmentations over language definitions plus contextual and interaction layers—i.e., a structured composition of concerns.">T1D: Composition</span></a>
 </li></ul></li>
-<li><em><a href="paper01.html">ProMoBox: A Framework for Generating Domain-Specific Property Languages</a></em> (<a href="../profile/BartMeyers.html">Bart Meyers</a>, <a href="../profile/RomualdDeshayes.html">Romuald Deshayes</a>, <a href="../profile/LucioLevi.html">Lucio Levi</a>, <a href="../profile/EugeneSyriani.html">Eugene Syriani</a>, <a href="../profile/HansVangheluwe.html">Hans Vangheluwe</a>, <a href="../profile/ManuelWimmer.html">Manuel Wimmer</a>) 
+<li><em><a href="paper01.html">ProMoBox: A Framework for Generating Domain-Specific Property Languages</a></em> (<a href="../profile/BartMeyers.html">Bart Meyers</a>, <a href="../profile/RomualdDeshayes.html">Romuald Deshayes</a>, <a href="../profile/LeviLúcio.html">Levi Lúcio</a>, <a href="../profile/EugeneSyriani.html">Eugene Syriani</a>, <a href="../profile/HansVangheluwe.html">Hans Vangheluwe</a>, <a href="../profile/ManuelWimmer.html">Manuel Wimmer</a>) 
 <ul><li>
 <a href="../tag/t5d.html"><span class="tagM" title="The paper centers on model checking of domain models via domain-specific property specification and verification.">T5D: Formal Methods</span></a>
 <a href="../tag/t3c.html"><span class="tagL" title="It generates domain-specific property languages so domain experts can state temporal properties in familiar terms.">T3C: DSLs</span></a>
 <a href="../tag/t4a.html"><span class="tagL" title="It provides a framework that integrates property modeling and result visualization into DSM environments.">T4A: Workbenches</span></a>
 <a href="../tag/t4b.html"><span class="tagL" title="It relies on automated translation to verification back-ends (e.g., mappings to existing model checkers).">T4B: Horizontal Transformation</span></a>
 </li></ul></li>
-<li><em><a href="paper02.html">A SAT-Based Debugging Tool for State Machines and Sequence Diagrams</a></em> (<a href="../profile/PetraRadeljakKaufmann.html">Petra Radeljak Kaufmann</a>, <a href="../profile/MartinKronegger.html">Martin Kronegger</a>, <a href="../profile/AndreasPfandler.html">Andreas Pfandler</a>, <a href="../profile/MartinaSeidl.html">Martina Seidl</a>, <a href="../profile/MagdalenaWidl.html">Magdalena Widl</a>) 
+<li><em><a href="paper02.html">A SAT-Based Debugging Tool for State Machines and Sequence Diagrams</a></em> (<a href="../profile/PetraKaufmann.html">Petra Kaufmann</a>, <a href="../profile/MartinKronegger.html">Martin Kronegger</a>, <a href="../profile/AndreasPfandler.html">Andreas Pfandler</a>, <a href="../profile/MartinaSeidl.html">Martina Seidl</a>, <a href="../profile/MagdalenaWidl.html">Magdalena Widl</a>) 
 <ul><li>
 <a href="../tag/t5d.html"><span class="tagM" title="It encodes consistency/debugging of behavioral models as a SAT problem to find witnesses/counterexamples.">T5D: Formal Methods</span></a>
 <a href="../tag/t4a.html"><span class="tagL" title="The contribution includes an implemented debugging tool integrated with EMF-based modeling.">T4A: Workbenches</span></a>
@@ -142,7 +142,7 @@
 <a href="../tag/t1d.html"><span class="tagL" title="The architecture is centered on composing and coordinating independently developed components.">T1D: Composition</span></a>
 <a href="../tag/t6a.html"><span class="tagL" title="It describes an architectural approach with a prototype demonstrating practicality in an experience-report style.">T6A: Experience Reports</span></a>
 </li></ul></li>
-<li><em><a href="paper13.html">Model Checking of CTL-Extended OCL Specifications</a></em> (<a href="../profile/RobertBill.html">Robert Bill</a>, <a href="../profile/SebastianGabmeyer.html">Sebastian Gabmeyer</a>, <a href="../profile/PetraRadeljakKaufmann.html">Petra Radeljak Kaufmann</a>, <a href="../profile/MartinaSeidl.html">Martina Seidl</a>) 
+<li><em><a href="paper13.html">Model Checking of CTL-Extended OCL Specifications</a></em> (<a href="../profile/RobertBill.html">Robert Bill</a>, <a href="../profile/SebastianGabmeyer.html">Sebastian Gabmeyer</a>, <a href="../profile/PetraKaufmann.html">Petra Kaufmann</a>, <a href="../profile/MartinaSeidl.html">Martina Seidl</a>) 
 <ul><li>
 <a href="../tag/t5d.html"><span class="tagM" title="It extends OCL with temporal operators and performs model checking of the resulting specifications.">T5D: Formal Methods</span></a>
 <a href="../tag/t1a.html"><span class="tagL" title="A key contribution is the design of a CTL-extended constraint language integrated with modeling.">T1A: Design</span></a>

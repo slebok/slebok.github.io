@@ -39,6 +39,14 @@
 			</figcaption>
 		</figure>
 		<figure class="small">
+			<a href="../sle2025/index.html"><img src="../sle.png" alt="SLE 2025"></a>
+			<figcaption>
+				<a href="../sle2025/index.html">SLE 2025</a>
+				<br>
+				<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc" title="PC">🔍</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
 			<a href="../sle2026/index.html"><img src="../sle.png" alt="SLE 2026"></a>
 			<figcaption>
 				<a href="../sle2026/index.html">SLE 2026</a>
@@ -64,7 +72,7 @@
 				<li><a href="HongzhiLiang.html"><span class="info">Hongzhi Liang</span></a> (<span class="info">1</span> times)</li>
 			</ul>
 		</li>
-<li>Made <span class="info">5</span> contributions (see below)</li></ul>
+<li>Made <span class="info">6</span> contributions (see below)</li></ul>
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
@@ -72,6 +80,7 @@
 <li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2018/sle-2018-papers-program-committee">PC</a></li>
 <li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2019/sle-2019-papers-program-committee">PC</a></li>
 <li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-program-committee">PC</a></li>
+<li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc">PC</a></li>
 <li><span class="info">(<a href="../sle2026/index.html">SLE 2026</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2026/sle-2026-program-committee">PC</a></li></ul>
 		<clear/>
 		<footer/>

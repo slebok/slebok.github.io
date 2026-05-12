@@ -3,9 +3,10 @@
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
 		<h1>Jan-Philipp Steghöfer
+<a href="https://dblp.org/pid/16/7127.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
 <a href="https://openalex.org/A5033422210" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
 <a href="https://orcid.org/0000-0003-1694-0972" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
-<a href="https://dblp.org/search?q=Jan-Philipp Steghöfer" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
+<a href="https://scholar.google.com/citations?user=5GH34v0AAAAJ" title="Google Scholar"><img src="../logos/gs.png" alt="Google Scholar"></a></h1>
 		<figure class="small">
 			<a href="../sle2015/index.html"><img src="../sle.png" alt="SLE 2015"></a>
 			<figcaption>

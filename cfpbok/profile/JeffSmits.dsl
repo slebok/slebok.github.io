@@ -45,6 +45,7 @@
 				<a href="../sle2025/index.html">SLE 2025</a>
 				<br>
 				<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-oc" title="Artefact Evaluation Chair">🦽</a>
+<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc" title="PC">🔍</a>
 			</figcaption>
 		</figure>
 
@@ -67,7 +68,7 @@
 				<li><a href="ToineHartman.html"><span class="info">Toine Hartman</span></a> (<span class="info">1</span> times)</li>
 			</ul>
 		</li>
-<li>Made <span class="info">5</span> contributions (see below)</li></ul>
+<li>Made <span class="info">6</span> contributions (see below)</li></ul>
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
@@ -75,7 +76,8 @@
 <li><span class="info">(<a href="../sle2017s/index.html">SLE 2017 SI</a>)</span> <em>Coauthored <a href="../sle2017s/paper02.html">FlowSpec: A declarative specification language for intra-procedural flow-Sensitive data-flow analysis</a></em> (<a href="../profile/JeffSmits.html"><span class="info">Jeff Smits</span></a>, <a href="../profile/GuidoWachsmuth.html">Guido Wachsmuth</a>, <a href="../profile/EelcoVisser.html">Eelco Visser</a>) </li>
 <li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> <em>Coauthored <a href="../sle2020/paper11.html">Gradually Typing Strategies</a></em> (<a href="../profile/JeffSmits.html"><span class="info">Jeff Smits</span></a>, <a href="../profile/EelcoVisser.html">Eelco Visser</a>) </li>
 <li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em>Coauthored <a href="../sle2022/paper07.html">Optimising First-Class Pattern Matching</a></em> (<a href="../profile/JeffSmits.html"><span class="info">Jeff Smits</span></a>, <a href="../profile/ToineHartman.html">Toine Hartman</a>, <a href="../profile/JesperCockx.html">Jesper Cockx</a>) </li>
-<li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> Served as an <a href="https://conf.researchr.org/committee/sle-2025/sle-2025-oc">Artefact Evaluation Chair</a></li></ul>
+<li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> Served as an <a href="https://conf.researchr.org/committee/sle-2025/sle-2025-oc">Artefact Evaluation Chair</a></li>
+<li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc">PC</a></li></ul>
 		<clear/>
 		<footer/>
 	</body>

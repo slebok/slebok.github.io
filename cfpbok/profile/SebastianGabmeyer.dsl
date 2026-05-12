@@ -30,7 +30,7 @@
 		<li>Top 3 coauthors:
 			<ul>
 				<li><a href="RobertBill.html"><span class="info">Robert Bill</span></a> (<span class="info">1</span> times)</li>
-				<li><a href="PetraRadeljakKaufmann.html"><span class="info">Petra Radeljak Kaufmann</span></a> (<span class="info">1</span> times)</li>
+				<li><a href="PetraKaufmann.html"><span class="info">Petra Kaufmann</span></a> (<span class="info">1</span> times)</li>
 				<li><a href="MartinaSeidl.html"><span class="info">Martina Seidl</span></a> (<span class="info">1</span> times)</li>
 			</ul>
 		</li>
@@ -38,7 +38,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2014/index.html">SLE 2014</a>)</span> <em>Coauthored <a href="../sle2014/paper13.html">Model Checking of CTL-Extended OCL Specifications</a></em> (<a href="../profile/RobertBill.html">Robert Bill</a>, <a href="../profile/SebastianGabmeyer.html"><span class="info">Sebastian Gabmeyer</span></a>, <a href="../profile/PetraRadeljakKaufmann.html">Petra Radeljak Kaufmann</a>, <a href="../profile/MartinaSeidl.html">Martina Seidl</a>) </li></ul>
+<li><span class="info">(<a href="../sle2014/index.html">SLE 2014</a>)</span> <em>Coauthored <a href="../sle2014/paper13.html">Model Checking of CTL-Extended OCL Specifications</a></em> (<a href="../profile/RobertBill.html">Robert Bill</a>, <a href="../profile/SebastianGabmeyer.html"><span class="info">Sebastian Gabmeyer</span></a>, <a href="../profile/PetraKaufmann.html">Petra Kaufmann</a>, <a href="../profile/MartinaSeidl.html">Martina Seidl</a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

@@ -29,14 +29,14 @@
 		<li>Top 2 coauthors:
 			<ul>
 				<li><a href="EugeneSyriani.html"><span class="info">Eugene Syriani</span></a> (<span class="info">1</span> times)</li>
-				<li><a href="LucioLevi.html"><span class="info">Lucio Levi</span></a> (<span class="info">1</span> times)</li>
+				<li><a href="LeviLúcio.html"><span class="info">Levi Lúcio</span></a> (<span class="info">1</span> times)</li>
 			</ul>
 		</li>
 <li>Made <span class="info">1</span> contributions (see below)</li></ul>
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2013/index.html">SLE 2013</a>)</span> <em>Coauthored <a href="../sle2013/poster2.html">Towards Controlling Refinements of Statecharts</a></em> (<a href="../profile/ConnerHansen.html"><span class="info">Conner Hansen</span></a>, <a href="../profile/EugeneSyriani.html">Eugene Syriani</a>, <a href="../profile/LucioLevi.html">Lucio Levi</a>) </li></ul>
+<li><span class="info">(<a href="../sle2013/index.html">SLE 2013</a>)</span> <em>Coauthored <a href="../sle2013/poster2.html">Towards Controlling Refinements of Statecharts</a></em> (<a href="../profile/ConnerHansen.html"><span class="info">Conner Hansen</span></a>, <a href="../profile/EugeneSyriani.html">Eugene Syriani</a>, <a href="../profile/LeviLúcio.html">Levi Lúcio</a>) </li></ul>
 		<clear/>
 		<footer/>
 	</body>

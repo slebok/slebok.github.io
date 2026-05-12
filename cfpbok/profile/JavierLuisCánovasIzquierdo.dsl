@@ -49,6 +49,14 @@
 			</figcaption>
 		</figure>
 		<figure class="small">
+			<a href="../sle2025/index.html"><img src="../sle.png" alt="SLE 2025"></a>
+			<figcaption>
+				<a href="../sle2025/index.html">SLE 2025</a>
+				<br>
+				<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc" title="PC">🔍</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
 			<a href="../sle2026/index.html"><img src="../sle.png" alt="SLE 2026"></a>
 			<figcaption>
 				<a href="../sle2026/index.html">SLE 2026</a>
@@ -76,7 +84,7 @@
 				<li><a href="AndreaMauri.html"><span class="info">Andrea Mauri</span></a> (<span class="info">1</span> times)</li>
 			</ul>
 		</li>
-<li>Made <span class="info">6</span> contributions (see below)</li></ul>
+<li>Made <span class="info">7</span> contributions (see below)</li></ul>
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
@@ -85,6 +93,7 @@
 <li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> <em>Coauthored <a href="../sle2019/paper17.html">Analysis and modeling of the governance in general programming languages</a></em> (<a href="../profile/JavierLuisCánovasIzquierdo.html"><span class="info">Javier Luis Cánovas Izquierdo</span></a>, <a href="../profile/JordiCabot.html">Jordi Cabot</a>) </li>
 <li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2020/sle-2020-papers-program-committee">PC</a></li>
 <li><span class="info">(<a href="../sle2023/index.html">SLE 2023</a>)</span> <em>Coauthored <a href="../sle2023/paper18.html">A Tool for the Definition and Deployment of Platform-Independent Bots on Open Source Projects</a></em> (<a href="../profile/AdemAit.html">Adem Ait</a>, <a href="../profile/JavierLuisCánovasIzquierdo.html"><span class="info">Javier Luis Cánovas Izquierdo</span></a>, <a href="../profile/JordiCabot.html">Jordi Cabot</a>) </li>
+<li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc">PC</a></li>
 <li><span class="info">(<a href="../sle2026/index.html">SLE 2026</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2026/sle-2026-program-committee">PC</a></li></ul>
 		<clear/>
 		<footer/>

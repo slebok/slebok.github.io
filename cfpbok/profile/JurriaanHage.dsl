@@ -15,6 +15,14 @@
 				<a href="../sle2008/paper02.html" title="paper">⭐</a>
 			</figcaption>
 		</figure>
+		<figure class="small">
+			<a href="../sle2025/index.html"><img src="../sle.png" alt="SLE 2025"></a>
+			<figcaption>
+				<a href="../sle2025/index.html">SLE 2025</a>
+				<br>
+				<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc" title="PC">🔍</a>
+			</figcaption>
+		</figure>
 
 		<clear/>
 		<h2>Summary</h2>
@@ -33,11 +41,12 @@
 				<li><a href="PetervanKeeken.html"><span class="info">Peter van Keeken</span></a> (<span class="info">1</span> times)</li>
 			</ul>
 		</li>
-<li>Made <span class="info">1</span> contributions (see below)</li></ul>
+<li>Made <span class="info">2</span> contributions (see below)</li></ul>
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2008/index.html">SLE 2008</a>)</span> <em>Coauthored <a href="../sle2008/paper02.html">Neon: A Library for Language Usage Analysis</a></em> (<a href="../profile/JurriaanHage.html"><span class="info">Jurriaan Hage</span></a>, <a href="../profile/PetervanKeeken.html">Peter van Keeken</a>) </li></ul>
+<li><span class="info">(<a href="../sle2008/index.html">SLE 2008</a>)</span> <em>Coauthored <a href="../sle2008/paper02.html">Neon: A Library for Language Usage Analysis</a></em> (<a href="../profile/JurriaanHage.html"><span class="info">Jurriaan Hage</span></a>, <a href="../profile/PetervanKeeken.html">Peter van Keeken</a>) </li>
+<li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc">PC</a></li></ul>
 		<clear/>
 		<footer/>
 	</body>

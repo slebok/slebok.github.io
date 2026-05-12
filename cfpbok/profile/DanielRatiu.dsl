@@ -3,8 +3,9 @@
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
 		<h1>Daniel Ratiu
+<a href="https://dblp.org/pid/60/4196.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
 <a href="https://openalex.org/A5085769561" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
-<a href="https://dblp.org/search?q=Daniel Ratiu" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
+<a href="https://scholar.google.com/citations?user=nDSnWL0AAAAJ" title="Google Scholar"><img src="../logos/gs.png" alt="Google Scholar"></a></h1>
 		<figure class="small">
 			<a href="../sle2009/index.html"><img src="../sle.png" alt="SLE 2009"></a>
 			<figcaption>
@@ -29,6 +30,14 @@
 				<a href="https://2015.splashcon.org/committee/sle2015-papers-program-committee" title="PC">🔍</a>
 			</figcaption>
 		</figure>
+		<figure class="small">
+			<a href="../sle2025/index.html"><img src="../sle.png" alt="SLE 2025"></a>
+			<figcaption>
+				<a href="../sle2025/index.html">SLE 2025</a>
+				<br>
+				<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc" title="PC">🔍</a>
+			</figcaption>
+		</figure>
 
 		<clear/>
 		<h2>Summary</h2>
@@ -49,13 +58,14 @@
 				<li><a href="MaximilianKoegel.html"><span class="info">Maximilian Koegel</span></a> (<span class="info">1</span> times)</li>
 			</ul>
 		</li>
-<li>Made <span class="info">3</span> contributions (see below)</li></ul>
+<li>Made <span class="info">4</span> contributions (see below)</li></ul>
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
 <li><span class="info">(<a href="../sle2009/index.html">SLE 2009</a>)</span> <em>Coauthored <a href="../sle2009/paper01.html">Language Evolution in Practice: The History of GMF</a></em> (<a href="../profile/MarkusHerrmannsdörfer.html">Markus Herrmannsdörfer</a>, <a href="../profile/DanielRatiu.html"><span class="info">Daniel Ratiu</span></a>, <a href="../profile/GuidoWachsmuth.html">Guido Wachsmuth</a>) </li>
 <li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> <em>Coauthored <a href="../sle2010/paper04.html">Metamodel Usage Analysis for Identifying Metamodel Improvements</a></em> (<a href="../profile/MarkusHerrmannsdörfer.html">Markus Herrmannsdörfer</a>, <a href="../profile/DanielRatiu.html"><span class="info">Daniel Ratiu</span></a>, <a href="../profile/MaximilianKoegel.html">Maximilian Koegel</a>) </li>
-<li><span class="info">(<a href="../sle2015/index.html">SLE 2015</a>)</span> Served on <a href="https://2015.splashcon.org/committee/sle2015-papers-program-committee">PC</a></li></ul>
+<li><span class="info">(<a href="../sle2015/index.html">SLE 2015</a>)</span> Served on <a href="https://2015.splashcon.org/committee/sle2015-papers-program-committee">PC</a></li>
+<li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc">PC</a></li></ul>
 		<clear/>
 		<footer/>
 	</body>

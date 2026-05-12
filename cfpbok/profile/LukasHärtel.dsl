@@ -3,8 +3,9 @@
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
 		<h1>Lukas Härtel
+<a href="https://dblp.org/pid/150/3587.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
 <a href="https://openalex.org/A5050042002" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
-<a href="https://dblp.org/search?q=Lukas Härtel" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
+<a href="https://scholar.google.com/citations?user=PLXIIigAAAAJ" title="Google Scholar"><img src="../logos/gs.png" alt="Google Scholar"></a></h1>
 		<figure class="small">
 			<a href="../sle2014/index.html"><img src="../sle.png" alt="SLE 2014"></a>
 			<figcaption>

@@ -86,7 +86,7 @@
 <a href="../tag/t5d.html"><span class="tagL" title="Symbolic execution, reachability analysis, and model checking are core formal-methods goals and evaluation targets.">T5D: Formal Methods</span></a>
 <a href="../tag/t4a.html"><span class="tagL" title="A prototype is implemented inside the K framework’s compilation pipeline, i.e., as language-engineering tooling.">T4A: Workbenches</span></a>
 </li></ul></li>
-<li><em><a href="paper04.html">Intra- and interdiagram consistency checking of behavioral multiview models</a></em> (<a href="../profile/PetraRadeljakKaufmann.html">Petra Radeljak Kaufmann</a>, <a href="../profile/MartinKronegger.html">Martin Kronegger</a>, <a href="../profile/AndreasPfandler.html">Andreas Pfandler</a>, <a href="../profile/MartinaSeidl.html">Martina Seidl</a>, <a href="../profile/MagdalenaWidl.html">Magdalena Widl</a>) 
+<li><em><a href="paper04.html">Intra- and interdiagram consistency checking of behavioral multiview models</a></em> (<a href="../profile/PetraKaufmann.html">Petra Kaufmann</a>, <a href="../profile/MartinKronegger.html">Martin Kronegger</a>, <a href="../profile/AndreasPfandler.html">Andreas Pfandler</a>, <a href="../profile/MartinaSeidl.html">Martina Seidl</a>, <a href="../profile/MagdalenaWidl.html">Magdalena Widl</a>) 
 <ul><li>
 <a href="../tag/t5d.html"><span class="tagM" title="The contribution is a formal consistency-checking method for behavioral models (with SAT solving as the underlying decision procedure).">T5D: Formal Methods</span></a>
 <a href="../tag/t5b.html"><span class="tagL" title="It analyses language artifacts (behavioral UML models/diagrams) to detect and explain inconsistencies across views.">T5B: Language Description Analysis</span></a>

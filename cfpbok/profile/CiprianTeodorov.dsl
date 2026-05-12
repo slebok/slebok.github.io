@@ -3,9 +3,10 @@
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
 		<h1>Ciprian Teodorov
+<a href="https://dblp.org/pid/31/8519.html" title="DBLP"><img src="../logos/dblp.png" alt="DBLP"></a>
 <a href="https://openalex.org/A5062908084" title="OpenAlex"><img src="../logos/openalex.png" alt="OpenAlex"></a>
 <a href="https://orcid.org/0000-0002-0722-5857" title="ORCID"><img src="../logos/orcid.svg" alt="ORCID"></a>
-<a href="https://dblp.org/search?q=Ciprian Teodorov" title="DBLP Search"><img src="../logos/dblp.png" alt="DBLP"></a></h1>
+<a href="https://scholar.google.com/citations?user=UfcYMEUAAAAJ" title="Google Scholar"><img src="../logos/gs.png" alt="Google Scholar"></a></h1>
 		<figure class="small">
 			<a href="../sle2016/index.html"><img src="../sle.png" alt="SLE 2016"></a>
 			<figcaption>

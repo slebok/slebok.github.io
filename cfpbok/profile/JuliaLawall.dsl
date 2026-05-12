@@ -57,6 +57,14 @@
 			</figcaption>
 		</figure>
 		<figure class="small">
+			<a href="../sle2025/index.html"><img src="../sle.png" alt="SLE 2025"></a>
+			<figcaption>
+				<a href="../sle2025/index.html">SLE 2025</a>
+				<br>
+				<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc" title="PC">🔍</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
 			<a href="../sle2026/index.html"><img src="../sle.png" alt="SLE 2026"></a>
 			<figcaption>
 				<a href="../sle2026/index.html">SLE 2026</a>
@@ -82,7 +90,7 @@
 				<li><a href="#.html"><span class="info">∅</span></a> (<span class="info">1</span> times)</li>
 			</ul>
 		</li>
-<li>Made <span class="info">7</span> contributions (see below)</li></ul>
+<li>Made <span class="info">8</span> contributions (see below)</li></ul>
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
@@ -92,6 +100,7 @@
 <li><span class="info">(<a href="../sle2012/index.html">SLE 2012</a>)</span> Served on <a href="https://www.sleconf.org/2012/Committees.html">PC</a></li>
 <li><span class="info">(<a href="../sle2016/index.html">SLE 2016</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2016/sle-2016-papers-program-committee">PC</a></li>
 <li><span class="info">(<a href="../sle2023/index.html">SLE 2023</a>)</span> <em>Authored <a href="../sle2023/keynote1.html">Coccinelle: Impact and Internals</a></em> (<a href="../profile/JuliaLawall.html"><span class="info">Julia Lawall</span></a>) </li>
+<li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc">PC</a></li>
 <li><span class="info">(<a href="../sle2026/index.html">SLE 2026</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2026/sle-2026-program-committee">PC</a></li></ul>
 		<clear/>
 		<footer/>

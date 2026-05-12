@@ -271,7 +271,7 @@
 <a href="../tag/t4d.html"><span class="tagL" title=" It addresses how executable metamodels run in an execution environment, emphasizing runtime/interpretation concerns for concurrent DSMLs.
 ">T4D</span></a>
 <a href="../tag/t3c.html"><span class="tagL" title=" The contribution targets DSML engineering, especially for DSMLs whose semantics depend on concurrency models.
-">T3C</span></a></li><li><span class="info">(<a href="../sle2014/index.html">SLE 2014</a>)</span> <em><a href="../sle2014/paper02.html">A SAT-Based Debugging Tool for State Machines and Sequence Diagrams</a></em> (<a href="../profile/PetraRadeljakKaufmann.html">Petra Radeljak Kaufmann</a>, <a href="../profile/MartinKronegger.html">Martin Kronegger</a>, <a href="../profile/AndreasPfandler.html">Andreas Pfandler</a>, <a href="../profile/MartinaSeidl.html">Martina Seidl</a>, <a href="../profile/MagdalenaWidl.html">Magdalena Widl</a>) 
+">T3C</span></a></li><li><span class="info">(<a href="../sle2014/index.html">SLE 2014</a>)</span> <em><a href="../sle2014/paper02.html">A SAT-Based Debugging Tool for State Machines and Sequence Diagrams</a></em> (<a href="../profile/PetraKaufmann.html">Petra Kaufmann</a>, <a href="../profile/MartinKronegger.html">Martin Kronegger</a>, <a href="../profile/AndreasPfandler.html">Andreas Pfandler</a>, <a href="../profile/MartinaSeidl.html">Martina Seidl</a>, <a href="../profile/MagdalenaWidl.html">Magdalena Widl</a>) 
 <a href="../tag/t5d.html"><span class="tagM" title=" It encodes consistency/debugging of behavioral models as a SAT problem to find witnesses/counterexamples.
 ">T5D</span></a>
 <a href="../tag/t4a.html"><span class="tagL" title=" The contribution includes an implemented debugging tool integrated with EMF-based modeling.
