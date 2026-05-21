@@ -55,7 +55,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> Wrote a <a href="https://doi.org/10.1007/978-3-030-73758-0">Book</a></li>
+<li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> Wrote  <a href="https://doi.org/10.1007/978-3-030-73758-0"><i>Domain-Specific Languages in Practice</i></a></li>
 <li><span class="info">(<a href="../sle2023/index.html">SLE 2023</a>)</span> <em>Coauthored <a href="../sle2023/paper14.html">Enabling Blended Modelling of Timing and Variability in EAST-ADL</a></em> (<a href="../profile/MuhammadWaseemAnwar.html">Muhammad Waseem Anwar</a>, <a href="../profile/FedericoCiccozzi.html"><span class="info">Federico Ciccozzi</span></a>, <a href="../profile/AlessioBucaioni.html">Alessio Bucaioni</a>) </li>
 <li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc">PC</a></li></ul>
 		<clear/>

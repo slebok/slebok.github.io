@@ -73,6 +73,7 @@
 				<a href="../sle2020/index.html">SLE 2020</a>
 				<br>
 				<a href="../sle2020/paper01.html" title="paper">⭐</a>
+<a href="https://www.sleconf.org/2020/Awards.html" title="Distinguished Short Paper Award">🏆</a>
 			</figcaption>
 		</figure>
 		<figure class="small">
@@ -103,7 +104,7 @@
 				<li><a href="FlorianHeidenreich.html"><span class="info">Florian Heidenreich</span></a> (<span class="info">1</span> times)</li>
 			</ul>
 		</li>
-<li>Made <span class="info">12</span> contributions (see below)</li></ul>
+<li>Made <span class="info">13</span> contributions (see below)</li></ul>
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
@@ -118,6 +119,7 @@
 <li><span class="info">(<a href="../sle2012/index.html">SLE 2012</a>)</span> Served on <a href="https://www.sleconf.org/2012/Committees.html">PC</a></li>
 <li><span class="info">(<a href="../sle2014/index.html">SLE 2014</a>)</span> Served on <a href="https://www.sleconf.org/2014/Committees.html">PC</a></li>
 <li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> <em>Coauthored <a href="../sle2020/paper01.html">A Family of Languages for Trustworthy Agent-Based Simulation</a></em> (<a href="../profile/SteffenZschaler.html"><span class="info">Steffen Zschaler</span></a>, <a href="../profile/FionaPolack.html">Fiona Polack</a>) </li>
+<li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> Received <a href="https://www.sleconf.org/2020/Awards.html">Distinguished Short Paper Award</a></li>
 <li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> Served on <a href="https://2022.splashcon.org/committee/sle-2022-program-committee">PC</a></li></ul>
 		<clear/>
 		<footer/>

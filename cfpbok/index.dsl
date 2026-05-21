@@ -2,6 +2,7 @@
 	<head title="CfPBoK (Vadim Zaytsev)" />
 	<body>
 		<credit project="CfPBoK@https://slebok.github.io/cfpbok/"/>
+		<h1>Software Language Engineering Body of Knowledge, <abbr title="Call for Papers">CfP</abbr> edition</h1>
 		<figure>
 			<a href="atem2006s/index.html"><img src="atem.png" alt="event logo"></a>
 			<figcaption>
@@ -210,7 +211,7 @@
 		<h2>Miscellaneous</h2>
 		<ul>
 			<li><a href="evidence.html">Computed evidence (CfPBoK as an artefact)</a></li>
-			<li><a href="books.html">SLE books</a> (<a href="mailto:vadim@grammarware.net">get in touch</a> to add one!)</a></li>
+			<li><a href="books.html">SLE books</a> (<a href="mailto:vadim@grammarware.net">get in touch</a> to add one!)</li>
 		</ul>
 		<clear/>
 		<footer/>

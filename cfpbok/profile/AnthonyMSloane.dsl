@@ -78,6 +78,7 @@
 				<a href="../sle2017/index.html">SLE 2017</a>
 				<br>
 				<a href="../sle2017/paper14.html" title="paper">⭐</a>
+<a href="https://www.sleconf.org/2017/Awards.html" title="Distinguished Reviewer Award">🏆</a>
 <a href="https://conf.researchr.org/committee/sle-2017/sle-2017-sle-2017-organizing-committee" title="PC">🔍</a>
 			</figcaption>
 		</figure>
@@ -101,7 +102,7 @@
 		<clear/>
 		<h2>Summary</h2>
 		<ul>
-<li><a href="https://www.sleconf.org/2017/Awards.html">Distinguished Reviewer Award at SLE 2017</a></li>
+
 		<li><span class="info">5</span> papers in <span class="info">4</span> bundles</li>
 				<li>Top 3 popular topics:
 			<ul>
@@ -117,7 +118,7 @@
 				<li><a href="#.html"><span class="info">∅</span></a> (<span class="info">1</span> times)</li>
 			</ul>
 		</li>
-<li>Made <span class="info">13</span> contributions (see below)</li></ul>
+<li>Made <span class="info">14</span> contributions (see below)</li></ul>
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
@@ -131,6 +132,7 @@
 <li><span class="info">(<a href="../sle2014/index.html">SLE 2014</a>)</span> <em>Coauthored <a href="../sle2014/paper12.html">Monto: A Disintegrated Development Environment</a></em> (<a href="../profile/AnthonyMSloane.html"><span class="info">Anthony M. Sloane</span></a>, <a href="../profile/MatthewRoberts.html">Matthew Roberts</a>, <a href="../profile/ScottBuckley.html">Scott Buckley</a>, <a href="../profile/ShaunMuscat.html">Shaun Muscat</a>) </li>
 <li><span class="info">(<a href="../sle2016/index.html">SLE 2016</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2016/sle-2016-papers-program-committee">PC</a></li>
 <li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> <em>Coauthored <a href="../sle2017/paper14.html">A formalisation of parameterised reference attribute grammars</a></em> (<a href="../profile/ScottBuckley.html">Scott Buckley</a>, <a href="../profile/AnthonyMSloane.html"><span class="info">Anthony M. Sloane</span></a>) </li>
+<li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> Selected as a <a href="https://www.sleconf.org/2017/Awards.html">Distinguished Reviewer</a></li>
 <li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2017/sle-2017-sle-2017-organizing-committee">PC</a></li>
 <li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2018/sle-2018-papers-program-committee">PC</a></li>
 <li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-program-committee">PC</a></li></ul>

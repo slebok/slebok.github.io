@@ -28,7 +28,7 @@
 		<h2>List of contributions</h2>
 		<ul>
 <li><span class="info">(<a href="../sle2014/index.html">SLE 2014</a>)</span> Served on <a href="https://www.sleconf.org/2014/Committees.html">PC</a></li>
-<li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> Wrote a <a href="http://amzn.to/2n8yz6y">Book</a></li></ul>
+<li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> Wrote  <a href="http://amzn.to/2n8yz6y"><i>Engineering Modeling Languages</i></a></li></ul>
 		<clear/>
 		<footer/>
 	</body>

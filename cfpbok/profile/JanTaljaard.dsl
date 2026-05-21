@@ -11,6 +11,7 @@
 				<a href="../sle2019/index.html">SLE 2019</a>
 				<br>
 				<a href="../sle2019/paper09.html" title="paper">⭐</a>
+<a href="https://www.sleconf.org/2019/Awards.html" title="Distinguished Vision Paper Award">🏆</a>
 			</figcaption>
 		</figure>
 
@@ -32,11 +33,12 @@
 				<li><a href="BerndFischer.html"><span class="info">Bernd Fischer</span></a> (<span class="info">1</span> times)</li>
 			</ul>
 		</li>
-<li>Made <span class="info">1</span> contributions (see below)</li></ul>
+<li>Made <span class="info">2</span> contributions (see below)</li></ul>
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> <em>Coauthored <a href="../sle2019/paper09.html">Breaking parsers: mutation-based generation of programs with guaranteed syntax errors</a></em> (<a href="../profile/MoeketsiRaselimo.html">Moeketsi Raselimo</a>, <a href="../profile/JanTaljaard.html"><span class="info">Jan Taljaard</span></a>, <a href="../profile/BerndFischer.html">Bernd Fischer</a>) </li></ul>
+<li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> <em>Coauthored <a href="../sle2019/paper09.html">Breaking parsers: mutation-based generation of programs with guaranteed syntax errors</a></em> (<a href="../profile/MoeketsiRaselimo.html">Moeketsi Raselimo</a>, <a href="../profile/JanTaljaard.html"><span class="info">Jan Taljaard</span></a>, <a href="../profile/BerndFischer.html">Bernd Fischer</a>) </li>
+<li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> Received <a href="https://www.sleconf.org/2019/Awards.html">Distinguished Vision Paper Award</a></li></ul>
 		<clear/>
 		<footer/>
 	</body>

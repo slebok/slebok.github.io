@@ -54,6 +54,7 @@
 				<a href="../sle2019/index.html">SLE 2019</a>
 				<br>
 				<a href="../sle2019/paper08.html" title="paper">⭐</a>
+<a href="https://www.sleconf.org/2019/Awards.html" title="Distinguished Reviewer Award">🏆</a>
 <a href="https://conf.researchr.org/committee/sle-2019/sle-2019-papers-program-committee" title="PC">🔍</a>
 			</figcaption>
 		</figure>
@@ -109,7 +110,7 @@
 		<clear/>
 		<h2>Summary</h2>
 		<ul>
-<li><a href="https://www.sleconf.org/2019/Awards.html">Distinguished Reviewer Award at SLE 2019</a></li>
+
 		<li><span class="info">8</span> papers in <span class="info">7</span> bundles</li>
 				<li>Top 3 popular topics:
 			<ul>
@@ -125,7 +126,7 @@
 				<li><a href="MarkvandenBrand.html"><span class="info">Mark van den Brand</span></a> (<span class="info">2</span> times)</li>
 			</ul>
 		</li>
-<li>Made <span class="info">14</span> contributions (see below)</li></ul>
+<li>Made <span class="info">15</span> contributions (see below)</li></ul>
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
@@ -136,6 +137,7 @@
 <li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> <em>Coauthored <a href="../sle2018/paper16.html">GLL parsing with flexible combinators</a></em> (<a href="../profile/LThomasvanBinsbergen.html">L. Thomas van Binsbergen</a>, <a href="../profile/ElizabethScott.html"><span class="info">Elizabeth Scott</span></a>, <a href="../profile/AdrianJohnstone.html">Adrian Johnstone</a>) </li>
 <li><span class="info">(<a href="../sle2018s/index.html">SLE 2018 SI</a>)</span> <em>Coauthored <a href="../sle2018s/paper03.html">Purely functional GLL parsing</a></em> (<a href="../profile/LThomasvanBinsbergen.html">L. Thomas van Binsbergen</a>, <a href="../profile/ElizabethScott.html"><span class="info">Elizabeth Scott</span></a>, <a href="../profile/AdrianJohnstone.html">Adrian Johnstone</a>) </li>
 <li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> <em>Coauthored <a href="../sle2019/paper08.html">Multiple lexicalisation (a Java based study)</a></em> (<a href="../profile/ElizabethScott.html"><span class="info">Elizabeth Scott</span></a>, <a href="../profile/AdrianJohnstone.html">Adrian Johnstone</a>) </li>
+<li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> Selected as a <a href="https://www.sleconf.org/2019/Awards.html">Distinguished Reviewer</a></li>
 <li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2019/sle-2019-papers-program-committee">PC</a></li>
 <li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2020/sle-2020-papers-program-committee">PC</a></li>
 <li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> Served on <a href="https://2022.splashcon.org/committee/sle-2022-program-committee">PC</a></li>

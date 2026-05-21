@@ -30,6 +30,7 @@
 				<a href="../sle2019/index.html">SLE 2019</a>
 				<br>
 				<a href="https://conf.researchr.org/committee/sle-2019/sle-2019-papers-program-committee" title="PC">🔍</a>
+<a href="https://www.sleconf.org/2019/Awards.html" title="Most Influential SLE 2008 Paper Award">🏆</a>
 			</figcaption>
 		</figure>
 
@@ -52,12 +53,13 @@
 				<li><a href="JuandeLara.html"><span class="info">Juan de Lara</span></a> (<span class="info">1</span> times)</li>
 			</ul>
 		</li>
-<li>Made <span class="info">3</span> contributions (see below)</li></ul>
+<li>Made <span class="info">4</span> contributions (see below)</li></ul>
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
 <li><span class="info">(<a href="../sle2008/index.html">SLE 2008</a>)</span> <em>Coauthored <a href="../sle2008/paper03.html">Analyzing Rule-Based Behavioral Semantics of Visual Modeling Languages with Maude</a></em> (<a href="../profile/JoséEduardoRivera.html">José Eduardo Rivera</a>, <a href="../profile/EstherGuerra.html">Esther Guerra</a>, <a href="../profile/JuandeLara.html">Juan de Lara</a>, <a href="../profile/AntonioVallecillo.html"><span class="info">Antonio Vallecillo</span></a>) </li>
 <li><span class="info">(<a href="../sle2016/index.html">SLE 2016</a>)</span> <em>Coauthored <a href="../sle2016/paper11.html">Adding Uncertainty and Units to Quantity Types in Software Models</a></em> (<a href="../profile/TanjaMayerhofer.html">Tanja Mayerhofer</a>, <a href="../profile/ManuelWimmer.html">Manuel Wimmer</a>, <a href="../profile/AntonioVallecillo.html"><span class="info">Antonio Vallecillo</span></a>) </li>
+<li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> Received the <a href="https://www.sleconf.org/2019/Awards.html">Most Influential Paper Award</a> of <a href="../sle2008/index.html">SLE 2008</a></li>
 <li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2019/sle-2019-papers-program-committee">PC</a></li></ul>
 		<clear/>
 		<footer/>

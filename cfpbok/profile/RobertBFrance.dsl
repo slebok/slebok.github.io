@@ -42,6 +42,14 @@
 				<a href="http://amzn.to/2n8yz6y" title="Book “Engineering Modeling Languages”">📘</a>
 			</figcaption>
 		</figure>
+		<figure class="small">
+			<a href="../sle2019/index.html"><img src="../sle.png" alt="SLE 2019"></a>
+			<figcaption>
+				<a href="../sle2019/index.html">SLE 2019</a>
+				<br>
+				<a href="https://www.sleconf.org/2019/Awards.html" title="Most Influential SLE 2009 Paper Award">🏆</a>
+			</figcaption>
+		</figure>
 
 		<clear/>
 		<h2>Summary</h2>
@@ -62,7 +70,7 @@
 				<li><a href="PhilippeLahire.html"><span class="info">Philippe Lahire</span></a> (<span class="info">1</span> times)</li>
 			</ul>
 		</li>
-<li>Made <span class="info">5</span> contributions (see below)</li></ul>
+<li>Made <span class="info">6</span> contributions (see below)</li></ul>
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
@@ -70,7 +78,8 @@
 <li><span class="info">(<a href="../sle2013/index.html">SLE 2013</a>)</span> <em>Coauthored <a href="../sle2013/paper19.html">Reifying Concurrency for Executable Metamodeling</a></em> (<a href="../profile/BenoîtCombemale.html">Benoît Combemale</a>, <a href="../profile/JulienDeAntoni.html">Julien De Antoni</a>, <a href="../profile/MatiasVaraLarsen.html">Matias Vara Larsen</a>, <a href="../profile/FrédéricMallet.html">Frédéric Mallet</a>, <a href="../profile/OlivierBarais.html">Olivier Barais</a>, <a href="../profile/BenoîtBaudry.html">Benoît Baudry</a>, <a href="../profile/RobertBFrance.html"><span class="info">Robert B. France</span></a>) </li>
 <li><span class="info">(<a href="../sle2014/index.html">SLE 2014</a>)</span> <em>Coauthored <a href="../sle2014/paper07.html">Evaluating the Usability of a Visual Feature Modeling Notation</a></em> (<a href="../profile/AleksandarJakšic.html">Aleksandar Jakšic</a>, <a href="../profile/RobertBFrance.html"><span class="info">Robert B. France</span></a>, <a href="../profile/PhilippeCollet.html">Philippe Collet</a>, <a href="../profile/SudiptoGhosh.html">Sudipto Ghosh</a>) </li>
 <li><span class="info">(<a href="../sle2014/index.html">SLE 2014</a>)</span> Served on <a href="https://www.sleconf.org/2014/Committees.html">PC</a></li>
-<li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> Wrote a <a href="http://amzn.to/2n8yz6y">Book</a></li></ul>
+<li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> Wrote  <a href="http://amzn.to/2n8yz6y"><i>Engineering Modeling Languages</i></a></li>
+<li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> Received the <a href="https://www.sleconf.org/2019/Awards.html">Most Influential Paper Award</a> of <a href="../sle2009/index.html">SLE 2009</a></li></ul>
 		<clear/>
 		<footer/>
 	</body>

@@ -11,6 +11,7 @@
 				<a href="../sle2025/index.html">SLE 2025</a>
 				<br>
 				<a href="../sle2025/paper07.html" title="paper">⭐</a>
+<a href="https://conf.researchr.org/home/sle-2025#distinguished-research-paper-award" title="Distinguished Research Paper Award">🏆</a>
 			</figcaption>
 		</figure>
 
@@ -33,11 +34,12 @@
 				<li><a href="MikhailBarash.html"><span class="info">Mikhail Barash</span></a> (<span class="info">1</span> times)</li>
 			</ul>
 		</li>
-<li>Made <span class="info">1</span> contributions (see below)</li></ul>
+<li>Made <span class="info">2</span> contributions (see below)</li></ul>
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> <em>Coauthored <a href="../sle2025/paper07.html">Optimal Language Design is Hard: A Case Study in ECMAScript (JavaScript) Standardization</a></em> (<a href="../profile/PhilippRiemer.html"><span class="info">Philipp Riemer</span></a>, <a href="../profile/YuryNikulin.html">Yury Nikulin</a>, <a href="../profile/AshleyClaymore.html">Ashley Claymore</a>, <a href="../profile/MikhailBarash.html">Mikhail Barash</a>) </li></ul>
+<li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> <em>Coauthored <a href="../sle2025/paper07.html">Optimal Language Design is Hard: A Case Study in ECMAScript (JavaScript) Standardization</a></em> (<a href="../profile/PhilippRiemer.html"><span class="info">Philipp Riemer</span></a>, <a href="../profile/YuryNikulin.html">Yury Nikulin</a>, <a href="../profile/AshleyClaymore.html">Ashley Claymore</a>, <a href="../profile/MikhailBarash.html">Mikhail Barash</a>) </li>
+<li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> Received <a href="https://conf.researchr.org/home/sle-2025#distinguished-research-paper-award">Distinguished Research Paper Award</a></li></ul>
 		<clear/>
 		<footer/>
 	</body>

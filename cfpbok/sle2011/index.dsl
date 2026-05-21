@@ -5,6 +5,7 @@
 		<div class="right"><a href="../index.html"><img src="../sle.png" alt="SLE 2011 logo"></a></div>
 			<h1>SLE 2011</h1>
 			<ul>
+              <li>Took place in Braga, Portugal</li>
               <li>Co-located with GTTSE, ITSLE and CSXW</li>
               <li><a href="https://www.sleconf.org/2011/">Recovered conference website</a></li>
 				<li><a href="#cfp">Call for Papers</a></li>

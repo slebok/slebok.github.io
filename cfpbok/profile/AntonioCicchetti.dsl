@@ -17,6 +17,14 @@
 			</figcaption>
 		</figure>
 		<figure class="small">
+			<a href="../sle2020/index.html"><img src="../sle.png" alt="SLE 2020"></a>
+			<figcaption>
+				<a href="../sle2020/index.html">SLE 2020</a>
+				<br>
+				<a href="https://www.sleconf.org/2020/Awards.html" title="Most Influential SLE 2010 Paper Award">🏆</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
 			<a href="../sle2021/index.html"><img src="../sle.png" alt="SLE 2021"></a>
 			<figcaption>
 				<a href="../sle2021/index.html">SLE 2021</a>
@@ -44,12 +52,13 @@
 				<li><a href="AlfonsoPierantonio.html"><span class="info">Alfonso Pierantonio</span></a> (<span class="info">1</span> times)</li>
 			</ul>
 		</li>
-<li>Made <span class="info">2</span> contributions (see below)</li></ul>
+<li>Made <span class="info">3</span> contributions (see below)</li></ul>
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
 <li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> <em>Coauthored <a href="../sle2010/paper10.html">JTL: A Bidirectional and Change Propagating Transformation Language</a></em> (<a href="../profile/AntonioCicchetti.html"><span class="info">Antonio Cicchetti</span></a>, <a href="../profile/DavideDiRuscio.html">Davide Di Ruscio</a>, <a href="../profile/RominaEramo.html">Romina Eramo</a>, <a href="../profile/AlfonsoPierantonio.html">Alfonso Pierantonio</a>) </li>
-<li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> Wrote a <a href="https://doi.org/10.1007/978-3-030-73758-0">Book</a></li></ul>
+<li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> Received the <a href="https://www.sleconf.org/2020/Awards.html">Most Influential Paper Award</a> of <a href="../sle2010/index.html">SLE 2010</a></li>
+<li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> Wrote  <a href="https://doi.org/10.1007/978-3-030-73758-0"><i>Domain-Specific Languages in Practice</i></a></li></ul>
 		<clear/>
 		<footer/>
 	</body>

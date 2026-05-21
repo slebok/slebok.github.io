@@ -5,6 +5,7 @@
 		<div class="right"><a href="../index.html"><img src="../sle.png" alt="SLE 2018 logo"></a></div>
 			<h1>SLE 2018</h1>
 			<ul>
+              <li>Took place in Boston, USA</li>
               <li>Co-located with SPLASH (GPCE et al)</li>
               <li><a href="https://www.sleconf.org/2018/">Community website</a></li>
               <li><a href="https://conf.researchr.org/track/sle-2018/papers">Conference website</a></li>
@@ -222,7 +223,7 @@
 <li><a href="../profile/FriedrichSteimann.html">Friedrich Steimann</a> (<a href="https://conf.researchr.org/committee/sle-2018/sle-2018-papers-organizing-committee">Programme Chair</a>)</li>
 <li><a href="../profile/AnyaHeleneBagge.html">Anya Helene Bagge</a> (<a href="https://conf.researchr.org/committee/sle-2018/sle-2018-papers-program-committee">PC</a>)</li>
 <li><a href="../profile/AndrewBlack.html">Andrew Black</a> (<a href="https://conf.researchr.org/committee/sle-2018/sle-2018-papers-program-committee">PC</a>)</li>
-<li><span title="Distinguished Reviewer Award at SLE 2018">🏆</span> <a href="../profile/ErwanBousse.html">Erwan Bousse</a> (<a href="https://conf.researchr.org/committee/sle-2018/sle-2018-papers-program-committee">PC</a>)</li>
+<li><a href="https://www.sleconf.org/2018/Awards.html"><span title="Distinguished Reviewer Award">🏆</span></a> <a href="../profile/ErwanBousse.html">Erwan Bousse</a> (<a href="https://conf.researchr.org/committee/sle-2018/sle-2018-papers-program-committee">PC</a>)</li>
 <li><a href="../profile/MarcoBrambilla.html">Marco Brambilla</a> (<a href="https://conf.researchr.org/committee/sle-2018/sle-2018-papers-program-committee">PC</a>)</li>
 <li><a href="../profile/RuthBreu.html">Ruth Breu</a> (<a href="https://conf.researchr.org/committee/sle-2018/sle-2018-papers-program-committee">PC</a>)</li>
 <li><a href="../profile/WalterCazzola.html">Walter Cazzola</a> (<a href="https://conf.researchr.org/committee/sle-2018/sle-2018-papers-program-committee">PC</a>)</li>
@@ -271,6 +272,14 @@
 <li><a href="../profile/LuísEduardodeSouzaAmorim.html">Luís Eduardo de Souza Amorim</a> (<a href="https://conf.researchr.org/committee/sle-2018/papers-artifact-evaluation-committee">AEC</a>)</li>
 <li><a href="../profile/RominaEramo.html">Romina Eramo</a> (<a href="https://conf.researchr.org/committee/sle-2018/sle-2018-papers-organizing-committee">Artefact Evaluation Chair</a>)</li>
 <li><a href="../profile/MatthewRoberts.html">Matthew Roberts</a> (<a href="https://conf.researchr.org/committee/sle-2018/sle-2018-papers-organizing-committee">Artefact Evaluation Chair</a>)</li>
+<li><a href="../profile/FabienCoulon.html">Fabien Coulon</a> (<a href="https://www.sleconf.org/2018/Awards.html">Distinguished Vision Paper Award</a>)</li>
+<li><a href="../profile/ThomasDegueule.html">Thomas Degueule</a> (<a href="https://www.sleconf.org/2018/Awards.html">Distinguished Vision Paper Award</a>)</li>
+<li><a href="../profile/TijsvanderStorm.html">Tijs van der Storm</a> (<a href="https://www.sleconf.org/2018/Awards.html">Distinguished Vision Paper Award</a>)</li>
+<li><a href="../profile/BenoîtCombemale.html">Benoît Combemale</a> (<a href="https://www.sleconf.org/2018/Awards.html">Distinguished Vision Paper Award</a>)</li>
+<li><a href="../profile/JuandeLara.html">Juan de Lara</a> (<a href="https://www.sleconf.org/2018/Awards.html">Distinguished Research Paper Award</a>)</li>
+<li><a href="../profile/EstherGuerra.html">Esther Guerra</a> (<a href="https://www.sleconf.org/2018/Awards.html">Distinguished Research Paper Award</a>)</li>
+<li><a href="../profile/JörgKienzle.html">Jörg Kienzle</a> (<a href="https://www.sleconf.org/2018/Awards.html">Distinguished Research Paper Award</a>)</li>
+<li><a href="../profile/YanisHattab.html">Yanis Hattab</a> (<a href="https://www.sleconf.org/2018/Awards.html">Distinguished Research Paper Award</a>)</li>
 </ul>
 		<clear/>
 		<footer/>

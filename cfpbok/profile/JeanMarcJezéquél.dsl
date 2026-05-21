@@ -16,6 +16,14 @@
 				<a href="../sle2015/paper01.html" title="paper">⭐</a>
 			</figcaption>
 		</figure>
+		<figure class="small">
+			<a href="../sle2025/index.html"><img src="../sle.png" alt="SLE 2025"></a>
+			<figcaption>
+				<a href="../sle2025/index.html">SLE 2025</a>
+				<br>
+				<a href="https://conf.researchr.org/home/sle-2025#most-influential-paper-award" title="Most Influential SLE 2015 Paper Award">🏆</a>
+			</figcaption>
+		</figure>
 
 		<clear/>
 		<h2>Summary</h2>
@@ -36,11 +44,12 @@
 				<li><a href="ArnaudBlouin.html"><span class="info">Arnaud Blouin</span></a> (<span class="info">1</span> times)</li>
 			</ul>
 		</li>
-<li>Made <span class="info">1</span> contributions (see below)</li></ul>
+<li>Made <span class="info">2</span> contributions (see below)</li></ul>
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2015/index.html">SLE 2015</a>)</span> <em>Coauthored <a href="../sle2015/paper01.html">Melange: a meta-language for modular and reusable development of DSLs</a></em> (<a href="../profile/ThomasDegueule.html">Thomas Degueule</a>, <a href="../profile/BenoîtCombemale.html">Benoît Combemale</a>, <a href="../profile/ArnaudBlouin.html">Arnaud Blouin</a>, <a href="../profile/OlivierBarais.html">Olivier Barais</a>, <a href="../profile/JeanMarcJezéquél.html"><span class="info">Jean-Marc Jezéquél</span></a>) </li></ul>
+<li><span class="info">(<a href="../sle2015/index.html">SLE 2015</a>)</span> <em>Coauthored <a href="../sle2015/paper01.html">Melange: a meta-language for modular and reusable development of DSLs</a></em> (<a href="../profile/ThomasDegueule.html">Thomas Degueule</a>, <a href="../profile/BenoîtCombemale.html">Benoît Combemale</a>, <a href="../profile/ArnaudBlouin.html">Arnaud Blouin</a>, <a href="../profile/OlivierBarais.html">Olivier Barais</a>, <a href="../profile/JeanMarcJezéquél.html"><span class="info">Jean-Marc Jezéquél</span></a>) </li>
+<li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> Received the <a href="https://conf.researchr.org/home/sle-2025#most-influential-paper-award">Most Influential Paper Award</a> of <a href="../sle2015/index.html">SLE 2015</a></li></ul>
 		<clear/>
 		<footer/>
 	</body>

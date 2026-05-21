@@ -1,11 +1,6 @@
-body
-{
-	font-family: Verdana, sans-serif;
-	color: #660000;
-	background-color: #FFCC99;
-}
+body {font-family: Verdana, sans-serif; color: #660000; background-color: #FFCC99;}
 .last {text-align: right; font-size: smaller;}
-figure img {border-radius: 20px;}
+figure img {border-radius: 15px; max-height: 125px;}
 figure.small img {max-height: 75px;}
 figure.dim img {filter: grayscale(75%);}
 figure.sem img {filter: brightness(2);}
@@ -13,7 +8,7 @@ figure.small figcaption {font-size: smaller;}
 figcaption a {text-decoration: none;}
 figure {text-align: center; font-weight: bold; float: left; margin: 10px;}
 .dim {opacity: 0.3;}
-a:link, a:visited{color:#6633ff;}
+a:link, a:visited {color: #6633ff;}
 .term {background-color: #FFFF99;}
 .tag, .tag a {vertical-align: super; font-size: smaller; color: #669900; font-weight: bolder; text-decoration: none;}
 .tagM, .tagL {background-color: #FFFF99; color: #669900;}
@@ -22,7 +17,7 @@ a:has(.tagL), a:has(.tagM) {text-decoration: none;}
 .tagM {font-weight: bolder;}
 .tagL {font-size: smaller;}
 ul.lop li .tagM, ul.lop li .tagL {margin-right: 1em;}
-dt {float: left; clear: left; margin-right: 10px; font-weight: bold; padding-left:3em;}
+dt {float: left; clear: left; margin-right: 10px; font-weight: bold; padding-left: 3em;}
 dd {margin-left: 0px; text-decoration: none;}
 .info {color: #CC0000; font-weight: bolder;}
 .less {font-weight: normal; font-size: smaller;}
@@ -30,11 +25,11 @@ dd {margin-left: 0px; text-decoration: none;}
 .right {float: right; text-align: center;}
 h1 img {max-width: 30px; vertical-align: middle;}
 tbody a {text-decoration: none;}
-table { margin: 0 auto; border-collapse: collapse; font-size: smaller;}
-tr { border: none; }
-td, th { border-right: solid 1px #333; border-left: solid 1px #333; }
-th { border-bottom: solid 2px #333; max-width: 13em;}
-th:first-child, td:first-child { border-left: 0px; }
-th:last-child, td:last-child { border-right: 0px; }
-td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }
-th { background-color: #cc9966; }
+table {margin: 0 auto; border-collapse: collapse; font-size: smaller;}
+tr {border: none;}
+td, th {border-right: solid 1px #333; border-left: solid 1px #333;}
+th {border-bottom: solid 2px #333; max-width: 13em;}
+th: first-child, td: first-child {border-left: 0px;}
+th: last-child, td: last-child {border-right: 0px;}
+td {padding: 8px; text-align: left; border-bottom: 1px solid #ddd;}
+th {background-color: #cc9966;}

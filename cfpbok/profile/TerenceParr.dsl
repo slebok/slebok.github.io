@@ -33,6 +33,7 @@
 				<br>
 				<a href="../sle2016/paper13.html" title="paper">⭐</a>
 <a href="https://conf.researchr.org/committee/sle-2016/sle-2016-papers-program-committee" title="PC">🔍</a>
+<a href="https://www.sleconf.org/2016/Awards.html" title="Distinguished Paper Award">🏆</a>
 			</figcaption>
 		</figure>
 		<figure class="small">
@@ -61,13 +62,14 @@
 				<li><a href="JurgenVinju.html"><span class="info">Jurgen Vinju</span></a> (<span class="info">1</span> times)</li>
 			</ul>
 		</li>
-<li>Made <span class="info">5</span> contributions (see below)</li></ul>
+<li>Made <span class="info">6</span> contributions (see below)</li></ul>
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2009/index.html">SLE 2009</a>)</span> Wrote a <a href="https://www.pragprog.com/titles/tpdsl/language-implementation-patterns/">Book</a></li>
+<li><span class="info">(<a href="../sle2009/index.html">SLE 2009</a>)</span> Wrote  <a href="https://www.pragprog.com/titles/tpdsl/language-implementation-patterns/"><i>Language Implementation Patterns</i></a></li>
 <li><span class="info">(<a href="../sle2015/index.html">SLE 2015</a>)</span> Served on <a href="https://2015.splashcon.org/committee/sle2015-papers-program-committee">PC</a></li>
 <li><span class="info">(<a href="../sle2016/index.html">SLE 2016</a>)</span> <em>Coauthored <a href="../sle2016/paper13.html">Towards a Universal Code Formatter through Machine Learning</a></em> (<a href="../profile/TerenceParr.html"><span class="info">Terence Parr</span></a>, <a href="../profile/JurgenVinju.html">Jurgen Vinju</a>) </li>
+<li><span class="info">(<a href="../sle2016/index.html">SLE 2016</a>)</span> Received <a href="https://www.sleconf.org/2016/Awards.html">Distinguished Paper Award</a></li>
 <li><span class="info">(<a href="../sle2016/index.html">SLE 2016</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2016/sle-2016-papers-program-committee">PC</a></li>
 <li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2017/sle-2017-sle-2017-organizing-committee">PC</a></li></ul>
 		<clear/>

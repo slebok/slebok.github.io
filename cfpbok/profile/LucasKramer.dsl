@@ -11,6 +11,7 @@
 				<a href="../sle2020/index.html">SLE 2020</a>
 				<br>
 				<a href="../sle2020/paper19.html" title="paper">⭐</a>
+<a href="https://www.sleconf.org/2020/Awards.html" title="Distinguished Paper Award">🏆</a>
 			</figcaption>
 		</figure>
 		<figure class="small">
@@ -41,11 +42,12 @@
 				<li><a href="NathanRingo.html"><span class="info">Nathan Ringo</span></a> (<span class="info">1</span> times)</li>
 			</ul>
 		</li>
-<li>Made <span class="info">3</span> contributions (see below)</li></ul>
+<li>Made <span class="info">4</span> contributions (see below)</li></ul>
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
 <li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> <em>Coauthored <a href="../sle2020/paper19.html">Strategic Tree Rewriting in Attribute Grammars</a></em> (<a href="../profile/LucasKramer.html"><span class="info">Lucas Kramer</span></a>, <a href="../profile/EricVanWyk.html">Eric Van Wyk</a>) </li>
+<li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> Received <a href="https://www.sleconf.org/2020/Awards.html">Distinguished Paper Award</a></li>
 <li><span class="info">(<a href="../sle2023/index.html">SLE 2023</a>)</span> <em>Coauthored <a href="../sle2023/paper05.html">Sharing Trees and Contextual Information: Re-imagining Forwarding in Attribute Grammars</a></em> (<a href="../profile/LucasKramer.html"><span class="info">Lucas Kramer</span></a>, <a href="../profile/EricVanWyk.html">Eric Van Wyk</a>) </li>
 <li><span class="info">(<a href="../sle2023/index.html">SLE 2023</a>)</span> <em>Coauthored <a href="../sle2023/paper06.html">Nanopass Attribute Grammars</a></em> (<a href="../profile/NathanRingo.html">Nathan Ringo</a>, <a href="../profile/LucasKramer.html"><span class="info">Lucas Kramer</span></a>, <a href="../profile/EricVanWyk.html">Eric Van Wyk</a>) </li></ul>
 		<clear/>

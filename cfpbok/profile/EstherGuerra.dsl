@@ -56,6 +56,7 @@
 				<a href="../sle2018/paper15.html" title="paper">⭐</a>
 <a href="../sle2018/paper21.html" title="paper">⭐</a>
 <a href="https://conf.researchr.org/committee/sle-2018/sle-2018-papers-program-committee" title="PC">🔍</a>
+<a href="https://www.sleconf.org/2018/Awards.html" title="Distinguished Research Paper Award">🏆</a>
 			</figcaption>
 		</figure>
 		<figure class="small">
@@ -65,6 +66,8 @@
 				<br>
 				<a href="../sle2019/paper11.html" title="paper">⭐</a>
 <a href="https://conf.researchr.org/committee/sle-2019/sle-2019-papers-program-committee" title="PC">🔍</a>
+<a href="https://www.sleconf.org/2019/Awards.html" title="Distinguished Research Paper Award">🏆</a>
+<a href="https://www.sleconf.org/2019/Awards.html" title="Most Influential SLE 2008 Paper Award">🏆</a>
 			</figcaption>
 		</figure>
 		<figure class="small">
@@ -121,7 +124,7 @@
 				<li><a href="JoséEduardoRivera.html"><span class="info">José Eduardo Rivera</span></a> (<span class="info">1</span> times)</li>
 			</ul>
 		</li>
-<li>Made <span class="info">16</span> contributions (see below)</li></ul>
+<li>Made <span class="info">19</span> contributions (see below)</li></ul>
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
@@ -132,8 +135,11 @@
 <li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2017/sle-2017-sle-2017-organizing-committee">PC</a></li>
 <li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> <em>Coauthored <a href="../sle2018/paper15.html">Facet-oriented modelling: open objects for model-driven engineering</a></em> (<a href="../profile/JuandeLara.html">Juan de Lara</a>, <a href="../profile/EstherGuerra.html"><span class="info">Esther Guerra</span></a>, <a href="../profile/JörgKienzle.html">Jörg Kienzle</a>, <a href="../profile/YanisHattab.html">Yanis Hattab</a>) </li>
 <li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> <em>Coauthored <a href="../sle2018/paper21.html">Analysing meta-model product lines</a></em> (<a href="../profile/EstherGuerra.html"><span class="info">Esther Guerra</span></a>, <a href="../profile/JuandeLara.html">Juan de Lara</a>, <a href="../profile/MarshaChechik.html">Marsha Chechik</a>, <a href="../profile/RickSalay.html">Rick Salay</a>) </li>
+<li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> Received <a href="https://www.sleconf.org/2018/Awards.html">Distinguished Research Paper Award</a></li>
 <li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2018/sle-2018-papers-program-committee">PC</a></li>
 <li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> <em>Coauthored <a href="../sle2019/paper11.html">Domain-specific model differencing in visual concrete syntax</a></em> (<a href="../profile/ManouchehrZadahmad.html">Manouchehr Zadahmad</a>, <a href="../profile/EugeneSyriani.html">Eugene Syriani</a>, <a href="../profile/OmarAlam.html">Omar Alam</a>, <a href="../profile/EstherGuerra.html"><span class="info">Esther Guerra</span></a>, <a href="../profile/JuandeLara.html">Juan de Lara</a>) </li>
+<li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> Received <a href="https://www.sleconf.org/2019/Awards.html">Distinguished Research Paper Award</a></li>
+<li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> Received the <a href="https://www.sleconf.org/2019/Awards.html">Most Influential Paper Award</a> of <a href="../sle2008/index.html">SLE 2008</a></li>
 <li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2019/sle-2019-papers-program-committee">PC</a></li>
 <li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> <em>Coauthored <a href="../sle2021/paper01.html">New ideas: automated engineering of metamorphic testing environments for domain-specific languages</a></em> (<a href="../profile/PabloCCañizares.html">Pablo C. Cañizares</a>, <a href="../profile/PabloGómezAbajo.html">Pablo Gómez-Abajo</a>, <a href="../profile/AlbertoNúñez.html">Alberto Núñez</a>, <a href="../profile/EstherGuerra.html"><span class="info">Esther Guerra</span></a>, <a href="../profile/JuandeLara.html">Juan de Lara</a>) </li>
 <li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> <em>Coauthored <a href="../sle2021/paper08.html">Automating the synthesis of recommender systems for modelling languages</a></em> (<a href="../profile/LissetteAlmonte.html">Lissette Almonte</a>, <a href="../profile/SaraPérezSoler.html">Sara Pérez-Soler</a>, <a href="../profile/EstherGuerra.html"><span class="info">Esther Guerra</span></a>, <a href="../profile/IvánCantador.html">Iván Cantador</a>, <a href="../profile/JuandeLara.html">Juan de Lara</a>) </li>

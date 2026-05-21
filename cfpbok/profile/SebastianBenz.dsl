@@ -19,7 +19,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2013/index.html">SLE 2013</a>)</span> Wrote a <a href="https://amzn.to/43HVgq1">Book</a></li></ul>
+<li><span class="info">(<a href="../sle2013/index.html">SLE 2013</a>)</span> Wrote  <a href="https://amzn.to/43HVgq1"><i>DSL Engineering: Designing, Implementing and Using Domain-Specific Languages</i></a></li></ul>
 		<clear/>
 		<footer/>
 	</body>

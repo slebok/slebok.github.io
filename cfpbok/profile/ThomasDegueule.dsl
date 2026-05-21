@@ -42,6 +42,7 @@
 <a href="../sle2018/paper11.html" title="paper">⭐</a>
 <a href="../sle2018/paper17.html" title="paper">⭐</a>
 <a href="https://conf.researchr.org/committee/sle-2018/sle-2018-papers-program-committee" title="PC">🔍</a>
+<a href="https://www.sleconf.org/2018/Awards.html" title="Distinguished Vision Paper Award">🏆</a>
 			</figcaption>
 		</figure>
 		<figure class="small">
@@ -68,6 +69,14 @@
 				<a href="https://2024.splashcon.org/committee/sle-2024-program-committee" title="PC">🔍</a>
 			</figcaption>
 		</figure>
+		<figure class="small">
+			<a href="../sle2025/index.html"><img src="../sle.png" alt="SLE 2025"></a>
+			<figcaption>
+				<a href="../sle2025/index.html">SLE 2025</a>
+				<br>
+				<a href="https://conf.researchr.org/home/sle-2025#most-influential-paper-award" title="Most Influential SLE 2015 Paper Award">🏆</a>
+			</figcaption>
+		</figure>
 
 		<clear/>
 		<h2>Summary</h2>
@@ -88,7 +97,7 @@
 				<li><a href="ArnaudBlouin.html"><span class="info">Arnaud Blouin</span></a> (<span class="info">1</span> times)</li>
 			</ul>
 		</li>
-<li>Made <span class="info">11</span> contributions (see below)</li></ul>
+<li>Made <span class="info">13</span> contributions (see below)</li></ul>
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
@@ -99,10 +108,12 @@
 <li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> <em>Coauthored <a href="../sle2018/paper07.html">Shape-diverse DSLs: languages without borders (vision paper)</a></em> (<a href="../profile/FabienCoulon.html">Fabien Coulon</a>, <a href="../profile/ThomasDegueule.html"><span class="info">Thomas Degueule</span></a>, <a href="../profile/TijsvanderStorm.html">Tijs van der Storm</a>, <a href="../profile/BenoîtCombemale.html">Benoît Combemale</a>) </li>
 <li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> <em>Coauthored <a href="../sle2018/paper11.html">Constraint-based run-time state migration for live modeling</a></em> (<a href="../profile/UlyanaTikhonova.html">Ulyana Tikhonova</a>, <a href="../profile/JoukeStoel.html">Jouke Stoel</a>, <a href="../profile/TijsvanderStorm.html">Tijs van der Storm</a>, <a href="../profile/ThomasDegueule.html"><span class="info">Thomas Degueule</span></a>) </li>
 <li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> <em>Coauthored <a href="../sle2018/paper17.html">Modular language composition for the masses</a></em> (<a href="../profile/ManuelLeduc.html">Manuel Leduc</a>, <a href="../profile/ThomasDegueule.html"><span class="info">Thomas Degueule</span></a>, <a href="../profile/BenoîtCombemale.html">Benoît Combemale</a>) </li>
+<li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> Received <a href="https://www.sleconf.org/2018/Awards.html">Distinguished Vision Paper Award</a></li>
 <li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2018/sle-2018-papers-program-committee">PC</a></li>
 <li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2019/sle-2019-papers-program-committee">PC</a></li>
 <li><span class="info">(<a href="../sle2023/index.html">SLE 2023</a>)</span> Served as a <a href="https://2023.splashcon.org/committee/sle-2023-program-committee">Programme Chair</a></li>
-<li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> Served on <a href="https://2024.splashcon.org/committee/sle-2024-program-committee">PC</a></li></ul>
+<li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> Served on <a href="https://2024.splashcon.org/committee/sle-2024-program-committee">PC</a></li>
+<li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> Received the <a href="https://conf.researchr.org/home/sle-2025#most-influential-paper-award">Most Influential Paper Award</a> of <a href="../sle2015/index.html">SLE 2015</a></li></ul>
 		<clear/>
 		<footer/>
 	</body>

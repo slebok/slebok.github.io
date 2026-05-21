@@ -50,6 +50,14 @@
 			</figcaption>
 		</figure>
 		<figure class="small">
+			<a href="../sle2020/index.html"><img src="../sle.png" alt="SLE 2020"></a>
+			<figcaption>
+				<a href="../sle2020/index.html">SLE 2020</a>
+				<br>
+				<a href="https://www.sleconf.org/2020/Awards.html" title="Most Influential SLE 2010 Paper Award">🏆</a>
+			</figcaption>
+		</figure>
+		<figure class="small">
 			<a href="../sle2021/index.html"><img src="../sle.png" alt="SLE 2021"></a>
 			<figcaption>
 				<a href="../sle2021/index.html">SLE 2021</a>
@@ -85,7 +93,7 @@
 				<li><a href="AntonioCicchetti.html"><span class="info">Antonio Cicchetti</span></a> (<span class="info">1</span> times)</li>
 			</ul>
 		</li>
-<li>Made <span class="info">8</span> contributions (see below)</li></ul>
+<li>Made <span class="info">9</span> contributions (see below)</li></ul>
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
@@ -95,6 +103,7 @@
 <li><span class="info">(<a href="../sle2014/index.html">SLE 2014</a>)</span> Served on <a href="https://www.sleconf.org/2014/Committees.html">PC</a></li>
 <li><span class="info">(<a href="../sle2015/index.html">SLE 2015</a>)</span> Served as a <a href="https://2015.splashcon.org/committee/sle2015-organizing-committee">Programme Chair</a></li>
 <li><span class="info">(<a href="../sle2016/index.html">SLE 2016</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2016/sle-2016-papers-program-committee">PC</a></li>
+<li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> Received the <a href="https://www.sleconf.org/2020/Awards.html">Most Influential Paper Award</a> of <a href="../sle2010/index.html">SLE 2010</a></li>
 <li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2021/sle-2021-papers-program-committee">PC</a></li>
 <li><span class="info">(<a href="../sle2023/index.html">SLE 2023</a>)</span> Served on <a href="https://2023.splashcon.org/committee/sle-2023-program-committee">PC</a></li></ul>
 		<clear/>

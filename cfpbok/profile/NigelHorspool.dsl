@@ -32,7 +32,7 @@
 		<h2>List of contributions</h2>
 		<ul>
 <li><span class="info">(<a href="../sle2008/index.html">SLE 2008</a>)</span> Served on <a href="https://www.sleconf.org/2008/Committees.html">PC</a></li>
-<li><span class="info">(<a href="../sle2012/index.html">SLE 2012</a>)</span> Wrote a <a href="https://amzn.to/3FSQrAY">Book</a></li></ul>
+<li><span class="info">(<a href="../sle2012/index.html">SLE 2012</a>)</span> Wrote  <a href="https://amzn.to/3FSQrAY"><i>Patterns, Programming and Everything</i></a></li></ul>
 		<clear/>
 		<footer/>
 	</body>

@@ -12,6 +12,7 @@
 				<a href="../sle2015/index.html">SLE 2015</a>
 				<br>
 				<a href="../sle2015/paper09.html" title="paper">⭐</a>
+<a href="https://www.sleconf.org/2015/Papers" title="Best Presentation Award">🏆</a>
 			</figcaption>
 		</figure>
 
@@ -32,11 +33,12 @@
 				<li><a href="SebastianErdweg.html"><span class="info">Sebastian Erdweg</span></a> (<span class="info">1</span> times)</li>
 			</ul>
 		</li>
-<li>Made <span class="info">1</span> contributions (see below)</li></ul>
+<li>Made <span class="info">2</span> contributions (see below)</li></ul>
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2015/index.html">SLE 2015</a>)</span> <em>Coauthored <a href="../sle2015/paper09.html">Modular capture avoidance for program transformations</a></em> (<a href="../profile/NicoRitschel.html"><span class="info">Nico Ritschel</span></a>, <a href="../profile/SebastianErdweg.html">Sebastian Erdweg</a>) </li></ul>
+<li><span class="info">(<a href="../sle2015/index.html">SLE 2015</a>)</span> <em>Coauthored <a href="../sle2015/paper09.html">Modular capture avoidance for program transformations</a></em> (<a href="../profile/NicoRitschel.html"><span class="info">Nico Ritschel</span></a>, <a href="../profile/SebastianErdweg.html">Sebastian Erdweg</a>) </li>
+<li><span class="info">(<a href="../sle2015/index.html">SLE 2015</a>)</span> Received <a href="https://www.sleconf.org/2015/Papers">Best Presentation Award</a></li></ul>
 		<clear/>
 		<footer/>
 	</body>

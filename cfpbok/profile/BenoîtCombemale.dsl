@@ -87,6 +87,7 @@
 				<a href="../sle2018/paper02.html" title="paper">⭐</a>
 <a href="../sle2018/paper07.html" title="paper">⭐</a>
 <a href="../sle2018/paper17.html" title="paper">⭐</a>
+<a href="https://www.sleconf.org/2018/Awards.html" title="Distinguished Vision Paper Award">🏆</a>
 			</figcaption>
 		</figure>
 		<figure class="small">
@@ -141,6 +142,14 @@
 <a href="https://2024.splashcon.org/committee/sle-2024-program-committee" title="PC">🔍</a>
 			</figcaption>
 		</figure>
+		<figure class="small">
+			<a href="../sle2025/index.html"><img src="../sle.png" alt="SLE 2025"></a>
+			<figcaption>
+				<a href="../sle2025/index.html">SLE 2025</a>
+				<br>
+				<a href="https://conf.researchr.org/home/sle-2025#most-influential-paper-award" title="Most Influential SLE 2015 Paper Award">🏆</a>
+			</figcaption>
+		</figure>
 
 		<clear/>
 		<h2>Summary</h2>
@@ -161,7 +170,7 @@
 				<li><a href="BenoîtBaudry.html"><span class="info">Benoît Baudry</span></a> (<span class="info">3</span> times)</li>
 			</ul>
 		</li>
-<li>Made <span class="info">26</span> contributions (see below)</li></ul>
+<li>Made <span class="info">28</span> contributions (see below)</li></ul>
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
@@ -176,11 +185,12 @@
 <li><span class="info">(<a href="../sle2015/index.html">SLE 2015</a>)</span> Served on <a href="https://2015.splashcon.org/committee/sle2015-papers-program-committee">PC</a></li>
 <li><span class="info">(<a href="../sle2016/index.html">SLE 2016</a>)</span> <em>Coauthored <a href="../sle2016/paper08.html">Execution Framework of the GEMOC Studio (Tool Demo)</a></em> (<a href="../profile/ErwanBousse.html">Erwan Bousse</a>, <a href="../profile/ThomasDegueule.html">Thomas Degueule</a>, <a href="../profile/DidierVojtisek.html">Didier Vojtisek</a>, <a href="../profile/TanjaMayerhofer.html">Tanja Mayerhofer</a>, <a href="../profile/JulienDeAntoni.html">Julien DeAntoni</a>, <a href="../profile/BenoîtCombemale.html"><span class="info">Benoît Combemale</span></a>) </li>
 <li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> Served as a <a href="https://conf.researchr.org/committee/sle-2017/sle-2017-papers-organizing-committee">General Chair</a></li>
-<li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> Wrote a <a href="http://amzn.to/2n8yz6y">Book</a></li>
+<li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> Wrote  <a href="http://amzn.to/2n8yz6y"><i>Engineering Modeling Languages</i></a></li>
 <li><span class="info">(<a href="../sle2017s/index.html">SLE 2017 SI</a>)</span> Served as an <a href="sle2017s/index.html">Editor</a></li>
 <li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> <em>Coauthored <a href="../sle2018/paper02.html">Fostering metamodels and grammars within a dedicated environment for HPC: the NabLab environment (tool demo)</a></em> (<a href="../profile/BenoîtLelandais.html">Benoît Lelandais</a>, <a href="../profile/MariePierreOudot.html">Marie-Pierre Oudot</a>, <a href="../profile/BenoîtCombemale.html"><span class="info">Benoît Combemale</span></a>) </li>
 <li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> <em>Coauthored <a href="../sle2018/paper07.html">Shape-diverse DSLs: languages without borders (vision paper)</a></em> (<a href="../profile/FabienCoulon.html">Fabien Coulon</a>, <a href="../profile/ThomasDegueule.html">Thomas Degueule</a>, <a href="../profile/TijsvanderStorm.html">Tijs van der Storm</a>, <a href="../profile/BenoîtCombemale.html"><span class="info">Benoît Combemale</span></a>) </li>
 <li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> <em>Coauthored <a href="../sle2018/paper17.html">Modular language composition for the masses</a></em> (<a href="../profile/ManuelLeduc.html">Manuel Leduc</a>, <a href="../profile/ThomasDegueule.html">Thomas Degueule</a>, <a href="../profile/BenoîtCombemale.html"><span class="info">Benoît Combemale</span></a>) </li>
+<li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> Received <a href="https://www.sleconf.org/2018/Awards.html">Distinguished Vision Paper Award</a></li>
 <li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> <em>Coauthored <a href="../sle2019/paper16.html">From DSL specification to interactive computer programming environment</a></em> (<a href="../profile/PierreJeanjean.html">Pierre Jeanjean</a>, <a href="../profile/BenoîtCombemale.html"><span class="info">Benoît Combemale</span></a>, <a href="../profile/OlivierBarais.html">Olivier Barais</a>) </li>
 <li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> <em>Coauthored <a href="../sle2020/paper07.html">Modular and Distributed IDE</a></em> (<a href="../profile/FabienCoulon.html">Fabien Coulon</a>, <a href="../profile/AlexAuvolat.html">Alex Auvolat</a>, <a href="../profile/BenoîtCombemale.html"><span class="info">Benoît Combemale</span></a>, <a href="../profile/YéromDavidBromberg.html">Yérom-David Bromberg</a>, <a href="../profile/FrançoisTaïani.html">François Taïani</a>, <a href="../profile/OlivierBarais.html">Olivier Barais</a>, <a href="../profile/NoëlPlouzeau.html">Noël Plouzeau</a>) </li>
 <li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> <em>Coauthored <a href="../sle2021/paper10.html">Monilogging for executable domain-specific languages</a></em> (<a href="../profile/DorianLeroy.html">Dorian Leroy</a>, <a href="../profile/BenoîtLelandais.html">Benoît Lelandais</a>, <a href="../profile/MariePierreOudot.html">Marie-Pierre Oudot</a>, <a href="../profile/BenoîtCombemale.html"><span class="info">Benoît Combemale</span></a>) </li>
@@ -190,7 +200,8 @@
 <li><span class="info">(<a href="../sle2023/index.html">SLE 2023</a>)</span> <em>Coauthored <a href="../sle2023/paper03.html">Adaptive Structural Operational Semantics</a></em> (<a href="../profile/GwendalJouneaux.html">Gwendal Jouneaux</a>, <a href="../profile/DamianFrölich.html">Damian Frölich</a>, <a href="../profile/OlivierBarais.html">Olivier Barais</a>, <a href="../profile/BenoîtCombemale.html"><span class="info">Benoît Combemale</span></a>, <a href="../profile/GurvanLeGuernic.html">Gurvan Le Guernic</a>, <a href="../profile/GunterMussbacher.html">Gunter Mussbacher</a>, <a href="../profile/LThomasvanBinsbergen.html">L. Thomas van Binsbergen</a>) </li>
 <li><span class="info">(<a href="../sle2023/index.html">SLE 2023</a>)</span> <em>Coauthored <a href="../sle2023/paper20.html">Practical Runtime Instrumentation of Software Languages: The Case of SciHook</a></em> (<a href="../profile/DorianLeroy.html">Dorian Leroy</a>, <a href="../profile/BenoîtCombemale.html"><span class="info">Benoît Combemale</span></a>, <a href="../profile/BenoîtLelandais.html">Benoît Lelandais</a>, <a href="../profile/MariePierreOudot.html">Marie-Pierre Oudot</a>) </li>
 <li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> <em>Authored <a href="../sle2024/keynote1.html">There Is Only One Time in Software (Language) Engineering!</a></em> (<a href="../profile/BenoîtCombemale.html"><span class="info">Benoît Combemale</span></a>) </li>
-<li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> Served on <a href="https://2024.splashcon.org/committee/sle-2024-program-committee">PC</a></li></ul>
+<li><span class="info">(<a href="../sle2024/index.html">SLE 2024</a>)</span> Served on <a href="https://2024.splashcon.org/committee/sle-2024-program-committee">PC</a></li>
+<li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> Received the <a href="https://conf.researchr.org/home/sle-2025#most-influential-paper-award">Most Influential Paper Award</a> of <a href="../sle2015/index.html">SLE 2015</a></li></ul>
 		<clear/>
 		<footer/>
 	</body>

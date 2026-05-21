@@ -15,6 +15,14 @@
 				<a href="../sle2008/paper03.html" title="paper">⭐</a>
 			</figcaption>
 		</figure>
+		<figure class="small">
+			<a href="../sle2019/index.html"><img src="../sle.png" alt="SLE 2019"></a>
+			<figcaption>
+				<a href="../sle2019/index.html">SLE 2019</a>
+				<br>
+				<a href="https://www.sleconf.org/2019/Awards.html" title="Most Influential SLE 2008 Paper Award">🏆</a>
+			</figcaption>
+		</figure>
 
 		<clear/>
 		<h2>Summary</h2>
@@ -35,11 +43,12 @@
 				<li><a href="AntonioVallecillo.html"><span class="info">Antonio Vallecillo</span></a> (<span class="info">1</span> times)</li>
 			</ul>
 		</li>
-<li>Made <span class="info">1</span> contributions (see below)</li></ul>
+<li>Made <span class="info">2</span> contributions (see below)</li></ul>
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2008/index.html">SLE 2008</a>)</span> <em>Coauthored <a href="../sle2008/paper03.html">Analyzing Rule-Based Behavioral Semantics of Visual Modeling Languages with Maude</a></em> (<a href="../profile/JoséEduardoRivera.html"><span class="info">José Eduardo Rivera</span></a>, <a href="../profile/EstherGuerra.html">Esther Guerra</a>, <a href="../profile/JuandeLara.html">Juan de Lara</a>, <a href="../profile/AntonioVallecillo.html">Antonio Vallecillo</a>) </li></ul>
+<li><span class="info">(<a href="../sle2008/index.html">SLE 2008</a>)</span> <em>Coauthored <a href="../sle2008/paper03.html">Analyzing Rule-Based Behavioral Semantics of Visual Modeling Languages with Maude</a></em> (<a href="../profile/JoséEduardoRivera.html"><span class="info">José Eduardo Rivera</span></a>, <a href="../profile/EstherGuerra.html">Esther Guerra</a>, <a href="../profile/JuandeLara.html">Juan de Lara</a>, <a href="../profile/AntonioVallecillo.html">Antonio Vallecillo</a>) </li>
+<li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> Received the <a href="https://www.sleconf.org/2019/Awards.html">Most Influential Paper Award</a> of <a href="../sle2008/index.html">SLE 2008</a></li></ul>
 		<clear/>
 		<footer/>
 	</body>

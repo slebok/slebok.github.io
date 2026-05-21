@@ -65,6 +65,14 @@
 				<a href="../sle2023/paper03.html" title="paper">⭐</a>
 			</figcaption>
 		</figure>
+		<figure class="small">
+			<a href="../sle2025/index.html"><img src="../sle.png" alt="SLE 2025"></a>
+			<figcaption>
+				<a href="../sle2025/index.html">SLE 2025</a>
+				<br>
+				<a href="https://conf.researchr.org/home/sle-2025#most-influential-paper-award" title="Most Influential SLE 2015 Paper Award">🏆</a>
+			</figcaption>
+		</figure>
 
 		<clear/>
 		<h2>Summary</h2>
@@ -85,7 +93,7 @@
 				<li><a href="GwendalJouneaux.html"><span class="info">Gwendal Jouneaux</span></a> (<span class="info">2</span> times)</li>
 			</ul>
 		</li>
-<li>Made <span class="info">8</span> contributions (see below)</li></ul>
+<li>Made <span class="info">9</span> contributions (see below)</li></ul>
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
@@ -96,7 +104,8 @@
 <li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2020/sle-2020-papers-program-committee">PC</a></li>
 <li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> <em>Coauthored <a href="../sle2021/paper11.html">SEALS: a framework for building self-adaptive virtual machines</a></em> (<a href="../profile/GwendalJouneaux.html">Gwendal Jouneaux</a>, <a href="../profile/OlivierBarais.html"><span class="info">Olivier Barais</span></a>, <a href="../profile/BenoîtCombemale.html">Benoît Combemale</a>, <a href="../profile/GunterMussbacher.html">Gunter Mussbacher</a>) </li>
 <li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em>Coauthored <a href="../sle2022/paper15.html">A Language-Parametric Approach to Exploratory Programming Environments</a></em> (<a href="../profile/LThomasvanBinsbergen.html">L. Thomas van Binsbergen</a>, <a href="../profile/DamianFrölich.html">Damian Frölich</a>, <a href="../profile/MauricioVeranoMerino.html">Mauricio Verano Merino</a>, <a href="../profile/JoeyLai.html">Joey Lai</a>, <a href="../profile/PierreJeanjean.html">Pierre Jeanjean</a>, <a href="../profile/TijsvanderStorm.html">Tijs van der Storm</a>, <a href="../profile/BenoîtCombemale.html">Benoît Combemale</a>, <a href="../profile/OlivierBarais.html"><span class="info">Olivier Barais</span></a>) </li>
-<li><span class="info">(<a href="../sle2023/index.html">SLE 2023</a>)</span> <em>Coauthored <a href="../sle2023/paper03.html">Adaptive Structural Operational Semantics</a></em> (<a href="../profile/GwendalJouneaux.html">Gwendal Jouneaux</a>, <a href="../profile/DamianFrölich.html">Damian Frölich</a>, <a href="../profile/OlivierBarais.html"><span class="info">Olivier Barais</span></a>, <a href="../profile/BenoîtCombemale.html">Benoît Combemale</a>, <a href="../profile/GurvanLeGuernic.html">Gurvan Le Guernic</a>, <a href="../profile/GunterMussbacher.html">Gunter Mussbacher</a>, <a href="../profile/LThomasvanBinsbergen.html">L. Thomas van Binsbergen</a>) </li></ul>
+<li><span class="info">(<a href="../sle2023/index.html">SLE 2023</a>)</span> <em>Coauthored <a href="../sle2023/paper03.html">Adaptive Structural Operational Semantics</a></em> (<a href="../profile/GwendalJouneaux.html">Gwendal Jouneaux</a>, <a href="../profile/DamianFrölich.html">Damian Frölich</a>, <a href="../profile/OlivierBarais.html"><span class="info">Olivier Barais</span></a>, <a href="../profile/BenoîtCombemale.html">Benoît Combemale</a>, <a href="../profile/GurvanLeGuernic.html">Gurvan Le Guernic</a>, <a href="../profile/GunterMussbacher.html">Gunter Mussbacher</a>, <a href="../profile/LThomasvanBinsbergen.html">L. Thomas van Binsbergen</a>) </li>
+<li><span class="info">(<a href="../sle2025/index.html">SLE 2025</a>)</span> Received the <a href="https://conf.researchr.org/home/sle-2025#most-influential-paper-award">Most Influential Paper Award</a> of <a href="../sle2015/index.html">SLE 2015</a></li></ul>
 		<clear/>
 		<footer/>
 	</body>

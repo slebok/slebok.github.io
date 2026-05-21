@@ -46,7 +46,7 @@
 		<h2>List of contributions</h2>
 		<ul>
 <li><span class="info">(<a href="../sle2008/index.html">SLE 2008</a>)</span> <em>Authored <a href="../sle2008/keynote1.html">The Field of Software Language Engineering</a></em> (<a href="../profile/AnnekeKleppe.html"><span class="info">Anneke Kleppe</span></a>) </li>
-<li><span class="info">(<a href="../sle2008/index.html">SLE 2008</a>)</span> Wrote a <a href="https://amzn.to/45TQVRP">Book</a></li>
+<li><span class="info">(<a href="../sle2008/index.html">SLE 2008</a>)</span> Wrote  <a href="https://amzn.to/45TQVRP"><i>Software Language Engineering: Creating Domain-Specific Languages Using Metamodels</i></a></li>
 <li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> <em>Coauthored <a href="../sle2022/paper03.html">Freon: An Open Web Native Language Workbench</a></em> (<a href="../profile/JosWarmer.html">Jos Warmer</a>, <a href="../profile/AnnekeKleppe.html"><span class="info">Anneke Kleppe</span></a>) </li></ul>
 		<clear/>
 		<footer/>

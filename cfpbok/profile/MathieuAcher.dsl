@@ -14,6 +14,14 @@
 				<a href="../sle2009/paper04.html" title="paper">⭐</a>
 			</figcaption>
 		</figure>
+		<figure class="small">
+			<a href="../sle2019/index.html"><img src="../sle.png" alt="SLE 2019"></a>
+			<figcaption>
+				<a href="../sle2019/index.html">SLE 2019</a>
+				<br>
+				<a href="https://www.sleconf.org/2019/Awards.html" title="Most Influential SLE 2009 Paper Award">🏆</a>
+			</figcaption>
+		</figure>
 
 		<clear/>
 		<h2>Summary</h2>
@@ -34,11 +42,12 @@
 				<li><a href="RobertBFrance.html"><span class="info">Robert B. France</span></a> (<span class="info">1</span> times)</li>
 			</ul>
 		</li>
-<li>Made <span class="info">1</span> contributions (see below)</li></ul>
+<li>Made <span class="info">2</span> contributions (see below)</li></ul>
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2009/index.html">SLE 2009</a>)</span> <em>Coauthored <a href="../sle2009/paper04.html">Composing Feature Models</a></em> (<a href="../profile/MathieuAcher.html"><span class="info">Mathieu Acher</span></a>, <a href="../profile/PhilippeCollet.html">Philippe Collet</a>, <a href="../profile/PhilippeLahire.html">Philippe Lahire</a>, <a href="../profile/RobertBFrance.html">Robert B. France</a>) </li></ul>
+<li><span class="info">(<a href="../sle2009/index.html">SLE 2009</a>)</span> <em>Coauthored <a href="../sle2009/paper04.html">Composing Feature Models</a></em> (<a href="../profile/MathieuAcher.html"><span class="info">Mathieu Acher</span></a>, <a href="../profile/PhilippeCollet.html">Philippe Collet</a>, <a href="../profile/PhilippeLahire.html">Philippe Lahire</a>, <a href="../profile/RobertBFrance.html">Robert B. France</a>) </li>
+<li><span class="info">(<a href="../sle2019/index.html">SLE 2019</a>)</span> Received the <a href="https://www.sleconf.org/2019/Awards.html">Most Influential Paper Award</a> of <a href="../sle2009/index.html">SLE 2009</a></li></ul>
 		<clear/>
 		<footer/>
 	</body>

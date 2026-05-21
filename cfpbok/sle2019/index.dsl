@@ -5,6 +5,7 @@
 		<div class="right"><a href="../index.html"><img src="../sle.png" alt="SLE 2019 logo"></a></div>
 			<h1>SLE 2019</h1>
 			<ul>
+              <li>Took place in Athens, Greece</li>
               <li>Co-located with SPLASH (GPCE et al)</li>
               <li><a href="https://www.sleconf.org/2019/">Community website</a></li>
               <li><a href="https://conf.researchr.org/home/sle-2019">Conference website</a></li>
@@ -225,7 +226,7 @@
 <li><a href="../profile/BernhardRumpe.html">Bernhard Rumpe</a> (<a href="https://conf.researchr.org/committee/sle-2019/sle-2019-papers-program-committee">PC</a>)</li>
 <li><a href="../profile/YannRégisGianas.html">Yann Régis-Gianas</a> (<a href="https://conf.researchr.org/committee/sle-2019/sle-2019-papers-program-committee">PC</a>)</li>
 <li><a href="../profile/MarkusSchordan.html">Markus Schordan</a> (<a href="https://conf.researchr.org/committee/sle-2019/sle-2019-papers-program-committee">PC</a>)</li>
-<li><span title="Distinguished Reviewer Award at SLE 2019">🏆</span> <a href="../profile/ElizabethScott.html">Elizabeth Scott</a> (<a href="https://conf.researchr.org/committee/sle-2019/sle-2019-papers-program-committee">PC</a>)</li>
+<li><a href="https://www.sleconf.org/2019/Awards.html"><span title="Distinguished Reviewer Award">🏆</span></a> <a href="../profile/ElizabethScott.html">Elizabeth Scott</a> (<a href="https://conf.researchr.org/committee/sle-2019/sle-2019-papers-program-committee">PC</a>)</li>
 <li><a href="../profile/NeilSculthorpe.html">Neil Sculthorpe</a> (<a href="https://conf.researchr.org/committee/sle-2019/sle-2019-papers-program-committee">PC</a>)</li>
 <li><a href="../profile/MarcoServetto.html">Marco Servetto</a> (<a href="https://conf.researchr.org/committee/sle-2019/sle-2019-papers-program-committee">PC</a>)</li>
 <li><a href="../profile/EugeneSyriani.html">Eugene Syriani</a> (<a href="https://conf.researchr.org/committee/sle-2019/sle-2019-papers-program-committee">PC</a>)</li>
@@ -252,6 +253,22 @@
 <li><a href="../profile/JesperÖqvist.html">Jesper Öqvist</a> (<a href="https://conf.researchr.org/committee/sle-2019/sle-2019-papers-artifact-evaluation-committee">AEC</a>)</li>
 <li><a href="../profile/EmmaSöderberg.html">Emma Söderberg</a> (<a href="https://conf.researchr.org/committee/sle-2019/sle-2019-papers-organizing-committee">Artefact Evaluation Chair</a>)</li>
 <li><a href="../profile/AbelGómez.html">Abel Gómez</a> (<a href="https://conf.researchr.org/committee/sle-2019/sle-2019-papers-organizing-committee">Artefact Evaluation Chair</a>)</li>
+<li><a href="../profile/MoeketsiRaselimo.html">Moeketsi Raselimo</a> (<a href="https://www.sleconf.org/2019/Awards.html">Distinguished Vision Paper Award</a>)</li>
+<li><a href="../profile/JanTaljaard.html">Jan Taljaard</a> (<a href="https://www.sleconf.org/2019/Awards.html">Distinguished Vision Paper Award</a>)</li>
+<li><a href="../profile/BerndFischer.html">Bernd Fischer</a> (<a href="https://www.sleconf.org/2019/Awards.html">Distinguished Vision Paper Award</a>)</li>
+<li><a href="../profile/ManouchehrZadahmad.html">Manouchehr Zadahmad</a> (<a href="https://www.sleconf.org/2019/Awards.html">Distinguished Research Paper Award</a>)</li>
+<li><a href="../profile/EugeneSyriani.html">Eugene Syriani</a> (<a href="https://www.sleconf.org/2019/Awards.html">Distinguished Research Paper Award</a>)</li>
+<li><a href="../profile/OmarAlam.html">Omar Alam</a> (<a href="https://www.sleconf.org/2019/Awards.html">Distinguished Research Paper Award</a>)</li>
+<li><a href="../profile/EstherGuerra.html">Esther Guerra</a> (<a href="https://www.sleconf.org/2019/Awards.html">Distinguished Research Paper Award</a>)</li>
+<li><a href="../profile/JuandeLara.html">Juan de Lara</a> (<a href="https://www.sleconf.org/2019/Awards.html">Distinguished Research Paper Award</a>)</li>
+<li><a href="../profile/JoséEduardoRivera.html">José Eduardo Rivera</a> (<a href="https://www.sleconf.org/2019/Awards.html">Most Influential SLE 2008 Paper Award</a>)</li>
+<li><a href="../profile/EstherGuerra.html">Esther Guerra</a> (<a href="https://www.sleconf.org/2019/Awards.html">Most Influential SLE 2008 Paper Award</a>)</li>
+<li><a href="../profile/JuandeLara.html">Juan de Lara</a> (<a href="https://www.sleconf.org/2019/Awards.html">Most Influential SLE 2008 Paper Award</a>)</li>
+<li><a href="../profile/AntonioVallecillo.html">Antonio Vallecillo</a> (<a href="https://www.sleconf.org/2019/Awards.html">Most Influential SLE 2008 Paper Award</a>)</li>
+<li><a href="../profile/MathieuAcher.html">Mathieu Acher</a> (<a href="https://www.sleconf.org/2019/Awards.html">Most Influential SLE 2009 Paper Award</a>)</li>
+<li><a href="../profile/PhilippeCollet.html">Philippe Collet</a> (<a href="https://www.sleconf.org/2019/Awards.html">Most Influential SLE 2009 Paper Award</a>)</li>
+<li><a href="../profile/PhilippeLahire.html">Philippe Lahire</a> (<a href="https://www.sleconf.org/2019/Awards.html">Most Influential SLE 2009 Paper Award</a>)</li>
+<li><a href="../profile/RobertBFrance.html">Robert B. France</a> (<a href="https://www.sleconf.org/2019/Awards.html">Most Influential SLE 2009 Paper Award</a>)</li>
 </ul>
 		<clear/>
 		<footer/>

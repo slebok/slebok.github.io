@@ -12,6 +12,7 @@
 				<a href="../sle2017/index.html">SLE 2017</a>
 				<br>
 				<a href="../sle2017/paper16.html" title="paper">⭐</a>
+<a href="https://www.sleconf.org/2017/Awards.html" title="Distinguished Paper Award">🏆</a>
 			</figcaption>
 		</figure>
 
@@ -32,11 +33,12 @@
 				<li><a href="MatthewFlatt.html"><span class="info">Matthew Flatt</span></a> (<span class="info">1</span> times)</li>
 			</ul>
 		</li>
-<li>Made <span class="info">1</span> contributions (see below)</li></ul>
+<li>Made <span class="info">2</span> contributions (see below)</li></ul>
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> <em>Coauthored <a href="../sle2017/paper16.html">Debugging with domain-specific events via macros</a></em> (<a href="../profile/XiangqiLi.html"><span class="info">Xiangqi Li</span></a>, <a href="../profile/MatthewFlatt.html">Matthew Flatt</a>) </li></ul>
+<li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> <em>Coauthored <a href="../sle2017/paper16.html">Debugging with domain-specific events via macros</a></em> (<a href="../profile/XiangqiLi.html"><span class="info">Xiangqi Li</span></a>, <a href="../profile/MatthewFlatt.html">Matthew Flatt</a>) </li>
+<li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> Received <a href="https://www.sleconf.org/2017/Awards.html">Distinguished Paper Award</a></li></ul>
 		<clear/>
 		<footer/>
 	</body>

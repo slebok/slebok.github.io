@@ -19,7 +19,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> Wrote a <a href="https://amzn.to/4dXgUtE">Book</a></li></ul>
+<li><span class="info">(<a href="../sle2010/index.html">SLE 2010</a>)</span> Wrote  <a href="https://amzn.to/4dXgUtE"><i>DSLs in Action</i></a></li></ul>
 		<clear/>
 		<footer/>
 	</body>

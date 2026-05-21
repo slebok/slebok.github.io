@@ -11,6 +11,7 @@
 				<a href="../sle2018/index.html">SLE 2018</a>
 				<br>
 				<a href="../sle2018/paper15.html" title="paper">⭐</a>
+<a href="https://www.sleconf.org/2018/Awards.html" title="Distinguished Research Paper Award">🏆</a>
 			</figcaption>
 		</figure>
 
@@ -32,11 +33,12 @@
 				<li><a href="JörgKienzle.html"><span class="info">Jörg Kienzle</span></a> (<span class="info">1</span> times)</li>
 			</ul>
 		</li>
-<li>Made <span class="info">1</span> contributions (see below)</li></ul>
+<li>Made <span class="info">2</span> contributions (see below)</li></ul>
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> <em>Coauthored <a href="../sle2018/paper15.html">Facet-oriented modelling: open objects for model-driven engineering</a></em> (<a href="../profile/JuandeLara.html">Juan de Lara</a>, <a href="../profile/EstherGuerra.html">Esther Guerra</a>, <a href="../profile/JörgKienzle.html">Jörg Kienzle</a>, <a href="../profile/YanisHattab.html"><span class="info">Yanis Hattab</span></a>) </li></ul>
+<li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> <em>Coauthored <a href="../sle2018/paper15.html">Facet-oriented modelling: open objects for model-driven engineering</a></em> (<a href="../profile/JuandeLara.html">Juan de Lara</a>, <a href="../profile/EstherGuerra.html">Esther Guerra</a>, <a href="../profile/JörgKienzle.html">Jörg Kienzle</a>, <a href="../profile/YanisHattab.html"><span class="info">Yanis Hattab</span></a>) </li>
+<li><span class="info">(<a href="../sle2018/index.html">SLE 2018</a>)</span> Received <a href="https://www.sleconf.org/2018/Awards.html">Distinguished Research Paper Award</a></li></ul>
 		<clear/>
 		<footer/>
 	</body>

@@ -5,6 +5,7 @@
 		<div class="right"><a href="../index.html"><img src="../sle.png" alt="SLE 2025 logo"></a></div>
 			<h1>SLE 2025</h1>
 			<ul>
+              <li>Took place in Koblenz, Germany</li>
               <li>Co-located with STAF (EMCFA, ICGT, OOPSLE et al)</li>
               <li><a href="https://www.sleconf.org/2025/">Community website</a></li>
               <li><a href="https://conf.researchr.org/home/sle-2025">Conference website</a></li>
@@ -263,6 +264,15 @@
 <li><a href="../profile/UlyanaTikhonova.html">Ulyana Tikhonova</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc">PC</a>)</li>
 <li><a href="../profile/MassimoTisi.html">Massimo Tisi</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc">PC</a>)</li>
 <li><a href="../profile/DánielVarró.html">Dániel Varró</a> (<a href="https://conf.researchr.org/committee/sle-2025/sle-2025-pc">PC</a>)</li>
+<li><a href="../profile/ThomasDegueule.html">Thomas Degueule</a> (<a href="https://conf.researchr.org/home/sle-2025#most-influential-paper-award">Most Influential SLE 2015 Paper Award</a>)</li>
+<li><a href="../profile/BenoîtCombemale.html">Benoît Combemale</a> (<a href="https://conf.researchr.org/home/sle-2025#most-influential-paper-award">Most Influential SLE 2015 Paper Award</a>)</li>
+<li><a href="../profile/ArnaudBlouin.html">Arnaud Blouin</a> (<a href="https://conf.researchr.org/home/sle-2025#most-influential-paper-award">Most Influential SLE 2015 Paper Award</a>)</li>
+<li><a href="../profile/OlivierBarais.html">Olivier Barais</a> (<a href="https://conf.researchr.org/home/sle-2025#most-influential-paper-award">Most Influential SLE 2015 Paper Award</a>)</li>
+<li><a href="../profile/JeanMarcJezéquél.html">Jean-Marc Jezéquél</a> (<a href="https://conf.researchr.org/home/sle-2025#most-influential-paper-award">Most Influential SLE 2015 Paper Award</a>)</li>
+<li><a href="../profile/PhilippRiemer.html">Philipp Riemer</a> (<a href="https://conf.researchr.org/home/sle-2025#distinguished-research-paper-award">Distinguished Research Paper Award</a>)</li>
+<li><a href="../profile/YuryNikulin.html">Yury Nikulin</a> (<a href="https://conf.researchr.org/home/sle-2025#distinguished-research-paper-award">Distinguished Research Paper Award</a>)</li>
+<li><a href="../profile/AshleyClaymore.html">Ashley Claymore</a> (<a href="https://conf.researchr.org/home/sle-2025#distinguished-research-paper-award">Distinguished Research Paper Award</a>)</li>
+<li><a href="../profile/MikhailBarash.html">Mikhail Barash</a> (<a href="https://conf.researchr.org/home/sle-2025#distinguished-research-paper-award">Distinguished Research Paper Award</a>)</li>
 </ul>
 		<clear/>
 		<footer/>

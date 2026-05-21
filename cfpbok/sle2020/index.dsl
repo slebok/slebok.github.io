@@ -5,6 +5,7 @@
 		<div class="right"><a href="../index.html"><img src="../sle.png" alt="SLE 2020 logo"></a></div>
 			<h1>SLE 2020</h1>
 			<ul>
+              <li>Took place online as a virtual event</li>
               <li><a href="https://www.sleconf.org/2020/">Community website</a></li>
               <li><a href="https://conf.researchr.org/home/sle-2020">Conference website</a></li>
               <li>Virtually co-located with SPLASH (GPCE, SAS et al)</li>
@@ -244,7 +245,7 @@
 <li><a href="../profile/TijsvanderStorm.html">Tijs van der Storm</a> (<a href="https://conf.researchr.org/committee/sle-2020/sle-2020-papers-program-committee">PC</a>)</li>
 <li><a href="../profile/EugeneSyriani.html">Eugene Syriani</a> (<a href="https://conf.researchr.org/committee/sle-2020/sle-2020-papers-program-committee">PC</a>)</li>
 <li><a href="../profile/JesúsSánchezCuadrado.html">Jesús Sánchez Cuadrado</a> (<a href="https://conf.researchr.org/committee/sle-2020/sle-2020-papers-program-committee">PC</a>)</li>
-<li><span title="Distinguished Reviewer Award at SLE 2020">🏆</span> <a href="../profile/EricVanWyk.html">Eric Van Wyk</a> (<a href="https://conf.researchr.org/committee/sle-2020/sle-2020-papers-program-committee">PC</a>)</li>
+<li><a href="https://www.sleconf.org/2020/Awards.html"><span title="Distinguished Reviewer Award">🏆</span></a> <a href="../profile/EricVanWyk.html">Eric Van Wyk</a> (<a href="https://conf.researchr.org/committee/sle-2020/sle-2020-papers-program-committee">PC</a>)</li>
 <li><a href="../profile/MarkusVölter.html">Markus Völter</a> (<a href="https://conf.researchr.org/committee/sle-2020/sle-2020-papers-program-committee">PC</a>)</li>
 <li><a href="../profile/VadimZaytsev.html">Vadim Zaytsev</a> (<a href="https://conf.researchr.org/committee/sle-2020/sle-2020-papers-program-committee">PC</a>)</li>
 <li><a href="../profile/UweZdun.html">Uwe Zdun</a> (<a href="https://conf.researchr.org/committee/sle-2020/sle-2020-papers-program-committee">PC</a>)</li>
@@ -263,6 +264,15 @@
 <li><a href="../profile/AlfaYohannis.html">Alfa Yohannis</a> (<a href="https://conf.researchr.org/committee/sle-2020/sle-2020-papers-artifact-evaluation-committee">AEC</a>)</li>
 <li><a href="../profile/AntonioGarciaDominguez.html">Antonio Garcia-Dominguez</a> (<a href="https://conf.researchr.org/committee/sle-2020/sle-2020-papers-organizing-committee">Artefact Evaluation Chair</a>)</li>
 <li><a href="../profile/LukasDiekmann.html">Lukas Diekmann</a> (<a href="https://conf.researchr.org/committee/sle-2020/sle-2020-papers-organizing-committee">Artefact Evaluation Chair</a>)</li>
+<li><a href="../profile/SteffenZschaler.html">Steffen Zschaler</a> (<a href="https://www.sleconf.org/2020/Awards.html">Distinguished Short Paper Award</a>)</li>
+<li><a href="../profile/FionaPolack.html">Fiona Polack</a> (<a href="https://www.sleconf.org/2020/Awards.html">Distinguished Short Paper Award</a>)</li>
+<li><a href="../profile/VadimZaytsev.html">Vadim Zaytsev</a> (<a href="https://www.sleconf.org/2020/Awards.html">IFIP TC2 Manfred Paul Award</a>)</li>
+<li><a href="../profile/LucasKramer.html">Lucas Kramer</a> (<a href="https://www.sleconf.org/2020/Awards.html">Distinguished Paper Award</a>)</li>
+<li><a href="https://www.sleconf.org/2020/Awards.html"><span title="Distinguished Reviewer Award">🏆</span></a> <a href="../profile/EricVanWyk.html">Eric Van Wyk</a> (<a href="https://www.sleconf.org/2020/Awards.html">Distinguished Paper Award</a>)</li>
+<li><a href="../profile/AntonioCicchetti.html">Antonio Cicchetti</a> (<a href="https://www.sleconf.org/2020/Awards.html">Most Influential SLE 2010 Paper Award</a>)</li>
+<li><a href="../profile/DavideDiRuscio.html">Davide Di Ruscio</a> (<a href="https://www.sleconf.org/2020/Awards.html">Most Influential SLE 2010 Paper Award</a>)</li>
+<li><a href="../profile/RominaEramo.html">Romina Eramo</a> (<a href="https://www.sleconf.org/2020/Awards.html">Most Influential SLE 2010 Paper Award</a>)</li>
+<li><a href="../profile/AlfonsoPierantonio.html">Alfonso Pierantonio</a> (<a href="https://www.sleconf.org/2020/Awards.html">Most Influential SLE 2010 Paper Award</a>)</li>
 </ul>
 		<clear/>
 		<footer/>

@@ -11,6 +11,7 @@
 				<a href="../sle2015/index.html">SLE 2015</a>
 				<br>
 				<a href="../sle2015/paper08.html" title="paper">⭐</a>
+<a href="https://www.sleconf.org/2015/Papers" title="Distinguished Research Paper Award">🏆</a>
 			</figcaption>
 		</figure>
 
@@ -32,11 +33,12 @@
 				<li><a href="AlfonsoPierantonio.html"><span class="info">Alfonso Pierantonio</span></a> (<span class="info">1</span> times)</li>
 			</ul>
 		</li>
-<li>Made <span class="info">1</span> contributions (see below)</li></ul>
+<li>Made <span class="info">2</span> contributions (see below)</li></ul>
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2015/index.html">SLE 2015</a>)</span> <em>Coauthored <a href="../sle2015/paper08.html">Managing uncertainty in bidirectional model transformations</a></em> (<a href="../profile/RominaEramo.html">Romina Eramo</a>, <a href="../profile/AlfonsoPierantonio.html">Alfonso Pierantonio</a>, <a href="../profile/GianniRosa.html"><span class="info">Gianni Rosa</span></a>) </li></ul>
+<li><span class="info">(<a href="../sle2015/index.html">SLE 2015</a>)</span> <em>Coauthored <a href="../sle2015/paper08.html">Managing uncertainty in bidirectional model transformations</a></em> (<a href="../profile/RominaEramo.html">Romina Eramo</a>, <a href="../profile/AlfonsoPierantonio.html">Alfonso Pierantonio</a>, <a href="../profile/GianniRosa.html"><span class="info">Gianni Rosa</span></a>) </li>
+<li><span class="info">(<a href="../sle2015/index.html">SLE 2015</a>)</span> Received <a href="https://www.sleconf.org/2015/Papers">Distinguished Research Paper Award</a></li></ul>
 		<clear/>
 		<footer/>
 	</body>

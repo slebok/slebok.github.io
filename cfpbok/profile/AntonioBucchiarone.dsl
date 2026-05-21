@@ -19,7 +19,7 @@
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
-<li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> Wrote a <a href="https://doi.org/10.1007/978-3-030-73758-0">Book</a></li></ul>
+<li><span class="info">(<a href="../sle2021/index.html">SLE 2021</a>)</span> Wrote  <a href="https://doi.org/10.1007/978-3-030-73758-0"><i>Domain-Specific Languages in Practice</i></a></li></ul>
 		<clear/>
 		<footer/>
 	</body>

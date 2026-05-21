@@ -106,7 +106,9 @@
 				<br>
 				<a href="../sle2020/paper19.html" title="paper">⭐</a>
 <a href="../sle2020/paper21.html" title="paper">⭐</a>
+<a href="https://www.sleconf.org/2020/Awards.html" title="Distinguished Reviewer Award">🏆</a>
 <a href="https://conf.researchr.org/committee/sle-2020/sle-2020-papers-program-committee" title="PC">🔍</a>
+<a href="https://www.sleconf.org/2020/Awards.html" title="Distinguished Paper Award">🏆</a>
 			</figcaption>
 		</figure>
 		<figure class="small">
@@ -138,7 +140,7 @@
 		<clear/>
 		<h2>Summary</h2>
 		<ul>
-<li><a href="https://www.sleconf.org/2020/Awards.html">Distinguished Reviewer Award at SLE 2020</a></li>
+
 		<li><span class="info">12</span> papers in <span class="info">9</span> bundles</li>
 				<li>Top 3 popular topics:
 			<ul>
@@ -154,7 +156,7 @@
 				<li><a href="LijeshKrishnan.html"><span class="info">Lijesh Krishnan</span></a> (<span class="info">2</span> times)</li>
 			</ul>
 		</li>
-<li>Made <span class="info">23</span> contributions (see below)</li></ul>
+<li>Made <span class="info">25</span> contributions (see below)</li></ul>
 		<clear/>
 		<h2>List of contributions</h2>
 		<ul>
@@ -176,6 +178,8 @@
 <li><span class="info">(<a href="../sle2017/index.html">SLE 2017</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2017/sle-2017-sle-2017-organizing-committee">PC</a></li>
 <li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> <em>Coauthored <a href="../sle2020/paper19.html">Strategic Tree Rewriting in Attribute Grammars</a></em> (<a href="../profile/LucasKramer.html">Lucas Kramer</a>, <a href="../profile/EricVanWyk.html"><span class="info">Eric Van Wyk</span></a>) </li>
 <li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> <em>Coauthored <a href="../sle2020/paper21.html">Monadification of Attribute Grammars</a></em> (<a href="../profile/DawnMichaelson.html">Dawn Michaelson</a>, <a href="../profile/EricVanWyk.html"><span class="info">Eric Van Wyk</span></a>) </li>
+<li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> Received <a href="https://www.sleconf.org/2020/Awards.html">Distinguished Paper Award</a></li>
+<li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> Selected as a <a href="https://www.sleconf.org/2020/Awards.html">Distinguished Reviewer</a></li>
 <li><span class="info">(<a href="../sle2020/index.html">SLE 2020</a>)</span> Served on <a href="https://conf.researchr.org/committee/sle-2020/sle-2020-papers-program-committee">PC</a></li>
 <li><span class="info">(<a href="../sle2022/index.html">SLE 2022</a>)</span> Served on <a href="https://2022.splashcon.org/committee/sle-2022-program-committee">PC</a></li>
 <li><span class="info">(<a href="../sle2023/index.html">SLE 2023</a>)</span> <em>Coauthored <a href="../sle2023/paper05.html">Sharing Trees and Contextual Information: Re-imagining Forwarding in Attribute Grammars</a></em> (<a href="../profile/LucasKramer.html">Lucas Kramer</a>, <a href="../profile/EricVanWyk.html"><span class="info">Eric Van Wyk</span></a>) </li>
