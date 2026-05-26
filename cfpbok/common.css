@@ -17,6 +17,7 @@ a:has(.tagL), a:has(.tagM) {text-decoration: none;}
 .tagM {font-weight: bolder;}
 .tagL {font-size: smaller;}
 ul.lop li .tagM, ul.lop li .tagL {margin-right: 1em;}
+ul.mcl {column-width: 18rem;}
 dt {float: left; clear: left; margin-right: 10px; font-weight: bold; padding-left: 3em;}
 dd {margin-left: 0px; text-decoration: none;}
 .info {color: #CC0000; font-weight: bolder;}
