@@ -247,7 +247,7 @@
             <li><strong><code>GO TO</code> </strong>terminates all currently executing <strong><code>LOOP</code> </strong>statements</li>
             <li><strong><code>GO TO</code> </strong>terminates the currently executing <strong><code>PERFORM THROUGH</code> </strong>directive if its target is outside of the executing scope
                 <ul>
-                    <li><a href="perform-goto.html">see a special example program</a></li>
+                    <li><a href="code/perform-goto.html">see a special example program</a></li>
                 </ul>
             </li>
         </ul>
