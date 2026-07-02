@@ -5,6 +5,7 @@
 		<img src="www/slebok.200.png" style="width:200px;height:200px;" class="flr" />
 		<h1>SLEBoK (Software Language Engineering Body of Knowledge)</h1>
 		<h2 style="text-align:center">
+			<a href="cfpbok">CfPs</a> •
 			<a href="events">Events</a> •
 			<a href="stories">Stories</a> •
 			<a href="projects">Projects</a> •

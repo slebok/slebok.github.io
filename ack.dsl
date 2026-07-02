@@ -35,15 +35,25 @@
 					<li><a href="http://www.softlang.org/book">Software Languages: Syntax, Semantics, and Metaprogramming</a> (“The Software Languages Book”)</li>
 				</ul>
 			</li>
-			<li><a href="http://grammarware.net">Vadim Zaytsev</a> was a participant/speaker at all SLEBOK-related events, as well as the co-founder of the OOPSLE workshop and the founder of other related projects.
+			<li><a href="http://grammarware.net">Vadim Zaytsev</a> was a participant/speaker at all SLEBOK-related events, as well as the (co)founder of the OOPSLE workshop and other related projects.
 				<ul>
-					<li><a href="http://grammarware.github.io">List of projects and artefacts</a></li>
-					<li><a href="https://slebok.github.io/proverb/">Program Verification Book (ProVerB)</a></li>
-					<li><a href="https://slebok.github.io/dyol">Design Your Own Language (DYOL)</a></li>
-					<li><a href="http://oopsle.github.io">Open and Original Problems in Software Language Engineering (OOPSLE)</a></li>
-					<li><a href="http://bibtex.github.io">Bibliography of Software Language Engineering in Generated Hypertext (BibSLEIGH)</a></li>
+					<li><a href="http://grammarware.github.io">List of students and projects</a></li>
+					<li><a href="http://circus.github.io">Portfolio of artefacts</a></li>
+					<li>
+						<a href="http://cfpbok.github.io" title="Software Language Engineering Body of Knowledge, CfP edition">CfPBoK</a>
+					•
+						<a href="http://bibtex.github.io" title="Bibliography of Software Language Engineering in Generated Hypertext">BibSLEIGH</a>
+					•
+						<a href="http://circus.github.io/tip" title="Taxonomy of Inconsistency Patterns in Multi-View Modelling ">TIP</a>
+					•
+						<a href="https://slebok.github.io/proverb/" title="Program Verification Book">ProVerB</a>
+					•
+						<a href="https://slebok.github.io/dyol" title="Design Your Own Language">DYOL</a>
+					•
+						<a href="https://slebok.github.io/sleg" title="SLE Glossary of Terms">SLEG</a>
+					</li>
 					<li><a href="https://slebok.github.io/zoo">Grammar Zoo</a></li>
-					<li><a href="https://slebok.github.io/sleg">SLE Glossary of Terms</a></li>
+					<li><a href="http://oopsle.github.io">Open and Original Problems in Software Language Engineering (OOPSLE)</a></li>
 					<li><a href="http://grammarware.net/talks/index.html#Subatomic2012">Subatomic Scientific Knowledge Objects</a> (SL(E)BOK 2012 invited talk)</li>
 				</ul>
 			</li>
@@ -57,7 +67,7 @@
 			<li><a href="http://homepages.cwi.nl/~storm/">Tijs van der Storm</a> participated in many discussions on the topic and proposed the notion of language design smells, that laid the foundation for GraSs.
 				<ul>
 					<li><a href="https://event.cwi.nl/pem/2012/2012-02-24-van-der-Storm.txt">Language Design Smells</a> (SEM Colloquium talk)</li>
-					<li><a href="grass/">GraSs: A Taxonomy of Grammar Smells</a></li>
+					<li>cf. <a href="grass/">GraSs: A Taxonomy of Grammar Smells</a></li>
 				</ul>
 			</li>
 			<li><a href="https://github.com/stil4m">Mats Stijlaart</a> was a Master student with a graduate thesis on the topic of grammar smells.

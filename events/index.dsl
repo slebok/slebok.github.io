@@ -14,6 +14,13 @@
 		<picdir>../www</picdir>
 		<divclass>tile</divclass>
 		<pic>
+			<a>https://conf.researchr.org/home/sle-2026</a>
+			<img>sle.200.png</img>
+			<title>19th International Conference on Software Language Engineering (conference)</title>
+			<name>SLE’26</name>
+			<text>a conference on software languages, held with STAF</text>
+		</pic>
+		<pic>
 			<a>https://mleworkshop.github.io/editions/mle2025/</a>
 			<img>mle.200.png</img>
 			<title>Seventh International Workshop on Modeling Language Engineering and Execution (workshop)</title>
